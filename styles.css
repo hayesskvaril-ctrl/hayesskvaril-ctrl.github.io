@@ -1219,3 +1219,13 @@ details[open] summary { margin-bottom: 10px; }
 #tol-builder select.tol-l2 { border-color: rgba(251, 191, 36, 0.55); }
 #tol-builder select.tol-l3 { border-color: rgba(251, 146, 60, 0.75); }
 #tol-builder select.tol-l4 { border-color: rgba(248, 113, 113, 0.9); background: var(--red-soft); color: #fecaca; font-weight: 700; }
+
+/* Risk aggregation calculator */
+.agg-bars { margin: 14px 0 4px; display: grid; gap: 10px; }
+.agg-row { display: grid; grid-template-columns: minmax(0, 15em) 1fr auto; gap: 12px; align-items: center; font-size: 15px; }
+.agg-label { color: var(--text); }
+.agg-track { height: 14px; background: rgba(125, 211, 252, 0.06); border-radius: 4px; overflow: hidden; }
+.agg-bar { display: block; height: 100%; background: rgba(34, 211, 238, 0.45); border-radius: 0 4px 4px 0; }
+.agg-bar.agg-main { background: var(--cyan); }
+.agg-val { font-family: var(--font-mono); color: var(--heading); min-width: 5em; text-align: right; }
+@media (max-width: 560px) { .agg-row { grid-template-columns: 1fr auto; } .agg-track { grid-column: 1 / -1; grid-row: 2; } }

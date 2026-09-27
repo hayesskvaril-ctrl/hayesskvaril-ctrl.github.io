@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risk aggregation and correlation | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to building an enterprise risk profile: why risks can't simply be added, qualitative and quantitative aggregation, correlation and diversification, concentration and interdependency, with an interactive calculator.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/risk-aggregation-and-correlation.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Risk aggregation and correlation">
+<meta property="og:description" content="An advanced guide to building an enterprise risk profile: why risks can&#x27;t simply be added, qualitative and quantitative aggregation, correlation and diversification, concentration and interdependency, with an interactive calculator.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/risk-aggregation-and-correlation.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Risk aggregation and correlation</li></ol></nav>
+
+  <h1>Risk aggregation and correlation</h1>
+  <p class="summary">How hundreds of individual risks become one enterprise risk profile, and why the way risks move together matters as much as their size.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Boards need to see the organisation's total <a class="term" href="/glossary/#risk-profile">risk profile</a> against its <a class="term" href="/glossary/#risk-appetite">risk appetite</a>, not a list of 300 separate risks. Getting from one to the other is <strong>aggregation</strong>.</li>
+      <li>Heat-map scores can't be added or averaged: they are rankings, not measurements. Qualitative roll-ups need clear rules and judgement.</li>
+      <li>When risks are quantified, the total depends on <strong>correlation</strong>: how likely risks are to go wrong together. Simply adding them assumes they always do; assuming independence can badly understate the total.</li>
+      <li>Correlations tend to rise in a crisis, so "diversification benefits" can vanish exactly when they're needed.</li>
+      <li><strong>Concentration</strong> and <strong>interdependency</strong>, such as many critical operations relying on one provider, system or person, are often the biggest hidden aggregate risks.</li>
+    </ul>
+  </aside>
+
+  <h2>Why aggregation is hard</h2>
+  <p>A typical risk register contains hundreds of risks, owned by different teams and rated on a 5×5 matrix. Several problems arise when trying to sum them up:</p>
+  <ul>
+    <li><strong>Ratings are ordinal.</strong> A risk rated 16 is not "twice as bad" as one rated 8. Adding or averaging scores produces numbers that look precise but mean little.</li>
+    <li><strong>Different units.</strong> Operational risks might be rated for financial loss, compliance risks for regulatory impact, strategic risks for member outcomes.</li>
+    <li><strong>Overlap.</strong> The same underlying cause, such as an ageing administration system, appears in many risks under different names.</li>
+    <li><strong>Dependence.</strong> Risks that look separate may be triggered by the same event.</li>
+  </ul>
+
+  <h2>Qualitative aggregation: rolling up the taxonomy</h2>
+  <p>Most organisations aggregate qualitatively using their <a href="/risk-management/enterprise-risk-management.html">risk taxonomy</a>: detailed risks roll up into categories (for example, "technology risk"), which roll up into top-level risk types that match the risk appetite statement.</p>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 250" role="img" aria-labelledby="ag-title ag-desc">
+      <title id="ag-title">Rolling risks up through the taxonomy</title>
+      <desc id="ag-desc">Detailed risks at level 3 (for example, administration system outage, cyber intrusion, data quality errors, provider failure) roll up into level 2 categories (technology and data, third party), which roll up into a level 1 risk type (operational risk). At each level, a rule plus judgement produces a rating that is compared with the risk appetite for that risk type.</desc>
+      <g font-size="12.5" text-anchor="middle">
+        <rect x="250" y="10" width="220" height="50" rx="10" fill="#0f2942"/>
+        <text x="360" y="32" fill="#fff" font-weight="700">Level 1: Operational risk</text><text x="360" y="50" fill="#cbd8e8">compared with appetite</text>
+        <rect x="110" y="95" width="200" height="50" rx="10" fill="#1b3a5c"/>
+        <text x="210" y="117" fill="#fff" font-weight="700">Level 2: Technology and data</text><text x="210" y="135" fill="#cbd8e8">rule + judgement</text>
+        <rect x="410" y="95" width="200" height="50" rx="10" fill="#1b3a5c"/>
+        <text x="510" y="117" fill="#fff" font-weight="700">Level 2: Third party</text><text x="510" y="135" fill="#cbd8e8">rule + judgement</text>
+        <line x1="210" y1="95" x2="320" y2="60" stroke="#2563eb" stroke-width="2"/><line x1="510" y1="95" x2="400" y2="60" stroke="#2563eb" stroke-width="2"/>
+        <rect x="10" y="185" width="160" height="50" rx="10" fill="#e8f0fe" stroke="#93b4f5"/><text x="90" y="207" fill="#0f2942">System outage</text><text x="90" y="224" fill="#0f2942">(level 3)</text>
+        <rect x="185" y="185" width="160" height="50" rx="10" fill="#e8f0fe" stroke="#93b4f5"/><text x="265" y="207" fill="#0f2942">Cyber intrusion</text><text x="265" y="224" fill="#0f2942">(level 3)</text>
+        <rect x="375" y="185" width="160" height="50" rx="10" fill="#e8f0fe" stroke="#93b4f5"/><text x="455" y="207" fill="#0f2942">Data quality errors</text><text x="455" y="224" fill="#0f2942">(level 3)</text>
+        <rect x="550" y="185" width="160" height="50" rx="10" fill="#e8f0fe" stroke="#93b4f5"/><text x="630" y="207" fill="#0f2942">Provider failure</text><text x="630" y="224" fill="#0f2942">(level 3)</text>
+        <line x1="90" y1="185" x2="180" y2="145" stroke="#2563eb" stroke-width="2"/><line x1="265" y1="185" x2="230" y2="145" stroke="#2563eb" stroke-width="2"/>
+        <line x1="455" y1="185" x2="250" y2="145" stroke="#2563eb" stroke-width="2"/><line x1="630" y1="185" x2="530" y2="145" stroke="#2563eb" stroke-width="2"/>
+      </g>
+    </svg>
+    <figcaption>An illustrative three-level roll-up. Real taxonomies differ; the point is that each level needs a stated rule.</figcaption>
+  </figure>
+  <p>Common roll-up rules each have strengths and weaknesses:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Rule</th><th scope="col">How it works</th><th scope="col">Watch out for</th></tr></thead>
+      <tbody>
+        <tr><td>Worst-of</td><td>The category takes the rating of its highest-rated risk.</td><td>Simple and prudent, but hides whether one or twenty risks are high.</td></tr>
+        <tr><td>Count-based</td><td>Report the number of risks in each rating band, and outside appetite.</td><td>Transparent, but treats all risks as equal and can be gamed by splitting or merging risks.</td></tr>
+        <tr><td>Weighted</td><td>Weight each risk by importance and combine.</td><td>Looks rigorous, but depends on arbitrary weights and still does arithmetic on ordinal scores.</td></tr>
+        <tr><td>Judgement overlay</td><td>Risk owners and the risk function agree an overall rating, informed by the data and themes.</td><td>Captures interactions the rules miss, but needs challenge and a documented rationale.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>In practice, the most useful aggregate reports combine a transparent rule with a documented judgement overlay, and add <strong>thematic analysis</strong>: common root causes, shared controls that are failing, and trends across incidents, KRIs and audit findings.</p>
+
+  <h2>Quantitative aggregation and correlation</h2>
+  <p>Where risks are measured in dollars (for example, as a 1-in-100 year loss), the question becomes how to combine them. Three reference points help:</p>
+  <ul>
+    <li><strong>Simple sum:</strong> assumes all risks hit their bad outcome in the same year. This is the most conservative view (for most risk measures).</li>
+    <li><strong>Independence:</strong> assumes risks have nothing to do with each other. The total is much smaller than the sum, because bad years rarely coincide.</li>
+    <li><strong>Correlated:</strong> somewhere in between, depending on how strongly risks move together. The simplest method, the variance-covariance approach, combines standalone amounts using a correlation matrix. More sophisticated methods simulate risks jointly using dependence models called copulas.</li>
+  </ul>
+  <p>The difference between the simple sum and the combined figure is often called the <strong>diversification benefit</strong>. It is real in normal conditions, but it depends entirely on the correlation assumptions, which are hard to estimate for risks with little data.</p>
+
+  <div class="widget" id="agg-calc">
+    <h3>Try it: combine three risks</h3>
+    <div class="controls">
+      <div><label for="agg-a">Risk A: 1-in-100 year loss ($m)</label><input type="number" id="agg-a" value="10" min="0" step="1"></div>
+      <div><label for="agg-b">Risk B ($m)</label><input type="number" id="agg-b" value="6" min="0" step="1"></div>
+      <div><label for="agg-c">Risk C ($m)</label><input type="number" id="agg-c" value="4" min="0" step="1"></div>
+    </div>
+    <div class="controls">
+      <div><label for="agg-rab">Correlation A–B</label><select id="agg-rab"><option value="0">0</option><option value="0.25">0.25</option><option value="0.5" selected>0.5</option><option value="0.75">0.75</option><option value="1">1</option></select></div>
+      <div><label for="agg-rac">Correlation A–C</label><select id="agg-rac"><option value="0">0</option><option value="0.25" selected>0.25</option><option value="0.5">0.5</option><option value="0.75">0.75</option><option value="1">1</option></select></div>
+      <div><label for="agg-rbc">Correlation B–C</label><select id="agg-rbc"><option value="0">0</option><option value="0.25" selected>0.25</option><option value="0.5">0.5</option><option value="0.75">0.75</option><option value="1">1</option></select></div>
+    </div>
+    <div class="agg-bars" aria-hidden="true"></div>
+    <p class="result" aria-live="polite"></p>
+    <p class="small">Uses the variance-covariance formula: total = √(Σ Σ ρ<sub>ij</sub> × x<sub>i</sub> × x<sub>j</sub>). This is a teaching simplification: it is exact only for certain distributions, and real correlations are uncertain. Nothing you enter leaves your browser.</p>
+    <noscript><p>The calculator needs JavaScript. With the default values ($10m, $6m and $4m; correlations 0.5, 0.25 and 0.25), the combined figure is about $15.6m, compared with a simple sum of $20m.</p></noscript>
+  </div>
+
+  <h3>Correlations rise in a crisis</h3>
+  <p>Correlations estimated in normal times can understate how risks behave in a crisis. Research on share markets found that correlations between markets increase in bear markets (Longin and Solnik, 2001). More generally, a single correlation number can't capture "tail dependence", where risks are unrelated most of the time but fail together in extreme events (Embrechts, McNeil and Straumann, 2002). For operational risk, a single cyber attack, pandemic or provider failure can trigger losses across several risk types at once. Prudent practice is to stress correlation assumptions and to test combined scenarios directly. See <a href="/risk-management/scenario-analysis-and-stress-testing.html">Scenario analysis and stress testing</a>.</p>
+
+  <h2>Concentration and interdependency</h2>
+  <p>Some of the largest aggregate risks come not from many risks adding up but from many things depending on one thing:</p>
+  <ul>
+    <li><strong>Provider concentration:</strong> one administrator, cloud provider or custodian supporting several <a class="term" href="/glossary/#critical-operation">critical operations</a>, or several of your providers relying on the same <a class="term" href="/glossary/#fourth-party">fourth party</a>. CPS 230 requires entities to manage the risks of their material service providers, including concentration.</li>
+    <li><strong>Technology and data:</strong> a single core system, data store or identity platform whose failure would stop many processes.</li>
+    <li><strong>People:</strong> key person dependencies in specialist roles.</li>
+    <li><strong>Financial concentration:</strong> large exposures to one counterparty, sector, region or asset type. See <a class="term" href="/glossary/#concentration-risk">concentration risk</a>.</li>
+  </ul>
+  <p>The practical tool is <strong>dependency mapping</strong>: mapping each critical operation to the people, processes, technology, data and providers it relies on, then looking for the nodes that many operations share. Those shared nodes deserve their own risk assessment, controls and scenarios.</p>
+
+  <h2>Building the enterprise risk profile: a practical sequence</h2>
+  <ol>
+    <li><strong>Clean the inputs.</strong> Consistent taxonomy, rating scales and definitions across registers; remove duplicates.</li>
+    <li><strong>Roll up</strong> using stated rules, and record judgement overlays.</li>
+    <li><strong>Add the connectors:</strong> themes, root causes, shared dependencies and concentrations.</li>
+    <li><strong>Quantify where it helps,</strong> for material risks with enough data, stating the correlation assumptions.</li>
+    <li><strong>Stress the aggregate</strong> with combined scenarios.</li>
+    <li><strong>Compare with appetite</strong> for each top-level risk type, and explain the trend and the actions. See <span class="xref" data-href="/governance/board-risk-reporting.html">Board risk reporting design</span>.</li>
+  </ol>
+  <p>The Basel Committee's principles for risk data aggregation and reporting (BCBS 239) set out the data foundations large banks need for this: accurate, complete and timely risk data that can be aggregated quickly, including in a crisis. APRA's CPG 235 gives guidance on managing data risk.</p>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/enterprise-risk-management.html" data-label="Enterprise risk management"><a href="/risk-management/enterprise-risk-management.html">Enterprise risk management</a></li>
+      <li data-href="/risk-management/quantitative-operational-risk.html" data-label="Quantitative operational risk"><a href="/risk-management/quantitative-operational-risk.html">Quantitative operational risk</a></li>
+      <li data-href="/risk-management/scenario-analysis-and-stress-testing.html" data-label="Scenario analysis and stress testing"><a href="/risk-management/scenario-analysis-and-stress-testing.html">Scenario analysis and stress testing</a></li>
+      <li data-href="/risk-management/third-party-risk.html" data-label="Third-party, vendor and outsourcing risk"><a href="/risk-management/third-party-risk.html">Third-party, vendor and outsourcing risk</a></li>
+      <li data-href="/risk-management/risk-assessment-methodologies.html" data-label="Risk assessment methodologies"><a href="/risk-management/risk-assessment-methodologies.html">Risk assessment methodologies</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/publ/bcbs239.htm">Principles for effective risk data aggregation and risk reporting</a> (BCBS 239, January 2013).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a>, <a href="https://www.apra.gov.au/standards/cps-230">CPS 230 Operational Risk Management</a> and <a href="https://www.apra.gov.au/practice-guides/cpg-235">CPG 235 Managing Data Risk</a>.</li>
+      <li>Longin, F. and Solnik, B. (2001), <a href="https://doi.org/10.1111/0022-1082.00340">Extreme correlation of international equity markets</a>, <em>The Journal of Finance</em>, 56(2), 649–676.</li>
+      <li>Embrechts, P., McNeil, A. and Straumann, D. (2002), Correlation and dependence in risk management: properties and pitfalls, in M. Dempster (ed.), <em>Risk Management: Value at Risk and Beyond</em>, Cambridge University Press, 176–223.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/aggregation-calc.js"></script>
+</body>
+</html>

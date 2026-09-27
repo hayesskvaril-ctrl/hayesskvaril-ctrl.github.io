@@ -138,7 +138,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Scenario analysis and stress testing **(Advanced)**: severe but plausible scenarios, reverse stress testing, links to CPS 230, CPS 190 and ICAAP, with a worked example
 - [x] Setting CPS 230 tolerance levels **(Advanced)**: method, data, maximum disruption and data-loss tolerances, worked examples for a super fund and a bank. Flag for Nick.
 - [x] Breach significance analysis in practice **(Advanced)**: case-based walkthroughs of the deemed-significance tests and factors, multi-regime reporting and documentation. Flag for Nick.
-- [ ] Risk aggregation and correlation **(Advanced)**: building the enterprise risk profile, concentration and interdependency
+- [x] Risk aggregation and correlation **(Advanced)**: building the enterprise risk profile, concentration and interdependency
 - [ ] Board risk reporting design **(Advanced)**: reporting risk profile against appetite, KRI dashboards, aggregation, what good board papers look like
 - [ ] Control testing sampling and assurance confidence **(Advanced)**: sample sizes, attribute testing, confidence and evidence standards. Flag for Nick.
 - [ ] Add an "Advanced" stage to learning pathways and Start here, and update the home page wording once these are live
