@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Model risk management | RiskLens Australia</title>
+<meta name="description" content="Model risk management explained: what counts as a model (including AI and actuarial models), where model risk comes from, the model inventory, tiering, independent validation and effective challenge, and regulatory expectations.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/model-risk.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Model risk management">
+<meta property="og:description" content="Model risk management explained: what counts as a model (including AI and actuarial models), where model risk comes from, the model inventory, tiering, independent validation and effective challenge, and regulatory expectations.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/model-risk.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Model risk management</li></ol></nav>
+
+  <h1>Model risk management</h1>
+  <p class="summary">How organisations manage the risk that the models they rely on for decisions, from credit scores to actuarial valuations and AI, are wrong or misused.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 12 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li><strong>Model risk</strong> is the risk of loss or harm from decisions based on models that are wrong or used inappropriately.</li>
+      <li>Models include statistical, actuarial and financial models, AI and machine learning, and complex spreadsheets.</li>
+      <li>The core controls are a complete <strong>model inventory</strong>, risk-based <strong>tiering</strong>, <strong>independent validation</strong>, <strong>effective challenge</strong>, and ongoing <strong>monitoring</strong>.</li>
+      <li>AI models need the same discipline plus attention to explainability, bias and drift.</li>
+      <li>International regulators have recently refreshed their guidance, and APRA's April 2026 AI letter raised expectations for AI models in Australia.</li>
+    </ul>
+  </aside>
+
+<h2>What counts as a model</h2>
+  <p>A <strong>model</strong> is a method that turns input data into estimates or outputs used to make decisions, using statistical, mathematical, financial, actuarial or machine learning techniques. In financial services, models are everywhere:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Area</th><th scope="col">Examples</th></tr></thead>
+      <tbody>
+        <tr><td>Credit</td><td>Credit scoring, probability of default and expected credit loss models.</td></tr>
+        <tr><td>Capital and liquidity</td><td>Internal ratings-based models, stress testing and liquidity forecasting.</td></tr>
+        <tr><td>Insurance</td><td>Pricing, reserving and claims liability valuations prepared by actuaries.</td></tr>
+        <tr><td>Superannuation and funds</td><td>Unit pricing and crediting rates, asset valuation of unlisted assets, retirement income projections and calculators.</td></tr>
+        <tr><td>Financial crime</td><td>Transaction monitoring, fraud detection and sanctions screening rules and scores.</td></tr>
+        <tr><td>AI and machine learning</td><td>Customer triage, document processing, chatbots and generative AI tools.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Complex spreadsheets and other "end-user computing" tools often act as models too, and are a frequent source of errors.</p>
+
+  <h2>Where model risk comes from</h2>
+  <ul>
+    <li><strong>The model is wrong:</strong> flawed design or assumptions, poor or unrepresentative data, coding or implementation errors.</li>
+    <li><strong>The model is used wrongly:</strong> used for a purpose, product or population it wasn't built for, or relied on without understanding its limitations.</li>
+    <li><strong>The world changes:</strong> a model that worked well stops working as conditions shift ("drift"), such as a credit model built before a sharp rise in interest rates.</li>
+  </ul>
+
+  <h2>A model risk management framework</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 230" role="img" aria-labelledby="mrm-title mrm-desc">
+      <title id="mrm-title">The model lifecycle and its controls</title>
+      <desc id="mrm-desc">Governance sits above the lifecycle: model risk policy, roles, a model inventory and risk tiering. The lifecycle has six stages: develop (documented design, data and assumptions); validate independently (conceptual soundness, data, outcomes analysis and effective challenge); approve for use with any limitations; implement and use within its approved purpose; monitor performance, overrides and drift; and change or retire under change control. Validation findings and monitoring feed back into development.</desc>
+      <defs><marker id="mrm-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="12.5" text-anchor="middle">
+        <rect x="10" y="10" width="700" height="46" rx="10" fill="#0f2942"/>
+        <text x="360" y="38" fill="#fff" font-weight="700">Governance: policy, roles, model inventory, risk tiering, reporting</text>
+        <rect x="10" y="74" width="108" height="96" rx="10" fill="#1b3a5c"/><text x="64" y="104" fill="#fff" font-weight="700">Develop</text><text x="64" y="126" fill="#cbd8e8">design, data,</text><text x="64" y="142" fill="#cbd8e8">documentation</text>
+        <rect x="128" y="74" width="108" height="96" rx="10" fill="#2563eb"/><text x="182" y="104" fill="#fff" font-weight="700">Validate</text><text x="182" y="126" fill="#e8f0fe">independent,</text><text x="182" y="142" fill="#e8f0fe">effective challenge</text>
+        <rect x="246" y="74" width="108" height="96" rx="10" fill="#1b3a5c"/><text x="300" y="104" fill="#fff" font-weight="700">Approve</text><text x="300" y="126" fill="#cbd8e8">use and</text><text x="300" y="142" fill="#cbd8e8">limitations</text>
+        <rect x="364" y="74" width="108" height="96" rx="10" fill="#1b3a5c"/><text x="418" y="104" fill="#fff" font-weight="700">Use</text><text x="418" y="126" fill="#cbd8e8">within approved</text><text x="418" y="142" fill="#cbd8e8">purpose</text>
+        <rect x="482" y="74" width="108" height="96" rx="10" fill="#2563eb"/><text x="536" y="104" fill="#fff" font-weight="700">Monitor</text><text x="536" y="126" fill="#e8f0fe">performance,</text><text x="536" y="142" fill="#e8f0fe">drift, overrides</text>
+        <rect x="600" y="74" width="110" height="96" rx="10" fill="#1b3a5c"/><text x="655" y="104" fill="#fff" font-weight="700">Change / retire</text><text x="655" y="126" fill="#cbd8e8">change control,</text><text x="655" y="142" fill="#cbd8e8">decommission</text>
+        <path d="M536,172 C536,215 64,215 64,174" fill="none" stroke="#2563eb" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#mrm-ar)"/>
+        <text x="300" y="222" fill="#0f2942" font-size="12">findings and monitoring feed back into redevelopment</text>
+      </g>
+    </svg>
+    <figcaption>A simplified model lifecycle, drawn from common regulatory principles.</figcaption>
+  </figure>
+  <ul>
+    <li><strong>Inventory:</strong> a complete list of models, their owners, purpose, tier, validation status and known limitations. You can't manage models you don't know about.</li>
+    <li><strong>Risk tiering:</strong> more material and complex models get more frequent and deeper validation (see the example below).</li>
+    <li><strong>Independent validation:</strong> by people not involved in building the model, testing conceptual soundness, data quality, implementation and outcomes (for example by backtesting predictions against what actually happened, and benchmarking against alternative models).</li>
+    <li><strong>Effective challenge:</strong> critical analysis by people with the competence, independence and authority to have their concerns acted on.</li>
+    <li><strong>Monitoring and change control:</strong> ongoing checks against performance thresholds, and controlled, validated changes.</li>
+  </ul>
+
+  <div class="callout example">
+    <h3>Example: a simple model tiering approach</h3>
+    <div class="table-wrap">
+      <table>
+        <caption>Illustrative only. Organisations set their own criteria.</caption>
+        <thead><tr><th scope="col">Tier</th><th scope="col">Typical characteristics</th><th scope="col">Typical validation</th></tr></thead>
+        <tbody>
+          <tr><td>Tier 1 (high)</td><td>Drives capital, pricing, member or customer outcomes or financial reporting; complex; large exposures.</td><td>Full independent validation before use and at least annually or every few years; ongoing monitoring reported to a model risk committee.</td></tr>
+          <tr><td>Tier 2 (medium)</td><td>Material but less complex, or used for internal decisions.</td><td>Independent review on a longer cycle; periodic performance monitoring.</td></tr>
+          <tr><td>Tier 3 (low)</td><td>Limited impact, simple, easy to check.</td><td>Owner review and inventory registration; spot checks.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2>AI and machine learning models</h2>
+  <p>AI models are models, and the same principles apply, but they bring extra challenges: they are harder to explain, can learn biases from data, may change as they are retrained, and are often supplied by third parties whose inner workings can't be inspected. Validation needs to cover fairness, robustness and explainability, and monitoring needs to be more frequent. See <a href="/governance/ai-governance.html">AI governance</a>.</p>
+
+  <h2>Regulatory expectations</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Source</th><th scope="col">Relevance</th></tr></thead>
+      <tbody>
+        <tr><td>APRA</td><td>APRA has no single model risk standard. Model requirements sit within specific standards, such as the capital standards for banks approved to use internal models and the actuarial requirements for insurers, and within <a href="/standards/cps-220.html">CPS 220</a> risk management and <a href="/standards/cps-230.html">CPS 230</a> operational risk. APRA's April 2026 letter on AI set specific expectations for AI-related risk.</td></tr>
+        <tr><td>United States</td><td>The long-standing SR 11-7 guidance, which popularised "effective challenge", was replaced by revised interagency guidance on model risk management in April 2026.</td></tr>
+        <tr><td>United Kingdom</td><td>The PRA's SS1/23, in effect since May 2024, sets five principles for banks: model identification and risk classification, governance, development and use, independent validation, and risk mitigants.</td></tr>
+        <tr><td>Canada</td><td>OSFI's revised Guideline E-23, taking effect in May 2027, expressly covers AI and machine learning models alongside traditional ones.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>International guidance is often used as a reference point by Australian institutions, particularly those with overseas operations.</p>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/governance/ai-governance.html" data-label="AI governance"><a href="/governance/ai-governance.html">AI governance</a></li>
+      <li data-href="/risk-management/quantitative-operational-risk.html" data-label="Quantitative operational risk"><a href="/risk-management/quantitative-operational-risk.html">Quantitative operational risk</a></li>
+      <li data-href="/risk-management/control-design-and-testing.html" data-label="Control design and testing"><a href="/risk-management/control-design-and-testing.html">Control design and testing</a></li>
+      <li data-href="/risk-management/credit-market-and-liquidity-risk.html" data-label="Credit, market and liquidity risk"><a href="/risk-management/credit-market-and-liquidity-risk.html">Credit, market and liquidity risk</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Board of Governors of the Federal Reserve System, <a href="https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm">SR 26-2 Revised Guidance on Model Risk Management</a> (April 2026).</li>
+      <li>Prudential Regulation Authority, <a href="https://www.bankofengland.co.uk/prudential-regulation/publication/2023/may/model-risk-management-principles-for-banks-ss">SS1/23 Model risk management principles for banks</a>.</li>
+      <li>Office of the Superintendent of Financial Institutions, <a href="https://www.osfi-bsif.gc.ca/en/news/backgrounder-guideline-e-23-model-risk-management">Backgrounder: Guideline E-23 Model Risk Management</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-calls-step-change-ai-related-risk-management-and-governance">APRA calls for a step-change in AI-related risk management and governance</a> (April 2026).</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+</body>
+</html>

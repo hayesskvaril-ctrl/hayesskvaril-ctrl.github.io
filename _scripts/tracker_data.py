@@ -43,6 +43,10 @@ ENTRIES = [
      ["bank", "insurer", "super"],
      "Plans for responding to severe financial stress and for an orderly exit if needed.",
      "/sectors/banking.html", ("APRA: CPS 190", "https://www.apra.gov.au/standards/cps-190")),
+    ("Letter to industry on artificial intelligence", "APRA", "Report or guidance", "Published 30 April 2026",
+     ["bank", "insurer", "super"],
+     "APRA called for a step-change in AI-related risk management, with expectations on cyber and information security, governance, supplier risk, and change management and assurance, including for AI agents.",
+     "/governance/ai-governance.html", ("APRA: step-change in AI-related risk management", "https://www.apra.gov.au/news-and-publications/apra-calls-step-change-ai-related-risk-management-and-governance")),
     # ---------------- APRA and ASIC
     ("Financial Accountability Regime simplification", "APRA and ASIC", "Proposed or consultation",
      "Announced June 2026; ASIC responsible manager evidence changes from October 2026; some changes need legislation",
