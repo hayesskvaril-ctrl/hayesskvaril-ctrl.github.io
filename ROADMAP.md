@@ -96,7 +96,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 
 - [x] Risk assessment template
 - [x] Incident report template
-- [ ] Breach register template
+- [x] Breach register template
 - [ ] Regulatory obligation checklists
 
 ## Phase 8 — News and updates (`/news/`)
