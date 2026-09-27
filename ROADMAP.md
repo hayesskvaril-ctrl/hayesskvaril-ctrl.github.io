@@ -41,7 +41,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Credit, market and liquidity risk (basics)
 - [x] Incident and breach management
 - [x] Business continuity
-- [ ] Third-party / vendor / outsourcing risk
+- [x] Third-party / vendor / outsourcing risk
 
 ## Phase 2 — Compliance pillar (`/compliance/`)
 
@@ -119,3 +119,11 @@ One plain-English explainer per instrument, covering "what it actually requires 
 ## Ideas / backlog
 
 Add new ideas here as they come up.
+
+- **Watch and update:** APRA's final CPS 510 Governance (expected end 2026, commencing January 2028) and the ASX Corporate Governance Principles 5th edition (final expected December 2026). Update `/foundations/what-is-governance.html` when finalised.
+- **Watch and update:** ISO 31000 revision (at committee draft stage in 2026). Update the frameworks pages when published.
+- **Nick to review:** Phase 1 pages in his specialist areas: control design and testing, incident and breach management, third-party risk, operational risk / CPS 230, business continuity. Especially the super-trustee breach reporting line (SIS Act s 29JA timing) on the incident page.
+- A "What's changed recently" box on the home page linking to regulatory updates (once `/news/` exists).
+- A risk culture deep-dive page (could sit under Governance: culture and conduct risk).
+- An assurance mapping / combined assurance page (links Three Lines, control testing and internal audit).
+- Reuse the interactive widgets (`scripts/quiz.js`, `heatmap.js`, `checklist.js`) for the Phase 6 learning section.

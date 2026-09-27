@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Third-party, vendor and outsourcing risk | RiskLens Australia</title>
+<meta name="description" content="How to manage the risks of relying on service providers: the third-party risk lifecycle, material service providers and APRA's CPS 230 requirements, due diligence, contracts, monitoring, fourth parties, concentration and exit, with an interactive tiering tool.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk Management</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Third-party risk</li></ol></nav>
+
+  <h1>Third-party, vendor and outsourcing risk</h1>
+  <p class="summary">You can outsource the work, but not the responsibility. This page covers how organisations manage the risks of relying on other companies to deliver their services.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 15 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li><a class="term" href="/glossary/#third-party-risk">Third-party risk</a> arises whenever you rely on another organisation: administrators, custodians, IT and cloud providers, insurers, call centres, even your suppliers' suppliers (<a class="term" href="/glossary/#fourth-party">fourth parties</a>).</li>
+      <li>The organisation stays accountable to its customers, members and regulators for outsourced activities.</li>
+      <li>Good practice follows a lifecycle: plan, due diligence, contract, onboard, monitor, and exit. Effort is scaled to risk using tiers.</li>
+      <li>Under APRA's CPS 230, regulated entities must identify <a class="term" href="/glossary/#material-service-provider">material service providers</a>, keep a register (submitted to APRA annually), have formal agreements covering specified matters, and notify APRA within 20 business days of entering or materially changing material arrangements.</li>
+      <li>Concentration (many firms relying on the same few providers) is a growing system-wide concern, especially for cloud services.</li>
+    </ul>
+  </aside>
+
+  <h2>The basics</h2>
+  <p>Almost every organisation relies on others. A typical super fund, for example, might use an external administrator to run member accounts, a custodian to hold assets, investment managers, an insurer for death and disability cover, a cloud provider for its systems, a mailing house for statements, and a call centre. Each of these is a <strong>third party</strong>. When a third party performs an activity the organisation would otherwise do itself, it is often called <a class="term" href="/glossary/#outsourcing">outsourcing</a>.</p>
+  <p>Using third parties brings real benefits: expertise, scale, cost savings, technology. But it also brings risks the organisation can't fully control:</p>
+  <ul>
+    <li><strong>Operational:</strong> the provider fails, makes errors or can't recover from a disruption.</li>
+    <li><strong>Information security and privacy:</strong> customer data held by the provider is breached.</li>
+    <li><strong>Compliance and conduct:</strong> the provider breaches laws on your behalf, or treats your customers poorly.</li>
+    <li><strong>Financial:</strong> the provider becomes insolvent or suddenly raises prices.</li>
+    <li><strong>Concentration:</strong> too much depends on one provider, or many firms depend on the same one.</li>
+    <li><strong>Fourth-party:</strong> problems at the provider's own subcontractors.</li>
+    <li><strong>Strategic and exit:</strong> being "locked in" to a provider that is hard to replace.</li>
+  </ul>
+
+  <h2>The third-party risk lifecycle</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 360" role="img" aria-labelledby="tp-title tp-desc">
+      <title id="tp-title">The third-party risk management lifecycle</title>
+      <desc id="tp-desc">Six stages in a loop: 1 plan and assess the need, including risk tiering; 2 due diligence; 3 contract; 4 onboard; 5 monitor and review, including performance, risk and assurance; 6 renew or exit. Exit planning starts at the beginning. In the centre: governance, policy and a register of service providers.</desc>
+      <circle cx="360" cy="180" r="130" fill="none" stroke="#93b4f5" stroke-width="3" stroke-dasharray="6 6"/>
+      <g fill="#2563eb">
+        <path d="M-8,-7 L8,0 L-8,7 z" transform="translate(475,118) rotate(62)"/>
+        <path d="M-8,-7 L8,0 L-8,7 z" transform="translate(475,243) rotate(118)"/>
+        <path d="M-8,-7 L8,0 L-8,7 z" transform="translate(245,243) rotate(242)"/>
+        <path d="M-8,-7 L8,0 L-8,7 z" transform="translate(245,118) rotate(298)"/>
+      </g>
+      <circle cx="360" cy="180" r="70" fill="#e8f0fe" stroke="#2563eb" stroke-width="2"/>
+      <text x="360" y="170" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f2942">Governance,</text>
+      <text x="360" y="188" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f2942">policy and</text>
+      <text x="360" y="206" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f2942">register</text>
+      <g font-size="13" text-anchor="middle">
+        <rect x="250" y="8" width="220" height="44" rx="10" fill="#0f2942"/>
+        <text x="360" y="27" fill="#fff" font-weight="700">1. Plan and tier</text>
+        <text x="360" y="44" fill="#cbd8e8" font-size="11.5">need, options, risk tier, exit plan</text>
+        <rect x="480" y="72" width="200" height="44" rx="10" fill="#1b3a5c"/>
+        <text x="580" y="91" fill="#fff" font-weight="700">2. Due diligence</text>
+        <text x="580" y="108" fill="#cbd8e8" font-size="11.5">can they do it safely?</text>
+        <rect x="480" y="244" width="200" height="44" rx="10" fill="#1b3a5c"/>
+        <text x="580" y="263" fill="#fff" font-weight="700">3. Contract</text>
+        <text x="580" y="280" fill="#cbd8e8" font-size="11.5">rights, obligations, exit</text>
+        <rect x="250" y="308" width="220" height="44" rx="10" fill="#1b3a5c"/>
+        <text x="360" y="327" fill="#fff" font-weight="700">4. Onboard</text>
+        <text x="360" y="344" fill="#cbd8e8" font-size="11.5">transition, testing, controls</text>
+        <rect x="40" y="244" width="200" height="44" rx="10" fill="#1b3a5c"/>
+        <text x="140" y="263" fill="#fff" font-weight="700">5. Monitor and review</text>
+        <text x="140" y="280" fill="#cbd8e8" font-size="11.5">performance, risk, assurance</text>
+        <rect x="40" y="72" width="200" height="44" rx="10" fill="#1b3a5c"/>
+        <text x="140" y="91" fill="#fff" font-weight="700">6. Renew or exit</text>
+        <text x="140" y="108" fill="#cbd8e8" font-size="11.5">re-assess, re-tender, transition</text>
+      </g>
+    </svg>
+    <figcaption>The third-party risk lifecycle (our own summary). The effort at each stage depends on the provider's risk tier.</figcaption>
+  </figure>
+
+  <h3>1. Plan and tier</h3>
+  <p>Before choosing a provider, be clear about why you are outsourcing, what could go wrong, and how critical the service is. <strong>Risk tiering</strong> sorts providers so that the most important get the most attention. Try the tool below.</p>
+
+  <div class="widget" id="tiering">
+    <h3>Interactive: risk-tier a service provider</h3>
+    <p class="small">Answer six questions about a (real or imagined) provider. This is a simplified illustration; real tiering methods vary, and for APRA-regulated entities materiality must be assessed under CPS 230.</p>
+    <fieldset class="tier-q"><legend>Does the entity rely on it to deliver a critical operation, or could its failure expose the entity to material operational risk?</legend>
+      <label><input type="radio" name="t-critical" value="yes"> Yes</label><label><input type="radio" name="t-critical" value="no" checked> No</label></fieldset>
+    <fieldset class="tier-q"><legend>Will it hold or access customer personal information or sensitive data?</legend>
+      <label><input type="radio" name="t-data" value="yes"> Yes</label><label><input type="radio" name="t-data" value="no" checked> No</label></fieldset>
+    <fieldset class="tier-q"><legend>Would it be hard to replace quickly (more than a few months)?</legend>
+      <label><input type="radio" name="t-substitute" value="yes"> Yes</label><label><input type="radio" name="t-substitute" value="no" checked> No</label></fieldset>
+    <fieldset class="tier-q"><legend>Will the service or data be located or accessed offshore?</legend>
+      <label><input type="radio" name="t-offshore" value="yes"> Yes</label><label><input type="radio" name="t-offshore" value="no" checked> No</label></fieldset>
+    <fieldset class="tier-q"><legend>Does it deal directly with customers or members?</legend>
+      <label><input type="radio" name="t-customer" value="yes"> Yes</label><label><input type="radio" name="t-customer" value="no" checked> No</label></fieldset>
+    <fieldset class="tier-q"><legend>Is it a large contract for the organisation (e.g. top 20 by spend)?</legend>
+      <label><input type="radio" name="t-spend" value="yes"> Yes</label><label><input type="radio" name="t-spend" value="no" checked> No</label></fieldset>
+    <p class="result" aria-live="polite"></p>
+    <div class="tier-detail"></div>
+    <noscript><p>The tiering tool needs JavaScript.</p></noscript>
+  </div>
+
+  <h3>2. Due diligence</h3>
+  <p><a class="term" href="/glossary/#due-diligence">Due diligence</a> checks whether the provider can deliver the service safely and reliably. Typical areas:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Area</th><th scope="col">What to look for</th></tr></thead>
+      <tbody>
+        <tr><td>Financial</td><td>Financial statements, ownership, insurance, dependence on your contract.</td></tr>
+        <tr><td>Operational capability</td><td>Experience, capacity, key people, service quality, complaints.</td></tr>
+        <tr><td>Resilience</td><td>Business continuity and disaster recovery plans, test results, ability to meet your tolerance levels.</td></tr>
+        <tr><td>Information security and privacy</td><td>Security controls and certifications, incident history, data location, how they handle personal information.</td></tr>
+        <tr><td>Compliance and conduct</td><td>Regulatory history, licences, how they treat customers, conflicts of interest, sanctions screening.</td></tr>
+        <tr><td>Subcontractors</td><td>Which fourth parties they use for key parts of the service, and how they manage them.</td></tr>
+        <tr><td>Independent assurance</td><td>Controls assurance reports (for example under ASAE 3402 or GS 007), certifications and audit results.</td></tr>
+        <tr><td>Other</td><td>Modern slavery risks in supply chains (large entities report under the <em>Modern Slavery Act 2018</em> (Cth)), environmental and social factors, cultural fit.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>3. Contract</h3>
+  <p>The contract is where risk management becomes enforceable. For material arrangements, CPS 230 requires a formal, legally binding agreement that, among other things, addresses:</p>
+  <ul>
+    <li>the services and associated service levels;</li>
+    <li>the rights and responsibilities of each party;</li>
+    <li>notification of the provider's use of other material service providers (subcontractors), with the provider liable for subcontractors' failures;</li>
+    <li>the ability of the APRA-regulated entity to meet its own legal and compliance obligations;</li>
+    <li>force majeure; and</li>
+    <li>termination rights.</li>
+  </ul>
+  <p>Read the current standard for the full list. From 1 July 2026, limited exemptions from some contractual requirements apply to certain "non-traditional" providers, such as central banks and clearing and settlement facilities, where standard terms aren't practicable.</p>
+
+  <h3>4. Onboard</h3>
+  <p>Plan the transition carefully: data migration, testing, parallel running, updated procedures and controls, and incident and escalation contacts. Many outsourcing failures happen during transition.</p>
+
+  <h3>5. Monitor and review</h3>
+  <ul>
+    <li><strong>Performance:</strong> service levels and key performance indicators, reported regularly and discussed in governance meetings.</li>
+    <li><strong>Risk:</strong> incidents, breaches, complaints, audit findings, financial health and changes at the provider (ownership, key staff, subcontractors).</li>
+    <li><strong>Assurance:</strong> independent controls reports, your own reviews or audits, attestations, and participation in joint business continuity testing.</li>
+    <li><strong>Relationship:</strong> a named relationship owner in your organisation who is accountable for the arrangement.</li>
+  </ul>
+
+  <h3>6. Renew or exit</h3>
+  <p>Before renewing, re-assess the risk and the market. For important services, have an exit plan from the start: how you would move to another provider or bring the service in-house in an orderly way, and how long it would take. An exit plan that has never been thought through is usually not credible.</p>
+
+  <h2>APRA's CPS 230: service provider requirements</h2>
+  <p>CPS 230 replaced APRA's earlier outsourcing standards (CPS 231, SPS 231 and HPS 231) from 1 July 2025. Key requirements for managing service providers include:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Requirement</th><th scope="col">In brief</th></tr></thead>
+      <tbody>
+        <tr><td>Service provider management policy</td><td>A comprehensive policy setting out how the entity identifies and manages service provider risks across the lifecycle.</td></tr>
+        <tr><td>Material service providers</td><td>Identify providers the entity relies on to undertake a critical operation or that expose it to material operational risk, and maintain a register. The register is submitted to APRA annually, using APRA's template.</td></tr>
+        <tr><td>Due diligence</td><td>Assess financial and non-financial risks before entering into or materially changing a material arrangement.</td></tr>
+        <tr><td>Formal agreement</td><td>A legally binding agreement for each material arrangement, covering the required matters (see above).</td></tr>
+        <tr><td>Monitoring</td><td>Monitor material arrangements on an ongoing basis, including performance and risks.</td></tr>
+        <tr><td>Notifying APRA</td><td>As soon as possible and no later than 20 business days after entering into or materially changing a material arrangement; and before entering into a material offshoring arrangement.</td></tr>
+        <tr><td>Business continuity</td><td>Include service provider disruption in business continuity planning and testing.</td></tr>
+        <tr><td>Transition</td><td>For contracts in place before 1 July 2025, requirements applied from the earlier of the next renewal date or 1 July 2026.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="small">Summary only. APRA also expects entities to consider fourth-party risk and concentration. See CPS 230 and CPG 230 for the full requirements and APRA's guidance.</p>
+
+  <h2>Bigger-picture risks</h2>
+  <h3>Fourth parties and supply chains</h3>
+  <p>Your administrator may rely on a cloud provider, a software vendor and an offshore processing centre. A failure at any of them can disrupt your members, even though you have no contract with them. Good practice is to understand which fourth parties support your critical operations and require providers to tell you about material subcontracting.</p>
+  <h3>Concentration risk</h3>
+  <p><a class="term" href="/glossary/#concentration-risk">Concentration</a> works at two levels. For one organisation, it means relying heavily on a single provider. Across the system, many institutions rely on the same small number of large providers, such as major cloud platforms and industry administrators, so one failure could affect many at once. Regulators internationally have been paying increasing attention to this.</p>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk (CPS 230)"><a href="/risk-management/operational-risk.html">Operational risk (CPS 230)</a></li>
+      <li data-href="/risk-management/business-continuity.html" data-label="Business continuity"><a href="/risk-management/business-continuity.html">Business continuity</a></li>
+      <li data-href="/risk-management/control-design-and-testing.html" data-label="Control design and testing"><a href="/risk-management/control-design-and-testing.html">Control design and testing</a></li>
+      <li data-href="/risk-management/incident-and-breach-management.html" data-label="Incident and breach management"><a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a></li>
+      <li data-href="/standards/cps-230.html" data-label="CPS 230 in detail (standards library)">CPS 230 in detail (standards library) <span class="soon">(coming soon)</span></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> and Prudential Practice Guide CPG 230.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-releases-material-service-provider-register-template">APRA releases material service provider register template</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management">Final targeted amendments to CPS 230 Operational Risk Management</a> (April 2026).</li>
+      <li>Auditing and Assurance Standards Board, <a href="https://standards.auasb.gov.au/gs-007-oct-2011">GS 007 Audit Implications of the Use of Service Organisations for Investment Management Services</a>.</li>
+      <li><em>Modern Slavery Act 2018</em> (Cth), <a href="https://www.legislation.gov.au/">Federal Register of Legislation</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/supplier-tiering.js"></script>
+</body>
+</html>
