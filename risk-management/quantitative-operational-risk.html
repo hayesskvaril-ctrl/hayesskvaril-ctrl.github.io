@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quantitative operational risk: loss distributions, VaR and expected shortfall | RiskLens Australia</title>
+<meta name="description" content="An advanced, plain-English guide to quantifying operational risk: loss frequency and severity, heavy tails, aggregate loss distributions, value-at-risk and expected shortfall, with an interactive Monte Carlo simulation.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/quantitative-operational-risk.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Quantitative operational risk: loss distributions, VaR and expected shortfall">
+<meta property="og:description" content="An advanced, plain-English guide to quantifying operational risk: loss frequency and severity, heavy tails, aggregate loss distributions, value-at-risk and expected shortfall, with an interactive Monte Carlo simulation.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/quantitative-operational-risk.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Quantitative operational risk</li></ol></nav>
+
+  <h1>Quantitative operational risk</h1>
+  <p class="summary">How risk teams put numbers on operational losses: how often losses happen, how big they get, and how bad a really bad year could be.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 15 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Quantitative models split operational losses into <strong>frequency</strong> (how many loss events a year) and <strong>severity</strong> (how big each one is), then combine them into a distribution of possible annual losses.</li>
+      <li>Operational loss severities are <strong>heavy-tailed</strong>: most losses are small, but a rare few are enormous and dominate the total. Averages alone badly understate the risk.</li>
+      <li><strong>Expected loss</strong> is the average year. <strong>Value-at-risk (VaR)</strong> is a bad year at a chosen confidence level. <strong>Expected shortfall</strong> is the average of the years worse than that.</li>
+      <li>Banks no longer use their own models to set operational risk capital in Australia. Since 1 January 2023, APRA's APS 115 uses the Basel III standardised measurement approach. Quantitative methods are still widely used for scenario analysis, risk appetite and understanding exposures.</li>
+      <li>Every model is only as good as its data and assumptions. Treat the outputs as a way to structure judgement, not as precise truth.</li>
+    </ul>
+  </aside>
+
+  <h2>Why quantify operational risk?</h2>
+  <p>Most organisations rate operational risks on a <a class="term" href="/glossary/#heat-map">heat map</a>: likelihood from 1 to 5, consequence from 1 to 5. That is a good start, but it has limits. It can't add risks together, it hides the difference between "often small" and "rarely catastrophic", and it can't answer the questions boards increasingly ask: <em>How much could we lose in a bad year? Is our capital or reserve enough? Which risks drive the tail?</em></p>
+  <p>Quantitative methods try to answer those questions with numbers. This page explains the core ideas in plain terms. It assumes you know the basics on the <a href="/risk-management/operational-risk.html">Operational risk</a> and <a href="/risk-management/risk-assessment-methodologies.html">Risk assessment methodologies</a> pages.</p>
+
+  <h2>Frequency, severity and the aggregate loss</h2>
+  <p>The classic approach is the <strong>loss distribution approach</strong>. It treats a year of operational losses as the result of two separate random processes:</p>
+  <ul>
+    <li><strong>Frequency:</strong> how many loss events happen in a year. This is usually modelled with a Poisson distribution, which needs one number: the average count per year.</li>
+    <li><strong>Severity:</strong> how big each loss is. This is modelled with a skewed distribution (commonly lognormal, or heavier-tailed choices such as Pareto-type distributions) fitted to past losses.</li>
+  </ul>
+  <p>Combining the two gives the <strong>aggregate loss distribution</strong>: the range of possible total losses in a year and how likely each is. There is rarely a neat formula for it, so it is usually built by <strong>Monte Carlo simulation</strong>. A computer simulates thousands of years: for each year it draws a number of events, draws a size for each, and adds them up. The pile of simulated annual totals is the distribution.</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 720 250" role="img" aria-labelledby="lda-title lda-desc">
+      <title id="lda-title">The loss distribution approach</title>
+      <desc id="lda-desc">Frequency (how many events per year, for example a Poisson distribution with an average of 12) and severity (how big each event is, a skewed distribution with a long right tail) are combined by Monte Carlo simulation of thousands of years. The result is the aggregate annual loss distribution, from which expected loss, value-at-risk and expected shortfall are read.</desc>
+      <defs><marker id="lda-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="13" text-anchor="middle">
+        <rect x="10" y="10" width="200" height="100" rx="10" fill="#0f2942"/>
+        <text x="110" y="36" fill="#fff" font-weight="700">Frequency</text>
+        <text x="110" y="56" fill="#cbd8e8">How many events a year?</text>
+        <rect x="45" y="84" width="14" height="14" fill="#2563eb"/><rect x="63" y="72" width="14" height="26" fill="#2563eb"/><rect x="81" y="66" width="14" height="32" fill="#2563eb"/><rect x="99" y="70" width="14" height="28" fill="#2563eb"/><rect x="117" y="78" width="14" height="20" fill="#2563eb"/><rect x="135" y="88" width="14" height="10" fill="#2563eb"/><rect x="153" y="93" width="14" height="5" fill="#2563eb"/>
+        <rect x="10" y="130" width="200" height="100" rx="10" fill="#1b3a5c"/>
+        <text x="110" y="156" fill="#fff" font-weight="700">Severity</text>
+        <text x="110" y="176" fill="#cbd8e8">How big is each event?</text>
+        <path d="M30,218 C45,180 55,186 70,200 S120,214 190,216" fill="none" stroke="#2563eb" stroke-width="3"/>
+        <line x1="220" y1="120" x2="268" y2="120" stroke="#2563eb" stroke-width="2.5" marker-end="url(#lda-ar)"/>
+        <rect x="276" y="70" width="170" height="100" rx="10" fill="#2563eb"/>
+        <text x="361" y="104" fill="#fff" font-weight="700">Monte Carlo</text>
+        <text x="361" y="126" fill="#e8f0fe">simulate 10,000+</text>
+        <text x="361" y="144" fill="#e8f0fe">years and add up</text>
+        <line x1="452" y1="120" x2="500" y2="120" stroke="#2563eb" stroke-width="2.5" marker-end="url(#lda-ar)"/>
+        <rect x="508" y="10" width="202" height="220" rx="10" fill="#e8f0fe" stroke="#93b4f5"/>
+        <text x="609" y="36" fill="#0f2942" font-weight="700">Annual loss distribution</text>
+        <path d="M526,196 C545,110 560,90 580,120 S640,188 700,194" fill="none" stroke="#0f2942" stroke-width="3"/>
+        <line x1="578" y1="70" x2="578" y2="200" stroke="#0f2942" stroke-dasharray="4 3"/><text x="578" y="62" fill="#0f2942" font-size="11.5">Expected loss</text>
+        <line x1="660" y1="150" x2="660" y2="200" stroke="#0f2942" stroke-width="2"/><text x="660" y="142" fill="#0f2942" font-size="11.5">VaR</text>
+        <text x="609" y="220" fill="#0f2942" font-size="11.5">long right-hand tail</text>
+      </g>
+    </svg>
+    <figcaption>The loss distribution approach in one picture. Shapes are illustrative.</figcaption>
+  </figure>
+
+  <h2>Heavy tails: why the average misleads</h2>
+  <p>Operational losses are extremely uneven. Many small errors, such as a mistyped payment or a minor system outage, sit alongside rare events, such as a major fraud, a large remediation programme or a regulatory penalty, that can be thousands of times bigger. Analysis of the loss data the Basel Committee collected from banks found that severity distributions were very heavy-tailed, particularly for some event types (Moscadelli, 2004).</p>
+  <p>This has practical consequences:</p>
+  <ul>
+    <li><strong>A few events drive the total.</strong> In a heavy-tailed world, the worst year is usually bad because of one or two very large events, not because of many small ones.</li>
+    <li><strong>History understates the tail.</strong> Ten years of internal data may contain no truly extreme event, even though one is plausible. That is why models also use external loss data and scenario analysis.</li>
+    <li><strong>Estimates are unstable.</strong> Small changes in the assumed tail shape can change a 1-in-1,000 year estimate many times over. The simulation below shows this.</li>
+  </ul>
+
+  <h2>Measuring the risk: expected loss, VaR and expected shortfall</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Measure</th><th scope="col">Plain-English meaning</th><th scope="col">Strengths and weaknesses</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Expected loss (EL)</strong></td><td>The average annual loss over many years.</td><td>Useful for pricing and budgeting. Says nothing about how bad a bad year can be.</td></tr>
+        <tr><td><strong>Value-at-risk (VaR)</strong> at, say, 99.9%</td><td>The annual loss that is exceeded in only 0.1% of years (a "1-in-1,000 year").</td><td>Simple and widely understood. Says nothing about how bad the years beyond it are, and has some mathematical drawbacks when adding risks together (it is not always "sub-additive").</td></tr>
+        <tr><td><strong>Expected shortfall (ES)</strong> at, say, 99%</td><td>The average loss in the worst 1% of years.</td><td>Looks into the tail and behaves well mathematically (it is a "coherent" risk measure). Needs even more data to estimate reliably.</td></tr>
+        <tr><td><strong>Unexpected loss</strong></td><td>VaR minus expected loss: the part of a bad year not covered by the normal budget.</td><td>The traditional basis for holding capital against losses.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The idea of "coherent" risk measures comes from Artzner and colleagues (1999), and Acerbi and Tasche (2002) showed why expected shortfall meets those conditions where VaR can fail. Basel III moved market risk capital from VaR to expected shortfall for this reason.</p>
+
+  <div class="callout example">
+    <h3>Worked example: reading the numbers</h3>
+    <p>Suppose a fund administrator's model gives: expected annual operational loss $1.2 million, 99% VaR $6 million, 99% expected shortfall $11 million (illustrative figures).</p>
+    <ul>
+      <li>In a typical year, the budget should absorb about $1.2 million of losses.</li>
+      <li>About one year in a hundred, losses would exceed $6 million. That is $4.8 million of unexpected loss beyond the average.</li>
+      <li>When such a year happens, the average loss is around $11 million, nearly double the VaR figure. This gap is the heavy tail at work.</li>
+    </ul>
+  </div>
+
+  <h2>Try it: simulate 10,000 years of operational losses</h2>
+  <div class="widget" id="mc-sim">
+    <h3>Monte Carlo loss simulator</h3>
+    <div class="controls">
+      <div><label for="mc-freq">Loss events per year (average): <output id="mc-freq-out">12</output></label><input type="range" id="mc-freq" min="1" max="50" step="1" value="12"></div>
+      <div><label for="mc-sev">Typical (median) loss per event</label>
+        <select id="mc-sev"><option value="10000">$10,000</option><option value="25000">$25,000</option><option value="50000" selected>$50,000</option><option value="100000">$100,000</option><option value="250000">$250,000</option></select></div>
+      <div><label for="mc-tail">Tail heaviness</label>
+        <select id="mc-tail"><option value="1">Low</option><option value="1.6" selected>Medium</option><option value="2.2">High</option></select></div>
+    </div>
+    <p><button type="button" id="mc-run">Run again with new random numbers</button></p>
+    <div class="mc-chart" aria-live="polite"></div>
+    <div class="table-wrap">
+      <table class="mc-stats">
+        <caption>Results from 10,000 simulated years</caption>
+        <thead><tr><th scope="col">Measure</th><th scope="col">Amount</th><th scope="col">What it means</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="result mc-note" aria-live="polite"></p>
+    <p class="small">How it works: each simulated year draws a Poisson number of events, and each event a lognormal loss with the chosen median. "Tail heaviness" sets the lognormal shape (sigma of 1.0, 1.6 or 2.2). The figures are illustrative and not calibrated to any organisation. Nothing you enter leaves your browser.</p>
+    <noscript><p>The simulator needs JavaScript. With 12 events a year, a $50,000 median loss and medium tails, a typical run gives an expected annual loss of roughly $2 million, with the 1-in-1,000 year many times larger.</p></noscript>
+  </div>
+
+  <h2>Where the data comes from</h2>
+  <p>Under the former Basel II advanced measurement approach, banks had to combine four data sources. The same four remain good practice for any serious quantification:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Source</th><th scope="col">What it adds</th><th scope="col">Watch out for</th></tr></thead>
+      <tbody>
+        <tr><td>Internal loss data</td><td>Your own history of loss events (from the incident register), the best guide to frequency and to smaller losses.</td><td>Under-reporting, inconsistent capture of amounts and dates, and few large events.</td></tr>
+        <tr><td>External loss data</td><td>Industry loss databases and public cases, which show large events that haven't (yet) happened to you.</td><td>Scaling: a loss at a much bigger or different business may not translate.</td></tr>
+        <tr><td>Scenario analysis</td><td>Structured expert estimates of severe but plausible events, filling the tail. See <a href="/risk-management/operational-risk.html">Operational risk</a>.</td><td>Anchoring, optimism and group-think in workshops.</td></tr>
+        <tr><td>Business environment and internal control factors</td><td>Current indicators, such as <a class="term" href="/glossary/#kri">KRIs</a>, control test results and audit findings, that adjust a backward-looking model to today.</td><td>Hard to translate into numbers without false precision.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>The regulatory context in Australia</h2>
+  <ul>
+    <li><strong>Bank capital:</strong> Basel II allowed banks to use their own models (the advanced measurement approach, with a 99.9% one-year confidence level) to set operational risk capital. The Basel Committee's 2017 Basel III reforms replaced all the previous approaches with a single standardised measurement approach, largely because internal models were complex and produced results that were hard to compare. APRA implemented this in <a href="https://www.apra.gov.au/standards/aps-115">APS 115</a>, and ADIs have used it since 1 January 2023 at the latest. It is based on a bank's business size, scaled by its own history of losses.</li>
+    <li><strong>Superannuation:</strong> RSE licensees must hold financial resources to address losses from operational risk under SPS 114 Operational Risk Financial Requirement. Trustees set their own target amount, and quantitative analysis of potential losses is one way to support it.</li>
+    <li><strong>CPS 230:</strong> APRA's <a href="/standards/cps-230.html">operational risk standard</a> does not require statistical models. It does require entities to understand their operational risk profile, use scenario analysis and set tolerances for disruption, and quantitative thinking helps with all three.</li>
+  </ul>
+
+  <h2>Limits and model risk</h2>
+  <ul>
+    <li><strong>Data scarcity:</strong> the events that matter most are the ones you have least data on.</li>
+    <li><strong>Assumption sensitivity:</strong> the choice of severity distribution and how the tail is fitted can change results more than the data does.</li>
+    <li><strong>Dependence:</strong> models often assume loss types are independent, but a single cause (such as a cyber attack) can trigger several at once. See <span class="xref" data-href="/risk-management/risk-aggregation-and-correlation.html">Risk aggregation and correlation</span>.</li>
+    <li><strong>False precision:</strong> a figure of "$43.7 million at 99.9%" implies a certainty that doesn't exist. Good practice reports ranges, tests sensitivities and explains the assumptions to decision-makers.</li>
+  </ul>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk"><a href="/risk-management/operational-risk.html">Operational risk</a></li>
+      <li data-href="/risk-management/risk-assessment-methodologies.html" data-label="Risk assessment methodologies"><a href="/risk-management/risk-assessment-methodologies.html">Risk assessment methodologies</a></li>
+      <li data-href="/risk-management/scenario-analysis-and-stress-testing.html" data-label="Scenario analysis and stress testing">Scenario analysis and stress testing <span class="soon">(coming soon)</span></li>
+      <li data-href="/risk-management/risk-aggregation-and-correlation.html" data-label="Risk aggregation and correlation">Risk aggregation and correlation <span class="soon">(coming soon)</span></li>
+      <li data-href="/standards/cps-230.html" data-label="CPS 230 Operational Risk Management"><a href="/standards/cps-230.html">CPS 230 Operational Risk Management</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/aps-115">Prudential Standard APS 115 Capital Adequacy: Standardised Measurement Approach to Operational Risk</a> and <a href="https://www.apra.gov.au/operational-risk-capital-frequently-asked-questions">Operational risk capital: frequently asked questions</a>.</li>
+      <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d424.htm">Basel III: Finalising post-crisis reforms</a> (December 2017).</li>
+      <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d515.htm">Revisions to the Principles for the Sound Management of Operational Risk</a> (March 2021).</li>
+      <li>Moscadelli, M. (2004), <a href="https://www.bancaditalia.it/pubblicazioni/temi-discussione/2004/2004-0517/index.html?com.dotmarketing.htmlpage.language=1">The modelling of operational risk: experience with the analysis of the data collected by the Basel Committee</a>, Banca d'Italia Temi di discussione No. 517.</li>
+      <li>Artzner, P., Delbaen, F., Eber, J.-M. and Heath, D. (1999), <a href="https://doi.org/10.1111/1467-9965.00068">Coherent measures of risk</a>, <em>Mathematical Finance</em>, 9(3), 203–228.</li>
+      <li>Acerbi, C. and Tasche, D. (2002), <a href="https://doi.org/10.1016/S0378-4266(02)00283-2">On the coherence of expected shortfall</a>, <em>Journal of Banking &amp; Finance</em>, 26(7), 1487–1503.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-114">Prudential Standard SPS 114 Operational Risk Financial Requirement</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/oprisk-sim.js"></script>
+</body>
+</html>

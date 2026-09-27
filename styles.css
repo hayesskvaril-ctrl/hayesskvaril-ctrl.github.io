@@ -1196,3 +1196,20 @@ details[open] summary { margin-bottom: 10px; }
 .review-due { color: var(--muted); }
 .badge.expert-badge { background: var(--green-soft); color: var(--green); border-color: rgba(52, 211, 153, 0.4); }
 .badge.expert-badge::before { content: "\2713\00a0"; }
+
+/* Operational risk Monte Carlo chart (quantitative operational risk page) */
+.mc-chart svg { width: 100%; height: auto; display: block; margin-top: 8px; }
+.mc-chart .mc-bar { fill: var(--cyan); opacity: 0.85; }
+.mc-chart .mc-bar:hover { opacity: 1; }
+.mc-chart .mc-grid { stroke: rgba(125, 211, 252, 0.1); stroke-width: 1; }
+.mc-chart .mc-base { stroke: rgba(125, 211, 252, 0.35); stroke-width: 1; }
+.mc-chart .mc-axis { fill: var(--muted); font-size: 12px; font-family: var(--font-body); }
+.mc-chart .mc-label { fill: var(--heading); font-size: 12.5px; font-weight: 600; font-family: var(--font-body); }
+.mc-chart .mc-mark { stroke-width: 2; }
+.mc-chart .mc-mean { stroke: var(--heading); stroke-dasharray: 4 3; }
+.mc-chart .mc-var { stroke: var(--violet); }
+.mc-stats td:nth-child(2) { font-family: var(--font-mono); white-space: nowrap; }
+@media print {
+  .mc-chart .mc-bar { fill: #2563eb; }
+  .mc-chart .mc-axis, .mc-chart .mc-label { fill: #0f2942; }
+}

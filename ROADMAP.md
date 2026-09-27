@@ -134,7 +134,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 
 ## Phase 10 — Advanced-level deep dives
 
-- [ ] Quantitative operational risk **(Advanced)**: loss frequency and severity, loss distributions, VaR and expected shortfall in plain terms, with an interactive Monte Carlo simulation
+- [x] Quantitative operational risk **(Advanced)**: loss frequency and severity, loss distributions, VaR and expected shortfall in plain terms, with an interactive Monte Carlo simulation
 - [ ] Scenario analysis and stress testing **(Advanced)**: severe but plausible scenarios, reverse stress testing, links to CPS 230, CPS 190 and ICAAP, with a worked example
 - [ ] Setting CPS 230 tolerance levels **(Advanced)**: method, data, maximum disruption and data-loss tolerances, worked examples for a super fund and a bank. Flag for Nick.
 - [ ] Breach significance analysis in practice **(Advanced)**: case-based walkthroughs of the deemed-significance tests and factors, multi-regime reporting and documentation. Flag for Nick.
