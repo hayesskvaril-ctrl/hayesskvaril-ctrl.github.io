@@ -82,7 +82,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 - [x] Superannuation trustee governance (SIS Act, RSE licensee obligations). Flag for Nick's review, since it's his specialty.
 - [x] Banking / ADIs
 - [x] Insurance
-- [ ] Managed investment schemes
+- [x] Managed investment schemes
 
 ## Phase 6 — Interactive and advanced learning (`/learn/`)
 
@@ -128,6 +128,9 @@ Add new ideas here as they come up.
 - **Watch and update (Phase 3 pages):** final CPS 510 (expected end 2026; affects board structure, conflicts and FAR pages); any FAR enforcement actions or reviews; corporate whistleblower reform (Whistleblower Protection Authority proposals).
 - **Nick to review (Phase 4):** CPS 230 explainer (requirement/evidence tables, SFI thresholds, 2026 amendments) and the ASIC RG 78, RG 271 and RG 277 pages.
 - **Watch and update (Phase 4 pages):** further CPS 230 amendments or APRA guidance; ASIC's remaining reportable-situations relief (RG 78 page); any new COSO guidance or framework updates; ISO/IEC 27001 amendments.
+- **Nick to review (Phase 5):** Superannuation trustee governance (covenants table, SPS list, performance test vs outcomes assessment, fee governance section), plus the super-related parts of the Managed investment schemes page (Shield / First Guardian).
+- **Watch and update (Phase 5 pages):** performance test changes after Treasury's 2026 consultation; redrafted General Insurance Code (ASIC lodgement late 2026) and Life Code review outcome; Scams Prevention Framework obligations (March 2027); AT1 phase-out (from January 2027); Shield / First Guardian proceedings; APRA's proposed proportionality ("three-tier") framework.
+- An ASIC RG 259 (risk management systems of responsible entities) explainer page; the MIS page already cross-links to `/standards/asic-rg-259.html` and will light up automatically.
 - A "What's changed recently" box on the home page linking to regulatory updates (once `/news/` exists).
 - A risk culture deep-dive page (could sit under Governance: culture and conduct risk).
 - An assurance mapping / combined assurance page (links Three Lines, control testing and internal audit).
