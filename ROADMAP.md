@@ -145,7 +145,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 
 ## Phase 11 — New compliance and governance topics
 
-- [ ] Climate-related financial disclosures and sustainability reporting (Corporations Act requirements, AASB S2, phasing by entity group, assurance, greenwashing risk)
+- [x] Climate-related financial disclosures and sustainability reporting (Corporations Act requirements, AASB S2, phasing by entity group, assurance, greenwashing risk)
 - [ ] Climate risk management (physical and transition risk, scenario analysis, APRA CPG 229, governance and metrics)
 - [ ] AI governance (board oversight, accountability, model and data risk, privacy and automated decisions, regulator expectations such as ASIC REP 798, ISO/IEC 42001, Australian Government guidance)
 - [ ] Financial advice regulation (best interests duty and related obligations, Statements of Advice, conflicted remuneration, ongoing fee arrangements, adviser registration and professional standards, current reforms)

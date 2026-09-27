@@ -47,6 +47,7 @@ TOOLS = {
     "tolerance-builder.js": ("CPS 230 tolerance level builder", "Rate harm over time to find where disruption becomes intolerable.", "Advanced"),
     "aggregation-calc.js": ("Risk aggregation calculator", "Combine three risks with correlations and see the diversification benefit.", "Advanced"),
     "sampling-calc.js": ("Control testing sample size calculator", "Plan attribute samples and evaluate results as an upper deviation limit.", "Advanced"),
+    "climate-group.js": ("Climate reporting group finder", "Work out which mandatory climate reporting group an entity falls into, and when it starts.", "Intermediate"),
     "culture-radar.js": ("Risk culture self-reflection", "A personal reflection tool: rate a team on risk culture dimensions and see the shape.", "Intermediate"),
 }
 
