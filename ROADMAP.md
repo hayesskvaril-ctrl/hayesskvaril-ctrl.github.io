@@ -75,7 +75,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 - [x] Key ASIC Regulatory Guides (one page each, as relevant)
 - [x] ISO 31000 (in our own words, no reproduced text)
 - [x] ISO 27001 (in our own words)
-- [ ] COSO ERM / COSO Internal Control
+- [x] COSO ERM / COSO Internal Control
 
 ## Phase 5 — Sector deep-dives (`/sectors/`)
 
@@ -126,6 +126,8 @@ Add new ideas here as they come up.
 - **Nick to review (Phase 2):** Disclosure obligations (disclosure review process and checklist) and Breach and incident reporting obligations (regime-by-regime timeframes, especially the super-trustee lines).
 - **Watch and update (Phase 2 pages):** privacy "tranche 2" reforms and the automated decision-making duty (10 December 2026); Children's Online Privacy Code; Scams Prevention Framework sector rules and commencement; ASIC's reviews of RG 97 and RG 234; AUSTRAC transitional rules for the AML/CTF reforms.
 - **Watch and update (Phase 3 pages):** final CPS 510 (expected end 2026; affects board structure, conflicts and FAR pages); any FAR enforcement actions or reviews; corporate whistleblower reform (Whistleblower Protection Authority proposals).
+- **Nick to review (Phase 4):** CPS 230 explainer (requirement/evidence tables, SFI thresholds, 2026 amendments) and the ASIC RG 78, RG 271 and RG 277 pages.
+- **Watch and update (Phase 4 pages):** further CPS 230 amendments or APRA guidance; ASIC's remaining reportable-situations relief (RG 78 page); any new COSO guidance or framework updates; ISO/IEC 27001 amendments.
 - A "What's changed recently" box on the home page linking to regulatory updates (once `/news/` exists).
 - A risk culture deep-dive page (could sit under Governance: culture and conduct risk).
 - An assurance mapping / combined assurance page (links Three Lines, control testing and internal audit).

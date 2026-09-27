@@ -103,7 +103,7 @@ TERMS = [
      [("Control design and testing", "/risk-management/control-design-and-testing.html")]),
     ("coso", "COSO", "",
      "The Committee of Sponsoring Organizations of the Treadway Commission, a US private-sector body. It publishes two widely used frameworks: <em>Internal Control – Integrated Framework</em> (2013) and <em>Enterprise Risk Management – Integrating with Strategy and Performance</em> (2017).",
-     [("Core frameworks compared", "/foundations/core-frameworks-compared.html")]),
+     [("Core frameworks compared", "/foundations/core-frameworks-compared.html"), ("COSO ERM and Internal Control", "/standards/coso.html")]),
     ("credit-risk", "Credit risk", "",
      "The risk of loss because a borrower or counterparty does not pay what it owes, in full or on time.",
      [("Credit, market and liquidity risk", "/risk-management/credit-market-and-liquidity-risk.html")]),
