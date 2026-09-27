@@ -399,6 +399,8 @@ a.card:hover { border-color: #93b4f5; box-shadow: 0 4px 14px rgba(15, 41, 66, 0.
 }
 .related ul { list-style: none; margin-left: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px 16px; }
 .related li a { font-weight: 600; }
+.related .soon, .soon { color: #64748b; font-size: 14px; }
+.related li { color: #64748b; }
 .sources ol { font-size: 15px; }
 .sources li { margin-bottom: 8px; }
 .last-reviewed { font-size: 14px; color: var(--muted); margin-top: 26px; }

@@ -24,7 +24,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] `/glossary/`: A–Z plain-English definitions of core risk, compliance and governance terms, with anchor links so articles can link to individual terms
 
 **Foundations (entry-level primers)**
-- [ ] What is risk management?
+- [x] What is risk management?
 - [ ] What is compliance?
 - [ ] What is governance?
 - [ ] The Three Lines model (and internal audit's role)

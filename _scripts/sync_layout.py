@@ -42,7 +42,7 @@ DISCLAIMER = (
 
 def target_exists(url: str) -> bool:
     p = ROOT / url.lstrip("/")
-    if url.endswith("/"):
+    if url.endswith("/") or url == "":
         p = p / "index.html"
     return p.exists()
 
@@ -95,6 +95,52 @@ def footer_html() -> str:
     )
 
 
+# Related-topic links to pages that may not exist yet:
+#   <li data-href="/risk-management/operational-risk.html" data-label="Operational risk"></li>
+# becomes a real link once the page exists, or a "coming soon" label until then.
+REL_RE = re.compile(r'<li data-href="([^"]+)" data-label="([^"]+)">.*?</li>', re.S)
+
+
+def render_rel(m):
+    url, label = m.group(1), m.group(2)
+    if target_exists(url.partition("#")[0]):
+        inner = f'<a href="{url}">{label}</a>'
+    else:
+        inner = f'{label} <span class="soon">(coming soon)</span>'
+    return f'<li data-href="{url}" data-label="{label}">{inner}</li>'
+
+
+# Topic cards on landing pages:
+#   <!-- CARD href="/x/" level="Beginner" --> <h3>..</h3> <p>..</p> <!-- /CARD -->
+# Renders as a clickable card if the page exists, else a "Coming soon" card.
+CARD_RE = re.compile(r'(<!-- CARD href="([^"]+)" level="([^"]*)" -->)(.*?)(<!-- /CARD -->)', re.S)
+
+
+def render_card(m):
+    start, url, level, inner, end = m.groups()
+    h3 = re.search(r"<h3>.*?</h3>", inner, re.S).group(0)
+    p = re.search(r"<p>.*?</p>", inner, re.S).group(0)
+    if target_exists(url.partition("#")[0]):
+        tag = f'<span class="level level-{level.lower()}">{level}</span>' if level else ""
+        body = f'<a class="card" href="{url}">\n  {h3}\n  {p}\n  {tag}\n</a>'
+    else:
+        body = f'<div class="card coming-soon">\n  {h3}\n  {p}\n  <span class="badge">Coming soon</span>\n</div>'
+    return f"{start}\n{body}\n{end}"
+
+
+# In-text cross-links to pages that may not exist yet. Write either form:
+#   <a class="xref" href="/x.html">text</a>   or   <span class="xref" data-href="/x.html">text</span>
+# It becomes a link when the page exists, and plain text until then.
+XREF_RE = re.compile(r'<(a|span) class="xref" (?:href|data-href)="([^"]+)">(.*?)</\1>', re.S)
+
+
+def render_xref(m):
+    _, url, text = m.groups()
+    if target_exists(url.partition("#")[0]):
+        return f'<a class="xref" href="{url}">{text}</a>'
+    return f'<span class="xref" data-href="{url}">{text}</span>'
+
+
 HEADER_RE = re.compile(r"<!-- HEADER:START -->.*?<!-- HEADER:END -->", re.S)
 FOOTER_RE = re.compile(r"<!-- FOOTER:START -->.*?<!-- FOOTER:END -->", re.S)
 
@@ -111,6 +157,9 @@ def main():
             continue
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), text)
         new = FOOTER_RE.sub(lambda m: footer_html(), new)
+        new = REL_RE.sub(render_rel, new)
+        new = CARD_RE.sub(render_card, new)
+        new = XREF_RE.sub(render_xref, new)
         if new != text:
             page.write_text(new, encoding="utf-8")
             changed += 1
