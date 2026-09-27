@@ -1213,3 +1213,9 @@ details[open] summary { margin-bottom: 10px; }
   .mc-chart .mc-bar { fill: #2563eb; }
   .mc-chart .mc-axis, .mc-chart .mc-label { fill: #0f2942; }
 }
+
+/* Tolerance level builder (CPS 230 tolerance levels page) */
+#tol-builder td select { font-size: 14px; padding: 6px 6px; min-width: 7.5em; }
+#tol-builder select.tol-l2 { border-color: rgba(251, 191, 36, 0.55); }
+#tol-builder select.tol-l3 { border-color: rgba(251, 146, 60, 0.75); }
+#tol-builder select.tol-l4 { border-color: rgba(248, 113, 113, 0.9); background: var(--red-soft); color: #fecaca; font-weight: 700; }
