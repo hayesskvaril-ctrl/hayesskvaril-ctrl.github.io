@@ -111,8 +111,8 @@ One plain-English explainer per instrument, covering "what it actually requires 
 
 - [x] About and credibility page (who's behind it, methodology, full disclaimer). A short disclaimer goes in every footer from Phase 1.
 - [x] Site search
-- [ ] Downloadable resource library page (one index of all templates and checklists)
-- [ ] "Start here" pathways (newcomer vs practitioner)
+- [x] Downloadable resource library page (one index of all templates and checklists)
+- [x] "Start here" pathways (newcomer vs practitioner)
 - [ ] Email updates / newsletter sign-up
 - [ ] Custom domain, branding, Google Ads
 
