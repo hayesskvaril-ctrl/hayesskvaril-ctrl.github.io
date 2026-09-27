@@ -114,8 +114,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 ## Phase 9 — Fixes, glossary, site plumbing and the yearly review system
 
 **Fix dangling references**
-- [ ] ASIC RG 97 Disclosing fees and costs explainer (`/standards/asic-rg-97.html`; the super page already links to it)
-- [ ] ASIC RG 259 Risk management systems of responsible entities explainer (`/standards/asic-rg-259.html`; the MIS page already links to it)
+- [x] ASIC RG 97 Disclosing fees and costs explainer (`/standards/asic-rg-97.html`; the super page already links to it)
+- [x] ASIC RG 259 Risk management systems of responsible entities explainer (`/standards/asic-rg-259.html`; the MIS page already links to it)
 
 **Glossary**
 - [ ] Add the ~30 terms used on the site but missing from the Glossary: ADI, significant financial institution (SFI), responsible entity, managed investment scheme, compliance plan, compliance committee, deemed significant (breach), CPS 511, SPS 515, ISMS, information asset, Liquidity Coverage Ratio, Common Equity Tier 1, Additional Tier 1, macroprudential policy, debt-to-income limit, Scams Prevention Framework, hawking, deferred sales model, utmost good faith, claims handling and settling services, distribution condition, review trigger, significant dealing, beneficial assumption, awareness (reporting clock), recovery and exit planning, product intervention power, greenwashing, financial hardship, vulnerable customer, sampling (control testing), SMSF, key function (FAR). Link first uses on pages to the new entries.
@@ -247,6 +247,7 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Nick to review (Phase 4):** CPS 230 explainer (requirement/evidence tables, SFI thresholds, 2026 amendments) and the ASIC RG 78, RG 271 and RG 277 pages.
 - **Watch and update (Phase 4 pages):** further CPS 230 amendments or APRA guidance; ASIC's remaining reportable-situations relief (RG 78 page); any new COSO guidance or framework updates; ISO/IEC 27001 amendments.
 - **Nick to review (Phase 5):** Superannuation trustee governance (covenants table, SPS list, performance test vs outcomes assessment, fee governance section), plus the super-related parts of the Managed investment schemes page (Shield / First Guardian).
+- **Nick to review (Phase 9):** RG 97 fees and costs explainer, especially the fee governance section and the illustrative worked example.
 - **Watch and update (Phase 5 pages):** performance test changes after Treasury's 2026 consultation; redrafted General Insurance Code (ASIC lodgement late 2026) and Life Code review outcome; Scams Prevention Framework obligations (March 2027); AT1 phase-out (from January 2027); Shield / First Guardian proceedings; APRA's proposed proportionality ("three-tier") framework.
 - **Nick to review (Phase 6):** the three scenario simulations in `/learn/scenarios.html` (fee error breach and remediation, administrator outage under CPS 230, whistleblower disclosure). The "best practice" answers and feedback are in `scripts/scenarios-data.js`.
 - **Nick to review (Phase 7):** the four templates in `/tools/`. Especially the incident report's notification checklist, the breach register's columns and example, and the CPS 230 / breach reporting checklists (item wording lives in `_scripts/templates/checklists_data.py`).
