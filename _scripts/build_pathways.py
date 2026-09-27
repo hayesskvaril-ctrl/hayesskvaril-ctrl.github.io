@@ -41,6 +41,12 @@ P = [
      ("/risk-management/business-continuity.html", "Staying within tolerance through disruption."),
      ("/risk-management/third-party-risk.html", "Managing reliance on service providers."),
      ("/standards/coso.html", "COSO's ERM and internal control frameworks.")]),
+   ("Advanced", [
+     ("/risk-management/quantitative-operational-risk.html", "Loss distributions, VaR and expected shortfall."),
+     ("/risk-management/scenario-analysis-and-stress-testing.html", "Severe but plausible scenarios and reverse stress tests."),
+     ("/risk-management/setting-cps-230-tolerance-levels.html", "A method for setting tolerance levels."),
+     ("/risk-management/risk-aggregation-and-correlation.html", "From many risks to one enterprise risk profile."),
+     ("/risk-management/control-testing-sampling.html", "Sample sizes, confidence and evidence.")]),
    ("Apply it", [
      ("/learn/risk-heat-map.html", "Build and score your own mini risk register."),
      ("/learn/scenarios.html", "Try \"The administrator goes dark\" (CPS 230 outage)."),
@@ -62,6 +68,9 @@ P = [
      ("/standards/asic-rg-271.html", "Complaints handling standards."),
      ("/standards/asic-rg-274.html", "Design and distribution obligations."),
      ("/standards/asic-rg-277.html", "Putting things right for customers.")]),
+   ("Advanced", [
+     ("/compliance/breach-significance-analysis.html", "Applying the significance tests to real-world style cases."),
+     ("/risk-management/control-testing-sampling.html", "How much compliance testing is enough.")]),
    ("Apply it", [
      ("/learn/scenarios.html", "Try \"The fee that shouldn't have been charged\"."),
      ("/learn/flashcards.html", "Practise the \"Key numbers and deadlines\" deck."),
@@ -79,6 +88,9 @@ P = [
      ("/governance/culture-and-conduct.html", "Culture, risk culture and conduct risk."),
      ("/risk-management/risk-appetite-and-tolerance.html", "The board's role in setting risk appetite."),
      ("/standards/coso.html", "The COSO frameworks behind many control environments.")]),
+   ("Advanced", [
+     ("/governance/board-risk-reporting.html", "What good board risk reporting looks like."),
+     ("/risk-management/risk-aggregation-and-correlation.html", "How the enterprise risk profile is built.")]),
    ("Apply it", [
      ("/learn/scenarios.html", "Try \"An uncomfortable email\" (whistleblower disclosure)."),
      ("/learn/quizzes.html", "Take the Governance quiz.")])]),
@@ -97,6 +109,10 @@ P = [
      ("/standards/asic-rg-271.html", "Complaints, including the 45-day super timeframe."),
      ("/governance/financial-accountability-regime.html", "FAR for super trustees since 15 March 2025."),
      ("/sectors/managed-investment-schemes.html", "Platforms, investment options and the Shield and First Guardian lessons.")]),
+   ("Advanced", [
+     ("/risk-management/setting-cps-230-tolerance-levels.html", "Tolerance levels, with a super fund example."),
+     ("/compliance/breach-significance-analysis.html", "Significance analysis, including a fee error case."),
+     ("/risk-management/scenario-analysis-and-stress-testing.html", "Liquidity and operational stress testing for funds.")]),
    ("Apply it", [
      ("/learn/scenarios.html", "Try \"The fee that shouldn't have been charged\" and \"The administrator goes dark\"."),
      ("/learn/quizzes.html", "Take the Sectors and Standards quizzes.")])]),
@@ -143,7 +159,7 @@ page = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Learning pathways | RiskLens Australia</title>
-<meta name="description" content="Suggested reading orders through RiskLens Australia for risk, compliance, governance, superannuation and cyber roles, from beginner to intermediate and practice, with progress tracking in your browser.">
+<meta name="description" content="Suggested reading orders through RiskLens Australia for risk, compliance, governance, superannuation and cyber roles, from beginner to advanced and practice, with progress tracking in your browser.">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -164,7 +180,7 @@ page = f'''<!DOCTYPE html>
   <aside class="takeaways" aria-labelledby="kt">
     <h2 id="kt">How pathways work</h2>
     <ul>
-      <li>Each pathway moves through <strong>Beginner</strong> pages, then <strong>Intermediate</strong> pages, then <strong>Apply it</strong>: scenarios, tools and quizzes.</li>
+      <li>Each pathway moves through <strong>Beginner</strong> pages, then <strong>Intermediate</strong> and, where available, <strong>Advanced</strong> pages, then <strong>Apply it</strong>: scenarios, tools and quizzes.</li>
       <li>Tick off pages as you finish them. Your progress is saved only in this browser, and a page ticked in one pathway is ticked in all of them.</li>
       <li>Advanced deep-dives are still being written and will be added to these pathways as they go live.</li>
     </ul>

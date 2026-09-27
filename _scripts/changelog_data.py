@@ -8,6 +8,9 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-27", "/learn/pathways.html", "Added an Advanced stage to the risk, compliance, governance and superannuation pathways."),
+    ("2026-09-27", "/start-here/", "Added a \"Go deeper\" route through the seven new Advanced topics."),
+    ("2026-09-27", "/glossary/", "Added VaR, expected shortfall, reverse stress testing, ICAAP, diversification benefit and tolerable deviation rate."),
     ("2026-09-27", "", "New look: the whole site moved to a dark, futuristic design, with fonts hosted on the site itself so no third-party requests are made."),
     ("2026-09-27", "/governance/financial-accountability-regime.html", "Added the regulators' proposed simplifications to the Financial Accountability Regime."),
     ("2026-09-27", "/compliance/consumer-protection.html", "Updated the Scams Prevention Framework timetable."),

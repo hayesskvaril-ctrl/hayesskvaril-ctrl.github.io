@@ -43,6 +43,10 @@ TOOLS = {
     "skills-matrix.js": ("Board skills matrix", "Tick which directors bring each skill to spot gaps and thin coverage.", "Intermediate"),
     "accountability-map.js": ("Accountability map explorer", "See who holds each responsibility in an example FAR map.", "Intermediate"),
     "deferral-calc.js": ("Remuneration deferral calculator", "See how deferral requirements apply to variable pay.", "Intermediate"),
+    "oprisk-sim.js": ("Operational loss Monte Carlo simulator", "Simulate 10,000 years of losses and see expected loss, VaR and expected shortfall.", "Advanced"),
+    "tolerance-builder.js": ("CPS 230 tolerance level builder", "Rate harm over time to find where disruption becomes intolerable.", "Advanced"),
+    "aggregation-calc.js": ("Risk aggregation calculator", "Combine three risks with correlations and see the diversification benefit.", "Advanced"),
+    "sampling-calc.js": ("Control testing sample size calculator", "Plan attribute samples and evaluate results as an upper deviation limit.", "Advanced"),
     "culture-radar.js": ("Risk culture self-reflection", "A personal reflection tool: rate a team on risk culture dimensions and see the shape.", "Intermediate"),
 }
 

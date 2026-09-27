@@ -141,7 +141,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Risk aggregation and correlation **(Advanced)**: building the enterprise risk profile, concentration and interdependency
 - [x] Board risk reporting design **(Advanced)**: reporting risk profile against appetite, KRI dashboards, aggregation, what good board papers look like
 - [x] Control testing sampling and assurance confidence **(Advanced)**: sample sizes, attribute testing, confidence and evidence standards. Flag for Nick.
-- [ ] Add an "Advanced" stage to learning pathways and Start here, and update the home page wording once these are live
+- [x] Add an "Advanced" stage to learning pathways and Start here, and update the home page wording once these are live
 
 ## Phase 11 — New compliance and governance topics
 

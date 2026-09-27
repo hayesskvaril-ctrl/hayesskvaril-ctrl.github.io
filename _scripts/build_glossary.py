@@ -519,6 +519,25 @@ TERMS = [
     ("key-function", "Key function (FAR)", "",
      "Under the Financial Accountability Regime, a business function listed in the rules (such as risk management or compliance) for which someone must hold accountable-person responsibility. The regulators have proposed removing the key functions requirements as part of simplifying FAR.",
      [("Financial Accountability Regime", "/governance/financial-accountability-regime.html")]),
+    # --- Phase 10 additions ---
+    ("var", "Value-at-risk", "VaR",
+     "The loss that is expected to be exceeded only with a small, stated probability over a period. For example, a one-year 99% VaR of $10 million means losses are expected to be worse than $10 million in only about 1 year in 100. It says nothing about how bad those worst years are.",
+     [("Quantitative operational risk", "/risk-management/quantitative-operational-risk.html")]),
+    ("expected-shortfall", "Expected shortfall", "ES",
+     "The average loss in the worst outcomes beyond a chosen confidence level. For example, 99% expected shortfall is the average of the worst 1% of years. Unlike VaR, it looks into the tail.",
+     [("Quantitative operational risk", "/risk-management/quantitative-operational-risk.html")]),
+    ("reverse-stress-testing", "Reverse stress testing", "",
+     "Starting from an outcome the organisation could not accept, such as breaching minimum capital or running out of liquid assets, and working backwards to identify the scenarios that would cause it.",
+     [("Scenario analysis and stress testing", "/risk-management/scenario-analysis-and-stress-testing.html")]),
+    ("icaap", "Internal capital adequacy assessment process", "ICAAP",
+     "The process a bank or insurer uses to assess how much capital it needs for its risks, now and in stress, and how it will maintain it. APRA's capital standards require it to include stress testing.",
+     [("Scenario analysis and stress testing", "/risk-management/scenario-analysis-and-stress-testing.html")]),
+    ("diversification-benefit", "Diversification benefit", "",
+     "The amount by which a combined risk measure is lower than the simple sum of individual risks, because the risks are unlikely to all go wrong at once. It depends on correlation assumptions and can shrink sharply in a crisis.",
+     [("Risk aggregation and correlation", "/risk-management/risk-aggregation-and-correlation.html")]),
+    ("tolerable-deviation-rate", "Tolerable deviation rate", "",
+     "In control testing, the highest rate at which a control can fail while still being relied on. Together with the confidence level, it sets the sample size.",
+     [("Control testing: sampling and assurance", "/risk-management/control-testing-sampling.html")]),
 ]
 
 

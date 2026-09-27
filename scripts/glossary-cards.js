@@ -361,6 +361,12 @@ window.GLOSSARY_CARDS = [
 "def": "A condition in a target market determination that limits how a product can be sold, such as only through certain channels or only after certain checks, to make it more likely it reaches the intended customers."
 },
 {
+"slug": "diversification-benefit",
+"term": "Diversification benefit",
+"abbr": "",
+"def": "The amount by which a combined risk measure is lower than the simple sum of individual risks, because the risks are unlikely to all go wrong at once. It depends on correlation assumptions and can shrink sharply in a crisis."
+},
+{
 "slug": "due-diligence",
 "term": "Due diligence",
 "abbr": "",
@@ -389,6 +395,12 @@ window.GLOSSARY_CARDS = [
 "term": "Enterprise risk management",
 "abbr": "ERM",
 "def": "Managing risk across the whole organisation in a joined-up way, linked to strategy, rather than in separate silos. ERM looks at how risks interact and at the organisation's total risk profile."
+},
+{
+"slug": "expected-shortfall",
+"term": "Expected shortfall",
+"abbr": "ES",
+"def": "The average loss in the worst outcomes beyond a chosen confidence level. For example, 99% expected shortfall is the average of the worst 1% of years. Unlike VaR, it looks into the tail."
 },
 {
 "slug": "far",
@@ -479,6 +491,12 @@ window.GLOSSARY_CARDS = [
 "term": "Internal audit",
 "abbr": "",
 "def": "An independent function, reporting to the board or audit committee, that gives objective assurance and advice on whether governance, risk management and controls are working. The third line in the Three Lines model."
+},
+{
+"slug": "icaap",
+"term": "Internal capital adequacy assessment process",
+"abbr": "ICAAP",
+"def": "The process a bank or insurer uses to assess how much capital it needs for its risks, now and in stress, and how it will maintain it. APRA's capital standards require it to include stress testing."
 },
 {
 "slug": "internal-control",
@@ -733,6 +751,12 @@ window.GLOSSARY_CARDS = [
 "def": "The public company, holding an AFS licence, that operates a registered managed investment scheme and owes legal duties to its members, including acting in their best interests. It stays responsible for the scheme even when it outsources tasks such as custody or investment management."
 },
 {
+"slug": "reverse-stress-testing",
+"term": "Reverse stress testing",
+"abbr": "",
+"def": "Starting from an outcome the organisation could not accept, such as breaching minimum capital or running out of liquid assets, and working backwards to identify the scenarios that would cause it."
+},
+{
 "slug": "review-trigger",
 "term": "Review trigger",
 "abbr": "",
@@ -949,6 +973,12 @@ window.GLOSSARY_CARDS = [
 "def": "A model published by the Institute of Internal Auditors describing how the governing body, management (first and second line roles) and internal audit (third line) work together on governance and risk. Updated in 2020 from the earlier \"three lines of defence\"."
 },
 {
+"slug": "tolerable-deviation-rate",
+"term": "Tolerable deviation rate",
+"abbr": "",
+"def": "In control testing, the highest rate at which a control can fail while still being relied on. Together with the confidence level, it sets the sample size."
+},
+{
 "slug": "tolerance-level",
 "term": "Tolerance level (CPS 230)",
 "abbr": "",
@@ -977,6 +1007,12 @@ window.GLOSSARY_CARDS = [
 "term": "Utmost good faith",
 "abbr": "",
 "def": "A duty on both insurers and policyholders to act honestly and fairly with each other, implied into every insurance contract by the Insurance Contracts Act 1984 (Cth). An insurer that breaches it, for example by unreasonably handling a claim, can face ASIC action."
+},
+{
+"slug": "var",
+"term": "Value-at-risk",
+"abbr": "VaR",
+"def": "The loss that is expected to be exceeded only with a small, stated probability over a period. For example, a one-year 99% VaR of $10 million means losses are expected to be worse than $10 million in only about 1 year in 100. It says nothing about how bad those worst years are."
 },
 {
 "slug": "variable-remuneration",

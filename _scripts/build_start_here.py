@@ -57,6 +57,18 @@ ROUTES = [
          ("/news/draft-cps-510-governance-overhaul.html", "What APRA's proposed governance standard would change."),
      ],
      ("/learn/pathways.html#governance", "Next: the governance and accountability pathway")),
+    ("advanced", "I want to go deeper",
+     "Advanced, practitioner-level topics that build on the core pages: quantification, stress testing, tolerance setting, significance analysis and assurance.",
+     [
+         ("/risk-management/setting-cps-230-tolerance-levels.html", "A method for setting CPS 230 tolerance levels, with an interactive builder."),
+         ("/compliance/breach-significance-analysis.html", "The significance tests applied to worked cases."),
+         ("/risk-management/scenario-analysis-and-stress-testing.html", "Severe but plausible scenarios and reverse stress testing."),
+         ("/risk-management/quantitative-operational-risk.html", "Loss distributions, VaR and a Monte Carlo simulator."),
+         ("/risk-management/risk-aggregation-and-correlation.html", "Building the enterprise risk profile."),
+         ("/risk-management/control-testing-sampling.html", "Sample sizes, confidence and evidence standards."),
+         ("/governance/board-risk-reporting.html", "Designing risk reporting for boards."),
+     ],
+     ("/learn/pathways.html#risk", "Next: the risk practitioner pathway")),
 ]
 
 cards = []
@@ -103,7 +115,7 @@ html = f'''<!DOCTYPE html>
   <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li>Start here</li></ol></nav>
 
   <h1>Start here</h1>
-  <p class="summary">RiskLens Australia has over 60 pages, tools and templates. Pick the route that fits you and follow the steps in order.</p>
+  <p class="summary">RiskLens Australia has over 80 pages, tools and templates. Pick the route that fits you and follow the steps in order.</p>
   <div class="page-meta">
     <span class="level level-beginner">Beginner</span>
     <span>Last reviewed: {REVIEWED}</span>
