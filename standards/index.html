@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regulatory and standards library | RiskLens Australia</title>
+<meta name="description" content="Plain-English explainers of key Australian prudential standards (CPS 230, CPS 220, CPS 234), ASIC regulatory guides, and international frameworks (ISO 31000, ISO 27001, COSO): what each one actually requires.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk Management</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/" aria-current="page">Standards</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article wide">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li>Standards</li></ol></nav>
+
+  <h1>Regulatory and standards library</h1>
+  <p class="summary">One plain-English explainer per instrument, focused on what it actually requires you to do, with links to the official source.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <div class="callout warn">
+    <h3>Always check the official version</h3>
+    <p>Standards and guides are updated regularly. Each explainer shows the version and date we checked, but the official text on the regulator's or publisher's website is what counts. ISO and COSO documents are copyrighted, so we describe them in our own words only.</p>
+  </div>
+
+  <h2>How the pieces fit</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Type</th><th scope="col">Binding?</th><th scope="col">Examples</th></tr></thead>
+      <tbody>
+        <tr><td><strong>APRA prudential standards</strong> (CPS, SPS, APS, GPS, LPS, HPS)</td><td>Yes: legally binding on regulated entities</td><td>CPS 230, CPS 220, CPS 234</td></tr>
+        <tr><td><strong>APRA prudential practice guides</strong> (CPG, SPG…)</td><td>No: guidance on APRA's expectations and better practice</td><td>CPG 230, CPG 234</td></tr>
+        <tr><td><strong>ASIC regulatory guides</strong> (RG)</td><td>Mostly guidance; some paragraphs are made enforceable by legislative instrument (e.g. parts of RG 271)</td><td>RG 78, RG 271, RG 274, RG 277</td></tr>
+        <tr><td><strong>International standards and frameworks</strong></td><td>Voluntary (unless required by contract); some are certifiable</td><td>ISO 31000, ISO/IEC 27001, COSO</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="small">APRA's prefixes: C = cross-industry, A = ADIs (banks), G = general insurers, L = life insurers, H = private health insurers, S = superannuation.</p>
+
+  <h2>The library</h2>
+  <div class="widget table-filter" data-target="#library">
+    <label for="lib-filter">Show instruments relevant to</label>
+    <select id="lib-filter">
+      <option value="all">All sectors</option>
+      <option value="bank">Banks (ADIs)</option>
+      <option value="insurer">Insurers</option>
+      <option value="super">Superannuation trustees</option>
+      <option value="afsl">AFS and credit licensees</option>
+    </select>
+    <p class="small tf-count" aria-live="polite"></p>
+  </div>
+
+  <div class="table-wrap">
+    <table id="library">
+      <thead><tr><th scope="col">Instrument</th><th scope="col">Issuer</th><th scope="col">In a sentence</th><th scope="col">Level</th></tr></thead>
+      <tbody>
+        <tr data-sectors="bank insurer super"><td><a class="xref" href="/standards/cps-230.html">CPS 230 Operational Risk Management</a></td><td>APRA</td><td>Operational risk, business continuity and service provider management, in force since 1 July 2025.</td><td><span class="level level-intermediate">Intermediate</span></td></tr>
+        <tr data-sectors="bank insurer super"><td><span class="xref" data-href="/standards/cps-220.html">CPS 220 Risk Management</span> (and SPS 220)</td><td>APRA</td><td>The enterprise-wide risk management framework, risk appetite and the CRO.</td><td><span class="level level-intermediate">Intermediate</span></td></tr>
+        <tr data-sectors="bank insurer super"><td><span class="xref" data-href="/standards/cps-234.html">CPS 234 Information Security</span></td><td>APRA</td><td>Information security capability, controls, testing and incident notification.</td><td><span class="level level-intermediate">Intermediate</span></td></tr>
+        <tr data-sectors="afsl super bank insurer"><td><span class="xref" data-href="/standards/asic-regulatory-guides.html">Key ASIC regulatory guides</span></td><td>ASIC</td><td>A guide to the most-used RGs, with explainers for RG 78, RG 271, RG 274 and RG 277.</td><td><span class="level level-intermediate">Intermediate</span></td></tr>
+        <tr data-sectors="all"><td><span class="xref" data-href="/standards/iso-31000.html">ISO 31000 Risk management</span></td><td>ISO</td><td>Principles, framework and process for managing any type of risk.</td><td><span class="level level-beginner">Beginner</span></td></tr>
+        <tr data-sectors="all"><td><span class="xref" data-href="/standards/iso-27001.html">ISO/IEC 27001 Information security</span></td><td>ISO/IEC</td><td>Requirements for a certifiable information security management system.</td><td><span class="level level-intermediate">Intermediate</span></td></tr>
+        <tr data-sectors="all"><td><span class="xref" data-href="/standards/coso.html">COSO ERM and Internal Control</span></td><td>COSO</td><td>The two COSO frameworks: enterprise risk management and internal control.</td><td><span class="level level-intermediate">Intermediate</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Looking for a topic rather than an instrument? Try the <a href="/risk-management/">Risk Management</a>, <a href="/compliance/">Compliance</a> and <a href="/governance/">Governance</a> sections.</p>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/table-filter.js"></script>
+</body>
+</html>

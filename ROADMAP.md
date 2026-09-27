@@ -68,8 +68,8 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 
 One plain-English explainer per instrument, covering "what it actually requires you to do". Check the current version on the official source before writing.
 
-- [ ] Library landing page
-- [ ] CPS 230 Operational Risk Management
+- [x] Library landing page
+- [x] CPS 230 Operational Risk Management
 - [ ] CPS 220 Risk Management
 - [ ] CPS 234 Information Security
 - [ ] Key ASIC Regulatory Guides (one page each, as relevant)
