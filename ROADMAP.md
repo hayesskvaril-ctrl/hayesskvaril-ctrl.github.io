@@ -79,7 +79,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 
 ## Phase 5 — Sector deep-dives (`/sectors/`)
 
-- [ ] Superannuation trustee governance (SIS Act, RSE licensee obligations). Flag for Nick's review, since it's his specialty.
+- [x] Superannuation trustee governance (SIS Act, RSE licensee obligations). Flag for Nick's review, since it's his specialty.
 - [ ] Banking / ADIs
 - [ ] Insurance
 - [ ] Managed investment schemes
