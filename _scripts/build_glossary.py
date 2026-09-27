@@ -538,6 +538,25 @@ TERMS = [
     ("tolerable-deviation-rate", "Tolerable deviation rate", "",
      "In control testing, the highest rate at which a control can fail while still being relied on. Together with the confidence level, it sets the sample size.",
      [("Control testing: sampling and assurance", "/risk-management/control-testing-sampling.html")]),
+    # --- Phase 12 additions ---
+    ("essential-eight", "Essential Eight", "",
+     "The Australian Signals Directorate's baseline set of eight cyber security mitigation strategies, such as patching, multi-factor authentication and backups, assessed against maturity levels from zero to three.",
+     [("ASD Essential Eight", "/standards/essential-eight.html"), ("Cyber risk management", "/risk-management/cyber-risk.html")]),
+    ("model-risk", "Model risk", "",
+     "The risk of loss or harm from decisions based on models, including statistical, actuarial and AI models, that are wrong or used inappropriately.",
+     [("Model risk management", "/risk-management/model-risk.html")]),
+    ("assurance-map", "Assurance map", "",
+     "A picture showing, for each key risk, which assurance providers (management, risk and compliance, internal audit and external parties) check it, how much and how well, to reveal gaps and duplication.",
+     [("Assurance mapping and combined assurance", "/risk-management/assurance-mapping.html")]),
+    ("fraud-triangle", "Fraud triangle", "",
+     "A model explaining why people commit fraud: pressure (a motive), opportunity (weak controls) and rationalisation (self-justification). Controls act mainly on opportunity.",
+     [("Fraud risk management", "/risk-management/fraud-risk.html")]),
+    ("responsible-manager", "Responsible manager", "",
+     "A person nominated by an AFS licensee who is directly responsible for significant day-to-day decisions about its financial services, and whose knowledge and skills demonstrate the licensee's organisational competence.",
+     [("RG 104 and RG 105", "/standards/asic-rg-104-and-rg-105.html")]),
+    ("issue", "Issue (control weakness)", "",
+     "A weakness in controls, processes or systems that needs fixing, whether or not harm has happened yet. Issues are rated, owned and tracked through actions until fixed and validated.",
+     [("Issue and action management", "/risk-management/issue-and-action-management.html")]),
 ]
 
 

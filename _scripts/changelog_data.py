@@ -8,6 +8,8 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-27", "/standards/", "Added 15 new explainers, including CPS 511, SPS 515, SPS 530, CPS 190 and CPS 900, RG 181, RG 270, ISO 22301, ISO 37301, ISO/IEC 42001 and the Essential Eight."),
+    ("2026-09-27", "/learn/pathways.html", "Added the new risk, governance, cyber and standards pages to the learning pathways."),
     ("2026-09-27", "/governance/ai-governance.html", "Added APRA's April 2026 letter to industry on AI risk management."),
     ("2026-09-27", "/news/regulatory-tracker.html", "Added mandatory climate reporting, further financial advice reforms, the proposed modern slavery offence and the foreign bribery failure to prevent offence."),
     ("2026-09-27", "/learn/pathways.html", "Added an Advanced stage to the risk, compliance, governance and superannuation pathways."),

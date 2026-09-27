@@ -37,6 +37,12 @@ window.GLOSSARY_CARDS = [
 "def": "An objective check that gives decision-makers confidence that something (a control, a process, a report) is working as intended. Internal audit provides independent assurance; management and second-line functions can also provide assurance."
 },
 {
+"slug": "assurance-map",
+"term": "Assurance map",
+"abbr": "",
+"def": "A picture showing, for each key risk, which assurance providers (management, risk and compliance, internal audit and external parties) check it, how much and how well, to reveal gaps and duplication."
+},
+{
 "slug": "accc",
 "term": "Australian Competition and Consumer Commission",
 "abbr": "ACCC",
@@ -397,6 +403,12 @@ window.GLOSSARY_CARDS = [
 "def": "Managing risk across the whole organisation in a joined-up way, linked to strategy, rather than in separate silos. ERM looks at how risks interact and at the organisation's total risk profile."
 },
 {
+"slug": "essential-eight",
+"term": "Essential Eight",
+"abbr": "",
+"def": "The Australian Signals Directorate's baseline set of eight cyber security mitigation strategies, such as patching, multi-factor authentication and backups, assessed against maturity levels from zero to three."
+},
+{
 "slug": "expected-shortfall",
 "term": "Expected shortfall",
 "abbr": "ES",
@@ -431,6 +443,12 @@ window.GLOSSARY_CARDS = [
 "term": "Fourth party",
 "abbr": "",
 "def": "A supplier's supplier: a company that your service provider relies on (a subcontractor). Problems at a fourth party can disrupt you even though you have no contract with them."
+},
+{
+"slug": "fraud-triangle",
+"term": "Fraud triangle",
+"abbr": "",
+"def": "A model explaining why people commit fraud: pressure (a motive), opportunity (weak controls) and rationalisation (self-justification). Controls act mainly on opportunity."
 },
 {
 "slug": "governance",
@@ -517,6 +535,12 @@ window.GLOSSARY_CARDS = [
 "def": "The international guideline on risk management, published by the International Organization for Standardization. The current edition is ISO 31000:2018. It sets out principles, a framework and a process. It is guidance, so organisations cannot be certified against it."
 },
 {
+"slug": "issue",
+"term": "Issue (control weakness)",
+"abbr": "",
+"def": "A weakness in controls, processes or systems that needs fixing, whether or not harm has happened yet. Issues are rated, owned and tracked through actions until fixed and validated."
+},
+{
 "slug": "key-control",
 "term": "Key control",
 "abbr": "",
@@ -599,6 +623,12 @@ window.GLOSSARY_CARDS = [
 "term": "Member outcomes assessment",
 "abbr": "",
 "def": "The annual assessment super trustees must make under the SIS Act of whether they are promoting members' financial interests, covering matters such as fees, returns, investment risk and insurance. It must be published on the fund's website."
+},
+{
+"slug": "model-risk",
+"term": "Model risk",
+"abbr": "",
+"def": "The risk of loss or harm from decisions based on models, including statistical, actuarial and AI models, that are wrong or used inappropriately."
 },
 {
 "slug": "mysuper",
@@ -749,6 +779,12 @@ window.GLOSSARY_CARDS = [
 "term": "Responsible entity",
 "abbr": "RE",
 "def": "The public company, holding an AFS licence, that operates a registered managed investment scheme and owes legal duties to its members, including acting in their best interests. It stays responsible for the scheme even when it outsources tasks such as custody or investment management."
+},
+{
+"slug": "responsible-manager",
+"term": "Responsible manager",
+"abbr": "",
+"def": "A person nominated by an AFS licensee who is directly responsible for significant day-to-day decisions about its financial services, and whose knowledge and skills demonstrate the licensee's organisational competence."
 },
 {
 "slug": "reverse-stress-testing",

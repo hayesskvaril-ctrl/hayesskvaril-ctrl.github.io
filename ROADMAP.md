@@ -168,8 +168,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 **Standards library**
 - [x] APRA: CPS 511 Remuneration; SPS 515 Strategic Planning and Member Outcomes; SPS 530 Investment Governance; CPS 190 and CPS 900 recovery and resolution; current CPS/SPS 510 and 520 (governance, fit and proper); APS 110 and APS 210 capital and liquidity basics
 - [x] ASIC: RG 181 Managing conflicts of interest; RG 270 Whistleblower policies; RG 104/105 licensee general obligations and competence
-- [ ] Other standards: ISO 22301 (business continuity), ISO 37301 (compliance management), ISO 37001 (anti-bribery), ISO/IEC 42001 (AI management), ASD Essential Eight, IIA Global Internal Audit Standards (all in our own words)
-- [ ] Add every new page to the standards library index and its sector filter
+- [x] Other standards: ISO 22301 (business continuity), ISO 37301 (compliance management), ISO 37001 (anti-bribery), ISO/IEC 42001 (AI management), ASD Essential Eight, IIA Global Internal Audit Standards (all in our own words)
+- [x] Add every new page to the standards library index and its sector filter
 
 ## Phase 13 — Real-world case studies and new sectors
 
