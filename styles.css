@@ -608,3 +608,11 @@ details[open] summary { margin-bottom: 10px; }
 .tier-q label { display: inline-flex; align-items: center; gap: 6px; margin-right: 20px; font-weight: 400; }
 .tier-q input { width: 18px; height: 18px; }
 .tier-detail p { font-size: 15px; margin: 10px 0 0; }
+
+/* ---------- Breach regime finder (scripts/breach-finder.js) ---------- */
+
+#breach-finder .tier-q label { display: flex; margin: 6px 0; }
+.bf-list { list-style: none; margin: 6px 0 8px; }
+.bf-list li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 8px 12px; border-left: 4px solid var(--red); background: #fff7f7; margin-bottom: 6px; border-radius: 0 6px 6px 0; }
+.bf-list li a { font-weight: 600; }
+.bf-list li span { font-size: 14px; color: var(--red); font-weight: 600; }

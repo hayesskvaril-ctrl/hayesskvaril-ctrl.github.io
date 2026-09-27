@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breach and incident reporting obligations | RiskLens Australia</title>
+<meta name="description" content="A regime-by-regime guide to breach and incident reporting in Australian financial services: ASIC reportable situations, notifying affected clients, APRA, OAIC data breaches, DDO significant dealings, AUSTRAC and cyber reporting, with an interactive regime finder.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk Management</a></li>
+        <li><a href="/compliance/" aria-current="page">Compliance</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/compliance/">Compliance</a></li><li>Breach and incident reporting obligations</li></ol></nav>
+
+  <h1>Breach and incident reporting obligations</h1>
+  <p class="summary">A regime-by-regime guide to who must be told what, and how fast, when something goes wrong in an Australian financial services business.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 16 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>There is no single reporting regime. One event can trigger reports to ASIC, APRA, the OAIC, AUSTRAC and others, each with its own test and deadline.</li>
+      <li>ASIC's <a class="term" href="/glossary/#reportable-situation">reportable situations</a> regime is the broadest for AFS and credit licensees: significant breaches of <a class="term" href="/glossary/#core-obligation">core obligations</a> must be reported within 30 calendar days.</li>
+      <li>Licensees giving personal advice to retail clients must also notify, investigate and remediate affected clients.</li>
+      <li>APRA's clocks are shorter: 24 or 72 hours for serious operational and information security incidents.</li>
+      <li>Most clocks start from awareness (or recklessness), not from the end of an investigation. Good processes capture the date of awareness from day one.</li>
+    </ul>
+  </aside>
+
+  <p>This page is the reference companion to <a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a>, which covers the end-to-end process. Here we go through each regime in turn.</p>
+
+  <h2>Which regimes might apply? A quick finder</h2>
+  <div class="widget" id="breach-finder">
+    <h3>Interactive: regime finder</h3>
+    <p class="small">Tick what describes the organisation and the event. The finder lists regimes worth assessing. It is a teaching aid, not legal advice.</p>
+    <fieldset class="tier-q"><legend>The organisation…</legend>
+      <label><input type="checkbox" name="afsl"> holds an AFS or credit licence</label>
+      <label><input type="checkbox" name="apra"> is APRA-regulated</label>
+      <label><input type="checkbox" name="super"> is a super trustee (RSE licensee)</label>
+      <label><input type="checkbox" name="advice"> gives personal advice to retail clients</label>
+    </fieldset>
+    <fieldset class="tier-q"><legend>The event involves…</legend>
+      <label><input type="checkbox" name="breach"> a possible breach of financial services or super law</label>
+      <label><input type="checkbox" name="opmaterial"> a potentially material operational risk incident</label>
+      <label><input type="checkbox" name="critical"> disruption to a critical operation beyond tolerance</label>
+      <label><input type="checkbox" name="cyber"> a material information security incident</label>
+      <label><input type="checkbox" name="personal"> unauthorised access to or loss of personal information</label>
+      <label><input type="checkbox" name="ddo"> products sold outside their target market</label>
+      <label><input type="checkbox" name="aml"> suspicion of money laundering, fraud or terrorism financing</label>
+      <label><input type="checkbox" name="ransom"> a ransomware or cyber extortion payment</label>
+    </fieldset>
+    <div class="bf-results" aria-live="polite"></div>
+    <noscript><p>The finder needs JavaScript. The sections below cover each regime.</p></noscript>
+  </div>
+
+  <h2 id="asic">1. ASIC reportable situations</h2>
+  <p><strong>Who:</strong> AFS licensees and Australian credit licensees, including super trustees (who hold an AFS licence).<br>
+  <strong>Law:</strong> Corporations Act ss 912D, 912DAA and 912DAB; National Consumer Credit Protection Act equivalents. In force since 1 October 2021.<br>
+  <strong>Guidance:</strong> ASIC Regulatory Guide 78.</p>
+
+  <h3>What is reportable?</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Category</th><th scope="col">In brief</th></tr></thead>
+      <tbody>
+        <tr><td>Significant breaches of core obligations</td><td>Actual or likely breaches that are significant, either because they are "deemed significant" or because they are significant having regard to the relevant factors.</td></tr>
+        <tr><td>Investigations</td><td>An investigation into whether there is a reportable significant breach that continues beyond the set period. ASIC relief extended this from 30 to 60 days, from 27 June 2025.</td></tr>
+        <tr><td>Additional reportable situations</td><td>Including conduct constituting gross negligence or serious fraud by the licensee or its representatives.</td></tr>
+        <tr><td>About other licensees</td><td>Licensees must report reportable situations about certain other licensees' individual advisers or mortgage brokers in specified circumstances.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>"Deemed significant" breaches</h3>
+  <p>A breach of a core obligation is automatically significant if:</p>
+  <ul>
+    <li>it is an offence punishable by imprisonment of 12 months or more (3 months or more if it involves dishonesty);</li>
+    <li>it is a contravention of a civil penalty provision (unless excluded by regulation);</li>
+    <li>it contravenes the prohibition on misleading or deceptive conduct in relation to financial products or services (Corporations Act s 1041H(1) or ASIC Act s 12DA(1)); or</li>
+    <li>it results, or is likely to result, in material loss or damage to clients or members.</li>
+  </ul>
+  <p>Otherwise, significance is assessed against factors such as the number or frequency of similar breaches, the impact on the licensee's ability to provide its services, and the extent to which the breach indicates that compliance arrangements are inadequate.</p>
+
+  <h3>Timing and lodgement</h3>
+  <p>Report within <strong>30 calendar days</strong> after the licensee first knows, or is reckless about whether, there are reasonable grounds to believe a reportable situation has arisen, using ASIC's prescribed form through the ASIC Regulatory Portal. ASIC publishes aggregated reportable situations data, which lets licensees compare themselves with the industry.</p>
+
+  <h2 id="nir">2. Notify, investigate and remediate affected clients</h2>
+  <p><strong>Who:</strong> AFS licensees that provide personal advice to retail clients about relevant financial products (and credit licensees providing credit assistance), where there are reasonable grounds to suspect a reportable situation involving a representative has caused loss or damage to clients.<br>
+  <strong>Law:</strong> Corporations Act ss 912EA and 912EB (and credit equivalents).</p>
+  <ul>
+    <li>Take reasonable steps to <strong>notify affected clients</strong> within 30 days after first knowing (or being reckless about) the circumstances.</li>
+    <li><strong>Investigate</strong> the full extent of the issue and tell affected clients the outcome.</li>
+    <li>Take reasonable steps to <strong>pay affected clients</strong> an amount equal to their loss or damage within 30 days after the investigation is complete.</li>
+  </ul>
+  <p>More broadly, ASIC's <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-277-consumer-remediation/">Regulatory Guide 277</a> sets its expectations for all consumer remediation by AFS and credit licensees.</p>
+
+  <h2 id="apra">3. APRA</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Source</th><th scope="col">What</th><th scope="col">Timeframe</th></tr></thead>
+      <tbody>
+        <tr><td>CPS 230</td><td>Disruption to a critical operation outside tolerance</td><td>As soon as possible, no later than 24 hours</td></tr>
+        <tr><td>CPS 230</td><td>Operational risk incident likely to have a material financial impact or a material impact on the ability to maintain critical operations</td><td>As soon as possible, no later than 72 hours after becoming aware</td></tr>
+        <tr><td>CPS 230</td><td>Entering into or materially changing a material service provider arrangement</td><td>No later than 20 business days (and before material offshoring)</td></tr>
+        <tr><td>CPS 234</td><td>Material information security incident</td><td>As soon as possible, no later than 72 hours after becoming aware</td></tr>
+        <tr><td>CPS 234</td><td>Material information security control weakness not able to be remediated in a timely way</td><td>No later than 10 business days after becoming aware</td></tr>
+        <tr><td>SIS Act s 29JA</td><td>Significant breaches by RSE licensees and certain other matters</td><td>In writing within 30 days of becoming aware; certain matters immediately</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Banks and insurers have further breach notification requirements in their governing Acts and prudential standards. APRA's "Notify a breach or incident" page explains how to lodge, and its breach form allows a single notification to be shared with ASIC where both need to know.</p>
+
+  <h2 id="oaic">4. OAIC: Notifiable Data Breaches scheme</h2>
+  <p><strong>Who:</strong> organisations and agencies covered by the <em>Privacy Act 1988</em> (Cth).<br>
+  <strong>What:</strong> an <a class="term" href="/glossary/#ndb">eligible data breach</a>: unauthorised access to, disclosure or loss of personal information that is likely to result in serious harm to any of the individuals, where remedial action hasn't prevented that likely harm.</p>
+  <ul>
+    <li>If you suspect an eligible data breach, carry out a reasonable and expeditious assessment, generally within <strong>30 days</strong>.</li>
+    <li>If it is eligible, notify the OAIC and affected individuals <strong>as soon as practicable</strong>.</li>
+    <li>If the data was held by a service provider, both may have obligations; usually one entity notifies on behalf of all.</li>
+  </ul>
+  <p>More: <span class="xref" data-href="/compliance/privacy-law.html">Privacy law</span>.</p>
+
+  <h2 id="ddo">5. Design and distribution: significant dealings</h2>
+  <p>Under the <a class="term" href="/glossary/#ddo">design and distribution obligations</a>, a product issuer must notify ASIC within <strong>10 business days</strong> after becoming aware of a significant dealing in a product that is not consistent with its <a class="term" href="/glossary/#tmd">target market determination</a> (Corporations Act s 994G). Distributors must report complaints and other information to issuers so they can monitor this. More: <span class="xref" data-href="/compliance/consumer-protection.html">Consumer protection</span>.</p>
+
+  <h2 id="austrac">6. AUSTRAC</h2>
+  <p>AML/CTF reports aren't "breach" reports, but they are time-critical obligations that often arise from the same events (for example a fraud or account takeover).</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Report</th><th scope="col">Trigger</th><th scope="col">Timeframe</th></tr></thead>
+      <tbody>
+        <tr><td><a class="term" href="/glossary/#smr">Suspicious matter report</a> (SMR)</td><td>A suspicion formed on specified grounds, e.g. possible money laundering, fraud or identity issues</td><td>Within 3 business days; within 24 hours if related to terrorism financing</td></tr>
+        <tr><td>Threshold transaction report (TTR)</td><td>Transfer of physical currency of $10,000 or more</td><td>Within 10 business days</td></tr>
+        <tr><td>International funds transfer instruction (IFTI)</td><td>Sending or receiving an international funds transfer instruction</td><td>Within 10 business days</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout warn">
+    <h3>Don't tip off</h3>
+    <p>It is an offence to disclose to a customer (or anyone else, other than as permitted) that an SMR has been made or is being considered. This affects how incident communications are handled. More: <span class="xref" data-href="/compliance/aml-ctf-fundamentals.html">AML/CTF fundamentals</span>.</p>
+  </div>
+
+  <h2 id="cyber">7. Cyber-specific regimes</h2>
+  <ul>
+    <li><strong>Ransomware payments:</strong> since 30 May 2025, businesses with annual turnover of $3 million or more (and responsible entities for critical infrastructure assets) that make a ransomware or cyber extortion payment must report it to the Australian Signals Directorate within 72 hours, under the <em>Cyber Security Act 2024</em> (Cth).</li>
+    <li><strong>Critical infrastructure:</strong> responsible entities for critical infrastructure assets under the <em>Security of Critical Infrastructure Act 2018</em> (Cth), which include some financial services assets, must report critical cyber security incidents within 12 hours and other relevant incidents within 72 hours.</li>
+  </ul>
+
+  <h2>Putting it together: one event, many reports</h2>
+  <div class="callout example">
+    <h3>Worked example</h3>
+    <p>A super trustee's administrator is hit by a cyber attack. Member data is stolen and payments stop for five days. The trustee may need to consider:</p>
+    <ul>
+      <li><strong>APRA:</strong> CPS 230 (critical operation outside tolerance: 24 hours; material operational risk incident: 72 hours), CPS 234 (material information security incident: 72 hours), and SIS Act breach reporting if obligations to members were breached.</li>
+      <li><strong>OAIC:</strong> assess and, if eligible, notify the data breach as soon as practicable, and tell affected members.</li>
+      <li><strong>ASIC:</strong> a reportable situation if a core obligation was significantly breached (e.g. failure to act efficiently, honestly and fairly, or material loss to members): 30 days.</li>
+      <li><strong>ASD:</strong> if a ransom payment is made: 72 hours.</li>
+      <li><strong>AUSTRAC:</strong> if stolen identities are later used for fraudulent withdrawals, suspicious matter reports.</li>
+    </ul>
+    <p>A single coordinated incident team and a consistent set of facts help make sure each regulator gets an accurate, timely and consistent picture.</p>
+  </div>
+
+  <div class="callout">
+    <h3>Reviewer's note</h3>
+    <p>This is a summary for education. Each regime has detailed definitions, exceptions and forms. Always check the current law and regulator guidance, linked below, before relying on a timeframe.</p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/incident-and-breach-management.html" data-label="Incident and breach management (process)"><a href="/risk-management/incident-and-breach-management.html">Incident and breach management (process)</a></li>
+      <li data-href="/compliance/designing-a-compliance-program.html" data-label="Designing a compliance program"><a href="/compliance/designing-a-compliance-program.html">Designing a compliance program</a></li>
+      <li data-href="/compliance/privacy-law.html" data-label="Privacy law">Privacy law <span class="soon">(coming soon)</span></li>
+      <li data-href="/compliance/aml-ctf-fundamentals.html" data-label="AML/CTF fundamentals">AML/CTF fundamentals <span class="soon">(coming soon)</span></li>
+      <li data-href="/tools/" data-label="Breach register template">Breach register template <span class="soon">(coming soon)</span></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/financial-services/reportable-situations-for-afs-and-credit-licensees">Reportable situations for AFS and credit licensees</a>; <a href="https://download.asic.gov.au/media/2wxlpkr0/rg78-published-19-december-2023-20260216.pdf">Regulatory Guide 78</a>; <a href="https://www.asic.gov.au/about-asic/news-centre/news-items/asic-gives-further-relief-for-licensees-under-the-reportable-situations-regime">ASIC gives further relief for licensees under the reportable situations regime</a>.</li>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/financial-services/reportable-situations-for-afs-and-credit-licensees/complying-with-the-notify-investigate-and-remediate-obligations/">Complying with the notify, investigate and remediate obligations</a>.</li>
+      <li><em>Corporations Act 2001</em> (Cth), <a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/ca2001172/s912d.html">s 912D</a>, <a href="https://www5.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s912ea.html">s 912EA</a> and <a href="https://classic.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s994g.html">s 994G</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/about-us/our-functions/notify-breach-or-incident">Notify a breach or incident</a>; <a href="https://www.apra.gov.au/standards/cps-230">CPS 230</a>; <a href="https://www.apra.gov.au/standards/cps-234">CPS 234</a>.</li>
+      <li>Office of the Australian Information Commissioner, <a href="https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme">About the Notifiable Data Breaches scheme</a>.</li>
+      <li>AUSTRAC, <a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports">Suspicious matter reports</a> and <a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/international-funds-transfer-reports">International funds transfer reports</a>.</li>
+      <li>Department of Home Affairs, <a href="https://www.homeaffairs.gov.au/cyber-security-subsite/files/factsheet-ransomware-payment-reporting.pdf">Ransomware payment reporting factsheet</a> (Cyber Security Act 2024); Cyber and Infrastructure Security Centre, <a href="https://www.cisc.gov.au/resources-subsite/Documents/cisc-factsheet-soci-obligations.pdf">SOCI Act obligations factsheet</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/breach-finder.js"></script>
+</body>
+</html>

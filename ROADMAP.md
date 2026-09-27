@@ -47,7 +47,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 
 - [x] Pillar landing page
 - [x] Designing a compliance program
-- [ ] Breach and incident reporting obligations
+- [x] Breach and incident reporting obligations
 - [ ] Licensing basics (AFSL, RSE licence)
 - [ ] Disclosure obligations
 - [ ] Consumer protection
