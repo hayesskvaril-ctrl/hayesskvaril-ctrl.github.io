@@ -160,8 +160,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Model risk management (including AI and actuarial models, validation, model inventory)
 - [x] Fraud risk management (internal and external fraud, controls, detection analytics, scams interface)
 - [x] Internal audit (role, Global Internal Audit Standards, audit committee, APRA expectations)
-- [ ] Assurance mapping and combined assurance (links Three Lines, control testing and internal audit)
-- [ ] Issue and action management (raising, rating, tracking and closing issues; validation of fixes)
+- [x] Assurance mapping and combined assurance (links Three Lines, control testing and internal audit)
+- [x] Issue and action management (raising, rating, tracking and closing issues; validation of fixes)
 - [ ] Risk culture deep dive (assessment methods, APRA's approach, indicators and interventions)
 - [ ] Change, project and reputational risk (one page or two, depending on depth)
 
@@ -248,6 +248,7 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Watch and update (Phase 4 pages):** further CPS 230 amendments or APRA guidance; ASIC's remaining reportable-situations relief (RG 78 page); any new COSO guidance or framework updates; ISO/IEC 27001 amendments.
 - **Nick to review (Phase 5):** Superannuation trustee governance (covenants table, SPS list, performance test vs outcomes assessment, fee governance section), plus the super-related parts of the Managed investment schemes page (Shield / First Guardian).
 - **Nick to review (Phase 10):** Setting CPS 230 tolerance levels (method, worked examples for super and bank, the builder's example ratings); Breach significance analysis (the four worked cases and their illustrative conclusions, the multi-regime table); Control testing sampling (sample size tables, deviation handling, evidence standards).
+- **Nick to review (Phase 12):** Assurance mapping (example map) and Issue and action management (rating scale, timeframes, closure vs validation).
 - **Nick to review (Phase 9):** RG 97 fees and costs explainer, especially the fee governance section and the illustrative worked example.
 - **Watch and update (Phase 5 pages):** performance test changes after Treasury's 2026 consultation; redrafted General Insurance Code (ASIC lodgement late 2026) and Life Code review outcome; Scams Prevention Framework obligations (March 2027); AT1 phase-out (from January 2027); Shield / First Guardian proceedings; APRA's proposed proportionality ("three-tier") framework.
 - **Nick to review (Phase 6):** the three scenario simulations in `/learn/scenarios.html` (fee error breach and remediation, administrator outage under CPS 230, whistleblower disclosure). The "best practice" answers and feedback are in `scripts/scenarios-data.js`.

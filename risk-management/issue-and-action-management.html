@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Issue and action management | RiskLens Australia</title>
+<meta name="description" content="Issue and action management explained: the difference between incidents, breaches and issues, the issue lifecycle, rating and timeframes, writing good actions, closure and independent validation, extensions, overdue reporting and thematic analysis.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/issue-and-action-management.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Issue and action management">
+<meta property="og:description" content="Issue and action management explained: the difference between incidents, breaches and issues, the issue lifecycle, rating and timeframes, writing good actions, closure and independent validation, extensions, overdue reporting and thematic analysis.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/issue-and-action-management.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Issue and action management</li></ol></nav>
+
+  <h1>Issue and action management</h1>
+  <p class="summary">How organisations record, rate, fix and verify control weaknesses, so problems found by audits, testing and incidents actually get fixed.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 10 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>An <strong>issue</strong> is a weakness in controls, processes or systems that needs fixing. An <strong>action</strong> is the specific task, with an owner and due date, that fixes it.</li>
+      <li>Issues come from many sources: internal audit, control testing, incidents, compliance reviews, regulators and self-identification. Keeping them in one register makes themes visible.</li>
+      <li>Consistent <strong>ratings</strong> drive how quickly issues must be fixed and what reaches the board.</li>
+      <li>Separate <strong>closure</strong> (the owner says it is done) from <strong>validation</strong> (someone independent confirms the fix works), especially for high-rated issues.</li>
+      <li>Overdue actions, repeated extensions and repeat issues are warning signs about control effectiveness and culture.</li>
+    </ul>
+  </aside>
+
+<h2>Issues, incidents and breaches</h2>
+  <p>These terms overlap, and organisations define them differently, but a common approach is:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Term</th><th scope="col">Meaning</th><th scope="col">Example</th></tr></thead>
+      <tbody>
+        <tr><td><a class="term" href="/glossary/#incident">Incident</a></td><td>An event that has happened, or nearly happened, causing or threatening harm.</td><td>Members were charged the wrong fee last month.</td></tr>
+        <tr><td><a class="term" href="/glossary/#breach">Breach</a></td><td>A failure to meet an obligation, which may need reporting.</td><td>The fee was not permitted by the PDS.</td></tr>
+        <tr><td><strong>Issue</strong></td><td>A weakness in controls, processes or systems that needs fixing, whether or not harm has occurred yet.</td><td>The fee rate table can be changed without independent review.</td></tr>
+        <tr><td><strong>Action</strong></td><td>A specific task, with an owner and due date, that fixes an issue.</td><td>Introduce maker-checker approval for rate table changes by 31 March.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>One incident can reveal several issues, and one issue may take several actions to fix. See <a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a> for the incident side.</p>
+
+  <h2>The issue lifecycle</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 210" role="img" aria-labelledby="il-title il-desc">
+      <title id="il-title">The issue and action lifecycle</title>
+      <desc id="il-desc">Six stages. Raise: record the issue from any source, such as audits, control testing, incidents, self-identification or regulators. Rate: assess its severity. Own and plan: assign an owner and agree actions with due dates. Track: monitor progress, with extensions formally approved. Close: the owner provides evidence the actions are done. Validate: an independent party checks the fix works, especially for high-rated issues. Overdue and high-rated issues are reported to senior management and the board throughout.</desc>
+      <defs><marker id="il-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="12.5" text-anchor="middle">
+        <rect x="10" y="20" width="105" height="100" rx="10" fill="#0f2942"/><text x="62" y="56" fill="#fff" font-weight="700">1. Raise</text><text x="62" y="78" fill="#cbd8e8">any source,</text><text x="62" y="94" fill="#cbd8e8">one register</text>
+        <rect x="128" y="20" width="105" height="100" rx="10" fill="#1b3a5c"/><text x="180" y="56" fill="#fff" font-weight="700">2. Rate</text><text x="180" y="78" fill="#cbd8e8">severity,</text><text x="180" y="94" fill="#cbd8e8">root cause</text>
+        <rect x="246" y="20" width="105" height="100" rx="10" fill="#1b3a5c"/><text x="298" y="56" fill="#fff" font-weight="700">3. Own, plan</text><text x="298" y="78" fill="#cbd8e8">owner, actions,</text><text x="298" y="94" fill="#cbd8e8">due dates</text>
+        <rect x="364" y="20" width="105" height="100" rx="10" fill="#1b3a5c"/><text x="416" y="56" fill="#fff" font-weight="700">4. Track</text><text x="416" y="78" fill="#cbd8e8">progress,</text><text x="416" y="94" fill="#cbd8e8">extensions</text>
+        <rect x="482" y="20" width="105" height="100" rx="10" fill="#2563eb"/><text x="534" y="56" fill="#fff" font-weight="700">5. Close</text><text x="534" y="78" fill="#e8f0fe">evidence</text><text x="534" y="94" fill="#e8f0fe">provided</text>
+        <rect x="600" y="20" width="110" height="100" rx="10" fill="#2563eb"/><text x="655" y="56" fill="#fff" font-weight="700">6. Validate</text><text x="655" y="78" fill="#e8f0fe">independent</text><text x="655" y="94" fill="#e8f0fe">check it works</text>
+        <line x1="116" y1="70" x2="126" y2="70" stroke="#2563eb" stroke-width="2.5" marker-end="url(#il-ar)"/>
+        <line x1="234" y1="70" x2="244" y2="70" stroke="#2563eb" stroke-width="2.5" marker-end="url(#il-ar)"/>
+        <line x1="352" y1="70" x2="362" y2="70" stroke="#2563eb" stroke-width="2.5" marker-end="url(#il-ar)"/>
+        <line x1="470" y1="70" x2="480" y2="70" stroke="#2563eb" stroke-width="2.5" marker-end="url(#il-ar)"/>
+        <line x1="588" y1="70" x2="598" y2="70" stroke="#2563eb" stroke-width="2.5" marker-end="url(#il-ar)"/>
+        <rect x="10" y="140" width="700" height="56" rx="10" fill="#e8f0fe" stroke="#93b4f5"/>
+        <text x="360" y="164" fill="#0f2942" font-weight="700">Throughout: reporting of high-rated and overdue issues, and themes across issues,</text>
+        <text x="360" y="184" fill="#0f2942">to senior management, the risk committee and the audit committee</text>
+      </g>
+    </svg>
+    <figcaption>A typical issue lifecycle. Validation is easy to skip, but it is what shows the fix actually works.</figcaption>
+  </figure>
+
+  <h2>Rating issues and setting timeframes</h2>
+  <p>A consistent rating scale lets different teams' issues be compared and prioritised. Ratings usually consider the potential impact if the weakness is exploited or fails, and how likely that is, much like a <a href="/risk-management/risk-assessment-methodologies.html">risk rating</a>.</p>
+  <div class="table-wrap">
+    <table>
+      <caption>Illustrative only. Organisations set their own scales and target timeframes.</caption>
+      <thead><tr><th scope="col">Rating</th><th scope="col">Typical description</th><th scope="col">Example target to fix</th><th scope="col">Validation</th></tr></thead>
+      <tbody>
+        <tr><td>Critical</td><td>Could cause severe harm to customers, breach of law or significant loss; immediate attention.</td><td>Interim fix within days; full fix within 1–3 months</td><td>Independent validation required</td></tr>
+        <tr><td>High</td><td>Significant control weakness in a material process.</td><td>3–6 months</td><td>Independent validation required</td></tr>
+        <tr><td>Medium</td><td>Weakness with moderate impact, or compensating controls exist.</td><td>6–12 months</td><td>Second-line or sample validation</td></tr>
+        <tr><td>Low</td><td>Minor improvement opportunity.</td><td>Within 12 months</td><td>Owner attestation</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Writing good actions</h2>
+  <ul>
+    <li><strong>Fix the root cause,</strong> not just the symptom. "Refund affected members" fixes the harm; "introduce independent review of rate changes" fixes the cause. Both may be needed.</li>
+    <li><strong>Be specific and testable:</strong> what will be done, by whom, by when, and what evidence will show it's done.</li>
+    <li><strong>Break big fixes into milestones</strong> so progress is visible and slippage is caught early.</li>
+    <li><strong>Consider interim controls</strong> to reduce risk while the permanent fix is built.</li>
+  </ul>
+
+  <h2>Closing and validating</h2>
+  <p>A common failure is issues that are "closed" but not fixed. Good practice separates <strong>closure</strong> (the owner says the action is done and provides evidence) from <strong>validation</strong> (someone independent, often the second line or internal audit, confirms the fix is in place and working, sometimes after it has operated for a period). Regulators and auditors often find repeat issues, where a previously closed issue reappears, and these are a strong signal of weak issue management.</p>
+
+  <h2>Extensions and overdue actions</h2>
+  <ul>
+    <li>Extensions should need a reason and approval at a level matching the rating, with a limit on how often dates can move.</li>
+    <li>Report overdue actions, and issues whose dates have been extended repeatedly, to the risk and audit committees.</li>
+    <li>Track the ageing of open issues. A growing backlog of old issues is a warning sign about <a href="/governance/culture-and-conduct.html">risk culture</a> and capacity.</li>
+  </ul>
+
+  <h2>Looking across issues</h2>
+  <p>A single register for all sources (audit, control testing, incidents, compliance reviews, regulators and self-identified issues) makes it possible to spot themes, such as repeated weaknesses in change management or in one business unit. Thematic analysis often tells the board more than any single issue. APRA's prudential inquiry into the Commonwealth Bank, for example, highlighted slow and ineffective resolution of known issues as a sign of wider cultural problems.</p>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/incident-and-breach-management.html" data-label="Incident and breach management"><a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a></li>
+      <li data-href="/risk-management/control-design-and-testing.html" data-label="Control design and testing"><a href="/risk-management/control-design-and-testing.html">Control design and testing</a></li>
+      <li data-href="/governance/internal-audit.html" data-label="Internal audit"><a href="/governance/internal-audit.html">Internal audit</a></li>
+      <li data-href="/risk-management/assurance-mapping.html" data-label="Assurance mapping and combined assurance"><a href="/risk-management/assurance-mapping.html">Assurance mapping and combined assurance</a></li>
+      <li data-href="/governance/board-risk-reporting.html" data-label="Board risk reporting design"><a href="/governance/board-risk-reporting.html">Board risk reporting design</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/sites/default/files/CBA-Prudential-Inquiry_Final-Report_30042018.pdf">Prudential Inquiry into the Commonwealth Bank of Australia: Final Report</a> (April 2018).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> (requirements to remediate control weaknesses in a timely way).</li>
+      <li>The Institute of Internal Auditors, <a href="https://www.theiia.org/en/standards/">Global Internal Audit Standards</a> (monitoring of management's action plans).</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+</body>
+</html>
