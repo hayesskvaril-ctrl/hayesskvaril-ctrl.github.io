@@ -151,7 +151,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Financial advice regulation (best interests duty and related obligations, Statements of Advice, conflicted remuneration, ongoing fee arrangements, adviser registration and professional standards, current reforms)
 - [x] Anti-bribery and corruption (foreign bribery offences including the "failure to prevent" offence, gifts and hospitality, third-party due diligence, NACC for the public sector)
 - [x] Sanctions compliance (Australian autonomous and UN sanctions, DFAT, screening, interaction with AML/CTF)
-- [ ] Modern slavery reporting (Modern Slavery Act 2018 statements, supply-chain due diligence, current reforms)
+- [x] Modern slavery reporting (Modern Slavery Act 2018 statements, supply-chain due diligence, current reforms)
 
 ## Phase 12 — Risk topics and standards library expansion
 

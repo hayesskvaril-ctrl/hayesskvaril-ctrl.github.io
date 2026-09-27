@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-27", "/news/regulatory-tracker.html", "Added mandatory climate reporting, further financial advice reforms, the proposed modern slavery offence and the foreign bribery failure to prevent offence."),
     ("2026-09-27", "/learn/pathways.html", "Added an Advanced stage to the risk, compliance, governance and superannuation pathways."),
     ("2026-09-27", "/start-here/", "Added a \"Go deeper\" route through the seven new Advanced topics."),
     ("2026-09-27", "/glossary/", "Added VaR, expected shortfall, reverse stress testing, ICAAP, diversification benefit and tolerable deviation rate."),

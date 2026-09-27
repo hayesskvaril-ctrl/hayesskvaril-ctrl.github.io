@@ -40,7 +40,8 @@ P = [
      ("/standards/cps-230.html", "APRA's operational risk, continuity and service provider requirements."),
      ("/risk-management/business-continuity.html", "Staying within tolerance through disruption."),
      ("/risk-management/third-party-risk.html", "Managing reliance on service providers."),
-     ("/standards/coso.html", "COSO's ERM and internal control frameworks.")]),
+     ("/standards/coso.html", "COSO's ERM and internal control frameworks."),
+     ("/risk-management/climate-risk.html", "Physical and transition risk, and APRA's CPG 229.")]),
    ("Advanced", [
      ("/risk-management/quantitative-operational-risk.html", "Loss distributions, VaR and expected shortfall."),
      ("/risk-management/scenario-analysis-and-stress-testing.html", "Severe but plausible scenarios and reverse stress tests."),
@@ -67,7 +68,12 @@ P = [
      ("/standards/asic-rg-78.html", "ASIC's breach reporting guidance."),
      ("/standards/asic-rg-271.html", "Complaints handling standards."),
      ("/standards/asic-rg-274.html", "Design and distribution obligations."),
-     ("/standards/asic-rg-277.html", "Putting things right for customers.")]),
+     ("/standards/asic-rg-277.html", "Putting things right for customers."),
+     ("/compliance/financial-advice-regulation.html", "Best interests, conflicted remuneration and adviser standards."),
+     ("/compliance/anti-bribery-and-corruption.html", "Bribery offences and the failure to prevent offence."),
+     ("/compliance/sanctions-compliance.html", "Sanctions laws, screening and alert handling."),
+     ("/compliance/modern-slavery.html", "Modern slavery statements and supply-chain risk."),
+     ("/compliance/climate-related-financial-disclosures.html", "Mandatory climate reporting.")]),
    ("Advanced", [
      ("/compliance/breach-significance-analysis.html", "Applying the significance tests to real-world style cases."),
      ("/risk-management/control-testing-sampling.html", "How much compliance testing is enough.")]),
@@ -86,6 +92,7 @@ P = [
      ("/governance/financial-accountability-regime.html", "Accountable persons, maps and statements."),
      ("/governance/remuneration-governance.html", "Incentives that support good outcomes."),
      ("/governance/culture-and-conduct.html", "Culture, risk culture and conduct risk."),
+     ("/governance/ai-governance.html", "Overseeing the use of artificial intelligence."),
      ("/risk-management/risk-appetite-and-tolerance.html", "The board's role in setting risk appetite."),
      ("/standards/coso.html", "The COSO frameworks behind many control environments.")]),
    ("Advanced", [
@@ -108,7 +115,9 @@ P = [
      ("/standards/asic-rg-277.html", "Remediating members, including lost earnings."),
      ("/standards/asic-rg-271.html", "Complaints, including the 45-day super timeframe."),
      ("/governance/financial-accountability-regime.html", "FAR for super trustees since 15 March 2025."),
-     ("/sectors/managed-investment-schemes.html", "Platforms, investment options and the Shield and First Guardian lessons.")]),
+     ("/sectors/managed-investment-schemes.html", "Platforms, investment options and the Shield and First Guardian lessons."),
+     ("/compliance/financial-advice-regulation.html", "Advice rules, including advice fees paid from super."),
+     ("/compliance/climate-related-financial-disclosures.html", "Climate reporting for funds with $5 billion or more.")]),
    ("Advanced", [
      ("/risk-management/setting-cps-230-tolerance-levels.html", "Tolerance levels, with a super fund example."),
      ("/compliance/breach-significance-analysis.html", "Significance analysis, including a fee error case."),
