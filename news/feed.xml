@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>RiskLens Australia: News and regulatory updates</title>
+    <link>https://hayesskvaril-ctrl.github.io/news/</link>
+    <description>Plain-English news and commentary on Australian risk, compliance and governance.</description>
+    <language>en-au</language>
+    <lastBuildDate>Sun, 27 Sep 2026 06:55:57 +0000</lastBuildDate>
+    <item>
+      <title>Regulatory roundup: winter 2026</title>
+      <link>https://hayesskvaril-ctrl.github.io/news/2026-09-regulatory-roundup.html</link>
+      <guid>https://hayesskvaril-ctrl.github.io/news/2026-09-regulatory-roundup.html</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Roundup</category>
+      <description>The main Australian risk, compliance and governance developments from June to September 2026, and what&#x27;s coming up next.</description>
+    </item>
+  </channel>
+</rss>

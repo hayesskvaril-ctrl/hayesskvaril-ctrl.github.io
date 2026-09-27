@@ -648,6 +648,25 @@ details[open] summary { margin-bottom: 10px; }
 .sheet-list dt { font-weight: 700; color: var(--navy); margin-top: 10px; }
 .sheet-list dd { margin: 2px 0 0; }
 
+/* ---------- News ---------- */
+
+.news-kicker { margin: 0 0 6px; font-size: 14px; color: var(--muted); display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.news-kicker .badge { margin-top: 0; }
+.badge.news-commentary { background: #ede9fe; color: #5b21b6; }
+.badge.news-update { background: var(--blue-soft); color: var(--blue-dark); }
+.badge.news-roundup { background: var(--green-soft); color: var(--green); }
+.news-list { list-style: none; padding: 0; margin: 12px 0 20px; }
+.news-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 14px; }
+.news-item h3 { margin: 4px 0 6px; font-size: 20px; }
+.news-item h3 a { text-decoration: none; }
+.news-item h3 a:hover { text-decoration: underline; }
+.news-item p { margin: 0 0 6px; }
+.news-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.news-tag { font-size: 12px; font-weight: 600; color: var(--muted); background: #eef2f7; border-radius: 4px; padding: 1px 8px; }
+.news-filter { display: flex; flex-wrap: wrap; gap: 8px; }
+.news-filter button { font-size: 14px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--border); background: #fff; color: var(--navy); font-weight: 600; cursor: pointer; }
+.news-filter button[aria-pressed="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
+
 /* ---------- Regulator finder (scripts/regulator-finder.js) ---------- */
 
 .reg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 10px; margin: 14px 0; }

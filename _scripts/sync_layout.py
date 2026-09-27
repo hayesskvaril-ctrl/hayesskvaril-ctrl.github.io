@@ -17,7 +17,11 @@ import re
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# (label, root-relative URL). Order = order shown in nav.
+# (label, root-relative URL). Order = order shown in nav and footer.
+# The header skips "Home" (the brand links home) and uses HEADER_LABELS where given,
+# so all sections fit on one line; the footer shows every link with full labels.
+HEADER_SKIP = {"/"}
+HEADER_LABELS = {"/risk-management/": "Risk"}
 NAV = [
     ("Home", "/"),
     ("Foundations", "/foundations/"),
@@ -61,7 +65,10 @@ def section_of(page: Path) -> str:
 def header_html(current: str) -> str:
     items = []
     for label, url in live_nav():
+        if url in HEADER_SKIP:
+            continue
         cur = ' aria-current="page"' if url == current else ""
+        label = HEADER_LABELS.get(url, label)
         items.append(f'        <li><a href="{url}"{cur}>{label}</a></li>')
     return (
         "<!-- HEADER:START -->\n"
