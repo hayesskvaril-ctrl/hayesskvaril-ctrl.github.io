@@ -21,7 +21,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Update home page: real links to the pillars that exist, and "coming soon" labels (not links) for the rest
 
 **Glossary**
-- [ ] `/glossary/`: A–Z plain-English definitions of core risk, compliance and governance terms, with anchor links so articles can link to individual terms
+- [x] `/glossary/`: A–Z plain-English definitions of core risk, compliance and governance terms, with anchor links so articles can link to individual terms
 
 **Foundations (entry-level primers)**
 - [ ] What is risk management?
