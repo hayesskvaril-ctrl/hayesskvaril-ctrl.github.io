@@ -95,7 +95,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 ## Phase 7 — Tools and templates (`/tools/`, files in `/assets/`)
 
 - [x] Risk assessment template
-- [ ] Incident report template
+- [x] Incident report template
 - [ ] Breach register template
 - [ ] Regulatory obligation checklists
 
