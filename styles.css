@@ -1191,3 +1191,8 @@ details[open] summary { margin-bottom: 10px; }
   a { color: #1d4ed8; }
   .site-footer { background: #fff; color: #333; }
 }
+
+/* Yearly review system */
+.review-due { color: var(--muted); }
+.badge.expert-badge { background: var(--green-soft); color: var(--green); border-color: rgba(52, 211, 153, 0.4); }
+.badge.expert-badge::before { content: "\2713\00a0"; }

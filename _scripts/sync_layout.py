@@ -43,7 +43,7 @@ NAV = [
 ]
 
 # Extra footer-only links (shown once the page exists).
-FOOTER_EXTRA = [("Start here", "/start-here/"), ("Resource library", "/tools/resource-library.html"), ("Search", "/search/"), ("About", "/about/")]
+FOOTER_EXTRA = [("Start here", "/start-here/"), ("Resource library", "/tools/resource-library.html"), ("Search", "/search/"), ("What's new", "/whats-new/"), ("About", "/about/")]
 SEARCH_ICON = ('<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
                'stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg>')
 
@@ -240,6 +240,27 @@ def write_sitemap(pages):
     return len(urls)
 
 
+from review_common import review_due, under_review, MONTHS
+from expert_reviews import EXPERT_REVIEWS
+
+DUE_RE = re.compile(r'(<p class="last-reviewed">Last reviewed: [^<]*?)(?:<span class="review-due">.*?</span>)?</p>')
+BADGE_RE = re.compile(r'\s*<span class="badge expert-badge" data-stamped[^>]*>.*?</span>')
+
+
+def apply_review(text: str, url: str) -> str:
+    """Next-review-due note under each page, and the Expert reviewed badge for signed-off pages."""
+    due = review_due(text) if under_review(url) else None
+    note = f'<span class="review-due"> · Next review due: {MONTHS[due.month - 1]} {due.year}</span>' if due else ""
+    text = DUE_RE.sub(lambda m: m.group(1) + note + "</p>", text, count=1)
+    text = BADGE_RE.sub("", text)
+    signed = EXPERT_REVIEWS.get(url)
+    if signed:
+        badge = (f'\n    <span class="badge expert-badge" data-stamped title="Checked by the site\'s risk and compliance professional on {signed}">'
+                 f'Expert reviewed {signed.split(" ", 1)[1]}</span>')
+        text = re.sub(r'(<div class="page-meta">.*?)(\n?\s*</div>)', lambda m: m.group(1) + badge + m.group(2), text, count=1, flags=re.S)
+    return text
+
+
 HEADER_RE = re.compile(r"<!-- HEADER:START -->.*?<!-- HEADER:END -->", re.S)
 FOOTER_RE = re.compile(r"<!-- FOOTER:START -->.*?<!-- FOOTER:END -->", re.S)
 
@@ -257,6 +278,7 @@ def main():
             continue
         published.append(page)
         new = apply_meta(text, page_url(rel))
+        new = apply_review(new, page_url(rel))
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
         new = FOOTER_RE.sub(lambda m: footer_html(), new)
         new = REL_RE.sub(render_rel, new)

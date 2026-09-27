@@ -128,9 +128,9 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Lift the faintest text colour for better readability (contrast ≥ 4.5:1 everywhere)
 
 **Yearly review system**
-- [ ] Review schedule: every page gets a "review due" date 12 months after its last review; a script (`_scripts/review_report.py`) lists pages due or overdue, and flags regulatory dates on pages that have since passed
-- [ ] "Expert reviewed" badge that appears only on pages Nick has signed off (a simple list in `_scripts/`), with the About page wording updated to match
-- [ ] Public "What's new" page (a changelog of pages added and updated), fed from git history or a simple data file
+- [x] Review schedule: every page gets a "review due" date 12 months after its last review; a script (`_scripts/review_report.py`) lists pages due or overdue, and flags regulatory dates on pages that have since passed
+- [x] "Expert reviewed" badge that appears only on pages Nick has signed off (a simple list in `_scripts/`), with the About page wording updated to match
+- [x] Public "What's new" page (a changelog of pages added and updated), fed from git history or a simple data file
 
 ## Phase 10 — Advanced-level deep dives
 
