@@ -51,7 +51,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Licensing basics (AFSL, RSE licence)
 - [x] Disclosure obligations
 - [x] Consumer protection
-- [ ] Privacy law
+- [x] Privacy law
 - [ ] AML/CTF fundamentals
 
 ## Phase 3 — Governance pillar (`/governance/`)
