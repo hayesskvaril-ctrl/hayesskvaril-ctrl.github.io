@@ -36,7 +36,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Risk appetite and tolerance
 - [x] Risk assessment methodologies (likelihood × consequence, qualitative vs quantitative, heat maps)
 - [x] Control design and testing
-- [ ] Enterprise risk management (ERM)
+- [x] Enterprise risk management (ERM)
 - [ ] Operational risk
 - [ ] Credit, market and liquidity risk (basics)
 - [ ] Incident and breach management
