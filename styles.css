@@ -607,6 +607,20 @@ details[open] summary { margin-bottom: 10px; }
 .widget .rm-actions button { padding: 6px 10px; font-size: 14px; margin: 2px 0; }
 .rm-table .badge { margin-top: 0; }
 
+/* ---------- Flashcards (scripts/flashcards.js) ---------- */
+
+.widget .fc-card { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; width: 100%; min-height: 240px; margin: 14px 0 8px; padding: 28px 22px; background: #fff; color: var(--navy); border: 2px solid var(--border); border-radius: 14px; box-shadow: 0 6px 18px rgba(15, 41, 66, 0.08); text-align: center; font-weight: 400; }
+.widget .fc-card:hover { background: #fbfcfe; border-color: #93b4f5; }
+.widget .fc-card.flipped { background: var(--navy); color: #fff; border-color: var(--navy); }
+.fc-side { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.7; }
+.fc-text { font-size: 21px; font-weight: 600; line-height: 1.45; max-width: 36em; }
+.fc-card.flipped .fc-text { font-size: 18px; font-weight: 500; }
+.fc-hint { font-size: 13px; opacity: 0.7; }
+.fc-more { min-height: 1.5em; margin: 4px 0; text-align: center; }
+.fc-actions { justify-content: center; }
+.fc-option { margin-top: 14px; }
+.widget .fc-option label { display: inline; font-weight: 500; }
+
 /* ---------- Regulator finder (scripts/regulator-finder.js) ---------- */
 
 .reg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 10px; margin: 14px 0; }
