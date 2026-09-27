@@ -633,3 +633,7 @@ details[open] summary { margin-bottom: 10px; }
 .am-people { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 14px 0; }
 .am-person { border: 2px solid var(--border); border-radius: 8px; padding: 10px; font-size: 14px; font-weight: 600; color: var(--navy); background: #fff; transition: all .15s; }
 .am-person.on { border-color: var(--blue); background: var(--blue-soft); box-shadow: 0 0 0 2px var(--blue); }
+
+/* Keep form controls inside widgets on narrow screens */
+.widget .controls > div { min-width: 0; max-width: 100%; }
+.widget select { max-width: 100%; }
