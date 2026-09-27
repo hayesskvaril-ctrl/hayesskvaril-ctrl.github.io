@@ -663,6 +663,8 @@ details[open] summary { margin-bottom: 10px; }
 .news-item p { margin: 0 0 6px; }
 .news-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .news-tag { font-size: 12px; font-weight: 600; color: var(--muted); background: #eef2f7; border-radius: 4px; padding: 1px 8px; }
+.news-card .news-kicker { display: flex; margin-bottom: 4px; }
+.news-card h3 { margin-top: 2px; }
 .news-filter { display: flex; flex-wrap: wrap; gap: 8px; }
 .news-filter button { font-size: 14px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--border); background: #fff; color: var(--navy); font-weight: 600; cursor: pointer; }
 .news-filter button[aria-pressed="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }

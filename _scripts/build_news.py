@@ -122,6 +122,19 @@ html = f'''<!DOCTYPE html>
 '''
 (NEWS / "index.html").write_text(html, encoding="utf-8")
 
+# Home page strip: the three latest articles, between <!-- NEWS:START --> and <!-- NEWS:END -->.
+home = ROOT / "index.html"
+h = home.read_text(encoding="utf-8")
+cards = "\n".join(f'''    <a class="card news-card" href="{a["url"]}">
+      <span class="news-kicker"><span class="badge news-type news-{escape(a["type"].lower())}">{escape(a["type"])}</span> <time datetime="{a["date"]:%Y-%m-%d}">{nice(a["date"])}</time></span>
+      <h3>{escape(a["title"])}</h3>
+      <p>{escape(a["summary"])}</p>
+    </a>''' for a in articles[:3])
+strip = ("<!-- NEWS:START -->\n  <div class=\"cards\">\n" + cards + "\n  </div>\n"
+         '  <p><a href="/news/">All news</a> · <a href="/news/regulatory-tracker.html">Regulatory changes tracker</a></p>\n<!-- NEWS:END -->')
+h = re.sub(r"<!-- NEWS:START -->.*?<!-- NEWS:END -->", lambda m: strip, h, flags=re.S)
+home.write_text(h, encoding="utf-8")
+
 now = format_datetime(datetime.now(timezone.utc))
 rss_items = "\n".join(f'''    <item>
       <title>{escape(a["title"])}</title>

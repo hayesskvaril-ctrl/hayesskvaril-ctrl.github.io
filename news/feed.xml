@@ -5,7 +5,7 @@
     <link>https://hayesskvaril-ctrl.github.io/news/</link>
     <description>Plain-English news and commentary on Australian risk, compliance and governance.</description>
     <language>en-au</language>
-    <lastBuildDate>Sun, 27 Sep 2026 06:58:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 07:00:18 +0000</lastBuildDate>
     <item>
       <title>Regulatory roundup: winter 2026</title>
       <link>https://hayesskvaril-ctrl.github.io/news/2026-09-regulatory-roundup.html</link>
@@ -13,6 +13,22 @@
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
       <category>Roundup</category>
       <description>The main Australian risk, compliance and governance developments from June to September 2026, and what&#x27;s coming up next.</description>
+    </item>
+    <item>
+      <title>Platform trustees in the spotlight: what ASIC&#x27;s Report 833 means</title>
+      <link>https://hayesskvaril-ctrl.github.io/news/super-platform-trustees-asic-rep-833.html</link>
+      <guid>https://hayesskvaril-ctrl.github.io/news/super-platform-trustees-asic-rep-833.html</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Commentary</category>
+      <description>ASIC&#x27;s review of super platform trustees found persistent gaps in the controls meant to stop members&#x27; savings being drained by harmful advice fees, risky switching and unusual investments. The lessons reach well beyond platforms.</description>
+    </item>
+    <item>
+      <title>APRA&#x27;s governance reset: what draft CPS 510 would change</title>
+      <link>https://hayesskvaril-ctrl.github.io/news/draft-cps-510-governance-overhaul.html</link>
+      <guid>https://hayesskvaril-ctrl.github.io/news/draft-cps-510-governance-overhaul.html</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Commentary</category>
+      <description>APRA wants one governance standard for banks, insurers and super trustees. The draft would tighten rules on tenure, board make-up and conflicts, and is the biggest shake-up of prudential governance in more than a decade.</description>
     </item>
   </channel>
 </rss>
