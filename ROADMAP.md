@@ -148,7 +148,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Climate-related financial disclosures and sustainability reporting (Corporations Act requirements, AASB S2, phasing by entity group, assurance, greenwashing risk)
 - [x] Climate risk management (physical and transition risk, scenario analysis, APRA CPG 229, governance and metrics)
 - [x] AI governance (board oversight, accountability, model and data risk, privacy and automated decisions, regulator expectations such as ASIC REP 798, ISO/IEC 42001, Australian Government guidance)
-- [ ] Financial advice regulation (best interests duty and related obligations, Statements of Advice, conflicted remuneration, ongoing fee arrangements, adviser registration and professional standards, current reforms)
+- [x] Financial advice regulation (best interests duty and related obligations, Statements of Advice, conflicted remuneration, ongoing fee arrangements, adviser registration and professional standards, current reforms)
 - [ ] Anti-bribery and corruption (foreign bribery offences including the "failure to prevent" offence, gifts and hospitality, third-party due diligence, NACC for the public sector)
 - [ ] Sanctions compliance (Australian autonomous and UN sanctions, DFAT, screening, interaction with AML/CTF)
 - [ ] Modern slavery reporting (Modern Slavery Act 2018 statements, supply-chain due diligence, current reforms)
