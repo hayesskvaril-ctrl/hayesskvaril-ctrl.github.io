@@ -88,7 +88,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 
 - [x] Quizzes / knowledge checks for each topic
 - [x] Scenario simulations (e.g. "You've just identified a potential breach — what do you do?")
-- [ ] Interactive risk heat map / risk-scoring tool
+- [x] Interactive risk heat map / risk-scoring tool
 - [ ] Flashcards for terminology and standards
 - [ ] Learning pathways: beginner → intermediate → advanced (topic structure inspired by the Governance Institute of Australia's course categories, but *not* their content)
 
