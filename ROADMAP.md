@@ -162,7 +162,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Internal audit (role, Global Internal Audit Standards, audit committee, APRA expectations)
 - [x] Assurance mapping and combined assurance (links Three Lines, control testing and internal audit)
 - [x] Issue and action management (raising, rating, tracking and closing issues; validation of fixes)
-- [ ] Risk culture deep dive (assessment methods, APRA's approach, indicators and interventions)
+- [x] Risk culture deep dive (assessment methods, APRA's approach, indicators and interventions)
 - [ ] Change, project and reputational risk (one page or two, depending on depth)
 
 **Standards library**
