@@ -156,7 +156,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 ## Phase 12 — Risk topics and standards library expansion
 
 **Risk topics**
-- [ ] Cyber risk management (threat landscape, Essential Eight, incident response, third-party cyber risk; links to CPS 234)
+- [x] Cyber risk management (threat landscape, Essential Eight, incident response, third-party cyber risk; links to CPS 234)
 - [ ] Model risk management (including AI and actuarial models, validation, model inventory)
 - [ ] Fraud risk management (internal and external fraud, controls, detection analytics, scams interface)
 - [ ] Internal audit (role, Global Internal Audit Standards, audit committee, APRA expectations)
