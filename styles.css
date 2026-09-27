@@ -639,6 +639,15 @@ details[open] summary { margin-bottom: 10px; }
 .pw-bar { display: block; max-width: 320px; margin-top: 6px; }
 .pw-bar span { background: var(--green); }
 
+/* ---------- Templates and downloads ---------- */
+
+.download-box { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--green); border-radius: var(--radius); padding: 16px 20px; margin: 24px 0; }
+.download-box .button { margin: 0; }
+.download-box p { margin: 0; }
+.file-meta { font-size: 14px; color: var(--muted); }
+.sheet-list dt { font-weight: 700; color: var(--navy); margin-top: 10px; }
+.sheet-list dd { margin: 2px 0 0; }
+
 /* ---------- Regulator finder (scripts/regulator-finder.js) ---------- */
 
 .reg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 10px; margin: 14px 0; }
