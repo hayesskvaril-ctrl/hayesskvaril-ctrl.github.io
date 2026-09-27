@@ -102,7 +102,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 ## Phase 8 — News and updates (`/news/`)
 
 - [x] News section structure (listing page + article template)
-- [ ] Regulatory changes tracker (APRA/ASIC updates summarised in plain English)
+- [x] Regulatory changes tracker (APRA/ASIC updates summarised in plain English)
 - [ ] Commentary posts on major developments
 
 ---
