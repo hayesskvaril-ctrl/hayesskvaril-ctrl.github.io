@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Operational risk and CPS 230 | RiskLens Australia</title>
+<meta name="description" content="What operational risk is, the four drivers and the Basel loss event types, the tools used to manage it, and an overview of APRA's CPS 230 Operational Risk Management standard.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk Management</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Operational risk</li></ol></nav>
+
+  <h1>Operational risk</h1>
+  <p class="summary">Operational risk is the risk that things go wrong in how an organisation runs: its people, processes, systems, suppliers, or events outside its control.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li><a class="term" href="/glossary/#operational-risk">Operational risk</a> comes from four drivers: people, processes, systems and external events. Every organisation has it; it can't be avoided by choosing a different business.</li>
+      <li>It is very broad. APRA's CPS 230 says it includes legal, regulatory, compliance, conduct, technology, data and change management risk.</li>
+      <li>The core toolkit: risk and control self-assessment, key risk indicators, incident and loss data, scenario analysis, control testing and issue management.</li>
+      <li><a class="term" href="/glossary/#cps-230">CPS 230</a> has applied to APRA-regulated banks, insurers and super trustees since 1 July 2025. It has three pillars: operational risk management, business continuity and service provider management.</li>
+      <li>Key CPS 230 notification timeframes include 72 hours for material operational risk incidents and 24 hours for disruptions to critical operations outside tolerance.</li>
+    </ul>
+  </aside>
+
+  <h2>What is operational risk?</h2>
+  <p>A widely used definition, from the Basel Committee on Banking Supervision, describes operational risk as the risk of loss resulting from inadequate or failed internal processes, people and systems, or from external events. APRA's CPS 230 frames it similarly: entities must manage operational risks that may result from inadequate or failed internal processes or systems, the actions or inactions of people, or external drivers and events.</p>
+  <p>In plain English, operational risk is everything that can go wrong in the <em>running</em> of the organisation, as distinct from the risks it takes on deliberately in its business (such as lending money or investing members' savings).</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 720 300" role="img" aria-labelledby="or-title or-desc">
+      <title id="or-title">The four drivers of operational risk</title>
+      <desc id="or-desc">Four drivers on the left: people (errors, fraud, key-person loss, misconduct), processes (poor design, manual steps, change), systems (outages, cyber attacks, data issues) and external events (supplier failure, natural disasters, pandemics). They lead to an operational risk event in the centre, which causes impacts on the right: financial loss, customer or member harm, regulatory breaches and reputational damage.</desc>
+      <defs><marker id="or-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+      <g stroke="#64748b" stroke-width="2" marker-end="url(#or-ar)">
+        <line x1="222" y1="45" x2="298" y2="130"/>
+        <line x1="222" y1="115" x2="296" y2="143"/>
+        <line x1="222" y1="185" x2="296" y2="157"/>
+        <line x1="222" y1="255" x2="298" y2="170"/>
+        <line x1="442" y1="140" x2="508" y2="60"/>
+        <line x1="442" y1="146" x2="508" y2="120"/>
+        <line x1="442" y1="154" x2="508" y2="180"/>
+        <line x1="442" y1="160" x2="508" y2="240"/>
+      </g>
+      <g font-size="13">
+        <rect x="10" y="15" width="210" height="60" rx="8" fill="#1b3a5c"/>
+        <text x="22" y="38" fill="#fff" font-weight="700">People</text>
+        <text x="22" y="58" fill="#cbd8e8" font-size="12">errors, fraud, key-person loss</text>
+        <rect x="10" y="85" width="210" height="60" rx="8" fill="#1b3a5c"/>
+        <text x="22" y="108" fill="#fff" font-weight="700">Processes</text>
+        <text x="22" y="128" fill="#cbd8e8" font-size="12">poor design, manual steps, change</text>
+        <rect x="10" y="155" width="210" height="60" rx="8" fill="#1b3a5c"/>
+        <text x="22" y="178" fill="#fff" font-weight="700">Systems</text>
+        <text x="22" y="198" fill="#cbd8e8" font-size="12">outages, cyber attacks, bad data</text>
+        <rect x="10" y="225" width="210" height="60" rx="8" fill="#1b3a5c"/>
+        <text x="22" y="248" fill="#fff" font-weight="700">External events</text>
+        <text x="22" y="268" fill="#cbd8e8" font-size="12">suppliers, disasters, pandemics</text>
+
+        <rect x="300" y="110" width="140" height="80" rx="10" fill="#b91c1c"/>
+        <text x="370" y="143" fill="#fff" font-weight="700" text-anchor="middle">Operational</text>
+        <text x="370" y="162" fill="#fff" font-weight="700" text-anchor="middle">risk event</text>
+
+        <rect x="510" y="35" width="200" height="46" rx="8" fill="#fff" stroke="#b91c1c"/>
+        <text x="610" y="63" fill="#7f1d1d" text-anchor="middle">Financial loss</text>
+        <rect x="510" y="97" width="200" height="46" rx="8" fill="#fff" stroke="#b91c1c"/>
+        <text x="610" y="125" fill="#7f1d1d" text-anchor="middle">Customer or member harm</text>
+        <rect x="510" y="159" width="200" height="46" rx="8" fill="#fff" stroke="#b91c1c"/>
+        <text x="610" y="187" fill="#7f1d1d" text-anchor="middle">Regulatory breach</text>
+        <rect x="510" y="221" width="200" height="46" rx="8" fill="#fff" stroke="#b91c1c"/>
+        <text x="610" y="249" fill="#7f1d1d" text-anchor="middle">Reputational damage</text>
+      </g>
+    </svg>
+    <figcaption>Operational risk: four drivers, many possible impacts.</figcaption>
+  </figure>
+
+  <h2>Types of operational loss event</h2>
+  <p>The Basel Committee's framework for banks groups operational loss events into seven top-level types. Although designed for banks, the categories are widely used elsewhere, including for incident classification.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Event type</th><th scope="col">Examples</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Internal fraud</strong></td><td>An employee diverts member benefits to their own account; unauthorised trading.</td></tr>
+        <tr><td><strong>External fraud</strong></td><td>Identity theft used to make a fraudulent early release claim; hacking; cheque fraud.</td></tr>
+        <tr><td><strong>Employment practices and workplace safety</strong></td><td>Discrimination claims; workplace injury; underpayment of staff.</td></tr>
+        <tr><td><strong>Clients, products and business practices</strong></td><td>Charging fees for no service; mis-selling; breaching disclosure obligations; privacy breaches.</td></tr>
+        <tr><td><strong>Damage to physical assets</strong></td><td>Flood or fire at an office or data centre.</td></tr>
+        <tr><td><strong>Business disruption and system failures</strong></td><td>Core system outage; telecommunications failure; failed software upgrade.</td></tr>
+        <tr><td><strong>Execution, delivery and process management</strong></td><td>Data entry errors; missed deadlines; unit pricing errors; failures by outsourced providers.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Many of the most costly problems in Australian financial services in recent years, such as the "fees for no service" failures examined by the Financial Services Royal Commission, fall into the "clients, products and business practices" category and led to large customer remediation programs.</p>
+
+  <h2>The operational risk toolkit</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Tool</th><th scope="col">What it does</th><th scope="col">Looks</th></tr></thead>
+      <tbody>
+        <tr><td><a class="term" href="/glossary/#rcsa">Risk and control self-assessment (RCSA)</a></td><td>The business assesses its own risks and how well its controls work, with second-line challenge.</td><td>Forward</td></tr>
+        <tr><td><a class="term" href="/glossary/#kri">Key risk indicators (KRIs)</a></td><td>Metrics that warn when a risk is rising, with triggers and limits.</td><td>Now and forward</td></tr>
+        <tr><td>Incident and loss data</td><td>Records of what actually went wrong, including <a class="term" href="/glossary/#near-miss">near misses</a>, with causes and costs.</td><td>Backward</td></tr>
+        <tr><td><a class="term" href="/glossary/#scenario-analysis">Scenario analysis</a></td><td>Structured "what if" exercises on severe but plausible events, such as a major cyber attack or loss of a key supplier.</td><td>Forward</td></tr>
+        <tr><td><a href="/risk-management/control-design-and-testing.html">Control testing</a></td><td>Checks whether controls are designed and operating effectively.</td><td>Now</td></tr>
+        <tr><td>Issues and actions management</td><td>Tracks weaknesses from all sources (audit, testing, incidents) through to fixing them.</td><td>Now</td></tr>
+        <tr><td>Change risk assessment</td><td>Assesses the risks of new products, systems, projects and outsourcing before they go ahead.</td><td>Forward</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The tools work best when joined up. For example, an incident should prompt a review of the related RCSA rating and controls, and a KRI breach should trigger a look at recent incidents.</p>
+
+  <h2>APRA's CPS 230 Operational Risk Management</h2>
+  <p>CPS 230 is APRA's cross-industry standard for operational risk. It commenced on <strong>1 July 2025</strong> and applies to authorised deposit-taking institutions, general and life insurers, private health insurers and RSE licensees (super trustees). It replaced several older standards, including CPS 231 and SPS 231 (outsourcing) and CPS 232 and SPS 232 (business continuity).</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 720 250" role="img" aria-labelledby="c230-title c230-desc">
+      <title id="c230-title">The three pillars of CPS 230</title>
+      <desc id="c230-desc">A roof labelled CPS 230: the board is ultimately accountable for operational risk management. Three pillars: operational risk management (identify, assess and manage operational risks, maintain controls, test, manage incidents); business continuity (identify critical operations, set tolerance levels, maintain and test a credible business continuity plan); and management of service providers (policy, material service providers, due diligence, formal agreements, monitoring, notify APRA). Base: in force from 1 July 2025.</desc>
+      <path d="M40,70 L360,14 L680,70 Z" fill="#0f2942"/>
+      <text x="360" y="60" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">CPS 230: the board is ultimately accountable</text>
+      <g font-size="13" text-anchor="middle">
+        <rect x="60" y="80" width="180" height="130" rx="6" fill="#1b3a5c"/>
+        <text x="150" y="104" fill="#fff" font-weight="700">Operational risk</text>
+        <text x="150" y="121" fill="#fff" font-weight="700">management</text>
+        <text x="150" y="146" fill="#cbd8e8" font-size="12">assess and manage risks</text>
+        <text x="150" y="164" fill="#cbd8e8" font-size="12">controls and testing</text>
+        <text x="150" y="182" fill="#cbd8e8" font-size="12">incidents and</text>
+        <text x="150" y="198" fill="#cbd8e8" font-size="12">remediation</text>
+        <rect x="270" y="80" width="180" height="130" rx="6" fill="#2563eb"/>
+        <text x="360" y="104" fill="#fff" font-weight="700">Business</text>
+        <text x="360" y="121" fill="#fff" font-weight="700">continuity</text>
+        <text x="360" y="146" fill="#e8f0fe" font-size="12">critical operations</text>
+        <text x="360" y="164" fill="#e8f0fe" font-size="12">tolerance levels</text>
+        <text x="360" y="182" fill="#e8f0fe" font-size="12">credible, tested BCP</text>
+        <rect x="480" y="80" width="180" height="130" rx="6" fill="#1b3a5c"/>
+        <text x="570" y="104" fill="#fff" font-weight="700">Management of</text>
+        <text x="570" y="121" fill="#fff" font-weight="700">service providers</text>
+        <text x="570" y="146" fill="#cbd8e8" font-size="12">policy and due diligence</text>
+        <text x="570" y="164" fill="#cbd8e8" font-size="12">material service providers</text>
+        <text x="570" y="182" fill="#cbd8e8" font-size="12">agreements, monitoring</text>
+        <text x="570" y="198" fill="#cbd8e8" font-size="12">notify APRA</text>
+      </g>
+      <rect x="40" y="216" width="640" height="28" rx="4" fill="#e8f0fe" stroke="#93b4f5"/>
+      <text x="360" y="235" text-anchor="middle" font-size="13" fill="#0f2942">In force from 1 July 2025 for ADIs, insurers, private health insurers and RSE licensees</text>
+    </svg>
+    <figcaption>CPS 230's three pillars, summarised in our own words.</figcaption>
+  </figure>
+
+  <h3>Operational risk management</h3>
+  <ul>
+    <li>The board is ultimately accountable for oversight of operational risk management; senior management is responsible for implementing it.</li>
+    <li>The entity must identify, assess and manage its operational risks, including (among others) legal, regulatory, compliance, conduct, technology, data and change management risk.</li>
+    <li>It must design, implement and embed internal controls in line with its risk appetite, and regularly monitor, review and test them for design and operating effectiveness. See <a href="/risk-management/control-design-and-testing.html">Control design and testing</a>.</li>
+    <li>It must maintain an operational risk profile, including control gaps and weaknesses until they are remediated, and fix material weaknesses in a timely way, addressing root causes.</li>
+    <li>It must have processes for operational risk incidents and near misses, and notify APRA as soon as possible, and no later than <strong>72 hours</strong>, after becoming aware of an operational risk incident it determines is likely to have a material financial impact or a material impact on its ability to maintain critical operations.</li>
+  </ul>
+
+  <h3>Business continuity</h3>
+  <ul>
+    <li>The entity must identify its <a class="term" href="/glossary/#critical-operation">critical operations</a>. Some must be treated as critical unless the entity can justify otherwise, for example payments for banks, claims handling for insurers and investment management for super funds.</li>
+    <li>The board must approve <a class="term" href="/glossary/#tolerance-level">tolerance levels</a> for each critical operation.</li>
+    <li>It must maintain a credible business continuity plan and test it through a systematic testing program, including an annual exercise against severe but plausible scenarios.</li>
+    <li>It must notify APRA as soon as possible, and no later than <strong>24 hours</strong>, after a disruption to a critical operation outside tolerance.</li>
+  </ul>
+  <p>More detail: <span class="xref" data-href="/risk-management/business-continuity.html">Business continuity</span>.</p>
+
+  <h3>Management of service providers</h3>
+  <ul>
+    <li>The entity must have a service provider management policy and identify its <a class="term" href="/glossary/#material-service-provider">material service providers</a>, keeping a register that is submitted to APRA annually.</li>
+    <li>Material arrangements need due diligence, a formal legally binding agreement covering specified matters, and ongoing monitoring.</li>
+    <li>It must notify APRA within <strong>20 business days</strong> after entering into or materially changing a material arrangement, and before entering into material offshoring arrangements.</li>
+    <li>For contracts that existed before 1 July 2025, the requirements applied from the earlier of the next renewal date or <strong>1 July 2026</strong>.</li>
+  </ul>
+  <p>More detail: <span class="xref" data-href="/risk-management/third-party-risk.html">Third-party, vendor and outsourcing risk</span>.</p>
+
+  <div class="callout warn">
+    <h3>Recent changes (as at September 2026)</h3>
+    <ul>
+      <li>On 30 April 2026 APRA finalised targeted amendments to CPS 230, its practice guide CPG 230 and the material service provider register template, effective <strong>1 July 2026</strong>. They give limited exemptions from some contractual requirements for material arrangements with certain "non-traditional" service providers, such as central banks and clearing and settlement facilities, where standard contract terms aren't practicable.</li>
+      <li>Smaller entities (those that are not "significant financial institutions") were given an extra 12 months, to 1 July 2026, for some business continuity and scenario analysis requirements.</li>
+    </ul>
+    <p>Always check the current version of CPS 230 and CPG 230 on APRA's website.</p>
+  </div>
+
+  <h3>Related standards</h3>
+  <ul>
+    <li><strong>CPS 234 Information Security</strong> (in force since 1 July 2019) covers information security, including notifying APRA within 72 hours of certain material information security incidents.</li>
+    <li><strong>CPS 220 / SPS 220 Risk Management</strong> sets the overall risk management framework that CPS 230 operates within.</li>
+    <li><strong>APS 115</strong> sets how banks calculate capital for operational risk, using the Basel III standardised measurement approach (applied by most ADIs from 1 January 2023).</li>
+  </ul>
+
+  <h2>Check your understanding</h2>
+  <div class="widget quiz">
+    <h3>Which Basel event type?</h3>
+    <div class="q" data-answer="exec">
+      <p class="q-text">1. A staff member keys a rollover amount as $52,000 instead of $25,000.</p>
+      <div class="q-options"><button type="button" data-value="exec">Execution, delivery and process management</button><button type="button" data-value="int">Internal fraud</button><button type="button" data-value="sys">Business disruption and system failures</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>An unintentional processing error is an execution, delivery and process management event.</p>
+    </div>
+    <div class="q" data-answer="ext">
+      <p class="q-text">2. Criminals use stolen identity documents to take over a member's account and withdraw funds.</p>
+      <div class="q-options"><button type="button" data-value="int">Internal fraud</button><button type="button" data-value="ext">External fraud</button><button type="button" data-value="cpb">Clients, products and business practices</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Fraud by a third party (not an employee) is external fraud.</p>
+    </div>
+    <div class="q" data-answer="cpb">
+      <p class="q-text">3. Members were charged advice fees for years without receiving any advice.</p>
+      <div class="q-options"><button type="button" data-value="exec">Execution, delivery and process management</button><button type="button" data-value="cpb">Clients, products and business practices</button><button type="button" data-value="ext">External fraud</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Failing to meet obligations to clients, including charging for services not provided, falls under clients, products and business practices.</p>
+    </div>
+    <div class="q" data-answer="sys">
+      <p class="q-text">4. A faulty software release takes the member portal offline for two days.</p>
+      <div class="q-options"><button type="button" data-value="sys">Business disruption and system failures</button><button type="button" data-value="phys">Damage to physical assets</button><button type="button" data-value="exec">Execution, delivery and process management</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>A system outage is business disruption and system failures (the underlying cause might also involve change management failures).</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/control-design-and-testing.html" data-label="Control design and testing"><a href="/risk-management/control-design-and-testing.html">Control design and testing</a></li>
+      <li data-href="/risk-management/incident-and-breach-management.html" data-label="Incident and breach management">Incident and breach management <span class="soon">(coming soon)</span></li>
+      <li data-href="/risk-management/business-continuity.html" data-label="Business continuity">Business continuity <span class="soon">(coming soon)</span></li>
+      <li data-href="/risk-management/third-party-risk.html" data-label="Third-party, vendor and outsourcing risk">Third-party, vendor and outsourcing risk <span class="soon">(coming soon)</span></li>
+      <li data-href="/standards/cps-230.html" data-label="CPS 230 in detail (standards library)">CPS 230 in detail (standards library) <span class="soon">(coming soon)</span></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> and Prudential Practice Guide CPG 230.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-finalises-targeted-amendments-cps-230-operational-risk-management">APRA finalises targeted amendments to CPS 230 Operational Risk Management</a> (30 April 2026).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-234">Prudential Standard CPS 234 Information Security</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/aps-115">Prudential Standard APS 115 Capital Adequacy: Standardised Measurement Approach to Operational Risk</a>.</li>
+      <li>Basel Committee on Banking Supervision, operational risk definition and loss event type classification (Basel II framework, retained in the Basel Framework), <a href="https://www.bis.org/bcbs/">bis.org</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>

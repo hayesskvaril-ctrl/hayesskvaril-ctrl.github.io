@@ -37,7 +37,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Risk assessment methodologies (likelihood × consequence, qualitative vs quantitative, heat maps)
 - [x] Control design and testing
 - [x] Enterprise risk management (ERM)
-- [ ] Operational risk
+- [x] Operational risk
 - [ ] Credit, market and liquidity risk (basics)
 - [ ] Incident and breach management
 - [ ] Business continuity
