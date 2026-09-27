@@ -545,6 +545,21 @@ details[open] summary { margin-bottom: 10px; }
 .quiz .q-explain { font-size: 15px; color: var(--muted); }
 .quiz .quiz-score { font-weight: 700; color: var(--navy); margin-top: 10px; }
 
+/* ---------- Topic quiz runner (scripts/quiz-runner.js) ---------- */
+
+.quiz-runner h2 { margin-top: 0; }
+.quiz-topics { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; }
+.widget .quiz-topic { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; background: #fff; color: var(--navy); border: 1px solid var(--border); text-align: left; padding: 14px 16px; }
+.widget .quiz-topic:hover { background: var(--blue-soft); }
+.quiz-topic span { font-weight: 400; font-size: 14px; color: var(--muted); }
+.quiz-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.quiz-progress { font-size: 14px; color: var(--muted); font-weight: 600; }
+.quiz-bar { height: 6px; background: #eef2f7; border-radius: 3px; margin: 10px 0 4px; overflow: hidden; }
+.quiz-bar span { display: block; height: 100%; background: var(--blue); }
+.quiz-runner .q-text:focus, .quiz-runner h2:focus { outline: none; }
+.quiz-runner .q > button { margin-top: 10px; }
+.quiz-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+
 /* ---------- Regulator finder (scripts/regulator-finder.js) ---------- */
 
 .reg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 10px; margin: 14px 0; }

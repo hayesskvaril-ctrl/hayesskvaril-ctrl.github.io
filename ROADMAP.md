@@ -86,7 +86,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 
 ## Phase 6 — Interactive and advanced learning (`/learn/`)
 
-- [ ] Quizzes / knowledge checks for each topic
+- [x] Quizzes / knowledge checks for each topic
 - [ ] Scenario simulations (e.g. "You've just identified a potential breach — what do you do?")
 - [ ] Interactive risk heat map / risk-scoring tool
 - [ ] Flashcards for terminology and standards
