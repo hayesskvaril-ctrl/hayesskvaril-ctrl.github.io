@@ -61,7 +61,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Financial Accountability Regime (FAR)
 - [x] Conflicts of interest
 - [x] Remuneration governance
-- [ ] Whistleblower protections
+- [x] Whistleblower protections
 - [ ] Culture and conduct risk
 
 ## Phase 4 — Regulatory & standards library (`/standards/`)
