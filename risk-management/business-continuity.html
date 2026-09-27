@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business continuity and operational resilience | RiskLens Australia</title>
+<meta name="description" content="Business continuity explained: critical operations, CPS 230 tolerance levels, business impact analysis, recovery objectives, what goes in a business continuity plan, testing, and an interactive tabletop exercise.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk Management</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Business continuity</li></ol></nav>
+
+  <h1>Business continuity</h1>
+  <p class="summary">Disruptions will happen. Business continuity is about making sure the services people depend on keep running, or come back fast enough, when they do.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Business continuity management plans for the <em>impact</em> of disruption, whatever the cause, so that critical services continue at an acceptable level.</li>
+      <li>The modern focus is <a class="term" href="/glossary/#operational-resilience">operational resilience</a>: assume disruption will happen, and make sure you can stay within tolerance through it.</li>
+      <li>Under APRA's CPS 230, regulated entities must identify <a class="term" href="/glossary/#critical-operation">critical operations</a>, set board-approved <a class="term" href="/glossary/#tolerance-level">tolerance levels</a>, and maintain and test a credible <a class="term" href="/glossary/#bcp">business continuity plan</a>.</li>
+      <li>A <a class="term" href="/glossary/#bia">business impact analysis</a> works out how quickly harm builds up and what each service depends on. <a class="term" href="/glossary/#rto">RTOs</a> and <a class="term" href="/glossary/#rpo">RPOs</a> must fit inside tolerance levels.</li>
+      <li>A plan that hasn't been tested with severe but plausible scenarios, including loss of a key service provider, shouldn't be relied on.</li>
+    </ul>
+  </aside>
+
+  <h2>Related ideas, and how they differ</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Term</th><th scope="col">Focus</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Business continuity management (BCM)</strong></td><td>Keeping important business activities going, or recovering them quickly, after a disruption.</td></tr>
+        <tr><td><strong>Operational resilience</strong></td><td>The broader ability to prevent, adapt to, respond to and recover from disruption while continuing to deliver critical operations. It starts from the customer's point of view and assumes disruption will happen.</td></tr>
+        <tr><td><strong>Disaster recovery (DR)</strong></td><td>Restoring IT systems and data after a failure. A key part of continuity, but only one part.</td></tr>
+        <tr><td><strong>Crisis management</strong></td><td>How senior leaders make decisions, communicate and coordinate during a major event.</td></tr>
+        <tr><td><strong>Incident management</strong></td><td>Responding to and managing individual incidents. See <a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a>.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>What CPS 230 requires</h2>
+  <p>Since 1 July 2025, APRA's CPS 230 has set business continuity requirements for banks, insurers and super trustees, replacing the earlier CPS 232 and SPS 232. In summary, an entity must:</p>
+  <ul>
+    <li><strong>Identify its critical operations</strong>: processes that, if disrupted beyond tolerance, would have a material adverse impact on depositors, policyholders, beneficiaries or other customers, or on the entity's role in the financial system. Some operations must be treated as critical unless the entity can justify otherwise, such as payments for banks, claims handling for insurers and investment management for super funds.</li>
+    <li><strong>Set tolerance levels</strong>, approved by the board, for each critical operation, covering the maximum period of disruption it would tolerate, the maximum data loss it would accept, and the minimum service levels it would maintain while operating under alternative arrangements.</li>
+    <li><strong>Maintain a credible business continuity plan</strong> that sets out how it will maintain critical operations within tolerance through severe disruptions, including triggers for activating the plan, actions to take, resources needed and a communications strategy.</li>
+    <li><strong>Test the plan</strong> through a systematic testing program covering all critical operations, including an annual business continuity exercise using a range of severe but plausible scenarios, including disruptions to service providers.</li>
+    <li><strong>Notify APRA</strong> as soon as possible, and no later than 24 hours, after a disruption to a critical operation outside tolerance.</li>
+  </ul>
+
+  <h2>Business impact analysis and recovery objectives</h2>
+  <p>A business impact analysis (BIA) asks, for each important service: how fast does harm build up if it stops, what does it depend on (people, systems, data, premises, suppliers), and how quickly must it be restored? The results produce recovery objectives:</p>
+  <dl class="definition">
+    <dt>Maximum tolerable period of disruption (or CPS 230 tolerance level for time)</dt>
+    <dd>The longest the service can be down before the harm becomes unacceptable.</dd>
+    <dt>Recovery time objective (RTO)</dt>
+    <dd>The target time to restore the service or system. It must be shorter than the tolerance, leaving a safety margin.</dd>
+    <dt>Recovery point objective (RPO)</dt>
+    <dd>How much data you can afford to lose, measured in time. An RPO of 15 minutes means data must be backed up or replicated at least every 15 minutes.</dd>
+    <dt>Minimum service level</dt>
+    <dd>The reduced level of service you will maintain while running on workarounds, for example "urgent benefit payments within 2 business days".</dd>
+  </dl>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 720 330" role="img" aria-labelledby="rt-title rt-desc">
+      <title id="rt-title">Recovery objectives on a disruption timeline</title>
+      <desc id="rt-desc">A timeline. At the disruption point, the service stops. Before it, the recovery point objective shows the maximum acceptable data loss back to the last good backup. After it, a curve of harm rises over time. The recovery time objective comes first, then the tolerance level (maximum period of disruption), after which harm becomes unacceptable. While recovering, minimum service levels are maintained through workarounds.</desc>
+      <defs><marker id="rt-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f2942"/></marker></defs>
+      <rect x="560" y="30" width="140" height="230" fill="#fee2e2"/>
+      <text x="630" y="226" text-anchor="middle" font-size="12.5" fill="#7f1d1d" font-weight="700">Unacceptable</text>
+      <text x="630" y="242" text-anchor="middle" font-size="12.5" fill="#7f1d1d" font-weight="700">harm</text>
+      <line x1="40" y1="260" x2="700" y2="260" stroke="#475569" stroke-width="2" marker-end="url(#rt-ar)"/>
+      <text x="690" y="282" text-anchor="end" font-size="12.5" fill="#475569">time</text>
+      <line x1="40" y1="260" x2="40" y2="20" stroke="#475569" stroke-width="2" marker-end="url(#rt-ar)"/>
+      <text x="30" y="140" text-anchor="middle" font-size="12.5" fill="#475569" transform="rotate(-90 30 140)">harm to customers</text>
+      <path d="M200,255 C300,250 380,230 450,190 S560,90 690,40" stroke="#b91c1c" stroke-width="3" fill="none"/>
+      <line x1="200" y1="30" x2="200" y2="260" stroke="#0f2942" stroke-width="3"/>
+      <text x="200" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#0f2942">Disruption</text>
+      <line x1="420" y1="90" x2="420" y2="260" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="6 4"/>
+      <text x="420" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8">RTO</text>
+      <line x1="560" y1="30" x2="560" y2="260" stroke="#b91c1c" stroke-width="2.5"/>
+      <text x="556" y="44" text-anchor="end" font-size="13" font-weight="700" fill="#b91c1c">Tolerance level</text>
+      <text x="556" y="60" text-anchor="end" font-size="12" fill="#b91c1c">(max period of disruption)</text>
+      <line x1="110" y1="226" x2="196" y2="226" stroke="#0f2942" stroke-width="2" marker-start="url(#rt-ar)" marker-end="url(#rt-ar)"/>
+      <line x1="110" y1="215" x2="110" y2="260" stroke="#475569" stroke-width="2"/>
+      <text x="153" y="214" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f2942">RPO</text>
+      <text x="110" y="300" text-anchor="middle" font-size="12" fill="#475569">last good backup</text>
+      <rect x="205" y="268" width="350" height="26" rx="4" fill="#fef3c7"/>
+      <text x="380" y="286" text-anchor="middle" font-size="12.5" fill="#78350f">operating on workarounds at minimum service levels</text>
+      <line x1="424" y1="232" x2="556" y2="232" stroke="#15803d" stroke-width="2" marker-start="url(#rt-ar)" marker-end="url(#rt-ar)"/>
+      <text x="490" y="252" text-anchor="middle" font-size="12" fill="#15803d" font-weight="700">safety margin</text>
+    </svg>
+    <figcaption>The RTO should sit comfortably inside the tolerance level. The RPO looks backwards: how much recent data could be lost.</figcaption>
+  </figure>
+
+  <h2>What goes in a business continuity plan</h2>
+  <ul>
+    <li><strong>Scope:</strong> the critical operations covered, their tolerance levels and key dependencies (mapped end to end, including service providers).</li>
+    <li><strong>Activation:</strong> clear triggers, who can activate the plan, and how.</li>
+    <li><strong>Roles:</strong> a crisis or incident management team with named people and deputies.</li>
+    <li><strong>Response actions:</strong> workarounds and recovery steps for each critical operation, for loss of people, premises, technology, data or a key supplier.</li>
+    <li><strong>Resources:</strong> alternative sites, backup systems, contact lists, and what's needed to execute.</li>
+    <li><strong>Communications:</strong> who tells what to staff, customers, service providers, regulators and the media, and when.</li>
+    <li><strong>Return to normal:</strong> how to restore normal operations and reconcile any backlog or data gaps.</li>
+  </ul>
+
+  <h2>Testing</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Test type</th><th scope="col">What happens</th><th scope="col">Confidence it gives</th></tr></thead>
+      <tbody>
+        <tr><td>Plan review / walkthrough</td><td>Participants read through the plan step by step to check it is complete and current.</td><td>Low</td></tr>
+        <tr><td>Tabletop exercise</td><td>A facilitated discussion of a realistic scenario, with "injects" (new developments) that force decisions.</td><td>Medium: tests decision-making and roles</td></tr>
+        <tr><td>Simulation</td><td>A more realistic rehearsal, often under time pressure, possibly involving service providers.</td><td>Medium to high</td></tr>
+        <tr><td>Technical recovery test</td><td>Actually failing over systems to backup sites or restoring data from backups.</td><td>High for technology recovery</td></tr>
+        <tr><td>Live test</td><td>Running a real process on alternative arrangements (e.g. staff working from an alternate site).</td><td>High, but risky and costly</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Good scenarios are <strong>severe but plausible</strong>: a ransomware attack that encrypts core systems and backups; the failure of a major administrator or cloud provider; a regional flood that closes the main office; a pandemic that takes out a large share of staff. Testing should be honest about what failed, and the lessons should be tracked to completion.</p>
+
+  <h2>Try it: a tabletop exercise</h2>
+  <div class="widget quiz">
+    <h3>Scenario: your fund administrator goes down</h3>
+    <p class="small">You are on the crisis management team of a super trustee. At 8:30 am on a Monday, your outsourced administrator reports a ransomware attack. Its systems are offline and it can't say when they'll be back. Member payments and contributions processing are both critical operations, with a tolerance of 2 business days for benefit payments.</p>
+    <div class="q" data-answer="b">
+      <p class="q-text">Inject 1 (8:45 am): What should happen first?</p>
+      <div class="q-options">
+        <button type="button" data-value="a">Wait for the administrator's full investigation before acting</button>
+        <button type="button" data-value="b">Activate the BCP and convene the crisis team</button>
+        <button type="button" data-value="c">Issue a media release</button>
+      </div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>A disruption to critical operations with no restoration time is a clear trigger. Activating early costs little; activating late can blow the tolerance.</p>
+    </div>
+    <div class="q" data-answer="a">
+      <p class="q-text">Inject 2 (11:00 am): The administrator now estimates 4 to 5 business days to restore. What does that mean?</p>
+      <div class="q-options">
+        <button type="button" data-value="a">Benefit payments are likely to go outside tolerance, so workarounds are needed now and APRA notification must be considered</button>
+        <button type="button" data-value="b">Nothing yet; tolerance hasn't been breached</button>
+        <button type="button" data-value="c">Close the fund to new members</button>
+      </div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>The estimate exceeds the 2-day tolerance. Use manual workarounds for urgent payments (e.g. hardship, death benefits) to maintain minimum service levels. Under CPS 230, APRA must be notified within 24 hours of a disruption to a critical operation outside tolerance, and a material operational risk incident within 72 hours of becoming aware.</p>
+    </div>
+    <div class="q" data-answer="c">
+      <p class="q-text">Inject 3 (2:00 pm): The administrator says member personal information may have been taken. Which other obligation now comes into play?</p>
+      <div class="q-options">
+        <button type="button" data-value="a">None: it's the administrator's problem</button>
+        <button type="button" data-value="b">Only AUSTRAC reporting</button>
+        <button type="button" data-value="c">Assessing a possible eligible data breach under the Privacy Act, and possible CPS 234 notification</button>
+      </div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>The trustee remains responsible for members' information held by its service provider. It needs to assess whether this is an eligible data breach (OAIC), and whether it is a material information security incident (APRA CPS 234, within 72 hours).</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">Inject 4 (day 3): Members are posting on social media about delayed payments. What's the best communication approach?</p>
+      <div class="q-options">
+        <button type="button" data-value="a">Say nothing until systems are restored</button>
+        <button type="button" data-value="b">Proactive, honest updates on what's affected, what members can do, and when they'll hear more</button>
+        <button type="button" data-value="c">Blame the administrator publicly</button>
+      </div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Clear, regular communication reduces harm and complaints. The trustee is accountable to members even when a service provider caused the problem.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <h2>Standards and guidance</h2>
+  <ul>
+    <li><strong>ISO 22301:2019</strong> <em>Security and resilience – Business continuity management systems – Requirements</em> is the international standard for a business continuity management system. Unlike ISO 31000, organisations can be certified against it. An amendment on climate action was published in 2024.</li>
+    <li><strong>APRA CPS 230 and CPG 230</strong> set the requirements and APRA's expectations for regulated entities.</li>
+    <li><strong>APRA CPS 234</strong> covers information security, which is closely linked to technology recovery and cyber resilience.</li>
+  </ul>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk (CPS 230)"><a href="/risk-management/operational-risk.html">Operational risk (CPS 230)</a></li>
+      <li data-href="/risk-management/third-party-risk.html" data-label="Third-party, vendor and outsourcing risk">Third-party, vendor and outsourcing risk <span class="soon">(coming soon)</span></li>
+      <li data-href="/risk-management/incident-and-breach-management.html" data-label="Incident and breach management"><a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a></li>
+      <li data-href="/risk-management/risk-appetite-and-tolerance.html" data-label="Risk appetite and tolerance"><a href="/risk-management/risk-appetite-and-tolerance.html">Risk appetite and tolerance</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> and Prudential Practice Guide CPG 230.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-234">Prudential Standard CPS 234 Information Security</a>.</li>
+      <li>International Organization for Standardization, <a href="https://www.iso.org/standard/75106.html">ISO 22301:2019 Business continuity management systems – Requirements</a> and <a href="https://www.iso.org/standard/88412.html">Amendment 1:2024 Climate action changes</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>

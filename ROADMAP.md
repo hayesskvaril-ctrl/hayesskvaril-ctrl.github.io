@@ -40,7 +40,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Operational risk
 - [x] Credit, market and liquidity risk (basics)
 - [x] Incident and breach management
-- [ ] Business continuity
+- [x] Business continuity
 - [ ] Third-party / vendor / outsourcing risk
 
 ## Phase 2 — Compliance pillar (`/compliance/`)
