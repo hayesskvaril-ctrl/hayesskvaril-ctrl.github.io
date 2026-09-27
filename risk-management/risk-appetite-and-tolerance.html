@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risk appetite and tolerance | RiskLens Australia</title>
+<meta name="description" content="Risk capacity, risk appetite, risk tolerance and risk limits explained in plain English, with what APRA's CPS 220 requires in a risk appetite statement, a worked example and an interactive KRI dashboard.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk Management</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Risk appetite and tolerance</li></ol></nav>
+
+  <h1>Risk appetite and tolerance</h1>
+  <p class="summary">Risk appetite is the board's answer to the question "how much risk are we prepared to take, and of what kinds?" Tolerances and limits turn that answer into numbers people can manage to.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 12 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li><a class="term" href="/glossary/#risk-capacity">Risk capacity</a> is the most risk you <em>could</em> bear. <a class="term" href="/glossary/#risk-appetite">Risk appetite</a> is how much you <em>choose</em> to take. <a class="term" href="/glossary/#risk-tolerance">Tolerances</a> and limits are the measurable boundaries.</li>
+      <li>APRA-regulated banks, insurers and super trustees must have a board-approved <a class="term" href="/glossary/#risk-appetite-statement">risk appetite statement</a> (CPS 220 / SPS 220) that sets tolerances for each material risk and explains how breaches are monitored and acted on.</li>
+      <li>A good statement combines qualitative statements (what we will and won't do) with quantitative metrics and early-warning triggers.</li>
+      <li>Appetite only works if it cascades into business decisions, limits and <a class="term" href="/glossary/#kri">key risk indicators</a>, and if breaches actually lead to action.</li>
+      <li>Terms are used inconsistently across frameworks. Always check how <em>your</em> organisation and regulator define them.</li>
+    </ul>
+  </aside>
+
+  <h2>The idea in plain English</h2>
+  <p>Think about a household budget. Your <strong>capacity</strong> is the absolute most you could spend before you couldn't pay the mortgage. Your <strong>appetite</strong> is how much you're comfortable spending on, say, holidays, well inside that capacity. Your <strong>limit</strong> is the hard number you've agreed ("no more than $5,000 a year"), and you might set an <strong>early-warning trigger</strong> ("if we hit $4,000 by October, we talk about it").</p>
+  <p>Organisations do the same thing for risk. The board decides how much risk, of each type, the organisation is willing to take to achieve its strategy, then management turns that into measures it can track.</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 720 310" role="img" aria-labelledby="ra-title ra-desc">
+      <title id="ra-title">Risk capacity, appetite, tolerance and limits</title>
+      <desc id="ra-desc">A horizontal scale of increasing risk. The green zone on the left is within risk appetite. An early-warning trigger marks the start of an amber zone. The risk tolerance or limit marks the start of a red zone where escalation and action are required. Further right is risk capacity, beyond which the organisation could fail or breach regulatory minimums. A marker shows the current risk profile sitting in the green zone.</desc>
+      <text x="40" y="30" font-size="13" fill="#4a5568">Less risk</text>
+      <text x="680" y="30" font-size="13" fill="#4a5568" text-anchor="end">More risk</text>
+      <rect x="40" y="110" width="300" height="60" fill="#bfe5cb"/>
+      <rect x="340" y="110" width="120" height="60" fill="#fde68a"/>
+      <rect x="460" y="110" width="140" height="60" fill="#fca5a5"/>
+      <rect x="600" y="110" width="80" height="60" fill="#475569"/>
+      <g font-size="13" font-weight="700" text-anchor="middle">
+        <text x="190" y="145" fill="#14532d">Within appetite</text>
+        <text x="400" y="138" fill="#78350f">Early</text>
+        <text x="400" y="156" fill="#78350f">warning</text>
+        <text x="530" y="138" fill="#7f1d1d">Outside</text>
+        <text x="530" y="156" fill="#7f1d1d">tolerance</text>
+        <text x="640" y="138" fill="#fff">Beyond</text>
+        <text x="640" y="156" fill="#fff">capacity</text>
+      </g>
+      <g stroke="#0f2942" stroke-width="2.5">
+        <line x1="340" y1="95" x2="340" y2="185"/>
+        <line x1="460" y1="95" x2="460" y2="185"/>
+        <line x1="600" y1="95" x2="600" y2="185"/>
+      </g>
+      <g font-size="13" text-anchor="middle" fill="#0f2942">
+        <text x="340" y="70" font-weight="700">Trigger</text>
+        <text x="340" y="86">escalate &amp; review</text>
+        <text x="460" y="54" font-weight="700">Tolerance / limit</text>
+        <text x="460" y="70">must act and</text>
+        <text x="460" y="86">report to board</text>
+        <text x="610" y="70" font-weight="700">Risk capacity</text>
+        <text x="610" y="86">the most we could bear</text>
+      </g>
+      <path d="M250,200 l-10,-16 h20 z" fill="#2563eb"/>
+      <text x="250" y="222" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8">Current risk profile</text>
+      <path d="M40,255 H340" stroke="#15803d" stroke-width="2"/>
+      <path d="M40,250 v10 M340,250 v10" stroke="#15803d" stroke-width="2"/>
+      <text x="190" y="280" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d">Risk appetite</text>
+      <text x="190" y="296" text-anchor="middle" font-size="12.5" fill="#15803d">where the board wants risk to sit</text>
+      <path d="M460,255 H600" stroke="#475569" stroke-width="2" stroke-dasharray="4 3"/>
+      <path d="M460,250 v10 M600,250 v10" stroke="#475569" stroke-width="2"/>
+      <text x="530" y="280" text-anchor="middle" font-size="12.5" fill="#475569">buffer between limit</text>
+      <text x="530" y="296" text-anchor="middle" font-size="12.5" fill="#475569">and capacity</text>
+    </svg>
+    <figcaption>How the main terms relate to each other (a common way of drawing it; organisations vary).</figcaption>
+  </figure>
+
+  <h2>The key terms</h2>
+  <dl class="definition">
+    <dt>Risk capacity</dt>
+    <dd>The maximum risk the organisation could absorb before it breached regulatory minimums (such as capital requirements), could no longer meet its obligations to customers or members, or failed.</dd>
+    <dt>Risk appetite</dt>
+    <dd>The aggregate amount and types of risk the organisation is willing to take to achieve its strategy, set within risk capacity. The Financial Stability Board's 2013 principles describe it in these terms.</dd>
+    <dt>Risk tolerance</dt>
+    <dd>In APRA's CPS 220, the maximum level of risk the institution is willing to operate within for each material risk, expressed as a risk limit. Some other frameworks use "tolerance" to mean the acceptable variation around appetite.</dd>
+    <dt>Risk limits and triggers</dt>
+    <dd>More detailed, measurable thresholds allocated to business units, products or activities. Triggers (often "amber") are set before limits (often "red") so that problems are caught early.</dd>
+    <dt>Risk profile</dt>
+    <dd>Where the organisation's risks actually sit today. Comparing profile with appetite is the whole point.</dd>
+  </dl>
+
+  <div class="callout warn">
+    <h3>Watch out: words vary</h3>
+    <p>"Tolerance" means different things in different places. APRA's CPS 220 uses it for the maximum level of each material risk. APRA's CPS 230 separately uses <a class="term" href="/glossary/#tolerance-level">"tolerance levels"</a> for the maximum acceptable disruption to a critical operation. Some organisations use "tolerance" to mean a buffer zone above appetite. None of these is wrong, but mixing them causes confusion, so define terms in your framework and stick to them.</p>
+  </div>
+
+  <h2>What APRA requires</h2>
+  <p>APRA's Prudential Standard CPS 220 Risk Management (for banks and insurers) and SPS 220 (for super trustees) require a board-approved risk appetite statement as part of the risk management framework. Under CPS 220, the statement must cover, among other things:</p>
+  <ul>
+    <li>the degree of risk the institution is prepared to accept in pursuit of its strategic objectives and business plan, considering the interests of depositors and/or policyholders;</li>
+    <li>for each material risk, the maximum level of risk it is willing to operate within (the risk tolerance), expressed as a risk limit and based on its risk appetite, risk profile and capital strength;</li>
+    <li>the process for making sure tolerances are set at an appropriate level, based on the likely impact if a tolerance is breached and the likelihood of each material risk occurring; and</li>
+    <li>the process for monitoring compliance with each tolerance and for taking appropriate action if one is breached.</li>
+  </ul>
+  <p>APRA's prudential practice guide CPG 220 gives more detail on its expectations. SPS 220 contains broadly equivalent requirements for super, framed around the interests of beneficiaries. Always read the current standard itself for the precise wording.</p>
+
+  <h2>What a risk appetite statement looks like</h2>
+  <p>Most statements have two layers: <strong>qualitative statements</strong> that describe attitudes to each risk type in words, and <strong>quantitative metrics</strong> with triggers and limits. Below is a simplified, made-up extract for a super trustee.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Illustrative extract only. Real statements are tailored to each organisation.</caption>
+      <thead><tr><th scope="col">Risk category</th><th scope="col">Appetite statement</th><th scope="col">Example metric</th><th scope="col">Trigger (amber)</th><th scope="col">Limit (red)</th></tr></thead>
+      <tbody>
+        <tr><td>Investment</td><td>We accept investment risk to deliver long-term returns in line with each option's objectives.</td><td>Rolling 10-year return vs option objective</td><td>0.5% p.a. below</td><td>1.0% p.a. below</td></tr>
+        <tr><td>Liquidity</td><td>Low appetite. We must always be able to pay benefits, switches and rollovers when due.</td><td>Liquid assets under severe stress scenario vs projected outflows</td><td>Below 150%</td><td>Below 120%</td></tr>
+        <tr><td>Operational: member administration</td><td>Low appetite for errors that affect members' balances.</td><td>Unallocated contributions older than 3 business days</td><td>More than 200</td><td>More than 500</td></tr>
+        <tr><td>Compliance</td><td>No appetite for deliberate or reckless breaches of the law. Low tolerance for any breach that harms members.</td><td>Reportable breaches not lodged on time</td><td>Any at risk</td><td>1 or more</td></tr>
+        <tr><td>Cyber and information security</td><td>Very low appetite for loss of member data or of critical systems.</td><td>Critical security patches overdue</td><td>More than 5</td><td>More than 10, or any over 30 days</td></tr>
+        <tr><td>Service providers</td><td>Low appetite for service provider failures that disrupt critical operations.</td><td>Material service providers outside agreed service levels for 2 or more months</td><td>1</td><td>2 or more</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>From board statement to everyday decisions</h3>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 300" role="img" aria-labelledby="cas-title cas-desc">
+      <title id="cas-title">Cascading risk appetite</title>
+      <desc id="cas-desc">Four levels. The board approves the risk appetite statement. It sets tolerances for each material risk. These cascade into business unit limits and key risk indicators. These guide day-to-day decisions and actions. Reporting flows back up through each level.</desc>
+      <defs>
+        <marker id="cas-d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f2942"/></marker>
+        <marker id="cas-u" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker>
+      </defs>
+      <g font-size="14" text-anchor="middle">
+        <rect x="200" y="10" width="320" height="50" rx="10" fill="#0f2942"/>
+        <text x="360" y="32" fill="#fff" font-weight="700">Board: risk appetite statement</text>
+        <text x="360" y="50" fill="#cbd8e8" font-size="12.5">attitudes to each risk, overall boundaries</text>
+        <rect x="160" y="85" width="400" height="50" rx="10" fill="#1b3a5c"/>
+        <text x="360" y="107" fill="#fff" font-weight="700">Tolerances for each material risk</text>
+        <text x="360" y="125" fill="#cbd8e8" font-size="12.5">measurable, approved by the board</text>
+        <rect x="120" y="160" width="480" height="50" rx="10" fill="#2563eb"/>
+        <text x="360" y="182" fill="#fff" font-weight="700">Business unit limits and key risk indicators</text>
+        <text x="360" y="200" fill="#e8f0fe" font-size="12.5">owned by management, with triggers</text>
+        <rect x="80" y="235" width="560" height="50" rx="10" fill="#e8f0fe" stroke="#93b4f5"/>
+        <text x="360" y="257" fill="#0f2942" font-weight="700">Day-to-day decisions</text>
+        <text x="360" y="275" fill="#0f2942" font-size="12.5">new products, projects, suppliers, investments, pricing</text>
+      </g>
+      <g stroke-width="2.5">
+        <line x1="60" y1="40" x2="60" y2="255" stroke="#0f2942" marker-end="url(#cas-d)"/>
+        <line x1="660" y1="258" x2="660" y2="40" stroke="#15803d" marker-end="url(#cas-u)"/>
+      </g>
+      <text x="40" y="150" font-size="12.5" fill="#0f2942" text-anchor="middle" transform="rotate(-90 40 150)">cascade down</text>
+      <text x="682" y="150" font-size="12.5" fill="#15803d" text-anchor="middle" transform="rotate(90 682 150)">report up</text>
+    </svg>
+    <figcaption>Appetite has to reach the people making decisions, and information has to flow back to the board.</figcaption>
+  </figure>
+
+  <h2>Monitoring and escalation</h2>
+  <p>A statement on a shelf achieves nothing. Organisations track their metrics regularly, usually on a traffic-light dashboard, and have agreed <strong>escalation</strong> rules for what happens at each threshold. Try it below.</p>
+
+  <div class="widget" id="kri-demo">
+    <h3>Interactive: a simple KRI dashboard</h3>
+    <p class="small">Change the values to see how each indicator's status and required action change. Thresholds are illustrative.</p>
+    <div class="kri-list"></div>
+    <noscript><p>This dashboard needs JavaScript.</p></noscript>
+  </div>
+
+  <h3>What good escalation looks like</h3>
+  <ul>
+    <li><strong>Clear ownership:</strong> each metric has a named owner responsible for monitoring and acting.</li>
+    <li><strong>Defined timeframes:</strong> for example, an amber trigger is reported to the relevant executive within 5 business days with an action plan; a red breach goes to the CRO immediately and to the board risk committee at its next meeting (or sooner if severe).</li>
+    <li><strong>Decisions, not just reports:</strong> the response to a breach should be a decision: bring the risk back within tolerance, or formally accept it for a period (<a class="term" href="/glossary/#risk-acceptance">risk acceptance</a>), or change the appetite.</li>
+    <li><strong>No "watermelons":</strong> metrics that are green on the outside but red on the inside. If a metric is always green while incidents keep happening, it is probably measuring the wrong thing.</li>
+  </ul>
+
+  <h2>Common pitfalls</h2>
+  <details>
+    <summary>"Zero appetite" for everything</summary>
+    <p>Saying you have "zero appetite" for a risk you cannot avoid (errors, cyber attacks, breaches) sets up a statement that is breached constantly and loses meaning. A more useful approach separates what is truly unacceptable ("no appetite for deliberate breaches of the law") from what must be minimised ("low tolerance for errors that affect members, measured by…").</p>
+  </details>
+  <details>
+    <summary>Metrics that don't match the statement</summary>
+    <p>If the words say "low appetite for poor member outcomes" but the only metric is a count of complaints, most of the risk is unmeasured. Each statement should have metrics that genuinely reflect it.</p>
+  </details>
+  <details>
+    <summary>Set and forget</summary>
+    <p>Appetite should be reviewed when strategy, the environment or the risk profile changes, not just ticked off annually.</p>
+  </details>
+  <details>
+    <summary>Appetite that doesn't influence decisions</summary>
+    <p>A good test: can you point to a recent decision (a product, a supplier, an investment) where risk appetite changed the outcome? If not, the framework may be for show. Researchers have criticised narrow, box-ticking versions of risk appetite as contributing to a false sense of security before the global financial crisis (Power, 2009).</p>
+  </details>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/foundations/what-is-risk-management.html" data-label="What is risk management?"><a href="/foundations/what-is-risk-management.html">What is risk management?</a></li>
+      <li data-href="/risk-management/risk-assessment-methodologies.html" data-label="Risk assessment methodologies">Risk assessment methodologies <span class="soon">(coming soon)</span></li>
+      <li data-href="/risk-management/enterprise-risk-management.html" data-label="Enterprise risk management (ERM)">Enterprise risk management (ERM) <span class="soon">(coming soon)</span></li>
+      <li data-href="/risk-management/business-continuity.html" data-label="Business continuity (CPS 230 tolerance levels)">Business continuity (CPS 230 tolerance levels) <span class="soon">(coming soon)</span></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a> and <a href="https://www.apra.gov.au/practice-guides/cpg-220">Prudential Practice Guide CPG 220 Risk Management</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-220">Prudential Standard SPS 220 Risk Management</a>.</li>
+      <li>Financial Stability Board, <a href="https://www.fsb.org/2013/11/r_131118/">Principles for an Effective Risk Appetite Framework</a> (18 November 2013).</li>
+      <li>Power, M. (2009). The risk management of nothing. <em>Accounting, Organizations and Society</em>, 34(6–7), 849–855. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0361368209000580">Journal page</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/kri-dashboard.js"></script>
+</body>
+</html>

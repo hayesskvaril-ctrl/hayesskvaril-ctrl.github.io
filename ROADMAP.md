@@ -32,8 +32,8 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Core frameworks compared: ISO 31000, COSO ERM, Three Lines (visual comparison)
 
 **Risk Management pillar** (`/risk-management/`)
-- [ ] Pillar landing page (overview, learning path, links to every topic)
-- [ ] Risk appetite and tolerance
+- [x] Pillar landing page (overview, learning path, links to every topic)
+- [x] Risk appetite and tolerance
 - [ ] Risk assessment methodologies (likelihood × consequence, qualitative vs quantitative, heat maps)
 - [ ] Control design and testing
 - [ ] Enterprise risk management (ERM)

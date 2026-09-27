@@ -557,3 +557,16 @@ details[open] summary { margin-bottom: 10px; }
 .reg-card.lvl-depends .reg-level { color: var(--amber); }
 .reg-card.lvl-no { opacity: .7; }
 .reg-card.lvl-no .reg-level { color: #64748b; }
+
+/* ---------- KRI dashboard (scripts/kri-dashboard.js) ---------- */
+
+.kri-row { border-top: 1px solid var(--border); padding: 14px 0; }
+.kri-row:first-child { border-top: none; }
+.kri-head label { display: block; }
+.kri-body { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 8px; }
+.kri-body input { width: 120px; }
+.kri-light { width: 22px; height: 22px; border-radius: 50%; background: #cbd5e1; flex: none; border: 2px solid rgba(0,0,0,.15); }
+.kri-light.green { background: #22c55e; }
+.kri-light.amber { background: #f59e0b; }
+.kri-light.red { background: #ef4444; }
+.kri-status { margin: 0; flex: 1 1 260px; font-size: 15px; }
