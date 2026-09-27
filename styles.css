@@ -637,3 +637,13 @@ details[open] summary { margin-bottom: 10px; }
 /* Keep form controls inside widgets on narrow screens */
 .widget .controls > div { min-width: 0; max-width: 100%; }
 .widget select { max-width: 100%; }
+
+/* ---------- Culture radar (scripts/culture-radar.js) ---------- */
+
+.cr-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: center; }
+.cr-row { display: grid; grid-template-columns: 1fr 90px 18px; gap: 8px; align-items: center; padding: 4px 0; }
+.cr-row label { font-size: 14px; font-weight: 600; margin: 0; }
+.cr-row input { width: 90px; }
+.cr-row output { font-weight: 700; color: var(--blue-dark); }
+.cr-chart svg { width: 100%; height: auto; }
+@media (max-width: 700px) { .cr-layout { grid-template-columns: 1fr; } }

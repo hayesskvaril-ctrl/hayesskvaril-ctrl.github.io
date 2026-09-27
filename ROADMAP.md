@@ -62,7 +62,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Conflicts of interest
 - [x] Remuneration governance
 - [x] Whistleblower protections
-- [ ] Culture and conduct risk
+- [x] Culture and conduct risk
 
 ## Phase 4 — Regulatory & standards library (`/standards/`)
 
