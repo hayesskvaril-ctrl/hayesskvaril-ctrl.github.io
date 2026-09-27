@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scenario analysis and stress testing | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to scenario analysis and stress testing in Australian financial services: severe but plausible scenarios, sensitivity and reverse stress testing, CPS 230, CPS 190, ICAAP and SPS 530, with worked examples.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/scenario-analysis-and-stress-testing.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scenario analysis and stress testing">
+<meta property="og:description" content="An advanced guide to scenario analysis and stress testing in Australian financial services: severe but plausible scenarios, sensitivity and reverse stress testing, CPS 230, CPS 190, ICAAP and SPS 530, with worked examples.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/scenario-analysis-and-stress-testing.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Scenario analysis and stress testing</li></ol></nav>
+
+  <h1>Scenario analysis and stress testing</h1>
+  <p class="summary">How organisations test what would happen in a severe but plausible crisis, and work backwards from failure to find the scenarios that would break them.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 15 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li><strong>Scenario analysis</strong> asks "what if this specific event happened?" <strong>Stress testing</strong> measures the impact on capital, liquidity, operations or members. <strong>Reverse stress testing</strong> starts from failure and asks what would cause it.</li>
+      <li>Good scenarios are <strong>severe but plausible</strong>: bad enough to test resilience, realistic enough that people take them seriously.</li>
+      <li>APRA requires scenarios and stress testing in several standards, including <a class="term" href="/glossary/#cps-230">CPS 230</a> (business continuity), CPS 190 (<a class="term" href="/glossary/#recovery-and-exit-planning">recovery and exit planning</a>), the ICAAP for banks and insurers, and SPS 530 for super investment options.</li>
+      <li>The value is in the decisions a test leads to: changes to limits, buffers, contingency plans or strategy. A test that changes nothing has usually been too mild.</li>
+      <li>Common failures are optimistic assumptions, scenarios built in silos, and giving too much credit for management actions that might not work in a real crisis.</li>
+    </ul>
+  </aside>
+
+  <h2>The toolkit, from simple to demanding</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 230" role="img" aria-labelledby="st-title st-desc">
+      <title id="st-title">Four ways to test resilience</title>
+      <desc id="st-desc">Four approaches in increasing sophistication. Sensitivity analysis changes one factor at a time, such as a 20% share market fall. Scenario analysis builds a story in which several things go wrong together, either historical or hypothetical. Stress testing quantifies the impact of a scenario on capital, liquidity, operations or members against limits. Reverse stress testing starts from an outcome that would be unacceptable and works backwards to find the scenarios that would cause it.</desc>
+      <defs><marker id="st-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="13" text-anchor="middle">
+        <rect x="10" y="20" width="160" height="150" rx="10" fill="#1b3a5c"/>
+        <text x="90" y="50" fill="#fff" font-weight="700">Sensitivity</text>
+        <text x="90" y="76" fill="#cbd8e8">change one factor</text>
+        <text x="90" y="94" fill="#cbd8e8">e.g. shares fall 20%</text>
+        <text x="90" y="130" fill="#cbd8e8">"How sensitive</text><text x="90" y="148" fill="#cbd8e8">are we to X?"</text>
+        <rect x="190" y="20" width="160" height="150" rx="10" fill="#1b3a5c"/>
+        <text x="270" y="50" fill="#fff" font-weight="700">Scenario analysis</text>
+        <text x="270" y="76" fill="#cbd8e8">a story where several</text>
+        <text x="270" y="94" fill="#cbd8e8">things go wrong</text>
+        <text x="270" y="130" fill="#cbd8e8">"What if this</text><text x="270" y="148" fill="#cbd8e8">happened?"</text>
+        <rect x="370" y="20" width="160" height="150" rx="10" fill="#0f2942"/>
+        <text x="450" y="50" fill="#fff" font-weight="700">Stress testing</text>
+        <text x="450" y="76" fill="#cbd8e8">quantify the impact</text>
+        <text x="450" y="94" fill="#cbd8e8">against limits</text>
+        <text x="450" y="130" fill="#cbd8e8">"Would we stay</text><text x="450" y="148" fill="#cbd8e8">within tolerance?"</text>
+        <rect x="550" y="20" width="160" height="150" rx="10" fill="#2563eb"/>
+        <text x="630" y="50" fill="#fff" font-weight="700">Reverse stress</text>
+        <text x="630" y="76" fill="#e8f0fe">start from failure,</text>
+        <text x="630" y="94" fill="#e8f0fe">work backwards</text>
+        <text x="630" y="130" fill="#e8f0fe">"What would</text><text x="630" y="148" fill="#e8f0fe">break us?"</text>
+        <line x1="20" y1="200" x2="700" y2="200" stroke="#2563eb" stroke-width="2.5" marker-end="url(#st-ar)"/>
+        <text x="360" y="222" fill="#0f2942" font-size="12.5">more judgement, more joined-up, more useful for resilience</text>
+      </g>
+    </svg>
+    <figcaption>The four approaches complement each other. Most mature programs use all four.</figcaption>
+  </figure>
+
+  <h2>What "severe but plausible" means</h2>
+  <p>APRA uses the phrase "severe but plausible" throughout its standards. It has no precise definition, which is deliberate: it requires judgement. In practice it means:</p>
+  <ul>
+    <li><strong>Severe:</strong> far worse than a normal bad year. The scenario should seriously test buffers, contingency plans and people, not just confirm that things are fine.</li>
+    <li><strong>Plausible:</strong> it could realistically happen. It is grounded in history, in events at other organisations, or in a credible chain of causes. It is not science fiction.</li>
+    <li><strong>Relevant:</strong> tailored to the organisation's own business model, dependencies and weak points, not a generic industry scenario.</li>
+  </ul>
+  <p>A useful check: if the board reads the scenario and says "that could never happen to us", either the scenario is implausible or the board is overconfident. Both are worth a conversation.</p>
+
+  <h2>Building a scenario, step by step</h2>
+  <ol>
+    <li><strong>Choose the risk to test.</strong> Start from the risk profile, emerging risks, recent near misses and external events. Include combinations: crises rarely arrive one at a time.</li>
+    <li><strong>Write the narrative.</strong> A short story of what happens, in what order, over what period. Specific details (which system, which supplier, which market) make it concrete.</li>
+    <li><strong>Calibrate the severity.</strong> Put numbers on it using history (for example, past market falls or outage durations), external events and expert judgement. Record the basis.</li>
+    <li><strong>Trace the impacts.</strong> Follow the effects through operations, customers or members, finances, liquidity, people, third parties, regulators and reputation. Look for knock-on effects.</li>
+    <li><strong>Compare with limits.</strong> Would the organisation stay within its <a class="term" href="/glossary/#risk-appetite">risk appetite</a>, capital and liquidity limits and <a class="term" href="/glossary/#tolerance-level">tolerance levels</a>?</li>
+    <li><strong>Test the responses.</strong> Which actions would be taken, how long would they take, and would they really work in a crisis? Be sceptical of actions that depend on markets or counterparties behaving normally.</li>
+    <li><strong>Decide and act.</strong> Record findings, agree actions (buffers, limits, plans, investments) and report to the board. Track the actions to completion.</li>
+  </ol>
+
+  <div class="callout example">
+    <h3>Worked example: a combined operational and market scenario for a super fund</h3>
+    <p>An illustrative scenario for a fictional large super fund. Figures are made up for teaching.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Element</th><th scope="col">Assumption</th><th scope="col">Impact traced</th></tr></thead>
+        <tbody>
+          <tr><td>Trigger</td><td>A ransomware attack takes the fund's outsourced administration platform offline.</td><td>Member transactions, contributions processing and the call centre's system access stop.</td></tr>
+          <tr><td>Duration</td><td>Core systems restored after 6 days; full data reconciliation takes 5 weeks.</td><td>Compared with the fund's <a href="/risk-management/business-continuity.html">tolerance levels</a> for member payments and data loss.</td></tr>
+          <tr><td>Market conditions</td><td>At the same time, share markets fall 25% over the month.</td><td>Unit prices can't be struck on time; members who want to switch to cash can't.</td></tr>
+          <tr><td>Member behaviour</td><td>Once systems return, switching and rollover requests run at three times normal.</td><td>Liquidity pressure in investment options with illiquid assets.</td></tr>
+          <tr><td>Data</td><td>Some member personal information is stolen.</td><td>Notifiable data breach assessment, APRA notification under CPS 234 and CPS 230, and member communications.</td></tr>
+          <tr><td>Knock-on effects</td><td>Complaints spike; the media report on the outage.</td><td>Call centre capacity, IDR timeframes, possible remediation for pricing delays.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Typical findings:</strong> the administrator's recovery time is longer than the fund's tolerance; nobody has decided in advance how to price units if data is uncertain; liquidity plans assume normal switching levels. <strong>Typical actions:</strong> contract and testing changes with the administrator, a pre-agreed unit pricing approach for outages, and a review of liquidity buffers.</p>
+  </div>
+
+  <h2>Reverse stress testing</h2>
+  <p>Ordinary stress tests start with a scenario and ask how bad the outcome is. Reverse stress tests start with an outcome the organisation could not accept, such as breaching minimum capital, running out of liquid assets, or failing to deliver a critical operation for weeks, and ask <em>what would have to happen</em> to get there. The Basel Committee's stress testing principles describe it as a way to identify vulnerabilities that forward-looking scenarios can miss.</p>
+  <p>The approach is powerful because it defeats a common bias: when people design scenarios, they tend to choose ones the organisation survives. Starting from failure forces the uncomfortable conversation.</p>
+
+  <div class="callout example">
+    <h3>Worked example: when would a fund breach its liquidity minimum?</h3>
+    <p>A fictional $10 billion fund holds $1.2 billion in liquid assets and has a policy minimum of liquid assets equal to 5% of total assets. The grid below tests combinations of member outflows (switches out and rollovers, as a share of total assets) and falls in the value of the liquid assets.</p>
+    <div class="table-wrap">
+      <table>
+        <caption>Liquid assets as a share of total assets after the stress (policy minimum 5%). Illustrative.</caption>
+        <thead><tr><th scope="col">Outflows</th><th scope="col">No fall in liquid assets</th><th scope="col">Liquid assets fall 10%</th><th scope="col">Liquid assets fall 20%</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">3% of assets</th><td>9.3% (within)</td><td>8.0% (within)</td><td>6.8% (within)</td></tr>
+          <tr><th scope="row">5% of assets</th><td>7.4% (within)</td><td>6.1% (within)</td><td><strong>4.8% (breach)</strong></td></tr>
+          <tr><th scope="row">7% of assets</th><td>5.4% (within)</td><td><strong>4.1% (breach)</strong></td><td><strong>2.8% (breach)</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>How the figures work: remaining liquid assets = $1.2b × (1 − fall) − outflows, divided by total assets after outflows. For example, 5% outflows ($500m) with a 20% fall: ($960m − $500m) ÷ $9.5b = 4.8%.</p>
+    <p>The key question is then one of judgement: <strong>how plausible are outflows of 5–7% of assets in a short period, combined with a sharp market fall?</strong> The answer draws on the fund's own membership, past events (such as the COVID-19 early release of super in 2020) and the scenario narrative. If the breach scenarios are plausible, the fund might hold a larger buffer, change its liquidity plan, or review options with illiquid assets.</p>
+  </div>
+
+  <h2>Where Australian standards require it</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Requirement</th><th scope="col">Who</th><th scope="col">What it involves</th></tr></thead>
+      <tbody>
+        <tr><td><a href="/standards/cps-230.html">CPS 230</a> Operational Risk Management</td><td>All APRA-regulated entities</td><td>A systematic business continuity testing program covering all critical operations, including an annual exercise, using a range of severe but plausible scenarios (including disruption to material service providers). Scenario analysis also informs the operational risk profile.</td></tr>
+        <tr><td>CPS 190 Recovery and Exit Planning</td><td>Significant financial institutions</td><td>Recovery and exit plans that include scenario analysis with at least two scenarios severe enough to threaten viability, one systemic and one idiosyncratic, and an assessment of recovery capacity.</td></tr>
+        <tr><td>ICAAP under APS 110 (banks) and the insurance capital standards</td><td>ADIs and insurers</td><td>An internal capital adequacy assessment process that includes stress testing and scenario analysis of capital adequacy.</td></tr>
+        <tr><td>SPS 530 Investment Governance</td><td>RSE licensees</td><td>A board-approved investment stress-testing program, with adverse scenarios for each investment option's strategy.</td></tr>
+        <tr><td><a href="/standards/asic-rg-259.html">ASIC RG 259</a></td><td>Responsible entities and CCIV corporate directors</td><td>Stress testing or scenario analysis of each fund's liquidity at least annually.</td></tr>
+        <tr><td>APRA system stress tests</td><td>Selected banks, insurers and super funds</td><td>APRA runs its own industry-wide tests. Its first System Risk Stress Test, in 2025, examined links between the banking and superannuation systems under a severe but plausible shock.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common weaknesses</h2>
+  <ul>
+    <li><strong>Not severe enough.</strong> Scenarios quietly tuned so the organisation passes.</li>
+    <li><strong>Silos.</strong> Operational, financial and liquidity teams each test their own scenario, missing the combined effect. See <span class="xref" data-href="/risk-management/risk-aggregation-and-correlation.html">Risk aggregation and correlation</span>.</li>
+    <li><strong>Heroic management actions.</strong> Assuming assets can be sold at normal prices, or that a supplier will be replaced within days.</li>
+    <li><strong>Static scenarios.</strong> Reusing last year's scenario without updating it for new risks, products or dependencies.</li>
+    <li><strong>No link to decisions.</strong> Results are reported but don't change limits, buffers, plans or strategy.</li>
+    <li><strong>Poor documentation.</strong> Assumptions and their basis aren't recorded, so results can't be challenged or reproduced.</li>
+  </ul>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/business-continuity.html" data-label="Business continuity"><a href="/risk-management/business-continuity.html">Business continuity</a></li>
+      <li data-href="/risk-management/quantitative-operational-risk.html" data-label="Quantitative operational risk"><a href="/risk-management/quantitative-operational-risk.html">Quantitative operational risk</a></li>
+      <li data-href="/risk-management/credit-market-and-liquidity-risk.html" data-label="Credit, market and liquidity risk"><a href="/risk-management/credit-market-and-liquidity-risk.html">Credit, market and liquidity risk</a></li>
+      <li data-href="/risk-management/risk-appetite-and-tolerance.html" data-label="Risk appetite and tolerance"><a href="/risk-management/risk-appetite-and-tolerance.html">Risk appetite and tolerance</a></li>
+      <li data-href="/standards/cps-230.html" data-label="CPS 230 Operational Risk Management"><a href="/standards/cps-230.html">CPS 230 Operational Risk Management</a></li>
+      <li data-href="/sectors/superannuation.html" data-label="Superannuation trustee governance"><a href="/sectors/superannuation.html">Superannuation trustee governance</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> and <a href="https://www.apra.gov.au/practice-guides/cpg-230">CPG 230</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-190">Prudential Standard CPS 190 Recovery and Exit Planning</a> and <a href="https://www.apra.gov.au/practice-guides/cpg-190">CPG 190</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/aps-110">Prudential Standard APS 110 Capital Adequacy</a> and <a href="https://www.apra.gov.au/practice-guides/cpg-110">CPG 110 Internal Capital Adequacy Assessment Process and Supervisory Review</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-530">Prudential Standard SPS 530 Investment Governance</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-publishes-findings-inaugural-system-risk-stress-test">APRA publishes findings of inaugural System Risk Stress Test</a>.</li>
+      <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d450.htm">Stress testing principles</a> (October 2018) and <a href="https://www.bis.org/publ/bcbs155.pdf">Principles for sound stress testing practices and supervision</a> (2009).</li>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-259-risk-management-systems-of-fund-operators/">RG 259 Risk management systems of fund operators</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+</body>
+</html>
