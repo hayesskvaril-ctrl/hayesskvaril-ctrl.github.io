@@ -71,7 +71,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 - [x] Library landing page
 - [x] CPS 230 Operational Risk Management
 - [x] CPS 220 Risk Management
-- [ ] CPS 234 Information Security
+- [x] CPS 234 Information Security
 - [ ] Key ASIC Regulatory Guides (one page each, as relevant)
 - [ ] ISO 31000 (in our own words, no reproduced text)
 - [ ] ISO 27001 (in our own words)
