@@ -36,6 +36,11 @@ NAV = [
     ("Glossary", "/glossary/"),
 ]
 
+# Extra footer-only links (shown once the page exists).
+FOOTER_EXTRA = [("Search", "/search/"), ("About", "/about/")]
+SEARCH_ICON = ('<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
+               'stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg>')
+
 DISCLAIMER = (
     "RiskLens Australia provides general educational information only. It is not "
     "legal, financial or compliance advice and does not take into account your "
@@ -70,6 +75,9 @@ def header_html(current: str) -> str:
         cur = ' aria-current="page"' if url == current else ""
         label = HEADER_LABELS.get(url, label)
         items.append(f'        <li><a href="{url}"{cur}>{label}</a></li>')
+    if target_exists("/search/"):
+        cur = ' aria-current="page"' if current == "/search/" else ""
+        items.append('        <li><a class="nav-search" href="/search/"' + cur + ' title="Search">' + SEARCH_ICON + '<span class="nav-search-label">Search</span></a></li>')
     return (
         "<!-- HEADER:START -->\n"
         '<a class="skip-link" href="#main">Skip to content</a>\n'
@@ -87,7 +95,8 @@ def header_html(current: str) -> str:
 
 def footer_html() -> str:
     links = "\n".join(
-        f'      <li><a href="{url}">{label}</a></li>' for label, url in live_nav()
+        f'      <li><a href="{url}">{label}</a></li>'
+        for label, url in live_nav() + [(l, u) for l, u in FOOTER_EXTRA if target_exists(u)]
     )
     return (
         "<!-- FOOTER:START -->\n"
@@ -172,6 +181,10 @@ def main():
             changed += 1
             print(f"updated {rel}")
     print(f"{changed} page(s) updated")
+    # keep the site search index in step with the pages
+    import build_search_index
+    n, size = build_search_index.build()
+    print(f"search index: {n} entries, {size // 1024} KB")
 
 
 if __name__ == "__main__":
