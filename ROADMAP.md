@@ -57,7 +57,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 ## Phase 3 — Governance pillar (`/governance/`)
 
 - [x] Pillar landing page
-- [ ] Board structure and accountability
+- [x] Board structure and accountability
 - [ ] Financial Accountability Regime (FAR)
 - [ ] Conflicts of interest
 - [ ] Remuneration governance

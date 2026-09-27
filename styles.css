@@ -616,3 +616,14 @@ details[open] summary { margin-bottom: 10px; }
 .bf-list li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 8px 12px; border-left: 4px solid var(--red); background: #fff7f7; margin-bottom: 6px; border-radius: 0 6px 6px 0; }
 .bf-list li a { font-weight: 600; }
 .bf-list li span { font-size: 14px; color: var(--red); font-weight: 600; }
+
+/* ---------- Board skills matrix (scripts/skills-matrix.js) ---------- */
+
+.skills-table { font-size: 14px; min-width: 620px; }
+.skills-table th[scope="col"] { text-align: center; font-size: 13px; }
+.skills-table td { text-align: center; }
+.skills-table input { width: 18px; height: 18px; }
+.skills-table td.cov { font-weight: 700; font-size: 13px; white-space: nowrap; }
+.skills-table td.cov.gap { background: var(--red-soft); color: var(--red); }
+.skills-table td.cov.thin { background: var(--amber-soft); color: var(--amber); }
+.skills-table td.cov.good { background: var(--green-soft); color: var(--green); }
