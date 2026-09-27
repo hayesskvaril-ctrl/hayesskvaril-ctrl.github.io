@@ -163,7 +163,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Assurance mapping and combined assurance (links Three Lines, control testing and internal audit)
 - [x] Issue and action management (raising, rating, tracking and closing issues; validation of fixes)
 - [x] Risk culture deep dive (assessment methods, APRA's approach, indicators and interventions)
-- [ ] Change, project and reputational risk (one page or two, depending on depth)
+- [x] Change, project and reputational risk (one page or two, depending on depth)
 
 **Standards library**
 - [ ] APRA: CPS 511 Remuneration; SPS 515 Strategic Planning and Member Outcomes; SPS 530 Investment Governance; CPS 190 and CPS 900 recovery and resolution; current CPS/SPS 510 and 520 (governance, fit and proper); APS 110 and APS 210 capital and liquidity basics

@@ -283,6 +283,10 @@ def main():
         new = FOOTER_RE.sub(lambda m: footer_html(), new)
         new = REL_RE.sub(render_rel, new)
         new = CARD_RE.sub(render_card, new)
+        # keep "N topics" on section landing pages in step with their topic cards
+        if re.search(r"<span>\d+ topics</span>", new) and "<!-- CARD href=" in new:
+            n_cards = len(re.findall(r"<!-- CARD href=", new))
+            new = re.sub(r"<span>\d+ topics</span>", f"<span>{n_cards} topics</span>", new, count=1)
         new = XREF_RE.sub(render_xref, new)
         if new != text:
             page.write_text(new, encoding="utf-8")
