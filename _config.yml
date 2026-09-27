@@ -1,0 +1,5 @@
+# GitHub Pages settings. Keeps internal project files from being published as pages on the site.
+exclude:
+  - CLAUDE.md
+  - ROADMAP.md
+  - README.md
