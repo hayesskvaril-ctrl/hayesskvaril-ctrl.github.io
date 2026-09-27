@@ -10,10 +10,16 @@ Everything between the markers is replaced. Nav items are only included when
 the page they point to exists, so the nav never has dead links. The current
 section gets aria-current="page".
 
+It also writes a <!-- META --> block into each page's <head> (link-preview tags,
+icons, RSS link), and regenerates sitemap.xml and robots.txt.
+
 This folder starts with "_" so GitHub Pages does not publish it.
 """
 from pathlib import Path
+from html import escape, unescape
+import datetime
 import re
+import subprocess
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -157,12 +163,90 @@ def render_xref(m):
     return f'<span class="xref" data-href="{url}">{text}</span>'
 
 
+SITE = "https://hayesskvaril-ctrl.github.io"
+SHARE_IMAGE = "/assets/brand/share-card.png"
+META_RE = re.compile(r"\n?<!-- META:START -->.*?<!-- META:END -->", re.S)
+NOINDEX = {"/404.html"}
+
+
+def page_url(rel: str) -> str:
+    return "/" + (rel[: -len("index.html")] if rel.endswith("index.html") else rel)
+
+
+def meta_html(text: str, url: str) -> str:
+    t = re.search(r"<title>(.*?)</title>", text, re.S)
+    d = re.search(r'<meta name="description" content="([^"]*)"', text)
+    title = unescape(t.group(1).strip()) if t else "RiskLens Australia"
+    title = re.sub(r"\s*\|\s*RiskLens Australia$", "", title)
+    desc = unescape(d.group(1)) if d else ""
+    q = lambda v: escape(v, quote=True)
+    lines = []
+    if url not in NOINDEX:
+        lines.append(f'<link rel="canonical" href="{SITE}{url}">')
+    lines += [
+        '<meta property="og:site_name" content="RiskLens Australia">',
+        f'<meta property="og:type" content="{"website" if url == "/" else "article"}">',
+        f'<meta property="og:title" content="{q(title)}">',
+        f'<meta property="og:description" content="{q(desc)}">',
+    ]
+    if url not in NOINDEX:
+        lines.append(f'<meta property="og:url" content="{SITE}{url}">')
+    lines += [
+        f'<meta property="og:image" content="{SITE}{SHARE_IMAGE}">',
+        '<meta property="og:image:width" content="1200">',
+        '<meta property="og:image:height" content="630">',
+        '<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">',
+        '<meta property="og:locale" content="en_AU">',
+        '<meta name="twitter:card" content="summary_large_image">',
+        '<meta name="theme-color" content="#05080f">',
+        '<link rel="icon" href="/favicon.ico" sizes="48x48">',
+        '<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">',
+        '<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">',
+    ]
+    if (ROOT / "news" / "feed.xml").exists():
+        lines.append('<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">')
+    return "<!-- META:START -->\n" + "\n".join(lines) + "\n<!-- META:END -->"
+
+
+def apply_meta(text: str, url: str) -> str:
+    text = META_RE.sub("", text)
+    anchor = '<link rel="stylesheet" href="/styles.css">'
+    if anchor not in text:
+        return text
+    return text.replace(anchor, meta_html(text, url) + "\n" + anchor, 1)
+
+
+def last_modified(page: Path) -> str:
+    rel = page.relative_to(ROOT).as_posix()
+    dirty = subprocess.run(["git", "status", "--porcelain", "--", rel], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    if not dirty:
+        d = subprocess.run(["git", "log", "-1", "--format=%cs", "--", rel], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+        if d:
+            return d
+    return datetime.date.today().isoformat()
+
+
+def write_sitemap(pages):
+    urls = []
+    for page in pages:
+        url = page_url(page.relative_to(ROOT).as_posix())
+        if url in NOINDEX:
+            continue
+        urls.append(f"  <url><loc>{SITE}{url}</loc><lastmod>{last_modified(page)}</lastmod></url>")
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + "\n</urlset>\n")
+    (ROOT / "sitemap.xml").write_text(xml, encoding="utf-8")
+    (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
+    return len(urls)
+
+
 HEADER_RE = re.compile(r"<!-- HEADER:START -->.*?<!-- HEADER:END -->", re.S)
 FOOTER_RE = re.compile(r"<!-- FOOTER:START -->.*?<!-- FOOTER:END -->", re.S)
 
 
 def main():
     changed = 0
+    published = []
     for page in sorted(ROOT.rglob("*.html")):
         rel = page.relative_to(ROOT).as_posix()
         if rel.startswith(("_", ".")):
@@ -171,7 +255,9 @@ def main():
         if "<!-- HEADER:START -->" not in text or "<!-- FOOTER:START -->" not in text:
             print(f"WARNING: {rel} has no layout markers, skipped")
             continue
-        new = HEADER_RE.sub(lambda m: header_html(section_of(page)), text)
+        published.append(page)
+        new = apply_meta(text, page_url(rel))
+        new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
         new = FOOTER_RE.sub(lambda m: footer_html(), new)
         new = REL_RE.sub(render_rel, new)
         new = CARD_RE.sub(render_card, new)
@@ -181,6 +267,7 @@ def main():
             changed += 1
             print(f"updated {rel}")
     print(f"{changed} page(s) updated")
+    print(f"sitemap.xml: {write_sitemap(published)} URLs")
     # keep the site search index in step with the pages
     import build_search_index
     n, size = build_search_index.build()

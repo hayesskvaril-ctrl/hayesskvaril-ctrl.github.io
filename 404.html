@@ -3,15 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Search | RiskLens Australia</title>
-<meta name="description" content="Search every RiskLens Australia page and glossary term: risk management, compliance, governance, APRA and ASIC standards, sector guides, tools and news.">
+<title>Page not found | RiskLens Australia</title>
+<meta name="description" content="Sorry, that page doesn't exist on RiskLens Australia. Search the site or try one of the popular pages.">
+<meta name="robots" content="noindex">
 <!-- META:START -->
-<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/search/">
 <meta property="og:site_name" content="RiskLens Australia">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Search">
-<meta property="og:description" content="Search every RiskLens Australia page and glossary term: risk management, compliance, governance, APRA and ASIC standards, sector guides, tools and news.">
-<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/search/">
+<meta property="og:title" content="Page not found">
+<meta property="og:description" content="Sorry, that page doesn&#x27;t exist on RiskLens Australia. Search the site or try one of the popular pages.">
 <meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -45,7 +44,7 @@
         <li><a href="/tools/">Tools</a></li>
         <li><a href="/news/">News</a></li>
         <li><a href="/glossary/">Glossary</a></li>
-        <li><a class="nav-search" href="/search/" aria-current="page" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
       </ul>
     </nav>
   </div>
@@ -53,29 +52,27 @@
 <!-- HEADER:END -->
 
 <main id="main" class="article">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li>Search</li></ol></nav>
+  <h1>Page not found</h1>
+  <p class="summary">Sorry, we couldn't find that page. It may have moved, or the link may have a typo.</p>
+  <div class="page-meta"><span>Error 404</span></div>
 
-  <h1>Search</h1>
-  <p class="summary">Search every page and glossary term on RiskLens Australia.</p>
-
-  <form id="search-form" class="search-form" role="search" action="/search/" method="get">
-    <label for="search-q" class="visually-hidden">Search the site</label>
-    <input type="search" id="search-q" name="q" placeholder="e.g. CPS 230 tolerance levels" autocomplete="off">
+  <form class="search-form" role="search" action="/search/" method="get">
+    <label for="nf-q" class="visually-hidden">Search the site</label>
+    <input type="search" id="nf-q" name="q" placeholder="Search RiskLens Australia" autocomplete="off">
     <button type="submit">Search</button>
   </form>
-  <div class="search-suggest">
-    <span class="small">Try:</span>
-    <button type="button">risk appetite</button>
-    <button type="button">breach reporting</button>
-    <button type="button">CPS 230</button>
-    <button type="button">remediation</button>
-    <button type="button">conflicts of interest</button>
-    <button type="button">whistleblower</button>
+
+  <h2>Popular pages</h2>
+  <div class="cards">
+    <a class="card" href="/start-here/"><h3>Start here</h3><p>Short routes for newcomers, practitioners and boards.</p></a>
+    <a class="card" href="/standards/cps-230.html"><h3>CPS 230 Operational Risk Management</h3><p>APRA's operational resilience standard, explained.</p></a>
+    <a class="card" href="/compliance/breach-reporting.html"><h3>Breach and incident reporting</h3><p>Every reporting regime and deadline in one place.</p></a>
+    <a class="card" href="/glossary/"><h3>Glossary</h3><p>Plain-English definitions of risk and compliance terms.</p></a>
+    <a class="card" href="/tools/resource-library.html"><h3>Resource library</h3><p>Free templates, checklists and interactive tools.</p></a>
+    <a class="card" href="/news/regulatory-tracker.html"><h3>Regulatory changes tracker</h3><p>What's changing and the key dates.</p></a>
   </div>
 
-  <p id="search-status" class="search-status" aria-live="polite"></p>
-  <ol id="search-results" class="search-results"></ol>
-  <noscript><p>Search needs JavaScript turned on in your browser. You can browse by section using the menu, or use the <a href="/glossary/">Glossary</a>.</p></noscript>
+  <p>Or go back to the <a href="/">home page</a>. If you followed a link from this site and it's broken, please let us know via the <a href="/about/">About page</a> so we can fix it.</p>
 </main>
 
 <!-- FOOTER:START -->
@@ -104,7 +101,14 @@
 </footer>
 <!-- FOOTER:END -->
 
-<script src="/scripts/search-index.js"></script>
-<script src="/scripts/search.js"></script>
+<script>
+  // Suggest a search based on the address that wasn't found, e.g. /standards/cps-231.html -> "cps 231"
+  (function () {
+    var words = decodeURIComponent(location.pathname).replace(/\.html?$/, '').split(/[\/\-_]+/)
+      .filter(function (w) { return w && w !== 'index' && w !== '404'; });
+    var q = words.slice(-3).join(' ');
+    if (q) document.getElementById('nf-q').value = q;
+  })();
+</script>
 </body>
 </html>

@@ -121,11 +121,11 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Add the ~30 terms used on the site but missing from the Glossary: ADI, significant financial institution (SFI), responsible entity, managed investment scheme, compliance plan, compliance committee, deemed significant (breach), CPS 511, SPS 515, ISMS, information asset, Liquidity Coverage Ratio, Common Equity Tier 1, Additional Tier 1, macroprudential policy, debt-to-income limit, Scams Prevention Framework, hawking, deferred sales model, utmost good faith, claims handling and settling services, distribution condition, review trigger, significant dealing, beneficial assumption, awareness (reporting clock), recovery and exit planning, product intervention power, greenwashing, financial hardship, vulnerable customer, sampling (control testing), SMSF, key function (FAR). Link first uses on pages to the new entries.
 
 **Behind-the-scenes plumbing**
-- [ ] `sitemap.xml` and `robots.txt`, generated automatically by `sync_layout.py` so they never go stale
-- [ ] Link previews for sharing (Open Graph / Twitter tags on every page, plus a branded share image)
-- [ ] Browser-tab icon (favicon) and theme colour
-- [ ] Friendly "page not found" (404) page with search and popular links
-- [ ] Lift the faintest text colour for better readability (contrast ≥ 4.5:1 everywhere)
+- [x] `sitemap.xml` and `robots.txt`, generated automatically by `sync_layout.py` so they never go stale
+- [x] Link previews for sharing (Open Graph / Twitter tags on every page, plus a branded share image)
+- [x] Browser-tab icon (favicon) and theme colour
+- [x] Friendly "page not found" (404) page with search and popular links
+- [x] Lift the faintest text colour for better readability (contrast ≥ 4.5:1 everywhere)
 
 **Yearly review system**
 - [ ] Review schedule: every page gets a "review due" date 12 months after its last review; a script (`_scripts/review_report.py`) lists pages due or overdue, and flags regulatory dates on pages that have since passed

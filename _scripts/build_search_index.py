@@ -12,7 +12,7 @@ import re
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "scripts" / "search-index.js"
 SKIP_DIRS = {"_scripts", "assets", "scripts", "node_modules", ".git"}
-SKIP_PAGES = {"search/index.html"}
+SKIP_PAGES = {"search/index.html", "404.html"}
 SECTIONS = {"": "Home", "foundations": "Foundations", "risk-management": "Risk management",
             "compliance": "Compliance", "governance": "Governance", "standards": "Standards",
             "sectors": "Sectors", "learn": "Learn", "tools": "Tools", "news": "News",
