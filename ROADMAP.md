@@ -140,7 +140,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Breach significance analysis in practice **(Advanced)**: case-based walkthroughs of the deemed-significance tests and factors, multi-regime reporting and documentation. Flag for Nick.
 - [x] Risk aggregation and correlation **(Advanced)**: building the enterprise risk profile, concentration and interdependency
 - [x] Board risk reporting design **(Advanced)**: reporting risk profile against appetite, KRI dashboards, aggregation, what good board papers look like
-- [ ] Control testing sampling and assurance confidence **(Advanced)**: sample sizes, attribute testing, confidence and evidence standards. Flag for Nick.
+- [x] Control testing sampling and assurance confidence **(Advanced)**: sample sizes, attribute testing, confidence and evidence standards. Flag for Nick.
 - [ ] Add an "Advanced" stage to learning pathways and Start here, and update the home page wording once these are live
 
 ## Phase 11 — New compliance and governance topics
@@ -247,7 +247,7 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Nick to review (Phase 4):** CPS 230 explainer (requirement/evidence tables, SFI thresholds, 2026 amendments) and the ASIC RG 78, RG 271 and RG 277 pages.
 - **Watch and update (Phase 4 pages):** further CPS 230 amendments or APRA guidance; ASIC's remaining reportable-situations relief (RG 78 page); any new COSO guidance or framework updates; ISO/IEC 27001 amendments.
 - **Nick to review (Phase 5):** Superannuation trustee governance (covenants table, SPS list, performance test vs outcomes assessment, fee governance section), plus the super-related parts of the Managed investment schemes page (Shield / First Guardian).
-- **Nick to review (Phase 10):** Setting CPS 230 tolerance levels (method, worked examples for super and bank, the builder's example ratings); Breach significance analysis (the four worked cases and their illustrative conclusions, the multi-regime table).
+- **Nick to review (Phase 10):** Setting CPS 230 tolerance levels (method, worked examples for super and bank, the builder's example ratings); Breach significance analysis (the four worked cases and their illustrative conclusions, the multi-regime table); Control testing sampling (sample size tables, deviation handling, evidence standards).
 - **Nick to review (Phase 9):** RG 97 fees and costs explainer, especially the fee governance section and the illustrative worked example.
 - **Watch and update (Phase 5 pages):** performance test changes after Treasury's 2026 consultation; redrafted General Insurance Code (ASIC lodgement late 2026) and Life Code review outcome; Scams Prevention Framework obligations (March 2027); AT1 phase-out (from January 2027); Shield / First Guardian proceedings; APRA's proposed proportionality ("three-tier") framework.
 - **Nick to review (Phase 6):** the three scenario simulations in `/learn/scenarios.html` (fee error breach and remediation, administrator outage under CPS 230, whistleblower disclosure). The "best practice" answers and feedback are in `scripts/scenarios-data.js`.
