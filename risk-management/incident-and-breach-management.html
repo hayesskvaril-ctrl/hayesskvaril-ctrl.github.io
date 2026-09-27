@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incident and breach management | RiskLens Australia</title>
+<meta name="description" content="How Australian organisations manage incidents and breaches: the lifecycle from identification to lessons learned, breach assessment, ASIC reportable situations, APRA, OAIC and AUSTRAC notification timeframes, root cause analysis and remediation.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk Management</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Incident and breach management</li></ol></nav>
+
+  <h1>Incident and breach management</h1>
+  <p class="summary">When something goes wrong, the way an organisation responds matters as much as the event itself: containing harm, assessing it properly, telling regulators on time, fixing the cause and putting people right.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 18 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>An <a class="term" href="/glossary/#incident">incident</a> is something that went wrong (or nearly did). A <a class="term" href="/glossary/#breach">breach</a> is a failure to meet an obligation. One event can be both, and can trigger several reporting regimes at once.</li>
+      <li>The lifecycle: identify and record, contain, assess, notify, investigate root cause, remediate, fix and close, learn.</li>
+      <li>Reporting clocks are short and start early, often when the organisation first becomes aware, not when the investigation ends. Key examples: 24 and 72 hours (APRA), 30 calendar days (ASIC reportable situations), and prompt assessment of data breaches (OAIC).</li>
+      <li>ASIC's reportable situations regime applies to AFS and credit licensees. Some breaches are "deemed significant" and must be reported without further judgement.</li>
+      <li>Remediation should be prompt, proactive and fair. ASIC's RG 277 sets out its expectations.</li>
+    </ul>
+  </aside>
+
+  <h2>Incidents, breaches and near misses</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Term</th><th scope="col">Meaning</th><th scope="col">Example</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Incident</strong></td><td>An event that caused, or could have caused, loss, harm or disruption.</td><td>A batch job fails and 3,000 insurance premiums are deducted twice from members' accounts.</td></tr>
+        <tr><td><strong><a class="term" href="/glossary/#near-miss">Near miss</a></strong></td><td>An incident that was caught before causing harm.</td><td>The duplicate deduction is spotted in a reconciliation and reversed before it hits member accounts.</td></tr>
+        <tr><td><strong>Breach</strong></td><td>A failure to comply with an obligation (law, standard, licence condition, code, policy).</td><td>Members were charged fees that the product disclosure did not allow.</td></tr>
+        <tr><td><strong>Issue</strong></td><td>A known weakness that needs fixing, which may not yet have caused an incident.</td><td>A control test finds that reconciliations are often signed off without evidence.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The overlap matters. The duplicate premium deduction above is an incident. If it breaches the fund's governing rules or the law, it is also a breach. If it affects many members, it may be a material operational risk incident for APRA and a reportable situation for ASIC. So one event can start several clocks at once.</p>
+
+  <h2>The incident and breach lifecycle</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 250" role="img" aria-labelledby="lc-title lc-desc">
+      <title id="lc-title">Incident and breach lifecycle</title>
+      <desc id="lc-desc">Eight steps in two rows. Top row: 1 identify and record, 2 contain, 3 assess, 4 notify. Bottom row, continuing: 5 investigate root cause, 6 remediate, 7 fix and close, 8 learn. An arrow from step 8 feeds back into controls and risk assessments. A bar underneath reads: reporting clocks may start at step 1.</desc>
+      <defs><marker id="lc-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="13" text-anchor="middle">
+        <rect x="10" y="20" width="155" height="64" rx="10" fill="#0f2942"/><text x="87" y="47" fill="#fff" font-weight="700">1. Identify</text><text x="87" y="66" fill="#cbd8e8" font-size="12">and record quickly</text>
+        <rect x="190" y="20" width="155" height="64" rx="10" fill="#0f2942"/><text x="267" y="47" fill="#fff" font-weight="700">2. Contain</text><text x="267" y="66" fill="#cbd8e8" font-size="12">stop further harm</text>
+        <rect x="370" y="20" width="155" height="64" rx="10" fill="#0f2942"/><text x="447" y="47" fill="#fff" font-weight="700">3. Assess</text><text x="447" y="66" fill="#cbd8e8" font-size="12">severity, breach, reportable?</text>
+        <rect x="550" y="20" width="160" height="64" rx="10" fill="#b91c1c"/><text x="630" y="47" fill="#fff" font-weight="700">4. Notify</text><text x="630" y="66" fill="#fee2e2" font-size="12">regulators, customers</text>
+        <rect x="550" y="120" width="160" height="64" rx="10" fill="#1b3a5c"/><text x="630" y="147" fill="#fff" font-weight="700">5. Investigate</text><text x="630" y="166" fill="#cbd8e8" font-size="12">root cause, scope</text>
+        <rect x="370" y="120" width="155" height="64" rx="10" fill="#1b3a5c"/><text x="447" y="147" fill="#fff" font-weight="700">6. Remediate</text><text x="447" y="166" fill="#cbd8e8" font-size="12">put people right</text>
+        <rect x="190" y="120" width="155" height="64" rx="10" fill="#1b3a5c"/><text x="267" y="147" fill="#fff" font-weight="700">7. Fix and close</text><text x="267" y="166" fill="#cbd8e8" font-size="12">controls, verification</text>
+        <rect x="10" y="120" width="155" height="64" rx="10" fill="#15803d"/><text x="87" y="147" fill="#fff" font-weight="700">8. Learn</text><text x="87" y="166" fill="#dcfce7" font-size="12">themes, risk updates</text>
+      </g>
+      <g stroke="#2563eb" stroke-width="2.5" marker-end="url(#lc-ar)">
+        <line x1="167" y1="52" x2="186" y2="52"/><line x1="347" y1="52" x2="366" y2="52"/><line x1="527" y1="52" x2="546" y2="52"/>
+        <line x1="630" y1="86" x2="630" y2="116"/>
+        <line x1="548" y1="152" x2="529" y2="152"/><line x1="368" y1="152" x2="349" y2="152"/><line x1="188" y1="152" x2="169" y2="152"/>
+      </g>
+      <rect x="10" y="204" width="700" height="34" rx="6" fill="#fef5e7" stroke="#b45309"/>
+      <text x="360" y="226" text-anchor="middle" font-size="13" fill="#7c3a06">Steps overlap in practice. Reporting clocks can start at step 1, long before the investigation is finished.</text>
+    </svg>
+    <figcaption>The incident and breach lifecycle, in our own words.</figcaption>
+  </figure>
+
+  <h3>1. Identify and record</h3>
+  <p>Anyone in the organisation should be able to raise a potential incident or breach easily, and should be expected to. Record the facts known so far, when it was discovered and by whom. The date of awareness matters because many reporting clocks start from it.</p>
+  <h3>2. Contain</h3>
+  <p>Stop the harm spreading: pause a faulty process, block compromised access, stop incorrect payments. Containment comes before perfect understanding.</p>
+  <h3>3. Assess</h3>
+  <p>Rate the severity (using the organisation's incident rating scale), then answer three separate questions: <strong>Is it a breach of an obligation? Is it reportable to anyone? Who needs to know internally?</strong> Record the reasoning, not just the conclusion.</p>
+  <h3>4. Notify</h3>
+  <p>Report to regulators within the required timeframes (see below), escalate internally, and consider whether affected customers must be told (for example under the Notifiable Data Breaches scheme).</p>
+  <h3>5. Investigate root cause</h3>
+  <p>Work out not just what happened but <em>why</em>, and how far it goes: how many customers, over what period, through which other processes. See root cause analysis below.</p>
+  <h3>6. Remediate</h3>
+  <p>Put affected customers or members back in the position they would have been in, usually through refunds or compensation with interest or lost earnings. See remediation below.</p>
+  <h3>7. Fix and close</h3>
+  <p>Fix the control weakness that allowed it, check the fix works, and close the matter only with evidence. Under CPS 230, control gaps and weaknesses must stay in the operational risk profile until remediated.</p>
+  <h3>8. Learn</h3>
+  <p>Update risk assessments, look for themes across incidents, and share lessons. Repeated incidents with the same root cause are a warning sign regulators look for.</p>
+
+  <h2>Breach assessment: ASIC reportable situations</h2>
+  <p>Australian financial services (AFS) licensees and credit licensees must report "reportable situations" to ASIC under the Corporations Act (s 912D and s 912DAA) and the National Consumer Credit Protection Act. The regime started on 1 October 2021. In simplified terms, reportable situations include:</p>
+  <ul>
+    <li><strong>significant breaches</strong> (or likely breaches) of "core obligations", such as the general licensee obligations and key financial services laws;</li>
+    <li><strong>investigations</strong> into whether there is a significant breach that continue beyond a set period (ASIC relief has extended this from 30 to 60 days);</li>
+    <li>additional matters such as <strong>gross negligence or serious fraud</strong> by the licensee or its representatives; and</li>
+    <li>in some cases, reportable situations involving <strong>other licensees</strong>, such as financial advisers.</li>
+  </ul>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 720 420" role="img" aria-labelledby="dt-title dt-desc">
+      <title id="dt-title">Simplified reportable situation decision flow</title>
+      <desc id="dt-desc">Question 1: has there been, or is there likely to be, a breach of a core obligation? If no, consider other regimes and record the assessment. If yes, question 2: is it deemed significant? That is, an offence with a maximum penalty of at least 12 months imprisonment (or 3 months if dishonesty), a civil penalty provision (unless excluded), misleading or deceptive conduct about financial products or services, or it causes or is likely to cause material loss or damage. If yes, it is reportable. If no, question 3: is it significant having regard to the relevant factors, such as frequency, impact on ability to provide services, and loss to clients? If yes, reportable. If no, record the assessment. Reportable situations must be lodged with ASIC within 30 calendar days.</desc>
+      <defs><marker id="dt-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+      <g font-size="13" text-anchor="middle">
+        <rect x="160" y="10" width="400" height="56" rx="10" fill="#0f2942"/>
+        <text x="360" y="34" fill="#fff" font-weight="700">1. Breach, or likely breach, of a</text>
+        <text x="360" y="53" fill="#fff" font-weight="700">core obligation?</text>
+        <rect x="160" y="110" width="400" height="104" rx="10" fill="#1b3a5c"/>
+        <text x="360" y="133" fill="#fff" font-weight="700">2. Is it deemed significant?</text>
+        <text x="360" y="154" fill="#cbd8e8" font-size="12">offence with 12+ months' imprisonment (3+ if dishonesty)</text>
+        <text x="360" y="171" fill="#cbd8e8" font-size="12">civil penalty provision (unless excluded)</text>
+        <text x="360" y="188" fill="#cbd8e8" font-size="12">misleading or deceptive conduct (s 1041H / ASIC Act s 12DA)</text>
+        <text x="360" y="205" fill="#cbd8e8" font-size="12">material loss or damage to clients (actual or likely)</text>
+        <rect x="160" y="258" width="400" height="70" rx="10" fill="#1b3a5c"/>
+        <text x="360" y="282" fill="#fff" font-weight="700">3. Significant, considering the factors?</text>
+        <text x="360" y="302" fill="#cbd8e8" font-size="12">e.g. number or frequency of similar breaches, impact on</text>
+        <text x="360" y="318" fill="#cbd8e8" font-size="12">ability to provide services, loss or damage to clients</text>
+        <rect x="590" y="140" width="120" height="188" rx="10" fill="#b91c1c"/>
+        <text x="650" y="200" fill="#fff" font-weight="700">Reportable</text>
+        <text x="650" y="222" fill="#fee2e2" font-size="12">lodge with ASIC</text>
+        <text x="650" y="239" fill="#fee2e2" font-size="12">within 30</text>
+        <text x="650" y="256" fill="#fee2e2" font-size="12">calendar days</text>
+        <rect x="10" y="10" width="130" height="56" rx="10" fill="#fff" stroke="#94a3b8"/>
+        <text x="75" y="33" fill="#1a2332" font-size="12">Not this regime.</text>
+        <text x="75" y="50" fill="#1a2332" font-size="12">Check other regimes</text>
+        <rect x="160" y="356" width="400" height="50" rx="10" fill="#fff" stroke="#94a3b8"/>
+        <text x="360" y="378" fill="#1a2332" font-size="12.5">Not reportable to ASIC: record the assessment and reasons,</text>
+        <text x="360" y="395" fill="#1a2332" font-size="12.5">fix and remediate anyway, keep under review</text>
+      </g>
+      <g stroke="#475569" stroke-width="2" fill="none" marker-end="url(#dt-ar)">
+        <line x1="360" y1="68" x2="360" y2="106"/>
+        <line x1="158" y1="38" x2="144" y2="38"/>
+        <line x1="360" y1="216" x2="360" y2="254"/>
+        <line x1="562" y1="162" x2="586" y2="162"/>
+        <line x1="562" y1="293" x2="586" y2="293"/>
+        <line x1="360" y1="330" x2="360" y2="352"/>
+      </g>
+      <g font-size="12" font-weight="700">
+        <text x="370" y="92" fill="#15803d">yes</text>
+        <text x="146" y="30" fill="#b91c1c" text-anchor="end">no</text>
+        <text x="370" y="240" fill="#b91c1c">no</text>
+        <text x="566" y="154" fill="#15803d">yes</text>
+        <text x="566" y="285" fill="#15803d">yes</text>
+        <text x="370" y="346" fill="#b91c1c">no</text>
+      </g>
+    </svg>
+    <figcaption>A simplified view of the ASIC reportable situations test for significant breaches. It leaves out investigations and other categories; see ASIC Regulatory Guide 78 for the full rules.</figcaption>
+  </figure>
+
+  <div class="callout warn">
+    <h3>When does the 30-day clock start?</h3>
+    <p>A report must be lodged within 30 calendar days after the licensee first knows, or is reckless about whether, there are reasonable grounds to believe a reportable situation has arisen. That is usually well before an investigation has confirmed every detail. ASIC's view is that licensees shouldn't delay reporting until they are certain.</p>
+  </div>
+
+  <h2>Key notification timeframes</h2>
+  <p>This table summarises some of the most common regimes for Australian financial services organisations. It is not complete, and each regime has its own trigger and definitions, so always check the source.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Regulator and regime</th><th scope="col">What must be reported</th><th scope="col">Timeframe</th></tr></thead>
+      <tbody>
+        <tr><td><strong>APRA</strong>, CPS 230</td><td>Disruption to a critical operation outside tolerance</td><td>As soon as possible, no later than 24 hours</td></tr>
+        <tr><td><strong>APRA</strong>, CPS 230</td><td>Operational risk incident likely to have a material financial impact or a material impact on the ability to maintain critical operations</td><td>As soon as possible, no later than 72 hours after becoming aware</td></tr>
+        <tr><td><strong>APRA</strong>, CPS 234</td><td>Material information security incident</td><td>As soon as possible, no later than 72 hours after becoming aware</td></tr>
+        <tr><td><strong>APRA</strong>, CPS 234</td><td>Material information security control weakness that can't be fixed in a timely way</td><td>No later than 10 business days after becoming aware</td></tr>
+        <tr><td><strong>APRA</strong>, SIS Act s 29JA (super trustees)</td><td>Significant breaches of RSE licensee law and certain other matters</td><td>Within 30 days of becoming aware (some matters immediately)</td></tr>
+        <tr><td><strong>ASIC</strong>, reportable situations</td><td>Significant breaches of core obligations and other reportable situations (AFS and credit licensees, including super trustees)</td><td>Within 30 calendar days after first knowing, or being reckless about, reasonable grounds to believe one has arisen</td></tr>
+        <tr><td><strong>OAIC</strong>, Notifiable Data Breaches scheme</td><td>Eligible data breach: personal information breach likely to result in serious harm</td><td>Assess a suspected breach within 30 days; if eligible, notify the OAIC and affected individuals as soon as practicable</td></tr>
+        <tr><td><strong>AUSTRAC</strong>, suspicious matter report</td><td>Suspicion relating to money laundering, terrorism financing and other matters</td><td>Within 3 business days (24 hours for terrorism financing)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="widget" id="clock">
+    <h3>Interactive: reporting clock</h3>
+    <p class="small">Enter when the organisation became aware of an event to see indicative deadlines if each regime applied. Illustrative only: each regime defines when its clock starts, and some count business days.</p>
+    <label for="clock-start">Became aware (date and time)</label>
+    <input type="datetime-local" id="clock-start">
+    <div class="clock-results" aria-live="polite"></div>
+    <noscript><p>The reporting clock needs JavaScript. See the table above.</p></noscript>
+  </div>
+
+  <h2>Root cause analysis</h2>
+  <p><a class="term" href="/glossary/#root-cause-analysis">Root cause analysis</a> asks why something happened, repeatedly, until you reach a cause that, if fixed, would stop it happening again. "Human error" is almost never a root cause: the question is why the process allowed a human error to cause harm.</p>
+  <div class="callout example">
+    <h3>Worked example: the "5 whys"</h3>
+    <ol>
+      <li><strong>Why were premiums deducted twice?</strong> The overnight batch ran twice.</li>
+      <li><strong>Why did it run twice?</strong> An operator restarted it after a timeout, not knowing the first run had completed.</li>
+      <li><strong>Why didn't they know?</strong> The job gives no completion status, and the runbook doesn't say how to check.</li>
+      <li><strong>Why doesn't the system stop a duplicate run?</strong> The duplicate-check control was switched off during a system upgrade two years ago.</li>
+      <li><strong>Why wasn't that noticed?</strong> Post-implementation testing didn't cover control settings, and there is no periodic check of key automated controls.</li>
+    </ol>
+    <p><strong>Root causes:</strong> weak change management testing and no monitoring of automated controls. Retraining the operator alone would not prevent a repeat.</p>
+  </div>
+  <p>Other techniques include fishbone (Ishikawa) diagrams, which group possible causes under headings such as people, process, systems and external factors, and timeline analysis for complex events.</p>
+
+  <h2>Remediation</h2>
+  <p><a class="term" href="/glossary/#remediation">Remediation</a> puts affected customers or members back in the position they would have been in had the problem not happened. ASIC's Regulatory Guide 277 <em>Consumer remediation</em> applies to remediations by AFS and credit licensees started on or after 27 September 2022. Among other things, ASIC expects licensees to:</p>
+  <ul>
+    <li>start remediation promptly and proactively, without waiting for customers to complain;</li>
+    <li>include everyone who has, or may have, been affected, automatically where possible;</li>
+    <li>make remediation free for consumers;</li>
+    <li>where information is missing, use assumptions that are beneficial to consumers; and</li>
+    <li>pay compensation that includes a component for the time value of money (interest or lost earnings).</li>
+  </ul>
+  <p>For super funds, remediation often means correcting account balances and restoring lost investment earnings, including for members who have since left the fund.</p>
+
+  <h2>What good looks like</h2>
+  <ul>
+    <li><strong>A speak-up culture:</strong> people report incidents early without fear. A sudden drop in incident reports is often bad news, not good news.</li>
+    <li><strong>Clear roles:</strong> the first line owns and manages incidents; the second line sets the framework, challenges assessments and usually decides or advises on regulatory reportability.</li>
+    <li><strong>Consistent, documented judgements:</strong> similar events are assessed the same way, with reasons recorded.</li>
+    <li><strong>Timeliness tracked:</strong> time from discovery to recording, to assessment and to lodgement is measured and reported.</li>
+    <li><strong>Themes analysed:</strong> incidents are grouped by root cause, product and process to find systemic problems.</li>
+    <li><strong>Joined-up reporting:</strong> one event that triggers APRA, ASIC and OAIC obligations is coordinated, so each regulator gets a consistent picture.</li>
+  </ul>
+
+  <div class="callout">
+    <h3>Reviewer's note</h3>
+    <p>This page is general education. Breach and incident reporting rules are detailed and technical, and they change. Before relying on any timeframe or test, read the current legislation and the regulators' own guidance (links below).</p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk (CPS 230)"><a href="/risk-management/operational-risk.html">Operational risk (CPS 230)</a></li>
+      <li data-href="/risk-management/control-design-and-testing.html" data-label="Control design and testing"><a href="/risk-management/control-design-and-testing.html">Control design and testing</a></li>
+      <li data-href="/foundations/what-is-compliance.html" data-label="What is compliance?"><a href="/foundations/what-is-compliance.html">What is compliance?</a></li>
+      <li data-href="/compliance/breach-reporting.html" data-label="Breach and incident reporting obligations (Compliance)">Breach and incident reporting obligations (Compliance) <span class="soon">(coming soon)</span></li>
+      <li data-href="/tools/" data-label="Incident report and breach register templates">Incident report and breach register templates <span class="soon">(coming soon)</span></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/financial-services/reportable-situations-for-afs-and-credit-licensees">Reportable situations for AFS and credit licensees</a> and <a href="https://download.asic.gov.au/media/2wxlpkr0/rg78-published-19-december-2023-20260216.pdf">Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees</a>.</li>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/about-asic/news-centre/news-items/asic-gives-further-relief-for-licensees-under-the-reportable-situations-regime">ASIC gives further relief for licensees under the reportable situations regime</a> (ASIC Instrument 2024/620 as amended by Instrument 2025/289).</li>
+      <li>Australian Securities and Investments Commission, <a href="https://asic.gov.au/regulatory-resources/superannuation-funds/superannuation-guidance-relief-and-legislative-instruments/breach-reporting-for-trustees/">Reportable situations for trustees</a>.</li>
+      <li><em>Corporations Act 2001</em> (Cth), <a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/ca2001172/s912d.html">s 912D Meaning of reportable situation</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/about-us/our-functions/notify-breach-or-incident">Notify a breach or incident</a>; <a href="https://www.apra.gov.au/standards/cps-230">CPS 230</a>; <a href="https://www.apra.gov.au/standards/cps-234">CPS 234</a>.</li>
+      <li>Office of the Australian Information Commissioner, <a href="https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme">About the Notifiable Data Breaches scheme</a>.</li>
+      <li>AUSTRAC, <a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports">Suspicious matter reports</a>.</li>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-277-consumer-remediation/">Regulatory Guide 277 Consumer remediation</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/reporting-clock.js"></script>
+</body>
+</html>

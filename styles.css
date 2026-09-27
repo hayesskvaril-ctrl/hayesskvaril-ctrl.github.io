@@ -417,7 +417,7 @@ a.card:hover { border-color: #93b4f5; box-shadow: 0 4px 14px rgba(15, 41, 66, 0.
 .widget h3 { margin-top: 0; }
 .widget .controls { display: flex; flex-wrap: wrap; gap: 14px 20px; margin: 12px 0; }
 .widget label { font-weight: 600; font-size: 15px; display: block; margin-bottom: 4px; }
-.widget select, .widget input[type="text"], .widget input[type="number"] {
+.widget select, .widget input[type="text"], .widget input[type="number"], .widget input[type="datetime-local"] {
   font-size: 16px;
   padding: 8px 10px;
   border: 1px solid #b8c4d2;
@@ -591,3 +591,12 @@ details[open] summary { margin-bottom: 10px; }
 .checklist-widget .result.band-0 { background: #dff3e5; }
 .checklist-widget .result.band-1 { background: #fef3c7; }
 .checklist-widget .result.band-2 { background: #fee2e2; }
+
+/* ---------- Reporting clock (scripts/reporting-clock.js) ---------- */
+
+.clock-list { list-style: none; margin: 14px 0 0; }
+.clock-list li { display: grid; grid-template-columns: 210px 1fr; gap: 2px 16px; padding: 10px 0; border-top: 1px solid var(--border); }
+.clock-due { font-weight: 700; color: var(--red); grid-row: span 2; }
+.clock-name { font-weight: 600; color: var(--navy); }
+.clock-rule { font-size: 14px; color: var(--muted); }
+@media (max-width: 640px) { .clock-list li { grid-template-columns: 1fr; } .clock-due { grid-row: auto; } }

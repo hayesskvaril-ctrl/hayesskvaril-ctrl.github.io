@@ -39,7 +39,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Enterprise risk management (ERM)
 - [x] Operational risk
 - [x] Credit, market and liquidity risk (basics)
-- [ ] Incident and breach management
+- [x] Incident and breach management
 - [ ] Business continuity
 - [ ] Third-party / vendor / outsourcing risk
 
