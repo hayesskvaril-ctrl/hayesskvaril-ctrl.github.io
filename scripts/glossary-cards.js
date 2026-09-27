@@ -19,6 +19,12 @@ window.GLOSSARY_CARDS = [
 "def": "Under the Financial Accountability Regime, a director or senior executive with actual or effective senior responsibility for a key part of a bank, insurer or super trustee. Accountable persons must be registered with APRA and meet specific accountability obligations."
 },
 {
+"slug": "at1",
+"term": "Additional Tier 1 capital",
+"abbr": "AT1",
+"def": "Bank capital instruments, often called hybrids, that can be converted into shares or written off if a bank gets into trouble. APRA has decided to phase them out from 1 January 2027, replacing them mainly with CET1 and Tier 2 capital."
+},
+{
 "slug": "aml-ctf",
 "term": "Anti-money laundering and counter-terrorism financing",
 "abbr": "AML/CTF",
@@ -79,10 +85,28 @@ window.GLOSSARY_CARDS = [
 "def": "Australia's financial intelligence agency and AML/CTF regulator. Businesses that provide \"designated services\" must enrol with AUSTRAC, run an AML/CTF program and report certain transactions and suspicious matters."
 },
 {
+"slug": "adi",
+"term": "Authorised deposit-taking institution",
+"abbr": "ADI",
+"def": "A bank, building society or credit union authorised by APRA under the Banking Act 1959 (Cth) to take deposits from the public. ADIs must meet APRA's prudential standards on capital, liquidity, risk management and governance."
+},
+{
 "slug": "authorised-representative",
 "term": "Authorised representative",
 "abbr": "",
 "def": "A person or company authorised by an AFS licensee to provide financial services on the licensee's behalf. The licensee remains responsible for its representatives' conduct."
+},
+{
+"slug": "awareness",
+"term": "Awareness (reporting clock)",
+"abbr": "",
+"def": "The point from which most breach and incident reporting deadlines are counted. It is usually when the organisation first knows, or is reckless about, reasonable grounds to believe a reportable event has happened, not when an investigation is finished. Recording this date accurately is essential."
+},
+{
+"slug": "beneficial-assumption",
+"term": "Beneficial assumption",
+"abbr": "",
+"def": "In remediation, an assumption made in the customer's favour where records are missing or incomplete, so gaps in data don't leave people under-compensated."
 },
 {
 "slug": "best-financial-interests-duty",
@@ -139,10 +163,22 @@ window.GLOSSARY_CARDS = [
 "def": "A structured look at what would happen if a business process or service were disrupted: how quickly harm builds up, what the process depends on, and how fast it must be restored. It is the starting point for business continuity planning."
 },
 {
+"slug": "claims-handling",
+"term": "Claims handling and settling services",
+"abbr": "",
+"def": "Helping a person make an insurance claim, or managing or settling claims on behalf of an insurer. Since 1 January 2022 this is a financial service that needs an AFS licence (with some exceptions), bringing claims conduct under ASIC's oversight."
+},
+{
 "slug": "clawback",
 "term": "Clawback",
 "abbr": "",
 "def": "Recovering variable remuneration that has already been paid or vested, for example after later-discovered misconduct or risk failures. Compare malus."
+},
+{
+"slug": "cet1",
+"term": "Common Equity Tier 1 capital",
+"abbr": "CET1",
+"def": "The highest-quality form of bank capital, made up mainly of ordinary shares and retained earnings. It absorbs losses first while the bank keeps operating, and is the main focus of capital ratios."
 },
 {
 "slug": "compliance",
@@ -151,10 +187,22 @@ window.GLOSSARY_CARDS = [
 "def": "Meeting your obligations: the laws, regulations, licence conditions, industry codes, contracts and internal policies that apply to you. A compliance function helps the business identify its obligations, build them into how it works, and check they are being met."
 },
 {
+"slug": "compliance-committee",
+"term": "Compliance committee",
+"abbr": "",
+"def": "A committee a responsible entity must have if fewer than half of its directors are external. Most members must be external. It monitors compliance with the compliance plan and reports breaches to the responsible entity (and to ASIC if not dealt with)."
+},
+{
 "slug": "compliance-obligation",
 "term": "Compliance obligation",
 "abbr": "",
 "def": "A specific requirement the organisation must (or has chosen to) meet, for example a section of an Act, a clause of a prudential standard or a commitment in an industry code."
+},
+{
+"slug": "compliance-plan",
+"term": "Compliance plan",
+"abbr": "",
+"def": "A document every registered managed investment scheme must have, setting out the measures the responsible entity will apply to make sure it complies with the Corporations Act and the scheme's constitution. It is lodged with ASIC and audited every year."
 },
 {
 "slug": "compliance-risk",
@@ -241,6 +289,12 @@ window.GLOSSARY_CARDS = [
 "def": "APRA's cross-industry prudential standard on operational risk management, in force from 1 July 2025. It covers operational risk, business continuity and management of service providers, and replaced earlier standards on outsourcing and business continuity."
 },
 {
+"slug": "cps-511",
+"term": "CPS 511 Remuneration",
+"abbr": "",
+"def": "APRA's prudential standard on remuneration for banks, insurers and super trustees. It requires remuneration frameworks to support sound risk management and long-term outcomes, gives risk and conduct real weight in variable pay, and sets deferral and clawback requirements for significant financial institutions."
+},
+{
 "slug": "credit-risk",
 "term": "Credit risk",
 "abbr": "",
@@ -257,6 +311,24 @@ window.GLOSSARY_CARDS = [
 "term": "Customer due diligence",
 "abbr": "CDD",
 "def": "Checking who a customer is and understanding the ML/TF risk they pose, before and during the relationship. Often called \"know your customer\" (KYC). A core AML/CTF obligation."
+},
+{
+"slug": "dti-limit",
+"term": "Debt-to-income limit",
+"abbr": "DTI limit",
+"def": "A macroprudential limit on how much new home lending a bank can do to borrowers whose total debt is high compared with their income. APRA's limit, from February 2026, caps new lending at a debt-to-income ratio of six or more at 20% of an ADI's new mortgage lending."
+},
+{
+"slug": "deemed-significant-breach",
+"term": "Deemed significant breach",
+"abbr": "",
+"def": "A breach of a core obligation that the law automatically treats as significant, and therefore reportable to ASIC, without a significance assessment. Examples include breaches of civil penalty provisions (unless excluded), serious offences, and breaches that cause or are likely to cause material loss or damage to clients."
+},
+{
+"slug": "deferred-sales-model",
+"term": "Deferred sales model",
+"abbr": "",
+"def": "The rules for add-on insurance sold alongside a car or other major purchase. The insurance generally cannot be sold until a waiting period has passed after the main sale, giving the customer time to consider whether they need it."
 },
 {
 "slug": "ddo",
@@ -281,6 +353,12 @@ window.GLOSSARY_CARDS = [
 "term": "Disclosable matter",
 "abbr": "",
 "def": "Under the Corporations Act whistleblower regime, information about misconduct or an improper state of affairs relating to a company, which qualifies a disclosure for protection."
+},
+{
+"slug": "distribution-condition",
+"term": "Distribution condition",
+"abbr": "",
+"def": "A condition in a target market determination that limits how a product can be sold, such as only through certain channels or only after certain checks, to make it more likely it reaches the intended customers."
 },
 {
 "slug": "due-diligence",
@@ -319,6 +397,12 @@ window.GLOSSARY_CARDS = [
 "def": "A law that sets accountability obligations for banks, insurers and superannuation trustees and their directors and most senior executives (accountable persons). It is jointly administered by APRA and ASIC. It started for banks on 15 March 2024 and for insurers and super trustees on 15 March 2025."
 },
 {
+"slug": "financial-hardship",
+"term": "Financial hardship",
+"abbr": "",
+"def": "When a customer can't meet their repayments or other financial obligations, for example because of illness, job loss or a disaster. Credit providers must respond to hardship notices under the National Credit Code, and industry codes set further expectations for banks and insurers."
+},
+{
 "slug": "fsg",
 "term": "Financial Services Guide",
 "abbr": "FSG",
@@ -343,6 +427,18 @@ window.GLOSSARY_CARDS = [
 "def": "The system by which an organisation is directed, controlled and held to account: who decides what, how decisions are made and checked, and how those in charge answer for results."
 },
 {
+"slug": "greenwashing",
+"term": "Greenwashing",
+"abbr": "",
+"def": "Making a product or organisation look more environmentally friendly, sustainable or ethical than it really is. Misleading sustainability claims can breach the prohibitions on misleading conduct, and ASIC has taken several greenwashing cases to court."
+},
+{
+"slug": "hawking",
+"term": "Hawking",
+"abbr": "",
+"def": "Offering financial products to retail clients during an unsolicited contact, such as a cold call. It has been prohibited in most cases since October 2021."
+},
+{
 "slug": "heat-map",
 "term": "Heat map",
 "abbr": "",
@@ -359,6 +455,18 @@ window.GLOSSARY_CARDS = [
 "term": "Independent director",
 "abbr": "",
 "def": "A non-executive director who is free of business or other relationships that could materially interfere with the exercise of their independent judgement."
+},
+{
+"slug": "information-asset",
+"term": "Information asset",
+"abbr": "",
+"def": "Information, and the technology that stores or processes it, that has value to the organisation, such as customer data, systems and applications. Under CPS 234, entities must classify information assets by how critical and sensitive they are and protect them accordingly."
+},
+{
+"slug": "isms",
+"term": "Information security management system",
+"abbr": "ISMS",
+"def": "The set of policies, processes, roles and controls an organisation uses to manage information security risk in a structured, continually improving way. ISO/IEC 27001 is the international standard for building and certifying one."
 },
 {
 "slug": "inherent-risk",
@@ -397,6 +505,12 @@ window.GLOSSARY_CARDS = [
 "def": "A control that, on its own or with a few others, is essential to managing a significant risk. Key controls usually get the most testing attention."
 },
 {
+"slug": "key-function",
+"term": "Key function (FAR)",
+"abbr": "",
+"def": "Under the Financial Accountability Regime, a business function listed in the rules (such as risk management or compliance) for which someone must hold accountable-person responsibility. The regulators have proposed removing the key functions requirements as part of simplifying FAR."
+},
+{
 "slug": "kri",
 "term": "Key risk indicator",
 "abbr": "KRI",
@@ -409,16 +523,34 @@ window.GLOSSARY_CARDS = [
 "def": "How probable it is that an event will happen within a set time period. It can be described in words (\"rare\", \"likely\"), as a frequency or as a probability."
 },
 {
+"slug": "lcr",
+"term": "Liquidity Coverage Ratio",
+"abbr": "LCR",
+"def": "A bank liquidity measure: high-quality liquid assets divided by the net cash outflows expected over a 30-day severe stress. Larger ADIs must keep it at or above 100%, so they could survive a month of stress without outside help."
+},
+{
 "slug": "liquidity-risk",
 "term": "Liquidity risk",
 "abbr": "",
 "def": "The risk that an organisation cannot pay its obligations when they fall due, or can only do so at excessive cost, because it cannot get cash quickly enough."
 },
 {
+"slug": "macroprudential-policy",
+"term": "Macroprudential policy",
+"abbr": "",
+"def": "Rules aimed at the stability of the financial system as a whole rather than individual institutions, for example limits on risky types of home lending across all banks. In Australia APRA sets these, working with the other Council of Financial Regulators agencies."
+},
+{
 "slug": "malus",
 "term": "Malus",
 "abbr": "",
 "def": "Reducing or cancelling variable remuneration that has been awarded but not yet paid or vested, for example because of poor risk or conduct outcomes. Compare clawback."
+},
+{
+"slug": "managed-investment-scheme",
+"term": "Managed investment scheme",
+"abbr": "MIS",
+"def": "An arrangement where people pool money to be invested or used for a common purpose, with the scheme run by someone else rather than the investors themselves. Managed funds and many property and credit funds are examples. Schemes offered to retail investors generally must be registered with ASIC."
 },
 {
 "slug": "market-risk",
@@ -529,6 +661,12 @@ window.GLOSSARY_CARDS = [
 "def": "A document that must generally be given to a retail client before they acquire a financial product, explaining its features, benefits, risks, fees and costs."
 },
 {
+"slug": "product-intervention-power",
+"term": "Product intervention power",
+"abbr": "",
+"def": "ASIC's power to temporarily ban or restrict a financial or credit product, or how it is sold, where it has caused or is likely to cause significant consumer detriment. It has been used, for example, on short-term credit and some high-risk investment products."
+},
+{
 "slug": "prudential-standard",
 "term": "Prudential standard",
 "abbr": "",
@@ -539,6 +677,12 @@ window.GLOSSARY_CARDS = [
 "term": "Psychological safety",
 "abbr": "",
 "def": "A shared belief within a team that it is safe to speak up, ask questions, admit mistakes and challenge others without fear of punishment or embarrassment."
+},
+{
+"slug": "recovery-and-exit-planning",
+"term": "Recovery and exit planning",
+"abbr": "",
+"def": "Planning in advance how an entity could recover from severe financial stress, or leave the market in an orderly way if it can't. APRA's CPS 190 requires this of significant financial institutions."
 },
 {
 "slug": "rpo",
@@ -581,6 +725,18 @@ window.GLOSSARY_CARDS = [
 "term": "Residual risk",
 "abbr": "",
 "def": "The level of risk that remains after taking account of the controls in place. It is compared with risk appetite to decide whether more action is needed."
+},
+{
+"slug": "responsible-entity",
+"term": "Responsible entity",
+"abbr": "RE",
+"def": "The public company, holding an AFS licence, that operates a registered managed investment scheme and owes legal duties to its members, including acting in their best interests. It stays responsible for the scheme even when it outsources tasks such as custody or investment management."
+},
+{
+"slug": "review-trigger",
+"term": "Review trigger",
+"abbr": "",
+"def": "An event or piece of information, set out in a target market determination, that means the issuer must review whether the TMD is still appropriate, such as a spike in complaints or significant dealings outside the target market."
 },
 {
 "slug": "risk",
@@ -691,6 +847,18 @@ window.GLOSSARY_CARDS = [
 "def": "A registrable superannuation entity licensee: the trustee company licensed by APRA to operate one or more APRA-regulated super funds."
 },
 {
+"slug": "sampling",
+"term": "Sampling (control testing)",
+"abbr": "",
+"def": "Testing a selection of items from a population (for example 25 transactions out of thousands) to draw a conclusion about whether a control operated effectively across the whole period. Sample size usually depends on how often the control runs and how much assurance is needed."
+},
+{
+"slug": "scams-prevention-framework",
+"term": "Scams Prevention Framework",
+"abbr": "SPF",
+"def": "A law passed in 2025 that places obligations on businesses in designated sectors (starting with banks, telcos and digital platforms) to prevent, detect, report, disrupt and respond to scams, with external dispute resolution for consumers. Obligations apply as sectors are designated and codes are made."
+},
+{
 "slug": "scenario-analysis",
 "term": "Scenario analysis",
 "abbr": "",
@@ -707,6 +875,30 @@ window.GLOSSARY_CARDS = [
 "term": "Segregation of duties",
 "abbr": "",
 "def": "Splitting key steps of a task between different people so no single person can both make and hide an error or fraud, for example one person sets up a payment and another approves it."
+},
+{
+"slug": "smsf",
+"term": "Self-managed super fund",
+"abbr": "SMSF",
+"def": "A small super fund, with up to six members, where the members are also the trustees (or directors of the corporate trustee). SMSFs are regulated by the ATO rather than APRA."
+},
+{
+"slug": "significant-dealing",
+"term": "Significant dealing",
+"abbr": "",
+"def": "Under the design and distribution obligations, a dealing in a product that is not consistent with its target market determination and is significant (for example because of the number of customers or the harm involved). Issuers must notify ASIC within 10 business days of becoming aware."
+},
+{
+"slug": "sfi",
+"term": "Significant financial institution",
+"abbr": "SFI",
+"def": "APRA's label for larger regulated entities that must meet the full set of certain prudential requirements, including parts of CPS 230, CPS 511 and CPS 190. For example, an ADI with total assets over $20 billion, or an RSE licensee whose funds hold over $30 billion in total assets. APRA can also designate an entity as an SFI because of its complexity or group membership."
+},
+{
+"slug": "sps-515",
+"term": "SPS 515 Strategic Planning and Member Outcomes",
+"abbr": "",
+"def": "APRA's prudential standard requiring super trustees to have a business plan and to assess each year whether they are delivering good outcomes for members, including by comparing fees, returns and services with other products."
 },
 {
 "slug": "soa",
@@ -781,10 +973,22 @@ window.GLOSSARY_CARDS = [
 "def": "A term in a standard form consumer or small business contract that causes a significant imbalance, isn't reasonably necessary to protect the business, and would cause detriment. Since 9 November 2023, using such terms can attract penalties."
 },
 {
+"slug": "utmost-good-faith",
+"term": "Utmost good faith",
+"abbr": "",
+"def": "A duty on both insurers and policyholders to act honestly and fairly with each other, implied into every insurance contract by the Insurance Contracts Act 1984 (Cth). An insurer that breaches it, for example by unreasonably handling a claim, can face ASIC action."
+},
+{
 "slug": "variable-remuneration",
 "term": "Variable remuneration",
 "abbr": "",
 "def": "Pay that depends on performance or other conditions, such as bonuses and long-term incentives, as opposed to fixed salary."
+},
+{
+"slug": "vulnerable-customer",
+"term": "Vulnerable customer",
+"abbr": "",
+"def": "A customer who, because of personal circumstances such as illness, disability, family violence, age, language or financial stress, is at greater risk of harm. Regulators and industry codes expect firms to identify vulnerability and adjust how they deal with these customers."
 },
 {
 "slug": "whistleblower",
