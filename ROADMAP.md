@@ -49,7 +49,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Designing a compliance program
 - [x] Breach and incident reporting obligations
 - [x] Licensing basics (AFSL, RSE licence)
-- [ ] Disclosure obligations
+- [x] Disclosure obligations
 - [ ] Consumer protection
 - [ ] Privacy law
 - [ ] AML/CTF fundamentals
