@@ -58,7 +58,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 
 - [x] Pillar landing page
 - [x] Board structure and accountability
-- [ ] Financial Accountability Regime (FAR)
+- [x] Financial Accountability Regime (FAR)
 - [ ] Conflicts of interest
 - [ ] Remuneration governance
 - [ ] Whistleblower protections
