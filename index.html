@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RiskLens Australia</title>
+<style>
+  :root {
+    --navy: #0f2942;
+    --blue: #2563eb;
+    --bg: #f7f9fc;
+    --text: #1a2332;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--navy);
+    color: white;
+    padding: 20px 24px;
+  }
+  header .inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 { font-size: 22px; font-weight: 700; }
+  nav a {
+    color: #cbd8e8;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .hero {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 64px 24px 48px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 34px;
+    color: var(--navy);
+    margin-bottom: 16px;
+  }
+  .hero p {
+    font-size: 17px;
+    color: #4a5568;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .cards {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 24px;
+  }
+  .card h3 {
+    color: var(--blue);
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .card p { font-size: 14px; color: #5a6472; }
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 13px;
+    color: #8896a6;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <h1>RiskLens Australia</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Learn</a>
+      <a href="#">Resources</a>
+      <a href="#">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>Free, plain-English risk & governance education for Australians</h2>
+  <p>RiskLens Australia is a free public library covering risk management, compliance and governance — from beginner fundamentals to advanced, university-level depth. No login, no paywall.</p>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <h3>Risk Management</h3>
+    <p>Frameworks, risk appetite, assessments and controls — explained clearly.</p>
+  </div>
+  <div class="card">
+    <h3>Compliance</h3>
+    <p>Regulatory obligations, breach reporting, and how compliance programs work.</p>
+  </div>
+  <div class="card">
+    <h3>Governance</h3>
+    <p>Boards, accountability structures, and how good governance is built.</p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 RiskLens Australia. Site under construction — more content coming soon.
+</footer>
+
+</body>
+</html>
