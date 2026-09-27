@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit, market and liquidity risk: the basics | RiskLens Australia</title>
+<meta name="description" content="A beginner's guide to the three core financial risks: credit risk, market risk and liquidity risk, how they show up in banks, insurers and super funds, and how APRA regulates them. Includes an expected loss calculator.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk Management</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Credit, market and liquidity risk</li></ol></nav>
+
+  <h1>Credit, market and liquidity risk (the basics)</h1>
+  <p class="summary">The three classic financial risks: someone doesn't pay you back, prices move against you, or you can't get cash when you need it.</p>
+  <div class="page-meta">
+    <span class="level level-beginner">Beginner</span>
+    <span>About 12 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li><a class="term" href="/glossary/#credit-risk">Credit risk</a>: a borrower or counterparty fails to pay what it owes. Expected loss is often estimated as probability of default × loss given default × exposure at default.</li>
+      <li><a class="term" href="/glossary/#market-risk">Market risk</a>: losses from movements in interest rates, exchange rates, share prices and other market prices.</li>
+      <li><a class="term" href="/glossary/#liquidity-risk">Liquidity risk</a>: not being able to pay obligations on time, or only at a high cost. It can sink an otherwise solvent institution very quickly.</li>
+      <li>The three are closely linked. In a crisis they tend to strike together.</li>
+      <li>APRA regulates them through prudential standards such as APS 220 (credit risk), APS 116 and APS 117 (market and interest rate risk), APS 210 (liquidity) and, for super funds, SPS 530 (investment governance).</li>
+    </ul>
+  </aside>
+
+  <h2>Where the risks sit: a bank's balance sheet</h2>
+  <p>A simple bank balance sheet shows where each risk comes from. The same ideas apply, with changes, to insurers and super funds.</p>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 330" role="img" aria-labelledby="bs-title bs-desc">
+      <title id="bs-title">A simplified bank balance sheet and its risks</title>
+      <desc id="bs-desc">Left column, assets: loans to households and businesses carry credit risk; bonds and trading positions carry market risk; cash and liquid assets are the buffer against liquidity risk. Right column, liabilities and equity: customer deposits and wholesale funding carry liquidity or funding risk because they can be withdrawn or not rolled over; shareholders' equity is the capital that absorbs losses. Interest rate risk arises from the mismatch between the rates on assets and liabilities.</desc>
+      <text x="185" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#0f2942">Assets (what the bank owns)</text>
+      <text x="535" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#0f2942">Liabilities and equity (how it's funded)</text>
+      <g font-size="13.5">
+        <rect x="20" y="36" width="330" height="140" fill="#1b3a5c"/>
+        <text x="36" y="66" fill="#fff" font-weight="700">Loans</text>
+        <text x="36" y="88" fill="#cbd8e8" font-size="12.5">home loans, business loans, credit cards</text>
+        <rect x="36" y="118" width="150" height="36" rx="18" fill="#fca5a5"/>
+        <text x="111" y="141" text-anchor="middle" fill="#7f1d1d" font-weight="700">Credit risk</text>
+
+        <rect x="20" y="176" width="330" height="80" fill="#2563eb"/>
+        <text x="36" y="202" fill="#fff" font-weight="700">Bonds and trading positions</text>
+        <rect x="36" y="214" width="150" height="32" rx="16" fill="#fde68a"/>
+        <text x="111" y="235" text-anchor="middle" fill="#78350f" font-weight="700">Market risk</text>
+
+        <rect x="20" y="256" width="330" height="60" fill="#93b4f5"/>
+        <text x="36" y="282" fill="#0f2942" font-weight="700">Cash and liquid assets</text>
+        <text x="36" y="302" fill="#0f2942" font-size="12.5">the buffer against liquidity risk</text>
+
+        <rect x="370" y="36" width="330" height="200" fill="#475569"/>
+        <text x="386" y="66" fill="#fff" font-weight="700">Deposits and wholesale funding</text>
+        <text x="386" y="88" fill="#e2e8f0" font-size="12.5">can be withdrawn or not rolled over</text>
+        <rect x="386" y="118" width="190" height="36" rx="18" fill="#bfdbfe"/>
+        <text x="481" y="141" text-anchor="middle" fill="#1e3a8a" font-weight="700">Liquidity risk</text>
+
+        <rect x="370" y="236" width="330" height="80" fill="#15803d"/>
+        <text x="386" y="264" fill="#fff" font-weight="700">Shareholders' equity (capital)</text>
+        <text x="386" y="286" fill="#dcfce7" font-size="12.5">absorbs losses so depositors don't</text>
+      </g>
+    </svg>
+    <figcaption>Credit and market risk mostly sit on the asset side; liquidity risk comes from the mismatch between liquid assets and flighty funding. Interest rate risk comes from differences between the rates earned on assets and paid on funding. Capital is the shock absorber.</figcaption>
+  </figure>
+
+  <h2>Credit risk</h2>
+  <p><strong>In plain English:</strong> you lend money (or sell on credit, or enter a contract), and the other party doesn't pay you back in full or on time.</p>
+  <p>Credit risk is the biggest risk for most banks, because lending is their core business. But it appears everywhere: an insurer's reinsurer might not pay a claim; a super fund's bond investments can default; a business's customers may not pay their invoices. The other party in a financial contract is called a <strong>counterparty</strong>, so you'll also hear "counterparty risk".</p>
+
+  <h3>Measuring it: expected loss</h3>
+  <p>A standard way of estimating the average credit loss uses three ingredients:</p>
+  <ul>
+    <li><strong>PD</strong>, probability of default: how likely the borrower is to default over the next year.</li>
+    <li><strong>LGD</strong>, loss given default: if they default, what share of the exposure is lost after recoveries, such as selling the house that secures a mortgage.</li>
+    <li><strong>EAD</strong>, exposure at default: how much is owed at the time of default.</li>
+  </ul>
+  <p><strong>Expected loss = PD × LGD × EAD.</strong> Banks price loans and hold provisions to cover expected losses, and hold capital to absorb <em>unexpected</em> losses beyond that.</p>
+
+  <div class="widget" id="el-calc">
+    <h3>Try it: expected loss calculator</h3>
+    <div class="controls">
+      <div><label for="el-pd">Probability of default (%)</label><input type="number" id="el-pd" value="1.5" min="0" max="100" step="0.1"></div>
+      <div><label for="el-lgd">Loss given default (%)</label><input type="number" id="el-lgd" value="20" min="0" max="100" step="1"></div>
+      <div><label for="el-ead">Exposure at default ($)</label><input type="number" id="el-ead" value="600000" min="0" step="1000"></div>
+    </div>
+    <p class="result" aria-live="polite"></p>
+    <p class="small">Default values: a $600,000 home loan with a 1.5% annual chance of default, and a 20% loss if it defaults (because the house can be sold). Illustrative numbers only.</p>
+    <noscript><p>The calculator needs JavaScript. Example: 1.5% × 20% × $600,000 = $1,800.</p></noscript>
+  </div>
+
+  <h3>Managing it</h3>
+  <ul>
+    <li><strong>Underwriting standards:</strong> checking the borrower's ability to repay before lending (for consumers, also a legal requirement under the responsible lending obligations in the National Consumer Credit Protection Act).</li>
+    <li><strong>Collateral and guarantees</strong> that reduce loss given default.</li>
+    <li><strong>Limits</strong> on exposure to single borrowers, industries and regions, to avoid <a class="term" href="/glossary/#concentration-risk">concentration risk</a>.</li>
+    <li><strong>Monitoring</strong> arrears and early-warning signs, and managing problem loans.</li>
+    <li><strong>Capital</strong>: APRA's capital standards (APS 112 for the standardised approach and APS 113 for internal models) set how much capital banks hold for credit risk. APS 220 Credit Risk Management sets requirements for the credit risk management framework.</li>
+  </ul>
+
+  <h2>Market risk</h2>
+  <p><strong>In plain English:</strong> you hold something whose value depends on market prices, and the price moves against you.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Type</th><th scope="col">What moves</th><th scope="col">Example</th></tr></thead>
+      <tbody>
+        <tr><td>Interest rate risk</td><td>Interest rates</td><td>A bank funds 5-year fixed-rate loans with deposits whose rates rise when the cash rate goes up, squeezing its margin. Bond prices fall when rates rise.</td></tr>
+        <tr><td>Equity risk</td><td>Share prices</td><td>A super fund's balanced option falls 10% in a sharemarket downturn.</td></tr>
+        <tr><td>Foreign exchange risk</td><td>Exchange rates</td><td>An unhedged holding of US shares loses value in Australian dollars when the Australian dollar rises.</td></tr>
+        <tr><td>Commodity risk</td><td>Commodity prices</td><td>A trading position in oil or gold.</td></tr>
+        <tr><td>Credit spread risk</td><td>The extra yield investors demand for credit risk</td><td>Corporate bond prices fall when investors become more nervous, even without any default.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>For banks, APRA distinguishes the <strong>trading book</strong> (positions held for trading, covered by APS 116 Capital Adequacy: Market Risk) from <strong>interest rate risk in the banking book</strong> (the mismatch between rates on loans and deposits, covered by APS 117). Common measurement tools include sensitivity analysis ("what happens if rates rise 1%?"), Value at Risk and <a class="term" href="/glossary/#stress-testing">stress testing</a>.</p>
+
+  <div class="callout">
+    <h3>A super fund difference</h3>
+    <p>In a bank, market risk is borne by shareholders. In an accumulation super fund, investment returns (good and bad) flow directly to members' balances. So the trustee's job is less about protecting its own capital and more about <strong>investment governance</strong>: setting suitable investment objectives and strategies for each option, managing risk against those objectives, and stress testing. APRA's SPS 530 Investment Governance sets requirements for this.</p>
+  </div>
+
+  <h2>Liquidity risk</h2>
+  <p><strong>In plain English:</strong> you are worth more than you owe, but you can't get enough cash in time to pay the bills that are due.</p>
+  <p>Liquidity risk comes in two flavours: <strong>funding liquidity risk</strong> (you can't raise cash, for example because depositors withdraw or lenders won't roll over funding) and <strong>market liquidity risk</strong> (you can only sell assets at a steep discount because there are few buyers).</p>
+  <p>It is dangerous because it can move very fast. A rumour can trigger a run on deposits within days, and a solvent institution can fail simply because it runs out of cash. That is why regulators treat it so seriously.</p>
+  <ul>
+    <li><strong>Banks:</strong> under APS 210 Liquidity, larger ADIs must meet a <strong>Liquidity Coverage Ratio</strong> of at least 100%, meaning enough high-quality liquid assets to survive a severe 30-day stress scenario, and a <strong>Net Stable Funding Ratio</strong> of at least 100%, meaning longer-term assets are funded by stable sources. Smaller ADIs are subject to a simpler minimum liquidity holdings requirement.</li>
+    <li><strong>Super funds:</strong> trustees must be able to pay benefits, rollovers and investment switches. SPS 530 requires a board-approved liquidity management plan and liquidity stress testing for each fund. The COVID-19 early release of super scheme in 2020 was a real-world test of fund liquidity.</li>
+    <li><strong>Insurers:</strong> must be able to pay claims when due, including after a catastrophe such as a major flood.</li>
+  </ul>
+
+  <h2>How they connect</h2>
+  <p>Financial risks rarely arrive alone. In the 2008 global financial crisis, falling US house prices caused credit losses, which caused market prices of related securities to collapse, which made it hard for banks to raise funding, turning a credit problem into a liquidity crisis. In March 2023, Silicon Valley Bank in the United States failed after rising interest rates reduced the value of its bond holdings (market risk), and a rapid withdrawal of deposits (liquidity risk) forced it to sell those bonds at a loss.</p>
+  <p>This is why <a href="/risk-management/enterprise-risk-management.html">enterprise risk management</a> and stress testing look at risks together, not only one at a time.</p>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/enterprise-risk-management.html" data-label="Enterprise risk management (ERM)"><a href="/risk-management/enterprise-risk-management.html">Enterprise risk management (ERM)</a></li>
+      <li data-href="/risk-management/risk-assessment-methodologies.html" data-label="Risk assessment methodologies (quantitative methods)"><a href="/risk-management/risk-assessment-methodologies.html">Risk assessment methodologies (quantitative methods)</a></li>
+      <li data-href="/risk-management/risk-appetite-and-tolerance.html" data-label="Risk appetite and tolerance"><a href="/risk-management/risk-appetite-and-tolerance.html">Risk appetite and tolerance</a></li>
+      <li data-href="/sectors/" data-label="Sector deep-dives: banking, insurance and super">Sector deep-dives: banking, insurance and super <span class="soon">(coming soon)</span></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/aps-220">Prudential Standard APS 220 Credit Risk Management</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/aps-210">Prudential Standard APS 210 Liquidity</a> and <a href="https://www.apra.gov.au/practice-guides/apg-210">APG 210 Liquidity</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/aps-117">Prudential Standard APS 117 Capital Adequacy: Interest Rate Risk in the Banking Book</a> and APS 116 Capital Adequacy: Market Risk; <a href="https://www.apra.gov.au/banking/Prudential-and-reporting-standards">ADI prudential and reporting standards</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-530">Prudential Standard SPS 530 Investment Governance</a>.</li>
+      <li>Basel Committee on Banking Supervision, Basel III framework (liquidity coverage ratio, net stable funding ratio and credit risk parameters), <a href="https://www.bis.org/bcbs/">bis.org</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/expected-loss.js"></script>
+</body>
+</html>
