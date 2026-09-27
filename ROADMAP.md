@@ -97,7 +97,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 - [x] Risk assessment template
 - [x] Incident report template
 - [x] Breach register template
-- [ ] Regulatory obligation checklists
+- [x] Regulatory obligation checklists
 
 ## Phase 8 — News and updates (`/news/`)
 
@@ -134,6 +134,9 @@ Add new ideas here as they come up.
 - **Nick to review (Phase 6):** the three scenario simulations in `/learn/scenarios.html` (fee error breach and remediation, administrator outage under CPS 230, whistleblower disclosure). The "best practice" answers and feedback are in `scripts/scenarios-data.js`.
 - **Advanced-level content:** no pages are tagged Advanced yet. Candidates: quantitative risk (loss distributions, scenario analysis maths), stress testing, CPS 230 tolerance-setting deep-dive, advanced breach significance analysis, and board risk reporting design. Add them to `_scripts/build_pathways.py` as a new stage when live.
 - More scenarios (e.g. privacy data breach assessment, disclosure review of a marketing campaign, conflicted related-party transaction) and more quiz questions as new pages go live; keep `scripts/quiz-bank.js` in step with page content.
+- **Nick to review (Phase 7):** the four templates in `/tools/`. Especially the incident report's notification checklist, the breach register's columns and example, and the CPS 230 / breach reporting checklists (item wording lives in `_scripts/templates/checklists_data.py`).
+- **Navigation:** with 10 sections the top menu wraps to two lines on desktop. Consider a compact menu (e.g. group Learn/Tools, or a "More" item) when News is added in Phase 8.
+- More templates: obligations register, control testing workpaper, risk appetite statement skeleton, material service provider register (aligned with APRA's template), remediation program tracker.
 - A "What's changed recently" box on the home page linking to regulatory updates (once `/news/` exists).
 - A risk culture deep-dive page (could sit under Governance: culture and conduct risk).
 - An assurance mapping / combined assurance page (links Three Lines, control testing and internal audit).
