@@ -52,7 +52,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Disclosure obligations
 - [x] Consumer protection
 - [x] Privacy law
-- [ ] AML/CTF fundamentals
+- [x] AML/CTF fundamentals
 
 ## Phase 3 — Governance pillar (`/governance/`)
 
@@ -123,6 +123,8 @@ Add new ideas here as they come up.
 - **Watch and update:** APRA's final CPS 510 Governance (expected end 2026, commencing January 2028) and the ASX Corporate Governance Principles 5th edition (final expected December 2026). Update `/foundations/what-is-governance.html` when finalised.
 - **Watch and update:** ISO 31000 revision (at committee draft stage in 2026). Update the frameworks pages when published.
 - **Nick to review:** Phase 1 pages in his specialist areas: control design and testing, incident and breach management, third-party risk, operational risk / CPS 230, business continuity. Especially the super-trustee breach reporting line (SIS Act s 29JA timing) on the incident page.
+- **Nick to review (Phase 2):** Disclosure obligations (disclosure review process and checklist) and Breach and incident reporting obligations (regime-by-regime timeframes, especially the super-trustee lines).
+- **Watch and update (Phase 2 pages):** privacy "tranche 2" reforms and the automated decision-making duty (10 December 2026); Children's Online Privacy Code; Scams Prevention Framework sector rules and commencement; ASIC's reviews of RG 97 and RG 234; AUSTRAC transitional rules for the AML/CTF reforms.
 - A "What's changed recently" box on the home page linking to regulatory updates (once `/news/` exists).
 - A risk culture deep-dive page (could sit under Governance: culture and conduct risk).
 - An assurance mapping / combined assurance page (links Three Lines, control testing and internal audit).

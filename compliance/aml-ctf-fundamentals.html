@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AML/CTF fundamentals | RiskLens Australia</title>
+<meta name="description" content="A beginner's guide to anti-money laundering and counter-terrorism financing in Australia: how money laundering works, AUSTRAC, reporting entities, customer due diligence, reporting, and the 2024–2026 reforms including tranche 2.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk Management</a></li>
+        <li><a href="/compliance/" aria-current="page">Compliance</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/compliance/">Compliance</a></li><li>AML/CTF fundamentals</li></ol></nav>
+
+  <h1>AML/CTF fundamentals</h1>
+  <p class="summary">Criminals need legitimate businesses to hide and move money. Anti-money laundering and counter-terrorism financing (AML/CTF) law makes those businesses the first line of defence.</p>
+  <div class="page-meta">
+    <span class="level level-beginner">Beginner</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Money laundering disguises the criminal origin of money; terrorism financing moves money (which may be clean) to support terrorism.</li>
+      <li>Businesses that provide <a class="term" href="/glossary/#designated-service">designated services</a> are <a class="term" href="/glossary/#reporting-entity">reporting entities</a> under the <em>AML/CTF Act 2006</em> (Cth), regulated by AUSTRAC.</li>
+      <li>Core obligations: assess ML/TF risk, have AML/CTF policies (a program), know your customer (<a class="term" href="/glossary/#cdd">customer due diligence</a>), report to AUSTRAC, keep records and train staff.</li>
+      <li>Major reforms changed obligations for existing reporting entities from 31 March 2026, and brought in lawyers, accountants, real estate professionals and others ("tranche 2") from 1 July 2026.</li>
+      <li>Penalties can be huge: Westpac paid $1.3 billion in 2020, the largest civil penalty in Australian history at the time.</li>
+    </ul>
+  </aside>
+
+  <h2>How money laundering works</h2>
+  <p>Money from crime (drugs, fraud, tax evasion, corruption) is hard to spend without attracting attention. Laundering makes it look legitimate. A classic way of describing it has three stages:</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 720 260" role="img" aria-labelledby="ml-title ml-desc">
+      <title id="ml-title">The three stages of money laundering</title>
+      <desc id="ml-desc">Dirty money from crime passes through three stages. Placement: getting cash into the financial system, for example cash deposits split into small amounts, or buying chips at a casino. Layering: moving it around to hide the trail, for example multiple transfers between accounts, companies and countries. Integration: bringing it back as apparently clean wealth, for example buying property or businesses. Reporting entities can detect and report at every stage.</desc>
+      <defs><marker id="ml-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+      <g font-size="13" text-anchor="middle">
+        <rect x="10" y="40" width="120" height="110" rx="10" fill="#7f1d1d"/>
+        <text x="70" y="88" fill="#fff" font-weight="700">Proceeds</text><text x="70" y="106" fill="#fff" font-weight="700">of crime</text>
+        <rect x="160" y="40" width="160" height="110" rx="10" fill="#b91c1c"/>
+        <text x="240" y="66" fill="#fff" font-weight="700" font-size="14">1. Placement</text>
+        <text x="240" y="90" fill="#fee2e2" font-size="12">getting money into</text><text x="240" y="106" fill="#fee2e2" font-size="12">the system, e.g.</text><text x="240" y="122" fill="#fee2e2" font-size="12">structured cash deposits</text>
+        <rect x="350" y="40" width="160" height="110" rx="10" fill="#b45309"/>
+        <text x="430" y="66" fill="#fff" font-weight="700" font-size="14">2. Layering</text>
+        <text x="430" y="90" fill="#fef3c7" font-size="12">hiding the trail, e.g.</text><text x="430" y="106" fill="#fef3c7" font-size="12">many transfers through</text><text x="430" y="122" fill="#fef3c7" font-size="12">accounts and companies</text>
+        <rect x="540" y="40" width="170" height="110" rx="10" fill="#15803d"/>
+        <text x="625" y="66" fill="#fff" font-weight="700" font-size="14">3. Integration</text>
+        <text x="625" y="90" fill="#dcfce7" font-size="12">returning as "clean"</text><text x="625" y="106" fill="#dcfce7" font-size="12">wealth, e.g. property,</text><text x="625" y="122" fill="#dcfce7" font-size="12">businesses, luxury goods</text>
+      </g>
+      <g stroke="#475569" stroke-width="2.5" marker-end="url(#ml-ar)">
+        <line x1="132" y1="95" x2="156" y2="95"/><line x1="322" y1="95" x2="346" y2="95"/><line x1="512" y1="95" x2="536" y2="95"/>
+      </g>
+      <rect x="160" y="180" width="550" height="60" rx="10" fill="#e8f0fe" stroke="#2563eb" stroke-width="2"/>
+      <text x="435" y="205" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f2942">Reporting entities can detect and disrupt at every stage</text>
+      <text x="435" y="225" text-anchor="middle" font-size="12.5" fill="#1a2332">customer due diligence · transaction monitoring · reports to AUSTRAC</text>
+    </svg>
+    <figcaption>A simplified model. Real schemes often skip or blend stages, and increasingly use digital assets.</figcaption>
+  </figure>
+
+  <p><strong>Terrorism financing</strong> is different: the money may come from legitimate sources (such as wages or donations), and the amounts are often small. The focus is on where money is going, not where it came from. The reforms also require entities to consider <strong>proliferation financing</strong>: funding weapons of mass destruction.</p>
+
+  <h2>Who is regulated?</h2>
+  <p>The <em>Anti-Money Laundering and Counter-Terrorism Financing Act 2006</em> (Cth) applies to businesses that provide <strong>designated services</strong>, listed in the Act. Providing one makes the business a <strong>reporting entity</strong>, which must enrol with AUSTRAC. Examples:</p>
+  <ul>
+    <li><strong>Financial services:</strong> banks and other lenders, super funds, some life insurers, stockbrokers, remittance providers, foreign exchange dealers.</li>
+    <li><strong>Gambling:</strong> casinos, online and on-course bookmakers, clubs and pubs with gaming machines.</li>
+    <li><strong>Bullion and digital currency:</strong> bullion dealers and digital currency (virtual asset) exchanges.</li>
+    <li><strong>"Tranche 2" (from 1 July 2026):</strong> certain services provided by lawyers, conveyancers, accountants, real estate professionals, trust and company service providers, and dealers in precious metals and stones.</li>
+  </ul>
+  <p>Enrolment for tranche 2 entities opened on 31 March 2026. A business must generally enrol within 28 days of starting to provide a designated service.</p>
+
+  <h2>What reporting entities must do</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Obligation</th><th scope="col">In brief</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Enrol</strong></td><td>Enrol with AUSTRAC (and register, if a remitter or virtual asset service provider).</td></tr>
+        <tr><td><strong>ML/TF risk assessment</strong></td><td>Identify and assess the money laundering, terrorism financing and proliferation financing risks the business may reasonably face, considering customers, services, delivery channels and countries dealt with. Keep it up to date.</td></tr>
+        <tr><td><strong>AML/CTF policies (the program)</strong></td><td>Policies, procedures, systems and controls, proportionate to the risk assessment, to mitigate and manage those risks and meet the obligations below.</td></tr>
+        <tr><td><strong>Governance</strong></td><td>Oversight by the governing body; an <strong>AML/CTF compliance officer</strong> who coordinates day-to-day compliance and reports to the governing body at least every 12 months; <strong>independent evaluation</strong> of the program at least every three years.</td></tr>
+        <tr><td><strong>Personnel</strong></td><td>Due diligence on staff in relevant roles, and risk-awareness training.</td></tr>
+        <tr><td><strong>Customer due diligence</strong></td><td>Identify and verify customers (and beneficial owners), understand the purpose of the relationship and the ML/TF risk, and apply <strong>enhanced</strong> due diligence to higher-risk customers such as politically exposed persons. Continue with <strong>ongoing</strong> due diligence and transaction monitoring.</td></tr>
+        <tr><td><strong>Reporting</strong></td><td><a class="term" href="/glossary/#smr">Suspicious matter reports</a> (3 business days; 24 hours for terrorism financing); threshold transaction reports for $10,000+ in physical currency (10 business days); international funds transfer instruction reports (10 business days); and annual compliance reports.</td></tr>
+        <tr><td><strong>Record keeping</strong></td><td>Keep records of transactions, customer identification and the program, generally for seven years.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout warn">
+    <h3>No tipping off</h3>
+    <p>It is an offence to tell a customer, or anyone else not permitted, that a suspicious matter report has been made or is being considered. Front-line staff need to know how to handle a suspicious situation without alerting the customer.</p>
+  </div>
+
+  <h2>The 2024–2026 reforms</h2>
+  <p>The <em>Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024</em> (Cth) was the biggest change to the regime since it began. The AML/CTF Rules 2025 set out the detail. The reforms aimed to:</p>
+  <ol>
+    <li><strong>Extend the regime to tranche 2 sectors</strong> (from 1 July 2026), bringing Australia closer to the international standards set by the Financial Action Task Force (FATF).</li>
+    <li><strong>Modernise</strong> the regulation of digital currency, virtual assets and payments technology, including "travel rule" information that must accompany value transfers.</li>
+    <li><strong>Simplify and clarify</strong> obligations, focusing on outcomes: the old Part A / Part B program structure was replaced with a clear ML/TF risk assessment plus AML/CTF policies, and customer due diligence rules were restated.</li>
+  </ol>
+  <p>Existing reporting entities had to meet the reformed obligations from <strong>31 March 2026</strong>. AUSTRAC has published transitional rules and regulatory expectations for how it will approach implementation, so check its website for the latest.</p>
+
+  <h2>Red flags</h2>
+  <p>Examples of warning signs that might prompt further enquiry or a suspicious matter report (context matters, and none is proof on its own):</p>
+  <ul>
+    <li>Cash deposits deliberately kept just under $10,000 ("structuring").</li>
+    <li>Transactions that don't fit the customer's profile or stated purpose.</li>
+    <li>Rapid movement of funds in and out of an account with no clear reason.</li>
+    <li>Reluctance to provide identification or information, or use of third parties to transact.</li>
+    <li>Complex ownership structures with no obvious business reason.</li>
+    <li>Links to high-risk countries, or to people on sanctions lists.</li>
+    <li>In super: unusual early release claims, sudden changes to bank details followed by a withdrawal, or rollovers to newly created funds.</li>
+  </ul>
+
+  <h2>Enforcement: why it matters</h2>
+  <div class="table-wrap">
+    <table>
+      <caption>Largest AUSTRAC civil penalty outcomes to date.</caption>
+      <thead><tr><th scope="col">Entity</th><th scope="col">Penalty</th><th scope="col">Year ordered</th></tr></thead>
+      <tbody>
+        <tr><td>Westpac</td><td>$1.3 billion (over 19 million contraventions, many relating to international funds transfer reporting)</td><td>2020</td></tr>
+        <tr><td>Commonwealth Bank of Australia</td><td>$700 million</td><td>2018</td></tr>
+        <tr><td>Crown Melbourne and Crown Perth</td><td>$450 million</td><td>2023</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>These cases show that the most common failures aren't about individual criminal customers, but about systems: reports not lodged, transaction monitoring not working, and risk assessments not reflecting how the business actually operates.</p>
+
+  <h2>Check your understanding</h2>
+  <div class="widget quiz">
+    <h3>Which stage, or what to do?</h3>
+    <div class="q" data-answer="p">
+      <p class="q-text">1. A person deposits $9,500 in cash at five different branches on the same day.</p>
+      <div class="q-options"><button type="button" data-value="p">Placement (and possible structuring)</button><button type="button" data-value="l">Layering</button><button type="button" data-value="i">Integration</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Getting cash into the system in amounts just under the $10,000 threshold is a classic placement and structuring pattern. It could warrant a suspicious matter report.</p>
+    </div>
+    <div class="q" data-answer="l">
+      <p class="q-text">2. Funds move through eight accounts held by different shell companies in three countries within a week.</p>
+      <div class="q-options"><button type="button" data-value="p">Placement</button><button type="button" data-value="l">Layering</button><button type="button" data-value="i">Integration</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Rapid, complex movements to obscure the trail are layering.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. A branch officer forms a suspicion about a customer. What should they NOT do?</p>
+      <div class="q-options"><button type="button" data-value="a">Escalate internally under the AML/CTF procedures</button><button type="button" data-value="b">Tell the customer a report is being considered</button><button type="button" data-value="c">Record what they observed</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Telling the customer could be tipping off, which is an offence.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/foundations/regulatory-landscape.html" data-label="Regulatory landscape map"><a href="/foundations/regulatory-landscape.html">Regulatory landscape map</a></li>
+      <li data-href="/compliance/breach-reporting.html" data-label="Breach and incident reporting obligations"><a href="/compliance/breach-reporting.html">Breach and incident reporting obligations</a></li>
+      <li data-href="/compliance/designing-a-compliance-program.html" data-label="Designing a compliance program"><a href="/compliance/designing-a-compliance-program.html">Designing a compliance program</a></li>
+      <li data-href="/risk-management/risk-assessment-methodologies.html" data-label="Risk assessment methodologies"><a href="/risk-management/risk-assessment-methodologies.html">Risk assessment methodologies</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>AUSTRAC, <a href="https://www.austrac.gov.au/changes-amlctf-obligations-what-you-need-do">Changes to AML/CTF obligations: what you need to do</a> and <a href="https://www.austrac.gov.au/austrac-regulatory-expectations-implementation-amlctf-reforms">AUSTRAC regulatory expectations for the implementation of the AML/CTF reforms</a>.</li>
+      <li>AUSTRAC, <a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/develop-your-amlctf-programs/step-1-establish-your-governance-framework/amlctf-compliance-officer">AML/CTF compliance officer</a> and <a href="https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/develop-your-amlctf-program-reform/step-5-conduct-independent-evaluation-reform">Conduct an independent evaluation (reform)</a>.</li>
+      <li>AUSTRAC, <a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports">Suspicious matter reports</a> and <a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/international-funds-transfer-reports">International funds transfer reports</a>.</li>
+      <li>Department of Home Affairs, <a href="https://www.homeaffairs.gov.au/criminal-justice/Pages/overview-of-the-amlctf-amendment-act.aspx">Overview of the AML/CTF Amendment Act</a>.</li>
+      <li>AUSTRAC, <a href="https://www.austrac.gov.au/about-us/record-our-actions/enforcement-actions-taken">Enforcement actions taken</a> and <a href="https://www.austrac.gov.au/news-and-media/our-recent-work/westpac-penalty-ordered">Westpac ordered to pay $1.3 billion penalty</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>
