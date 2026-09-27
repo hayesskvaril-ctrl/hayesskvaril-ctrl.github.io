@@ -1232,3 +1232,9 @@ details[open] summary { margin-bottom: 10px; }
 
 /* Keep status badges on one line inside tables */
 td .badge { white-space: nowrap; }
+
+/* AI use case tiering */
+.ai-checks label { display: flex; gap: 10px; align-items: flex-start; font-weight: 400; font-size: 16px; padding: 8px 0; border-top: 1px solid var(--border); margin: 0; cursor: pointer; color: var(--text); }
+.ai-checks label:first-of-type { border-top: none; }
+.ai-checks input[type="checkbox"] { width: 20px; height: 20px; margin-top: 3px; flex: none; }
+.ai-controls { margin-top: 10px; }

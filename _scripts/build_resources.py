@@ -48,6 +48,7 @@ TOOLS = {
     "aggregation-calc.js": ("Risk aggregation calculator", "Combine three risks with correlations and see the diversification benefit.", "Advanced"),
     "sampling-calc.js": ("Control testing sample size calculator", "Plan attribute samples and evaluate results as an upper deviation limit.", "Advanced"),
     "climate-group.js": ("Climate reporting group finder", "Work out which mandatory climate reporting group an entity falls into, and when it starts.", "Intermediate"),
+    "ai-tiering.js": ("AI use case risk tiering", "Tick the characteristics of an AI use to see an illustrative risk tier and typical controls.", "Intermediate"),
     "culture-radar.js": ("Risk culture self-reflection", "A personal reflection tool: rate a team on risk culture dimensions and see the shape.", "Intermediate"),
 }
 

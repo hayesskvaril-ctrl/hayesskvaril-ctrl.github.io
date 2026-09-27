@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI governance | RiskLens Australia</title>
+<meta name="description" content="How Australian organisations govern artificial intelligence: AI-specific risks, board oversight and accountability, the AI lifecycle, how existing laws apply, ASIC REP 798, the Guidance for AI Adoption, ISO/IEC 42001 and privacy obligations for automated decisions.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/governance/ai-governance.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI governance">
+<meta property="og:description" content="How Australian organisations govern artificial intelligence: AI-specific risks, board oversight and accountability, the AI lifecycle, how existing laws apply, ASIC REP 798, the Guidance for AI Adoption, ISO/IEC 42001 and privacy obligations for automated decisions.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/governance/ai-governance.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/" aria-current="page">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/governance/">Governance</a></li><li>AI governance</li></ol></nav>
+
+  <h1>AI governance</h1>
+  <p class="summary">How organisations oversee artificial intelligence so they get the benefits without harming customers, breaking the law or losing control of their own decisions.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Australia has no AI-specific law. In its December 2025 National AI Plan, the Government confirmed it would rely on existing, technology-neutral laws and sector regulators, supported by voluntary guidance, rather than a standalone AI Act for now.</li>
+      <li>Existing obligations already apply to AI: financial services and consumer laws, privacy, anti-discrimination, directors' duties, and APRA's standards on risk, operational resilience and information security.</li>
+      <li>ASIC's 2024 review (REP 798) found licensees were adopting AI faster than they were updating their governance and risk frameworks.</li>
+      <li>Good AI governance rests on a few basics: clear accountability, an inventory of AI uses, risk-based controls across the AI lifecycle, human oversight, transparency and monitoring.</li>
+      <li>From 10 December 2026, privacy policies must explain when personal information is used in substantially automated decisions that significantly affect individuals.</li>
+    </ul>
+  </aside>
+
+  <h2>What makes AI risk different</h2>
+  <p>AI systems learn patterns from data rather than following rules someone wrote. That brings real benefits, but also risks that traditional technology controls weren't designed for:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Risk</th><th scope="col">What it looks like</th></tr></thead>
+      <tbody>
+        <tr><td>Bias and unfair outcomes</td><td>A model trained on historical data reproduces past discrimination, for example in credit or claims decisions.</td></tr>
+        <tr><td>Opacity</td><td>It's hard to explain why a model produced a particular result, making decisions hard to justify or challenge.</td></tr>
+        <tr><td>Errors and "hallucinations"</td><td>Generative AI produces confident but wrong answers, which may reach customers.</td></tr>
+        <tr><td>Drift</td><td>Performance degrades as real-world data changes from the data the model was trained on.</td></tr>
+        <tr><td>Data and privacy</td><td>Personal information used to train or prompt models without a lawful basis, or leaked through third-party tools.</td></tr>
+        <tr><td>Third-party dependence</td><td>Reliance on external models and providers the organisation can't fully see into or control.</td></tr>
+        <tr><td>Security</td><td>New attack types such as prompt injection or data poisoning.</td></tr>
+        <tr><td>Scale</td><td>An error is repeated across thousands of customers before anyone notices.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>A governance model</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 260" role="img" aria-labelledby="ai-title ai-desc">
+      <title id="ai-title">AI governance across the lifecycle</title>
+      <desc id="ai-desc">Board oversight and a clear accountable executive sit above an AI inventory and risk tiering. The AI lifecycle runs in six stages: define the use and its risks; data sourcing and quality; build or buy, including third-party due diligence; test and validate, including for bias; deploy with human oversight and transparency; monitor for performance and drift, and retire. Policies, incident management and assurance run across all stages.</desc>
+      <defs><marker id="ai-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="12.5" text-anchor="middle">
+        <rect x="10" y="10" width="700" height="44" rx="10" fill="#0f2942"/>
+        <text x="360" y="37" fill="#fff" font-weight="700">Board oversight · accountable executive · AI policy and risk appetite</text>
+        <rect x="10" y="64" width="700" height="40" rx="10" fill="#1b3a5c"/>
+        <text x="360" y="89" fill="#fff">AI inventory (every use, with an owner) and risk tiering</text>
+        <rect x="10" y="118" width="108" height="80" rx="10" fill="#2563eb"/><text x="64" y="148" fill="#fff" font-weight="700">Define</text><text x="64" y="168" fill="#e8f0fe">purpose,</text><text x="64" y="184" fill="#e8f0fe">impact</text>
+        <rect x="128" y="118" width="108" height="80" rx="10" fill="#2563eb"/><text x="182" y="148" fill="#fff" font-weight="700">Data</text><text x="182" y="168" fill="#e8f0fe">quality,</text><text x="182" y="184" fill="#e8f0fe">lawful use</text>
+        <rect x="246" y="118" width="108" height="80" rx="10" fill="#2563eb"/><text x="300" y="148" fill="#fff" font-weight="700">Build / buy</text><text x="300" y="168" fill="#e8f0fe">vendor due</text><text x="300" y="184" fill="#e8f0fe">diligence</text>
+        <rect x="364" y="118" width="108" height="80" rx="10" fill="#2563eb"/><text x="418" y="148" fill="#fff" font-weight="700">Validate</text><text x="418" y="168" fill="#e8f0fe">accuracy,</text><text x="418" y="184" fill="#e8f0fe">bias, safety</text>
+        <rect x="482" y="118" width="108" height="80" rx="10" fill="#2563eb"/><text x="536" y="148" fill="#fff" font-weight="700">Deploy</text><text x="536" y="168" fill="#e8f0fe">human oversight,</text><text x="536" y="184" fill="#e8f0fe">transparency</text>
+        <rect x="600" y="118" width="110" height="80" rx="10" fill="#2563eb"/><text x="655" y="148" fill="#fff" font-weight="700">Monitor</text><text x="655" y="168" fill="#e8f0fe">drift, incidents,</text><text x="655" y="184" fill="#e8f0fe">retire</text>
+        <rect x="10" y="212" width="700" height="40" rx="10" fill="#e8f0fe" stroke="#93b4f5"/>
+        <text x="360" y="237" fill="#0f2942">Across all stages: policies, records, incident management, independent assurance</text>
+      </g>
+    </svg>
+    <figcaption>A simplified model drawn from common frameworks. Controls scale with each use case's risk tier.</figcaption>
+  </figure>
+  <ul>
+    <li><strong>Board oversight:</strong> the board sets the organisation's appetite for AI risk, understands the most significant uses and receives reporting. Directors' duties of care and diligence apply to decisions about AI as to any other.</li>
+    <li><strong>Accountability:</strong> a named senior executive is accountable for AI governance, and each AI use has a business owner. Under the <a href="/governance/financial-accountability-regime.html">Financial Accountability Regime</a>, AI-related failures fall within existing accountable persons' responsibilities.</li>
+    <li><strong>Inventory:</strong> you can't govern what you don't know about. Many organisations find unregistered "shadow AI" when they first build an inventory.</li>
+    <li><strong>Risk tiering:</strong> controls are proportionate to impact: a tool that summarises internal documents needs far less than one that decides insurance claims.</li>
+  </ul>
+
+  <div class="widget" id="ai-tier">
+    <h3>Try it: tier an AI use case</h3>
+    <p class="small">Tick the characteristics that apply to an AI use case to see an illustrative risk tier and the kinds of controls that usually go with it.</p>
+    <div class="ai-checks">
+      <label><input type="checkbox" data-w="3" data-high="1"> Makes or materially influences decisions about individuals (e.g. credit, claims, pricing, eligibility)</label>
+      <label><input type="checkbox" data-w="2"> Uses personal or sensitive information</label>
+      <label><input type="checkbox" data-w="2"> Operates without a human reviewing outputs before they take effect</label>
+      <label><input type="checkbox" data-w="2"> Produces content sent directly to customers (e.g. a chatbot)</label>
+      <label><input type="checkbox" data-w="1"> Relies on a third-party model with limited visibility of how it works</label>
+      <label><input type="checkbox" data-w="1"> Used at high volume or across many customers</label>
+      <label><input type="checkbox" data-w="1"> Results are hard to explain</label>
+    </div>
+    <p class="result" aria-live="polite"></p>
+    <ul class="ai-controls"></ul>
+    <noscript><p>The tool needs JavaScript. As a rule of thumb, any AI that makes or shapes decisions about individuals is high risk and needs the strongest controls.</p></noscript>
+  </div>
+
+  <h2>How Australian law and guidance apply</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Source</th><th scope="col">Relevance to AI</th></tr></thead>
+      <tbody>
+        <tr><td>Financial services law (ASIC)</td><td>Licensees' general obligations (efficiently, honestly and fairly; adequate risk management), prohibitions on misleading conduct, <a class="term" href="/glossary/#ddo">design and distribution obligations</a> and consumer protections all apply to AI-driven processes and outputs. ASIC's <strong>REP 798</strong> (October 2024) reviewed 624 AI use cases across 23 licensees and warned of a governance gap as adoption outpaced risk frameworks.</td></tr>
+        <tr><td>APRA prudential standards</td><td><a href="/standards/cps-220.html">CPS 220</a> (risk management), <a href="/standards/cps-230.html">CPS 230</a> (operational risk and service providers, including AI vendors) and <a href="/standards/cps-234.html">CPS 234</a> (information security) apply to AI like any other technology.</td></tr>
+        <tr><td>Privacy Act</td><td>The Australian Privacy Principles govern collecting and using personal information to train or run AI. From 10 December 2026, privacy policies must describe substantially automated decisions that significantly affect individuals. See <a href="/compliance/privacy-law.html">Privacy law</a>.</td></tr>
+        <tr><td>Anti-discrimination and consumer law</td><td>Discriminatory outcomes are unlawful whether made by a person or a model; the Australian Consumer Law applies to AI products and claims about them.</td></tr>
+        <tr><td>Government guidance</td><td>Australia's AI Ethics Principles (2019), and the <strong>Guidance for AI Adoption</strong> (October 2025), which replaced the Voluntary AI Safety Standard's 10 guardrails with six essential practices: decide who is accountable; understand impacts and plan accordingly; measure and manage risks; share essential information; test and monitor; and maintain human control.</td></tr>
+        <tr><td>National AI Plan (December 2025)</td><td>Confirmed reliance on existing laws and regulators, supported by an Australian AI Safety Institute, rather than immediate mandatory guardrails for high-risk AI. This position could change.</td></tr>
+        <tr><td>International standards</td><td>ISO/IEC 42001 (AI management systems, certifiable), ISO/IEC 23894 (AI risk management guidance) and the US NIST AI Risk Management Framework are widely used as reference points.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Questions boards can ask</h2>
+  <ul>
+    <li>Where are we using AI today, including tools staff use informally, and who owns each use?</li>
+    <li>Which uses affect customers' outcomes, and how do we know they're fair and accurate?</li>
+    <li>Where is a human in the loop, and do they have the time, skills and authority to override the AI?</li>
+    <li>What do customers know about our use of AI, and can they challenge a decision?</li>
+    <li>What happens if a key AI provider fails, changes its model or suffers a breach?</li>
+    <li>How would we find out if a model started going wrong?</li>
+  </ul>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/compliance/privacy-law.html" data-label="Privacy law"><a href="/compliance/privacy-law.html">Privacy law</a></li>
+      <li data-href="/standards/cps-234.html" data-label="CPS 234 Information Security"><a href="/standards/cps-234.html">CPS 234 Information Security</a></li>
+      <li data-href="/risk-management/third-party-risk.html" data-label="Third-party, vendor and outsourcing risk"><a href="/risk-management/third-party-risk.html">Third-party, vendor and outsourcing risk</a></li>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk"><a href="/risk-management/operational-risk.html">Operational risk</a></li>
+      <li data-href="/governance/board-risk-reporting.html" data-label="Board risk reporting design"><a href="/governance/board-risk-reporting.html">Board risk reporting design</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-798-beware-the-gap-governance-arrangements-in-the-face-of-ai-innovation">REP 798 Beware the gap: Governance arrangements in the face of AI innovation</a> (October 2024).</li>
+      <li>Department of Industry, Science and Resources, <a href="https://www.industry.gov.au/publications/guidance-for-ai-adoption">Guidance for AI Adoption</a> (October 2025), <a href="https://www.industry.gov.au/publications/voluntary-ai-safety-standard">Voluntary AI Safety Standard</a> and <a href="https://www.industry.gov.au/publications/australias-ai-ethics-principles">Australia's AI Ethics Principles</a>.</li>
+      <li>Department of Industry, Science and Resources, <a href="https://www.industry.gov.au/publications/national-ai-plan">National AI Plan</a> (December 2025).</li>
+      <li>International Organization for Standardization, <a href="https://www.iso.org/standard/42001">ISO/IEC 42001:2023 Artificial intelligence — Management system</a>.</li>
+      <li>National Institute of Standards and Technology, <a href="https://www.nist.gov/itl/ai-risk-management-framework">AI Risk Management Framework</a>.</li>
+      <li>Office of the Australian Information Commissioner, <a href="https://www.oaic.gov.au/privacy/australian-privacy-principles">Australian Privacy Principles</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/ai-tiering.js"></script>
+</body>
+</html>
