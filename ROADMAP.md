@@ -158,7 +158,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 **Risk topics**
 - [x] Cyber risk management (threat landscape, Essential Eight, incident response, third-party cyber risk; links to CPS 234)
 - [x] Model risk management (including AI and actuarial models, validation, model inventory)
-- [ ] Fraud risk management (internal and external fraud, controls, detection analytics, scams interface)
+- [x] Fraud risk management (internal and external fraud, controls, detection analytics, scams interface)
 - [ ] Internal audit (role, Global Internal Audit Standards, audit committee, APRA expectations)
 - [ ] Assurance mapping and combined assurance (links Three Lines, control testing and internal audit)
 - [ ] Issue and action management (raising, rating, tracking and closing issues; validation of fixes)
