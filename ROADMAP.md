@@ -50,7 +50,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] Breach and incident reporting obligations
 - [x] Licensing basics (AFSL, RSE licence)
 - [x] Disclosure obligations
-- [ ] Consumer protection
+- [x] Consumer protection
 - [ ] Privacy law
 - [ ] AML/CTF fundamentals
 
