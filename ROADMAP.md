@@ -81,7 +81,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 
 - [x] Superannuation trustee governance (SIS Act, RSE licensee obligations). Flag for Nick's review, since it's his specialty.
 - [x] Banking / ADIs
-- [ ] Insurance
+- [x] Insurance
 - [ ] Managed investment schemes
 
 ## Phase 6 — Interactive and advanced learning (`/learn/`)
