@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breach significance analysis in practice | RiskLens Australia</title>
+<meta name="description" content="An advanced, case-based guide to assessing whether a breach is significant under Australia's reportable situations regime: the deemed-significance tests, the significance factors, multi-regime reporting and documenting the decision.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/compliance/breach-significance-analysis.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Breach significance analysis in practice">
+<meta property="og:description" content="An advanced, case-based guide to assessing whether a breach is significant under Australia&#x27;s reportable situations regime: the deemed-significance tests, the significance factors, multi-regime reporting and documenting the decision.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/compliance/breach-significance-analysis.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/" aria-current="page">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/compliance/">Compliance</a></li><li>Breach significance analysis</li></ol></nav>
+
+  <h1>Breach significance analysis in practice</h1>
+  <p class="summary">How AFS and credit licensees work out whether a breach is significant and reportable to ASIC, shown through worked cases, with the other regimes that may also apply.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 18 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>A breach (or likely breach) of a <a class="term" href="/glossary/#core-obligation">core obligation</a> is reportable if it is significant. It can be significant in two ways: automatically, under the <a class="term" href="/glossary/#deemed-significant-breach">deemed-significance</a> tests in s 912D(4), or by weighing the significance factors in s 912D(5).</li>
+      <li>Check the deemed tests first. If any one applies, the breach is significant, whatever its size.</li>
+      <li>The 30-day clock runs from when the licensee first knows, or is reckless about, reasonable grounds to believe a <a class="term" href="/glossary/#reportable-situation">reportable situation</a> has arisen. Reasonable grounds can exist well before an investigation is finished.</li>
+      <li>One event can trigger several regimes at once, each with its own test and deadline: ASIC, APRA, the OAIC, AUSTRAC and affected customers.</li>
+      <li>Record the reasoning, especially when deciding a matter is <em>not</em> reportable. A clear record is what makes the judgement defensible later.</li>
+    </ul>
+  </aside>
+
+  <div class="callout warn">
+    <h3>Illustrative cases only</h3>
+    <p>The cases on this page are simplified teaching examples. Real significance decisions turn on the specific facts, the exact obligations involved and current law and ASIC guidance. Many licensees get legal advice on borderline matters.</p>
+  </div>
+
+  <p>This page assumes you know the basics in <a href="/standards/asic-rg-78.html">RG 78 Breach reporting</a>, <a href="/compliance/breach-reporting.html">Breach and incident reporting obligations</a> and <a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a>.</p>
+
+  <h2>The two routes to "significant"</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 340" role="img" aria-labelledby="bs-title bs-desc">
+      <title id="bs-title">Deciding whether a breach is significant</title>
+      <desc id="bs-desc">Start: is there a breach or likely breach of a core obligation? If no, it is not a reportable significant breach, but check other reportable situations and other regimes. If yes, check the four deemed-significance tests: a serious offence, a civil penalty provision not excluded by regulations, misleading or deceptive conduct under s 1041H(1) or s 12DA(1), or material loss or damage to clients. If any applies, the breach is significant and must be reported to ASIC within 30 days. If none applies, weigh the significance factors: number or frequency of similar breaches, impact on the ability to provide services, whether compliance arrangements are inadequate, actual or potential financial loss, and other prescribed matters. If significant, report within 30 days. If not, record the reasons and monitor for similar breaches.</desc>
+      <defs><marker id="bs-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="12.5" text-anchor="middle">
+        <rect x="10" y="10" width="200" height="70" rx="10" fill="#0f2942"/>
+        <text x="110" y="36" fill="#fff" font-weight="700">Breach or likely breach</text><text x="110" y="54" fill="#cbd8e8">of a core obligation?</text><text x="110" y="70" fill="#cbd8e8">(yes)</text>
+        <line x1="210" y1="45" x2="248" y2="45" stroke="#2563eb" stroke-width="2.5" marker-end="url(#bs-ar)"/>
+        <rect x="256" y="10" width="220" height="150" rx="10" fill="#1b3a5c"/>
+        <text x="366" y="34" fill="#fff" font-weight="700">Route 1: deemed tests</text>
+        <text x="366" y="58" fill="#cbd8e8">serious offence</text>
+        <text x="366" y="78" fill="#cbd8e8">civil penalty provision</text>
+        <text x="366" y="98" fill="#cbd8e8">misleading or deceptive</text>
+        <text x="366" y="114" fill="#cbd8e8">conduct</text>
+        <text x="366" y="136" fill="#cbd8e8">material loss or damage</text>
+        <line x1="476" y1="45" x2="514" y2="45" stroke="#2563eb" stroke-width="2.5" marker-end="url(#bs-ar)"/>
+        <text x="495" y="36" fill="#0f2942" font-size="11">any</text>
+        <rect x="522" y="10" width="188" height="70" rx="10" fill="#2563eb"/>
+        <text x="616" y="38" fill="#fff" font-weight="700">Significant</text><text x="616" y="58" fill="#e8f0fe">report to ASIC</text><text x="616" y="72" fill="#e8f0fe">within 30 days</text>
+        <line x1="366" y1="160" x2="366" y2="188" stroke="#2563eb" stroke-width="2.5" marker-end="url(#bs-ar)"/>
+        <text x="392" y="180" fill="#0f2942" font-size="11">none</text>
+        <rect x="256" y="196" width="220" height="134" rx="10" fill="#1b3a5c"/>
+        <text x="366" y="220" fill="#fff" font-weight="700">Route 2: weigh factors</text>
+        <text x="366" y="242" fill="#cbd8e8">number or frequency</text>
+        <text x="366" y="260" fill="#cbd8e8">impact on services</text>
+        <text x="366" y="278" fill="#cbd8e8">inadequate arrangements</text>
+        <text x="366" y="296" fill="#cbd8e8">actual or potential loss</text>
+        <text x="366" y="312" fill="#cbd8e8">other prescribed matters</text>
+        <path d="M476,230 C500,230 560,200 600,86" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#bs-ar)"/>
+        <text x="585" y="170" fill="#0f2942" font-size="11">significant</text>
+        <line x1="476" y1="290" x2="514" y2="290" stroke="#2563eb" stroke-width="2.5" marker-end="url(#bs-ar)"/>
+        <rect x="522" y="250" width="188" height="70" rx="10" fill="#e8f0fe" stroke="#93b4f5"/>
+        <text x="616" y="276" fill="#0f2942" font-weight="700">Not significant</text><text x="616" y="296" fill="#0f2942">record reasons,</text><text x="616" y="312" fill="#0f2942">watch for patterns</text>
+        <rect x="10" y="110" width="200" height="120" rx="10" fill="#e8f0fe" stroke="#93b4f5"/>
+        <text x="110" y="134" fill="#0f2942" font-weight="700">Also reportable</text>
+        <text x="110" y="156" fill="#0f2942">investigations running</text>
+        <text x="110" y="172" fill="#0f2942">past the set period</text>
+        <text x="110" y="196" fill="#0f2942">gross negligence or</text>
+        <text x="110" y="212" fill="#0f2942">serious fraud</text>
+      </g>
+    </svg>
+    <figcaption>Simplified from s 912D of the Corporations Act. Credit licensees have equivalent provisions in the National Credit Act.</figcaption>
+  </figure>
+
+  <h3>Route 1: the deemed-significance tests (s 912D(4))</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Test</th><th scope="col">What it covers</th><th scope="col">Practical points</th></tr></thead>
+      <tbody>
+        <tr><td>Serious offence</td><td>An offence punishable by imprisonment of 3 months or more if it involves dishonesty, or 12 months or more otherwise.</td><td>Check the penalty for the specific provision. Many financial services offences meet the threshold.</td></tr>
+        <tr><td>Civil penalty provision</td><td>A contravention of a civil penalty provision, unless the provision is excluded by regulations.</td><td>A large share of financial services obligations are civil penalty provisions. For super trustees, the SIS Act covenants have been civil penalty provisions since 2019. Check the excluded list in the regulations.</td></tr>
+        <tr><td>Misleading or deceptive conduct</td><td>Contravening s 1041H(1) of the Corporations Act or s 12DA(1) of the ASIC Act.</td><td>Captures inaccurate statements in PDSs, websites, letters, calls and advertising, whether or not anyone relied on them.</td></tr>
+        <tr><td>Material loss or damage</td><td>The breach results, or is likely to result, in material loss or damage to clients (including super members).</td><td>"Material" is judged from the affected person's point of view, not the licensee's. A modest amount can be material to someone on a low income. Later compensation doesn't change whether loss occurred.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Route 2: the significance factors (s 912D(5))</h3>
+  <p>If no deemed test applies, the licensee weighs all of the factors together. No single factor decides the outcome.</p>
+  <ul>
+    <li><strong>Number or frequency of similar breaches.</strong> Repetition suggests a systemic cause. A breach that looks minor alone may be significant as part of a pattern, so the breach register should make similar breaches easy to find.</li>
+    <li><strong>Impact on the licensee's ability to provide the licensed services.</strong></li>
+    <li><strong>Extent to which the breach shows compliance arrangements are inadequate.</strong> A breach caused by a missing or failed control says more than a one-off human slip despite good controls.</li>
+    <li><strong>Actual or potential financial loss</strong> to clients or the licensee.</li>
+    <li><strong>Any other matters prescribed</strong> by regulations.</li>
+  </ul>
+
+  <h2>Worked cases</h2>
+  <p>Each case sets out the facts, applies the tests, and lists the other regimes to check. Open a case to see the analysis.</p>
+
+  <details>
+    <summary>Case 1: a wrong administration fee rate charged for eight months</summary>
+    <p><strong>Facts.</strong> After a system change, a super fund's administration platform charged 12,000 members an administration fee 0.05% higher than the rate in the PDS for eight months. Total overcharge: about $1.2 million, an average of $100 a member, ranging from $5 to $900. Found by a routine reconciliation.</p>
+    <p><strong>Core obligation?</strong> Yes, in several possible ways: charging fees not permitted or disclosed, the obligation to act efficiently, honestly and fairly, and the trustee covenants in the SIS Act.</p>
+    <p><strong>Deemed tests.</strong> The trustee covenants are civil penalty provisions, so if a covenant is contravened the breach is deemed significant. Separately, the material loss test needs to be considered from the members' point of view: $900 is likely to be material to many members, and even $100 may be material to some. Either test would make it significant.</p>
+    <p><strong>Conclusion (illustrative).</strong> Very likely significant and reportable to ASIC within 30 days of reasonable grounds arising, which here is likely soon after the reconciliation flagged the discrepancy, not when the final calculation is done.</p>
+    <p><strong>Other regimes and actions:</strong> APRA reporting under SIS Act s 29JA for significant breaches by the RSE licensee; remediation under <a href="/standards/asic-rg-277.html">RG 277</a>, including lost earnings; root cause review of the system change controls; consider whether other fees were affected. See <a href="/standards/asic-rg-97.html">RG 97</a> on fee disclosure.</p>
+  </details>
+
+  <details>
+    <summary>Case 2: an overstated return on the website for three weeks</summary>
+    <p><strong>Facts.</strong> A managed fund's website showed a one-year return of 11.2% for an option whose actual return was 8.1%, because of a data feed error. It was live for three weeks before a staff member noticed. There is no evidence anyone invested because of it.</p>
+    <p><strong>Deemed tests.</strong> Publishing a materially inaccurate return is likely to be misleading or deceptive conduct in relation to a financial product. That is a deemed-significance test, and it doesn't require proof that anyone relied on the statement or lost money.</p>
+    <p><strong>Conclusion (illustrative).</strong> Likely significant and reportable, even though no loss is known.</p>
+    <p><strong>Other actions:</strong> correct the website promptly; check whether the same data fed other documents (factsheets, statements, adviser materials); consider whether investors who acted during the period were affected; review data feed controls. See <a href="/compliance/disclosure-obligations.html">Disclosure obligations</a>.</p>
+  </details>
+
+  <details>
+    <summary>Case 3: switch requests processed late, over and over</summary>
+    <p><strong>Facts.</strong> In one quarter, 40 investment switch requests were processed between 1 and 4 days later than the fund's service standard, because of staff shortages in the processing team. Each member's loss or gain from the delay was small (the largest was $35) and all were corrected.</p>
+    <p><strong>Deemed tests.</strong> On these facts, probably none applies: no offence or civil penalty provision is clearly contravened, and the individual amounts are unlikely to be material. (That assessment would need checking against the fund's actual obligations.)</p>
+    <p><strong>Factors.</strong> The number and frequency are high; the cause is a resourcing failure rather than one-off errors, which points to inadequate arrangements; the impact on members is small. On balance, this may well be significant because of the pattern and what it says about arrangements.</p>
+    <p><strong>Conclusion (illustrative).</strong> A borderline case. Many compliance teams would report it, and if they decided not to, they would record detailed reasons and set a trigger to reassess if delays continue.</p>
+  </details>
+
+  <details>
+    <summary>Case 4: one member's statement emailed to the wrong person</summary>
+    <p><strong>Facts.</strong> A staff member emailed one member's annual statement, including their name, address, date of birth and balance, to the wrong email address. The recipient confirmed they had deleted it.</p>
+    <p><strong>Reportable to ASIC?</strong> Even if it involves a core obligation, on these facts it is unlikely to be significant: it is a single human error, with no evident loss and no sign of a wider control failure. Whether and how privacy failures engage the core obligations is a question to check with legal or compliance specialists. It should still be recorded, and it could become significant if it turned out to be part of a pattern pointing to inadequate arrangements.</p>
+    <p><strong>Other regimes.</strong> Assess under the <a class="term" href="/glossary/#ndb">Notifiable Data Breaches scheme</a>: is serious harm likely? The recipient's deletion is relevant to whether remedial action has prevented serious harm. The assessment must be completed within 30 days. See <a href="/compliance/privacy-law.html">Privacy law</a>.</p>
+  </details>
+
+  <h2>One event, many regimes</h2>
+  <p>A serious event can trigger several obligations at once, each with its own test, clock and recipient. Checking all of them at the start of an incident avoids missed deadlines.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Regime</th><th scope="col">Typical trigger</th><th scope="col">Deadline</th></tr></thead>
+      <tbody>
+        <tr><td>ASIC reportable situations (s 912D)</td><td>Significant breach, likely breach, long investigation, gross negligence or serious fraud</td><td>30 days</td></tr>
+        <tr><td>APRA, SIS Act s 29JA (super)</td><td>Significant breaches by the RSE licensee</td><td>30 days; some matters immediately</td></tr>
+        <tr><td>APRA, CPS 230</td><td>Material operational risk incident; critical operation disrupted outside tolerance</td><td>72 hours; 24 hours</td></tr>
+        <tr><td>APRA, CPS 234</td><td>Material information security incident</td><td>72 hours</td></tr>
+        <tr><td>OAIC, Notifiable Data Breaches scheme</td><td>Eligible data breach likely to cause serious harm</td><td>Assess within 30 days; notify as soon as practicable</td></tr>
+        <tr><td>AUSTRAC</td><td>Suspicious matter</td><td>3 business days (24 hours for terrorism financing)</td></tr>
+        <tr><td>Customers and members</td><td>Remediation and, for advice licensees, s 912EA notification</td><td>Varies</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Full details are in <a href="/compliance/breach-reporting.html">Breach and incident reporting obligations</a>, and the <a href="/tools/breach-register-template.html">breach register template</a> tracks these deadlines.</p>
+
+  <h2>Documenting the decision</h2>
+  <p>A good significance assessment record lets someone who wasn't involved understand and test the decision months later. It typically includes:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Element</th><th scope="col">What to record</th></tr></thead>
+      <tbody>
+        <tr><td>Facts and awareness</td><td>What happened, when it was identified, and the <a class="term" href="/glossary/#awareness">awareness date</a> used for each clock, with who knew what and when.</td></tr>
+        <tr><td>Obligations</td><td>Each core obligation that may be breached, with the specific provisions.</td></tr>
+        <tr><td>Deemed tests</td><td>Each test considered, and why it does or doesn't apply (including penalty levels and whether loss is material to affected people).</td></tr>
+        <tr><td>Factors</td><td>How each factor was weighed, including a search of the breach register for similar breaches.</td></tr>
+        <tr><td>Conclusion and approval</td><td>Significant or not, who decided, and when. Any legal advice relied on.</td></tr>
+        <tr><td>Other regimes</td><td>Each other regime considered and the outcome.</td></tr>
+        <tr><td>Reassessment triggers</td><td>What new information would change the conclusion, and when it will be revisited.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common errors</h2>
+  <ul>
+    <li><strong>Waiting for certainty.</strong> The test is reasonable grounds to believe, not proof.</li>
+    <li><strong>Starting with the factors.</strong> Weighing factors when a deemed test clearly applies.</li>
+    <li><strong>Judging materiality from the licensee's view.</strong> $50 is immaterial to a fund's balance sheet but may matter to a member.</li>
+    <li><strong>Treating remediation as a reason not to report.</strong> Fixing the problem is expected; it doesn't undo the breach.</li>
+    <li><strong>Assessing each breach alone.</strong> Missing the pattern across similar breaches.</li>
+    <li><strong>Forgetting the other regimes.</strong> Particularly the short APRA and AUSTRAC deadlines.</li>
+  </ul>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/standards/asic-rg-78.html" data-label="RG 78 Breach reporting"><a href="/standards/asic-rg-78.html">RG 78 Breach reporting</a></li>
+      <li data-href="/compliance/breach-reporting.html" data-label="Breach and incident reporting obligations"><a href="/compliance/breach-reporting.html">Breach and incident reporting obligations</a></li>
+      <li data-href="/risk-management/incident-and-breach-management.html" data-label="Incident and breach management"><a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a></li>
+      <li data-href="/standards/asic-rg-277.html" data-label="RG 277 Consumer remediation"><a href="/standards/asic-rg-277.html">RG 277 Consumer remediation</a></li>
+      <li data-href="/tools/breach-register-template.html" data-label="Breach register template"><a href="/tools/breach-register-template.html">Breach register template</a></li>
+      <li data-href="/learn/scenarios.html" data-label="Scenario simulations"><a href="/learn/scenarios.html">Scenario simulations</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li><em>Corporations Act 2001</em> (Cth), <a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/ca2001172/s912d.html">s 912D Meaning of reportable situation</a>, and the <a href="https://www.legislation.gov.au/C2004A00818/latest">current compilation</a>.</li>
+      <li>Australian Securities and Investments Commission, <a href="https://download.asic.gov.au/media/2wxlpkr0/rg78-published-19-december-2023-20260216.pdf">Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees</a>.</li>
+      <li><em>Superannuation Industry (Supervision) Act 1993</em> (Cth), <a href="https://www5.austlii.edu.au/au/legis/cth/consol_act/sia1993473/s52.html">s 52 Covenants</a>.</li>
+      <li>Office of the Australian Information Commissioner, <a href="https://www.oaic.gov.au/privacy/notifiable-data-breaches">Notifiable data breaches</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+</body>
+</html>
