@@ -45,8 +45,8 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 
 ## Phase 2 — Compliance pillar (`/compliance/`)
 
-- [ ] Pillar landing page
-- [ ] Designing a compliance program
+- [x] Pillar landing page
+- [x] Designing a compliance program
 - [ ] Breach and incident reporting obligations
 - [ ] Licensing basics (AFSL, RSE licence)
 - [ ] Disclosure obligations
@@ -56,7 +56,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 
 ## Phase 3 — Governance pillar (`/governance/`)
 
-- [ ] Pillar landing page
+- [x] Pillar landing page
 - [ ] Board structure and accountability
 - [ ] Financial Accountability Regime (FAR)
 - [ ] Conflicts of interest
