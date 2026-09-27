@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanctions compliance | RiskLens Australia</title>
+<meta name="description" content="Australian sanctions compliance explained: UN and autonomous sanctions, the Australian Sanctions Office and Consolidated List, strict liability offences, screening and alert handling, permits, and how sanctions interact with AML/CTF.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/compliance/sanctions-compliance.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sanctions compliance">
+<meta property="og:description" content="Australian sanctions compliance explained: UN and autonomous sanctions, the Australian Sanctions Office and Consolidated List, strict liability offences, screening and alert handling, permits, and how sanctions interact with AML/CTF.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/compliance/sanctions-compliance.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/" aria-current="page">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/compliance/">Compliance</a></li><li>Sanctions compliance</li></ol></nav>
+
+  <h1>Sanctions compliance</h1>
+  <p class="summary">How Australian sanctions laws work, why a breach can be a crime even without intent, and how organisations screen customers and payments to stay compliant.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 12 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Australia has two sanctions frameworks: <strong>UN sanctions</strong>, which implement UN Security Council decisions, and <strong>autonomous sanctions</strong>, which Australia imposes itself, including country regimes such as Russia and thematic regimes for human rights abuses, serious corruption and significant cyber incidents.</li>
+      <li>The <strong>Australian Sanctions Office</strong> (ASO), in the Department of Foreign Affairs and Trade, administers sanctions and keeps the <strong>Consolidated List</strong> of designated people and entities.</li>
+      <li>Breaching sanctions is a serious crime. For companies it is a <strong>strict liability</strong> offence: no intent is needed. The defence is proving the company took reasonable precautions and exercised due diligence.</li>
+      <li>Sanctions compliance relies on <strong>screening</strong> customers, owners, counterparties and payments against the Consolidated List (and often other countries' lists), and handling alerts carefully.</li>
+      <li>Sanctions sit alongside, but are separate from, <a href="/compliance/aml-ctf-fundamentals.html">AML/CTF</a> obligations. A sanctions match may also require an AUSTRAC report.</li>
+    </ul>
+  </aside>
+
+  <h2>What sanctions do</h2>
+  <p>Sanctions restrict dealings with particular countries, people, entities or goods to put pressure on those responsible for threats to international peace and security, human rights abuses or other serious conduct. Common measures include:</p>
+  <ul>
+    <li><strong>Targeted financial sanctions:</strong> it is an offence to use or deal with the assets of a designated person or entity, or to make assets available to them, directly or indirectly. In practice this means freezing their assets.</li>
+    <li><strong>Travel bans</strong> on designated individuals.</li>
+    <li><strong>Trade restrictions:</strong> bans on supplying or importing certain goods (such as arms or dual-use goods) or services to or from sanctioned countries.</li>
+    <li><strong>Investment and service restrictions</strong> in some country regimes.</li>
+  </ul>
+
+  <h2>The legal framework</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Framework</th><th scope="col">Legislation</th><th scope="col">Examples</th></tr></thead>
+      <tbody>
+        <tr><td>UN sanctions</td><td><em>Charter of the United Nations Act 1945</em> and regulations</td><td>Regimes against North Korea (DPRK), ISIL (Da'esh) and Al-Qaida, and others set by the UN Security Council.</td></tr>
+        <tr><td>Autonomous sanctions: country regimes</td><td><em>Autonomous Sanctions Act 2011</em> and <em>Autonomous Sanctions Regulations 2011</em></td><td>Russia and parts of Ukraine, Iran, Myanmar, Syria and others.</td></tr>
+        <tr><td>Autonomous sanctions: thematic regimes</td><td>Same Act, as amended in December 2021 ("Magnitsky-style" sanctions)</td><td>Serious violations or abuses of human rights, serious corruption, and significant cyber incidents, regardless of country.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><strong>Penalties</strong> are severe. For individuals: up to 10 years' imprisonment and a fine of up to 2,500 penalty units or three times the value of the transaction, whichever is greater. For companies: a fine of up to 10,000 penalty units or three times the value of the transaction. The ASO can grant <strong>permits</strong> for otherwise prohibited activities in limited circumstances where it is in the national interest.</p>
+
+  <h2>A sanctions compliance program</h2>
+  <ul>
+    <li><strong>Risk assessment:</strong> which products, customers, countries and payment flows expose the organisation to sanctions risk. International payments, trade finance and customers with overseas connections are typically higher risk.</li>
+    <li><strong>Screening:</strong> checking names of customers, beneficial owners, directors and counterparties at onboarding and whenever lists change, and screening payments in real time before they are processed.</li>
+    <li><strong>Ownership and control:</strong> sanctions can apply to assets owned or controlled, directly or indirectly, by a designated person, so screening beneficial owners matters. Check the ASO's guidance on how ownership and control are assessed.</li>
+    <li><strong>Other countries' lists:</strong> many Australian organisations also screen against US, UK and EU lists, because of their contractual obligations, correspondent banking relationships or overseas operations.</li>
+    <li><strong>Governance:</strong> a policy, clear escalation paths, trained staff, records of decisions and regular testing of the screening system.</li>
+  </ul>
+
+  <h2>Handling a screening alert</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 262" role="img" aria-labelledby="sx-title sx-desc">
+      <title id="sx-title">Handling a sanctions screening alert</title>
+      <desc id="sx-desc">A screening system generates an alert. An analyst reviews it by comparing identifiers such as full name, date of birth, nationality and address with the listing. If it is clearly a false positive, the reasons are recorded and the transaction proceeds. If it is a possible or true match, the transaction is held and escalated to the sanctions or compliance team. For a confirmed match: do not proceed, freeze the assets, report to the Australian Sanctions Office, and consider whether a suspicious matter report to AUSTRAC is also required.</desc>
+      <defs><marker id="sx-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="12.5" text-anchor="middle">
+        <rect x="10" y="80" width="130" height="80" rx="10" fill="#0f2942"/><text x="75" y="114" fill="#fff" font-weight="700">Alert</text><text x="75" y="134" fill="#cbd8e8">name or payment</text>
+        <line x1="142" y1="120" x2="178" y2="120" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sx-ar)"/>
+        <rect x="186" y="70" width="170" height="100" rx="10" fill="#1b3a5c"/><text x="271" y="100" fill="#fff" font-weight="700">Review</text><text x="271" y="122" fill="#cbd8e8">compare date of birth,</text><text x="271" y="140" fill="#cbd8e8">nationality, address,</text><text x="271" y="158" fill="#cbd8e8">other identifiers</text>
+        <line x1="358" y1="100" x2="410" y2="50" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sx-ar)"/>
+        <line x1="358" y1="140" x2="410" y2="190" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sx-ar)"/>
+        <rect x="418" y="10" width="292" height="70" rx="10" fill="#e8f0fe" stroke="#93b4f5"/><text x="564" y="38" fill="#0f2942" font-weight="700">Clear false positive</text><text x="564" y="58" fill="#0f2942">record reasons; proceed</text>
+        <rect x="418" y="150" width="292" height="102" rx="10" fill="#2563eb"/><text x="564" y="176" fill="#fff" font-weight="700">Possible or true match</text><text x="564" y="196" fill="#e8f0fe">hold and escalate; if confirmed, don't proceed,</text><text x="564" y="214" fill="#e8f0fe">freeze, report to the ASO, consider an</text><text x="564" y="230" fill="#e8f0fe">AUSTRAC suspicious matter report</text>
+      </g>
+    </svg>
+    <figcaption>A simplified alert workflow. Organisations document their own escalation rules and timeframes.</figcaption>
+  </figure>
+  <p>Screening systems use "fuzzy matching" to catch spelling variations and transliterations, which generates many false positives. Tuning the system is a balance: too tight and true matches are missed; too loose and analysts are overwhelmed. Tuning decisions should be tested, documented and approved.</p>
+
+  <h2>Sanctions and AML/CTF: how they differ</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col"></th><th scope="col">Sanctions</th><th scope="col">AML/CTF</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Regulator</th><td>Australian Sanctions Office (DFAT); enforcement by the AFP</td><td>AUSTRAC</td></tr>
+        <tr><th scope="row">Who it applies to</th><td>Everyone: all people and businesses in Australia, and Australians overseas</td><td>Reporting entities providing designated services</td></tr>
+        <tr><th scope="row">Approach</th><td>Prohibitions: no dealing, whatever the amount</td><td>Risk-based program, customer due diligence and reporting</td></tr>
+        <tr><th scope="row">Fault</th><td>Strict liability for companies, with a due diligence defence</td><td>Civil penalty and criminal regimes</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>In practice, banks and other reporting entities run sanctions screening alongside their AML/CTF customer due diligence, and one event may need to be considered under both.</p>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/compliance/aml-ctf-fundamentals.html" data-label="AML/CTF fundamentals"><a href="/compliance/aml-ctf-fundamentals.html">AML/CTF fundamentals</a></li>
+      <li data-href="/compliance/anti-bribery-and-corruption.html" data-label="Anti-bribery and corruption"><a href="/compliance/anti-bribery-and-corruption.html">Anti-bribery and corruption</a></li>
+      <li data-href="/compliance/breach-reporting.html" data-label="Breach and incident reporting obligations"><a href="/compliance/breach-reporting.html">Breach and incident reporting obligations</a></li>
+      <li data-href="/sectors/banking.html" data-label="Banking and ADIs"><a href="/sectors/banking.html">Banking and ADIs</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Department of Foreign Affairs and Trade, <a href="https://www.dfat.gov.au/international-relations/security/sanctions/compliance-policy/sanctions-offences-penalties">Sanctions offences and penalties</a>, <a href="https://www.dfat.gov.au/international-relations/security/sanctions/guidance/sanctions-compliance-toolkit">Sanctions Compliance Toolkit</a> and <a href="https://www.dfat.gov.au/international-relations/security/sanctions/apply-sanctions-permits">Apply for a sanctions permit</a>.</li>
+      <li>Department of Foreign Affairs and Trade, <a href="https://www.dfat.gov.au/international-relations/security/sanctions/sanctions-regimes/information-note-autonomous-human-rights-and-corruption-sanctions">Information Note: Autonomous human rights and corruption sanctions</a>.</li>
+      <li>Australian Federal Police, <a href="https://www.afp.gov.au/crimes/breaches-international-law/sanctions-breaches">Sanctions breaches</a>.</li>
+      <li><em>Autonomous Sanctions Act 2011</em> (Cth) and <em>Charter of the United Nations Act 1945</em> (Cth), on the <a href="https://www.legislation.gov.au/">Federal Register of Legislation</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+</body>
+</html>
