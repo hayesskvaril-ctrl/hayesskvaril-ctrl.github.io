@@ -541,3 +541,19 @@ details[open] summary { margin-bottom: 10px; }
 .quiz .q-feedback.bad { color: var(--red); }
 .quiz .q-explain { font-size: 15px; color: var(--muted); }
 .quiz .quiz-score { font-weight: 700; color: var(--navy); margin-top: 10px; }
+
+/* ---------- Regulator finder (scripts/regulator-finder.js) ---------- */
+
+.reg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 10px; margin: 14px 0; }
+.reg-card { border-radius: 8px; padding: 12px; border: 2px solid var(--border); background: #fff; }
+.reg-card .reg-name { font-weight: 700; color: var(--navy); font-size: 17px; }
+.reg-card .reg-level { font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; margin: 2px 0 6px; }
+.reg-card .reg-note { font-size: 14px; color: var(--muted); line-height: 1.45; }
+.reg-card.lvl-main { border-color: var(--navy); background: #eef3fa; }
+.reg-card.lvl-main .reg-level { color: var(--navy); }
+.reg-card.lvl-yes { border-color: #93b4f5; }
+.reg-card.lvl-yes .reg-level { color: var(--blue-dark); }
+.reg-card.lvl-depends { border-style: dashed; }
+.reg-card.lvl-depends .reg-level { color: var(--amber); }
+.reg-card.lvl-no { opacity: .7; }
+.reg-card.lvl-no .reg-level { color: #64748b; }

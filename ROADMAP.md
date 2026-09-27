@@ -28,7 +28,7 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 - [x] What is compliance?
 - [x] What is governance?
 - [x] The Three Lines model (and internal audit's role)
-- [ ] Regulatory landscape map: who regulates what (APRA, ASIC, AUSTRAC, OAIC, ACCC), shown as a diagram
+- [x] Regulatory landscape map: who regulates what (APRA, ASIC, AUSTRAC, OAIC, ACCC), shown as a diagram
 - [ ] Core frameworks compared: ISO 31000, COSO ERM, Three Lines (visual comparison)
 
 **Risk Management pillar** (`/risk-management/`)
