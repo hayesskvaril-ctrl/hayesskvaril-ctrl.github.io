@@ -621,6 +621,24 @@ details[open] summary { margin-bottom: 10px; }
 .fc-option { margin-top: 14px; }
 .widget .fc-option label { display: inline; font-weight: 500; }
 
+/* ---------- Learning pathways (scripts/pathways.js) ---------- */
+
+.pathway-toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; margin: 24px 0; }
+.pathway-toc h2 { margin-top: 0; font-size: 20px; }
+.pathway-toc ul { margin: 0; }
+.pathway { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin: 24px 0; scroll-margin-top: 12px; }
+.pathway > h2 { margin-top: 0; }
+.pathway-who { color: var(--muted); }
+.pathway-stage { font-size: 16px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--navy-2); border-top: 1px solid var(--border); padding-top: 12px; }
+.pathway-steps { padding-left: 0; list-style: none; counter-reset: step; }
+.pathway-steps li { position: relative; padding: 8px 0 8px 36px; border-bottom: 1px dashed var(--border); }
+.pathway-steps li:last-child { border-bottom: none; }
+.pathway-steps .pw-check { position: absolute; left: 4px; top: 12px; width: 20px; height: 20px; accent-color: var(--green); }
+.pathway-steps li.pw-done > a { color: var(--green); text-decoration-color: var(--green); }
+.pathway-steps .level { margin-left: 6px; font-size: 11px; vertical-align: 1px; }
+.pw-bar { display: block; max-width: 320px; margin-top: 6px; }
+.pw-bar span { background: var(--green); }
+
 /* ---------- Regulator finder (scripts/regulator-finder.js) ---------- */
 
 .reg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 10px; margin: 14px 0; }

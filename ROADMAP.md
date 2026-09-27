@@ -90,7 +90,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 - [x] Scenario simulations (e.g. "You've just identified a potential breach — what do you do?")
 - [x] Interactive risk heat map / risk-scoring tool
 - [x] Flashcards for terminology and standards
-- [ ] Learning pathways: beginner → intermediate → advanced (topic structure inspired by the Governance Institute of Australia's course categories, but *not* their content)
+- [x] Learning pathways: beginner → intermediate → advanced (topic structure inspired by the Governance Institute of Australia's course categories, but *not* their content)
 
 ## Phase 7 — Tools and templates (`/tools/`, files in `/assets/`)
 
@@ -131,6 +131,9 @@ Add new ideas here as they come up.
 - **Nick to review (Phase 5):** Superannuation trustee governance (covenants table, SPS list, performance test vs outcomes assessment, fee governance section), plus the super-related parts of the Managed investment schemes page (Shield / First Guardian).
 - **Watch and update (Phase 5 pages):** performance test changes after Treasury's 2026 consultation; redrafted General Insurance Code (ASIC lodgement late 2026) and Life Code review outcome; Scams Prevention Framework obligations (March 2027); AT1 phase-out (from January 2027); Shield / First Guardian proceedings; APRA's proposed proportionality ("three-tier") framework.
 - An ASIC RG 259 (risk management systems of responsible entities) explainer page; the MIS page already cross-links to `/standards/asic-rg-259.html` and will light up automatically.
+- **Nick to review (Phase 6):** the three scenario simulations in `/learn/scenarios.html` (fee error breach and remediation, administrator outage under CPS 230, whistleblower disclosure). The "best practice" answers and feedback are in `scripts/scenarios-data.js`.
+- **Advanced-level content:** no pages are tagged Advanced yet. Candidates: quantitative risk (loss distributions, scenario analysis maths), stress testing, CPS 230 tolerance-setting deep-dive, advanced breach significance analysis, and board risk reporting design. Add them to `_scripts/build_pathways.py` as a new stage when live.
+- More scenarios (e.g. privacy data breach assessment, disclosure review of a marketing campaign, conflicted related-party transaction) and more quiz questions as new pages go live; keep `scripts/quiz-bank.js` in step with page content.
 - A "What's changed recently" box on the home page linking to regulatory updates (once `/news/` exists).
 - A risk culture deep-dive page (could sit under Governance: culture and conduct risk).
 - An assurance mapping / combined assurance page (links Three Lines, control testing and internal audit).
