@@ -83,7 +83,8 @@ Accuracy rules:
 - Pages must work on phones (responsive layout, no sideways scrolling), have readable contrast and meet basic accessibility: alt text on images, proper heading order, and labels on form inputs.
 - Each page needs `<title>` and `<meta name="description">`.
 - Lowercase, hyphenated file names: `risk-appetite-and-tolerance.html`.
-- Keep the look consistent: the current navy/blue palette and clean card layout are the starting design. Refine it if you like, but apply any change site-wide.
+- Keep the look consistent: the site uses a **dark "futuristic" theme** (approved by Nick, September 2026): near-black background with a faint grid, cyan→blue→violet gradient accents, glass-style cards, Space Grotesk headings, Inter body text and JetBrains Mono for labels. All colours are tokens in `:root` in `styles.css`; fonts are self-hosted in `/assets/fonts/` (no third-party requests). Apply any design change site-wide.
+- **Diagrams:** keep drawing inline SVG with the original light palette (navy `#0f2942`/`#1b3a5c` boxes, `#2563eb` accents, light `#e8f0fe` panels, dark text). The "SVG diagram theming" section of `styles.css` re-maps those colours for the dark theme automatically, so stick to colours it already maps. If a diagram's legend or caption refers to colours or shades (e.g. "darker = binding"), add `keep-shades` to its figure (`<figure class="diagram keep-shades">`) so it keeps its original colours on a light panel.
 
 **Standard footer disclaimer** (on every page):
 
