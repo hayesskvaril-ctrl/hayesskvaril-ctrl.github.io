@@ -16,9 +16,9 @@ The agreed build order proves the page format on one pillar first (Phase 1), the
 ## Phase 1 — Site structure, Glossary, Risk Management pillar
 
 **Site structure**
-- [ ] Create shared `styles.css` (move inline styles out of `index.html`)
-- [ ] Standard header/nav/footer (with disclaimer) on every page
-- [ ] Update home page: real links to the pillars that exist, and "coming soon" labels (not links) for the rest
+- [x] Create shared `styles.css` (move inline styles out of `index.html`)
+- [x] Standard header/nav/footer (with disclaimer) on every page
+- [x] Update home page: real links to the pillars that exist, and "coming soon" labels (not links) for the rest
 
 **Glossary**
 - [ ] `/glossary/`: A–Z plain-English definitions of core risk, compliance and governance terms, with anchor links so articles can link to individual terms

@@ -3,122 +3,118 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RiskLens Australia</title>
-<style>
-  :root {
-    --navy: #0f2942;
-    --blue: #2563eb;
-    --bg: #f7f9fc;
-    --text: #1a2332;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
-  }
-  header {
-    background: var(--navy);
-    color: white;
-    padding: 20px 24px;
-  }
-  header .inner {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header h1 { font-size: 22px; font-weight: 700; }
-  nav a {
-    color: #cbd8e8;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 14px;
-  }
-  .hero {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 64px 24px 48px;
-    text-align: center;
-  }
-  .hero h2 {
-    font-size: 34px;
-    color: var(--navy);
-    margin-bottom: 16px;
-  }
-  .hero p {
-    font-size: 17px;
-    color: #4a5568;
-    max-width: 640px;
-    margin: 0 auto;
-  }
-  .cards {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 24px 64px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-  }
-  .card {
-    background: white;
-    border: 1px solid #e2e8f0;
-    border-radius: 10px;
-    padding: 24px;
-  }
-  .card h3 {
-    color: var(--blue);
-    font-size: 16px;
-    margin-bottom: 8px;
-  }
-  .card p { font-size: 14px; color: #5a6472; }
-  footer {
-    text-align: center;
-    padding: 24px;
-    font-size: 13px;
-    color: #8896a6;
-  }
-</style>
+<title>RiskLens Australia | Free risk, compliance and governance education</title>
+<meta name="description" content="A free, plain-English public library on Australian risk management, compliance and governance, from beginner basics to advanced depth. No login, no paywall.">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
-<header>
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
   <div class="inner">
-    <h1>RiskLens Australia</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Learn</a>
-      <a href="#">Resources</a>
-      <a href="#">About</a>
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/" aria-current="page">Home</a></li>
+      </ul>
     </nav>
   </div>
 </header>
+<!-- HEADER:END -->
+
+<main id="main">
 
 <section class="hero">
-  <h2>Free, plain-English risk & governance education for Australians</h2>
-  <p>RiskLens Australia is a free public library covering risk management, compliance and governance — from beginner fundamentals to advanced, university-level depth. No login, no paywall.</p>
+  <h1>Free, plain-English risk, compliance and governance education for Australians</h1>
+  <p>RiskLens Australia is a free public library covering risk management, compliance and governance, from beginner fundamentals to advanced depth. Built around Australian law and regulators. No login, no paywall.</p>
 </section>
 
-<section class="cards">
-  <div class="card">
-    <h3>Risk Management</h3>
-    <p>Frameworks, risk appetite, assessments and controls — explained clearly.</p>
-  </div>
-  <div class="card">
-    <h3>Compliance</h3>
-    <p>Regulatory obligations, breach reporting, and how compliance programs work.</p>
-  </div>
-  <div class="card">
-    <h3>Governance</h3>
-    <p>Boards, accountability structures, and how good governance is built.</p>
-  </div>
-</section>
+<div class="container">
 
-<footer>
-  &copy; 2026 RiskLens Australia. Site under construction — more content coming soon.
+  <section class="section" aria-labelledby="start-heading">
+    <h2 id="start-heading">Start with the basics</h2>
+    <p class="section-intro">New to the field? These short primers explain the core ideas in plain English.</p>
+    <div class="cards">
+      <div class="card coming-soon">
+        <h3>Foundations</h3>
+        <p>What risk management, compliance and governance are, who regulates what, and the core frameworks.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+      <div class="card coming-soon">
+        <h3>Glossary</h3>
+        <p>A–Z plain-English definitions of the terms you'll meet across the site.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="pillars-heading">
+    <h2 id="pillars-heading">The three pillars</h2>
+    <div class="cards">
+      <div class="card coming-soon">
+        <h3>Risk Management</h3>
+        <p>Frameworks, risk appetite, assessments, controls, incidents and business continuity.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+      <div class="card coming-soon">
+        <h3>Compliance</h3>
+        <p>Regulatory obligations, breach reporting, licensing, disclosure and how compliance programs work.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+      <div class="card coming-soon">
+        <h3>Governance</h3>
+        <p>Boards, accountability, conflicts, remuneration, whistleblowing and culture.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="more-heading">
+    <h2 id="more-heading">Going deeper</h2>
+    <div class="cards">
+      <div class="card coming-soon">
+        <h3>Standards library</h3>
+        <p>Plain-English explainers of APRA prudential standards, ASIC guidance and ISO/COSO frameworks.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+      <div class="card coming-soon">
+        <h3>Sector deep-dives</h3>
+        <p>Superannuation, banking, insurance and managed investment schemes.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+      <div class="card coming-soon">
+        <h3>Interactive learning</h3>
+        <p>Quizzes, scenarios, flashcards and learning pathways.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+      <div class="card coming-soon">
+        <h3>Tools and templates</h3>
+        <p>Heat maps, risk scoring and free templates to download.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+      <div class="card coming-soon">
+        <h3>News and updates</h3>
+        <p>Regulatory changes summarised in plain English.</p>
+        <span class="badge">Coming soon</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
 </footer>
+<!-- FOOTER:END -->
 
 </body>
 </html>

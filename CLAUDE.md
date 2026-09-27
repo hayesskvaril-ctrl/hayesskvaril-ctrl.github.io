@@ -77,6 +77,7 @@ Accuracy rules:
 
 - Use one shared `styles.css` and don't put large `<style>` blocks in pages. Move the current inline styles on `index.html` into it when the structure is built.
 - Every page gets the **same header, navigation and footer**. Nav should only link to pages that exist. Add sections to the nav as they go live, and never leave dead links or `href="#"`.
+- **Shared header/nav/footer:** every page has `<!-- HEADER:START/END -->` and `<!-- FOOTER:START/END -->` markers. After adding or changing pages, run `python3 _scripts/sync_layout.py` (stamps the identical header/footer on every page; nav only lists sections whose landing page exists) and `python3 _scripts/check_links.py` (finds broken links, missing titles/descriptions). `_scripts/` is not published. Use `_scripts/page-template.html` as the starting point for new article pages.
 - Use **root-relative links** (`/risk-management/`) so links work from any folder.
 - Pages must work on phones (responsive layout, no sideways scrolling), have readable contrast and meet basic accessibility: alt text on images, proper heading order, and labels on form inputs.
 - Each page needs `<title>` and `<meta name="description">`.
