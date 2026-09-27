@@ -1229,3 +1229,6 @@ details[open] summary { margin-bottom: 10px; }
 .agg-bar.agg-main { background: var(--cyan); }
 .agg-val { font-family: var(--font-mono); color: var(--heading); min-width: 5em; text-align: right; }
 @media (max-width: 560px) { .agg-row { grid-template-columns: 1fr auto; } .agg-track { grid-column: 1 / -1; grid-row: 2; } }
+
+/* Keep status badges on one line inside tables */
+td .badge { white-space: nowrap; }
