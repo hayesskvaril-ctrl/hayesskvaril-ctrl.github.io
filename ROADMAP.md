@@ -74,7 +74,7 @@ One plain-English explainer per instrument, covering "what it actually requires 
 - [x] CPS 234 Information Security
 - [x] Key ASIC Regulatory Guides (one page each, as relevant)
 - [x] ISO 31000 (in our own words, no reproduced text)
-- [ ] ISO 27001 (in our own words)
+- [x] ISO 27001 (in our own words)
 - [ ] COSO ERM / COSO Internal Control
 
 ## Phase 5 — Sector deep-dives (`/sectors/`)
