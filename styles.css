@@ -517,7 +517,10 @@ details[open] summary { margin-bottom: 10px; }
   .site-nav ul { gap: 2px 14px; }
   .az-nav { position: static; }
   .heatmap td { width: 44px; height: 40px; font-size: 12px; }
-  .heatmap { font-size: 11px; }
+  .heatmap { font-size: 11px; border-spacing: 3px; }
+  .heatmap th.row-label { white-space: normal; max-width: 64px; line-height: 1.2; }
+  .heatmap th { font-size: 10.5px; padding: 2px; }
+  .heatmap td { width: 42px; }
 }
 
 @media print {
@@ -570,3 +573,12 @@ details[open] summary { margin-bottom: 10px; }
 .kri-light.amber { background: #f59e0b; }
 .kri-light.red { background: #ef4444; }
 .kri-status { margin: 0; flex: 1 1 260px; font-size: 15px; }
+
+/* Heat map result colouring */
+.widget .result.rating-low { background: #dff3e5; }
+.widget .result.rating-medium { background: #fef3c7; }
+.widget .result.rating-high { background: #ffedd5; }
+.widget .result.rating-extreme { background: #fee2e2; }
+.heatmap td[role="button"] { cursor: pointer; }
+.heatmap caption { caption-side: top; text-align: center; }
+.hm-examples { list-style: none; margin: 10px 0 0; }

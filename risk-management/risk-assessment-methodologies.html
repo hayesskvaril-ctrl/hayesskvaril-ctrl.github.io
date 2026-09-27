@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risk assessment methodologies | RiskLens Australia</title>
+<meta name="description" content="How risk assessment works: identifying risks, likelihood × consequence ratings, inherent and residual risk, qualitative and quantitative methods, and the limits of heat maps, with an interactive heat map.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk Management</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Risk assessment methodologies</li></ol></nav>
+
+  <h1>Risk assessment methodologies</h1>
+  <p class="summary">How organisations find their risks, size them up and decide which matter most, from simple heat maps to statistical models.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 15 minutes</span>
+    <span>Last reviewed: 27 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li><a class="term" href="/glossary/#risk-assessment">Risk assessment</a> has three parts: <strong>identify</strong> the risks, <strong>analyse</strong> them, and <strong>evaluate</strong> them against your criteria and appetite.</li>
+      <li>The most common method rates each risk by <a class="term" href="/glossary/#likelihood">likelihood</a> and <a class="term" href="/glossary/#consequence">consequence</a> on defined scales and plots it on a <a class="term" href="/glossary/#heat-map">heat map</a>.</li>
+      <li>Distinguish <a class="term" href="/glossary/#inherent-risk">inherent</a> risk (before controls), <a class="term" href="/glossary/#residual-risk">residual</a> risk (after controls) and target risk (after planned actions).</li>
+      <li>Qualitative methods are quick and accessible; quantitative methods are more precise but need data and expertise. Many organisations mix them.</li>
+      <li>Heat maps are useful for communication but have well-documented weaknesses. Treat ratings as structured judgement, not precise measurement.</li>
+    </ul>
+  </aside>
+
+  <h2>The three steps</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Step</th><th scope="col">Question</th><th scope="col">Common techniques</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Identify</strong></td><td>What could happen, why, and with what effect?</td><td>Workshops and interviews; process mapping; <a class="term" href="/glossary/#rcsa">risk and control self-assessments</a>; reviewing incidents, near misses, complaints and audit findings; horizon scanning of regulatory and industry developments; <a class="term" href="/glossary/#bow-tie-analysis">bow-tie analysis</a>; <a class="term" href="/glossary/#scenario-analysis">scenario analysis</a>.</td></tr>
+        <tr><td><strong>Analyse</strong></td><td>How likely is it, how bad could it be, and how well do our controls work?</td><td>Rating scales (likelihood × consequence); control effectiveness ratings; loss data analysis; statistical modelling; expert judgement.</td></tr>
+        <tr><td><strong>Evaluate</strong></td><td>Is it acceptable? What needs action first?</td><td>Comparing ratings with risk appetite and tolerance; ranking; deciding on treatment.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Write risks properly first</h3>
+  <p>A vague risk ("cyber", "regulatory change") can't be assessed well. A useful pattern is <strong>cause → event → consequence</strong>:</p>
+  <div class="callout example">
+    <p><strong>Weak:</strong> "Key person risk."</p>
+    <p><strong>Better:</strong> "Because unit pricing relies on one experienced analyst and procedures are not documented (cause), their unexpected absence (event) could lead to late or incorrect unit prices, causing member losses, remediation costs and a reportable breach (consequences)."</p>
+  </div>
+  <p>The better version tells you what controls might help (documentation, cross-training, a backup), and makes rating the consequence much easier.</p>
+
+  <h2>Likelihood × consequence</h2>
+  <p>Most organisations use defined scales, often five points each, so that ratings are consistent. The descriptors below are illustrative; every organisation calibrates its own to its size and appetite.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Illustrative likelihood scale.</caption>
+      <thead><tr><th scope="col">Rating</th><th scope="col">Descriptor</th><th scope="col">Indicative frequency</th><th scope="col">Indicative probability in the next 12 months</th></tr></thead>
+      <tbody>
+        <tr><td>5</td><td>Almost certain</td><td>Several times a year</td><td>Over 90%</td></tr>
+        <tr><td>4</td><td>Likely</td><td>About once a year</td><td>50–90%</td></tr>
+        <tr><td>3</td><td>Possible</td><td>Once every 1–5 years</td><td>20–50%</td></tr>
+        <tr><td>2</td><td>Unlikely</td><td>Once every 5–20 years</td><td>5–20%</td></tr>
+        <tr><td>1</td><td>Rare</td><td>Less than once in 20 years</td><td>Under 5%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Illustrative consequence scale for a mid-sized super fund. A risk is rated on its worst credible consequence across all columns.</caption>
+      <thead><tr><th scope="col">Rating</th><th scope="col">Financial</th><th scope="col">Members</th><th scope="col">Regulatory</th><th scope="col">Operations</th></tr></thead>
+      <tbody>
+        <tr><td>5 Severe</td><td>Over $20m</td><td>Widespread, lasting harm to many members</td><td>Enforcement action; licence at risk</td><td>Critical operation outside tolerance level</td></tr>
+        <tr><td>4 Major</td><td>$5m–$20m</td><td>Material harm to many members</td><td>Significant reportable breach; regulator investigation</td><td>Critical operation disrupted, within tolerance</td></tr>
+        <tr><td>3 Moderate</td><td>$1m–$5m</td><td>Harm to a group of members, fully remediable</td><td>Reportable breach</td><td>Important service disrupted for days</td></tr>
+        <tr><td>2 Minor</td><td>$100k–$1m</td><td>Inconvenience to some members</td><td>Minor breach, not reportable</td><td>Short disruption, workarounds available</td></tr>
+        <tr><td>1 Insignificant</td><td>Under $100k</td><td>Negligible</td><td>No breach</td><td>Negligible</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Try it: interactive heat map</h3>
+  <div class="widget heatmap-widget" data-examples="true">
+    <p class="small">Choose a likelihood and consequence, or select a cell. Five example risks (R1–R5) are plotted.</p>
+    <div class="controls">
+      <div>
+        <label for="hm-l">Likelihood</label>
+        <select id="hm-l" class="hm-l">
+          <option value="1">1 Rare</option><option value="2">2 Unlikely</option><option value="3">3 Possible</option><option value="4">4 Likely</option><option value="5">5 Almost certain</option>
+        </select>
+      </div>
+      <div>
+        <label for="hm-c">Consequence</label>
+        <select id="hm-c" class="hm-c">
+          <option value="1">1 Insignificant</option><option value="2">2 Minor</option><option value="3">3 Moderate</option><option value="4">4 Major</option><option value="5">5 Severe</option>
+        </select>
+      </div>
+    </div>
+    <div class="diagram-scroll hm-grid"></div>
+    <div class="legend"><span class="l-low">Low (1–4)</span><span class="l-medium">Medium (5–9)</span><span class="l-high">High (10–14)</span><span class="l-extreme">Extreme (15–25)</span></div>
+    <p class="result" aria-live="polite"></p>
+    <ul class="hm-examples small"></ul>
+    <noscript><p>The interactive heat map needs JavaScript.</p></noscript>
+  </div>
+  <p class="small">In this example the rating is simply likelihood × consequence. Many organisations instead assign ratings to each cell by judgement, often weighting consequence more heavily, so that a rare-but-severe risk is never rated "low".</p>
+
+  <h2>Inherent, residual and target risk</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 280" role="img" aria-labelledby="irt-title irt-desc">
+      <title id="irt-title">Inherent, residual and target risk</title>
+      <desc id="irt-desc">Three bars of decreasing height. Inherent risk, before controls, is rated extreme. Existing controls reduce it to residual risk, rated high. Planned treatment actions are expected to reduce it further to target risk, rated medium, which is within appetite, shown as a dashed line.</desc>
+      <defs><marker id="irt-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <line x1="60" y1="240" x2="680" y2="240" stroke="#64748b" stroke-width="2"/>
+      <rect x="100" y="40" width="130" height="200" rx="6" fill="#fca5a5"/>
+      <rect x="295" y="100" width="130" height="140" rx="6" fill="#fdba74"/>
+      <rect x="490" y="160" width="130" height="80" rx="6" fill="#fde68a"/>
+      <line x1="60" y1="150" x2="680" y2="150" stroke="#15803d" stroke-width="2" stroke-dasharray="7 5"/>
+      <text x="672" y="143" text-anchor="end" font-size="13" fill="#15803d" font-weight="700">risk appetite</text>
+      <g font-size="14" text-anchor="middle" font-weight="700" fill="#0f2942">
+        <text x="165" y="70">Inherent</text>
+        <text x="165" y="90" font-weight="400" font-size="13">Extreme</text>
+        <text x="360" y="130">Residual</text>
+        <text x="360" y="195" font-weight="400" font-size="13">High</text>
+        <text x="555" y="190">Target</text>
+        <text x="555" y="210" font-weight="400" font-size="13">Medium</text>
+      </g>
+      <g font-size="12.5" fill="#1d4ed8" text-anchor="middle">
+        <line x1="236" y1="70" x2="286" y2="102" stroke="#2563eb" stroke-width="2.5" marker-end="url(#irt-ar)"/>
+        <text x="268" y="52">existing controls</text>
+        <line x1="431" y1="128" x2="481" y2="160" stroke="#2563eb" stroke-width="2.5" marker-end="url(#irt-ar)"/>
+        <text x="462" y="112">planned actions</text>
+      </g>
+      <text x="360" y="266" text-anchor="middle" font-size="12.5" fill="#4a5568">Height = rated level of risk (illustrative)</text>
+    </svg>
+    <figcaption>Residual risk is what you compare to appetite today; target risk shows where treatment should take you.</figcaption>
+  </figure>
+  <ul>
+    <li><strong>Inherent risk</strong>: the level before considering controls. It shows how much you depend on your controls. Definitions vary: some organisations mean "with no controls at all", others "if key controls failed".</li>
+    <li><strong>Residual risk</strong>: the level after taking existing controls into account. This depends on how effective the controls really are, which is why <span class="xref" data-href="/risk-management/control-design-and-testing.html">control testing</span> matters.</li>
+    <li><strong>Target risk</strong>: where the risk should be once planned actions are complete. It should sit within appetite.</li>
+  </ul>
+
+  <h2>Qualitative, semi-quantitative and quantitative</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Approach</th><th scope="col">How it works</th><th scope="col">Strengths</th><th scope="col">Weaknesses</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Qualitative</strong></td><td>Words-based scales ("likely", "major") and expert judgement.</td><td>Fast, cheap, works with little data, easy to explain.</td><td>Subjective; inconsistent between assessors; hard to add up risks.</td></tr>
+        <tr><td><strong>Semi-quantitative</strong></td><td>Numbered scales with defined ranges (like the tables above), multiplied into a score.</td><td>More consistent; ranks risks; familiar to boards.</td><td>Scores look precise but aren't; multiplying ordinal scales can mislead.</td></tr>
+        <tr><td><strong>Quantitative</strong></td><td>Estimates probabilities and dollar impacts using data and models.</td><td>Can be aggregated; supports capital and cost-benefit decisions.</td><td>Needs good data, skills and time; models can give false confidence.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Going further: quantitative methods <span class="level level-advanced">Advanced</span></h3>
+  <p>Quantitative risk assessment tries to describe risk as a range of possible losses with probabilities, rather than a single rating.</p>
+  <ul>
+    <li><strong>Expected loss.</strong> The simplest measure: probability × impact. A 10% annual chance of a $2 million loss has an expected annual loss of $200,000. Useful for comparing the cost of a control with the loss it prevents, but it hides the severity of rare, large events.</li>
+    <li><strong>Frequency and severity modelling.</strong> Model how often events happen (for example with a Poisson distribution) and how large each is (for example with a lognormal distribution), then combine them to get a distribution of total annual losses. This is common in operational risk and insurance.</li>
+    <li><strong>Monte Carlo simulation.</strong> Run thousands of simulated years to see the full range of outcomes, including tail losses.</li>
+    <li><strong>Value at Risk (VaR) and similar measures.</strong> The loss that will not be exceeded with a given confidence over a period (for example, a 99.5% one-year loss). Widely used in market risk and capital modelling, but it says nothing about how bad losses beyond that point could be.</li>
+    <li><strong>Scenario analysis and <a class="term" href="/glossary/#stress-testing">stress testing</a>.</strong> Rather than predicting probabilities, ask "what if a severe but plausible event happened?" and trace the impacts. Essential where data is scarce, and required in many prudential contexts.</li>
+  </ul>
+
+  <h2>The limits of heat maps</h2>
+  <p>Heat maps are everywhere because they are simple and visual. But research has identified real problems, and a good risk professional knows them.</p>
+  <ul>
+    <li><strong>Poor resolution.</strong> Cox (2008) showed mathematically that typical risk matrices can correctly compare only a small fraction of randomly chosen pairs of risks, can give identical ratings to very different risks, and can even rate a smaller risk higher than a larger one.</li>
+    <li><strong>Ambiguous inputs.</strong> Words like "likely" mean very different probabilities to different people.</li>
+    <li><strong>Human bias.</strong> People estimate likelihood partly by how easily examples come to mind (the availability heuristic) and are pulled towards starting numbers (anchoring), as documented by Tversky and Kahneman (1974). Recent incidents get over-rated; things that have never happened get under-rated.</li>
+    <li><strong>No aggregation.</strong> Ten "medium" risks with a common cause might add up to one extreme risk, but a heat map shows ten separate dots.</li>
+    <li><strong>Missing dimensions.</strong> Speed of onset ("velocity"), how long effects last, and connections between risks aren't captured.</li>
+  </ul>
+  <div class="callout">
+    <h3>Making heat maps better</h3>
+    <ul>
+      <li>Anchor scales to real numbers (probabilities, dollar ranges, member numbers) and calibrate them with past data.</li>
+      <li>Assess in groups with challenge, and record the reasoning, not just the score.</li>
+      <li>Rate on the worst <em>credible</em> consequence, and add scenario analysis for severe risks.</li>
+      <li>Look for common causes and connections across the register.</li>
+      <li>Use the matrix to start a conversation, not end one.</li>
+    </ul>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/risk-appetite-and-tolerance.html" data-label="Risk appetite and tolerance"><a href="/risk-management/risk-appetite-and-tolerance.html">Risk appetite and tolerance</a></li>
+      <li data-href="/risk-management/control-design-and-testing.html" data-label="Control design and testing">Control design and testing <span class="soon">(coming soon)</span></li>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk">Operational risk <span class="soon">(coming soon)</span></li>
+      <li data-href="/foundations/what-is-risk-management.html" data-label="What is risk management?"><a href="/foundations/what-is-risk-management.html">What is risk management?</a></li>
+      <li data-href="/tools/" data-label="Risk tools and templates">Risk tools and templates <span class="soon">(coming soon)</span></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>International Organization for Standardization, <a href="https://www.iso.org/standard/65694.html">ISO 31000:2018 Risk management – Guidelines</a> (described in our own words).</li>
+      <li>Cox, L. A. (2008). What's wrong with risk matrices? <em>Risk Analysis</em>, 28(2), 497–512. <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.2008.01030.x">doi:10.1111/j.1539-6924.2008.01030.x</a>.</li>
+      <li>Tversky, A. and Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. <em>Science</em>, 185(4157), 1124–1131.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/heatmap.js"></script>
+</body>
+</html>
