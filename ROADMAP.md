@@ -2,7 +2,7 @@
 
 Work top to bottom. Tick items (`- [x]`) as they go live. The standards every page must meet are in `CLAUDE.md`.
 
-The agreed build order proves the page format on one pillar first (Phase 1), then scales it across the other pillars, then layers on interactivity and news.
+The agreed build order proves the page format on one pillar first (Phase 1), then scales it across the other pillars, then layers on interactivity and news. Stage 2 (Phases 9–14) adds depth, advanced content and new topics identified in the September 2026 site review.
 
 ---
 
@@ -107,6 +107,122 @@ One plain-English explainer per instrument, covering "what it actually requires 
 
 ---
 
+# Stage 2 — Depth and breadth (from the whole-of-site review, September 2026)
+
+Phases 9–14 come from the September 2026 site review. Same rules as before: verify every regulatory fact on the official source, write in our own words, tag each page's level, and ship each item as a small, complete, working chunk. Items marked **(Advanced)** must be tagged `Advanced`. Flag anything in Nick's specialist areas for his review.
+
+## Phase 9 — Fixes, glossary, site plumbing and the yearly review system
+
+**Fix dangling references**
+- [ ] ASIC RG 97 Disclosing fees and costs explainer (`/standards/asic-rg-97.html`; the super page already links to it)
+- [ ] ASIC RG 259 Risk management systems of responsible entities explainer (`/standards/asic-rg-259.html`; the MIS page already links to it)
+
+**Glossary**
+- [ ] Add the ~30 terms used on the site but missing from the Glossary: ADI, significant financial institution (SFI), responsible entity, managed investment scheme, compliance plan, compliance committee, deemed significant (breach), CPS 511, SPS 515, ISMS, information asset, Liquidity Coverage Ratio, Common Equity Tier 1, Additional Tier 1, macroprudential policy, debt-to-income limit, Scams Prevention Framework, hawking, deferred sales model, utmost good faith, claims handling and settling services, distribution condition, review trigger, significant dealing, beneficial assumption, awareness (reporting clock), recovery and exit planning, product intervention power, greenwashing, financial hardship, vulnerable customer, sampling (control testing), SMSF, key function (FAR). Link first uses on pages to the new entries.
+
+**Behind-the-scenes plumbing**
+- [ ] `sitemap.xml` and `robots.txt`, generated automatically by `sync_layout.py` so they never go stale
+- [ ] Link previews for sharing (Open Graph / Twitter tags on every page, plus a branded share image)
+- [ ] Browser-tab icon (favicon) and theme colour
+- [ ] Friendly "page not found" (404) page with search and popular links
+- [ ] Lift the faintest text colour for better readability (contrast ≥ 4.5:1 everywhere)
+
+**Yearly review system**
+- [ ] Review schedule: every page gets a "review due" date 12 months after its last review; a script (`_scripts/review_report.py`) lists pages due or overdue, and flags regulatory dates on pages that have since passed
+- [ ] "Expert reviewed" badge that appears only on pages Nick has signed off (a simple list in `_scripts/`), with the About page wording updated to match
+- [ ] Public "What's new" page (a changelog of pages added and updated), fed from git history or a simple data file
+
+## Phase 10 — Advanced-level deep dives
+
+- [ ] Quantitative operational risk **(Advanced)**: loss frequency and severity, loss distributions, VaR and expected shortfall in plain terms, with an interactive Monte Carlo simulation
+- [ ] Scenario analysis and stress testing **(Advanced)**: severe but plausible scenarios, reverse stress testing, links to CPS 230, CPS 190 and ICAAP, with a worked example
+- [ ] Setting CPS 230 tolerance levels **(Advanced)**: method, data, maximum disruption and data-loss tolerances, worked examples for a super fund and a bank. Flag for Nick.
+- [ ] Breach significance analysis in practice **(Advanced)**: case-based walkthroughs of the deemed-significance tests and factors, multi-regime reporting and documentation. Flag for Nick.
+- [ ] Risk aggregation and correlation **(Advanced)**: building the enterprise risk profile, concentration and interdependency
+- [ ] Board risk reporting design **(Advanced)**: reporting risk profile against appetite, KRI dashboards, aggregation, what good board papers look like
+- [ ] Control testing sampling and assurance confidence **(Advanced)**: sample sizes, attribute testing, confidence and evidence standards. Flag for Nick.
+- [ ] Add an "Advanced" stage to learning pathways and Start here, and update the home page wording once these are live
+
+## Phase 11 — New compliance and governance topics
+
+- [ ] Climate-related financial disclosures and sustainability reporting (Corporations Act requirements, AASB S2, phasing by entity group, assurance, greenwashing risk)
+- [ ] Climate risk management (physical and transition risk, scenario analysis, APRA CPG 229, governance and metrics)
+- [ ] AI governance (board oversight, accountability, model and data risk, privacy and automated decisions, regulator expectations such as ASIC REP 798, ISO/IEC 42001, Australian Government guidance)
+- [ ] Financial advice regulation (best interests duty and related obligations, Statements of Advice, conflicted remuneration, ongoing fee arrangements, adviser registration and professional standards, current reforms)
+- [ ] Anti-bribery and corruption (foreign bribery offences including the "failure to prevent" offence, gifts and hospitality, third-party due diligence, NACC for the public sector)
+- [ ] Sanctions compliance (Australian autonomous and UN sanctions, DFAT, screening, interaction with AML/CTF)
+- [ ] Modern slavery reporting (Modern Slavery Act 2018 statements, supply-chain due diligence, current reforms)
+
+## Phase 12 — Risk topics and standards library expansion
+
+**Risk topics**
+- [ ] Cyber risk management (threat landscape, Essential Eight, incident response, third-party cyber risk; links to CPS 234)
+- [ ] Model risk management (including AI and actuarial models, validation, model inventory)
+- [ ] Fraud risk management (internal and external fraud, controls, detection analytics, scams interface)
+- [ ] Internal audit (role, Global Internal Audit Standards, audit committee, APRA expectations)
+- [ ] Assurance mapping and combined assurance (links Three Lines, control testing and internal audit)
+- [ ] Issue and action management (raising, rating, tracking and closing issues; validation of fixes)
+- [ ] Risk culture deep dive (assessment methods, APRA's approach, indicators and interventions)
+- [ ] Change, project and reputational risk (one page or two, depending on depth)
+
+**Standards library**
+- [ ] APRA: CPS 511 Remuneration; SPS 515 Strategic Planning and Member Outcomes; SPS 530 Investment Governance; CPS 190 and CPS 900 recovery and resolution; current CPS/SPS 510 and 520 (governance, fit and proper); APS 110 and APS 210 capital and liquidity basics
+- [ ] ASIC: RG 181 Managing conflicts of interest; RG 270 Whistleblower policies; RG 104/105 licensee general obligations and competence
+- [ ] Other standards: ISO 22301 (business continuity), ISO 37301 (compliance management), ISO 37001 (anti-bribery), ISO/IEC 42001 (AI management), ASD Essential Eight, IIA Global Internal Audit Standards (all in our own words)
+- [ ] Add every new page to the standards library index and its sector filter
+
+## Phase 13 — Real-world case studies and new sectors
+
+**Case studies** (new `/case-studies/` section; each with timeline, what went wrong, regulatory response, lessons and sources; facts only from official reports and court outcomes)
+- [ ] Case studies landing page and case study template
+- [ ] Hayne Royal Commission (2019): themes and reforms that followed
+- [ ] APRA Prudential Inquiry into CBA (2018): governance, culture and accountability
+- [ ] AUSTRAC civil penalty cases (CBA 2018, Westpac 2020): AML/CTF control failures
+- [ ] Optus and Medibank data breaches (2022): cyber, privacy and regulatory response
+- [ ] HIH Insurance collapse (2001): governance and the origins of modern prudential regulation
+- [ ] Shield and First Guardian: platform, advice and trustee failures (link to existing commentary; update as court outcomes arrive)
+- [ ] Case-study quizzes and "what would you have done?" prompts
+
+**Sectors**
+- [ ] Credit licensees and non-bank lenders (responsible lending, hardship, credit reporting, BNPL)
+- [ ] Financial advice licensees (sector view, linking to the advice regulation page)
+- [ ] Payments and fintech (payments licensing reforms, stored value, CDR, scams obligations)
+- [ ] Listed companies (ASX Principles, continuous disclosure, directors' duties)
+- [ ] Public sector (PGPA Act, Commonwealth Risk Management Policy, fraud and corruption control)
+- [ ] Not-for-profits and charities (ACNC governance standards, risk for smaller organisations)
+- [ ] Update the sectors comparison table and landing page
+
+## Phase 14 — Tools, learning and ongoing upkeep
+
+**Tools and templates** (spreadsheets with working formulas, Word templates; add each to the resource library)
+- [ ] Obligations register template
+- [ ] Control testing workpaper
+- [ ] Risk and control self-assessment (RCSA) template
+- [ ] KRI library (examples by risk type, with threshold design notes)
+- [ ] Example risk appetite statement (fictional super fund)
+- [ ] Board risk report template
+- [ ] Material service provider register (aligned with APRA's template fields)
+- [ ] Remediation program tracker. Flag for Nick.
+
+**Learning**
+- [ ] New scenarios: privacy data breach assessment; disclosure review of a marketing campaign; conflicted related-party transaction; CPS 230 tolerance breach; AML suspicious matter; advice file review
+- [ ] Quiz questions for every new page (Phases 9–13), plus a News/current-affairs quiz
+- [ ] New flashcard decks: new glossary terms, advanced concepts, key dates for new regimes
+- [ ] Refresh learning pathways and Start here routes to include all new pages
+
+**Upkeep machinery**
+- [ ] Upkeep checklist in `_scripts/UPKEEP.md` (what to check monthly, quarterly and yearly, and how)
+- [ ] Automated checks bundled into one command (links, review due dates, passed regulatory dates, tracker items past their dates)
+
+## 🔁 Recurring upkeep (never ticked off; do on schedule)
+
+- **Monthly:** publish a news item or roundup when there are material developments; check the regulatory tracker for items whose dates have passed and move them to "In force".
+- **Quarterly:** full tracker refresh (`AS_AT` date updated), roundup article, run the review report and link check, and check watch items in the backlog below.
+- **Yearly (per page):** review every page within 12 months of its last review; re-verify all regulatory facts against official sources, update "Last reviewed", and refresh related quizzes and flashcards.
+- **When regulations change:** update every affected page the same week (use Search and the tracker to find them), then note it on the "What's new" page.
+
+---
+
 ## ⏸ Deferred — do later, only when Nick says so
 
 - [x] About and credibility page (who's behind it, methodology, full disclaimer). A short disclaimer goes in every footer from Phase 1.
@@ -118,7 +234,9 @@ One plain-English explainer per instrument, covering "what it actually requires 
 
 ## Ideas / backlog
 
-Add new ideas here as they come up.
+Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.
+
+- **Next roundup:** after the final CPS 510 and the ASIC/APRA FAR changes (see Recurring upkeep for the cadence).
 
 - **Watch and update:** APRA's final CPS 510 Governance (expected end 2026, commencing January 2028) and the ASX Corporate Governance Principles 5th edition (final expected December 2026). Update `/foundations/what-is-governance.html` when finalised.
 - **Watch and update:** ISO 31000 revision (at committee draft stage in 2026). Update the frameworks pages when published.
@@ -130,16 +248,6 @@ Add new ideas here as they come up.
 - **Watch and update (Phase 4 pages):** further CPS 230 amendments or APRA guidance; ASIC's remaining reportable-situations relief (RG 78 page); any new COSO guidance or framework updates; ISO/IEC 27001 amendments.
 - **Nick to review (Phase 5):** Superannuation trustee governance (covenants table, SPS list, performance test vs outcomes assessment, fee governance section), plus the super-related parts of the Managed investment schemes page (Shield / First Guardian).
 - **Watch and update (Phase 5 pages):** performance test changes after Treasury's 2026 consultation; redrafted General Insurance Code (ASIC lodgement late 2026) and Life Code review outcome; Scams Prevention Framework obligations (March 2027); AT1 phase-out (from January 2027); Shield / First Guardian proceedings; APRA's proposed proportionality ("three-tier") framework.
-- An ASIC RG 259 (risk management systems of responsible entities) explainer page; the MIS page already cross-links to `/standards/asic-rg-259.html` and will light up automatically.
 - **Nick to review (Phase 6):** the three scenario simulations in `/learn/scenarios.html` (fee error breach and remediation, administrator outage under CPS 230, whistleblower disclosure). The "best practice" answers and feedback are in `scripts/scenarios-data.js`.
-- **Advanced-level content:** no pages are tagged Advanced yet. Candidates: quantitative risk (loss distributions, scenario analysis maths), stress testing, CPS 230 tolerance-setting deep-dive, advanced breach significance analysis, and board risk reporting design. Add them to `_scripts/build_pathways.py` as a new stage when live.
-- More scenarios (e.g. privacy data breach assessment, disclosure review of a marketing campaign, conflicted related-party transaction) and more quiz questions as new pages go live; keep `scripts/quiz-bank.js` in step with page content.
 - **Nick to review (Phase 7):** the four templates in `/tools/`. Especially the incident report's notification checklist, the breach register's columns and example, and the CPS 230 / breach reporting checklists (item wording lives in `_scripts/templates/checklists_data.py`).
-- ~~**Navigation:** top menu wrapping~~ Done in Phase 8: header drops "Home" (brand links home) and shortens "Risk Management" to "Risk"; the footer keeps full labels.
 - **Nick to review (Phase 8):** the two commentary pieces (draft CPS 510; ASIC REP 833 platform trustees) and the regulatory tracker entries in `_scripts/tracker_data.py`.
-- **Keep News current:** publish a roundup roughly monthly or quarterly, update `AS_AT` and entries in `_scripts/tracker_data.py`, and move items to "In force" as dates pass. Next roundup: after the final CPS 510 and the ASIC/APRA FAR changes.
-- More templates: obligations register, control testing workpaper, risk appetite statement skeleton, material service provider register (aligned with APRA's template), remediation program tracker.
-- ~~A "What's changed recently" box on the home page~~ Done: the home page shows the three latest news items (generated by `_scripts/build_news.py`).
-- A risk culture deep-dive page (could sit under Governance: culture and conduct risk).
-- An assurance mapping / combined assurance page (links Three Lines, control testing and internal audit).
-- Reuse the interactive widgets (`scripts/quiz.js`, `heatmap.js`, `checklist.js`) for the Phase 6 learning section.
