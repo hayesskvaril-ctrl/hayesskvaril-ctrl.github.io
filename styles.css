@@ -560,6 +560,31 @@ details[open] summary { margin-bottom: 10px; }
 .quiz-runner .q > button { margin-top: 10px; }
 .quiz-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
 
+/* ---------- Scenario simulations (scripts/scenario-runner.js) ---------- */
+
+.scenario-setting { background: var(--blue-soft); border-radius: var(--radius); padding: 12px 16px; }
+.scenario-text { font-size: 17px; margin: 14px 0; }
+.scenario-text:focus { outline: none; }
+.scenario-choices { display: flex; flex-direction: column; gap: 8px; }
+.widget .scenario-choice { background: #fff; color: var(--text); border: 2px solid var(--border); text-align: left; font-weight: 500; line-height: 1.5; }
+.widget .scenario-choice:hover:not(:disabled) { background: var(--blue-soft); border-color: var(--blue); }
+.widget .scenario-choice:disabled { cursor: default; opacity: 0.6; }
+.widget .scenario-choice.picked { opacity: 1; }
+.scenario-choice.picked.q-best { border-color: var(--green); background: var(--green-soft); }
+.scenario-choice.picked.q-ok { border-color: var(--amber); background: var(--amber-soft); }
+.scenario-choice.picked.q-poor { border-color: var(--red); background: var(--red-soft); }
+.scenario-feedback { margin: 12px 0; border-radius: var(--radius); }
+.scenario-feedback.q-best, .scenario-feedback.q-ok, .scenario-feedback.q-poor { padding: 12px 16px; border-left: 4px solid; }
+.scenario-feedback.q-best { background: var(--green-soft); border-color: var(--green); }
+.scenario-feedback.q-ok { background: var(--amber-soft); border-color: var(--amber); }
+.scenario-feedback.q-poor { background: var(--red-soft); border-color: var(--red); }
+.scenario-best { margin: 8px 0 0; }
+.scenario-log li { margin-bottom: 8px; }
+.scenario-verdict { font-weight: 600; color: var(--navy); }
+.badge.q-best { background: var(--green-soft); color: var(--green); }
+.badge.q-ok { background: var(--amber-soft); color: var(--amber); }
+.badge.q-poor { background: var(--red-soft); color: var(--red); }
+
 /* ---------- Regulator finder (scripts/regulator-finder.js) ---------- */
 
 .reg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 10px; margin: 14px 0; }

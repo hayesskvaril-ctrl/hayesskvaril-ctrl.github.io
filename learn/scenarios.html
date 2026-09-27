@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Topic quizzes | RiskLens Australia</title>
-<meta name="description" content="Free knowledge-check quizzes on Australian risk management, compliance, governance, APRA and ASIC standards and sector regulation, with explanations and links to learn more.">
+<title>Scenario simulations | RiskLens Australia</title>
+<meta name="description" content="Interactive risk and compliance scenarios: work through a fee error breach and remediation, a critical service provider outage under CPS 230, and a whistleblower disclosure, with feedback on every decision.">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -32,32 +32,33 @@
 <!-- HEADER:END -->
 
 <main id="main" class="article">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/learn/">Learn</a></li><li>Topic quizzes</li></ol></nav>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/learn/">Learn</a></li><li>Scenario simulations</li></ol></nav>
 
-  <h1>Topic quizzes</h1>
-  <p class="summary">Pick a section and answer one question at a time. Each answer comes with an explanation and a link to the page that covers it.</p>
+  <h1>Scenario simulations</h1>
+  <p class="summary">Step into a realistic situation, choose what you would do at each decision point, and get feedback on each choice. A debrief at the end shows your path and where to learn more.</p>
   <div class="page-meta">
-    <span class="level level-beginner">Beginner</span>
-    <span>5–10 minutes per topic</span>
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 10 minutes per scenario</span>
     <span>Last reviewed: 27 September 2026</span>
   </div>
 
-  <div class="widget quiz-runner" id="quiz-runner">
-    <noscript><p>The quizzes need JavaScript turned on in your browser.</p></noscript>
+  <div class="widget scenario-runner" id="scenario-runner">
+    <noscript><p>The scenarios need JavaScript turned on in your browser.</p></noscript>
   </div>
 
-  <div class="callout">
-    <h3>About these questions</h3>
-    <p>Questions are based on the pages on this site, which summarise the law and regulator guidance as at the "last reviewed" date. Rules change, so for real decisions always check the official source. Your best score for each topic is saved only in this browser.</p>
+  <div class="callout warn">
+    <h3>Simplified for learning</h3>
+    <p>These scenarios are fictional and simplified. Real situations depend on the facts, the entity's licences and its own policies. The "best practice" answers show sound general approaches, not legal advice. Always check the current law and regulator guidance.</p>
   </div>
 
   <section class="related" aria-labelledby="related-h">
     <h2 id="related-h">Related topics</h2>
     <ul>
-      <li data-href="/foundations/" data-label="Foundations"><a href="/foundations/">Foundations</a></li>
-      <li data-href="/glossary/" data-label="Glossary"><a href="/glossary/">Glossary</a></li>
-      <li data-href="/learn/flashcards.html" data-label="Flashcards">Flashcards <span class="soon">(coming soon)</span></li>
-      <li data-href="/learn/scenarios.html" data-label="Scenario simulations"><a href="/learn/scenarios.html">Scenario simulations</a></li>
+      <li data-href="/risk-management/incident-and-breach-management.html" data-label="Incident and breach management"><a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a></li>
+      <li data-href="/compliance/breach-reporting.html" data-label="Breach and incident reporting obligations"><a href="/compliance/breach-reporting.html">Breach and incident reporting obligations</a></li>
+      <li data-href="/standards/cps-230.html" data-label="CPS 230 Operational Risk Management"><a href="/standards/cps-230.html">CPS 230 Operational Risk Management</a></li>
+      <li data-href="/governance/whistleblower-protections.html" data-label="Whistleblower protections"><a href="/governance/whistleblower-protections.html">Whistleblower protections</a></li>
+      <li data-href="/learn/quizzes.html" data-label="Topic quizzes"><a href="/learn/quizzes.html">Topic quizzes</a></li>
     </ul>
   </section>
 
@@ -84,7 +85,7 @@
 </footer>
 <!-- FOOTER:END -->
 
-<script src="/scripts/quiz-bank.js"></script>
-<script src="/scripts/quiz-runner.js"></script>
+<script src="/scripts/scenarios-data.js"></script>
+<script src="/scripts/scenario-runner.js"></script>
 </body>
 </html>
