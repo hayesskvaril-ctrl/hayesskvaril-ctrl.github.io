@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Root cause analysis: techniques and pitfalls | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to root cause analysis for incidents and breaches: why investigations fail, the Swiss cheese model, 5 whys, fishbone, barrier analysis, bow-tie and fault trees, a worked fee error example and an interactive fault tree calculator.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/root-cause-analysis.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Root cause analysis: techniques and pitfalls">
+<meta property="og:description" content="An advanced guide to root cause analysis for incidents and breaches: why investigations fail, the Swiss cheese model, 5 whys, fishbone, barrier analysis, bow-tie and fault trees, a worked fee error example and an interactive fault tree calculator.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/root-cause-analysis.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Root cause analysis</li></ol></nav>
+
+  <h1>Root cause analysis: techniques and pitfalls</h1>
+  <p class="summary">How to find causes the organisation can actually fix, comparing 5 whys, fishbone, barrier analysis, bow-tie and fault trees, with a worked example and a fault tree calculator.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 16 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>"Human error" is rarely a root cause. Ask why the error was possible and why controls didn't catch it.</li>
+      <li>Most incidents need several failures to line up. Reason's Swiss cheese model points to latent conditions built into systems.</li>
+      <li>Use techniques together: a timeline first, then 5 whys, fishbone, barrier analysis, bow-tie or fault trees as the <a class="term" href="/glossary/#incident">incident</a> demands.</li>
+      <li>In a fault tree, probabilities multiply through AND gates, so a reliable <a class="term" href="/glossary/#detective-control">detective control</a> can matter more than preventing the cause.</li>
+      <li>Strong actions change systems (remove the hazard, automate, add independent checks). Reminders and retraining are weak on their own.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>Every incident review ends with a statement of "the root cause". Too often it says "human error" or "the process wasn't followed", the person involved is retrained, and the same thing happens again six months later somewhere else. Good <a class="term" href="/glossary/#root-cause-analysis">root cause analysis</a> keeps asking why until it reaches causes the organisation can actually fix: gaps in design, controls, systems, incentives or oversight.</p>
+  <p>This page compares the main techniques, works through one incident with several of them, and shows how a fault tree can put numbers on which control matters most. It builds on <a class="xref" href="/risk-management/incident-and-breach-management.html">Incident and breach management</a>.</p>
+
+  <h2>Why root cause analysis often fails</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Failure mode</th><th scope="col">What it looks like</th><th scope="col">Better practice</th></tr></thead>
+      <tbody>
+        <tr><td>Stopping at the person</td><td>"Operator error. Staff member retrained."</td><td>Ask why the error was possible and why nothing caught it. People are usually the last link, not the first cause.</td></tr>
+        <tr><td>One cause only</td><td>A single line in the incident register.</td><td>Most incidents need several things to go wrong at once. Record contributing factors and failed controls separately.</td></tr>
+        <tr><td>Hindsight bias</td><td>"It was obvious this would happen."</td><td>Reconstruct what people knew at the time, and why their actions made sense to them then.</td></tr>
+        <tr><td>Blame culture</td><td>People stop reporting <a class="term" href="/glossary/#near-miss">near misses</a> and small errors.</td><td>A "just culture": accountability for reckless or deliberate acts, learning for honest mistakes.</td></tr>
+        <tr><td>Weak actions</td><td>Reminders, emails, training, updated procedures.</td><td>Prefer stronger fixes: removing the hazard, automation, forcing functions and independent checks.</td></tr>
+        <tr><td>No follow-through</td><td>Actions closed without checking they worked.</td><td>Validate that the fix works, and look for the same cause elsewhere. See <a class="xref" href="/risk-management/issue-and-action-management.html">issue and action management</a>.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Research on root cause analysis in healthcare, where the technique is widely used, has found similar problems: investigations that focus on single causes, produce weak recommendations and rarely check whether actions worked (Peerally and others, 2017).</p>
+
+  <h2>The Swiss cheese model</h2>
+  <p>Psychologist James Reason described organisational defences as slices of Swiss cheese. Each layer (design, controls, supervision, people) has holes, some from active failures by people at the front line and some from latent conditions built into systems and decisions made long before. An incident happens when holes in several layers line up. The practical lesson: look for the latent conditions, because they will line up again.</p>
+
+  <h2>The main techniques compared</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Technique</th><th scope="col">How it works</th><th scope="col">Best for</th><th scope="col">Watch out for</th></tr></thead>
+      <tbody>
+        <tr><td>Timeline (sequence of events)</td><td>Reconstruct exactly what happened, when, and who knew what.</td><td>Every investigation. It is the foundation for the rest.</td><td>Relying on memory; missing the "awareness" date for reporting clocks.</td></tr>
+        <tr><td>5 whys</td><td>Ask "why?" repeatedly until you reach a cause that can be fixed.</td><td>Simple incidents with one main chain.</td><td>Follows one path only; answers depend on who is in the room.</td></tr>
+        <tr><td>Fishbone (Ishikawa) diagram</td><td>Brainstorm causes under categories such as people, process, systems, data, third parties and governance.</td><td>Making sure all types of cause are considered.</td><td>Lists possible causes without showing which actually mattered.</td></tr>
+        <tr><td>Barrier (control) analysis</td><td>For each control that should have stopped the event, ask: did it exist, was it designed well, did it operate?</td><td>Linking incidents to control design and testing.</td><td>Only finds failures in controls you already knew about.</td></tr>
+        <tr><td><a class="term" href="/glossary/#bow-tie-analysis">Bow-tie</a></td><td>Map causes, preventive controls, the event, mitigating controls and consequences on one picture.</td><td>Showing the full control picture for a risk; board communication.</td><td>Can become cluttered; shows structure, not likelihood.</td></tr>
+        <tr><td>Fault tree</td><td>Work down from the event using AND and OR gates to the combinations of failures that cause it. Can be quantified.</td><td>Complex or high-consequence events; comparing control options.</td><td>Needs probabilities that are often rough estimates; assumes independence unless modelled otherwise.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Worked example: the wrong fee</h2>
+  <p>A super fund discovers that, after a product change, an administration fee was charged at the wrong rate for eight months. Here is the same incident seen through three techniques.</p>
+  <h3>5 whys</h3>
+  <ol>
+    <li><strong>Why were members overcharged?</strong> The fee rate in the administration system was set incorrectly.</li>
+    <li><strong>Why was it set incorrectly?</strong> The configuration was keyed from a draft product specification, not the final approved one.</li>
+    <li><strong>Why was the draft used?</strong> There was no single controlled source of approved fee rates; documents were emailed between teams.</li>
+    <li><strong>Why wasn't the error caught?</strong> The monthly fee reconciliation compared fees charged with the system's own rate table, so it confirmed the wrong rate.</li>
+    <li><strong>Why did the reconciliation work that way?</strong> It was designed to test calculation accuracy, not whether the rate matched the PDS. No one had asked what risk it was meant to address.</li>
+  </ol>
+  <p>Root causes: no controlled source of approved fee rates, and a detective control designed against the wrong reference point. "The analyst keyed the wrong number" is true, but it is not a root cause.</p>
+
+  <h3>Bow-tie</h3>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 300" role="img" aria-labelledby="bt-title bt-desc">
+      <title id="bt-title">Bow-tie for incorrect fees charged to members</title>
+      <desc id="bt-desc">Left side, causes: incorrect rate configured at product change; manual fee override error; system defect after upgrade. Preventive controls between causes and the event: controlled fee rate register, four-eyes configuration check, change testing against the PDS. Centre, the event: members charged the wrong fee. Mitigating controls between event and consequences: independent reconciliation to PDS rates, complaint and exception monitoring, prompt remediation. Right side, consequences: member loss, breach reporting, remediation cost, regulatory and reputational damage.</desc>
+      <g font-size="12" text-anchor="middle">
+        <rect x="6" y="20" width="130" height="56" rx="8" fill="#e8f0fe"/><text x="71" y="44" fill="#0f2942">Rate configured</text><text x="71" y="60" fill="#0f2942">wrongly at change</text>
+        <rect x="6" y="122" width="130" height="56" rx="8" fill="#e8f0fe"/><text x="71" y="146" fill="#0f2942">Manual override</text><text x="71" y="162" fill="#0f2942">error</text>
+        <rect x="6" y="224" width="130" height="56" rx="8" fill="#e8f0fe"/><text x="71" y="248" fill="#0f2942">System defect</text><text x="71" y="264" fill="#0f2942">after upgrade</text>
+        <rect x="150" y="20" width="118" height="56" rx="8" fill="#1b3a5c"/><text x="209" y="44" fill="#fff">Controlled fee</text><text x="209" y="60" fill="#fff">rate register</text>
+        <rect x="150" y="122" width="118" height="56" rx="8" fill="#1b3a5c"/><text x="209" y="146" fill="#fff">Four-eyes</text><text x="209" y="162" fill="#fff">check</text>
+        <rect x="150" y="224" width="118" height="56" rx="8" fill="#1b3a5c"/><text x="209" y="248" fill="#fff">Change testing</text><text x="209" y="264" fill="#fff">against PDS</text>
+        <path d="M268,48 L300,150 M268,150 L300,150 M268,252 L300,150" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+        <rect x="300" y="110" width="120" height="80" rx="40" fill="#2563eb"/><text x="360" y="146" fill="#fff" font-weight="700">Wrong fee</text><text x="360" y="164" fill="#fff" font-weight="700">charged</text>
+        <path d="M420,150 L452,48 M420,150 L452,150 M420,150 L452,252" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+        <rect x="452" y="20" width="118" height="56" rx="8" fill="#1b3a5c"/><text x="511" y="44" fill="#fff">Reconciliation</text><text x="511" y="60" fill="#fff">to PDS rates</text>
+        <rect x="452" y="122" width="118" height="56" rx="8" fill="#1b3a5c"/><text x="511" y="146" fill="#fff">Complaint and</text><text x="511" y="162" fill="#fff">exception watch</text>
+        <rect x="452" y="224" width="118" height="56" rx="8" fill="#1b3a5c"/><text x="511" y="248" fill="#fff">Prompt</text><text x="511" y="264" fill="#fff">remediation</text>
+        <rect x="584" y="20" width="130" height="56" rx="8" fill="#e8f0fe"/><text x="649" y="44" fill="#0f2942">Member loss</text><text x="649" y="60" fill="#0f2942">and complaints</text>
+        <rect x="584" y="122" width="130" height="56" rx="8" fill="#e8f0fe"/><text x="649" y="146" fill="#0f2942">Reportable breach</text><text x="649" y="162" fill="#0f2942">and remediation</text>
+        <rect x="584" y="224" width="130" height="56" rx="8" fill="#e8f0fe"/><text x="649" y="248" fill="#0f2942">Regulatory and</text><text x="649" y="264" fill="#0f2942">reputational harm</text>
+      </g>
+    </svg>
+    <figcaption>Causes on the left, preventive controls, the event in the centre, then mitigating controls and consequences. In this incident, the controlled register didn't exist and the reconciliation compared against the wrong reference, so both sides of the bow-tie failed.</figcaption>
+  </figure>
+
+  <h3>Fault tree, with numbers</h3>
+  <p>A fault tree works down from the event. Here, members are charged the wrong fee if <em>either</em> path happens (an OR gate), and each path needs <em>both</em> a cause and a failed control (an AND gate). Probabilities multiply through AND gates, which is why a reliable detective control can matter more than preventing the cause itself. Adjust the annual likelihoods to see which improvement matters most.</p>
+  <div class="widget" id="fault-tree">
+    <h3>Try it: which control matters most?</h3>
+    <div class="controls">
+      <div><label for="ft-a">Chance of a configuration error at a product change (per year): <output for="ft-a">30%</output></label><input type="range" id="ft-a" min="0" max="100" step="1" value="30"></div>
+      <div><label for="ft-ac">Chance the reconciliation misses it: <output for="ft-ac">60%</output></label><input type="range" id="ft-ac" min="0" max="100" step="1" value="60"></div>
+      <div><label for="ft-b">Chance of a manual override error (per year): <output for="ft-b">50%</output></label><input type="range" id="ft-b" min="0" max="100" step="1" value="50"></div>
+      <div><label for="ft-bc">Chance the review misses it: <output for="ft-bc">10%</output></label><input type="range" id="ft-bc" min="0" max="100" step="1" value="10"></div>
+    </div>
+    <p class="result" aria-live="polite"></p>
+    <noscript><p>The calculator needs JavaScript. With AND gates, probabilities multiply; with OR gates, the top event probability is 1 minus the product of each path not happening.</p></noscript>
+    <p class="small">Illustrative only. Assumes the events are independent, which real failures often aren't (for example, a system upgrade can cause an error and disable the check that would catch it).</p>
+  </div>
+
+  <h2>What a good root cause statement looks like</h2>
+  <ul>
+    <li><strong>Causal:</strong> it explains how the event happened, backed by evidence from the timeline.</li>
+    <li><strong>Systemic:</strong> it names a condition in the system (design, control, resourcing, incentive, oversight), not just an individual's act.</li>
+    <li><strong>Fixable:</strong> the organisation can change it.</li>
+    <li><strong>Tested for reach:</strong> it asks where else the same cause could produce the same failure (other products, providers or processes).</li>
+    <li><strong>Linked to action:</strong> each root cause has an action, owner and date, and the fix is validated after it's done.</li>
+  </ul>
+  <p>Regulators increasingly look at root causes, not just individual incidents. Recurring themes across incidents, breaches and complaints are a strong signal of weak controls or culture, and they belong in board reporting.</p>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. An incident review concludes: 'Operator keyed the wrong rate; staff member retrained.' What is the main problem?</p>
+      <div class="q-options"><button type="button" data-value="a">It is too long</button><button type="button" data-value="b">It stops at the individual and doesn't explain why the error was possible or why controls didn't catch it</button><button type="button" data-value="c">Retraining is never appropriate</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Good analysis asks why the error was possible and why detection failed.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">2. In a fault tree, two independent events joined by an AND gate each have a 20% probability. What is the probability of the combined event?</p>
+      <div class="q-options"><button type="button" data-value="a">40%</button><button type="button" data-value="b">4%</button><button type="button" data-value="c">20%</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Through an AND gate, independent probabilities multiply: 0.2 × 0.2 = 0.04.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. In Reason's Swiss cheese model, 'latent conditions' are:</p>
+      <div class="q-options"><button type="button" data-value="a">Mistakes by front-line staff</button><button type="button" data-value="b">Weaknesses built into systems and decisions, often long before the incident</button><button type="button" data-value="c">Customer complaints</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Latent conditions lie dormant until they combine with active failures.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/incident-and-breach-management.html" data-label="Incident and breach management"><a href="/risk-management/incident-and-breach-management.html">Incident and breach management</a></li>
+      <li data-href="/risk-management/issue-and-action-management.html" data-label="Issue and action management"><a href="/risk-management/issue-and-action-management.html">Issue and action management</a></li>
+      <li data-href="/risk-management/control-design-and-testing.html" data-label="Control design and testing"><a href="/risk-management/control-design-and-testing.html">Control design and testing</a></li>
+      <li data-href="/tools/incident-report-template.html" data-label="Incident report template"><a href="/tools/incident-report-template.html">Incident report template</a></li>
+      <li data-href="/learn/scenarios.html" data-label="Scenario simulations"><a href="/learn/scenarios.html">Scenario simulations</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Reason, J. (2000). Human error: models and management. <em>BMJ</em>, 320(7237), 768–770. <a href="https://doi.org/10.1136/bmj.320.7237.768">doi:10.1136/bmj.320.7237.768</a>.</li>
+      <li>Peerally, M. F., Carr, S., Waring, J. and Dixon-Woods, M. (2017). The problem with root cause analysis. <em>BMJ Quality &amp; Safety</em>, 26(5), 417–422. <a href="https://doi.org/10.1136/bmjqs-2016-005511">doi:10.1136/bmjqs-2016-005511</a>.</li>
+      <li>Dekker, S. (2016). <em>Just Culture: Restoring Trust and Accountability in Your Organization</em> (3rd ed.). CRC Press.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> (incident management and control requirements).</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/fault-tree.js"></script>
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>

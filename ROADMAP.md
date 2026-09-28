@@ -228,7 +228,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [ ] Add "Advanced topics" sections to the standards, sectors and case studies landing pages
 
 **New Advanced pages** (each with worked examples, a diagram or interactive, and primary sources)
-- [ ] Root cause analysis: 5 whys, fishbone, bow-tie and fault trees. Expert review.
+- [x] Root cause analysis: 5 whys, fishbone, bow-tie and fault trees. Expert review.
 - [x] Misleading or deceptive conduct: the legal tests and key cases (disclosure review). Expert review.
 - [x] Directors' and officers' duties: key Australian cases
 - [x] Enforcement and penalties: how regulators respond and how penalties are set
