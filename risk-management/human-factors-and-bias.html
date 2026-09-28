@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Human factors and cognitive bias in risk decisions | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to cognitive bias in risk management: anchoring, availability, overconfidence, optimism, groupthink, normalisation of deviance and escalation of commitment, with debiasing techniques and an interactive calibration test.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/human-factors-and-bias.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Human factors and cognitive bias in risk decisions">
+<meta property="og:description" content="An advanced guide to cognitive bias in risk management: anchoring, availability, overconfidence, optimism, groupthink, normalisation of deviance and escalation of commitment, with debiasing techniques and an interactive calibration test.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/human-factors-and-bias.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Human factors and bias</li></ol></nav>
+
+  <h1>Human factors and cognitive bias in risk decisions</h1>
+  <p class="summary">The predictable ways human judgement goes wrong in risk assessment, escalation and decisions, and practical ways to design processes that counter them, with a calibration test.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Risk management depends on judgement, and judgement is systematically biased in predictable ways.</li>
+      <li>Overconfidence is widespread: most people's 90% ranges contain the answer far less than 90% of the time.</li>
+      <li>Anchoring, availability, optimism and groupthink distort risk ratings; normalisation of deviance and sunk costs distort escalation.</li>
+      <li>Process design helps: independent first ratings, pre-mortems, reference classes, red teams and kill criteria set in advance.</li>
+      <li>Judge decisions by what was reasonable at the time, not by how they turned out.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>Risk management relies on human judgement at almost every step: rating likelihood and consequence, deciding whether an incident is serious, choosing whether to escalate, approving a new product. Decades of research show that human judgement is systematically biased in predictable ways, especially under uncertainty, time pressure and social pressure.</p>
+  <p>The point isn't that people are careless. It's that well-meaning, experienced people make the same kinds of errors, so risk processes need to be designed to counter them. This page covers the biases that matter most in risk work and practical techniques that reduce them.</p>
+
+  <h2>Try it first: how calibrated are you?</h2>
+  <p>For each question, give a range you are <strong>90% confident</strong> contains the true answer. Don't look anything up. If you are well calibrated, about 9 in 10 ranges should contain the answer.</p>
+  <div class="widget" id="calibration">
+    <h3>90% confidence ranges</h3>
+    <div class="cal-list"></div>
+    <button type="button" class="cal-check">Check my ranges</button>
+    <p class="result" aria-live="polite"></p>
+    <noscript><p>The exercise needs JavaScript.</p></noscript>
+  </div>
+  <p>Research on calibration has consistently found that people's "90% ranges" contain the true answer far less often than 90% of the time. The same overconfidence shows up when risk workshops estimate the likelihood of rare events or the range of possible losses.</p>
+
+  <h2>The biases that matter most in risk work</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Bias</th><th scope="col">What it is</th><th scope="col">Where it shows up in risk work</th></tr></thead>
+      <tbody>
+        <tr><td>Anchoring</td><td>Estimates stick close to a starting number, even an irrelevant one.</td><td>Risk ratings that barely move from last year's register; loss estimates anchored on the first figure mentioned.</td></tr>
+        <tr><td>Availability</td><td>Judging likelihood by how easily examples come to mind.</td><td>Over-rating risks that were recently in the news; under-rating risks that have never happened here.</td></tr>
+        <tr><td>Overconfidence</td><td>Ranges and estimates narrower than knowledge justifies.</td><td>Scenario ranges that are far too tight; confident "remote" likelihood ratings for events with no data.</td></tr>
+        <tr><td>Optimism bias</td><td>Believing bad outcomes are less likely for us than for others.</td><td>Generous <a class="term" href="/glossary/#residual-risk">residual ratings</a>; project timelines and benefits that assume everything goes to plan.</td></tr>
+        <tr><td>Groupthink</td><td>Cohesive groups suppress dissent to reach agreement.</td><td>Workshops where the most senior person speaks first and everyone agrees; boards with no challenge.</td></tr>
+        <tr><td>Normalisation of deviance</td><td>Repeated exceptions come to be accepted as normal because nothing bad happened.</td><td>Recurring control exceptions, workarounds and overdue actions treated as business as usual.</td></tr>
+        <tr><td>Escalation of commitment (sunk cost)</td><td>Continuing a failing course because of what has already been invested.</td><td>Troubled projects and system migrations that keep going past the point where stopping was cheaper.</td></tr>
+        <tr><td>Hindsight and outcome bias</td><td>After the event, outcomes seem predictable, and decisions are judged by results rather than by the quality of the reasoning.</td><td>Incident reviews that blame individuals; good decisions criticised because of bad luck, and bad ones praised because of good luck.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Techniques that reduce bias</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Technique</th><th scope="col">How it works</th><th scope="col">Counters</th></tr></thead>
+      <tbody>
+        <tr><td>Independent first ratings</td><td>Each participant rates privately before discussion; the facilitator shows the spread, then the group discusses the differences.</td><td>Anchoring, groupthink, authority effects</td></tr>
+        <tr><td>Pre-mortem</td><td>Before a decision, imagine it has failed badly and write down why. Proposed by psychologist Gary Klein.</td><td>Optimism, overconfidence, groupthink</td></tr>
+        <tr><td>Reference class forecasting</td><td>Start from how similar projects or events actually turned out, then adjust for specifics.</td><td>Optimism, planning fallacy</td></tr>
+        <tr><td>Red teams and devil's advocates</td><td>Assign someone the explicit job of challenging the preferred view.</td><td>Groupthink, confirmation bias</td></tr>
+        <tr><td>Wider ranges and calibration training</td><td>Ask for ranges, not single points; practise and give feedback on calibration.</td><td>Overconfidence</td></tr>
+        <tr><td>Decision checklists</td><td>Standard questions before major decisions, such as "What would make us wrong?" and "Who disagrees?"</td><td>Several biases at once</td></tr>
+        <tr><td>Kill criteria set in advance</td><td>Agree before a project starts what evidence would stop or re-scope it.</td><td>Escalation of commitment</td></tr>
+        <tr><td>Judge the decision, not the outcome</td><td>Review what was known and reasonable at the time, separately from what happened.</td><td>Hindsight and outcome bias</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Designing bias-resistant risk processes</h2>
+  <ul>
+    <li><strong>Risk workshops:</strong> send data in advance, collect private ratings first, have the most senior person speak last, and record dissenting views. See <a class="xref" href="/risk-management/risk-assessment-methodologies.html">risk assessment methodologies</a>.</li>
+    <li><strong>Rating challenge:</strong> ask the second line to challenge ratings that haven't moved in several years, or where residual ratings are much better than control testing supports.</li>
+    <li><strong>Escalation rules:</strong> make escalation automatic at defined triggers, so it doesn't depend on someone deciding it's "serious enough". See <a class="xref" href="/risk-management/kri-design-and-thresholds.html">KRI design and thresholds</a>.</li>
+    <li><strong>Incident reviews:</strong> reconstruct what people knew at the time; look for system causes. See <a class="xref" href="/risk-management/root-cause-analysis.html">root cause analysis</a>.</li>
+    <li><strong>Board decisions:</strong> ask for the strongest case against a proposal, and for the downside scenario, not just the base case.</li>
+    <li><strong>Culture:</strong> none of this works if people fear speaking up. <a class="xref" href="/governance/risk-culture-assessment.html">Psychological safety</a> is the foundation.</li>
+  </ul>
+  <div class="callout">
+    <h3>A note on the evidence</h3>
+    <p>Some well-known findings in behavioural science have failed to replicate, and effect sizes vary between studies and settings. The biases on this page are among the most studied and robust, but treat any single study with care, and focus on process designs that make sense even if a particular effect is smaller than claimed.</p>
+  </div>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. A workshop's risk ratings barely change from last year's register. Which bias is most likely at work?</p>
+      <div class="q-options"><button type="button" data-value="a">Availability</button><button type="button" data-value="b">Anchoring</button><button type="button" data-value="c">Outcome bias</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Last year's rating acts as an anchor. Independent first ratings help.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">2. What is a pre-mortem?</p>
+      <div class="q-options"><button type="button" data-value="a">A review after a project fails</button><button type="button" data-value="b">Imagining a decision has failed and explaining why, before it is made</button><button type="button" data-value="c">A medical check</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Klein's pre-mortem legitimises dissent and surfaces risks early.</p>
+    </div>
+    <div class="q" data-answer="a">
+      <p class="q-text">3. Recurring control exceptions come to be treated as normal because nothing has gone wrong yet. This is:</p>
+      <div class="q-options"><button type="button" data-value="a">Normalisation of deviance</button><button type="button" data-value="b">Reference class forecasting</button><button type="button" data-value="c">Calibration</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Vaughan described this pattern in her study of the Challenger decision.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/risk-assessment-methodologies.html" data-label="Risk assessment methodologies"><a href="/risk-management/risk-assessment-methodologies.html">Risk assessment methodologies</a></li>
+      <li data-href="/risk-management/root-cause-analysis.html" data-label="Root cause analysis"><a href="/risk-management/root-cause-analysis.html">Root cause analysis</a></li>
+      <li data-href="/governance/risk-culture-assessment.html" data-label="Assessing and changing risk culture"><a href="/governance/risk-culture-assessment.html">Assessing and changing risk culture</a></li>
+      <li data-href="/risk-management/scenario-analysis-and-stress-testing.html" data-label="Scenario analysis and stress testing"><a href="/risk-management/scenario-analysis-and-stress-testing.html">Scenario analysis and stress testing</a></li>
+      <li data-href="/governance/board-risk-reporting.html" data-label="Board risk reporting"><a href="/governance/board-risk-reporting.html">Board risk reporting</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Tversky, A. and Kahneman, D. (1974). Judgment under uncertainty: heuristics and biases. <em>Science</em>, 185(4157), 1124–1131. <a href="https://doi.org/10.1126/science.185.4157.1124">doi:10.1126/science.185.4157.1124</a>.</li>
+      <li>Lichtenstein, S., Fischhoff, B. and Phillips, L. D. (1982). Calibration of probabilities: the state of the art to 1980. In D. Kahneman, P. Slovic and A. Tversky (eds), <em>Judgment under Uncertainty: Heuristics and Biases</em>. Cambridge University Press.</li>
+      <li>Janis, I. L. (1982). <em>Groupthink: Psychological Studies of Policy Decisions and Fiascoes</em> (2nd ed.). Houghton Mifflin.</li>
+      <li>Staw, B. M. (1976). Knee-deep in the big muddy: a study of escalating commitment to a chosen course of action. <em>Organizational Behavior and Human Performance</em>, 16(1), 27–44.</li>
+      <li>Fischhoff, B. (1975). Hindsight is not equal to foresight: the effect of outcome knowledge on judgment under uncertainty. <em>Journal of Experimental Psychology: Human Perception and Performance</em>, 1(3), 288–299.</li>
+      <li>Klein, G. (2007). Performing a project premortem. <em>Harvard Business Review</em>, 85(9), 18–19.</li>
+      <li>Flyvbjerg, B. (2006). From Nobel Prize to project management: getting risks right. <em>Project Management Journal</em>, 37(3), 5–15.</li>
+      <li>Vaughan, D. (1996). <em>The Challenger Launch Decision</em>. University of Chicago Press.</li>
+      <li>Calibration answers: Geoscience Australia (river length and mountain height), Australian Bureau of Statistics (2021 Census), Reserve Bank of Australia, APRA.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/calibration.js"></script>
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>

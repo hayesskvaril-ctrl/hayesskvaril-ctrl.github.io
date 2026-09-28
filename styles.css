@@ -1265,3 +1265,10 @@ td .badge { white-space: nowrap; }
 .kc-plot svg { width: 100%; height: auto; display: block; }
 .kc-pt:focus { outline: none; }
 .kc-pt:focus circle:last-child, .kc-pt:hover circle:last-child { stroke: #e2e8f0; }
+
+/* Calibration exercise */
+.cal-q { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; margin: 0 0 10px; }
+.cal-q legend { padding: 0 6px; font-weight: 600; color: var(--heading); }
+.cal-q label { display: inline-flex; align-items: center; gap: 6px; margin: 4px 12px 4px 0; }
+.widget .cal-q input[type="number"] { width: 110px; }
+.cal-ans { display: block; margin-top: 4px; }
