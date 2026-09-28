@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fund mergers and successor fund transfers | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to superannuation fund mergers: the successor fund transfer rule and equivalent rights test, best financial interests evidence, transfer planning under SPS 515, and where merger risk sits in data migration, insurance and integration.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/sectors/fund-mergers-and-successor-fund-transfers.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Fund mergers and successor fund transfers">
+<meta property="og:description" content="An advanced guide to superannuation fund mergers: the successor fund transfer rule and equivalent rights test, best financial interests evidence, transfer planning under SPS 515, and where merger risk sits in data migration, insurance and integration.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/sectors/fund-mergers-and-successor-fund-transfers.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/" aria-current="page">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/sectors/">Sectors</a></li><li>Fund mergers and SFTs</li></ol></nav>
+
+  <h1>Fund mergers and successor fund transfers</h1>
+  <p class="summary">How super funds merge without member consent, the equivalent rights and <a class="term" href="/glossary/#best-financial-interests-duty">best financial interests</a> tests, and why the biggest risks often come after the legal transfer.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Most super fund mergers use a successor fund transfer, which moves members without their consent if the successor fund confers equivalent rights in respect of their benefits (SIS Regulations reg 6.29).</li>
+      <li>Equivalent means not identical: rights are assessed as a bundle, for individual members and groups, not just on average.</li>
+      <li>Both trustees must act in members' best financial interests, and the transferring trustee must be able to evidence why the transfer meets that test.</li>
+      <li>From 1 July 2025, SPS 515 brings transfer planning into strategic planning, with APRA's SFT guidance now part of its SPS 515 guidance.</li>
+      <li>The highest operational risk sits in data migration, insurance continuity and integration, often for years after the transfer date.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>Australian super has been consolidating for years, as funds seek scale, lower costs and better outcomes, and as the <a class="term" href="/glossary/#performance-test">annual performance test</a> and APRA's focus on member outcomes put pressure on smaller or underperforming funds. Most mergers move members from one fund to another without asking each member's consent, using a successor fund transfer (SFT). Because members don't choose, the law sets a protective test, and both trustees must be satisfied the move is in members' best financial interests.</p>
+  <p>This page explains the legal tests, how trustees assess and evidence them, and where merger risk really sits: often in the years after the legal transfer, when systems and products are brought together. It builds on <a class="xref" href="/sectors/superannuation.html">superannuation trustee governance</a> and <a class="xref" href="/standards/sps-515.html">SPS 515</a>.</p>
+
+  <h2>The legal framework (summary)</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Element</th><th scope="col">In brief</th></tr></thead>
+      <tbody>
+        <tr><td>SFT rule (SIS Regulations, reg 6.29)</td><td>Members' benefits can be transferred without their consent to a successor fund that confers on them equivalent rights to the rights they had in the transferring fund in respect of their benefits.</td></tr>
+        <tr><td>Equivalent, not equal</td><td>APRA's long-standing view is that rights must be equivalent, not identical, assessed as a bundle of rights, for individual members and groups of members, not just on average.</td></tr>
+        <tr><td>Best financial interests</td><td>Both trustees must act in the best financial interests of their beneficiaries. The transferring trustee must be able to show why the transfer is in its members' best financial interests, with supporting evidence.</td></tr>
+        <tr><td>Transfer planning (SPS 515)</td><td>From 1 July 2025, SPS 515 brings transfer planning into strategic and business planning, and APRA's guidance on SFTs is now part of its SPS 515 guidance rather than a separate guide.</td></tr>
+        <tr><td>Other regimes</td><td>Tax, insurance, member communication and disclosure, ATO reporting protocols and, for some transactions, competition law. Legal commentary in December 2025 reported that SFTs and changes of trustee are exempt from the ACCC's new mandatory merger notification regime; check the current position.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Testing equivalent rights</h2>
+  <p>The equivalent rights test is applied to rights in respect of benefits, looking at what members are legally entitled to, not just current practice. Common areas of analysis:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Area</th><th scope="col">Questions</th></tr></thead>
+      <tbody>
+        <tr><td>Benefits and entitlements</td><td>Are accrued benefits preserved? For defined benefit members, is the benefit formula or its value protected?</td></tr>
+        <tr><td>Investment options</td><td>How do old options map to new ones? Are members moved to options with a materially different risk profile?</td></tr>
+        <tr><td>Fees and costs</td><td>Fees aren't strictly "rights", but a large fee increase goes to best financial interests. Compare total cost for representative members.</td></tr>
+        <tr><td>Insurance</td><td>Is cover continued on equivalent terms, without new underwriting, exclusions or waiting periods for existing cover?</td></tr>
+        <tr><td>Reserves and accounts</td><td>How are reserves, unallocated amounts and member-specific arrangements treated?</td></tr>
+        <tr><td>Governing rules</td><td>Rights under the trust deed, such as how the trustee can amend rules or exercise discretions.</td></tr>
+        <tr><td>Groups and individuals</td><td>Are any groups worse off (for example pension members, members with unusual insurance, or defined benefit members) even if the average member is better off?</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Evidencing best financial interests</h2>
+  <p>The comparison is between the members' likely outcomes if the transfer happens and if it doesn't. Typical evidence:</p>
+  <ul>
+    <li>Net returns and investment strategy compared over relevant periods, and the credibility of the successor's future strategy.</li>
+    <li>Fees and costs for representative member cohorts, including the effect of scale over time.</li>
+    <li>Insurance design, premiums and claims experience.</li>
+    <li>Services, digital capability and retirement income offerings.</li>
+    <li>Financial strength and governance of the successor trustee, including its risk management and track record with previous mergers.</li>
+    <li>Transition costs and who bears them.</li>
+    <li>Risks of the transition itself (below), and how they will be managed.</li>
+  </ul>
+  <p>Where some cohorts would be worse off, trustees need to decide whether that can be addressed (for example through transitional arrangements) and document the reasoning. "Most members are better off" is not the same as the test being met.</p>
+
+  <h2>Where merger risk really sits</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 210" role="img" aria-labelledby="sft-title sft-desc">
+      <title id="sft-title">Phases of a fund merger</title>
+      <desc id="sft-desc">Five phases. Explore: partner search, strategic fit, initial comparison. Due diligence: detailed analysis of rights, outcomes, risks and costs. Decide and agree: best financial interests determination, equivalent rights assessment, merger agreement. Transfer: member communication, data migration, insurance and SFT on the transfer date. Integrate: product rationalisation, administration consolidation, realising the promised benefits. The highest operational risk is concentrated around transfer and integration, often lasting years.</desc>
+      <defs><marker id="sft-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+      <g font-size="12" text-anchor="middle">
+        <rect x="6" y="20" width="124" height="120" rx="10" fill="#e8f0fe"/><text x="68" y="48" fill="#0f2942" font-weight="700">1. Explore</text><text x="68" y="72" fill="#0f2942">partner, fit,</text><text x="68" y="88" fill="#0f2942">first comparison</text>
+        <line x1="130" y1="80" x2="146" y2="80" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sft-ar)"/>
+        <rect x="152" y="20" width="124" height="120" rx="10" fill="#1b3a5c"/><text x="214" y="48" fill="#fff" font-weight="700">2. Due diligence</text><text x="214" y="72" fill="#cbd8e8">rights, outcomes,</text><text x="214" y="88" fill="#cbd8e8">risks, costs</text>
+        <line x1="276" y1="80" x2="292" y2="80" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sft-ar)"/>
+        <rect x="298" y="20" width="124" height="120" rx="10" fill="#1b3a5c"/><text x="360" y="48" fill="#fff" font-weight="700">3. Decide</text><text x="360" y="72" fill="#cbd8e8">BFI and equivalent</text><text x="360" y="88" fill="#cbd8e8">rights; agreement</text>
+        <line x1="422" y1="80" x2="438" y2="80" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sft-ar)"/>
+        <rect x="444" y="20" width="124" height="120" rx="10" fill="#2563eb"/><text x="506" y="48" fill="#fff" font-weight="700">4. Transfer</text><text x="506" y="72" fill="#e8f0fe">data, insurance,</text><text x="506" y="88" fill="#e8f0fe">communications</text>
+        <line x1="568" y1="80" x2="584" y2="80" stroke="#2563eb" stroke-width="2.5" marker-end="url(#sft-ar)"/>
+        <rect x="590" y="20" width="124" height="120" rx="10" fill="#2563eb"/><text x="652" y="48" fill="#fff" font-weight="700">5. Integrate</text><text x="652" y="72" fill="#e8f0fe">products, systems,</text><text x="652" y="88" fill="#e8f0fe">benefits realised</text>
+        <rect x="444" y="152" width="270" height="44" rx="8" fill="#0f2942"/><text x="579" y="172" fill="#fff" font-weight="700">Highest operational risk</text><text x="579" y="188" fill="#cbd8e8">often continues for years after transfer</text>
+      </g>
+    </svg>
+    <figcaption>The legal transfer is one day. Data migration, insurance continuity and system consolidation carry the risk of member harm, and promised benefits depend on integration succeeding.</figcaption>
+  </figure>
+  <ul>
+    <li><strong>Data migration:</strong> incomplete or incorrect member data leads to wrong balances, lost insurance and payment errors. Reconcile at member level, not just in totals.</li>
+    <li><strong>Insurance continuity:</strong> gaps in cover around the transfer date can leave members uninsured when they claim.</li>
+    <li><strong>Service disruption:</strong> call volumes spike and processing backlogs grow just as members need help.</li>
+    <li><strong>Benefits realisation:</strong> scale benefits depend on consolidating administration and products. Track them against what was promised in the best financial interests case.</li>
+    <li><strong>Culture and people:</strong> key-person loss and competing ways of working can weaken controls during integration.</li>
+  </ul>
+  <p>See <a class="xref" href="/risk-management/change-project-and-reputational-risk.html">change, project and reputational risk</a> and <a class="xref" href="/risk-management/mapping-critical-operations.html">mapping critical operations</a> for managing the transition.</p>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. Under the SFT rule, what must the successor fund confer on transferring members?</p>
+      <div class="q-options"><button type="button" data-value="a">Identical rights</button><button type="button" data-value="b">Equivalent rights in respect of their benefits</button><button type="button" data-value="c">Lower fees</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Rights must be equivalent, not equal, assessed as a bundle.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">2. Most members would be better off after a merger, but one group of pension members would lose a feature. What follows?</p>
+      <div class="q-options"><button type="button" data-value="a">The test is met because most are better off</button><button type="button" data-value="b">The trustee must consider that group specifically, address it if possible, and document its reasoning</button><button type="button" data-value="c">The merger must stop</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>The assessment covers individual members and groups, not just averages.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. Where is operational risk in a merger usually highest?</p>
+      <div class="q-options"><button type="button" data-value="a">In the partner search</button><button type="button" data-value="b">Around the transfer and during integration</button><button type="button" data-value="c">After the board decision only</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Data migration, insurance continuity and system consolidation carry the most risk of member harm.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/sectors/superannuation.html" data-label="Superannuation trustee governance"><a href="/sectors/superannuation.html">Superannuation trustee governance</a></li>
+      <li data-href="/standards/sps-515.html" data-label="SPS 515 Strategic Planning and Member Outcomes"><a href="/standards/sps-515.html">SPS 515 Strategic Planning and Member Outcomes</a></li>
+      <li data-href="/risk-management/change-project-and-reputational-risk.html" data-label="Change, project and reputational risk"><a href="/risk-management/change-project-and-reputational-risk.html">Change, project and reputational risk</a></li>
+      <li data-href="/sectors/unit-pricing.html" data-label="Unit pricing and unit pricing errors"><a href="/sectors/unit-pricing.html">Unit pricing and unit pricing errors</a></li>
+      <li data-href="/risk-management/mapping-critical-operations.html" data-label="Mapping critical operations"><a href="/risk-management/mapping-critical-operations.html">Mapping critical operations</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li><em>Superannuation Industry (Supervision) Regulations 1994</em> (Cth), reg 6.29, on the <a href="https://www.legislation.gov.au/">Federal Register of Legislation</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-515">Prudential Standard SPS 515 Strategic Planning and Member Outcomes</a> and <a href="https://www.apra.gov.au/news-and-publications/strategic-planning-and-member-outcomes-response-paper">Strategic planning and member outcomes: response paper</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/practice-guides/spg-227-superseded">SPG 227 Successor Fund Transfers and Wind-ups</a> (superseded; historical guidance on equivalent rights).</li>
+      <li>Australian Taxation Office, <a href="https://www.ato.gov.au/tax-and-super-professionals/for-superannuation-professionals/apra-regulated-funds/fund-reporting-protocols/successor-and-intra-fund-transfer-reporting-protocol/introduction-and-considerations-for-types-of-super-fund-transfers">Successor and intra-fund transfer reporting protocol</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>

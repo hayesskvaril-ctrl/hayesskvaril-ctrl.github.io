@@ -243,7 +243,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Remediation calculations in practice, with a calculator. Expert review.
 - [x] Reasonable steps and consequence management under FAR
 - [x] Unit pricing and unit pricing errors (super). Expert review.
-- [ ] Fund mergers and successor fund transfers
+- [x] Fund mergers and successor fund transfers
 - [x] Advanced case study: ASIC v RI Advice and ASIC v FIIG (cyber risk as a licensee obligation)
 
 **Deepen existing pages and learning**
