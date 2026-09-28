@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-28", "/learn/scenarios.html", "Six new scenario simulations: a privacy data breach, a marketing campaign review, a related-party conflict, a CPS 230 tolerance breach, an AML suspicion and an advice file review."),
     ("2026-09-28", "/tools/", "Added eight free templates: obligations register, control testing workpaper, RCSA, KRI library, example risk appetite statement, board risk report, material service provider register and remediation program tracker."),
     ("2026-09-28", "/sectors/", "Added six sector pages: credit and non-bank lenders, financial advice licensees, payments and fintech, listed companies, the Commonwealth public sector, and not-for-profits and charities."),
     ("2026-09-28", "/case-studies/", "New Case studies section: the Hayne Royal Commission, APRA's inquiry into CBA, AUSTRAC v CBA and Westpac, Optus and Medibank, HIH Insurance, and Shield and First Guardian, each with a timeline, lessons and a quiz."),

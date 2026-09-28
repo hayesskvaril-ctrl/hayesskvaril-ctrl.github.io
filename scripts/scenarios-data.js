@@ -204,5 +204,347 @@ window.SCENARIOS = [
           { label: "Breach and incident reporting obligations", href: "/compliance/breach-reporting.html" }
         ] }
     ]
+  },
+  {
+    id: "privacy-breach",
+    title: "The spreadsheet sent to the wrong person",
+    level: "Intermediate",
+    summary: "Member data goes to the wrong email address. Contain it, assess it under the Notifiable Data Breaches scheme and decide who to tell.",
+    setting: "You are the Privacy Officer at an APRA-regulated super fund. The fund is covered by the Privacy Act 1988 and CPS 234.",
+    steps: [
+      { id: "s1",
+        text: "3 pm Thursday. A member services officer tells you they emailed a spreadsheet to a personal Gmail address instead of an employer contact with a similar name. It holds 1,200 members' names, dates of birth, tax file numbers and account balances. What do you do first?",
+        choices: [
+          { label: "Contain it: try to recall the email, contact the recipient to ask them to delete it and confirm in writing, and record the time the fund became aware. Start the data breach response plan.", quality: "best",
+            feedback: "Right. Containment comes first because quick action can reduce, or even prevent, harm. Recording the awareness time matters because assessment and notification timeframes run from it." },
+          { label: "Tell the officer not to worry. It was an honest mistake and one email is unlikely to matter.", quality: "poor",
+            feedback: "Intent doesn't decide whether a breach is notifiable. Tax file numbers and dates of birth are exactly the data used for identity fraud. The fund must assess it." },
+          { label: "Email all 1,200 members straight away to tell them their data was exposed.", quality: "ok",
+            feedback: "Transparency is good, but acting before containment and assessment can cause unnecessary alarm and get the facts wrong. Contain first, assess quickly, then notify with accurate information and practical steps." }
+        ] },
+      { id: "s2",
+        text: "The recipient hasn't responded to two emails or a phone message. The recall failed. How do you assess whether this is an eligible data breach?",
+        choices: [
+          { label: "Ask whether the unauthorised disclosure is likely to result in serious harm to any affected individual, considering the sensitivity of the data (TFNs, dates of birth, balances), who holds it, and whether remedial action has prevented the likely harm. Document the assessment.", quality: "best",
+            feedback: "That is the test. Because the recipient is unknown and unresponsive, remedial action hasn't removed the risk, and TFNs with dates of birth create a real risk of identity fraud. Serious harm is likely, so this looks like an eligible data breach." },
+          { label: "It's only notifiable if you have evidence the data has been misused.", quality: "poor",
+            feedback: "The test is whether serious harm is likely, not whether misuse has been proven. Waiting for evidence of fraud defeats the purpose of the scheme." },
+          { label: "Take the full 30 days to assess, since the Act allows it.", quality: "ok",
+            feedback: "The 30-day period is a maximum for assessing a suspected breach, not a target. Here the facts are clear enough to conclude quickly, and delay leaves members exposed." }
+        ] },
+      { id: "s3",
+        text: "You conclude it is an eligible data breach. Who needs to be notified?",
+        choices: [
+          { label: "Notify the OAIC and the affected members as soon as practicable, with what happened, the data involved and steps they can take. Also consider whether it is a material information security incident that must be notified to APRA under CPS 234 within 72 hours, and brief the executive and board.", quality: "best",
+            feedback: "Good. The Notifiable Data Breaches scheme requires notice to the OAIC and affected individuals. An APRA-regulated entity also needs to consider its CPS 234 notification obligations, which have their own tests and timeframes." },
+          { label: "Notify the OAIC only. Telling members would damage the fund's reputation.", quality: "poor",
+            feedback: "For an eligible data breach, affected individuals must also be notified so they can protect themselves. Reputation is not a reason to withhold notice." },
+          { label: "Notify only the members, since they are the ones at risk.", quality: "poor",
+            feedback: "The OAIC must be notified too, through a statement about the breach." }
+        ] },
+      { id: "s4",
+        text: "The notifications are made. What should the fund do to support members and prevent a repeat?",
+        choices: [
+          { label: "Offer practical support (for example, extra identity checks on affected accounts and guidance on protecting themselves), watch affected accounts for suspicious changes and withdrawals, and fix the root cause: block sending member data files to personal email domains, use secure file transfer, and retrain staff.", quality: "best",
+            feedback: "Monitoring affected accounts guards against fraudulent withdrawals, a real risk for super. Technical controls such as data loss prevention address the cause better than training alone." },
+          { label: "Discipline the officer and close the matter.", quality: "poor",
+            feedback: "Blaming one person doesn't fix the process that let a file of TFNs be emailed externally. It also discourages staff from reporting mistakes quickly, which was what made containment possible." },
+          { label: "Send a reminder email to all staff about double-checking addresses.", quality: "ok",
+            feedback: "Helpful, but reminders are weak controls. Pair them with technical controls and account monitoring." }
+        ] },
+      { id: "end", ending: true,
+        text: "The breach was contained as far as possible, assessed promptly, notified to the OAIC, members and (where required) APRA, and the root cause fixed.",
+        learn: [
+          { label: "Privacy law", href: "/compliance/privacy-law.html" },
+          { label: "CPS 234 Information security", href: "/standards/cps-234.html" },
+          { label: "Breach and incident reporting obligations", href: "/compliance/breach-reporting.html" },
+          { label: "Optus and Medibank data breaches", href: "/case-studies/optus-medibank-data-breaches.html" }
+        ] }
+    ]
+  },
+  {
+    id: "marketing-review",
+    title: "The campaign that promised too much",
+    level: "Intermediate",
+    summary: "Marketing wants sign-off on a new super campaign by tomorrow. Review it for misleading claims and target market issues.",
+    setting: "You are a Compliance Adviser at a super fund. All member communications and advertising must be reviewed by Compliance before release.",
+    steps: [
+      { id: "s1",
+        text: "Marketing sends a social media ad for review: \"Australia's top performing fund! 11.2% returns. Join today and your money grows faster.\" The 11.2% was the Balanced option's return in one strong year. They need sign-off by tomorrow. What is your first concern?",
+        choices: [
+          { label: "The claims may be misleading: \"top performing\" needs a clear, current basis (which survey, category and period), a single year's return is highlighted without context, and \"your money grows faster\" implies a guaranteed future outcome.", quality: "best",
+            feedback: "Right. Misleading or deceptive conduct is prohibited, and ASIC's RG 234 good practice guidance warns against selective past performance, unqualified \"best\" claims and implied promises about future returns." },
+          { label: "The font size of the disclaimer.", quality: "poor",
+            feedback: "Disclaimers matter, but they can't fix a misleading headline. ASIC's guidance is that the overall impression of an ad must be accurate, and fine print can't correct a misleading main message." },
+          { label: "Nothing. All the numbers are true.", quality: "poor",
+            feedback: "A statement can be literally true and still misleading if it creates a false overall impression, for example by cherry-picking one strong year." }
+        ] },
+      { id: "s2",
+        text: "Marketing pushes back: \"Everyone uses 'top performing'. Can't you just add 'past performance is not a reliable indicator of future performance' at the bottom?\" How do you respond?",
+        choices: [
+          { label: "Explain that the warning helps but doesn't cure a misleading headline. Suggest alternatives: show returns over a longer period that matches the option's objective, compare fairly and name the source and date of any ranking, and remove the promise about growth.", quality: "best",
+            feedback: "Offering workable alternatives keeps the relationship constructive and gets to a compliant ad. Longer-term, balanced performance information is more meaningful for a long-term product like super." },
+          { label: "Approve it with the warning added, to meet the deadline.", quality: "poor",
+            feedback: "Deadline pressure is a classic reason for poor sign-offs. If the ad is misleading, the warning doesn't make it compliant." },
+          { label: "Refuse to review anything else from Marketing until they complete compliance training.", quality: "poor",
+            feedback: "That escalates conflict without solving the problem. Compliance works best when it helps the business get to a compliant outcome." }
+        ] },
+      { id: "s3",
+        text: "The revised ad is better. Marketing now plans to target it at people aged 18 to 25 through a gaming platform, with a \"switch in two minutes\" button. What else should you consider?",
+        choices: [
+          { label: "Whether the targeting is consistent with the product's design and distribution obligations (target market determination), whether a \"switch now\" prompt without information about insurance and fees could cause harm, and whether the ad is balanced for that audience.", quality: "best",
+            feedback: "Good. Advertising is part of distribution. Encouraging quick switches without prompting people to check insurance and fees in their current fund could lead to poor outcomes, especially for younger members." },
+          { label: "Nothing else. Compliance reviews content, not targeting.", quality: "poor",
+            feedback: "How and to whom an ad is distributed can create compliance issues too, including under the design and distribution obligations." },
+          { label: "Ban advertising to young people entirely.", quality: "ok",
+            feedback: "There is no general ban, and young people also benefit from choosing a good fund. The question is whether the targeting and message are appropriate." }
+        ] },
+      { id: "s4",
+        text: "The final version is approved. What records should you keep?",
+        choices: [
+          { label: "The final approved version, the evidence behind every claim (data sources and dates), the review comments and changes, the approval date and approver, and the intended channels and audience. Set a review or expiry date for time-sensitive claims.", quality: "best",
+            feedback: "Good records show how the fund met its obligations and let it withdraw or update ads when the underlying data changes, for example when a ranking becomes out of date." },
+          { label: "Just the approval email.", quality: "ok",
+            feedback: "Better than nothing, but without the evidence for each claim it's hard to show the review was meaningful or to update the ad later." },
+          { label: "No records. The ad is public, so anyone can see it.", quality: "poor",
+            feedback: "The public ad doesn't show why claims were considered accurate or who approved them." }
+        ] },
+      { id: "end", ending: true,
+        text: "The campaign went out with accurate, balanced claims, appropriate targeting and a clear audit trail.",
+        learn: [
+          { label: "Disclosure obligations", href: "/compliance/disclosure-obligations.html" },
+          { label: "Consumer protection", href: "/compliance/consumer-protection.html" },
+          { label: "RG 274 Design and distribution obligations", href: "/standards/asic-rg-274.html" },
+          { label: "Superannuation", href: "/sectors/superannuation.html" }
+        ] }
+    ]
+  },
+  {
+    id: "related-party",
+    title: "The director's other company",
+    level: "Advanced",
+    summary: "A super trustee is choosing a new technology provider, and one bidder is linked to a director. Manage the conflict.",
+    setting: "You are the Company Secretary and Head of Governance at a super fund trustee. The trustee has a conflicts management policy and a register of relevant duties and interests, as SPS 521 requires.",
+    steps: [
+      { id: "s1",
+        text: "A tender for a new member portal has three bidders. Reading the shortlist, you notice one bidder's chair is married to a trustee director, who sits on the committee choosing the provider. The director hasn't mentioned it. What do you do?",
+        choices: [
+          { label: "Raise it with the director and the Board Chair promptly and privately, check the register of interests, and make sure the interest is formally disclosed before the committee considers the bids.", quality: "best",
+            feedback: "Right. Conflicts should be identified, disclosed and recorded before decisions are made. Raising it privately first is fair to the director, who may simply not have realised." },
+          { label: "Say nothing. The director is experienced and will act properly.", quality: "poor",
+            feedback: "Good character doesn't remove a conflict. The trustee must be able to show the conflict was identified and managed, and the members' interests given priority." },
+          { label: "Remove that bidder from the tender to avoid any appearance of a conflict.", quality: "ok",
+            feedback: "Cautious, but excluding a bidder that might be best for members could itself fail members. A conflict usually needs to be managed, not avoided at any cost." }
+        ] },
+      { id: "s2",
+        text: "The director discloses the interest. How should the conflict be managed in the selection process?",
+        choices: [
+          { label: "Record it in the register, have the director leave the room and not receive bid papers or vote on this decision, and document the arrangements in the minutes. Apply the same objective criteria to all bidders.", quality: "best",
+            feedback: "Good. Separating the conflicted person from the decision is a common and effective control. The minutes are the evidence that it happened." },
+          { label: "Let the director stay and vote, since they've disclosed it.", quality: "poor",
+            feedback: "Disclosure alone is usually not enough for a significant conflict. The conflicted director should not influence the decision." },
+          { label: "Let the director stay for the discussion but not vote.", quality: "ok",
+            feedback: "Better, but a director present in the discussion can still influence colleagues. Stepping out of both is the stronger control." }
+        ] },
+      { id: "s3",
+        text: "The linked company scores highest on the evaluation. Some directors are uncomfortable. What gives the board confidence the decision is in members' best interests?",
+        choices: [
+          { label: "Evidence that the process was arm's length: pre-set criteria, independent scoring, price benchmarked against the other bids and the market, and due diligence as for any material service provider. If it's still the best option for members, it can be chosen, with the reasoning documented.", quality: "best",
+            feedback: "A related party isn't automatically disqualified. The question is whether the terms are at least as good as arm's length and in members' best financial interests. Strong evidence protects both the members and the board." },
+          { label: "Choose the second-ranked bidder to avoid criticism.", quality: "poor",
+            feedback: "Deliberately choosing a worse option for members to protect the board's reputation puts the board's interests ahead of members'." },
+          { label: "Ask the conflicted director what they think of the other bidders.", quality: "poor",
+            feedback: "That would undo the conflict controls. The director should have no role in this decision." }
+        ] },
+      { id: "s4",
+        text: "The contract is signed with the linked company. What ongoing controls are needed?",
+        choices: [
+          { label: "Keep the conflicted director out of decisions about this contract (renewals, disputes, performance issues), have independent staff monitor performance, review the register regularly, and consider disclosing the relationship where the law or good practice requires.", quality: "best",
+            feedback: "A conflict doesn't end when the contract is signed. Renewals and disputes are also points where influence could matter." },
+          { label: "None. The conflict was managed at the tender.", quality: "poor",
+            feedback: "The relationship continues for the life of the contract, and so does the conflict." },
+          { label: "Ask the director to resign.", quality: "ok",
+            feedback: "Rarely necessary where the conflict can be managed. It may be appropriate if conflicts are frequent or so significant that the director can't do the role." }
+        ] },
+      { id: "end", ending: true,
+        text: "The conflict was disclosed, the director separated from the decision, and the choice made on evidence in members' best interests.",
+        learn: [
+          { label: "Conflicts of interest", href: "/governance/conflicts-of-interest.html" },
+          { label: "Superannuation", href: "/sectors/superannuation.html" },
+          { label: "Third-party and outsourcing risk", href: "/risk-management/third-party-risk.html" },
+          { label: "Board structure and accountability", href: "/governance/board-structure-and-accountability.html" }
+        ] }
+    ]
+  },
+  {
+    id: "tolerance-breach",
+    title: "The payments that didn't go out",
+    level: "Advanced",
+    summary: "A failed payment run pushes a critical operation towards its tolerance level. Manage the disruption and the CPS 230 obligations.",
+    setting: "You are the Chief Risk Officer of an APRA-regulated super fund. Paying benefits is a critical operation. The board has approved a tolerance level of no more than 2 business days' delay to benefit payments, affecting no more than 500 members.",
+    steps: [
+      { id: "s1",
+        text: "Tuesday 9 am. The overnight payment file failed after a software update. About 1,800 benefit payments, including hardship and death benefit payments, did not go out. IT expects a fix \"later this week\". What do you do?",
+        choices: [
+          { label: "Treat it as a disruption to a critical operation: invoke the business continuity plan, compare the impact against the tolerance level now (1,800 members already exceeds the 500-member limit), and escalate to the CEO and the Board Risk Committee chair.", quality: "best",
+            feedback: "Right. The member-numbers dimension of the tolerance is already exceeded, even though the time dimension hasn't been reached yet. Tolerance levels exist so this is clear early." },
+          { label: "Wait until Thursday. The tolerance is 2 business days, so there's still time.", quality: "poor",
+            feedback: "The tolerance has more than one dimension. The number of members affected is already outside it. Waiting also wastes time you could spend on workarounds." },
+          { label: "Leave it to IT. It's a technology problem.", quality: "poor",
+            feedback: "The critical operation is paying members, not the software. Risk, operations and communications all have roles, and the board-approved tolerance must be managed." }
+        ] },
+      { id: "s2",
+        text: "The disruption is outside tolerance. What about APRA?",
+        choices: [
+          { label: "Notify APRA within the CPS 230 timeframe for a disruption to a critical operation outside tolerance (24 hours), with what is known, and keep APRA updated. Also assess whether it is a material operational risk incident and any breach reporting obligations.", quality: "best",
+            feedback: "Correct. The notification timeframe is short so APRA hears early. Notify on what is known and update as facts develop, then assess the other regimes that may apply." },
+          { label: "Notify APRA after the fix, so the report is complete.", quality: "poor",
+            feedback: "That would likely miss the notification deadline. Early notification with updates is expected." },
+          { label: "Only notify APRA if the payments are still stuck after 2 business days.", quality: "poor",
+            feedback: "The tolerance was breached on member numbers, not just time. Notification is tied to being outside tolerance on any dimension." }
+        ] },
+      { id: "s3",
+        text: "The business continuity plan includes a manual payment workaround, but it can only handle about 150 payments a day. How do you use it?",
+        choices: [
+          { label: "Prioritise by member harm: hardship, terminal illness and death benefit payments first, then members who have told you of urgent need. Communicate proactively with all affected members about timing and what the fund will do about any costs caused by the delay.", quality: "best",
+            feedback: "Prioritising by harm is what tolerance-setting is about. Proactive communication reduces distress and complaints, and a commitment to cover costs caused by the delay supports fair outcomes." },
+          { label: "Process payments in the order they were due.", quality: "ok",
+            feedback: "Fair on its face, but it ignores that some members face much greater harm from delay than others." },
+          { label: "Don't use the workaround. Manual payments increase the risk of error.", quality: "poor",
+            feedback: "Manual workarounds do carry risk, which is why they need checks. Refusing to use a planned workaround leaves vulnerable members without money." }
+        ] },
+      { id: "s4",
+        text: "Payments are restored on Friday. At the post-incident review, a manager suggests raising the tolerance to 2,000 members \"to be realistic\". What is your view?",
+        choices: [
+          { label: "Tolerance levels should reflect the point at which harm to members becomes unacceptable, not what the fund can currently achieve. Keep the tolerance unless the harm analysis supports a change, and fix the capability gap instead: change testing, rollback plans and a bigger manual capacity.", quality: "best",
+            feedback: "Right. Moving the tolerance to fit a failure is moving the goalposts. CPS 230 expects entities to build the capability to stay within tolerance and to test it." },
+          { label: "Agree. The current tolerance is clearly unachievable.", quality: "poor",
+            feedback: "If tolerance is set by what's easy rather than by harm, it stops protecting members. Any change must come from a genuine reassessment of harm and be approved by the board." },
+          { label: "Lower the tolerance to 100 members to show the fund takes it seriously.", quality: "ok",
+            feedback: "Tightening can be right if the harm analysis supports it, but changes should be evidence-based, not symbolic." }
+        ] },
+      { id: "end", ending: true,
+        text: "Members were prioritised by harm, APRA was notified on time, and the fund fixed its capability rather than its tolerance.",
+        learn: [
+          { label: "Setting CPS 230 tolerance levels", href: "/risk-management/setting-cps-230-tolerance-levels.html" },
+          { label: "CPS 230 Operational risk management", href: "/standards/cps-230.html" },
+          { label: "Business continuity", href: "/risk-management/business-continuity.html" },
+          { label: "Change, project and reputational risk", href: "/risk-management/change-project-and-reputational-risk.html" }
+        ] }
+    ]
+  },
+  {
+    id: "aml-suspicion",
+    title: "The deposits just under $10,000",
+    level: "Intermediate",
+    summary: "A branch notices a pattern of cash deposits. Work through escalation, suspicious matter reporting and tipping off.",
+    setting: "You are the AML/CTF Compliance Officer at a mutual bank, which is a reporting entity under the Anti-Money Laundering and Counter-Terrorism Financing Act 2006.",
+    steps: [
+      { id: "s1",
+        text: "A branch manager calls. A customer has made seven cash deposits of $9,000 to $9,800 at different branches over two weeks. When a teller asked about the source of funds, the customer became evasive. What should the branch do?",
+        choices: [
+          { label: "Escalate internally through the bank's unusual activity process straight away, record the facts observed, and not question the customer further or mention reporting.", quality: "best",
+            feedback: "Right. Front-line staff escalate; the AML team assesses. Deposits kept just under the $10,000 cash reporting threshold are a classic sign of structuring." },
+          { label: "Ask the customer directly whether they are trying to avoid the $10,000 reporting rule.", quality: "poor",
+            feedback: "That risks tipping off the customer, and it isn't the teller's role to investigate. Escalate instead." },
+          { label: "Refuse any further deposits from the customer.", quality: "ok",
+            feedback: "Decisions about the relationship should be made by the AML team after assessment. Acting alone at the branch could also tip off the customer." }
+        ] },
+      { id: "s2",
+        text: "Your team reviews the account. The deposits don't match the customer's stated occupation and are moved out within days to several third parties. Do you have to report?",
+        choices: [
+          { label: "Yes. If you form a suspicion on reasonable grounds, lodge a suspicious matter report (SMR) with AUSTRAC within 3 business days of forming it. Record how and when the suspicion was formed.", quality: "best",
+            feedback: "Correct. The test is reasonable grounds for suspicion, not proof. The clock runs from when the suspicion is formed, so record the date and the reasoning." },
+          { label: "No. None of the deposits were $10,000 or more, so there's nothing to report.", quality: "poor",
+            feedback: "Threshold transaction reports and suspicious matter reports are separate obligations. Structuring to avoid the threshold is itself a reason for suspicion, and structuring is an offence." },
+          { label: "Only after the bank has proof the money came from crime.", quality: "poor",
+            feedback: "Reporting entities report suspicions. Investigating and proving crime is for law enforcement." }
+        ] },
+      { id: "s3",
+        text: "The SMR is lodged. The customer calls the branch asking why their last deposit was \"questioned\". What can staff say?",
+        choices: [
+          { label: "Handle it normally without mentioning the report or the suspicion, for example by explaining that the bank asks about the source of funds as part of its standard checks. Tell the AML team about the call.", quality: "best",
+            feedback: "Right. Disclosing that an SMR has been made, or information from which that could be inferred, can be a tipping-off offence. Routine customer due diligence explanations are fine." },
+          { label: "Reassure the customer that the bank has reported it to AUSTRAC, so everything will be sorted out properly.", quality: "poor",
+            feedback: "That would be tipping off, which is an offence." },
+          { label: "Refuse to speak to the customer at all.", quality: "ok",
+            feedback: "Avoids tipping off, but an unusual refusal could itself alert the customer. Normal service with care is better." }
+        ] },
+      { id: "s4",
+        text: "What should happen with the customer relationship and the bank's controls?",
+        choices: [
+          { label: "Apply enhanced customer due diligence, update the customer's risk rating, decide under the bank's policy whether to continue the relationship, consider further SMRs for new suspicious activity, and check whether transaction monitoring should have flagged the pattern earlier.", quality: "best",
+            feedback: "An SMR isn't the end. Ongoing due diligence, a documented relationship decision and a look at why monitoring didn't catch it all strengthen the program." },
+          { label: "Close the account immediately and tell the customer why.", quality: "poor",
+            feedback: "Exiting may be appropriate, but explaining that it's because of suspected money laundering would be tipping off." },
+          { label: "Nothing more. AUSTRAC will take it from here.", quality: "poor",
+            feedback: "The bank keeps its own obligations, including ongoing customer due diligence and reporting any further suspicious matters." }
+        ] },
+      { id: "end", ending: true,
+        text: "The suspicion was escalated, reported to AUSTRAC on time without tipping off the customer, and the bank's monitoring improved.",
+        learn: [
+          { label: "AML/CTF fundamentals", href: "/compliance/aml-ctf-fundamentals.html" },
+          { label: "AUSTRAC v CBA and Westpac", href: "/case-studies/austrac-cba-westpac.html" },
+          { label: "Sanctions compliance", href: "/compliance/sanctions-compliance.html" },
+          { label: "Fraud risk", href: "/risk-management/fraud-risk.html" }
+        ] }
+    ]
+  },
+  {
+    id: "advice-review",
+    title: "The file that didn't add up",
+    level: "Advanced",
+    summary: "A routine review of a financial adviser's file finds a problem rollover. Assess the advice, the client harm and what the licensee must do.",
+    setting: "You are the Head of Advice Assurance at an Australian financial services licensee that provides personal advice to retail clients.",
+    steps: [
+      { id: "s1",
+        text: "Reviewing a sample of files, you find advice to a 58-year-old client to roll her super from an industry fund into a platform the adviser often uses. The new product has higher fees, and her existing insurance cover lapsed. The statement of advice says the switch gives \"more investment choice\", but her fact find shows no interest in choosing investments. What are the main concerns?",
+        choices: [
+          { label: "Whether the adviser met the best interests duty and the appropriate advice requirement: the file doesn't show why the switch was better for her given higher fees and lost insurance. Also check that the replacement product disclosure covered the costs and lost benefits, and whether there was a conflict.", quality: "best",
+            feedback: "Right. The file needs to show the client's needs, the reasonable investigation of her existing product and why the new one leaves her better off. Loss of insurance is a significant harm to consider." },
+          { label: "The statement of advice is well formatted and signed, so it passes.", quality: "poor",
+            feedback: "Form isn't substance. A file review tests whether the advice was in the client's best interests and appropriate, not only whether documents exist." },
+          { label: "The client signed an authority to proceed, so she accepted the risks.", quality: "poor",
+            feedback: "A client's signature doesn't make inappropriate advice compliant. The duties sit with the adviser and the licensee." }
+        ] },
+      { id: "s2",
+        text: "The adviser says the client \"wanted a change\" but there's no record of that. What do you conclude about the file?",
+        choices: [
+          { label: "Rate it as non-compliant: the advice isn't supported by the file, and the client appears to have been harmed through higher fees and lost insurance. Log it as a potential breach and start an assessment.", quality: "best",
+            feedback: "Good. File reviews rely on evidence. An undocumented reason can't support the advice, and possible client harm means this goes into the breach process." },
+          { label: "Accept the adviser's explanation and rate it as compliant with a note to improve record keeping.", quality: "poor",
+            feedback: "That treats a possible best interests failure and client harm as an admin issue. The explanation also doesn't address the lost insurance or higher fees." },
+          { label: "Rate it as needing improvement and move on to the next file.", quality: "ok",
+            feedback: "Softer ratings often hide serious issues. With apparent client harm, it needs a breach assessment and remediation consideration." }
+        ] },
+      { id: "s3",
+        text: "You're concerned this may not be a one-off. What next?",
+        choices: [
+          { label: "Extend the review: look at more of this adviser's files, especially other rollovers into the same platform. Assess whether there is a significant breach to report to ASIC as a reportable situation, and plan remediation for affected clients.", quality: "best",
+            feedback: "Right. One bad file can signal a pattern. A targeted lookback finds the extent, supports the breach assessment and identifies every client needing remediation." },
+          { label: "Deal with this one client and keep the lookback quiet to avoid alarming the adviser.", quality: "poor",
+            feedback: "If there's a pattern, other clients are harmed too. The licensee must understand the extent of the problem." },
+          { label: "Terminate the adviser immediately.", quality: "ok",
+            feedback: "Consequences may follow, but first establish the facts. Supervision, restrictions or pre-vetting of the adviser's advice can protect clients while you investigate." }
+        ] },
+      { id: "s4",
+        text: "The lookback finds 14 similar rollovers. What does good remediation and closure look like?",
+        choices: [
+          { label: "Remediate every affected client in line with RG 277 (fee differences with earnings and, where insurance was lost, addressing that harm), report to ASIC as required, apply consequences to the adviser under the licensee's framework, and strengthen controls such as pre-vetting of rollover advice and conflict checks on product recommendations.", quality: "best",
+            feedback: "A complete response covers the clients, the regulator, the individual and the system. Lost insurance can be the most serious harm, so the remediation needs to deal with it specifically." },
+          { label: "Refund the extra fees and close it.", quality: "ok",
+            feedback: "A start, but it ignores lost earnings, the insurance harm and the control failures that let 14 rollovers through." },
+          { label: "Ask the platform provider to pay the remediation, since it gained from the rollovers.", quality: "poor",
+            feedback: "The licensee is responsible for its advisers' advice. Any cost-recovery arrangement shouldn't delay remediating clients." }
+        ] },
+      { id: "end", ending: true,
+        text: "The advice failures were found, their extent measured, affected clients remediated, ASIC informed and the controls strengthened.",
+        learn: [
+          { label: "Financial advice regulation", href: "/compliance/financial-advice-regulation.html" },
+          { label: "Financial advice licensees", href: "/sectors/financial-advice-licensees.html" },
+          { label: "RG 277 Consumer remediation", href: "/standards/asic-rg-277.html" },
+          { label: "Breach significance analysis", href: "/compliance/breach-significance-analysis.html" }
+        ] }
+    ]
   }
 ];

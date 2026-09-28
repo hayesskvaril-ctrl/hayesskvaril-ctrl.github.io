@@ -78,7 +78,7 @@ TOOLS = {
 
 LEARNING = [
     ("Topic quizzes", "/learn/quizzes.html", "Beginner", "Knowledge checks for every section, with explanations."),
-    ("Scenario simulations", "/learn/scenarios.html", "Intermediate", "Fee error breach, provider outage and whistleblower scenarios."),
+    ("Scenario simulations", "/learn/scenarios.html", "Intermediate", "Nine scenarios, from a fee error and a data breach to an AML suspicion and an advice file review."),
     ("Flashcards", "/learn/flashcards.html", "Beginner", "Glossary terms, key numbers and deadlines, and what each standard covers."),
     ("Learning pathways", "/learn/pathways.html", "Beginner", "Role-based reading orders with progress tracking."),
     ("Regulatory changes tracker", "/news/regulatory-tracker.html", "Intermediate", "Recent and upcoming changes with status and key dates."),
