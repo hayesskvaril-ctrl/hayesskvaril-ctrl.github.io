@@ -176,8 +176,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 **Case studies** (new `/case-studies/` section; each with timeline, what went wrong, regulatory response, lessons and sources; facts only from official reports and court outcomes)
 - [x] Case studies landing page and case study template
 - [x] Hayne Royal Commission (2019): themes and reforms that followed
-- [ ] APRA Prudential Inquiry into CBA (2018): governance, culture and accountability
-- [ ] AUSTRAC civil penalty cases (CBA 2018, Westpac 2020): AML/CTF control failures
+- [x] APRA Prudential Inquiry into CBA (2018): governance, culture and accountability
+- [x] AUSTRAC civil penalty cases (CBA 2018, Westpac 2020): AML/CTF control failures
 - [ ] Optus and Medibank data breaches (2022): cyber, privacy and regulatory response
 - [ ] HIH Insurance collapse (2001): governance and the origins of modern prudential regulation
 - [ ] Shield and First Guardian: platform, advice and trustee failures (link to existing commentary; update as court outcomes arrive)
