@@ -22,7 +22,8 @@
     out.innerHTML = 'Path 1 (configuration error AND reconciliation misses it): <strong>' + pct(r.p1) + '</strong><br>' +
       'Path 2 (override error AND review misses it): <strong>' + pct(r.p2) + '</strong><br>' +
       'Top event, members charged the wrong fee in a year (path 1 OR path 2): <strong>' + pct(r.t) + '</strong><br>' +
-      '<span class="small">Biggest single improvement: ' + opts[0][0] + ' (top event falls to ' + pct(opts[0][1]) + ').</span>';
+      '<span class="small">Biggest single improvement: ' + opts.filter(function (o) { return Math.abs(o[1] - opts[0][1]) < 1e-12; }).map(function (o) { return o[0]; }).join(', or ') +
+      ' (top event falls to ' + pct(opts[0][1]) + '). Within one path, halving the cause or halving the control failure has the same effect, because the probabilities multiply.</span>';
   }
   ids.forEach(function (i) { el[i].addEventListener('input', update); });
   update();
