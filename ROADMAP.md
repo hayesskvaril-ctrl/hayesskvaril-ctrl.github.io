@@ -206,7 +206,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 
 **Learning**
 - [x] New scenarios: privacy data breach assessment; disclosure review of a marketing campaign; conflicted related-party transaction; CPS 230 tolerance breach; AML suspicious matter; advice file review
-- [ ] Quiz questions for every new page (Phases 9–13), plus a News/current-affairs quiz
+- [x] Quiz questions for every new page (Phases 9–13), plus a News/current-affairs quiz
 - [ ] New flashcard decks: new glossary terms, advanced concepts, key dates for new regimes
 - [ ] Refresh learning pathways and Start here routes to include all new pages
 
