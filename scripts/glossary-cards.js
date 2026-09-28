@@ -169,6 +169,12 @@ window.GLOSSARY_CARDS = [
 "def": "A structured look at what would happen if a business process or service were disrupted: how quickly harm builds up, what the process depends on, and how fast it must be restored. It is the starting point for business continuity planning."
 },
 {
+"slug": "business-judgment-rule",
+"term": "Business judgment rule",
+"abbr": "",
+"def": "A protection in s 180(2) of the Corporations Act for directors and officers who make a business decision in good faith and for a proper purpose, without a material personal interest, having informed themselves appropriately, and rationally believing it is in the company's best interests. It only covers the duty of care and diligence."
+},
+{
 "slug": "claims-handling",
 "term": "Claims handling and settling services",
 "abbr": "",
@@ -337,6 +343,12 @@ window.GLOSSARY_CARDS = [
 "def": "The rules for add-on insurance sold alongside a car or other major purchase. The insurance generally cannot be sold until a waiting period has passed after the main sale, giving the customer time to consider whether they need it."
 },
 {
+"slug": "denominator-effect",
+"term": "Denominator effect",
+"abbr": "",
+"def": "When listed assets fall in value faster than unlisted assets are revalued, unlisted assets become a larger share of a portfolio without any new investment. Outflows paid from liquid assets make it larger still."
+},
+{
 "slug": "ddo",
 "term": "Design and distribution obligations",
 "abbr": "DDO",
@@ -371,6 +383,12 @@ window.GLOSSARY_CARDS = [
 "term": "Diversification benefit",
 "abbr": "",
 "def": "The amount by which a combined risk measure is lower than the simple sum of individual risks, because the risks are unlikely to all go wrong at once. It depends on correlation assumptions and can shrink sharply in a crisis."
+},
+{
+"slug": "dominant-message",
+"term": "Dominant message",
+"abbr": "",
+"def": "The main impression a communication creates, for example through its headline. Courts assess whether conduct is misleading by the overall impression, and fine print may not correct a misleading dominant message."
 },
 {
 "slug": "due-diligence",
@@ -907,6 +925,12 @@ window.GLOSSARY_CARDS = [
 "def": "A registrable superannuation entity licensee: the trustee company licensed by APRA to operate one or more APRA-regulated super funds."
 },
 {
+"slug": "run-rule",
+"term": "Run rule",
+"abbr": "",
+"def": "A statistical process control test that flags a sustained shift, such as a number of consecutive values above the average, even when no single value crosses a threshold. Useful for spotting gradual drift in key risk indicators."
+},
+{
 "slug": "sampling",
 "term": "Sampling (control testing)",
 "abbr": "",
@@ -979,6 +1003,18 @@ window.GLOSSARY_CARDS = [
 "def": "Testing how an organisation's finances or operations would hold up under extreme but plausible conditions, such as a sharp rise in unemployment or a market crash."
 },
 {
+"slug": "substitutability",
+"term": "Substitutability",
+"abbr": "",
+"def": "How easily a service provider could be replaced by another provider or by bringing the service in-house. Low substitutability calls for a more detailed, tested exit plan."
+},
+{
+"slug": "successor-fund-transfer",
+"term": "Successor fund transfer (SFT)",
+"abbr": "SFT",
+"def": "A transfer of super members' benefits from one fund to another without each member's consent, permitted where the successor fund confers equivalent rights in respect of their benefits. The usual mechanism for super fund mergers."
+},
+{
 "slug": "smr",
 "term": "Suspicious matter report",
 "abbr": "SMR",
@@ -1037,6 +1073,12 @@ window.GLOSSARY_CARDS = [
 "term": "Unfair contract term",
 "abbr": "",
 "def": "A term in a standard form consumer or small business contract that causes a significant imbalance, isn't reasonably necessary to protect the business, and would cause detriment. Since 9 November 2023, using such terms can attract penalties."
+},
+{
+"slug": "unit-price",
+"term": "Unit price",
+"abbr": "",
+"def": "The value of one unit in an investment option: net assets (after fees and tax provisions) divided by units on issue. Members' balances and transactions are calculated using unit prices, so pricing errors move value between members."
 },
 {
 "slug": "utmost-good-faith",

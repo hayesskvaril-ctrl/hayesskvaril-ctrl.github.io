@@ -55,7 +55,13 @@ P = [
      ("/risk-management/setting-cps-230-tolerance-levels.html", "A method for setting tolerance levels."),
      ("/risk-management/risk-aggregation-and-correlation.html", "From many risks to one enterprise risk profile."),
      ("/risk-management/control-testing-sampling.html", "Sample sizes, confidence and evidence."),
-     ("/standards/cps-190-and-cps-900.html", "Recovery, exit and resolution planning.")]),
+     ("/standards/cps-190-and-cps-900.html", "Recovery, exit and resolution planning."),
+     ("/risk-management/kri-design-and-thresholds.html", "Indicators that predict, and thresholds that mean something."),
+     ("/risk-management/root-cause-analysis.html", "5 whys, bow-tie and fault trees."),
+     ("/risk-management/human-factors-and-bias.html", "How bias distorts risk judgements, and how to counter it."),
+     ("/risk-management/mapping-critical-operations.html", "CPS 230 process and resource mapping."),
+     ("/risk-management/service-provider-exit-and-concentration.html", "Fourth parties, concentration and exit plans."),
+     ("/standards/aps-115.html", "How banks hold capital for operational risk.")]),
    ("Apply it", [
      ("/learn/risk-heat-map.html", "Build and score your own mini risk register."),
      ("/tools/rcsa-template.html", "Run a risk and control self-assessment."),
@@ -93,7 +99,12 @@ P = [
      ("/standards/iso-37001.html", "The anti-bribery management system standard.")]),
    ("Advanced", [
      ("/compliance/breach-significance-analysis.html", "Applying the significance tests to real-world style cases."),
-     ("/risk-management/control-testing-sampling.html", "How much compliance testing is enough.")]),
+     ("/risk-management/control-testing-sampling.html", "How much compliance testing is enough."),
+     ("/compliance/compliance-monitoring-and-testing.html", "Designing a risk-based monitoring and testing program."),
+     ("/compliance/interpreting-legislation.html", "Reading obligations the way courts do."),
+     ("/compliance/misleading-or-deceptive-conduct.html", "The legal tests behind disclosure review."),
+     ("/compliance/enforcement-and-penalties.html", "How regulators respond and penalties are set."),
+     ("/compliance/remediation-calculations.html", "Calculating what affected people are owed.")]),
    ("Apply it", [
      ("/tools/obligations-register-template.html", "Start an obligations register."),
      ("/tools/breach-register-template.html", "Log and track breaches and deadlines."),
@@ -124,7 +135,9 @@ P = [
    ("Advanced", [
      ("/governance/board-risk-reporting.html", "What good board risk reporting looks like."),
      ("/governance/risk-culture-assessment.html", "Assessing and changing risk culture."),
-     ("/risk-management/risk-aggregation-and-correlation.html", "How the enterprise risk profile is built.")]),
+     ("/risk-management/risk-aggregation-and-correlation.html", "How the enterprise risk profile is built."),
+     ("/governance/directors-duties-case-law.html", "What the courts say directors' and officers' duties require."),
+     ("/governance/reasonable-steps-and-consequence-management.html", "Evidencing reasonable steps and deciding consequences fairly.")]),
    ("Apply it", [
      ("/tools/example-risk-appetite-statement.html", "See a complete (fictional) risk appetite statement."),
      ("/tools/board-risk-report-template.html", "A template for the CRO's board report."),
@@ -155,7 +168,11 @@ P = [
    ("Advanced", [
      ("/risk-management/setting-cps-230-tolerance-levels.html", "Tolerance levels, with a super fund example."),
      ("/compliance/breach-significance-analysis.html", "Significance analysis, including a fee error case."),
-     ("/risk-management/scenario-analysis-and-stress-testing.html", "Liquidity and operational stress testing for funds.")]),
+     ("/risk-management/scenario-analysis-and-stress-testing.html", "Liquidity and operational stress testing for funds."),
+     ("/risk-management/super-liquidity-stress-testing.html", "Switching, hedging, unlisted assets and the denominator effect."),
+     ("/sectors/unit-pricing.html", "Unit pricing and unit pricing errors."),
+     ("/sectors/fund-mergers-and-successor-fund-transfers.html", "Successor fund transfers and merger risk."),
+     ("/compliance/remediation-calculations.html", "Remediation calculations for members.")]),
    ("Apply it", [
      ("/tools/material-service-provider-register.html", "Track material service providers."),
      ("/tools/remediation-program-tracker.html", "Track member remediation programs."),
@@ -177,6 +194,9 @@ P = [
      ("/standards/essential-eight.html", "The ASD Essential Eight and its maturity levels."),
      ("/governance/ai-governance.html", "AI risks and governance."),
      ("/standards/iso-42001.html", "The AI management system standard.")]),
+   ("Advanced", [
+     ("/case-studies/asic-cyber-cases-ri-advice-and-fiig.html", "How weak cyber security became a licensee breach."),
+     ("/risk-management/service-provider-exit-and-concentration.html", "Concentration in technology providers, and exit.")]),
    ("Apply it", [
      ("/case-studies/optus-medibank-data-breaches.html", "What the 2022 data breaches taught everyone."),
      ("/learn/scenarios.html", "Try \"The spreadsheet sent to the wrong person\" and \"The administrator goes dark\"."),
@@ -195,6 +215,9 @@ P = [
      ("/sectors/listed-companies.html", "Directors' duties, continuous disclosure and the ASX Principles."),
      ("/sectors/not-for-profits-and-charities.html", "ACNC standards and proportionate risk management."),
      ("/sectors/public-sector.html", "The PGPA Act and the Commonwealth Risk Management Policy.")]),
+   ("Advanced", [
+     ("/standards/aps-115.html", "Operational risk capital for banks."),
+     ("/governance/directors-duties-case-law.html", "Directors' duties through the cases.")]),
    ("Apply it", [
      ("/case-studies/", "Work through the case studies."),
      ("/learn/quizzes.html", "Take the Sectors quiz.")])]),

@@ -68,6 +68,10 @@ ROUTES = [
          ("/risk-management/risk-aggregation-and-correlation.html", "Building the enterprise risk profile."),
          ("/risk-management/control-testing-sampling.html", "Sample sizes, confidence and evidence standards."),
          ("/governance/board-risk-reporting.html", "Designing risk reporting for boards."),
+         ("/compliance/misleading-or-deceptive-conduct.html", "The legal tests behind disclosure review."),
+         ("/governance/directors-duties-case-law.html", "What the courts say directors' and officers' duties require."),
+         ("/risk-management/root-cause-analysis.html", "Root cause analysis, with a fault tree calculator."),
+         ("/learn/by-level.html", "Every Advanced page, listed in one place."),
      ],
      ("/learn/pathways.html#risk", "Next: the risk practitioner pathway")),
 ]

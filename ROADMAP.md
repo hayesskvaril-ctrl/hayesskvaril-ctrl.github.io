@@ -249,7 +249,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 **Deepen existing pages and learning**
 - [x] "Going deeper" Advanced sections on key Intermediate pages (CPS 230, risk appetite, third-party risk, incident and breach management, disclosure obligations, ERM)
 - [x] Advanced quiz set and two multi-regime Advanced scenarios
-- [ ] Update pathways, Start here and flashcards for the new Advanced pages
+- [x] Update pathways, Start here and flashcards for the new Advanced pages
 
 ## 🔁 Recurring upkeep (never ticked off; do on schedule)
 

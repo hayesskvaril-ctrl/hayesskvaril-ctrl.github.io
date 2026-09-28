@@ -8,6 +8,10 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-28", "/learn/by-level.html", "New Browse by level page, with a clear definition of Beginner, Intermediate and Advanced, and every page grouped by level."),
+    ("2026-09-28", "", "A new Advanced track: 17 new Advanced pages and case studies, from the legal tests for misleading conduct and directors' duties cases to APS 115 capital, KRI thresholds, root cause analysis, unit pricing and fund mergers, most with interactive calculators or simulators."),
+    ("2026-09-28", "/learn/quizzes.html", "New Advanced topics quiz, two multi-regime Advanced scenarios, seven new glossary terms and 13 new Advanced flashcards."),
+    ("2026-09-28", "/learn/pathways.html", "Added Advanced stages for the new pages to every learning pathway, and 'Going deeper' links from 19 Intermediate pages."),
     ("2026-09-28", "/compliance/breach-reporting.html", "Corrected the super trustee breach reporting timeframe (SIS Act s 29JA) to \"as soon as practicable, and within 30 days\" across the site and the incident report template."),
     ("2026-09-28", "", "Site-wide review: accessibility fixes (heading order and table headers), updated section descriptions, and consistency checks of regulatory deadlines across pages."),
     ("2026-09-28", "/learn/pathways.html", "Refreshed the learning pathways with the new standards, templates, case studies and scenarios, and added a pathway for banking, insurance and other sectors."),
