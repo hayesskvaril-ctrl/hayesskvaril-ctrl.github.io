@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APS 115 operational risk capital explained | RiskLens Australia</title>
+<meta name="description" content="An advanced explainer of APRA's APS 115: the standardised measurement approach to operational risk capital for ADIs, the business indicator, the 12%, 15% and 18% tiers, a calculator, a worked example and the trade-offs in the design.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/standards/aps-115.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="APS 115 operational risk capital explained">
+<meta property="og:description" content="An advanced explainer of APRA&#x27;s APS 115: the standardised measurement approach to operational risk capital for ADIs, the business indicator, the 12%, 15% and 18% tiers, a calculator, a worked example and the trade-offs in the design.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/standards/aps-115.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/" aria-current="page">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/standards/">Standards</a></li><li>APS 115</li></ol></nav>
+
+  <h1>APS 115 Operational risk capital</h1>
+  <p class="summary">How APRA sets the capital banks must hold for <a class="term" href="/glossary/#operational-risk">operational risk</a>: the business indicator, the tiered formula, a calculator and the debates behind the design.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 12 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>APS 115 sets operational risk capital for ADIs using a formula based on the size of the business, not the bank's own models.</li>
+      <li>Capital is 12% of the business indicator up to $1.5 billion, 15% of the part up to $45 billion and 18% above that. Multiply by 12.5 for risk-weighted assets.</li>
+      <li>The business indicator combines interest, services and financial components, averaged over three years.</li>
+      <li>The approach is simple and comparable, but not sensitive to the quality of risk management. Supervision and Pillar 2 capital fill that gap.</li>
+      <li>Quantitative models are still used for scenario analysis, stress testing and the <a class="term" href="/glossary/#icaap">ICAAP</a>.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>Banks hold capital so they can absorb unexpected losses and keep operating. Some of those losses come from operational risk: fraud, system failures, processing errors, legal claims. APS 115 sets how much capital an <a class="term" href="/glossary/#adi">authorised deposit-taking institution</a> (ADI) must hold for operational risk.</p>
+  <p>Rather than letting each bank model its own losses, APS 115 uses a formula based on the size of the bank's business, measured through its income. Bigger businesses hold proportionately more. This page explains the formula, lets you try it, and discusses the trade-offs behind the design. For modelling approaches, see <a class="xref" href="/risk-management/quantitative-operational-risk.html">quantitative operational risk</a>.</p>
+
+  <h2>The formula</h2>
+  <p>APS 115 starts with the <strong>business indicator (BI)</strong>, a measure of the size of the ADI's business built from its financial statements, averaged over three years. The capital requirement is then calculated in tiers, like marginal tax rates:</p>
+  <div class="table-wrap">
+    <table>
+      <caption>Operational risk capital under APS 115</caption>
+      <thead><tr><th scope="col">Part of the business indicator</th><th scope="col">Capital rate on that part</th></tr></thead>
+      <tbody>
+        <tr><td>Up to $1.5 billion</td><td>12%</td></tr>
+        <tr><td>Above $1.5 billion, up to $45 billion</td><td>15% (12% plus an extra 3%)</td></tr>
+        <tr><td>Above $45 billion</td><td>18% (12% plus a further 3%)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The capital amount is converted into operational risk-weighted assets by multiplying by 12.5, so it can be combined with credit and market risk in the capital ratios under <a class="xref" href="/standards/aps-110-and-aps-210.html">APS 110</a>.</p>
+
+  <h2>What goes into the business indicator</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Component</th><th scope="col">What it captures (simplified)</th></tr></thead>
+      <tbody>
+        <tr><td>Interest, leases and dividend component (ILDC)</td><td>Net interest and lease income, limited by a cap linked to the size of interest-earning assets (2.25% of them), plus dividend income.</td></tr>
+        <tr><td>Services component (SC)</td><td>Fee and commission income or expense, and other operating income or expense.</td></tr>
+        <tr><td>Financial component (FC)</td><td>Net profit or loss on the trading book and the banking book.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="small">The standard defines each item precisely, including which accounting lines are included and how the three-year averages work. This table is a simplified guide.</p>
+
+  <div class="widget" id="sma-calc">
+    <h3>Try it: operational risk capital for an illustrative ADI</h3>
+    <div class="controls">
+      <div><label for="sma-ildc">Interest, leases and dividend component ($ billion)</label><input type="number" id="sma-ildc" value="12" min="0" step="0.1"></div>
+      <div><label for="sma-sc">Services component ($ billion)</label><input type="number" id="sma-sc" value="4" min="0" step="0.1"></div>
+      <div><label for="sma-fc">Financial component ($ billion)</label><input type="number" id="sma-fc" value="1" min="0" step="0.1"></div>
+    </div>
+    <div class="sma-bar" aria-hidden="true"></div>
+    <p class="result" aria-live="polite"></p>
+    <noscript><p>The calculator needs JavaScript. The worked example below shows the calculation.</p></noscript>
+    <p class="small">Illustrative. Real calculations use the standard's definitions and three-year averages, and APRA can require more capital.</p>
+  </div>
+
+  <h2>Worked example</h2>
+  <p>An ADI has a business indicator of $17 billion ($12 billion ILDC, $4 billion services, $1 billion financial).</p>
+  <ul>
+    <li>First $1.5 billion at 12% = $0.18 billion</li>
+    <li>Next $15.5 billion (from $1.5 billion to $17 billion) at 15% = $2.325 billion</li>
+    <li>Operational risk capital = <strong>$2.505 billion</strong>, an effective rate of about 14.7% of the BI</li>
+    <li>Operational risk-weighted assets = $2.505 billion × 12.5 = <strong>about $31.3 billion</strong></li>
+  </ul>
+  <p>If the ADI's fee income grew by $1 billion, its capital would rise by $150 million, whether or not its controls improved at the same time. That is the central trade-off in this design.</p>
+
+  <h2>Why a formula and not models?</h2>
+  <p>Before 2023, some large ADIs used their own models (the advanced measurement approaches) to calculate operational risk capital. Internationally, the Basel Committee concluded that model-based results varied too much between banks with similar risks to be comparable, and replaced them with a standardised approach in its 2017 Basel III reforms. APRA implemented its version, APS 115, from 1 January 2023.</p>
+  <p>The Basel framework also allows capital to be scaled up or down using a bank's own loss history (an internal loss multiplier). APRA's formula in APS 115 is based on the business indicator alone.</p>
+  <div class="table-wrap">
+    <table>
+      <caption>Trade-offs in a size-based approach</caption>
+      <thead><tr><th scope="col">Strengths</th><th scope="col">Limitations</th></tr></thead>
+      <tbody>
+        <tr><td>Simple, transparent and comparable across ADIs.</td><td>Not risk-sensitive: two ADIs of the same size hold the same capital, however different their controls.</td></tr>
+        <tr><td>Hard to game through modelling choices.</td><td>Capital follows income. A business line with high fees attracts more capital even if its operational risk is low.</td></tr>
+        <tr><td>Stable and predictable for planning.</td><td>Doesn't directly reward better risk management, so the incentive to invest in controls has to come from elsewhere (supervision, Pillar 2, culture).</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Beyond the minimum: Pillar 2 and supervision</h2>
+  <p>APS 115 sets a floor, not the whole answer. APRA can require an ADI to hold more capital where it has concerns about risk management, governance or particular exposures. The best-known example was the additional $1 billion of operational risk capital APRA required of CBA after its 2018 prudential inquiry (see <a class="xref" href="/case-studies/apra-cba-prudential-inquiry.html">the CBA case study</a>). ADIs also assess their own capital needs, including for operational risk, in their ICAAP.</p>
+  <p>This is why quantitative methods remain useful even though they no longer set the minimum: scenario analysis, loss distribution modelling and stress testing help an ADI understand whether the formula's answer is enough for its actual risk profile. See <a class="xref" href="/risk-management/scenario-analysis-and-stress-testing.html">scenario analysis and stress testing</a>.</p>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. Under APS 115, what capital rate applies to the part of the business indicator between $1.5 billion and $45 billion?</p>
+      <div class="q-options"><button type="button" data-value="a">12%</button><button type="button" data-value="b">15%</button><button type="button" data-value="c">18%</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>12% up to $1.5 billion, 15% from $1.5 billion to $45 billion, 18% above $45 billion.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">2. How is operational risk capital converted to risk-weighted assets?</p>
+      <div class="q-options"><button type="button" data-value="a">Divide by 8</button><button type="button" data-value="b">Multiply by 12.5</button><button type="button" data-value="c">Multiply by 3</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Capital × 12.5 gives operational risk-weighted assets.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. What is the main criticism of a size-based approach?</p>
+      <div class="q-options"><button type="button" data-value="a">It is too complex</button><button type="button" data-value="b">It isn't sensitive to the quality of an ADI's risk management</button><button type="button" data-value="c">It uses too much loss data</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Two ADIs of the same size hold the same capital, whatever their controls.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/quantitative-operational-risk.html" data-label="Quantitative operational risk"><a href="/risk-management/quantitative-operational-risk.html">Quantitative operational risk</a></li>
+      <li data-href="/standards/aps-110-and-aps-210.html" data-label="APS 110 capital and APS 210 liquidity"><a href="/standards/aps-110-and-aps-210.html">APS 110 capital and APS 210 liquidity</a></li>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk"><a href="/risk-management/operational-risk.html">Operational risk</a></li>
+      <li data-href="/sectors/banking.html" data-label="Banking and ADIs"><a href="/sectors/banking.html">Banking and ADIs</a></li>
+      <li data-href="/case-studies/apra-cba-prudential-inquiry.html" data-label="APRA prudential inquiry into CBA"><a href="/case-studies/apra-cba-prudential-inquiry.html">APRA prudential inquiry into CBA</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/aps-115">Prudential Standard APS 115 Capital Adequacy: Standardised Measurement Approach to Operational Risk</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/operational-risk-capital-frequently-asked-questions">Operational risk capital: frequently asked questions</a>.</li>
+      <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d424.htm">Basel III: Finalising post-crisis reforms</a> (December 2017).</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/sma-calc.js"></script>
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>
