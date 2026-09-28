@@ -184,13 +184,13 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Case-study quizzes and "what would you have done?" prompts
 
 **Sectors**
-- [ ] Credit licensees and non-bank lenders (responsible lending, hardship, credit reporting, BNPL)
-- [ ] Financial advice licensees (sector view, linking to the advice regulation page)
-- [ ] Payments and fintech (payments licensing reforms, stored value, CDR, scams obligations)
-- [ ] Listed companies (ASX Principles, continuous disclosure, directors' duties)
-- [ ] Public sector (PGPA Act, Commonwealth Risk Management Policy, fraud and corruption control)
-- [ ] Not-for-profits and charities (ACNC governance standards, risk for smaller organisations)
-- [ ] Update the sectors comparison table and landing page
+- [x] Credit licensees and non-bank lenders (responsible lending, hardship, credit reporting, BNPL)
+- [x] Financial advice licensees (sector view, linking to the advice regulation page)
+- [x] Payments and fintech (payments licensing reforms, stored value, CDR, scams obligations)
+- [x] Listed companies (ASX Principles, continuous disclosure, directors' duties)
+- [x] Public sector (PGPA Act, Commonwealth Risk Management Policy, fraud and corruption control)
+- [x] Not-for-profits and charities (ACNC governance standards, risk for smaller organisations)
+- [x] Update the sectors comparison table and landing page
 
 ## Phase 14 — Tools, learning and ongoing upkeep
 
