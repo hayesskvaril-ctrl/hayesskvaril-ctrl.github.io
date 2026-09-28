@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liquidity stress testing for super funds | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to liquidity risk in superannuation: SPS 530 requirements, member switching, rollovers, currency hedging and unlisted assets, the denominator effect, fairness between members and designing stress tests, with an interactive simulator.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/super-liquidity-stress-testing.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Liquidity stress testing for super funds">
+<meta property="og:description" content="An advanced guide to liquidity risk in superannuation: SPS 530 requirements, member switching, rollovers, currency hedging and unlisted assets, the denominator effect, fairness between members and designing stress tests, with an interactive simulator.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/super-liquidity-stress-testing.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Super liquidity stress testing</li></ol></nav>
+
+  <h1>Liquidity stress testing for super funds</h1>
+  <p class="summary">Why <a class="term" href="/glossary/#liquidity-risk">liquidity risk</a> in super is distinctive, how the denominator effect and stale valuations catch funds out, and how to design stress tests that matter, with a simulator.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 15 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>SPS 530 requires a liquidity management plan and a comprehensive <a class="term" href="/glossary/#stress-testing">stress testing</a> program completed at least annually, with results reported to the board.</li>
+      <li>Super liquidity pressure combines member switching, rollovers, currency hedge settlements and policy shocks such as the 2020 early release scheme.</li>
+      <li>When listed markets fall faster than unlisted valuations, unlisted assets grow as a share of the option: the denominator effect.</li>
+      <li>Stale valuations can transfer value from members who stay to members who leave. Liquidity and valuation governance are linked.</li>
+      <li>Passing a coverage test isn't enough: test timing, behaviour, asset liquidity and whether the strategy can be maintained.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>A super fund must always be able to pay benefits, rollovers and switches when members ask, even in a market crash. Most of the time that's easy: contributions come in, and most assets can be sold quickly. The risk is a combination: markets fall, members switch or leave, currency hedges need cash, and the unlisted assets that looked like good long-term investments can't be sold quickly or at a fair price.</p>
+  <p>Liquidity stress testing asks how that combination would play out, and what the fund would need to do. This page explains the mechanics that make super liquidity distinctive, with a simulator to explore them. It builds on <a class="xref" href="/standards/sps-530.html">SPS 530 Investment Governance</a> and <a class="xref" href="/risk-management/scenario-analysis-and-stress-testing.html">scenario analysis and stress testing</a>.</p>
+
+  <h2>What SPS 530 requires (summary)</h2>
+  <ul>
+    <li>A liquidity management plan for the fund and its investment options, identifying who manages and oversees liquidity risk and the key metrics reported to the board.</li>
+    <li>Liquidity stress testing as part of a comprehensive stress testing program, completed at least annually, with documented methodology, assumptions, triggers for ad hoc testing and processes to ensure data is reliable.</li>
+    <li>Board reporting that shows the outcomes, the assumptions, and the actions available where tolerances would be breached.</li>
+  </ul>
+  <p class="small">Paraphrased from SPS 530 as strengthened from 1 January 2023. APRA has also published material on the governance of unlisted asset valuation and liquidity risk management (December 2024).</p>
+
+  <h2>Why super liquidity is different</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Driver</th><th scope="col">How it creates liquidity pressure</th></tr></thead>
+      <tbody>
+        <tr><td>Member switching</td><td>Members can switch from growth options to cash, often after markets have fallen. The option must sell assets to meet switches, just when prices are low.</td></tr>
+        <tr><td>Rollovers</td><td>Members can move to another fund, and rollover requests generally must be processed within short legal timeframes.</td></tr>
+        <tr><td>Currency hedging</td><td>If the Australian dollar falls sharply, hedging contracts on foreign assets can require large cash settlements, at the same time as markets fall.</td></tr>
+        <tr><td>Policy shocks</td><td>Government decisions can create sudden outflows. The COVID-19 early release scheme paid about $36.4 billion from super accounts to 4.8 million applications in 2020.</td></tr>
+        <tr><td>Unlisted assets</td><td>Property, infrastructure and private equity or credit can't be sold quickly, and their valuations update more slowly than listed markets.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Two effects that catch funds out</h2>
+  <h3>The denominator effect</h3>
+  <p>When listed markets fall and unlisted valuations don't (yet), unlisted assets become a bigger share of the option, even though nothing was bought. Outflows paid from liquid assets make it worse. An option can drift above its strategic range for unlisted assets without anyone making an investment decision.</p>
+  <h3>Unfairness between members</h3>
+  <p>If unlisted assets are carried at stale, higher values while listed markets have fallen, the unit price overstates what the option is really worth. Members who leave are paid out at that price, and members who stay bear the difference. This is why valuation governance and liquidity management are linked: both are about treating members fairly as well as paying them on time.</p>
+
+  <div class="widget" id="liq-sim">
+    <h3>Try it: stress a Balanced option</h3>
+    <p class="small">All figures per $100 of option assets. Listed assets are whatever isn't cash or unlisted.</p>
+    <div class="controls">
+      <div><label for="ls-cash">Cash: <output for="ls-cash">5%</output></label><input type="range" id="ls-cash" min="0" max="30" step="1" value="5"></div>
+      <div><label for="ls-unl">Unlisted assets: <output for="ls-unl">25%</output></label><input type="range" id="ls-unl" min="0" max="60" step="1" value="25"></div>
+      <div><label for="ls-fall">Fall in listed markets: <output for="ls-fall">30%</output></label><input type="range" id="ls-fall" min="0" max="60" step="1" value="30"></div>
+      <div><label for="ls-unlfall">Fall in unlisted valuations (so far): <output for="ls-unlfall">5%</output></label><input type="range" id="ls-unlfall" min="0" max="60" step="1" value="5"></div>
+      <div><label for="ls-switch">Switches out of the option: <output for="ls-switch">5%</output></label><input type="range" id="ls-switch" min="0" max="30" step="1" value="5"></div>
+      <div><label for="ls-roll">Rollovers to other funds: <output for="ls-roll">3%</output></label><input type="range" id="ls-roll" min="0" max="20" step="1" value="3"></div>
+      <div><label for="ls-ben">Benefit payments and special releases: <output for="ls-ben">3%</output></label><input type="range" id="ls-ben" min="0" max="20" step="1" value="3"></div>
+      <div><label for="ls-fx">Currency hedge settlements: <output for="ls-fx">4%</output></label><input type="range" id="ls-fx" min="0" max="20" step="1" value="4"></div>
+      <div><label for="ls-max">Strategic maximum for unlisted assets: <output for="ls-max">30%</output></label><input type="range" id="ls-max" min="0" max="60" step="1" value="30"></div>
+    </div>
+    <p class="result" aria-live="polite"></p>
+    <noscript><p>The simulator needs JavaScript.</p></noscript>
+    <p class="small">A deliberately simple, one-period model. Real stress tests model timing (daily, weekly, monthly), contributions, the order in which assets can be sold, and management actions.</p>
+  </div>
+  <p>With the default settings, the option can comfortably pay its outflows, yet unlisted assets end up well above the strategic maximum. Passing a coverage test doesn't mean the option is fine.</p>
+
+  <h2>Designing a liquidity stress test</h2>
+  <ol>
+    <li><strong>Scenarios:</strong> include a historical scenario (such as March 2020), a hypothetical severe scenario, and a <a class="term" href="/glossary/#reverse-stress-testing">reverse stress test</a>: what combination of events would make the option unable to pay, or force a breach of its strategy?</li>
+    <li><strong>Behavioural assumptions:</strong> switching and rollover rates are the hardest to estimate and the most important. Use your own data, test sensitivity and assume worse behaviour in a crisis than in normal times.</li>
+    <li><strong>Timing:</strong> test over short horizons (days and weeks), not just one year. Liquidity problems are about timing.</li>
+    <li><strong>Liquidity of assets:</strong> classify assets by how fast they can realistically be sold and at what discount in stress, including listed assets in thin markets.</li>
+    <li><strong>Management actions:</strong> list them in advance (rebalancing, using cash buffers, pausing some processes where the law allows), with triggers and decision rights. Don't assume actions that would harm remaining members.</li>
+    <li><strong>Metrics and limits:</strong> liquidity coverage under stress, unlisted asset ranges and time to restore strategic allocation, each linked to the <a class="term" href="/glossary/#risk-appetite-statement">risk appetite statement</a>.</li>
+  </ol>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. Listed markets fall 30%, unlisted valuations barely move, and outflows are paid from liquid assets. What happens to the unlisted share of the option?</p>
+      <div class="q-options"><button type="button" data-value="a">It falls</button><button type="button" data-value="b">It rises, possibly above its strategic range</button><button type="button" data-value="c">It stays the same</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>This is the denominator effect, made worse by paying outflows from liquid assets.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">2. Why can stale unlisted valuations be unfair between members?</p>
+      <div class="q-options"><button type="button" data-value="a">They reduce fees</button><button type="button" data-value="b">Members leaving are paid at an overstated unit price, and members who stay bear the difference</button><button type="button" data-value="c">They affect only new members</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Valuation governance is about fairness as well as accuracy.</p>
+    </div>
+    <div class="q" data-answer="a">
+      <p class="q-text">3. How often must an RSE licensee's comprehensive stress testing program be completed under SPS 530?</p>
+      <div class="q-options"><button type="button" data-value="a">At least annually</button><button type="button" data-value="b">Every five years</button><button type="button" data-value="c">Only after a crisis</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>At least annually, with triggers for ad hoc testing.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/standards/sps-530.html" data-label="SPS 530 Investment Governance"><a href="/standards/sps-530.html">SPS 530 Investment Governance</a></li>
+      <li data-href="/risk-management/scenario-analysis-and-stress-testing.html" data-label="Scenario analysis and stress testing"><a href="/risk-management/scenario-analysis-and-stress-testing.html">Scenario analysis and stress testing</a></li>
+      <li data-href="/sectors/superannuation.html" data-label="Superannuation"><a href="/sectors/superannuation.html">Superannuation</a></li>
+      <li data-href="/risk-management/credit-market-and-liquidity-risk.html" data-label="Credit, market and liquidity risk"><a href="/risk-management/credit-market-and-liquidity-risk.html">Credit, market and liquidity risk</a></li>
+      <li data-href="/tools/example-risk-appetite-statement.html" data-label="Example risk appetite statement"><a href="/tools/example-risk-appetite-statement.html">Example risk appetite statement</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-530">Prudential Standard SPS 530 Investment Governance</a> and Prudential Practice Guide SPG 530.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/governance-unlisted-asset-valuation-and-liquidity-risk-management">Governance of Unlisted Asset Valuation and Liquidity Risk Management in Superannuation</a> (December 2024).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/covid-19-early-release-scheme-issue-36">COVID-19 Early Release Scheme, Issue 36</a> (final data to 31 January 2021).</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/liquidity-sim.js"></script>
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>

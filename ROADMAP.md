@@ -237,7 +237,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Human factors and cognitive bias in risk decisions
 - [x] Mapping critical operations end to end (CPS 230). Expert review.
 - [x] Service provider concentration, fourth parties and exit planning. Expert review.
-- [ ] Liquidity stress testing for super funds, with a simulator
+- [x] Liquidity stress testing for super funds, with a simulator
 - [ ] Interpreting legislation for compliance professionals
 - [ ] Designing a compliance monitoring and testing program. Expert review.
 - [ ] Remediation calculations in practice, with a calculator. Expert review.
