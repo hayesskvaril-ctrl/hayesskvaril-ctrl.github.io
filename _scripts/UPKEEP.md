@@ -62,6 +62,7 @@ Then commit, push to `main`, and check the live page.
 | Tracker (`tracker_data.py`) | `python3 _scripts/build_tracker.py` |
 | Learning pathways | `python3 _scripts/build_pathways.py` |
 | Start here routes | `python3 _scripts/build_start_here.py` |
+| A page's level, or a new page | `python3 _scripts/build_levels.py` (Browse by level) |
 | Resource library list, or a new tool or self-check | `python3 _scripts/build_resources.py` |
 | What's new entries | `python3 _scripts/build_changelog.py` |
 | A spreadsheet or Word template | see `_scripts/templates/README.md` |

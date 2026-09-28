@@ -214,6 +214,43 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Upkeep checklist in `_scripts/UPKEEP.md` (what to check monthly, quarterly and yearly, and how)
 - [x] Automated checks bundled into one command (`python3 _scripts/run_checks.py`) (links, review due dates, passed regulatory dates, tracker items past their dates)
 
+## Phase 15 — Levels review and the Advanced track
+
+**Why:** a September 2026 analysis found 25 Beginner, 83 Intermediate and only 8 Advanced pages, with no Advanced content at all in the standards library, sectors or case studies. Intermediate had become a catch-all.
+
+**Level rubric** (applies to every page; tag a page by its entry level)
+- **Beginner:** "What is it and why does it matter?" No prior knowledge assumed. Purpose, big picture, vocabulary.
+- **Intermediate:** "What does it require, and how do organisations do it?" Assumes the Foundations. Specific obligations, processes, timeframes and practical tools.
+- **Advanced:** "How do you exercise judgement when it's hard?" Assumes working knowledge. Legal tests and case law, quantitative methods, design trade-offs, grey areas, research evidence, interactions between regimes, board and regulator perspectives.
+
+**Levels**
+- [x] Publish the rubric and a generated "Browse by level" page; correct mislabelled pages
+- [ ] Add "Advanced topics" sections to the standards, sectors and case studies landing pages
+
+**New Advanced pages** (each with worked examples, a diagram or interactive, and primary sources)
+- [ ] Root cause analysis: 5 whys, fishbone, bow-tie and fault trees. Expert review.
+- [ ] Misleading or deceptive conduct: the legal tests and key cases (disclosure review). Expert review.
+- [ ] Directors' and officers' duties: key Australian cases
+- [ ] Enforcement and penalties: how regulators respond and how penalties are set
+- [ ] APS 115 operational risk capital (standardised measurement approach), with a calculator
+- [ ] KRI design and statistical thresholds, with an interactive control chart
+- [ ] Human factors and cognitive bias in risk decisions
+- [ ] Mapping critical operations end to end (CPS 230). Expert review.
+- [ ] Service provider concentration, fourth parties and exit planning. Expert review.
+- [ ] Liquidity stress testing for super funds, with a simulator
+- [ ] Interpreting legislation for compliance professionals
+- [ ] Designing a compliance monitoring and testing program. Expert review.
+- [ ] Remediation calculations in practice, with a calculator. Expert review.
+- [ ] Reasonable steps and consequence management under FAR
+- [ ] Unit pricing and unit pricing errors (super). Expert review.
+- [ ] Fund mergers and successor fund transfers
+- [ ] Advanced case study: ASIC v RI Advice (cyber risk as a licensee obligation)
+
+**Deepen existing pages and learning**
+- [ ] "Going deeper" Advanced sections on key Intermediate pages (CPS 230, risk appetite, third-party risk, incident and breach management, disclosure obligations, ERM)
+- [ ] Advanced quiz set and two multi-regime Advanced scenarios
+- [ ] Update pathways, Start here and flashcards for the new Advanced pages
+
 ## 🔁 Recurring upkeep (never ticked off; do on schedule)
 
 - **Monthly:** run `python3 _scripts/run_checks.py` and follow `_scripts/UPKEEP.md`; publish a news item or roundup when there are material developments; check the regulatory tracker for items whose dates have passed and move them to "In force".
