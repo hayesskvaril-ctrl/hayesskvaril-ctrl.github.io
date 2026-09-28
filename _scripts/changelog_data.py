@@ -8,6 +8,8 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-28", "/compliance/breach-reporting.html", "Corrected the super trustee breach reporting timeframe (SIS Act s 29JA) to \"as soon as practicable, and within 30 days\" across the site and the incident report template."),
+    ("2026-09-28", "", "Site-wide review: accessibility fixes (heading order and table headers), updated section descriptions, and consistency checks of regulatory deadlines across pages."),
     ("2026-09-28", "/learn/pathways.html", "Refreshed the learning pathways with the new standards, templates, case studies and scenarios, and added a pathway for banking, insurance and other sectors."),
     ("2026-09-28", "/learn/flashcards.html", "Three new flashcard decks: newer glossary terms, advanced concepts, and key dates for new and changing regimes. The standards deck now covers 32 standards and guides."),
     ("2026-09-28", "/learn/quizzes.html", "Added 55 quiz questions covering every page added since the last quiz update, plus a new News and current affairs quiz."),

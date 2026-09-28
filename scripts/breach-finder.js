@@ -17,7 +17,7 @@
     { id: 'cps234', when: function (f) { return f.apra && f.cyber; },
       name: 'APRA: material information security incident (CPS 234)', time: 'No later than 72 hours', link: '#apra' },
     { id: 'sis', when: function (f) { return f.super && f.breach; },
-      name: 'APRA: significant breach by an RSE licensee (SIS Act s 29JA)', time: 'Within 30 days (some matters immediately)', link: '#apra' },
+      name: 'APRA: significant breach by an RSE licensee (SIS Act s 29JA)', time: 'As soon as practicable, and within 30 days', link: '#apra' },
     { id: 'ndb', when: function (f) { return f.personal; },
       name: 'OAIC: possible eligible data breach (Privacy Act)', time: 'Assess within 30 days; notify as soon as practicable', link: '#oaic' },
     { id: 'ddo', when: function (f) { return f.afsl && f.ddo; },

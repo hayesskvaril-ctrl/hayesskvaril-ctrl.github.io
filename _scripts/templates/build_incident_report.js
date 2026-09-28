@@ -115,7 +115,7 @@ const children = [
     ['ASIC reportable situation (AFS and credit licensees)', 'Significant breach or likely significant breach of a core obligation, and some other situations: within 30 calendar days of awareness. Long-running investigations are also reportable.', '', ''],
     ['APRA CPS 230 (APRA-regulated entities)', 'Disruption to a critical operation outside tolerance: 24 hours. Material operational risk incident: 72 hours.', '', ''],
     ['APRA CPS 234 (APRA-regulated entities)', 'Material information security incident: 72 hours. Material control weakness not remediated in time: 10 business days.', '', ''],
-    ['APRA, SIS Act s 29JA (super trustees)', 'Significant breach of RSE licensee law and certain other matters: in writing within 30 days (some matters immediately).', '', ''],
+    ['APRA, SIS Act s 29JA (super trustees)', 'Significant breach of RSE licensee law and certain other matters: in writing as soon as practicable, and within 30 days.', '', ''],
     ['OAIC Notifiable Data Breaches scheme', 'Reasonable grounds to suspect an eligible data breach: assess, generally within 30 days. Eligible breach: notify the OAIC and affected individuals as soon as practicable.', '', ''],
     ['AUSTRAC (reporting entities)', 'Suspicious matter report: 3 business days (24 hours for terrorism financing). Don\'t tip off the customer.', '', ''],
     ['Affected customers or members', 'Consider disclosure and remediation obligations, e.g. s 912EA for personal advice licensees and ASIC RG 277 on remediation.', '', ''],

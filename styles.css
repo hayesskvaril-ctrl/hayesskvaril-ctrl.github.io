@@ -316,6 +316,7 @@ h2 .level, h3 .level { margin-left: 8px; font-size: 10.5px; }
   margin: 22px 0;
 }
 .callout h3, .callout h4 { margin-top: 0; }
+.callout h2 { margin-top: 0; font-size: 19.5px; letter-spacing: -0.01em; }
 .callout.warn { border-left-color: var(--amber); background: linear-gradient(135deg, rgba(251, 191, 36, 0.07), rgba(13, 21, 38, 0.78) 60%); }
 .callout.example { border-left-color: var(--green); background: linear-gradient(135deg, rgba(52, 211, 153, 0.07), rgba(13, 21, 38, 0.78) 60%); }
 

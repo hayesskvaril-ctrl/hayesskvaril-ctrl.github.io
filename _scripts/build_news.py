@@ -86,6 +86,7 @@ html = f'''<!DOCTYPE html>
     <span>Latest update: {latest}</span>
   </div>
 
+  <h2 class="visually-hidden">Tracker</h2>
   <div class="cards">
 <!-- CARD href="/news/regulatory-tracker.html" level="Intermediate" -->
 <a class="card" href="/news/regulatory-tracker.html">
@@ -97,7 +98,7 @@ html = f'''<!DOCTYPE html>
   </div>
 
   <div class="callout">
-    <h3>News is general information</h3>
+    <h2>News is general information</h2>
     <p>Articles summarise developments as at their publication date and are not advice. Proposals can change before they are finalised, so always check the official source. Commentary pieces are clearly labelled and reflect RiskLens Australia's analysis.</p>
   </div>
 

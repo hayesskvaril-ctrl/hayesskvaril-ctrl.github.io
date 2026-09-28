@@ -27,7 +27,7 @@ window.SCENARIOS = [
           { label: "Assess it against the core obligations (for example, efficiently, honestly and fairly) and the deemed-significance tests, including whether it has caused or is likely to cause material loss or damage to members. Document the reasoning.", quality: "best",
             feedback: "Good. A breach causing, or likely to cause, material loss or damage to clients can be deemed significant. Documenting the reasoning either way is essential evidence." },
           { label: "It's only reportable if the total overcharge exceeds $1 million.", quality: "poor",
-            feedback: "There is no dollar threshold in the reportable situations regime. Significance is assessed against the legal tests, and many small losses across many members can be material." },
+            feedback: "There is no general dollar threshold. Significance is assessed against the legal tests, and many small losses across many members can be material. (ASIC relief removes the need to report some minor breaches affecting only a few customers, but it wouldn't cover losses across 3,000 members.)" },
           { label: "It was the administrator's error, so it's the administrator's breach to report, not the fund's.", quality: "poor",
             feedback: "Outsourcing doesn't transfer accountability. The trustee remains responsible for members' outcomes and for its own reporting obligations." }
         ] },

@@ -59,7 +59,7 @@
       tb.appendChild(tr);
     }
     var fr = document.createElement('tr');
-    fr.appendChild(document.createElement('th'));
+    var corner = document.createElement('th'); corner.innerHTML = '<span class="visually-hidden">Likelihood</span>'; fr.appendChild(corner);
     CON.forEach(function (name) {
       var th = document.createElement('th'); th.scope = 'col'; th.textContent = name; fr.appendChild(th);
     });

@@ -104,7 +104,7 @@ html = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Start here | RiskLens Australia</title>
-<meta name="description" content="New to RiskLens Australia? Pick a short route: foundations for newcomers, quick reference for risk and compliance practitioners, or the governance essentials for boards and executives.">
+<meta name="description" content="New to RiskLens Australia? Pick a short route: foundations for newcomers, quick reference for practitioners, governance essentials for boards and executives, or a route through the advanced topics.">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -116,7 +116,7 @@ html = f'''<!DOCTYPE html>
   <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li>Start here</li></ol></nav>
 
   <h1>Start here</h1>
-  <p class="summary">RiskLens Australia has over 80 pages, tools and templates. Pick the route that fits you and follow the steps in order.</p>
+  <p class="summary">RiskLens Australia has over 120 pages, plus free templates and interactive tools. Pick the route that fits you and follow the steps in order.</p>
   <div class="page-meta">
     <span class="level level-beginner">Beginner</span>
     <span>Last reviewed: {REVIEWED}</span>

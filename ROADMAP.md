@@ -235,6 +235,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 ## Ideas / backlog
 
 Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.
+- **Idea:** automatic monthly check of external links (to APRA, ASIC, legislation and other sources) using a free GitHub Actions link checker. External links can't be tested from the build environment, so broken source links would currently only be found at each page's yearly review.
 
 - **Next roundup:** after the final CPS 510 and the ASIC/APRA FAR changes (see Recurring upkeep for the cadence).
 
@@ -250,6 +251,7 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Nick to review (Phase 10):** Setting CPS 230 tolerance levels (method, worked examples for super and bank, the builder's example ratings); Breach significance analysis (the four worked cases and their illustrative conclusions, the multi-regime table); Control testing sampling (sample size tables, deviation handling, evidence standards).
 - **Nick to review (Phase 13):** Shield and First Guardian case study (platform trustee lessons, 'what would you have done?' answers). Update it as court outcomes arrive.
 - **Nick to review (Phase 12):** Assurance mapping (example map) and Issue and action management (rating scale, timeframes, closure vs validation).
+- **Nick to review (site review, 28 September 2026):** the SIS Act s 29JA timeframe now reads "as soon as practicable, and within 30 days" everywhere (the earlier "some matters immediately" wording couldn't be verified for RSE licensees). Pages: breach reporting, breach significance analysis, incident and breach management, the reporting regime finder and the incident report template.
 - **Nick to review (Phase 14 scenarios):** the six new scenarios in `scripts/scenarios-data.js`: privacy breach, marketing campaign review, related-party conflict, CPS 230 tolerance breach, AML suspicion and advice file review (the 'best' answers and feedback).
 - **Nick to review (Phase 14):** Remediation program tracker (columns, residual options, example REM-01), control testing workpaper (test plan fields, worked example and conclusion), and the example risk appetite statement (super metrics and thresholds, escalation timeframes).
 - **Nick to review (Phase 9):** RG 97 fees and costs explainer, especially the fee governance section and the illustrative worked example.
