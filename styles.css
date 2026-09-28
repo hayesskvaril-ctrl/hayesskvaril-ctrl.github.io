@@ -1238,3 +1238,11 @@ td .badge { white-space: nowrap; }
 .ai-checks label:first-of-type { border-top: none; }
 .ai-checks input[type="checkbox"] { width: 20px; height: 20px; margin-top: 3px; flex: none; }
 .ai-controls { margin-top: 10px; }
+
+/* Case study timelines */
+.timeline { list-style: none; margin: 18px 0 24px; padding: 0 0 0 22px; border-left: 2px solid var(--border-strong); }
+.timeline li { position: relative; margin: 0 0 16px; padding-left: 6px; }
+.timeline li::before { content: ""; position: absolute; left: -30px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.15); }
+.timeline .when { display: block; font-family: var(--font-mono); font-size: 13px; color: var(--cyan); letter-spacing: 0.04em; }
+.case-prompt { margin: 12px 0; }
+@media print { .timeline li::before { background: #2563eb; box-shadow: none; } .timeline .when { color: #0f2942; } }
