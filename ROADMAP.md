@@ -225,7 +225,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 
 **Levels**
 - [x] Publish the rubric and a generated "Browse by level" page; correct mislabelled pages
-- [ ] Add "Advanced topics" sections to the standards, sectors and case studies landing pages
+- [x] Add "Advanced topics" sections to the standards, sectors and case studies landing pages (case studies list levels on each card)
 
 **New Advanced pages** (each with worked examples, a diagram or interactive, and primary sources)
 - [x] Root cause analysis: 5 whys, fishbone, bow-tie and fault trees. Expert review.
@@ -247,8 +247,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Advanced case study: ASIC v RI Advice and ASIC v FIIG (cyber risk as a licensee obligation)
 
 **Deepen existing pages and learning**
-- [ ] "Going deeper" Advanced sections on key Intermediate pages (CPS 230, risk appetite, third-party risk, incident and breach management, disclosure obligations, ERM)
-- [ ] Advanced quiz set and two multi-regime Advanced scenarios
+- [x] "Going deeper" Advanced sections on key Intermediate pages (CPS 230, risk appetite, third-party risk, incident and breach management, disclosure obligations, ERM)
+- [x] Advanced quiz set and two multi-regime Advanced scenarios
 - [ ] Update pathways, Start here and flashcards for the new Advanced pages
 
 ## 🔁 Recurring upkeep (never ticked off; do on schedule)

@@ -546,5 +546,129 @@ window.SCENARIOS = [
           { label: "Breach significance analysis", href: "/compliance/breach-significance-analysis.html" }
         ] }
     ]
+  },
+  {
+    id: "admin-ransomware",
+    title: "Ransomware at the administrator",
+    level: "Advanced",
+    summary: "A ransomware attack on your fund administrator disrupts payments and exposes member data. Several regimes, several clocks, one board.",
+    setting: "You are the Chief Risk Officer of an APRA-regulated super fund (an RSE licensee that also holds an AFS licence). Member administration is outsourced to a material service provider. Paying benefits is a critical operation with a board-approved tolerance level.",
+    steps: [
+      { id: "s1",
+        text: "Friday 6 pm. The administrator tells you its systems are encrypted by ransomware and it has shut down its platform. It believes member data may have been copied before encryption. It says it is 'handling it' and will update you Monday. What do you do?",
+        choices: [
+          { label: "Invoke the fund's own incident and business continuity plans now, record the awareness time, stand up the fund's crisis team, and require the administrator to give you facts and access to its incident lead under the contract.", quality: "best",
+            feedback: "Right. The incident is at the provider, but the fund remains accountable for its members, its critical operations and its own notifications. Clocks run from the fund's awareness, not the provider's timetable." },
+          { label: "Wait for Monday's update. It's the administrator's incident, and it has the expertise.", quality: "poor",
+            feedback: "Outsourcing doesn't transfer accountability. Waiting risks missing short notification deadlines and leaves members exposed over the weekend." },
+          { label: "Announce publicly that member data has been stolen.", quality: "poor",
+            feedback: "Public statements before facts are known can mislead and alarm members. Communicate promptly, but based on verified information and with practical guidance." }
+        ] },
+      { id: "s2",
+        text: "Saturday. Payments can't be made, and the administrator estimates a week to restore. Member data including tax file numbers was probably copied. Which notifications do you need to assess?",
+        choices: [
+          { label: "APRA under CPS 230 (disruption to a critical operation outside tolerance: 24 hours once outside tolerance; material operational risk incident: 72 hours) and CPS 234 (material information security incident: 72 hours, including at a service provider); the OAIC under the Notifiable Data Breaches scheme; whether there is a reportable situation for ASIC; and the board. Document each assessment and its clock.", quality: "best",
+            feedback: "Good. One event can trigger several regimes with different tests and deadlines. A single tracker of each regime, its test, its clock and its owner keeps this manageable." },
+          { label: "Only the OAIC, because it's a data breach.", quality: "poor",
+            feedback: "This is also an operational disruption and an information security incident for an APRA-regulated entity, so APRA's standards apply as well." },
+          { label: "Only APRA. The administrator will notify the OAIC on the fund's behalf.", quality: "ok",
+            feedback: "The administrator may have its own obligations, but the fund holds the members' personal information too and must assess its own NDB obligations. Coordinate notifications, but don't assume the provider covers yours." }
+        ] },
+      { id: "s3",
+        text: "The attackers demand a ransom from the administrator. The administrator asks whether the fund 'would support' paying. What is your position?",
+        choices: [
+          { label: "Make clear the decision is the administrator's, but set out the fund's concerns: payment doesn't guarantee data deletion or recovery, may breach sanctions laws if the attackers are designated, and must be reported by the business that pays under the ransomware payment reporting rules. Focus the fund's effort on restoring operations and protecting members.", quality: "best",
+            feedback: "Sensible. The fund shouldn't endorse a payment it can't assess, but should understand the legal and practical issues and keep its focus on members." },
+          { label: "Encourage payment: it's the fastest way to restore services.", quality: "poor",
+            feedback: "Payment offers no guarantee, may fund further crime and can create sanctions and reporting issues. The Optus and Medibank experience shows recovery depends on preparation, not payment." },
+          { label: "Refuse to discuss it.", quality: "ok",
+            feedback: "It's not the fund's decision, but engaging on the risks is part of overseeing a material service provider." }
+        ] },
+      { id: "s4",
+        text: "Monday. Payments are still down. What do you prioritise for members?",
+        choices: [
+          { label: "Use the continuity plan's manual payment workaround for hardship, terminal illness and death benefits first; tell members clearly what happened and what to do (including watching for scams using their data); add extra identity checks and monitoring for fraudulent withdrawal or rollover requests; and commit to covering losses caused by delays.", quality: "best",
+            feedback: "This balances continuity, transparency and protection. Stolen TFNs and personal details are often used for fraudulent super withdrawals, so heightened checks matter." },
+          { label: "Pause all communication until systems are restored.", quality: "poor",
+            feedback: "Members need to know how to protect themselves, and silence breeds distrust. Notifiable data breach obligations also require informing affected individuals as soon as practicable." },
+          { label: "Process payments in the order they were received.", quality: "ok",
+            feedback: "Orderly, but it ignores differences in harm. Tolerance levels and minimum service levels exist to protect those most affected by delay." }
+        ] },
+      { id: "s5",
+        text: "Two weeks later, services are restored. The board asks what happens now with the administrator.",
+        choices: [
+          { label: "Commission an independent review of the administrator's security and recovery, assess contract breaches and remedies, test the exit and contingency plan against what just happened, recalibrate tolerance and recovery assumptions, and report lessons and actions to the board and APRA.", quality: "best",
+            feedback: "A mature response treats the incident as evidence about the provider, the contract and the fund's own resilience. Exit may not be quick, but it should be a real option." },
+          { label: "Terminate the contract immediately.", quality: "ok",
+            feedback: "Understandable, but a stressed exit from a deeply embedded administrator can create more risk for members. Decide on evidence, with a transition plan." },
+          { label: "Accept the administrator's assurance that it won't happen again.", quality: "poor",
+            feedback: "Assurances aren't evidence. Independent verification and changes to controls are needed." }
+        ] },
+      { id: "end", ending: true,
+        text: "The fund kept control of an incident at its provider, met overlapping notification obligations, protected members from harm and fraud, and used the lessons to strengthen its resilience.",
+        learn: [
+          { label: "Service provider concentration and exit", href: "/risk-management/service-provider-exit-and-concentration.html" },
+          { label: "Mapping critical operations", href: "/risk-management/mapping-critical-operations.html" },
+          { label: "CPS 234 Information security", href: "/standards/cps-234.html" },
+          { label: "Breach and incident reporting obligations", href: "/compliance/breach-reporting.html" }
+        ] }
+    ]
+  },
+  {
+    id: "esg-claims",
+    title: "The sustainable option that wasn't",
+    level: "Advanced",
+    summary: "Your fund's sustainable option held companies its screens said it excluded. Work through the legal analysis, reporting, remediation and governance.",
+    setting: "You are Head of Compliance at a super fund. Its Sustainable option is marketed as excluding fossil fuel producers and gambling companies. Investment management is outsourced to external managers.",
+    steps: [
+      { id: "s1",
+        text: "A journalist emails asking why the Sustainable option holds shares in a coal miner. A quick check suggests several excluded companies have been held for about two years through one external manager's mandate. What do you do first?",
+        choices: [
+          { label: "Log the incident with today as the awareness date, confirm the facts from holdings data, pause marketing that repeats the exclusion claims, and brief the executive. Respond to the journalist carefully and accurately.", quality: "best",
+            feedback: "Right. Verify quickly, stop the claim continuing while you investigate, and start the clock. Continuing to publish the claim after awareness would make things worse." },
+          { label: "Tell the journalist the fund doesn't hold these companies, while you check.", quality: "poor",
+            feedback: "Making another potentially false statement compounds the problem. Say you are investigating." },
+          { label: "Ask the investment manager to quietly sell the holdings and say nothing.", quality: "poor",
+            feedback: "Selling may be part of the fix, but a quiet fix ignores breach assessment, reporting and members who relied on the claim." }
+        ] },
+      { id: "s2",
+        text: "Holdings data confirms it. How do you assess the legal position?",
+        choices: [
+          { label: "Assess the statements across every channel (PDS, website, marketing, member communications) against the misleading conduct provisions, including ASIC Act ss 12DB and 12DF, which carry civil penalties, and Corporations Act s 1041H. A contravention of s 1041H or s 12DA is deemed significant, so a reportable situation to ASIC is likely. Also assess APRA reporting and whether the fund's investment governance failed.", quality: "best",
+            feedback: "Good. ASIC's greenwashing cases against Mercer, Vanguard and Active Super show the courts look at what the product actually held against what was claimed, across channels." },
+          { label: "It's not a breach, because the manager, not the fund, bought the shares.", quality: "poor",
+            feedback: "The fund made the claims, and remains responsible for overseeing its managers. Outsourcing doesn't transfer accountability." },
+          { label: "It's only a breach if members lost money.", quality: "poor",
+            feedback: "Misleading conduct doesn't require financial loss. Loss is relevant to remediation and significance, not to whether the conduct was misleading." }
+        ] },
+      { id: "s3",
+        text: "Members chose the option for its values. Returns were similar to the standard option, but fees were slightly higher. What should remediation look like?",
+        choices: [
+          { label: "Assess financial loss carefully (for example, the extra fees paid for a product that didn't deliver its key feature), remediate it with beneficial assumptions, tell affected members plainly what happened, and let them switch or leave without cost. Document why non-financial harm is addressed through disclosure and choice rather than payment, or pay if the analysis supports it.", quality: "best",
+            feedback: "A thoughtful approach. Where the harm is partly non-financial, trustees need to reason carefully and transparently about what fair remediation is, consistent with RG 277 and the best financial interests duty." },
+          { label: "No remediation, because returns were similar.", quality: "poor",
+            feedback: "Members paid a premium for a feature they didn't get, and some may have made choices they wouldn't otherwise have made. Similar returns don't end the analysis." },
+          { label: "Refund all fees ever paid by every member of the option.", quality: "ok",
+            feedback: "Generous, but it may not reflect the actual loss and could be unfair to other members if paid from fund assets. Remediation should be reasoned, not arbitrary." }
+        ] },
+      { id: "s4",
+        text: "What governance changes should follow?",
+        choices: [
+          { label: "Fix the control gap: embed exclusions in manager mandates, get holdings-level screening reports and independent verification, keep a claims register linked to evidence, review the target market determination and disclosure, report to the board, and consider consequences for accountable people.", quality: "best",
+            feedback: "The root cause was a gap between the claim and the controls that were supposed to make it true. Monitoring must test holdings, not just policies." },
+          { label: "Rename the option 'Responsible' and keep going.", quality: "poor",
+            feedback: "Changing the label without fixing the controls invites the same problem, and may itself mislead." },
+          { label: "Drop all sustainability options.", quality: "ok",
+            feedback: "An option, but it may not be in members' best financial interests if demand is genuine. The aim is claims that are true, not no claims at all." }
+        ] },
+      { id: "end", ending: true,
+        text: "The fund stopped the misleading claims, assessed and reported the breach, treated affected members fairly and closed the gap between what it said and what it did.",
+        learn: [
+          { label: "Misleading or deceptive conduct: the legal tests", href: "/compliance/misleading-or-deceptive-conduct.html" },
+          { label: "Breach significance analysis", href: "/compliance/breach-significance-analysis.html" },
+          { label: "Remediation calculations in practice", href: "/compliance/remediation-calculations.html" },
+          { label: "SPS 530 Investment governance", href: "/standards/sps-530.html" }
+        ] }
+    ]
   }
 ];

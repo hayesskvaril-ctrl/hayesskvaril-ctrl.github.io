@@ -43,7 +43,7 @@ ROUTES = [
          ("/standards/", "Plain-English explainers of APRA standards, ASIC guides and ISO/COSO frameworks."),
          ("/tools/resource-library.html", "All the downloadable templates, checklists and interactive tools."),
         ("/case-studies/", "What went wrong in major Australian failures, and the lessons."),
-         ("/learn/scenarios.html", "Test your judgement on nine realistic scenarios, from a fee error to an AML suspicion."),
+         ("/learn/scenarios.html", "Test your judgement on eleven realistic scenarios, from a fee error to a ransomware attack."),
          ("/learn/flashcards.html", "Refresh the \"Key numbers and deadlines\" deck."),
      ],
      ("/learn/pathways.html", "Next: pathways for risk, compliance, super and cyber roles")),
