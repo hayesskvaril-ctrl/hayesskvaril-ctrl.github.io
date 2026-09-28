@@ -12,7 +12,7 @@ import re
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "tools" / "resource-library.html"
-REVIEWED = "27 September 2026"
+REVIEWED = "28 September 2026"
 
 # (title, file, format, level, description, explainer page)
 DOWNLOADS = [
@@ -28,6 +28,30 @@ DOWNLOADS = [
     ("Regulatory obligation checklists", "/assets/templates/obligation-checklists.xlsx", "Excel", "Intermediate",
      "Six checklists (CPS 230, breach reporting, IDR, DDO, whistleblower, privacy) with status, evidence and actions.",
      "/tools/obligation-checklists.html"),
+    ("Obligations register template", "/assets/templates/obligations-register-template.xlsx", "Excel", "Intermediate",
+     "Record obligations, owners and key controls, with residual compliance risk and review tracking.",
+     "/tools/obligations-register-template.html"),
+    ("Control testing workpaper", "/assets/templates/control-testing-workpaper.xlsx", "Excel", "Intermediate",
+     "Test plan, design assessment, sample results, upper deviation limit, conclusion and sign-off.",
+     "/tools/control-testing-workpaper.html"),
+    ("RCSA template", "/assets/templates/rcsa-template.xlsx", "Excel", "Intermediate",
+     "Risk and control self-assessment with scores, control ratings, appetite check and second-line challenge.",
+     "/tools/rcsa-template.html"),
+    ("KRI library", "/assets/templates/kri-library.xlsx", "Excel", "Intermediate",
+     "20 example key risk indicators with thresholds and automatic Green/Amber/Red status.",
+     "/tools/kri-library.html"),
+    ("Example risk appetite statement", "/assets/templates/example-risk-appetite-statement.docx", "Word", "Intermediate",
+     "A fictional super fund's statement, with metrics, triggers and limits for each material risk.",
+     "/tools/example-risk-appetite-statement.html"),
+    ("Board risk report template", "/assets/templates/board-risk-report-template.docx", "Word", "Intermediate",
+     "A CRO report to the board risk committee, with guidance for each section.",
+     "/tools/board-risk-report-template.html"),
+    ("Material service provider register", "/assets/templates/material-service-provider-register.xlsx", "Excel", "Intermediate",
+     "Track CPS 230 material service providers, critical operations, locations, contracts and reviews.",
+     "/tools/material-service-provider-register.html"),
+    ("Remediation program tracker", "/assets/templates/remediation-program-tracker.xlsx", "Excel", "Intermediate",
+     "Track customers affected, compensation owed and paid, residual approach and closure.",
+     "/tools/remediation-program-tracker.html"),
 ]
 
 # widget script -> (tool name, description, level)

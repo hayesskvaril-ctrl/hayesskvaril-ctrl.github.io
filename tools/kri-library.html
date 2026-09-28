@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Key risk indicator (KRI) library (Excel) | RiskLens Australia</title>
+<meta name="description" content="Free key risk indicator (KRI) library in Excel: 20 example KRIs across risk types with thresholds, direction and automatic Green/Amber/Red status, plus threshold design notes.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/tools/kri-library.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Key risk indicator (KRI) library (Excel)">
+<meta property="og:description" content="Free key risk indicator (KRI) library in Excel: 20 example KRIs across risk types with thresholds, direction and automatic Green/Amber/Red status, plus threshold design notes.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/tools/kri-library.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/" aria-current="page">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li>KRI library</li></ol></nav>
+
+  <h1>KRI library</h1>
+  <p class="summary">A starter library of 20 example key risk indicators, with space to set thresholds and record current values. Status calculates automatically.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>Excel spreadsheet</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <div class="download-box">
+    <a class="button" href="/assets/templates/kri-library.xlsx" download>Download the template (.xlsx)</a>
+    <p class="file-meta">Excel workbook, about 22 KB. Works in Excel, Google Sheets and LibreOffice. Free to use and adapt.</p>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>A <a class="term" href="/glossary/#kri">KRI</a> is a measure that signals a change in risk, ideally before harm occurs.</li>
+      <li>Thresholds should link to risk appetite: amber is an early warning, red means outside appetite and triggers escalation.</li>
+      <li>Balance leading indicators (what might happen) with lagging ones (what has happened).</li>
+      <li>All thresholds in the library are illustrative, not benchmarks.</li>
+    </ul>
+  </aside>
+
+  <h2>What's in the workbook</h2>
+  <dl class="sheet-list">
+    <dt>Read me</dt><dd>How to choose KRIs and set thresholds.</dd>
+    <dt>KRI library</dt><dd>20 example KRIs across operational, compliance, conduct, cyber, third party, people, investment, liquidity, fraud and remediation risk, with 40 spare rows. The first three have example values to show Green, Amber and Red.</dd>
+    <dt>Dashboard</dt><dd>KRIs with values, counts of Red, Amber and Green, and KRIs by risk type.</dd>
+    <dt>Threshold design notes</dt><dd>Short notes on linking thresholds to appetite, direction, evidence and testing predictive value.</dd>
+    <dt>Lists</dt><dd>Drop-down values you can edit.</dd>
+  </dl>
+
+<h2>How status is worked out</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Direction</th><th scope="col">Green</th><th scope="col">Amber</th><th scope="col">Red</th></tr></thead>
+      <tbody>
+        <tr><td>Higher is worse (e.g. incidents)</td><td>At or below the green limit</td><td>Above green, below red</td><td>At or above the red threshold</td></tr>
+        <tr><td>Lower is worse (e.g. liquidity buffer)</td><td>At or above the green limit</td><td>Below green, above red</td><td>At or below the red threshold</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>To see indicators like these in action, try the KRI dashboard demo on the <a class="xref" href="/risk-management/risk-appetite-and-tolerance.html">risk appetite and tolerance</a> page.</p>
+  <div class="callout warn">
+    <h3>A starting point, not a finished framework</h3>
+    <p>A KRI is only useful if it measures the risk described in your appetite statement and actually moves before problems occur. Review the library against past incidents and replace indicators that stayed green while things went wrong.</p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/risk-appetite-and-tolerance.html" data-label="Risk appetite and tolerance"><a href="/risk-management/risk-appetite-and-tolerance.html">Risk appetite and tolerance</a></li>
+      <li data-href="/governance/board-risk-reporting.html" data-label="Board risk reporting"><a href="/governance/board-risk-reporting.html">Board risk reporting</a></li>
+      <li data-href="/tools/example-risk-appetite-statement.html" data-label="Example risk appetite statement"><a href="/tools/example-risk-appetite-statement.html">Example risk appetite statement</a></li>
+      <li data-href="/tools/board-risk-report-template.html" data-label="Board risk report template"><a href="/tools/board-risk-report-template.html">Board risk report template</a></li>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk"><a href="/risk-management/operational-risk.html">Operational risk</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a> and <a href="https://www.apra.gov.au/standards/sps-220">SPS 220 Risk Management</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/practice-guides/cpg-220">Prudential Practice Guide CPG 220 Risk Management</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+</body>
+</html>

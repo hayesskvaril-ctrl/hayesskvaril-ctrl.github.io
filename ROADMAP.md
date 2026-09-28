@@ -195,14 +195,14 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 ## Phase 14 — Tools, learning and ongoing upkeep
 
 **Tools and templates** (spreadsheets with working formulas, Word templates; add each to the resource library)
-- [ ] Obligations register template
-- [ ] Control testing workpaper
-- [ ] Risk and control self-assessment (RCSA) template
-- [ ] KRI library (examples by risk type, with threshold design notes)
-- [ ] Example risk appetite statement (fictional super fund)
-- [ ] Board risk report template
-- [ ] Material service provider register (aligned with APRA's template fields)
-- [ ] Remediation program tracker. Flag for Nick.
+- [x] Obligations register template
+- [x] Control testing workpaper
+- [x] Risk and control self-assessment (RCSA) template
+- [x] KRI library (examples by risk type, with threshold design notes)
+- [x] Example risk appetite statement (fictional super fund)
+- [x] Board risk report template
+- [x] Material service provider register (aligned with APRA's template fields)
+- [x] Remediation program tracker. Flag for Nick.
 
 **Learning**
 - [ ] New scenarios: privacy data breach assessment; disclosure review of a marketing campaign; conflicted related-party transaction; CPS 230 tolerance breach; AML suspicious matter; advice file review
@@ -250,6 +250,7 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Nick to review (Phase 10):** Setting CPS 230 tolerance levels (method, worked examples for super and bank, the builder's example ratings); Breach significance analysis (the four worked cases and their illustrative conclusions, the multi-regime table); Control testing sampling (sample size tables, deviation handling, evidence standards).
 - **Nick to review (Phase 13):** Shield and First Guardian case study (platform trustee lessons, 'what would you have done?' answers). Update it as court outcomes arrive.
 - **Nick to review (Phase 12):** Assurance mapping (example map) and Issue and action management (rating scale, timeframes, closure vs validation).
+- **Nick to review (Phase 14):** Remediation program tracker (columns, residual options, example REM-01), control testing workpaper (test plan fields, worked example and conclusion), and the example risk appetite statement (super metrics and thresholds, escalation timeframes).
 - **Nick to review (Phase 9):** RG 97 fees and costs explainer, especially the fee governance section and the illustrative worked example.
 - **Watch and update (Phase 5 pages):** performance test changes after Treasury's 2026 consultation; redrafted General Insurance Code (ASIC lodgement late 2026) and Life Code review outcome; Scams Prevention Framework obligations (March 2027); AT1 phase-out (from January 2027); Shield / First Guardian proceedings; APRA's proposed proportionality ("three-tier") framework.
 - **Nick to review (Phase 6):** the three scenario simulations in `/learn/scenarios.html` (fee error breach and remediation, administrator outage under CPS 230, whistleblower disclosure). The "best practice" answers and feedback are in `scripts/scenarios-data.js`.

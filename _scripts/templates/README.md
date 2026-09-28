@@ -7,6 +7,9 @@ rebuilt consistently after edits.
 python3 _scripts/templates/build_risk_assessment.py
 python3 _scripts/templates/build_breach_register.py
 node    _scripts/templates/build_incident_report.js   # needs the docx npm package (DOCX_MODULE=/path/to/node_modules/docx)
+python3 _scripts/templates/build_registers.py      # obligations register, RCSA, KRI library, MSP register, remediation tracker (uses register_builder.py)
+python3 _scripts/templates/build_workpaper.py      # control testing workpaper
+node    _scripts/templates/build_word_templates.js # example risk appetite statement + board risk report (uses docx_common.js)
 python3 _scripts/templates/build_checklists.py      # writes tools/obligation-checklists.html AND the xlsx; edit checklists_data.py
 ```
 
