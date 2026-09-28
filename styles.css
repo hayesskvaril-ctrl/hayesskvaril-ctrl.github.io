@@ -1272,3 +1272,12 @@ td .badge { white-space: nowrap; }
 .cal-q label { display: inline-flex; align-items: center; gap: 6px; margin: 4px 12px 4px 0; }
 .widget .cal-q input[type="number"] { width: 110px; }
 .cal-ans { display: block; margin-top: 4px; }
+
+/* Critical operation dependency explorer */
+.om-res { display: grid; gap: 6px; margin: 8px 0 14px; }
+.om-steps { list-style: none; padding: 0; margin: 0 0 12px; display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+.om-steps li { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; position: relative; padding-left: 38px; }
+.om-steps .om-icon { position: absolute; left: 10px; top: 9px; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: #05080f; }
+.om-ok .om-icon { background: var(--green); }
+.om-degraded { border-color: rgba(251, 191, 36, 0.55) !important; } .om-degraded .om-icon { background: var(--amber); }
+.om-failed { border-color: rgba(248, 113, 113, 0.6) !important; } .om-failed .om-icon { background: #f87171; }

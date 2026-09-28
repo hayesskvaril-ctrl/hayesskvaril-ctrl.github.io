@@ -235,7 +235,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] APS 115 operational risk capital (standardised measurement approach), with a calculator
 - [x] KRI design and statistical thresholds, with an interactive control chart
 - [x] Human factors and cognitive bias in risk decisions
-- [ ] Mapping critical operations end to end (CPS 230). Expert review.
+- [x] Mapping critical operations end to end (CPS 230). Expert review.
 - [ ] Service provider concentration, fourth parties and exit planning. Expert review.
 - [ ] Liquidity stress testing for super funds, with a simulator
 - [ ] Interpreting legislation for compliance professionals

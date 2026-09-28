@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapping critical operations end to end (CPS 230) | RiskLens Australia</title>
+<meta name="description" content="An advanced, practical guide to mapping critical operations under APRA CPS 230: choosing and defining operations, mapping processes and resources, finding single points of failure, linking to tolerance levels, with a worked super example and an interactive dependency explorer.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/mapping-critical-operations.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mapping critical operations end to end (CPS 230)">
+<meta property="og:description" content="An advanced, practical guide to mapping critical operations under APRA CPS 230: choosing and defining operations, mapping processes and resources, finding single points of failure, linking to tolerance levels, with a worked super example and an interactive dependency explorer.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/mapping-critical-operations.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>Mapping critical operations</li></ol></nav>
+
+  <h1>Mapping critical operations end to end</h1>
+  <p class="summary">A practical method for tracing a critical operation from start to finish, recording what it depends on, and finding the single points of failure, with a worked super fund example.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 15 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>CPS 230 requires entities to document the processes and resources behind each critical operation: people, technology, information, facilities and service providers, and how they depend on each other.</li>
+      <li>Define operations by the outcome for the member or customer, not by team, so the map is truly end to end.</li>
+      <li>Mapping resources against process steps exposes single points of failure and concentrations.</li>
+      <li>For every serious failure, check the workaround's capacity against the tolerance level's minimum service levels.</li>
+      <li>Maps are only useful if they drive tolerance setting, scenario testing and change assessments, and are kept up to date.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>You can't protect an operation you don't understand. Mapping a critical operation means tracing it end to end, from the moment a member or customer starts something to the moment they get the outcome, and recording every person, system, piece of data, building and outside provider it depends on. The map then shows where a single failure would stop everything, which is what <a class="term" href="/glossary/#bcp">business continuity planning</a> and tolerance setting need to know.</p>
+  <p>CPS 230 requires APRA-regulated entities to identify and document the processes and resources needed to deliver <a class="term" href="/glossary/#critical-operation">critical operations</a>, including people, technology, information, facilities and service providers, the interdependencies across them, and the associated risks, obligations, key data and controls. This page sets out a practical method. It builds on <a class="xref" href="/standards/cps-230.html">CPS 230</a> and <a class="xref" href="/risk-management/business-continuity.html">business continuity</a>.</p>
+
+  <h2>Which operations are critical?</h2>
+  <p>A critical operation is a process that, if disrupted beyond tolerance, would have a material adverse impact on customers, members or policyholders, or on the entity's role in the financial system. CPS 230 lists operations that are critical by default unless an entity can justify otherwise. For <a class="term" href="/glossary/#rse-licensee">RSE licensees</a> these include investment management and fund administration; for all entities they include customer enquiries and the systems and infrastructure needed to support critical operations. Banks and insurers have their own defaults (for example payments and claims processing). Entities then add others from their own assessment.</p>
+  <p>How broadly to define each operation is a judgement. "Fund administration" is too big to map usefully in one go, so many funds break it into member-facing outcomes such as paying benefits, processing rollovers, allocating contributions and answering enquiries. Defining operations by <strong>outcome for the member</strong>, rather than by team, keeps the map end to end.</p>
+
+  <h2>A seven-step method</h2>
+  <ol>
+    <li><strong>Define the outcome and boundary.</strong> What does the member or customer receive? Where does the operation start and end?</li>
+    <li><strong>Map the process steps.</strong> Start at a high level (six to ten steps), and only go deeper where risk or complexity demands it.</li>
+    <li><strong>Map resources against each step.</strong> People (roles, key persons, skills), technology (applications, infrastructure), information (data sets, records), facilities (sites, equipment) and service providers, including important <a class="term" href="/glossary/#fourth-party">fourth parties</a>.</li>
+    <li><strong>Overlay obligations, key data and controls.</strong> Which legal deadlines and requirements apply at each step? Which controls operate there?</li>
+    <li><strong>Find single points of failure and concentrations.</strong> Resources used by many steps or many operations, with no alternative.</li>
+    <li><strong>Link to <a class="term" href="/glossary/#tolerance-level">tolerance levels</a> and plans.</strong> For each serious failure, what is the workaround, how much capacity does it have, and does that keep the operation within tolerance?</li>
+    <li><strong>Test and maintain.</strong> Use the map to design scenario tests, and update it whenever processes, systems or providers change.</li>
+  </ol>
+
+  <h2>Worked example: paying a benefit</h2>
+  <figure class="diagram">
+    <svg viewBox="0 0 720 330" role="img" aria-labelledby="om-title om-desc">
+      <title id="om-title">Resource map for paying a super benefit</title>
+      <desc id="om-desc">A grid with six process steps across the top: claim received, identity and eligibility checks, benefit calculated, payment approved, payment sent, member told. Five resource rows: people, technology, information, facilities and service providers. The administration platform, run by a service provider, is used in four of the six steps and has no alternative, making it a single point of failure. The bank payment gateway is used in one step with a limited manual workaround. The identity verification service and the payments team are used in specific steps with reduced-capacity alternatives.</desc>
+      <g font-size="11.5" text-anchor="middle">
+        <g fill="#0f2942" font-weight="700">
+          <text x="60" y="24" text-anchor="start">Resource</text>
+        </g>
+        <rect x="120" y="8" width="94" height="40" rx="6" fill="#0f2942"/><text x="167" y="25" fill="#fff">1. Claim</text><text x="167" y="40" fill="#cbd8e8">received</text>
+        <rect x="220" y="8" width="94" height="40" rx="6" fill="#0f2942"/><text x="267" y="25" fill="#fff">2. Identity and</text><text x="267" y="40" fill="#cbd8e8">eligibility</text>
+        <rect x="320" y="8" width="94" height="40" rx="6" fill="#0f2942"/><text x="367" y="25" fill="#fff">3. Benefit</text><text x="367" y="40" fill="#cbd8e8">calculated</text>
+        <rect x="420" y="8" width="94" height="40" rx="6" fill="#0f2942"/><text x="467" y="25" fill="#fff">4. Payment</text><text x="467" y="40" fill="#cbd8e8">approved</text>
+        <rect x="520" y="8" width="94" height="40" rx="6" fill="#0f2942"/><text x="567" y="25" fill="#fff">5. Payment</text><text x="567" y="40" fill="#cbd8e8">sent</text>
+        <rect x="620" y="8" width="94" height="40" rx="6" fill="#0f2942"/><text x="667" y="25" fill="#fff">6. Member</text><text x="667" y="40" fill="#cbd8e8">told</text>
+        <g text-anchor="start" fill="#0f2942" font-weight="700">
+          <text x="8" y="84">People</text><text x="8" y="138">Technology</text><text x="8" y="192">Information</text><text x="8" y="246">Facilities</text><text x="8" y="300">Providers</text>
+        </g>
+        <rect x="220" y="62" width="194" height="36" rx="6" fill="#e8f0fe"/><text x="317" y="84" fill="#0f2942">Payments team (8 people)</text>
+        <rect x="420" y="62" width="94" height="36" rx="6" fill="#e8f0fe"/><text x="467" y="84" fill="#0f2942">Approvers</text>
+        <rect x="220" y="116" width="394" height="36" rx="6" fill="#2563eb"/><text x="417" y="138" fill="#fff" font-weight="700">Administration platform: no alternative</text>
+        <rect x="120" y="116" width="94" height="36" rx="6" fill="#e8f0fe"/><text x="167" y="138" fill="#0f2942">Portal</text>
+        <rect x="620" y="116" width="94" height="36" rx="6" fill="#e8f0fe"/><text x="667" y="138" fill="#0f2942">Mail system</text>
+        <rect x="120" y="170" width="594" height="36" rx="6" fill="#e8f0fe"/><text x="417" y="192" fill="#0f2942">Member records, bank details, balances, tax data</text>
+        <rect x="420" y="224" width="94" height="36" rx="6" fill="#e8f0fe"/><text x="467" y="246" fill="#0f2942">Head office</text>
+        <rect x="220" y="278" width="94" height="36" rx="6" fill="#1b3a5c"/><text x="267" y="294" fill="#fff">ID verification</text><text x="267" y="308" fill="#cbd8e8">(manual alt.)</text>
+        <rect x="520" y="278" width="94" height="36" rx="6" fill="#1b3a5c"/><text x="567" y="294" fill="#fff">Bank gateway</text><text x="567" y="308" fill="#cbd8e8">(150/day alt.)</text>
+        <rect x="120" y="278" width="94" height="36" rx="6" fill="#1b3a5c"/><text x="167" y="294" fill="#fff">Call centre</text><text x="167" y="308" fill="#cbd8e8">(overflow alt.)</text>
+      </g>
+    </svg>
+    <figcaption>A simplified resource map. Mapping resources against steps makes single points of failure visible: here the administration platform supports most of the operation with no alternative.</figcaption>
+  </figure>
+
+  <div class="widget" id="ops-map">
+    <h3>Try it: lose a resource</h3>
+    <p class="small">Tick resources to simulate losing them, and see which steps stop, which run in degraded mode, and what that means for tolerance.</p>
+    <div class="om-res"></div>
+    <ol class="om-steps"></ol>
+    <p class="result" aria-live="polite"></p>
+    <noscript><p>The explorer needs JavaScript. The diagram above shows the same dependencies.</p></noscript>
+  </div>
+
+  <h2>What to record for each resource</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Field</th><th scope="col">Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Steps and operations it supports</td><td>Shows concentration: one resource behind many operations is a priority.</td></tr>
+        <tr><td>Owner</td><td>Someone accountable for its resilience.</td></tr>
+        <tr><td>Recovery capability (<a class="term" href="/glossary/#rto">RTO</a> and <a class="term" href="/glossary/#rpo">RPO</a>)</td><td>Compare with the operation's tolerance levels. A recovery time longer than the tolerance is a gap.</td></tr>
+        <tr><td>Alternative or workaround, and its capacity</td><td>A workaround that handles 10% of normal volume may not meet minimum service levels.</td></tr>
+        <tr><td>Service provider and fourth parties</td><td>Links to the material service provider register and contract terms.</td></tr>
+        <tr><td>Key controls and obligations at that point</td><td>Workarounds often bypass controls (for example manual payments without system checks), creating new risks.</td></tr>
+        <tr><td>Last tested and result</td><td>Evidence the recovery capability is real.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common pitfalls</h2>
+  <ul>
+    <li><strong>Mapping the org chart, not the operation.</strong> Each team maps its own part; nobody maps the hand-offs, which is where many failures happen.</li>
+    <li><strong>Too much detail too early.</strong> Hundred-step maps no one maintains. Start high level and deepen where risk sits.</li>
+    <li><strong>Stopping at the service provider.</strong> The administrator may rely on one cloud region or a single print house. Material fourth parties belong on the map.</li>
+    <li><strong>Workarounds that don't scale.</strong> Plans that assume manual processing without checking volumes against minimum service levels.</li>
+    <li><strong>Maps that sit on a shelf.</strong> A map is only useful if it drives tolerance levels, scenario tests, change assessments and investment decisions.</li>
+  </ul>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. Under CPS 230, which of these are critical operations by default for RSE licensees?</p>
+      <div class="q-options"><button type="button" data-value="a">Marketing and sponsorship</button><button type="button" data-value="b">Investment management and fund administration</button><button type="button" data-value="c">Payroll</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>CPS 230 lists investment management and fund administration for RSE licensees, and customer enquiries and supporting systems for all entities.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">2. Why map resources against process steps?</p>
+      <div class="q-options"><button type="button" data-value="a">To produce an org chart</button><button type="button" data-value="b">To reveal single points of failure and concentrations</button><button type="button" data-value="c">It is only needed for IT systems</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Seeing which resources support many steps without alternatives shows where resilience investment matters.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. A workaround exists but handles only 10% of normal volume. What should you check?</p>
+      <div class="q-options"><button type="button" data-value="a">Nothing, a workaround exists</button><button type="button" data-value="b">Whether that capacity meets the minimum service levels in the tolerance</button><button type="button" data-value="c">Whether the provider is offshore</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Tolerance levels include minimum service levels under alternative arrangements.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/standards/cps-230.html" data-label="CPS 230 Operational Risk Management"><a href="/standards/cps-230.html">CPS 230 Operational Risk Management</a></li>
+      <li data-href="/risk-management/setting-cps-230-tolerance-levels.html" data-label="Setting CPS 230 tolerance levels"><a href="/risk-management/setting-cps-230-tolerance-levels.html">Setting CPS 230 tolerance levels</a></li>
+      <li data-href="/risk-management/business-continuity.html" data-label="Business continuity"><a href="/risk-management/business-continuity.html">Business continuity</a></li>
+      <li data-href="/risk-management/third-party-risk.html" data-label="Third-party risk"><a href="/risk-management/third-party-risk.html">Third-party risk</a></li>
+      <li data-href="/tools/material-service-provider-register.html" data-label="Material service provider register"><a href="/tools/material-service-provider-register.html">Material service provider register</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> (in force from 1 July 2025; targeted amendments from 1 July 2026) and Prudential Practice Guide CPG 230.</li>
+      <li>International Organization for Standardization, ISO 22301:2019 Business continuity management systems (described in our own words).</li>
+      <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d516.htm">Principles for operational resilience</a> (March 2021).</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/ops-map.js"></script>
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>
