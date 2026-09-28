@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KRI design and statistical thresholds | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to key risk indicators: choosing indicators with real signal, setting thresholds with statistics and risk appetite, control charts and run rules, counts and rates, and testing whether a KRI predicts anything, with an interactive control chart.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/kri-design-and-thresholds.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="KRI design and statistical thresholds">
+<meta property="og:description" content="An advanced guide to key risk indicators: choosing indicators with real signal, setting thresholds with statistics and risk appetite, control charts and run rules, counts and rates, and testing whether a KRI predicts anything, with an interactive control chart.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/kri-design-and-thresholds.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk Management</a></li><li>KRI design and thresholds</li></ol></nav>
+
+  <h1>KRI design and statistical thresholds</h1>
+  <p class="summary">How to choose indicators that actually predict risk, set amber and red thresholds that mean something, and test whether a KRI works, with an interactive control chart.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 15 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>A good KRI is linked to a specific risk, moves before harm happens, uses reliable data and triggers a defined response.</li>
+      <li>Combine methods: statistics show what is unusual, <a class="term" href="/glossary/#risk-appetite">risk appetite</a> shows what is unacceptable.</li>
+      <li>Thresholds based only on history can normalise an unacceptable level of risk.</li>
+      <li>Run rules catch gradual drift that single thresholds miss.</li>
+      <li>Test each KRI regularly: did it signal before problems (hits), signal without problems (false alarms), or miss problems entirely?</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>A <a class="term" href="/glossary/#kri">key risk indicator</a> is only useful if it changes <em>before</em> harm happens and someone acts when it does. Most KRI dashboards fail on one of three counts: the indicator doesn't actually predict the risk, the thresholds are set so wide that nothing ever turns red, or amber and red don't trigger any real decision.</p>
+  <p>This page covers how to choose indicators that carry signal, how to set thresholds using statistics and appetite together, and how to test whether a KRI works. It builds on <a class="xref" href="/risk-management/risk-appetite-and-tolerance.html">risk appetite and tolerance</a> and the <a class="xref" href="/tools/kri-library.html">KRI library</a> template.</p>
+
+  <h2>What makes an indicator worth tracking</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Quality</th><th scope="col">Test</th><th scope="col">Warning sign</th></tr></thead>
+      <tbody>
+        <tr><td>Linked to a specific risk</td><td>Can you name the risk and the causal path from indicator to harm?</td><td>"Nice to know" operational statistics with no clear risk.</td></tr>
+        <tr><td>Leading, where possible</td><td>Does it move before losses, incidents or complaints?</td><td>Only lagging counts of things that have already gone wrong.</td></tr>
+        <tr><td>Sensitive enough</td><td>Would a real deterioration show up within one or two reporting periods?</td><td>Values that never move, or move only after an incident.</td></tr>
+        <tr><td>Reliable data</td><td>Is the source automated, reconciled and consistently defined?</td><td>Manual collection; definitions that change between months.</td></tr>
+        <tr><td>Actionable</td><td>Is there a named owner and a defined response at amber and red?</td><td>Red for months with no decision recorded.</td></tr>
+        <tr><td>Hard to game</td><td>Could people improve the number without reducing the risk?</td><td>Falling incident counts that reflect under-reporting, not fewer incidents.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Four ways to set thresholds</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Method</th><th scope="col">How</th><th scope="col">Strength</th><th scope="col">Weakness</th></tr></thead>
+      <tbody>
+        <tr><td>Appetite-based (top down)</td><td>Derive limits from the board's risk appetite and tolerance: what level is unacceptable?</td><td>Anchored to what the board actually wants.</td><td>Can be arbitrary if not tested against data; may never trigger.</td></tr>
+        <tr><td>Statistical control limits</td><td>Mean plus a multiple of the standard deviation of a stable baseline period.</td><td>Separates normal variation from unusual movement.</td><td>Assumes the baseline was acceptable; treats "normal" as "fine".</td></tr>
+        <tr><td>Percentiles of history</td><td>Set amber and red at, say, the 90th and 99th percentiles of past values.</td><td>No distribution assumptions; easy to explain.</td><td>Needs enough history; inherits past problems.</td></tr>
+        <tr><td>Peer or external benchmarks</td><td>Compare with industry data, service standards or regulatory timeframes.</td><td>Adds an outside view.</td><td>Peers may differ in size, mix and definitions.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The most defensible approach combines them: statistics tell you what is unusual, appetite tells you what is unacceptable. When the two disagree, that disagreement is itself useful information for the board.</p>
+
+  <div class="callout warn">
+    <h3>The normalisation trap</h3>
+    <p>Thresholds calculated purely from history quietly accept whatever level of risk the organisation has been running. Sociologist Diane Vaughan called the wider pattern the "normalization of deviance": in her study of the Challenger launch decision, repeated anomalies came to be treated as acceptable because nothing had gone wrong yet. Re-anchor statistical thresholds to appetite, and question baselines after incidents.</p>
+  </div>
+
+  <h2>Try it: the same data, four thresholds</h2>
+  <p>The chart shows 24 months of a fictional KRI: processing errors per month in a member administration team. The first 12 months are the baseline. In the second year the error rate drifts upward gently, the kind of change that matters but is easy to miss.</p>
+  <div class="widget" id="kri-chart">
+    <h3>Processing errors per month</h3>
+    <div class="controls">
+      <div><label for="kc-method">Threshold method</label><select id="kc-method"><option value="sd3" selected>Control limits (mean + 2σ and 3σ)</option><option value="sd2">Tighter control limits (mean + 1σ and 2σ)</option><option value="pct">Percentiles of history (90th and 99th)</option><option value="app">Fixed appetite limits (50 and 55)</option></select></div>
+      <div><label><input type="checkbox" id="kc-runs" checked> Also apply a run rule (8 months in a row above the mean)</label></div>
+    </div>
+    <div class="kc-plot"></div>
+    <p class="result" aria-live="polite"></p>
+    <details>
+      <summary>Show the data as a table</summary>
+      <div class="table-wrap"><table><thead><tr><th scope="col">Month</th><th scope="col">Errors</th><th scope="col">Signals</th></tr></thead><tbody></tbody></table></div>
+    </details>
+    <noscript><p>The chart needs JavaScript.</p></noscript>
+  </div>
+  <p>With classic control limits or the appetite limits, the drift never reaches red. A run rule, which looks for a sustained shift rather than a single extreme value, flags it months earlier. Statistical process control has used rules like this for decades (for example the Western Electric and Nelson rules). They are well suited to KRIs, where gradual deterioration matters more than one bad month.</p>
+
+  <h2>Counts, rates and small numbers</h2>
+  <ul>
+    <li><strong>Normalise for volume.</strong> 50 errors in a month with twice the transactions is an improvement, not a deterioration. Track errors per thousand transactions where volume varies.</li>
+    <li><strong>Rare events need different tools.</strong> For indicators that are usually zero (for example, late breach reports), standard deviations are meaningless. Use "any occurrence is red", or time between events.</li>
+    <li><strong>Seasonality is not a trend.</strong> End-of-financial-year peaks in super are expected. Compare with the same month last year, or adjust for the seasonal pattern.</li>
+  </ul>
+
+  <h2>Testing whether a KRI actually works</h2>
+  <p>Treat each KRI as a hypothesis: "when this indicator rises, the risk of harm rises". Test it at least annually.</p>
+  <ol>
+    <li><strong>Lead-lag check:</strong> line up the indicator against later incidents, losses or complaints. Did it move beforehand, and by how many periods?</li>
+    <li><strong>Hits and false alarms:</strong> for past amber and red signals, count how many were followed by a real problem (hits) and how many weren't (false alarms). Also count problems that arrived with no signal (misses).</li>
+    <li><strong>Response check:</strong> for each red, was a decision recorded? A KRI that goes red without consequence isn't a control.</li>
+    <li><strong>Retire or replace:</strong> indicators with no predictive value take attention away from ones that have it.</li>
+  </ol>
+  <div class="table-wrap">
+    <table>
+      <caption>Example evaluation of one KRI over three years (illustrative)</caption>
+      <thead><tr><th scope="col"><span class="visually-hidden">KRI outcome</span></th><th scope="col">Problem followed</th><th scope="col">No problem followed</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">KRI signalled (amber or red)</th><td>7 hits</td><td>5 false alarms</td></tr>
+        <tr><th scope="row">KRI did not signal</th><td>2 misses</td><td>22 quiet months</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Here the KRI caught 7 of 9 problems (78%), and 7 of its 12 signals were real (58%). That is a reasonably useful indicator. Tightening thresholds would catch more problems at the cost of more false alarms. That trade-off is a judgement for the <a class="term" href="/glossary/#risk-owner">risk owner</a>, not a statistical fact.</p>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. A KRI's thresholds are set at the mean plus 3 standard deviations of the past year. What is the main risk?</p>
+      <div class="q-options"><button type="button" data-value="a">Too many false alarms</button><button type="button" data-value="b">Gradual deterioration and an already-unacceptable baseline may never trigger a signal</button><button type="button" data-value="c">It can't be calculated</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Wide statistical limits accept the historical level as normal and miss slow drift.</p>
+    </div>
+    <div class="q" data-answer="a">
+      <p class="q-text">2. Why use a run rule such as '8 periods in a row above the mean'?</p>
+      <div class="q-options"><button type="button" data-value="a">To detect a sustained shift that never crosses a single threshold</button><button type="button" data-value="b">To reduce reporting</button><button type="button" data-value="c">Because appetite requires it</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Run rules detect shifts in the process level, which single-point thresholds miss.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. A KRI signalled 12 times; 7 were followed by real problems, and 2 problems had no signal. How many problems did it catch?</p>
+      <div class="q-options"><button type="button" data-value="a">7 of 12</button><button type="button" data-value="b">7 of 9</button><button type="button" data-value="c">2 of 9</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Problems = 7 hits + 2 misses = 9. It caught 7 of them.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/risk-appetite-and-tolerance.html" data-label="Risk appetite and tolerance"><a href="/risk-management/risk-appetite-and-tolerance.html">Risk appetite and tolerance</a></li>
+      <li data-href="/tools/kri-library.html" data-label="KRI library"><a href="/tools/kri-library.html">KRI library</a></li>
+      <li data-href="/governance/board-risk-reporting.html" data-label="Board risk reporting"><a href="/governance/board-risk-reporting.html">Board risk reporting</a></li>
+      <li data-href="/risk-management/operational-risk.html" data-label="Operational risk"><a href="/risk-management/operational-risk.html">Operational risk</a></li>
+      <li data-href="/risk-management/quantitative-operational-risk.html" data-label="Quantitative operational risk"><a href="/risk-management/quantitative-operational-risk.html">Quantitative operational risk</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d515.htm">Revisions to the principles for the sound management of operational risk</a> (March 2021).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a> and <a href="https://www.apra.gov.au/practice-guides/cpg-220">CPG 220 Risk Management</a> (risk appetite and monitoring).</li>
+      <li>Nelson, L. S. (1984). The Shewhart control chart: tests for special causes. <em>Journal of Quality Technology</em>, 16(4), 237–239.</li>
+      <li>Western Electric Company (1956). <em>Statistical Quality Control Handbook</em>.</li>
+      <li>Vaughan, D. (1996). <em>The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA</em>. University of Chicago Press.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/kri-chart.js"></script>
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>

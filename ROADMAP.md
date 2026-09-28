@@ -233,7 +233,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Directors' and officers' duties: key Australian cases
 - [x] Enforcement and penalties: how regulators respond and how penalties are set
 - [x] APS 115 operational risk capital (standardised measurement approach), with a calculator
-- [ ] KRI design and statistical thresholds, with an interactive control chart
+- [x] KRI design and statistical thresholds, with an interactive control chart
 - [ ] Human factors and cognitive bias in risk decisions
 - [ ] Mapping critical operations end to end (CPS 230). Expert review.
 - [ ] Service provider concentration, fourth parties and exit planning. Expert review.
