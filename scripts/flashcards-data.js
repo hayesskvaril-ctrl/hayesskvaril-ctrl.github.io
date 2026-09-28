@@ -39,10 +39,10 @@ window.FLASH_DECKS = [
       { front: "CPS 220", back: "APRA's Risk Management standard: a risk management framework, risk appetite statement, risk management strategy, and risk management and compliance functions.", link: "/standards/cps-220.html" },
       { front: "CPS 230", back: "APRA's Operational Risk Management standard: operational risk, business continuity and material service providers.", link: "/standards/cps-230.html" },
       { front: "CPS 234", back: "APRA's Information Security standard: information security capability, controls, testing and incident notification.", link: "/standards/cps-234.html" },
-      { front: "CPS 511", back: "APRA's Remuneration standard: remuneration frameworks that support risk management and good outcomes, with deferral and adjustment of variable pay.", link: "/governance/remuneration-governance.html" },
-      { front: "CPS 190", back: "APRA's Recovery and Exit Planning standard: plans for responding to severe financial stress.", link: "/sectors/banking.html" },
-      { front: "SPS 515", back: "APRA's Strategic Planning and Member Outcomes standard for super trustees.", link: "/sectors/superannuation.html" },
-      { front: "SPS 530", back: "APRA's Investment Governance standard for super trustees, including liquidity, stress testing and valuation.", link: "/sectors/superannuation.html" },
+      { front: "CPS 511", back: "APRA's Remuneration standard: remuneration frameworks that support risk management and good outcomes, with deferral and adjustment of variable pay.", link: "/standards/cps-511.html" },
+      { front: "CPS 190", back: "APRA's Recovery and Exit Planning standard: plans for responding to severe financial stress.", link: "/standards/cps-190-and-cps-900.html" },
+      { front: "SPS 515", back: "APRA's Strategic Planning and Member Outcomes standard for super trustees.", link: "/standards/sps-515.html" },
+      { front: "SPS 530", back: "APRA's Investment Governance standard for super trustees, including liquidity, stress testing and valuation.", link: "/standards/sps-530.html" },
       { front: "SPS 521", back: "APRA's Conflicts of Interest standard for super trustees.", link: "/governance/conflicts-of-interest.html" },
       { front: "APS 210", back: "APRA's Liquidity standard for ADIs (including the LCR and NSFR).", link: "/sectors/banking.html" },
       { front: "RG 78", back: "ASIC's guide to breach reporting (the reportable situations regime) for AFS and credit licensees.", link: "/standards/asic-rg-78.html" },
@@ -51,11 +51,68 @@ window.FLASH_DECKS = [
       { front: "RG 277", back: "ASIC's guide to consumer remediation.", link: "/standards/asic-rg-277.html" },
       { front: "RG 97", back: "ASIC's guide to disclosing fees and costs in PDSs and periodic statements.", link: "/compliance/disclosure-obligations.html" },
       { front: "RG 132", back: "ASIC's guide to funds management compliance and oversight (compliance plans and committees).", link: "/sectors/managed-investment-schemes.html" },
-      { front: "RG 270", back: "ASIC's guide to whistleblower policies.", link: "/governance/whistleblower-protections.html" },
+      { front: "RG 270", back: "ASIC's guide to whistleblower policies.", link: "/standards/asic-rg-270.html" },
       { front: "ISO 31000", back: "International risk management guidance: principles, framework and process. Not certifiable.", link: "/standards/iso-31000.html" },
       { front: "ISO/IEC 27001", back: "International standard for information security management systems. Certifiable.", link: "/standards/iso-27001.html" },
       { front: "SIS Act s 52", back: "The covenants in every super fund's governing rules, including the best financial interests duty.", link: "/sectors/superannuation.html" },
-      { front: "Corporations Act s 912A", back: "AFS licensees' general obligations, including efficiently, honestly and fairly and adequate compliance arrangements.", link: "/compliance/licensing-basics.html" }
+      { front: "Corporations Act s 912A", back: "AFS licensees' general obligations, including efficiently, honestly and fairly and adequate compliance arrangements.", link: "/compliance/licensing-basics.html" },
+      { front: "CPS 510 and CPS 520", back: "APRA's Governance and Fit and Proper standards: board composition and committees, and fit and proper assessments of responsible persons. A single cross-industry replacement is in draft.", link: "/standards/cps-510-and-cps-520.html" },
+      { front: "APS 110 and APS 210", back: "APRA's capital adequacy and liquidity standards for banks (ADIs).", link: "/standards/aps-110-and-aps-210.html" },
+      { front: "RG 97", back: "ASIC's guide to fees and costs disclosure in PDSs and periodic statements.", link: "/standards/asic-rg-97.html" },
+      { front: "RG 104 and RG 105", back: "ASIC's guides to AFS licensees' general obligations and organisational competence (responsible managers).", link: "/standards/asic-rg-104-and-rg-105.html" },
+      { front: "RG 181", back: "ASIC's guide to managing conflicts of interest for AFS licensees.", link: "/standards/asic-rg-181.html" },
+      { front: "RG 259", back: "ASIC's guide to risk management systems for responsible entities and other fund operators.", link: "/standards/asic-rg-259.html" },
+      { front: "ISO 22301", back: "International standard for business continuity management systems. Certifiable.", link: "/standards/iso-22301.html" },
+      { front: "ISO 37301", back: "International standard for compliance management systems, building on Australia's AS 3806. Certifiable.", link: "/standards/iso-37301.html" },
+      { front: "ISO 37001", back: "International standard for anti-bribery management systems. Certifiable.", link: "/standards/iso-37001.html" },
+      { front: "ISO/IEC 42001", back: "International standard for AI management systems. Certifiable.", link: "/standards/iso-42001.html" },
+      { front: "Essential Eight", back: "The Australian Signals Directorate's eight baseline cyber mitigation strategies, assessed at maturity levels Zero to Three.", link: "/standards/essential-eight.html" },
+      { front: "Global Internal Audit Standards", back: "The IIA's standards for internal audit, in effect from 9 January 2025: five domains and fifteen principles.", link: "/standards/global-internal-audit-standards.html" }
+    ]
+  },
+  {
+    id: "advanced",
+    title: "Advanced concepts",
+    cards: [
+      { front: "Frequency and severity", back: "The two parts of a loss distribution model: how many loss events happen in a year, and how big each one is.", link: "/risk-management/quantitative-operational-risk.html" },
+      { front: "Why operational loss averages mislead", back: "Losses are heavy-tailed: most are small but a rare few are enormous and dominate the total.", link: "/risk-management/quantitative-operational-risk.html" },
+      { front: "Value-at-risk (VaR) vs expected shortfall", back: "VaR is a bad year at a chosen confidence level. Expected shortfall is the average of the years worse than that.", link: "/risk-management/quantitative-operational-risk.html" },
+      { front: "Diversification benefit", back: "The reduction in total risk because risks don't all go wrong together. It can vanish in a crisis, when correlations rise.", link: "/risk-management/risk-aggregation-and-correlation.html" },
+      { front: "Why heat-map scores can't be added", back: "They are rankings, not measurements, so sums or averages look precise but don't measure total risk.", link: "/risk-management/risk-aggregation-and-correlation.html" },
+      { front: "Reverse stress testing", back: "Starting from failure and working back to the scenarios that could cause it.", link: "/risk-management/scenario-analysis-and-stress-testing.html" },
+      { front: "Severe but plausible", back: "The standard for stress scenarios: bad enough to test resilience, realistic enough to be taken seriously.", link: "/risk-management/scenario-analysis-and-stress-testing.html" },
+      { front: "Setting tolerance levels 'outside in'", back: "Start from the harm to customers, legal obligations and the system, not from what current systems can achieve.", link: "/risk-management/setting-cps-230-tolerance-levels.html" },
+      { front: "Tolerable deviation rate", back: "The highest rate of control failure you can accept and still rely on the control.", link: "/risk-management/control-testing-sampling.html" },
+      { front: "Upper deviation limit", back: "Given what a sample found, how high the true deviation rate could be at a chosen confidence level. Compare it with the tolerable rate.", link: "/risk-management/control-testing-sampling.html" },
+      { front: "Deemed-significant breach", back: "A breach that is automatically significant under s 912D(4), such as one causing material loss or damage to clients, whatever its size.", link: "/compliance/breach-significance-analysis.html" },
+      { front: "Closure vs validation", back: "Closure: the owner says an issue is fixed. Validation: someone independent confirms the fix works.", link: "/risk-management/issue-and-action-management.html" },
+      { front: "Combined assurance", back: "Coordinating first-line, second-line, internal audit and external assurance so the board gets one joined-up picture.", link: "/risk-management/assurance-mapping.html" },
+      { front: "Triangulating risk culture", back: "Combining what people say (surveys), what they do (behavioural data) and what the organisation has built (systems and incentives).", link: "/governance/risk-culture-assessment.html" },
+      { front: "Model risk tiering", back: "Ranking models by materiality and complexity so the most important get the most validation and oversight.", link: "/risk-management/model-risk.html" },
+      { front: "Model drift", back: "A model's performance degrading over time because the data or environment has changed since it was built.", link: "/risk-management/model-risk.html" }
+    ]
+  },
+  {
+    id: "dates",
+    title: "Key dates: new and changing regimes (2026)",
+    cards: [
+      { front: "Payday Super started", back: "1 July 2026. Contributions must generally reach the fund within seven business days of payday.", link: "/news/2026-09-regulatory-roundup.html" },
+      { front: "AML/CTF tranche 2 started", back: "1 July 2026, bringing lawyers, accountants, real estate professionals and others into the regime. Changed obligations for existing reporting entities began on 31 March 2026.", link: "/compliance/aml-ctf-fundamentals.html" },
+      { front: "CPS 230 commenced", back: "1 July 2025. APRA's targeted amendments took effect on 1 July 2026.", link: "/standards/cps-230.html" },
+      { front: "Mandatory climate reporting: Group 1, 2 and 3 start dates", back: "Financial years starting on or after 1 January 2025 (Group 1), 1 July 2026 (Group 2) and 1 July 2027 (Group 3).", link: "/compliance/climate-related-financial-disclosures.html" },
+      { front: "Failure to prevent foreign bribery offence commenced", back: "8 September 2024.", link: "/compliance/anti-bribery-and-corruption.html" },
+      { front: "National Anti-Corruption Commission began operating", back: "1 July 2023.", link: "/compliance/anti-bribery-and-corruption.html" },
+      { front: "Buy now pay later became regulated credit", back: "10 June 2025.", link: "/sectors/credit-and-non-bank-lenders.html" },
+      { front: "Card surcharges removed on designated networks", back: "Mostly from 1 October 2026 (RBA reforms).", link: "/sectors/payments-and-fintech.html" },
+      { front: "Privacy: automated decision-making transparency", back: "Privacy policies must explain substantially automated decisions from 10 December 2026.", link: "/governance/ai-governance.html" },
+      { front: "APRA phase-out of Additional Tier 1 capital", back: "Begins 1 January 2027.", link: "/standards/aps-110-and-aps-210.html" },
+      { front: "IIA Global Internal Audit Standards effective", back: "9 January 2025. Cybersecurity topical requirement from February 2026.", link: "/standards/global-internal-audit-standards.html" },
+      { front: "Commonwealth Fraud and Corruption Control Framework", back: "In effect since 1 July 2024.", link: "/sectors/public-sector.html" },
+      { front: "Draft CPS 510 (governance): expected timing", back: "Final standard expected late 2026, applying from early 2028. Still a draft.", link: "/news/draft-cps-510-governance-overhaul.html" },
+      { front: "Scams Prevention Framework rules", back: "Started 1 September 2026. Most obligations expected to apply from March 2027.", link: "/compliance/consumer-protection.html" }
     ]
   }
 ];
+
+// Glossary terms added since the flashcards launched (September 2026). Shown as their own deck.
+window.GLOSSARY_NEW = ["adi", "assurance-map", "at1", "awareness", "beneficial-assumption", "cet1", "claims-handling", "compliance-committee", "compliance-plan", "cps-511", "deemed-significant-breach", "deferred-sales-model", "distribution-condition", "diversification-benefit", "dti-limit", "essential-eight", "expected-shortfall", "financial-hardship", "fraud-triangle", "greenwashing", "hawking", "icaap", "information-asset", "isms", "issue", "key-function", "lcr", "macroprudential-policy", "managed-investment-scheme", "model-risk", "product-intervention-power", "recovery-and-exit-planning", "responsible-entity", "responsible-manager", "reverse-stress-testing", "review-trigger", "sampling", "scams-prevention-framework", "sfi", "significant-dealing", "smsf", "sps-515", "tolerable-deviation-rate", "utmost-good-faith", "var", "vulnerable-customer"];

@@ -27,6 +27,9 @@
   if (glossary.length) {
     decks.push({ id: 'glossary-20', title: 'Glossary: 20 random terms', cards: glossary, sample: 20 });
     decks.push({ id: 'glossary', title: 'Glossary: all ' + glossary.length + ' terms', cards: glossary });
+    var fresh = window.GLOSSARY_NEW || [];
+    var freshCards = glossary.filter(function (c) { return fresh.indexOf(c.link.slice(11)) !== -1; });
+    if (freshCards.length) decks.push({ id: 'glossary-new', title: 'Glossary: ' + freshCards.length + ' newer terms', cards: freshCards });
   }
   (window.FLASH_DECKS || []).forEach(function (d) { decks.push(d); });
 
