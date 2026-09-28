@@ -239,7 +239,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Service provider concentration, fourth parties and exit planning. Expert review.
 - [x] Liquidity stress testing for super funds, with a simulator
 - [x] Interpreting legislation for compliance professionals
-- [ ] Designing a compliance monitoring and testing program. Expert review.
+- [x] Designing a compliance monitoring and testing program. Expert review.
 - [ ] Remediation calculations in practice, with a calculator. Expert review.
 - [x] Reasonable steps and consequence management under FAR
 - [ ] Unit pricing and unit pricing errors (super). Expert review.

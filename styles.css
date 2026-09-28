@@ -1281,3 +1281,9 @@ td .badge { white-space: nowrap; }
 .om-ok .om-icon { background: var(--green); }
 .om-degraded { border-color: rgba(251, 191, 36, 0.55) !important; } .om-degraded .om-icon { background: var(--amber); }
 .om-failed { border-color: rgba(248, 113, 113, 0.6) !important; } .om-failed .om-icon { background: #f87171; }
+
+/* Compliance monitoring planner */
+#cm-planner td input[type="number"] { width: 72px; }
+#cm-planner td select { min-width: 100px; }
+.cm-plan ol { padding-left: 20px; }
+.cm-plan li { margin-bottom: 6px; }

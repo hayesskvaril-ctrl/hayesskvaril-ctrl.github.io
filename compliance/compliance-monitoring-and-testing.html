@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Designing a compliance monitoring and testing program | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to designing compliance monitoring and testing: monitoring versus testing versus assurance, risk-based coverage, full-population analytics, sampling and file reviews, rating and reporting findings, with an interactive risk-based planner.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/compliance/compliance-monitoring-and-testing.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Designing a compliance monitoring and testing program">
+<meta property="og:description" content="An advanced guide to designing compliance monitoring and testing: monitoring versus testing versus assurance, risk-based coverage, full-population analytics, sampling and file reviews, rating and reporting findings, with an interactive risk-based planner.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/compliance/compliance-monitoring-and-testing.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/" aria-current="page">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/compliance/">Compliance</a></li><li>Compliance monitoring and testing</li></ol></nav>
+
+  <h1>Designing a compliance monitoring and testing program</h1>
+  <p class="summary">How to plan compliance monitoring and testing by risk, choose techniques that produce real evidence, and turn findings into fixes, with a risk-based planner.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Monitoring (continuous, often automated), testing (point-in-time, evidence-based), thematic reviews and independent assurance work together.</li>
+      <li>Prioritise coverage by inherent risk, control strength, time since last tested, and change or warning signals.</li>
+      <li>Full-population data analytics suits high-volume, rules-based obligations and often finds systematic errors that samples miss.</li>
+      <li>Judgement-heavy obligations need file reviews, call listening or thematic reviews.</li>
+      <li>Findings should be rated consistently, assessed for breaches, traced to root causes and closed only when fixes are validated.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>A compliance framework on paper says how obligations should be met. Monitoring and testing find out whether they actually are. A well-designed program spends its limited effort where the risk of non-compliance and harm is highest, tests things in ways that produce real evidence, and turns findings into fixes.</p>
+  <p>This page covers how to design that program: the difference between monitoring and testing, how to prioritise coverage, which techniques suit which obligations, and how to report results. It builds on <a class="xref" href="/compliance/designing-a-compliance-program.html">designing a compliance program</a> and <a class="xref" href="/risk-management/control-testing-sampling.html">control testing and sampling</a>.</p>
+
+  <h2>Monitoring, testing and assurance</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Activity</th><th scope="col">What it is</th><th scope="col">Example</th></tr></thead>
+      <tbody>
+        <tr><td>Monitoring</td><td>Ongoing tracking of indicators and exceptions, often automated, to spot problems as they emerge.</td><td>A daily report of rollovers approaching the legal deadline; complaint ageing dashboards.</td></tr>
+        <tr><td>Testing</td><td>A point-in-time examination of whether a control or obligation was met, using evidence.</td><td>Sampling 40 benefit payments to check identity verification was completed before payment.</td></tr>
+        <tr><td>Thematic review</td><td>A deeper look at one theme across the business, often prompted by regulator focus or incident trends.</td><td>A review of how hardship and vulnerable member cases are handled across teams.</td></tr>
+        <tr><td>Assurance</td><td>An opinion, usually by an independent function, on whether the framework is working overall.</td><td>An <a class="term" href="/glossary/#internal-audit">internal audit</a> review of the compliance framework.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Good programs use all four. Monitoring is continuous but shallow; testing is deep but periodic. The <a class="term" href="/glossary/#second-line">second line</a> typically designs and runs much of the program, with the <a class="term" href="/glossary/#first-line">first line</a> doing its own monitoring and internal audit providing independent assurance over both. See <a class="xref" href="/risk-management/assurance-mapping.html">assurance mapping</a>.</p>
+
+  <h2>Prioritising coverage by risk</h2>
+  <p>You can't test everything every year. Common factors for deciding what to test and how often:</p>
+  <ul>
+    <li><strong>Inherent <a class="term" href="/glossary/#compliance-risk">compliance risk</a></strong> of the obligation: consequences for customers and members, penalties, regulator focus.</li>
+    <li><strong>Control strength</strong>: manual or automated, preventive or detective, and results of previous testing.</li>
+    <li><strong>Time since last tested</strong>: assurance decays as processes, people and systems change.</li>
+    <li><strong>Change and signals</strong>: new systems, products or providers; incidents, breaches, complaints or audit findings.</li>
+  </ul>
+  <div class="widget" id="cm-planner">
+    <h3>Try it: build a risk-based plan</h3>
+    <p class="small">Adjust the inputs for a fictional super fund's obligations. The plan below reorders by priority.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Obligation</th><th scope="col">Inherent risk</th><th scope="col">Months since tested</th><th scope="col">Change or incidents</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <h4>Suggested plan</h4>
+    <div class="cm-plan" aria-live="polite"></div>
+    <noscript><p>The planner needs JavaScript.</p></noscript>
+    <p class="small">An illustrative scoring model (risk × 2, plus up to 6 points for time since testing, plus 3 for change or incidents). Use your own methodology and judgement.</p>
+  </div>
+
+  <h2>Choosing the right technique</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Technique</th><th scope="col">Best for</th><th scope="col">Limitations</th></tr></thead>
+      <tbody>
+        <tr><td>Full-population data analytics</td><td>High-volume, rules-based obligations: fee calculations, premium deductions, payment timeframes, complaint deadlines.</td><td>Needs reliable data and clear rules; can miss judgement-based failures.</td></tr>
+        <tr><td>Sample testing</td><td>Controls that leave evidence item by item: approvals, checks, documentation.</td><td>Gives confidence, not certainty; sample size matters (see <a class="xref" href="/risk-management/control-testing-sampling.html">sampling</a>).</td></tr>
+        <tr><td>File reviews</td><td>Judgement-heavy work: advice, claims decisions, hardship, complaints.</td><td>Resource-intensive; reviewer consistency needs calibration.</td></tr>
+        <tr><td>Call listening and mystery shopping</td><td>Conduct and disclosure in conversations, sales and service.</td><td>Small samples; privacy and consent considerations.</td></tr>
+        <tr><td>Walkthroughs and design reviews</td><td>New or changed processes, before testing operation.</td><td>Show a control exists, not that it operates.</td></tr>
+        <tr><td>Trend analysis</td><td>Complaints, incidents and breaches: finding systemic issues.</td><td>Depends on consistent categorisation.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Where data allows, testing the whole population is increasingly expected. It removes sampling risk and often finds errors that samples miss, especially small systematic ones such as a fee rate error affecting every member slightly.</p>
+
+  <h2>From findings to outcomes</h2>
+  <ol>
+    <li><strong>Rate consistently:</strong> use a defined rating scale for results and for the severity of findings, so trends mean something.</li>
+    <li><strong>Assess breaches:</strong> a failed test may reveal a breach that needs <a class="xref" href="/compliance/breach-significance-analysis.html">significance assessment</a> and reporting.</li>
+    <li><strong>Find root causes:</strong> not just "control not performed", but why. See <a class="xref" href="/risk-management/root-cause-analysis.html">root cause analysis</a>.</li>
+    <li><strong>Track actions to validated closure:</strong> see <a class="xref" href="/risk-management/issue-and-action-management.html">issue and action management</a>.</li>
+    <li><strong>Report themes:</strong> committees and boards need the pattern (which obligations are weak, where, and why), not a list of tests.</li>
+    <li><strong>Feed back:</strong> results change risk ratings, the obligations register and next year's plan.</li>
+  </ol>
+
+  <div class="callout warn">
+    <h3>Common failure modes</h3>
+    <p>Coverage planned by calendar rather than risk; testing what's easy rather than what matters; tests that confirm a control exists but not that it works; findings closed without validation; and results that never reach the people who could fix the root cause.</p>
+  </div>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. What is the main difference between monitoring and testing?</p>
+      <div class="q-options"><button type="button" data-value="a">There is none</button><button type="button" data-value="b">Monitoring is ongoing and often automated; testing is a deeper point-in-time examination using evidence</button><button type="button" data-value="c">Testing is only done by internal audit</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Both matter: monitoring spots emerging issues, testing gives evidence of compliance.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">2. Which technique best suits checking that every member's fee was calculated at the PDS rate?</p>
+      <div class="q-options"><button type="button" data-value="a">Mystery shopping</button><button type="button" data-value="b">Full-population data analytics</button><button type="button" data-value="c">A walkthrough</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>High-volume, rules-based obligations suit full-population testing where data is reliable.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. A compliance test fails. What should happen before closing the finding?</p>
+      <div class="q-options"><button type="button" data-value="a">Close it when the owner says it's fixed</button><button type="button" data-value="b">Assess breach significance, find the root cause, and validate the fix</button><button type="button" data-value="c">Retest in five years</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Findings should be assessed, fixed at the root, and validated.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/compliance/designing-a-compliance-program.html" data-label="Designing a compliance program"><a href="/compliance/designing-a-compliance-program.html">Designing a compliance program</a></li>
+      <li data-href="/risk-management/control-testing-sampling.html" data-label="Control testing: sampling and evaluation"><a href="/risk-management/control-testing-sampling.html">Control testing: sampling and evaluation</a></li>
+      <li data-href="/tools/control-testing-workpaper.html" data-label="Control testing workpaper"><a href="/tools/control-testing-workpaper.html">Control testing workpaper</a></li>
+      <li data-href="/tools/obligations-register-template.html" data-label="Obligations register template"><a href="/tools/obligations-register-template.html">Obligations register template</a></li>
+      <li data-href="/risk-management/assurance-mapping.html" data-label="Assurance mapping"><a href="/risk-management/assurance-mapping.html">Assurance mapping</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations">Regulatory Guide 104 AFS licensing: Meeting the general obligations</a> (compliance measures and monitoring).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a> (compliance function) and <a href="https://www.apra.gov.au/standards/cps-230">CPS 230 Operational Risk Management</a> (monitoring and testing of controls).</li>
+      <li>International Organization for Standardization, ISO 37301:2021 Compliance management systems (performance evaluation; described in our own words).</li>
+      <li>Auditing and Assurance Standards Board, ASA 530 Audit Sampling, available from the <a href="https://www.auasb.gov.au/">AUASB website</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/cm-planner.js"></script>
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>
