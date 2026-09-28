@@ -241,7 +241,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Interpreting legislation for compliance professionals
 - [ ] Designing a compliance monitoring and testing program. Expert review.
 - [ ] Remediation calculations in practice, with a calculator. Expert review.
-- [ ] Reasonable steps and consequence management under FAR
+- [x] Reasonable steps and consequence management under FAR
 - [ ] Unit pricing and unit pricing errors (super). Expert review.
 - [ ] Fund mergers and successor fund transfers
 - [x] Advanced case study: ASIC v RI Advice and ASIC v FIIG (cyber risk as a licensee obligation)
