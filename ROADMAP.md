@@ -180,7 +180,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] AUSTRAC civil penalty cases (CBA 2018, Westpac 2020): AML/CTF control failures
 - [x] Optus and Medibank data breaches (2022): cyber, privacy and regulatory response
 - [x] HIH Insurance collapse (2001): governance and the origins of modern prudential regulation
-- [ ] Shield and First Guardian: platform, advice and trustee failures (link to existing commentary; update as court outcomes arrive)
+- [x] Shield and First Guardian: platform, advice and trustee failures (link to existing commentary; update as court outcomes arrive)
 - [ ] Case-study quizzes and "what would you have done?" prompts
 
 **Sectors**
@@ -248,6 +248,7 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Watch and update (Phase 4 pages):** further CPS 230 amendments or APRA guidance; ASIC's remaining reportable-situations relief (RG 78 page); any new COSO guidance or framework updates; ISO/IEC 27001 amendments.
 - **Nick to review (Phase 5):** Superannuation trustee governance (covenants table, SPS list, performance test vs outcomes assessment, fee governance section), plus the super-related parts of the Managed investment schemes page (Shield / First Guardian).
 - **Nick to review (Phase 10):** Setting CPS 230 tolerance levels (method, worked examples for super and bank, the builder's example ratings); Breach significance analysis (the four worked cases and their illustrative conclusions, the multi-regime table); Control testing sampling (sample size tables, deviation handling, evidence standards).
+- **Nick to review (Phase 13):** Shield and First Guardian case study (platform trustee lessons, 'what would you have done?' answers). Update it as court outcomes arrive.
 - **Nick to review (Phase 12):** Assurance mapping (example map) and Issue and action management (rating scale, timeframes, closure vs validation).
 - **Nick to review (Phase 9):** RG 97 fees and costs explainer, especially the fee governance section and the illustrative worked example.
 - **Watch and update (Phase 5 pages):** performance test changes after Treasury's 2026 consultation; redrafted General Insurance Code (ASIC lodgement late 2026) and Life Code review outcome; Scams Prevention Framework obligations (March 2027); AT1 phase-out (from January 2027); Shield / First Guardian proceedings; APRA's proposed proportionality ("three-tier") framework.
