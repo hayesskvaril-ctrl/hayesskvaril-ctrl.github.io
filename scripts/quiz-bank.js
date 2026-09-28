@@ -183,6 +183,24 @@ window.QUIZ_BANK = [
       { q: "Which regulator is the main regulator of managed investment schemes?", options: ["APRA", "ASIC", "AUSTRAC", "The RBA"], answer: 1,
         explain: "Managed investment schemes are regulated by ASIC under the Corporations Act, not APRA.", page: "/sectors/managed-investment-schemes.html" }
     ]
+  },
+  {
+    id: "case-studies",
+    title: "Case studies",
+    questions: [
+      { q: "The Hayne Royal Commission linked much of the misconduct it found to:", options: ["Incentives and putting profit ahead of basic honesty", "Too little technology", "Interest rate changes", "Foreign competition"], answer: 0,
+        explain: "The final report linked much misconduct to incentives and to prioritising profit over basic standards of honesty and fairness.", page: "/case-studies/hayne-royal-commission.html" },
+      { q: "APRA's prudential inquiry into CBA found weaknesses mainly in managing:", options: ["Market risk", "Non-financial risks such as operational, compliance and conduct risk", "Credit risk", "Liquidity risk"], answer: 1,
+        explain: "The panel found shortcomings in governance, culture and accountability, particularly around non-financial risks.", page: "/case-studies/apra-cba-prudential-inquiry.html" },
+      { q: "CBA's AML/CTF failures began when it:", options: ["Hired too few staff", "Rolled out intelligent deposit machines without assessing their money laundering risk", "Moved to the cloud", "Changed auditors"], answer: 1,
+        explain: "The machines were introduced without an ML/TF risk assessment, and criminals exploited them.", page: "/case-studies/austrac-cba-westpac.html" },
+      { q: "Which lesson from the 2022 Optus and Medibank breaches is about data minimisation?", options: ["Keep all data in case it's useful later", "Destroy or de-identify personal information you no longer need", "Only encrypt new records", "Move data offshore"], answer: 1,
+        explain: "Holding old identity documents and records increased the harm. The Australian Privacy Principles require destroying or de-identifying information no longer needed.", page: "/case-studies/optus-medibank-data-breaches.html" },
+      { q: "A central financial problem behind HIH Insurance's collapse was:", options: ["Holding too much capital", "Under-reserving for future claims", "Too few policyholders", "High interest rates"], answer: 1,
+        explain: "HIH did not set aside enough to pay future claims, so its true position was far worse than reported.", page: "/case-studies/hih-insurance-collapse.html" },
+      { q: "In the Shield case, the Federal Court declared a platform trustee contravened the law by failing to:", options: ["Charge enough fees", "Place the Shield options on a watch list for heightened monitoring", "Advertise the fund", "Pay dividends"], answer: 1,
+        explain: "The court declared Macquarie should have placed the Shield options on a watch list for further monitoring.", page: "/case-studies/shield-and-first-guardian.html" }
+    ]
   }
 ];
 
@@ -229,5 +247,11 @@ window.QUIZ_PAGES = {
   "/standards/cps-230.html": "CPS 230 Operational Risk Management",
   "/standards/cps-234.html": "CPS 234 Information Security",
   "/standards/iso-27001.html": "ISO/IEC 27001 Information security management",
-  "/standards/iso-31000.html": "ISO 31000 Risk management"
+  "/standards/iso-31000.html": "ISO 31000 Risk management",
+  "/case-studies/hayne-royal-commission.html": "The Hayne Royal Commission (2019)",
+  "/case-studies/apra-cba-prudential-inquiry.html": "APRA Prudential Inquiry into CBA (2018)",
+  "/case-studies/austrac-cba-westpac.html": "AUSTRAC v CBA (2018) and AUSTRAC v Westpac (2020)",
+  "/case-studies/optus-medibank-data-breaches.html": "The Optus and Medibank data breaches (2022)",
+  "/case-studies/hih-insurance-collapse.html": "The HIH Insurance collapse (2001)",
+  "/case-studies/shield-and-first-guardian.html": "The Shield and First Guardian collapses"
 };

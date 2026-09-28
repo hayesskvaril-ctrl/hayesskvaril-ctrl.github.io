@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-28", "/case-studies/", "New Case studies section: the Hayne Royal Commission, APRA's inquiry into CBA, AUSTRAC v CBA and Westpac, Optus and Medibank, HIH Insurance, and Shield and First Guardian, each with a timeline, lessons and a quiz."),
     ("2026-09-27", "/standards/", "Added 15 new explainers, including CPS 511, SPS 515, SPS 530, CPS 190 and CPS 900, RG 181, RG 270, ISO 22301, ISO 37301, ISO/IEC 42001 and the Essential Eight."),
     ("2026-09-27", "/learn/pathways.html", "Added the new risk, governance, cyber and standards pages to the learning pathways."),
     ("2026-09-27", "/governance/ai-governance.html", "Added APRA's April 2026 letter to industry on AI risk management."),

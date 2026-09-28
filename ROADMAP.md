@@ -181,7 +181,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Optus and Medibank data breaches (2022): cyber, privacy and regulatory response
 - [x] HIH Insurance collapse (2001): governance and the origins of modern prudential regulation
 - [x] Shield and First Guardian: platform, advice and trustee failures (link to existing commentary; update as court outcomes arrive)
-- [ ] Case-study quizzes and "what would you have done?" prompts
+- [x] Case-study quizzes and "what would you have done?" prompts
 
 **Sectors**
 - [ ] Credit licensees and non-bank lenders (responsible lending, hardship, credit reporting, BNPL)
