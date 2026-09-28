@@ -229,8 +229,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 
 **New Advanced pages** (each with worked examples, a diagram or interactive, and primary sources)
 - [ ] Root cause analysis: 5 whys, fishbone, bow-tie and fault trees. Expert review.
-- [ ] Misleading or deceptive conduct: the legal tests and key cases (disclosure review). Expert review.
-- [ ] Directors' and officers' duties: key Australian cases
+- [x] Misleading or deceptive conduct: the legal tests and key cases (disclosure review). Expert review.
+- [x] Directors' and officers' duties: key Australian cases
 - [ ] Enforcement and penalties: how regulators respond and how penalties are set
 - [ ] APS 115 operational risk capital (standardised measurement approach), with a calculator
 - [ ] KRI design and statistical thresholds, with an interactive control chart
