@@ -211,12 +211,12 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Refresh learning pathways and Start here routes to include all new pages
 
 **Upkeep machinery**
-- [ ] Upkeep checklist in `_scripts/UPKEEP.md` (what to check monthly, quarterly and yearly, and how)
-- [ ] Automated checks bundled into one command (links, review due dates, passed regulatory dates, tracker items past their dates)
+- [x] Upkeep checklist in `_scripts/UPKEEP.md` (what to check monthly, quarterly and yearly, and how)
+- [x] Automated checks bundled into one command (`python3 _scripts/run_checks.py`) (links, review due dates, passed regulatory dates, tracker items past their dates)
 
 ## 🔁 Recurring upkeep (never ticked off; do on schedule)
 
-- **Monthly:** publish a news item or roundup when there are material developments; check the regulatory tracker for items whose dates have passed and move them to "In force".
+- **Monthly:** run `python3 _scripts/run_checks.py` and follow `_scripts/UPKEEP.md`; publish a news item or roundup when there are material developments; check the regulatory tracker for items whose dates have passed and move them to "In force".
 - **Quarterly:** full tracker refresh (`AS_AT` date updated), roundup article, run the review report and link check, and check watch items in the backlog below.
 - **Yearly (per page):** review every page within 12 months of its last review; re-verify all regulatory facts against official sources, update "Last reviewed", and refresh related quizzes and flashcards.
 - **When regulations change:** update every affected page the same week (use Search and the tracker to find them), then note it on the "What's new" page.
