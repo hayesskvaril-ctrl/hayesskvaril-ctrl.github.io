@@ -244,7 +244,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [ ] Reasonable steps and consequence management under FAR
 - [ ] Unit pricing and unit pricing errors (super). Expert review.
 - [ ] Fund mergers and successor fund transfers
-- [ ] Advanced case study: ASIC v RI Advice (cyber risk as a licensee obligation)
+- [x] Advanced case study: ASIC v RI Advice and ASIC v FIIG (cyber risk as a licensee obligation)
 
 **Deepen existing pages and learning**
 - [ ] "Going deeper" Advanced sections on key Intermediate pages (CPS 230, risk appetite, third-party risk, incident and breach management, disclosure obligations, ERM)
