@@ -240,7 +240,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Liquidity stress testing for super funds, with a simulator
 - [x] Interpreting legislation for compliance professionals
 - [x] Designing a compliance monitoring and testing program. Expert review.
-- [ ] Remediation calculations in practice, with a calculator. Expert review.
+- [x] Remediation calculations in practice, with a calculator. Expert review.
 - [x] Reasonable steps and consequence management under FAR
 - [ ] Unit pricing and unit pricing errors (super). Expert review.
 - [ ] Fund mergers and successor fund transfers

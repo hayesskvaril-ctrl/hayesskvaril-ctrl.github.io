@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Remediation calculations in practice | RiskLens Australia</title>
+<meta name="description" content="An advanced guide to calculating consumer and member remediation under ASIC RG 277: population, base loss, foregone returns and the RBA cash rate plus 6%, negative returns, beneficial assumptions, who pays in super, and assurance over calculations, with a calculator.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/compliance/remediation-calculations.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Remediation calculations in practice">
+<meta property="og:description" content="An advanced guide to calculating consumer and member remediation under ASIC RG 277: population, base loss, foregone returns and the RBA cash rate plus 6%, negative returns, beneficial assumptions, who pays in super, and assurance over calculations, with a calculator.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/compliance/remediation-calculations.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/" aria-current="page">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/compliance/">Compliance</a></li><li>Remediation calculations</li></ol></nav>
+
+  <h1>Remediation calculations in practice</h1>
+  <p class="summary">The methodology decisions behind a <a class="term" href="/glossary/#remediation">remediation</a> program, from the rate for foregone returns to <a class="term" href="/glossary/#beneficial-assumption">beneficial assumption</a>s and assurance, with a calculator and a worked super example.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 15 minutes</span>
+    <span>Last reviewed: 28 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Remediation calculations combine the population, the base loss, the time value of money, other losses and payment mechanics.</li>
+      <li>Use the returns people would actually have earned where you can. ASIC indicates the RBA cash rate plus 6% is acceptable where actual returns can't be worked out and it benefits consumers.</li>
+      <li>Decide deliberately how to treat negative returns, and document it.</li>
+      <li>Beneficial assumptions stop uncertainty falling on the people harmed, but shouldn't replace analysis.</li>
+      <li>Super trustees must decide who bears the cost, and every calculation program needs independent methodology sign-off, re-performance and reconciliation.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>Remediation puts people back where they would have been if the error or misconduct hadn't happened. That sounds simple until you try to calculate it: records are incomplete, people have left, money would have been invested, and thousands of individual calculations need to be right. Most of the real decisions in a remediation program are methodology decisions, and each one moves money between the organisation and the people affected.</p>
+  <p>This page works through those decisions, with a calculator, a worked super example and the assurance a calculation needs. It builds on <a class="xref" href="/standards/asic-rg-277.html">RG 277 Consumer remediation</a>.</p>
+
+  <h2>The building blocks of a remediation calculation</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Component</th><th scope="col">What it is</th><th scope="col">Typical questions</th></tr></thead>
+      <tbody>
+        <tr><td>Population</td><td>Everyone who was, or may have been, affected.</td><td>Which products, periods and account types? How do we treat people with missing data?</td></tr>
+        <tr><td>Base loss</td><td>The direct amount lost: the overcharge, the underpayment, the fee for no service.</td><td>What should have happened for each person, and what did happen?</td></tr>
+        <tr><td>Time value of money</td><td>Foregone investment earnings or interest from when the loss occurred until it is repaid.</td><td>Which rate? From when to when? How are negative returns treated?</td></tr>
+        <tr><td>Other losses</td><td>Consequential effects, for example lost insurance cover or tax effects.</td><td>Are they foreseeable and measurable? Do they need an individual assessment?</td></tr>
+        <tr><td>Payment mechanics</td><td>How and when money reaches people, including former customers.</td><td>Credit to account, bank transfer or cheque? What if they can't be found?</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Choosing the rate for the time value of money</h2>
+  <p>RG 277 expects compensation for foregone returns or interest, using rates that return people as closely as possible to where they would have been. In practice:</p>
+  <ul>
+    <li><strong>Super and investment products:</strong> use the returns the member's money would actually have earned, usually the returns of their investment option over the period, applied through unit prices or crediting rates.</li>
+    <li><strong>Where a rate is prescribed</strong> by law for the situation, that rate may be used.</li>
+    <li><strong>Where you can't work out what the person would have earned:</strong> ASIC has indicated that the RBA cash rate plus 6% a year is an acceptable default where it benefits consumers, and other reasonably justified assumptions can also be used.</li>
+  </ul>
+  <p>Negative returns raise a genuine policy question. If the member's option lost money over the period, strictly restoring their position could mean paying back less than the overcharge. Many organisations adopt a beneficial assumption that compensation will not fall below the amount taken. Whatever you decide, decide it deliberately, apply it consistently, and document why.</p>
+
+  <div class="widget" id="rem-calc">
+    <h3>Try it: compensation for a monthly overcharge</h3>
+    <div class="controls">
+      <div><label for="rc-amt">Overcharge each month ($)</label><input type="number" id="rc-amt" value="12.50" min="0" step="0.5"></div>
+      <div><label for="rc-months">Months overcharged</label><input type="number" id="rc-months" value="18" min="0" max="240" step="1"></div>
+      <div><label for="rc-wait">Months from last overcharge to payment</label><input type="number" id="rc-wait" value="9" min="0" max="120" step="1"></div>
+      <div><label for="rc-method">Time value method</label><select id="rc-method"><option value="fund" selected>Investment option returns</option><option value="rba">RBA cash rate + 6%</option><option value="none">None (refund only)</option></select></div>
+      <div class="rc-ret-row"><label for="rc-ret">Option return (% a year)</label><input type="number" id="rc-ret" value="7" step="0.5"></div>
+      <div class="rc-floor-row"><label><input type="checkbox" id="rc-floor" checked> Don't reduce compensation for negative returns</label></div>
+      <div class="rc-cash-row" hidden><label for="rc-cash">RBA cash rate (% a year)</label><input type="number" id="rc-cash" value="3.6" step="0.05"></div>
+    </div>
+    <p class="result" aria-live="polite"></p>
+    <noscript><p>The calculator needs JavaScript.</p></noscript>
+    <p class="small">Illustrative. Compounds monthly at a constant rate. Real calculations use actual unit prices or rates for each period and each person's own transaction history. Enter your own current RBA cash rate.</p>
+  </div>
+
+  <h2>Worked example: a fee error in super</h2>
+  <p>A fund charged an administration fee 0.05% a year above the <a class="term" href="/glossary/#pds">PDS</a> rate for 18 months. For a member with a $300,000 balance, that is $12.50 a month. The member's Balanced option returned about 7% a year, and remediation will be paid nine months after the error stopped.</p>
+  <ul>
+    <li>Base loss: 18 × $12.50 = $225.00</li>
+    <li>Foregone earnings: each month's overcharge is grown at the option's return until the payment date.</li>
+    <li>Using the calculator's default settings, total compensation is about $248, of which about $23 is foregone earnings.</li>
+  </ul>
+  <p>Across 12,000 members with different balances, join dates and exit dates, the calculation must be run member by member using actual data. Members who left the fund part-way through, switched options or died during the period each need specific treatment.</p>
+
+  <h2>Methodology decisions and beneficial assumptions</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Situation</th><th scope="col">Beneficial approach (illustrative)</th></tr></thead>
+      <tbody>
+        <tr><td>Records for the early part of the period are missing</td><td>Assume the member was affected for the whole period, rather than excluding them.</td></tr>
+        <tr><td>Unclear which investment option the member held</td><td>Use the option with the higher return for the period (or the default option, if that is higher).</td></tr>
+        <tr><td>Unclear whether a fee was charged</td><td>Assume it was, where the evidence suggests it probably was.</td></tr>
+        <tr><td>Rounding and small amounts</td><td>Round in the member's favour; pay current members regardless of amount.</td></tr>
+        <tr><td>Former members owed small amounts</td><td>Apply the RG 277 options for amounts of $5 or less, and document the approach.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Beneficial assumptions shouldn't become arbitrary generosity to avoid analysis. The aim is that uncertainty doesn't fall on the people who were harmed.</p>
+
+  <h2>Who pays, and from where?</h2>
+  <p>For super trustees, the source of remediation funds is itself a governance decision. Paying compensation out of the fund's general assets would make other members fund the correction. Trustees commonly use their own resources, or where appropriate the operational risk financial requirement (ORFR) reserve, which exists to address losses from operational risk events. Where a service provider caused the error, contractual recovery may follow, but it shouldn't delay paying members. Document the decision and its reasons.</p>
+
+  <h2>Assurance over calculations</h2>
+  <ol>
+    <li><strong>Methodology sign-off</strong> before calculation starts, by someone independent of the team that caused the issue.</li>
+    <li><strong>Independent re-performance</strong> of a sample of individual calculations, including edge cases (leavers, deaths, switches, very small and very large amounts).</li>
+    <li><strong>Reconciliation</strong> of totals: population count, total base loss and total compensation against source systems and the general ledger.</li>
+    <li><strong>Payment verification</strong>: amounts credited or paid match the calculation file.</li>
+    <li><strong>Closure review</strong>: all in-scope people paid or accounted for under the residual approach; root cause fixed.</li>
+  </ol>
+  <p>Track the program with the <a class="xref" href="/tools/remediation-program-tracker.html">remediation program tracker</a>.</p>
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="b">
+      <p class="q-text">1. What rate does ASIC indicate can be used where a licensee can't work out a consumer's actual foregone returns, if it benefits consumers?</p>
+      <div class="q-options"><button type="button" data-value="a">The CPI rate</button><button type="button" data-value="b">The RBA cash rate plus 6% a year</button><button type="button" data-value="c">Zero</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>RG 277 allows prescribed rates, reasonably justified assumptions, or the RBA cash rate plus 6% where beneficial.</p>
+    </div>
+    <div class="q" data-answer="a">
+      <p class="q-text">2. For a super fund fee error, the most accurate time value measure is usually:</p>
+      <div class="q-options"><button type="button" data-value="a">The member's investment option returns over the period</button><button type="button" data-value="b">The bank's savings rate</button><button type="button" data-value="c">No adjustment</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>The member's money would have been invested in their option.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. Why is paying remediation from the fund's general assets a concern for super trustees?</p>
+      <div class="q-options"><button type="button" data-value="a">It is too slow</button><button type="button" data-value="b">Other members would effectively fund the correction</button><button type="button" data-value="c">It is prohibited in every case</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Trustees need to consider who bears the cost, often using trustee resources or the ORFR where appropriate.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/standards/asic-rg-277.html" data-label="RG 277 Consumer remediation"><a href="/standards/asic-rg-277.html">RG 277 Consumer remediation</a></li>
+      <li data-href="/tools/remediation-program-tracker.html" data-label="Remediation program tracker"><a href="/tools/remediation-program-tracker.html">Remediation program tracker</a></li>
+      <li data-href="/compliance/breach-significance-analysis.html" data-label="Breach significance analysis"><a href="/compliance/breach-significance-analysis.html">Breach significance analysis</a></li>
+      <li data-href="/sectors/superannuation.html" data-label="Superannuation"><a href="/sectors/superannuation.html">Superannuation</a></li>
+      <li data-href="/learn/scenarios.html" data-label="Scenario: the fee that shouldn't have been charged"><a href="/learn/scenarios.html">Scenario: the fee that shouldn't have been charged</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-277-consumer-remediation/">Regulatory Guide 277 Consumer remediation</a> (September 2022).</li>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/about-asic/news-centre/news-items/asic-calls-on-licensees-to-strengthen-remediation-procedures">ASIC calls on licensees to strengthen remediation procedures</a> (September 2023).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-114">Prudential Standard SPS 114 Operational Risk Financial Requirement</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/remediation-calc.js"></script>
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>
