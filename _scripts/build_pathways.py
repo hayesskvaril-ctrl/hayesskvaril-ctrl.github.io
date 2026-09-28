@@ -41,6 +41,7 @@ P = [
      ("/risk-management/business-continuity.html", "Staying within tolerance through disruption."),
      ("/risk-management/third-party-risk.html", "Managing reliance on service providers."),
      ("/standards/coso.html", "COSO's ERM and internal control frameworks."),
+     ("/standards/iso-22301.html", "The business continuity management standard."),
      ("/risk-management/climate-risk.html", "Physical and transition risk, and APRA's CPG 229."),
      ("/risk-management/cyber-risk.html", "Threats, the Essential Eight and incident response."),
      ("/risk-management/fraud-risk.html", "Preventing and detecting fraud."),
@@ -53,10 +54,15 @@ P = [
      ("/risk-management/scenario-analysis-and-stress-testing.html", "Severe but plausible scenarios and reverse stress tests."),
      ("/risk-management/setting-cps-230-tolerance-levels.html", "A method for setting tolerance levels."),
      ("/risk-management/risk-aggregation-and-correlation.html", "From many risks to one enterprise risk profile."),
-     ("/risk-management/control-testing-sampling.html", "Sample sizes, confidence and evidence.")]),
+     ("/risk-management/control-testing-sampling.html", "Sample sizes, confidence and evidence."),
+     ("/standards/cps-190-and-cps-900.html", "Recovery, exit and resolution planning.")]),
    ("Apply it", [
      ("/learn/risk-heat-map.html", "Build and score your own mini risk register."),
-     ("/learn/scenarios.html", "Try \"The administrator goes dark\" (CPS 230 outage)."),
+     ("/tools/rcsa-template.html", "Run a risk and control self-assessment."),
+     ("/tools/control-testing-workpaper.html", "Test a control from plan to conclusion."),
+     ("/tools/kri-library.html", "Choose key risk indicators and set thresholds."),
+     ("/case-studies/apra-cba-prudential-inquiry.html", "What happens when non-financial risk is neglected."),
+     ("/learn/scenarios.html", "Try \"The administrator goes dark\" and \"The payments that didn't go out\"."),
      ("/learn/quizzes.html", "Take the Risk management and Standards quizzes.")])]),
  ("compliance", "Compliance professional",
   "For compliance officers, analysts and anyone who handles breaches, disclosure or regulatory change.",
@@ -64,7 +70,9 @@ P = [
      ("/foundations/what-is-compliance.html", "Refresh the fundamentals."),
      ("/compliance/licensing-basics.html", "AFS, credit and APRA licences, and licensee obligations."),
      ("/compliance/privacy-law.html", "The Privacy Act, the APPs and data breaches."),
-     ("/compliance/aml-ctf-fundamentals.html", "Money laundering and terrorism financing obligations.")]),
+     ("/compliance/aml-ctf-fundamentals.html", "Money laundering and terrorism financing obligations."),
+     ("/standards/asic-regulatory-guides.html", "What ASIC's regulatory guides are and how to use them."),
+     ("/standards/asic-rg-104-and-rg-105.html", "Licensees' general obligations and competence.")]),
    ("Intermediate", [
      ("/compliance/designing-a-compliance-program.html", "Build a program around an obligations register."),
      ("/compliance/disclosure-obligations.html", "What customers must be told, and when."),
@@ -79,12 +87,19 @@ P = [
      ("/compliance/anti-bribery-and-corruption.html", "Bribery offences and the failure to prevent offence."),
      ("/compliance/sanctions-compliance.html", "Sanctions laws, screening and alert handling."),
      ("/compliance/modern-slavery.html", "Modern slavery statements and supply-chain risk."),
-     ("/compliance/climate-related-financial-disclosures.html", "Mandatory climate reporting.")]),
+     ("/compliance/climate-related-financial-disclosures.html", "Mandatory climate reporting."),
+     ("/standards/asic-rg-181.html", "ASIC's conflicts of interest guidance."),
+     ("/standards/iso-37301.html", "The compliance management system standard."),
+     ("/standards/iso-37001.html", "The anti-bribery management system standard.")]),
    ("Advanced", [
      ("/compliance/breach-significance-analysis.html", "Applying the significance tests to real-world style cases."),
      ("/risk-management/control-testing-sampling.html", "How much compliance testing is enough.")]),
    ("Apply it", [
-     ("/learn/scenarios.html", "Try \"The fee that shouldn't have been charged\"."),
+     ("/tools/obligations-register-template.html", "Start an obligations register."),
+     ("/tools/breach-register-template.html", "Log and track breaches and deadlines."),
+     ("/tools/remediation-program-tracker.html", "Track remediation to closure."),
+     ("/case-studies/austrac-cba-westpac.html", "How AML/CTF failures led to record penalties."),
+     ("/learn/scenarios.html", "Try the fee error, privacy breach, marketing review, AML and advice file scenarios."),
      ("/learn/flashcards.html", "Practise the \"Key numbers and deadlines\" deck."),
      ("/learn/quizzes.html", "Take the Compliance quiz.")])]),
  ("governance", "Governance and accountability",
@@ -97,6 +112,9 @@ P = [
    ("Intermediate", [
      ("/governance/financial-accountability-regime.html", "Accountable persons, maps and statements."),
      ("/governance/remuneration-governance.html", "Incentives that support good outcomes."),
+     ("/standards/cps-511.html", "APRA's remuneration standard."),
+     ("/standards/asic-rg-270.html", "ASIC's guidance on whistleblower policies."),
+     ("/standards/global-internal-audit-standards.html", "The IIA's internal audit standards."),
      ("/governance/culture-and-conduct.html", "Culture, risk culture and conduct risk."),
      ("/governance/ai-governance.html", "Overseeing the use of artificial intelligence."),
      ("/governance/internal-audit.html", "The third line and the audit committee."),
@@ -108,7 +126,11 @@ P = [
      ("/governance/risk-culture-assessment.html", "Assessing and changing risk culture."),
      ("/risk-management/risk-aggregation-and-correlation.html", "How the enterprise risk profile is built.")]),
    ("Apply it", [
-     ("/learn/scenarios.html", "Try \"An uncomfortable email\" (whistleblower disclosure)."),
+     ("/tools/example-risk-appetite-statement.html", "See a complete (fictional) risk appetite statement."),
+     ("/tools/board-risk-report-template.html", "A template for the CRO's board report."),
+     ("/case-studies/hih-insurance-collapse.html", "Governance lessons from Australia's largest corporate collapse."),
+     ("/case-studies/hayne-royal-commission.html", "The Royal Commission's lessons for boards."),
+     ("/learn/scenarios.html", "Try \"An uncomfortable email\" and \"The director's other company\"."),
      ("/learn/quizzes.html", "Take the Governance quiz.")])]),
  ("super", "Superannuation specialist",
   "For people working in or with APRA-regulated super funds.",
@@ -121,6 +143,7 @@ P = [
      ("/risk-management/third-party-risk.html", "Overseeing administrators and other providers."),
      ("/risk-management/incident-and-breach-management.html", "Incidents and breaches, including s 29JA."),
      ("/compliance/disclosure-obligations.html", "PDSs, periodic statements and fees and costs."),
+     ("/standards/asic-rg-97.html", "How fees and costs must be disclosed."),
      ("/standards/asic-rg-277.html", "Remediating members, including lost earnings."),
      ("/standards/asic-rg-271.html", "Complaints, including the 45-day super timeframe."),
      ("/governance/financial-accountability-regime.html", "FAR for super trustees since 15 March 2025."),
@@ -134,7 +157,10 @@ P = [
      ("/compliance/breach-significance-analysis.html", "Significance analysis, including a fee error case."),
      ("/risk-management/scenario-analysis-and-stress-testing.html", "Liquidity and operational stress testing for funds.")]),
    ("Apply it", [
-     ("/learn/scenarios.html", "Try \"The fee that shouldn't have been charged\" and \"The administrator goes dark\"."),
+     ("/tools/material-service-provider-register.html", "Track material service providers."),
+     ("/tools/remediation-program-tracker.html", "Track member remediation programs."),
+     ("/case-studies/shield-and-first-guardian.html", "Lessons for platform trustees."),
+     ("/learn/scenarios.html", "Try the fee error, provider outage, tolerance breach and related-party scenarios."),
      ("/learn/quizzes.html", "Take the Sectors and Standards quizzes.")])]),
  ("cyber", "Technology, cyber and data risk",
   "For technology risk, information security and privacy professionals.",
@@ -152,8 +178,26 @@ P = [
      ("/governance/ai-governance.html", "AI risks and governance."),
      ("/standards/iso-42001.html", "The AI management system standard.")]),
    ("Apply it", [
-     ("/learn/scenarios.html", "Try \"The administrator goes dark\"."),
+     ("/case-studies/optus-medibank-data-breaches.html", "What the 2022 data breaches taught everyone."),
+     ("/learn/scenarios.html", "Try \"The spreadsheet sent to the wrong person\" and \"The administrator goes dark\"."),
      ("/learn/flashcards.html", "Practise the \"Key numbers and deadlines\" deck.")])]),
+ ("sectors", "Banking, insurance and other sectors",
+  "For people working outside super, or who want to see how the rules differ across industries.",
+  [("Intermediate", [
+     ("/sectors/banking.html", "Banks and ADIs: prudential rules and key risks."),
+     ("/standards/aps-110-and-aps-210.html", "Capital and liquidity basics."),
+     ("/sectors/insurance.html", "General and life insurers."),
+     ("/sectors/managed-investment-schemes.html", "Responsible entities and fund operators."),
+     ("/standards/asic-rg-259.html", "ASIC's risk management expectations for fund operators."),
+     ("/sectors/credit-and-non-bank-lenders.html", "Credit licensing, responsible lending and hardship."),
+     ("/sectors/payments-and-fintech.html", "Payments licensing, surcharging and digital assets."),
+     ("/sectors/financial-advice-licensees.html", "Supervising advisers and remediating clients."),
+     ("/sectors/listed-companies.html", "Directors' duties, continuous disclosure and the ASX Principles."),
+     ("/sectors/not-for-profits-and-charities.html", "ACNC standards and proportionate risk management."),
+     ("/sectors/public-sector.html", "The PGPA Act and the Commonwealth Risk Management Policy.")]),
+   ("Apply it", [
+     ("/case-studies/", "Work through the case studies."),
+     ("/learn/quizzes.html", "Take the Sectors quiz.")])]),
 ]
 
 out = []
@@ -183,7 +227,7 @@ page = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Learning pathways | RiskLens Australia</title>
-<meta name="description" content="Suggested reading orders through RiskLens Australia for risk, compliance, governance, superannuation and cyber roles, from beginner to advanced and practice, with progress tracking in your browser.">
+<meta name="description" content="Suggested reading orders through RiskLens Australia for risk, compliance, governance, superannuation, cyber and other sector roles, from beginner to advanced and practice, with progress tracking in your browser.">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -198,7 +242,7 @@ page = f'''<!DOCTYPE html>
   <p class="summary">Not sure where to start? Pick the pathway closest to your role and work through it in order, from the basics to putting it into practice.</p>
   <div class="page-meta">
     <span class="level level-beginner">Beginner</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>Last reviewed: 28 September 2026</span>
   </div>
 
   <aside class="takeaways" aria-labelledby="kt">
@@ -228,7 +272,7 @@ page = f'''<!DOCTYPE html>
     </ul>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026</p>
+  <p class="last-reviewed">Last reviewed: 28 September 2026</p>
 </main>
 
 <!-- FOOTER:START -->

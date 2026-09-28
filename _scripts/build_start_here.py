@@ -8,7 +8,7 @@ import re
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "start-here" / "index.html"
-REVIEWED = "27 September 2026"
+REVIEWED = "28 September 2026"
 
 
 def info(url):
@@ -42,7 +42,8 @@ ROUTES = [
          ("/compliance/breach-reporting.html", "Every breach and incident reporting regime and deadline in one place."),
          ("/standards/", "Plain-English explainers of APRA standards, ASIC guides and ISO/COSO frameworks."),
          ("/tools/resource-library.html", "All the downloadable templates, checklists and interactive tools."),
-         ("/learn/scenarios.html", "Test your judgement on a breach, an outage and a whistleblower case."),
+        ("/case-studies/", "What went wrong in major Australian failures, and the lessons."),
+         ("/learn/scenarios.html", "Test your judgement on nine realistic scenarios, from a fee error to an AML suspicion."),
          ("/learn/flashcards.html", "Refresh the \"Key numbers and deadlines\" deck."),
      ],
      ("/learn/pathways.html", "Next: pathways for risk, compliance, super and cyber roles")),
