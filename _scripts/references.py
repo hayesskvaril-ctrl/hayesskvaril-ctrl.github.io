@@ -545,6 +545,67 @@ REFS = {
         volume="139", issue="3", pages="719–749", doi="10.1016/j.jfineco.2019.05.019", topics=["cyber"], pr=True, checked="2026-09-30",
         note="Successful cyberattacks that expose personal financial information cause shareholder losses far larger than the direct costs, and affected firms tend to strengthen risk management afterwards."),
 
+    # ---------- Theories of risk, accidents and reliability ----------
+    "slovic-1987": dict(
+        kind="article", authors=["Slovic, P."], year=1987, title="Perception of risk", journal="Science", volume="236", issue="4799", pages="280–285",
+        doi="10.1126/science.3563507", topics=["theory"], pr=True, checked="2026-09-30",
+        note="Shows that lay people judge risk on qualitative dimensions, especially 'dread' and 'unknown', not just expected deaths, which explains gaps between expert and public views of risk."),
+    "kasperson-1988": dict(
+        kind="article", authors=["Kasperson, R. E.", "Renn, O.", "Slovic, P.", "Brown, H. S.", "Emel, J.", "Goble, R.", "Kasperson, J. X.", "Ratick, S."], year=1988,
+        title="The social amplification of risk: A conceptual framework", journal="Risk Analysis", volume="8", issue="2", pages="177–187",
+        doi="10.1111/j.1539-6924.1988.tb01168.x", topics=["theory"], pr=True, checked="2026-09-30",
+        note="Proposes that risk events interact with psychological, social, institutional and cultural processes that amplify or attenuate public responses, producing 'ripple effects' far beyond the direct harm."),
+    "laporte-1991": dict(
+        kind="article", authors=["La Porte, T. R.", "Consolini, P. M."], year=1991,
+        title="Working in practice but not in theory: Theoretical challenges of \"high-reliability organizations\"",
+        journal="Journal of Public Administration Research and Theory", volume="1", issue="1", pages="19–48", doi="10.1093/oxfordjournals.jpart.a037070",
+        topics=["theory"], pr=True, checked="2026-09-30",
+        note="Launched high reliability organisation research by studying organisations such as air traffic control that operate hazardous systems with remarkably few failures, and asking how they do it."),
+    "leveson-2009": dict(
+        kind="article", authors=["Leveson, N.", "Dulac, N.", "Marais, K.", "Carroll, J."], year=2009,
+        title="Moving beyond normal accidents and high reliability organizations: A systems approach to safety in complex systems",
+        journal="Organization Studies", volume="30", issue="2–3", pages="227–249", doi="10.1177/0170840608101478", topics=["theory"], pr=True, checked="2026-09-30",
+        note="Critiques both normal accident theory and high reliability research, arguing that a systems approach from safety engineering better explains and prevents accidents in complex organisations."),
+    "shrivastava-2009": dict(
+        kind="article", authors=["Shrivastava, S.", "Sonpar, K.", "Pazzaglia, F."], year=2009,
+        title="Normal accident theory versus high reliability theory: A resolution and call for an open systems view of accidents",
+        journal="Human Relations", volume="62", issue="9", pages="1357–1390", doi="10.1177/0018726709339117", topics=["theory"], pr=True, checked="2026-09-30",
+        note="Argues the two theories look at accidents at different points in time and can be reconciled, while noting that both are hard to falsify."),
+    "perrow-1984": dict(
+        kind="book", authors=["Perrow, C."], year=1984, title="Normal accidents: Living with high-risk technologies", publisher="Basic Books",
+        topics=["theory"], pr=False, checked="2026-09-30",
+        note="Argues that in systems that are both complex and tightly coupled, multiple unexpected failures will interact, so some accidents are 'normal' and cannot be designed away."),
+
+    # ---------- Enterprise risk management and risk frameworks ----------
+    "hoyt-2011": dict(
+        kind="article", authors=["Hoyt, R. E.", "Liebenberg, A. P."], year=2011, title="The value of enterprise risk management",
+        journal="Journal of Risk and Insurance", volume="78", issue="4", pages="795–822", doi="10.1111/j.1539-6975.2011.01413.x",
+        topics=["erm"], pr=True, checked="2026-09-30",
+        note="Studying 275 US publicly traded insurers from 1998 to 2005, finds that firms engaged in ERM have a significantly higher market valuation."),
+    "gordon-2009": dict(
+        kind="article", authors=["Gordon, L. A.", "Loeb, M. P.", "Tseng, C.-Y."], year=2009, title="Enterprise risk management and firm performance: A contingency perspective",
+        journal="Journal of Accounting and Public Policy", volume="28", issue="4", pages="301–327",
+        url="https://www.sciencedirect.com/science/article/abs/pii/S0278425409000416", topics=["erm"], pr=True, checked="2026-09-30",
+        note="Finds the link between ERM and firm performance depends on matching ERM to five factors: environmental uncertainty, competition, firm size, complexity and board monitoring."),
+    "mcshane-2011": dict(
+        kind="article", authors=["McShane, M. K.", "Nair, A.", "Rustambekov, E."], year=2011, title="Does enterprise risk management increase firm value?",
+        journal="Journal of Accounting, Auditing & Finance", volume="26", issue="4", pages="641–658", doi="10.1177/0148558X11409160",
+        topics=["erm"], pr=True, checked="2026-09-30",
+        note="Using S&P's ERM ratings of insurers, finds firm value rises with traditional risk management capability but not further for firms rated as having more advanced ERM."),
+    "bromiley-2015": dict(
+        kind="article", authors=["Bromiley, P.", "McShane, M.", "Nair, A.", "Rustambekov, E."], year=2015, title="Enterprise risk management: Review, critique, and research directions",
+        journal="Long Range Planning", volume="48", issue="4", pages="265–276", doi="10.1016/j.lrp.2014.07.005", topics=["erm"], pr=True, checked="2026-09-30",
+        note="Reviews ERM research and criticises it for weak measures of ERM, limited theory and little evidence on how ERM is actually practised, and sets out research directions."),
+    "power-2009": dict(
+        kind="article", authors=["Power, M."], year=2009, title="The risk management of nothing",
+        journal="Accounting, Organizations and Society", volume="34", issue="6–7", pages="849–855", doi="10.1016/j.aos.2009.06.001",
+        topics=["erm"], pr=True, checked="2026-09-30",
+        note="A critique of ERM after the financial crisis: an impoverished idea of risk appetite and a 'logic of the audit trail' made ERM boundary-preserving rather than challenging, so its security was limited or illusory."),
+    "ellul-2013": dict(
+        kind="article", authors=["Ellul, A.", "Yerramilli, V."], year=2013, title="Stronger risk controls, lower risk: Evidence from U.S. bank holding companies",
+        journal="The Journal of Finance", volume="68", issue="5", pages="1757–1803", doi="10.1111/jofi.12057", topics=["erm", "governance"], pr=True, checked="2026-09-30",
+        note="Banks with a stronger, more independent risk management function before the crisis (a higher 'risk management index') had lower tail risk and better performance during the crisis."),
+
     # ---------- Judgement, bias and decision-making ----------
     "gigerenzer-2011": dict(
         kind="article", authors=["Gigerenzer, G.", "Gaissmaier, W."], year=2011, title="Heuristic decision making",
