@@ -251,6 +251,83 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Advanced quiz set and two multi-regime Advanced scenarios
 - [x] Update pathways, Start here and flashcards for the new Advanced pages
 
+## Phase 16 — Roadmap 1: Video and multimedia
+
+**Why:** people learn well from short visual explanations, and the site had no video. Work through this roadmap first, then move straight on to Roadmap 2 (Phase 17) without waiting for approval.
+
+**What is and isn't possible at $0**
+- We can make our own **animated explainer videos**: captioned motion graphics (animated diagrams with on-screen text) rendered to real MP4 files. The editable source lives in `_scripts/video/`, and the videos are rebuilt from it, like the templates.
+- We can **embed existing official videos** (regulators, standard setters, other public bodies) from YouTube, using click-to-play so no third-party content loads until the reader chooses to watch.
+- We can't film real footage or record a voice-over. Explainers are silent with burned-in captions, plus a full transcript on the page. A human voice-over could be added later.
+
+**Build**
+- [ ] Video engine: a scene-based animation renderer in the site's visual style, and a render script that captures frames and encodes MP4 (H.264), a poster image and a transcript for each explainer
+- [ ] On-page video component: standard video controls, lazy loading (nothing downloads until play), poster, transcript and a download link
+- [ ] Privacy-friendly embed component for external videos: click-to-play from youtube-nocookie.com, source and date shown, "watch on YouTube" link, and a short summary
+- [ ] Explainers (about 60–100 seconds each):
+  - [ ] What is risk management? The risk management loop (Foundations)
+  - [ ] The Three Lines model (Foundations)
+  - [ ] Who regulates what in Australia (Foundations)
+  - [ ] Risk appetite: from board statement to daily decisions (Risk)
+  - [ ] Controls: design, operation and testing (Risk)
+  - [ ] Breach reporting: from awareness to report (Compliance)
+  - [ ] CPS 230 in 90 seconds (Standards)
+  - [ ] Data breaches: contain, assess, notify (Compliance)
+  - [ ] Remediation: putting people back (Compliance)
+  - [ ] FAR: who is accountable for what (Governance)
+  - [ ] Misleading conduct: the dominant message test (Advanced)
+  - [ ] Root causes: Swiss cheese and fault trees (Advanced)
+  - [ ] Unit pricing errors: who wins and who loses (Advanced)
+  - [ ] The denominator effect in super (Advanced)
+- [ ] Curated official videos, each checked to exist before embedding, placed on the pages they support
+- [ ] "Watch" page in Learn listing every video by section and level, generated from one list
+- [ ] Add videos to section landing pages and relevant topic pages, the resource library and search
+- [ ] Upkeep: automated check that every video has its files and transcript; quarterly manual check that external videos are still online (UPKEEP.md)
+
+## Phase 17 — Roadmap 2: University-level Advanced content
+
+**Why:** Advanced should mean the level of someone studying at university. Advanced pages must be grounded in peer-reviewed research, using several studies each, not only legislation and regulator guidance. Start straight after Roadmap 1.
+
+**University-level standard for every Advanced page**
+- Learning outcomes at the top.
+- A "Theory and research" section that explains the relevant theories and what peer-reviewed studies found, with in-text citations (author, year) linked to the reference list.
+- At least **three peer-reviewed articles** actually used in the text, plus primary legal and regulatory sources. Every reference is checked to exist (authors, year, title, journal, volume, pages, DOI) before use, and recorded in one reference register.
+- "Critical perspectives": limitations of the evidence, contested views and open questions.
+- Seminar questions for discussion or self-study, and further reading.
+- References in a consistent academic style (APA 7th), with DOI links.
+
+**Infrastructure**
+- [ ] Reference register (`_scripts/references.py`) of checked peer-reviewed sources, reused across pages
+- [ ] Automated check: every Advanced page cites at least three peer-reviewed sources from the register (added to `run_checks.py`)
+- [ ] Research library page: an annotated reading list by topic, generated from the register
+- [ ] Update the level rubric, CLAUDE.md content standards and the Browse by level page to reflect the university-level standard
+
+**Upgrade the existing Advanced pages to the standard** (all 25)
+- [ ] Risk management (12 pages)
+- [ ] Compliance (6 pages)
+- [ ] Governance (4 pages)
+- [ ] Standards, sectors and case studies (5 pages)
+
+**New university-level pages**
+- [ ] Theories of regulation: responsive, risk-based and principles-based regulation
+- [ ] Corporate governance theories: agency, stewardship and stakeholder perspectives
+- [ ] Theories of risk: perception, social amplification, normal accidents and high-reliability organisations
+- [ ] Does enterprise risk management work? The empirical evidence
+- [ ] The Three Lines model: research and critique
+- [ ] Behavioural economics of super and disclosure: defaults, inertia and choice
+- [ ] Misconduct in financial services: what the research shows
+- [ ] Remuneration, incentives and risk-taking: the evidence
+- [ ] Whistleblowing: research on who speaks up and why
+- [ ] Fraud theory beyond the triangle
+- [ ] Internal audit effectiveness: a research synthesis
+- [ ] The economics of cyber risk
+- [ ] Climate risk in finance: the research
+- [ ] AML/CTF effectiveness: the evidence debate
+
+**Learning at university level**
+- [ ] Advanced study program: a 12-module, university-style course with learning outcomes, required readings and seminar questions
+- [ ] Advanced quiz questions and flashcards for the new pages; update pathways and Browse by level
+
 ## 🔁 Recurring upkeep (never ticked off; do on schedule)
 
 - **Monthly:** run `python3 _scripts/run_checks.py` and follow `_scripts/UPKEEP.md`; publish a news item or roundup when there are material developments; check the regulatory tracker for items whose dates have passed and move them to "In force".
