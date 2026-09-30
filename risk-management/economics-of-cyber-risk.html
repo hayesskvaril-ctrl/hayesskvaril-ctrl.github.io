@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The economics of cyber risk | RiskLens Australia</title>
+<meta name="description" content="A university-level guide to the economics of cyber risk: incentives and externalities, how much to invest in security (the Gordon-Loeb model), the heavy-tailed cost of cyber incidents, market reactions, and the limits of cyber insurance.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/risk-management/economics-of-cyber-risk.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The economics of cyber risk">
+<meta property="og:description" content="A university-level guide to the economics of cyber risk: incentives and externalities, how much to invest in security (the Gordon-Loeb model), the heavy-tailed cost of cyber incidents, market reactions, and the limits of cyber insurance.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/risk-management/economics-of-cyber-risk.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05080f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/" aria-current="page">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/risk-management/">Risk management</a></li><li>The economics of cyber risk</li></ol></nav>
+
+  <h1>The economics of cyber risk</h1>
+  <p class="summary">Why cyber security is as much about incentives as technology, how much to spend on it, and why cyber losses are so hard to measure and insure.</p>
+  <div class="page-meta">
+    <span class="level level-advanced">Advanced</span>
+    <span>About 22 minutes</span>
+    <span>Last reviewed: 30 September 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Many security failures are failures of incentives: the party who could prevent harm often isn't the one who bears it.</li>
+      <li>The Gordon-Loeb model suggests that, under its assumptions, it rarely makes sense to spend more than about 37% of the expected loss on protecting an information set.</li>
+      <li>Cyber losses are heavy-tailed: most incidents are cheap, but a few are extreme, so averages mislead.</li>
+      <li>Share-price reactions to serious breaches can far exceed the direct costs.</li>
+      <li>Cyber risk is hard to insure because losses can be correlated, data is thin and insurers know less than the insured.</li>
+    </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Explain how incentives and externalities shape cyber security outcomes.</li>
+      <li>Apply the Gordon-Loeb model to a security investment decision and describe its limits.</li>
+      <li>Interpret evidence on the distribution of cyber losses and its implications for risk measurement.</li>
+      <li>Critically evaluate cyber insurance as a risk transfer tool.</li>
+    </ol>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>Cyber risk is usually discussed as a technical problem: patching, passwords and firewalls. Economists add a different lens. They ask who has the incentive to invest in security, how much investment is worth it, and what incidents actually cost. The answers help boards set <a class="xref" href="/risk-management/risk-appetite-and-tolerance.html">risk appetite</a> for cyber, decide on budgets and judge whether insurance is worth buying. This page builds on <a class="xref" href="/risk-management/cyber-risk.html">cyber risk</a> and <a class="xref" href="/standards/cps-234.html">CPS 234</a>.</p>
+
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>Incentives and externalities</h3>
+  <p><a class="cite narrative" href="#ref-anderson-2006">Anderson and Moore (2006)</a> argued that security fails as often because of misaligned incentives as because of poor technology. When the party who could prevent a breach doesn't bear its cost, for example a software vendor whose product is exploited, or a company whose customers carry the fallout of a data breach, too little is spent on security. Economists call this an <strong>externality</strong>. It helps explain why regulators impose security and notification duties, such as APRA's CPS 234 and the notifiable data breaches scheme under the Privacy Act.</p>
+
+  <h3>How much to invest: the Gordon-Loeb model</h3>
+  <p><a class="cite narrative" href="#ref-gordon-2002">Gordon and Loeb (2002)</a> modelled the choice of how much to spend protecting a set of information. The expected benefit of investment is the reduction in expected loss (the chance of a breach multiplied by the loss). Because each extra dollar of security buys less protection than the last, the best investment is where the last dollar spent reduces expected loss by exactly one dollar. For the broad class of functions they studied, the optimal investment never exceeds about 37% (1/e) of the expected loss.</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 560 260" role="img" aria-labelledby="gl-t gl-d">
+      <title id="gl-t">Gordon-Loeb: the best security investment</title>
+      <desc id="gl-d">A chart with security investment on the horizontal axis. The expected benefit curve rises steeply and then flattens. The cost of investment is a straight 45-degree line. The net benefit is largest where the gap between the curve and the line is widest, marked as the optimal investment, which is below 37 percent of the expected loss.</desc>
+      <g font-size="12">
+        <line x1="60" y1="220" x2="530" y2="220" stroke="#0f2942" stroke-width="2"/><line x1="60" y1="220" x2="60" y2="20" stroke="#0f2942" stroke-width="2"/>
+        <text x="300" y="248" text-anchor="middle" fill="#0f2942">Security investment ($)</text>
+        <text x="22" y="120" text-anchor="middle" fill="#0f2942" transform="rotate(-90 22 120)">Dollars</text>
+        <path d="M60,220 C110,120 170,80 260,66 S430,56 520,54" fill="none" stroke="#2563eb" stroke-width="3"/>
+        <line x1="60" y1="220" x2="260" y2="20" stroke="#1b3a5c" stroke-width="2" stroke-dasharray="6 4"/>
+        <line x1="150" y1="92" x2="150" y2="130" stroke="#1b3a5c" stroke-width="2"/>
+        <text x="156" y="118" fill="#0f2942">largest net benefit</text>
+        <line x1="150" y1="130" x2="150" y2="220" stroke="#1b3a5c" stroke-width="1" stroke-dasharray="2 3"/>
+        <text x="150" y="236" text-anchor="middle" fill="#0f2942">optimal</text>
+        <text x="420" y="48" fill="#2563eb">expected benefit</text>
+        <text x="266" y="30" fill="#0f2942">cost of investment</text>
+      </g>
+    </svg>
+    <figcaption>Illustrative only. Net benefit is the gap between the benefit curve and the cost line; it peaks well before the curve flattens out.</figcaption>
+  </figure>
+
+  <div class="callout">
+    <p><strong>Worked example (illustrative).</strong> Suppose a member database has a 20% chance a year of a breach costing $5 million if it happens. The expected loss is $1 million a year. Under the Gordon-Loeb result, the best annual investment in protecting it would be no more than about $370,000 (37% of $1 million). The real figure depends on how effective extra spending is, which is hard to estimate, and on losses the model leaves out, such as regulatory action and loss of trust.</p>
+  </div>
+
+  <h3>What incidents actually cost</h3>
+  <p><a class="cite narrative" href="#ref-romanosky-2016">Romanosky (2016)</a> analysed a large dataset of cyber incidents and found the typical cost was modest compared with headline figures, which may help explain why some firms under-invest. But averages hide the tail. <a class="cite narrative" href="#ref-eling-2019">Eling and Wirfs (2019)</a> applied extreme value methods to operational loss data and found cyber losses are <strong>heavy-tailed</strong>: most events are small, while a few extreme events drive total losses. This matters for measurement: a model built on the average incident will badly understate the risk (see <a class="xref" href="/risk-management/quantitative-operational-risk.html">quantitative operational risk</a>).</p>
+
+  <h3>Reputation and market reactions</h3>
+  <p><a class="cite narrative" href="#ref-kamiya-2021">Kamiya et al. (2021)</a> studied successful cyberattacks on listed US firms and found that attacks exposing personal financial information led to shareholder losses much larger than the direct costs, and that affected firms tended to strengthen their risk management afterwards. The indirect cost of lost trust can dominate.</p>
+
+  <h3>Can cyber risk be insured?</h3>
+  <p><a class="cite narrative" href="#ref-biener-2015">Biener et al. (2015)</a> analysed 994 cyber loss events and assessed cyber risk against the standard criteria for insurability. They identified problems including correlated losses (one attack or outage can hit many policyholders at once), a lack of good data, and information asymmetry between insurers and the insured. Insurance can transfer part of the loss, but it does not transfer regulatory accountability.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>Models need inputs no one has.</strong> Gordon-Loeb assumes you know the breach probability and how it falls with spending. In practice these are guesses, so the model is better at framing the decision than producing a number.</li>
+    <li><strong>Data quality.</strong> Public incident datasets over-represent incidents that must be disclosed, and costs are often estimated rather than observed.</li>
+    <li><strong>Systemic risk.</strong> Firm-level economics can miss losses that spread across many firms through shared providers, a concern behind <a class="xref" href="/risk-management/service-provider-exit-and-concentration.html">concentration risk</a> work.</li>
+    <li><strong>Security is not only a cost.</strong> Treating security purely as an expense to minimise can overlook its role in trust and resilience.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Identify an externality in cyber security affecting super fund members. Who bears the cost, and what could change the incentives?</li>
+    <li>Use the Gordon-Loeb framework to argue for or against a proposed increase in a fund's security budget. Which inputs are you least sure about?</li>
+    <li>Eling and Wirfs find cyber losses are heavy-tailed. How should this change the way a board sets cyber risk appetite and tolerances?</li>
+    <li>Given Biener and colleagues' findings, when is cyber insurance a sensible part of a cyber risk strategy, and when is it not?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="anderson-2006 gordon-2002 eling-2019 biener-2015 kamiya-2021 romanosky-2016">
+    <li>Anderson, R., &amp; Moore, T. (2006). The economics of information security. <em>Science</em>, <em>314</em>(5799), 610–613. <a href="https://doi.org/10.1126/science.1130992">https://doi.org/10.1126/science.1130992</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Argues that security failures are often failures of incentives rather than technology, for example when the party who could prevent harm is not the one who bears it.</span></li>
+    <li>Gordon, L. A., &amp; Loeb, M. P. (2002). The economics of information security investment. <em>ACM Transactions on Information and System Security</em>, <em>5</em>(4), 438–457. <a href="https://doi.org/10.1145/581271.581274">https://doi.org/10.1145/581271.581274</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">The Gordon-Loeb model: under its assumptions, the optimal investment to protect information never exceeds about 37% of the expected loss from a breach.</span></li>
+    <li>Eling, M., &amp; Wirfs, J. (2019). What are the actual costs of cyber risk events? <em>European Journal of Operational Research</em>, <em>272</em>(3), 1109–1119. <a href="https://doi.org/10.1016/j.ejor.2018.07.021">https://doi.org/10.1016/j.ejor.2018.07.021</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Uses operational loss data and extreme value methods to show cyber losses are heavy-tailed: most are small, but a few extreme events dominate, so averages understate the risk.</span></li>
+    <li>Biener, C., Eling, M., &amp; Wirfs, J. H. (2015). Insurability of cyber risk: An empirical analysis. <em>The Geneva Papers on Risk and Insurance – Issues and Practice</em>, <em>40</em>(1), 131–158. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2577286">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2577286</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Analyses 994 cyber loss events and discusses what limits the insurability of cyber risk, including correlated losses, lack of data and information asymmetry.</span></li>
+    <li>Kamiya, S., Kang, J.-K., Kim, J., Milidonis, A., &amp; Stulz, R. M. (2021). Risk management, firm reputation, and the impact of successful cyberattacks on target firms. <em>Journal of Financial Economics</em>, <em>139</em>(3), 719–749. <a href="https://doi.org/10.1016/j.jfineco.2019.05.019">https://doi.org/10.1016/j.jfineco.2019.05.019</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Successful cyberattacks that expose personal financial information cause shareholder losses far larger than the direct costs, and affected firms tend to strengthen risk management afterwards.</span></li>
+    <li>Romanosky, S. (2016). Examining the costs and causes of cyber incidents. <em>Journal of Cybersecurity</em>, <em>2</em>(2), 121–135. <a href="https://doi.org/10.1093/cybsec/tyw001">https://doi.org/10.1093/cybsec/tyw001</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Analyses a large dataset of cyber incidents and their costs, finding the typical cost smaller than often claimed, which raises questions about firms' incentives to invest in security.</span></li>
+  </ul>
+
+
+  <div class="widget quiz">
+    <h3>Check your understanding</h3>
+    <div class="q" data-answer="a">
+      <p class="q-text">1. Anderson and Moore argue many security failures are really failures of:</p>
+      <div class="q-options"><button type="button" data-value="a">Incentives</button><button type="button" data-value="b">Hardware</button><button type="button" data-value="c">Encryption</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>When the party who could prevent harm doesn't bear it, too little is spent.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">2. Under the Gordon-Loeb model, the optimal security investment is at most about:</p>
+      <div class="q-options"><button type="button" data-value="a">100% of the expected loss</button><button type="button" data-value="b">37% of the expected loss</button><button type="button" data-value="c">5% of revenue</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>About 1/e, or 37%, under the model's assumptions.</p>
+    </div>
+    <div class="q" data-answer="b">
+      <p class="q-text">3. Eling and Wirfs found cyber losses are:</p>
+      <div class="q-options"><button type="button" data-value="a">Normally distributed</button><button type="button" data-value="b">Heavy-tailed, with a few extreme events dominating</button><button type="button" data-value="c">Always small</button></div>
+      <p class="q-feedback" aria-live="polite"></p>
+      <p class="q-explain" hidden>Averages therefore understate the risk.</p>
+    </div>
+    <p class="quiz-score" aria-live="polite"></p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/cyber-risk.html" data-label="Cyber risk"><a href="/risk-management/cyber-risk.html">Cyber risk</a></li>
+      <li data-href="/standards/cps-234.html" data-label="CPS 234 Information Security"><a href="/standards/cps-234.html">CPS 234 Information Security</a></li>
+      <li data-href="/risk-management/quantitative-operational-risk.html" data-label="Quantitative operational risk"><a href="/risk-management/quantitative-operational-risk.html">Quantitative operational risk</a></li>
+      <li data-href="/compliance/privacy-law.html" data-label="Privacy law"><a href="/compliance/privacy-law.html">Privacy law</a></li>
+    </ul>
+  </section>
+
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-anderson-2006">Anderson, R., &amp; Moore, T. (2006). The economics of information security. <em>Science</em>, <em>314</em>(5799), 610–613. <a href="https://doi.org/10.1126/science.1130992">https://doi.org/10.1126/science.1130992</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-biener-2015">Biener, C., Eling, M., &amp; Wirfs, J. H. (2015). Insurability of cyber risk: An empirical analysis. <em>The Geneva Papers on Risk and Insurance – Issues and Practice</em>, <em>40</em>(1), 131–158. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2577286">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2577286</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-eling-2019">Eling, M., &amp; Wirfs, J. (2019). What are the actual costs of cyber risk events? <em>European Journal of Operational Research</em>, <em>272</em>(3), 1109–1119. <a href="https://doi.org/10.1016/j.ejor.2018.07.021">https://doi.org/10.1016/j.ejor.2018.07.021</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-gordon-2002">Gordon, L. A., &amp; Loeb, M. P. (2002). The economics of information security investment. <em>ACM Transactions on Information and System Security</em>, <em>5</em>(4), 438–457. <a href="https://doi.org/10.1145/581271.581274">https://doi.org/10.1145/581271.581274</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-kamiya-2021">Kamiya, S., Kang, J.-K., Kim, J., Milidonis, A., &amp; Stulz, R. M. (2021). Risk management, firm reputation, and the impact of successful cyberattacks on target firms. <em>Journal of Financial Economics</em>, <em>139</em>(3), 719–749. <a href="https://doi.org/10.1016/j.jfineco.2019.05.019">https://doi.org/10.1016/j.jfineco.2019.05.019</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-romanosky-2016">Romanosky, S. (2016). Examining the costs and causes of cyber incidents. <em>Journal of Cybersecurity</em>, <em>2</em>(2), 121–135. <a href="https://doi.org/10.1093/cybsec/tyw001">https://doi.org/10.1093/cybsec/tyw001</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>APRA, <a href="https://www.apra.gov.au/standards/cps-234">Prudential Standard CPS 234 Information Security</a>.</li>
+      <li>APRA, <a href="https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf">Prudential Practice Guide CPG 234 Information Security</a> (PDF).</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 30 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="/scripts/quiz.js"></script>
+</body>
+</html>

@@ -814,4 +814,70 @@ REFS = {
         journal="Journal of Risk and Uncertainty", volume="1", issue="1", pages="7–59", doi="10.1007/BF00055564",
         topics=["judgement", "super"], pr=True, checked="2026-09-30",
         note="Experiments and field data (including retirement plan choices) show people disproportionately stick with the current option or default, even when alternatives are better."),
+    # Internal audit effectiveness
+    "lenz-2015": dict(
+        kind="article", authors=["Lenz, R.", "Hahn, U."], year=2015, title="A synthesis of empirical internal audit effectiveness literature pointing to new research opportunities",
+        journal="Managerial Auditing Journal", volume="30", issue="1", pages="5–33", doi="10.1108/MAJ-08-2014-1072", topics=["controls", "governance"], pr=True, checked="2026-09-30",
+        note="Reviews the empirical research on what makes internal audit effective, groups the drivers into macro, meso and micro factors, and notes that effectiveness itself is defined and measured in many different ways."),
+    "prawitt-2009": dict(
+        kind="article", authors=["Prawitt, D. F.", "Smith, J. L.", "Wood, D. A."], year=2009, title="Internal audit quality and earnings management",
+        journal="The Accounting Review", volume="84", issue="4", pages="1255–1280", doi="10.2308/accr.2009.84.4.1255", topics=["controls", "governance"], pr=True, checked="2026-09-30",
+        note="Finds that higher internal audit function quality is associated with lower levels of earnings management, measured by abnormal accruals and by meeting analyst forecasts."),
+    "roussy-2013": dict(
+        kind="article", authors=["Roussy, M."], year=2013, title="Internal auditors' roles: From watchdogs to helpers and protectors of the top manager",
+        journal="Critical Perspectives on Accounting", volume="24", issue="7–8", pages="550–571", doi="10.1016/j.cpa.2013.08.004", topics=["controls", "governance"], pr=True, checked="2026-09-30",
+        note="Based on 42 interviews in the public sector, finds internal auditors often act as protectors of and helpers to top management rather than independent watchdogs, a position the author calls 'grey' independence."),
+    "abbott-2010": dict(
+        kind="article", authors=["Abbott, L. J.", "Parker, S.", "Peters, G. F."], year=2010, title="Serving two masters: The association between audit committee internal audit oversight and internal audit activities",
+        journal="Accounting Horizons", volume="24", issue="1", pages="1–24", doi="10.2308/acch.2010.24.1.1", topics=["controls", "governance"], pr=True, checked="2026-09-30",
+        note="Finds that stronger audit committee oversight of internal audit is associated with internal audit spending more of its effort on internal control work, highlighting the tension between serving management and serving the audit committee."),
+    # Cyber risk economics
+    "eling-2019": dict(
+        kind="article", authors=["Eling, M.", "Wirfs, J."], year=2019, title="What are the actual costs of cyber risk events?",
+        journal="European Journal of Operational Research", volume="272", issue="3", pages="1109–1119", doi="10.1016/j.ejor.2018.07.021", topics=["cyber", "measurement"], pr=True, checked="2026-09-30",
+        note="Uses operational loss data and extreme value methods to show cyber losses are heavy-tailed: most are small, but a few extreme events dominate, so averages understate the risk."),
+    "biener-2015": dict(
+        kind="article", authors=["Biener, C.", "Eling, M.", "Wirfs, J. H."], year=2015, title="Insurability of cyber risk: An empirical analysis",
+        journal="The Geneva Papers on Risk and Insurance – Issues and Practice", volume="40", issue="1", pages="131–158", url="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2577286",
+        topics=["cyber", "measurement"], pr=True, checked="2026-09-30",
+        note="Analyses 994 cyber loss events and discusses what limits the insurability of cyber risk, including correlated losses, lack of data and information asymmetry."),
+    # Climate risk
+    "bolton-2021": dict(
+        kind="article", authors=["Bolton, P.", "Kacperczyk, M."], year=2021, title="Do investors care about carbon risk?",
+        journal="Journal of Financial Economics", volume="142", issue="2", pages="517–549", doi="10.1016/j.jfineco.2021.05.008", topics=["climate"], pr=True, checked="2026-09-30",
+        note="Finds that US firms with higher carbon emissions earn higher stock returns, consistent with investors demanding compensation for exposure to carbon risk."),
+    "krueger-2020": dict(
+        kind="article", authors=["Krueger, P.", "Sautner, Z.", "Starks, L. T."], year=2020, title="The importance of climate risks for institutional investors",
+        journal="The Review of Financial Studies", volume="33", issue="3", pages="1067–1111", doi="10.1093/rfs/hhz137", topics=["climate", "super"], pr=True, checked="2026-09-30",
+        note="A survey of institutional investors finding they believe climate risks matter financially and have begun to materialise, and that many prefer engagement to divestment."),
+    "battiston-2017": dict(
+        kind="article", authors=["Battiston, S.", "Mandel, A.", "Monasterolo, I.", "Schütze, F.", "Visentin, G."], year=2017, title="A climate stress-test of the financial system",
+        journal="Nature Climate Change", volume="7", pages="283–288", doi="10.1038/nclimate3255", topics=["climate", "measurement"], pr=True, checked="2026-09-30",
+        note="Maps financial institutions' exposures to climate-policy-relevant sectors and shows how losses could be amplified through interconnections between institutions."),
+    "giglio-2021": dict(
+        kind="article", authors=["Giglio, S.", "Kelly, B.", "Stroebel, J."], year=2021, title="Climate finance",
+        journal="Annual Review of Financial Economics", volume="13", pages="15–36", doi="10.1146/annurev-financial-102620-103311", topics=["climate"], pr=True, checked="2026-09-30",
+        note="Reviews research on how climate risks affect asset prices and how to discount long-run climate costs, and sets out open questions for the field."),
+    "bernstein-2019": dict(
+        kind="article", authors=["Bernstein, A.", "Gustafson, M. T.", "Lewis, R."], year=2019, title="Disaster on the horizon: The price effect of sea level rise",
+        journal="Journal of Financial Economics", volume="134", issue="2", pages="253–272", doi="10.1016/j.jfineco.2019.03.013", topics=["climate"], pr=True, checked="2026-09-30",
+        note="Finds that US coastal homes exposed to projected sea level rise sell at about a 7% discount to comparable unexposed homes, driven mainly by sophisticated buyers."),
+    # AML/CTF effectiveness
+    "pol-2020": dict(
+        kind="article", authors=["Pol, R. F."], year=2020, title="Anti-money laundering: The world's least effective policy experiment? Together, we can fix it",
+        journal="Policy Design and Practice", volume="3", issue="1", pages="73–94", doi="10.1080/25741292.2020.1725366", topics=["fincrime", "regulation"], pr=True, checked="2026-09-30",
+        note="Argues that on available evidence AML policy affects well under 1% of criminal finances while compliance costs far exceed the criminal funds recovered, and calls for outcome-focused evaluation. Its estimates are contested and rely on limited data."),
+    "levi-2018": dict(
+        kind="article", authors=["Levi, M.", "Reuter, P.", "Halliday, T."], year=2018, title="Can the AML system be evaluated without better data?",
+        journal="Crime, Law and Social Change", volume="69", pages="307–328", doi="10.1007/s10611-017-9757-4", topics=["fincrime", "regulation"], pr=True, checked="2026-09-30",
+        note="Finds there are no credible estimates of how much money is laundered and little serious use of data in FATF evaluations and national risk assessments, so claims about AML effectiveness are hard to test."),
+    "takats-2011": dict(
+        kind="article", authors=["Takáts, E."], year=2011, title="A theory of 'crying wolf': The economics of money laundering enforcement",
+        journal="Journal of Law, Economics, & Organization", volume="27", issue="1", pages="32–78", url="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=979035",
+        topics=["fincrime", "regulation"], pr=True, checked="2026-09-30",
+        note="A formal model showing that heavy fines for failing to report can push banks to over-report, diluting the information value of suspicious matter reports ('crying wolf')."),
+    "ferwerda-2009": dict(
+        kind="article", authors=["Ferwerda, J."], year=2009, title="The economics of crime and money laundering: Does anti-money laundering policy reduce crime?",
+        journal="Review of Law and Economics", volume="5", issue="2", pages="903–929", doi="10.2202/1555-5879.1421", topics=["fincrime"], pr=True, checked="2026-09-30",
+        note="Builds an economic model in the Becker tradition and tests it across countries, finding that some AML policy elements, such as the chance of being caught and convicted, are associated with lower crime."),
 }
