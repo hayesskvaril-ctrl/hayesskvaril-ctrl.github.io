@@ -1354,3 +1354,9 @@ a.cite:hover, a.cite:focus-visible { border-bottom-style: solid; }
 .seminar-questions li { margin-bottom: 10px; }
 .research-note { border-left: 3px solid var(--violet); padding: 4px 0 4px 14px; margin: 16px 0; color: var(--text); }
 @media print { .outcomes h2, .references h2 { color: #0f2942; } .outcomes, .ref-pr { background: #fff; border-color: #ccd6e2; } }
+
+/* Advanced study program modules */
+.study-module { border-top: 1px solid var(--border, rgba(148, 163, 184, 0.25)); margin-top: 34px; padding-top: 8px; }
+.study-module h2 .module-num { display: block; font-family: var(--font-mono); font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #c4b5fd; margin-bottom: 4px; }
+.study-module details { margin: 8px 0 14px; }
+.study-module summary { cursor: pointer; font-weight: 600; }

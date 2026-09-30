@@ -25,6 +25,12 @@ window.GLOSSARY_CARDS = [
 "def": "Bank capital instruments, often called hybrids, that can be converted into shares or written off if a bank gets into trouble. APRA has decided to phase them out from 1 January 2027, replacing them mainly with CET1 and Tier 2 capital."
 },
 {
+"slug": "agency-theory",
+"term": "Agency theory",
+"abbr": "",
+"def": "A theory of governance that treats managers as agents of the owners (principals) who may pursue their own interests. It explains the use of monitoring, independent boards and incentive pay to align managers with owners."
+},
+{
 "slug": "aml-ctf",
 "term": "Anti-money laundering and counter-terrorism financing",
 "abbr": "AML/CTF",
@@ -337,6 +343,12 @@ window.GLOSSARY_CARDS = [
 "def": "A breach of a core obligation that the law automatically treats as significant, and therefore reportable to ASIC, without a significance assessment. Examples include breaches of civil penalty provisions (unless excluded), serious offences, and breaches that cause or are likely to cause material loss or damage to clients."
 },
 {
+"slug": "default-effect",
+"term": "Default effect",
+"abbr": "",
+"def": "The tendency of people to stick with a pre-set option rather than make an active choice. It explains why default super funds, contribution rates and investment options have such a large influence on outcomes."
+},
+{
 "slug": "deferred-sales-model",
 "term": "Deferred sales model",
 "abbr": "",
@@ -433,6 +445,12 @@ window.GLOSSARY_CARDS = [
 "def": "The average loss in the worst outcomes beyond a chosen confidence level. For example, 99% expected shortfall is the average of the worst 1% of years. Unlike VaR, it looks into the tail."
 },
 {
+"slug": "externality",
+"term": "Externality",
+"abbr": "",
+"def": "A cost or benefit of an activity that falls on someone other than the party carrying it out. In cyber security, for example, a breach may harm customers more than the firm that could have prevented it."
+},
+{
 "slug": "far",
 "term": "Financial Accountability Regime",
 "abbr": "FAR",
@@ -491,6 +509,18 @@ window.GLOSSARY_CARDS = [
 "term": "Heat map",
 "abbr": "",
 "def": "A colour-coded chart that plots risks by likelihood and consequence so the most serious ones stand out (usually red). A visual form of risk matrix."
+},
+{
+"slug": "heavy-tailed-distribution",
+"term": "Heavy-tailed distribution",
+"abbr": "",
+"def": "A pattern of losses in which extreme events are far more likely than a normal (bell-curve) distribution would suggest. Most losses are small, but a few very large ones dominate the total. Operational and cyber losses are typically heavy-tailed."
+},
+{
+"slug": "high-reliability-organisation",
+"term": "High-reliability organisation (HRO)",
+"abbr": "HRO",
+"def": "An organisation that operates in hazardous conditions for long periods with very few serious failures, for example through preoccupation with failure, deference to expertise and strong learning."
 },
 {
 "slug": "incident",
@@ -667,6 +697,12 @@ window.GLOSSARY_CARDS = [
 "def": "A board member who is not part of the organisation's management. Non-executive directors provide oversight and challenge."
 },
 {
+"slug": "normal-accident-theory",
+"term": "Normal accident theory",
+"abbr": "",
+"def": "The theory, associated with Charles Perrow, that serious accidents are to be expected in systems that are both interactively complex and tightly coupled, however good their safety measures."
+},
+{
 "slug": "ndb",
 "term": "Notifiable data breach",
 "abbr": "NDB",
@@ -707,6 +743,12 @@ window.GLOSSARY_CARDS = [
 "term": "Performance test (super)",
 "abbr": "",
 "def": "APRA's annual test of MySuper and trustee-directed super products against benchmarks. Trustees of failing products must tell members, and a product that fails two years in a row can't take new members."
+},
+{
+"slug": "physical-risk",
+"term": "Physical risk (climate)",
+"abbr": "",
+"def": "Financial risk from the physical effects of climate change, such as floods, bushfires, heatwaves and rising sea levels, which can damage assets and disrupt operations."
 },
 {
 "slug": "policy",
@@ -763,6 +805,12 @@ window.GLOSSARY_CARDS = [
 "def": "The target maximum time to restore a process or system after a disruption."
 },
 {
+"slug": "regulatory-capture",
+"term": "Regulatory capture",
+"abbr": "",
+"def": "When a regulator comes to act in the interests of the industry it regulates rather than the public, for example through close relationships, shared views or the movement of staff between them."
+},
+{
 "slug": "regulatory-change",
 "term": "Regulatory change management",
 "abbr": "",
@@ -803,6 +851,12 @@ window.GLOSSARY_CARDS = [
 "term": "Responsible manager",
 "abbr": "",
 "def": "A person nominated by an AFS licensee who is directly responsible for significant day-to-day decisions about its financial services, and whose knowledge and skills demonstrate the licensee's organisational competence."
+},
+{
+"slug": "responsive-regulation",
+"term": "Responsive regulation",
+"abbr": "",
+"def": "An approach in which regulators start with persuasion and cooperation and escalate to tougher sanctions only when a firm does not respond, often pictured as an enforcement pyramid."
 },
 {
 "slug": "reverse-stress-testing",
@@ -979,6 +1033,12 @@ window.GLOSSARY_CARDS = [
 "def": "APRA's label for larger regulated entities that must meet the full set of certain prudential requirements, including parts of CPS 230, CPS 511 and CPS 190. For example, an ADI with total assets over $20 billion, or an RSE licensee whose funds hold over $30 billion in total assets. APRA can also designate an entity as an SFI because of its complexity or group membership."
 },
 {
+"slug": "social-amplification-of-risk",
+"term": "Social amplification of risk",
+"abbr": "",
+"def": "A framework explaining how media, institutions and social groups can make a risk seem larger or smaller than technical estimates suggest, with ripple effects such as loss of trust and regulatory change."
+},
+{
 "slug": "sps-515",
 "term": "SPS 515 Strategic Planning and Member Outcomes",
 "abbr": "",
@@ -989,6 +1049,12 @@ window.GLOSSARY_CARDS = [
 "term": "Statement of Advice",
 "abbr": "SOA",
 "def": "The document an adviser must generally give a retail client when providing personal advice, setting out the advice, the basis for it, and fees and conflicts."
+},
+{
+"slug": "stewardship-theory",
+"term": "Stewardship theory",
+"abbr": "",
+"def": "A theory of governance that sees managers as stewards who are motivated to act in the organisation's interests, so trust and empowerment may work better than tight control. Often contrasted with agency theory."
 },
 {
 "slug": "strategic-risk",
@@ -1061,6 +1127,12 @@ window.GLOSSARY_CARDS = [
 "term": "Tone at the top",
 "abbr": "",
 "def": "The example set by the board and senior leaders through what they say, reward and tolerate. It strongly shapes culture and whether controls are respected."
+},
+{
+"slug": "transition-risk",
+"term": "Transition risk (climate)",
+"abbr": "",
+"def": "Financial risk from the move to a low-carbon economy, such as new policy, technology or changing preferences that reduce the value of emissions-heavy assets."
 },
 {
 "slug": "twin-peaks",

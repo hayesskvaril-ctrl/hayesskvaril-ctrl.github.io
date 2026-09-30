@@ -213,7 +213,8 @@ def audit(texts):
     """Problems with Advanced pages: fewer than three peer-reviewed sources, or missing sections."""
     out = []
     for url, html in texts.items():
-        if level_of(html) != "advanced":
+        # Learning hubs such as the Advanced study program are course outlines, not articles.
+        if level_of(html) != "advanced" or url.startswith("/learn/"):
             continue
         keys = {m.group(2) for m in CITE_RE.finditer(html) if m.group(2) in REFS}
         n = sum(1 for k in keys if REFS[k]["pr"])

@@ -61,7 +61,11 @@ P = [
      ("/risk-management/human-factors-and-bias.html", "How bias distorts risk judgements, and how to counter it."),
      ("/risk-management/mapping-critical-operations.html", "CPS 230 process and resource mapping."),
      ("/risk-management/service-provider-exit-and-concentration.html", "Fourth parties, concentration and exit plans."),
-     ("/standards/aps-115.html", "How banks hold capital for operational risk.")]),
+     ("/standards/aps-115.html", "How banks hold capital for operational risk."),
+     ("/risk-management/theories-of-risk.html", "Why people perceive risk differently, and why some systems fail."),
+     ("/risk-management/does-erm-work.html", "What the evidence says about whether ERM adds value."),
+     ("/risk-management/climate-risk-research.html", "Whether markets price climate risk, and how it could spread."),
+     ("/learn/advanced-study-program.html", "Go further with the 12-module university-style course.")]),
    ("Apply it", [
      ("/learn/risk-heat-map.html", "Build and score your own mini risk register."),
      ("/tools/rcsa-template.html", "Run a risk and control self-assessment."),
@@ -104,7 +108,11 @@ P = [
      ("/compliance/interpreting-legislation.html", "Reading obligations the way courts do."),
      ("/compliance/misleading-or-deceptive-conduct.html", "The legal tests behind disclosure review."),
      ("/compliance/enforcement-and-penalties.html", "How regulators respond and penalties are set."),
-     ("/compliance/remediation-calculations.html", "Calculating what affected people are owed.")]),
+     ("/compliance/remediation-calculations.html", "Calculating what affected people are owed."),
+     ("/compliance/theories-of-regulation.html", "Why regulators regulate the way they do."),
+     ("/compliance/misconduct-in-financial-services-research.html", "What research shows about who commits misconduct, and why."),
+     ("/compliance/fraud-theory.html", "The fraud triangle, its extensions and its critics."),
+     ("/compliance/aml-ctf-effectiveness.html", "The debate over whether AML/CTF works.")]),
    ("Apply it", [
      ("/tools/obligations-register-template.html", "Start an obligations register."),
      ("/tools/breach-register-template.html", "Log and track breaches and deadlines."),
@@ -137,7 +145,12 @@ P = [
      ("/governance/risk-culture-assessment.html", "Assessing and changing risk culture."),
      ("/risk-management/risk-aggregation-and-correlation.html", "How the enterprise risk profile is built."),
      ("/governance/directors-duties-case-law.html", "What the courts say directors' and officers' duties require."),
-     ("/governance/reasonable-steps-and-consequence-management.html", "Evidencing reasonable steps and deciding consequences fairly.")]),
+     ("/governance/reasonable-steps-and-consequence-management.html", "Evidencing reasonable steps and deciding consequences fairly."),
+     ("/governance/corporate-governance-theories.html", "Agency, stewardship and stakeholder theories."),
+     ("/governance/three-lines-research-and-critique.html", "What the research says about the three lines model."),
+     ("/governance/internal-audit-effectiveness.html", "What makes internal audit effective."),
+     ("/governance/remuneration-incentives-and-risk-taking.html", "How pay shapes risk-taking."),
+     ("/governance/whistleblowing-research.html", "Who speaks up, and why.")]),
    ("Apply it", [
      ("/tools/example-risk-appetite-statement.html", "See a complete (fictional) risk appetite statement."),
      ("/tools/board-risk-report-template.html", "A template for the CRO's board report."),
@@ -172,7 +185,8 @@ P = [
      ("/risk-management/super-liquidity-stress-testing.html", "Switching, hedging, unlisted assets and the denominator effect."),
      ("/sectors/unit-pricing.html", "Unit pricing and unit pricing errors."),
      ("/sectors/fund-mergers-and-successor-fund-transfers.html", "Successor fund transfers and merger risk."),
-     ("/compliance/remediation-calculations.html", "Remediation calculations for members.")]),
+     ("/compliance/remediation-calculations.html", "Remediation calculations for members."),
+     ("/sectors/behavioural-economics-of-super.html", "Defaults, inertia and choice in super.")]),
    ("Apply it", [
      ("/tools/material-service-provider-register.html", "Track material service providers."),
      ("/tools/remediation-program-tracker.html", "Track member remediation programs."),
@@ -196,7 +210,8 @@ P = [
      ("/standards/iso-42001.html", "The AI management system standard.")]),
    ("Advanced", [
      ("/case-studies/asic-cyber-cases-ri-advice-and-fiig.html", "How weak cyber security became a licensee breach."),
-     ("/risk-management/service-provider-exit-and-concentration.html", "Concentration in technology providers, and exit.")]),
+     ("/risk-management/service-provider-exit-and-concentration.html", "Concentration in technology providers, and exit."),
+     ("/risk-management/economics-of-cyber-risk.html", "Incentives, security investment and cyber insurance.")]),
    ("Apply it", [
      ("/case-studies/optus-medibank-data-breaches.html", "What the 2022 data breaches taught everyone."),
      ("/learn/scenarios.html", "Try \"The spreadsheet sent to the wrong person\" and \"The administrator goes dark\"."),
@@ -265,7 +280,7 @@ page = f'''<!DOCTYPE html>
   <p class="summary">Not sure where to start? Pick the pathway closest to your role and work through it in order, from the basics to putting it into practice.</p>
   <div class="page-meta">
     <span class="level level-beginner">Beginner</span>
-    <span>Last reviewed: 28 September 2026</span>
+    <span>Last reviewed: 30 September 2026</span>
   </div>
 
   <aside class="takeaways" aria-labelledby="kt">
@@ -273,7 +288,7 @@ page = f'''<!DOCTYPE html>
     <ul>
       <li>Each pathway moves through <strong>Beginner</strong> pages, then <strong>Intermediate</strong> and, where available, <strong>Advanced</strong> pages, then <strong>Apply it</strong>: scenarios, tools and quizzes.</li>
       <li>Tick off pages as you finish them. Your progress is saved only in this browser, and a page ticked in one pathway is ticked in all of them.</li>
-      <li>Advanced deep-dives are still being written and will be added to these pathways as they go live.</li>
+      <li>For university-level study, the <a href="/learn/advanced-study-program.html">Advanced study program</a> groups the Advanced pages into 12 modules with readings and seminar questions.</li>
     </ul>
   </aside>
 
@@ -295,7 +310,7 @@ page = f'''<!DOCTYPE html>
     </ul>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 28 September 2026</p>
+  <p class="last-reviewed">Last reviewed: 30 September 2026</p>
 </main>
 
 <!-- FOOTER:START -->

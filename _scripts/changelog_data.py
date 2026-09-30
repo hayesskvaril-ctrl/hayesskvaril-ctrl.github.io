@@ -8,6 +8,9 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-30", "/learn/advanced-study-program.html", "New Advanced study program: a free 12-module, university-style course built from the Advanced pages, with learning outcomes, required peer-reviewed readings, seminar questions and essay questions."),
+    ("2026-09-30", "", "14 new university-level pages on the research behind risk, compliance and governance: theories of risk and regulation, governance theories, whether ERM works, the three lines, internal audit, misconduct, pay and risk-taking, whistleblowing, fraud theory, super behaviour, and the economics of cyber, climate and AML/CTF."),
+    ("2026-09-30", "/learn/quizzes.html", "New University-level research quiz, a Research flashcard deck, 12 new glossary terms, and the new pages added to the learning pathways."),
     ("2026-09-30", "", "All 25 Advanced pages upgraded to university level: learning outcomes, a Theory and research section grounded in peer-reviewed studies, critical perspectives, seminar questions, further reading and APA references."),
     ("2026-09-30", "/learn/research-library.html", "New Research library: over 100 checked research sources behind the Advanced pages, grouped by topic with plain-English summaries."),
     ("2026-09-30", "/learn/videos.html", "New Videos page: 14 short explainer videos with captions and full transcripts, from the risk management loop and the Three Lines model to misleading conduct, root causes, unit pricing errors and the denominator effect, plus official videos from AUSTRAC and the ACNC."),

@@ -309,24 +309,24 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Standards, sectors and case studies (4 pages)
 
 **New university-level pages**
-- [ ] Theories of regulation: responsive, risk-based and principles-based regulation
-- [ ] Corporate governance theories: agency, stewardship and stakeholder perspectives
-- [ ] Theories of risk: perception, social amplification, normal accidents and high-reliability organisations
-- [ ] Does enterprise risk management work? The empirical evidence
-- [ ] The Three Lines model: research and critique
-- [ ] Behavioural economics of super and disclosure: defaults, inertia and choice
-- [ ] Misconduct in financial services: what the research shows
-- [ ] Remuneration, incentives and risk-taking: the evidence
-- [ ] Whistleblowing: research on who speaks up and why
-- [ ] Fraud theory beyond the triangle
-- [ ] Internal audit effectiveness: a research synthesis
-- [ ] The economics of cyber risk
-- [ ] Climate risk in finance: the research
-- [ ] AML/CTF effectiveness: the evidence debate
+- [x] Theories of regulation: responsive, risk-based and principles-based regulation
+- [x] Corporate governance theories: agency, stewardship and stakeholder perspectives
+- [x] Theories of risk: perception, social amplification, normal accidents and high-reliability organisations
+- [x] Does enterprise risk management work? The empirical evidence
+- [x] The Three Lines model: research and critique
+- [x] Behavioural economics of super and disclosure: defaults, inertia and choice
+- [x] Misconduct in financial services: what the research shows
+- [x] Remuneration, incentives and risk-taking: the evidence
+- [x] Whistleblowing: research on who speaks up and why
+- [x] Fraud theory beyond the triangle
+- [x] Internal audit effectiveness: a research synthesis
+- [x] The economics of cyber risk
+- [x] Climate risk in finance: the research
+- [x] AML/CTF effectiveness: the evidence debate
 
 **Learning at university level**
-- [ ] Advanced study program: a 12-module, university-style course with learning outcomes, required readings and seminar questions
-- [ ] Advanced quiz questions and flashcards for the new pages; update pathways and Browse by level
+- [x] Advanced study program: a 12-module, university-style course with learning outcomes, required readings and seminar questions
+- [x] Advanced quiz questions and flashcards for the new pages; update pathways and Browse by level
 
 ## 🔁 Recurring upkeep (never ticked off; do on schedule)
 

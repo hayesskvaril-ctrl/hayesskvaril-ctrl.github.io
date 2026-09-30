@@ -361,6 +361,40 @@ window.QUIZ_BANK = [
       { q: "Under the SFT rule, the successor fund must confer on members:", options: ["Identical rights", "Equivalent rights in respect of their benefits", "Better fees", "A choice of fund"], answer: 1,
         explain: "Equivalent, not equal, assessed as a bundle of rights.", page: "/sectors/fund-mergers-and-successor-fund-transfers.html" }
     ]
+  },
+  {
+    id: "research",
+    title: "University-level research",
+    questions: [
+      { q: "Ayres and Braithwaite's enforcement pyramid suggests regulators should usually start with:", options: ["The harshest sanction", "Persuasion and education, escalating only if needed", "Licence cancellation", "Doing nothing"], answer: 1,
+        explain: "Responsive regulation starts at the base of the pyramid and escalates when cooperation fails.", page: "/compliance/theories-of-regulation.html" },
+      { q: "Agency theory assumes managers:", options: ["Always act in owners' interests", "May pursue their own interests, so owners need monitoring and incentives", "Have no interests", "Are elected by customers"], answer: 1,
+        explain: "Stewardship theory offers a contrasting view of managers as pro-organisational.", page: "/governance/corporate-governance-theories.html" },
+      { q: "Normal accident theory argues that serious accidents are more likely in systems that are:", options: ["Simple and loosely coupled", "Complex and tightly coupled", "Small", "Well documented"], answer: 1,
+        explain: "Perrow argued interactive complexity and tight coupling make some accidents 'normal'.", page: "/risk-management/theories-of-risk.html" },
+      { q: "The empirical evidence on whether ERM increases firm value is best described as:", options: ["Conclusive that it always does", "Mixed, with measurement problems and possible reverse causality", "Conclusive that it never does", "Non-existent"], answer: 1,
+        explain: "Some studies find a positive association, but measuring ERM and proving cause are hard.", page: "/risk-management/does-erm-work.html" },
+      { q: "A common academic critique of the three lines model is that it:", options: ["Has been rigorously proven effective", "Can blur accountability and has limited evidence of effectiveness", "Applies only to banks", "Removes internal audit"], answer: 1,
+        explain: "Researchers note its untested effectiveness and coordination problems in practice.", page: "/governance/three-lines-research-and-critique.html" },
+      { q: "Madrian and Shea's study of automatic enrolment showed that:", options: ["Defaults have little effect", "Defaults strongly shape participation and contribution choices", "Everyone actively chooses", "Disclosure removes inertia"], answer: 1,
+        explain: "Participation jumped under automatic enrolment, and many stayed at the default rate.", page: "/sectors/behavioural-economics-of-super.html" },
+      { q: "Egan, Matvos and Seru found that financial advisers with past misconduct:", options: ["Always leave the industry", "Are more likely to reoffend and often find new jobs", "Are never hired again", "Are rare and random"], answer: 1,
+        explain: "Misconduct is concentrated and persistent, and some firms specialise in hiring such advisers.", page: "/compliance/misconduct-in-financial-services-research.html" },
+      { q: "Fahlenbrach and Stulz found that, in the 2008 crisis, banks whose CEOs' incentives were better aligned with shareholders:", options: ["Performed much better", "Performed no better, and on some evidence worse", "Were all rescued", "Had no losses"], answer: 1,
+        explain: "Aligning pay with shareholders did not protect banks, which challenges simple fixes to incentive design.", page: "/governance/remuneration-incentives-and-risk-taking.html" },
+      { q: "In Dyck, Morse and Zingales's study of large US corporate frauds, which group revealed the largest share?", options: ["The securities regulator", "Employees", "Auditors", "Short sellers"], answer: 1,
+        explain: "Employees revealed about 19% of frauds, more than auditors, the media or the securities regulator.", page: "/governance/whistleblowing-research.html" },
+      { q: "Free and Murphy's research on co-offending found that group fraud depends on:", options: ["Random chance", "The type of bond between offenders", "Only financial pressure", "Weak IT systems"], answer: 1,
+        explain: "Bonds such as loyalty and friendship shape collusion, which defeats segregation of duties.", page: "/compliance/fraud-theory.html" },
+      { q: "Roussy's study of internal auditors described their independence as:", options: ["Absolute", "'Grey', as auditors often help and protect top management", "Irrelevant", "Set by external auditors"], answer: 1,
+        explain: "Auditors moved between watchdog, helper and protector roles.", page: "/governance/internal-audit-effectiveness.html" },
+      { q: "A database has an expected annual breach loss of $2 million. Under the Gordon-Loeb result, the optimal annual security investment is at most about:", options: ["$2 million", "$740,000", "$200,000", "$5 million"], answer: 1,
+        explain: "About 37% (1/e) of the expected loss, under the model's assumptions.", page: "/risk-management/economics-of-cyber-risk.html" },
+      { q: "Bernstein, Gustafson and Lewis found US homes exposed to projected sea level rise:", options: ["Sell at a premium", "Sell at about a 7% discount", "Are not affected", "Cannot be sold"], answer: 1,
+        explain: "Evidence that some physical climate risk is reflected in prices.", page: "/risk-management/climate-risk-research.html" },
+      { q: "Takáts's 'crying wolf' model shows that very high fines for failing to report can:", options: ["Improve every report", "Lead banks to over-report, diluting the value of reports", "Stop all laundering", "Reduce reporting"], answer: 1,
+        explain: "Defensive reporting floods the system with weakly suspicious reports.", page: "/compliance/aml-ctf-effectiveness.html" }
+    ]
   }
 ];
 
@@ -479,5 +513,19 @@ window.QUIZ_PAGES = {
   "/compliance/compliance-monitoring-and-testing.html": "Designing a compliance monitoring and testing program",
   "/compliance/remediation-calculations.html": "Remediation calculations in practice",
   "/sectors/unit-pricing.html": "Unit pricing and unit pricing errors",
-  "/sectors/fund-mergers-and-successor-fund-transfers.html": "Fund mergers and successor fund transfers"
+  "/sectors/fund-mergers-and-successor-fund-transfers.html": "Fund mergers and successor fund transfers",
+  "/compliance/theories-of-regulation.html": "Theories of regulation: responsive, risk-based and principles-based",
+  "/governance/corporate-governance-theories.html": "Corporate governance theories: agency, stewardship and stakeholder",
+  "/risk-management/theories-of-risk.html": "Theories of risk: perception, amplification, normal accidents and high reliability",
+  "/risk-management/does-erm-work.html": "Does enterprise risk management work? The evidence",
+  "/governance/three-lines-research-and-critique.html": "The Three Lines model: research and critique",
+  "/sectors/behavioural-economics-of-super.html": "Behavioural economics of super: defaults, inertia and choice",
+  "/compliance/misconduct-in-financial-services-research.html": "Misconduct in financial services: what the research shows",
+  "/governance/remuneration-incentives-and-risk-taking.html": "Remuneration, incentives and risk-taking: the evidence",
+  "/governance/whistleblowing-research.html": "Whistleblowing: research on who speaks up and why",
+  "/compliance/fraud-theory.html": "Fraud theory beyond the triangle",
+  "/governance/internal-audit-effectiveness.html": "Internal audit effectiveness: the research",
+  "/risk-management/economics-of-cyber-risk.html": "The economics of cyber risk",
+  "/risk-management/climate-risk-research.html": "Climate risk: the research",
+  "/compliance/aml-ctf-effectiveness.html": "Does AML/CTF work? The research"
 };

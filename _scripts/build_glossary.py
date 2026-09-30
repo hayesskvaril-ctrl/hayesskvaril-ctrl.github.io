@@ -16,10 +16,46 @@ import re
 from html import unescape
 
 ROOT = Path(__file__).resolve().parent.parent
-LAST_REVIEWED = "27 September 2026"
+LAST_REVIEWED = "30 September 2026"
 
 # (slug, term, abbreviation or "", definition (HTML allowed), [(see label, url), ...])
 TERMS = [
+    ("agency-theory", "Agency theory", "",
+     "A theory of governance that treats managers as agents of the owners (principals) who may pursue their own interests. It explains the use of monitoring, independent boards and incentive pay to align managers with owners.",
+     [("Corporate governance theories", "/governance/corporate-governance-theories.html")]),
+    ("stewardship-theory", "Stewardship theory", "",
+     "A theory of governance that sees managers as stewards who are motivated to act in the organisation's interests, so trust and empowerment may work better than tight control. Often contrasted with agency theory.",
+     [("Corporate governance theories", "/governance/corporate-governance-theories.html")]),
+    ("responsive-regulation", "Responsive regulation", "",
+     "An approach in which regulators start with persuasion and cooperation and escalate to tougher sanctions only when a firm does not respond, often pictured as an enforcement pyramid.",
+     [("Theories of regulation", "/compliance/theories-of-regulation.html")]),
+    ("regulatory-capture", "Regulatory capture", "",
+     "When a regulator comes to act in the interests of the industry it regulates rather than the public, for example through close relationships, shared views or the movement of staff between them.",
+     [("Theories of regulation", "/compliance/theories-of-regulation.html")]),
+    ("normal-accident-theory", "Normal accident theory", "",
+     "The theory, associated with Charles Perrow, that serious accidents are to be expected in systems that are both interactively complex and tightly coupled, however good their safety measures.",
+     [("Theories of risk", "/risk-management/theories-of-risk.html")]),
+    ("high-reliability-organisation", "High-reliability organisation (HRO)", "HRO",
+     "An organisation that operates in hazardous conditions for long periods with very few serious failures, for example through preoccupation with failure, deference to expertise and strong learning.",
+     [("Theories of risk", "/risk-management/theories-of-risk.html")]),
+    ("social-amplification-of-risk", "Social amplification of risk", "",
+     "A framework explaining how media, institutions and social groups can make a risk seem larger or smaller than technical estimates suggest, with ripple effects such as loss of trust and regulatory change.",
+     [("Theories of risk", "/risk-management/theories-of-risk.html")]),
+    ("externality", "Externality", "",
+     "A cost or benefit of an activity that falls on someone other than the party carrying it out. In cyber security, for example, a breach may harm customers more than the firm that could have prevented it.",
+     [("The economics of cyber risk", "/risk-management/economics-of-cyber-risk.html")]),
+    ("heavy-tailed-distribution", "Heavy-tailed distribution", "",
+     "A pattern of losses in which extreme events are far more likely than a normal (bell-curve) distribution would suggest. Most losses are small, but a few very large ones dominate the total. Operational and cyber losses are typically heavy-tailed.",
+     [("Quantitative operational risk", "/risk-management/quantitative-operational-risk.html"), ("The economics of cyber risk", "/risk-management/economics-of-cyber-risk.html")]),
+    ("physical-risk", "Physical risk (climate)", "",
+     "Financial risk from the physical effects of climate change, such as floods, bushfires, heatwaves and rising sea levels, which can damage assets and disrupt operations.",
+     [("Climate risk", "/risk-management/climate-risk.html"), ("Climate risk: the research", "/risk-management/climate-risk-research.html")]),
+    ("transition-risk", "Transition risk (climate)", "",
+     "Financial risk from the move to a low-carbon economy, such as new policy, technology or changing preferences that reduce the value of emissions-heavy assets.",
+     [("Climate risk", "/risk-management/climate-risk.html"), ("Climate risk: the research", "/risk-management/climate-risk-research.html")]),
+    ("default-effect", "Default effect", "",
+     "The tendency of people to stick with a pre-set option rather than make an active choice. It explains why default super funds, contribution rates and investment options have such a large influence on outcomes.",
+     [("Behavioural economics of super", "/sectors/behavioural-economics-of-super.html")]),
     ("business-judgment-rule", "Business judgment rule", "",
      "A protection in s 180(2) of the Corporations Act for directors and officers who make a business decision in good faith and for a proper purpose, without a material personal interest, having informed themselves appropriately, and rationally believing it is in the company's best interests. It only covers the duty of care and diligence.",
      [("Directors' and officers' duties: key cases", "/governance/directors-duties-case-law.html")]),
