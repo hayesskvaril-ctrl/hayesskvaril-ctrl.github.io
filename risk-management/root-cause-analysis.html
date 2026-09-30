@@ -59,7 +59,7 @@
   <p class="summary">How to find causes the organisation can actually fix, comparing 5 whys, fishbone, barrier analysis, bow-tie and fault trees, with a worked example and a fault tree calculator.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 16 minutes</span>
+    <span>About 22 minutes</span>
     <span>Last reviewed: 28 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>In a fault tree, probabilities multiply through AND gates, so a reliable <a class="term" href="/glossary/#detective-control">detective control</a> can matter more than preventing the cause.</li>
       <li>Strong actions change systems (remove the hazard, automate, add independent checks). Reminders and retraining are weak on their own.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Explain the difference between the person approach and the system approach to error, and why root cause analysis aims for the second.</li>
+      <li>Apply a timeline, 5 whys, barrier analysis and a fault tree to an incident, and explain what each technique assumes.</li>
+      <li>Judge the strength of corrective actions using a hierarchy of effectiveness.</li>
+      <li>Critically assess the research on whether root cause analysis improves outcomes, and how hindsight and outcome bias distort investigations.</li>
+    </ol>
   </aside>
 
   
@@ -118,17 +129,17 @@ Your browser can't play this video. <a href="/assets/video/swiss-cheese-and-faul
       <tbody>
         <tr><td>Stopping at the person</td><td>"Operator error. Staff member retrained."</td><td>Ask why the error was possible and why nothing caught it. People are usually the last link, not the first cause.</td></tr>
         <tr><td>One cause only</td><td>A single line in the incident register.</td><td>Most incidents need several things to go wrong at once. Record contributing factors and failed controls separately.</td></tr>
-        <tr><td>Hindsight bias</td><td>"It was obvious this would happen."</td><td>Reconstruct what people knew at the time, and why their actions made sense to them then.</td></tr>
-        <tr><td>Blame culture</td><td>People stop reporting <a class="term" href="/glossary/#near-miss">near misses</a> and small errors.</td><td>A "just culture": accountability for reckless or deliberate acts, learning for honest mistakes.</td></tr>
+        <tr><td>Hindsight bias</td><td>"It was obvious this would happen."</td><td>Reconstruct what people knew at the time, and why their actions made sense to them then (<a class="cite" href="#ref-fischhoff-1975">Fischhoff, 1975</a>).</td></tr>
+        <tr><td>Blame culture</td><td>People stop reporting <a class="term" href="/glossary/#near-miss">near misses</a> and small errors.</td><td>A "just culture": accountability for reckless or deliberate acts, learning for honest mistakes (<a class="cite" href="#ref-dekker-breakey-2016">Dekker &amp; Breakey, 2016</a>).</td></tr>
         <tr><td>Weak actions</td><td>Reminders, emails, training, updated procedures.</td><td>Prefer stronger fixes: removing the hazard, automation, forcing functions and independent checks.</td></tr>
         <tr><td>No follow-through</td><td>Actions closed without checking they worked.</td><td>Validate that the fix works, and look for the same cause elsewhere. See <a class="xref" href="/risk-management/issue-and-action-management.html">issue and action management</a>.</td></tr>
       </tbody>
     </table>
   </div>
-  <p>Research on root cause analysis in healthcare, where the technique is widely used, has found similar problems: investigations that focus on single causes, produce weak recommendations and rarely check whether actions worked (Peerally and others, 2017).</p>
+  <p>Research on root cause analysis in healthcare, where the technique is widely used, has found similar problems: investigations that focus on single causes, produce weak recommendations and rarely check whether actions worked (<a class="cite" href="#ref-peerally-2017">Peerally et al., 2017</a>; <a class="cite" href="#ref-hibbert-2018">Hibbert et al., 2018</a>). See <a href="#theory-and-research">Theory and research</a> below.</p>
 
   <h2>The Swiss cheese model</h2>
-  <p>Psychologist James Reason described organisational defences as slices of Swiss cheese. Each layer (design, controls, supervision, people) has holes, some from active failures by people at the front line and some from latent conditions built into systems and decisions made long before. An incident happens when holes in several layers line up. The practical lesson: look for the latent conditions, because they will line up again.</p>
+  <p>Psychologist James Reason described organisational defences as slices of Swiss cheese (<a class="cite" href="#ref-reason-2000">Reason, 2000</a>). Each layer (design, controls, supervision, people) has holes, some from active failures by people at the front line and some from latent conditions built into systems and decisions made long before. An incident happens when holes in several layers line up. The practical lesson: look for the latent conditions, because they will line up again.</p>
 
   <h2>The main techniques compared</h2>
   <div class="table-wrap">
@@ -208,6 +219,46 @@ Your browser can't play this video. <a href="/assets/video/swiss-cheese-and-faul
   </ul>
   <p>Regulators increasingly look at root causes, not just individual incidents. Recurring themes across incidents, breaches and complaints are a strong signal of weak controls or culture, and they belong in board reporting.</p>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>From the person approach to the system approach</h3>
+  <p><a class="cite narrative" href="#ref-reason-2000">Reason (2000)</a> distinguishes two ways of responding to error. The <strong>person approach</strong> treats errors as the product of forgetfulness, inattention or carelessness, and responds with naming, retraining and discipline. The <strong>system approach</strong> accepts that people are fallible and asks why the system allowed an error to cause harm. The Swiss cheese model comes from the second view. Defences have holes created by <em>active failures</em> (unsafe acts at the front line, whose effects are immediate) and <em>latent conditions</em> (decisions by designers, managers and procedure writers that lie dormant until they combine with active failures). In theory, root cause analysis is a tool of the system approach. In practice it often slides back into the person approach.</p>
+
+  <h3>Chains or systems?</h3>
+  <p>Most root cause techniques assume an incident is a chain of events that leads back to a first cause. <a class="cite narrative" href="#ref-leveson-2004">Leveson (2004)</a> argued that this model breaks down in complex, software-intensive organisations, where accidents come from unsafe interactions between parts that are each working as designed. Her systems-theoretic model, STAMP, treats safety as a control problem. The question is not "which component failed?" but "why did the controls, including management oversight and feedback, fail to keep the system within safe limits?" For a financial services incident, that means asking how change management, reporting lines, incentives and the risk framework allowed the error, not only which step broke. <a class="cite narrative" href="#ref-card-2017">Card (2017)</a> makes a similar criticism of the "5 whys": it forces a single, linear path through what is usually a web of contributing factors, and there is little evidence that it works for serious incidents.</p>
+
+  <h3>What the evidence says</h3>
+  <p>Most empirical research on root cause analysis comes from healthcare, where formal analysis of serious incidents has been standard practice for many years. The findings are sobering. A review of 302 root cause analyses at a US hospital system found that many of the proposed solutions were weak: mostly training, process changes and enforcing existing policy (<a class="cite" href="#ref-kellogg-2017">Kellogg et al., 2017</a>). An Australian study of 227 analyses of sentinel events in Victoria's public health system classified the 1,137 recommendations as 8% strong, 44% medium and 48% weak, and about 15% of the analyses made only weak recommendations (<a class="cite" href="#ref-hibbert-2018">Hibbert et al., 2018</a>). <a class="cite narrative" href="#ref-peerally-2017">Peerally et al. (2017)</a> argue that the technique was borrowed from other industries without enough attention to what makes it work there, and that its name wrongly suggests a single cause.</p>
+  <p>These studies measure the <em>strength</em> of recommended actions, as a proxy for whether they will work. The hierarchy behind them is the one used on this page: strong actions remove or engineer out the hazard, while weak ones rely on people remembering to behave differently.</p>
+
+  <h3>Biases that distort investigations</h3>
+  <p>Investigators know how the story ended, and that knowledge changes their judgement. <a class="cite narrative" href="#ref-fischhoff-1975">Fischhoff (1975)</a> showed that people who are told an outcome judge it to have been more likely, and more foreseeable, than people who are not: <strong>hindsight bias</strong>. <a class="cite narrative" href="#ref-baron-1988">Baron and Hershey (1988)</a> found an <strong>outcome bias</strong>: the same decision is rated as better reasoned, and its maker as more competent, when it happens to turn out well. Together these make investigations prone to concluding that people "should have seen it coming". Good practice reconstructs what people knew and faced at the time, and asks why their actions made sense to them then. Research on <strong>just culture</strong> adds that how an organisation treats the people involved, including fair process and repairing relationships, affects whether anyone reports the next near miss (<a class="cite" href="#ref-dekker-breakey-2016">Dekker &amp; Breakey, 2016</a>; <a class="cite" href="#ref-dekker-2016">Dekker, 2016</a>).</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>The evidence is mostly from healthcare.</strong> The problems found there (weak actions, poor follow-up and single-cause thinking) are the ones this page warns about in financial services, but we found little published research on root cause analysis in banks, insurers or super funds. Treat the healthcare figures as a warning, not a measurement.</li>
+    <li><strong>Strength is only a proxy.</strong> Classifying an action as strong doesn't show it worked. Serious incidents are rare, so recurrence is hard to measure, and a strong action that is badly implemented can still fail.</li>
+    <li><strong>Is "root cause" the wrong goal?</strong> Systems thinkers argue there is rarely a single root, only interacting conditions. Others reply that organisations need clear, fixable findings with owners, and that the label matters less than the habit of looking past the individual.</li>
+    <li><strong>Accountability or learning?</strong> Regulators increasingly expect individual accountability (see the <a class="xref" href="/governance/financial-accountability-regime.html">Financial Accountability Regime</a> and <a class="xref" href="/governance/reasonable-steps-and-consequence-management.html">consequence management</a>), while safety research warns that blame drives errors underground. How to hold people to account without discouraging reporting remains an open question.</li>
+    <li><strong>False precision.</strong> Fault trees look exact, but their probabilities are usually judgements. Assuming independence can badly understate risk when one cause, such as a system change, both creates an error and disables the control that should catch it.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Using Reason's distinction between active failures and latent conditions, analyse a publicly reported incident at an Australian financial institution, for example from a regulator's enforcement action or an inquiry report. Which latent conditions were identified, and which do you think were missed?</li>
+    <li>Hibbert and colleagues found that only 8% of recommendations were strong. Why might organisations prefer weak actions even when stronger ones exist? Consider cost, ownership, time pressure and the incentives of the people doing the investigation.</li>
+    <li>Leveson argues that accidents are control problems rather than chains of failures. Redraw the "wrong fee" example on this page as a control structure. What causes does this reveal that the 5 whys did not?</li>
+    <li>Design two practical steps to guard against hindsight and outcome bias in an incident review. How would you know whether they worked?</li>
+    <li>Can a just culture coexist with the Financial Accountability Regime's emphasis on individual accountability? Argue both sides.</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="reason-2000 leveson-2004 peerally-2017 dekker-breakey-2016">
+    <li>Reason, J. (2000). Human error: Models and management. <em>BMJ</em>, <em>320</em>(7237), 768–770. <a href="https://doi.org/10.1136/bmj.320.7237.768">https://doi.org/10.1136/bmj.320.7237.768</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Contrasts the 'person approach' to error (blame, retraining) with the 'system approach', and introduces the Swiss cheese model of layered defences with active failures and latent conditions.</span></li>
+    <li>Leveson, N. (2004). A new accident model for engineering safer systems. <em>Safety Science</em>, <em>42</em>(4), 237–270. <a href="https://doi.org/10.1016/S0925-7535(03)00047-X">https://doi.org/10.1016/S0925-7535(03)00047-X</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Proposes STAMP, an accident model based on systems theory: accidents arise from inadequate control of interactions in a system, not just chains of failed components, so analysis must include management and organisational control.</span></li>
+    <li>Peerally, M. F., Carr, S., Waring, J., &amp; Dixon-Woods, M. (2017). The problem with root cause analysis. <em>BMJ Quality &amp; Safety</em>, <em>26</em>(5), 417–422. <a href="https://doi.org/10.1136/bmjqs-2016-005511">https://doi.org/10.1136/bmjqs-2016-005511</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Sets out problems with root cause analysis as applied in healthcare, including a misleading search for a single cause and weak, poorly followed-up fixes. Argues it was borrowed from other industries without enough attention to what makes it work there.</span></li>
+    <li>Dekker, S. W. A., &amp; Breakey, H. (2016). 'Just culture:' Improving safety by achieving substantive, procedural and restorative justice. <em>Safety Science</em>, <em>85</em>, 187–193. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925753516000321">https://www.sciencedirect.com/science/article/abs/pii/S0925753516000321</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Argues that a just culture needs more than rules about when to punish: organisations should also attend to fair process and to restoring relationships after an incident, so people keep reporting.</span></li>
+  </ul>
+
   <div class="widget quiz">
     <h3>Check your understanding</h3>
     <div class="q" data-answer="b">
@@ -242,12 +293,28 @@ Your browser can't play this video. <a href="/assets/video/swiss-cheese-and-faul
     </ul>
   </section>
 
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-baron-1988">Baron, J., &amp; Hershey, J. C. (1988). Outcome bias in decision evaluation. <em>Journal of Personality and Social Psychology</em>, <em>54</em>(4), 569–579. <a href="https://doi.org/10.1037/0022-3514.54.4.569">https://doi.org/10.1037/0022-3514.54.4.569</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-card-2017">Card, A. J. (2017). The problem with '5 whys'. <em>BMJ Quality &amp; Safety</em>, <em>26</em>(8), 671–677. <a href="https://doi.org/10.1136/bmjqs-2016-005849">https://doi.org/10.1136/bmjqs-2016-005849</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-dekker-2016">Dekker, S. (2016). <em>Just culture: Restoring trust and accountability in your organization</em> (3rd ed.). CRC Press.</li>
+      <li id="ref-dekker-breakey-2016">Dekker, S. W. A., &amp; Breakey, H. (2016). 'Just culture:' Improving safety by achieving substantive, procedural and restorative justice. <em>Safety Science</em>, <em>85</em>, 187–193. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925753516000321">https://www.sciencedirect.com/science/article/abs/pii/S0925753516000321</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-fischhoff-1975">Fischhoff, B. (1975). Hindsight is not equal to foresight: The effect of outcome knowledge on judgment under uncertainty. <em>Journal of Experimental Psychology: Human Perception and Performance</em>, <em>1</em>(3), 288–299. <a href="https://doi.org/10.1037/0096-1523.1.3.288">https://doi.org/10.1037/0096-1523.1.3.288</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-hibbert-2018">Hibbert, P. D., Thomas, M. J. W., Deakin, A., Runciman, W. B., Braithwaite, J., Lomax, S., Prescott, J., Gorrie, G., Szczygielski, A., Surwald, T., &amp; Fraser, C. (2018). Are root cause analyses recommendations effective and sustainable? An observational study. <em>International Journal for Quality in Health Care</em>, <em>30</em>(2), 124–131. <a href="https://doi.org/10.1093/intqhc/mzx181">https://doi.org/10.1093/intqhc/mzx181</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-kellogg-2017">Kellogg, K. M., Hettinger, Z., Shah, M., Wears, R. L., Sellers, C. R., Squires, M., &amp; Fairbanks, R. J. (2017). Our current approach to root cause analysis: Is it contributing to our failure to improve patient safety? <em>BMJ Quality &amp; Safety</em>, <em>26</em>(5), 381–387. <a href="https://doi.org/10.1136/bmjqs-2016-005991">https://doi.org/10.1136/bmjqs-2016-005991</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-leveson-2004">Leveson, N. (2004). A new accident model for engineering safer systems. <em>Safety Science</em>, <em>42</em>(4), 237–270. <a href="https://doi.org/10.1016/S0925-7535(03)00047-X">https://doi.org/10.1016/S0925-7535(03)00047-X</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-peerally-2017">Peerally, M. F., Carr, S., Waring, J., &amp; Dixon-Woods, M. (2017). The problem with root cause analysis. <em>BMJ Quality &amp; Safety</em>, <em>26</em>(5), 417–422. <a href="https://doi.org/10.1136/bmjqs-2016-005511">https://doi.org/10.1136/bmjqs-2016-005511</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-reason-2000">Reason, J. (2000). Human error: Models and management. <em>BMJ</em>, <em>320</em>(7237), 768–770. <a href="https://doi.org/10.1136/bmj.320.7237.768">https://doi.org/10.1136/bmj.320.7237.768</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
+
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>
     <ol>
-      <li>Reason, J. (2000). Human error: models and management. <em>BMJ</em>, 320(7237), 768–770. <a href="https://doi.org/10.1136/bmj.320.7237.768">doi:10.1136/bmj.320.7237.768</a>.</li>
-      <li>Peerally, M. F., Carr, S., Waring, J. and Dixon-Woods, M. (2017). The problem with root cause analysis. <em>BMJ Quality &amp; Safety</em>, 26(5), 417–422. <a href="https://doi.org/10.1136/bmjqs-2016-005511">doi:10.1136/bmjqs-2016-005511</a>.</li>
-      <li>Dekker, S. (2016). <em>Just Culture: Restoring Trust and Accountability in Your Organization</em> (3rd ed.). CRC Press.</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> (incident management and control requirements).</li>
     </ol>
   </section>

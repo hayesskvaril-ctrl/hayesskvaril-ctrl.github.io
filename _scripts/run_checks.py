@@ -11,6 +11,8 @@ Checks:
   5. Learning content: quiz, flashcard and scenario links point to pages that exist
   6. Videos: every explainer is rendered from its current scene file, has its files and transcript,
      and sits on its pages; official videos were confirmed in the last 3 months
+  7. Research: citations and reference lists are up to date, and every Advanced page meets the
+     university-level standard (3+ peer-reviewed sources and the required sections)
 
 Run:  python3 _scripts/run_checks.py              (as at today)
       python3 _scripts/run_checks.py 2027-03-01   (as at another date)
@@ -182,6 +184,15 @@ if vbad:
     todo.append("Deal with the video items listed in section 6.")
 else:
     print(f"  {len(man)} explainers rendered and placed; {len(build_videos.EXTERNAL)} official videos confirmed within 3 months.")
+
+# 7. Research references
+heading("7. Research references")
+out = run("build_references.py", "--check").strip()
+if out:
+    print("  " + out.replace("\n", "\n  "))
+    todo.append("Deal with the research reference items listed in section 7.")
+else:
+    print("  All citations current; every Advanced page meets the university-level standard.")
 
 heading("TO DO")
 if todo:
