@@ -688,6 +688,51 @@ REFS = {
         journal="The Journal of Finance", volume="68", issue="5", pages="1757–1803", doi="10.1111/jofi.12057", topics=["erm", "governance"], pr=True, checked="2026-09-30",
         note="Banks with a stronger, more independent risk management function before the crisis (a higher 'risk management index') had lower tail risk and better performance during the crisis."),
 
+    # ---------- Whistleblowing, voice and fraud ----------
+    "near-1985": dict(
+        kind="article", authors=["Near, J. P.", "Miceli, M. P."], year=1985, title="Organizational dissidence: The case of whistle-blowing",
+        journal="Journal of Business Ethics", volume="4", issue="1", pages="1–16", doi="10.1007/BF00382668", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="Defines whistleblowing and proposes a model of the decisions made by people who believe they have seen wrongdoing, and of how organisations respond, drawing on motivation and power."),
+    "mesmer-magnus-2005": dict(
+        kind="article", authors=["Mesmer-Magnus, J. R.", "Viswesvaran, C."], year=2005,
+        title="Whistleblowing in organizations: An examination of correlates of whistleblowing intentions, actions, and retaliation",
+        journal="Journal of Business Ethics", volume="62", issue="3", pages="277–297", doi="10.1007/s10551-005-0849-1", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="A meta-analysis of 26 samples (18,781 people): personal, situational and wrongdoing factors predict intentions to blow the whistle more strongly than actual whistleblowing, and retaliation is best predicted by context."),
+    "dyck-2010": dict(
+        kind="article", authors=["Dyck, A.", "Morse, A.", "Zingales, L."], year=2010, title="Who blows the whistle on corporate fraud?",
+        journal="The Journal of Finance", volume="65", issue="6", pages="2213–2253", doi="10.1111/j.1540-6261.2010.01614.x", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="In large US corporate frauds from 1996 to 2004, employees (19%), industry regulators (16%) and the media (14%) revealed more frauds than auditors (14%) or the SEC (6%); monetary incentives help explain employee whistleblowing."),
+    "detert-2011": dict(
+        kind="article", authors=["Detert, J. R.", "Edmondson, A. C."], year=2011, title="Implicit voice theories: Taken-for-granted rules of self-censorship at work",
+        journal="Academy of Management Journal", volume="54", issue="3", pages="461–488", doi="10.5465/amj.2011.61967925", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="Across four studies, identifies widely held, taken-for-granted beliefs about when speaking up at work is risky, which lead people to stay silent even when their own managers are open."),
+    "call-2018": dict(
+        kind="article", authors=["Call, A. C.", "Martin, G. S.", "Sharp, N. Y.", "Wilde, J. H."], year=2018,
+        title="Whistleblowers and outcomes of financial misrepresentation enforcement actions", journal="Journal of Accounting Research",
+        volume="56", issue="1", pages="123–171", doi="10.1111/1475-679X.12177", topics=["speakup", "regulation"], pr=True, checked="2026-09-30",
+        note="Whistleblower involvement in US enforcement cases was associated with higher penalties, longer prison sentences for executives and faster enforcement action."),
+    "dorminey-2012": dict(
+        kind="article", authors=["Dorminey, J.", "Fleming, A. S.", "Kranacher, M.-J.", "Riley, R. A., Jr."], year=2012, title="The evolution of fraud theory",
+        journal="Issues in Accounting Education", volume="27", issue="2", pages="555–579", doi="10.2308/iace-50131", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="Revisits the fraud triangle in the light of later research and anti-fraud practice, and proposes a broader meta-model of fraud for teaching and research."),
+    "free-2015": dict(
+        kind="article", authors=["Free, C."], year=2015, title="Looking through the fraud triangle: A review and call for new directions",
+        journal="Meditari Accountancy Research", volume="23", issue="2", pages="175–196", doi="10.1108/MEDAR-02-2015-0009", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="Reviews research built on the fraud triangle and argues for new directions, including group and organisational influences that the individual-focused triangle leaves out."),
+    "free-2015b": dict(
+        kind="article", authors=["Free, C.", "Murphy, P. R."], year=2015, title="The ties that bind: The decision to co-offend in fraud",
+        journal="Contemporary Accounting Research", volume="32", issue="1", pages="18–54", doi="10.1111/1911-3846.12063", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="Interviews with 37 convicted fraudsters who offended in groups show that the reasons for co-offending depend on the type of bond between offenders, something the individual fraud triangle misses."),
+    "murphy-2011": dict(
+        kind="article", authors=["Murphy, P. R.", "Dacin, M. T."], year=2011, title="Psychological pathways to fraud: Understanding and preventing fraud in organizations",
+        journal="Journal of Business Ethics", volume="101", issue="4", pages="601–618", doi="10.1007/s10551-011-0741-0", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="Identifies three psychological pathways to fraud: lack of awareness (moral intuition and disengagement), rationalisation, and negative emotion, with implications for prevention."),
+    "morales-2014": dict(
+        kind="article", authors=["Morales, J.", "Gendron, Y.", "Guénin-Paracini, H."], year=2014,
+        title="The construction of the risky individual and vigilant organization: A genealogy of the fraud triangle",
+        journal="Accounting, Organizations and Society", volume="39", issue="3", pages="170–194", doi="10.1016/j.aos.2014.01.006", topics=["speakup"], pr=True, checked="2026-09-30",
+        note="A history of how the fraud triangle became dominant, arguing that it constructs fraud as a matter of risky individuals and vigilant organisations, which shapes how fraud is understood and controlled."),
+
     # ---------- Judgement, bias and decision-making ----------
     "gigerenzer-2011": dict(
         kind="article", authors=["Gigerenzer, G.", "Gaissmaier, W."], year=2011, title="Heuristic decision making",
