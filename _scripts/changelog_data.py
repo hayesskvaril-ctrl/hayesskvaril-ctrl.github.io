@@ -8,6 +8,8 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-30", "/learn/videos.html", "New Videos page: 14 short explainer videos with captions and full transcripts, from the risk management loop and the Three Lines model to misleading conduct, root causes, unit pricing errors and the denominator effect, plus official videos from AUSTRAC and the ACNC."),
+    ("2026-09-30", "", "Explainer videos added to 33 topic pages, next to the detail they explain. Each video can be downloaded for training, and official regulator videos only load from YouTube when you press play."),
     ("2026-09-28", "/learn/by-level.html", "New Browse by level page, with a clear definition of Beginner, Intermediate and Advanced, and every page grouped by level."),
     ("2026-09-28", "", "A new Advanced track: 17 new Advanced pages and case studies, from the legal tests for misleading conduct and directors' duties cases to APS 115 capital, KRI thresholds, root cause analysis, unit pricing and fund mergers, most with interactive calculators or simulators."),
     ("2026-09-28", "/learn/quizzes.html", "New Advanced topics quiz, two multi-regime Advanced scenarios, seven new glossary terms and 13 new Advanced flashcards."),

@@ -6,7 +6,7 @@ How to keep RiskLens Australia accurate and current once it's built. Start every
 python3 _scripts/run_checks.py
 ```
 
-It runs every automated check (links, yearly review dates, dates that have passed, tracker items past their dates, news freshness and learning-content links) and ends with a numbered **TO DO** list. Add a date to see what will be due later, e.g. `python3 _scripts/run_checks.py 2027-03-01`.
+It runs every automated check (links, yearly review dates, dates that have passed, tracker items past their dates, news freshness, learning-content links and videos) and ends with a numbered **TO DO** list. Add a date to see what will be due later, e.g. `python3 _scripts/run_checks.py 2027-03-01`.
 
 After changing any page, always finish with:
 
@@ -34,6 +34,7 @@ Then commit, push to `main`, and check the live page.
 - [ ] Check the "watch" items in the ROADMAP backlog (court outcomes, consultations awaiting final decisions).
 - [ ] Check the "No fixed next date" tracker items listed by `run_checks.py`.
 - [ ] Add a news quiz question or flashcard for any major new development (`scripts/quiz-bank.js`, `scripts/flashcards-data.js`).
+- [ ] Check each official video on `/learn/videos.html` still plays and is still on the regulator's channel. Remove any that have gone, then set `checked` in `_scripts/build_videos.py` and run it. `run_checks.py` flags videos not checked for 3 months.
 
 ## Yearly (for each page, within 12 months of its "Last reviewed" date)
 
@@ -42,6 +43,7 @@ Then commit, push to `main`, and check the live page.
 - [ ] Update wording that has become out of date ("proposed", "from next year", "upcoming").
 - [ ] Update the "Last reviewed" date. `sync_layout.py` stamps the new "Next review due" date.
 - [ ] Update related quiz questions, flashcards and scenarios so they match the page.
+- [ ] If the page has an explainer video, check every fact in it too. To change a video, edit its scene file in `_scripts/video/specs/`, re-render it and rebuild (see the table below).
 - [ ] Check downloadable templates that relate to the page (see `_scripts/templates/README.md`), rebuild them and recalculate them with LibreOffice.
 - [ ] If Nick has signed off the page, add it to `_scripts/expert_reviews.py` with the date. Expert sign-offs older than 12 months are flagged by `review_report.py`.
 
@@ -65,6 +67,7 @@ Then commit, push to `main`, and check the live page.
 | A page's level, or a new page | `python3 _scripts/build_levels.py` (Browse by level) |
 | Resource library list, or a new tool or self-check | `python3 _scripts/build_resources.py` |
 | What's new entries | `python3 _scripts/build_changelog.py` |
+| An explainer video's scene file (`_scripts/video/specs/`), or the official video list | Start a local server (`python3 -m http.server 8765` in the site folder), then `node _scripts/video/render.js <name>` and `python3 _scripts/build_videos.py`. Preview a video's scenes first with `node _scripts/video/render.js --preview <name>` (pictures go to `/tmp/rl-preview`). Needs Playwright and `pip install imageio-ffmpeg`. |
 | A spreadsheet or Word template | see `_scripts/templates/README.md` |
 | Anything | `python3 _scripts/sync_layout.py && python3 _scripts/check_links.py` |
 

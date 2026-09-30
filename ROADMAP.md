@@ -260,29 +260,29 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - We can **embed existing official videos** (regulators, standard setters, other public bodies) from YouTube, using click-to-play so no third-party content loads until the reader chooses to watch.
 - We can't film real footage or record a voice-over. Explainers are silent with burned-in captions, plus a full transcript on the page. A human voice-over could be added later.
 
-**Build**
-- [ ] Video engine: a scene-based animation renderer in the site's visual style, and a render script that captures frames and encodes MP4 (H.264), a poster image and a transcript for each explainer
-- [ ] On-page video component: standard video controls, lazy loading (nothing downloads until play), poster, transcript and a download link
-- [ ] Privacy-friendly embed component for external videos: click-to-play from youtube-nocookie.com, source and date shown, "watch on YouTube" link, and a short summary
-- [ ] Explainers (about 60–100 seconds each):
-  - [ ] What is risk management? The risk management loop (Foundations)
-  - [ ] The Three Lines model (Foundations)
-  - [ ] Who regulates what in Australia (Foundations)
-  - [ ] Risk appetite: from board statement to daily decisions (Risk)
-  - [ ] Controls: design, operation and testing (Risk)
-  - [ ] Breach reporting: from awareness to report (Compliance)
-  - [ ] CPS 230 in 90 seconds (Standards)
-  - [ ] Data breaches: contain, assess, notify (Compliance)
-  - [ ] Remediation: putting people back (Compliance)
-  - [ ] FAR: who is accountable for what (Governance)
-  - [ ] Misleading conduct: the dominant message test (Advanced)
-  - [ ] Root causes: Swiss cheese and fault trees (Advanced)
-  - [ ] Unit pricing errors: who wins and who loses (Advanced)
-  - [ ] The denominator effect in super (Advanced)
-- [ ] Curated official videos, each checked to exist before embedding, placed on the pages they support
-- [ ] "Watch" page in Learn listing every video by section and level, generated from one list
-- [ ] Add videos to section landing pages and relevant topic pages, the resource library and search
-- [ ] Upkeep: automated check that every video has its files and transcript; quarterly manual check that external videos are still online (UPKEEP.md)
+**Build** (done 30 September 2026: 14 explainers, 16 minutes in total, on 33 pages and at `/learn/videos.html`)
+- [x] Video engine: a scene-based animation renderer in the site's visual style, and a render script that captures frames and encodes MP4 (H.264), a poster image and a transcript for each explainer
+- [x] On-page video component: standard video controls, lazy loading (nothing downloads until play), poster, transcript and a download link
+- [x] Privacy-friendly embed component for external videos: click-to-play from youtube-nocookie.com, source and date shown, "watch on YouTube" link, and a short summary
+- [x] Explainers (about 60–100 seconds each):
+  - [x] What is risk management? The risk management loop (Foundations)
+  - [x] The Three Lines model (Foundations)
+  - [x] Who regulates what in Australia (Foundations)
+  - [x] Risk appetite: from board statement to daily decisions (Risk)
+  - [x] Controls: design, operation and testing (Risk)
+  - [x] Breach reporting: from awareness to report (Compliance)
+  - [x] CPS 230 in 90 seconds (Standards)
+  - [x] Data breaches: contain, assess, notify (Compliance)
+  - [x] Remediation: putting people back (Compliance)
+  - [x] FAR: who is accountable for what (Governance)
+  - [x] Misleading conduct: the dominant message test (Advanced)
+  - [x] Root causes: Swiss cheese and fault trees (Advanced)
+  - [x] Unit pricing errors: who wins and who loses (Advanced)
+  - [x] The denominator effect in super (Advanced)
+- [x] Curated official videos, each checked to exist before embedding, placed on the pages they support (AUSTRAC on the AML/CTF page and the ACNC Governance Standards series on the charities page; five official video and course libraries linked from the Watch page)
+- [x] "Watch" page in Learn listing every video by section and level, generated from one list
+- [x] Add videos to section landing pages and relevant topic pages, the resource library and search
+- [x] Upkeep: automated check that every video has its files and transcript; quarterly manual check that external videos are still online (UPKEEP.md)
 
 ## Phase 17 — Roadmap 2: University-level Advanced content
 

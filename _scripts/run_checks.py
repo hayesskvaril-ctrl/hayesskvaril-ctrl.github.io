@@ -9,6 +9,8 @@ Checks:
      date has passed, and whether the tracker's AS_AT date is older than 3 months
   4. News: whether anything has been published in the last 45 days
   5. Learning content: quiz, flashcard and scenario links point to pages that exist
+  6. Videos: every explainer is rendered from its current scene file, has its files and transcript,
+     and sits on its pages; official videos were confirmed in the last 3 months
 
 Run:  python3 _scripts/run_checks.py              (as at today)
       python3 _scripts/run_checks.py 2027-03-01   (as at another date)
@@ -16,6 +18,8 @@ Exit code is 1 if anything needs attention, so it can also be used in automation
 See _scripts/UPKEEP.md for what to do with the results.
 """
 import datetime
+import hashlib
+import json
 import re
 import subprocess
 import sys
@@ -26,6 +30,7 @@ ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
 from review_common import DATE_RE, MONTHS, fmt, add_months, parse_date  # noqa: E402
 import tracker_data  # noqa: E402
+import build_videos  # noqa: E402
 
 TODAY = datetime.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else datetime.date.today()
 NEWS_DAYS = 45
@@ -143,6 +148,40 @@ if bad:
     todo.append("Fix the learning content links listed in section 5.")
 else:
     print("  All quiz, flashcard and scenario links point to existing pages.")
+
+# 6. Videos
+heading("6. Videos")
+vbad = []
+man_path = ROOT / "_scripts" / "video" / "manifest.json"
+man = json.loads(man_path.read_text(encoding="utf-8")) if man_path.exists() else {}
+for spec in sorted((ROOT / "_scripts" / "video" / "specs").glob("*.js")):
+    slug = spec.stem
+    v = man.get(slug)
+    if not v:
+        vbad.append(f"{slug}: not rendered yet (node _scripts/video/render.js {slug})")
+        continue
+    if v.get("specHash") != hashlib.sha1(spec.read_bytes()).hexdigest()[:12]:
+        vbad.append(f"{slug}: scene file changed since the video was rendered (node _scripts/video/render.js {slug})")
+    for f in (f"assets/video/{slug}.mp4", f"assets/video/{slug}-poster.jpg"):
+        if not (ROOT / f).exists():
+            vbad.append(f"{slug}: {f} is missing")
+    if not v.get("transcript") or not any(sc["captions"] for sc in v["transcript"]):
+        vbad.append(f"{slug}: transcript is missing")
+    for u in v.get("pages", []):
+        p = ROOT / u.lstrip("/")
+        p = p / "index.html" if u.endswith("/") else p
+        if not p.exists() or f'id="video-{slug}"' not in p.read_text(encoding="utf-8"):
+            vbad.append(f"{slug}: not on {u} (python3 _scripts/build_videos.py)")
+for x in build_videos.EXTERNAL:
+    checked = datetime.date.fromisoformat(x["checked"])
+    if add_months(checked, 3) <= TODAY:
+        vbad.append(f"Official video '{x['title']}' ({x['publisher']}) last confirmed {fmt(checked)}: check it still plays, then update 'checked' in build_videos.py")
+for b in vbad:
+    print(f"  - {b}")
+if vbad:
+    todo.append("Deal with the video items listed in section 6.")
+else:
+    print(f"  {len(man)} explainers rendered and placed; {len(build_videos.EXTERNAL)} official videos confirmed within 3 months.")
 
 heading("TO DO")
 if todo:

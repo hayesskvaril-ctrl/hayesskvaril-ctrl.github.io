@@ -1,13 +1,15 @@
 """Builds tools/resource-library.html: one index of every downloadable template, interactive tool,
 self-check checklist and learning resource on the site.
 
-Downloads are listed in DOWNLOADS (file sizes are read from disk). Interactive tools are found
+Downloads are listed in DOWNLOADS (file sizes are read from disk). Explainer videos are read from the
+video manifest (_scripts/video/manifest.json). Interactive tools are found
 automatically by scanning pages for the widget scripts in TOOLS. Self-check checklists are found
 by scanning for "checklist-widget" blocks and reading their heading.
 Run:  python3 _scripts/build_resources.py && python3 _scripts/sync_layout.py
 """
 from pathlib import Path
 from html import escape
+import json
 import re
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -163,10 +165,19 @@ if quiz_pages:
     item("Learning", f"Knowledge checks on {len(quiz_pages)} topic pages", quiz_pages[0][0],
          "Short quizzes built into topic pages.", "", "", quiz_pages)
 
+MANIFEST = ROOT / "_scripts" / "video" / "manifest.json"
+if MANIFEST.exists():
+    item("Learning", "Videos", "/learn/videos.html", "Short explainer videos with transcripts, plus official videos from regulators.", "Beginner")
+    for v in sorted(json.loads(MANIFEST.read_text(encoding="utf-8")).values(), key=lambda v: v["title"]):
+        b = (ROOT / "assets" / "video" / f"{v['slug']}.mp4").stat().st_size
+        d = v["duration"]
+        item("Video", v["title"], f"/learn/videos.html#video-{v['slug']}", v["desc"], v["level"],
+             f"MP4 · {b / 1048576:.1f} MB · {d // 60}:{d % 60:02d}", [(u, page_title(u)) for u in v["pages"]])
+
 counts = {}
-for k in ("Download", "Interactive tool", "Self-check", "Learning"):
+for k in ("Download", "Interactive tool", "Self-check", "Video", "Learning"):
     counts[k] = sum(1 for i in items if f'data-type="{k.lower().replace(" ", "-")}"' in i)
-PLURAL = {"Download": "Downloads", "Interactive tool": "Interactive tools", "Self-check": "Self-checks", "Learning": "Learning"}
+PLURAL = {"Download": "Downloads", "Interactive tool": "Interactive tools", "Self-check": "Self-checks", "Video": "Videos", "Learning": "Learning"}
 buttons = "".join(f'<button type="button" class="secondary" data-filter="{k.lower().replace(" ", "-")}" aria-pressed="false">{PLURAL[k]} ({n})</button>'
                   for k, n in counts.items())
 
@@ -200,6 +211,7 @@ html = f'''<!DOCTYPE html>
     <ul>
       <li><strong>Downloads</strong> are Excel and Word files that work in Microsoft Office, Google Sheets and Docs, and LibreOffice. They are free to use and adapt within your organisation.</li>
       <li><strong>Interactive tools and self-checks</strong> run in your browser. Nothing you enter is sent anywhere.</li>
+      <li><strong>Videos</strong> are short, silent explainers with captions and full transcripts. You can download them for training.</li>
       <li>Everything here is a learning aid or starting point, not advice. Adapt it to your organisation's own frameworks and obligations. See the <a href="/about/#disclaimer">full disclaimer</a>.</li>
     </ul>
   </aside>

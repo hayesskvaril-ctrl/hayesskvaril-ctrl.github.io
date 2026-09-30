@@ -1,0 +1,933 @@
+{
+ "what-is-risk-management": {
+  "title": "What is risk management?",
+  "label": "Explainer \u00b7 Foundations \u00b7 Beginner",
+  "section": "Foundations",
+  "level": "Beginner",
+  "desc": "Risk as the effect of uncertainty on objectives, the risk management loop, and the ways to respond to a risk.",
+  "pages": [
+   "/foundations/what-is-risk-management.html",
+   "/foundations/",
+   "/risk-management/"
+  ],
+  "slug": "what-is-risk-management",
+  "specHash": "b668cd14fd96",
+  "duration": 79,
+  "bytes": 2157773,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: What is risk management? The loop every risk process follows.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 13,
+    "visual": "A statement appears: Risk is the effect of uncertainty on objectives.",
+    "captions": [
+     "The international guideline ISO 31000 describes risk as the effect of uncertainty on objectives. No objective, no risk."
+    ]
+   },
+   {
+    "start": 13,
+    "end": 23,
+    "visual": "Three cards compare a risk, an issue and an incident, each with a payment system example.",
+    "captions": [
+     "A risk might happen. An issue is a problem that exists now. An incident is something that has already happened."
+    ]
+   },
+   {
+    "start": 23,
+    "end": 45,
+    "visual": "A cycle of six steps appears one by one: set the context, identify, analyse, evaluate, treat, monitor and review. In the centre: communicate, consult and record at every step.",
+    "captions": [
+     "Most frameworks follow a loop. First, set the context: the objective, the scope and the criteria for judging risks.",
+     "Then identify what could happen, analyse how likely and how severe it is, and evaluate whether it is acceptable.",
+     "Treat the risks that aren't acceptable. Then monitor and review, because risks and controls change.",
+     "Identifying, analysing and evaluating together are called risk assessment. Communication runs through every step."
+    ]
+   },
+   {
+    "start": 45,
+    "end": 57,
+    "visual": "Five cards show the responses: avoid, reduce, share, accept and pursue.",
+    "captions": [
+     "There are only a few ways to respond: avoid, reduce, share or accept a risk, or pursue an opportunity. Most real cases use a mix."
+    ]
+   },
+   {
+    "start": 57,
+    "end": 65,
+    "visual": "A statement: the aim isn't zero risk, it's taking the right risks knowingly.",
+    "captions": [
+     "Every organisation takes risks to achieve anything. Risk management makes those choices deliberate, and keeps the rest at a level it can live with."
+    ]
+   },
+   {
+    "start": 65,
+    "end": 73,
+    "visual": "A statement about the APRA requirement for a risk management framework under CPS 220 and SPS 220.",
+    "captions": [
+     "For regulated financial institutions, risk management isn't optional. It is a legal requirement overseen by APRA."
+    ]
+   },
+   {
+    "start": 73,
+    "end": 79,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "breach-reporting-clocks": {
+  "title": "Breach reporting: from awareness to report",
+  "label": "Explainer \u00b7 Compliance \u00b7 Intermediate",
+  "section": "Compliance",
+  "level": "Intermediate",
+  "desc": "Why the awareness date matters, the main reporting clocks, and how one event can trigger several regimes.",
+  "pages": [
+   "/compliance/breach-reporting.html",
+   "/risk-management/incident-and-breach-management.html",
+   "/standards/asic-rg-78.html"
+  ],
+  "slug": "breach-reporting-clocks",
+  "specHash": "ac713e28af7f",
+  "duration": 66,
+  "bytes": 1564670,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Breach reporting, from awareness to report.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 14,
+    "visual": "A statement: reporting clocks run from awareness, not from certainty.",
+    "captions": [
+     "Most reporting deadlines start when the organisation becomes aware, not when the investigation is finished."
+    ]
+   },
+   {
+    "start": 14,
+    "end": 36,
+    "visual": "A timeline from awareness through 24 hours, 72 hours, 3 business days and 30 days, each labelled with the regime that applies. Scale is illustrative.",
+    "captions": [
+     "Different regimes run on different clocks. For APRA-regulated entities, some notifications fall due within 24 or 72 hours.",
+     "Suspicious matter reports to AUSTRAC are due within three business days, and ASIC reportable situations within 30 calendar days."
+    ]
+   },
+   {
+    "start": 36,
+    "end": 50,
+    "visual": "A flow showing the steps to decide whether a breach is a reportable situation for ASIC.",
+    "captions": [
+     "For AFS and credit licensees, a significant breach of a core obligation must be reported. Some breaches are automatically significant."
+    ]
+   },
+   {
+    "start": 50,
+    "end": 60,
+    "visual": "A statement: one event can trigger several regimes at once.",
+    "captions": [
+     "Keep one tracker of every regime that might apply, its test, its deadline and who owns it. Record decisions not to report, too."
+    ]
+   },
+   {
+    "start": 60,
+    "end": 66,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "controls-design-and-testing": {
+  "title": "Controls: design, operation and testing",
+  "label": "Explainer \u00b7 Risk management \u00b7 Intermediate",
+  "section": "Risk management",
+  "level": "Intermediate",
+  "desc": "Preventive, detective and corrective controls, design versus operating effectiveness, and how controls are tested.",
+  "pages": [
+   "/risk-management/control-design-and-testing.html",
+   "/tools/control-testing-workpaper.html"
+  ],
+  "slug": "controls-design-and-testing",
+  "specHash": "ea4d2c4be960",
+  "duration": 62,
+  "bytes": 1495617,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Controls, design, operation and testing.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 17,
+    "visual": "Three cards: preventive, detective and corrective controls with examples.",
+    "captions": [
+     "A control is anything that keeps a risk within appetite. Controls can prevent, detect or correct problems."
+    ]
+   },
+   {
+    "start": 17,
+    "end": 31,
+    "visual": "Two cards compare design effectiveness and operating effectiveness.",
+    "captions": [
+     "Testing asks two separate questions. First: is the control well designed? Would it work if performed as described?",
+     "Second: did it actually operate, consistently, over the whole period? A well-designed control that isn't performed does nothing."
+    ]
+   },
+   {
+    "start": 31,
+    "end": 44,
+    "visual": "A bar chart ranks test methods from inquiry, the weakest, to reperformance, the strongest.",
+    "captions": [
+     "Not all evidence is equal. Asking someone is weakest; inspecting records or reperforming the control is much stronger."
+    ]
+   },
+   {
+    "start": 44,
+    "end": 56,
+    "visual": "A flow from test to exception, root cause, and action with validation.",
+    "captions": [
+     "Every exception needs a root cause and an action. The issue is closed only when someone independent confirms the fix works."
+    ]
+   },
+   {
+    "start": 56,
+    "end": 62,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "cps-230-in-90-seconds": {
+  "title": "CPS 230 in 90 seconds",
+  "label": "Explainer \u00b7 Standards \u00b7 Intermediate",
+  "section": "Standards",
+  "level": "Intermediate",
+  "desc": "APRA's operational risk standard: operational risk management, business continuity and service providers.",
+  "pages": [
+   "/standards/cps-230.html",
+   "/risk-management/business-continuity.html",
+   "/risk-management/operational-risk.html"
+  ],
+  "slug": "cps-230-in-90-seconds",
+  "specHash": "c53b961bbf3c",
+  "duration": 73,
+  "bytes": 1837952,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: CPS 230 in 90 seconds.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 13,
+    "visual": "A statement that CPS 230 has been in force since 1 July 2025.",
+    "captions": [
+     "CPS 230 is APRA's cross-industry standard for operational risk. It replaced several older standards on continuity and outsourcing."
+    ]
+   },
+   {
+    "start": 13,
+    "end": 31,
+    "visual": "Three cards: operational risk management, business continuity and service providers.",
+    "captions": [
+     "First, manage operational risk end to end: assess risks, maintain and test controls, and handle incidents.",
+     "Second, keep critical operations running through disruption, within tolerance levels approved by the board.",
+     "Third, manage the risks of relying on service providers, including the providers they rely on."
+    ]
+   },
+   {
+    "start": 31,
+    "end": 45,
+    "visual": "Three cards combine into tolerance levels: maximum disruption, maximum data loss and minimum service levels.",
+    "captions": [
+     "For each critical operation, the board approves tolerance levels: maximum disruption, maximum data loss and minimum service levels."
+    ]
+   },
+   {
+    "start": 45,
+    "end": 59,
+    "visual": "A timeline of CPS 230 notifications: 24 hours, 72 hours and 20 business days.",
+    "captions": [
+     "APRA must be told within 24 hours of a disruption outside tolerance, and within 72 hours of a material operational risk incident."
+    ]
+   },
+   {
+    "start": 59,
+    "end": 67,
+    "visual": "A statement: the board is ultimately accountable.",
+    "captions": [
+     "Accountability sits with the board and senior management, not with the service provider or the risk team."
+    ]
+   },
+   {
+    "start": 67,
+    "end": 73,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "data-breach-response": {
+  "title": "Data breaches: contain, assess, notify",
+  "label": "Explainer \u00b7 Compliance \u00b7 Intermediate",
+  "section": "Compliance",
+  "level": "Intermediate",
+  "desc": "How the Notifiable Data Breaches scheme works: containing a breach, assessing serious harm, and notifying the OAIC and individuals.",
+  "pages": [
+   "/compliance/privacy-law.html",
+   "/case-studies/optus-medibank-data-breaches.html"
+  ],
+  "slug": "data-breach-response",
+  "specHash": "461706ee2886",
+  "duration": 63,
+  "bytes": 1491242,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Data breaches. Contain, assess, notify.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 14,
+    "visual": "A statement defining a data breach.",
+    "captions": [
+     "A data breach can be a cyber attack, but also an email sent to the wrong person or a lost laptop."
+    ]
+   },
+   {
+    "start": 14,
+    "end": 34,
+    "visual": "A four-step cycle: contain, assess, notify and review.",
+    "captions": [
+     "First, contain it: stop the breach and try to recover the information. Quick action can reduce the harm.",
+     "Then assess. If there are reasonable grounds to suspect an eligible breach, assess it quickly, generally within 30 days.",
+     "If an eligible data breach has happened, notify the OAIC and affected individuals as soon as practicable.",
+     "Finally, review what happened and fix the cause, so the same thing doesn't happen again."
+    ]
+   },
+   {
+    "start": 34,
+    "end": 48,
+    "visual": "Three conditions combine to make an eligible data breach.",
+    "captions": [
+     "It is eligible if serious harm is likely and remedial action hasn't prevented it. Tax file numbers and identity documents raise the risk."
+    ]
+   },
+   {
+    "start": 48,
+    "end": 57,
+    "visual": "A statement about the separate CPS 234 notification to APRA.",
+    "captions": [
+     "Privacy notification isn't the only clock. Check every regime that might apply."
+    ]
+   },
+   {
+    "start": 57,
+    "end": 63,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "denominator-effect": {
+  "title": "The denominator effect in super",
+  "label": "Explainer \u00b7 Risk management \u00b7 Advanced",
+  "section": "Risk management",
+  "level": "Advanced",
+  "desc": "How falling listed markets, slow-moving unlisted valuations and member outflows push up the share of unlisted assets, and why it matters for fairness.",
+  "pages": [
+   "/risk-management/super-liquidity-stress-testing.html",
+   "/standards/sps-530.html"
+  ],
+  "slug": "denominator-effect",
+  "specHash": "977e0314ef07",
+  "duration": 67,
+  "bytes": 1535391,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: The denominator effect, liquidity and fairness in super.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 13,
+    "visual": "A statement: your unlisted share can grow without buying anything.",
+    "captions": [
+     "Unlisted assets like property and infrastructure are revalued slowly. Listed markets reprice every day."
+    ]
+   },
+   {
+    "start": 13,
+    "end": 37,
+    "visual": "Three stacked bars. Before: cash 5, listed 70, unlisted 25, unlisted share 25 percent. After the market fall: cash 5, listed 49, unlisted 23.75, unlisted share 30.5 percent. After outflows of 15 paid from liquid assets: liquid 39, unlisted 23.75, unlisted share 37.8 percent, above a dashed line marking the 30 percent maximum.",
+    "captions": [
+     "Start with $100: $5 in cash, $70 in listed assets and $25 unlisted, against a strategic maximum of 30% unlisted.",
+     "Listed markets fall 30%, but unlisted valuations fall only 5% so far. Unlisted is now about 30.5% of the option.",
+     "Members switch and leave, and $15 is paid out from liquid assets. Unlisted is now about 37.8%, well above the maximum."
+    ]
+   },
+   {
+    "start": 37,
+    "end": 48,
+    "visual": "A statement: stale valuations can transfer value between members.",
+    "captions": [
+     "That is why liquidity management and valuation governance are linked: both are about paying members fairly."
+    ]
+   },
+   {
+    "start": 48,
+    "end": 61,
+    "visual": "Three cards: stress test, revalue and plan.",
+    "captions": [
+     "SPS 530 requires liquidity stress testing at least annually, as part of a comprehensive stress testing program."
+    ]
+   },
+   {
+    "start": 61,
+    "end": 67,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "dominant-message": {
+  "title": "Misleading conduct: the dominant message test",
+  "label": "Explainer \u00b7 Compliance \u00b7 Advanced",
+  "section": "Compliance",
+  "level": "Advanced",
+  "desc": "How courts decide whether a communication is misleading: the overall impression, the audience, the dominant message and the greenwashing cases.",
+  "pages": [
+   "/compliance/misleading-or-deceptive-conduct.html",
+   "/compliance/disclosure-obligations.html"
+  ],
+  "slug": "dominant-message",
+  "specHash": "0e05452c95cf",
+  "duration": 75,
+  "bytes": 1853523,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Misleading conduct, the dominant message test.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 13,
+    "visual": "A statement: a statement can be true word for word and still mislead.",
+    "captions": [
+     "The law asks what overall impression ordinary members of the audience would take away, and whether it is wrong."
+    ]
+   },
+   {
+    "start": 13,
+    "end": 29,
+    "visual": "Four cards in sequence: audience, message, reaction and truth.",
+    "captions": [
+     "Identify the audience, then the message it receives, including what is implied and what dominates.",
+     "Ask whether ordinary, reasonable members of that audience would be led into error, ignoring extreme or fanciful reactions."
+    ]
+   },
+   {
+    "start": 29,
+    "end": 43,
+    "visual": "A mock social media ad with a large headline, Australia's top performing Balanced fund, 11.2% returns, and tiny fine print. A highlight marks the headline as the dominant message and the fine print as easily missed.",
+    "captions": [
+     "Here the headline says the fund is the top performer. The qualification is in tiny print at the bottom.",
+     "In ACCC v TPG (2013), the High Court held that fine print may not correct a misleading dominant message."
+    ]
+   },
+   {
+    "start": 43,
+    "end": 57,
+    "visual": "Four cards summarise the Puxu, Campomar, Miller v BMW and TPG cases.",
+    "captions": [
+     "High Court cases built the tests: the whole context, the ordinary member of the audience, misleading silence and the dominant message."
+    ]
+   },
+   {
+    "start": 57,
+    "end": 69,
+    "visual": "A bar chart of ASIC's first three greenwashing civil penalties: Mercer $11.3 million, Vanguard $12.9 million and Active Super $10.5 million.",
+    "captions": [
+     "The greenwashing cases show product claims must match what the product actually holds, across every channel."
+    ]
+   },
+   {
+    "start": 69,
+    "end": 75,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "far-accountability": {
+  "title": "FAR: who is accountable for what",
+  "label": "Explainer \u00b7 Governance \u00b7 Intermediate",
+  "section": "Governance",
+  "level": "Intermediate",
+  "desc": "The Financial Accountability Regime: accountable persons, statements and maps, obligations and deferred pay.",
+  "pages": [
+   "/governance/financial-accountability-regime.html",
+   "/governance/reasonable-steps-and-consequence-management.html"
+  ],
+  "slug": "far-accountability",
+  "specHash": "2e55fd8f3623",
+  "duration": 59,
+  "bytes": 1431872,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: The Financial Accountability Regime. Who is accountable for what.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 14,
+    "visual": "A statement: for every significant part of the business, a named senior person who is accountable.",
+    "captions": [
+     "After the Royal Commission, it was often hard to say who was responsible when things went wrong. FAR addresses that."
+    ]
+   },
+   {
+    "start": 14,
+    "end": 29,
+    "visual": "Three linked cards: accountable persons, accountability statements and the accountability map.",
+    "captions": [
+     "Each accountable person has a statement of their responsibilities, and the entity keeps a map showing who holds what."
+    ]
+   },
+   {
+    "start": 29,
+    "end": 44,
+    "visual": "Three cards list the obligations of accountable persons.",
+    "captions": [
+     "Accountable persons must act with honesty, integrity and care, deal openly with the regulators, and take reasonable steps."
+    ]
+   },
+   {
+    "start": 44,
+    "end": 53,
+    "visual": "A statement about deferred remuneration under FAR.",
+    "captions": [
+     "Consequences are real: deferred pay can be reduced, and regulators can disqualify accountable persons."
+    ]
+   },
+   {
+    "start": 53,
+    "end": 59,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "remediation": {
+  "title": "Remediation: putting people back",
+  "label": "Explainer \u00b7 Compliance \u00b7 Intermediate",
+  "section": "Compliance",
+  "level": "Intermediate",
+  "desc": "The six stages of consumer remediation under ASIC RG 277, and the principles behind them.",
+  "pages": [
+   "/standards/asic-rg-277.html",
+   "/compliance/remediation-calculations.html",
+   "/tools/remediation-program-tracker.html"
+  ],
+  "slug": "remediation",
+  "specHash": "618cca5a3ee4",
+  "duration": 63,
+  "bytes": 1474492,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Remediation, putting people back where they should be.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 14,
+    "visual": "A statement: return people to the position they would have been in.",
+    "captions": [
+     "When conduct causes loss, ASIC's guidance in RG 277 expects licensees to put affected people back where they would have been."
+    ]
+   },
+   {
+    "start": 14,
+    "end": 36,
+    "visual": "Six stages in a row: identify, scope, calculate, tell, pay and close.",
+    "captions": [
+     "Start as soon as there are reasonable grounds to suspect loss. Don't wait for complaints or the regulator.",
+     "Scope in everyone who was or may have been affected. Where data is missing, use assumptions that favour consumers.",
+     "Communicate clearly, pay people, and close only when the cause is fixed and payments are checked."
+    ]
+   },
+   {
+    "start": 36,
+    "end": 49,
+    "visual": "Three cards: beneficial assumptions, free and easy, governance.",
+    "captions": [
+     "Three principles apply throughout: beneficial assumptions, making it free and easy, and strong governance."
+    ]
+   },
+   {
+    "start": 49,
+    "end": 57,
+    "visual": "A statement about residual amounts under RG 277.",
+    "captions": [
+     "RG 277 also covers small amounts owed to former customers and money that can't be returned."
+    ]
+   },
+   {
+    "start": 57,
+    "end": 63,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "risk-appetite": {
+  "title": "Risk appetite: from board statement to daily decisions",
+  "label": "Explainer \u00b7 Risk management \u00b7 Intermediate",
+  "section": "Risk management",
+  "level": "Intermediate",
+  "desc": "Risk capacity, appetite, triggers and limits, and how appetite cascades into decisions and reporting.",
+  "pages": [
+   "/risk-management/risk-appetite-and-tolerance.html",
+   "/tools/example-risk-appetite-statement.html"
+  ],
+  "slug": "risk-appetite",
+  "specHash": "5ed554fab34b",
+  "duration": 63,
+  "bytes": 1689047,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Risk appetite, from board statement to daily decisions.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 13,
+    "visual": "A statement asking how much risk the organisation is prepared to take.",
+    "captions": [
+     "Risk appetite is the board's answer to a simple question with hard consequences."
+    ]
+   },
+   {
+    "start": 13,
+    "end": 29,
+    "visual": "A horizontal scale with markers for within appetite, amber trigger, red limit and risk capacity.",
+    "captions": [
+     "Picture a scale of increasing risk. Appetite is where the board wants risk to sit, well inside what it could survive.",
+     "A trigger gives early warning. A limit marks the tolerance the board has set. Capacity is the most the organisation could bear."
+    ]
+   },
+   {
+    "start": 29,
+    "end": 45,
+    "visual": "Four layers from the board statement down to day-to-day decisions, with arrows for cascading down and reporting up.",
+    "captions": [
+     "Appetite only works if it cascades: from the board's statement to tolerances, business limits and key risk indicators.",
+     "And information has to flow back up, so the board can see whether the organisation is operating within appetite."
+    ]
+   },
+   {
+    "start": 45,
+    "end": 57,
+    "visual": "Three cards describe common risk appetite pitfalls.",
+    "captions": [
+     "Watch for three pitfalls: \u201czero appetite\u201d for unavoidable risks, metrics that don't match the words, and statements that change nothing."
+    ]
+   },
+   {
+    "start": 57,
+    "end": 63,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "swiss-cheese-and-fault-trees": {
+  "title": "Root causes: Swiss cheese and fault trees",
+  "label": "Explainer \u00b7 Risk management \u00b7 Advanced",
+  "section": "Risk management",
+  "level": "Advanced",
+  "desc": "Why \u201chuman error\u201d is rarely a root cause, James Reason's Swiss cheese model, and how fault trees show which controls matter most.",
+  "pages": [
+   "/risk-management/root-cause-analysis.html",
+   "/risk-management/incident-and-breach-management.html"
+  ],
+  "slug": "swiss-cheese-and-fault-trees",
+  "specHash": "3d4060ed8858",
+  "duration": 65,
+  "bytes": 1431349,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Root causes, Swiss cheese and fault trees.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 13,
+    "visual": "A statement: human error is rarely a root cause.",
+    "captions": [
+     "Many incident reviews stop at the person. Good analysis keeps asking why until it reaches causes the organisation can fix."
+    ]
+   },
+   {
+    "start": 13,
+    "end": 29,
+    "visual": "Four slices of cheese labelled design, controls, supervision and people, each with holes. The holes line up and an arrow passes through all four to an incident.",
+    "captions": [
+     "Psychologist James Reason pictured defences as slices of Swiss cheese. Every layer has holes.",
+     "An incident happens when holes in several layers line up. Many holes are latent conditions built in long before."
+    ]
+   },
+   {
+    "start": 29,
+    "end": 47,
+    "visual": "A fault tree. Top event: members charged the wrong fee, 22 percent a year. Below an OR gate, two paths. Path one: configuration error 30 percent AND reconciliation misses it 60 percent, giving 18 percent. Path two: override error 50 percent AND review misses it 10 percent, giving 5 percent.",
+    "captions": [
+     "A fault tree works down from the event. Each path needs a cause AND a failed control. Either path causes the event.",
+     "Through an AND gate, probabilities multiply. So a reliable detective control can matter as much as preventing the cause."
+    ]
+   },
+   {
+    "start": 47,
+    "end": 59,
+    "visual": "Two cards compare weaker actions, such as reminders, with stronger actions, such as automation and independent checks.",
+    "captions": [
+     "Strong actions change the system. Then check the fix works, and look for the same cause elsewhere."
+    ]
+   },
+   {
+    "start": 59,
+    "end": 65,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "three-lines-model": {
+  "title": "The Three Lines model",
+  "label": "Explainer \u00b7 Foundations \u00b7 Beginner",
+  "section": "Foundations",
+  "level": "Beginner",
+  "desc": "Who does what in managing risk: the first line, the second line, internal audit and the governing body.",
+  "pages": [
+   "/foundations/three-lines-model.html",
+   "/governance/internal-audit.html"
+  ],
+  "slug": "three-lines-model",
+  "specHash": "39fc1e6d4c2d",
+  "duration": 72,
+  "bytes": 2110055,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: The Three Lines model. Who does what in managing risk.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 12,
+    "visual": "A statement: everyone manages risk, the question is who does what.",
+    "captions": [
+     "The Three Lines model is a widely used way of describing roles in risk management and assurance."
+    ]
+   },
+   {
+    "start": 12,
+    "end": 32,
+    "visual": "Four layers appear from top to bottom: governing body, first line, second line and third line, each with a description.",
+    "captions": [
+     "At the top sits the governing body, usually the board. It is accountable to stakeholders and oversees everything below.",
+     "The first line is the business itself. The people who serve customers own their risks and run the controls day to day.",
+     "The second line is specialists in risk and compliance. They set frameworks, give advice, monitor and challenge.",
+     "The third line is internal audit. It gives the board independent assurance that the whole system is working."
+    ]
+   },
+   {
+    "start": 32,
+    "end": 44,
+    "visual": "Two cards compare the old three lines of defence with the 2020 roles-based model.",
+    "captions": [
+     "The 2020 version dropped the \u201cdefence\u201d language and treats the lines as roles that work together, not rigid walls."
+    ]
+   },
+   {
+    "start": 44,
+    "end": 53,
+    "visual": "A statement: owning a risk and checking it are different jobs.",
+    "captions": [
+     "A common failure: blurred roles. When the people who check a control also run it, independent challenge disappears."
+    ]
+   },
+   {
+    "start": 53,
+    "end": 66,
+    "visual": "A flow of four boxes shows the lines applied to paying a super benefit.",
+    "captions": [
+     "In practice: the business runs the payment controls, risk tests them, internal audit reviews both, and the board oversees."
+    ]
+   },
+   {
+    "start": 66,
+    "end": 72,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "unit-pricing-errors": {
+  "title": "Unit pricing errors: who wins and who loses",
+  "label": "Explainer \u00b7 Sectors \u00b7 Advanced",
+  "section": "Sectors",
+  "level": "Advanced",
+  "desc": "How a super fund unit price is built, how a pricing error moves value between members, and the debate over materiality thresholds.",
+  "pages": [
+   "/sectors/unit-pricing.html",
+   "/sectors/superannuation.html"
+  ],
+  "slug": "unit-pricing-errors",
+  "specHash": "fc4b00cd5b72",
+  "duration": 75,
+  "bytes": 1568773,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Unit pricing errors, who wins and who loses.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 19,
+    "visual": "An equation: assets minus liabilities equals net asset value, divided by units on issue equals the unit price.",
+    "captions": [
+     "A unit price is the option's net assets divided by the units on issue. Every contribution, switch and withdrawal uses it."
+    ]
+   },
+   {
+    "start": 19,
+    "end": 27,
+    "visual": "A statement: correct price $1.2000, price used $1.2100.",
+    "captions": [
+     "Suppose an error in a valuation makes the price about 0.83% too high for a week. Who is affected?"
+    ]
+   },
+   {
+    "start": 27,
+    "end": 45,
+    "visual": "Three cards: joining members lose, leaving members gain, staying members pay.",
+    "captions": [
+     "People investing at the inflated price get fewer units than they should.",
+     "People leaving are paid too much, and members who stay bear the cost."
+    ]
+   },
+   {
+    "start": 45,
+    "end": 57,
+    "visual": "A statement about the 0.30% materiality threshold and the debate about it.",
+    "captions": [
+     "Whether relying on a materiality threshold fits trustees' duties is a live question. Small errors across many members add up."
+    ]
+   },
+   {
+    "start": 57,
+    "end": 69,
+    "visual": "A flow: contain, quantify, correct, fix the cause.",
+    "captions": [
+     "Correct every affected transaction, restore the option, decide who bears the cost, and fix the control that failed."
+    ]
+   },
+   {
+    "start": 69,
+    "end": 75,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ },
+ "who-regulates-what": {
+  "title": "Who regulates what in Australia",
+  "label": "Explainer \u00b7 Foundations \u00b7 Beginner",
+  "section": "Foundations",
+  "level": "Beginner",
+  "desc": "Australia's twin peaks model, and the other regulators that cut across financial services.",
+  "pages": [
+   "/foundations/regulatory-landscape.html",
+   "/standards/"
+  ],
+  "slug": "who-regulates-what",
+  "specHash": "97ee38be0ff4",
+  "duration": 61,
+  "bytes": 1605078,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Who regulates what in Australia.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 14,
+    "visual": "A flow from Parliament to Treasury to regulators to courts and AFCA.",
+    "captions": [
+     "Parliament makes the laws. Regulators administer and enforce them, often by making more detailed rules and guidance."
+    ]
+   },
+   {
+    "start": 14,
+    "end": 30,
+    "visual": "Two cards: APRA for financial soundness and ASIC for conduct and disclosure.",
+    "captions": [
+     "Financial services use a twin peaks model. APRA looks after the financial soundness of banks, insurers and super funds.",
+     "ASIC looks after conduct and disclosure: how firms treat customers, markets and investors."
+    ]
+   },
+   {
+    "start": 30,
+    "end": 45,
+    "visual": "Five cards: AUSTRAC, OAIC, ACCC, RBA and ATO with their roles.",
+    "captions": [
+     "Other bodies cut across many industries: AUSTRAC, the OAIC, the ACCC, the Reserve Bank and the ATO."
+    ]
+   },
+   {
+    "start": 45,
+    "end": 55,
+    "visual": "A statement that a large super fund answers to several regulators at once.",
+    "captions": [
+     "Most financial institutions deal with several regulators at once, which is why mapping obligations matters."
+    ]
+   },
+   {
+    "start": 55,
+    "end": 61,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ]
+ }
+}

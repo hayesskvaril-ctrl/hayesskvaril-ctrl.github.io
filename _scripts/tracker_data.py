@@ -94,7 +94,7 @@ ENTRIES = [
      "Proposals include replacing Statements of Advice with advice records and clarifying advice super funds can provide; changes to the best interests duty and a new class of adviser remain uncertain.",
      "/compliance/financial-advice-regulation.html", ("ASIC: DBFO package", "https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package")),
     ("Modern slavery: failure to prevent offence and civil penalties", "Attorney-General's Department", "Proposed or consultation",
-     "Announced 16 July 2026; consultation closed 25 September 2026; 12 to 18 month implementation period proposed",
+     "Announced 16 July 2026; consultation closed 25 September 2026; legislation and timing to be confirmed, with a 12 to 18 month implementation period proposed",
      ["all"],
      "A proposed criminal offence for companies with revenue over $100 million that fail to prevent modern slavery in their supply chains (with a reasonable steps defence), plus civil penalties for reporting failures.",
      "/compliance/modern-slavery.html", ("Anti-Slavery Commissioner: Government's move to strengthen laws", "https://www.antislaverycommissioner.gov.au/news/anti-slavery-commissioner-welcomes-governments-move-strengthen-modern-slavery-laws")),
