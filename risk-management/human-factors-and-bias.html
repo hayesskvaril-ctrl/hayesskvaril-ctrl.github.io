@@ -59,7 +59,7 @@
   <p class="summary">The predictable ways human judgement goes wrong in risk assessment, escalation and decisions, and practical ways to design processes that counter them, with a calibration test.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 14 minutes</span>
+    <span>About 19 minutes</span>
     <span>Last reviewed: 28 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>Process design helps: independent first ratings, pre-mortems, reference classes, red teams and kill criteria set in advance.</li>
       <li>Judge decisions by what was reasonable at the time, not by how they turned out.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Explain the heuristics and biases research programme and the main biases that affect risk judgements.</li>
+      <li>Distinguish the three forms of overconfidence and explain why overprecision matters most for risk ranges.</li>
+      <li>Evaluate debiasing techniques (independent ratings, premortems, reference class forecasting, training) against the research evidence.</li>
+      <li>Critically discuss the limits of the evidence, including replication concerns and the gap between laboratory and organisational settings.</li>
+    </ol>
   </aside>
 
 <h2>The idea in plain English</h2>
@@ -137,6 +148,49 @@
     <p>Some well-known findings in behavioural science have failed to replicate, and effect sizes vary between studies and settings. The biases on this page are among the most studied and robust, but treat any single study with care, and focus on process designs that make sense even if a particular effect is smaller than claimed.</p>
   </div>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>Heuristics and biases</h3>
+  <p>The modern study of judgement under uncertainty starts with <a class="cite narrative" href="#ref-tversky-1974">Tversky and Kahneman (1974)</a>. They argued that people estimate probabilities using a few mental shortcuts, or <em>heuristics</em>: judging by resemblance (representativeness), by how easily examples come to mind (availability), and by adjusting from a starting value (anchoring). The shortcuts are usually efficient, but they produce <em>systematic</em> errors, which is what makes them relevant to risk processes. A bias that is predictable can be designed against.</p>
+  <p>Risk assessment asks people to do exactly what this research shows is hard: put numbers on rare events, judge the likelihood of things that have never happened to them, and estimate ranges for losses. Availability explains why last year's incident dominates this year's workshop. Anchoring explains why ratings barely move from the previous register.</p>
+
+  <h3>Overconfidence has three forms</h3>
+  <p><a class="cite narrative" href="#ref-moore-2008">Moore and Healy (2008)</a> separate three things that are often all called overconfidence: <strong>overestimation</strong> (thinking you are better than you are), <strong>overplacement</strong> (thinking you are better than others) and <strong>overprecision</strong> (being too sure your estimate is right). Overprecision is the most persistent, and it is the one that matters most for risk work, because it produces the too-narrow "90% ranges" in the calibration exercise above. Earlier calibration research had already found that confidence usually exceeds accuracy, especially on hard questions (<a class="cite" href="#ref-lichtenstein-1982">Lichtenstein et al., 1982</a>).</p>
+
+  <h3>The inside view and the planning fallacy</h3>
+  <p><a class="cite narrative" href="#ref-kahneman-1993">Kahneman and Lovallo (1993)</a> explain a paradox: organisations are often too timid about individual risks, yet too bold in their forecasts. Forecasts are made from an <em>inside view</em>, built up from the plan and its scenarios, which ignores how similar ventures usually turn out. Their remedy is an <em>outside view</em> based on a reference class of comparable cases. <a class="cite narrative" href="#ref-flyvbjerg-2006">Flyvbjerg (2006)</a> turned this into reference class forecasting for projects, showing how optimistic forecasts of cost and benefits arise and how comparing with actual outcomes corrects them. For risk teams, the lesson is to ask "how did projects like this actually go?" before rating the risk of a system migration or product launch.</p>
+
+  <h3>Commitment, groups and organisations</h3>
+  <p>Some biases operate through people's roles. <a class="cite narrative" href="#ref-staw-1976">Staw (1976)</a> found that people who were personally responsible for a failing decision committed more money to it than people who were not, which is why kill criteria agreed in advance help. Groupthink, the suppression of dissent in cohesive groups, comes from <a class="cite narrative" href="#ref-janis-1982">Janis (1982)</a>; a review of the research that followed found the idea useful but the evidence and methods uneven (<a class="cite" href="#ref-esser-1998">Esser, 1998</a>). At the organisational level, <a class="cite narrative" href="#ref-vaughan-1996">Vaughan (1996)</a> showed how small, repeated deviations that cause no harm come to be treated as normal, until they do cause harm. Whether people raise concerns at all depends heavily on psychological safety: in <a class="cite narrative" href="#ref-edmondson-1999">Edmondson (1999)</a>, teams that felt safe to take interpersonal risks engaged in more learning behaviour, such as asking for help and discussing errors.</p>
+
+  <h3>Can bias be reduced?</h3>
+  <p>Telling people about biases does little on its own. Structural fixes, which change the process rather than the person, have the strongest rationale: private ratings before discussion, the premortem (<a class="cite" href="#ref-klein-2007">Klein, 2007</a>), reference classes and pre-agreed triggers. There is also some encouraging evidence for training. In two longitudinal experiments, a single session, either a game or an instructional video, produced medium to large reductions in several biases, and the improvements persisted at later follow-up (<a class="cite" href="#ref-morewedge-2015">Morewedge et al., 2015</a>). Hindsight and outcome bias (<a class="cite" href="#ref-fischhoff-1975">Fischhoff, 1975</a>; <a class="cite" href="#ref-baron-1988">Baron &amp; Hershey, 1988</a>) are especially relevant to reviews and performance assessments, because they lead people to judge decisions by results rather than by the quality of the reasoning.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>Replication and effect sizes.</strong> Several behavioural findings have not replicated or turned out smaller than first reported. The biases on this page (anchoring, overprecision, hindsight and outcome bias) are among the more robust, but the size of an effect in one study does not tell you its size in your risk committee.</li>
+    <li><strong>From the laboratory to the organisation.</strong> Much of the evidence comes from students answering questions in experiments. Organisations add incentives, hierarchy, time pressure and data, which can make biases worse or better. There is little research on bias in financial services risk processes specifically.</li>
+    <li><strong>Are heuristics really errors?</strong> A competing research tradition argues that simple rules often perform well in uncertain, real-world environments, and that labelling them as biases can overstate human irrationality (<a class="cite" href="#ref-gigerenzer-2011">Gigerenzer &amp; Gaissmaier, 2011</a>). The practical question is when a shortcut works and when it fails.</li>
+    <li><strong>Groupthink is contested.</strong> It is widely used in board and governance debates, but the full theory has had mixed empirical support. Treat it as a useful warning rather than a proven mechanism.</li>
+    <li><strong>Debiasing can become box-ticking.</strong> A premortem or devil's advocate that is held because the process requires it, with no real power to change the decision, may give false comfort.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Take a risk register you know (or a published example). Which ratings are most likely to be affected by anchoring and availability, and how would you test whether they are?</li>
+    <li>Moore and Healy argue that overprecision is the most persistent form of overconfidence. Design a way to measure the calibration of a risk team's scenario estimates over time.</li>
+    <li>Kahneman and Lovallo say organisations are both too timid and too bold. Using an Australian example, such as a large system migration, explain how both can be true at once.</li>
+    <li>Is the premortem a genuine debiasing technique or a ritual? What evidence would convince you either way?</li>
+    <li>How could normalisation of deviance show up in a super fund's control environment, and what signals in the data would reveal it before an incident?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="tversky-1974 moore-2008 kahneman-1993 edmondson-1999">
+    <li>Tversky, A., &amp; Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. <em>Science</em>, <em>185</em>(4157), 1124–1131. <a href="https://doi.org/10.1126/science.185.4157.1124">https://doi.org/10.1126/science.185.4157.1124</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">The classic account of three heuristics people use to judge probability (representativeness, availability, and anchoring and adjustment) and the systematic errors each produces.</span></li>
+    <li>Moore, D. A., &amp; Healy, P. J. (2008). The trouble with overconfidence. <em>Psychological Review</em>, <em>115</em>(2), 502–517. <a href="https://doi.org/10.1037/0033-295X.115.2.502">https://doi.org/10.1037/0033-295X.115.2.502</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Separates three kinds of overconfidence (overestimation, overplacement and overprecision) and shows overprecision, being too sure of one's own estimates, is the most persistent.</span></li>
+    <li>Kahneman, D., &amp; Lovallo, D. (1993). Timid choices and bold forecasts: A cognitive perspective on risk taking. <em>Management Science</em>, <em>39</em>(1), 17–31. <a href="https://doi.org/10.1287/mnsc.39.1.17">https://doi.org/10.1287/mnsc.39.1.17</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Explains why decision-makers are both too timid (judging each risk in isolation) and too bold (forecasting from an 'inside view' of their own plans), and recommends taking an 'outside view' based on reference classes.</span></li>
+    <li>Edmondson, A. (1999). Psychological safety and learning behavior in work teams. <em>Administrative Science Quarterly</em>, <em>44</em>(2), 350–383. <a href="https://doi.org/10.2307/2666999">https://doi.org/10.2307/2666999</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">A study of 51 work teams introduced team psychological safety, a shared belief that it is safe to take interpersonal risks, and linked it to learning behaviour and performance.</span></li>
+  </ul>
+
   <div class="widget quiz">
     <h3>Check your understanding</h3>
     <div class="q" data-answer="b">
@@ -171,17 +225,33 @@
     </ul>
   </section>
 
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-baron-1988">Baron, J., &amp; Hershey, J. C. (1988). Outcome bias in decision evaluation. <em>Journal of Personality and Social Psychology</em>, <em>54</em>(4), 569–579. <a href="https://doi.org/10.1037/0022-3514.54.4.569">https://doi.org/10.1037/0022-3514.54.4.569</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-edmondson-1999">Edmondson, A. (1999). Psychological safety and learning behavior in work teams. <em>Administrative Science Quarterly</em>, <em>44</em>(2), 350–383. <a href="https://doi.org/10.2307/2666999">https://doi.org/10.2307/2666999</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-esser-1998">Esser, J. K. (1998). Alive and well after 25 years: A review of groupthink research. <em>Organizational Behavior and Human Decision Processes</em>, <em>73</em>(2–3), 116–141. <a href="https://doi.org/10.1006/obhd.1998.2758">https://doi.org/10.1006/obhd.1998.2758</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-fischhoff-1975">Fischhoff, B. (1975). Hindsight is not equal to foresight: The effect of outcome knowledge on judgment under uncertainty. <em>Journal of Experimental Psychology: Human Perception and Performance</em>, <em>1</em>(3), 288–299. <a href="https://doi.org/10.1037/0096-1523.1.3.288">https://doi.org/10.1037/0096-1523.1.3.288</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-flyvbjerg-2006">Flyvbjerg, B. (2006). From Nobel Prize to project management: Getting risks right. <em>Project Management Journal</em>, <em>37</em>(3), 5–15. <a href="https://doi.org/10.1177/875697280603700302">https://doi.org/10.1177/875697280603700302</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-gigerenzer-2011">Gigerenzer, G., &amp; Gaissmaier, W. (2011). Heuristic decision making. <em>Annual Review of Psychology</em>, <em>62</em>, 451–482. <a href="https://doi.org/10.1146/annurev-psych-120709-145346">https://doi.org/10.1146/annurev-psych-120709-145346</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-janis-1982">Janis, I. L. (1982). <em>Groupthink: Psychological studies of policy decisions and fiascoes</em> (2nd ed.). Houghton Mifflin.</li>
+      <li id="ref-kahneman-1993">Kahneman, D., &amp; Lovallo, D. (1993). Timid choices and bold forecasts: A cognitive perspective on risk taking. <em>Management Science</em>, <em>39</em>(1), 17–31. <a href="https://doi.org/10.1287/mnsc.39.1.17">https://doi.org/10.1287/mnsc.39.1.17</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-klein-2007">Klein, G. (2007). Performing a project premortem. <em>Harvard Business Review</em>, <em>85</em>(9), 18–19. <a href="https://hbr.org/2007/09/performing-a-project-premortem">https://hbr.org/2007/09/performing-a-project-premortem</a></li>
+      <li id="ref-lichtenstein-1982">Lichtenstein, S., Fischhoff, B., &amp; Phillips, L. D. (1982). Calibration of probabilities: The state of the art to 1980. In D. Kahneman &amp; P. Slovic &amp; A. Tversky (Eds.), <em>Judgment under uncertainty: Heuristics and biases</em> (pp. 306–334). Cambridge University Press.</li>
+      <li id="ref-moore-2008">Moore, D. A., &amp; Healy, P. J. (2008). The trouble with overconfidence. <em>Psychological Review</em>, <em>115</em>(2), 502–517. <a href="https://doi.org/10.1037/0033-295X.115.2.502">https://doi.org/10.1037/0033-295X.115.2.502</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-morewedge-2015">Morewedge, C. K., Yoon, H., Scopelliti, I., Symborski, C. W., Korris, J. H., &amp; Kassam, K. S. (2015). Debiasing decisions: Improved decision making with a single training intervention. <em>Policy Insights from the Behavioral and Brain Sciences</em>, <em>2</em>(1), 129–140. <a href="https://doi.org/10.1177/2372732215600886">https://doi.org/10.1177/2372732215600886</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-staw-1976">Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. <em>Organizational Behavior and Human Performance</em>, <em>16</em>(1), 27–44. <a href="https://doi.org/10.1016/0030-5073(76)90005-2">https://doi.org/10.1016/0030-5073(76)90005-2</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-tversky-1974">Tversky, A., &amp; Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. <em>Science</em>, <em>185</em>(4157), 1124–1131. <a href="https://doi.org/10.1126/science.185.4157.1124">https://doi.org/10.1126/science.185.4157.1124</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-vaughan-1996">Vaughan, D. (1996). <em>The Challenger launch decision: Risky technology, culture, and deviance at NASA</em>. University of Chicago Press.</li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
+
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>
     <ol>
-      <li>Tversky, A. and Kahneman, D. (1974). Judgment under uncertainty: heuristics and biases. <em>Science</em>, 185(4157), 1124–1131. <a href="https://doi.org/10.1126/science.185.4157.1124">doi:10.1126/science.185.4157.1124</a>.</li>
-      <li>Lichtenstein, S., Fischhoff, B. and Phillips, L. D. (1982). Calibration of probabilities: the state of the art to 1980. In D. Kahneman, P. Slovic and A. Tversky (eds), <em>Judgment under Uncertainty: Heuristics and Biases</em>. Cambridge University Press.</li>
-      <li>Janis, I. L. (1982). <em>Groupthink: Psychological Studies of Policy Decisions and Fiascoes</em> (2nd ed.). Houghton Mifflin.</li>
-      <li>Staw, B. M. (1976). Knee-deep in the big muddy: a study of escalating commitment to a chosen course of action. <em>Organizational Behavior and Human Performance</em>, 16(1), 27–44.</li>
-      <li>Fischhoff, B. (1975). Hindsight is not equal to foresight: the effect of outcome knowledge on judgment under uncertainty. <em>Journal of Experimental Psychology: Human Perception and Performance</em>, 1(3), 288–299.</li>
-      <li>Klein, G. (2007). Performing a project premortem. <em>Harvard Business Review</em>, 85(9), 18–19.</li>
-      <li>Flyvbjerg, B. (2006). From Nobel Prize to project management: getting risks right. <em>Project Management Journal</em>, 37(3), 5–15.</li>
-      <li>Vaughan, D. (1996). <em>The Challenger Launch Decision</em>. University of Chicago Press.</li>
       <li>Calibration answers: Geoscience Australia (river length and mountain height), Australian Bureau of Statistics (2021 Census), Reserve Bank of Australia, APRA.</li>
     </ol>
   </section>

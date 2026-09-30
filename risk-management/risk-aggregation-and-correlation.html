@@ -59,7 +59,7 @@
   <p class="summary">How hundreds of individual risks become one enterprise risk profile, and why the way risks move together matters as much as their size.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 14 minutes</span>
+    <span>About 18 minutes</span>
     <span>Last reviewed: 27 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>Correlations tend to rise in a crisis, so "<a class="term" href="/glossary/#diversification-benefit">diversification benefits</a>" can vanish exactly when they're needed.</li>
       <li><strong>Concentration</strong> and <strong>interdependency</strong>, such as many critical operations relying on one provider, system or person, are often the biggest hidden aggregate risks.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Explain why aggregating risks is harder than measuring each one, for both qualitative and quantitative risk profiles.</li>
+      <li>Calculate a diversified total with the variance-covariance method and explain its assumptions.</li>
+      <li>Explain tail dependence and why correlations estimated in normal times understate risk in a crisis.</li>
+      <li>Critically assess diversification benefits in economic capital, drawing on research on integrated risk models.</li>
+    </ol>
   </aside>
 
   <h2>Why aggregation is hard</h2>
@@ -149,7 +160,7 @@
   </div>
 
   <h3>Correlations rise in a crisis</h3>
-  <p>Correlations estimated in normal times can understate how risks behave in a crisis. Research on share markets found that correlations between markets increase in bear markets (Longin and Solnik, 2001). More generally, a single correlation number can't capture "tail dependence", where risks are unrelated most of the time but fail together in extreme events (Embrechts, McNeil and Straumann, 2002). For operational risk, a single cyber attack, pandemic or provider failure can trigger losses across several risk types at once. Prudent practice is to stress correlation assumptions and to test combined scenarios directly. See <a href="/risk-management/scenario-analysis-and-stress-testing.html">Scenario analysis and stress testing</a>.</p>
+  <p>Correlations estimated in normal times can understate how risks behave in a crisis. Research on share markets found that correlations between markets increase in bear markets (<a class="cite" href="#ref-longin-2001">Longin &amp; Solnik, 2001</a>). More generally, a single correlation number can't capture "tail dependence", where risks are unrelated most of the time but fail together in extreme events (<a class="cite" href="#ref-embrechts-2002">Embrechts et al., 2002</a>). For operational risk, a single cyber attack, pandemic or provider failure can trigger losses across several risk types at once. Prudent practice is to stress correlation assumptions and to test combined scenarios directly. See <a href="/risk-management/scenario-analysis-and-stress-testing.html">Scenario analysis and stress testing</a>.</p>
 
   <h2>Concentration and interdependency</h2>
   <p>Some of the largest aggregate risks come not from many risks adding up but from many things depending on one thing:</p>
@@ -172,6 +183,39 @@
   </ol>
   <p>The Basel Committee's principles for risk data aggregation and reporting (BCBS 239) set out the data foundations large banks need for this: accurate, complete and timely risk data that can be aggregated quickly, including in a crisis. APRA's CPG 235 gives guidance on managing data risk.</p>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>Correlation is not dependence</h3>
+  <p>The variance-covariance method on this page treats a single correlation number as a full description of how risks move together. That is only true for a narrow family of distributions. <a class="cite narrative" href="#ref-embrechts-2002">Embrechts et al. (2002)</a> showed why linear correlation is misleading for skewed and heavy-tailed risks: two risks can have a low correlation yet a high chance of extreme losses together (tail dependence), and the correlation can even be impossible to reach for some combinations of distributions. Their recommended alternative is to model dependence with <em>copulas</em>, which separate the shape of each risk from the way they are joined.</p>
+
+  <h3>Dependence changes in a crisis</h3>
+  <p>Empirical evidence supports the concern. <a class="cite narrative" href="#ref-longin-2001">Longin and Solnik (2001)</a> used extreme value theory to show that correlations between international share markets increase in bear markets but not in bull markets. Diversification is weakest exactly when it is needed. The same pattern is plausible for operational and conduct risks, where a single cause such as a cyber attack or a failed provider can trigger losses across several categories at once.</p>
+
+  <h3>How much diversification benefit is real?</h3>
+  <p><a class="cite narrative" href="#ref-rosenberg-2006">Rosenberg and Schuermann (2006)</a> built the joint distribution of market, credit and operational risk for a large bank using copulas, and showed how much the total depends on the dependence assumptions: the diversification benefit can range widely between reasonable choices. <a class="cite narrative" href="#ref-kretzschmar-2010">Kretzschmar et al. (2010)</a> went further. They compared the modular approach common in practice, where each risk is measured separately and combined with a correlation matrix, with a fully integrated model driven by economic scenarios. The modular approach understated risk, and their title states the conclusion: it could leave banks undercapitalised. For a board, the practical lesson is to treat any diversification benefit as an assumption to be stress-tested, not a saving to be banked.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>Correlation estimates are fragile.</strong> For operational and conduct risks there is rarely enough data to estimate correlations at all. Values are usually expert judgements, which brings back the biases discussed in <a class="xref" href="/risk-management/human-factors-and-bias.html">human factors and bias</a>.</li>
+    <li><strong>More complex is not always better.</strong> Copula models capture tail dependence, but they add parameters that are even harder to estimate. A simple model with stressed correlations may be more honest than a sophisticated one with false precision.</li>
+    <li><strong>Qualitative aggregation has its own problems.</strong> Rolling up ratings by averaging or taking the maximum can hide concentrations or overstate them. There is little research on which qualitative roll-up rules produce the best decisions.</li>
+    <li><strong>The biggest risks are often structural.</strong> Concentration on a single provider or system is a form of dependence that no correlation matrix shows. Mapping dependencies, as in <a class="xref" href="/risk-management/mapping-critical-operations.html">mapping critical operations</a>, may reveal more than statistics.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Use the calculator to find the diversification benefit at correlations of 0, 0.5 and 1. How would you explain to a board why the benefit is uncertain?</li>
+    <li>Give an example of two operational risks that are nearly uncorrelated most of the time but likely to occur together in a crisis. How would you represent this in an aggregation model?</li>
+    <li>Kretzschmar and colleagues argue that modular aggregation leaves banks undercapitalised. What would a super fund's equivalent problem look like?</li>
+    <li>Is it better to aggregate risks with a simple sum and accept conservatism, or to model dependence and risk false precision? Argue your position.</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="embrechts-2002 longin-2001 kretzschmar-2010">
+    <li>Embrechts, P., McNeil, A., &amp; Straumann, D. (2002). Correlation and dependence in risk management: Properties and pitfalls. In M. A. H. Dempster (Ed.), <em>Risk management: Value at risk and beyond</em> (pp. 176–223). Cambridge University Press.<br><span class="small">A widely used explanation of why linear correlation is a poor summary of dependence outside normal distributions, and why copulas and tail dependence matter for aggregating risks.</span></li>
+    <li>Longin, F., &amp; Solnik, B. (2001). Extreme correlation of international equity markets. <em>The Journal of Finance</em>, <em>56</em>(2), 649–676. <a href="https://doi.org/10.1111/0022-1082.00340">https://doi.org/10.1111/0022-1082.00340</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Using extreme value theory, finds that correlation between international share markets rises in bear markets but not in bull markets: diversification weakens when it is needed most.</span></li>
+    <li>Kretzschmar, G., McNeil, A. J., &amp; Kirchner, A. (2010). Integrated models of capital adequacy: Why banks are undercapitalised. <em>Journal of Banking &amp; Finance</em>, <em>34</em>(12), 2838–2850. <a href="https://doi.org/10.1016/j.jbankfin.2010.02.028">https://doi.org/10.1016/j.jbankfin.2010.02.028</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Compares modular, correlation-based aggregation with a fully integrated model driven by economic scenarios, and finds the modular approach common in practice could leave banks undercapitalised.</span></li>
+  </ul>
+
   <section class="related" aria-labelledby="related-h">
     <h2 id="related-h">Related topics</h2>
     <ul>
@@ -183,13 +227,24 @@
     </ul>
   </section>
 
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-embrechts-2002">Embrechts, P., McNeil, A., &amp; Straumann, D. (2002). Correlation and dependence in risk management: Properties and pitfalls. In M. A. H. Dempster (Ed.), <em>Risk management: Value at risk and beyond</em> (pp. 176–223). Cambridge University Press.</li>
+      <li id="ref-kretzschmar-2010">Kretzschmar, G., McNeil, A. J., &amp; Kirchner, A. (2010). Integrated models of capital adequacy: Why banks are undercapitalised. <em>Journal of Banking &amp; Finance</em>, <em>34</em>(12), 2838–2850. <a href="https://doi.org/10.1016/j.jbankfin.2010.02.028">https://doi.org/10.1016/j.jbankfin.2010.02.028</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-longin-2001">Longin, F., &amp; Solnik, B. (2001). Extreme correlation of international equity markets. <em>The Journal of Finance</em>, <em>56</em>(2), 649–676. <a href="https://doi.org/10.1111/0022-1082.00340">https://doi.org/10.1111/0022-1082.00340</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-rosenberg-2006">Rosenberg, J. V., &amp; Schuermann, T. (2006). A general approach to integrated risk management with skewed, fat-tailed risks. <em>Journal of Financial Economics</em>, <em>79</em>(3), 569–614. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X05001509">https://www.sciencedirect.com/science/article/abs/pii/S0304405X05001509</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
+
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>
     <ol>
       <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/publ/bcbs239.htm">Principles for effective risk data aggregation and risk reporting</a> (BCBS 239, January 2013).</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a>, <a href="https://www.apra.gov.au/standards/cps-230">CPS 230 Operational Risk Management</a> and <a href="https://www.apra.gov.au/practice-guides/cpg-235">CPG 235 Managing Data Risk</a>.</li>
-      <li>Longin, F. and Solnik, B. (2001), <a href="https://doi.org/10.1111/0022-1082.00340">Extreme correlation of international equity markets</a>, <em>The Journal of Finance</em>, 56(2), 649–676.</li>
-      <li>Embrechts, P., McNeil, A. and Straumann, D. (2002), Correlation and dependence in risk management: properties and pitfalls, in M. Dempster (ed.), <em>Risk Management: Value at Risk and Beyond</em>, Cambridge University Press, 176–223.</li>
     </ol>
   </section>
 

@@ -59,7 +59,7 @@
   <p class="summary">How to choose indicators that actually predict risk, set amber and red thresholds that mean something, and test whether a KRI works, with an interactive control chart.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 15 minutes</span>
+    <span>About 21 minutes</span>
     <span>Last reviewed: 28 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li><a class="term" href="/glossary/#run-rule">Run rules</a> catch gradual drift that single thresholds miss.</li>
       <li>Test each KRI regularly: did it signal before problems (hits), signal without problems (false alarms), or miss problems entirely?</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Explain how key risk indicators connect to a causal model of a risk, and what makes an indicator 'leading'.</li>
+      <li>Compare appetite-based, statistical, percentile and benchmark thresholds, and justify a combination for a given indicator.</li>
+      <li>Apply control chart logic, including run rules, and explain the trade-off between false alarms and missed signals.</li>
+      <li>Critically assess how measurement changes behaviour (Campbell's law) and the limited evidence that KRIs predict losses.</li>
+    </ol>
   </aside>
 
 <h2>The idea in plain English</h2>
@@ -109,7 +120,7 @@
 
   <div class="callout warn">
     <h3>The normalisation trap</h3>
-    <p>Thresholds calculated purely from history quietly accept whatever level of risk the organisation has been running. Sociologist Diane Vaughan called the wider pattern the "normalization of deviance": in her study of the Challenger launch decision, repeated anomalies came to be treated as acceptable because nothing had gone wrong yet. Re-anchor statistical thresholds to appetite, and question baselines after incidents.</p>
+    <p>Thresholds calculated purely from history quietly accept whatever level of risk the organisation has been running. Sociologist Diane Vaughan called the wider pattern the "normalization of deviance" (<a class="cite" href="#ref-vaughan-1996">Vaughan, 1996</a>): in her study of the Challenger launch decision, repeated anomalies came to be treated as acceptable because nothing had gone wrong yet. Re-anchor statistical thresholds to appetite, and question baselines after incidents.</p>
   </div>
 
   <h2>Try it: the same data, four thresholds</h2>
@@ -128,7 +139,7 @@
     </details>
     <noscript><p>The chart needs JavaScript.</p></noscript>
   </div>
-  <p>With classic control limits or the appetite limits, the drift never reaches red. A run rule, which looks for a sustained shift rather than a single extreme value, flags it months earlier. Statistical process control has used rules like this for decades (for example the Western Electric and Nelson rules). They are well suited to KRIs, where gradual deterioration matters more than one bad month.</p>
+  <p>With classic control limits or the appetite limits, the drift never reaches red. A run rule, which looks for a sustained shift rather than a single extreme value, flags it months earlier. Statistical process control has used rules like this for decades (for example the Western Electric and Nelson rules; <a class="cite" href="#ref-nelson-1984">Nelson, 1984</a>). They are well suited to KRIs, where gradual deterioration matters more than one bad month.</p>
 
   <h2>Counts, rates and small numbers</h2>
   <ul>
@@ -156,6 +167,42 @@
     </table>
   </div>
   <p>Here the KRI caught 7 of 9 problems (78%), and 7 of its 12 signals were real (58%). That is a reasonably useful indicator. Tightening thresholds would catch more problems at the cost of more false alarms. That trade-off is a judgement for the <a class="term" href="/glossary/#risk-owner">risk owner</a>, not a statistical fact.</p>
+
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>Indicators need a causal model</h3>
+  <p>An indicator is only "key" if it sits on a plausible path from cause to harm. <a class="cite narrative" href="#ref-scandizzo-2005">Scandizzo (2005)</a> proposed building KRIs from a map of the business process: identify where in each step operational risk arises, then choose variables that estimate the likelihood or severity of loss at that step, and design controls around them. The discipline matters more than the method. Without a causal story, a dashboard becomes a collection of operational statistics that happen to be easy to collect.</p>
+  <p>Whether an indicator really <em>leads</em> is an empirical question. In one of the earliest tests of the idea for performance measures, <a class="cite narrative" href="#ref-ittner-1998">Ittner and Larcker (1998)</a> examined whether customer satisfaction predicted later financial results. It did in some settings, but the relationship was not simply "more is better", which is a caution against assuming that any movement in a leading indicator translates proportionally into risk. For KRIs, the equivalent test is whether past spikes in the indicator were followed by incidents, losses or complaints.</p>
+
+  <h3>Control charts: separating signal from noise</h3>
+  <p>Statistical process control gives the logic behind the "control limits" method. A process varies naturally (common causes); the aim is to detect variation that is unlikely to be random (special causes). Single points beyond a limit catch sudden shifts, while run rules catch gradual ones, such as several points in a row on one side of the mean (<a class="cite" href="#ref-nelson-1984">Nelson, 1984</a>). Every rule trades false alarms against missed signals: tighter limits and more rules find real shifts sooner but raise more false alarms, and adding rules together raises the false alarm rate further. <a class="cite narrative" href="#ref-woodall-2000">Woodall (2000)</a> describes the long-running debates in the field, including whether control charts should be treated as formal hypothesis tests and how their performance should be judged. For KRIs, two practical points follow. The baseline period must itself be stable and acceptable, and indicators that are counts of rare events, or that move with seasons and volumes, break the assumptions behind simple limits.</p>
+
+  <h3>Measurement changes behaviour</h3>
+  <p>Once an indicator is reported to senior management, people start managing the number. <a class="cite narrative" href="#ref-campbell-1979">Campbell (1979)</a> observed that the more a quantitative indicator is used for social decision-making, the more it is subject to corruption pressures and the more it distorts the process it was meant to monitor. <a class="cite narrative" href="#ref-kerr-1975">Kerr (1975)</a> made a related point about rewards: organisations often reward the measurable thing while hoping for something else. For risk indicators, the classic example is incident counts. If fewer reported incidents are praised, reporting falls, and the indicator improves while the risk worsens. Pairing indicators (incident counts with near-miss reporting rates, for example) and checking data quality are practical defences.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>Little evidence that KRIs predict losses.</strong> KRIs are required or expected by regulators and widely used, but published tests of whether particular operational risk indicators predict losses are scarce. Most organisations rely on judgement about causal links rather than evidence. Back-testing your own indicators is one of the few ways to find out.</li>
+    <li><strong>Statistics can't say what is acceptable.</strong> Control limits describe what is unusual for the process, not what the board is willing to accept. A stable process can be stably bad. This is why the page recommends combining statistical and appetite-based thresholds.</li>
+    <li><strong>The false alarm problem.</strong> If amber and red trigger too often, people stop responding. If they trigger too rarely, the dashboard gives false comfort. There is no universally right balance: it depends on the cost of a missed signal compared with the cost of investigating a false one.</li>
+    <li><strong>Leading or just early?</strong> Many "leading" indicators are simply earlier lagging indicators (for example, complaints before remediation). They give warning time but may not point to causes.</li>
+    <li><strong>Gaming is not always deliberate.</strong> Distortion can come from changes in definitions, reporting practices or workload, not only from people managing the number. Treat sudden improvements with the same curiosity as sudden deteriorations.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Choose a material risk for a super fund, such as member benefit payment errors. Map the process steps where it arises and propose one leading and one lagging indicator for each step. What is the causal story for each?</li>
+    <li>Using the chart on this page, compare the control limit and appetite methods. Which would you recommend for board reporting, and why? What would you report to management instead?</li>
+    <li>How would you back-test whether a KRI actually predicts incidents, given that serious incidents are rare? What data would you need, and what would count as evidence that it works?</li>
+    <li>Give an example of Campbell's law from risk or compliance reporting. How would you redesign the indicator, or pair it with another, to reduce the distortion?</li>
+    <li>Adding run rules increases false alarms. How should an organisation decide how many false alarms it is willing to accept for a given indicator?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="scandizzo-2005 campbell-1979 woodall-2000">
+    <li>Scandizzo, S. (2005). Risk mapping and key risk indicators in operational risk management. <em>Economic Notes</em>, <em>34</em>(2), 231–256. <a href="https://doi.org/10.1111/j.0391-5026.2005.00150.x">https://doi.org/10.1111/j.0391-5026.2005.00150.x</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Sets out a method for mapping operational risks to the steps of a business process, then choosing key risk indicators that estimate likelihood and severity at each step and designing controls around them.</span></li>
+    <li>Campbell, D. T. (1979). Assessing the impact of planned social change. <em>Evaluation and Program Planning</em>, <em>2</em>(1), 67–90. <a href="https://doi.org/10.1016/0149-7189(79)90048-X">https://doi.org/10.1016/0149-7189(79)90048-X</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Source of 'Campbell's law': the more a quantitative indicator is used for decisions, the more it is subject to corruption pressures and the more it distorts the process it is meant to monitor.</span></li>
+    <li>Woodall, W. H. (2000). Controversies and contradictions in statistical process control. <em>Journal of Quality Technology</em>, <em>32</em>(4), 341–350. <a href="https://doi.org/10.1080/00224065.2000.11980013">https://doi.org/10.1080/00224065.2000.11980013</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Reviews debates in statistical process control, including whether control charts are hypothesis tests, how to model their performance and how to compare competing methods.</span></li>
+  </ul>
 
   <div class="widget quiz">
     <h3>Check your understanding</h3>
@@ -191,14 +238,28 @@
     </ul>
   </section>
 
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-campbell-1979">Campbell, D. T. (1979). Assessing the impact of planned social change. <em>Evaluation and Program Planning</em>, <em>2</em>(1), 67–90. <a href="https://doi.org/10.1016/0149-7189(79)90048-X">https://doi.org/10.1016/0149-7189(79)90048-X</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-ittner-1998">Ittner, C. D., &amp; Larcker, D. F. (1998). Are nonfinancial measures leading indicators of financial performance? An analysis of customer satisfaction. <em>Journal of Accounting Research</em>, <em>36</em>, 1–35. <a href="https://doi.org/10.2307/2491304">https://doi.org/10.2307/2491304</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-kerr-1975">Kerr, S. (1975). On the folly of rewarding A, while hoping for B. <em>Academy of Management Journal</em>, <em>18</em>(4), 769–783. <a href="https://doi.org/10.2307/255378">https://doi.org/10.2307/255378</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-nelson-1984">Nelson, L. S. (1984). The Shewhart control chart: Tests for special causes. <em>Journal of Quality Technology</em>, <em>16</em>(4), 237–239. <a href="https://doi.org/10.1080/00224065.1984.11978921">https://doi.org/10.1080/00224065.1984.11978921</a></li>
+      <li id="ref-scandizzo-2005">Scandizzo, S. (2005). Risk mapping and key risk indicators in operational risk management. <em>Economic Notes</em>, <em>34</em>(2), 231–256. <a href="https://doi.org/10.1111/j.0391-5026.2005.00150.x">https://doi.org/10.1111/j.0391-5026.2005.00150.x</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-vaughan-1996">Vaughan, D. (1996). <em>The Challenger launch decision: Risky technology, culture, and deviance at NASA</em>. University of Chicago Press.</li>
+      <li id="ref-woodall-2000">Woodall, W. H. (2000). Controversies and contradictions in statistical process control. <em>Journal of Quality Technology</em>, <em>32</em>(4), 341–350. <a href="https://doi.org/10.1080/00224065.2000.11980013">https://doi.org/10.1080/00224065.2000.11980013</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
+
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>
     <ol>
       <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d515.htm">Revisions to the principles for the sound management of operational risk</a> (March 2021).</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a> and <a href="https://www.apra.gov.au/practice-guides/cpg-220">CPG 220 Risk Management</a> (risk appetite and monitoring).</li>
-      <li>Nelson, L. S. (1984). The Shewhart control chart: tests for special causes. <em>Journal of Quality Technology</em>, 16(4), 237–239.</li>
       <li>Western Electric Company (1956). <em>Statistical Quality Control Handbook</em>.</li>
-      <li>Vaughan, D. (1996). <em>The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA</em>. University of Chicago Press.</li>
     </ol>
   </section>
 

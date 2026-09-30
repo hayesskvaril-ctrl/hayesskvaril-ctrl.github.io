@@ -59,7 +59,7 @@
   <p class="summary">How many items to test, what a clean (or not-so-clean) sample really tells you, and how strong the evidence needs to be.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 15 minutes</span>
+    <span>About 20 minutes</span>
     <span>Last reviewed: 27 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>Every deviation needs root cause analysis: is it isolated or a sign of a systemic failure? Sometimes a single deviation is enough to conclude a control is ineffective.</li>
       <li>How good the evidence is matters as much as how much there is. Re-performance and inspection of reliable records beat inquiry.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Derive an attribute sample size from the binomial distribution and explain what confidence and tolerable deviation rate mean.</li>
+      <li>Evaluate test results using an upper deviation limit and explain the difference between sampling and non-sampling risk.</li>
+      <li>Use research on where control weaknesses occur to target testing effort.</li>
+      <li>Critically assess the limits of sample-based assurance, including judgemental selection, full-population analytics and 'assurance as ritual'.</li>
+    </ol>
   </aside>
 
   <p>This page builds on <a href="/risk-management/control-design-and-testing.html">Control design and testing</a>, which covers test methods and an illustrative frequency-based sampling guide. Here we look at the statistics underneath.</p>
@@ -175,6 +186,42 @@
   <h2>Levels of assurance</h2>
   <p>Australian assurance standards distinguish <strong>reasonable assurance</strong> (a high, but not absolute, level, as in an audit) from <strong>limited assurance</strong> (a lower level, as in a review, where the conclusion is that nothing has come to attention to suggest a problem). The same idea is useful for internal testing: first-line self-checks, second-line reviews and internal audit give different levels of confidence, and reports should say which kind of assurance a result provides. See the <a href="/foundations/three-lines-model.html">Three Lines model</a>.</p>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>The statistical logic</h3>
+  <p>Attribute sampling treats each occurrence of a control as a trial that either works or deviates. If the true deviation rate were at the tolerable rate, the binomial distribution gives the probability of seeing as few deviations as you did; the sample size is chosen so that this probability is no more than one minus the confidence level. That is the whole of the maths behind the tables and calculators above. What statistics cannot do is tell you whether you tested the right thing, defined a deviation sensibly or read the evidence correctly. Those are <em>non-sampling</em> risks, and most testing failures in practice come from them rather than from sample size.</p>
+
+  <h3>What research says about sampling in practice</h3>
+  <p>A synthesis of audit sampling research by <a class="cite narrative" href="#ref-elder-2013">Elder et al. (2013)</a> describes a gap between theory and practice: statistical methods are well established, but practitioners often plan, select and evaluate samples using judgement rather than formal statistics, and the consequences of that choice are not well understood. Field evidence is rare because firms seldom share sampling data. One exception, <a class="cite narrative" href="#ref-durney-2014">Durney et al. (2014)</a>, studied 160 real sampling applications at a large audit firm to examine how often errors occur in the populations auditors test and how they sample. Studies like these are the empirical base for judging whether conventional sample sizes and selection methods are adequate.</p>
+  <p>Where to test is as important as how much. <a class="cite narrative" href="#ref-doyle-2007">Doyle et al. (2007)</a> found that material weaknesses in internal control were more likely in firms that were smaller, younger, financially weaker, more complex, growing quickly or restructuring, and that serious entity-wide weaknesses clustered in the weaker firms. The same logic applies inside an organisation: new products, recent system changes, restructured teams and fast-growing processes deserve more testing, which is how the <a class="xref" href="/compliance/compliance-monitoring-and-testing.html">compliance monitoring planner</a> ranks areas.</p>
+
+  <h3>Assurance as a social practice</h3>
+  <p><a class="cite narrative" href="#ref-power-1997">Power (1997)</a> argued that auditing and checking had spread across organisations and government partly because they produce comfort and legitimacy, not only because they reduce risk. Testing can drift towards checking that a control <em>exists</em> and is documented, rather than whether it achieves its purpose. For control testing, this is a reminder to test design against the risk (would the control stop the harm?) before testing operation, and to be explicit about what level of assurance a result gives.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>Random selection is rarer than the maths assumes.</strong> Many tests use haphazard or judgemental selection. The confidence levels on this page strictly hold only for random samples, so a "95% confidence" conclusion on a haphazard sample overstates what is known.</li>
+    <li><strong>Full-population testing changes the question.</strong> Where data is complete and reliable, analytics can test every transaction, removing sampling risk. But it raises new problems: data quality becomes the main risk, and large numbers of exceptions need judgement about which matter.</li>
+    <li><strong>Small populations break the model.</strong> For quarterly or annual controls there are too few occurrences for statistics to add much. Testing every occurrence, plus strong evidence of design, is usually more meaningful.</li>
+    <li><strong>Evidence from external audit may not transfer.</strong> Most research concerns financial statement audits in the US. Operational and compliance controls in financial services, such as member communications or breach reporting, have different populations, evidence and consequences.</li>
+    <li><strong>Passing a test is not the same as managing a risk.</strong> A control can operate exactly as designed and still fail to address the risk if it was designed against the wrong reference point, as the <a class="xref" href="/risk-management/root-cause-analysis.html">root cause analysis</a> fee example shows.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Show why a sample of 59 with no deviations supports 95% confidence that the deviation rate is below 5%. What changes if one deviation is found?</li>
+    <li>A team selects "a representative sample" of 25 files by hand. What can and can't be concluded from it? How would you explain this to a board committee?</li>
+    <li>Using Doyle, Ge and McVay's findings as an analogy, which parts of a super fund's operations would you prioritise for control testing, and why?</li>
+    <li>Is full-population testing with data analytics always better than sampling? Discuss the new risks it introduces.</li>
+    <li>Power describes audit as a "ritual of verification". Is control testing in financial services at risk of becoming one? What would distinguish meaningful testing from ritual?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="elder-2013 doyle-2007 power-1997">
+    <li>Elder, R. J., Akresh, A. D., Glover, S. M., Higgs, J. L., &amp; Liljegren, J. (2013). Audit sampling research: A synthesis and implications for future research. <em>Auditing: A Journal of Practice &amp; Theory</em>, <em>32</em>(Supplement 1), 99–129. <a href="https://doi.org/10.2308/ajpt-50394">https://doi.org/10.2308/ajpt-50394</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Synthesises decades of research on how auditors plan, select and evaluate samples, and sets out open questions for research and practice.</span></li>
+    <li>Doyle, J., Ge, W., &amp; McVay, S. (2007). Determinants of weaknesses in internal control over financial reporting. <em>Journal of Accounting and Economics</em>, <em>44</em>(1–2), 193–223. <a href="https://doi.org/10.1016/j.jacceco.2006.10.003">https://doi.org/10.1016/j.jacceco.2006.10.003</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Across 779 US firms disclosing material weaknesses, control failures were more likely in firms that were smaller, younger, financially weaker, more complex, growing fast or restructuring; entity-wide weaknesses clustered in weaker firms.</span></li>
+    <li>Power, M. (1997). <em>The audit society: Rituals of verification</em>. Oxford University Press.<br><span class="small">Argues that the 'audit explosion' produces comfort and legitimacy as much as real assurance, because checking often focuses on whether systems exist rather than on outcomes.</span></li>
+  </ul>
+
   <section class="related" aria-labelledby="related-h">
     <h2 id="related-h">Related topics</h2>
     <ul>
@@ -185,6 +232,19 @@
       <li data-href="/standards/coso.html" data-label="COSO Internal Control framework"><a href="/standards/coso.html">COSO Internal Control framework</a></li>
     </ul>
   </section>
+
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-doyle-2007">Doyle, J., Ge, W., &amp; McVay, S. (2007). Determinants of weaknesses in internal control over financial reporting. <em>Journal of Accounting and Economics</em>, <em>44</em>(1–2), 193–223. <a href="https://doi.org/10.1016/j.jacceco.2006.10.003">https://doi.org/10.1016/j.jacceco.2006.10.003</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-durney-2014">Durney, M., Elder, R. J., &amp; Glover, S. M. (2014). Field data on accounting error rates and audit sampling. <em>Auditing: A Journal of Practice &amp; Theory</em>, <em>33</em>(2), 79–110. <a href="https://doi.org/10.2308/ajpt-50669">https://doi.org/10.2308/ajpt-50669</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-elder-2013">Elder, R. J., Akresh, A. D., Glover, S. M., Higgs, J. L., &amp; Liljegren, J. (2013). Audit sampling research: A synthesis and implications for future research. <em>Auditing: A Journal of Practice &amp; Theory</em>, <em>32</em>(Supplement 1), 99–129. <a href="https://doi.org/10.2308/ajpt-50394">https://doi.org/10.2308/ajpt-50394</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-power-1997">Power, M. (1997). <em>The audit society: Rituals of verification</em>. Oxford University Press.</li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
 
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>

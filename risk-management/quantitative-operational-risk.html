@@ -59,7 +59,7 @@
   <p class="summary">How risk teams put numbers on operational losses: how often losses happen, how big they get, and how bad a really bad year could be.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 15 minutes</span>
+    <span>About 20 minutes</span>
     <span>Last reviewed: 27 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>Banks no longer use their own models to set operational risk capital in Australia. Since 1 January 2023, APRA's APS 115 uses the Basel III standardised measurement approach. Quantitative methods are still widely used for scenario analysis, risk appetite and understanding exposures.</li>
       <li>Every model is only as good as its data and assumptions. Treat the outputs as a way to structure judgement, not as precise truth.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Explain the loss distribution approach: frequency, severity and the aggregate loss distribution.</li>
+      <li>Compare value at risk and expected shortfall using the theory of coherent risk measures.</li>
+      <li>Summarise what empirical research shows about the size, drivers and heavy tails of operational losses.</li>
+      <li>Critically evaluate why model-based operational risk capital was abandoned for regulatory minimums, and what role models still play.</li>
+    </ol>
   </aside>
 
   <h2>Why quantify operational risk?</h2>
@@ -203,6 +214,42 @@
     <li><strong>False precision:</strong> a figure of "$43.7 million at 99.9%" implies a certainty that doesn't exist. Good practice reports ranges, tests sensitivities and explains the assumptions to decision-makers.</li>
   </ul>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>What makes a good risk measure?</h3>
+  <p><a class="cite narrative" href="#ref-artzner-1999">Artzner et al. (1999)</a> set out four properties a risk measure should have to be called <em>coherent</em>: monotonicity, translation invariance, positive homogeneity and subadditivity. Subadditivity is the one that matters most in practice: the risk of two activities combined should be no more than the sum of their separate risks, because combining them can only help or do nothing. Value at risk can fail this test for heavy-tailed or lumpy losses, which are exactly what operational risk produces. <a class="cite narrative" href="#ref-acerbi-2002">Acerbi and Tasche (2002)</a> showed that a properly defined expected shortfall, the average loss beyond the VaR point, is coherent for any loss distribution. This is the theoretical reason why expected shortfall has increasingly replaced VaR in regulation and internal models.</p>
+
+  <h3>What the data shows about operational losses</h3>
+  <p>Research using databases of publicly reported losses has shaped the field. <a class="cite narrative" href="#ref-defontnouvelle-2006">de Fontnouvelle et al. (2006)</a> used external data on large bank losses to estimate how heavy the tail of operational losses is and what this implies for capital. <a class="cite narrative" href="#ref-chernobai-2011">Chernobai et al. (2011)</a> analysed US financial institutions' reported losses from 1980 to 2005. Most losses could be traced to breakdowns of internal control, and losses were more likely at firms that were younger, more complex and riskier on credit, and where the CEO had stronger option-based incentives. That last finding links operational risk to governance and <span class="xref" data-href="/governance/remuneration-incentives-and-risk-taking.html">remuneration</span>, not only to processes.</p>
+  <p>The same data also shows the limits of measurement. <a class="cite narrative" href="#ref-cope-2009">Cope et al. (2009)</a> examined whether banks could credibly estimate a 1-in-1,000-year loss (the 99.9% quantile used for regulatory capital) from the loss data they actually hold. Estimates were driven by a handful of extreme events and by modelling choices such as the severity distribution and the threshold for recording losses, and they were very hard to validate.</p>
+
+  <h3>From internal models to a formula</h3>
+  <p>These problems help explain the Basel Committee's decision to replace internal models (the advanced measurement approaches) with a standardised formula for minimum capital, which APRA implemented as <a class="xref" href="/standards/aps-115.html">APS 115</a>. The change was contested. <a class="cite narrative" href="#ref-peters-2016">Peters et al. (2016)</a> stress-tested the proposed standardised approach and argued that it can be unstable, insensitive to risk and super-additive, meaning it may not reward diversification. Their critique and the regulators' concerns about model variability are two sides of the same trade-off between risk sensitivity and comparability.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>The tail is estimated from very few points.</strong> A 99.9% annual quantile is a 1-in-1,000-year loss. No organisation has that much history, so the answer depends on external data, scenarios and distribution choices that are hard to test.</li>
+    <li><strong>Public loss data is biased.</strong> Databases of reported losses over-represent large, newsworthy events and US institutions. Findings about drivers may not transfer to Australian super funds or insurers.</li>
+    <li><strong>Correlation or causation?</strong> Studies linking losses to firm characteristics such as incentives are observational. They show associations, not that changing pay would reduce losses.</li>
+    <li><strong>Is a formula better than a flawed model?</strong> A formula based on size is comparable and hard to game, but it ignores the quality of controls. A model is risk-sensitive but can be tuned. There is no consensus on which is worse.</li>
+    <li><strong>Numbers can crowd out judgement.</strong> A precise-looking capital figure can distract boards from the qualitative question of whether operational risk is actually well managed.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Explain, with a simple numerical example, how value at risk can fail subadditivity. Why does this matter more for operational risk than for many market risks?</li>
+    <li>Chernobai, Jorion and Yu found that operational losses were linked to CEO option-based pay. Propose a mechanism that could explain this, and a study that could test whether it is causal.</li>
+    <li>Using the simulator on this page, change the severity distribution's tail and observe the 99.9% loss. What does this tell you about model risk?</li>
+    <li>Was the Basel Committee right to replace internal models with a standardised formula? Use Cope et al. and Peters et al. to argue both sides.</li>
+    <li>If minimum capital is now set by formula, what is the remaining value of loss distribution modelling for an Australian bank or super fund?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="artzner-1999 chernobai-2011 cope-2009">
+    <li>Artzner, P., Delbaen, F., Eber, J.-M., &amp; Heath, D. (1999). Coherent measures of risk. <em>Mathematical Finance</em>, <em>9</em>(3), 203–228. <a href="https://doi.org/10.1111/1467-9965.00068">https://doi.org/10.1111/1467-9965.00068</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Proposes four properties a sensible risk measure should have (the 'coherence' axioms) and shows that value at risk can fail one of them, subadditivity, so it can penalise diversification.</span></li>
+    <li>Chernobai, A., Jorion, P., &amp; Yu, F. (2011). The determinants of operational risk in U.S. financial institutions. <em>Journal of Financial and Quantitative Analysis</em>, <em>46</em>(6), 1683–1725. <a href="https://doi.org/10.1017/S0022109011000500">https://doi.org/10.1017/S0022109011000500</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Using publicly reported losses from 1980 to 2005, finds most operational losses trace to breakdowns of internal control, and that losses are more likely at younger, more complex firms with higher credit risk and stronger CEO option-based pay.</span></li>
+    <li>Cope, E. W., Mignola, G., Antonini, G., &amp; Ugoccioni, R. (2009). Challenges and pitfalls in measuring operational risk from loss data. <em>Journal of Operational Risk</em>, <em>4</em>(4), 3–27. <a href="https://doi.org/10.21314/JOP.2009.069">https://doi.org/10.21314/JOP.2009.069</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Shows how hard it is to estimate operational risk at very high quantiles such as 99.9% from the loss data banks actually have, and how unstable model results and validation can be.</span></li>
+  </ul>
+
   <section class="related" aria-labelledby="related-h">
     <h2 id="related-h">Related topics</h2>
     <ul>
@@ -214,6 +261,21 @@
     </ul>
   </section>
 
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-acerbi-2002">Acerbi, C., &amp; Tasche, D. (2002). On the coherence of expected shortfall. <em>Journal of Banking &amp; Finance</em>, <em>26</em>(7), 1487–1503. <a href="https://doi.org/10.1016/S0378-4266(02)00283-2">https://doi.org/10.1016/S0378-4266(02)00283-2</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-artzner-1999">Artzner, P., Delbaen, F., Eber, J.-M., &amp; Heath, D. (1999). Coherent measures of risk. <em>Mathematical Finance</em>, <em>9</em>(3), 203–228. <a href="https://doi.org/10.1111/1467-9965.00068">https://doi.org/10.1111/1467-9965.00068</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-chernobai-2011">Chernobai, A., Jorion, P., &amp; Yu, F. (2011). The determinants of operational risk in U.S. financial institutions. <em>Journal of Financial and Quantitative Analysis</em>, <em>46</em>(6), 1683–1725. <a href="https://doi.org/10.1017/S0022109011000500">https://doi.org/10.1017/S0022109011000500</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-cope-2009">Cope, E. W., Mignola, G., Antonini, G., &amp; Ugoccioni, R. (2009). Challenges and pitfalls in measuring operational risk from loss data. <em>Journal of Operational Risk</em>, <em>4</em>(4), 3–27. <a href="https://doi.org/10.21314/JOP.2009.069">https://doi.org/10.21314/JOP.2009.069</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-defontnouvelle-2006">de Fontnouvelle, P., DeJesus-Rueff, V., Jordan, J. S., &amp; Rosengren, E. S. (2006). Capital and risk: New evidence on implications of large operational losses. <em>Journal of Money, Credit and Banking</em>, <em>38</em>(7), 1819–1846. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=648164">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=648164</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-peters-2016">Peters, G. W., Shevchenko, P. V., Hassani, B., &amp; Chapelle, A. (2016). Should the advanced measurement approach be replaced with the standardized measurement approach for operational risk? <em>Journal of Operational Risk</em>, <em>11</em>(3), 1–49. <a href="https://arxiv.org/abs/1607.02319">https://arxiv.org/abs/1607.02319</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
+
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>
     <ol>
@@ -221,8 +283,6 @@
       <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d424.htm">Basel III: Finalising post-crisis reforms</a> (December 2017).</li>
       <li>Basel Committee on Banking Supervision, <a href="https://www.bis.org/bcbs/publ/d515.htm">Revisions to the Principles for the Sound Management of Operational Risk</a> (March 2021).</li>
       <li>Moscadelli, M. (2004), <a href="https://www.bancaditalia.it/pubblicazioni/temi-discussione/2004/2004-0517/index.html?com.dotmarketing.htmlpage.language=1">The modelling of operational risk: experience with the analysis of the data collected by the Basel Committee</a>, Banca d'Italia Temi di discussione No. 517.</li>
-      <li>Artzner, P., Delbaen, F., Eber, J.-M. and Heath, D. (1999), <a href="https://doi.org/10.1111/1467-9965.00068">Coherent measures of risk</a>, <em>Mathematical Finance</em>, 9(3), 203–228.</li>
-      <li>Acerbi, C. and Tasche, D. (2002), <a href="https://doi.org/10.1016/S0378-4266(02)00283-2">On the coherence of expected shortfall</a>, <em>Journal of Banking &amp; Finance</em>, 26(7), 1487–1503.</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-114">Prudential Standard SPS 114 Operational Risk Financial Requirement</a>.</li>
     </ol>
   </section>
