@@ -294,6 +294,49 @@ REFS = {
         note="A survey of 160 IT managers comparing organisations that switched provider, brought services back in-house or stayed, and the factors behind each decision, including switching costs."),
 
     # ---------- Regulation, compliance and enforcement ----------
+    "stigler-1971": dict(
+        kind="article", authors=["Stigler, G. J."], year=1971, title="The theory of economic regulation",
+        journal="The Bell Journal of Economics and Management Science", volume="2", issue="1", pages="3–21", doi="10.2307/3003160",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Argues that regulation is often acquired by the industry it regulates and designed and operated primarily for its benefit: the foundation of 'regulatory capture' theory."),
+    "baldwin-2008": dict(
+        kind="article", authors=["Baldwin, R.", "Black, J."], year=2008, title="Really responsive regulation",
+        journal="The Modern Law Review", volume="71", issue="1", pages="59–94", doi="10.1111/j.1468-2230.2008.00681.x",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Extends responsive regulation: regulators should respond not only to a firm's attitude but to its operating and cognitive frameworks, the institutional environment, the logic of different tools and how all of these change."),
+    "black-2010": dict(
+        kind="article", authors=["Black, J.", "Baldwin, R."], year=2010, title="Really responsive risk-based regulation",
+        journal="Law & Policy", volume="32", issue="2", pages="181–213", doi="10.1111/j.1467-9930.2010.00318.x",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Examines risk-based regulation, where regulators target resources at the greatest risks, and how it can be made responsive to complex problems, including lower-risk firms that still need attention."),
+    "mascini-2013": dict(
+        kind="article", authors=["Mascini, P."], year=2013, title="Why was the enforcement pyramid so influential? And what price was paid?",
+        journal="Regulation & Governance", volume="7", issue="1", pages="48–60", doi="10.1111/rego.12003", topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Argues the enforcement pyramid became influential because it endorsed regulators' professional autonomy and offered practical tools, but that reducing responsive regulation to the pyramid neglected its wider normative questions."),
+    "ayres-1992": dict(
+        kind="book", authors=["Ayres, I.", "Braithwaite, J."], year=1992, title="Responsive regulation: Transcending the deregulation debate",
+        publisher="Oxford University Press", topics=["regulation"], pr=False, checked="2026-09-30",
+        note="The classic statement of responsive regulation and the enforcement pyramid: start with persuasion and escalate to tougher sanctions only when firms don't cooperate."),
+    "fama-1983": dict(
+        kind="article", authors=["Fama, E. F.", "Jensen, M. C."], year=1983, title="Separation of ownership and control",
+        journal="The Journal of Law and Economics", volume="26", issue="2", pages="301–325", doi="10.1086/467037", topics=["governance"], pr=True, checked="2026-09-30",
+        note="Explains how organisations separate decision management from decision control, with boards ratifying and monitoring decisions, and applies this to corporations, partnerships, mutuals and not-for-profits."),
+    "davis-1997": dict(
+        kind="article", authors=["Davis, J. H.", "Schoorman, F. D.", "Donaldson, L."], year=1997, title="Toward a stewardship theory of management",
+        journal="Academy of Management Review", volume="22", issue="1", pages="20–47", doi="10.5465/amr.1997.9707180258", topics=["governance"], pr=True, checked="2026-09-30",
+        note="Sets out stewardship theory as an alternative to agency theory: managers can be motivated to act in the organisation's interest, so governance should empower as well as control."),
+    "donaldson-1991": dict(
+        kind="article", authors=["Donaldson, L.", "Davis, J. H."], year=1991, title="Stewardship theory or agency theory: CEO governance and shareholder returns",
+        journal="Australian Journal of Management", volume="16", issue="1", pages="49–64", doi="10.1177/031289629101600103", topics=["governance"], pr=True, checked="2026-09-30",
+        note="An early test comparing agency and stewardship theory on whether the CEO should also chair the board: the results did not support agency theory and gave some support to stewardship theory."),
+    "donaldson-1995": dict(
+        kind="article", authors=["Donaldson, T.", "Preston, L. E."], year=1995, title="The stakeholder theory of the corporation: Concepts, evidence, and implications",
+        journal="Academy of Management Review", volume="20", issue="1", pages="65–91", doi="10.5465/amr.1995.9503271992", topics=["governance"], pr=True, checked="2026-09-30",
+        note="Distinguishes descriptive, instrumental and normative versions of stakeholder theory and argues the normative base, why stakeholders' interests matter in their own right, is fundamental."),
+    "hillman-2003": dict(
+        kind="article", authors=["Hillman, A. J.", "Dalziel, T."], year=2003, title="Boards of directors and firm performance: Integrating agency and resource dependence perspectives",
+        journal="Academy of Management Review", volume="28", issue="3", pages="383–396", doi="10.5465/amr.2003.10196729", topics=["governance"], pr=True, checked="2026-09-30",
+        note="Integrates two board roles, monitoring management and providing resources such as expertise and networks, and argues that directors' human and social capital affects both."),
     "nagin-2013": dict(
         kind="article", authors=["Nagin, D. S."], year=2013, title="Deterrence in the twenty-first century",
         journal="Crime and Justice", volume="42", pages="199–263", doi="10.1086/670398", topics=["regulation"], pr=True, checked="2026-09-30",
