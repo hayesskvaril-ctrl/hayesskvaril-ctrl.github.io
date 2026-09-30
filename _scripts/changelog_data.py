@@ -8,6 +8,8 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-09-30", "", "All 25 Advanced pages upgraded to university level: learning outcomes, a Theory and research section grounded in peer-reviewed studies, critical perspectives, seminar questions, further reading and APA references."),
+    ("2026-09-30", "/learn/research-library.html", "New Research library: over 100 checked research sources behind the Advanced pages, grouped by topic with plain-English summaries."),
     ("2026-09-30", "/learn/videos.html", "New Videos page: 14 short explainer videos with captions and full transcripts, from the risk management loop and the Three Lines model to misleading conduct, root causes, unit pricing errors and the denominator effect, plus official videos from AUSTRAC and the ACNC."),
     ("2026-09-30", "", "Explainer videos added to 33 topic pages, next to the detail they explain. Each video can be downloaded for training, and official regulator videos only load from YouTube when you press play."),
     ("2026-09-28", "/learn/by-level.html", "New Browse by level page, with a clear definition of Beginner, Intermediate and Advanced, and every page grouped by level."),

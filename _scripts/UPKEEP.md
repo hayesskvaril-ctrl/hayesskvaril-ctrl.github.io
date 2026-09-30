@@ -43,6 +43,7 @@ Then commit, push to `main`, and check the live page.
 - [ ] Update wording that has become out of date ("proposed", "from next year", "upcoming").
 - [ ] Update the "Last reviewed" date. `sync_layout.py` stamps the new "Next review due" date.
 - [ ] Update related quiz questions, flashcards and scenarios so they match the page.
+- [ ] For Advanced pages, check for important newer research on the topic (and retractions of cited studies), and update Theory and research, Critical perspectives and the reference register.
 - [ ] If the page has an explainer video, check every fact in it too. To change a video, edit its scene file in `_scripts/video/specs/`, re-render it and rebuild (see the table below).
 - [ ] Check downloadable templates that relate to the page (see `_scripts/templates/README.md`), rebuild them and recalculate them with LibreOffice.
 - [ ] If Nick has signed off the page, add it to `_scripts/expert_reviews.py` with the date. Expert sign-offs older than 12 months are flagged by `review_report.py`.
@@ -67,6 +68,7 @@ Then commit, push to `main`, and check the live page.
 | A page's level, or a new page | `python3 _scripts/build_levels.py` (Browse by level) |
 | Resource library list, or a new tool or self-check | `python3 _scripts/build_resources.py` |
 | What's new entries | `python3 _scripts/build_changelog.py` |
+| Research sources (`references.py`) or citations on a page | `python3 _scripts/build_references.py` (fills citations, reference lists and the Research library) |
 | An explainer video's scene file (`_scripts/video/specs/`), or the official video list | Start a local server (`python3 -m http.server 8765` in the site folder), then `node _scripts/video/render.js <name>` and `python3 _scripts/build_videos.py`. Preview a video's scenes first with `node _scripts/video/render.js --preview <name>` (pictures go to `/tmp/rl-preview`). Needs Playwright and `pip install imageio-ffmpeg`. |
 | A spreadsheet or Word template | see `_scripts/templates/README.md` |
 | Anything | `python3 _scripts/sync_layout.py && python3 _scripts/check_links.py` |

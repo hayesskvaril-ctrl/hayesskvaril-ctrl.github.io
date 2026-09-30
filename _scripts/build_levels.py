@@ -21,8 +21,8 @@ LEVELS = [
      "Assumes the Foundations. Covers specific obligations, processes, timeframes and practical tools.",
      "Working practitioners who need to apply requirements day to day."),
     ("Advanced", "How do you exercise judgement when it's hard?",
-     "Assumes working knowledge. Legal tests and case law, quantitative methods, design trade-offs, grey areas, research evidence, interactions between regimes, and board and regulator perspectives.",
-     "Senior practitioners, specialists, board members and postgraduate students."),
+     "University level. Assumes working knowledge. Legal tests and case law, quantitative methods, design trade-offs, grey areas, interactions between regimes, and board and regulator perspectives. Every Advanced page has learning outcomes, a Theory and research section grounded in at least three peer-reviewed studies, critical perspectives, seminar questions and full APA references.",
+     "Senior practitioners, specialists, board members, and undergraduate and postgraduate students."),
 ]
 
 

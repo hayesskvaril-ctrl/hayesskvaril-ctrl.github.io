@@ -297,16 +297,16 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - References in a consistent academic style (APA 7th), with DOI links.
 
 **Infrastructure**
-- [ ] Reference register (`_scripts/references.py`) of checked peer-reviewed sources, reused across pages
-- [ ] Automated check: every Advanced page cites at least three peer-reviewed sources from the register (added to `run_checks.py`)
-- [ ] Research library page: an annotated reading list by topic, generated from the register
-- [ ] Update the level rubric, CLAUDE.md content standards and the Browse by level page to reflect the university-level standard
+- [x] Reference register (`_scripts/references.py`) of checked peer-reviewed sources, reused across pages
+- [x] Automated check: every Advanced page cites at least three peer-reviewed sources from the register (added to `run_checks.py`)
+- [x] Research library page: an annotated reading list by topic, generated from the register
+- [x] Update the level rubric, CLAUDE.md content standards and the Browse by level page to reflect the university-level standard
 
 **Upgrade the existing Advanced pages to the standard** (all 25)
-- [ ] Risk management (12 pages)
-- [ ] Compliance (6 pages)
-- [ ] Governance (4 pages)
-- [ ] Standards, sectors and case studies (5 pages)
+- [x] Risk management (11 pages)
+- [x] Compliance (6 pages)
+- [x] Governance (4 pages)
+- [x] Standards, sectors and case studies (4 pages)
 
 **New university-level pages**
 - [ ] Theories of regulation: responsive, risk-based and principles-based regulation
