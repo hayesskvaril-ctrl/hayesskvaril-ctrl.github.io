@@ -59,7 +59,7 @@
   <p class="summary">A practical method for tracing a critical operation from start to finish, recording what it depends on, and finding the single points of failure, with a worked super fund example.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 15 minutes</span>
+    <span>About 18 minutes</span>
     <span>Last reviewed: 28 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>For every serious failure, check the workaround's capacity against the tolerance level's minimum service levels.</li>
       <li>Maps are only useful if they drive tolerance setting, scenario testing and change assessments, and are kept up to date.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Identify critical operations and map the people, processes, technology, information, facilities and service providers they depend on.</li>
+      <li>Use a dependency map to find single points of failure and assess workarounds and their capacity.</li>
+      <li>Place operational resilience in the history of business continuity management and in resilience research.</li>
+      <li>Critically assess the limits of mapping, including hidden dependencies and the difference between a map and real capability.</li>
+    </ol>
   </aside>
 
 <h2>The idea in plain English</h2>
@@ -160,6 +171,36 @@
     <li><strong>Maps that sit on a shelf.</strong> A map is only useful if it drives tolerance levels, scenario tests, change assessments and investment decisions.</li>
   </ul>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>From disaster recovery to operational resilience</h3>
+  <p>CPS 230's focus on critical operations is the latest stage in a long evolution. <a class="cite narrative" href="#ref-herbane-2010">Herbane (2010)</a> traces business continuity management from 1970s IT disaster recovery, through business-wide continuity planning, to organisational resilience as the organising idea, and shows how each shift was driven by major events and regulation. The key conceptual change is from protecting <em>assets</em> (a data centre, a building) to protecting <em>services</em> that customers and members depend on. Mapping critical operations end to end is the practical expression of that change.</p>
+
+  <h3>What resilience research adds</h3>
+  <p>Resilience is a crowded concept. <a class="cite narrative" href="#ref-linnenluecke-2017">Linnenluecke (2017)</a> reviewed influential research and found five distinct streams, from responses to external threats and organisational reliability to business model adaptability and supply chain vulnerability, with little agreement on definitions or measures. <a class="cite narrative" href="#ref-annarelli-2016">Annarelli and Nonino (2016)</a> distinguish <em>strategic</em> resilience (anticipating and adapting to change) from <em>operational</em> resilience (keeping critical processes running through disruption), which is the sense CPS 230 uses. <a class="cite narrative" href="#ref-williams-2017">Williams et al. (2017)</a> argue that how an organisation responds in a crisis depends heavily on capabilities built beforehand, such as slack resources, rehearsed routines and relationships. A dependency map identifies what could fail; it does not by itself create the capability to respond.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>Maps show what you know.</strong> Dependencies you haven't identified, such as a provider's own subcontractors or a shared cloud region, are exactly the ones that surprise you. Mapping is only as good as the discovery process behind it.</li>
+    <li><strong>Resilience is hard to measure.</strong> Researchers disagree on how to define and measure it. Most organisations rely on tests and scenarios as proxies, which may not reflect a real, messy disruption.</li>
+    <li><strong>Redundancy costs money.</strong> Removing single points of failure often means paying for capacity that sits idle. There is little research on how organisations, or regulators, should weigh that cost against the harm avoided.</li>
+    <li><strong>Documentation can crowd out capability.</strong> A detailed map and plan can create comfort without the rehearsed routines and decision rights that matter in a crisis, the point made by Williams and colleagues.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Using the explorer on this page, find the single points of failure in the benefit payment example. Which would you fix first, and how would you justify the cost?</li>
+    <li>Herbane describes a shift from protecting assets to protecting services. What changes in practice when a fund maps "paying a benefit" rather than "the administration platform"?</li>
+    <li>Which of Linnenluecke's five streams of resilience research is most relevant to CPS 230, and which is missing from it?</li>
+    <li>How could you test whether a mapped workaround would really work at the volumes needed during a disruption?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="herbane-2010 annarelli-2016 williams-2017">
+    <li>Herbane, B. (2010). The evolution of business continuity management: A historical review of practices and drivers. <em>Business History</em>, <em>52</em>(6), 978–1002. <a href="https://doi.org/10.1080/00076791.2010.511185">https://doi.org/10.1080/00076791.2010.511185</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Traces business continuity management from 1970s IT disaster recovery to an organisation-wide discipline, showing how major events and regulation drove each phase and how 'resilience' became the organising idea.</span></li>
+    <li>Annarelli, A., &amp; Nonino, F. (2016). Strategic and operational management of organizational resilience: Current state of research and future directions. <em>Omega</em>, <em>62</em>, 1–18. <a href="https://doi.org/10.1016/j.omega.2015.08.004">https://doi.org/10.1016/j.omega.2015.08.004</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">A systematic review and co-citation analysis of organisational resilience research, distinguishing strategic resilience (preparing and adapting) from operational resilience (keeping critical processes running).</span></li>
+    <li>Williams, T. A., Gruber, D. A., Sutcliffe, K. M., Shepherd, D. A., &amp; Zhao, E. Y. (2017). Organizational response to adversity: Fusing crisis management and resilience research streams. <em>Academy of Management Annals</em>, <em>11</em>(2), 733–769. <a href="https://doi.org/10.5465/annals.2015.0134">https://doi.org/10.5465/annals.2015.0134</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Brings together crisis management and resilience research to explain how organisations anticipate, respond to and recover from adversity, and why capabilities built before a crisis shape the response.</span></li>
+  </ul>
+
   <div class="widget quiz">
     <h3>Check your understanding</h3>
     <div class="q" data-answer="b">
@@ -193,6 +234,19 @@
       <li data-href="/tools/material-service-provider-register.html" data-label="Material service provider register"><a href="/tools/material-service-provider-register.html">Material service provider register</a></li>
     </ul>
   </section>
+
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-annarelli-2016">Annarelli, A., &amp; Nonino, F. (2016). Strategic and operational management of organizational resilience: Current state of research and future directions. <em>Omega</em>, <em>62</em>, 1–18. <a href="https://doi.org/10.1016/j.omega.2015.08.004">https://doi.org/10.1016/j.omega.2015.08.004</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-herbane-2010">Herbane, B. (2010). The evolution of business continuity management: A historical review of practices and drivers. <em>Business History</em>, <em>52</em>(6), 978–1002. <a href="https://doi.org/10.1080/00076791.2010.511185">https://doi.org/10.1080/00076791.2010.511185</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-linnenluecke-2017">Linnenluecke, M. K. (2017). Resilience in business and management research: A review of influential publications and a research agenda. <em>International Journal of Management Reviews</em>, <em>19</em>(1), 4–30. <a href="https://doi.org/10.1111/ijmr.12076">https://doi.org/10.1111/ijmr.12076</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-williams-2017">Williams, T. A., Gruber, D. A., Sutcliffe, K. M., Shepherd, D. A., &amp; Zhao, E. Y. (2017). Organizational response to adversity: Fusing crisis management and resilience research streams. <em>Academy of Management Annals</em>, <em>11</em>(2), 733–769. <a href="https://doi.org/10.5465/annals.2015.0134">https://doi.org/10.5465/annals.2015.0134</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
 
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>

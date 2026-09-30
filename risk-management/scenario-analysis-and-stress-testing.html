@@ -59,7 +59,7 @@
   <p class="summary">How organisations test what would happen in a severe but plausible crisis, and work backwards from failure to find the scenarios that would break them.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 15 minutes</span>
+    <span>About 19 minutes</span>
     <span>Last reviewed: 27 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>The value is in the decisions a test leads to: changes to limits, buffers, contingency plans or strategy. A test that changes nothing has usually been too mild.</li>
       <li>Common failures are optimistic assumptions, scenarios built in silos, and giving too much credit for management actions that might not work in a real crisis.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Distinguish sensitivity analysis, scenario analysis, stress testing and reverse stress testing, and explain what each can and can't show.</li>
+      <li>Design a severe but plausible scenario and explain how to make 'plausible' systematic rather than arbitrary.</li>
+      <li>Evaluate the research evidence on whether stress tests work as early warning tools.</li>
+      <li>Critically assess the organisational and behavioural limits of scenario work.</li>
+    </ol>
   </aside>
 
   <h2>The toolkit, from simple to demanding</h2>
@@ -194,6 +205,39 @@
     <li><strong>Poor documentation.</strong> Assumptions and their basis aren't recorded, so results can't be challenged or reproduced.</li>
   </ul>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>Many techniques under one name</h3>
+  <p>"Scenario analysis" covers very different practices. <a class="cite narrative" href="#ref-bradfield-2005">Bradfield et al. (2005)</a> trace scenario methods back to military planning and Shell's corporate planning, and classify them into distinct schools with different purposes: some aim to explore possible futures and challenge assumptions, others to produce probabilistic forecasts. Regulatory stress testing borrows the language of the first and the machinery of the second. Being clear which one you are doing helps. A scenario meant to challenge a board's thinking should be judged by the questions it provokes, not by whether it "came true".</p>
+
+  <h3>Choosing severe but plausible scenarios</h3>
+  <p>Most scenarios are chosen by experts in workshops, which invites the biases described on the <a class="xref" href="/risk-management/human-factors-and-bias.html">human factors</a> page: availability (last year's crisis), anchoring (last year's scenario) and the inside view (<a class="cite" href="#ref-kahneman-1993">Kahneman &amp; Lovallo, 1993</a>). <a class="cite narrative" href="#ref-breuer-2009">Breuer et al. (2009)</a> proposed a more systematic approach for financial risks: define a region of plausible scenarios statistically, then search within it for the scenario that does the most damage to the actual portfolio. Their point applies beyond financial models. Hand-picked scenarios often miss the combination of events that hurts most, which is also the logic behind reverse stress testing.</p>
+
+  <h3>Do stress tests work?</h3>
+  <p><a class="cite narrative" href="#ref-borio-2014">Borio et al. (2014)</a> asked whether macro stress tests live up to expectations. Their answer was sobering: tests run before the global financial crisis did not flag the vulnerabilities that mattered, because the models could not capture the non-linear, self-reinforcing dynamics of real crises, such as fire sales and funding runs. They concluded that stress tests are more useful for managing a crisis, for example to check whether banks have enough capital once trouble is visible, than for predicting one. For organisations running their own scenarios, the lesson is to treat results as a test of resilience under stated assumptions, not a forecast, and to look hardest at the feedback loops the model leaves out.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>"Plausible" is a judgement.</strong> Severe-but-plausible has no objective definition. Too plausible, and the test reassures; too severe, and it is dismissed. Documenting why a scenario was chosen, and who challenged it, matters as much as the result.</li>
+    <li><strong>Models miss feedback loops.</strong> Real crises involve behaviour changing in response to the crisis itself: customers leaving, counterparties withdrawing, staff unavailable. Few scenario models capture this, which is the core of the critique by Borio and colleagues.</li>
+    <li><strong>Stress tests can become compliance exercises.</strong> When the main audience is the regulator, the incentive is to pass. The <em>Common weaknesses</em> list above describes the symptoms.</li>
+    <li><strong>Operational scenarios have little data.</strong> Most research concerns financial stress tests. There is less evidence on how well operational and business continuity scenarios, such as those CPS 230 requires, predict real disruptions.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Choose an operational risk for an Australian super fund and write a severe but plausible scenario. How would you defend it against the charge that it is either too mild or too extreme?</li>
+    <li>Borio and colleagues argue stress tests are better for crisis management than early warning. Does the same apply to CPS 230 scenario analysis? Why or why not?</li>
+    <li>How could Breuer and colleagues' idea of a systematic search for the worst plausible scenario be adapted to non-financial risks?</li>
+    <li>Reverse stress testing starts from failure and works backwards. What biases might this help overcome, and what new ones might it introduce?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="borio-2014 breuer-2009 bradfield-2005">
+    <li>Borio, C., Drehmann, M., &amp; Tsatsaronis, K. (2014). Stress-testing macro stress testing: Does it live up to expectations? <em>Journal of Financial Stability</em>, <em>12</em>, 3–15. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1572308913000454">https://www.sciencedirect.com/science/article/abs/pii/S1572308913000454</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Argues that macro stress tests before the 2008 crisis failed to flag the vulnerabilities that mattered, because models could not capture the non-linear, self-reinforcing dynamics of real crises; stress tests are better at crisis management than at early warning.</span></li>
+    <li>Breuer, T., Jandačka, M., Rheinberger, K., &amp; Summer, M. (2009). How to find plausible, severe, and useful stress scenarios. <em>International Journal of Central Banking</em>, <em>5</em>(3), 205–224. <a href="https://www.ijcb.org/journal/ijcb09q3a7.pdf">https://www.ijcb.org/journal/ijcb09q3a7.pdf</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Proposes a systematic search for the worst scenarios within a defined region of plausibility, instead of relying on hand-picked scenarios that may miss the combinations that hurt most.</span></li>
+    <li>Bradfield, R., Wright, G., Burt, G., Cairns, G., &amp; van der Heijden, K. (2005). The origins and evolution of scenario techniques in long range business planning. <em>Futures</em>, <em>37</em>(8), 795–812. <a href="https://doi.org/10.1016/j.futures.2005.01.003">https://doi.org/10.1016/j.futures.2005.01.003</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Traces the history of scenario methods and classifies them into three main schools, showing that 'scenario analysis' covers quite different techniques with different purposes.</span></li>
+  </ul>
+
   <section class="related" aria-labelledby="related-h">
     <h2 id="related-h">Related topics</h2>
     <ul>
@@ -205,6 +249,19 @@
       <li data-href="/sectors/superannuation.html" data-label="Superannuation trustee governance"><a href="/sectors/superannuation.html">Superannuation trustee governance</a></li>
     </ul>
   </section>
+
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-borio-2014">Borio, C., Drehmann, M., &amp; Tsatsaronis, K. (2014). Stress-testing macro stress testing: Does it live up to expectations? <em>Journal of Financial Stability</em>, <em>12</em>, 3–15. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1572308913000454">https://www.sciencedirect.com/science/article/abs/pii/S1572308913000454</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-bradfield-2005">Bradfield, R., Wright, G., Burt, G., Cairns, G., &amp; van der Heijden, K. (2005). The origins and evolution of scenario techniques in long range business planning. <em>Futures</em>, <em>37</em>(8), 795–812. <a href="https://doi.org/10.1016/j.futures.2005.01.003">https://doi.org/10.1016/j.futures.2005.01.003</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-breuer-2009">Breuer, T., Jandačka, M., Rheinberger, K., &amp; Summer, M. (2009). How to find plausible, severe, and useful stress scenarios. <em>International Journal of Central Banking</em>, <em>5</em>(3), 205–224. <a href="https://www.ijcb.org/journal/ijcb09q3a7.pdf">https://www.ijcb.org/journal/ijcb09q3a7.pdf</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-kahneman-1993">Kahneman, D., &amp; Lovallo, D. (1993). Timid choices and bold forecasts: A cognitive perspective on risk taking. <em>Management Science</em>, <em>39</em>(1), 17–31. <a href="https://doi.org/10.1287/mnsc.39.1.17">https://doi.org/10.1287/mnsc.39.1.17</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
 
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>

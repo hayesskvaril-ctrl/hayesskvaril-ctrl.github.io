@@ -59,7 +59,7 @@
   <p class="summary">Why <a class="term" href="/glossary/#liquidity-risk">liquidity risk</a> in super is distinctive, how the <a class="term" href="/glossary/#denominator-effect">denominator effect</a> and stale valuations catch funds out, and how to design stress tests that matter, with a simulator.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 15 minutes</span>
+    <span>About 19 minutes</span>
     <span>Last reviewed: 28 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>Stale valuations can transfer value from members who stay to members who leave. Liquidity and valuation governance are linked.</li>
       <li>Passing a coverage test isn't enough: test timing, behaviour, asset liquidity and whether the strategy can be maintained.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Explain how member switching, rollovers, benefit payments and currency hedging create liquidity demands on a super option.</li>
+      <li>Model the denominator effect and liquidity coverage for a stressed Balanced option.</li>
+      <li>Use research on fund flows, stale valuations and liquidity spirals to explain why liquidity stress can be self-reinforcing.</li>
+      <li>Critically assess the fairness issues between members that arise when illiquid assets are valued with a lag.</li>
+    </ol>
   </aside>
 
   
@@ -169,6 +180,39 @@ Your browser can't play this video. <a href="/assets/video/denominator-effect.mp
     <li><strong>Metrics and limits:</strong> liquidity coverage under stress, unlisted asset ranges and time to restore strategic allocation, each linked to the <a class="term" href="/glossary/#risk-appetite-statement">risk appetite statement</a>.</li>
   </ol>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>First-mover advantage and run risk</h3>
+  <p>Research on pooled investment funds explains why liquidity stress can feed on itself. <a class="cite narrative" href="#ref-chen-2010">Chen et al. (2010)</a> found that outflows from funds holding illiquid assets react more strongly to poor performance than outflows from funds holding liquid assets. The reason is a <em>payoff complementarity</em>: when investors leave, the fund sells assets and bears trading costs, which fall on those who stay, so each investor has more reason to leave if others do. <a class="cite narrative" href="#ref-goldstein-2017">Goldstein et al. (2017)</a> found a similar asymmetry in corporate bond funds, where outflows respond more to bad performance than inflows respond to good performance, which can amplify selling in stressed markets. Super funds differ from these funds (members switch between options within the fund, and most cannot withdraw until retirement), but switching and rollovers create a similar first-mover advantage when unit prices lag reality.</p>
+
+  <h3>Stale valuations</h3>
+  <p>Unlisted assets are valued periodically, so their reported values move slowly. <a class="cite narrative" href="#ref-getmansky-2004">Getmansky et al. (2004)</a> showed that the smooth, serially correlated returns of funds holding illiquid assets mostly reflect this smoothing rather than genuinely low risk. Smoothed values understate volatility and, in a falling market, overstate what the assets are worth. That is the mechanism behind both effects on this page: the denominator effect (unlisted assets become a larger share of the option) and the transfer of value from members who stay to members who leave.</p>
+
+  <h3>Liquidity spirals</h3>
+  <p><a class="cite narrative" href="#ref-brunnermeier-2009">Brunnermeier and Pedersen (2009)</a> modelled how market liquidity (the ease of selling assets) and funding liquidity (the ease of meeting cash demands) reinforce each other: selling to meet cash needs pushes prices down, which raises margin and collateral demands, which forces more selling. For super funds, currency hedge settlements are the clearest example. When the Australian dollar falls sharply, hedging contracts can require large cash payments at the same time as listed markets fall and members switch to cash, which is what happened in March 2020.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>The research is mostly about other funds.</strong> The flow studies use US mutual fund data. Australian super has compulsory contributions, preservation rules and within-fund switching, so the size of these effects in super is an empirical question with limited published research.</li>
+    <li><strong>Behavioural assumptions dominate.</strong> The most important inputs to a liquidity stress test, switching and rollover rates, depend on member behaviour in a crisis, which past data may not predict, especially with faster digital switching and advice tools.</li>
+    <li><strong>Fairness and liquidity pull in different directions.</strong> Revaluing unlisted assets quickly protects remaining members but can lock in losses early; waiting risks unfairness. There is no consensus on the right frequency, which is why APRA has focused on valuation governance.</li>
+    <li><strong>Unlisted assets may genuinely be less volatile.</strong> Some argue that long-term investors are right to look through short-term market falls. The counter-argument is that a fund must still pay members who leave at a fair price today.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Using the simulator, find settings where the option passes its liquidity coverage test but breaches its unlisted asset maximum. What should the trustee do?</li>
+    <li>Explain Chen, Goldstein and Jiang's payoff complementarity in the context of member switching between super options. What design features could reduce the first-mover advantage?</li>
+    <li>How would you use Getmansky, Lo and Makarov's insight about smoothed returns when reviewing an option's reported volatility and risk label?</li>
+    <li>Reconstruct the liquidity pressures on a large super fund in March 2020 using Brunnermeier and Pedersen's idea of a liquidity spiral. Which feedback loops were present?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="chen-2010 getmansky-2004 brunnermeier-2009">
+    <li>Chen, Q., Goldstein, I., &amp; Jiang, W. (2010). Payoff complementarities and financial fragility: Evidence from mutual fund outflows. <em>Journal of Financial Economics</em>, <em>97</em>(2), 239–262. <a href="https://doi.org/10.1016/j.jfineco.2010.03.016">https://doi.org/10.1016/j.jfineco.2010.03.016</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Funds holding illiquid assets see outflows respond more strongly to poor performance, because investors who leave early impose trading costs on those who stay: evidence of first-mover advantage and run risk.</span></li>
+    <li>Getmansky, M., Lo, A. W., &amp; Makarov, I. (2004). An econometric model of serial correlation and illiquidity in hedge fund returns. <em>Journal of Financial Economics</em>, <em>74</em>(3), 529–609. <a href="https://doi.org/10.1016/j.jfineco.2004.04.001">https://doi.org/10.1016/j.jfineco.2004.04.001</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Shows that smooth, serially correlated returns in funds holding illiquid assets mostly reflect stale or smoothed valuations, which understate true volatility and overstate risk-adjusted performance.</span></li>
+    <li>Brunnermeier, M. K., &amp; Pedersen, L. H. (2009). Market liquidity and funding liquidity. <em>The Review of Financial Studies</em>, <em>22</em>(6), 2201–2238. <a href="https://doi.org/10.1093/rfs/hhn098">https://doi.org/10.1093/rfs/hhn098</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">A model of 'liquidity spirals': when funding tightens, forced selling reduces market liquidity, which tightens funding further, so liquidity can dry up suddenly.</span></li>
+  </ul>
+
   <div class="widget quiz">
     <h3>Check your understanding</h3>
     <div class="q" data-answer="b">
@@ -202,6 +246,19 @@ Your browser can't play this video. <a href="/assets/video/denominator-effect.mp
       <li data-href="/tools/example-risk-appetite-statement.html" data-label="Example risk appetite statement"><a href="/tools/example-risk-appetite-statement.html">Example risk appetite statement</a></li>
     </ul>
   </section>
+
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-brunnermeier-2009">Brunnermeier, M. K., &amp; Pedersen, L. H. (2009). Market liquidity and funding liquidity. <em>The Review of Financial Studies</em>, <em>22</em>(6), 2201–2238. <a href="https://doi.org/10.1093/rfs/hhn098">https://doi.org/10.1093/rfs/hhn098</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-chen-2010">Chen, Q., Goldstein, I., &amp; Jiang, W. (2010). Payoff complementarities and financial fragility: Evidence from mutual fund outflows. <em>Journal of Financial Economics</em>, <em>97</em>(2), 239–262. <a href="https://doi.org/10.1016/j.jfineco.2010.03.016">https://doi.org/10.1016/j.jfineco.2010.03.016</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-getmansky-2004">Getmansky, M., Lo, A. W., &amp; Makarov, I. (2004). An econometric model of serial correlation and illiquidity in hedge fund returns. <em>Journal of Financial Economics</em>, <em>74</em>(3), 529–609. <a href="https://doi.org/10.1016/j.jfineco.2004.04.001">https://doi.org/10.1016/j.jfineco.2004.04.001</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-goldstein-2017">Goldstein, I., Jiang, H., &amp; Ng, D. T. (2017). Investor flows and fragility in corporate bond funds. <em>Journal of Financial Economics</em>, <em>126</em>(3), 592–613. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X17302325">https://www.sciencedirect.com/science/article/abs/pii/S0304405X17302325</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
 
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>

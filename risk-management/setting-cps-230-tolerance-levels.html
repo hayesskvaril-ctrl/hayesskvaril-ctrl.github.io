@@ -59,7 +59,7 @@
   <p class="summary">A practical method for deciding how long a critical operation can be disrupted, how much data can be lost, and what service must continue, with worked examples.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 15 minutes</span>
+    <span>About 18 minutes</span>
     <span>Last reviewed: 27 September 2026</span>
   </div>
 
@@ -72,6 +72,17 @@
       <li>If capability falls short, good practice is to close the gap by improving recovery or contingency arrangements, not by loosening the tolerance.</li>
       <li>Document the reasoning and evidence, and revisit tolerances after real disruptions, tests and changes to the business.</li>
     </ul>
+  </aside>
+
+  <aside class="outcomes" aria-labelledby="lo-h">
+    <h2 id="lo-h">Learning outcomes</h2>
+    <p>After working through this page, you should be able to:</p>
+    <ol>
+      <li>Explain the three dimensions of a CPS 230 tolerance level: maximum disruption time, maximum data loss and minimum service levels.</li>
+      <li>Set a tolerance level by assessing harm to members or customers over time, using the builder on this page.</li>
+      <li>Relate tolerance levels to research on operational resilience and organisational response to adversity.</li>
+      <li>Critically assess the judgements and evidence behind tolerance levels, and why they should not simply be set from current recovery capability.</li>
+    </ol>
   </aside>
 
   <p>This page builds on <a href="/risk-management/business-continuity.html">Business continuity</a> and the <a href="/standards/cps-230.html">CPS 230 explainer</a>. It describes one practical method. APRA's standard sets the requirements and its guide, CPG 230, gives guidance, but neither prescribes a single method. Entities take different approaches, and practice is still maturing.</p>
@@ -206,6 +217,36 @@
     <li><strong>Never revisited.</strong> Tolerances should change when the business, member base, providers or technology change.</li>
   </ul>
 
+  <h2 id="theory-and-research">Theory and research</h2>
+  <h3>Tolerance as a statement about harm, not capability</h3>
+  <p>A tolerance level asks when disruption to a critical operation becomes unacceptable to the people who rely on it. This reverses the traditional continuity question, which started from how quickly systems <em>could</em> be recovered. The historical review by <a class="cite narrative" href="#ref-herbane-2010">Herbane (2010)</a> shows why the shift happened: continuity management moved from recovering technology to protecting the services an organisation provides, under pressure from major disruptions and regulators. Setting tolerance from harm, and then testing whether recovery capability meets it, is what gives the concept its force.</p>
+
+  <h3>What resilience research suggests</h3>
+  <p>Research distinguishes operational resilience, keeping critical processes running, from strategic resilience, adapting to change (<a class="cite" href="#ref-annarelli-2016">Annarelli &amp; Nonino, 2016</a>). Tolerance levels are an operational tool, but the research warns against treating them as purely technical targets. <a class="cite narrative" href="#ref-williams-2017">Williams et al. (2017)</a> show that an organisation's response to adversity depends on capabilities built before the event: resources held in reserve, practised routines and the ability to improvise. A tolerance that is only met on paper, by a recovery plan never tested at scale, gives little assurance. <a class="cite narrative" href="#ref-linnenluecke-2017">Linnenluecke (2017)</a> notes that resilience research has little agreement on how to measure resilience, which is one reason regulators focus on scenario testing against tolerance levels rather than a single metric.</p>
+
+  <h2 id="critical-perspectives">Critical perspectives</h2>
+  <ul>
+    <li><strong>Harm is hard to quantify.</strong> How long is too long for a death benefit payment, or a hardship release? The answer involves judgements about vulnerable people that data only partly informs. Documenting who made the judgement, and on what evidence, matters.</li>
+    <li><strong>Anchoring on current capability.</strong> The easiest tolerance to "meet" is one set from the current recovery time. That defeats the purpose. Watch for tolerances that match existing plans suspiciously closely.</li>
+    <li><strong>One number hides variation.</strong> A single maximum disruption time may be tolerable for most members but not for those in hardship or awaiting a death benefit. Minimum service levels during disruption help address this.</li>
+    <li><strong>Limited evidence base.</strong> Impact tolerances are a recent regulatory concept, and we found little published research testing how well they work. Much of the practice is still developing.</li>
+  </ul>
+
+  <h2 id="seminar-questions">Seminar questions</h2>
+  <ol class="seminar-questions">
+    <li>Use the builder to set a tolerance for a critical operation you know. At what point does harm become intolerable, and for whom? Would your answer change for vulnerable members?</li>
+    <li>Why should a tolerance level be set from harm rather than from recovery capability? What happens when the two don't match?</li>
+    <li>Williams and colleagues emphasise capabilities built before a crisis. What capabilities would you need to meet the benefit payment tolerance in worked example 1?</li>
+    <li>How would you present tolerance levels to a board so that directors can challenge the judgements behind them?</li>
+  </ol>
+
+  <h2 id="further-reading">Further reading</h2>
+  <ul class="further-reading" data-refs="herbane-2010 williams-2017 annarelli-2016">
+    <li>Herbane, B. (2010). The evolution of business continuity management: A historical review of practices and drivers. <em>Business History</em>, <em>52</em>(6), 978–1002. <a href="https://doi.org/10.1080/00076791.2010.511185">https://doi.org/10.1080/00076791.2010.511185</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Traces business continuity management from 1970s IT disaster recovery to an organisation-wide discipline, showing how major events and regulation drove each phase and how 'resilience' became the organising idea.</span></li>
+    <li>Williams, T. A., Gruber, D. A., Sutcliffe, K. M., Shepherd, D. A., &amp; Zhao, E. Y. (2017). Organizational response to adversity: Fusing crisis management and resilience research streams. <em>Academy of Management Annals</em>, <em>11</em>(2), 733–769. <a href="https://doi.org/10.5465/annals.2015.0134">https://doi.org/10.5465/annals.2015.0134</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">Brings together crisis management and resilience research to explain how organisations anticipate, respond to and recover from adversity, and why capabilities built before a crisis shape the response.</span></li>
+    <li>Annarelli, A., &amp; Nonino, F. (2016). Strategic and operational management of organizational resilience: Current state of research and future directions. <em>Omega</em>, <em>62</em>, 1–18. <a href="https://doi.org/10.1016/j.omega.2015.08.004">https://doi.org/10.1016/j.omega.2015.08.004</a> <span class="ref-pr">Peer-reviewed</span><br><span class="small">A systematic review and co-citation analysis of organisational resilience research, distinguishing strategic resilience (preparing and adapting) from operational resilience (keeping critical processes running).</span></li>
+  </ul>
+
   <section class="related" aria-labelledby="related-h">
     <h2 id="related-h">Related topics</h2>
     <ul>
@@ -216,6 +257,19 @@
       <li data-href="/risk-management/risk-appetite-and-tolerance.html" data-label="Risk appetite and tolerance"><a href="/risk-management/risk-appetite-and-tolerance.html">Risk appetite and tolerance</a></li>
     </ul>
   </section>
+
+  <!-- REFS:START (built by _scripts/build_references.py from references.py: do not edit by hand) -->
+  <section class="references" aria-labelledby="refs-h">
+    <h2 id="refs-h">References</h2>
+    <p class="small">Research cited on this page, in APA 7th style. Articles marked peer-reviewed were published in peer-reviewed journals. More in the <a href="/learn/research-library.html">Research library</a>.</p>
+    <ul class="ref-list">
+      <li id="ref-annarelli-2016">Annarelli, A., &amp; Nonino, F. (2016). Strategic and operational management of organizational resilience: Current state of research and future directions. <em>Omega</em>, <em>62</em>, 1–18. <a href="https://doi.org/10.1016/j.omega.2015.08.004">https://doi.org/10.1016/j.omega.2015.08.004</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-herbane-2010">Herbane, B. (2010). The evolution of business continuity management: A historical review of practices and drivers. <em>Business History</em>, <em>52</em>(6), 978–1002. <a href="https://doi.org/10.1080/00076791.2010.511185">https://doi.org/10.1080/00076791.2010.511185</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-linnenluecke-2017">Linnenluecke, M. K. (2017). Resilience in business and management research: A review of influential publications and a research agenda. <em>International Journal of Management Reviews</em>, <em>19</em>(1), 4–30. <a href="https://doi.org/10.1111/ijmr.12076">https://doi.org/10.1111/ijmr.12076</a> <span class="ref-pr">Peer-reviewed</span></li>
+      <li id="ref-williams-2017">Williams, T. A., Gruber, D. A., Sutcliffe, K. M., Shepherd, D. A., &amp; Zhao, E. Y. (2017). Organizational response to adversity: Fusing crisis management and resilience research streams. <em>Academy of Management Annals</em>, <em>11</em>(2), 733–769. <a href="https://doi.org/10.5465/annals.2015.0134">https://doi.org/10.5465/annals.2015.0134</a> <span class="ref-pr">Peer-reviewed</span></li>
+    </ul>
+  </section>
+  <!-- REFS:END -->
 
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>

@@ -200,6 +200,99 @@ REFS = {
         topics=["measurement"], pr=False, checked="2026-09-30",
         note="A widely used explanation of why linear correlation is a poor summary of dependence outside normal distributions, and why copulas and tail dependence matter for aggregating risks."),
 
+    "borio-2014": dict(
+        kind="article", authors=["Borio, C.", "Drehmann, M.", "Tsatsaronis, K."], year=2014,
+        title="Stress-testing macro stress testing: Does it live up to expectations?", journal="Journal of Financial Stability",
+        volume="12", pages="3–15", url="https://www.sciencedirect.com/science/article/abs/pii/S1572308913000454",
+        topics=["measurement"], pr=True, checked="2026-09-30",
+        note="Argues that macro stress tests before the 2008 crisis failed to flag the vulnerabilities that mattered, because models could not capture the non-linear, self-reinforcing dynamics of real crises; stress tests are better at crisis management than at early warning."),
+    "breuer-2009": dict(
+        kind="article", authors=["Breuer, T.", "Jandačka, M.", "Rheinberger, K.", "Summer, M."], year=2009,
+        title="How to find plausible, severe, and useful stress scenarios", journal="International Journal of Central Banking",
+        volume="5", issue="3", pages="205–224", url="https://www.ijcb.org/journal/ijcb09q3a7.pdf",
+        topics=["measurement"], pr=True, checked="2026-09-30",
+        note="Proposes a systematic search for the worst scenarios within a defined region of plausibility, instead of relying on hand-picked scenarios that may miss the combinations that hurt most."),
+    "bradfield-2005": dict(
+        kind="article", authors=["Bradfield, R.", "Wright, G.", "Burt, G.", "Cairns, G.", "van der Heijden, K."], year=2005,
+        title="The origins and evolution of scenario techniques in long range business planning", journal="Futures",
+        volume="37", issue="8", pages="795–812", doi="10.1016/j.futures.2005.01.003", topics=["measurement"], pr=True, checked="2026-09-30",
+        note="Traces the history of scenario methods and classifies them into three main schools, showing that 'scenario analysis' covers quite different techniques with different purposes."),
+
+    # ---------- Liquidity, valuation and unit pricing ----------
+    "chen-2010": dict(
+        kind="article", authors=["Chen, Q.", "Goldstein, I.", "Jiang, W."], year=2010,
+        title="Payoff complementarities and financial fragility: Evidence from mutual fund outflows", journal="Journal of Financial Economics",
+        volume="97", issue="2", pages="239–262", doi="10.1016/j.jfineco.2010.03.016", topics=["liquidity"], pr=True, checked="2026-09-30",
+        note="Funds holding illiquid assets see outflows respond more strongly to poor performance, because investors who leave early impose trading costs on those who stay: evidence of first-mover advantage and run risk."),
+    "goldstein-2017": dict(
+        kind="article", authors=["Goldstein, I.", "Jiang, H.", "Ng, D. T."], year=2017, title="Investor flows and fragility in corporate bond funds",
+        journal="Journal of Financial Economics", volume="126", issue="3", pages="592–613",
+        url="https://www.sciencedirect.com/science/article/abs/pii/S0304405X17302325", topics=["liquidity"], pr=True, checked="2026-09-30",
+        note="Corporate bond funds show a concave flow-performance relationship: outflows react more to bad performance than inflows react to good performance, which can amplify fire sales in stressed markets."),
+    "getmansky-2004": dict(
+        kind="article", authors=["Getmansky, M.", "Lo, A. W.", "Makarov, I."], year=2004,
+        title="An econometric model of serial correlation and illiquidity in hedge fund returns", journal="Journal of Financial Economics",
+        volume="74", issue="3", pages="529–609", doi="10.1016/j.jfineco.2004.04.001", topics=["liquidity"], pr=True, checked="2026-09-30",
+        note="Shows that smooth, serially correlated returns in funds holding illiquid assets mostly reflect stale or smoothed valuations, which understate true volatility and overstate risk-adjusted performance."),
+    "brunnermeier-2009": dict(
+        kind="article", authors=["Brunnermeier, M. K.", "Pedersen, L. H."], year=2009, title="Market liquidity and funding liquidity",
+        journal="The Review of Financial Studies", volume="22", issue="6", pages="2201–2238", doi="10.1093/rfs/hhn098",
+        topics=["liquidity"], pr=True, checked="2026-09-30",
+        note="A model of 'liquidity spirals': when funding tightens, forced selling reduces market liquidity, which tightens funding further, so liquidity can dry up suddenly."),
+    "chalmers-2001": dict(
+        kind="article", authors=["Chalmers, J. M. R.", "Edelen, R. M.", "Kadlec, G. B."], year=2001,
+        title="On the perils of financial intermediaries setting security prices: The mutual fund wild card option", journal="The Journal of Finance",
+        volume="56", issue="6", pages="2209–2236", doi="10.1111/0022-1082.00403", topics=["liquidity"], pr=True, checked="2026-09-30",
+        note="Shows that fund prices set with stale underlying prices are predictable, giving traders a 'wild card option' to buy or sell at yesterday's value at the expense of other investors."),
+    "zitzewitz-2003": dict(
+        kind="article", authors=["Zitzewitz, E."], year=2003, title="Who cares about shareholders? Arbitrage-proofing mutual funds",
+        journal="The Journal of Law, Economics, and Organization", volume="19", issue="2", pages="245–280", doi="10.1093/jleo/ewg011",
+        topics=["liquidity"], pr=True, checked="2026-09-30",
+        note="Estimates that trading on stale fund prices could earn 35–70% a year in international funds, at the expense of long-term investors, and discusses fair value pricing and other fixes."),
+
+    # ---------- Operational resilience, continuity and outsourcing ----------
+    "herbane-2010": dict(
+        kind="article", authors=["Herbane, B."], year=2010, title="The evolution of business continuity management: A historical review of practices and drivers",
+        journal="Business History", volume="52", issue="6", pages="978–1002", doi="10.1080/00076791.2010.511185",
+        topics=["resilience"], pr=True, checked="2026-09-30",
+        note="Traces business continuity management from 1970s IT disaster recovery to an organisation-wide discipline, showing how major events and regulation drove each phase and how 'resilience' became the organising idea."),
+    "linnenluecke-2017": dict(
+        kind="article", authors=["Linnenluecke, M. K."], year=2017, title="Resilience in business and management research: A review of influential publications and a research agenda",
+        journal="International Journal of Management Reviews", volume="19", issue="1", pages="4–30", doi="10.1111/ijmr.12076",
+        topics=["resilience"], pr=True, checked="2026-09-30",
+        note="Reviews influential resilience research from 1977 to 2014 and identifies five streams, from responses to external threats and organisational reliability to supply chain vulnerability, noting little agreement on definitions or measures."),
+    "williams-2017": dict(
+        kind="article", authors=["Williams, T. A.", "Gruber, D. A.", "Sutcliffe, K. M.", "Shepherd, D. A.", "Zhao, E. Y."], year=2017,
+        title="Organizational response to adversity: Fusing crisis management and resilience research streams", journal="Academy of Management Annals",
+        volume="11", issue="2", pages="733–769", doi="10.5465/annals.2015.0134", topics=["resilience"], pr=True, checked="2026-09-30",
+        note="Brings together crisis management and resilience research to explain how organisations anticipate, respond to and recover from adversity, and why capabilities built before a crisis shape the response."),
+    "annarelli-2016": dict(
+        kind="article", authors=["Annarelli, A.", "Nonino, F."], year=2016,
+        title="Strategic and operational management of organizational resilience: Current state of research and future directions",
+        journal="Omega", volume="62", pages="1–18", doi="10.1016/j.omega.2015.08.004", topics=["resilience"], pr=True, checked="2026-09-30",
+        note="A systematic review and co-citation analysis of organisational resilience research, distinguishing strategic resilience (preparing and adapting) from operational resilience (keeping critical processes running)."),
+    "williamson-1979": dict(
+        kind="article", authors=["Williamson, O. E."], year=1979, title="Transaction-cost economics: The governance of contractual relations",
+        journal="The Journal of Law and Economics", volume="22", issue="2", pages="233–261", url="https://chicagounbound.uchicago.edu/jle/vol22/iss2/3/",
+        topics=["resilience", "governance"], pr=True, checked="2026-09-30",
+        note="Explains how uncertainty, frequency and transaction-specific investments shape whether activities are best governed by markets, contracts or in-house, and why specific investments create lock-in."),
+    "aron-2005": dict(
+        kind="article", authors=["Aron, R.", "Clemons, E. K.", "Reddi, S."], year=2005, title="Just right outsourcing: Understanding and managing risk",
+        journal="Journal of Management Information Systems", volume="22", issue="2", pages="37–55",
+        url="https://www.semanticscholar.org/paper/Just-Right-Outsourcing:-Understanding-and-Managing-Aron-Clemons/0fb3901b8ed6e32bb32dcf7ef44677411cd12898",
+        topics=["resilience"], pr=True, checked="2026-09-30",
+        note="Sets out a taxonomy of business process outsourcing risks, including opportunistic behaviour by providers, and argues that splitting work between providers and redesigning processes can reduce them."),
+    "lacity-2009": dict(
+        kind="article", authors=["Lacity, M. C.", "Khan, S. A.", "Willcocks, L. P."], year=2009, title="A review of the IT outsourcing literature: Insights for practice",
+        journal="The Journal of Strategic Information Systems", volume="18", issue="3", pages="130–146", doi="10.1016/j.jsis.2009.06.002",
+        topics=["resilience"], pr=True, checked="2026-09-30",
+        note="Reviews 191 studies of IT outsourcing and draws practical lessons on motives, contracts, relationship management and why outcomes vary."),
+    "whitten-2006": dict(
+        kind="article", authors=["Whitten, D.", "Leidner, D."], year=2006, title="Bringing IT back: An analysis of the decision to backsource or switch vendors",
+        journal="Decision Sciences", volume="37", issue="4", pages="605–621", doi="10.1111/j.1540-5414.2006.00140.x",
+        topics=["resilience"], pr=True, checked="2026-09-30",
+        note="A survey of 160 IT managers comparing organisations that switched provider, brought services back in-house or stayed, and the factors behind each decision, including switching costs."),
+
     # ---------- Judgement, bias and decision-making ----------
     "gigerenzer-2011": dict(
         kind="article", authors=["Gigerenzer, G.", "Gaissmaier, W."], year=2011, title="Heuristic decision making",
