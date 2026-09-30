@@ -5,17 +5,17 @@
 (function () {
   var W = 1280, H = 720;
   var C = {
-    bg: '#05080f', panel: 'rgba(10,17,33,0.92)', heading: '#f2f7ff', text: '#d5e0f0', muted: '#93a4bf',
-    border: 'rgba(125,211,252,0.22)', cyan: '#22d3ee', blue: '#3b82f6', blueBright: '#7cb7ff',
-    violet: '#a78bfa', green: '#34d399', amber: '#fbbf24', red: '#f87171'
+    bg: '#fbfbfd', panel: 'rgba(255,255,255,0.96)', heading: '#1d1d1f', text: '#1d1d1f', muted: '#6e6e73',
+    border: '#d2d2d7', cyan: '#0077a8', blue: '#0071e3', blueBright: '#0066cc',
+    violet: '#5e5ce6', green: '#1d7d36', amber: '#b35c00', red: '#d70015'
   };
   var TONES = {
-    navy: { fill: '#0e1a31', accent: '#7cb7ff' }, blue: { fill: '#0f2447', accent: '#7cb7ff' },
-    cyan: { fill: '#0a2833', accent: '#22d3ee' }, violet: { fill: '#1c1840', accent: '#a78bfa' },
-    green: { fill: '#0c2a25', accent: '#34d399' }, amber: { fill: '#2a2310', accent: '#fbbf24' },
-    red: { fill: '#2c1418', accent: '#f87171' }, grey: { fill: '#141c2c', accent: '#93a4bf' }
+    navy: { fill: '#f5f5f7', accent: '#1d1d1f' }, blue: { fill: '#eaf3fe', accent: '#0066cc' },
+    cyan: { fill: '#e6f4f8', accent: '#0077a8' }, violet: { fill: '#efeffd', accent: '#5e5ce6' },
+    green: { fill: '#ebf7ee', accent: '#1d7d36' }, amber: { fill: '#fff4e5', accent: '#b35c00' },
+    red: { fill: '#fdecec', accent: '#d70015' }, grey: { fill: '#f5f5f7', accent: '#6e6e73' }
   };
-  var FD = "'Space Grotesk', Inter, sans-serif", FB = 'Inter, sans-serif', FM = "'JetBrains Mono', monospace";
+  var FD = 'Inter, sans-serif', FB = 'Inter, sans-serif', FM = 'Inter, sans-serif';
   var STAGE = { x: 70, w: 1140, top: 132, bottom: 548 };
   var CAP = { x: 60, y: 568, w: 1160, h: 124 };
   var spec = null, scenes = [], warnings = [];
@@ -282,13 +282,13 @@
   }
   function frame(inner, sc, lt, gt) {
     var s = '<svg xmlns="http://www.w3.org/2000/svg" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '">';
-    s += '<defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.55" stop-color="#3b82f6"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>' +
-      '<radialGradient id="glow" cx="0.5" cy="0" r="0.7"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.13"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>' +
-      '<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="rgba(125,211,252,0.05)" stroke-width="1"/></pattern></defs>';
-    s += '<rect width="' + W + '" height="' + H + '" fill="' + C.bg + '"/><rect width="' + W + '" height="' + H + '" fill="url(#grid)"/><rect width="' + W + '" height="' + (H * 0.8) + '" fill="url(#glow)"/>';
+    s += '<defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0077ed"/><stop offset="1" stop-color="#0071e3"/></linearGradient>' +
+      
+      '</defs>';
+    s += '<rect width="' + W + '" height="' + H + '" fill="' + C.bg + '"/>';
     // brand bar
-    s += '<g><rect x="48" y="30" width="16" height="16" rx="3" transform="rotate(45 56 38)" fill="url(#grad)"/>' +
-      '<text x="78" y="45" font-family="' + FD + '" font-size="19" font-weight="700" fill="' + C.heading + '">RiskLens <tspan fill="' + C.blueBright + '">Australia</tspan></text>' +
+    s += '<g><circle cx="57" cy="38" r="8.5" fill="#fbfbfd" stroke="#1d1d1f" stroke-width="2.6"/><circle cx="57" cy="38" r="4.6" fill="#0071e3"/>' +
+      '<text x="78" y="45" font-family="' + FD + '" font-size="19" font-weight="700" fill="' + C.heading + '">RiskLens <tspan fill="' + C.muted + '" font-weight="500">Australia</tspan></text>' +
       '<text x="1232" y="44" text-anchor="end" font-family="' + FM + '" font-size="13" font-weight="600" letter-spacing="1.5" fill="' + C.muted + '">' + esc((spec.label || '').toUpperCase()) + '</text></g>';
     var fade = Math.min(prog(lt, 0, 0.35), sc._last ? 1 : 1 - prog(lt, sc.dur - 0.35, 0.35));
     s += g(inner, { opacity: fade });

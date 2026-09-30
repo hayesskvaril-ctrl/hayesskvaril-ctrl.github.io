@@ -198,7 +198,7 @@ def meta_html(text: str, url: str) -> str:
         '<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">',
         '<meta property="og:locale" content="en_AU">',
         '<meta name="twitter:card" content="summary_large_image">',
-        '<meta name="theme-color" content="#05080f">',
+        '<meta name="theme-color" content="#ffffff">',
         '<link rel="icon" href="/favicon.ico" sizes="48x48">',
         '<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">',
         '<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">',
@@ -261,6 +261,48 @@ def apply_review(text: str, url: str) -> str:
     return text
 
 
+# Section artwork: our own 3D renders in /assets/img/ (source: _scripts/graphics/).
+# url -> (image name, dark background?). Stamped after the page's "page-meta" line.
+IMAGES = {
+    "/foundations/": ("foundations", False),
+    "/risk-management/": ("risk-management", False),
+    "/compliance/": ("compliance", False),
+    "/governance/": ("governance", True),
+    "/standards/": ("standards", False),
+    "/sectors/": ("sectors", False),
+    "/case-studies/": ("case-studies", False),
+    "/learn/": ("learn", False),
+    "/start-here/": ("foundations", False),
+    "/learn/videos.html": ("videos", True),
+    "/tools/": ("tools", True),
+    "/news/": ("news", False),
+    "/glossary/": ("glossary", False),
+    "/about/": ("about", False),
+    "/risk-management/cyber-risk.html": ("cyber", True),
+    "/standards/cps-234.html": ("cyber", True),
+    "/standards/essential-eight.html": ("cyber", True),
+    "/risk-management/climate-risk.html": ("climate", False),
+    "/risk-management/climate-risk-research.html": ("climate", False),
+    "/compliance/climate-related-financial-disclosures.html": ("climate", False),
+}
+ART_RE = re.compile(r"\n?<!-- ART:START -->.*?<!-- ART:END -->", re.S)
+META_LINE_RE = re.compile(r'(<div class="page-meta">.*?</div>)', re.S)
+
+
+def art_html(name: str, dark: bool) -> str:
+    cls = "section-art dark" if dark else "section-art"
+    return (f'\n<!-- ART:START -->\n<figure class="{cls}"><img src="/assets/img/{name}-1600.webp" '
+            f'srcset="/assets/img/{name}-800.webp 800w, /assets/img/{name}-1600.webp 1600w" '
+            f'sizes="(max-width: 1024px) 100vw, 980px" width="1600" height="1000" alt="" fetchpriority="high"></figure>\n<!-- ART:END -->')
+
+
+def apply_art(text: str, url: str) -> str:
+    text = ART_RE.sub("", text)
+    if url not in IMAGES or not (ROOT / "assets" / "img" / f"{IMAGES[url][0]}-1600.webp").exists():
+        return text
+    return META_LINE_RE.sub(lambda m: m.group(1) + art_html(*IMAGES[url]), text, count=1)
+
+
 HEADER_RE = re.compile(r"<!-- HEADER:START -->.*?<!-- HEADER:END -->", re.S)
 FOOTER_RE = re.compile(r"<!-- FOOTER:START -->.*?<!-- FOOTER:END -->", re.S)
 
@@ -279,6 +321,7 @@ def main():
         published.append(page)
         new = apply_meta(text, page_url(rel))
         new = apply_review(new, page_url(rel))
+        new = apply_art(new, page_url(rel))
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
         new = FOOTER_RE.sub(lambda m: footer_html(), new)
         new = REL_RE.sub(render_rel, new)

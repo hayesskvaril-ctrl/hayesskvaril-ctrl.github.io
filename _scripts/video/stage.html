@@ -5,9 +5,7 @@
 <title>RiskLens video stage</title>
 <style>
 @font-face { font-family: "Inter"; font-weight: 400 700; src: url("/assets/fonts/inter-latin.woff2") format("woff2"); }
-@font-face { font-family: "Space Grotesk"; font-weight: 500 700; src: url("/assets/fonts/space-grotesk-latin.woff2") format("woff2"); }
-@font-face { font-family: "JetBrains Mono"; font-weight: 500 600; src: url("/assets/fonts/jetbrains-mono-latin.woff2") format("woff2"); }
-html, body { margin: 0; padding: 0; background: #05080f; }
+html, body { margin: 0; padding: 0; background: #fbfbfd; }
 #stage { width: 1280px; height: 720px; overflow: hidden; }
 #stage svg { display: block; }
 /* warm the fonts so canvas measurement is accurate */
@@ -15,7 +13,7 @@ html, body { margin: 0; padding: 0; background: #05080f; }
 </style>
 </head>
 <body>
-<div class="warm"><span style="font-family:Inter;font-weight:400">a</span><span style="font-family:Inter;font-weight:600">a</span><span style="font-family:'Space Grotesk';font-weight:700">a</span><span style="font-family:'JetBrains Mono';font-weight:600">a</span></div>
+<div class="warm"><span style="font-family:Inter;font-weight:400">a</span><span style="font-family:Inter;font-weight:600">a</span><span style="font-family:Inter;font-weight:700">a</span></div>
 <div id="stage"></div>
 <script src="engine.js"></script>
 <script>
@@ -26,7 +24,7 @@ html, body { margin: 0; padding: 0; background: #05080f; }
   s.onload = function () {
     Promise.all([
       document.fonts.load('400 20px Inter'), document.fonts.load('600 20px Inter'),
-      document.fonts.load('700 20px "Space Grotesk"'), document.fonts.load('600 14px "JetBrains Mono"')
+      document.fonts.load('700 20px Inter')
     ]).then(function () { return document.fonts.ready; }).then(function () {
       RLV.load(window.RL_SPEC);
       var t = parseFloat(new URLSearchParams(location.search).get('t') || '0');

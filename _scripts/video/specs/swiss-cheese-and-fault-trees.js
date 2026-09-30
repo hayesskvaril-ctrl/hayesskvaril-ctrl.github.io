@@ -23,13 +23,13 @@ window.RL_SPEC = {
           var slice = '<path d="M' + x + ',' + (y + 20) + ' q60,-30 110,0 l0,300 q-55,-26 -110,0 z" fill="#f5c542" fill-opacity="0.9" stroke="#fbbf24" stroke-width="2"/>';
           holes[i].forEach(function (hPos, k) {
             var hy = hPos[1] + (k === 0 ? (target - hPos[1]) * align : 0);
-            slice += '<ellipse cx="' + (x + 30 + hPos[0] * 0.35) + '" cy="' + (y + 20 + hy) + '" rx="18" ry="24" fill="#05080f"/>';
+            slice += '<ellipse cx="' + (x + 30 + hPos[0] * 0.35) + '" cy="' + (y + 20 + hy) + '" rx="18" ry="24" fill="#fbfbfd"/>';
           });
           slice += A.text(x + 55, y + 340, n, { size: 21, weight: 700, family: A.FD, fill: A.C.heading, anchor: 'middle' }).svg;
           s += A.g(slice, { opacity: p, dy: (1 - p) * 20 });
         });
         var pa = A.prog(lt, 9.2, 2.4);
-        if (pa > 0) s += A.arrow(150, 190 + target, 150 + 1000 * pa, 190 + target, pa, '#f87171', 5);
+        if (pa > 0) s += A.arrow(150, 190 + target, 150 + 1000 * pa, 190 + target, pa, '#ff3b30', 5);
         s += A.g(A.text(1180, 270, 'Incident', { size: 24, weight: 700, family: A.FD, fill: A.C.red, anchor: 'end' }).svg, { opacity: A.prog(lt, 11.4, 0.6) });
         s += A.g(A.text(150, 140, 'Hazard', { size: 21, weight: 700, family: A.FD, fill: A.C.red }).svg, { opacity: A.prog(lt, 8.8, 0.6) });
         return s;
@@ -45,14 +45,14 @@ window.RL_SPEC = {
         };
         var p0 = A.prog(lt, 0.5, 0.6), p1 = A.prog(lt, 2.5, 0.6), p2 = A.prog(lt, 4.5, 0.6), p3 = A.prog(lt, 6.8, 0.6), p4 = A.prog(lt, 8.8, 0.6);
         s += box(470, 138, 340, 86, 'Members charged the wrong fee', '22.1% a year', 'red', p4);
-        s += A.g('<line x1="640" y1="224" x2="640" y2="240" stroke="#a78bfa" stroke-width="2"/><rect x="612" y="240" width="56" height="28" rx="14" fill="#1c1840" stroke="#a78bfa" stroke-width="2"/>' +
+        s += A.g('<line x1="640" y1="224" x2="640" y2="240" stroke="#5e5ce6" stroke-width="2"/><rect x="612" y="240" width="56" height="28" rx="14" fill="#efeffd" stroke="#5e5ce6" stroke-width="2"/>' +
           A.text(640, 245, 'OR', { size: 15, weight: 700, family: A.FM, fill: A.C.violet, anchor: 'middle' }).svg +
-          '<line x1="626" y1="268" x2="360" y2="300" stroke="#a78bfa" stroke-width="2"/><line x1="654" y1="268" x2="920" y2="300" stroke="#a78bfa" stroke-width="2"/>', { opacity: p3 });
+          '<line x1="626" y1="268" x2="360" y2="300" stroke="#5e5ce6" stroke-width="2"/><line x1="654" y1="268" x2="920" y2="300" stroke="#5e5ce6" stroke-width="2"/>', { opacity: p3 });
         s += box(230, 300, 260, 70, 'Path 1', '18%', 'amber', p3);
         s += box(790, 300, 260, 70, 'Path 2', '5%', 'amber', p3);
         [[360, 'AND'], [920, 'AND']].forEach(function (a) {
-          s += A.g('<rect x="' + (a[0] - 26) + '" y="382" width="52" height="26" rx="13" fill="#0a2833" stroke="#22d3ee" stroke-width="2"/>' + A.text(a[0], 386, a[1], { size: 14, weight: 700, family: A.FM, fill: A.C.cyan, anchor: 'middle' }).svg +
-            '<line x1="' + a[0] + '" y1="370" x2="' + a[0] + '" y2="382" stroke="#22d3ee" stroke-width="2"/><line x1="' + (a[0] - 14) + '" y1="408" x2="' + (a[0] - 135) + '" y2="428" stroke="#22d3ee" stroke-width="2"/><line x1="' + (a[0] + 14) + '" y1="408" x2="' + (a[0] + 135) + '" y2="428" stroke="#22d3ee" stroke-width="2"/>', { opacity: p2 });
+          s += A.g('<rect x="' + (a[0] - 26) + '" y="382" width="52" height="26" rx="13" fill="#e6f4f8" stroke="#0077a8" stroke-width="2"/>' + A.text(a[0], 386, a[1], { size: 14, weight: 700, family: A.FM, fill: A.C.cyan, anchor: 'middle' }).svg +
+            '<line x1="' + a[0] + '" y1="370" x2="' + a[0] + '" y2="382" stroke="#0077a8" stroke-width="2"/><line x1="' + (a[0] - 14) + '" y1="408" x2="' + (a[0] - 135) + '" y2="428" stroke="#0077a8" stroke-width="2"/><line x1="' + (a[0] + 14) + '" y1="408" x2="' + (a[0] + 135) + '" y2="428" stroke="#0077a8" stroke-width="2"/>', { opacity: p2 });
         });
         s += box(100, 428, 250, 110, 'Configuration\nerror', '30%', 'blue', p0);
         s += box(370, 428, 250, 110, 'Reconciliation\nmisses it', '60%', 'cyan', p1);

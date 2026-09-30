@@ -43,15 +43,15 @@
     [0, 6, 12, 18, 23].forEach(function (i) { s += '<text x="' + x(i) + '" y="' + (H - 12) + '" text-anchor="middle" font-size="11" fill="#94a3b8">' + label(i) + '</text>'; });
     s += '<line x1="' + x(11.5) + '" x2="' + x(11.5) + '" y1="' + pt + '" y2="' + (H - pb) + '" stroke="rgba(148,163,184,0.35)" stroke-dasharray="2 4"/><text x="' + (x(11.5) - 4) + '" y="' + (pt + 10) + '" text-anchor="end" font-size="10.5" fill="#94a3b8">baseline</text>';
     function hline(v, col, dash, txt) { s += '<line x1="' + pl + '" x2="' + (W - pr) + '" y1="' + y(v) + '" y2="' + y(v) + '" stroke="' + col + '" stroke-width="1.5"' + (dash ? ' stroke-dasharray="' + dash + '"' : '') + '/><text x="' + (W - pr + 6) + '" y="' + (y(v) + 4) + '" font-size="11" fill="#cbd5e1">' + txt + '</text>'; }
-    hline(mean, 'rgba(203,213,225,0.55)', '', 'mean ' + mean.toFixed(1));
-    hline(L.amber, '#fbbf24', '6 4', 'amber ' + L.amber.toFixed(1));
-    hline(L.red, '#f87171', '6 4', 'red ' + L.red.toFixed(1));
+    hline(mean, 'rgba(110,110,115,0.6)', '', 'mean ' + mean.toFixed(1));
+    hline(L.amber, '#ff9f0a', '6 4', 'amber ' + L.amber.toFixed(1));
+    hline(L.red, '#ff3b30', '6 4', 'red ' + L.red.toFixed(1));
     s += '<polyline fill="none" stroke="#2f9bd6" stroke-width="2" stroke-linejoin="round" points="' + DATA.map(function (v, i) { return x(i) + ',' + y(v); }).join(' ') + '"/>';
     DATA.forEach(function (v, i) {
-      var f = flags[i], col = f.indexOf('red limit') >= 0 ? '#f87171' : f.indexOf('amber trigger') >= 0 ? '#fbbf24' : f.length ? '#e2e8f0' : '#2f9bd6';
+      var f = flags[i], col = f.indexOf('red limit') >= 0 ? '#ff3b30' : f.indexOf('amber trigger') >= 0 ? '#ff9f0a' : f.length ? '#6e6e73' : '#0071e3';
       s += '<g class="kc-pt" tabindex="0"><title>' + label(i) + ': ' + v + (f.length ? ' (' + f.join('; ') + ')' : '') + '</title>' +
         '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="12" fill="transparent"/>' +
-        '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="' + (f.length ? 5 : 4) + '" fill="' + col + '" stroke="#0c1424" stroke-width="2"/></g>';
+        '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="' + (f.length ? 5 : 4) + '" fill="' + col + '" stroke="#ffffff" stroke-width="2"/></g>';
     });
     plot.innerHTML = s + '</svg>';
   }

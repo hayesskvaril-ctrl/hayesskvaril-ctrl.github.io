@@ -351,6 +351,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.
 - **Expert review (Phases 16–17):** the upgraded Advanced pages in specialist areas (Setting CPS 230 tolerance levels, Mapping critical operations, Service provider exit and concentration, Breach significance analysis, Remediation calculations, Control testing sampling, Compliance monitoring and testing) and the new Internal audit effectiveness and AML/CTF effectiveness pages. Also the video scripts for the CPS 230, breach reporting clocks, remediation and unit pricing explainers.
 - **Idea:** short explainer videos for the new university-level pages (e.g. the Gordon-Loeb model, the enforcement pyramid, normal accidents versus high reliability).
+- **Idea:** more 3D graphics for individual topic pages (e.g. CPS 230, breach reporting, incident management), using the scene library in `_scripts/graphics/`.
 - **Idea:** automatic monthly check of external links (to APRA, ASIC, legislation and other sources) using a free GitHub Actions link checker. External links can't be tested from the build environment, so broken source links would currently only be found at each page's yearly review.
 
 - **Next roundup:** after the final CPS 510 and the ASIC/APRA FAR changes (see Recurring upkeep for the cadence).

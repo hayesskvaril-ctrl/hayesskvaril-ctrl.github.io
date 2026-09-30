@@ -8,26 +8,22 @@ const ROOT = path.resolve(__dirname, '..');
 const BASE = 'http://localhost:8765';
 
 const card = `<!DOCTYPE html><html><head><link rel="stylesheet" href="${BASE}/styles.css"><style>
-  body { margin:0; width:1200px; height:630px; overflow:hidden; background:#05080f; }
-  .c { position:relative; width:1200px; height:630px; box-sizing:border-box; padding:72px 80px;
-       background: radial-gradient(900px 500px at 85% 10%, rgba(59,130,246,.28), transparent 60%),
-                   radial-gradient(700px 480px at 0% 100%, rgba(167,139,250,.22), transparent 60%),
-                   linear-gradient(rgba(125,211,252,.06) 1px, transparent 1px) 0 0/48px 48px,
-                   linear-gradient(90deg, rgba(125,211,252,.06) 1px, transparent 1px) 0 0/48px 48px, #05080f; }
-  .top { display:flex; align-items:center; gap:22px; }
-  .top img { width:84px; height:84px; }
-  .name { font-family:"Space Grotesk"; font-weight:700; font-size:50px; color:#f2f7ff; letter-spacing:-.5px; }
-  .name span { background:linear-gradient(135deg,#22d3ee,#3b82f6 55%,#a78bfa); -webkit-background-clip:text; background-clip:text; color:transparent; }
-  h1 { font-family:"Space Grotesk"; font-weight:700; font-size:66px; line-height:1.08; color:#f2f7ff; margin:70px 0 22px; max-width:960px; }
-  p { font-family:"Inter"; font-size:30px; color:#93a4bf; margin:0; }
-  .tag { position:absolute; left:80px; bottom:64px; font-family:"JetBrains Mono"; font-size:22px; color:#22d3ee; letter-spacing:1px; }
-  .bar { position:absolute; left:0; right:0; bottom:0; height:10px; background:linear-gradient(90deg,#22d3ee,#3b82f6 55%,#a78bfa); }
+  body { margin:0; width:1200px; height:630px; overflow:hidden; background:#f5f5f7; }
+  .c { position:relative; width:1200px; height:630px; box-sizing:border-box; padding:64px 72px; background:#f5f5f7; overflow:hidden; }
+  .art { position:absolute; right:-150px; bottom:-40px; width:820px; height:auto; }
+  .top { position:relative; display:flex; align-items:center; gap:16px; }
+  .top img { width:56px; height:56px; }
+  .name { font-family:-apple-system, Inter, sans-serif; font-weight:600; font-size:34px; color:#1d1d1f; letter-spacing:-.5px; }
+  .name span { color:#6e6e73; font-weight:500; }
+  h1 { position:relative; font-family:-apple-system, Inter, sans-serif; font-weight:700; font-size:68px; line-height:1.05; letter-spacing:-2px; color:#1d1d1f; margin:64px 0 20px; max-width:600px; }
+  p { position:relative; font-family:-apple-system, Inter, sans-serif; font-size:28px; line-height:1.3; color:#6e6e73; margin:0; max-width:520px; }
+  .tag { position:absolute; left:72px; bottom:58px; font-family:-apple-system, Inter, sans-serif; font-weight:600; font-size:22px; color:#0071e3; }
 </style></head><body><div class="c">
+  <img class="art" src="${BASE}/assets/img/home-hero-1200.webp" alt="">
   <div class="top"><img src="${BASE}/assets/brand/favicon.svg" alt=""><div class="name">RiskLens <span>Australia</span></div></div>
-  <h1>Risk, compliance and governance, explained.</h1>
+  <h1>Risk, compliance and governance. Made clear.</h1>
   <p>Free plain-English guides, diagrams, tools and training.</p>
-  <div class="tag">FREE · NO LOGIN · AUSTRALIAN FOCUS</div>
-  <div class="bar"></div>
+  <div class="tag">Free · No login · Australian focus</div>
 </div></body></html>`;
 
 function ico(pngs) {

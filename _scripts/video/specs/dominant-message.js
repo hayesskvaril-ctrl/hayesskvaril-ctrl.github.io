@@ -27,17 +27,17 @@ window.RL_SPEC = {
       draw: function (lt, A) {
         var s = '', p1 = A.prog(lt, 0.4, 0.8), p2 = A.prog(lt, 3.5, 0.8), p3 = A.prog(lt, 6.5, 0.8);
         var x = 300, y = 150, w = 680, h = 370;
-        s += A.g('<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="18" fill="#0e1a31" stroke="#7cb7ff" stroke-opacity="0.5" stroke-width="2"/>' +
+        s += A.g('<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="18" fill="#ffffff" stroke="#d2d2d7" stroke-opacity="1" stroke-width="2"/>' +
           A.text(x + 40, y + 40, 'SPONSORED', { size: 16, weight: 600, family: A.FM, fill: A.C.muted }).svg +
           A.text(x + 40, y + 80, 'Australia\'s top performing Balanced fund!', { size: 38, weight: 700, family: A.FD, fill: A.C.heading, maxW: w - 80, lh: 44 }).svg +
           A.text(x + 40, y + 188, '11.2% returns', { size: 64, weight: 700, family: A.FD, fill: A.C.green }).svg +
           '<rect x="' + (x + 40) + '" y="' + (y + 272) + '" width="220" height="46" rx="10" fill="#3b82f6"/>' +
           A.text(x + 150, y + 283, 'Join in 2 minutes', { size: 20, weight: 700, fill: '#fff', anchor: 'middle' }).svg +
           A.text(x + 40, y + h - 35, 'Past performance is not a reliable indicator of future performance. Returns for the year to 30 June. Rankings by a third-party survey, one category.', { size: 9, fill: A.C.muted, maxW: w - 80, lh: 11 }).svg, { opacity: p1 });
-        s += A.g('<rect x="' + (x + 26) + '" y="' + (y + 66) + '' + '" width="' + (w - 52) + '" height="200" rx="12" fill="none" stroke="#fbbf24" stroke-width="3"/>' +
+        s += A.g('<rect x="' + (x + 26) + '" y="' + (y + 66) + '' + '" width="' + (w - 52) + '" height="200" rx="12" fill="none" stroke="#ff9f0a" stroke-width="3"/>' +
           A.text(x + w + 20, y + 120, 'Dominant message', { size: 22, weight: 700, family: A.FD, fill: A.C.amber }).svg +
           A.text(x + w + 20, y + 152, 'best fund; you\'ll get about 11%', { size: 18, fill: A.C.text, maxW: 220 }).svg, { opacity: p2 });
-        s += A.g('<rect x="' + (x + 26) + '" y="' + (y + h - 43) + '" width="' + (w - 52) + '" height="37" rx="6" fill="none" stroke="#f87171" stroke-width="3"/>' +
+        s += A.g('<rect x="' + (x + 26) + '" y="' + (y + h - 43) + '" width="' + (w - 52) + '" height="37" rx="6" fill="none" stroke="#ff3b30" stroke-width="3"/>' +
           A.text(x + w + 20, y + h - 70, 'Fine print', { size: 22, weight: 700, family: A.FD, fill: A.C.red }).svg +
           A.text(x + w + 20, y + h - 40, 'easily missed', { size: 18, fill: A.C.text }).svg, { opacity: p3 });
         return s;

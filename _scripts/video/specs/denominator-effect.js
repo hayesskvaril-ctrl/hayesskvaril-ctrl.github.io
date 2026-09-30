@@ -27,7 +27,7 @@ window.RL_SPEC = {
           var seg = function (v, col, lab) {
             var h = v * scale; y -= h;
             var r = h > 0 ? '<rect x="' + x + '" y="' + y + '" width="' + bw + '" height="' + Math.max(0, h - 2) + '" rx="6" fill="' + col + '" opacity="0.88"/>' : '';
-            if (h > 26) r += A.text(x + bw / 2, y + h / 2 - 12, lab + ' ' + (Math.round(v * 100) / 100), { size: 19, weight: 700, fill: '#05080f', anchor: 'middle' }).svg;
+            if (h > 26) r += A.text(x + bw / 2, y + h / 2 - 12, lab + ' ' + (Math.round(v * 100) / 100), { size: 19, weight: 700, fill: '#1d1d1f', anchor: 'middle' }).svg;
             return r;
           };
           var inner = seg(st.unl, '#a78bfa', 'Unlisted') + seg(st.listed, '#7cb7ff', i === 2 ? 'Liquid' : 'Listed') + seg(st.cash, '#34d399', 'Cash');

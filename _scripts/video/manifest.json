@@ -1,7 +1,7 @@
 {
  "what-is-risk-management": {
   "title": "What is risk management?",
-  "label": "Explainer \u00b7 Foundations \u00b7 Beginner",
+  "label": "Explainer · Foundations · Beginner",
   "section": "Foundations",
   "level": "Beginner",
   "desc": "Risk as the effect of uncertainty on objectives, the risk management loop, and the ways to respond to a risk.",
@@ -13,7 +13,7 @@
   "slug": "what-is-risk-management",
   "specHash": "b668cd14fd96",
   "duration": 79,
-  "bytes": 2157773,
+  "bytes": 1938743,
   "transcript": [
    {
     "start": 0,
@@ -82,7 +82,7 @@
  },
  "breach-reporting-clocks": {
   "title": "Breach reporting: from awareness to report",
-  "label": "Explainer \u00b7 Compliance \u00b7 Intermediate",
+  "label": "Explainer · Compliance · Intermediate",
   "section": "Compliance",
   "level": "Intermediate",
   "desc": "Why the awareness date matters, the main reporting clocks, and how one event can trigger several regimes.",
@@ -94,7 +94,7 @@
   "slug": "breach-reporting-clocks",
   "specHash": "ac713e28af7f",
   "duration": 66,
-  "bytes": 1564670,
+  "bytes": 1392142,
   "transcript": [
    {
     "start": 0,
@@ -145,7 +145,7 @@
  },
  "controls-design-and-testing": {
   "title": "Controls: design, operation and testing",
-  "label": "Explainer \u00b7 Risk management \u00b7 Intermediate",
+  "label": "Explainer · Risk management · Intermediate",
   "section": "Risk management",
   "level": "Intermediate",
   "desc": "Preventive, detective and corrective controls, design versus operating effectiveness, and how controls are tested.",
@@ -156,7 +156,7 @@
   "slug": "controls-design-and-testing",
   "specHash": "ea4d2c4be960",
   "duration": 62,
-  "bytes": 1495617,
+  "bytes": 1307741,
   "transcript": [
    {
     "start": 0,
@@ -207,7 +207,7 @@
  },
  "cps-230-in-90-seconds": {
   "title": "CPS 230 in 90 seconds",
-  "label": "Explainer \u00b7 Standards \u00b7 Intermediate",
+  "label": "Explainer · Standards · Intermediate",
   "section": "Standards",
   "level": "Intermediate",
   "desc": "APRA's operational risk standard: operational risk management, business continuity and service providers.",
@@ -219,7 +219,7 @@
   "slug": "cps-230-in-90-seconds",
   "specHash": "c53b961bbf3c",
   "duration": 73,
-  "bytes": 1837952,
+  "bytes": 1606253,
   "transcript": [
    {
     "start": 0,
@@ -279,7 +279,7 @@
  },
  "data-breach-response": {
   "title": "Data breaches: contain, assess, notify",
-  "label": "Explainer \u00b7 Compliance \u00b7 Intermediate",
+  "label": "Explainer · Compliance · Intermediate",
   "section": "Compliance",
   "level": "Intermediate",
   "desc": "How the Notifiable Data Breaches scheme works: containing a breach, assessing serious harm, and notifying the OAIC and individuals.",
@@ -290,7 +290,7 @@
   "slug": "data-breach-response",
   "specHash": "461706ee2886",
   "duration": 63,
-  "bytes": 1491242,
+  "bytes": 1309051,
   "transcript": [
    {
     "start": 0,
@@ -343,7 +343,7 @@
  },
  "denominator-effect": {
   "title": "The denominator effect in super",
-  "label": "Explainer \u00b7 Risk management \u00b7 Advanced",
+  "label": "Explainer · Risk management · Advanced",
   "section": "Risk management",
   "level": "Advanced",
   "desc": "How falling listed markets, slow-moving unlisted valuations and member outflows push up the share of unlisted assets, and why it matters for fairness.",
@@ -352,9 +352,9 @@
    "/standards/sps-530.html"
   ],
   "slug": "denominator-effect",
-  "specHash": "977e0314ef07",
+  "specHash": "ef757bbf7d4c",
   "duration": 67,
-  "bytes": 1535391,
+  "bytes": 1364791,
   "transcript": [
    {
     "start": 0,
@@ -406,7 +406,7 @@
  },
  "dominant-message": {
   "title": "Misleading conduct: the dominant message test",
-  "label": "Explainer \u00b7 Compliance \u00b7 Advanced",
+  "label": "Explainer · Compliance · Advanced",
   "section": "Compliance",
   "level": "Advanced",
   "desc": "How courts decide whether a communication is misleading: the overall impression, the audience, the dominant message and the greenwashing cases.",
@@ -415,9 +415,9 @@
    "/compliance/disclosure-obligations.html"
   ],
   "slug": "dominant-message",
-  "specHash": "0e05452c95cf",
+  "specHash": "c17694c80c38",
   "duration": 75,
-  "bytes": 1853523,
+  "bytes": 1632473,
   "transcript": [
    {
     "start": 0,
@@ -477,7 +477,7 @@
  },
  "far-accountability": {
   "title": "FAR: who is accountable for what",
-  "label": "Explainer \u00b7 Governance \u00b7 Intermediate",
+  "label": "Explainer · Governance · Intermediate",
   "section": "Governance",
   "level": "Intermediate",
   "desc": "The Financial Accountability Regime: accountable persons, statements and maps, obligations and deferred pay.",
@@ -488,7 +488,7 @@
   "slug": "far-accountability",
   "specHash": "2e55fd8f3623",
   "duration": 59,
-  "bytes": 1431872,
+  "bytes": 1256017,
   "transcript": [
    {
     "start": 0,
@@ -538,7 +538,7 @@
  },
  "remediation": {
   "title": "Remediation: putting people back",
-  "label": "Explainer \u00b7 Compliance \u00b7 Intermediate",
+  "label": "Explainer · Compliance · Intermediate",
   "section": "Compliance",
   "level": "Intermediate",
   "desc": "The six stages of consumer remediation under ASIC RG 277, and the principles behind them.",
@@ -550,7 +550,7 @@
   "slug": "remediation",
   "specHash": "618cca5a3ee4",
   "duration": 63,
-  "bytes": 1474492,
+  "bytes": 1287653,
   "transcript": [
    {
     "start": 0,
@@ -602,7 +602,7 @@
  },
  "risk-appetite": {
   "title": "Risk appetite: from board statement to daily decisions",
-  "label": "Explainer \u00b7 Risk management \u00b7 Intermediate",
+  "label": "Explainer · Risk management · Intermediate",
   "section": "Risk management",
   "level": "Intermediate",
   "desc": "Risk capacity, appetite, triggers and limits, and how appetite cascades into decisions and reporting.",
@@ -613,7 +613,7 @@
   "slug": "risk-appetite",
   "specHash": "5ed554fab34b",
   "duration": 63,
-  "bytes": 1689047,
+  "bytes": 1514929,
   "transcript": [
    {
     "start": 0,
@@ -652,7 +652,7 @@
     "end": 57,
     "visual": "Three cards describe common risk appetite pitfalls.",
     "captions": [
-     "Watch for three pitfalls: \u201czero appetite\u201d for unavoidable risks, metrics that don't match the words, and statements that change nothing."
+     "Watch for three pitfalls: “zero appetite” for unavoidable risks, metrics that don't match the words, and statements that change nothing."
     ]
    },
    {
@@ -665,18 +665,18 @@
  },
  "swiss-cheese-and-fault-trees": {
   "title": "Root causes: Swiss cheese and fault trees",
-  "label": "Explainer \u00b7 Risk management \u00b7 Advanced",
+  "label": "Explainer · Risk management · Advanced",
   "section": "Risk management",
   "level": "Advanced",
-  "desc": "Why \u201chuman error\u201d is rarely a root cause, James Reason's Swiss cheese model, and how fault trees show which controls matter most.",
+  "desc": "Why “human error” is rarely a root cause, James Reason's Swiss cheese model, and how fault trees show which controls matter most.",
   "pages": [
    "/risk-management/root-cause-analysis.html",
    "/risk-management/incident-and-breach-management.html"
   ],
   "slug": "swiss-cheese-and-fault-trees",
-  "specHash": "3d4060ed8858",
+  "specHash": "cbc4f6275c1d",
   "duration": 65,
-  "bytes": 1431349,
+  "bytes": 1255320,
   "transcript": [
    {
     "start": 0,
@@ -728,7 +728,7 @@
  },
  "three-lines-model": {
   "title": "The Three Lines model",
-  "label": "Explainer \u00b7 Foundations \u00b7 Beginner",
+  "label": "Explainer · Foundations · Beginner",
   "section": "Foundations",
   "level": "Beginner",
   "desc": "Who does what in managing risk: the first line, the second line, internal audit and the governing body.",
@@ -739,7 +739,7 @@
   "slug": "three-lines-model",
   "specHash": "39fc1e6d4c2d",
   "duration": 72,
-  "bytes": 2110055,
+  "bytes": 1894014,
   "transcript": [
    {
     "start": 0,
@@ -771,7 +771,7 @@
     "end": 44,
     "visual": "Two cards compare the old three lines of defence with the 2020 roles-based model.",
     "captions": [
-     "The 2020 version dropped the \u201cdefence\u201d language and treats the lines as roles that work together, not rigid walls."
+     "The 2020 version dropped the “defence” language and treats the lines as roles that work together, not rigid walls."
     ]
    },
    {
@@ -800,7 +800,7 @@
  },
  "unit-pricing-errors": {
   "title": "Unit pricing errors: who wins and who loses",
-  "label": "Explainer \u00b7 Sectors \u00b7 Advanced",
+  "label": "Explainer · Sectors · Advanced",
   "section": "Sectors",
   "level": "Advanced",
   "desc": "How a super fund unit price is built, how a pricing error moves value between members, and the debate over materiality thresholds.",
@@ -811,7 +811,7 @@
   "slug": "unit-pricing-errors",
   "specHash": "fc4b00cd5b72",
   "duration": 75,
-  "bytes": 1568773,
+  "bytes": 1375063,
   "transcript": [
    {
     "start": 0,
@@ -870,7 +870,7 @@
  },
  "who-regulates-what": {
   "title": "Who regulates what in Australia",
-  "label": "Explainer \u00b7 Foundations \u00b7 Beginner",
+  "label": "Explainer · Foundations · Beginner",
   "section": "Foundations",
   "level": "Beginner",
   "desc": "Australia's twin peaks model, and the other regulators that cut across financial services.",
@@ -881,7 +881,7 @@
   "slug": "who-regulates-what",
   "specHash": "97ee38be0ff4",
   "duration": 61,
-  "bytes": 1605078,
+  "bytes": 1401428,
   "transcript": [
    {
     "start": 0,
