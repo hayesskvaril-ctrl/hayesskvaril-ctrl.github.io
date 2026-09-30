@@ -293,6 +293,109 @@ REFS = {
         topics=["resilience"], pr=True, checked="2026-09-30",
         note="A survey of 160 IT managers comparing organisations that switched provider, brought services back in-house or stayed, and the factors behind each decision, including switching costs."),
 
+    # ---------- Regulation, compliance and enforcement ----------
+    "nagin-2013": dict(
+        kind="article", authors=["Nagin, D. S."], year=2013, title="Deterrence in the twenty-first century",
+        journal="Crime and Justice", volume="42", pages="199–263", doi="10.1086/670398", topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Reviews the evidence on deterrence and concludes that the certainty of being caught deters far more consistently than the severity of the punishment."),
+    "kaplow-1994": dict(
+        kind="article", authors=["Kaplow, L.", "Shavell, S."], year=1994, title="Optimal law enforcement with self-reporting of behavior",
+        journal="Journal of Political Economy", volume="102", issue="3", pages="583–606", doi="10.1086/261947",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="The economic case for self-reporting regimes: rewarding people who report their own violations saves enforcement resources and replaces uncertain sanctions with certain, smaller ones."),
+    "innes-1999": dict(
+        kind="article", authors=["Innes, R."], year=1999, title="Remediation and self-reporting in optimal law enforcement",
+        journal="Journal of Public Economics", volume="72", issue="3", pages="379–393",
+        url="https://www.sciencedirect.com/science/article/abs/pii/S0047272798001017", topics=["regulation", "trust"], pr=True, checked="2026-09-30",
+        note="Adds remediation to the theory of self-reporting: firms that self-report can be required to fix the harm every time, whereas non-reporters fix it only if they are caught, strengthening the case for self-reporting."),
+    "toffel-2011": dict(
+        kind="article", authors=["Toffel, M. W.", "Short, J. L."], year=2011, title="Coming clean and cleaning up: Does voluntary self-reporting indicate effective self-policing?",
+        journal="The Journal of Law and Economics", volume="54", issue="3", pages="609–649", doi="10.1086/658494",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="In US environmental regulation, regulators eased enforcement on firms that voluntarily disclosed violations, and those firms went on to improve their compliance, suggesting self-reporting can signal genuine self-policing."),
+    "messier-2005": dict(
+        kind="article", authors=["Messier, W. F., Jr.", "Martinov-Bennie, N.", "Eilifsen, A."], year=2005,
+        title="A review and integration of empirical research on materiality: Two decades later", journal="Auditing: A Journal of Practice & Theory",
+        volume="24", issue="2", pages="153–187", doi="10.2308/aud.2005.24.2.153", topics=["regulation", "controls"], pr=True, checked="2026-09-30",
+        note="Reviews two decades of research on how auditors and others judge materiality, including how quantitative rules of thumb interact with qualitative factors and how judgements vary between people."),
+    "parker-2009": dict(
+        kind="article", authors=["Parker, C.", "Nielsen, V. L."], year=2009, title="Corporate compliance systems: Could they make any difference?",
+        journal="Administration & Society", volume="41", issue="1", pages="3–37", doi="10.1177/0095399708328869",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Survey of 999 large Australian businesses on competition and consumer law compliance: some elements of formal compliance systems translate into better compliance management, but management commitment, oversight and resources matter just as much."),
+    "mckendall-2002": dict(
+        kind="article", authors=["McKendall, M.", "DeMarr, B.", "Jones-Rikkers, C."], year=2002,
+        title="Ethical compliance programs and corporate illegality: Testing the assumptions of the corporate sentencing guidelines",
+        journal="Journal of Business Ethics", volume="37", pages="367–383", doi="10.1023/A:1015287823807", topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Across 108 large US corporations, ethics codes, communication, training and HR practices were not associated with fewer workplace safety violations, questioning whether formal programs change behaviour."),
+    "weaver-1999": dict(
+        kind="article", authors=["Weaver, G. R.", "Treviño, L. K.", "Cochran, P. L."], year=1999,
+        title="Integrated and decoupled corporate social performance: Management commitments, external pressures, and corporate ethics practices",
+        journal="Academy of Management Journal", volume="42", issue="5", pages="539–552", doi="10.5465/256975", topics=["regulation", "culture"], pr=True, checked="2026-09-30",
+        note="External pressure tends to produce ethics and compliance programs that are 'decoupled' from everyday operations, while genuine top management commitment is needed for programs integrated into how the business runs."),
+    "becker-1968": dict(
+        kind="article", authors=["Becker, G. S."], year=1968, title="Crime and punishment: An economic approach",
+        journal="Journal of Political Economy", volume="76", issue="2", pages="169–217", doi="10.1086/259394", topics=["regulation"], pr=True, checked="2026-09-30",
+        note="The foundation of the economics of enforcement: people weigh the expected cost of a violation, the probability of being caught times the penalty, against its benefit."),
+    "polinsky-2000": dict(
+        kind="article", authors=["Polinsky, A. M.", "Shavell, S."], year=2000, title="The economic theory of public enforcement of law",
+        journal="Journal of Economic Literature", volume="38", issue="1", pages="45–76", doi="10.1257/jel.38.1.45", topics=["regulation"], pr=True, checked="2026-09-30",
+        note="A survey of enforcement theory: how the probability and size of sanctions, fines versus imprisonment, self-reporting, repeat offending and errors affect deterrence."),
+    "karpoff-2008": dict(
+        kind="article", authors=["Karpoff, J. M.", "Lee, D. S.", "Martin, G. S."], year=2008, title="The cost to firms of cooking the books",
+        journal="Journal of Financial and Quantitative Analysis", volume="43", issue="3", pages="581–611", doi="10.1017/S0022109000004221",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="For 585 US firms subject to enforcement for financial misrepresentation, the reputational loss was more than 7.5 times the legal and regulatory penalties combined."),
+    "armour-2017": dict(
+        kind="article", authors=["Armour, J.", "Mayer, C.", "Polo, A."], year=2017, title="Regulatory sanctions and reputational damage in financial markets",
+        journal="Journal of Financial and Quantitative Analysis", volume="52", issue="4", pages="1429–1448", doi="10.1017/S0022109017000461",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Studying UK enforcement announcements, finds reputational losses nearly nine times the size of fines, but only where misconduct harmed the firm's own customers or investors, not third parties."),
+    "parker-2013": dict(
+        kind="article", authors=["Parker, C."], year=2013, title="Twenty years of responsive regulation: An appreciation and appraisal",
+        journal="Regulation & Governance", volume="7", issue="1", pages="2–13", doi="10.1111/rego.12006", topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Introduces a special issue marking 20 years of Ayres and Braithwaite's responsive regulation, appraising its influence on regulators and the questions it left open."),
+    "black-2008": dict(
+        kind="article", authors=["Black, J."], year=2008, title="Forms and paradoxes of principles-based regulation",
+        journal="Capital Markets Law Journal", volume="3", issue="4", pages="425–457", doi="10.1093/cmlj/kmn026", topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Distinguishes forms of principles-based regulation and sets out seven paradoxes it faces, including interpretation, compliance, enforcement and trust: principles need shared understanding to work."),
+    "black-2007": dict(
+        kind="article", authors=["Black, J.", "Hopper, M.", "Band, C."], year=2007, title="Making a success of principles-based regulation",
+        journal="Law and Financial Markets Review", volume="1", issue="3", pages="191–206", doi="10.1080/17521440.2007.11427879",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Discusses the UK Financial Services Authority's move to principles-based regulation and what regulators and firms need for it to work, including guidance, dialogue and credible enforcement."),
+    "braithwaite-2002": dict(
+        kind="article", authors=["Braithwaite, J."], year=2002, title="Rules and principles: A theory of legal certainty",
+        journal="Australian Journal of Legal Philosophy", volume="27", pages="47–82", url="https://www.austlii.edu.au/cgi-bin/viewdoc/au/journals/AUJlLegPhil/2002/2.html",
+        topics=["regulation"], pr=True, checked="2026-09-30",
+        note="Argues that in complex areas precise rules can deliver less certainty than principles, because rules multiply and invite gaming, and proposes combining binding principles with non-binding rules."),
+
+    # ---------- Disclosure, consumers and misleading conduct ----------
+    "bakos-2014": dict(
+        kind="article", authors=["Bakos, Y.", "Marotta-Wurgler, F.", "Trossen, D. R."], year=2014,
+        title="Does anyone read the fine print? Consumer attention to standard-form contracts", journal="The Journal of Legal Studies",
+        volume="43", issue="1", pages="1–35", doi="10.1086/674424", topics=["disclosure"], pr=True, checked="2026-09-30",
+        note="Tracking 48,154 shoppers at 90 software companies' websites, only one or two in 1,000 opened the licence agreement, and most who did read very little of it."),
+    "loewenstein-2014": dict(
+        kind="article", authors=["Loewenstein, G.", "Sunstein, C. R.", "Golman, R."], year=2014, title="Disclosure: Psychology changes everything",
+        journal="Annual Review of Economics", volume="6", pages="391–419", doi="10.1146/annurev-economics-080213-041341", topics=["disclosure"], pr=True, checked="2026-09-30",
+        note="Reviews how limited and motivated attention and biased probability judgements can weaken or reverse the effects of mandatory disclosure, and when simplified, standardised or comparative disclosure works better."),
+    "delmas-2011": dict(
+        kind="article", authors=["Delmas, M. A.", "Burbano, V. C."], year=2011, title="The drivers of greenwashing",
+        journal="California Management Review", volume="54", issue="1", pages="64–87", doi="10.1525/cmr.2011.54.1.64", topics=["disclosure", "climate"], pr=True, checked="2026-09-30",
+        note="Explains greenwashing through external (regulatory and market), organisational and individual drivers, and argues weak and uncertain regulation is a major enabler."),
+
+    # ---------- Trust, redress and remediation ----------
+    "gillespie-2009": dict(
+        kind="article", authors=["Gillespie, N.", "Dietz, G."], year=2009, title="Trust repair after an organization-level failure",
+        journal="Academy of Management Review", volume="34", issue="1", pages="127–145", doi="10.5465/amr.2009.35713319", topics=["trust"], pr=True, checked="2026-09-30",
+        note="A framework for repairing trust after organisational failures, arguing that repair must address the whole system: leadership, culture, strategy, structures and policies, external governance and reputation."),
+    "kim-2004": dict(
+        kind="article", authors=["Kim, P. H.", "Ferrin, D. L.", "Cooper, C. D.", "Dirks, K. T."], year=2004,
+        title="Removing the shadow of suspicion: The effects of apology versus denial for repairing competence- versus integrity-based trust violations",
+        journal="Journal of Applied Psychology", volume="89", issue="1", pages="104–118", doi="10.1037/0021-9010.89.1.104", topics=["trust"], pr=True, checked="2026-09-30",
+        note="Experiments showing apologies repair trust better after competence failures, while integrity failures are harder to repair by apology, which can confirm the violation."),
+
     # ---------- Judgement, bias and decision-making ----------
     "gigerenzer-2011": dict(
         kind="article", authors=["Gigerenzer, G.", "Gaissmaier, W."], year=2011, title="Heuristic decision making",
