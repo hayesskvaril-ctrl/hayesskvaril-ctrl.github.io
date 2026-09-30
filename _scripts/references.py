@@ -495,6 +495,50 @@ REFS = {
         note="The foundation of agency theory in corporate governance: when managers act for owners, their interests diverge, creating agency costs of monitoring, bonding and residual loss."),
 
     # ---------- Culture, conduct, incentives and accountability ----------
+    "egan-2019": dict(
+        kind="article", authors=["Egan, M.", "Matvos, G.", "Seru, A."], year=2019, title="The market for financial adviser misconduct",
+        journal="Journal of Political Economy", volume="127", issue="1", pages="233–295", doi="10.1086/700735", topics=["culture"], pr=True, checked="2026-09-30",
+        note="About 7% of US financial advisers have misconduct records (over 15% at some large firms), a third of those are repeat offenders, and many are rehired by other firms, some of which appear to specialise in misconduct."),
+    "dimmock-2018": dict(
+        kind="article", authors=["Dimmock, S. G.", "Gerken, W. C.", "Graham, N. P."], year=2018, title="Is fraud contagious? Coworker influence on misconduct by financial advisors",
+        journal="The Journal of Finance", volume="73", issue="3", pages="1417–1450", doi="10.1111/jofi.12613", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Using firm mergers as a natural experiment, finds advisers are more likely to commit misconduct when their new coworkers have misconduct histories: misconduct spreads through peers."),
+    "cohn-2014": dict(
+        kind="article", authors=["Cohn, A.", "Fehr, E.", "Maréchal, M. A."], year=2014, title="Business culture and dishonesty in the banking industry",
+        journal="Nature", volume="516", issue="7529", pages="86–89", doi="10.1038/nature13977", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Employees of a large bank behaved honestly in a coin-tossing game on average, but became more dishonest when reminded of their professional identity; employees of other industries did not."),
+    "rahwan-2019": dict(
+        kind="article", authors=["Rahwan, Z.", "Yoeli, E.", "Fasolo, B."], year=2019, title="Heterogeneity in banker culture and its influence on dishonesty",
+        journal="Nature", volume="575", issue="7782", pages="345–349", doi="10.1038/s41586-019-1741-y", topics=["culture"], pr=True, checked="2026-09-30",
+        note="A larger replication across five populations did not find that reminding bankers of their profession made them significantly more dishonest, or that any effect was unique to bankers."),
+    "zingales-2015": dict(
+        kind="article", authors=["Zingales, L."], year=2015, title="Presidential address: Does finance benefit society?",
+        journal="The Journal of Finance", volume="70", issue="4", pages="1327–1363", doi="10.1111/jofi.12295", topics=["culture", "regulation"], pr=True, checked="2026-09-30",
+        note="Argues academics overestimate the social benefits of finance, and that without proper rules finance can easily become rent-seeking, eroding public trust."),
+    "inderst-2012": dict(
+        kind="article", authors=["Inderst, R.", "Ottaviani, M."], year=2012, title="Competition through commissions and kickbacks",
+        journal="American Economic Review", volume="102", issue="2", pages="780–809", doi="10.1257/aer.102.2.780", topics=["culture", "disclosure"], pr=True, checked="2026-09-30",
+        note="Models how product providers compete by paying commissions to advisers, biasing advice, and shows that policies such as disclosure and commission caps can have unintended effects."),
+    "holmstrom-1979": dict(
+        kind="article", authors=["Holmström, B."], year=1979, title="Moral hazard and observability", journal="The Bell Journal of Economics",
+        volume="10", issue="1", pages="74–91", doi="10.2307/3003320", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Shows that when an agent's effort can't be observed, contracts should use any information that says something about effort, the foundation of performance measurement in incentive design."),
+    "holmstrom-1991": dict(
+        kind="article", authors=["Holmström, B.", "Milgrom, P."], year=1991, title="Multitask principal-agent analyses: Incentive contracts, asset ownership, and job design",
+        journal="Journal of Law, Economics, & Organization", volume="7", issue="special issue", pages="24–52", doi="10.1093/jleo/7.special_issue.24", topics=["culture"], pr=True, checked="2026-09-30",
+        note="When people do several tasks but only some are measurable, strong incentives on the measured tasks divert effort from the others, so weak incentives can be optimal."),
+    "cheng-2015": dict(
+        kind="article", authors=["Cheng, I.-H.", "Hong, H.", "Scheinkman, J. A."], year=2015, title="Yesterday's heroes: Compensation and risk at financial firms",
+        journal="The Journal of Finance", volume="70", issue="2", pages="839–879", doi="10.1111/jofi.12225", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Finds that financial firms with higher total executive pay took more risk before the crisis, and interprets this through contracting with risk-averse agents rather than simple entrenchment."),
+    "deyoung-2013": dict(
+        kind="article", authors=["DeYoung, R.", "Peng, E. Y.", "Yan, M."], year=2013, title="Executive compensation and business policy choices at U.S. commercial banks",
+        journal="Journal of Financial and Quantitative Analysis", volume="48", issue="1", pages="165–196", doi="10.1017/S0022109012000646", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Risk-taking incentives in bank CEO pay increased around 2000 as deregulation expanded opportunities, and CEOs responded by taking more risk, especially at larger banks."),
+    "gneezy-2011": dict(
+        kind="article", authors=["Gneezy, U.", "Meier, S.", "Rey-Biel, P."], year=2011, title="When and why incentives (don't) work to modify behavior",
+        journal="Journal of Economic Perspectives", volume="25", issue="4", pages="191–210", doi="10.1257/jep.25.4.191", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Reviews evidence that financial incentives can crowd out intrinsic motivation and change how people see a task, so incentives sometimes backfire."),
     "trevino-1992": dict(
         kind="article", authors=["Treviño, L. K."], year=1992, title="The social effects of punishment in organizations: A justice perspective",
         journal="Academy of Management Review", volume="17", issue="4", pages="647–676", doi="10.5465/amr.1992.4279054", topics=["culture"], pr=True, checked="2026-09-30",
