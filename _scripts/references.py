@@ -396,6 +396,112 @@ REFS = {
         journal="Journal of Applied Psychology", volume="89", issue="1", pages="104–118", doi="10.1037/0021-9010.89.1.104", topics=["trust"], pr=True, checked="2026-09-30",
         note="Experiments showing apologies repair trust better after competence failures, while integrity failures are harder to repair by apology, which can confirm the violation."),
 
+    # ---------- Boards, directors and corporate governance ----------
+    "aebi-2012": dict(
+        kind="article", authors=["Aebi, V.", "Sabato, G.", "Schmid, M."], year=2012, title="Risk management, corporate governance, and bank performance in the financial crisis",
+        journal="Journal of Banking & Finance", volume="36", issue="12", pages="3213–3226", doi="10.1016/j.jbankfin.2011.10.020",
+        topics=["governance", "erm"], pr=True, checked="2026-09-30",
+        note="Banks whose chief risk officer reported directly to the board performed significantly better in the 2007–08 crisis than those where the CRO reported to the CEO."),
+    "eppler-2004": dict(
+        kind="article", authors=["Eppler, M. J.", "Mengis, J."], year=2004,
+        title="The concept of information overload: A review of literature from organization science, accounting, marketing, MIS, and related disciplines",
+        journal="The Information Society", volume="20", issue="5", pages="325–344", doi="10.1080/01972240490507974", topics=["governance"], pr=True, checked="2026-09-30",
+        note="Reviews 30 years of research on information overload: beyond a point, more information reduces decision quality, and the causes, effects and countermeasures are well documented."),
+    "brown-2009": dict(
+        kind="article", authors=["Brown, I.", "Steen, A.", "Foreman, J."], year=2009, title="Risk management in corporate governance: A review and proposal",
+        journal="Corporate Governance: An International Review", volume="17", issue="5", pages="546–558", doi="10.1111/j.1467-8683.2009.00763.x",
+        topics=["governance", "erm"], pr=True, checked="2026-09-30",
+        note="Examines the link between corporate governance and risk management using Australian listed biotechnology companies, and proposes how boards should oversee risk in high-uncertainty firms."),
+    "herzberg-2012": dict(
+        kind="article", authors=["Herzberg, A.", "Anderson, H."], year=2012, title="Stepping stones: From corporate fault to directors' personal civil liability",
+        journal="Federal Law Review", volume="40", issue="2", pages="181–205", url="https://www.austlii.edu.au/cgi-bin/viewdoc/au/journals/FedLRev/2012/8.html",
+        topics=["governance"], pr=True, checked="2026-09-30",
+        note="Analyses the 'stepping stones' approach in which a company's contravention becomes the basis for finding that directors breached their duty of care, and asks whether this derivative liability is justified."),
+    "zhou-2019": dict(
+        kind="article", authors=["Zhou, A."], year=2019, title="A step too far? Rethinking the stepping stone approach to officers' liability",
+        journal="Federal Law Review", volume="47", issue="1", pages="151–174", doi="10.1177/0067205X18816241", topics=["governance"], pr=True, checked="2026-09-30",
+        note="Critically re-examines stepping stone liability and argues it risks stretching directors' duty of care beyond its proper purpose."),
+    "hanrahan-2021": dict(
+        kind="article", authors=["Hanrahan, P.", "Bednall, T."], year=2021,
+        title="From stepping-stones to throwing stones: Officers' liability for corporate compliance failures after Cassimatis",
+        journal="Federal Law Review", volume="49", issue="3", pages="380–409", doi="10.1177/0067205X211016573", topics=["governance"], pr=True, checked="2026-09-30",
+        note="Reviews officers' liability for corporate compliance failures after the Cassimatis appeal, including judicial criticism of stepping stone cases, and proposes legislative reform to rebalance individual liability."),
+    "adams-2010": dict(
+        kind="article", authors=["Adams, R. B.", "Hermalin, B. E.", "Weisbach, M. S."], year=2010,
+        title="The role of boards of directors in corporate governance: A conceptual framework and survey", journal="Journal of Economic Literature",
+        volume="48", issue="1", pages="58–107", doi="10.1257/jel.48.1.58", topics=["governance"], pr=True, checked="2026-09-30",
+        note="Surveys research on what determines board composition and what boards do, stressing that the two are jointly determined, which makes causal claims about 'good' boards hard to establish."),
+    "jensen-1976": dict(
+        kind="article", authors=["Jensen, M. C.", "Meckling, W. H."], year=1976, title="Theory of the firm: Managerial behavior, agency costs and ownership structure",
+        journal="Journal of Financial Economics", volume="3", issue="4", pages="305–360", url="https://www.sciencedirect.com/science/article/pii/0304405X7690026X",
+        topics=["governance"], pr=True, checked="2026-09-30",
+        note="The foundation of agency theory in corporate governance: when managers act for owners, their interests diverge, creating agency costs of monitoring, bonding and residual loss."),
+
+    # ---------- Culture, conduct, incentives and accountability ----------
+    "trevino-1992": dict(
+        kind="article", authors=["Treviño, L. K."], year=1992, title="The social effects of punishment in organizations: A justice perspective",
+        journal="Academy of Management Review", volume="17", issue="4", pages="647–676", doi="10.5465/amr.1992.4279054", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Shifts attention from the person punished to the observers: whether colleagues see a sanction as fair shapes their attitudes and future behaviour."),
+    "chan-2012": dict(
+        kind="article", authors=["Chan, L. H.", "Chen, K. C. W.", "Chen, T.-Y.", "Yu, Y."], year=2012,
+        title="The effects of firm-initiated clawback provisions on earnings quality and auditor behavior", journal="Journal of Accounting and Economics",
+        volume="54", issue="2–3", pages="180–196", doi="10.1016/j.jacceco.2012.05.001", topics=["culture"], pr=True, checked="2026-09-30",
+        note="After firms adopted clawback provisions, accounting restatements declined and auditors perceived lower risk, evidence that clawbacks can change behaviour."),
+    "fahlenbrach-2011": dict(
+        kind="article", authors=["Fahlenbrach, R.", "Stulz, R. M."], year=2011, title="Bank CEO incentives and the credit crisis",
+        journal="Journal of Financial Economics", volume="99", issue="1", pages="11–26", doi="10.1016/j.jfineco.2010.08.010", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Banks whose CEOs' incentives were better aligned with shareholders did not perform better in the crisis, and some evidence suggests they did worse; CEOs held their shares and suffered large losses."),
+    "palermo-2017": dict(
+        kind="article", authors=["Palermo, T.", "Power, M.", "Ashby, S."], year=2017, title="Navigating institutional complexity: The production of risk culture in the financial sector",
+        journal="Journal of Management Studies", volume="54", issue="2", pages="154–181", doi="10.1111/joms.12241", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Based on four years of fieldwork in UK finance, shows how 'risk culture' became an object of regulation and management, and how conflicting goals of risk-taking and precaution made it hard to define and change."),
+    "sheedy-2018": dict(
+        kind="article", authors=["Sheedy, E.", "Griffin, B."], year=2018, title="Risk governance, structures, culture, and behavior: A view from the inside",
+        journal="Corporate Governance: An International Review", volume="26", issue="1", pages="4–22", doi="10.1111/corg.12200", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Australian research surveying bank staff: favourable risk culture together with effective risk structures was associated with more desirable and less undesirable risk behaviour."),
+    "fahlenbrach-2012": dict(
+        kind="article", authors=["Fahlenbrach, R.", "Prilmeier, R.", "Stulz, R. M."], year=2012,
+        title="This time is the same: Using bank performance in 1998 to explain bank performance during the recent financial crisis", journal="The Journal of Finance",
+        volume="67", issue="6", pages="2139–2185", doi="10.1111/j.1540-6261.2012.01783.x", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Banks that did badly in the 1998 crisis were more likely to do badly and fail in 2007–08, consistent with a persistent risk culture or business model."),
+    "schein-1990": dict(
+        kind="article", authors=["Schein, E. H."], year=1990, title="Organizational culture", journal="American Psychologist",
+        volume="45", pages="109–119", topics=["culture"], pr=True, checked="2026-09-30",
+        note="Defines organisational culture in three levels, visible artefacts, espoused values and underlying assumptions, and argues that the deepest level is what drives behaviour and is hardest to change."),
+
+    # ---------- Superannuation and pensions ----------
+    "bikker-2009": dict(
+        kind="article", authors=["Bikker, J. A.", "de Dreu, J."], year=2009, title="Operating costs of pension funds: The impact of scale, governance, and plan design",
+        journal="Journal of Pension Economics and Finance", volume="8", issue="1", pages="63–89", doi="10.1017/S1474747207002995", topics=["super"], pr=True, checked="2026-09-30",
+        note="Using Dutch data, finds substantial economies of scale in pension fund operating costs: larger funds have much lower costs per member."),
+    "bateman-2004": dict(
+        kind="article", authors=["Bateman, H.", "Mitchell, O. S."], year=2004, title="New evidence on pension plan design and administrative expenses: The Australian experience",
+        journal="Journal of Pension Economics and Finance", volume="3", issue="1", pages="63–76", topics=["super"], pr=True, checked="2026-09-30",
+        note="Examines how the design of Australian super funds, including size and structure, relates to administrative expenses, informing debates on fees and consolidation."),
+    "coleman-2006": dict(
+        kind="article", authors=["Coleman, A. D. F.", "Esho, N.", "Wong, M."], year=2006, title="The impact of agency costs on the investment performance of Australian pension funds",
+        journal="Journal of Pension Economics and Finance", volume="5", issue="3", pages="299–324", doi="10.1017/S1474747205002350", topics=["super", "governance"], pr=True, checked="2026-09-30",
+        note="Across 225 funds over seven years to 2002, not-for-profit funds significantly outperformed for-profit funds, a difference the authors link to higher agency costs in for-profit funds."),
+
+    # ---------- Cyber and information security risk ----------
+    "gordon-2002": dict(
+        kind="article", authors=["Gordon, L. A.", "Loeb, M. P."], year=2002, title="The economics of information security investment",
+        journal="ACM Transactions on Information and System Security", volume="5", issue="4", pages="438–457", doi="10.1145/581271.581274", topics=["cyber"], pr=True, checked="2026-09-30",
+        note="The Gordon-Loeb model: under its assumptions, the optimal investment to protect information never exceeds about 37% of the expected loss from a breach."),
+    "anderson-2006": dict(
+        kind="article", authors=["Anderson, R.", "Moore, T."], year=2006, title="The economics of information security",
+        journal="Science", volume="314", issue="5799", pages="610–613", doi="10.1126/science.1130992", topics=["cyber"], pr=True, checked="2026-09-30",
+        note="Argues that security failures are often failures of incentives rather than technology, for example when the party who could prevent harm is not the one who bears it."),
+    "romanosky-2016": dict(
+        kind="article", authors=["Romanosky, S."], year=2016, title="Examining the costs and causes of cyber incidents",
+        journal="Journal of Cybersecurity", volume="2", issue="2", pages="121–135", doi="10.1093/cybsec/tyw001", topics=["cyber"], pr=True, checked="2026-09-30",
+        note="Analyses a large dataset of cyber incidents and their costs, finding the typical cost smaller than often claimed, which raises questions about firms' incentives to invest in security."),
+    "kamiya-2021": dict(
+        kind="article", authors=["Kamiya, S.", "Kang, J.-K.", "Kim, J.", "Milidonis, A.", "Stulz, R. M."], year=2021,
+        title="Risk management, firm reputation, and the impact of successful cyberattacks on target firms", journal="Journal of Financial Economics",
+        volume="139", issue="3", pages="719–749", doi="10.1016/j.jfineco.2019.05.019", topics=["cyber"], pr=True, checked="2026-09-30",
+        note="Successful cyberattacks that expose personal financial information cause shareholder losses far larger than the direct costs, and affected firms tend to strengthen risk management afterwards."),
+
     # ---------- Judgement, bias and decision-making ----------
     "gigerenzer-2011": dict(
         kind="article", authors=["Gigerenzer, G.", "Gaissmaier, W."], year=2011, title="Heuristic decision making",
