@@ -440,6 +440,20 @@ REFS = {
         note="Experiments showing apologies repair trust better after competence failures, while integrity failures are harder to repair by apology, which can confirm the violation."),
 
     # ---------- Boards, directors and corporate governance ----------
+    "davies-2018": dict(
+        kind="article", authors=["Davies, H.", "Zhivitskaya, M."], year=2018, title="Three lines of defence: A robust organising framework, or just lines in the sand?",
+        journal="Global Policy", volume="9", issue="S1", pages="34–42", doi="10.1111/1758-5899.12568", topics=["governance", "erm"], pr=True, checked="2026-09-30",
+        note="Traces how regulators adopted the three lines of defence model after the financial crisis, notes its opaque origins and untested effectiveness, and discusses the argument that spreading responsibility reduces accountability."),
+    "bantleon-2021": dict(
+        kind="article", authors=["Bantleon, U.", "d'Arcy, A.", "Eulerich, M.", "Hucke, A.", "Pedell, B.", "Ratzinger-Sakel, N. V. S."], year=2021,
+        title="Coordination challenges in implementing the three lines of defense model", journal="International Journal of Auditing",
+        volume="25", issue="1", pages="59–74", doi="10.1111/ijau.12201", topics=["governance", "controls"], pr=True, checked="2026-09-30",
+        note="Examines the challenges organisations face in coordinating the work of the three lines when implementing the model in practice."),
+    "christopher-2009": dict(
+        kind="article", authors=["Christopher, J.", "Sarens, G.", "Leung, P."], year=2009,
+        title="A critical analysis of the independence of the internal audit function: Evidence from Australia", journal="Accounting, Auditing & Accountability Journal",
+        volume="22", issue="2", pages="200–220", doi="10.1108/09513570910933942", topics=["controls", "governance"], pr=True, checked="2026-09-30",
+        note="A survey of Australian chief audit executives identifying threats to internal audit independence, such as management approving the audit budget and plan, and internal audit being seen as a management 'partner' or a stepping stone."),
     "aebi-2012": dict(
         kind="article", authors=["Aebi, V.", "Sabato, G.", "Schmid, M."], year=2012, title="Risk management, corporate governance, and bank performance in the financial crisis",
         journal="Journal of Banking & Finance", volume="36", issue="12", pages="3213–3226", doi="10.1016/j.jbankfin.2011.10.020",
@@ -513,6 +527,30 @@ REFS = {
         note="Defines organisational culture in three levels, visible artefacts, espoused values and underlying assumptions, and argues that the deepest level is what drives behaviour and is hardest to change."),
 
     # ---------- Superannuation and pensions ----------
+    "madrian-2001": dict(
+        kind="article", authors=["Madrian, B. C.", "Shea, D. F."], year=2001, title="The power of suggestion: Inertia in 401(k) participation and savings behavior",
+        journal="The Quarterly Journal of Economics", volume="116", issue="4", pages="1149–1187", doi="10.1162/003355301753265543", topics=["super", "judgement"], pr=True, checked="2026-09-30",
+        note="When a US employer switched to automatic enrolment, retirement plan participation rose sharply, and many employees stayed at the default contribution rate and investment choice."),
+    "thaler-2004": dict(
+        kind="article", authors=["Thaler, R. H.", "Benartzi, S."], year=2004, title="Save More Tomorrow: Using behavioral economics to increase employee saving",
+        journal="Journal of Political Economy", volume="112", issue="S1", pages="S164–S187", doi="10.1086/380085", topics=["super", "judgement"], pr=True, checked="2026-09-30",
+        note="A program where employees committed in advance to save part of future pay rises: 78% of those offered it joined, and average saving rates rose from 3.5% to 11.6% over 28 months."),
+    "benartzi-2001": dict(
+        kind="article", authors=["Benartzi, S.", "Thaler, R. H."], year=2001, title="Naive diversification strategies in defined contribution saving plans",
+        journal="American Economic Review", volume="91", issue="1", pages="79–98", doi="10.1257/aer.91.1.79", topics=["super", "judgement"], pr=True, checked="2026-09-30",
+        note="Many people spread savings evenly across whatever options are offered (a '1/n' rule), so the menu of options itself shapes how much they hold in shares."),
+    "iyengar-2000": dict(
+        kind="article", authors=["Iyengar, S. S.", "Lepper, M. R."], year=2000, title="When choice is demotivating: Can one desire too much of a good thing?",
+        journal="Journal of Personality and Social Psychology", volume="79", issue="6", pages="995–1006", doi="10.1037//0022-3514.79.6.995", topics=["super", "judgement"], pr=True, checked="2026-09-30",
+        note="In three experiments, people were more likely to choose or act when offered 6 options than 24 or 30: the classic 'choice overload' study."),
+    "scheibehenne-2010": dict(
+        kind="article", authors=["Scheibehenne, B.", "Greifeneder, R.", "Todd, P. M."], year=2010, title="Can there ever be too many options? A meta-analytic review of choice overload",
+        journal="Journal of Consumer Research", volume="37", issue="3", pages="409–425", doi="10.1086/651235", topics=["judgement"], pr=True, checked="2026-09-30",
+        note="A meta-analysis of 50 experiments found an average choice overload effect of about zero, with large variation between studies: overload happens in some conditions but is not universal."),
+    "bateman-2016": dict(
+        kind="article", authors=["Bateman, H.", "Eckert, C.", "Geweke, J.", "Louviere, J.", "Satchell, S.", "Thorp, S."], year=2016, title="Risk presentation and portfolio choice",
+        journal="Review of Finance", volume="20", issue="1", pages="201–229", doi="10.1093/rof/rfv001", topics=["super", "disclosure"], pr=True, checked="2026-09-30",
+        note="Australian choice experiment: people made choices inconsistent with basic principles of rational choice in about a quarter of cases, and the rate varied with how investment risk was described."),
     "bikker-2009": dict(
         kind="article", authors=["Bikker, J. A.", "de Dreu, J."], year=2009, title="Operating costs of pension funds: The impact of scale, governance, and plan design",
         journal="Journal of Pension Economics and Finance", volume="8", issue="1", pages="63–89", doi="10.1017/S1474747207002995", topics=["super"], pr=True, checked="2026-09-30",
