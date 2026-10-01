@@ -1,0 +1,218 @@
+"""Practitioner playbooks (/playbooks/). Step-by-step guides for real situations.
+
+Every factual statement here must match the topic page it links to (the topic pages hold the checked
+detail and sources). Edit here, then run:  python3 _scripts/build_playbooks.py && python3 _scripts/sync_layout.py
+
+Fields: slug, title, short (card text), summary, level, minutes, when [..], need [..], who [..],
+steps [(title, [actions], output, [(url, label)])], clocks [(regime, event, timeframe)] (optional),
+tools [(url, label)], mistakes [..], takeaways [..], related [(url, label)], sources [html]
+"""
+
+APRA_230 = 'Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> and <a href="https://handbook.apra.gov.au/ppg/cpg-230">CPG 230</a>.'
+APRA_NOTIFY = 'Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/about-us/our-functions/notify-breach-or-incident">Notify a breach or incident</a>; <a href="https://www.apra.gov.au/standards/cps-234">CPS 234 Information Security</a>.'
+ASIC_RS = 'Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/financial-services/reportable-situations-for-afs-and-credit-licensees">Reportable situations for AFS and credit licensees</a> and <a href="https://download.asic.gov.au/media/2wxlpkr0/rg78-published-19-december-2023-20260216.pdf">Regulatory Guide 78</a>.'
+ASIC_RELIEF = 'Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/about-asic/news-centre/news-items/asic-gives-further-relief-for-licensees-under-the-reportable-situations-regime">ASIC gives further relief for licensees under the reportable situations regime</a>.'
+CA_912D = '<em>Corporations Act 2001</em> (Cth), <a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/ca2001172/s912d.html">s 912D</a>.'
+OAIC_NDB = 'Office of the Australian Information Commissioner, <a href="https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme">About the Notifiable Data Breaches scheme</a>.'
+AUSTRAC_SMR = 'AUSTRAC, <a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports">Suspicious matter reports</a>.'
+RG277 = 'Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-277-consumer-remediation/">RG 277 Consumer remediation</a>.'
+RG234 = 'Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-234-advertising-financial-products-and-services-including-credit">RG 234 Advertising financial products and services (including credit)</a>.'
+CA_LEG = '<em>Corporations Act 2001</em> (Cth), including s 1041H, on the <a href="https://www.legislation.gov.au/C2004A00818/latest">Federal Register of Legislation</a>.'
+APRA_MSP = 'Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-releases-material-service-provider-register-template">APRA releases material service provider register template</a> and <a href="https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management">Final targeted amendments to CPS 230</a> (April 2026).'
+COSO_IC = 'Committee of Sponsoring Organizations of the Treadway Commission, <a href="https://www.coso.org/guidance-on-ic">Internal Control – Integrated Framework</a>.'
+IIA = 'The Institute of Internal Auditors, <a href="https://www.theiia.org/en/standards/">Global Internal Audit Standards</a>.'
+APRA_220 = 'Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a>.'
+RG104 = 'Australian Securities and Investments Commission, <a href="https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/">Regulatory Guide 104 AFS licensing: Meeting the general obligations</a>.'
+
+PLAYBOOKS = [
+  dict(
+    slug="respond-to-an-incident",
+    title="Respond to an incident",
+    short="The first hours and days after something goes wrong: record, contain, assess, notify, fix and learn.",
+    summary="A step-by-step guide for the first hours and days after something goes wrong: record it, contain the harm, assess it against every regime that might apply, notify on time, then fix the cause and put people right.",
+    level="Intermediate", minutes=12,
+    when=["A process, system, person or provider has failed, or nearly failed", "Customers or members may have been harmed, overcharged or exposed", "Someone has raised a concern that might be a breach of an obligation"],
+    need=["Your organisation's incident and breach policy and rating scale", "The incident register (or the template below)", "A list of the reporting regimes that apply to your licences"],
+    who=["First line: whoever found it and the process owner", "Second line: risk and compliance, who challenge the assessment and usually decide reportability", "Executives and the board, depending on severity"],
+    steps=[
+      ("Record it, with the awareness date", ["Log the facts known so far: what happened, when it happened, when it was found and by whom.", "Record the date the organisation became aware. Many reporting clocks start from awareness, not from the end of the investigation.", "Give it a unique ID and an owner."], "An incident record with an awareness date and an owner", [("/risk-management/incident-and-breach-management.html", "Incident and breach management")]),
+      ("Contain the harm", ["Stop the harm spreading: pause the faulty process, block compromised access, stop incorrect payments.", "Contain first. Perfect understanding can come later.", "Preserve evidence (logs, files, emails) before anything is changed."], "Harm stopped or limited, evidence preserved", []),
+      ("Rate and triage on the same day", ["Rate the severity on your organisation's incident rating scale.", "Answer three separate questions: Is it a breach of an obligation? Is it reportable to anyone? Who needs to know internally?", "Test the event against every regime that might apply. One event can start several clocks at once.", "Record the reasoning, not just the conclusion, including decisions not to report."], "A documented assessment covering breach, reportability and escalation", [("/compliance/breach-reporting.html", "Breach and incident reporting obligations")]),
+      ("Escalate and notify on time", ["Escalate internally in line with the policy and the severity.", "Lodge regulator notifications within the deadlines below. Don't wait for certainty: report once the test is met and update the regulator as facts emerge.", "Consider whether affected customers must be told, for example under the Notifiable Data Breaches scheme.", "Coordinate when several regulators are involved, so each gets a consistent picture."], "Notifications lodged on time, with records", [("/standards/asic-rg-78.html", "ASIC RG 78 Breach reporting")]),
+      ("Investigate the root cause and the extent", ["Work out why it happened, not just what happened. Keep asking why until you reach causes the organisation can fix. \"Human error\" is almost never the root cause.", "Find out how far it goes: how many customers, over what period, through which other processes."], "Root causes and the full population affected", [("/risk-management/root-cause-analysis.html", "Root cause analysis")]),
+      ("Remediate affected people", ["Start promptly and proactively, without waiting for complaints.", "Put people back in the position they would have been in, including interest or lost earnings.", "Follow the remediation playbook for the detail."], "A remediation plan, or a documented decision that none is needed", [("/playbooks/run-a-consumer-remediation.html", "Run a consumer remediation")]),
+      ("Fix the control and close with evidence", ["Fix the control weakness that allowed it, and check the fix works.", "Under CPS 230, control gaps and weaknesses must stay in the operational risk profile until remediated.", "Close the incident only with evidence."], "A tested fix and a closed record with evidence", [("/risk-management/issue-and-action-management.html", "Issue and action management")]),
+      ("Learn from it", ["Update the risk assessment for the process.", "Look for themes across incidents: repeated incidents with the same root cause are a warning sign regulators look for.", "Share lessons, and check whether the same cause exists elsewhere."], "Updated risk assessments and shared lessons", [("/risk-management/risk-assessment-methodologies.html", "Risk assessment methodologies")]),
+    ],
+    clocks=[
+      ("APRA, CPS 230", "Disruption to a critical operation outside tolerance", "As soon as possible, no later than 24 hours"),
+      ("APRA, CPS 230", "Operational risk incident likely to have a material financial impact or a material impact on the ability to maintain critical operations", "As soon as possible, no later than 72 hours after becoming aware"),
+      ("APRA, CPS 234", "Material information security incident", "As soon as possible, no later than 72 hours after becoming aware"),
+      ("APRA, SIS Act s 29JA (super trustees)", "Significant breaches of RSE licensee law and certain other matters", "As soon as practicable, and within 30 days of becoming aware"),
+      ("ASIC, reportable situations", "Significant breaches of core obligations and other reportable situations (AFS and credit licensees)", "Within 30 calendar days after first knowing, or being reckless about, reasonable grounds"),
+      ("OAIC, Notifiable Data Breaches", "Personal information breach likely to result in serious harm", "Assess a suspected breach within 30 days; if eligible, notify as soon as practicable"),
+      ("AUSTRAC, suspicious matter report", "Suspicion relating to money laundering, terrorism financing and other matters", "Within 3 business days (24 hours for terrorism financing)"),
+    ],
+    tools=[("/tools/incident-report-template.html", "Incident report template"), ("/tools/breach-register-template.html", "Breach register template"), ("/compliance/breach-reporting.html", "Reporting regime finder")],
+    mistakes=["Starting the clock at the end of the investigation instead of at awareness.", "Stopping the root cause analysis at \"human error\" or \"staff retrained\".", "Assessing against one regime and missing the others the same event triggers.", "Not recording why something was judged not reportable.", "Closing the incident when the fix is planned, not when it is proven to work."],
+    takeaways=["Record the awareness date first: most reporting clocks run from awareness, not certainty.", "Contain before you fully understand.", "Test every event against every regime that might apply, and record the reasoning, including decisions not to report.", "Close only with evidence that the fix works, and look for the same cause elsewhere."],
+    related=[("/risk-management/incident-and-breach-management.html", "Incident and breach management"), ("/compliance/breach-reporting.html", "Breach and incident reporting obligations"), ("/risk-management/root-cause-analysis.html", "Root cause analysis"), ("/playbooks/assess-a-potential-breach.html", "Assess a potential breach")],
+    sources=[APRA_230, APRA_NOTIFY, ASIC_RS, OAIC_NDB, AUSTRAC_SMR],
+  ),
+  dict(
+    slug="assess-a-potential-breach",
+    title="Assess a potential breach",
+    short="Decide, and document, whether a breach is significant and reportable to ASIC under RG 78.",
+    summary="A structured way to decide whether a potential breach is a reportable situation for ASIC: identify the obligation, apply the deemed significance tests and significance factors, watch the clock, and record the reasoning.",
+    level="Intermediate", minutes=10,
+    when=["An incident, complaint, audit or test suggests an obligation may not have been met", "You are an AFS or credit licensee, including a super trustee", "You need a consistent, defensible significance decision"],
+    need=["The incident record and its awareness date", "Your obligations register, to identify which obligation is involved", "The breach register (or the template below)"],
+    who=["The business owner, who provides the facts", "Compliance, who assesses significance and reportability", "Legal, for difficult or contested judgements"],
+    steps=[
+      ("Confirm the facts and the awareness date", ["Capture when anyone in the business first had information pointing to a possible breach; ASIC may attribute staff knowledge to the licensee.", "The 30-day clock starts when the licensee first knows, or is reckless about, reasonable grounds to believe a reportable situation has arisen."], "Facts and an awareness date on the breach record", [("/standards/asic-rg-78.html", "ASIC RG 78 explained")]),
+      ("Identify the obligation", ["Which obligation may have been breached, or is likely to be breached?", "Is it a core obligation? Core obligations include the general licensee obligations (for example, efficiently, honestly and fairly) and specified financial services laws."], "The obligation and whether it is a core obligation", [("/tools/obligations-register-template.html", "Obligations register template")]),
+      ("Apply the deemed significance tests", ["Some breaches are deemed significant automatically. These include offences carrying 12 months' imprisonment or more (3 months or more if dishonesty is involved), civil penalty provisions (unless excluded), misleading or deceptive conduct (s 1041H(1) Corporations Act, s 12DA(1) ASIC Act), and breaches that cause or are likely to cause material loss or damage to clients.", "If a deemed test is met, the breach is significant and no further judgement is needed."], "A deemed significance decision, with the test that applies", [("/compliance/breach-significance-analysis.html", "Breach significance analysis")]),
+      ("Otherwise, weigh the significance factors", ["Consider the number or frequency of similar breaches, the impact on the licensee's ability to provide services, the extent to which compliance arrangements are inadequate, and actual or potential loss.", "Look for patterns: several minor breaches with the same cause can together be significant."], "A reasoned significance decision", []),
+      ("Check the other reportable situations", ["An investigation into whether a significant breach has occurred becomes reportable if it continues for more than 60 days (under ASIC relief; the Act says 30).", "Gross negligence or serious fraud in providing services is also reportable, and some matters involving other licensees' advisers or mortgage brokers."], "A decision on investigations and other reportable situations", []),
+      ("Check the other regimes", ["The same event may also need to be reported to APRA, the OAIC or clients.", "Super trustees should also consider the SIS Act s 29JA reporting obligation."], "A list of every regime considered, with outcomes", [("/compliance/breach-reporting.html", "Breach and incident reporting obligations")]),
+      ("Report, or document why not", ["If reportable, lodge within 30 calendar days using the prescribed form via the ASIC Regulatory Portal, and update ASIC as facts emerge.", "If not reportable, document the reasons so the assessment can be reviewed later."], "A lodged report, or a documented decision not to report", []),
+      ("Make sure the breach is fixed and people are remediated", ["Track rectification of the cause and any remediation to closure.", "Feed themes into compliance monitoring and the risk profile."], "Rectification and remediation tracked to closure", [("/playbooks/run-a-consumer-remediation.html", "Run a consumer remediation")]),
+    ],
+    clocks=[
+      ("ASIC, reportable situations", "Reportable situation", "Within 30 calendar days of first knowing, or being reckless about, reasonable grounds"),
+      ("ASIC, reportable situations", "Investigation into whether there is a significant breach", "Becomes reportable if it continues for more than 60 days (ASIC relief)"),
+      ("APRA, SIS Act s 29JA (super trustees)", "Significant breaches of RSE licensee law and certain other matters", "As soon as practicable, and within 30 days of becoming aware"),
+    ],
+    tools=[("/tools/breach-register-template.html", "Breach register template"), ("/compliance/breach-significance-analysis.html", "Worked significance cases"), ("/learn/scenarios.html", "Practice scenarios")],
+    mistakes=["Waiting for the investigation to finish before starting the clock.", "Treating each minor breach alone and missing a pattern with a common cause.", "Recording a conclusion without the reasoning.", "Forgetting the other regimes the same breach may trigger."],
+    takeaways=["Start with the facts and the awareness date: the 30-day clock runs from reasonable grounds, not certainty.", "Deemed significance tests come first; the significance factors apply to everything else.", "Several minor breaches with the same cause can be significant together.", "Document every decision, especially decisions not to report."],
+    related=[("/standards/asic-rg-78.html", "ASIC RG 78 Breach reporting"), ("/compliance/breach-significance-analysis.html", "Breach significance analysis"), ("/compliance/breach-reporting.html", "Breach and incident reporting obligations"), ("/playbooks/respond-to-an-incident.html", "Respond to an incident")],
+    sources=[ASIC_RS, ASIC_RELIEF, CA_912D],
+  ),
+  dict(
+    slug="run-a-consumer-remediation",
+    title="Run a consumer remediation",
+    short="Put affected customers or members back where they would have been, in line with ASIC RG 277.",
+    summary="How to run a remediation from first suspicion to closure: start promptly, scope everyone affected, use beneficial assumptions, calculate fair compensation including the time value of money, pay people and handle what can't be returned.",
+    level="Intermediate", minutes=12,
+    when=["There are reasonable grounds to suspect your conduct may have caused consumer loss", "An incident, breach, complaint theme or review has found people were overcharged or disadvantaged", "You are an AFS or credit licensee, including a super trustee"],
+    need=["The incident or breach record and root cause", "Data on affected customers or members, and on former customers", "A remediation methodology and governance (or the tracker below)"],
+    who=["An accountable executive and a remediation lead", "Data, finance and actuarial or investment teams for calculations", "Compliance and quality assurance; board or committee oversight"],
+    steps=[
+      ("Start promptly", ["Initiate remediation when there are reasonable grounds to suspect conduct may have caused consumer loss.", "Don't wait for complaints, AFCA or ASIC."], "A remediation opened, with an owner", [("/standards/asic-rg-277.html", "ASIC RG 277 explained")]),
+      ("Set up governance", ["Name an accountable executive, set board or senior management oversight, and agree how decisions and records will be kept.", "Plan quality assurance from the start."], "Governance, accountability and records in place", []),
+      ("Scope everyone affected", ["Include all consumers who have or may have been affected. Don't narrow scope artificially.", "Remember former customers. In super, members may have rolled over, retired or died."], "A scoped population, with the reasoning recorded", []),
+      ("Use beneficial assumptions where data is missing", ["Where data is incomplete, use assumptions that favour consumers, so people don't fall out of scope or get underpaid.", "Document each assumption and why it is beneficial."], "Documented assumptions", [("/compliance/remediation-calculations.html", "Remediation calculations in practice")]),
+      ("Calculate fair compensation", ["Return people to the position they would have been in, including foregone returns or interest.", "For super, this often means correcting account balances and restoring lost investment earnings, not just refunding a fee.", "Check calculations independently before paying."], "Checked calculations for each person", []),
+      ("Pay people, free and easily", ["Make remediation free and minimise what consumers need to do; communicate clearly.", "Pay current customers regardless of amount.", "For former customers owed $5 or less (after interest), a residual remediation payment may be made without reasonable endeavours to locate them."], "Payments made and communications sent", []),
+      ("Handle money that can't be returned", ["Where money can't be returned and lodging it as unclaimed money isn't feasible, licensees (other than those holding pooled funds) may pay it to registered charities or not-for-profits, within set timeframes.", "Super trustees should consider who bears the cost of remediation, for example the trustee's own resources rather than other members, and document that decision."], "Residual funds handled and the funding decision recorded", []),
+      ("Assure, report and close", ["Quality-assure the outcome and keep records.", "Report progress and outcomes to the board or committee.", "Close only when people are paid and the root cause is fixed."], "A closure report with evidence", [("/tools/remediation-program-tracker.html", "Remediation program tracker")]),
+    ],
+    clocks=[],
+    tools=[("/tools/remediation-program-tracker.html", "Remediation program tracker"), ("/compliance/remediation-calculations.html", "Remediation calculator"), ("/tools/breach-register-template.html", "Breach register template")],
+    mistakes=["Waiting for complaints before starting.", "Narrowing scope to people with complete data.", "Refunding a fee without restoring lost earnings or interest.", "Leaving out former customers or members.", "No documented reasoning for assumptions and funding decisions."],
+    takeaways=["Start once there are reasonable grounds to suspect loss. Don't wait to be asked.", "Include everyone who has or may have been affected, using beneficial assumptions where data is missing.", "Compensation should include the time value of money.", "RG 277 sets out options for small amounts and money that can't be returned."],
+    related=[("/standards/asic-rg-277.html", "ASIC RG 277 Consumer remediation"), ("/compliance/remediation-calculations.html", "Remediation calculations in practice"), ("/sectors/unit-pricing.html", "Unit pricing errors"), ("/playbooks/respond-to-an-incident.html", "Respond to an incident")],
+    sources=[RG277],
+  ),
+  dict(
+    slug="onboard-a-material-service-provider",
+    title="Onboard a material service provider",
+    short="Tier, assess, contract, transition and monitor a provider you rely on, in line with CPS 230.",
+    summary="How to bring on a service provider that supports a critical operation: tier it, run due diligence, negotiate a contract that meets CPS 230, plan the transition and exit, notify APRA, and set up monitoring.",
+    level="Intermediate", minutes=12,
+    when=["You plan to outsource an activity, or materially change an existing arrangement", "The provider supports a critical operation, or its failure could expose you to material operational risk", "You are an APRA-regulated entity (the steps are good practice for others too)"],
+    need=["The business case and the critical operations it supports, with tolerance levels", "Your service provider management policy and tiering method", "The material service provider register (or the template below)"],
+    who=["The business owner and a named relationship owner", "Procurement and legal", "Risk, information security, privacy and business continuity specialists", "The board or delegate, as your policy requires"],
+    steps=[
+      ("Define the need and tier the provider", ["Be clear why you are outsourcing, what could go wrong and how critical the service is.", "Tier the provider so the most important get the most attention. For APRA-regulated entities, assess materiality under CPS 230."], "A tier and a materiality decision", [("/risk-management/third-party-risk.html", "Third-party risk (with tiering tool)")]),
+      ("Run due diligence", ["Check financial strength, operational capability, resilience (business continuity and disaster recovery, and the ability to meet your tolerance levels), information security and privacy, compliance and conduct, and subcontractors.", "Ask for independent assurance, such as controls reports under ASAE 3402 or GS 007."], "A due diligence report with risks and conditions", []),
+      ("Negotiate the contract", ["For material arrangements, CPS 230 requires a formal, legally binding agreement that addresses, among other things: the services and service levels; each party's rights and responsibilities; notification of the provider's use of other material service providers, with the provider liable for their failures; your ability to meet your own legal and compliance obligations; force majeure; and termination rights.", "Read the current standard for the full list."], "A signed agreement that meets the requirements", [("/standards/cps-230.html", "CPS 230 explained")]),
+      ("Plan the exit before you start", ["Write down how you would move to another provider or bring the service back in-house in an orderly way, and how long that would take.", "An exit plan that has never been thought through is usually not credible."], "A documented exit plan", [("/risk-management/service-provider-exit-and-concentration.html", "Exit planning and concentration")]),
+      ("Notify APRA and update the register", ["Notify APRA within 20 business days of entering or materially changing a material service provider arrangement.", "Add the provider to the material service provider register, which is submitted to APRA each year."], "APRA notified; register updated", [("/tools/material-service-provider-register.html", "Material service provider register")]),
+      ("Manage the transition", ["Plan data migration, testing, parallel running, updated procedures and controls, and incident and escalation contacts.", "Many outsourcing failures happen during transition."], "A tested transition with updated controls", []),
+      ("Set up ongoing monitoring", ["Agree service levels and KPIs, reported regularly and discussed in governance meetings.", "Monitor incidents, breaches, complaints, audit findings, financial health and changes at the provider.", "Collect assurance and join business continuity testing; name an accountable relationship owner."], "A monitoring plan with an owner", []),
+      ("Review before renewal", ["Before renewing, re-assess the risk and the market, and refresh the exit plan."], "A renewal decision based on current risk", []),
+    ],
+    clocks=[("APRA, CPS 230", "Entering into or materially changing a material service provider arrangement", "Within 20 business days"), ("APRA, CPS 230", "Material service provider register", "Submitted each year")],
+    tools=[("/tools/material-service-provider-register.html", "Material service provider register"), ("/risk-management/third-party-risk.html", "Provider tiering tool"), ("/risk-management/mapping-critical-operations.html", "Mapping critical operations")],
+    mistakes=["Treating the contract as the end of the process rather than the start of monitoring.", "No exit plan, or one that has never been tested.", "Not knowing which fourth parties support the service.", "Forgetting the 20-business-day APRA notification."],
+    takeaways=["You stay accountable for outsourced activities.", "Scale the effort to the provider's tier; for APRA-regulated entities, assess materiality under CPS 230.", "Material arrangements need a formal agreement covering the matters CPS 230 lists, and an exit plan.", "Notify APRA within 20 business days of entering or materially changing a material arrangement."],
+    related=[("/risk-management/third-party-risk.html", "Third-party risk"), ("/standards/cps-230.html", "CPS 230 explained"), ("/risk-management/service-provider-exit-and-concentration.html", "Exit planning and concentration"), ("/risk-management/business-continuity.html", "Business continuity")],
+    sources=[APRA_230, APRA_MSP],
+  ),
+  dict(
+    slug="review-a-disclosure-document",
+    title="Review a disclosure document or campaign",
+    short="A structured review of a PDS, website, ad or member communication before it goes out.",
+    summary="How to review customer-facing material before it is published: confirm what the document must contain, test the overall impression, check that every claim is supported, approve the right version and monitor it after release.",
+    level="Intermediate", minutes=10,
+    when=["A PDS, FSG, periodic statement, website page, advertisement, campaign or member letter is ready for review", "Fees, features, performance or sustainability claims are changing", "A document is due for its periodic review"],
+    need=["The draft and its purpose and audience", "The substantiation file: evidence for every factual claim", "The current PDS and target market determination"],
+    who=["The business owner who drafted it", "Product, legal and compliance reviewers", "Tax, actuarial or investment specialists where relevant", "An authorised approver"],
+    steps=[
+      ("Understand the brief", ["Confirm the purpose, the audience and the channel.", "Identify which document type it is and any content it must include."], "A clear brief and list of required content", [("/compliance/disclosure-obligations.html", "Disclosure obligations")]),
+      ("Check the substantiation file", ["Link every factual claim (numbers, rankings, \"no fees\", sustainability) to current evidence.", "Claims about returns, fees, \"best\" or \"lowest\", or sustainability must be accurate and substantiated."], "A complete substantiation file", []),
+      ("Test the overall impression", ["Read it as the intended audience would. The overall impression counts, and fine print rarely fixes a misleading headline.", "Silence can mislead where there is a reasonable expectation that something would be disclosed.", "Check benefits are balanced with prominent risks, fees and key limitations."], "A view on the dominant message", [("/compliance/misleading-or-deceptive-conduct.html", "Misleading or deceptive conduct: the legal tests")]),
+      ("Check consistency", ["Make sure it is consistent with the PDS, target market determination and other current documents.", "Check sustainability or ESG claims match how the product is actually managed."], "Consistency confirmed", []),
+      ("Specialist review", ["Product, legal and compliance check content requirements, accuracy, balance and overall impression.", "Bring in tax, actuarial or investment teams where relevant."], "Review comments resolved", []),
+      ("Approve with version control", ["Sign-off by an authorised approver, with an audit trail.", "Set a review or expiry date."], "An approved, dated version", []),
+      ("Check what was published, and monitor", ["Confirm the version approved is the version published.", "Track expiry dates and review triggers such as rate, fee or law changes."], "Publication checked; review triggers set", []),
+    ],
+    clocks=[],
+    tools=[("/compliance/disclosure-obligations.html", "Disclosure review checklist"), ("/learn/scenarios.html", "Practice scenario: marketing campaign review")],
+    mistakes=["Reviewing each sentence but not the overall impression.", "Accepting claims without evidence on file.", "Sustainability claims that go further than how the product is managed.", "Publishing a different version from the one approved."],
+    takeaways=["The overall impression counts: fine print rarely fixes a misleading headline.", "Every factual claim needs current evidence on file.", "Check consistency with the PDS and target market determination.", "Approve with version control, then check what actually went out."],
+    related=[("/compliance/disclosure-obligations.html", "Disclosure obligations"), ("/compliance/misleading-or-deceptive-conduct.html", "Misleading or deceptive conduct"), ("/standards/asic-rg-97.html", "ASIC RG 97 fees and costs"), ("/standards/asic-rg-274.html", "Design and distribution obligations")],
+    sources=[CA_LEG, RG234],
+  ),
+  dict(
+    slug="test-a-key-control",
+    title="Test a key control",
+    short="Plan, walk through, sample, evaluate exceptions and report, for design and operating effectiveness.",
+    summary="How to test whether a key control is designed well and operating consistently: plan the test, walk through the control, test a sample or the whole population, evaluate every exception and report.",
+    level="Intermediate", minutes=10,
+    when=["A key control is due for testing under your assurance plan", "An incident suggests a control may have failed", "A control has changed, or a new control has gone live"],
+    need=["The control description: who, what, when, how, evidence and exceptions", "The population of occurrences for the test period", "A testing workpaper (template below)"],
+    who=["The tester (first-line self-testing, second-line review or internal audit)", "The control owner", "Whoever agrees and tracks the resulting actions"],
+    steps=[
+      ("Plan the test", ["Pick controls based on risk, key controls first.", "Define the test objective, the period covered and the population."], "A test plan", [("/risk-management/control-design-and-testing.html", "Control design and testing")]),
+      ("Check the design", ["Ask whether the control could work if performed perfectly: does it address a specific cause, cover the whole population, run often enough, with defined thresholds, evidence and exception handling?", "Check any reports or data it relies on are complete and accurate."], "A design conclusion", []),
+      ("Walk through one transaction", ["Follow one transaction end to end to confirm how the control really works. Practice often differs from the procedure."], "Confirmed understanding of the control", []),
+      ("Choose the method and sample", ["Use inspection, re-performance or data analytics; inquiry alone is never enough.", "Size the sample to how often the control runs and how much reliance is placed on it, using your organisation's methodology."], "A sample (or the full population) and a method", [("/risk-management/control-testing-sampling.html", "Control testing: sampling")]),
+      ("Test operating effectiveness", ["Check evidence that the control operated correctly each time in the sample."], "Results for each sample item", []),
+      ("Evaluate every exception", ["For each failure: was it a one-off or systemic? What was the root cause? Did it cause harm, which may make it an incident or breach?"], "Exceptions explained, and incidents raised where needed", [("/playbooks/respond-to-an-incident.html", "Respond to an incident")]),
+      ("Rate, report and track actions", ["Conclude on effectiveness, agree actions with owners, report to management and track actions to closure.", "Under CPS 230, results are reported to senior management and gaps are fixed in a timely way."], "A rated result and tracked actions", [("/risk-management/issue-and-action-management.html", "Issue and action management")]),
+    ],
+    clocks=[],
+    tools=[("/tools/control-testing-workpaper.html", "Control testing workpaper"), ("/tools/rcsa-template.html", "RCSA template"), ("/risk-management/assurance-mapping.html", "Assurance mapping")],
+    mistakes=["Relying on inquiry alone.", "Testing operation without checking design first.", "Treating exceptions as one-offs without finding the cause.", "Not checking that system reports used by the control are complete and accurate."],
+    takeaways=["Test design first, then operating effectiveness.", "A walkthrough often shows practice differs from the procedure.", "Every exception needs a root cause and may be an incident.", "The real output of testing is fixing why a control failed."],
+    related=[("/risk-management/control-design-and-testing.html", "Control design and testing"), ("/risk-management/control-testing-sampling.html", "Control testing: sampling"), ("/risk-management/assurance-mapping.html", "Assurance mapping"), ("/compliance/compliance-monitoring-and-testing.html", "Compliance monitoring and testing")],
+    sources=[APRA_230, COSO_IC, IIA],
+  ),
+  dict(
+    slug="first-90-days-in-risk-or-compliance",
+    title="Your first 90 days in a risk or compliance role",
+    short="A practical plan for a new risk or compliance officer: learn the business, the obligations and the risk profile.",
+    summary="A practical plan for your first three months in a risk or compliance role: understand the business and its obligations, read the frameworks and the risk profile, build relationships, and find where you can add value first.",
+    level="Beginner", minutes=8,
+    when=["You have started a new risk, compliance or governance role", "You have moved from another industry or regulator", "You manage someone new and want to structure their induction"],
+    need=["Access to the frameworks, policies and registers", "The last few board and committee risk reports", "Time with the people who own the main processes"],
+    who=["You, your manager and your peers in the second line", "First-line process owners", "Internal audit"],
+    steps=[
+      ("Weeks 1 to 2: learn the business", ["Find out what the organisation does, for whom, and how it makes money.", "List its licences and regulators, and the entities in the group.", "Walk through the main customer or member journeys."], "A one-page map of the business, licences and regulators", [("/foundations/regulatory-landscape.html", "Regulatory landscape map")]),
+      ("Weeks 2 to 4: read the frameworks", ["Read the risk management framework, risk appetite statement, compliance framework and key policies.", "Learn the risk taxonomy and the rating scales.", "Note what is unclear or inconsistent."], "Notes on how the system is meant to work", [("/grc/risk-taxonomy-and-hierarchy.html", "Risk taxonomy and hierarchy")]),
+      ("Weeks 3 to 6: understand the risk profile", ["Read recent board and committee risk reports, the top risks and appetite metrics.", "Review open incidents, breaches, issues and audit findings, and their themes.", "Find out which regulator matters are open."], "A view of the current risk profile and hot spots", [("/governance/board-risk-reporting.html", "Board risk reporting")]),
+      ("Weeks 4 to 8: learn the obligations", ["Review the obligations register for your area and the notification deadlines that apply.", "Check how incidents are triaged for reportability."], "Your key obligations and clocks", [("/obligations/", "Obligations library")]),
+      ("Throughout: build relationships", ["Meet first-line owners, your second-line peers and internal audit.", "Ask what is working, what isn't, and where risk and compliance could help."], "A network and a list of pain points", []),
+      ("Weeks 8 to 12: find your first contributions", ["Pick two or three improvements that fix real pain points, such as a clearer procedure, a better report or a closed gap.", "Agree them with your manager."], "Agreed priorities", []),
+    ],
+    clocks=[],
+    tools=[("/start-here/", "Start here"), ("/learn/pathways.html", "Learning pathways"), ("/glossary/", "Glossary")],
+    mistakes=["Trying to change things before understanding how the business works.", "Reading frameworks without looking at how they work in practice.", "Only talking to the second line."],
+    takeaways=["Learn the business, its licences and regulators before the detail.", "Read the frameworks, then compare them with what really happens.", "Understand the current risk profile and open issues.", "Build relationships with first-line owners early."],
+    related=[("/start-here/", "Start here"), ("/foundations/three-lines-model.html", "The three lines model"), ("/foundations/what-is-compliance.html", "What is compliance?"), ("/learn/pathways.html", "Learning pathways")],
+    sources=[APRA_220, RG104],
+  ),
+]

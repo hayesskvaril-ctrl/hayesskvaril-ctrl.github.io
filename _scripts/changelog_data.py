@@ -8,6 +8,8 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-10-01", "/obligations/", "New Obligations library: 117 plain-English obligation summaries from 37 Australian regimes, with control objectives, evidence, related risks and notification deadlines. Search, filter by organisation type and download as Excel or CSV."),
+    ("2026-10-01", "/playbooks/", "New Playbooks section: step-by-step guides for responding to an incident, assessing a breach, running a remediation, onboarding a material service provider, reviewing disclosure, testing a control and your first 90 days, each with a tickable checklist."),
     ("2026-10-01", "/about/editorial-standards.html", "Every content page now shows its review status (Checked against sources, or Expert reviewed) and has a Suggest a correction link. New page explaining how we check content."),
     ("2026-10-01", "/grc/model-builder.html", "GRC model builder rebuilt: a five-step wizard (or six ready-made examples) that produces a fully linked model: obligations from 37 regimes tied to risks, controls and KRIs, notification clocks, committees and roles, the data model, a maturity radar and roadmap, consistency checks, and an Excel workbook with about 20 sheets."),
     ("2026-10-01", "/grc/", "New GRC systems section: how complex organisations design and establish an integrated governance, risk and compliance system, the risk hierarchy from enterprise to Level 3, obligations and control architecture, an interactive map of how everything links, the operating model, technology, and a GRC model builder tool."),

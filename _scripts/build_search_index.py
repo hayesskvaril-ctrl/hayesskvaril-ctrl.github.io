@@ -16,7 +16,7 @@ SKIP_PAGES = {"search/index.html", "404.html"}
 SECTIONS = {"": "Home", "foundations": "Foundations", "risk-management": "Risk management",
             "compliance": "Compliance", "governance": "Governance", "grc": "GRC systems", "standards": "Standards",
             "sectors": "Sectors", "learn": "Learn", "tools": "Tools", "news": "News",
-            "glossary": "Glossary", "about": "About"}
+            "glossary": "Glossary", "about": "About", "playbooks": "Playbooks", "obligations": "Obligations", "topics": "Topics"}
 MAX_TEXT = 6000
 
 

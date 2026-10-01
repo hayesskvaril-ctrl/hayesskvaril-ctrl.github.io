@@ -370,8 +370,9 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 
 - [x] Trust: review status on every content page ("Checked against sources" or "Expert reviewed"), a "How we check content" page, a "Suggest a correction" link on every page (prefilled GitHub issue form), and a prioritised expert review queue (`_scripts/REVIEW_QUEUE.md`)
 - [ ] Simplify navigation and the home page: a Topics hub, a shorter menu, a "who are you?" router, a what's-new strip, smaller article images
-- [ ] Practitioner playbooks (`/playbooks/`): step-by-step guides for real situations, built from existing pages, templates and clocks
-- [ ] Obligations library (`/obligations/`): searchable, filterable and downloadable obligation themes linked to risks, controls and guides
+- [x] Practitioner playbooks (`/playbooks/`): 7 step-by-step guides (incident response, breach assessment, remediation, onboarding a material service provider, disclosure review, control testing, first 90 days) with tickable checklists, deadlines and templates. Source: `_scripts/playbooks_data.py` + `build_playbooks.py`
+- [x] Obligations library (`/obligations/`): 117 obligation themes from 37 regimes, searchable, filterable by organisation type and regulator, downloadable as Excel or CSV. Built by `node _scripts/build_obligations.js` from the builder data
+- [ ] Obligations library stage 2: break each theme into individual obligations with legal citations (needs verified research, regime by regime)
 - [ ] Courses with progress saved on the reader's device, module checks and a printable completion record
 - [ ] Printable board briefings for the major regimes
 - [ ] Monthly automated check of external links (free GitHub Actions workflow)

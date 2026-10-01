@@ -25,7 +25,7 @@
   // ---------- 2. "On this page" bar ----------
   var main = document.querySelector('main.article:not(.wide)');
   if (!main) return;
-  var skip = '.takeaways, .outcomes, .card, .widget, .video-block, figure, .quiz, details, .related, .sources, .references';
+  var skip = '.pb-glance, .takeaways, .outcomes, .card, .widget, .video-block, figure, .quiz, details, .related, .sources, .references';
   var heads = Array.prototype.filter.call(main.querySelectorAll('h2'), function (h) {
     return !h.closest(skip) && h.textContent.trim();
   });

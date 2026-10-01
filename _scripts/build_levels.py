@@ -12,7 +12,7 @@ REVIEWED = "28 September 2026"
 
 SECTIONS = [("foundations", "Foundations"), ("risk-management", "Risk management"), ("compliance", "Compliance"),
             ("governance", "Governance"), ("grc", "GRC systems"), ("standards", "Standards library"), ("sectors", "Sectors"),
-            ("case-studies", "Case studies")]
+            ("case-studies", "Case studies"), ("playbooks", "Playbooks")]
 LEVELS = [
     ("Beginner", "What is it, and why does it matter?",
      "No prior knowledge assumed. Explains the purpose, the big picture and the key vocabulary.",

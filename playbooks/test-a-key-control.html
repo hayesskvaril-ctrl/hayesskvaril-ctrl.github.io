@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test a key control | RiskLens Australia</title>
+<meta name="description" content="How to test whether a key control is designed well and operating consistently: plan the test, walk through the control, test a sample or the whole population, evaluate every exception and report.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/playbooks/test-a-key-control.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Test a key control">
+<meta property="og:description" content="How to test whether a key control is designed well and operating consistently: plan the test, walk through the control, test a sample or the whole population, evaluate every exception and report.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/playbooks/test-a-key-control.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/grc/">GRC</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article playbook">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/playbooks/">Playbooks</a></li><li>Test a key control</li></ol></nav>
+
+  <h1>Test a key control</h1>
+  <p class="summary">How to test whether a key control is designed well and operating consistently: plan the test, walk through the control, test a sample or the whole population, evaluate every exception and report.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 10 minutes</span>
+    <span>Last reviewed: 1 October 2026</span>
+    <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Test design first, then operating effectiveness.</li>
+      <li>A walkthrough often shows practice differs from the procedure.</li>
+      <li>Every exception needs a root cause and may be an incident.</li>
+      <li>The real output of testing is fixing why a control failed.</li>
+    </ul>
+  </aside>
+
+  <div class="pb-glance">
+    <div><h2 class="pb-gh">Use this when</h2><ul>
+      <li>A key control is due for testing under your assurance plan</li>
+      <li>An incident suggests a control may have failed</li>
+      <li>A control has changed, or a new control has gone live</li>
+    </ul></div>
+    <div><h2 class="pb-gh">You'll need</h2><ul>
+      <li>The control description: who, what, when, how, evidence and exceptions</li>
+      <li>The population of occurrences for the test period</li>
+      <li>A testing workpaper (template below)</li>
+    </ul></div>
+    <div><h2 class="pb-gh">Who's involved</h2><ul>
+      <li>The tester (first-line self-testing, second-line review or internal audit)</li>
+      <li>The control owner</li>
+      <li>Whoever agrees and tracks the resulting actions</li>
+    </ul></div>
+  </div>
+
+  <h2>The steps</h2>
+  <div class="widget pb-progress" data-key="/playbooks/test-a-key-control.html">
+    <p class="pb-bar-t" aria-live="polite"><strong class="pb-count">0 of 7</strong> steps done</p>
+    <div class="pb-bar" aria-hidden="true"><span></span></div>
+    <p class="pb-actions"><button type="button" class="secondary" data-pb="print">Print checklist</button> <button type="button" class="secondary" data-pb="reset">Clear ticks</button></p>
+    <p class="small">Ticks are saved in this browser only. Use them as a working checklist; they are not a record.</p>
+  </div>
+  <ol class="pb-steps">
+    <li class="pb-step" id="step-1">
+      <div class="pb-check"><input type="checkbox" id="pb-1" data-step="1"><label for="pb-1"><span class="visually-hidden">Mark step 1 done: </span>Done</label></div>
+      <h3><span class="pb-n">1</span> Plan the test</h3>
+      <ul>
+        <li>Pick controls based on risk, key controls first.</li>
+        <li>Define the test objective, the period covered and the population.</li>
+      </ul>
+      <p class="pb-out"><strong>Output:</strong> A test plan. <span class="pb-more">Read more: <a href="/risk-management/control-design-and-testing.html">Control design and testing</a></span></p>
+    </li>
+    <li class="pb-step" id="step-2">
+      <div class="pb-check"><input type="checkbox" id="pb-2" data-step="2"><label for="pb-2"><span class="visually-hidden">Mark step 2 done: </span>Done</label></div>
+      <h3><span class="pb-n">2</span> Check the design</h3>
+      <ul>
+        <li>Ask whether the control could work if performed perfectly: does it address a specific cause, cover the whole population, run often enough, with defined thresholds, evidence and exception handling?</li>
+        <li>Check any reports or data it relies on are complete and accurate.</li>
+      </ul>
+      <p class="pb-out"><strong>Output:</strong> A design conclusion.</p>
+    </li>
+    <li class="pb-step" id="step-3">
+      <div class="pb-check"><input type="checkbox" id="pb-3" data-step="3"><label for="pb-3"><span class="visually-hidden">Mark step 3 done: </span>Done</label></div>
+      <h3><span class="pb-n">3</span> Walk through one transaction</h3>
+      <ul>
+        <li>Follow one transaction end to end to confirm how the control really works. Practice often differs from the procedure.</li>
+      </ul>
+      <p class="pb-out"><strong>Output:</strong> Confirmed understanding of the control.</p>
+    </li>
+    <li class="pb-step" id="step-4">
+      <div class="pb-check"><input type="checkbox" id="pb-4" data-step="4"><label for="pb-4"><span class="visually-hidden">Mark step 4 done: </span>Done</label></div>
+      <h3><span class="pb-n">4</span> Choose the method and sample</h3>
+      <ul>
+        <li>Use inspection, re-performance or data analytics; inquiry alone is never enough.</li>
+        <li>Size the sample to how often the control runs and how much reliance is placed on it, using your organisation's methodology.</li>
+      </ul>
+      <p class="pb-out"><strong>Output:</strong> A sample (or the full population) and a method. <span class="pb-more">Read more: <a href="/risk-management/control-testing-sampling.html">Control testing: sampling</a></span></p>
+    </li>
+    <li class="pb-step" id="step-5">
+      <div class="pb-check"><input type="checkbox" id="pb-5" data-step="5"><label for="pb-5"><span class="visually-hidden">Mark step 5 done: </span>Done</label></div>
+      <h3><span class="pb-n">5</span> Test operating effectiveness</h3>
+      <ul>
+        <li>Check evidence that the control operated correctly each time in the sample.</li>
+      </ul>
+      <p class="pb-out"><strong>Output:</strong> Results for each sample item.</p>
+    </li>
+    <li class="pb-step" id="step-6">
+      <div class="pb-check"><input type="checkbox" id="pb-6" data-step="6"><label for="pb-6"><span class="visually-hidden">Mark step 6 done: </span>Done</label></div>
+      <h3><span class="pb-n">6</span> Evaluate every exception</h3>
+      <ul>
+        <li>For each failure: was it a one-off or systemic? What was the root cause? Did it cause harm, which may make it an incident or breach?</li>
+      </ul>
+      <p class="pb-out"><strong>Output:</strong> Exceptions explained, and incidents raised where needed. <span class="pb-more">Read more: <a href="/playbooks/respond-to-an-incident.html">Respond to an incident</a></span></p>
+    </li>
+    <li class="pb-step" id="step-7">
+      <div class="pb-check"><input type="checkbox" id="pb-7" data-step="7"><label for="pb-7"><span class="visually-hidden">Mark step 7 done: </span>Done</label></div>
+      <h3><span class="pb-n">7</span> Rate, report and track actions</h3>
+      <ul>
+        <li>Conclude on effectiveness, agree actions with owners, report to management and track actions to closure.</li>
+        <li>Under CPS 230, results are reported to senior management and gaps are fixed in a timely way.</li>
+      </ul>
+      <p class="pb-out"><strong>Output:</strong> A rated result and tracked actions. <span class="pb-more">Read more: <a href="/risk-management/issue-and-action-management.html">Issue and action management</a></span></p>
+    </li>
+  </ol>
+
+  <h2>Templates and tools</h2>
+  <div class="cards pb-tools">
+    <a class="card" href="/tools/control-testing-workpaper.html"><h3>Control testing workpaper</h3><p>Open</p></a>
+    <a class="card" href="/tools/rcsa-template.html"><h3>RCSA template</h3><p>Open</p></a>
+    <a class="card" href="/risk-management/assurance-mapping.html"><h3>Assurance mapping</h3><p>Open</p></a>
+  </div>
+
+  <h2>Common mistakes</h2>
+  <ul>
+      <li>Relying on inquiry alone.</li>
+      <li>Testing operation without checking design first.</li>
+      <li>Treating exceptions as one-offs without finding the cause.</li>
+      <li>Not checking that system reports used by the control are complete and accurate.</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>General guidance only.</strong> This playbook summarises common good practice and the main requirements explained on this site. Your organisation's own policies, licence conditions and the official sources take priority, and complex matters need professional advice.</p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/risk-management/control-design-and-testing.html" data-label="Control design and testing"><a href="/risk-management/control-design-and-testing.html">Control design and testing</a></li>
+      <li data-href="/risk-management/control-testing-sampling.html" data-label="Control testing: sampling"><a href="/risk-management/control-testing-sampling.html">Control testing: sampling</a></li>
+      <li data-href="/risk-management/assurance-mapping.html" data-label="Assurance mapping"><a href="/risk-management/assurance-mapping.html">Assurance mapping</a></li>
+      <li data-href="/compliance/compliance-monitoring-and-testing.html" data-label="Compliance monitoring and testing"><a href="/compliance/compliance-monitoring-and-testing.html">Compliance monitoring and testing</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> and <a href="https://handbook.apra.gov.au/ppg/cpg-230">CPG 230</a>.</li>
+      <li>Committee of Sponsoring Organizations of the Treadway Commission, <a href="https://www.coso.org/guidance-on-ic">Internal Control – Integrated Framework</a>.</li>
+      <li>The Institute of Internal Auditors, <a href="https://www.theiia.org/en/standards/">Global Internal Audit Standards</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 1 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
+  <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/playbooks/test-a-key-control.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Fplaybooks%2Ftest-a-key-control.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/grc/">GRC systems</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/about/editorial-standards.html">How we check content</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<script src="/scripts/site.js" defer></script>
+<!-- FOOTER:END -->
+
+<script src="/scripts/playbook.js"></script>
+</body>
+</html>

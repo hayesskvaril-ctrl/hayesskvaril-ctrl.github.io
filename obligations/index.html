@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obligations library | RiskLens Australia</title>
+<meta name="description" content="A free, searchable library of 117 plain-English obligation summaries from 37 Australian regimes (APRA, ASIC, AUSTRAC, OAIC and more), with control objectives, evidence, related risks and notification deadlines. Download as Excel or CSV.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/obligations/">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Obligations library">
+<meta property="og:description" content="A free, searchable library of 117 plain-English obligation summaries from 37 Australian regimes (APRA, ASIC, AUSTRAC, OAIC and more), with control objectives, evidence, related risks and notification deadlines. Download as Excel or CSV.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/obligations/">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/grc/">GRC</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article wide ob-page">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li>Obligations library</li></ol></nav>
+
+  <h1>Obligations library</h1>
+  <p class="summary">117 plain-English obligation summaries from 37 Australian regimes, each with a control objective, the evidence that shows it is met, the risks it relates to and any notification deadlines. Search it, filter it by organisation type, or download it.</p>
+  <div class="page-meta">
+    <span>117 obligation themes</span>
+    <span>37 regimes</span>
+    <span>14 notification deadlines</span>
+    <span>Last reviewed: 1 October 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Each entry summarises a group of related obligations in plain English. It is a starting point for an obligations register, not a substitute for the law: always read the official source.</li>
+      <li>Every entry has a control objective and the evidence that would show it is met, so it can be linked to controls and tested.</li>
+      <li>Filter by organisation type to see the regimes that usually apply. Whether a regime applies depends on licences, products, size and thresholds.</li>
+      <li>The IDs match the <a href="/grc/model-builder.html">GRC model builder</a>, which links each obligation to risks, controls and committees.</li>
+    </ul>
+  </aside>
+
+  <div class="widget ob-tools" id="ob-tools" hidden>
+    <div class="ob-filters">
+      <p><label for="ob-q">Search</label><input type="search" id="ob-q" placeholder="e.g. complaints, 72 hours, conflicts"></p>
+      <p><label for="ob-ent">Organisation type</label><select id="ob-ent"><option value="">All types</option><option value="adi">Bank or other ADI</option><option value="gi">General insurer</option><option value="li">Life insurer</option><option value="phi">Private health insurer</option><option value="rse">Super trustee (RSE licensee)</option><option value="re">Responsible entity or fund manager</option><option value="advice">Financial advice licensee</option><option value="credit">Credit licensee or non-bank lender</option><option value="pay">Payments or fintech business</option><option value="listed">Listed company (non-financial)</option><option value="nfp">Charity or not-for-profit</option><option value="gov">Commonwealth government entity</option></select></p>
+      <p><label for="ob-body">Regulator</label><select id="ob-body"><option value="">All regulators</option><option value="APRA">APRA</option><option value="ASIC">ASIC</option><option value="AUSTRAC">AUSTRAC</option><option value="OAIC">OAIC</option><option value="ACCC">ACCC</option><option value="ASX">ASX</option><option value="ACNC">ACNC</option><option value="DFAT">DFAT</option><option value="Home Affairs">Home Affairs</option><option value="Border Force">Border Force</option><option value="Finance">Finance</option></select></p>
+      <p class="ob-check"><input type="checkbox" id="ob-clock"><label for="ob-clock">Only regimes with notification deadlines</label></p>
+    </div>
+    <p class="ob-count" id="ob-count" aria-live="polite"></p>
+    <p class="ob-dl"><button type="button" data-dl="xlsx">Download Excel</button> <button type="button" class="secondary" data-dl="csv">Download CSV</button> <span class="small">Downloads include what you have filtered.</span></p>
+  </div>
+
+  <nav class="ob-jump" aria-label="Regimes in this library"><p><strong>Jump to:</strong> <a href="#cps220">CPS 220</a> <a href="#cps230">CPS 230</a> <a href="#cps234">CPS 234</a> <a href="#cps510">CPS 510/520</a> <a href="#cps511">CPS 511</a> <a href="#far">FAR</a> <a href="#capital">Capital</a> <a href="#liquidity">APS 210</a> <a href="#cps190">CPS 190/900</a> <a href="#sps515">SPS 515</a> <a href="#sps530">SPS 530</a> <a href="#sis">SIS Act</a> <a href="#afsl">AFSL</a> <a href="#breach">RG 78</a> <a href="#idr">RG 271</a> <a href="#ddo">DDO</a> <a href="#remed">RG 277</a> <a href="#rg97">RG 97</a> <a href="#disclosure">Disclosure</a> <a href="#conflicts">Conflicts</a> <a href="#credit">Credit</a> <a href="#advice">Advice</a> <a href="#insurance">Insurance conduct</a> <a href="#rg259">RG 259</a> <a href="#aml">AML/CTF</a> <a href="#sanctions">Sanctions</a> <a href="#abc">Anti-bribery</a> <a href="#scams">Scams</a> <a href="#privacy">Privacy</a> <a href="#ransom">Ransomware</a> <a href="#ai">AI</a> <a href="#listed">ASX</a> <a href="#whistle">Whistleblower</a> <a href="#climate">Climate</a> <a href="#modslav">Modern slavery</a> <a href="#acnc">ACNC</a> <a href="#pgpa">PGPA</a></p></nav>
+
+  <div class="ob-group" data-group="Prudential (APRA)">
+  <h2>Prudential (APRA)</h2>
+  <section class="ob-reg" id="cps220" data-reg="cps220" data-bodies="APRA" data-ents="adi gi li phi rse" data-clock="0" data-text="risk management (cps 220, or sps 220 for super) apra apra-regulated entities (sps 220 for super trustees). check which version applies to your entity. cps 220 ">
+    <h3>Risk management (CPS 220, or SPS 220 for super)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: APRA-regulated entities (SPS 220 for super trustees). Check which version applies to your entity.</span></p>
+    <p class="ob-meta">Typical owner: Chief Risk Officer. <a href="/standards/cps-220.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="maintain a risk management framework covering all material risks, including credit, market and investment, liquidity, insurance, operational and strategic risks the framework is complete, approved and reflects every material risk board-approved framework; material risk assessment risk framework effectiveness licence and regulatory requirements"><th scope="row"><span class="gb-id">OB-CPS220-01</span></th><td>Maintain a risk management framework covering all material risks, including credit, market and investment, liquidity, insurance, operational and strategic risks</td><td>The framework is complete, approved and reflects every material risk</td><td>Board-approved framework; material risk assessment</td><td>Risk framework effectiveness; Licence and regulatory requirements</td></tr>
+        <tr data-text="board approves a risk appetite statement and a risk management strategy appetite and strategy are current, approved and used in decisions board papers and minutes; appetite metrics reporting risk framework effectiveness"><th scope="row"><span class="gb-id">OB-CPS220-02</span></th><td>Board approves a risk appetite statement and a risk management strategy</td><td>Appetite and strategy are current, approved and used in decisions</td><td>Board papers and minutes; appetite metrics reporting</td><td>Risk framework effectiveness</td></tr>
+        <tr data-text="board forms a view of the entity’s risk culture risk culture is assessed and reported to the board risk culture assessment; board minutes risk culture and speaking up"><th scope="row"><span class="gb-id">OB-CPS220-03</span></th><td>Board forms a view of the entity’s risk culture</td><td>Risk culture is assessed and reported to the board</td><td>Risk culture assessment; board minutes</td><td>Risk culture and speaking up</td></tr>
+        <tr data-text="operationally independent risk management function headed by a chief risk officer, and a designated compliance function second-line functions are independent and resourced organisation chart; cro reporting lines; function charters risk framework effectiveness licence and regulatory requirements"><th scope="row"><span class="gb-id">OB-CPS220-04</span></th><td>Operationally independent risk management function headed by a Chief Risk Officer, and a designated compliance function</td><td>Second-line functions are independent and resourced</td><td>Organisation chart; CRO reporting lines; function charters</td><td>Risk framework effectiveness; Licence and regulatory requirements</td></tr>
+        <tr data-text="comprehensive, operationally independent review of the framework at least every three years the framework is independently reviewed on time and findings are fixed review report; action tracker risk framework effectiveness"><th scope="row"><span class="gb-id">OB-CPS220-05</span></th><td>Comprehensive, operationally independent review of the framework at least every three years</td><td>The framework is independently reviewed on time and findings are fixed</td><td>Review report; action tracker</td><td>Risk framework effectiveness</td></tr>
+        <tr data-text="annual risk management declaration to apra (banks and insurers) the declaration is supported by evidence and approved by the board declaration; supporting attestations regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-CPS220-06</span></th><td>Annual risk management declaration to APRA (banks and insurers)</td><td>The declaration is supported by evidence and approved by the board</td><td>Declaration; supporting attestations</td><td>Regulatory reporting and notifications</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="cps230" data-reg="cps230" data-bodies="APRA" data-ents="adi gi li phi rse" data-clock="1" data-text="operational risk management (cps 230) apra apra-regulated entities. significant financial institutions face the full set; some requirements are lighter or phased for smaller entities. cps 230 material operational risk incident within 72 hours apra disruption to a critical operation outside tolerance within 24 hours apra entering or materially changing a material service provider arrangement within 20 business days apra">
+    <h3>Operational risk management (CPS 230)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: APRA-regulated entities. Significant financial institutions face the full set; some requirements are lighter or phased for smaller entities.</span></p>
+    <p class="ob-meta">Typical owner: Chief Operating Officer. <a href="/standards/cps-230.html">Read our guide</a></p>
+    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul><li><strong>Within 72 hours</strong>: Material operational risk incident (APRA)</li><li><strong>Within 24 hours</strong>: Disruption to a critical operation outside tolerance (APRA)</li><li><strong>Within 20 business days</strong>: Entering or materially changing a material service provider arrangement (APRA)</li></ul></div>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="board is ultimately accountable for operational risk, business continuity and service providers; senior management implements board oversight of operational resilience is evidenced board papers; accountability statements board effectiveness and oversight process execution"><th scope="row"><span class="gb-id">OB-CPS230-01</span></th><td>Board is ultimately accountable for operational risk, business continuity and service providers; senior management implements</td><td>Board oversight of operational resilience is evidenced</td><td>Board papers; accountability statements</td><td>Board effectiveness and oversight; Process execution</td></tr>
+        <tr data-text="identify, assess and manage operational risks; design, implement and test internal controls; keep weaknesses in the risk profile until fixed operational risks and controls are current and tested risk registers; control testing results; issues register process execution data management and quality operational change"><th scope="row"><span class="gb-id">OB-CPS230-02</span></th><td>Identify, assess and manage operational risks; design, implement and test internal controls; keep weaknesses in the risk profile until fixed</td><td>Operational risks and controls are current and tested</td><td>Risk registers; control testing results; issues register</td><td>Process execution; Data management and quality; Operational change</td></tr>
+        <tr data-text="identify critical operations and set board-approved tolerance levels every critical operation has approved tolerances critical operations register; tolerance statements business disruption and critical operations"><th scope="row"><span class="gb-id">OB-CPS230-03</span></th><td>Identify critical operations and set board-approved tolerance levels</td><td>Every critical operation has approved tolerances</td><td>Critical operations register; tolerance statements</td><td>Business disruption and critical operations</td></tr>
+        <tr data-text="maintain a credible business continuity plan and test it, including an annual exercise with severe but plausible scenarios the organisation can stay within tolerance through severe disruption bcp; test reports and lessons business disruption and critical operations system availability and resilience"><th scope="row"><span class="gb-id">OB-CPS230-04</span></th><td>Maintain a credible business continuity plan and test it, including an annual exercise with severe but plausible scenarios</td><td>The organisation can stay within tolerance through severe disruption</td><td>BCP; test reports and lessons</td><td>Business disruption and critical operations; System availability and resilience</td></tr>
+        <tr data-text="identify material service providers; due diligence, formal agreements and ongoing monitoring material service providers are assessed, contracted and monitored due diligence reports; agreements; monitoring records material service providers exit and substitutability"><th scope="row"><span class="gb-id">OB-CPS230-05</span></th><td>Identify material service providers; due diligence, formal agreements and ongoing monitoring</td><td>Material service providers are assessed, contracted and monitored</td><td>Due diligence reports; agreements; monitoring records</td><td>Material service providers; Exit and substitutability</td></tr>
+        <tr data-text="submit the material service provider register to apra each year the register is complete and submitted on time register; submission record material service providers regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-CPS230-06</span></th><td>Submit the material service provider register to APRA each year</td><td>The register is complete and submitted on time</td><td>Register; submission record</td><td>Material service providers; Regulatory reporting and notifications</td></tr>
+        <tr data-text="notify apra of material operational risk incidents and of disruptions to critical operations outside tolerance notifiable events are identified and notified within the deadlines incident register; notification records business disruption and critical operations regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-CPS230-07</span></th><td>Notify APRA of material operational risk incidents and of disruptions to critical operations outside tolerance</td><td>Notifiable events are identified and notified within the deadlines</td><td>Incident register; notification records</td><td>Business disruption and critical operations; Regulatory reporting and notifications</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="cps234" data-reg="cps234" data-bodies="APRA" data-ents="adi gi li phi rse" data-clock="1" data-text="information security (cps 234) apra apra-regulated entities. cps 234 material information security incident within 72 hours apra material information security control weakness that can’t be remediated in a timely way within 10 business days apra">
+    <h3>Information security (CPS 234)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: APRA-regulated entities.</span></p>
+    <p class="ob-meta">Typical owner: Chief Information Security Officer. <a href="/standards/cps-234.html">Read our guide</a></p>
+    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul><li><strong>Within 72 hours</strong>: Material information security incident (APRA)</li><li><strong>Within 10 business days</strong>: Material information security control weakness that can’t be remediated in a timely way (APRA)</li></ul></div>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="board is ultimately responsible for information security board oversight of information security is evidenced board papers; security reporting cyber security board effectiveness and oversight"><th scope="row"><span class="gb-id">OB-CPS234-01</span></th><td>Board is ultimately responsible for information security</td><td>Board oversight of information security is evidenced</td><td>Board papers; security reporting</td><td>Cyber security; Board effectiveness and oversight</td></tr>
+        <tr data-text="know and classify information assets by criticality and sensitivity, including those managed by third parties every information asset is classified and owned information asset register information security and access data loss and leakage"><th scope="row"><span class="gb-id">OB-CPS234-02</span></th><td>Know and classify information assets by criticality and sensitivity, including those managed by third parties</td><td>Every information asset is classified and owned</td><td>Information asset register</td><td>Information security and access; Data loss and leakage</td></tr>
+        <tr data-text="protect information assets with controls proportionate to the threats controls match the criticality and sensitivity of assets control library; maturity assessments cyber security information security and access"><th scope="row"><span class="gb-id">OB-CPS234-03</span></th><td>Protect information assets with controls proportionate to the threats</td><td>Controls match the criticality and sensitivity of assets</td><td>Control library; maturity assessments</td><td>Cyber security; Information security and access</td></tr>
+        <tr data-text="test controls through a systematic testing program, with internal audit review security controls are tested and gaps fixed testing program; audit reports cyber security"><th scope="row"><span class="gb-id">OB-CPS234-04</span></th><td>Test controls through a systematic testing program, with internal audit review</td><td>Security controls are tested and gaps fixed</td><td>Testing program; audit reports</td><td>Cyber security</td></tr>
+        <tr data-text="notify apra of material information security incidents, and of material control weaknesses that cannot be fixed in a timely way notifiable security events are notified within the deadlines incident log; notification records cyber security regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-CPS234-05</span></th><td>Notify APRA of material information security incidents, and of material control weaknesses that cannot be fixed in a timely way</td><td>Notifiable security events are notified within the deadlines</td><td>Incident log; notification records</td><td>Cyber security; Regulatory reporting and notifications</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="cps510" data-reg="cps510" data-bodies="APRA" data-ents="adi gi li phi rse" data-clock="0" data-text="governance and fit and proper (cps 510, cps 520, sps 510, sps 520) apra apra-regulated entities. apra has proposed one consolidated governance standard; check the current position. cps 510/520 ">
+    <h3>Governance and fit and proper (CPS 510, CPS 520, SPS 510, SPS 520)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: APRA-regulated entities. APRA has proposed one consolidated governance standard; check the current position.</span></p>
+    <p class="ob-meta">Typical owner: Company Secretary. <a href="/standards/cps-510-and-cps-520.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="meet minimum requirements for board size, independence, committees, renewal and performance review board structure meets the standard and is reviewed board charter; skills matrix; review reports board effectiveness and oversight"><th scope="row"><span class="gb-id">OB-CPS510-01</span></th><td>Meet minimum requirements for board size, independence, committees, renewal and performance review</td><td>Board structure meets the standard and is reviewed</td><td>Board charter; skills matrix; review reports</td><td>Board effectiveness and oversight</td></tr>
+        <tr data-text="assess responsible persons as fit and proper before appointment and at least annually every responsible person has a current assessment assessment records fit and proper"><th scope="row"><span class="gb-id">OB-CPS510-02</span></th><td>Assess responsible persons as fit and proper before appointment and at least annually</td><td>Every responsible person has a current assessment</td><td>Assessment records</td><td>Fit and proper</td></tr>
+        <tr data-text="keep a fit and proper policy and records, and notify apra if someone is assessed as not fit and proper policy and records are complete; notifications are made policy; register; notifications fit and proper regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-CPS510-03</span></th><td>Keep a fit and proper policy and records, and notify APRA if someone is assessed as not fit and proper</td><td>Policy and records are complete; notifications are made</td><td>Policy; register; notifications</td><td>Fit and proper; Regulatory reporting and notifications</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="cps511" data-reg="cps511" data-bodies="APRA" data-ents="adi gi li phi rse" data-clock="0" data-text="remuneration (cps 511) apra apra-regulated entities; significant financial institutions face extra requirements. cps 511 ">
+    <h3>Remuneration (CPS 511)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: APRA-regulated entities; significant financial institutions face extra requirements.</span></p>
+    <p class="ob-meta">Typical owner: Chief People Officer. <a href="/standards/cps-511.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="board-approved remuneration framework that supports sound risk management and long-term outcomes remuneration design reflects risk and conduct outcomes framework; remuneration committee papers remuneration and incentives"><th scope="row"><span class="gb-id">OB-CPS511-01</span></th><td>Board-approved remuneration framework that supports sound risk management and long-term outcomes</td><td>Remuneration design reflects risk and conduct outcomes</td><td>Framework; remuneration committee papers</td><td>Remuneration and incentives</td></tr>
+        <tr data-text="variable pay can be reduced for poor risk or conduct outcomes (in-period adjustment, malus and clawback) adjustments are considered and applied consistently adjustment decisions and records remuneration and incentives"><th scope="row"><span class="gb-id">OB-CPS511-02</span></th><td>Variable pay can be reduced for poor risk or conduct outcomes (in-period adjustment, malus and clawback)</td><td>Adjustments are considered and applied consistently</td><td>Adjustment decisions and records</td><td>Remuneration and incentives</td></tr>
+        <tr data-text="significant financial institutions: board remuneration committee, material weight on non-financial measures, minimum deferral sfi requirements are met committee charter; scorecards; deferral records remuneration and incentives board effectiveness and oversight"><th scope="row"><span class="gb-id">OB-CPS511-03</span></th><td>Significant financial institutions: board remuneration committee, material weight on non-financial measures, minimum deferral</td><td>SFI requirements are met</td><td>Committee charter; scorecards; deferral records</td><td>Remuneration and incentives; Board effectiveness and oversight</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="far" data-reg="far" data-bodies="APRA ASIC" data-ents="adi gi li phi rse" data-clock="0" data-text="financial accountability regime (far) apra and asic banks (from 15 march 2024) and insurers and super trustees (from 15 march 2025). far ">
+    <h3>Financial Accountability Regime (FAR)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA and ASIC</span> <span class="ob-applies">Applies to: Banks (from 15 March 2024) and insurers and super trustees (from 15 March 2025).</span></p>
+    <p class="ob-meta">Typical owner: Company Secretary. <a href="/governance/financial-accountability-regime.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="register accountable persons and keep an accountability statement for each and an accountability map for the entity every key responsibility is allocated to a registered accountable person statements; map; registrations accountability and delegations"><th scope="row"><span class="gb-id">OB-FAR-01</span></th><td>Register accountable persons and keep an accountability statement for each and an accountability map for the entity</td><td>Every key responsibility is allocated to a registered accountable person</td><td>Statements; map; registrations</td><td>Accountability and delegations</td></tr>
+        <tr data-text="accountable persons act with honesty, integrity, due skill, care and diligence, deal openly with apra and asic, and take reasonable steps reasonable steps are evidenced for each accountable person reasonable steps records; information received by accountable persons accountability and delegations risk culture and speaking up"><th scope="row"><span class="gb-id">OB-FAR-02</span></th><td>Accountable persons act with honesty, integrity, due skill, care and diligence, deal openly with APRA and ASIC, and take reasonable steps</td><td>Reasonable steps are evidenced for each accountable person</td><td>Reasonable steps records; information received by accountable persons</td><td>Accountability and delegations; Risk culture and speaking up</td></tr>
+        <tr data-text="defer at least 40% of accountable persons’ variable remuneration for at least four years, and reduce it for failures to meet obligations deferral and adjustment rules are applied remuneration records remuneration and incentives"><th scope="row"><span class="gb-id">OB-FAR-03</span></th><td>Defer at least 40% of accountable persons’ variable remuneration for at least four years, and reduce it for failures to meet obligations</td><td>Deferral and adjustment rules are applied</td><td>Remuneration records</td><td>Remuneration and incentives</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="capital" data-reg="capital" data-bodies="APRA" data-ents="adi gi li phi" data-clock="0" data-text="capital management and icaap apra adis (aps 110) and insurers (their own capital standards). capital ">
+    <h3>Capital management and ICAAP</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: ADIs (APS 110) and insurers (their own capital standards).</span></p>
+    <p class="ob-meta">Typical owner: Chief Financial Officer. <a href="/standards/aps-110-and-aps-210.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="hold capital above the minimum requirements, with buffers (for adis, common equity tier 1 of at least 4.5% of risk-weighted assets before buffers) capital stays above targets and triggers capital reporting capital adequacy"><th scope="row"><span class="gb-id">OB-CAP-01</span></th><td>Hold capital above the minimum requirements, with buffers (for ADIs, Common Equity Tier 1 of at least 4.5% of risk-weighted assets before buffers)</td><td>Capital stays above targets and triggers</td><td>Capital reporting</td><td>Capital adequacy</td></tr>
+        <tr data-text="run an icaap to assess capital needs, including under stress capital planning reflects the risk profile and stress results icaap report; stress testing results capital adequacy"><th scope="row"><span class="gb-id">OB-CAP-02</span></th><td>Run an ICAAP to assess capital needs, including under stress</td><td>Capital planning reflects the risk profile and stress results</td><td>ICAAP report; stress testing results</td><td>Capital adequacy</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="liquidity" data-reg="liquidity" data-bodies="APRA" data-ents="adi" data-clock="0" data-text="liquidity (aps 210) apra adis. larger adis meet the lcr and nsfr; smaller adis have a minimum liquidity holdings requirement. aps 210 ">
+    <h3>Liquidity (APS 210)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: ADIs. Larger ADIs meet the LCR and NSFR; smaller ADIs have a minimum liquidity holdings requirement.</span></p>
+    <p class="ob-meta">Typical owner: Treasurer. <a href="/standards/aps-110-and-aps-210.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="larger adis: liquidity coverage ratio and net stable funding ratio of at least 100%; smaller adis: minimum liquidity holdings liquidity ratios stay above minimums and targets daily liquidity reporting funding liquidity"><th scope="row"><span class="gb-id">OB-APS210-01</span></th><td>Larger ADIs: Liquidity Coverage Ratio and Net Stable Funding Ratio of at least 100%; smaller ADIs: minimum liquidity holdings</td><td>Liquidity ratios stay above minimums and targets</td><td>Daily liquidity reporting</td><td>Funding liquidity</td></tr>
+        <tr data-text="manage liquidity risk with stress testing and a contingency funding plan liquidity stress is planned for and tested stress tests; contingency funding plan funding liquidity"><th scope="row"><span class="gb-id">OB-APS210-02</span></th><td>Manage liquidity risk with stress testing and a contingency funding plan</td><td>Liquidity stress is planned for and tested</td><td>Stress tests; contingency funding plan</td><td>Funding liquidity</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="cps190" data-reg="cps190" data-bodies="APRA" data-ents="adi gi li rse" data-clock="0" data-text="recovery and exit planning (cps 190, cps 900) apra apra-regulated entities; significant financial institutions have extra requirements. cps 190/900 ">
+    <h3>Recovery and exit planning (CPS 190, CPS 900)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: APRA-regulated entities; significant financial institutions have extra requirements.</span></p>
+    <p class="ob-meta">Typical owner: Chief Financial Officer. <a href="/standards/cps-190-and-cps-900.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="maintain a credible, tested recovery and exit plan (significant financial institutions include at least two severe stress scenarios) recovery and exit options are credible and tested plan; test reports recovery and exit readiness"><th scope="row"><span class="gb-id">OB-CPS190-01</span></th><td>Maintain a credible, tested recovery and exit plan (significant financial institutions include at least two severe stress scenarios)</td><td>Recovery and exit options are credible and tested</td><td>Plan; test reports</td><td>Recovery and exit readiness</td></tr>
+        <tr data-text="support apra’s resolution planning and be ready to execute it (cps 900) resolution information and capabilities are maintained resolution planning records recovery and exit readiness"><th scope="row"><span class="gb-id">OB-CPS190-02</span></th><td>Support APRA’s resolution planning and be ready to execute it (CPS 900)</td><td>Resolution information and capabilities are maintained</td><td>Resolution planning records</td><td>Recovery and exit readiness</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="sps515" data-reg="sps515" data-bodies="APRA" data-ents="rse" data-clock="0" data-text="strategic planning and member outcomes (sps 515) apra super trustees. sps 515 ">
+    <h3>Strategic planning and member outcomes (SPS 515)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: Super trustees.</span></p>
+    <p class="ob-meta">Typical owner: Chief Executive. <a href="/standards/sps-515.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="set board-approved strategic objectives that support good member outcomes, and a business plan to deliver them strategy and plan are linked to member outcomes strategic plan; business plan customer or member outcomes and value strategy and business model"><th scope="row"><span class="gb-id">OB-SPS515-01</span></th><td>Set board-approved strategic objectives that support good member outcomes, and a business plan to deliver them</td><td>Strategy and plan are linked to member outcomes</td><td>Strategic plan; business plan</td><td>Customer or member outcomes and value; Strategy and business model</td></tr>
+        <tr data-text="manage financial resources so spending is in members’ best financial interests significant expenditure is justified against members’ interests business cases; expenditure reviews customer or member outcomes and value"><th scope="row"><span class="gb-id">OB-SPS515-02</span></th><td>Manage financial resources so spending is in members’ best financial interests</td><td>Significant expenditure is justified against members’ interests</td><td>Business cases; expenditure reviews</td><td>Customer or member outcomes and value</td></tr>
+        <tr data-text="assess member outcomes regularly, including the annual outcomes assessment and business performance review outcomes are assessed and acted on outcomes assessment; performance review customer or member outcomes and value"><th scope="row"><span class="gb-id">OB-SPS515-03</span></th><td>Assess member outcomes regularly, including the annual outcomes assessment and business performance review</td><td>Outcomes are assessed and acted on</td><td>Outcomes assessment; performance review</td><td>Customer or member outcomes and value</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="sps530" data-reg="sps530" data-bodies="APRA" data-ents="rse" data-clock="0" data-text="investment governance (sps 530) apra super trustees. sps 530 ">
+    <h3>Investment governance (SPS 530)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA</span> <span class="ob-applies">Applies to: Super trustees.</span></p>
+    <p class="ob-meta">Typical owner: Chief Investment Officer. <a href="/standards/sps-530.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="board-approved investment governance framework for how investment decisions are made, monitored and reviewed investment decisions follow the framework framework; committee papers investment strategy and performance"><th scope="row"><span class="gb-id">OB-SPS530-01</span></th><td>Board-approved investment governance framework for how investment decisions are made, monitored and reviewed</td><td>Investment decisions follow the framework</td><td>Framework; committee papers</td><td>Investment strategy and performance</td></tr>
+        <tr data-text="objectives, strategy and ongoing monitoring of performance and risk for each investment option each option is monitored against its objectives option reviews investment strategy and performance customer or member outcomes and value"><th scope="row"><span class="gb-id">OB-SPS530-02</span></th><td>Objectives, strategy and ongoing monitoring of performance and risk for each investment option</td><td>Each option is monitored against its objectives</td><td>Option reviews</td><td>Investment strategy and performance; Customer or member outcomes and value</td></tr>
+        <tr data-text="due diligence before investing, and monitoring of investments and managers afterwards due diligence and monitoring are evidenced due diligence reports; manager reviews investment strategy and performance material service providers"><th scope="row"><span class="gb-id">OB-SPS530-03</span></th><td>Due diligence before investing, and monitoring of investments and managers afterwards</td><td>Due diligence and monitoring are evidenced</td><td>Due diligence reports; manager reviews</td><td>Investment strategy and performance; Material service providers</td></tr>
+        <tr data-text="valuation governance and liquidity management, including a comprehensive stress-testing program valuations are robust and liquidity is stress tested valuation committee papers; stress test results valuation fund and member liquidity"><th scope="row"><span class="gb-id">OB-SPS530-04</span></th><td>Valuation governance and liquidity management, including a comprehensive stress-testing program</td><td>Valuations are robust and liquidity is stress tested</td><td>Valuation committee papers; stress test results</td><td>Valuation; Fund and member liquidity</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="sis" data-reg="sis" data-bodies="APRA ASIC" data-ents="rse" data-clock="0" data-text="super trustee duties (sis act, performance test) apra and asic super trustees. sis act ">
+    <h3>Super trustee duties (SIS Act, performance test)</h3>
+    <p class="ob-meta"><span class="gb-chip">APRA and ASIC</span> <span class="ob-applies">Applies to: Super trustees.</span></p>
+    <p class="ob-meta">Typical owner: Chief Executive. <a href="/sectors/superannuation.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="act in members’ best financial interests, with evidence for how decisions, including spending, meet that test decisions record how they serve members’ best financial interests decision papers; expenditure assessments customer or member outcomes and value conflicts of interest"><th scope="row"><span class="gb-id">OB-SIS-01</span></th><td>Act in members’ best financial interests, with evidence for how decisions, including spending, meet that test</td><td>Decisions record how they serve members’ best financial interests</td><td>Decision papers; expenditure assessments</td><td>Customer or member outcomes and value; Conflicts of interest</td></tr>
+        <tr data-text="prepare for apra’s annual performance test and the trustee’s annual outcomes assessment performance is monitored against the test throughout the year performance test monitoring customer or member outcomes and value investment strategy and performance"><th scope="row"><span class="gb-id">OB-SIS-02</span></th><td>Prepare for APRA’s annual performance test and the trustee’s annual outcomes assessment</td><td>Performance is monitored against the test throughout the year</td><td>Performance test monitoring</td><td>Customer or member outcomes and value; Investment strategy and performance</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  </div>
+
+  <div class="ob-group" data-group="Licensing and conduct (ASIC)">
+  <h2>Licensing and conduct (ASIC)</h2>
+  <section class="ob-reg" id="afsl" data-reg="afsl" data-bodies="ASIC" data-ents="adi gi li rse re advice pay" data-clock="0" data-text="afs licence general obligations (s 912a, rg 104, rg 105) asic australian financial services licensees. afsl ">
+    <h3>AFS licence general obligations (s 912A, RG 104, RG 105)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: Australian financial services licensees.</span></p>
+    <p class="ob-meta">Typical owner: Head of Compliance. <a href="/standards/asic-rg-104-and-rg-105.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="provide financial services efficiently, honestly and fairly services meet the efficiently, honestly and fairly standard monitoring results; complaints and breach trends licence and regulatory requirements disclosure and marketing"><th scope="row"><span class="gb-id">OB-AFSL-01</span></th><td>Provide financial services efficiently, honestly and fairly</td><td>Services meet the efficiently, honestly and fairly standard</td><td>Monitoring results; complaints and breach trends</td><td>Licence and regulatory requirements; Disclosure and marketing</td></tr>
+        <tr data-text="maintain adequate risk management systems and compliance arrangements risk and compliance systems are adequate for the business frameworks; monitoring plans risk framework effectiveness licence and regulatory requirements"><th scope="row"><span class="gb-id">OB-AFSL-02</span></th><td>Maintain adequate risk management systems and compliance arrangements</td><td>Risk and compliance systems are adequate for the business</td><td>Frameworks; monitoring plans</td><td>Risk framework effectiveness; Licence and regulatory requirements</td></tr>
+        <tr data-text="maintain organisational competence through responsible managers with appropriate knowledge and skills (rg 105) responsible managers are nominated, competent and current responsible manager records training and competence"><th scope="row"><span class="gb-id">OB-AFSL-03</span></th><td>Maintain organisational competence through responsible managers with appropriate knowledge and skills (RG 105)</td><td>Responsible managers are nominated, competent and current</td><td>Responsible manager records</td><td>Training and competence</td></tr>
+        <tr data-text="have adequate resources and ensure representatives are trained and competent training and competence are tracked training records training and competence key person and capability"><th scope="row"><span class="gb-id">OB-AFSL-04</span></th><td>Have adequate resources and ensure representatives are trained and competent</td><td>Training and competence are tracked</td><td>Training records</td><td>Training and competence; Key person and capability</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="breach" data-reg="breach" data-bodies="ASIC" data-ents="adi gi li rse re advice credit" data-clock="1" data-text="breach reporting (reportable situations, rg 78) asic afs and credit licensees. rg 78 reportable situation (significant breach or likely breach of a core obligation) within 30 calendar days of awareness asic">
+    <h3>Breach reporting (reportable situations, RG 78)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: AFS and credit licensees.</span></p>
+    <p class="ob-meta">Typical owner: Head of Compliance. <a href="/standards/asic-rg-78.html">Read our guide</a></p>
+    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul><li><strong>Within 30 calendar days of awareness</strong>: Reportable situation (significant breach or likely breach of a core obligation) (ASIC)</li></ul></div>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="report reportable situations (mainly significant breaches or likely breaches of core obligations) within 30 calendar days reportable situations are assessed and reported on time breach register; asic lodgements breach identification and management regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-RG78-01</span></th><td>Report reportable situations (mainly significant breaches or likely breaches of core obligations) within 30 calendar days</td><td>Reportable situations are assessed and reported on time</td><td>Breach register; ASIC lodgements</td><td>Breach identification and management; Regulatory reporting and notifications</td></tr>
+        <tr data-text="start the clock from awareness (or recklessness), not from the end of the investigation the awareness date is recorded for every potential breach incident log with awareness dates regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-RG78-02</span></th><td>Start the clock from awareness (or recklessness), not from the end of the investigation</td><td>The awareness date is recorded for every potential breach</td><td>Incident log with awareness dates</td><td>Regulatory reporting and notifications</td></tr>
+        <tr data-text="apply deemed significance and the significance factors consistently significance assessments are consistent and documented significance assessments breach identification and management"><th scope="row"><span class="gb-id">OB-RG78-03</span></th><td>Apply deemed significance and the significance factors consistently</td><td>Significance assessments are consistent and documented</td><td>Significance assessments</td><td>Breach identification and management</td></tr>
+        <tr data-text="licensees giving personal advice: notify, investigate and remediate affected clients; report some misconduct by other licensees’ advisers advice-related breaches are notified, investigated and remediated client notifications; remediation records advice quality remediation"><th scope="row"><span class="gb-id">OB-RG78-04</span></th><td>Licensees giving personal advice: notify, investigate and remediate affected clients; report some misconduct by other licensees’ advisers</td><td>Advice-related breaches are notified, investigated and remediated</td><td>Client notifications; remediation records</td><td>Advice quality; Remediation</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="idr" data-reg="idr" data-bodies="ASIC" data-ents="adi gi li rse re advice credit pay" data-clock="1" data-text="internal dispute resolution (rg 271) asic afs and credit licensees and others required to have idr. rg 271 complaint response (idr) 30 calendar days (generally); 45 days for most super complaints customer, with afca rights">
+    <h3>Internal dispute resolution (RG 271)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: AFS and credit licensees and others required to have IDR.</span></p>
+    <p class="ob-meta">Typical owner: Head of Customer Operations. <a href="/standards/asic-rg-271.html">Read our guide</a></p>
+    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul><li><strong>30 calendar days (generally); 45 days for most super complaints</strong>: Complaint response (IDR) (Customer, with AFCA rights)</li></ul></div>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="accept complaints in any form, including on social media, without requiring them in writing every complaint is captured complaints system complaints handling"><th scope="row"><span class="gb-id">OB-RG271-01</span></th><td>Accept complaints in any form, including on social media, without requiring them in writing</td><td>Every complaint is captured</td><td>Complaints system</td><td>Complaints handling</td></tr>
+        <tr data-text="resolve complaints within maximum timeframes: generally 30 calendar days, 45 days for most super complaints complaints are resolved within timeframes timeliness reports complaints handling"><th scope="row"><span class="gb-id">OB-RG271-02</span></th><td>Resolve complaints within maximum timeframes: generally 30 calendar days, 45 days for most super complaints</td><td>Complaints are resolved within timeframes</td><td>Timeliness reports</td><td>Complaints handling</td></tr>
+        <tr data-text="give a written idr response explaining the outcome and the right to go to afca idr responses are complete response samples complaints handling"><th scope="row"><span class="gb-id">OB-RG271-03</span></th><td>Give a written IDR response explaining the outcome and the right to go to AFCA</td><td>IDR responses are complete</td><td>Response samples</td><td>Complaints handling</td></tr>
+        <tr data-text="identify and escalate systemic issues; report complaints data to the board and to asic systemic issues are identified and reported board reports; asic data lodgements complaints handling regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-RG271-04</span></th><td>Identify and escalate systemic issues; report complaints data to the board and to ASIC</td><td>Systemic issues are identified and reported</td><td>Board reports; ASIC data lodgements</td><td>Complaints handling; Regulatory reporting and notifications</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="ddo" data-reg="ddo" data-bodies="ASIC" data-ents="adi gi li rse re credit" data-clock="1" data-text="design and distribution obligations (rg 274) asic issuers and distributors of most retail financial products (some products, such as mysuper and ordinary shares, are excluded). ddo significant dealing inconsistent with a target market determination within 10 business days asic">
+    <h3>Design and distribution obligations (RG 274)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: Issuers and distributors of most retail financial products (some products, such as MySuper and ordinary shares, are excluded).</span></p>
+    <p class="ob-meta">Typical owner: Head of Products. <a href="/standards/asic-rg-274.html">Read our guide</a></p>
+    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul><li><strong>Within 10 business days</strong>: Significant dealing inconsistent with a target market determination (ASIC)</li></ul></div>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="make a target market determination before distribution, with distribution conditions and review triggers every in-scope product has a current tmd tmd register product design and distribution"><th scope="row"><span class="gb-id">OB-DDO-01</span></th><td>Make a target market determination before distribution, with distribution conditions and review triggers</td><td>Every in-scope product has a current TMD</td><td>TMD register</td><td>Product design and distribution</td></tr>
+        <tr data-text="take reasonable steps so distribution is consistent with the tmd distribution is monitored against the tmd distribution data; monitoring reports product design and distribution"><th scope="row"><span class="gb-id">OB-DDO-02</span></th><td>Take reasonable steps so distribution is consistent with the TMD</td><td>Distribution is monitored against the TMD</td><td>Distribution data; monitoring reports</td><td>Product design and distribution</td></tr>
+        <tr data-text="monitor, review tmds when triggers occur, and notify asic of significant dealings inconsistent with the tmd triggers are acted on and significant dealings notified review records; asic notifications product design and distribution regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-DDO-03</span></th><td>Monitor, review TMDs when triggers occur, and notify ASIC of significant dealings inconsistent with the TMD</td><td>Triggers are acted on and significant dealings notified</td><td>Review records; ASIC notifications</td><td>Product design and distribution; Regulatory reporting and notifications</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="remed" data-reg="remed" data-bodies="ASIC" data-ents="adi gi li rse re advice credit" data-clock="0" data-text="consumer remediation (rg 277) asic afs and credit licensees remediating consumer loss. rg 277 ">
+    <h3>Consumer remediation (RG 277)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: AFS and credit licensees remediating consumer loss.</span></p>
+    <p class="ob-meta">Typical owner: Head of Remediation. <a href="/standards/asic-rg-277.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="start remediation promptly and proactively once conduct may have caused consumer loss remediation starts without waiting for complaints remediation register remediation"><th scope="row"><span class="gb-id">OB-RG277-01</span></th><td>Start remediation promptly and proactively once conduct may have caused consumer loss</td><td>Remediation starts without waiting for complaints</td><td>Remediation register</td><td>Remediation</td></tr>
+        <tr data-text="include everyone who has or may have been affected, automatically where possible, at no cost to them scope is complete scoping papers remediation"><th scope="row"><span class="gb-id">OB-RG277-02</span></th><td>Include everyone who has or may have been affected, automatically where possible, at no cost to them</td><td>Scope is complete</td><td>Scoping papers</td><td>Remediation</td></tr>
+        <tr data-text="use beneficial assumptions where information is missing, and restore consumers’ position including the time value of money calculations are fair and documented methodology; calculation reviews remediation"><th scope="row"><span class="gb-id">OB-RG277-03</span></th><td>Use beneficial assumptions where information is missing, and restore consumers’ position including the time value of money</td><td>Calculations are fair and documented</td><td>Methodology; calculation reviews</td><td>Remediation</td></tr>
+        <tr data-text="handle small amounts and money that can’t be returned through the residual payment options residual amounts are handled as rg 277 describes residual payment records remediation"><th scope="row"><span class="gb-id">OB-RG277-04</span></th><td>Handle small amounts and money that can’t be returned through the residual payment options</td><td>Residual amounts are handled as RG 277 describes</td><td>Residual payment records</td><td>Remediation</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="rg97" data-reg="rg97" data-bodies="ASIC" data-ents="rse re" data-clock="0" data-text="fees and costs disclosure (rg 97) asic super trustees and issuers of managed investment products. rg 97 ">
+    <h3>Fees and costs disclosure (RG 97)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: Super trustees and issuers of managed investment products.</span></p>
+    <p class="ob-meta">Typical owner: Chief Financial Officer. <a href="/standards/asic-rg-97.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="show fees and costs in the pds fees and costs summary and in periodic statements fee disclosure is complete and accurate pds; periodic statement reviews fees and charges disclosure and marketing"><th scope="row"><span class="gb-id">OB-RG97-01</span></th><td>Show fees and costs in the PDS fees and costs summary and in periodic statements</td><td>Fee disclosure is complete and accurate</td><td>PDS; periodic statement reviews</td><td>Fees and charges; Disclosure and marketing</td></tr>
+        <tr data-text="include indirect costs, using reliable data from investment managers indirect cost estimates are supported by data cost data and estimation records fees and charges data management and quality"><th scope="row"><span class="gb-id">OB-RG97-02</span></th><td>Include indirect costs, using reliable data from investment managers</td><td>Indirect cost estimates are supported by data</td><td>Cost data and estimation records</td><td>Fees and charges; Data management and quality</td></tr>
+        <tr data-text="fee governance: authority to charge, accurate calculation, and disclosure that matches what is charged every fee has authority and is charged correctly fee register; recalculation testing fees and charges"><th scope="row"><span class="gb-id">OB-RG97-03</span></th><td>Fee governance: authority to charge, accurate calculation, and disclosure that matches what is charged</td><td>Every fee has authority and is charged correctly</td><td>Fee register; recalculation testing</td><td>Fees and charges</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="disclosure" data-reg="disclosure" data-bodies="ASIC" data-ents="adi gi li rse re advice credit pay" data-clock="0" data-text="disclosure and misleading conduct (corporations act, asic act) asic financial services providers dealing with retail clients; the misleading conduct rules apply to everyone. disclosure ">
+    <h3>Disclosure and misleading conduct (Corporations Act, ASIC Act)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: Financial services providers dealing with retail clients; the misleading conduct rules apply to everyone.</span></p>
+    <p class="ob-meta">Typical owner: Head of Products and Marketing. <a href="/compliance/disclosure-obligations.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="give retail clients the right documents at the right points (fsg, soa, pds) and keep ongoing disclosure current required documents are given on time document delivery records disclosure and marketing"><th scope="row"><span class="gb-id">OB-DISC-01</span></th><td>Give retail clients the right documents at the right points (FSG, SOA, PDS) and keep ongoing disclosure current</td><td>Required documents are given on time</td><td>Document delivery records</td><td>Disclosure and marketing</td></tr>
+        <tr data-text="do not make misleading or deceptive statements in any communication, including sustainability claims every claim is substantiated before publication review records; evidence files disclosure and marketing sustainability reporting and claims"><th scope="row"><span class="gb-id">OB-DISC-02</span></th><td>Do not make misleading or deceptive statements in any communication, including sustainability claims</td><td>Every claim is substantiated before publication</td><td>Review records; evidence files</td><td>Disclosure and marketing; Sustainability reporting and claims</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="conflicts" data-reg="conflicts" data-bodies="APRA ASIC" data-ents="adi gi li rse re advice" data-clock="0" data-text="conflicts of interest (s 912a(1)(aa), rg 181; sps 521 for super) asic and apra afs licensees; super trustees also under sps 521. conflicts ">
+    <h3>Conflicts of interest (s 912A(1)(aa), RG 181; SPS 521 for super)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC and APRA</span> <span class="ob-applies">Applies to: AFS licensees; super trustees also under SPS 521.</span></p>
+    <p class="ob-meta">Typical owner: Head of Compliance. <a href="/standards/asic-rg-181.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="maintain adequate arrangements to manage conflicts, matched to the nature and risk of each conflict conflicts are identified and managed conflicts register; management plans conflicts of interest"><th scope="row"><span class="gb-id">OB-COI-01</span></th><td>Maintain adequate arrangements to manage conflicts, matched to the nature and risk of each conflict</td><td>Conflicts are identified and managed</td><td>Conflicts register; management plans</td><td>Conflicts of interest</td></tr>
+        <tr data-text="keep a conflicts register and tailored policy, train staff, and give the board oversight policy, register and training are current register; training records; board reports conflicts of interest training and competence"><th scope="row"><span class="gb-id">OB-COI-02</span></th><td>Keep a conflicts register and tailored policy, train staff, and give the board oversight</td><td>Policy, register and training are current</td><td>Register; training records; board reports</td><td>Conflicts of interest; Training and competence</td></tr>
+        <tr data-text="super trustees: give priority to members’ interests and keep a board-approved conflicts management framework (sps 521) member interests are prioritised in conflicted decisions framework; decision records conflicts of interest group and related-party arrangements"><th scope="row"><span class="gb-id">OB-COI-03</span></th><td>Super trustees: give priority to members’ interests and keep a board-approved conflicts management framework (SPS 521)</td><td>Member interests are prioritised in conflicted decisions</td><td>Framework; decision records</td><td>Conflicts of interest; Group and related-party arrangements</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="credit" data-reg="credit" data-bodies="ASIC" data-ents="adi credit" data-clock="0" data-text="credit licence obligations (responsible lending, hardship) asic credit licensees, including lenders and brokers. credit ">
+    <h3>Credit licence obligations (responsible lending, hardship)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: Credit licensees, including lenders and brokers.</span></p>
+    <p class="ob-meta">Typical owner: Chief Credit Officer. <a href="/sectors/credit-and-non-bank-lenders.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="make reasonable inquiries, verify the borrower’s situation, and do not provide unsuitable credit lending decisions meet responsible lending obligations application files; qa reviews retail and consumer credit product design and distribution"><th scope="row"><span class="gb-id">OB-CREDIT-01</span></th><td>Make reasonable inquiries, verify the borrower’s situation, and do not provide unsuitable credit</td><td>Lending decisions meet responsible lending obligations</td><td>Application files; QA reviews</td><td>Retail and consumer credit; Product design and distribution</td></tr>
+        <tr data-text="respond to hardship requests within the set timeframes hardship requests are handled on time hardship register vulnerable customers and hardship"><th scope="row"><span class="gb-id">OB-CREDIT-02</span></th><td>Respond to hardship requests within the set timeframes</td><td>Hardship requests are handled on time</td><td>Hardship register</td><td>Vulnerable customers and hardship</td></tr>
+        <tr data-text="mortgage brokers act in consumers’ best interests; credit reporting follows the privacy act broker and credit reporting obligations are met broker file reviews; privacy controls advice quality privacy and data protection"><th scope="row"><span class="gb-id">OB-CREDIT-03</span></th><td>Mortgage brokers act in consumers’ best interests; credit reporting follows the Privacy Act</td><td>Broker and credit reporting obligations are met</td><td>Broker file reviews; privacy controls</td><td>Advice quality; Privacy and data protection</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="advice" data-reg="advice" data-bodies="ASIC" data-ents="advice" data-clock="0" data-text="financial advice obligations asic licensees and advisers giving personal advice to retail clients. advice ">
+    <h3>Financial advice obligations</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: Licensees and advisers giving personal advice to retail clients.</span></p>
+    <p class="ob-meta">Typical owner: Head of Advice. <a href="/compliance/financial-advice-regulation.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="advisers act in the client’s best interests, give appropriate advice and prioritise the client’s interests advice meets the best interests duty advice file reviews advice quality"><th scope="row"><span class="gb-id">OB-ADVICE-01</span></th><td>Advisers act in the client’s best interests, give appropriate advice and prioritise the client’s interests</td><td>Advice meets the best interests duty</td><td>Advice file reviews</td><td>Advice quality</td></tr>
+        <tr data-text="no conflicted remuneration, apart from limited exceptions remuneration arrangements are reviewed for conflicts remuneration reviews conflicts of interest remuneration and incentives"><th scope="row"><span class="gb-id">OB-ADVICE-02</span></th><td>No conflicted remuneration, apart from limited exceptions</td><td>Remuneration arrangements are reviewed for conflicts</td><td>Remuneration reviews</td><td>Conflicts of interest; Remuneration and incentives</td></tr>
+        <tr data-text="renew ongoing fee arrangements annually, with client consent for deductions no fees are deducted without current consent consent records fees and charges advice quality"><th scope="row"><span class="gb-id">OB-ADVICE-03</span></th><td>Renew ongoing fee arrangements annually, with client consent for deductions</td><td>No fees are deducted without current consent</td><td>Consent records</td><td>Fees and charges; Advice quality</td></tr>
+        <tr data-text="advisers are registered and meet professional standards; the licensee supervises and monitors them adviser records and supervision are current registration checks; supervision records training and competence advice quality"><th scope="row"><span class="gb-id">OB-ADVICE-04</span></th><td>Advisers are registered and meet professional standards; the licensee supervises and monitors them</td><td>Adviser records and supervision are current</td><td>Registration checks; supervision records</td><td>Training and competence; Advice quality</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="insurance" data-reg="insurance" data-bodies="ASIC" data-ents="gi li" data-clock="0" data-text="insurance conduct obligations asic general and life insurers. insurance conduct ">
+    <h3>Insurance conduct obligations</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: General and life insurers.</span></p>
+    <p class="ob-meta">Typical owner: Head of Claims. <a href="/sectors/insurance.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="handling and settling claims is a financial service, so it must be efficient, honest and fair claims are handled fairly and promptly claims qa; timeliness reports claims handling"><th scope="row"><span class="gb-id">OB-INSCON-01</span></th><td>Handling and settling claims is a financial service, so it must be efficient, honest and fair</td><td>Claims are handled fairly and promptly</td><td>Claims QA; timeliness reports</td><td>Claims handling</td></tr>
+        <tr data-text="duty of utmost good faith on both sides of every insurance contract conduct reflects utmost good faith claims and underwriting reviews claims handling disclosure and marketing"><th scope="row"><span class="gb-id">OB-INSCON-02</span></th><td>Duty of utmost good faith on both sides of every insurance contract</td><td>Conduct reflects utmost good faith</td><td>Claims and underwriting reviews</td><td>Claims handling; Disclosure and marketing</td></tr>
+        <tr data-text="hawking ban, deferred sales model for add-on insurance and unfair contract terms rules sales and contract terms meet the rules sales monitoring; contract reviews product design and distribution disclosure and marketing"><th scope="row"><span class="gb-id">OB-INSCON-03</span></th><td>Hawking ban, deferred sales model for add-on insurance and unfair contract terms rules</td><td>Sales and contract terms meet the rules</td><td>Sales monitoring; contract reviews</td><td>Product design and distribution; Disclosure and marketing</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="rg259" data-reg="rg259" data-bodies="ASIC" data-ents="re" data-clock="0" data-text="responsible entity risk management (rg 259) and scheme compliance asic responsible entities of registered schemes and other fund operators. rg 259 ">
+    <h3>Responsible entity risk management (RG 259) and scheme compliance</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: Responsible entities of registered schemes and other fund operators.</span></p>
+    <p class="ob-meta">Typical owner: Head of Compliance. <a href="/standards/asic-rg-259.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="manage risk at two levels: the operator’s own business and each scheme risk is assessed for the business and each scheme scheme risk registers risk framework effectiveness investment strategy and performance"><th scope="row"><span class="gb-id">OB-RG259-01</span></th><td>Manage risk at two levels: the operator’s own business and each scheme</td><td>Risk is assessed for the business and each scheme</td><td>Scheme risk registers</td><td>Risk framework effectiveness; Investment strategy and performance</td></tr>
+        <tr data-text="document risk appetite and tolerance for each material risk and review the framework at least annually the framework is reviewed every year annual review report risk framework effectiveness"><th scope="row"><span class="gb-id">OB-RG259-02</span></th><td>Document risk appetite and tolerance for each material risk and review the framework at least annually</td><td>The framework is reviewed every year</td><td>Annual review report</td><td>Risk framework effectiveness</td></tr>
+        <tr data-text="stress test or run scenario analysis on each fund’s liquidity at least annually fund liquidity is tested liquidity stress test results fund and member liquidity"><th scope="row"><span class="gb-id">OB-RG259-03</span></th><td>Stress test or run scenario analysis on each fund’s liquidity at least annually</td><td>Fund liquidity is tested</td><td>Liquidity stress test results</td><td>Fund and member liquidity</td></tr>
+        <tr data-text="each scheme has a compliance plan, a compliance committee (unless most directors are external) and an annual compliance plan audit compliance plans are followed and audited compliance plans; audit reports licence and regulatory requirements board effectiveness and oversight"><th scope="row"><span class="gb-id">OB-RG259-04</span></th><td>Each scheme has a compliance plan, a compliance committee (unless most directors are external) and an annual compliance plan audit</td><td>Compliance plans are followed and audited</td><td>Compliance plans; audit reports</td><td>Licence and regulatory requirements; Board effectiveness and oversight</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  </div>
+
+  <div class="ob-group" data-group="Financial crime">
+  <h2>Financial crime</h2>
+  <section class="ob-reg" id="aml" data-reg="aml" data-bodies="AUSTRAC" data-ents="adi li rse re credit pay" data-clock="1" data-text="aml/ctf austrac reporting entities that provide designated services. major reforms applied from 31 march 2026, with tranche 2 sectors from 1 july 2026. aml/ctf suspicious matter report within 3 business days (24 hours for terrorism financing) austrac threshold transaction report ($10,000 or more in physical currency) within 10 business days austrac international funds transfer instruction report within 10 business days austrac">
+    <h3>AML/CTF</h3>
+    <p class="ob-meta"><span class="gb-chip">AUSTRAC</span> <span class="ob-applies">Applies to: Reporting entities that provide designated services. Major reforms applied from 31 March 2026, with tranche 2 sectors from 1 July 2026.</span></p>
+    <p class="ob-meta">Typical owner: AML/CTF Compliance Officer. <a href="/compliance/aml-ctf-fundamentals.html">Read our guide</a></p>
+    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul><li><strong>Within 3 business days (24 hours for terrorism financing)</strong>: Suspicious matter report (AUSTRAC)</li><li><strong>Within 10 business days</strong>: Threshold transaction report ($10,000 or more in physical currency) (AUSTRAC)</li><li><strong>Within 10 business days</strong>: International funds transfer instruction report (AUSTRAC)</li></ul></div>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="assess money laundering and terrorism financing risk the ml/tf risk assessment is current risk assessment money laundering and terrorism financing"><th scope="row"><span class="gb-id">OB-AML-01</span></th><td>Assess money laundering and terrorism financing risk</td><td>The ML/TF risk assessment is current</td><td>Risk assessment</td><td>Money laundering and terrorism financing</td></tr>
+        <tr data-text="maintain aml/ctf policies (the program), with governing body oversight and an aml/ctf compliance officer reporting at least every 12 months the program is approved, owned and reported on program; compliance officer reports money laundering and terrorism financing board effectiveness and oversight"><th scope="row"><span class="gb-id">OB-AML-02</span></th><td>Maintain AML/CTF policies (the program), with governing body oversight and an AML/CTF compliance officer reporting at least every 12 months</td><td>The program is approved, owned and reported on</td><td>Program; compliance officer reports</td><td>Money laundering and terrorism financing; Board effectiveness and oversight</td></tr>
+        <tr data-text="know your customer through customer due diligence customers are identified and risk-rated due diligence records money laundering and terrorism financing"><th scope="row"><span class="gb-id">OB-AML-03</span></th><td>Know your customer through customer due diligence</td><td>Customers are identified and risk-rated</td><td>Due diligence records</td><td>Money laundering and terrorism financing</td></tr>
+        <tr data-text="report to austrac: suspicious matters, threshold transactions, international funds transfers and annual compliance reports reports are complete and on time lodgement records money laundering and terrorism financing regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-AML-04</span></th><td>Report to AUSTRAC: suspicious matters, threshold transactions, international funds transfers and annual compliance reports</td><td>Reports are complete and on time</td><td>Lodgement records</td><td>Money laundering and terrorism financing; Regulatory reporting and notifications</td></tr>
+        <tr data-text="keep records, train staff and have the program independently evaluated at least every three years records, training and evaluation are current training records; evaluation report money laundering and terrorism financing training and competence"><th scope="row"><span class="gb-id">OB-AML-05</span></th><td>Keep records, train staff and have the program independently evaluated at least every three years</td><td>Records, training and evaluation are current</td><td>Training records; evaluation report</td><td>Money laundering and terrorism financing; Training and competence</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="sanctions" data-reg="sanctions" data-bodies="DFAT" data-ents="adi gi li rse re credit pay listed" data-clock="0" data-text="sanctions dfat (australian sanctions office) everyone. for companies, breaching sanctions is a strict liability offence; the defence is reasonable precautions and due diligence. sanctions ">
+    <h3>Sanctions</h3>
+    <p class="ob-meta"><span class="gb-chip">DFAT (Australian Sanctions Office)</span> <span class="ob-applies">Applies to: Everyone. For companies, breaching sanctions is a strict liability offence; the defence is reasonable precautions and due diligence.</span></p>
+    <p class="ob-meta">Typical owner: Head of Financial Crime. <a href="/compliance/sanctions-compliance.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="screen customers, owners, counterparties and payments against the consolidated list (and other relevant lists) screening covers every relevant party and payment screening configuration; testing sanctions"><th scope="row"><span class="gb-id">OB-SANCT-01</span></th><td>Screen customers, owners, counterparties and payments against the Consolidated List (and other relevant lists)</td><td>Screening covers every relevant party and payment</td><td>Screening configuration; testing</td><td>Sanctions</td></tr>
+        <tr data-text="handle alerts carefully and keep evidence of reasonable precautions and due diligence alerts are resolved and documented alert records sanctions"><th scope="row"><span class="gb-id">OB-SANCT-02</span></th><td>Handle alerts carefully and keep evidence of reasonable precautions and due diligence</td><td>Alerts are resolved and documented</td><td>Alert records</td><td>Sanctions</td></tr>
+        <tr data-text="a sanctions match may also require an austrac report sanctions and aml processes are connected escalation procedure sanctions money laundering and terrorism financing"><th scope="row"><span class="gb-id">OB-SANCT-03</span></th><td>A sanctions match may also require an AUSTRAC report</td><td>Sanctions and AML processes are connected</td><td>Escalation procedure</td><td>Sanctions; Money laundering and terrorism financing</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="abc" data-reg="abc" data-bodies="" data-ents="adi gi li re listed" data-clock="0" data-text="anti-bribery and corruption commonwealth and state law companies, including the offence of failing to prevent foreign bribery by associates (since 8 september 2024). anti-bribery ">
+    <h3>Anti-bribery and corruption</h3>
+    <p class="ob-meta"><span class="gb-chip">Commonwealth and state law</span> <span class="ob-applies">Applies to: Companies, including the offence of failing to prevent foreign bribery by associates (since 8 September 2024).</span></p>
+    <p class="ob-meta">Typical owner: Head of Financial Crime. <a href="/compliance/anti-bribery-and-corruption.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="have adequate procedures to prevent bribery by associates, including employees, agents and contractors procedures are adequate and evidenced policy; training; risk assessment bribery and corruption"><th scope="row"><span class="gb-id">OB-ABC-01</span></th><td>Have adequate procedures to prevent bribery by associates, including employees, agents and contractors</td><td>Procedures are adequate and evidenced</td><td>Policy; training; risk assessment</td><td>Bribery and corruption</td></tr>
+        <tr data-text="carry out due diligence on and monitor higher-risk third parties third parties are vetted and monitored due diligence records bribery and corruption material service providers"><th scope="row"><span class="gb-id">OB-ABC-02</span></th><td>Carry out due diligence on and monitor higher-risk third parties</td><td>Third parties are vetted and monitored</td><td>Due diligence records</td><td>Bribery and corruption; Material service providers</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="scams" data-reg="scams" data-bodies="ASIC ACCC" data-ents="adi pay" data-clock="0" data-text="scams prevention framework accc and asic sectors designated under the framework, starting with banks, telcos and digital platforms. scams ">
+    <h3>Scams Prevention Framework</h3>
+    <p class="ob-meta"><span class="gb-chip">ACCC and ASIC</span> <span class="ob-applies">Applies to: Sectors designated under the framework, starting with banks, telcos and digital platforms.</span></p>
+    <p class="ob-meta">Typical owner: Head of Financial Crime. <a href="/compliance/consumer-protection.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="meet scams prevention framework obligations as your sector is designated and sector codes apply scam prevention, detection and response obligations are met scam controls; incident data scams"><th scope="row"><span class="gb-id">OB-SPF-01</span></th><td>Meet Scams Prevention Framework obligations as your sector is designated and sector codes apply</td><td>Scam prevention, detection and response obligations are met</td><td>Scam controls; incident data</td><td>Scams</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  </div>
+
+  <div class="ob-group" data-group="Privacy, cyber and technology">
+  <h2>Privacy, cyber and technology</h2>
+  <section class="ob-reg" id="privacy" data-reg="privacy" data-bodies="OAIC" data-ents="adi gi li phi rse re advice credit pay listed nfp gov" data-clock="1" data-text="privacy act and notifiable data breaches oaic australian government agencies and most businesses with annual turnover over $3 million, plus some smaller ones such as health service providers. privacy suspected eligible data breach assess quickly, generally within 30 days oaic eligible data breach notify the oaic and affected individuals as soon as practicable oaic">
+    <h3>Privacy Act and notifiable data breaches</h3>
+    <p class="ob-meta"><span class="gb-chip">OAIC</span> <span class="ob-applies">Applies to: Australian Government agencies and most businesses with annual turnover over $3 million, plus some smaller ones such as health service providers.</span></p>
+    <p class="ob-meta">Typical owner: Privacy Officer. <a href="/compliance/privacy-law.html">Read our guide</a></p>
+    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul><li><strong>Assess quickly, generally within 30 days</strong>: Suspected eligible data breach (OAIC)</li><li><strong>Notify the OAIC and affected individuals as soon as practicable</strong>: Eligible data breach (OAIC)</li></ul></div>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="handle personal information in line with the 13 australian privacy principles across its whole life personal information is collected, used and disclosed lawfully data inventory; privacy impact assessments privacy and data protection"><th scope="row"><span class="gb-id">OB-PRIV-01</span></th><td>Handle personal information in line with the 13 Australian Privacy Principles across its whole life</td><td>Personal information is collected, used and disclosed lawfully</td><td>Data inventory; privacy impact assessments</td><td>Privacy and data protection</td></tr>
+        <tr data-text="protect personal information from misuse, loss and unauthorised access (app 11) security controls protect personal information security controls; testing information security and access data loss and leakage privacy and data protection"><th scope="row"><span class="gb-id">OB-PRIV-02</span></th><td>Protect personal information from misuse, loss and unauthorised access (APP 11)</td><td>Security controls protect personal information</td><td>Security controls; testing</td><td>Information security and access; Data loss and leakage; Privacy and data protection</td></tr>
+        <tr data-text="assess suspected eligible data breaches quickly (generally within 30 days) and notify the oaic and affected people as soon as practicable suspected breaches are assessed and notified on time breach assessments; notifications privacy and data protection regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-PRIV-03</span></th><td>Assess suspected eligible data breaches quickly (generally within 30 days) and notify the OAIC and affected people as soon as practicable</td><td>Suspected breaches are assessed and notified on time</td><td>Breach assessments; notifications</td><td>Privacy and data protection; Regulatory reporting and notifications</td></tr>
+        <tr data-text="from 10 december 2026, explain in the privacy policy when personal information is used in substantially automated decisions automated decisions are identified and disclosed decision inventory; privacy policy ai and automated decisions privacy and data protection"><th scope="row"><span class="gb-id">OB-PRIV-04</span></th><td>From 10 December 2026, explain in the privacy policy when personal information is used in substantially automated decisions</td><td>Automated decisions are identified and disclosed</td><td>Decision inventory; privacy policy</td><td>AI and automated decisions; Privacy and data protection</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="ransom" data-reg="ransom" data-bodies="Home Affairs" data-ents="adi gi li phi rse re advice credit pay listed" data-clock="1" data-text="ransomware payment reporting department of home affairs (asd for cyber support) most businesses with annual turnover of $3 million or more. ransomware ransomware payment made within 72 hours australian government">
+    <h3>Ransomware payment reporting</h3>
+    <p class="ob-meta"><span class="gb-chip">Department of Home Affairs (ASD for cyber support)</span> <span class="ob-applies">Applies to: Most businesses with annual turnover of $3 million or more.</span></p>
+    <p class="ob-meta">Typical owner: Chief Information Security Officer. <a href="/risk-management/cyber-risk.html">Read our guide</a></p>
+    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul><li><strong>Within 72 hours</strong>: Ransomware payment made (Australian Government)</li></ul></div>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="report any ransomware payment within 72 hours ransomware payments are reported on time incident records cyber security regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-RANSOM-01</span></th><td>Report any ransomware payment within 72 hours</td><td>Ransomware payments are reported on time</td><td>Incident records</td><td>Cyber security; Regulatory reporting and notifications</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="ai" data-reg="ai" data-bodies="" data-ents="" data-clock="0" data-text="ai use (existing laws and regulator expectations) multiple regulators anyone using ai. australia has no ai-specific law; existing laws, apra’s standards and regulator expectations apply. ai ">
+    <h3>AI use (existing laws and regulator expectations)</h3>
+    <p class="ob-meta"><span class="gb-chip">Multiple regulators</span> <span class="ob-applies">Applies to: Anyone using AI. Australia has no AI-specific law; existing laws, APRA’s standards and regulator expectations apply.</span></p>
+    <p class="ob-meta">Typical owner: Chief Data Officer. <a href="/governance/ai-governance.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="apply existing obligations to ai use: consumer and financial services laws, privacy, anti-discrimination, directors’ duties and prudential standards each ai use case is assessed against existing obligations ai risk assessments ai and automated decisions licence and regulatory requirements"><th scope="row"><span class="gb-id">OB-AI-01</span></th><td>Apply existing obligations to AI use: consumer and financial services laws, privacy, anti-discrimination, directors’ duties and prudential standards</td><td>Each AI use case is assessed against existing obligations</td><td>AI risk assessments</td><td>AI and automated decisions; Licence and regulatory requirements</td></tr>
+        <tr data-text="clear accountability, an inventory of ai uses, risk-based lifecycle controls, human oversight, transparency and monitoring ai is governed across its lifecycle inventory; monitoring reports ai and automated decisions"><th scope="row"><span class="gb-id">OB-AI-02</span></th><td>Clear accountability, an inventory of AI uses, risk-based lifecycle controls, human oversight, transparency and monitoring</td><td>AI is governed across its lifecycle</td><td>Inventory; monitoring reports</td><td>AI and automated decisions</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  </div>
+
+  <div class="ob-group" data-group="Corporate, sustainability and sector rules">
+  <h2>Corporate, sustainability and sector rules</h2>
+  <section class="ob-reg" id="listed" data-reg="listed" data-bodies="ASIC ASX" data-ents="listed" data-clock="0" data-text="listed company obligations (continuous disclosure, asx principles) asx and asic asx-listed entities. asx ">
+    <h3>Listed company obligations (continuous disclosure, ASX Principles)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASX and ASIC</span> <span class="ob-applies">Applies to: ASX-listed entities.</span></p>
+    <p class="ob-meta">Typical owner: Company Secretary. <a href="/sectors/listed-companies.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="tell the market immediately about information that would materially affect the share price, subject to limited exceptions price-sensitive information is identified and disclosed disclosure committee records regulatory reporting and notifications board effectiveness and oversight"><th scope="row"><span class="gb-id">OB-ASX-01</span></th><td>Tell the market immediately about information that would materially affect the share price, subject to limited exceptions</td><td>Price-sensitive information is identified and disclosed</td><td>Disclosure committee records</td><td>Regulatory reporting and notifications; Board effectiveness and oversight</td></tr>
+        <tr data-text="report against the asx corporate governance principles on an if not, why not basis governance practices and explanations are accurate governance statement board effectiveness and oversight risk framework effectiveness"><th scope="row"><span class="gb-id">OB-ASX-02</span></th><td>Report against the ASX Corporate Governance Principles on an if not, why not basis</td><td>Governance practices and explanations are accurate</td><td>Governance statement</td><td>Board effectiveness and oversight; Risk framework effectiveness</td></tr>
+        <tr data-text="board oversight of risk, typically through a risk committee, and remuneration reporting risk oversight is evidenced committee papers board effectiveness and oversight remuneration and incentives"><th scope="row"><span class="gb-id">OB-ASX-03</span></th><td>Board oversight of risk, typically through a risk committee, and remuneration reporting</td><td>Risk oversight is evidenced</td><td>Committee papers</td><td>Board effectiveness and oversight; Remuneration and incentives</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="whistle" data-reg="whistle" data-bodies="ASIC" data-ents="adi gi li phi rse re advice credit pay listed nfp" data-clock="0" data-text="whistleblower protections asic public companies, large proprietary companies and super trustee companies must have a whistleblower policy; the protections apply more widely. whistleblower ">
+    <h3>Whistleblower protections</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC</span> <span class="ob-applies">Applies to: Public companies, large proprietary companies and super trustee companies must have a whistleblower policy; the protections apply more widely.</span></p>
+    <p class="ob-meta">Typical owner: Whistleblower protection officer. <a href="/governance/whistleblower-protections.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="have a whistleblower policy (public companies, large proprietary companies, super trustees) the policy is current and accessible policy; communications risk culture and speaking up"><th scope="row"><span class="gb-id">OB-WB-01</span></th><td>Have a whistleblower policy (public companies, large proprietary companies, super trustees)</td><td>The policy is current and accessible</td><td>Policy; communications</td><td>Risk culture and speaking up</td></tr>
+        <tr data-text="protect whistleblowers: confidentiality of identity, protection from detriment, and anonymous disclosures protections operate in practice case records; training risk culture and speaking up licence and regulatory requirements"><th scope="row"><span class="gb-id">OB-WB-02</span></th><td>Protect whistleblowers: confidentiality of identity, protection from detriment, and anonymous disclosures</td><td>Protections operate in practice</td><td>Case records; training</td><td>Risk culture and speaking up; Licence and regulatory requirements</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="climate" data-reg="climate" data-bodies="APRA ASIC" data-ents="adi gi li phi rse re listed" data-clock="0" data-text="climate risk and climate-related disclosures (aasb s2) asic (and apra guidance) entities above the size thresholds, phased: group 1 from years starting 1 january 2025, group 2 from 1 july 2026, group 3 from 1 july 2027. super funds and registered schemes with $5 billion or more in assets are in group 2. climate ">
+    <h3>Climate risk and climate-related disclosures (AASB S2)</h3>
+    <p class="ob-meta"><span class="gb-chip">ASIC (and APRA guidance)</span> <span class="ob-applies">Applies to: Entities above the size thresholds, phased: Group 1 from years starting 1 January 2025, Group 2 from 1 July 2026, Group 3 from 1 July 2027. Super funds and registered schemes with $5 billion or more in assets are in Group 2.</span></p>
+    <p class="ob-meta">Typical owner: Head of Sustainability. <a href="/compliance/climate-related-financial-disclosures.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="prepare an annual sustainability report with climate statements under aasb s2 (governance, strategy, risk management, metrics and targets) climate disclosures are complete and supported sustainability report; data records sustainability reporting and claims physical climate risk transition risk"><th scope="row"><span class="gb-id">OB-CLIMATE-01</span></th><td>Prepare an annual sustainability report with climate statements under AASB S2 (governance, strategy, risk management, metrics and targets)</td><td>Climate disclosures are complete and supported</td><td>Sustainability report; data records</td><td>Sustainability reporting and claims; Physical climate risk; Transition risk</td></tr>
+        <tr data-text="run climate scenario analysis and disclose greenhouse gas emissions scenario analysis and emissions data are robust scenario analysis; emissions inventory physical climate risk transition risk"><th scope="row"><span class="gb-id">OB-CLIMATE-02</span></th><td>Run climate scenario analysis and disclose greenhouse gas emissions</td><td>Scenario analysis and emissions data are robust</td><td>Scenario analysis; emissions inventory</td><td>Physical climate risk; Transition risk</td></tr>
+        <tr data-text="avoid misleading sustainability claims (greenwashing) in all communications sustainability claims are substantiated review records sustainability reporting and claims disclosure and marketing"><th scope="row"><span class="gb-id">OB-CLIMATE-03</span></th><td>Avoid misleading sustainability claims (greenwashing) in all communications</td><td>Sustainability claims are substantiated</td><td>Review records</td><td>Sustainability reporting and claims; Disclosure and marketing</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="modslav" data-reg="modslav" data-bodies="Border Force" data-ents="adi gi li phi rse listed" data-clock="0" data-text="modern slavery reporting australian border force entities with annual consolidated revenue over $100 million. a proposed offence was announced in july 2026; check the current position. modern slavery ">
+    <h3>Modern slavery reporting</h3>
+    <p class="ob-meta"><span class="gb-chip">Australian Border Force</span> <span class="ob-applies">Applies to: Entities with annual consolidated revenue over $100 million. A proposed offence was announced in July 2026; check the current position.</span></p>
+    <p class="ob-meta">Typical owner: Head of Procurement. <a href="/compliance/modern-slavery.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="publish an annual modern slavery statement addressing the seven mandatory criteria, approved by the board the statement is complete and approved statement; supplier assessments modern slavery and human rights"><th scope="row"><span class="gb-id">OB-MSA-01</span></th><td>Publish an annual modern slavery statement addressing the seven mandatory criteria, approved by the board</td><td>The statement is complete and approved</td><td>Statement; supplier assessments</td><td>Modern slavery and human rights</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="acnc" data-reg="acnc" data-bodies="ACNC" data-ents="nfp" data-clock="0" data-text="acnc governance and external conduct standards acnc registered charities; the external conduct standards apply to charities operating overseas. acnc ">
+    <h3>ACNC governance and external conduct standards</h3>
+    <p class="ob-meta"><span class="gb-chip">ACNC</span> <span class="ob-applies">Applies to: Registered charities; the external conduct standards apply to charities operating overseas.</span></p>
+    <p class="ob-meta">Typical owner: Company Secretary. <a href="/sectors/not-for-profits-and-charities.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="meet the five governance standards; responsible people act with care, honestly in the charity’s best interests, and manage conflicts governance standards are met board records; conflicts register board effectiveness and oversight conflicts of interest"><th scope="row"><span class="gb-id">OB-ACNC-01</span></th><td>Meet the five governance standards; responsible people act with care, honestly in the charity’s best interests, and manage conflicts</td><td>Governance standards are met</td><td>Board records; conflicts register</td><td>Board effectiveness and oversight; Conflicts of interest</td></tr>
+        <tr data-text="report to the acnc according to size annual reporting is on time lodgement records regulatory reporting and notifications"><th scope="row"><span class="gb-id">OB-ACNC-02</span></th><td>Report to the ACNC according to size</td><td>Annual reporting is on time</td><td>Lodgement records</td><td>Regulatory reporting and notifications</td></tr>
+        <tr data-text="charities operating overseas meet the external conduct standards overseas activities are controlled overseas activity records licence and regulatory requirements bribery and corruption"><th scope="row"><span class="gb-id">OB-ACNC-03</span></th><td>Charities operating overseas meet the external conduct standards</td><td>Overseas activities are controlled</td><td>Overseas activity records</td><td>Licence and regulatory requirements; Bribery and corruption</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section class="ob-reg" id="pgpa" data-reg="pgpa" data-bodies="Finance" data-ents="gov" data-clock="0" data-text="pgpa act and commonwealth risk management policy department of finance commonwealth entities (the risk management policy is mandatory for non-corporate commonwealth entities). pgpa ">
+    <h3>PGPA Act and Commonwealth Risk Management Policy</h3>
+    <p class="ob-meta"><span class="gb-chip">Department of Finance</span> <span class="ob-applies">Applies to: Commonwealth entities (the Risk Management Policy is mandatory for non-corporate Commonwealth entities).</span></p>
+    <p class="ob-meta">Typical owner: Chief Risk Officer. <a href="/sectors/public-sector.html">Read our guide</a></p>
+    <div class="table-wrap" tabindex="0"><table class="ob-table">
+      <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
+      <tbody>
+        <tr data-text="establish and maintain appropriate systems of risk oversight and management and internal control (pgpa act s 16) risk and control systems are appropriate framework; audit committee reports risk framework effectiveness"><th scope="row"><span class="gb-id">OB-PGPA-01</span></th><td>Establish and maintain appropriate systems of risk oversight and management and internal control (PGPA Act s 16)</td><td>Risk and control systems are appropriate</td><td>Framework; audit committee reports</td><td>Risk framework effectiveness</td></tr>
+        <tr data-text="apply the commonwealth risk management policy (non-corporate commonwealth entities) the policy’s elements are embedded self-assessment risk framework effectiveness"><th scope="row"><span class="gb-id">OB-PGPA-02</span></th><td>Apply the Commonwealth Risk Management Policy (non-corporate Commonwealth entities)</td><td>The policy’s elements are embedded</td><td>Self-assessment</td><td>Risk framework effectiveness</td></tr>
+        <tr data-text="meet the fraud and corruption control framework fraud and corruption controls are in place fraud control plan; incident records internal and external fraud bribery and corruption"><th scope="row"><span class="gb-id">OB-PGPA-03</span></th><td>Meet the Fraud and Corruption Control Framework</td><td>Fraud and corruption controls are in place</td><td>Fraud control plan; incident records</td><td>Internal and external fraud; Bribery and corruption</td></tr>
+        <tr data-text="non-corporate commonwealth entities implement the essential eight at maturity level two essential eight maturity is met maturity assessments cyber security"><th scope="row"><span class="gb-id">OB-PGPA-04</span></th><td>Non-corporate Commonwealth entities implement the Essential Eight at Maturity Level Two</td><td>Essential Eight maturity is met</td><td>Maturity assessments</td><td>Cyber security</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  </div>
+
+  <h2>How to use this library</h2>
+  <ul>
+    <li><strong>Start an obligations register:</strong> download the library, keep the regimes that apply to you, then break each summary into the individual obligations in the legislation or standard, with citations, interpretations and owners. The <a href="/tools/obligations-register-template.html">obligations register template</a> has the fields.</li>
+    <li><strong>Link to controls:</strong> use the control objective and evidence columns to find or design the controls that meet each obligation. <a href="/grc/obligations-architecture.html">Obligations architecture</a> explains the structure.</li>
+    <li><strong>Plan incident triage:</strong> the notification deadlines show the clocks every incident should be tested against. See the <a href="/playbooks/respond-to-an-incident.html">incident response playbook</a>.</li>
+  </ul>
+  <p>Every summary matches the guide it links to, where the detail and official sources are. Regulatory requirements change, so check the source before relying on any entry. Spotted an error? Use the correction link below.</p>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/grc/obligations-architecture.html" data-label="Obligations architecture"><a href="/grc/obligations-architecture.html">Obligations architecture</a></li>
+      <li data-href="/grc/model-builder.html" data-label="GRC model builder"><a href="/grc/model-builder.html">GRC model builder</a></li>
+      <li data-href="/compliance/breach-reporting.html" data-label="Breach and incident reporting obligations"><a href="/compliance/breach-reporting.html">Breach and incident reporting obligations</a></li>
+      <li data-href="/standards/" data-label="Standards library"><a href="/standards/">Standards library</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>Each regime's guide on this site, linked above, lists the legislation and regulator guidance it summarises.</li>
+      <li>Federal Register of Legislation, <a href="https://www.legislation.gov.au/">legislation.gov.au</a>; APRA, <a href="https://www.apra.gov.au/">apra.gov.au</a>; ASIC, <a href="https://asic.gov.au/">asic.gov.au</a>; AUSTRAC, <a href="https://www.austrac.gov.au/">austrac.gov.au</a>; OAIC, <a href="https://www.oaic.gov.au/">oaic.gov.au</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 1 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
+  <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/obligations/&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Fobligations%2F">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/grc/">GRC systems</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/about/editorial-standards.html">How we check content</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<script src="/scripts/site.js" defer></script>
+<!-- FOOTER:END -->
+
+<script src="/scripts/xlsx-lite.js"></script>
+<script src="/scripts/obligations.js"></script>
+</body>
+</html>

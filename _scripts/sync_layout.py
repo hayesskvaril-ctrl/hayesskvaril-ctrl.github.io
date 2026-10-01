@@ -125,7 +125,7 @@ def footer_html() -> str:
 # Level tags (Beginner, Intermediate, Advanced) describe reading depth, so they belong only on
 # educational content: the pages in these sections. News, tools and templates, learning hubs,
 # the glossary and site pages never carry them; sync_layout strips any that slip through.
-LEVEL_SECTIONS = {"foundations", "risk-management", "compliance", "governance", "grc", "standards", "sectors", "case-studies"}
+LEVEL_SECTIONS = {"playbooks", "foundations", "risk-management", "compliance", "governance", "grc", "standards", "sectors", "case-studies"}
 NO_LEVEL_PAGES = {"/grc/model-builder.html"}
 META_DIV_RE = re.compile(r'<div class="page-meta">.*?</div>', re.S)
 LEVEL_SPAN_RE = re.compile(r'\s*<span class="level level-[a-z]+">[A-Za-z]+</span>(?:\s*<span>to</span>\s*<span class="level level-[a-z]+">[A-Za-z]+</span>)?')
