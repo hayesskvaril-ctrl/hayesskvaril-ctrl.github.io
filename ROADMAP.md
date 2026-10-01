@@ -344,6 +344,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] GRC for complex groups (Advanced, university standard, with peer-reviewed research)
 - [x] GRC model builder tool (12 organisation types, 21 regimes, 15 risk categories; CSV/JSON/print export)
 - [x] Glossary terms, GRC quiz, GRC learning pathway, resource library entry, graphics
+- [x] GRC model builder version 2: five-step wizard with six examples; 12 entity types counted per group, 10 operating features, 37 regimes with 117 obligation themes and 14 notification clocks, 16 Level 1 categories and 73 Level 2 sub-types with example risks, controls and KRIs, all linked by ID; committees, roles, RACI, entity matrix, data model, maturity radar, roadmap, reporting calendar and consistency checks; Excel (about 20 sheets), CSV, JSON, print and share-link exports
 
 ## 🔁 Recurring upkeep (never ticked off; do on schedule)
 
@@ -369,8 +370,8 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Expert review (Phases 16–17):** the upgraded Advanced pages in specialist areas (Setting CPS 230 tolerance levels, Mapping critical operations, Service provider exit and concentration, Breach significance analysis, Remediation calculations, Control testing sampling, Compliance monitoring and testing) and the new Internal audit effectiveness and AML/CTF effectiveness pages. Also the video scripts for the CPS 230, breach reporting clocks, remediation and unit pricing explainers.
 - **Idea:** short explainer videos for the new university-level pages (e.g. the Gordon-Loeb model, the enforcement pyramid, normal accidents versus high reliability).
 - **Idea:** more 3D graphics for individual topic pages (e.g. CPS 230, breach reporting, incident management), using the scene library in `_scripts/graphics/`.
-- **Expert review (Phase 18):** the GRC section, especially the risk hierarchy, establishment roadmap and the GRC model builder's regime defaults and document lists in `scripts/grc-builder-data.js`.
-- **Idea:** GRC model builder: add a "group" mode that builds separate entity models and a group overlay; add an obligations starter list per regime.
+- **Expert review (Phase 18):** the GRC section, especially the risk hierarchy, establishment roadmap and the GRC model builder's regime defaults, obligation themes, notification clocks, control examples and document lists in `scripts/grc-builder-data.js`.
+- **Idea:** GRC model builder: let readers add their own Level 2 sub-types and controls in the tool; break each obligation theme into a starter list of individual obligations with citations.
 - **Idea:** automatic monthly check of external links (to APRA, ASIC, legislation and other sources) using a free GitHub Actions link checker. External links can't be tested from the build environment, so broken source links would currently only be found at each page's yearly review.
 
 - **Next roundup:** after the final CPS 510 and the ASIC/APRA FAR changes (see Recurring upkeep for the cadence).

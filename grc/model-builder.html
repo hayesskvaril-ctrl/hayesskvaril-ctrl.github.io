@@ -4,13 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GRC model builder | RiskLens Australia</title>
-<meta name="description" content="A free interactive tool: choose your organisation type, structure, regulatory regimes and risk categories, and get an illustrative GRC model with frameworks, a three-level risk taxonomy, committees, a data model, obligation sources, a reporting calendar and an implementation roadmap.">
+<meta name="description" content="A free interactive GRC model builder for Australian organisations. Describe the entity types, operating model, regimes, risk categories and maturity, and get a linked GRC model: frameworks, Level 1 to 3 risks with controls and KRIs, obligations, notification clocks, committees, the data model, a roadmap and an Excel export.">
 <!-- META:START -->
 <link rel="canonical" href="https://hayesskvaril-ctrl.github.io/grc/model-builder.html">
 <meta property="og:site_name" content="RiskLens Australia">
 <meta property="og:type" content="article">
 <meta property="og:title" content="GRC model builder">
-<meta property="og:description" content="A free interactive tool: choose your organisation type, structure, regulatory regimes and risk categories, and get an illustrative GRC model with frameworks, a three-level risk taxonomy, committees, a data model, obligation sources, a reporting calendar and an implementation roadmap.">
+<meta property="og:description" content="A free interactive GRC model builder for Australian organisations. Describe the entity types, operating model, regimes, risk categories and maturity, and get a linked GRC model: frameworks, Level 1 to 3 risks with controls and KRIs, obligations, notification clocks, committees, the data model, a roadmap and an Excel export.">
 <meta property="og:url" content="https://hayesskvaril-ctrl.github.io/grc/model-builder.html">
 <meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
 <meta property="og:image:width" content="1200">
@@ -53,81 +53,63 @@
 </header>
 <!-- HEADER:END -->
 
-<main id="main" class="article">
+<main id="main" class="article wide gb-page">
   <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/grc/">GRC systems</a></li><li>GRC model builder</li></ol></nav>
 
   <h1>GRC model builder</h1>
-  <p class="summary">Answer four questions about an organisation and get an illustrative GRC model to start from: the framework documents, a three-level risk taxonomy, committees, the data model that links it all, a calendar and a roadmap.</p>
+  <p class="summary">Describe an organisation in five short steps and get a linked, illustrative GRC model: frameworks, a three-level risk taxonomy with controls and KRIs, obligations and notification clocks, committees, the data model and a maturity roadmap, ready to export to Excel.</p>
   <div class="page-meta">
-    <span>About 10 minutes</span>
+    <span>About 15 minutes</span>
     <span>Last reviewed: 1 October 2026</span>
   </div>
 <!-- ART:START -->
 <figure class="section-art"><img src="/assets/img/grc-builder-1600.webp" srcset="/assets/img/grc-builder-800.webp 800w, /assets/img/grc-builder-1600.webp 1600w" sizes="(max-width: 1024px) 100vw, 980px" width="1600" height="1000" alt="" fetchpriority="high"></figure>
 <!-- ART:END -->
 
+
+<div class="widget grc-builder" id="grc-builder">
+    <noscript><p>The builder needs JavaScript. The guide to <a href="/grc/establishing-a-grc-system.html">establishing a GRC system</a> covers the same steps.</p></noscript>
+  </div>
+  <div id="grc-out" class="grc-out" hidden></div>
+
   <aside class="takeaways" aria-labelledby="kt">
     <h2 id="kt">Key takeaways</h2>
     <ul>
-      <li>The builder suggests the regimes and risk categories that usually apply to each type of organisation. You can change every selection.</li>
-      <li>The output follows the structure used across this section: policy hierarchy, enterprise and Level 1 to 3 risks, committees, data model, obligations, calendar and roadmap.</li>
-      <li>Everything runs in your browser. Your answers are saved only on this device, and you can download the result as a spreadsheet or print it.</li>
-      <li>The model is general and illustrative. It is not advice and is not a list of legal requirements for your organisation.</li>
+      <li>Answer five short steps, or start from one of six examples. Suggestions come from the guides on this site, and you can change every selection.</li>
+      <li>Every record links to the next: obligations to Level 2 risks, risks to controls and key risk indicators, indicators to appetite metrics, and all of them to the committees that oversee them.</li>
+      <li>Consistency checks flag gaps, such as a regime whose risks are not in your taxonomy or a group without entity-level reporting.</li>
+      <li>Everything runs in your browser. Your answers stay on this device unless you copy a share link, and you can export the model to Excel, CSV, JSON or PDF.</li>
+      <li>The model is general and illustrative. It is not advice and is not a complete list of the legal requirements for your organisation.</li>
     </ul>
   </aside>
 
-<div class="widget grc-builder" id="grc-builder">
-    <form>
-      <fieldset>
-        <legend>1. Your organisation</legend>
-        <p><label for="gb-name">Name (optional, only used in the heading)</label><input type="text" id="gb-name" maxlength="80" placeholder="e.g. Example Group"></p>
-        <p><label for="gb-type">Type of organisation</label><select id="gb-type"></select></p>
-        <p class="small">Changing the type resets the regimes and risks below to the usual ones for that type.</p>
-        <div role="radiogroup" aria-labelledby="gb-cx-l"><p id="gb-cx-l"><strong>Structure and complexity</strong></p>
-          <label class="gb-check"><input type="radio" name="complexity" value="single"> Single entity</label>
-          <label class="gb-check"><input type="radio" name="complexity" value="group" checked> Group with several entities</label>
-          <label class="gb-check"><input type="radio" name="complexity" value="complex"> Complex group with multiple licences and regulators</label>
-          <label class="gb-check"><input type="radio" name="complexity" value="intl"> International group</label>
-        </div>
-      </fieldset>
-      <fieldset>
-        <legend>2. Regulatory regimes</legend>
-        <div class="gb-grid" id="gb-regimes"></div>
-      </fieldset>
-      <fieldset>
-        <legend>3. Risk categories (Level 1)</legend>
-        <div class="gb-grid" id="gb-risks"></div>
-      </fieldset>
-      <fieldset>
-        <legend>4. Current GRC maturity</legend>
-        <div role="radiogroup" aria-label="Current GRC maturity">
-          <label class="gb-check"><input type="radio" name="maturity" value="adhoc"> Ad hoc: spreadsheets and separate registers</label>
-          <label class="gb-check"><input type="radio" name="maturity" value="defined" checked> Defined: frameworks exist, registers are separate</label>
-          <label class="gb-check"><input type="radio" name="maturity" value="integrated"> Partly integrated: some shared data or a GRC tool</label>
-        </div>
-      </fieldset>
-      <p><button type="submit" class="btn">Build my GRC model</button> <button type="button" class="btn secondary" id="gb-reset">Reset</button></p>
-    </form>
-  </div>
-  <div id="grc-out" class="grc-out" hidden aria-live="polite"></div>
-
   <h2>How the builder works</h2>
-  <p>The builder combines three things: a core set of GRC documents every organisation needs (a risk management framework, risk appetite, methodology, compliance framework, incident and issue processes, control framework and internal audit charter); the documents, regulators and features that each regime you select usually brings (for example CPS 230 adds critical operations, tolerance levels and service provider management); and a library of Level 1 risk categories with Level 2 sub-types and example Level 3 risks. Committees scale with the structure you choose, and the roadmap scales with structure and maturity.</p>
-  <p>The approach is explained across the <a class="xref" href="/grc/">GRC systems</a> section. Start with <a class="xref" href="/grc/establishing-a-grc-system.html">establishing a GRC system</a> to see how a model like this is turned into a working system.</p>
+  <p>The builder combines your answers with a reference library drawn from the guides on this site.</p>
+  <ul>
+    <li><strong>Entity types</strong> suggest the regimes, risk categories and operating features that usually apply. Counting more than one entity turns the model into a group model, which adds a group governance framework, a Level 2 risk for intra-group arrangements and reporting for each entity.</li>
+    <li><strong>Regimes</strong> bring their documents, obligation themes, notification clocks and calendar items. Each obligation theme links to the Level 2 risks it relates to, and through them to controls, so you can see which controls support which obligations.</li>
+    <li><strong>Risk categories</strong> follow a three-level taxonomy: up to 16 Level 1 categories, more than 70 Level 2 sub-types, and an example Level 3 risk for each sub-type with causes, impacts, controls and key risk indicators. A sub-type is included when it fits your entity types or operating model, or when a regime you chose needs it.</li>
+    <li><strong>Size, structure and maturity</strong> shape the committees, the suggested operating model, the target maturity and the length of the indicative roadmap. Your challenges set the quick wins and the order of the implementation waves.</li>
+  </ul>
+  <p>IDs follow one pattern so the records link up. OPS-02 is a Level 2 sub-type; R-OPS-02.1 is its first example risk, C-OPS-02.1 its first control and K-OPS-02.1 its first key risk indicator; OB-CPS230-07 is the seventh CPS 230 obligation theme; and D-01 is the first framework document.</p>
 
   <h2>What the builder does not do</h2>
   <ul>
-    <li>It does not tell you which laws apply to your organisation. Applicability depends on licences, products, size and thresholds; check the official sources and get advice.</li>
-    <li>It does not assess your risks or rate them. The example Level 3 risks are prompts, not your risks.</li>
-    <li>It does not replace the design work. Use it to start discussions about scope, structure and priorities.</li>
+    <li>It does not tell you which laws apply. Applicability depends on licences, products, size and thresholds, so check the official sources and get advice.</li>
+    <li>It does not assess or rate your risks. The example risks, controls, indicators and appetite positions are prompts to adapt, not your risk profile.</li>
+    <li>The obligation themes summarise; they are not an obligations register. A full register breaks each theme into individual obligations with citations, interpretations and owners.</li>
+    <li>The roadmap durations are indicative. Real programs vary widely with scope, budget, people and technology choices.</li>
   </ul>
+  <p>The thinking behind each part of the model is explained across the <a class="xref" href="/grc/">GRC systems</a> section. Start with <a class="xref" href="/grc/establishing-a-grc-system.html">establishing a GRC system</a>.</p>
 
   <section class="related" aria-labelledby="related-h">
     <h2 id="related-h">Related topics</h2>
     <ul>
       <li data-href="/grc/establishing-a-grc-system.html" data-label="Establishing a GRC system"><a href="/grc/establishing-a-grc-system.html">Establishing a GRC system</a></li>
       <li data-href="/grc/risk-taxonomy-and-hierarchy.html" data-label="Risk taxonomy and the risk hierarchy"><a href="/grc/risk-taxonomy-and-hierarchy.html">Risk taxonomy and the risk hierarchy</a></li>
+      <li data-href="/grc/obligations-architecture.html" data-label="Obligations architecture"><a href="/grc/obligations-architecture.html">Obligations architecture</a></li>
       <li data-href="/grc/grc-data-model.html" data-label="The GRC data model"><a href="/grc/grc-data-model.html">The GRC data model</a></li>
+      <li data-href="/grc/grc-for-complex-groups.html" data-label="GRC for complex groups"><a href="/grc/grc-for-complex-groups.html">GRC for complex groups</a></li>
       <li data-href="/tools/resource-library.html" data-label="Resource library"><a href="/tools/resource-library.html">Resource library</a></li>
     </ul>
   </section>
@@ -137,8 +119,11 @@
     <ol>
       <li>APRA, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a>.</li>
       <li>APRA, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a>.</li>
-      <li>OCEG, <a href="https://www.oceg.org/what-is-grc/">What is GRC?</a> (OCEG's definition of GRC and its GRC Capability Model).</li>
       <li>ASIC, <a href="https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/">Regulatory Guide 104 AFS licensing: Meeting the general obligations</a>.</li>
+      <li>ASIC, <a href="https://www.asic.gov.au/regulatory-resources/financial-services/reportable-situations-for-afs-and-credit-licensees">Reportable situations for AFS and credit licensees</a>.</li>
+      <li>AUSTRAC, <a href="https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports">Suspicious matter reports</a>.</li>
+      <li>OAIC, <a href="https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme">About the Notifiable Data Breaches scheme</a>.</li>
+      <li>OCEG, <a href="https://www.oceg.org/what-is-grc/">What is GRC?</a> (OCEG's definition of GRC and its GRC Capability Model).</li>
     </ol>
   </section>
 
@@ -177,6 +162,7 @@
 
 <script src="/scripts/grc-model-data.js"></script>
 <script src="/scripts/grc-builder-data.js"></script>
+<script src="/scripts/xlsx-lite.js"></script>
 <script src="/scripts/grc-builder.js"></script>
 </body>
 </html>
