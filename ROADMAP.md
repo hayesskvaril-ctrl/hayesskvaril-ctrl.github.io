@@ -380,7 +380,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Content overlap audit (no near-duplicates; highest overlap 0.63 between guide and playbook on the same topic) and news approach: guides now link to their playbook and board briefing ("Put it into practice", stamped by `sync_layout.py`); news moves to a monthly roundup (`_scripts/UPKEEP.md`)
 - [ ] Expert review of specialist pages (owner, using `_scripts/REVIEW_QUEUE.md`)
 - [ ] Monthly regulatory roundup: first one in early November 2026 covering October
-- **Needs the owner's decision:** putting a name on the site; a custom web address (about A$15–25 a year, outside the $0 rule); an email newsletter service (free tier, set up by the owner); a check of the "RiskLens" name.
+- **Owner decisions (October 2026):** no name on the site; expert reviews stay in progress; the "RiskLens" name is fine. The owner will buy a custom web address later (then: set it up with GitHub Pages and update `SITE` in `sync_layout.py`).
+- [ ] Email updates: the owner sets up a free newsletter (Substack recommended); then set `NEWSLETTER_URL` in `sync_layout.py` and run it to show the sign-up boxes
 
 ## Ideas / backlog
 

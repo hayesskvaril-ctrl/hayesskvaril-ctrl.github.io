@@ -114,7 +114,8 @@ def header_html(current: str) -> str:
 def footer_html() -> str:
     cols = []
     for heading, links in FOOTER_COLS:
-        lis = "\n".join(f'          <li><a href="{u}">{l}</a></li>' for l, u in links if target_exists(u))
+        links = links + ([("Email updates", NEWSLETTER_URL)] if heading == "Learn" and NEWSLETTER_URL else [])
+        lis = "\n".join(f'          <li><a href="{u}">{l}</a></li>' for l, u in links if u.startswith("http") or target_exists(u))
         cols.append(f'      <div>\n        <p class="footer-h">{heading}</p>\n        <ul>\n{lis}\n        </ul>\n      </div>')
     return (
         "<!-- FOOTER:START -->\n"
@@ -383,6 +384,25 @@ def apply_formats(text: str, url: str) -> str:
     return re.sub(r'(<aside class="takeaways".*?</aside>)', lambda m: m.group(1) + block, text, count=1, flags=re.S)
 
 
+# Email updates. Leave NEWSLETTER_URL empty until the newsletter exists; once it is set to the sign-up
+# page's address (e.g. a Substack https://NAME.substack.com), sync_layout shows a sign-up box on the home
+# page and the News page, and an "Email updates" link in the footer.
+NEWSLETTER_URL = ""
+NEWSLETTER_NAME = "the monthly regulatory roundup"
+SUB_RE = re.compile(r'\n?<!-- SUBSCRIBE:START -->.*?<!-- SUBSCRIBE:END -->', re.S)
+
+
+def apply_subscribe(text: str, url: str) -> str:
+    text = SUB_RE.sub("", text)
+    if not NEWSLETTER_URL or url not in ("/", "/news/"):
+        return text
+    box = ('\n<!-- SUBSCRIBE:START -->\n  <div class="subscribe-box"><p><strong>Get ' + NEWSLETTER_NAME + ' by email.</strong> '
+           'Free, once a month, unsubscribe any time.</p><p><a class="button" href="' + NEWSLETTER_URL + '">Subscribe</a></p></div>\n<!-- SUBSCRIBE:END -->')
+    if url == "/":
+        return text.replace('\n<section class="band" aria-labelledby="news-heading">', box + '\n<section class="band" aria-labelledby="news-heading">', 1)
+    return re.sub(r'(<div class="page-meta">.*?</div>)', lambda m: m.group(1) + box, text, count=1, flags=re.S)
+
+
 REPO = "https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io"
 STATUS_RE = re.compile(r'\s*<a class="badge review-status" data-status[^>]*>.*?</a>')
 FEEDBACK_RE = re.compile(r'\n?\s*<p class="page-feedback" data-feedback>.*?</p>', re.S)
@@ -504,6 +524,7 @@ def main():
         new = apply_review(new, page_url(rel))
         new = apply_course(new, page_url(rel))
         new = apply_formats(new, page_url(rel))
+        new = apply_subscribe(new, page_url(rel))
         new = apply_art(new, page_url(rel))
         new = apply_levels(new, page_url(rel))
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
