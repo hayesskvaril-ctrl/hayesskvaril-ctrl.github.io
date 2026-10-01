@@ -22,10 +22,30 @@
     });
   }
 
+  // ---------- Mark as read (pages in a learning pathway; shared with /learn/pathways.html) ----------
+  var mark = document.querySelector('.cn-mark');
+  if (mark) {
+    var PKEY = 'rl-pathways-done', read = {};
+    try { read = JSON.parse(localStorage.getItem(PKEY)) || {}; } catch (e) { read = {}; }
+    var murl = mark.getAttribute('data-url');
+    var showMark = function () {
+      var on = !!read[murl];
+      mark.setAttribute('aria-pressed', on ? 'true' : 'false');
+      mark.textContent = on ? '\u2713 Read' : 'Mark as read';
+      mark.classList.toggle('on', on);
+    };
+    mark.addEventListener('click', function () {
+      if (read[murl]) delete read[murl]; else read[murl] = true;
+      try { localStorage.setItem(PKEY, JSON.stringify(read)); } catch (e) {}
+      showMark();
+    });
+    showMark();
+  }
+
   // ---------- 2. "On this page" bar ----------
   var main = document.querySelector('main.article:not(.wide)');
   if (!main) return;
-  var skip = '.pb-glance, .takeaways, .outcomes, .card, .widget, .video-block, figure, .quiz, details, .related, .sources, .references';
+  var skip = '.course-nav, .pb-glance, .takeaways, .outcomes, .card, .widget, .video-block, figure, .quiz, details, .related, .sources, .references';
   var heads = Array.prototype.filter.call(main.querySelectorAll('h2'), function (h) {
     return !h.closest(skip) && h.textContent.trim();
   });

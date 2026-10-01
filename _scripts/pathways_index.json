@@ -1,0 +1,1966 @@
+{
+ "/foundations/what-is-risk-management.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 1,
+   "total": 9,
+   "next": "/foundations/what-is-compliance.html",
+   "nextTitle": "What is compliance?"
+  },
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 1,
+   "total": 46,
+   "next": "/standards/iso-31000.html",
+   "nextTitle": "ISO 31000 Risk management"
+  }
+ ],
+ "/foundations/what-is-compliance.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 2,
+   "total": 9,
+   "next": "/foundations/what-is-governance.html",
+   "nextTitle": "What is governance?"
+  },
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 1,
+   "total": 44,
+   "next": "/compliance/licensing-basics.html",
+   "nextTitle": "Licensing basics (AFSL, RSE licence and more)"
+  }
+ ],
+ "/foundations/what-is-governance.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 3,
+   "total": 9,
+   "next": "/foundations/three-lines-model.html",
+   "nextTitle": "The Three Lines model (and internal audit's role)"
+  },
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 1,
+   "total": 31,
+   "next": "/governance/board-structure-and-accountability.html",
+   "nextTitle": "Board structure and accountability"
+  }
+ ],
+ "/foundations/three-lines-model.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 4,
+   "total": 9,
+   "next": "/foundations/regulatory-landscape.html",
+   "nextTitle": "Regulatory landscape map: who regulates what"
+  },
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 2,
+   "total": 13,
+   "next": "/grc/risk-taxonomy-and-hierarchy.html",
+   "nextTitle": "Risk taxonomy and the risk hierarchy"
+  }
+ ],
+ "/foundations/regulatory-landscape.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 5,
+   "total": 9,
+   "next": "/foundations/core-frameworks-compared.html",
+   "nextTitle": "Core frameworks compared: ISO 31000, COSO and Three Lines"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 1,
+   "total": 31,
+   "next": "/compliance/licensing-basics.html",
+   "nextTitle": "Licensing basics (AFSL, RSE licence and more)"
+  }
+ ],
+ "/foundations/core-frameworks-compared.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 6,
+   "total": 9,
+   "next": "/playbooks/first-90-days-in-risk-or-compliance.html",
+   "nextTitle": "Your first 90 days in a risk or compliance role"
+  }
+ ],
+ "/playbooks/first-90-days-in-risk-or-compliance.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 7,
+   "total": 9,
+   "next": "/learn/flashcards.html",
+   "nextTitle": "Flashcards"
+  }
+ ],
+ "/learn/flashcards.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 8,
+   "total": 9,
+   "next": "/learn/quizzes.html",
+   "nextTitle": "Topic quizzes"
+  },
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 43,
+   "total": 44,
+   "next": "/learn/quizzes.html",
+   "nextTitle": "Topic quizzes"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 17,
+   "total": 17,
+   "next": "",
+   "nextTitle": ""
+  }
+ ],
+ "/learn/quizzes.html": [
+  {
+   "id": "essentials",
+   "title": "Start here: risk and compliance essentials",
+   "pos": 9,
+   "total": 9,
+   "next": "",
+   "nextTitle": ""
+  },
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 46,
+   "total": 46,
+   "next": "",
+   "nextTitle": ""
+  },
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 44,
+   "total": 44,
+   "next": "",
+   "nextTitle": ""
+  },
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 31,
+   "total": 31,
+   "next": "",
+   "nextTitle": ""
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 31,
+   "total": 31,
+   "next": "",
+   "nextTitle": ""
+  },
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 13,
+   "total": 13,
+   "next": "",
+   "nextTitle": ""
+  },
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 15,
+   "total": 15,
+   "next": "",
+   "nextTitle": ""
+  }
+ ],
+ "/standards/iso-31000.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 2,
+   "total": 46,
+   "next": "/risk-management/credit-market-and-liquidity-risk.html",
+   "nextTitle": "Credit, market and liquidity risk (the basics)"
+  }
+ ],
+ "/risk-management/credit-market-and-liquidity-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 3,
+   "total": 46,
+   "next": "/risk-management/risk-appetite-and-tolerance.html",
+   "nextTitle": "Risk appetite and tolerance"
+  }
+ ],
+ "/risk-management/risk-appetite-and-tolerance.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 4,
+   "total": 46,
+   "next": "/risk-management/risk-assessment-methodologies.html",
+   "nextTitle": "Risk assessment methodologies"
+  },
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 14,
+   "total": 31,
+   "next": "/standards/coso.html",
+   "nextTitle": "COSO ERM and Internal Control frameworks"
+  }
+ ],
+ "/risk-management/risk-assessment-methodologies.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 5,
+   "total": 46,
+   "next": "/risk-management/control-design-and-testing.html",
+   "nextTitle": "Control design and testing"
+  }
+ ],
+ "/risk-management/control-design-and-testing.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 6,
+   "total": 46,
+   "next": "/risk-management/operational-risk.html",
+   "nextTitle": "Operational risk"
+  }
+ ],
+ "/risk-management/operational-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 7,
+   "total": 46,
+   "next": "/risk-management/enterprise-risk-management.html",
+   "nextTitle": "Enterprise risk management (ERM)"
+  }
+ ],
+ "/risk-management/enterprise-risk-management.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 8,
+   "total": 46,
+   "next": "/standards/cps-220.html",
+   "nextTitle": "CPS 220 Risk Management"
+  }
+ ],
+ "/standards/cps-220.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 9,
+   "total": 46,
+   "next": "/standards/cps-230.html",
+   "nextTitle": "CPS 230 Operational Risk Management"
+  }
+ ],
+ "/standards/cps-230.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 10,
+   "total": 46,
+   "next": "/risk-management/business-continuity.html",
+   "nextTitle": "Business continuity"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 4,
+   "total": 31,
+   "next": "/risk-management/third-party-risk.html",
+   "nextTitle": "Third-party, vendor and outsourcing risk"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 6,
+   "total": 17,
+   "next": "/compliance/breach-reporting.html",
+   "nextTitle": "Breach and incident reporting obligations"
+  }
+ ],
+ "/risk-management/business-continuity.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 11,
+   "total": 46,
+   "next": "/risk-management/third-party-risk.html",
+   "nextTitle": "Third-party, vendor and outsourcing risk"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 4,
+   "total": 17,
+   "next": "/risk-management/third-party-risk.html",
+   "nextTitle": "Third-party, vendor and outsourcing risk"
+  }
+ ],
+ "/risk-management/third-party-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 12,
+   "total": 46,
+   "next": "/standards/coso.html",
+   "nextTitle": "COSO ERM and Internal Control frameworks"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 5,
+   "total": 31,
+   "next": "/risk-management/incident-and-breach-management.html",
+   "nextTitle": "Incident and breach management"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 5,
+   "total": 17,
+   "next": "/standards/cps-230.html",
+   "nextTitle": "CPS 230 Operational Risk Management"
+  }
+ ],
+ "/standards/coso.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 13,
+   "total": 46,
+   "next": "/standards/iso-22301.html",
+   "nextTitle": "ISO 22301 Business continuity management systems"
+  },
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 15,
+   "total": 31,
+   "next": "/governance/board-risk-reporting.html",
+   "nextTitle": "Board risk reporting design"
+  }
+ ],
+ "/standards/iso-22301.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 14,
+   "total": 46,
+   "next": "/risk-management/climate-risk.html",
+   "nextTitle": "Climate risk management"
+  }
+ ],
+ "/risk-management/climate-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 15,
+   "total": 46,
+   "next": "/risk-management/cyber-risk.html",
+   "nextTitle": "Cyber risk management"
+  }
+ ],
+ "/risk-management/cyber-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 16,
+   "total": 46,
+   "next": "/risk-management/fraud-risk.html",
+   "nextTitle": "Fraud risk management"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 8,
+   "total": 17,
+   "next": "/standards/essential-eight.html",
+   "nextTitle": "ASD Essential Eight"
+  }
+ ],
+ "/risk-management/fraud-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 17,
+   "total": 46,
+   "next": "/risk-management/model-risk.html",
+   "nextTitle": "Model risk management"
+  }
+ ],
+ "/risk-management/model-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 18,
+   "total": 46,
+   "next": "/risk-management/issue-and-action-management.html",
+   "nextTitle": "Issue and action management"
+  }
+ ],
+ "/risk-management/issue-and-action-management.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 19,
+   "total": 46,
+   "next": "/risk-management/assurance-mapping.html",
+   "nextTitle": "Assurance mapping and combined assurance"
+  }
+ ],
+ "/risk-management/assurance-mapping.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 20,
+   "total": 46,
+   "next": "/risk-management/change-project-and-reputational-risk.html",
+   "nextTitle": "Change, project and reputational risk"
+  },
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 12,
+   "total": 13,
+   "next": "/learn/quizzes.html",
+   "nextTitle": "Topic quizzes"
+  }
+ ],
+ "/risk-management/change-project-and-reputational-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 21,
+   "total": 46,
+   "next": "/risk-management/quantitative-operational-risk.html",
+   "nextTitle": "Quantitative operational risk"
+  }
+ ],
+ "/risk-management/quantitative-operational-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 22,
+   "total": 46,
+   "next": "/risk-management/scenario-analysis-and-stress-testing.html",
+   "nextTitle": "Scenario analysis and stress testing"
+  }
+ ],
+ "/risk-management/scenario-analysis-and-stress-testing.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 23,
+   "total": 46,
+   "next": "/risk-management/setting-cps-230-tolerance-levels.html",
+   "nextTitle": "Setting CPS 230 tolerance levels"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 19,
+   "total": 31,
+   "next": "/risk-management/super-liquidity-stress-testing.html",
+   "nextTitle": "Liquidity stress testing for super funds"
+  }
+ ],
+ "/risk-management/setting-cps-230-tolerance-levels.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 24,
+   "total": 46,
+   "next": "/risk-management/risk-aggregation-and-correlation.html",
+   "nextTitle": "Risk aggregation and correlation"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 17,
+   "total": 31,
+   "next": "/compliance/breach-significance-analysis.html",
+   "nextTitle": "Breach significance analysis in practice"
+  }
+ ],
+ "/risk-management/risk-aggregation-and-correlation.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 25,
+   "total": 46,
+   "next": "/risk-management/control-testing-sampling.html",
+   "nextTitle": "Control testing: sampling and assurance confidence"
+  },
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 18,
+   "total": 31,
+   "next": "/governance/directors-duties-case-law.html",
+   "nextTitle": "Directors' and officers' duties: key Australian cases"
+  }
+ ],
+ "/risk-management/control-testing-sampling.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 26,
+   "total": 46,
+   "next": "/standards/cps-190-and-cps-900.html",
+   "nextTitle": "CPS 190 Recovery and Exit Planning and CPS 900 Resolution Planning"
+  },
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 25,
+   "total": 44,
+   "next": "/compliance/compliance-monitoring-and-testing.html",
+   "nextTitle": "Designing a compliance monitoring and testing program"
+  }
+ ],
+ "/standards/cps-190-and-cps-900.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 27,
+   "total": 46,
+   "next": "/risk-management/kri-design-and-thresholds.html",
+   "nextTitle": "KRI design and statistical thresholds"
+  }
+ ],
+ "/risk-management/kri-design-and-thresholds.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 28,
+   "total": 46,
+   "next": "/risk-management/root-cause-analysis.html",
+   "nextTitle": "Root cause analysis: techniques and pitfalls"
+  }
+ ],
+ "/risk-management/root-cause-analysis.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 29,
+   "total": 46,
+   "next": "/risk-management/human-factors-and-bias.html",
+   "nextTitle": "Human factors and cognitive bias in risk decisions"
+  }
+ ],
+ "/risk-management/human-factors-and-bias.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 30,
+   "total": 46,
+   "next": "/risk-management/mapping-critical-operations.html",
+   "nextTitle": "Mapping critical operations end to end"
+  }
+ ],
+ "/risk-management/mapping-critical-operations.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 31,
+   "total": 46,
+   "next": "/risk-management/service-provider-exit-and-concentration.html",
+   "nextTitle": "Service provider concentration, fourth parties and exit planning"
+  }
+ ],
+ "/risk-management/service-provider-exit-and-concentration.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 32,
+   "total": 46,
+   "next": "/standards/aps-115.html",
+   "nextTitle": "APS 115 Operational risk capital"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 13,
+   "total": 17,
+   "next": "/risk-management/economics-of-cyber-risk.html",
+   "nextTitle": "The economics of cyber risk"
+  }
+ ],
+ "/standards/aps-115.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 33,
+   "total": 46,
+   "next": "/risk-management/theories-of-risk.html",
+   "nextTitle": "Theories of risk: perception, amplification, normal accidents and high reliability"
+  },
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 12,
+   "total": 15,
+   "next": "/governance/directors-duties-case-law.html",
+   "nextTitle": "Directors' and officers' duties: key Australian cases"
+  }
+ ],
+ "/risk-management/theories-of-risk.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 34,
+   "total": 46,
+   "next": "/risk-management/does-erm-work.html",
+   "nextTitle": "Does enterprise risk management work? The evidence"
+  }
+ ],
+ "/risk-management/does-erm-work.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 35,
+   "total": 46,
+   "next": "/risk-management/climate-risk-research.html",
+   "nextTitle": "Climate risk: the research"
+  }
+ ],
+ "/risk-management/climate-risk-research.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 36,
+   "total": 46,
+   "next": "/learn/advanced-study-program.html",
+   "nextTitle": "Advanced study program"
+  }
+ ],
+ "/learn/advanced-study-program.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 37,
+   "total": 46,
+   "next": "/playbooks/respond-to-an-incident.html",
+   "nextTitle": "Respond to an incident"
+  }
+ ],
+ "/playbooks/respond-to-an-incident.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 38,
+   "total": 46,
+   "next": "/playbooks/test-a-key-control.html",
+   "nextTitle": "Test a key control"
+  }
+ ],
+ "/playbooks/test-a-key-control.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 39,
+   "total": 46,
+   "next": "/learn/risk-heat-map.html",
+   "nextTitle": "Risk heat map tool"
+  }
+ ],
+ "/learn/risk-heat-map.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 40,
+   "total": 46,
+   "next": "/tools/rcsa-template.html",
+   "nextTitle": "RCSA template"
+  }
+ ],
+ "/tools/rcsa-template.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 41,
+   "total": 46,
+   "next": "/tools/control-testing-workpaper.html",
+   "nextTitle": "Control testing workpaper"
+  }
+ ],
+ "/tools/control-testing-workpaper.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 42,
+   "total": 46,
+   "next": "/tools/kri-library.html",
+   "nextTitle": "KRI library"
+  }
+ ],
+ "/tools/kri-library.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 43,
+   "total": 46,
+   "next": "/case-studies/apra-cba-prudential-inquiry.html",
+   "nextTitle": "APRA Prudential Inquiry into CBA (2018)"
+  }
+ ],
+ "/case-studies/apra-cba-prudential-inquiry.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 44,
+   "total": 46,
+   "next": "/learn/scenarios.html",
+   "nextTitle": "Scenario simulations"
+  }
+ ],
+ "/learn/scenarios.html": [
+  {
+   "id": "risk",
+   "title": "Risk management practitioner",
+   "pos": 45,
+   "total": 46,
+   "next": "/learn/quizzes.html",
+   "nextTitle": "Topic quizzes"
+  },
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 42,
+   "total": 44,
+   "next": "/learn/flashcards.html",
+   "nextTitle": "Flashcards"
+  },
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 30,
+   "total": 31,
+   "next": "/learn/quizzes.html",
+   "nextTitle": "Topic quizzes"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 30,
+   "total": 31,
+   "next": "/learn/quizzes.html",
+   "nextTitle": "Topic quizzes"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 16,
+   "total": 17,
+   "next": "/learn/flashcards.html",
+   "nextTitle": "Flashcards"
+  }
+ ],
+ "/compliance/licensing-basics.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 2,
+   "total": 44,
+   "next": "/compliance/privacy-law.html",
+   "nextTitle": "Privacy law"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 2,
+   "total": 31,
+   "next": "/sectors/superannuation.html",
+   "nextTitle": "Superannuation trustee governance"
+  }
+ ],
+ "/compliance/privacy-law.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 3,
+   "total": 44,
+   "next": "/compliance/aml-ctf-fundamentals.html",
+   "nextTitle": "AML/CTF fundamentals"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 1,
+   "total": 17,
+   "next": "/standards/cps-234.html",
+   "nextTitle": "CPS 234 Information Security"
+  }
+ ],
+ "/compliance/aml-ctf-fundamentals.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 4,
+   "total": 44,
+   "next": "/standards/asic-regulatory-guides.html",
+   "nextTitle": "Key ASIC regulatory guides"
+  }
+ ],
+ "/standards/asic-regulatory-guides.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 5,
+   "total": 44,
+   "next": "/standards/asic-rg-104-and-rg-105.html",
+   "nextTitle": "ASIC RG 104 General obligations and RG 105 Organisational competence"
+  }
+ ],
+ "/standards/asic-rg-104-and-rg-105.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 6,
+   "total": 44,
+   "next": "/compliance/designing-a-compliance-program.html",
+   "nextTitle": "Designing a compliance program"
+  }
+ ],
+ "/compliance/designing-a-compliance-program.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 7,
+   "total": 44,
+   "next": "/compliance/disclosure-obligations.html",
+   "nextTitle": "Disclosure obligations"
+  }
+ ],
+ "/compliance/disclosure-obligations.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 8,
+   "total": 44,
+   "next": "/compliance/consumer-protection.html",
+   "nextTitle": "Consumer protection"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 7,
+   "total": 31,
+   "next": "/standards/asic-rg-97.html",
+   "nextTitle": "ASIC RG 97 Disclosing fees and costs in PDSs and periodic statements"
+  }
+ ],
+ "/compliance/consumer-protection.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 9,
+   "total": 44,
+   "next": "/risk-management/incident-and-breach-management.html",
+   "nextTitle": "Incident and breach management"
+  }
+ ],
+ "/risk-management/incident-and-breach-management.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 10,
+   "total": 44,
+   "next": "/compliance/breach-reporting.html",
+   "nextTitle": "Breach and incident reporting obligations"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 6,
+   "total": 31,
+   "next": "/compliance/disclosure-obligations.html",
+   "nextTitle": "Disclosure obligations"
+  }
+ ],
+ "/compliance/breach-reporting.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 11,
+   "total": 44,
+   "next": "/standards/asic-rg-78.html",
+   "nextTitle": "ASIC RG 78 Breach reporting by AFS and credit licensees"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 7,
+   "total": 17,
+   "next": "/risk-management/cyber-risk.html",
+   "nextTitle": "Cyber risk management"
+  }
+ ],
+ "/standards/asic-rg-78.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 12,
+   "total": 44,
+   "next": "/standards/asic-rg-271.html",
+   "nextTitle": "ASIC RG 271 Internal dispute resolution"
+  }
+ ],
+ "/standards/asic-rg-271.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 13,
+   "total": 44,
+   "next": "/standards/asic-rg-274.html",
+   "nextTitle": "ASIC RG 274 Product design and distribution obligations"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 10,
+   "total": 31,
+   "next": "/governance/financial-accountability-regime.html",
+   "nextTitle": "Financial Accountability Regime (FAR)"
+  }
+ ],
+ "/standards/asic-rg-274.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 14,
+   "total": 44,
+   "next": "/standards/asic-rg-277.html",
+   "nextTitle": "ASIC RG 277 Consumer remediation"
+  }
+ ],
+ "/standards/asic-rg-277.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 15,
+   "total": 44,
+   "next": "/compliance/financial-advice-regulation.html",
+   "nextTitle": "Financial advice regulation"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 9,
+   "total": 31,
+   "next": "/standards/asic-rg-271.html",
+   "nextTitle": "ASIC RG 271 Internal dispute resolution"
+  }
+ ],
+ "/compliance/financial-advice-regulation.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 16,
+   "total": 44,
+   "next": "/compliance/anti-bribery-and-corruption.html",
+   "nextTitle": "Anti-bribery and corruption"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 13,
+   "total": 31,
+   "next": "/compliance/climate-related-financial-disclosures.html",
+   "nextTitle": "Climate-related financial disclosures and sustainability reporting"
+  }
+ ],
+ "/compliance/anti-bribery-and-corruption.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 17,
+   "total": 44,
+   "next": "/compliance/sanctions-compliance.html",
+   "nextTitle": "Sanctions compliance"
+  }
+ ],
+ "/compliance/sanctions-compliance.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 18,
+   "total": 44,
+   "next": "/compliance/modern-slavery.html",
+   "nextTitle": "Modern slavery reporting"
+  }
+ ],
+ "/compliance/modern-slavery.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 19,
+   "total": 44,
+   "next": "/compliance/climate-related-financial-disclosures.html",
+   "nextTitle": "Climate-related financial disclosures and sustainability reporting"
+  }
+ ],
+ "/compliance/climate-related-financial-disclosures.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 20,
+   "total": 44,
+   "next": "/standards/asic-rg-181.html",
+   "nextTitle": "ASIC RG 181 AFS licensing: Managing conflicts of interest"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 14,
+   "total": 31,
+   "next": "/standards/sps-515.html",
+   "nextTitle": "SPS 515 Strategic Planning and Member Outcomes"
+  }
+ ],
+ "/standards/asic-rg-181.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 21,
+   "total": 44,
+   "next": "/standards/iso-37301.html",
+   "nextTitle": "ISO 37301 Compliance management systems"
+  }
+ ],
+ "/standards/iso-37301.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 22,
+   "total": 44,
+   "next": "/standards/iso-37001.html",
+   "nextTitle": "ISO 37001 Anti-bribery management systems"
+  }
+ ],
+ "/standards/iso-37001.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 23,
+   "total": 44,
+   "next": "/compliance/breach-significance-analysis.html",
+   "nextTitle": "Breach significance analysis in practice"
+  }
+ ],
+ "/compliance/breach-significance-analysis.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 24,
+   "total": 44,
+   "next": "/risk-management/control-testing-sampling.html",
+   "nextTitle": "Control testing: sampling and assurance confidence"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 18,
+   "total": 31,
+   "next": "/risk-management/scenario-analysis-and-stress-testing.html",
+   "nextTitle": "Scenario analysis and stress testing"
+  }
+ ],
+ "/compliance/compliance-monitoring-and-testing.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 26,
+   "total": 44,
+   "next": "/compliance/interpreting-legislation.html",
+   "nextTitle": "Interpreting legislation for compliance professionals"
+  }
+ ],
+ "/compliance/interpreting-legislation.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 27,
+   "total": 44,
+   "next": "/compliance/misleading-or-deceptive-conduct.html",
+   "nextTitle": "Misleading or deceptive conduct: the legal tests"
+  }
+ ],
+ "/compliance/misleading-or-deceptive-conduct.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 28,
+   "total": 44,
+   "next": "/compliance/enforcement-and-penalties.html",
+   "nextTitle": "Enforcement and penalties: how regulators respond"
+  }
+ ],
+ "/compliance/enforcement-and-penalties.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 29,
+   "total": 44,
+   "next": "/compliance/remediation-calculations.html",
+   "nextTitle": "Remediation calculations in practice"
+  }
+ ],
+ "/compliance/remediation-calculations.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 30,
+   "total": 44,
+   "next": "/compliance/theories-of-regulation.html",
+   "nextTitle": "Theories of regulation: responsive, risk-based and principles-based"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 23,
+   "total": 31,
+   "next": "/sectors/behavioural-economics-of-super.html",
+   "nextTitle": "Behavioural economics of super: defaults, inertia and choice"
+  }
+ ],
+ "/compliance/theories-of-regulation.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 31,
+   "total": 44,
+   "next": "/compliance/misconduct-in-financial-services-research.html",
+   "nextTitle": "Misconduct in financial services: what the research shows"
+  }
+ ],
+ "/compliance/misconduct-in-financial-services-research.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 32,
+   "total": 44,
+   "next": "/compliance/fraud-theory.html",
+   "nextTitle": "Fraud theory beyond the triangle"
+  }
+ ],
+ "/compliance/fraud-theory.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 33,
+   "total": 44,
+   "next": "/compliance/aml-ctf-effectiveness.html",
+   "nextTitle": "Does AML/CTF work? The research"
+  }
+ ],
+ "/compliance/aml-ctf-effectiveness.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 34,
+   "total": 44,
+   "next": "/obligations/",
+   "nextTitle": "Obligations library"
+  }
+ ],
+ "/obligations/": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 35,
+   "total": 44,
+   "next": "/playbooks/assess-a-potential-breach.html",
+   "nextTitle": "Assess a potential breach"
+  }
+ ],
+ "/playbooks/assess-a-potential-breach.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 36,
+   "total": 44,
+   "next": "/playbooks/review-a-disclosure-document.html",
+   "nextTitle": "Review a disclosure document or campaign"
+  }
+ ],
+ "/playbooks/review-a-disclosure-document.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 37,
+   "total": 44,
+   "next": "/tools/obligations-register-template.html",
+   "nextTitle": "Obligations register template"
+  }
+ ],
+ "/tools/obligations-register-template.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 38,
+   "total": 44,
+   "next": "/tools/breach-register-template.html",
+   "nextTitle": "Breach register template"
+  }
+ ],
+ "/tools/breach-register-template.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 39,
+   "total": 44,
+   "next": "/tools/remediation-program-tracker.html",
+   "nextTitle": "Remediation program tracker"
+  }
+ ],
+ "/tools/remediation-program-tracker.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 40,
+   "total": 44,
+   "next": "/case-studies/austrac-cba-westpac.html",
+   "nextTitle": "AUSTRAC v CBA (2018) and AUSTRAC v Westpac (2020)"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 28,
+   "total": 31,
+   "next": "/case-studies/shield-and-first-guardian.html",
+   "nextTitle": "The Shield and First Guardian collapses"
+  }
+ ],
+ "/case-studies/austrac-cba-westpac.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 41,
+   "total": 44,
+   "next": "/learn/scenarios.html",
+   "nextTitle": "Scenario simulations"
+  }
+ ],
+ "/governance/board-structure-and-accountability.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 2,
+   "total": 31,
+   "next": "/governance/conflicts-of-interest.html",
+   "nextTitle": "Conflicts of interest"
+  }
+ ],
+ "/governance/conflicts-of-interest.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 3,
+   "total": 31,
+   "next": "/governance/whistleblower-protections.html",
+   "nextTitle": "Whistleblower protections"
+  }
+ ],
+ "/governance/whistleblower-protections.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 4,
+   "total": 31,
+   "next": "/governance/financial-accountability-regime.html",
+   "nextTitle": "Financial Accountability Regime (FAR)"
+  }
+ ],
+ "/governance/financial-accountability-regime.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 5,
+   "total": 31,
+   "next": "/governance/remuneration-governance.html",
+   "nextTitle": "Remuneration governance"
+  },
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 11,
+   "total": 31,
+   "next": "/sectors/managed-investment-schemes.html",
+   "nextTitle": "Managed investment schemes"
+  }
+ ],
+ "/governance/remuneration-governance.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 6,
+   "total": 31,
+   "next": "/standards/cps-511.html",
+   "nextTitle": "CPS 511 Remuneration"
+  }
+ ],
+ "/standards/cps-511.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 7,
+   "total": 31,
+   "next": "/standards/asic-rg-270.html",
+   "nextTitle": "ASIC RG 270 Whistleblower policies"
+  }
+ ],
+ "/standards/asic-rg-270.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 8,
+   "total": 31,
+   "next": "/standards/global-internal-audit-standards.html",
+   "nextTitle": "IIA Global Internal Audit Standards"
+  }
+ ],
+ "/standards/global-internal-audit-standards.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 9,
+   "total": 31,
+   "next": "/governance/culture-and-conduct.html",
+   "nextTitle": "Culture and conduct risk"
+  }
+ ],
+ "/governance/culture-and-conduct.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 10,
+   "total": 31,
+   "next": "/governance/ai-governance.html",
+   "nextTitle": "AI governance"
+  }
+ ],
+ "/governance/ai-governance.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 11,
+   "total": 31,
+   "next": "/governance/internal-audit.html",
+   "nextTitle": "Internal audit"
+  },
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 10,
+   "total": 17,
+   "next": "/standards/iso-42001.html",
+   "nextTitle": "ISO/IEC 42001 Artificial intelligence management systems"
+  }
+ ],
+ "/governance/internal-audit.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 12,
+   "total": 31,
+   "next": "/standards/cps-510-and-cps-520.html",
+   "nextTitle": "CPS 510 Governance and CPS 520 Fit and Proper (and SPS equivalents)"
+  }
+ ],
+ "/standards/cps-510-and-cps-520.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 13,
+   "total": 31,
+   "next": "/risk-management/risk-appetite-and-tolerance.html",
+   "nextTitle": "Risk appetite and tolerance"
+  }
+ ],
+ "/governance/board-risk-reporting.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 16,
+   "total": 31,
+   "next": "/governance/risk-culture-assessment.html",
+   "nextTitle": "Assessing and changing risk culture"
+  }
+ ],
+ "/governance/risk-culture-assessment.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 17,
+   "total": 31,
+   "next": "/risk-management/risk-aggregation-and-correlation.html",
+   "nextTitle": "Risk aggregation and correlation"
+  }
+ ],
+ "/governance/directors-duties-case-law.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 19,
+   "total": 31,
+   "next": "/governance/reasonable-steps-and-consequence-management.html",
+   "nextTitle": "Reasonable steps and consequence management"
+  },
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 13,
+   "total": 15,
+   "next": "/case-studies/",
+   "nextTitle": "Case studies"
+  }
+ ],
+ "/governance/reasonable-steps-and-consequence-management.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 20,
+   "total": 31,
+   "next": "/governance/corporate-governance-theories.html",
+   "nextTitle": "Corporate governance theories: agency, stewardship and stakeholder"
+  }
+ ],
+ "/governance/corporate-governance-theories.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 21,
+   "total": 31,
+   "next": "/governance/three-lines-research-and-critique.html",
+   "nextTitle": "The Three Lines model: research and critique"
+  }
+ ],
+ "/governance/three-lines-research-and-critique.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 22,
+   "total": 31,
+   "next": "/governance/internal-audit-effectiveness.html",
+   "nextTitle": "Internal audit effectiveness: the research"
+  }
+ ],
+ "/governance/internal-audit-effectiveness.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 23,
+   "total": 31,
+   "next": "/governance/remuneration-incentives-and-risk-taking.html",
+   "nextTitle": "Remuneration, incentives and risk-taking: the evidence"
+  }
+ ],
+ "/governance/remuneration-incentives-and-risk-taking.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 24,
+   "total": 31,
+   "next": "/governance/whistleblowing-research.html",
+   "nextTitle": "Whistleblowing: research on who speaks up and why"
+  }
+ ],
+ "/governance/whistleblowing-research.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 25,
+   "total": 31,
+   "next": "/tools/example-risk-appetite-statement.html",
+   "nextTitle": "Example risk appetite statement"
+  }
+ ],
+ "/tools/example-risk-appetite-statement.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 26,
+   "total": 31,
+   "next": "/tools/board-risk-report-template.html",
+   "nextTitle": "Board risk report template"
+  }
+ ],
+ "/tools/board-risk-report-template.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 27,
+   "total": 31,
+   "next": "/case-studies/hih-insurance-collapse.html",
+   "nextTitle": "The HIH Insurance collapse (2001)"
+  }
+ ],
+ "/case-studies/hih-insurance-collapse.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 28,
+   "total": 31,
+   "next": "/case-studies/hayne-royal-commission.html",
+   "nextTitle": "The Hayne Royal Commission (2019)"
+  }
+ ],
+ "/case-studies/hayne-royal-commission.html": [
+  {
+   "id": "governance",
+   "title": "Governance and accountability",
+   "pos": 29,
+   "total": 31,
+   "next": "/learn/scenarios.html",
+   "nextTitle": "Scenario simulations"
+  }
+ ],
+ "/sectors/superannuation.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 3,
+   "total": 31,
+   "next": "/standards/cps-230.html",
+   "nextTitle": "CPS 230 Operational Risk Management"
+  }
+ ],
+ "/standards/asic-rg-97.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 8,
+   "total": 31,
+   "next": "/standards/asic-rg-277.html",
+   "nextTitle": "ASIC RG 277 Consumer remediation"
+  }
+ ],
+ "/sectors/managed-investment-schemes.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 12,
+   "total": 31,
+   "next": "/compliance/financial-advice-regulation.html",
+   "nextTitle": "Financial advice regulation"
+  },
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 4,
+   "total": 15,
+   "next": "/standards/asic-rg-259.html",
+   "nextTitle": "ASIC RG 259 Risk management systems of fund operators"
+  }
+ ],
+ "/standards/sps-515.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 15,
+   "total": 31,
+   "next": "/standards/sps-530.html",
+   "nextTitle": "SPS 530 Investment Governance"
+  }
+ ],
+ "/standards/sps-530.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 16,
+   "total": 31,
+   "next": "/risk-management/setting-cps-230-tolerance-levels.html",
+   "nextTitle": "Setting CPS 230 tolerance levels"
+  }
+ ],
+ "/risk-management/super-liquidity-stress-testing.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 20,
+   "total": 31,
+   "next": "/sectors/unit-pricing.html",
+   "nextTitle": "Unit pricing and unit pricing errors"
+  }
+ ],
+ "/sectors/unit-pricing.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 21,
+   "total": 31,
+   "next": "/sectors/fund-mergers-and-successor-fund-transfers.html",
+   "nextTitle": "Fund mergers and successor fund transfers"
+  }
+ ],
+ "/sectors/fund-mergers-and-successor-fund-transfers.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 22,
+   "total": 31,
+   "next": "/compliance/remediation-calculations.html",
+   "nextTitle": "Remediation calculations in practice"
+  }
+ ],
+ "/sectors/behavioural-economics-of-super.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 24,
+   "total": 31,
+   "next": "/playbooks/onboard-a-material-service-provider.html",
+   "nextTitle": "Onboard a material service provider"
+  }
+ ],
+ "/playbooks/onboard-a-material-service-provider.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 25,
+   "total": 31,
+   "next": "/playbooks/run-a-consumer-remediation.html",
+   "nextTitle": "Run a consumer remediation"
+  }
+ ],
+ "/playbooks/run-a-consumer-remediation.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 26,
+   "total": 31,
+   "next": "/tools/material-service-provider-register.html",
+   "nextTitle": "Material service provider register"
+  }
+ ],
+ "/tools/material-service-provider-register.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 27,
+   "total": 31,
+   "next": "/tools/remediation-program-tracker.html",
+   "nextTitle": "Remediation program tracker"
+  }
+ ],
+ "/case-studies/shield-and-first-guardian.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 29,
+   "total": 31,
+   "next": "/learn/scenarios.html",
+   "nextTitle": "Scenario simulations"
+  }
+ ],
+ "/standards/cps-234.html": [
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 2,
+   "total": 17,
+   "next": "/standards/iso-27001.html",
+   "nextTitle": "ISO/IEC 27001 Information security management"
+  }
+ ],
+ "/standards/iso-27001.html": [
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 3,
+   "total": 17,
+   "next": "/risk-management/business-continuity.html",
+   "nextTitle": "Business continuity"
+  }
+ ],
+ "/standards/essential-eight.html": [
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 9,
+   "total": 17,
+   "next": "/governance/ai-governance.html",
+   "nextTitle": "AI governance"
+  }
+ ],
+ "/standards/iso-42001.html": [
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 11,
+   "total": 17,
+   "next": "/case-studies/asic-cyber-cases-ri-advice-and-fiig.html",
+   "nextTitle": "ASIC v RI Advice and ASIC v FIIG: cyber security as a licensee obligation"
+  }
+ ],
+ "/case-studies/asic-cyber-cases-ri-advice-and-fiig.html": [
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 12,
+   "total": 17,
+   "next": "/risk-management/service-provider-exit-and-concentration.html",
+   "nextTitle": "Service provider concentration, fourth parties and exit planning"
+  }
+ ],
+ "/risk-management/economics-of-cyber-risk.html": [
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 14,
+   "total": 17,
+   "next": "/case-studies/optus-medibank-data-breaches.html",
+   "nextTitle": "The Optus and Medibank data breaches (2022)"
+  }
+ ],
+ "/case-studies/optus-medibank-data-breaches.html": [
+  {
+   "id": "cyber",
+   "title": "Technology, cyber and data risk",
+   "pos": 15,
+   "total": 17,
+   "next": "/learn/scenarios.html",
+   "nextTitle": "Scenario simulations"
+  }
+ ],
+ "/grc/what-is-a-grc-system.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 1,
+   "total": 13,
+   "next": "/foundations/three-lines-model.html",
+   "nextTitle": "The Three Lines model (and internal audit's role)"
+  }
+ ],
+ "/grc/risk-taxonomy-and-hierarchy.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 3,
+   "total": 13,
+   "next": "/grc/obligations-architecture.html",
+   "nextTitle": "Obligations architecture: from the law to the control"
+  }
+ ],
+ "/grc/obligations-architecture.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 4,
+   "total": 13,
+   "next": "/grc/control-framework-architecture.html",
+   "nextTitle": "Control framework architecture"
+  }
+ ],
+ "/grc/control-framework-architecture.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 5,
+   "total": 13,
+   "next": "/grc/grc-data-model.html",
+   "nextTitle": "The GRC data model: how everything links"
+  }
+ ],
+ "/grc/grc-data-model.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 6,
+   "total": 13,
+   "next": "/grc/governance-and-operating-model.html",
+   "nextTitle": "GRC governance and operating model"
+  }
+ ],
+ "/grc/governance-and-operating-model.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 7,
+   "total": 13,
+   "next": "/grc/establishing-a-grc-system.html",
+   "nextTitle": "Establishing a GRC system: a step-by-step roadmap"
+  }
+ ],
+ "/grc/establishing-a-grc-system.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 8,
+   "total": 13,
+   "next": "/grc/grc-technology.html",
+   "nextTitle": "GRC technology: choosing and running the platform"
+  }
+ ],
+ "/grc/grc-technology.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 9,
+   "total": 13,
+   "next": "/grc/grc-for-complex-groups.html",
+   "nextTitle": "GRC for complex groups: design choices and the research"
+  }
+ ],
+ "/grc/grc-for-complex-groups.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 10,
+   "total": 13,
+   "next": "/grc/model-builder.html",
+   "nextTitle": "GRC model builder"
+  }
+ ],
+ "/grc/model-builder.html": [
+  {
+   "id": "grc",
+   "title": "GRC systems and design",
+   "pos": 11,
+   "total": 13,
+   "next": "/risk-management/assurance-mapping.html",
+   "nextTitle": "Assurance mapping and combined assurance"
+  }
+ ],
+ "/sectors/banking.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 1,
+   "total": 15,
+   "next": "/standards/aps-110-and-aps-210.html",
+   "nextTitle": "APS 110 Capital Adequacy and APS 210 Liquidity: the basics"
+  }
+ ],
+ "/standards/aps-110-and-aps-210.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 2,
+   "total": 15,
+   "next": "/sectors/insurance.html",
+   "nextTitle": "Insurance"
+  }
+ ],
+ "/sectors/insurance.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 3,
+   "total": 15,
+   "next": "/sectors/managed-investment-schemes.html",
+   "nextTitle": "Managed investment schemes"
+  }
+ ],
+ "/standards/asic-rg-259.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 5,
+   "total": 15,
+   "next": "/sectors/credit-and-non-bank-lenders.html",
+   "nextTitle": "Credit licensees and non-bank lenders"
+  }
+ ],
+ "/sectors/credit-and-non-bank-lenders.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 6,
+   "total": 15,
+   "next": "/sectors/payments-and-fintech.html",
+   "nextTitle": "Payments and fintech"
+  }
+ ],
+ "/sectors/payments-and-fintech.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 7,
+   "total": 15,
+   "next": "/sectors/financial-advice-licensees.html",
+   "nextTitle": "Financial advice licensees"
+  }
+ ],
+ "/sectors/financial-advice-licensees.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 8,
+   "total": 15,
+   "next": "/sectors/listed-companies.html",
+   "nextTitle": "Listed companies"
+  }
+ ],
+ "/sectors/listed-companies.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 9,
+   "total": 15,
+   "next": "/sectors/not-for-profits-and-charities.html",
+   "nextTitle": "Not-for-profits and charities"
+  }
+ ],
+ "/sectors/not-for-profits-and-charities.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 10,
+   "total": 15,
+   "next": "/sectors/public-sector.html",
+   "nextTitle": "Public sector (Commonwealth)"
+  }
+ ],
+ "/sectors/public-sector.html": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 11,
+   "total": 15,
+   "next": "/standards/aps-115.html",
+   "nextTitle": "APS 115 Operational risk capital"
+  }
+ ],
+ "/case-studies/": [
+  {
+   "id": "sectors",
+   "title": "Banking, insurance and other sectors",
+   "pos": 14,
+   "total": 15,
+   "next": "/learn/quizzes.html",
+   "nextTitle": "Topic quizzes"
+  }
+ ]
+}

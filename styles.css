@@ -1683,3 +1683,31 @@ details.gb-rels li { break-inside: avoid; }
 .ob-table th, .ob-table td { font-size: 14px; }
 .ob-table th[scope="row"] { white-space: nowrap; }
 @media (max-width: 760px) { .ob-filters { grid-template-columns: 1fr; } .ob-tools { position: static; } .ob-table { min-width: 680px; } }
+
+/* ---------- Course bar and My learning ---------- */
+.course-nav { background: var(--surface); border-radius: var(--radius); padding: 16px 20px 6px; margin: 40px 0 10px; }
+.cn-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-bottom: 8px; }
+.cn-note { font-size: 14px; color: var(--muted); }
+.cn-mark { font: inherit; font-size: 14.5px; font-weight: 600; cursor: pointer; border-radius: 980px; padding: 7px 16px; border: 1px solid var(--blue); background: #fff; color: var(--blue-bright); }
+.cn-mark:hover { background: var(--cyan-soft); }
+.cn-mark.on { background: var(--green); border-color: var(--green); color: #fff; }
+.course-nav ul { font-size: 14.5px; margin-left: 18px; }
+.course-nav li { margin-bottom: 4px; }
+@media print { .course-nav { display: none; } }
+.ml-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); gap: 12px; margin: 20px 0; }
+.ml-summary div { background: var(--surface); border-radius: var(--radius); padding: 16px 18px; }
+.ml-summary strong { display: block; font-size: 34px; font-family: var(--font-display); line-height: 1.1; }
+.ml-path { border: 1px solid var(--border-strong); border-radius: var(--radius); padding: 16px 20px 8px; margin: 12px 0; }
+.ml-path h3 { margin: 0 0 6px; font-size: 19px; }
+.ml-path .pb-bar { margin: 6px 0 10px; }
+.ml-path details { background: none; border: 0; padding: 0; margin: 0 0 8px; }
+.ml-path ol { font-size: 14.5px; }
+.ml-path li.done a { color: var(--green); }
+.ml-path li.done::marker { content: "\2713  "; color: var(--green); }
+.ml-record { display: none; }
+@media print {
+  body.ml-printing main > :not(.ml-record), body.ml-printing .site-footer { display: none !important; }
+  body.ml-printing .ml-record { display: block; }
+  .ml-record { font-size: 14px; }
+  .ml-record h2 { font-size: 26px; }
+}

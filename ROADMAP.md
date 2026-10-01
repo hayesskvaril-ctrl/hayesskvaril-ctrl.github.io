@@ -373,7 +373,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Practitioner playbooks (`/playbooks/`): 7 step-by-step guides (incident response, breach assessment, remediation, onboarding a material service provider, disclosure review, control testing, first 90 days) with tickable checklists, deadlines and templates. Source: `_scripts/playbooks_data.py` + `build_playbooks.py`
 - [x] Obligations library (`/obligations/`): 117 obligation themes from 37 regimes, searchable, filterable by organisation type and regulator, downloadable as Excel or CSV. Built by `node _scripts/build_obligations.js` from the builder data
 - [ ] Obligations library stage 2: break each theme into individual obligations with legal citations (needs verified research, regime by regime)
-- [ ] Courses with progress saved on the reader's device, module checks and a printable completion record
+- [x] Courses with progress: a "Mark as read" button and "step n of m, next" links on every page in a learning pathway (stamped by `sync_layout.py` from `_scripts/pathways_index.json`), playbooks added to the pathways, and a My learning page (`/learn/my-learning.html`) with progress, next steps and a printable record of learning
 - [ ] Printable board briefings for the major regimes
 - [ ] Monthly automated check of external links (free GitHub Actions workflow)
 - [ ] Content overlap audit and news approach

@@ -317,6 +317,36 @@ def apply_review(text: str, url: str) -> str:
     return text
 
 
+# Course bar: on each page that is a step in a learning pathway, a "Mark as read" button and
+# "step n of m, next" links (data from build_pathways.py; the button is handled by scripts/site.js).
+COURSE_RE = re.compile(r'\n?<!-- COURSE:START -->.*?<!-- COURSE:END -->\n?', re.S)
+try:
+    import json as _json
+    PATH_INDEX = _json.loads((ROOT / "_scripts" / "pathways_index.json").read_text(encoding="utf-8"))
+except (OSError, ValueError):
+    PATH_INDEX = {}
+
+
+def apply_course(text: str, url: str) -> str:
+    text = COURSE_RE.sub("\n", text)
+    entries = PATH_INDEX.get(url)
+    if not entries or url.startswith("/learn/") or '<section class="related"' not in text:
+        return text
+    items = []
+    for e in entries[:3]:
+        nxt = (f' Next: <a href="{e["next"]}">{html_escape(e["nextTitle"])}</a>' if e["next"] else " Last step: pathway complete.")
+        items.append(f'      <li><a href="/learn/pathways.html#{e["id"]}">{html_escape(e["title"])}</a>: step {e["pos"]} of {e["total"]}.{nxt}</li>')
+    block = ('<!-- COURSE:START -->\n  <aside class="course-nav" aria-label="Learning pathways">\n'
+             f'    <p class="cn-head"><button type="button" class="cn-mark" data-url="{url}" aria-pressed="false">Mark as read</button> '
+             '<span class="cn-note">Part of these <a href="/learn/my-learning.html">learning pathways</a> (progress is saved in this browser only):</span></p>\n'
+             '    <ul>\n' + "\n".join(items) + '\n    </ul>\n  </aside>\n<!-- COURSE:END -->\n')
+    return text.replace('  <section class="related"', block + '  <section class="related"', 1)
+
+
+def html_escape(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
 REPO = "https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io"
 STATUS_RE = re.compile(r'\s*<a class="badge review-status" data-status[^>]*>.*?</a>')
 FEEDBACK_RE = re.compile(r'\n?\s*<p class="page-feedback" data-feedback>.*?</p>', re.S)
@@ -436,6 +466,7 @@ def main():
         published.append(page)
         new = apply_meta(text, page_url(rel))
         new = apply_review(new, page_url(rel))
+        new = apply_course(new, page_url(rel))
         new = apply_art(new, page_url(rel))
         new = apply_levels(new, page_url(rel))
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
