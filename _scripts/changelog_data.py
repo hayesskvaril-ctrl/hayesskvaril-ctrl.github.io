@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-10-01", "", "Guides now link straight to their playbook and board briefing (\"Put it into practice\"), and news moves to a monthly regulatory roundup."),
     ("2026-10-01", "/governance/board-briefings.html", "New board briefings: printable two-page briefings for directors on CPS 230, FAR, breach reporting, CPS 234 and AML/CTF, with questions to ask management."),
     ("2026-10-01", "/about/roadmap.html", "New site roadmap: see what we are improving, stage by stage. Also a simpler menu, a new Topics page and a new home page."),
     ("2026-10-01", "/learn/my-learning.html", "Learning pathways now work like courses: a Mark as read button and step-by-step next links on every page in a pathway, and a new My learning page with your progress and a printable record of learning."),

@@ -1803,3 +1803,5 @@ details.gb-rels li { break-inside: avoid; }
   .bf-sec h3 { font-size: 12pt; margin-top: 10px; }
   .bf-q, .bf-flags { break-inside: avoid; }
 }
+.also-as { background: #f2f7ff; border-radius: 14px; padding: 12px 18px; font-size: 15.5px; margin: -10px 0 30px; }
+@media print { .also-as { display: none; } }

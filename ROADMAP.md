@@ -377,7 +377,9 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Courses with progress: a "Mark as read" button and "step n of m, next" links on every page in a learning pathway (stamped by `sync_layout.py` from `_scripts/pathways_index.json`), playbooks added to the pathways, and a My learning page (`/learn/my-learning.html`) with progress, next steps and a printable record of learning
 - [x] Printable board briefings (`/governance/board-briefings.html`): CPS 230, FAR, breach reporting, CPS 234 and AML/CTF, each printing on two pages. Source: `_scripts/briefings_data.py` + `build_briefings.py`
 - [x] Monthly automated check of external links (`.github/workflows/link-check.yml`, free GitHub Actions): opens an issue listing broken outside links
-- [ ] Content overlap audit and news approach
+- [x] Content overlap audit (no near-duplicates; highest overlap 0.63 between guide and playbook on the same topic) and news approach: guides now link to their playbook and board briefing ("Put it into practice", stamped by `sync_layout.py`); news moves to a monthly roundup (`_scripts/UPKEEP.md`)
+- [ ] Expert review of specialist pages (owner, using `_scripts/REVIEW_QUEUE.md`)
+- [ ] Monthly regulatory roundup: first one in early November 2026 covering October
 - **Needs the owner's decision:** putting a name on the site; a custom web address (about A$15–25 a year, outside the $0 rule); an email newsletter service (free tier, set up by the owner); a check of the "RiskLens" name.
 
 ## Ideas / backlog

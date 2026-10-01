@@ -22,14 +22,15 @@ Then commit, push to `main`, and check the live page.
 
 - [ ] Run `run_checks.py` and work through its TO DO list.
 - [ ] Scan official sources for material developments (APRA, ASIC, AUSTRAC, OAIC, ACCC, Treasury, legislation.gov.au, RBA, ASX). Check each regulator's media releases, consultations and "what's new" pages.
-- [ ] If there is something material: write a news item or roundup from `_scripts/news-template.html`, then run `python3 _scripts/build_news.py`.
+- [ ] Publish a **monthly regulatory roundup** in the first week of the month, covering the previous month (from `_scripts/news-template.html`, then `python3 _scripts/build_news.py`). Write separate news items for anything major as it happens.
+- [ ] Check the monthly external link check issue on GitHub (opened automatically if outside links are broken); fix the links and close it.
+- [ ] Update the public site roadmap (`_scripts/site_roadmap.py`, then `build_site_roadmap.py`) if any stage has moved.
 - [ ] Move tracker items whose start dates have passed to "In force" (`_scripts/tracker_data.py`, then `python3 _scripts/build_tracker.py`).
 - [ ] Update every page affected by a change the same week (see "When regulations change" below).
 
 ## Quarterly
 
 - [ ] Full tracker refresh: re-check every entry against its official source, update statuses and dates, and set `AS_AT` to the date checked. Rebuild with `build_tracker.py`. `run_checks.py` flags this when `AS_AT` is more than 3 months old.
-- [ ] Publish a quarterly roundup news article.
 - [ ] Run `python3 _scripts/review_report.py` and plan reviews for pages due in the next quarter.
 - [ ] Check the "watch" items in the ROADMAP backlog (court outcomes, consultations awaiting final decisions).
 - [ ] Check the "No fixed next date" tracker items listed by `run_checks.py`.

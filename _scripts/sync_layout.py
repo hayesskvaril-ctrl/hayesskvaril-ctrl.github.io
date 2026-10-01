@@ -356,6 +356,33 @@ def html_escape(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+# "Put it into practice" links: guides point to the playbooks and board briefings on the same topic,
+# so readers can move between explaining, doing and briefing (built from the playbook and briefing data).
+FORMATS_RE = re.compile(r'\n?<!-- FORMATS:START -->.*?<!-- FORMATS:END -->', re.S)
+FORMATS = {}
+try:
+    from playbooks_data import PLAYBOOKS as _PB
+    from briefings_data import BRIEFINGS as _BF
+    _CONTENT = ("/risk-management/", "/compliance/", "/governance/", "/standards/", "/grc/", "/sectors/")
+    for _p in _PB:
+        for _u, _l in [r for r in _p["related"] if r[0].startswith(_CONTENT)][:2]:
+            FORMATS.setdefault(_u, []).append((f"/playbooks/{_p['slug']}.html", "Playbook: " + _p["title"]))
+    for _b in _BF:
+        FORMATS.setdefault(_b["guide"], []).append((f"/governance/briefing-{_b['slug']}.html", "Board briefing"))
+except ImportError:
+    pass
+
+
+def apply_formats(text: str, url: str) -> str:
+    text = FORMATS_RE.sub("", text)
+    links = FORMATS.get(url)
+    if not links or '<aside class="takeaways"' not in text:
+        return text
+    block = ('\n<!-- FORMATS:START -->\n  <p class="also-as"><strong>Put it into practice:</strong> '
+             + " · ".join(f'<a href="{u}">{html_escape(l)}</a>' for u, l in links) + '</p>\n<!-- FORMATS:END -->')
+    return re.sub(r'(<aside class="takeaways".*?</aside>)', lambda m: m.group(1) + block, text, count=1, flags=re.S)
+
+
 REPO = "https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io"
 STATUS_RE = re.compile(r'\s*<a class="badge review-status" data-status[^>]*>.*?</a>')
 FEEDBACK_RE = re.compile(r'\n?\s*<p class="page-feedback" data-feedback>.*?</p>', re.S)
@@ -476,6 +503,7 @@ def main():
         new = apply_meta(text, page_url(rel))
         new = apply_review(new, page_url(rel))
         new = apply_course(new, page_url(rel))
+        new = apply_formats(new, page_url(rel))
         new = apply_art(new, page_url(rel))
         new = apply_levels(new, page_url(rel))
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
