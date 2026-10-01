@@ -369,7 +369,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 **Why:** an outside review found the site broad and polished but anonymous-feeling, organised like a textbook rather than around real tasks, with a long home page and menu, thin news and few reasons to come back.
 
 - [x] Trust: review status on every content page ("Checked against sources" or "Expert reviewed"), a "How we check content" page, a "Suggest a correction" link on every page (prefilled GitHub issue form), and a prioritised expert review queue (`_scripts/REVIEW_QUEUE.md`)
-- [ ] Simplify navigation and the home page: a Topics hub, a shorter menu, a "who are you?" router, a what's-new strip, smaller article images
+- [x] Simplify navigation and the home page: Topics hub (`_scripts/build_topics.py`), a 6-item menu with a 4-column footer site map, a "where would you like to start?" router, a what's-new strip (from `build_changelog.py`) and fewer home tiles
+- [x] Public site roadmap (`/about/roadmap.html`, from `_scripts/site_roadmap.py` + `build_site_roadmap.py`) with a progress banner on the home page; update stage statuses as work finishes
 - [x] Practitioner playbooks (`/playbooks/`): 7 step-by-step guides (incident response, breach assessment, remediation, onboarding a material service provider, disclosure review, control testing, first 90 days) with tickable checklists, deadlines and templates. Source: `_scripts/playbooks_data.py` + `build_playbooks.py`
 - [x] Obligations library (`/obligations/`): 117 obligation themes from 37 regimes, searchable, filterable by organisation type and regulator, downloadable as Excel or CSV. Built by `node _scripts/build_obligations.js` from the builder data
 - [ ] Obligations library stage 2: break each theme into individual obligations with legal citations (needs verified research, regime by regime)

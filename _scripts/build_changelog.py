@@ -127,3 +127,20 @@ html = f'''<!DOCTYPE html>
 OUT.parent.mkdir(exist_ok=True)
 OUT.write_text(html, encoding="utf-8")
 print(f"wrote {OUT.relative_to(ROOT)} ({sum(len(v) for v in added.values())} pages, {len(UPDATES)} updates)")
+
+# "What's new" strip on the home page: the three most recent updates (between WHATSNEW markers).
+import re as _re
+home = ROOT / "index.html"
+recent = sorted(UPDATES, key=lambda u: u[0], reverse=True)[:3]
+items = []
+for iso, url, note in recent:
+    d = datetime.date.fromisoformat(iso)
+    first = note.split(": ")[0] if ": " in note[:90] else note.split(". ")[0]
+    link = url or "/whats-new/"
+    items.append(f'      <li><span class="wn-date">{d.day} {fmt(d).split(" ", 1)[1]}</span><a href="{link}">{escape(first.rstrip("."))}</a></li>')
+strip = ("<!-- WHATSNEW:START -->\n  <div class=\"whats-new-strip\">\n    <p class=\"wn-label\"><a href=\"/whats-new/\">What's new</a></p>\n    <ul>\n"
+         + "\n".join(items) + "\n    </ul>\n  </div>\n<!-- WHATSNEW:END -->")
+s = home.read_text(encoding="utf-8")
+if "<!-- WHATSNEW:START -->" in s:
+    s = _re.sub(r"<!-- WHATSNEW:START -->.*?<!-- WHATSNEW:END -->", lambda m: strip, s, flags=_re.S)
+    home.write_text(s, encoding="utf-8")

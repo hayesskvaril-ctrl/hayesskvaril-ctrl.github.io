@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-10-01", "/about/roadmap.html", "New site roadmap: see what we are improving, stage by stage. Also a simpler menu, a new Topics page and a new home page."),
     ("2026-10-01", "/learn/my-learning.html", "Learning pathways now work like courses: a Mark as read button and step-by-step next links on every page in a pathway, and a new My learning page with your progress and a printable record of learning."),
     ("2026-10-01", "/obligations/", "New Obligations library: 117 plain-English obligation summaries from 37 Australian regimes, with control objectives, evidence, related risks and notification deadlines. Search, filter by organisation type and download as Excel or CSV."),
     ("2026-10-01", "/playbooks/", "New Playbooks section: step-by-step guides for responding to an incident, assessing a breach, running a remediation, onboarding a material service provider, reviewing disclosure, testing a control and your first 90 days, each with a tickable checklist."),

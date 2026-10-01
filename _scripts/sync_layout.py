@@ -25,28 +25,37 @@ import subprocess
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# (label, root-relative URL). Order = order shown in nav and footer.
-# The header skips "Home" (the brand links home) and uses HEADER_LABELS where given,
-# so all sections fit on one line; the footer shows every link with full labels.
+# Header menu: a short list (redesigned October 2026 after an outside review). Pages in the topic
+# sections highlight "Topics"; the glossary highlights "Learn". The footer lists everything, in columns.
 HEADER_SKIP = {"/"}
-HEADER_LABELS = {"/risk-management/": "Risk", "/grc/": "GRC"}
 NAV = [
-    ("Home", "/"),
-    ("Foundations", "/foundations/"),
-    ("Risk Management", "/risk-management/"),
-    ("Compliance", "/compliance/"),
-    ("Governance", "/governance/"),
-    ("GRC systems", "/grc/"),
+    ("Topics", "/topics/"),
+    ("Playbooks", "/playbooks/"),
     ("Standards", "/standards/"),
-    ("Sectors", "/sectors/"),
     ("Learn", "/learn/"),
     ("Tools", "/tools/"),
     ("News", "/news/"),
-    ("Glossary", "/glossary/"),
 ]
+HEADER_PARENT = {"/foundations/": "/topics/", "/risk-management/": "/topics/", "/compliance/": "/topics/",
+                 "/governance/": "/topics/", "/grc/": "/topics/", "/sectors/": "/topics/",
+                 "/case-studies/": "/topics/", "/obligations/": "/topics/", "/glossary/": "/learn/",
+                 "/start-here/": "/learn/"}
+HEADER_LABELS = {}
 
-# Extra footer-only links (shown once the page exists).
-FOOTER_EXTRA = [("Start here", "/start-here/"), ("Case studies", "/case-studies/"), ("Resource library", "/tools/resource-library.html"), ("Search", "/search/"), ("What's new", "/whats-new/"), ("About", "/about/"), ("How we check content", "/about/editorial-standards.html")]
+# Footer columns: (heading, [(label, url)]). Links show once the page exists.
+FOOTER_COLS = [
+    ("Topics", [("All topics", "/topics/"), ("Foundations", "/foundations/"), ("Risk management", "/risk-management/"),
+                ("Compliance", "/compliance/"), ("Governance", "/governance/"), ("GRC systems", "/grc/"),
+                ("Sectors", "/sectors/"), ("Case studies", "/case-studies/")]),
+    ("Practice", [("Playbooks", "/playbooks/"), ("Obligations library", "/obligations/"), ("Standards library", "/standards/"),
+                  ("Tools and templates", "/tools/"), ("Resource library", "/tools/resource-library.html"),
+                  ("GRC model builder", "/grc/model-builder.html")]),
+    ("Learn", [("Start here", "/start-here/"), ("Learning hub", "/learn/"), ("Learning pathways", "/learn/pathways.html"),
+               ("My learning", "/learn/my-learning.html"), ("Glossary", "/glossary/"), ("News", "/news/"),
+               ("Regulatory tracker", "/news/regulatory-tracker.html")]),
+    ("About", [("About", "/about/"), ("How we check content", "/about/editorial-standards.html"),
+               ("Site roadmap", "/about/roadmap.html"), ("What's new", "/whats-new/"), ("Search", "/search/")]),
+]
 SEARCH_ICON = ('<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
                'stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg>')
 
@@ -81,7 +90,7 @@ def header_html(current: str) -> str:
     for label, url in live_nav():
         if url in HEADER_SKIP:
             continue
-        cur = ' aria-current="page"' if url == current else ""
+        cur = ' aria-current="page"' if url == current or HEADER_PARENT.get(current) == url else ""
         label = HEADER_LABELS.get(url, label)
         items.append(f'        <li><a href="{url}"{cur}>{label}</a></li>')
     if target_exists("/search/"):
@@ -103,15 +112,15 @@ def header_html(current: str) -> str:
 
 
 def footer_html() -> str:
-    links = "\n".join(
-        f'      <li><a href="{url}">{label}</a></li>'
-        for label, url in live_nav() + [(l, u) for l, u in FOOTER_EXTRA if target_exists(u)]
-    )
+    cols = []
+    for heading, links in FOOTER_COLS:
+        lis = "\n".join(f'          <li><a href="{u}">{l}</a></li>' for l, u in links if target_exists(u))
+        cols.append(f'      <div>\n        <p class="footer-h">{heading}</p>\n        <ul>\n{lis}\n        </ul>\n      </div>')
     return (
         "<!-- FOOTER:START -->\n"
         '<footer class="site-footer">\n'
         '  <div class="inner">\n'
-        '    <ul class="footer-links">\n' + links + "\n    </ul>\n"
+        '    <nav class="footer-cols" aria-label="Site map">\n' + "\n".join(cols) + "\n    </nav>\n"
         f'    <p class="disclaimer">{DISCLAIMER}</p>\n'
         '    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>\n'
         "  </div>\n"
