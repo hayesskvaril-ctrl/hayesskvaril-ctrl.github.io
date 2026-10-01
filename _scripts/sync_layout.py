@@ -19,6 +19,7 @@ from pathlib import Path
 from html import escape, unescape
 import datetime
 import re
+import sys
 import subprocess
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -113,6 +114,7 @@ def footer_html() -> str:
         '    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>\n'
         "  </div>\n"
         "</footer>\n"
+        '<script src="/scripts/site.js" defer></script>\n'
         "<!-- FOOTER:END -->"
     )
 
@@ -284,6 +286,28 @@ IMAGES = {
     "/risk-management/climate-risk.html": ("climate", False),
     "/risk-management/climate-risk-research.html": ("climate", False),
     "/compliance/climate-related-financial-disclosures.html": ("climate", False),
+    "/compliance/breach-reporting.html": ("breach-clock", False),
+    "/risk-management/incident-and-breach-management.html": ("incident", False),
+    "/compliance/breach-significance-analysis.html": ("incident", False),
+    "/risk-management/third-party-risk.html": ("third-party", False),
+    "/risk-management/service-provider-exit-and-concentration.html": ("third-party", False),
+    "/risk-management/risk-appetite-and-tolerance.html": ("appetite", False),
+    "/governance/conflicts-of-interest.html": ("appetite", False),
+    "/compliance/aml-ctf-fundamentals.html": ("coins", False),
+    "/compliance/remediation-calculations.html": ("coins", False),
+    "/standards/asic-rg-97.html": ("coins", False),
+    "/compliance/privacy-law.html": ("privacy", False),
+    "/standards/cps-230.html": ("resilience", True),
+    "/risk-management/business-continuity.html": ("resilience", True),
+    "/standards/iso-22301.html": ("resilience", True),
+    "/governance/whistleblower-protections.html": ("speak-up", False),
+    "/governance/whistleblowing-research.html": ("speak-up", False),
+    "/compliance/enforcement-and-penalties.html": ("enforcement", False),
+    "/governance/directors-duties-case-law.html": ("enforcement", False),
+    "/foundations/regulatory-landscape.html": ("regulators", False),
+    "/compliance/licensing-basics.html": ("regulators", False),
+    "/sectors/superannuation.html": ("super", False),
+    "/sectors/behavioural-economics-of-super.html": ("super", False),
 }
 ART_RE = re.compile(r"\n?<!-- ART:START -->.*?<!-- ART:END -->", re.S)
 META_LINE_RE = re.compile(r'(<div class="page-meta">.*?</div>)', re.S)
@@ -302,6 +326,33 @@ def apply_art(text: str, url: str) -> str:
         return text
     return META_LINE_RE.sub(lambda m: m.group(1) + art_html(*IMAGES[url]), text, count=1)
 
+
+
+# Home page "by the numbers" strip, between <!-- STATS:START --> and <!-- STATS:END -->.
+STATS_RE = re.compile(r"<!-- STATS:START -->.*?<!-- STATS:END -->", re.S)
+
+
+def stats_html(pages) -> str:
+    import json
+    articles = sum(1 for p in pages if 'class="page-meta"' in p.read_text(encoding="utf-8"))
+    gl = ROOT / "glossary" / "index.html"
+    terms = gl.read_text(encoding="utf-8").count('class="entry"') if gl.exists() else 0
+    man = ROOT / "_scripts" / "video" / "manifest.json"
+    videos = len(json.loads(man.read_text())) if man.exists() else 0
+    try:
+        sys.path.insert(0, str(ROOT / "_scripts"))
+        from references import REFS
+        research = sum(1 for r in REFS.values() if r.get("pr"))
+    except Exception:
+        research = 0
+    rl = ROOT / "tools" / "resource-library.html"
+    m = re.search(r"(\d+) resources", rl.read_text(encoding="utf-8")) if rl.exists() else None
+    resources = int(m.group(1)) if m else 0
+    items = [(articles, "pages, from beginner to university level"), (terms, "glossary terms in plain English"),
+             (resources, "free tools, templates and self-checks"), (videos, "explainer videos with transcripts"),
+             (research, "peer-reviewed research sources")]
+    lis = "\n".join(f'      <li><span class="num">{n}</span><span class="lbl">{lbl}</span></li>' for n, lbl in items if n)
+    return f'<!-- STATS:START -->\n    <ul class="stats">\n{lis}\n    </ul>\n<!-- STATS:END -->'
 
 HEADER_RE = re.compile(r"<!-- HEADER:START -->.*?<!-- HEADER:END -->", re.S)
 FOOTER_RE = re.compile(r"<!-- FOOTER:START -->.*?<!-- FOOTER:END -->", re.S)
@@ -335,6 +386,12 @@ def main():
             page.write_text(new, encoding="utf-8")
             changed += 1
             print(f"updated {rel}")
+    home = ROOT / "index.html"
+    ht = home.read_text(encoding="utf-8")
+    if "<!-- STATS:START -->" in ht:
+        nt = STATS_RE.sub(lambda m: stats_html(published), ht)
+        if nt != ht:
+            home.write_text(nt, encoding="utf-8"); changed += 1
     print(f"{changed} page(s) updated")
     print(f"sitemap.xml: {write_sitemap(published)} URLs")
     # keep the site search index in step with the pages

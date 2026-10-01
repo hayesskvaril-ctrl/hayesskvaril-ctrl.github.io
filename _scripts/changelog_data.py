@@ -8,6 +8,8 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-10-01", "", "Design polish: 11 new 3D graphics on 23 key topic pages (from CPS 230 to privacy and super), smooth fade-in as you scroll, an \"On this page\" bar on longer articles, and a \"by the numbers\" section on the home page."),
+    ("2026-10-01", "/news/regulatory-tracker.html", "RBA card surcharging and interchange changes moved to In force (from 1 October 2026)."),
     ("2026-09-30", "", "New look for the whole site: a clean, light design with large tiles, our own high-definition 3D graphics for every section, a new icon, and all 14 explainer videos re-made to match."),
     ("2026-09-30", "/learn/advanced-study-program.html", "New Advanced study program: a free 12-module, university-style course built from the Advanced pages, with learning outcomes, required peer-reviewed readings, seminar questions and essay questions."),
     ("2026-09-30", "", "14 new university-level pages on the research behind risk, compliance and governance: theories of risk and regulation, governance theories, whether ERM works, the three lines, internal audit, misconduct, pay and risk-taking, whistleblowing, fraud theory, super behaviour, and the economics of cyber, climate and AML/CTF."),

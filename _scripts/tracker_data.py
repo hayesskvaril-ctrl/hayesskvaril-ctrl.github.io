@@ -118,7 +118,7 @@ ENTRIES = [
      "New right to sue for serious invasions of privacy, transparency duties for automated decisions, and a children's privacy code. Further reform is expected.",
      "/compliance/privacy-law.html", ("OAIC", "https://www.oaic.gov.au/privacy/australian-privacy-principles")),
     # ---------------- Payments and fintech
-    ("Removal of card surcharges and lower interchange fees", "RBA", "Finalised, starts soon", "Most changes from 1 October 2026",
+    ("Removal of card surcharges and lower interchange fees", "RBA", "In force", "Most changes from 1 October 2026; foreign card interchange cap and some transparency measures from 1 April 2027",
      ["bank", "all"],
      "Surcharging removed on eftpos, Mastercard and Visa card payments, with lower interchange fee caps and more fee transparency.",
      "/sectors/payments-and-fintech.html", ("RBA: conclusions paper", "https://rba.gov.au/media-releases/2026/mr-26-10.html")),

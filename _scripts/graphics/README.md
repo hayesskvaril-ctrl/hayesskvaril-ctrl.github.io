@@ -13,3 +13,5 @@ To re-render (from this folder):
 4. Convert each PNG to WebP at two widths (1600 and 800; the home hero uses 2400 and 1200) into `/assets/img/<name>-<width>.webp`.
 
 The background colour of each render must match the tile or hero it sits on: `f5f5f7` (light grey), `ffffff` (white) or `000000` (black). The list is in `IMAGES` in `_scripts/sync_layout.py`.
+
+Scenes and where they are used: lens (home hero), heatmap (risk management), compliance, governance, standards, sectors, learn, tools, news, magnifier (case studies), foundations, glossary, cyber, climate, play (videos), shield (about), stopwatch (breach reporting), warning (incidents), chain (third parties), scales (risk appetite, conflicts), coins (AML/CTF, fees, remediation), key (privacy), lifering (CPS 230, business continuity), megaphone (whistleblowing), gavel (enforcement, directors' duties), building (regulators, licensing), nestegg (superannuation).
