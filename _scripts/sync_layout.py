@@ -19,6 +19,7 @@ from pathlib import Path
 from html import escape, unescape
 import datetime
 import re
+import urllib.parse
 import sys
 import subprocess
 
@@ -45,7 +46,7 @@ NAV = [
 ]
 
 # Extra footer-only links (shown once the page exists).
-FOOTER_EXTRA = [("Start here", "/start-here/"), ("Case studies", "/case-studies/"), ("Resource library", "/tools/resource-library.html"), ("Search", "/search/"), ("What's new", "/whats-new/"), ("About", "/about/")]
+FOOTER_EXTRA = [("Start here", "/start-here/"), ("Case studies", "/case-studies/"), ("Resource library", "/tools/resource-library.html"), ("Search", "/search/"), ("What's new", "/whats-new/"), ("About", "/about/"), ("How we check content", "/about/editorial-standards.html")]
 SEARCH_ICON = ('<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
                'stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg>')
 
@@ -294,12 +295,32 @@ def apply_review(text: str, url: str) -> str:
     note = f'<span class="review-due"> · Next review due: {MONTHS[due.month - 1]} {due.year}</span>' if due else ""
     text = DUE_RE.sub(lambda m: m.group(1) + note + "</p>", text, count=1)
     text = BADGE_RE.sub("", text)
+    text = STATUS_RE.sub("", text)
     signed = EXPERT_REVIEWS.get(url)
+    badge = ""
     if signed:
         badge = (f'\n    <span class="badge expert-badge" data-stamped title="Checked by the site\'s risk and compliance professional on {signed}">'
                  f'Expert reviewed {signed.split(" ", 1)[1]}</span>')
+    elif has_levels(url):
+        badge = ('\n    <a class="badge review-status" data-status href="/about/editorial-standards.html" '
+                 'title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>')
+    if badge:
         text = re.sub(r'(<div class="page-meta">.*?)(\n?\s*</div>)', lambda m: m.group(1) + badge + m.group(2), text, count=1, flags=re.S)
+    # "Suggest a correction" link after the last-reviewed line (prefilled GitHub issue form)
+    text = FEEDBACK_RE.sub("", text)
+    if '<p class="last-reviewed">' in text and url not in NO_FEEDBACK:
+        q = urllib.parse.quote(url, safe="/")
+        fb = (f'\n  <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? '
+              f'<a href="{REPO}/issues/new?template=correction.yml&amp;title=Correction%3A%20{q}&amp;page={urllib.parse.quote(SITE + url, safe="")}">Suggest a correction</a> '
+              f'(free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>')
+        text = re.sub(r'(<p class="last-reviewed">.*?</p>)', lambda m: m.group(1) + fb, text, count=1, flags=re.S)
     return text
+
+
+REPO = "https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io"
+STATUS_RE = re.compile(r'\s*<a class="badge review-status" data-status[^>]*>.*?</a>')
+FEEDBACK_RE = re.compile(r'\n?\s*<p class="page-feedback" data-feedback>.*?</p>', re.S)
+NO_FEEDBACK = {"/", "/404.html", "/search/"}
 
 
 # Section artwork: our own 3D renders in /assets/img/ (source: _scripts/graphics/).

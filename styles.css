@@ -1076,6 +1076,12 @@ details[open] summary { margin-bottom: 10px; }
 .review-due { color: var(--muted); }
 .badge.expert-badge { background: var(--green-soft); color: var(--green); border-color: rgba(52, 199, 89, 0.4); }
 .badge.expert-badge::before { content: "\2713\00a0"; }
+.page-meta .badge { margin-top: 0; }
+a.badge.review-status, .badge.review-status-demo { color: #515154; background: rgba(0, 0, 0, 0.05); text-decoration: none; }
+a.badge.review-status:hover { background: var(--cyan-soft); color: var(--blue-bright); }
+.page-feedback { font-size: 13.5px; color: var(--muted); margin-top: 6px; }
+.page-feedback a { text-decoration: underline; text-underline-offset: 2px; }
+@media print { .page-feedback { display: none; } }
 
 /* Operational risk Monte Carlo chart (quantitative operational risk page) */
 .mc-chart svg { width: 100%; height: auto; display: block; margin-top: 8px; }

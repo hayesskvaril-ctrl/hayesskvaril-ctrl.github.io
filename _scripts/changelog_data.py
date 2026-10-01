@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-10-01", "/about/editorial-standards.html", "Every content page now shows its review status (Checked against sources, or Expert reviewed) and has a Suggest a correction link. New page explaining how we check content."),
     ("2026-10-01", "/grc/model-builder.html", "GRC model builder rebuilt: a five-step wizard (or six ready-made examples) that produces a fully linked model: obligations from 37 regimes tied to risks, controls and KRIs, notification clocks, committees and roles, the data model, a maturity radar and roadmap, consistency checks, and an Excel workbook with about 20 sheets."),
     ("2026-10-01", "/grc/", "New GRC systems section: how complex organisations design and establish an integrated governance, risk and compliance system, the risk hierarchy from enterprise to Level 3, obligations and control architecture, an interactive map of how everything links, the operating model, technology, and a GRC model builder tool."),
     ("2026-10-01", "", "New artwork and a better desktop layout: all 27 graphics redone as abstract studio pieces in glass, aluminium and ceramic; wider pages on large screens, larger text, diagrams and tables that step out of the text column, and an \"On this page\" sidebar on wide screens."),

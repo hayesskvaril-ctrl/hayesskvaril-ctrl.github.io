@@ -364,6 +364,20 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [ ] Email updates / newsletter sign-up
 - [ ] Custom domain, branding, Google Ads
 
+## Phase 19 — Outsider review: trust, focus and reasons to return (requested October 2026)
+
+**Why:** an outside review found the site broad and polished but anonymous-feeling, organised like a textbook rather than around real tasks, with a long home page and menu, thin news and few reasons to come back.
+
+- [x] Trust: review status on every content page ("Checked against sources" or "Expert reviewed"), a "How we check content" page, a "Suggest a correction" link on every page (prefilled GitHub issue form), and a prioritised expert review queue (`_scripts/REVIEW_QUEUE.md`)
+- [ ] Simplify navigation and the home page: a Topics hub, a shorter menu, a "who are you?" router, a what's-new strip, smaller article images
+- [ ] Practitioner playbooks (`/playbooks/`): step-by-step guides for real situations, built from existing pages, templates and clocks
+- [ ] Obligations library (`/obligations/`): searchable, filterable and downloadable obligation themes linked to risks, controls and guides
+- [ ] Courses with progress saved on the reader's device, module checks and a printable completion record
+- [ ] Printable board briefings for the major regimes
+- [ ] Monthly automated check of external links (free GitHub Actions workflow)
+- [ ] Content overlap audit and news approach
+- **Needs the owner's decision:** putting a name on the site; a custom web address (about A$15–25 a year, outside the $0 rule); an email newsletter service (free tier, set up by the owner); a check of the "RiskLens" name.
+
 ## Ideas / backlog
 
 Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.
