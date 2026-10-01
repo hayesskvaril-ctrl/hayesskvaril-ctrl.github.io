@@ -11,9 +11,9 @@
    "/risk-management/"
   ],
   "slug": "what-is-risk-management",
-  "specHash": "b668cd14fd96",
-  "duration": 79,
-  "bytes": 1938743,
+  "specHash": "660082bfd97f",
+  "duration": 82,
+  "bytes": 2488965,
   "transcript": [
    {
     "start": 0,
@@ -39,7 +39,7 @@
    },
    {
     "start": 23,
-    "end": 45,
+    "end": 48.1,
     "visual": "A cycle of six steps appears one by one: set the context, identify, analyse, evaluate, treat, monitor and review. In the centre: communicate, consult and record at every step.",
     "captions": [
      "Most frameworks follow a loop. First, set the context: the objective, the scope and the criteria for judging risks.",
@@ -49,36 +49,37 @@
     ]
    },
    {
-    "start": 45,
-    "end": 57,
+    "start": 48.1,
+    "end": 60.1,
     "visual": "Five cards show the responses: avoid, reduce, share, accept and pursue.",
     "captions": [
      "There are only a few ways to respond: avoid, reduce, share or accept a risk, or pursue an opportunity. Most real cases use a mix."
     ]
    },
    {
-    "start": 57,
-    "end": 65,
+    "start": 60.1,
+    "end": 68.1,
     "visual": "A statement: the aim isn't zero risk, it's taking the right risks knowingly.",
     "captions": [
      "Every organisation takes risks to achieve anything. Risk management makes those choices deliberate, and keeps the rest at a level it can live with."
     ]
    },
    {
-    "start": 65,
-    "end": 73,
+    "start": 68.1,
+    "end": 76.1,
     "visual": "A statement about the APRA requirement for a risk management framework under CPS 220 and SPS 220.",
     "captions": [
      "For regulated financial institutions, risk management isn't optional. It is a legal requirement overseen by APRA."
     ]
    },
    {
-    "start": 73,
-    "end": 79,
+    "start": 76.1,
+    "end": 82.1,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "breach-reporting-clocks": {
   "title": "Breach reporting: from awareness to report",
@@ -94,7 +95,7 @@
   "slug": "breach-reporting-clocks",
   "specHash": "ac713e28af7f",
   "duration": 66,
-  "bytes": 1392142,
+  "bytes": 1740735,
   "transcript": [
    {
     "start": 0,
@@ -141,7 +142,8 @@
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "controls-design-and-testing": {
   "title": "Controls: design, operation and testing",
@@ -154,9 +156,9 @@
    "/tools/control-testing-workpaper.html"
   ],
   "slug": "controls-design-and-testing",
-  "specHash": "ea4d2c4be960",
-  "duration": 62,
-  "bytes": 1307741,
+  "specHash": "7dc74e8d6291",
+  "duration": 64,
+  "bytes": 1645589,
   "transcript": [
    {
     "start": 0,
@@ -174,7 +176,7 @@
    },
    {
     "start": 17,
-    "end": 31,
+    "end": 32.6,
     "visual": "Two cards compare design effectiveness and operating effectiveness.",
     "captions": [
      "Testing asks two separate questions. First: is the control well designed? Would it work if performed as described?",
@@ -182,28 +184,29 @@
     ]
    },
    {
-    "start": 31,
-    "end": 44,
+    "start": 32.6,
+    "end": 45.6,
     "visual": "A bar chart ranks test methods from inquiry, the weakest, to reperformance, the strongest.",
     "captions": [
      "Not all evidence is equal. Asking someone is weakest; inspecting records or reperforming the control is much stronger."
     ]
    },
    {
-    "start": 44,
-    "end": 56,
+    "start": 45.6,
+    "end": 57.6,
     "visual": "A flow from test to exception, root cause, and action with validation.",
     "captions": [
      "Every exception needs a root cause and an action. The issue is closed only when someone independent confirms the fix works."
     ]
    },
    {
-    "start": 56,
-    "end": 62,
+    "start": 57.6,
+    "end": 63.6,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "cps-230-in-90-seconds": {
   "title": "CPS 230 in 90 seconds",
@@ -217,9 +220,9 @@
    "/risk-management/operational-risk.html"
   ],
   "slug": "cps-230-in-90-seconds",
-  "specHash": "c53b961bbf3c",
-  "duration": 73,
-  "bytes": 1606253,
+  "specHash": "8e94078ac093",
+  "duration": 75,
+  "bytes": 2040603,
   "transcript": [
    {
     "start": 0,
@@ -229,15 +232,15 @@
    },
    {
     "start": 5,
-    "end": 13,
+    "end": 13.4,
     "visual": "A statement that CPS 230 has been in force since 1 July 2025.",
     "captions": [
      "CPS 230 is APRA's cross-industry standard for operational risk. It replaced several older standards on continuity and outsourcing."
     ]
    },
    {
-    "start": 13,
-    "end": 31,
+    "start": 13.4,
+    "end": 32.7,
     "visual": "Three cards: operational risk management, business continuity and service providers.",
     "captions": [
      "First, manage operational risk end to end: assess risks, maintain and test controls, and handle incidents.",
@@ -246,36 +249,37 @@
     ]
    },
    {
-    "start": 31,
-    "end": 45,
+    "start": 32.7,
+    "end": 46.7,
     "visual": "Three cards combine into tolerance levels: maximum disruption, maximum data loss and minimum service levels.",
     "captions": [
      "For each critical operation, the board approves tolerance levels: maximum disruption, maximum data loss and minimum service levels."
     ]
    },
    {
-    "start": 45,
-    "end": 59,
+    "start": 46.7,
+    "end": 60.7,
     "visual": "A timeline of CPS 230 notifications: 24 hours, 72 hours and 20 business days.",
     "captions": [
      "APRA must be told within 24 hours of a disruption outside tolerance, and within 72 hours of a material operational risk incident."
     ]
    },
    {
-    "start": 59,
-    "end": 67,
+    "start": 60.7,
+    "end": 68.7,
     "visual": "A statement: the board is ultimately accountable.",
     "captions": [
      "Accountability sits with the board and senior management, not with the service provider or the risk team."
     ]
    },
    {
-    "start": 67,
-    "end": 73,
+    "start": 68.7,
+    "end": 74.7,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "data-breach-response": {
   "title": "Data breaches: contain, assess, notify",
@@ -288,9 +292,9 @@
    "/case-studies/optus-medibank-data-breaches.html"
   ],
   "slug": "data-breach-response",
-  "specHash": "461706ee2886",
-  "duration": 63,
-  "bytes": 1309051,
+  "specHash": "a1be04ca0912",
+  "duration": 67,
+  "bytes": 1702042,
   "transcript": [
    {
     "start": 0,
@@ -308,7 +312,7 @@
    },
    {
     "start": 14,
-    "end": 34,
+    "end": 37.7,
     "visual": "A four-step cycle: contain, assess, notify and review.",
     "captions": [
      "First, contain it: stop the breach and try to recover the information. Quick action can reduce the harm.",
@@ -318,28 +322,29 @@
     ]
    },
    {
-    "start": 34,
-    "end": 48,
+    "start": 37.7,
+    "end": 51.7,
     "visual": "Three conditions combine to make an eligible data breach.",
     "captions": [
      "It is eligible if serious harm is likely and remedial action hasn't prevented it. Tax file numbers and identity documents raise the risk."
     ]
    },
    {
-    "start": 48,
-    "end": 57,
+    "start": 51.7,
+    "end": 60.7,
     "visual": "A statement about the separate CPS 234 notification to APRA.",
     "captions": [
      "Privacy notification isn't the only clock. Check every regime that might apply."
     ]
    },
    {
-    "start": 57,
-    "end": 63,
+    "start": 60.7,
+    "end": 66.7,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "denominator-effect": {
   "title": "The denominator effect in super",
@@ -352,9 +357,9 @@
    "/standards/sps-530.html"
   ],
   "slug": "denominator-effect",
-  "specHash": "ef757bbf7d4c",
-  "duration": 67,
-  "bytes": 1364791,
+  "specHash": "feff46e7a225",
+  "duration": 69,
+  "bytes": 1750801,
   "transcript": [
    {
     "start": 0,
@@ -372,7 +377,7 @@
    },
    {
     "start": 13,
-    "end": 37,
+    "end": 38.5,
     "visual": "Three stacked bars. Before: cash 5, listed 70, unlisted 25, unlisted share 25 percent. After the market fall: cash 5, listed 49, unlisted 23.75, unlisted share 30.5 percent. After outflows of 15 paid from liquid assets: liquid 39, unlisted 23.75, unlisted share 37.8 percent, above a dashed line marking the 30 percent maximum.",
     "captions": [
      "Start with $100: $5 in cash, $70 in listed assets and $25 unlisted, against a strategic maximum of 30% unlisted.",
@@ -381,28 +386,29 @@
     ]
    },
    {
-    "start": 37,
-    "end": 48,
+    "start": 38.5,
+    "end": 49.5,
     "visual": "A statement: stale valuations can transfer value between members.",
     "captions": [
      "That is why liquidity management and valuation governance are linked: both are about paying members fairly."
     ]
    },
    {
-    "start": 48,
-    "end": 61,
+    "start": 49.5,
+    "end": 62.5,
     "visual": "Three cards: stress test, revalue and plan.",
     "captions": [
      "SPS 530 requires liquidity stress testing at least annually, as part of a comprehensive stress testing program."
     ]
    },
    {
-    "start": 61,
-    "end": 67,
+    "start": 62.5,
+    "end": 68.5,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "dominant-message": {
   "title": "Misleading conduct: the dominant message test",
@@ -415,9 +421,9 @@
    "/compliance/disclosure-obligations.html"
   ],
   "slug": "dominant-message",
-  "specHash": "c17694c80c38",
+  "specHash": "9b7b163e393e",
   "duration": 75,
-  "bytes": 1632473,
+  "bytes": 2025669,
   "transcript": [
    {
     "start": 0,
@@ -435,7 +441,7 @@
    },
    {
     "start": 13,
-    "end": 29,
+    "end": 29.2,
     "visual": "Four cards in sequence: audience, message, reaction and truth.",
     "captions": [
      "Identify the audience, then the message it receives, including what is implied and what dominates.",
@@ -443,8 +449,8 @@
     ]
    },
    {
-    "start": 29,
-    "end": 43,
+    "start": 29.2,
+    "end": 43.2,
     "visual": "A mock social media ad with a large headline, Australia's top performing Balanced fund, 11.2% returns, and tiny fine print. A highlight marks the headline as the dominant message and the fine print as easily missed.",
     "captions": [
      "Here the headline says the fund is the top performer. The qualification is in tiny print at the bottom.",
@@ -452,28 +458,29 @@
     ]
    },
    {
-    "start": 43,
-    "end": 57,
+    "start": 43.2,
+    "end": 57.2,
     "visual": "Four cards summarise the Puxu, Campomar, Miller v BMW and TPG cases.",
     "captions": [
      "High Court cases built the tests: the whole context, the ordinary member of the audience, misleading silence and the dominant message."
     ]
    },
    {
-    "start": 57,
-    "end": 69,
+    "start": 57.2,
+    "end": 69.2,
     "visual": "A bar chart of ASIC's first three greenwashing civil penalties: Mercer $11.3 million, Vanguard $12.9 million and Active Super $10.5 million.",
     "captions": [
      "The greenwashing cases show product claims must match what the product actually holds, across every channel."
     ]
    },
    {
-    "start": 69,
-    "end": 75,
+    "start": 69.2,
+    "end": 75.2,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "far-accountability": {
   "title": "FAR: who is accountable for what",
@@ -488,7 +495,7 @@
   "slug": "far-accountability",
   "specHash": "2e55fd8f3623",
   "duration": 59,
-  "bytes": 1256017,
+  "bytes": 1509123,
   "transcript": [
    {
     "start": 0,
@@ -534,7 +541,8 @@
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "remediation": {
   "title": "Remediation: putting people back",
@@ -550,7 +558,7 @@
   "slug": "remediation",
   "specHash": "618cca5a3ee4",
   "duration": 63,
-  "bytes": 1287653,
+  "bytes": 1642009,
   "transcript": [
    {
     "start": 0,
@@ -598,7 +606,8 @@
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "risk-appetite": {
   "title": "Risk appetite: from board statement to daily decisions",
@@ -613,7 +622,7 @@
   "slug": "risk-appetite",
   "specHash": "5ed554fab34b",
   "duration": 63,
-  "bytes": 1514929,
+  "bytes": 1871967,
   "transcript": [
    {
     "start": 0,
@@ -661,7 +670,8 @@
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "swiss-cheese-and-fault-trees": {
   "title": "Root causes: Swiss cheese and fault trees",
@@ -674,9 +684,9 @@
    "/risk-management/incident-and-breach-management.html"
   ],
   "slug": "swiss-cheese-and-fault-trees",
-  "specHash": "cbc4f6275c1d",
+  "specHash": "aebca5413e59",
   "duration": 65,
-  "bytes": 1255320,
+  "bytes": 1600854,
   "transcript": [
    {
     "start": 0,
@@ -686,15 +696,15 @@
    },
    {
     "start": 5,
-    "end": 13,
+    "end": 13.3,
     "visual": "A statement: human error is rarely a root cause.",
     "captions": [
      "Many incident reviews stop at the person. Good analysis keeps asking why until it reaches causes the organisation can fix."
     ]
    },
    {
-    "start": 13,
-    "end": 29,
+    "start": 13.3,
+    "end": 29.3,
     "visual": "Four slices of cheese labelled design, controls, supervision and people, each with holes. The holes line up and an arrow passes through all four to an incident.",
     "captions": [
      "Psychologist James Reason pictured defences as slices of Swiss cheese. Every layer has holes.",
@@ -702,8 +712,8 @@
     ]
    },
    {
-    "start": 29,
-    "end": 47,
+    "start": 29.3,
+    "end": 47.3,
     "visual": "A fault tree. Top event: members charged the wrong fee, 22 percent a year. Below an OR gate, two paths. Path one: configuration error 30 percent AND reconciliation misses it 60 percent, giving 18 percent. Path two: override error 50 percent AND review misses it 10 percent, giving 5 percent.",
     "captions": [
      "A fault tree works down from the event. Each path needs a cause AND a failed control. Either path causes the event.",
@@ -711,20 +721,21 @@
     ]
    },
    {
-    "start": 47,
-    "end": 59,
+    "start": 47.3,
+    "end": 59.3,
     "visual": "Two cards compare weaker actions, such as reminders, with stronger actions, such as automation and independent checks.",
     "captions": [
      "Strong actions change the system. Then check the fix works, and look for the same cause elsewhere."
     ]
    },
    {
-    "start": 59,
-    "end": 65,
+    "start": 59.3,
+    "end": 65.3,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "three-lines-model": {
   "title": "The Three Lines model",
@@ -737,9 +748,9 @@
    "/governance/internal-audit.html"
   ],
   "slug": "three-lines-model",
-  "specHash": "39fc1e6d4c2d",
-  "duration": 72,
-  "bytes": 1894014,
+  "specHash": "a680b23b26ec",
+  "duration": 78,
+  "bytes": 2325425,
   "transcript": [
    {
     "start": 0,
@@ -757,7 +768,7 @@
    },
    {
     "start": 12,
-    "end": 32,
+    "end": 38.3,
     "visual": "Four layers appear from top to bottom: governing body, first line, second line and third line, each with a description.",
     "captions": [
      "At the top sits the governing body, usually the board. It is accountable to stakeholders and oversees everything below.",
@@ -767,36 +778,37 @@
     ]
    },
    {
-    "start": 32,
-    "end": 44,
+    "start": 38.3,
+    "end": 50.3,
     "visual": "Two cards compare the old three lines of defence with the 2020 roles-based model.",
     "captions": [
      "The 2020 version dropped the “defence” language and treats the lines as roles that work together, not rigid walls."
     ]
    },
    {
-    "start": 44,
-    "end": 53,
+    "start": 50.3,
+    "end": 59.3,
     "visual": "A statement: owning a risk and checking it are different jobs.",
     "captions": [
      "A common failure: blurred roles. When the people who check a control also run it, independent challenge disappears."
     ]
    },
    {
-    "start": 53,
-    "end": 66,
+    "start": 59.3,
+    "end": 72.3,
     "visual": "A flow of four boxes shows the lines applied to paying a super benefit.",
     "captions": [
      "In practice: the business runs the payment controls, risk tests them, internal audit reviews both, and the board oversees."
     ]
    },
    {
-    "start": 66,
-    "end": 72,
+    "start": 72.3,
+    "end": 78.3,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "unit-pricing-errors": {
   "title": "Unit pricing errors: who wins and who loses",
@@ -811,7 +823,7 @@
   "slug": "unit-pricing-errors",
   "specHash": "fc4b00cd5b72",
   "duration": 75,
-  "bytes": 1375063,
+  "bytes": 1703197,
   "transcript": [
    {
     "start": 0,
@@ -866,7 +878,8 @@
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  },
  "who-regulates-what": {
   "title": "Who regulates what in Australia",
@@ -879,9 +892,9 @@
    "/standards/"
   ],
   "slug": "who-regulates-what",
-  "specHash": "97ee38be0ff4",
+  "specHash": "cf10014a658a",
   "duration": 61,
-  "bytes": 1401428,
+  "bytes": 1763749,
   "transcript": [
    {
     "start": 0,
@@ -899,7 +912,7 @@
    },
    {
     "start": 14,
-    "end": 30,
+    "end": 30.4,
     "visual": "Two cards: APRA for financial soundness and ASIC for conduct and disclosure.",
     "captions": [
      "Financial services use a twin peaks model. APRA looks after the financial soundness of banks, insurers and super funds.",
@@ -907,27 +920,28 @@
     ]
    },
    {
-    "start": 30,
-    "end": 45,
+    "start": 30.4,
+    "end": 45.4,
     "visual": "Five cards: AUSTRAC, OAIC, ACCC, RBA and ATO with their roles.",
     "captions": [
      "Other bodies cut across many industries: AUSTRAC, the OAIC, the ACCC, the Reserve Bank and the ATO."
     ]
    },
    {
-    "start": 45,
-    "end": 55,
+    "start": 45.4,
+    "end": 55.4,
     "visual": "A statement that a large super fund answers to several regulators at once.",
     "captions": [
      "Most financial institutions deal with several regulators at once, which is why mapping obligations matters."
     ]
    },
    {
-    "start": 55,
-    "end": 61,
+    "start": 55.4,
+    "end": 61.4,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
-  ]
+  ],
+  "narrated": true
  }
 }

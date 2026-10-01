@@ -7,19 +7,19 @@ window.RL_SPEC = {
   scenes: [
     { type: 'title', dur: 5, tag: 'EXPLAINER · STANDARDS · INTERMEDIATE', title: 'CPS 230 in 90 seconds', subtitle: 'APRA\'s Operational Risk Management standard',
       visual: 'Title card: CPS 230 in 90 seconds.' },
-    { type: 'statement', dur: 8, text: 'In force since 1 July 2025 for banks, insurers and super trustees.', size: 38, small: 'Targeted amendments took effect on 1 July 2026.',
+    { type: 'statement', dur: 8.4, text: 'In force since 1 July 2025 for banks, insurers and super trustees.', size: 38, small: 'Targeted amendments took effect on 1 July 2026.',
       caption: 'CPS 230 is APRA\'s cross-industry standard for operational risk. It replaced several older standards on continuity and outsourcing.',
       visual: 'A statement that CPS 230 has been in force since 1 July 2025.' },
-    { type: 'columns', dur: 18, heading: 'Three pillars',
+    { type: 'columns', dur: 19.3, heading: 'Three pillars',
       items: [
         { h: 'Operational risk management', tone: 'blue', lines: ['Identify and assess operational risks', 'Design, monitor and test controls', 'Manage incidents and fix root causes'] },
         { h: 'Business continuity', tone: 'cyan', lines: ['Identify critical operations', 'Set tolerance levels for disruption', 'Plan, test and stay within tolerance'] },
         { h: 'Service providers', tone: 'violet', lines: ['Identify material service providers', 'Formal agreements with key terms', 'Monitor, including fourth parties'] }
       ],
-      at: [0.6, 6.2, 11.8],
+      at: [0.7, 6.8, 13.1],
       captions: [[0, 'First, manage operational risk end to end: assess risks, maintain and test controls, and handle incidents.'],
-        [6, 'Second, keep critical operations running through disruption, within tolerance levels approved by the board.'],
-        [11.6, 'Third, manage the risks of relying on service providers, including the providers they rely on.']],
+        [6.6, 'Second, keep critical operations running through disruption, within tolerance levels approved by the board.'],
+        [12.9, 'Third, manage the risks of relying on service providers, including the providers they rely on.']],
       visual: 'Three cards: operational risk management, business continuity and service providers.' },
     { type: 'flow', dur: 14, heading: 'Tolerance levels for each critical operation', connector: 'plus',
       items: [

@@ -18,7 +18,7 @@ window.RL_SPEC = {
       ],
       caption: 'A risk might happen. An issue is a problem that exists now. An incident is something that has already happened.',
       visual: 'Three cards compare a risk, an issue and an incident, each with a payment system example.' },
-    { type: 'cycle', dur: 22, center: 'Communicate, consult and record at every step',
+    { type: 'cycle', dur: 25.1, center: 'Communicate, consult and record at every step',
       items: [
         { h: '1. Set the context', b: 'objectives, scope, criteria', tone: 'cyan' },
         { h: '2. Identify', b: 'what could happen?', tone: 'blue' },
@@ -27,12 +27,12 @@ window.RL_SPEC = {
         { h: '5. Treat', b: 'decide and act', tone: 'violet' },
         { h: '6. Monitor and review', b: 'is it working? what changed?', tone: 'green' }
       ],
-      at: [0.6, 5.2, 7.2, 9.2, 11.4, 13.6],
-      active: [[0.6, 0], [5.2, 1], [7.2, 2], [9.2, 3], [11.4, 4], [13.6, 5], [16.5, -1]],
+      at: [0.8, 6.6, 8.7, 10.8, 13.1, 15.3],
+      active: [[0.8, 0], [6.6, 1], [8.7, 2], [10.8, 3], [13.1, 4], [15.3, 5], [18.2, -1]],
       captions: [[0, 'Most frameworks follow a loop. First, set the context: the objective, the scope and the criteria for judging risks.'],
-        [5, 'Then identify what could happen, analyse how likely and how severe it is, and evaluate whether it is acceptable.'],
-        [11, 'Treat the risks that aren\'t acceptable. Then monitor and review, because risks and controls change.'],
-        [16.5, 'Identifying, analysing and evaluating together are called risk assessment. Communication runs through every step.']],
+        [6.4, 'Then identify what could happen, analyse how likely and how severe it is, and evaluate whether it is acceptable.'],
+        [12.7, 'Treat the risks that aren\'t acceptable. Then monitor and review, because risks and controls change.'],
+        [18.2, 'Identifying, analysing and evaluating together are called risk assessment. Communication runs through every step.']],
       visual: 'A cycle of six steps appears one by one: set the context, identify, analyse, evaluate, treat, monitor and review. In the centre: communicate, consult and record at every step.' },
     { type: 'flow', dur: 12, heading: 'Ways to respond to a risk', connector: 'none', gap: 22,
       items: [

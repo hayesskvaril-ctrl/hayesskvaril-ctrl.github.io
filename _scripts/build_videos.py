@@ -97,7 +97,7 @@ def transcript(v):
         rows.append(f'<li><time>{mmss(sc["start"])}</time> <span class="on-screen">On screen: {escape(sc["visual"])}</span>'
                     + (f" {said}" if said else "") + "</li>")
     return ('<details class="transcript"><summary>Transcript and description</summary>\n'
-            '<p class="small">The video has no sound. This lists what appears on screen and the captions, in order.</p>\n<ol>\n'
+            '<p class="small">A voice reads the captions aloud. This lists what appears on screen and the captions, in order.</p>\n<ol>\n'
             + "\n".join(rows) + "\n</ol>\n</details>")
 
 
@@ -117,7 +117,7 @@ Your browser can't play this video. <a href="{mp4}">Download it</a> instead.
 </video>
 </div>
 <figcaption>
-<span class="video-meta">Explainer · {length(v["duration"])} · Silent, with captions</span>
+<span class="video-meta">Explainer · {length(v["duration"])} · Narrated, with captions</span>
 <span class="video-title">{escape(v["title"])}</span>
 <span class="video-desc">{escape(v["desc"])}</span>
 <span class="video-links">{" ".join(links)}</span>
@@ -244,7 +244,8 @@ def main():
   <aside class="takeaways" aria-labelledby="kt">
     <h2 id="kt">Good to know</h2>
     <ul>
-      <li>Each explainer runs one to two minutes. It has no sound: the captions are part of the picture, so you can watch anywhere.</li>
+      <li>Each explainer runs one to two minutes. A voice reads the captions aloud, and the captions are part of the picture, so you can also watch with the sound off.</li>
+      <li>The narration is a computer-generated voice: the Piper text-to-speech engine with a British English voice trained on the <a href="https://www.openslr.org/83/">OpenSLR 83 dataset</a> (CC BY-SA 4.0).</li>
       <li>Every video has a full transcript that describes what appears on screen, and a download link so you can watch offline or use it in training.</li>
       <li>Each video also sits on the page it belongs to, next to the detail, sources and links to the legislation.</li>
       <li>Official videos from regulators play from YouTube, but only after you press play.</li>

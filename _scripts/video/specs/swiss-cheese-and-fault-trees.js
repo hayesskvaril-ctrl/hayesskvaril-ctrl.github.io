@@ -7,7 +7,7 @@ window.RL_SPEC = {
   scenes: [
     { type: 'title', dur: 5, tag: 'EXPLAINER · RISK MANAGEMENT · ADVANCED', title: 'Root causes', subtitle: 'Swiss cheese and fault trees',
       visual: 'Title card: Root causes, Swiss cheese and fault trees.' },
-    { type: 'statement', dur: 8, text: '“Human error” is rarely a root cause.', small: 'Ask why the error was possible, and why nothing caught it.',
+    { type: 'statement', dur: 8.3, text: '“Human error” is rarely a root cause.', small: 'Ask why the error was possible, and why nothing caught it.',
       caption: 'Many incident reviews stop at the person. Good analysis keeps asking why until it reaches causes the organisation can fix.',
       visual: 'A statement: human error is rarely a root cause.' },
     { type: 'custom', dur: 16, heading: 'The Swiss cheese model',

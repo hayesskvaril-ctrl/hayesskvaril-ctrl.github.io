@@ -10,17 +10,17 @@ window.RL_SPEC = {
     { type: 'statement', dur: 8, text: 'Your unlisted share can grow without buying anything.', small: 'When listed markets fall faster than unlisted assets are revalued.',
       caption: 'Unlisted assets like property and infrastructure are revalued slowly. Listed markets reprice every day.',
       visual: 'A statement: your unlisted share can grow without buying anything.' },
-    { type: 'custom', dur: 24, heading: 'A Balanced option under stress',
+    { type: 'custom', dur: 25.5, heading: 'A Balanced option under stress',
       captions: [[0, 'Start with $100: $5 in cash, $70 in listed assets and $25 unlisted, against a strategic maximum of 30% unlisted.'],
-        [8, 'Listed markets fall 30%, but unlisted valuations fall only 5% so far. Unlisted is now about 30.5% of the option.'],
-        [16, 'Members switch and leave, and $15 is paid out from liquid assets. Unlisted is now about 37.8%, well above the maximum.']],
+        [9, 'Listed markets fall 30%, but unlisted valuations fall only 5% so far. Unlisted is now about 30.5% of the option.'],
+        [17.4, 'Members switch and leave, and $15 is paid out from liquid assets. Unlisted is now about 37.8%, well above the maximum.']],
       visual: 'Three stacked bars. Before: cash 5, listed 70, unlisted 25, unlisted share 25 percent. After the market fall: cash 5, listed 49, unlisted 23.75, unlisted share 30.5 percent. After outflows of 15 paid from liquid assets: liquid 39, unlisted 23.75, unlisted share 37.8 percent, above a dashed line marking the 30 percent maximum.',
       draw: function (lt, A) {
         var s = '', base = 520, scale = 3.3, bw = 190;
         var stages = [
-          { at: 0.5, label: 'Before', cash: 5, listed: 70, unl: 25 },
-          { at: 8.3, label: 'After the fall', cash: 5, listed: 49, unl: 23.75 },
-          { at: 16.3, label: 'After outflows', cash: 0, listed: 39, unl: 23.75 }
+          { at: 0.6, label: 'Before', cash: 5, listed: 70, unl: 25 },
+          { at: 9.3, label: 'After the fall', cash: 5, listed: 49, unl: 23.75 },
+          { at: 17.7, label: 'After outflows', cash: 0, listed: 39, unl: 23.75 }
         ];
         stages.forEach(function (st, i) {
           var p = A.prog(lt, st.at, 1.0), x = 250 + i * 290, y = base, tot = st.cash + st.listed + st.unl, share = st.unl / tot * 100;

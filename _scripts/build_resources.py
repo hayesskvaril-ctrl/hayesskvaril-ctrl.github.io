@@ -213,7 +213,7 @@ html = f'''<!DOCTYPE html>
     <ul>
       <li><strong>Downloads</strong> are Excel and Word files that work in Microsoft Office, Google Sheets and Docs, and LibreOffice. They are free to use and adapt within your organisation.</li>
       <li><strong>Interactive tools and self-checks</strong> run in your browser. Nothing you enter is sent anywhere.</li>
-      <li><strong>Videos</strong> are short, silent explainers with captions and full transcripts. You can download them for training.</li>
+      <li><strong>Videos</strong> are short narrated explainers with captions and full transcripts. You can download them for training.</li>
       <li>Everything here is a learning aid or starting point, not advice. Adapt it to your organisation's own frameworks and obligations. See the <a href="/about/#disclaimer">full disclaimer</a>.</li>
     </ul>
   </aside>

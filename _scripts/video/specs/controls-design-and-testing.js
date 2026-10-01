@@ -15,7 +15,7 @@ window.RL_SPEC = {
       ],
       caption: 'A control is anything that keeps a risk within appetite. Controls can prevent, detect or correct problems.',
       visual: 'Three cards: preventive, detective and corrective controls with examples.' },
-    { type: 'columns', dur: 14, heading: 'Two questions for every control',
+    { type: 'columns', dur: 15.6, heading: 'Two questions for every control',
       items: [
         { h: 'Design effectiveness', tone: 'violet', lines: ['If it runs exactly as described, would it address the risk?', 'Checked by walkthrough and review of the design'] },
         { h: 'Operating effectiveness', tone: 'cyan', lines: ['Did it actually run, consistently, over the period?', 'Checked by testing a sample of occurrences'] }
