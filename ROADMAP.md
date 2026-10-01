@@ -375,8 +375,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Obligations library (`/obligations/`): 117 obligation themes from 37 regimes, searchable, filterable by organisation type and regulator, downloadable as Excel or CSV. Built by `node _scripts/build_obligations.js` from the builder data
 - [ ] Obligations library stage 2: break each theme into individual obligations with legal citations (needs verified research, regime by regime)
 - [x] Courses with progress: a "Mark as read" button and "step n of m, next" links on every page in a learning pathway (stamped by `sync_layout.py` from `_scripts/pathways_index.json`), playbooks added to the pathways, and a My learning page (`/learn/my-learning.html`) with progress, next steps and a printable record of learning
-- [ ] Printable board briefings for the major regimes
-- [ ] Monthly automated check of external links (free GitHub Actions workflow)
+- [x] Printable board briefings (`/governance/board-briefings.html`): CPS 230, FAR, breach reporting, CPS 234 and AML/CTF, each printing on two pages. Source: `_scripts/briefings_data.py` + `build_briefings.py`
+- [x] Monthly automated check of external links (`.github/workflows/link-check.yml`, free GitHub Actions): opens an issue listing broken outside links
 - [ ] Content overlap audit and news approach
 - **Needs the owner's decision:** putting a name on the site; a custom web address (about A$15–25 a year, outside the $0 rule); an email newsletter service (free tier, set up by the owner); a check of the "RiskLens" name.
 

@@ -1779,3 +1779,27 @@ details.gb-rels li { break-inside: avoid; }
 .topic-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 18px; }
 .topic-links a { padding: 9px 18px; border-radius: 980px; background: var(--surface); color: var(--heading); font-weight: 600; font-size: 15px; }
 .topic-links a:hover { background: var(--cyan-soft); color: var(--blue-bright); text-decoration: none; }
+
+/* ---------- Board briefings (/governance/briefing-*.html) ---------- */
+.bf-print { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.briefing { border: 1px solid var(--border-strong); border-radius: var(--radius); padding: 24px 28px 10px; margin: 20px 0 36px; background: #fff; }
+.bf-head { border-bottom: 3px solid #1b3a5c; margin-bottom: 14px; padding-bottom: 8px; }
+.bf-kicker { font-size: 12.5px; font-weight: 600; color: var(--muted); margin: 0; text-transform: uppercase; letter-spacing: 0.06em; }
+.briefing .bf-title { font-size: 28px; margin: 4px 0 0; }
+.bf-sec h3 { font-size: 17px; margin: 18px 0 6px; color: #1b3a5c; }
+.bf-sec p, .bf-sec li { font-size: 15.5px; }
+.bf-sec .table-wrap { margin: 8px 0 10px; }
+.bf-q { background: #f2f7ff; border-radius: 14px; padding: 4px 18px 6px; }
+.bf-flags { background: #fff4e5; border-radius: 14px; padding: 4px 18px 6px; margin-top: 12px; }
+.bf-foot { border-top: 1px solid var(--border); margin-top: 16px; padding-top: 8px; }
+.bf-foot p { font-size: 12.5px; color: var(--muted); }
+@media print {
+  @page { margin: 14mm; }
+  main.article:has(.briefing) > :not(.briefing) { display: none !important; }
+  body:has(.briefing) .site-footer, body:has(.briefing) .local-nav { display: none !important; }
+  .briefing { border: 0; padding: 0; margin: 0; font-size: 11pt; }
+  .briefing .bf-title { font-size: 20pt; }
+  .bf-sec p, .bf-sec li, .briefing td, .briefing th { font-size: 10pt; }
+  .bf-sec h3 { font-size: 12pt; margin-top: 10px; }
+  .bf-q, .bf-flags { break-inside: avoid; }
+}
