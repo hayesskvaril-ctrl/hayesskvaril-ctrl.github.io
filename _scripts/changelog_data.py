@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-10-01", "", "New artwork and a better desktop layout: all 27 graphics redone as abstract studio pieces in glass, aluminium and ceramic; wider pages on large screens, larger text, diagrams and tables that step out of the text column, and an \"On this page\" sidebar on wide screens."),
     ("2026-10-01", "", "Design polish: 11 new 3D graphics on 23 key topic pages (from CPS 230 to privacy and super), smooth fade-in as you scroll, an \"On this page\" bar on longer articles, and a \"by the numbers\" section on the home page."),
     ("2026-10-01", "/news/regulatory-tracker.html", "RBA card surcharging and interchange changes moved to In force (from 1 October 2026)."),
     ("2026-09-30", "", "New look for the whole site: a clean, light design with large tiles, our own high-definition 3D graphics for every section, a new icon, and all 14 explainer videos re-made to match."),

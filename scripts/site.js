@@ -51,6 +51,14 @@
     html += '<li><a href="#' + h.id + '">' + label.replace(/</g, '&lt;') + '</a></li>';
   });
   nav.innerHTML = html + '</ul></div>';
+  // wide screens: the same links as a sticky sidebar in the left margin
+  var side = document.createElement('aside');
+  side.className = 'toc-side';
+  side.setAttribute('aria-label', 'On this page (sidebar)');
+  side.innerHTML = '<p class="toc-label">On this page</p><ol>' + heads.map(function (h) {
+    return '<li><a href="#' + h.id + '">' + h.textContent.trim().replace(/\s+/g, ' ').replace(/</g, '&lt;') + '</a></li>';
+  }).join('') + '</ol><p class="toc-top"><a href="#main">Back to top</a></p>';
+  main.appendChild(side);
   var header = document.querySelector('.site-header');
   if (header && header.parentNode) header.parentNode.insertBefore(nav, header.nextSibling);
   function setTop() { if (header) nav.style.top = header.offsetHeight + 'px'; }
@@ -60,12 +68,12 @@
   var shown = false;
   function onScroll() {
     var past = h1 ? h1.getBoundingClientRect().bottom < 0 : window.scrollY > 300;
-    if (past !== shown) { shown = past; nav.classList.toggle('show', past); }
+    if (past !== shown) { shown = past; nav.classList.toggle('show', past); side.classList.toggle('show', past); }
   }
   window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
 
   // highlight the section in view
-  var links = nav.querySelectorAll('ul a');
+  var links = Array.prototype.slice.call(nav.querySelectorAll('ul a')).concat(Array.prototype.slice.call(side.querySelectorAll('ol a')));
   if ('IntersectionObserver' in window) {
     var current = null;
     var spy = new IntersectionObserver(function (entries) {
@@ -76,7 +84,7 @@
         var on = a.getAttribute('href') === '#' + current;
         a.classList.toggle('on', on);
         if (on) a.setAttribute('aria-current', 'location'); else a.removeAttribute('aria-current');
-        if (on && a.scrollIntoView && nav.classList.contains('show')) {
+        if (on && a.parentNode.parentNode.tagName === 'UL' && nav.classList.contains('show')) {
           var ul = a.parentNode.parentNode, l = a.offsetLeft;
           if (l < ul.scrollLeft || l > ul.scrollLeft + ul.clientWidth - 60) ul.scrollTo({ left: Math.max(0, l - 48), behavior: reduce ? 'auto' : 'smooth' });
         }
