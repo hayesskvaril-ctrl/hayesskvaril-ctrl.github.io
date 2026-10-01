@@ -880,4 +880,27 @@ REFS = {
         kind="article", authors=["Ferwerda, J."], year=2009, title="The economics of crime and money laundering: Does anti-money laundering policy reduce crime?",
         journal="Review of Law and Economics", volume="5", issue="2", pages="903–929", doi="10.2202/1555-5879.1421", topics=["fincrime"], pr=True, checked="2026-09-30",
         note="Builds an economic model in the Becker tradition and tests it across countries, finding that some AML policy elements, such as the chance of being caught and convicted, are associated with lower crime."),
+    # Integrated GRC
+    "racz-2010": dict(
+        kind="chapter", authors=["Racz, N.", "Weippl, E.", "Seufert, A."], year=2010, title="A frame of reference for research of integrated governance, risk and compliance (GRC)",
+        editors=["B. De Decker", "I. Schaumüller-Bichl"], book="Communications and multimedia security (Lecture Notes in Computer Science, Vol. 6109)", pages="106–117", publisher="Springer",
+        doi="10.1007/978-3-642-13241-4_11", topics=["erm", "governance"], pr=True, checked="2026-10-01",
+        note="Develops a definition of integrated GRC from a literature review and earlier surveys, and a frame of reference for research covering its components (governance, risk management, compliance), integration and supporting technology."),
+    "vicente-2011": dict(
+        kind="chapter", authors=["Vicente, P.", "Mira da Silva, M."], year=2011, title="A conceptual model for integrated governance, risk and compliance",
+        book="Advanced information systems engineering (Lecture Notes in Computer Science, Vol. 6741)", pages="199–213", publisher="Springer",
+        doi="10.1007/978-3-642-21640-4_16", topics=["erm", "governance"], pr=True, checked="2026-10-01",
+        note="Proposes a reference conceptual model of the key functions of governance, risk and compliance and how they relate, and evaluates it against OCEG's GRC capability model."),
+    "papazafeiropoulou-2016": dict(
+        kind="article", authors=["Papazafeiropoulou, A.", "Spanaki, K."], year=2016, title="Understanding governance, risk and compliance information systems (GRC IS): The experts view",
+        journal="Information Systems Frontiers", volume="18", issue="6", pages="1251–1263", doi="10.1007/s10796-015-9572-3", topics=["erm", "governance"], pr=True, checked="2026-10-01",
+        note="Reviews GRC research and interviews professional experts, producing a framework of what to consider when putting GRC systems in place: goals, purpose, stakeholders, requirements before implementation, critical success factors and barriers."),
+    "arena-2010": dict(
+        kind="article", authors=["Arena, M.", "Arnaboldi, M.", "Azzone, G."], year=2010, title="The organizational dynamics of enterprise risk management",
+        journal="Accounting, Organizations and Society", volume="35", issue="7", pages="659–675", doi="10.1016/j.aos.2010.07.003", topics=["erm"], pr=True, checked="2026-10-01",
+        note="A seven-year study of three companies showing ERM takes different forms as it meets existing organisational logics, experts and technologies, rather than being implemented in one standard way."),
+    "mikes-2015": dict(
+        kind="article", authors=["Mikes, A.", "Kaplan, R. S."], year=2015, title="When one size doesn't fit all: Evolving directions in the research and practice of enterprise risk management",
+        journal="Journal of Applied Corporate Finance", volume="27", issue="1", pages="37–40", doi="10.1111/jacf.12102", topics=["erm"], pr=False, checked="2026-10-01",
+        note="Drawing on a ten-year field project and over 250 interviews with senior risk officers, proposes a contingency theory of ERM: the right 'ERM mix' depends on the organisation's circumstances."),
 }

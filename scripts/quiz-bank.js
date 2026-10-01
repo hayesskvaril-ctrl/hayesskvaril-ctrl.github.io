@@ -395,6 +395,24 @@ window.QUIZ_BANK = [
       { q: "Takáts's 'crying wolf' model shows that very high fines for failing to report can:", options: ["Improve every report", "Lead banks to over-report, diluting the value of reports", "Stop all laundering", "Reduce reporting"], answer: 1,
         explain: "Defensive reporting floods the system with weakly suspicious reports.", page: "/compliance/aml-ctf-effectiveness.html" }
     ]
+  },
+  {
+    id: "grc",
+    title: "GRC systems",
+    questions: [
+      { q: "In a typical three-level risk taxonomy, where do an APRA-regulated entity's material risks usually sit?", options: ["Level 3, in business unit registers", "Level 1, as the top-level risk categories", "Only in the internal audit plan", "Outside the taxonomy"], answer: 1,
+        explain: "Level 1 categories usually match the material risks, and carry the risk appetite and metrics.", page: "/grc/risk-taxonomy-and-hierarchy.html" },
+      { q: "Which is the best-written Level 3 risk?", options: ["Cyber", "Staff turnover", "Unauthorised access to member data through a compromised administrator account", "Reputational damage"], answer: 2,
+        explain: "A good Level 3 risk describes an event; the others are a category, a cause and an impact.", page: "/grc/risk-taxonomy-and-hierarchy.html" },
+      { q: "What links risks and obligations to controls in a well-designed GRC system?", options: ["Control objectives", "The org chart", "Board minutes", "The audit plan"], answer: 0,
+        explain: "Risks and obligations map to control objectives, which are achieved by controls.", page: "/grc/control-framework-architecture.html" },
+      { q: "What does ‘assess once, use many times’ mean in GRC?", options: ["Each team tests its own copy of a control", "One control, recorded and tested once, provides evidence for every risk and obligation it supports", "Risks are assessed only once ever", "Only the board assesses risk"], answer: 1,
+        explain: "Reuse is the main benefit of integration.", page: "/grc/what-is-a-grc-system.html" },
+      { q: "What should normally come first when establishing a GRC system?", options: ["Buying a GRC platform", "Designing taxonomies, rating scales, the data model and the operating model", "Migrating all existing spreadsheets", "Writing procedures"], answer: 1,
+        explain: "Design comes before technology, so the tool fits the organisation rather than the other way around.", page: "/grc/establishing-a-grc-system.html" },
+      { q: "In a hybrid GRC model for a complex group, who usually owns each regulated entity's risk appetite?", options: ["The group's external auditor", "The regulated entity's own board, within group standards", "The GRC software vendor", "Nobody"], answer: 1,
+        explain: "Groups set standards and taxonomies, but each regulated entity's board keeps its own responsibilities.", page: "/grc/grc-for-complex-groups.html" }
+    ]
   }
 ];
 
@@ -527,5 +545,10 @@ window.QUIZ_PAGES = {
   "/governance/internal-audit-effectiveness.html": "Internal audit effectiveness: the research",
   "/risk-management/economics-of-cyber-risk.html": "The economics of cyber risk",
   "/risk-management/climate-risk-research.html": "Climate risk: the research",
-  "/compliance/aml-ctf-effectiveness.html": "Does AML/CTF work? The research"
+  "/compliance/aml-ctf-effectiveness.html": "Does AML/CTF work? The research",
+  "/grc/risk-taxonomy-and-hierarchy.html": "Risk taxonomy and the risk hierarchy",
+  "/grc/control-framework-architecture.html": "Control framework architecture",
+  "/grc/what-is-a-grc-system.html": "What is a GRC system?",
+  "/grc/establishing-a-grc-system.html": "Establishing a GRC system: a step-by-step roadmap",
+  "/grc/grc-for-complex-groups.html": "GRC for complex groups: design choices and the research"
 };

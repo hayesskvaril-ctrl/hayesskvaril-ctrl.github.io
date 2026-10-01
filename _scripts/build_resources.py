@@ -95,6 +95,7 @@ LEARNING = [
     ("Flashcards", "/learn/flashcards.html", "Beginner", "Glossary terms, key numbers and deadlines, and what each standard covers."),
     ("Browse by level", "/learn/by-level.html", "Beginner", "What Beginner, Intermediate and Advanced mean, and every page grouped by level."),
     ("Research library", "/learn/research-library.html", "Advanced", "The peer-reviewed research behind the Advanced pages, grouped by topic with plain-English summaries."),
+    ("GRC model builder", "/grc/model-builder.html", "Intermediate", "Choose an organisation profile and build an illustrative GRC model: frameworks, taxonomy, committees, data model and roadmap."),
     ("Advanced study program", "/learn/advanced-study-program.html", "Advanced", "A free 12-module, university-style course with learning outcomes, peer-reviewed readings, seminar and essay questions."),
     ("Learning pathways", "/learn/pathways.html", "Beginner", "Role-based reading orders with progress tracking."),
     ("Regulatory changes tracker", "/news/regulatory-tracker.html", "Intermediate", "Recent and upcoming changes with status and key dates."),

@@ -16,10 +16,31 @@ import re
 from html import unescape
 
 ROOT = Path(__file__).resolve().parent.parent
-LAST_REVIEWED = "30 September 2026"
+LAST_REVIEWED = "1 October 2026"
 
 # (slug, term, abbreviation or "", definition (HTML allowed), [(see label, url), ...])
 TERMS = [
+    ("grc", "Governance, risk and compliance (GRC)", "GRC",
+     "The integrated set of frameworks, people, processes, data and technology an organisation uses to set direction, manage risk and meet its obligations, so that all three share one set of objectives, risks, obligations, controls and evidence.",
+     [("What is a GRC system?", "/grc/what-is-a-grc-system.html")]),
+    ("risk-taxonomy", "Risk taxonomy", "",
+     "A structured, hierarchical classification of the types of risk an organisation faces (for example Level 1 categories, Level 2 sub-types and Level 3 specific risks), used consistently across the organisation so risks can be linked, compared and rolled up.",
+     [("Risk taxonomy and the risk hierarchy", "/grc/risk-taxonomy-and-hierarchy.html")]),
+    ("material-risk", "Material risk", "",
+     "A risk that could have a material impact on an organisation, its customers or members. CPS 220 requires an APRA-regulated entity's risk management framework to cover all material risks, which usually become the top level of its risk taxonomy.",
+     [("Risk taxonomy and the risk hierarchy", "/grc/risk-taxonomy-and-hierarchy.html"), ("CPS 220 Risk Management", "/standards/cps-220.html")]),
+    ("enterprise-risk", "Enterprise risk", "",
+     "One of the few most significant risks to an organisation's strategy, viability or reputation, viewed top-down across risk categories and usually owned by executives and overseen by the board.",
+     [("Risk taxonomy and the risk hierarchy", "/grc/risk-taxonomy-and-hierarchy.html")]),
+    ("control-objective", "Control objective", "",
+     "A statement of what must be true for a risk to be managed or an obligation to be met (for example, only authorised changes are made to pricing systems). Controls are mapped to control objectives, which are mapped to risks and obligations.",
+     [("Control framework architecture", "/grc/control-framework-architecture.html")]),
+    ("atomic-obligation", "Atomic obligation", "",
+     "An obligation broken down to a single, specific requirement that one owner can be accountable for and that can be tested, rather than a whole Act or standard.",
+     [("Obligations architecture", "/grc/obligations-architecture.html")]),
+    ("design-authority", "Design authority", "",
+     "A small group that owns a GRC system's taxonomies, methodology, data model and reference lists, and approves any changes to them, so the system stays consistent over time.",
+     [("Establishing a GRC system", "/grc/establishing-a-grc-system.html")]),
     ("agency-theory", "Agency theory", "",
      "A theory of governance that treats managers as agents of the owners (principals) who may pursue their own interests. It explains the use of monitoring, independent boards and incentive pay to align managers with owners.",
      [("Corporate governance theories", "/governance/corporate-governance-theories.html")]),

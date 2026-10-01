@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GRC technology | RiskLens Australia</title>
+<meta name="description" content="A vendor-neutral guide to GRC technology for complex organisations: platform modules, requirements, build versus buy, integration, data migration, configuration governance, security and common failure modes.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/grc/grc-technology.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GRC technology">
+<meta property="og:description" content="A vendor-neutral guide to GRC technology for complex organisations: platform modules, requirements, build versus buy, integration, data migration, configuration governance, security and common failure modes.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/grc/grc-technology.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/grc/" aria-current="page">GRC</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/grc/">GRC systems</a></li><li>GRC technology</li></ol></nav>
+
+  <h1>GRC technology: choosing and running the platform</h1>
+  <p class="summary">Technology makes an integrated GRC system practical at scale, but only if it follows the design. This guide covers the usual modules, how to set requirements, build versus buy, integration and data, and how to keep the platform healthy after go-live.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 1 October 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Choose technology after the design: requirements should come from your taxonomies, data model and operating model, not a vendor demonstration.</li>
+      <li>GRC platforms are usually modular. Start with the modules that support your highest-priority processes and data links.</li>
+      <li>Spreadsheets can work for small organisations, but they break down when many people must maintain linked records across entities.</li>
+      <li>Integration with HR, finance, IT service management and data sources is what turns a register into a live system.</li>
+      <li>After go-live, a design authority must control configuration changes, reference data and access, or the system drifts.</li>
+    </ul>
+  </aside>
+
+<h2>Typical modules</h2>
+  <p>Commercial GRC platforms (and in-house builds) are usually organised into modules that share common reference data. Names vary by product; this site does not recommend particular vendors.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Module</th><th>What it supports</th></tr></thead>
+    <tbody>
+      <tr><th>Risk management</th><td>Risk registers at every level, assessments (RCSA), ratings, treatment plans, risk profile against appetite</td></tr>
+      <tr><th>Compliance and obligations</th><td>Obligations library, applicability, attestations, compliance monitoring plans and results</td></tr>
+      <tr><th>Controls and testing</th><td>Control library, testing workflows and workpapers, assurance mapping</td></tr>
+      <tr><th>Incidents and breaches</th><td>Incident capture, triage, significance and reportability assessment, regulatory notification tracking, losses</td></tr>
+      <tr><th>Issues and actions</th><td>Issues from all sources, action plans, due dates, validation and closure</td></tr>
+      <tr><th>Key risk indicators</th><td>Indicator library, thresholds linked to appetite, data feeds, breach workflows</td></tr>
+      <tr><th>Regulatory change</th><td>Horizon scanning, impact assessment, change actions</td></tr>
+      <tr><th>Policies</th><td>Policy register, approvals, review dates, attestations</td></tr>
+      <tr><th>Operational resilience</th><td>Critical operations, tolerance levels, process and resource mapping, scenario testing (CPS 230)</td></tr>
+      <tr><th>Third parties</th><td>Service provider register, due diligence, contracts, monitoring, concentration and exit planning</td></tr>
+      <tr><th>Internal audit</th><td>Audit universe, plans, workpapers, findings (often a separate module with restricted access)</td></tr>
+      <tr><th>Reporting</th><td>Dashboards and committee packs built from the linked data</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Writing requirements</h2>
+  <p>Good requirements describe what the organisation must be able to do, using its own design. Examples:</p>
+  <ul>
+    <li>Hold a three-level risk taxonomy and enforce that every Level 3 risk links to exactly one Level 2 type.</li>
+    <li>Link controls many-to-many to risks, obligations, processes and critical operations, and roll control test results up to residual risk ratings.</li>
+    <li>Tag every record to legal entity and business unit, and produce each entity's risk profile and the group view from the same data.</li>
+    <li>Track regulatory notification deadlines from incident detection, with alerts.</li>
+    <li>Keep full version history and show the profile as at any past date.</li>
+    <li>Give different access to different users (for example restricting internal audit workpapers and whistleblower-related incidents).</li>
+    <li>Import and export in open formats, so the organisation is not locked in.</li>
+  </ul>
+
+  <h2>Build, buy or improve what you have</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Option</th><th>Strengths</th><th>Watch-outs</th></tr></thead>
+    <tbody>
+      <tr><th>Well-governed spreadsheets and shared registers</th><td>Cheap, flexible, quick to change</td><td>Links break, version control is weak, hard to scale across entities, poor audit trail</td></tr>
+      <tr><th>Configure a commercial GRC platform</th><td>Proven workflows, audit trails, vendor support, regulatory content options</td><td>Licence and implementation cost; risk of adopting vendor defaults instead of your design; customisation can make upgrades hard</td></tr>
+      <tr><th>Extend an enterprise platform you already use (for example IT service management or low-code tools)</th><td>Shared data with IT processes, existing skills and licences</td><td>Needs strong design discipline; GRC-specific features may need building</td></tr>
+      <tr><th>Build in-house</th><td>Fits exactly</td><td>Expensive to maintain, key-person risk, slow to change</td></tr>
+    </tbody>
+  </table></div>
+  <p>Whatever the choice, a GRC platform that holds critical operational and customer data may itself be an important system, and if it is provided by a third party it should go through the organisation's service provider and information security processes (see <a class="xref" href="/risk-management/third-party-risk.html">third-party risk</a> and <a class="xref" href="/standards/cps-234.html">CPS 234</a>).</p>
+
+  <h2>Integration points</h2>
+  <ul>
+    <li><strong>HR system:</strong> people, roles and reporting lines, so owners update automatically when people move.</li>
+    <li><strong>Organisation and entity master data:</strong> legal entities and cost centres from finance.</li>
+    <li><strong>IT service management:</strong> technology incidents, changes, assets and configuration items.</li>
+    <li><strong>Data sources for KRIs:</strong> operational systems and the data warehouse.</li>
+    <li><strong>Complaints, whistleblowing and fraud systems:</strong> with careful access control.</li>
+    <li><strong>Board and committee reporting tools:</strong> to publish packs from the linked data.</li>
+  </ul>
+
+  <h2>Data migration</h2>
+  <p>Migration is where integration succeeds or fails. Clean before you load: rationalise controls, rewrite risks as events, map obligations to the new structure and confirm owners. Load in waves, reconcile counts and ratings with the old registers, and get business owners to confirm their records. Budget generously: in large organisations this is often the biggest single workstream.</p>
+
+  <h2>After go-live</h2>
+  <ul>
+    <li>A <strong>design authority</strong> approves changes to taxonomies, reference lists, workflows and reports.</li>
+    <li>A small <strong>platform team</strong> supports users, maintains integrations and manages releases.</li>
+    <li><strong>Data quality checks</strong> run monthly: orphan records, missing owners, overdue reviews, risks without controls.</li>
+    <li><strong>Access reviews</strong> run at least yearly, as for any important system.</li>
+  </ul>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/grc/establishing-a-grc-system.html" data-label="Establishing a GRC system"><a href="/grc/establishing-a-grc-system.html">Establishing a GRC system</a></li>
+      <li data-href="/grc/grc-data-model.html" data-label="The GRC data model"><a href="/grc/grc-data-model.html">The GRC data model</a></li>
+      <li data-href="/standards/cps-234.html" data-label="CPS 234 Information Security"><a href="/standards/cps-234.html">CPS 234 Information Security</a></li>
+      <li data-href="/risk-management/third-party-risk.html" data-label="Third-party risk"><a href="/risk-management/third-party-risk.html">Third-party risk</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>APRA, <a href="https://www.apra.gov.au/standards/cps-234">Prudential Standard CPS 234 Information Security</a>.</li>
+      <li>APRA, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a>.</li>
+      <li>OCEG, <a href="https://www.oceg.org/what-is-grc/">What is GRC?</a> (OCEG's definition of GRC and its GRC Capability Model).</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 1 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/grc/">GRC systems</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<script src="/scripts/site.js" defer></script>
+<!-- FOOTER:END -->
+
+</body>
+</html>

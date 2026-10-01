@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obligations architecture | RiskLens Australia</title>
+<meta name="description" content="How complex organisations structure their compliance obligations in a GRC system: sources, atomic obligations, interpretation, applicability, mapping to risks and controls, regulatory change and attestation.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/grc/obligations-architecture.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Obligations architecture">
+<meta property="og:description" content="How complex organisations structure their compliance obligations in a GRC system: sources, atomic obligations, interpretation, applicability, mapping to risks and controls, regulatory change and attestation.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/grc/obligations-architecture.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/grc/" aria-current="page">GRC</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/grc/">GRC systems</a></li><li>Obligations architecture</li></ol></nav>
+
+  <h1>Obligations architecture: from the law to the control</h1>
+  <p class="summary">An obligations library breaks every law, standard, code and contract into specific, testable obligations, decides who they apply to, and links each one to the risks and controls that make sure it is met.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 16 minutes</span>
+    <span>Last reviewed: 1 October 2026</span>
+  </div>
+
+  <div class="definition">
+    <dl>
+      <dt>Obligation</dt><dd>A specific requirement the organisation must meet, from a law, regulation, prudential standard, industry code, licence condition, contract or internal policy.</dd>
+      <dt>Atomic obligation</dt><dd>An obligation broken down to a single requirement that one owner can be accountable for and that can be tested.</dd>
+    </dl>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>Structure obligations in layers: source, then atomic obligation, then the organisation's interpretation, then the controls that meet it.</li>
+      <li>Each atomic obligation needs an applicability decision (which entities, products and processes), an owner, a criticality rating and links to risks and controls.</li>
+      <li>Obligations link to the Level 2 compliance and conduct risks in the taxonomy, so a gap in meeting an obligation shows up in the risk profile.</li>
+      <li>Regulatory change is a process, not a list: scan, assess impact, update the library, change controls, and confirm the change is embedded.</li>
+      <li>Regulated entities often licence obligation content from legal publishers, but the interpretation and mapping must be the organisation's own.</li>
+    </ul>
+  </aside>
+
+<h2>The idea in plain English</h2>
+  <p>A large financial group may be subject to thousands of individual requirements from dozens of laws, prudential standards, regulatory guides and codes. "Comply with the Corporations Act" is not something anyone can own or test. An obligations architecture turns each source into specific obligations, decides who they apply to, and connects them to the controls that make sure they are met.</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 760 230" role="img" aria-labelledby="g3a-t g3a-d">
+      <title id="g3a-t">The obligations hierarchy</title>
+      <desc id="g3a-d">Five boxes in a row, linked by arrows. Source: an Act, regulation, prudential standard, guide, code, contract or policy. Obligation: one atomic requirement. Interpretation: what it means for this organisation. Control objective: what must be true. Controls: the activities that make it true. Beneath, the obligation also links to the compliance risk in the taxonomy, to an owner and accountable person, and to incidents and breaches.</desc>
+      <g font-size="12.5" text-anchor="middle">
+        <rect x="10" y="20" width="132" height="80" rx="8" fill="#1b3a5c"/><text x="76" y="52" fill="#fff" font-weight="bold">Source</text><text x="76" y="72" fill="#fff">Act, standard,</text><text x="76" y="88" fill="#fff">code, contract</text>
+        <rect x="162" y="20" width="132" height="80" rx="8" fill="#2563eb"/><text x="228" y="52" fill="#fff" font-weight="bold">Obligation</text><text x="228" y="72" fill="#fff">one atomic</text><text x="228" y="88" fill="#fff">requirement</text>
+        <rect x="314" y="20" width="132" height="80" rx="8" fill="#e8f0fe"/><text x="380" y="52" fill="#0f2942" font-weight="bold">Interpretation</text><text x="380" y="72" fill="#0f2942">what it means</text><text x="380" y="88" fill="#0f2942">for us</text>
+        <rect x="466" y="20" width="132" height="80" rx="8" fill="#e8f0fe"/><text x="532" y="52" fill="#0f2942" font-weight="bold">Control objective</text><text x="532" y="72" fill="#0f2942">what must</text><text x="532" y="88" fill="#0f2942">be true</text>
+        <rect x="618" y="20" width="132" height="80" rx="8" fill="#e8f0fe"/><text x="684" y="52" fill="#0f2942" font-weight="bold">Controls</text><text x="684" y="72" fill="#0f2942">what makes</text><text x="684" y="88" fill="#0f2942">it true</text>
+        <g stroke="#2563eb" stroke-width="2"><line x1="142" y1="60" x2="162" y2="60"/><line x1="294" y1="60" x2="314" y2="60"/><line x1="446" y1="60" x2="466" y2="60"/><line x1="598" y1="60" x2="618" y2="60"/></g>
+        <line x1="228" y1="100" x2="228" y2="140" stroke="#2563eb" stroke-width="2" stroke-dasharray="4 3"/>
+        <rect x="60" y="140" width="160" height="60" rx="8" fill="#e8f0fe"/><text x="140" y="166" fill="#0f2942">Compliance or conduct</text><text x="140" y="184" fill="#0f2942">risk (Level 2)</text>
+        <rect x="240" y="140" width="160" height="60" rx="8" fill="#e8f0fe"/><text x="320" y="166" fill="#0f2942">Owner and</text><text x="320" y="184" fill="#0f2942">accountable person</text>
+        <rect x="420" y="140" width="160" height="60" rx="8" fill="#e8f0fe"/><text x="500" y="166" fill="#0f2942">Incidents and</text><text x="500" y="184" fill="#0f2942">breaches</text>
+        <path d="M228,140 L140,140 M228,140 L320,140 M228,140 L500,140" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray="4 3"/>
+      </g>
+    </svg>
+    <figcaption>Each atomic obligation links forward to controls and sideways to risks, owners and incidents.</figcaption>
+  </figure>
+
+  <h2>The attributes of an obligation record</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Attribute</th><th>Why it matters</th></tr></thead>
+    <tbody>
+      <tr><th>Source and citation</th><td>Links back to the exact section, paragraph or clause, so the record can be checked when the source changes.</td></tr>
+      <tr><th>Plain-English summary</th><td>What the obligation requires, in words the business understands. Not a copy of the source text.</td></tr>
+      <tr><th>Interpretation</th><td>How the organisation reads the requirement, including any legal advice and assumptions. Changes here need approval.</td></tr>
+      <tr><th>Applicability</th><td>Which legal entities, licences, products, channels and processes it applies to. In a group this is often the hardest step.</td></tr>
+      <tr><th>Obligation owner</th><td>The first-line executive responsible for meeting it, ideally aligned to accountability statements under FAR where relevant.</td></tr>
+      <tr><th>Criticality</th><td>A rating of the consequence of not meeting it (for example penalty exposure, customer harm, licence impact). Drives monitoring intensity.</td></tr>
+      <tr><th>Regulator and regime</th><td>APRA, ASIC, AUSTRAC, OAIC, ACCC and so on; useful for reporting and for breach assessment.</td></tr>
+      <tr><th>Linked risks and controls</th><td>The Level 2 risk types and the controls that meet the obligation. An obligation with no controls is a gap.</td></tr>
+      <tr><th>Reporting and timing</th><td>Any reporting deadlines (for example breach reporting timeframes) so they can drive reminders and workflows.</td></tr>
+      <tr><th>Status and review date</th><td>Whether the record is current, under change, or retired, and when it was last confirmed.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Mapping: many to many</h2>
+  <p>The links are rarely one to one. One obligation may need several controls (for example a privacy obligation met by access controls, training and a data breach response plan). One control may help meet many obligations (a complaints system meets obligations under several regimes). The GRC system must hold these as many-to-many links, so that a failed control test shows every obligation it affects.</p>
+  <div class="table-wrap"><table>
+    <caption>Example mapping (illustrative)</caption>
+    <thead><tr><th>Obligation (summary)</th><th>Linked risk (Level 2)</th><th>Key controls</th></tr></thead>
+    <tbody>
+      <tr><td>Report certain significant breaches to the regulator within the required timeframe</td><td>Compliance: reporting obligations</td><td>Incident capture with breach triage; significance assessment by compliance; reporting deadline tracking; monthly reconciliation of incidents to breach register</td></tr>
+      <tr><td>Notify the regulator of a disruption to a critical operation outside tolerance</td><td>Operational: business disruption</td><td>Tolerance monitoring; incident escalation thresholds; notification procedure and on-call roster</td></tr>
+      <tr><td>Give retail clients disclosure documents before they acquire a product</td><td>Conduct: disclosure</td><td>Automated document delivery in onboarding; exception reporting; quarterly sample testing</td></tr>
+    </tbody>
+  </table></div>
+  <p class="small">See <a class="xref" href="/compliance/breach-reporting.html">breach reporting</a> and <a class="xref" href="/standards/cps-230.html">CPS 230</a> for the actual requirements and timeframes, which differ by regime.</p>
+
+  <h2>Regulatory change management</h2>
+  <ol class="path">
+    <li><strong>Horizon scanning</strong><p>Monitor regulators, legislation, consultations and industry bodies. Record each change against the affected sources.</p></li>
+    <li><strong>Impact assessment</strong><p>Which obligations, entities, products and processes are affected? Who owns the response? What is the deadline?</p></li>
+    <li><strong>Update the library</strong><p>Add, change or retire obligations and interpretations, with approval and version history.</p></li>
+    <li><strong>Change the controls</strong><p>Design new or changed controls, systems and procedures, tracked as actions with owners and dates.</p></li>
+    <li><strong>Confirm it is embedded</strong><p>Test the new controls after go-live, and close the change only when the evidence shows it works.</p></li>
+  </ol>
+
+  <h2>Attestation and monitoring</h2>
+  <p>Many organisations ask obligation and control owners to confirm periodically that obligations are met. Attestation is useful for accountability, but it is self-assessment: it should be supported by second-line compliance monitoring and testing (see <a class="xref" href="/compliance/compliance-monitoring-and-testing.html">compliance monitoring and testing</a>) and by internal audit, and weighted by obligation criticality.</p>
+
+  <div class="callout">
+    <h3>Content: buy, build or both?</h3>
+    <p>Legal publishers and some GRC vendors sell obligation libraries that are updated as laws change. They save a great deal of effort, but they describe the law, not your organisation. The applicability decisions, interpretations, owners and control mappings must still be your own, and someone must be accountable for them.</p>
+  </div>
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/tools/obligations-register-template.html" data-label="Obligations register template"><a href="/tools/obligations-register-template.html">Obligations register template</a></li>
+      <li data-href="/compliance/designing-a-compliance-program.html" data-label="Designing a compliance program"><a href="/compliance/designing-a-compliance-program.html">Designing a compliance program</a></li>
+      <li data-href="/compliance/interpreting-legislation.html" data-label="Interpreting legislation"><a href="/compliance/interpreting-legislation.html">Interpreting legislation</a></li>
+      <li data-href="/grc/control-framework-architecture.html" data-label="Control framework architecture"><a href="/grc/control-framework-architecture.html">Control framework architecture</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>International Organization for Standardization, <a href="https://www.iso.org/standard/75080.html">ISO 37301:2021 Compliance management systems</a> (summarised in our own words).</li>
+      <li>ASIC, <a href="https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/">Regulatory Guide 104 AFS licensing: Meeting the general obligations</a>.</li>
+      <li>APRA, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a>.</li>
+      <li>APRA, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 1 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/grc/">GRC systems</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<script src="/scripts/site.js" defer></script>
+<!-- FOOTER:END -->
+
+</body>
+</html>

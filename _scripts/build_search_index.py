@@ -14,7 +14,7 @@ OUT = ROOT / "scripts" / "search-index.js"
 SKIP_DIRS = {"_scripts", "assets", "scripts", "node_modules", ".git"}
 SKIP_PAGES = {"search/index.html", "404.html"}
 SECTIONS = {"": "Home", "foundations": "Foundations", "risk-management": "Risk management",
-            "compliance": "Compliance", "governance": "Governance", "standards": "Standards",
+            "compliance": "Compliance", "governance": "Governance", "grc": "GRC systems", "standards": "Standards",
             "sectors": "Sectors", "learn": "Learn", "tools": "Tools", "news": "News",
             "glossary": "Glossary", "about": "About"}
 MAX_TEXT = 6000

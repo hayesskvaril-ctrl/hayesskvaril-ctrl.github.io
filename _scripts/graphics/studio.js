@@ -177,6 +177,20 @@ const SCENES = {
     add(g, M.glass(accHex), [0, 1.35, 0], [0, -0.45, 0]);
     look([1.5, 2, 10], [0, 1.3, 0], 22);
   },
+  grc() { // governance, risk and compliance: three overlapping discs around a polished core
+    const cols = [0x5e5ce6, accHex, 0x30b0c7];
+    [[-0.75, 1.75], [0.75, 1.75], [0, 0.45]].forEach(([x, z], k) => add(new THREE.CylinderGeometry(1.35, 1.35, 0.16, 160), M.frost(cols[k]), [x, 0.5 + k * 0.17, z - 1.0]));
+    add(new THREE.SphereGeometry(0.42, 128, 96), M.polished(), [0, 1.05, 0.0]);
+    look([0, 6.5, 7.5], [0, 0.5, -0.3], 22);
+  },
+  modules() { // a model being assembled: a grid of tiles, some lifted into place
+    for (let i = 0; i < 4; i++) for (let j = 0; j < 4; j++) {
+      const lift = (i === 2 && j === 1) ? 1.1 : ((i === 1 && j === 2) ? 0.55 : 0);
+      const acc = (i === 2 && j === 1);
+      add(rbox(0.9, 0.22, 0.9, 0.08), acc ? M.accent(accHex) : ((i + j) % 3 === 0 ? M.glass(0xffffff) : M.ceramic((i + j) % 2 ? 0xfbfbfd : 0xededf1)), [(i - 1.5) * 1.02, 0.11 + lift, (j - 1.5) * 1.02]);
+    }
+    look([5, 5.5, 7], [0, 0.4, 0], 22);
+  },
   about() { // three overlapping glass discs
     const cols = [0xffffff, accHex, 0xffffff];
     [0, 1, 2].forEach(k => add(new THREE.CylinderGeometry(1.15, 1.15, 0.14, 128), k === 1 ? M.glass(accHex) : M.glass(0xf4f7ff), [k * 1.1 - 1.1, 1.3 + (k === 1 ? 0.45 : 0), -k * 0.15], [Math.PI / 2 - 0.15, 0, 0]));

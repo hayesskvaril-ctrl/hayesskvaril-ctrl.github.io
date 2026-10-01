@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The GRC data model: how everything links | RiskLens Australia</title>
+<meta name="description" content="An interactive map of every object in an integrated GRC system (strategy, appetite, risks, obligations, control objectives, controls, tests, issues, incidents, KRIs, critical operations, service providers and more) and how they link, with a worked example.">
+<!-- META:START -->
+<link rel="canonical" href="https://hayesskvaril-ctrl.github.io/grc/grc-data-model.html">
+<meta property="og:site_name" content="RiskLens Australia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The GRC data model: how everything links">
+<meta property="og:description" content="An interactive map of every object in an integrated GRC system (strategy, appetite, risks, obligations, control objectives, controls, tests, issues, incidents, KRIs, critical operations, service providers and more) and how they link, with a worked example.">
+<meta property="og:url" content="https://hayesskvaril-ctrl.github.io/grc/grc-data-model.html">
+<meta property="og:image" content="https://hayesskvaril-ctrl.github.io/assets/brand/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RiskLens Australia: risk, compliance and governance, explained">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="RiskLens Australia news" href="/news/feed.xml">
+<!-- META:END -->
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- HEADER:START -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">RiskLens <span>Australia</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/foundations/">Foundations</a></li>
+        <li><a href="/risk-management/">Risk</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/governance/">Governance</a></li>
+        <li><a href="/grc/" aria-current="page">GRC</a></li>
+        <li><a href="/standards/">Standards</a></li>
+        <li><a href="/sectors/">Sectors</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a class="nav-search" href="/search/" title="Search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg><span class="nav-search-label">Search</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- HEADER:END -->
+
+<main id="main" class="article">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/grc/">GRC systems</a></li><li>The GRC data model</li></ol></nav>
+
+  <h1>The GRC data model: how everything links</h1>
+  <p class="summary">The data model is what makes GRC integrated. It defines every type of record in the system and how each one links to the others, so that one control test, incident or KRI breach shows up everywhere it matters.</p>
+  <div class="page-meta">
+    <span class="level level-intermediate">Intermediate</span>
+    <span>About 18 minutes</span>
+    <span>Last reviewed: 1 October 2026</span>
+  </div>
+
+  <aside class="takeaways" aria-labelledby="kt">
+    <h2 id="kt">Key takeaways</h2>
+    <ul>
+      <li>A GRC system holds around twenty types of record, from strategy and appetite to controls, incidents and service providers. The value is in the links between them.</li>
+      <li>Control objectives are the bridge: risks and obligations link to control objectives, and control objectives link to controls.</li>
+      <li>Everything should be tagged to the organisation hierarchy (legal entity and business unit) and, where relevant, the process hierarchy, so any view can be cut by entity or process.</li>
+      <li>Follow a thread to test your design: from a strategic objective to a KRI breach to the board report, every step should be a link, not a manual reconciliation.</li>
+      <li>Good data design rules matter as much as the diagram: unique identifiers, one owner per record, version history, and controlled reference lists.</li>
+    </ul>
+  </aside>
+
+<h2>The map</h2>
+  <p>Choose any object to see what it links to and how. The colours show four groups: governance, organisation and operations, the core libraries, and the activities that keep the system current.</p>
+  <div class="grc-map-wrap">
+    <div>
+      <div class="grc-map" id="grc-map"></div>
+      <ul class="grc-legend" aria-label="Legend">
+        <li><i style="background:#1b3a5c"></i>Governance</li><li><i style="background:#e8f0fe"></i>Organisation and operations</li>
+        <li><i style="background:#2563eb"></i>Core libraries</li><li><i style="background:#fff;border-color:#2563eb"></i>Activities</li>
+      </ul>
+    </div>
+    <div>
+      <label for="grc-pick"><strong>Choose an object</strong></label>
+      <p><select id="grc-pick"><option value="">All objects</option></select> <button type="button" class="btn" id="grc-reset">Show all</button></p>
+      <div class="grc-detail" id="grc-detail" aria-live="polite"></div>
+    </div>
+  </div>
+  <p class="small">Some objects only apply to some organisations: critical operations (CPS 230), information assets (CPS 234), accountable persons (FAR) and the AML/CTF program (reporting entities). The <a class="xref" href="/grc/model-builder.html">GRC model builder</a> shows the version that fits a given organisation.</p>
+
+  <h2>Follow one thread</h2>
+  <p>The best test of a GRC design is to follow a single thread from the board to the front line and back. Here is one for a super fund (illustrative).</p>
+  <ol class="path">
+    <li><strong>Strategy and objectives</strong><p>"Deliver accurate, timely member services."</p></li>
+    <li><strong>Risk appetite</strong><p>Operational risk appetite: no disruption to critical operations beyond tolerance; metric: contributions allocated within 3 business days 99% of the time.</p></li>
+    <li><strong>Risk hierarchy</strong><p>Level 1 Operational → Level 2 Third party → Level 3 "Contributions processing disrupted because the administrator's system fails and recovery is not tested".</p></li>
+    <li><strong>Critical operation and provider</strong><p>The risk is linked to the critical operation "contributions processing" (with its tolerance levels) and to the administrator, a material service provider.</p></li>
+    <li><strong>Obligations</strong><p>The same control objective also supports obligations to allocate contributions correctly and to manage material service providers under CPS 230.</p></li>
+    <li><strong>Control objective and controls</strong><p>"Contributions continue to be processed within tolerance during a disruption", achieved by the administrator's tested recovery plan, a manual workaround and daily allocation monitoring.</p></li>
+    <li><strong>Testing</strong><p>Internal audit finds the recovery plan has not been tested end to end. The control is rated "needs improvement".</p></li>
+    <li><strong>Issue and action</strong><p>An issue is raised with the accountable executive, due in 90 days; the residual rating of the Level 3 risk rises automatically.</p></li>
+    <li><strong>KRI and incident</strong><p>Meanwhile the allocation KRI hits amber after an outage; the outage is logged as an incident, linked to the same risk and critical operation, and assessed for reportability.</p></li>
+    <li><strong>Reporting</strong><p>The board risk committee sees the operational risk profile against appetite, with the incident, the open issue and the KRI trend, all drawn from the linked records.</p></li>
+  </ol>
+
+  <h2>Design rules for the data</h2>
+  <ul>
+    <li><strong>Unique identifiers</strong> for every record (for example R-OPS-0142, C-0731, OB-ASIC-0099), never reused.</li>
+    <li><strong>One owner per record</strong>: a role and a person, kept current as people change jobs.</li>
+    <li><strong>Controlled reference lists</strong> for the taxonomy, rating scales, entities, processes and regulators, changed only through approval.</li>
+    <li><strong>Many-to-many links</strong> held as links, not as text in a comments field.</li>
+    <li><strong>Version history and effective dates</strong>, so the organisation can show what the risk profile looked like on any past date (useful for regulators and audits).</li>
+    <li><strong>Tag everything to the organisation hierarchy</strong>, so a group view and each legal entity's view come from the same data.</li>
+    <li><strong>Record the evidence</strong>, not just the conclusion: test workpapers, incident timelines and approvals.</li>
+  </ul>
+
+  <h2>Every relationship in the model</h2>
+  <!-- GRC-RELS:START (built by _scripts/build_grc_model.py) -->
+  <div class="table-wrap"><table>
+    <caption>Every relationship in the model, read left to right (for example "Board and committees approves Risk appetite and metrics").</caption>
+    <thead><tr><th>Object</th><th>Relationship</th><th>Linked object</th></tr></thead>
+    <tbody>
+      <tr><td>Board and committees</td><td>approves</td><td>Risk appetite and metrics</td></tr>
+      <tr><td>Board and committees</td><td>approves</td><td>Frameworks and policies</td></tr>
+      <tr><td>Board and committees</td><td>sets</td><td>Strategy and objectives</td></tr>
+      <tr><td>Strategy and objectives</td><td>threatened by enterprise risks</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Strategy and objectives</td><td>bounded by</td><td>Risk appetite and metrics</td></tr>
+      <tr><td>Risk appetite and metrics</td><td>sets tolerances for Level 1 risks</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Risk appetite and metrics</td><td>is measured by</td><td>Key risk indicators</td></tr>
+      <tr><td>Frameworks and policies</td><td>sets standards for</td><td>Control objectives</td></tr>
+      <tr><td>Frameworks and policies</td><td>creates internal obligations</td><td>Obligations</td></tr>
+      <tr><td>Accountable persons</td><td>is accountable for</td><td>Legal entities and business units</td></tr>
+      <tr><td>Accountable persons</td><td>owns</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Accountable persons</td><td>owns</td><td>Obligations</td></tr>
+      <tr><td>Legal entities and business units</td><td>performs</td><td>Processes</td></tr>
+      <tr><td>Legal entities and business units</td><td>is subject to</td><td>Obligations</td></tr>
+      <tr><td>Processes</td><td>makes up</td><td>Critical operations and tolerances</td></tr>
+      <tr><td>Processes</td><td>is exposed to</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Processes</td><td>uses</td><td>Information assets</td></tr>
+      <tr><td>Critical operations and tolerances</td><td>depends on</td><td>Service providers</td></tr>
+      <tr><td>Critical operations and tolerances</td><td>is exposed to</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Service providers</td><td>gives rise to</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Service providers</td><td>operates some</td><td>Controls</td></tr>
+      <tr><td>Information assets</td><td>is exposed to</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Risks (enterprise → Level 3)</td><td>is mitigated through</td><td>Control objectives</td></tr>
+      <tr><td>Obligations</td><td>is met through</td><td>Control objectives</td></tr>
+      <tr><td>Obligations</td><td>non-compliance is a</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Control objectives</td><td>is achieved by</td><td>Controls</td></tr>
+      <tr><td>Controls</td><td>operates in</td><td>Processes</td></tr>
+      <tr><td>Controls</td><td>is tested by</td><td>Control testing and assurance</td></tr>
+      <tr><td>Control testing and assurance</td><td>raises</td><td>Issues and actions</td></tr>
+      <tr><td>Issues and actions</td><td>fixes</td><td>Controls</td></tr>
+      <tr><td>Risk and control assessments</td><td>rates</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Risk and control assessments</td><td>rates</td><td>Controls</td></tr>
+      <tr><td>Key risk indicators</td><td>monitors</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Incidents, breaches and losses</td><td>is a crystallised</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Incidents, breaches and losses</td><td>reveals failures of</td><td>Controls</td></tr>
+      <tr><td>Incidents, breaches and losses</td><td>may breach</td><td>Obligations</td></tr>
+      <tr><td>Incidents, breaches and losses</td><td>may disrupt</td><td>Critical operations and tolerances</td></tr>
+      <tr><td>Incidents, breaches and losses</td><td>raises</td><td>Issues and actions</td></tr>
+      <tr><td>Regulatory change</td><td>updates</td><td>Obligations</td></tr>
+      <tr><td>Reporting</td><td>informs</td><td>Board and committees</td></tr>
+      <tr><td>Reporting</td><td>summarises</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>Reporting</td><td>includes</td><td>Incidents, breaches and losses</td></tr>
+      <tr><td>Reporting</td><td>includes</td><td>Control testing and assurance</td></tr>
+      <tr><td>AML/CTF program and risk assessment</td><td>implements</td><td>Obligations</td></tr>
+      <tr><td>AML/CTF program and risk assessment</td><td>assesses financial crime</td><td>Risks (enterprise → Level 3)</td></tr>
+      <tr><td>AML/CTF program and risk assessment</td><td>specifies</td><td>Controls</td></tr>
+    </tbody>
+  </table></div>
+  <!-- GRC-RELS:END -->
+
+  <section class="related" aria-labelledby="related-h">
+    <h2 id="related-h">Related topics</h2>
+    <ul>
+      <li data-href="/grc/risk-taxonomy-and-hierarchy.html" data-label="Risk taxonomy and the risk hierarchy"><a href="/grc/risk-taxonomy-and-hierarchy.html">Risk taxonomy and the risk hierarchy</a></li>
+      <li data-href="/grc/control-framework-architecture.html" data-label="Control framework architecture"><a href="/grc/control-framework-architecture.html">Control framework architecture</a></li>
+      <li data-href="/grc/model-builder.html" data-label="GRC model builder"><a href="/grc/model-builder.html">GRC model builder</a></li>
+      <li data-href="/risk-management/mapping-critical-operations.html" data-label="Mapping critical operations"><a href="/risk-management/mapping-critical-operations.html">Mapping critical operations</a></li>
+    </ul>
+  </section>
+
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources</h2>
+    <ol>
+      <li>OCEG, <a href="https://www.oceg.org/what-is-grc/">What is GRC?</a> (OCEG's definition of GRC and its GRC Capability Model).</li>
+      <li>APRA, <a href="https://www.apra.gov.au/standards/cps-220">Prudential Standard CPS 220 Risk Management</a>.</li>
+      <li>APRA, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a>.</li>
+      <li>APRA, <a href="https://www.apra.gov.au/standards/cps-234">Prudential Standard CPS 234 Information Security</a>.</li>
+      <li>COSO, <a href="https://www.coso.org/guidance-erm">Enterprise Risk Management: Integrating with Strategy and Performance</a>, and <a href="https://www.coso.org/guidance-on-ic">Internal Control: Integrated Framework</a>.</li>
+    </ol>
+  </section>
+
+  <p class="last-reviewed">Last reviewed: 1 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
+</main>
+
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="inner">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/foundations/">Foundations</a></li>
+      <li><a href="/risk-management/">Risk Management</a></li>
+      <li><a href="/compliance/">Compliance</a></li>
+      <li><a href="/governance/">Governance</a></li>
+      <li><a href="/grc/">GRC systems</a></li>
+      <li><a href="/standards/">Standards</a></li>
+      <li><a href="/sectors/">Sectors</a></li>
+      <li><a href="/learn/">Learn</a></li>
+      <li><a href="/tools/">Tools</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/start-here/">Start here</a></li>
+      <li><a href="/case-studies/">Case studies</a></li>
+      <li><a href="/tools/resource-library.html">Resource library</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/whats-new/">What's new</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <p class="disclaimer">RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.</p>
+    <p class="copyright">&copy; 2026 RiskLens Australia. Free to read, no login, no paywall.</p>
+  </div>
+</footer>
+<script src="/scripts/site.js" defer></script>
+<!-- FOOTER:END -->
+
+<script src="/scripts/grc-model-data.js"></script>
+<script src="/scripts/grc-links.js"></script>
+</body>
+</html>

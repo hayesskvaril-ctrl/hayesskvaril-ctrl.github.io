@@ -49,6 +49,12 @@ window.GLOSSARY_CARDS = [
 "def": "A picture showing, for each key risk, which assurance providers (management, risk and compliance, internal audit and external parties) check it, how much and how well, to reveal gaps and duplication."
 },
 {
+"slug": "atomic-obligation",
+"term": "Atomic obligation",
+"abbr": "",
+"def": "An obligation broken down to a single, specific requirement that one owner can be accountable for and that can be tested, rather than a whole Act or standard."
+},
+{
 "slug": "accc",
 "term": "Australian Competition and Consumer Commission",
 "abbr": "ACCC",
@@ -271,6 +277,12 @@ window.GLOSSARY_CARDS = [
 "def": "The overall attitude, structures and standards that shape how seriously controls are taken across an organisation, including tone from leaders, accountability and competence. It is the foundation component of the COSO internal control framework."
 },
 {
+"slug": "control-objective",
+"term": "Control objective",
+"abbr": "",
+"def": "A statement of what must be true for a risk to be managed or an obligation to be met (for example, only authorised changes are made to pricing systems). Controls are mapped to control objectives, which are mapped to risks and obligations."
+},
+{
 "slug": "control-operating-effectiveness",
 "term": "Control operating effectiveness",
 "abbr": "",
@@ -367,6 +379,12 @@ window.GLOSSARY_CARDS = [
 "def": "Rules (Part 7.8A of the Corporations Act, from 5 October 2021) requiring issuers to design financial products for a defined target market and take reasonable steps so that products reach the right consumers."
 },
 {
+"slug": "design-authority",
+"term": "Design authority",
+"abbr": "",
+"def": "A small group that owns a GRC system's taxonomies, methodology, data model and reference lists, and approves any changes to them, so the system stays consistent over time."
+},
+{
 "slug": "designated-service",
 "term": "Designated service",
 "abbr": "",
@@ -425,6 +443,12 @@ window.GLOSSARY_CARDS = [
 "term": "Emerging risk",
 "abbr": "",
 "def": "A new or changing risk that is not yet well understood or measured, such as a new technology, regulatory direction or climate-related change."
+},
+{
+"slug": "enterprise-risk",
+"term": "Enterprise risk",
+"abbr": "",
+"def": "One of the few most significant risks to an organisation's strategy, viability or reputation, viewed top-down across risk categories and usually owned by executives and overseen by the board."
 },
 {
 "slug": "erm",
@@ -491,6 +515,12 @@ window.GLOSSARY_CARDS = [
 "term": "Governance",
 "abbr": "",
 "def": "The system by which an organisation is directed, controlled and held to account: who decides what, how decisions are made and checked, and how those in charge answer for results."
+},
+{
+"slug": "grc",
+"term": "Governance, risk and compliance (GRC)",
+"abbr": "GRC",
+"def": "The integrated set of frameworks, people, processes, data and technology an organisation uses to set direction, manage risk and meet its obligations, so that all three share one set of objectives, risks, obligations, controls and evidence."
 },
 {
 "slug": "greenwashing",
@@ -653,6 +683,12 @@ window.GLOSSARY_CARDS = [
 "term": "Material personal interest",
 "abbr": "",
 "def": "A director's own interest in a matter being considered by the board that is significant enough to require disclosure under the Corporations Act, and in public companies generally prevents them voting on it."
+},
+{
+"slug": "material-risk",
+"term": "Material risk",
+"abbr": "",
+"def": "A risk that could have a material impact on an organisation, its customers or members. CPS 220 requires an APRA-regulated entity's risk management framework to cover all material risks, which usually become the top level of its risk taxonomy."
 },
 {
 "slug": "material-service-provider",
@@ -953,6 +989,12 @@ window.GLOSSARY_CARDS = [
 "term": "Risk register",
 "abbr": "",
 "def": "A record of identified risks, with their causes, consequences, ratings, controls, owners and any actions."
+},
+{
+"slug": "risk-taxonomy",
+"term": "Risk taxonomy",
+"abbr": "",
+"def": "A structured, hierarchical classification of the types of risk an organisation faces (for example Level 1 categories, Level 2 sub-types and Level 3 specific risks), used consistently across the organisation so risks can be linked, compared and rolled up."
 },
 {
 "slug": "risk-tolerance",

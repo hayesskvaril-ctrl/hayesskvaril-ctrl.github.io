@@ -28,13 +28,14 @@ ROOT = Path(__file__).resolve().parent.parent
 # The header skips "Home" (the brand links home) and uses HEADER_LABELS where given,
 # so all sections fit on one line; the footer shows every link with full labels.
 HEADER_SKIP = {"/"}
-HEADER_LABELS = {"/risk-management/": "Risk"}
+HEADER_LABELS = {"/risk-management/": "Risk", "/grc/": "GRC"}
 NAV = [
     ("Home", "/"),
     ("Foundations", "/foundations/"),
     ("Risk Management", "/risk-management/"),
     ("Compliance", "/compliance/"),
     ("Governance", "/governance/"),
+    ("GRC systems", "/grc/"),
     ("Standards", "/standards/"),
     ("Sectors", "/sectors/"),
     ("Learn", "/learn/"),
@@ -267,6 +268,10 @@ def apply_review(text: str, url: str) -> str:
 # url -> (image name, dark background?). Stamped after the page's "page-meta" line.
 IMAGES = {
     "/foundations/": ("foundations", False),
+    "/grc/": ("grc", False),
+    "/grc/what-is-a-grc-system.html": ("grc", False),
+    "/grc/model-builder.html": ("grc-builder", False),
+    "/grc/establishing-a-grc-system.html": ("grc-builder", False),
     "/risk-management/": ("risk-management", False),
     "/compliance/": ("compliance", False),
     "/governance/": ("governance", False),

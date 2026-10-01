@@ -328,6 +328,23 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Advanced study program: a 12-module, university-style course with learning outcomes, required readings and seminar questions
 - [x] Advanced quiz questions and flashcards for the new pages; update pathways and Browse by level
 
+## Phase 18 — GRC systems section (requested October 2026)
+
+**Why:** a key section on how complex organisations design and establish an integrated governance, risk and compliance (GRC) system, showing how every part links together, with a tool that builds an illustrative GRC model from an organisation profile.
+
+- [x] Section landing page (`/grc/`) with a one-page GRC map, learning path and nav entry
+- [x] What is a GRC system? (components, assess once use many times, maturity model)
+- [x] Risk taxonomy and the risk hierarchy (enterprise, material, Level 1–3, process level; roll-up; example taxonomy)
+- [x] Obligations architecture (source → atomic obligation → interpretation → control objective → controls; regulatory change)
+- [x] Control framework architecture (control objectives, common library, classification, key controls, roll-up)
+- [x] The GRC data model: interactive map of 22 objects and 46 relationships, worked thread, data design rules
+- [x] Governance and operating model (committees, three lines roles, policy hierarchy, escalation, annual calendar)
+- [x] Establishing a GRC system: seven-phase roadmap with deliverables, gates, roles, measures and pitfalls
+- [x] GRC technology (modules, requirements, build or buy, integration, migration, after go-live)
+- [x] GRC for complex groups (Advanced, university standard, with peer-reviewed research)
+- [x] GRC model builder tool (12 organisation types, 21 regimes, 15 risk categories; CSV/JSON/print export)
+- [x] Glossary terms, GRC quiz, GRC learning pathway, resource library entry, graphics
+
 ## 🔁 Recurring upkeep (never ticked off; do on schedule)
 
 - **Monthly:** run `python3 _scripts/run_checks.py` and follow `_scripts/UPKEEP.md`; publish a news item or roundup when there are material developments; check the regulatory tracker for items whose dates have passed and move them to "In force".
@@ -352,6 +369,8 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Expert review (Phases 16–17):** the upgraded Advanced pages in specialist areas (Setting CPS 230 tolerance levels, Mapping critical operations, Service provider exit and concentration, Breach significance analysis, Remediation calculations, Control testing sampling, Compliance monitoring and testing) and the new Internal audit effectiveness and AML/CTF effectiveness pages. Also the video scripts for the CPS 230, breach reporting clocks, remediation and unit pricing explainers.
 - **Idea:** short explainer videos for the new university-level pages (e.g. the Gordon-Loeb model, the enforcement pyramid, normal accidents versus high reliability).
 - **Idea:** more 3D graphics for individual topic pages (e.g. CPS 230, breach reporting, incident management), using the scene library in `_scripts/graphics/`.
+- **Expert review (Phase 18):** the GRC section, especially the risk hierarchy, establishment roadmap and the GRC model builder's regime defaults and document lists in `scripts/grc-builder-data.js`.
+- **Idea:** GRC model builder: add a "group" mode that builds separate entity models and a group overlay; add an obligations starter list per regime.
 - **Idea:** automatic monthly check of external links (to APRA, ASIC, legislation and other sources) using a free GitHub Actions link checker. External links can't be tested from the build environment, so broken source links would currently only be found at each page's yearly review.
 
 - **Next roundup:** after the final CPS 510 and the ASIC/APRA FAR changes (see Recurring upkeep for the cadence).

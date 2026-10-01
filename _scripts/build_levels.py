@@ -11,7 +11,7 @@ OUT = ROOT / "learn" / "by-level.html"
 REVIEWED = "28 September 2026"
 
 SECTIONS = [("foundations", "Foundations"), ("risk-management", "Risk management"), ("compliance", "Compliance"),
-            ("governance", "Governance"), ("standards", "Standards library"), ("sectors", "Sectors"),
+            ("governance", "Governance"), ("grc", "GRC systems"), ("standards", "Standards library"), ("sectors", "Sectors"),
             ("case-studies", "Case studies"), ("tools", "Tools and templates")]
 LEVELS = [
     ("Beginner", "What is it, and why does it matter?",

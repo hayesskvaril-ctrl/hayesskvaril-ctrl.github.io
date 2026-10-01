@@ -216,6 +216,25 @@ P = [
      ("/case-studies/optus-medibank-data-breaches.html", "What the 2022 data breaches taught everyone."),
      ("/learn/scenarios.html", "Try \"The spreadsheet sent to the wrong person\" and \"The administrator goes dark\"."),
      ("/learn/flashcards.html", "Practise the \"Key numbers and deadlines\" deck.")])]),
+ ("grc", "GRC systems and design",
+  "For risk, compliance and audit leaders designing or improving an integrated GRC system in a complex organisation.",
+  [("Beginner", [
+     ("/grc/what-is-a-grc-system.html", "What integrated GRC means and its five components."),
+     ("/foundations/three-lines-model.html", "Who does what across the three lines.")]),
+   ("Intermediate", [
+     ("/grc/risk-taxonomy-and-hierarchy.html", "Enterprise, material and Level 1 to 3 risks."),
+     ("/grc/obligations-architecture.html", "From the law to atomic obligations."),
+     ("/grc/control-framework-architecture.html", "Control objectives and a common control library."),
+     ("/grc/grc-data-model.html", "How every object links, in an interactive map."),
+     ("/grc/governance-and-operating-model.html", "Committees, roles, policy hierarchy and calendar."),
+     ("/grc/establishing-a-grc-system.html", "The seven-phase roadmap."),
+     ("/grc/grc-technology.html", "Choosing and running the platform.")]),
+   ("Advanced", [
+     ("/grc/grc-for-complex-groups.html", "Multi-entity, multi-regulator design and the research.")]),
+   ("Apply it", [
+     ("/grc/model-builder.html", "Build an illustrative GRC model for an organisation profile."),
+     ("/risk-management/assurance-mapping.html", "Map who checks what across the three lines."),
+     ("/learn/quizzes.html", "Take the GRC systems quiz.")])]),
  ("sectors", "Banking, insurance and other sectors",
   "For people working outside super, or who want to see how the rules differ across industries.",
   [("Intermediate", [
