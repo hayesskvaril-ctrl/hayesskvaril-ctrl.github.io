@@ -82,7 +82,6 @@ html = f'''<!DOCTYPE html>
   <h1>News and regulatory updates</h1>
   <p class="summary">What's changing in Australian risk, compliance and governance, explained in plain English, with links to the official sources.</p>
   <div class="page-meta">
-    <span class="level level-beginner">Beginner</span>
     <span>Latest update: {latest}</span>
   </div>
 
@@ -92,7 +91,6 @@ html = f'''<!DOCTYPE html>
 <a class="card" href="/news/regulatory-tracker.html">
   <h3>Regulatory changes tracker</h3>
   <p>Recent and upcoming changes from APRA, ASIC and others, with status and key dates.</p>
-  <span class="level level-intermediate">Intermediate</span>
 </a>
 <!-- /CARD -->
   </div>

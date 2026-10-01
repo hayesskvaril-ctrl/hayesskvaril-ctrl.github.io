@@ -61,7 +61,6 @@ html = f'''<!DOCTYPE html>
   <h1>Regulatory obligation checklists</h1>
   <p class="summary">Quick self-checks for six sets of obligations that financial services organisations commonly manage. Tick what's in place here, or download the spreadsheet version to record evidence, owners and actions.</p>
   <div class="page-meta">
-    <span class="level level-intermediate">Intermediate</span>
     <span>Interactive checklists and Excel download</span>
     <span>Last reviewed: {REVIEWED}</span>
   </div>

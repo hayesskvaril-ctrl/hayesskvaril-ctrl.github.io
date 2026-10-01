@@ -151,7 +151,6 @@ page = f'''<!DOCTYPE html>
   <h1>Advanced study program</h1>
   <p class="summary">A free, self-paced course at university level: 12 modules built from the site's Advanced pages, each with learning outcomes, required readings from peer-reviewed research, seminar questions and an essay question.</p>
   <div class="page-meta">
-    <span class="level level-advanced">Advanced</span>
     <span>Last reviewed: {REVIEWED}</span>
   </div>
 

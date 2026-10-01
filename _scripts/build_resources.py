@@ -128,7 +128,7 @@ items = []
 
 
 def item(kind, title, url, desc, level="", fmt="", found=None):
-    lv = f' <span class="level level-{level.lower()}">{escape(level)}</span>' if level else ""
+    lv = ""  # level tags are only shown on articles in the content sections, not on tools and resources
     fm = f' <span class="news-tag">{escape(fmt)}</span>' if fmt else ""
     fnd = ""
     if found:
@@ -204,7 +204,6 @@ html = f'''<!DOCTYPE html>
   <h1>Resource library</h1>
   <p class="summary">Every free template, interactive tool, self-check and learning resource on RiskLens Australia, in one list.</p>
   <div class="page-meta">
-    <span class="level level-beginner">Beginner</span>
     <span>{len(items)} resources</span>
     <span>Last reviewed: {REVIEWED}</span>
   </div>

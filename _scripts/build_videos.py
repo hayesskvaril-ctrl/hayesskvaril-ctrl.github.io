@@ -237,7 +237,6 @@ def main():
   <h1>Videos</h1>
   <p class="summary">Short explainer videos that bring the site's diagrams to life, plus official videos from Australian regulators.</p>
   <div class="page-meta">
-    <span class="level level-beginner">Beginner</span>
     <span>{len(vids)} explainers, {round(total / 60)} minutes in total</span>
     <span>Last reviewed: {REVIEWED}</span>
   </div>

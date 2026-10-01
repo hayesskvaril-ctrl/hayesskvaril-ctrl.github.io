@@ -54,7 +54,6 @@ html = f'''<!DOCTYPE html>
   <h1>Regulatory changes tracker</h1>
   <p class="summary">Recent and upcoming changes that matter for risk and compliance in Australian financial services, in one place, with the key dates and a link to the official source.</p>
   <div class="page-meta">
-    <span class="level level-intermediate">Intermediate</span>
     <span>{len(ENTRIES)} items</span>
     <span>Position as at {AS_AT}</span>
   </div>

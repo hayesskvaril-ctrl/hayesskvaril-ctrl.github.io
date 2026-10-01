@@ -36,7 +36,7 @@ The owner is **Nick**, a risk and compliance professional in the Australian supe
 Each content page should have:
 
 1. **Title and one-line summary.**
-2. **Level tag:** `Beginner`, `Intermediate` or `Advanced`. One page can have sections at different levels, but tag the page by its entry level.
+2. **Level tag:** `Beginner`, `Intermediate` or `Advanced`, on educational articles only: pages in Foundations, Risk management, Compliance, Governance, GRC systems, Standards, Sectors and Case studies. One page can have sections at different levels, but tag the page by its entry level. News, the regulatory tracker, tools and templates, learning hubs (quizzes, flashcards, pathways, videos), the glossary and site pages (About, Search, What's new, Start here) never carry level tags; `sync_layout.py` strips any that slip through, and card badges are taken from the linked page automatically.
 3. **Plain-English explanation first**, then the detail. Define terms the first time they're used and link them to the Glossary.
 4. **At least one diagram, model, table or worked example** where it helps. Build diagrams as inline SVG or HTML/CSS so they stay sharp and editable.
 5. **"Key takeaways"** box near the top or bottom.

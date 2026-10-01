@@ -108,7 +108,6 @@ html = f'''<!DOCTYPE html>
   <h1>What's new</h1>
   <p class="summary">New pages, notable updates and site improvements, newest first.</p>
   <div class="page-meta">
-    <span class="level level-beginner">Beginner</span>
     <span>Last updated: {fmt(today)}</span>
   </div>
 

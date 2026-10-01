@@ -700,7 +700,6 @@ def build():
   <h1>Glossary</h1>
   <p class="summary">Plain-English definitions of the core terms used in Australian risk management, compliance and governance.</p>
   <div class="page-meta">
-    <span class="level level-beginner">Beginner</span>
     <span>{len(terms)} terms</span>
     <span>Last reviewed: {LAST_REVIEWED}</span>
   </div>

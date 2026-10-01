@@ -267,7 +267,6 @@ def library(cited_on):
   <h1>Research library</h1>
   <p class="summary">The research behind the Advanced pages: {total} sources, {prn} of them peer-reviewed journal articles, each with a short summary in plain English.</p>
   <div class="page-meta">
-    <span class="level level-advanced">Advanced</span>
     <span>{total} sources</span>
     <span>Last reviewed: {REVIEWED}</span>
   </div>

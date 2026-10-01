@@ -120,6 +120,41 @@ def footer_html() -> str:
     )
 
 
+
+# Level tags (Beginner, Intermediate, Advanced) describe reading depth, so they belong only on
+# educational content: the pages in these sections. News, tools and templates, learning hubs,
+# the glossary and site pages never carry them; sync_layout strips any that slip through.
+LEVEL_SECTIONS = {"foundations", "risk-management", "compliance", "governance", "grc", "standards", "sectors", "case-studies"}
+NO_LEVEL_PAGES = {"/grc/model-builder.html"}
+META_DIV_RE = re.compile(r'<div class="page-meta">.*?</div>', re.S)
+LEVEL_SPAN_RE = re.compile(r'\s*<span class="level level-[a-z]+">[A-Za-z]+</span>(?:\s*<span>to</span>\s*<span class="level level-[a-z]+">[A-Za-z]+</span>)?')
+
+
+def has_levels(url: str) -> bool:
+    url = url.partition("#")[0]
+    return url.strip("/").split("/")[0] in LEVEL_SECTIONS and url not in NO_LEVEL_PAGES
+
+
+def apply_levels(text: str, url: str) -> str:
+    if has_levels(url):
+        return text
+    return META_DIV_RE.sub(lambda m: LEVEL_SPAN_RE.sub("", m.group(0)), text, count=1)
+
+
+def page_level(url: str) -> str:
+    """The single level of the page a card links to ('' for ranges, hubs and non-content pages)."""
+    path = url.partition("#")[0]
+    if not has_levels(path):
+        return ""
+    p = ROOT / path.lstrip("/")
+    if path.endswith("/") or path == "":
+        p = p / "index.html"
+    if not p.exists():
+        return ""
+    m = META_DIV_RE.search(p.read_text(encoding="utf-8"))
+    lv = re.findall(r'class="level level-[a-z]+">([A-Za-z]+)<', m.group(0)) if m else []
+    return lv[0] if len(lv) == 1 else ""
+
 # Related-topic links to pages that may not exist yet:
 #   <li data-href="/risk-management/operational-risk.html" data-label="Operational risk"></li>
 # becomes a real link once the page exists, or a "coming soon" label until then.
@@ -145,6 +180,9 @@ def render_card(m):
     start, url, level, inner, end = m.groups()
     h3 = re.search(r"<h3>.*?</h3>", inner, re.S).group(0)
     p = re.search(r"<p>.*?</p>", inner, re.S).group(0)
+    # the badge always matches the linked page's own level (none for hubs, tools and news)
+    level = page_level(url)
+    start = f'<!-- CARD href="{url}" level="{level}" -->'
     if target_exists(url.partition("#")[0]):
         tag = f'<span class="level level-{level.lower()}">{level}</span>' if level else ""
         body = f'<a class="card" href="{url}">\n  {h3}\n  {p}\n  {tag}\n</a>'
@@ -378,6 +416,7 @@ def main():
         new = apply_meta(text, page_url(rel))
         new = apply_review(new, page_url(rel))
         new = apply_art(new, page_url(rel))
+        new = apply_levels(new, page_url(rel))
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
         new = FOOTER_RE.sub(lambda m: footer_html(), new)
         new = REL_RE.sub(render_rel, new)

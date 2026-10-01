@@ -12,7 +12,7 @@ REVIEWED = "28 September 2026"
 
 SECTIONS = [("foundations", "Foundations"), ("risk-management", "Risk management"), ("compliance", "Compliance"),
             ("governance", "Governance"), ("grc", "GRC systems"), ("standards", "Standards library"), ("sectors", "Sectors"),
-            ("case-studies", "Case studies"), ("tools", "Tools and templates")]
+            ("case-studies", "Case studies")]
 LEVELS = [
     ("Beginner", "What is it, and why does it matter?",
      "No prior knowledge assumed. Explains the purpose, the big picture and the key vocabulary.",
@@ -82,9 +82,8 @@ def build():
   <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/learn/">Learn</a></li><li>Browse by level</li></ol></nav>
 
   <h1>Browse by level</h1>
-  <p class="summary">Every page carries a level tag. Here is what each level means, and every page grouped by level, so you can find material at the right depth.</p>
+  <p class="summary">Every article in the content sections carries a level tag. Here is what each level means, and every page grouped by level, so you can find material at the right depth.</p>
   <div class="page-meta">
-    <span class="level level-beginner">Beginner</span>
     <span>Last reviewed: {REVIEWED}</span>
   </div>
 

@@ -122,7 +122,6 @@ html = f'''<!DOCTYPE html>
   <h1>Start here</h1>
   <p class="summary">RiskLens Australia has over 120 pages, plus free templates and interactive tools. Pick the route that fits you and follow the steps in order.</p>
   <div class="page-meta">
-    <span class="level level-beginner">Beginner</span>
     <span>Last reviewed: {REVIEWED}</span>
   </div>
 
