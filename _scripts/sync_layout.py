@@ -127,7 +127,8 @@ def footer_html() -> str:
         "  </div>\n"
         "</footer>\n"
         '<script src="/scripts/site.js" defer></script>\n'
-        "<!-- FOOTER:END -->"
+        + (f'<script src="/scripts/count.js" data-goatcounter="https://{GOATCOUNTER_CODE}.goatcounter.com/count" async></script>\n' if GOATCOUNTER_CODE else "")
+        + "<!-- FOOTER:END -->"
     )
 
 
@@ -384,6 +385,27 @@ def apply_formats(text: str, url: str) -> str:
     return re.sub(r'(<aside class="takeaways".*?</aside>)', lambda m: m.group(1) + block, text, count=1, flags=re.S)
 
 
+# Visit counting (approved by the owner, October 2026). Cookie-free counts through GoatCounter's free
+# plan, sent by our own /scripts/count.js (no third-party script). Leave GOATCOUNTER_CODE empty until the
+# owner has created the free account; then set it to the account code (the "NAME" in NAME.goatcounter.com)
+# and run sync_layout: every page gets the script and the About page's privacy text switches over.
+GOATCOUNTER_CODE = ""
+PRIV_RE = re.compile(r"<!-- PRIVACY-COUNT:START -->.*?<!-- PRIVACY-COUNT:END -->", re.S)
+
+
+def apply_privacy(text: str, url: str) -> str:
+    if "<!-- PRIVACY-COUNT:START -->" not in text:
+        return text
+    if GOATCOUNTER_CODE:
+        body = ('<li>We count visits with <a href="https://www.goatcounter.com">GoatCounter</a>, a privacy-friendly '
+                'service that uses no cookies and collects nothing personal: only the page visited, the site that '
+                'linked to it and the screen width. Counting is skipped if your browser sends a "Do Not Track" '
+                'signal. There are still no accounts, forms, advertising or tracking cookies.</li>')
+    else:
+        body = '<li>There are no accounts, forms, cookies for tracking, analytics or advertising on this site.</li>'
+    return PRIV_RE.sub(lambda m: "<!-- PRIVACY-COUNT:START -->" + body + "<!-- PRIVACY-COUNT:END -->", text)
+
+
 # Email updates. Leave NEWSLETTER_URL empty until the newsletter exists; once it is set to the sign-up
 # page's address (e.g. a Substack https://NAME.substack.com), sync_layout shows a sign-up box on the home
 # page and the News page, and an "Email updates" link in the footer.
@@ -525,6 +547,7 @@ def main():
         new = apply_course(new, page_url(rel))
         new = apply_formats(new, page_url(rel))
         new = apply_subscribe(new, page_url(rel))
+        new = apply_privacy(new, page_url(rel))
         new = apply_art(new, page_url(rel))
         new = apply_levels(new, page_url(rel))
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)

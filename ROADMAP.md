@@ -396,6 +396,14 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [ ] Phases 13 to 134: work through `_scripts/depth_roadmap.py` in order (next: ASIC RG 277 Consumer remediation)
 - **Note:** apra.gov.au, legislation.gov.au and most source sites are blocked by this environment's network policy (October 2026); facts were checked via web search excerpts of the official documents. The owner can allow those domains in the environment's network settings.
 
+## Phase 21 — Earning money without a paywall (requested October 2026)
+
+- [x] Cookie-free visit counting, ready to switch on (`scripts/count.js`, `GOATCOUNTER_CODE` in `sync_layout.py`; About page privacy text switches automatically)
+- [ ] Owner: create a free GoatCounter account (no payment details), then tell Claude the code to switch it on
+- [ ] First premium pack: CPS 230 toolkit (built outside the repo; delivered to the owner to sell via Gumroad or Lemon Squeezy)
+- [ ] Owner checks: employer outside-work and conflicts policy; ABN; disclaimers on paid products
+- [ ] Later: paid newsletter tier, sponsorship policy and page, more packs
+
 ## Ideas / backlog
 
 Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.
