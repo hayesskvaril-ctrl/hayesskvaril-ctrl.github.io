@@ -400,7 +400,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 
 - [x] Cookie-free visit counting, ready to switch on (`scripts/count.js`, `GOATCOUNTER_CODE` in `sync_layout.py`; About page privacy text switches automatically)
 - [ ] Owner: create a free GoatCounter account (no payment details), then tell Claude the code to switch it on
-- [ ] First premium pack: CPS 230 toolkit (built outside the repo; delivered to the owner to sell via Gumroad or Lemon Squeezy)
+- [x] First premium pack drafted: CPS 230 toolkit v1 (Excel workbook with 9 linked tabs and dashboard; Word templates for policies, BCP, exit plan, board paper and notification checklist), built outside the repo and sent to the owner, 2 October 2026
+- [ ] Owner: review the toolkit, then list it on Gumroad or Lemon Squeezy (listing text supplied); then add a store link to the site
 - [ ] Owner checks: employer outside-work and conflicts policy; ABN; disclaimers on paid products
 - [ ] Later: paid newsletter tier, sponsorship policy and page, more packs
 
