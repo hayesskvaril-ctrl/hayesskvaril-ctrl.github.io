@@ -55,8 +55,8 @@
   <p class="summary">How super fund <a class="term" href="/glossary/#unit-price">unit prices</a> are calculated, how errors arise, why they move money unfairly between members, and how trustees detect, assess and fix them, with an error calculator.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 18 minutes</span>
-    <span>Last reviewed: 28 September 2026</span>
+    <span>About 26 minutes</span>
+    <span>Last reviewed: 2 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -183,6 +183,71 @@ Your browser can't play this video. <a href="/assets/video/unit-pricing-errors.m
     <li><strong>Fix the cause:</strong> strengthen the control that failed; see <a class="xref" href="/risk-management/root-cause-analysis.html">root cause analysis</a>.</li>
   </ol>
 
+  <h2>Worked example: quantifying an error</h2>
+  <p>This is an illustrative example for learning only; the figures are made up.</p>
+  <p>An option has 100 million units on issue. For five days the price used was $2.0040 when the correct price was $2.0000: overstated by 0.20%, below the commonly used 0.30% threshold. During those days, members invested $10 million and other members redeemed 2 million units.</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Group</th><th scope="col">What happened</th><th scope="col">Effect</th></tr></thead>
+      <tbody>
+        <tr><td>Joining members</td><td>Received 4,990,020 units ($10m ÷ $2.0040) instead of 5,000,000 ($10m ÷ $2.0000).</td><td>Short 9,980 units, worth $19,960 at the correct price.</td></tr>
+        <tr><td>Leaving members</td><td>Paid $4,008,000 (2m × $2.0040) instead of $4,000,000.</td><td>Overpaid $8,000, at the expense of the option.</td></tr>
+        <tr><td>Remaining members</td><td>Gained the joiners' shortfall and lost the leavers' overpayment.</td><td>Net gain of $11,960, which isn't theirs.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>A full correction would credit the joining members with the missing units, and restore the $8,000 overpaid to leaving members to the option from a source other than the remaining members (for example the trustee or a responsible service provider), because overpayments to exited members are often impractical to recover. Real errors are more complicated: many days, many transaction types, switches between options and members who have since left. A fund applying a 0.30% threshold might not correct this error at all, which is why the threshold question matters.</p>
+
+  <h2>Governing unit pricing</h2>
+  <p>RG 94 sets out good practice principles for product providers. In our own words, they come down to:</p>
+  <ul>
+    <li><strong>A documented unit pricing policy,</strong> approved by the board, covering methods, frequency, roles, tolerances and how errors are handled.</li>
+    <li><strong>Board and senior management oversight,</strong> including regular reporting on pricing incidents and near misses.</li>
+    <li><strong>Sound valuation, tax and fee accrual methods,</strong> applied consistently and reviewed periodically.</li>
+    <li><strong>Strong controls over outsourced pricing.</strong> Many funds rely on administrators and custodians to calculate prices. The trustee stays accountable, and under <a href="/standards/cps-230.html">CPS 230</a> these providers may be material service providers and unit pricing may be a critical operation.</li>
+    <li><strong>An error policy</strong> that sets out how errors are detected, quantified, corrected and compensated, applied consistently.</li>
+    <li><strong>Periodic independent review</strong> of the unit pricing framework.</li>
+  </ul>
+  <p>Unit pricing errors also raise breach reporting questions. An error that causes members material loss may be a reportable situation to ASIC (see <a href="/standards/asic-rg-78.html">RG 78</a>), and, for super, may need reporting to APRA. ASIC's 2026 penalty against Mercer Super for failing to report investigations into member services issues shows the cost of getting reporting wrong (see <a href="/sectors/superannuation.html">Superannuation trustee governance</a>).</p>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>Treating the 0.30% threshold as a safe harbour</strong> rather than a policy choice that has to fit members' best financial interests.</li>
+    <li><strong>Looking only at the error percentage,</strong> not the total dollars and the number of members affected.</li>
+    <li><strong>Missing related errors:</strong> the same faulty input affecting several options or several periods.</li>
+    <li><strong>Letting remaining members bear the cost</strong> of overpayments to members who left.</li>
+    <li><strong>Weak oversight of the administrator's pricing,</strong> relying on reports without testing.</li>
+    <li><strong>Fixing the price but not the control,</strong> so the same error recurs.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>How many pricing errors and near misses did we have this year, and what were the causes?</li>
+    <li>What threshold do we use for correcting errors, and why is it consistent with members' best financial interests?</li>
+    <li>Who bears the cost of correcting an error, and has that ever fallen on remaining members?</li>
+    <li>How do we oversee and test the unit prices our administrator or custodian calculates?</li>
+    <li>When was our unit pricing framework last independently reviewed?</li>
+  </ol>
+
+  <h2>Key dates</h2>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Date</th><th scope="col">What happened</th></tr></thead>
+      <tbody>
+        <tr><td>2005</td><td>ASIC and APRA release their first joint guide to good practice in unit pricing, after a series of large errors.</td></tr>
+        <tr><td>August 2008</td><td>Updated guide (now RG 94) released, including the option of not paying exited members compensation of less than $20.</td></tr>
+        <tr><td>1 January 2023</td><td>Revised SPS 530 strengthens valuation governance requirements for super trustees.</td></tr>
+        <tr><td>9 April 2026</td><td>RG 94 administratively updated.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>Is RG 94 binding?</summary><p>No. It is a joint ASIC and APRA guide to good practice. The binding obligations come from the law and standards it sits under, such as the best financial interests duty, SPS 530 and, for managed funds, the scheme constitution and the Corporations Act.</p></details>
+  <details><summary>Do members who have left get compensated?</summary><p>Generally yes, if they were disadvantaged. RG 94 recognises that a provider may choose not to pay exited members amounts below a small minimum (up to $20), because the cost of paying can exceed the amount.</p></details>
+  <details><summary>Are unit prices the same as the performance shown in reports?</summary><p>Reported returns are usually calculated from unit prices, so a pricing error can also affect reported performance, the performance test and fee calculations.</p></details>
+
   <h2 id="theory-and-research">Theory and research</h2>
   <h3>Prices set by an intermediary</h3>
   <p>Most investors in a pooled fund don't trade with each other; they trade with the fund at a price the fund sets. <a class="cite narrative" href="#ref-chalmers-2001">Chalmers et al. (2001)</a> showed the danger in this arrangement. When the price is calculated from stale underlying prices, for example overseas shares that last traded hours earlier, it becomes predictable. Anyone who can see that the "true" value has moved holds what the authors called a <em>wild card option</em>: the right to buy or sell at yesterday's value. Every such trade is a transfer from the fund's other investors.</p>
@@ -272,14 +337,16 @@ Your browser can't play this video. <a href="/assets/video/unit-pricing-errors.m
   <section class="sources" aria-labelledby="sources-h">
     <h2 id="sources-h">Sources</h2>
     <ol>
-      <li>Australian Securities and Investments Commission and Australian Prudential Regulation Authority, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-94-unit-pricing-guide-to-good-practice/">Regulatory Guide 94 Unit pricing: Guide to good practice</a> (2008, updated April 2026).</li>
+      <li>Australian Securities and Investments Commission and Australian Prudential Regulation Authority, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-94-unit-pricing-guide-to-good-practice/">Regulatory Guide 94 Unit pricing: Guide to good practice</a> (2008, updated 9 April 2026; <a href="https://download.asic.gov.au/media/zn0cv11h/rg94-published-august-2008-20260409.pdf">PDF</a>).</li>
+      <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2005-releases/05-344-apra-and-asic-release-guide-to-good-practice-in-unit-pricing">05-344 APRA and ASIC release guide to good practice in unit pricing</a> (2005).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a>.</li>
       <li>Australian Securities and Investments Commission, <a href="https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-277-consumer-remediation/">Regulatory Guide 277 Consumer remediation</a>.</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-530">Prudential Standard SPS 530 Investment Governance</a> (valuation governance).</li>
       <li><em>Superannuation Industry (Supervision) Act 1993</em> (Cth), s 52 (covenants, including the best financial interests duty), on the <a href="https://www.legislation.gov.au/">Federal Register of Legislation</a>.</li>
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 2 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/sectors/unit-pricing.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Fsectors%2Funit-pricing.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

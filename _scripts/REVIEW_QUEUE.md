@@ -21,6 +21,8 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 11a. ~~/standards/sps-515.html~~ signed off 2 October 2026
 11b. /standards/sps-530.html (deep review done 2 October 2026: valuation triggers example, liquidity, 2026 proposals)
 
+- /sectors/fund-mergers-and-successor-fund-transfers.html (deep review done 2 October 2026: merger process table and common mistakes)
+- /sectors/unit-pricing.html (deep review done 2 October 2026: worked error example and who bears the cost)
 ## Round 2: deeper practice pages
 11. /compliance/breach-significance-analysis.html (worked cases)
 12. /compliance/remediation-calculations.html

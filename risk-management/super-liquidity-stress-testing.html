@@ -55,8 +55,8 @@
   <p class="summary">Why <a class="term" href="/glossary/#liquidity-risk">liquidity risk</a> in super is distinctive, how the <a class="term" href="/glossary/#denominator-effect">denominator effect</a> and stale valuations catch funds out, and how to design stress tests that matter, with a simulator.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 19 minutes</span>
-    <span>Last reviewed: 28 September 2026</span>
+    <span>About 26 minutes</span>
+    <span>Last reviewed: 2 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -133,7 +133,7 @@ Your browser can't play this video. <a href="/assets/video/denominator-effect.mp
       <thead><tr><th scope="col">Driver</th><th scope="col">How it creates liquidity pressure</th></tr></thead>
       <tbody>
         <tr><td>Member switching</td><td>Members can switch from growth options to cash, often after markets have fallen. The option must sell assets to meet switches, just when prices are low.</td></tr>
-        <tr><td>Rollovers</td><td>Members can move to another fund, and rollover requests generally must be processed within short legal timeframes.</td></tr>
+        <tr><td>Rollovers</td><td>Members can move to another fund. A complete rollover request must generally be actioned as soon as practicable and within 3 business days (SIS Regulations reg 6.34A), so funds can't wait for markets to recover.</td></tr>
         <tr><td>Currency hedging</td><td>If the Australian dollar falls sharply, hedging contracts on foreign assets can require large cash settlements, at the same time as markets fall.</td></tr>
         <tr><td>Policy shocks</td><td>Government decisions can create sudden outflows. The COVID-19 early release scheme paid about $36.4 billion from super accounts to 4.8 million applications in 2020.</td></tr>
         <tr><td>Unlisted assets</td><td>Property, infrastructure and private equity or credit can't be sold quickly, and their valuations update more slowly than listed markets.</td></tr>
@@ -176,6 +176,71 @@ Your browser can't play this video. <a href="/assets/video/denominator-effect.mp
     <li><strong>Management actions:</strong> list them in advance (rebalancing, using cash buffers, pausing some processes where the law allows), with triggers and decision rights. Don't assume actions that would harm remaining members.</li>
     <li><strong>Metrics and limits:</strong> liquidity coverage under stress, unlisted asset ranges and time to restore strategic allocation, each linked to the <a class="term" href="/glossary/#risk-appetite-statement">risk appetite statement</a>.</li>
   </ol>
+
+  <h2>Worked example: a liquidity coverage check</h2>
+  <p>This is an illustrative example for learning only; the figures and haircuts are made up and each trustee sets its own.</p>
+  <p>A $10 billion Balanced option is stress tested over 30 days. The test asks whether liquid assets, after realistic discounts for selling in a crisis, cover the stressed outflows.</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Item</th><th scope="col">Assumption</th><th scope="col">Amount</th></tr></thead>
+      <tbody>
+        <tr><td>Cash</td><td>Available immediately</td><td>$500m</td></tr>
+        <tr><td>Listed equities and bonds</td><td>$6.5bn after a 30% fall in equities; 60% sellable within 30 days at a 2% discount</td><td>$3,822m</td></tr>
+        <tr><td>Unlisted assets</td><td>Not sellable within 30 days</td><td>$0</td></tr>
+        <tr><th scope="row">Liquid resources in stress</th><td></td><td><strong>$4,322m</strong></td></tr>
+        <tr><td>Switches out</td><td>5% of the option</td><td>$500m</td></tr>
+        <tr><td>Rollovers and benefit payments</td><td>3% of the option</td><td>$300m</td></tr>
+        <tr><td>Currency hedge settlements</td><td>After a sharp fall in the Australian dollar</td><td>$400m</td></tr>
+        <tr><td>Capital calls on unlisted commitments</td><td>Managers call committed money</td><td>$150m</td></tr>
+        <tr><th scope="row">Stressed outflows</th><td></td><td><strong>$1,350m</strong></td></tr>
+        <tr><th scope="row">Coverage ratio</th><td>Resources ÷ outflows</td><td><strong>about 3.2 times</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The option passes comfortably, but that isn't the whole story. Paying $1.35 billion from liquid assets while unlisted values lag pushes the unlisted share up, as the simulator above shows, and a run of switching over several months would compound it. Good tests look at the path over time, the strategy limits and fairness between members, not just one ratio.</p>
+
+  <h2>What APRA has found</h2>
+  <p>APRA's December 2024 thematic review of 23 trustees found that 12 needed material improvement in unlisted asset valuation governance, liquidity risk management or both. On liquidity, the weaknesses were in:</p>
+  <ul>
+    <li><strong>trigger frameworks</strong> that warn of potential liquidity stress;</li>
+    <li><strong>managing the liquidity risks of unlisted assets;</strong> and</li>
+    <li><strong>liquidity action plans</strong> that say what the trustee will do when stress arrives.</li>
+  </ul>
+  <p>APRA's May 2026 System Risk Outlook noted that about 16% of APRA-regulated super investments are in private markets, around half offshore, and that funds are closely monitoring unlisted valuations and member switching. See <a href="/standards/sps-530.html">SPS 530</a> for APRA's wider findings and its 2026 proposals.</p>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>One-year horizons only,</strong> missing the days and weeks when liquidity actually runs out.</li>
+    <li><strong>Behaviour assumptions taken from calm periods,</strong> not from March 2020 or worse.</li>
+    <li><strong>Ignoring currency hedging and capital calls,</strong> which can need cash at the worst moment.</li>
+    <li><strong>Assuming listed assets are always liquid,</strong> even in thin or stressed markets.</li>
+    <li><strong>Triggers with no pre-agreed actions</strong> or decision rights.</li>
+    <li><strong>Testing liquidity separately from valuation,</strong> so the fairness problem of stale prices is missed.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>In our worst stress scenario, how long could each option pay members before needing to sell assets at a discount?</li>
+    <li>Where do our switching and rollover assumptions come from, and how did members behave in March 2020?</li>
+    <li>How far could unlisted assets drift above their strategic ranges, and how long would it take to return?</li>
+    <li>What are our liquidity triggers, and what exactly happens when one is hit?</li>
+    <li>How do our stress results feed into investment strategy and the valuation policy?</li>
+  </ol>
+
+  <h2>Key dates</h2>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Date</th><th scope="col">What happened</th></tr></thead>
+      <tbody>
+        <tr><td>March 2020</td><td>COVID-19 market falls, a sharp drop in the Australian dollar, and heavy switching test funds' liquidity.</td></tr>
+        <tr><td>20 April to 31 December 2020</td><td>COVID-19 early release scheme: about $36.4 billion paid on 4.8 million applications (to 31 January 2021).</td></tr>
+        <tr><td>1 January 2023</td><td>Revised SPS 530 requires a liquidity management plan and liquidity stress testing within an annual stress testing program.</td></tr>
+        <tr><td>December 2024</td><td>APRA publishes its thematic review of unlisted valuation and liquidity risk management.</td></tr>
+        <tr><td>1 July 2026</td><td>Payday Super: contributions arrive with each pay cycle rather than quarterly, changing inflow patterns funds rely on.</td></tr>
+      </tbody>
+    </table>
+  </div>
 
   <h2 id="theory-and-research">Theory and research</h2>
   <h3>First-mover advantage and run risk</h3>
@@ -271,10 +336,12 @@ Your browser can't play this video. <a href="/assets/video/denominator-effect.mp
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-530">Prudential Standard SPS 530 Investment Governance</a> and Prudential Practice Guide SPG 530.</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/governance-unlisted-asset-valuation-and-liquidity-risk-management">Governance of Unlisted Asset Valuation and Liquidity Risk Management in Superannuation</a> (December 2024).</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/covid-19-early-release-scheme-issue-36">COVID-19 Early Release Scheme, Issue 36</a> (final data to 31 January 2021).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apras-system-risk-outlook-may-2026">APRA's System Risk Outlook, May 2026</a>.</li>
+      <li><em>Superannuation Industry (Supervision) Regulations 1994</em> (Cth), <a href="https://classic.austlii.edu.au/au/legis/cth/consol_reg/sir1994582/s6.34a.html">reg 6.34A Timeframes for rollovers and transfers</a>.</li>
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 2 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/super-liquidity-stress-testing.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Fsuper-liquidity-stress-testing.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

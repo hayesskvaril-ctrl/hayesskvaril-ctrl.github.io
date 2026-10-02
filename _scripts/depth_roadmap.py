@@ -126,6 +126,18 @@ DONE = {
         "and the SIS Act investment covenant, due diligence, monitoring, the valuation policy, liquidity "
         "management and stress testing; APRA's Canva and unlisted valuation reviews; the June 2026 proposals "
         "after Shield and First Guardian; a revaluation trigger example; board questions and FAQs."),
+    "/sectors/superannuation.html": ("2 October 2026",
+        "Every claim re-checked; added insurance in super (inactive and low-balance rules, claims handling and ASIC's Report 831), recent enforcement (AustralianSuper, Cbus, Australian Ethical, Mercer, platform trustees), a key dates table, Payday Super and Division 296 updates, the June 2026 CPS 510 consultation, common weak spots, board questions and FAQs."),
+    "/standards/asic-rg-97.html": ("2 October 2026",
+        "Re-checked against ASIC's current material; added the SIS Act fee rules (exit fee ban, 3% cap, MySuper fees, advice fees), common mistakes, fee governance review questions, a key dates table, FAQs, and updated the stamp duty change (CS 39) and the 2026–27 RG 97 review."),
+    "/sectors/fund-mergers-and-successor-fund-transfers.html": ("2 October 2026",
+        "Re-checked; added the merger process stage by stage with risks and controls, merger tax relief (Division 310, permanent since 2020), combined performance test histories, the ACCC's 2026 merger regime and its exemption for member transfers, common mistakes, board questions and key dates."),
+    "/sectors/unit-pricing.html": ("2 October 2026",
+        'Re-checked (RG 94 updated April 2026); added a worked error calculation for joining, leaving and remaining members, how unit pricing is governed (RG 94 principles in our own words, outsourced pricing and CPS 230), breach reporting links, common mistakes, board questions, key dates and FAQs.'),
+    "/risk-management/super-liquidity-stress-testing.html": ("2 October 2026",
+        "Re-checked (early release figures, the 3-business-day rollover rule); added a worked 30-day liquidity coverage check, APRA's December 2024 liquidity findings and 2026 private markets data, common mistakes, board questions and key dates including Payday Super."),
+    "/sectors/behavioural-economics-of-super.html": ("2 October 2026",
+        'Re-checked; added how Australian super is built around defaults (the 12% guarantee, MySuper, stapling, the performance test, YourSuper, insurance defaults, the retirement income covenant), what it means for trustees, and key dates.'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

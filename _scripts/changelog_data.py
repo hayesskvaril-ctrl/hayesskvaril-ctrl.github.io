@@ -8,6 +8,12 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-02', '/sectors/behavioural-economics-of-super.html', 'Behavioural economics of super page expanded: how the system is built around defaults, what it means for trustees, and key dates.'),
+    ('2026-10-02', '/risk-management/super-liquidity-stress-testing.html', "Liquidity stress testing page expanded: a worked 30-day coverage check, APRA's liquidity findings, private markets data, common mistakes, board questions and key dates."),
+    ('2026-10-02', '/sectors/unit-pricing.html', 'Unit pricing page expanded: a worked error calculation, how unit pricing is governed, outsourced pricing under CPS 230, common mistakes, board questions, key dates and FAQs.'),
+    ('2026-10-02', '/sectors/fund-mergers-and-successor-fund-transfers.html', 'Fund mergers page expanded: the merger process stage by stage, tax relief, performance test histories, the 2026 ACCC merger regime, common mistakes, board questions and key dates.'),
+    ('2026-10-02', '/standards/asic-rg-97.html', "RG 97 page expanded: super fee rules beyond disclosure, common mistakes, fee governance questions, key dates, FAQs, and the latest on stamp duty averaging and ASIC's 2026–27 review."),
+    ('2026-10-02', '/sectors/superannuation.html', 'Superannuation trustee governance page expanded: insurance in super, recent enforcement cases, a key dates table, Payday Super and Division 296, board questions and FAQs.'),
     ("2026-10-02", "/standards/sps-530.html", "SPS 530 page expanded in depth: every requirement explained, valuation policy and revaluation triggers, liquidity and stress testing, APRA's 2023 to 2026 findings on unlisted valuations, and APRA's June 2026 proposals after the Shield and First Guardian collapses."),
     ("2026-10-02", "", "Tables in articles now line up with the text column on large screens."),
     ("2026-10-02", "/standards/sps-515.html", "SPS 515 page rewritten in depth: every requirement of the 2025 version explained, APRA's crackdown on super fund spending and what it found, how SPS 515 fits with the SIS Act, a worked example, common mistakes, board questions, FAQs and a timeline."),
