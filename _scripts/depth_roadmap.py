@@ -121,6 +121,11 @@ DONE = {
         "expenditure management, monitoring and triggers, the business performance review, the outcomes "
         "assessment, the retirement income strategy and transfer planning; APRA's expenditure crackdown and "
         "findings; a worked example; common mistakes; board questions; FAQs and a timeline."),
+    "/standards/sps-530.html": ("2 October 2026",
+        "Expanded requirement by requirement: the framework and its three-yearly independent review, objectives "
+        "and the SIS Act investment covenant, due diligence, monitoring, the valuation policy, liquidity "
+        "management and stress testing; APRA's Canva and unlisted valuation reviews; the June 2026 proposals "
+        "after Shield and First Guardian; a revaluation trigger example; board questions and FAQs."),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

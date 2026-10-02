@@ -389,8 +389,9 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 
 - [x] Public deep review roadmap: `_scripts/depth_roadmap.py` (tracks, order, DONE list with dates and what changed) built by `build_site_roadmap.py` into `/about/roadmap.html` (percentage bar, collapsible tracks) and a home-page panel (percentage, phase n of N, now, just finished, up next). The builder fails if an article is missing from the tracks.
 - **Each phase:** re-check every fact against the current official source; set out requirements section by section; how it fits with related rules; what regulators have found (letters, reviews, enforcement); worked example and diagrams; common mistakes, checklist or board questions, FAQs; key dates; fuller sources. Then add the page to `DONE`, update "Last reviewed", add a changelog entry, flag specialist pages in `REVIEW_QUEUE.md`, rebuild and publish.
-- [x] Phase 1: SPS 515 Strategic Planning and Member Outcomes (2 October 2026)
-- [ ] Phases 2 to 134: work through `_scripts/depth_roadmap.py` in order (next: SPS 530)
+- [x] Phase 1: SPS 515 Strategic Planning and Member Outcomes (2 October 2026; expert reviewed)
+- [x] Phase 2: SPS 530 Investment Governance (2 October 2026)
+- [ ] Phases 3 to 134: work through `_scripts/depth_roadmap.py` in order (next: Superannuation trustee governance)
 - **Note:** apra.gov.au, legislation.gov.au and most source sites are blocked by this environment's network policy (October 2026); facts were checked via web search excerpts of the official documents. The owner can allow those domains in the environment's network settings.
 
 ## Ideas / backlog

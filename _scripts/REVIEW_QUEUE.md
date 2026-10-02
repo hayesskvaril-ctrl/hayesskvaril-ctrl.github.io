@@ -19,6 +19,7 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 9. /sectors/superannuation.html (covenants, SPS list, performance test, fee governance)
 10. /standards/asic-rg-97.html (fees and costs disclosure)
 11a. ~~/standards/sps-515.html~~ signed off 2 October 2026
+11b. /standards/sps-530.html (deep review done 2 October 2026: valuation triggers example, liquidity, 2026 proposals)
 
 ## Round 2: deeper practice pages
 11. /compliance/breach-significance-analysis.html (worked cases)

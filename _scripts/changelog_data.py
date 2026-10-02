@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-10-02", "/standards/sps-530.html", "SPS 530 page expanded in depth: every requirement explained, valuation policy and revaluation triggers, liquidity and stress testing, APRA's 2023 to 2026 findings on unlisted valuations, and APRA's June 2026 proposals after the Shield and First Guardian collapses."),
     ("2026-10-02", "", "Tables in articles now line up with the text column on large screens."),
     ("2026-10-02", "/standards/sps-515.html", "SPS 515 page rewritten in depth: every requirement of the 2025 version explained, APRA's crackdown on super fund spending and what it found, how SPS 515 fits with the SIS Act, a worked example, common mistakes, board questions, FAQs and a timeline."),
     ("2026-10-02", "/about/roadmap.html", "New deep review roadmap: every article is being re-checked line by line and expanded, one phase per article, with progress shown on the home page."),
