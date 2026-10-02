@@ -421,9 +421,9 @@
    "/compliance/disclosure-obligations.html"
   ],
   "slug": "dominant-message",
-  "specHash": "9b7b163e393e",
+  "specHash": "c17694c80c38",
   "duration": 75,
-  "bytes": 2025669,
+  "bytes": 2042274,
   "transcript": [
    {
     "start": 0,
@@ -441,7 +441,7 @@
    },
    {
     "start": 13,
-    "end": 29.2,
+    "end": 29,
     "visual": "Four cards in sequence: audience, message, reaction and truth.",
     "captions": [
      "Identify the audience, then the message it receives, including what is implied and what dominates.",
@@ -449,8 +449,8 @@
     ]
    },
    {
-    "start": 29.2,
-    "end": 43.2,
+    "start": 29,
+    "end": 43,
     "visual": "A mock social media ad with a large headline, Australia's top performing Balanced fund, 11.2% returns, and tiny fine print. A highlight marks the headline as the dominant message and the fine print as easily missed.",
     "captions": [
      "Here the headline says the fund is the top performer. The qualification is in tiny print at the bottom.",
@@ -458,24 +458,24 @@
     ]
    },
    {
-    "start": 43.2,
-    "end": 57.2,
+    "start": 43,
+    "end": 57,
     "visual": "Four cards summarise the Puxu, Campomar, Miller v BMW and TPG cases.",
     "captions": [
      "High Court cases built the tests: the whole context, the ordinary member of the audience, misleading silence and the dominant message."
     ]
    },
    {
-    "start": 57.2,
-    "end": 69.2,
+    "start": 57,
+    "end": 69,
     "visual": "A bar chart of ASIC's first three greenwashing civil penalties: Mercer $11.3 million, Vanguard $12.9 million and Active Super $10.5 million.",
     "captions": [
      "The greenwashing cases show product claims must match what the product actually holds, across every channel."
     ]
    },
    {
-    "start": 69.2,
-    "end": 75.2,
+    "start": 69,
+    "end": 75,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }
@@ -892,9 +892,9 @@
    "/standards/"
   ],
   "slug": "who-regulates-what",
-  "specHash": "cf10014a658a",
+  "specHash": "97ee38be0ff4",
   "duration": 61,
-  "bytes": 1763749,
+  "bytes": 1704755,
   "transcript": [
    {
     "start": 0,
@@ -912,7 +912,7 @@
    },
    {
     "start": 14,
-    "end": 30.4,
+    "end": 30,
     "visual": "Two cards: APRA for financial soundness and ASIC for conduct and disclosure.",
     "captions": [
      "Financial services use a twin peaks model. APRA looks after the financial soundness of banks, insurers and super funds.",
@@ -920,24 +920,24 @@
     ]
    },
    {
-    "start": 30.4,
-    "end": 45.4,
+    "start": 30,
+    "end": 45,
     "visual": "Five cards: AUSTRAC, OAIC, ACCC, RBA and ATO with their roles.",
     "captions": [
      "Other bodies cut across many industries: AUSTRAC, the OAIC, the ACCC, the Reserve Bank and the ATO."
     ]
    },
    {
-    "start": 45.4,
-    "end": 55.4,
+    "start": 45,
+    "end": 55,
     "visual": "A statement that a large super fund answers to several regulators at once.",
     "captions": [
      "Most financial institutions deal with several regulators at once, which is why mapping obligations matters."
     ]
    },
    {
-    "start": 55.4,
-    "end": 61.4,
+    "start": 55,
+    "end": 61,
     "visual": "End card with the page title, web address and a general information disclaimer.",
     "captions": []
    }

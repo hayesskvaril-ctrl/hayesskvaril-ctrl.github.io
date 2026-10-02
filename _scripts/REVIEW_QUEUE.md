@@ -18,6 +18,7 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 8. /risk-management/operational-risk.html
 9. /sectors/superannuation.html (covenants, SPS list, performance test, fee governance)
 10. /standards/asic-rg-97.html (fees and costs disclosure)
+11a. /standards/sps-515.html (deep review done 2 October 2026: expenditure, triggers, BPR, outcomes assessment, transfer planning; check the worked example and board questions)
 
 ## Round 2: deeper practice pages
 11. /compliance/breach-significance-analysis.html (worked cases)
