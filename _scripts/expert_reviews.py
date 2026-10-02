@@ -9,4 +9,5 @@ Then run:  python3 _scripts/sync_layout.py
 
 EXPERT_REVIEWS = {
     # "/standards/cps-230.html": "14 October 2026",
+    "/standards/sps-515.html": "2 October 2026",
 }

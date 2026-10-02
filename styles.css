@@ -1320,8 +1320,8 @@ h2[id], h3[id] { scroll-margin-top: 110px; }
   .band > .container > h2:first-child, .band h2.band-title { font-size: 48px; }
   .stats .num { font-size: 64px; }
   .cards { grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px; }
-  /* articles: let graphics, diagrams and wide tables step out of the text column */
-  .article:not(.wide) .section-art, .article:not(.wide) figure.diagram, .article:not(.wide) .table-wrap, .article:not(.wide) .widget, .article:not(.wide) .video-block {
+  /* articles: let graphics and diagrams step out of the text column (tables stay at text width) */
+  .article:not(.wide) .section-art, .article:not(.wide) figure.diagram, .article:not(.wide) .widget, .article:not(.wide) .video-block {
     margin-left: -90px; margin-right: -90px;
   }
   .article:not(.wide) .section-art img { aspect-ratio: 16 / 8; }
