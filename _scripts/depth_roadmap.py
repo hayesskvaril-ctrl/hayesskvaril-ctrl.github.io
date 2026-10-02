@@ -138,6 +138,14 @@ DONE = {
         "Re-checked (early release figures, the 3-business-day rollover rule); added a worked 30-day liquidity coverage check, APRA's December 2024 liquidity findings and 2026 private markets data, common mistakes, board questions and key dates including Payday Super."),
     "/sectors/behavioural-economics-of-super.html": ("2 October 2026",
         'Re-checked; added how Australian super is built around defaults (the 12% guarantee, MySuper, stapling, the performance test, YourSuper, insurance defaults, the retirement income covenant), what it means for trustees, and key dates.'),
+    "/risk-management/incident-and-breach-management.html": ("2 October 2026",
+        "Re-checked every timeframe; added an example severity scale, what to record, what regulators have found (ASIC's 2025 review: 31% of breaches took over a year to identify; the 2026 Mercer Super penalty), the June 2025 ASIC relief, common mistakes, board questions and key dates."),
+    "/compliance/breach-reporting.html": ("2 October 2026",
+        "Every timeframe re-checked; added ASIC's June 2025 relief in detail (60-day investigations, minor breach exemption, one report for APRA and ASIC), the IFTI to IVTS transition, what a good breach assessment records, ASIC's findings and the Mercer Super penalty, common mistakes, key dates and FAQs."),
+    "/standards/asic-rg-78.html": ("2 October 2026",
+        'Doubled in depth: reasonable grounds, whose knowledge counts, likely breaches, material loss, what a report contains, a worked fee-overcharge example applying every test, common mistakes, key dates (including the 2025 relief and the 2026 Mercer penalty) and FAQs.'),
+    "/compliance/breach-significance-analysis.html": ("2 October 2026",
+        "Re-checked the tests; added how ASIC's June 2025 relief changes the analysis (minor breach conditions, 60-day investigations, APRA reports), a fifth worked case on an investigation that drifts past 60 days (drawing on the Mercer Super penalty), and two more common errors."),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

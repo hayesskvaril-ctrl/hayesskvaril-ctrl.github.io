@@ -392,7 +392,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Phase 1: SPS 515 Strategic Planning and Member Outcomes (2 October 2026; expert reviewed)
 - [x] Phase 2: SPS 530 Investment Governance (2 October 2026)
 - [x] Phases 3 to 8: rest of the Superannuation track (super governance, RG 97, fund mergers, unit pricing, liquidity stress testing, behavioural economics of super), 2 October 2026
-- [ ] Phases 9 to 134: work through `_scripts/depth_roadmap.py` in order (next: Incident and breach management)
+- [x] Phases 9 to 12: incident and breach management, breach reporting, RG 78, breach significance analysis (2 October 2026)
+- [ ] Phases 13 to 134: work through `_scripts/depth_roadmap.py` in order (next: ASIC RG 277 Consumer remediation)
 - **Note:** apra.gov.au, legislation.gov.au and most source sites are blocked by this environment's network policy (October 2026); facts were checked via web search excerpts of the official documents. The owner can allow those domains in the environment's network settings.
 
 ## Ideas / backlog

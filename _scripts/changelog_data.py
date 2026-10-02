@@ -8,6 +8,10 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-02', '/compliance/breach-significance-analysis.html', "Breach significance analysis page expanded: how ASIC's 2025 relief changes the analysis, and a new worked case on long-running investigations."),
+    ('2026-10-02', '/standards/asic-rg-78.html', 'RG 78 page expanded: the key ideas in the guide, what a report contains, a worked example applying each test, common mistakes, key dates and FAQs.'),
+    ('2026-10-02', '/compliance/breach-reporting.html', "Breach reporting page expanded: ASIC's 2025 relief in detail, what a breach assessment should record, ASIC's findings and the Mercer Super penalty, the AUSTRAC IFTI transition, common mistakes, key dates and FAQs."),
+    ('2026-10-02', '/risk-management/incident-and-breach-management.html', "Incident and breach management page expanded: an example severity scale, what to record, ASIC's findings on slow breach identification, the Mercer Super penalty, the 2025 reporting relief, common mistakes, board questions and key dates."),
     ('2026-10-02', '/sectors/behavioural-economics-of-super.html', 'Behavioural economics of super page expanded: how the system is built around defaults, what it means for trustees, and key dates.'),
     ('2026-10-02', '/risk-management/super-liquidity-stress-testing.html', "Liquidity stress testing page expanded: a worked 30-day coverage check, APRA's liquidity findings, private markets data, common mistakes, board questions and key dates."),
     ('2026-10-02', '/sectors/unit-pricing.html', 'Unit pricing page expanded: a worked error calculation, how unit pricing is governed, outsourced pricing under CPS 230, common mistakes, board questions, key dates and FAQs.'),

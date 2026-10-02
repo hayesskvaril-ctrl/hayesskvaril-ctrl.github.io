@@ -23,6 +23,7 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 
 - /sectors/fund-mergers-and-successor-fund-transfers.html (deep review done 2 October 2026: merger process table and common mistakes)
 - /sectors/unit-pricing.html (deep review done 2 October 2026: worked error example and who bears the cost)
+- /compliance/breach-significance-analysis.html (deep review done 2 October 2026: new Case 5 and the relief section)
 ## Round 2: deeper practice pages
 11. /compliance/breach-significance-analysis.html (worked cases)
 12. /compliance/remediation-calculations.html
