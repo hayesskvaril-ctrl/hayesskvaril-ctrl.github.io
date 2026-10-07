@@ -30,6 +30,10 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 - /risk-management/service-provider-exit-and-concentration.html (deep review done 7 October 2026: exit plan example)
 - /risk-management/risk-assessment-methodologies.html (deep review done 7 October 2026: RCSA steps)
 - /compliance/compliance-monitoring-and-testing.html (deep review done 7 October 2026: monitoring plan example)
+- /compliance/disclosure-obligations.html (deep review done 7 October 2026: greenwashing penalties and disclosure duties)
+- /standards/asic-rg-274.html (deep review done 7 October 2026: DDO stop order counts and penalty cases)
+- /standards/asic-rg-271.html (deep review done 7 October 2026: IDR timeframes and data reporting dates)
+- /governance/conflicts-of-interest.html (deep review done 7 October 2026: worked example of a director's conflict)
 ## Round 2: deeper practice pages
 11. /compliance/breach-significance-analysis.html (worked cases)
 12. /compliance/remediation-calculations.html

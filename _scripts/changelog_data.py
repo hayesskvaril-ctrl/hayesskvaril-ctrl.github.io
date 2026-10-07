@@ -8,6 +8,15 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-07', '/governance/conflicts-of-interest.html', "Conflicts of interest: deep review, adding a worked director's conflict example and board questions"),
+    ('2026-10-07', '/standards/asic-rg-181.html', 'RG 181 (conflicts): deep review, adding common conflicts and how the rules have tightened'),
+    ('2026-10-07', '/standards/asic-rg-104-and-rg-105.html', 'RG 104 and RG 105: deep review, adding the general obligations in more detail and common mistakes'),
+    ('2026-10-07', '/compliance/financial-advice-regulation.html', 'Financial advice regulation: deep review, adding the August 2026 advice reform announcement'),
+    ('2026-10-07', '/standards/asic-rg-271.html', 'RG 271 (complaints): deep review, adding the IDR timeframe table and IDR data reporting'),
+    ('2026-10-07', '/compliance/consumer-protection.html', 'Consumer protection: deep review, with updated scams framework dates and lessons from Shield and First Guardian'),
+    ('2026-10-07', '/standards/asic-rg-274.html', "RG 274 (DDO): deep review, adding ASIC's stop orders and penalties, common mistakes and board questions"),
+    ('2026-10-07', '/compliance/misleading-or-deceptive-conduct.html', 'Misleading or deceptive conduct: deep review, adding the tests applied in recent greenwashing cases'),
+    ('2026-10-07', '/compliance/disclosure-obligations.html', 'Disclosure obligations: deep review, adding greenwashing penalties, common mistakes and board questions'),
     ("2026-10-07", "", "New menu: Risk, Compliance, Governance, Your sector, Standards, Learn and Toolkit each open a panel of grouped topics, including \"what to do when\" guides."),
     ("2026-10-07", "/obligations/sectors.html", "New: obligations by sector. Pick super, banking, general, life or private health insurance, funds management, advice, credit or payments to see the regimes that usually apply, or compare sectors side by side."),
     ("2026-10-07", "/sectors/insurance.html", "Insurance now has three guides: general insurance, life insurance and private health insurance, with the insurance page kept as an overview."),
