@@ -168,6 +168,22 @@ DONE = {
         'Re-checked (corrected the minimum critical operations for super to include fund administration); added roles, common mistakes, board questions and FAQs.'),
     "/risk-management/operational-risk.html": ("7 October 2026",
         'Re-checked; added example key risk indicators, common mistakes, board questions, FAQs and key dates for CPS 230.'),
+    "/risk-management/control-design-and-testing.html": ("7 October 2026",
+        'Re-checked; added a worked test of a daily reconciliation from design to conclusion, common mistakes, board questions and FAQs.'),
+    "/risk-management/control-testing-sampling.html": ("7 October 2026",
+        'Re-checked; added common sampling mistakes and board questions.'),
+    "/risk-management/risk-assessment-methodologies.html": ("7 October 2026",
+        'Re-checked; added how to run a risk and control self-assessment step by step, common mistakes, board questions and FAQs.'),
+    "/risk-management/risk-appetite-and-tolerance.html": ("7 October 2026",
+        'Re-checked; added a worked set of appetite metrics with triggers and limits for a super fund, board questions and FAQs.'),
+    "/risk-management/kri-design-and-thresholds.html": ("7 October 2026",
+        'Re-checked; added example KRI catalogue entries, common mistakes and board questions.'),
+    "/risk-management/assurance-mapping.html": ("7 October 2026",
+        'Re-checked; added how to rate the quality of assurance, common mistakes, board questions and FAQs (including the IIA standards on coordination and reliance).'),
+    "/compliance/compliance-monitoring-and-testing.html": ("7 October 2026",
+        'Re-checked; added an example extract from an annual monitoring plan, common mistakes and board questions.'),
+    "/risk-management/enterprise-risk-management.html": ("7 October 2026",
+        'Re-checked; added what CPS 220 and SPS 220 expect of the framework, common mistakes, board questions and FAQs.'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

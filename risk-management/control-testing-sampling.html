@@ -55,8 +55,8 @@
   <p class="summary">How many items to test, what a clean (or not-so-clean) sample really tells you, and how strong the evidence needs to be.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 20 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 22 minutes</span>
+    <span>Last reviewed: 7 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -186,6 +186,22 @@
   <h2>Levels of assurance</h2>
   <p>Australian assurance standards distinguish <strong>reasonable assurance</strong> (a high, but not absolute, level, as in an audit) from <strong>limited assurance</strong> (a lower level, as in a review, where the conclusion is that nothing has come to attention to suggest a problem). The same idea is useful for internal testing: first-line self-checks, second-line reviews and internal audit give different levels of confidence, and reports should say which kind of assurance a result provides. See the <a href="/foundations/three-lines-model.html">Three Lines model</a>.</p>
 
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>Picking the easy items</strong> (recent, local, well-documented) instead of a random or systematic sample.</li>
+    <li><strong>Expanding the sample after a failure to dilute it,</strong> rather than to understand it.</li>
+    <li><strong>Ignoring the population's completeness:</strong> sampling from a list that is missing items.</li>
+    <li><strong>Concluding "effective" from a tiny sample</strong> for a control that runs thousands of times.</li>
+    <li><strong>Not considering full-population testing</strong> when data analytics could test every item.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>How much assurance do our tests actually give, and is it enough for the risks they cover?</li>
+    <li>Where could we test every transaction with data, instead of sampling?</li>
+  </ol>
+
   <h2 id="theory-and-research">Theory and research</h2>
   <h3>The statistical logic</h3>
   <p>Attribute sampling treats each occurrence of a control as a trial that either works or deviates. If the true deviation rate were at the tolerable rate, the binomial distribution gives the probability of seeing as few deviations as you did; the sample size is chosen so that this probability is no more than one minus the confidence level. That is the whole of the maths behind the tables and calculators above. What statistics cannot do is tell you whether you tested the right thing, defined a deviation sensibly or read the evidence correctly. Those are <em>non-sampling</em> risks, and most testing failures in practice come from them rather than from sample size.</p>
@@ -264,7 +280,7 @@
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 7 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/control-testing-sampling.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Fcontrol-testing-sampling.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

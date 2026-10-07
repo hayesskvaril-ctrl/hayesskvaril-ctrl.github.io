@@ -8,6 +8,14 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-07', '/risk-management/enterprise-risk-management.html', 'Enterprise risk management page expanded: what CPS 220 and SPS 220 expect, common mistakes, board questions and FAQs.'),
+    ('2026-10-07', '/compliance/compliance-monitoring-and-testing.html', 'Compliance monitoring page: example monitoring plan, common mistakes and board questions added.'),
+    ('2026-10-07', '/risk-management/assurance-mapping.html', 'Assurance mapping page expanded: rating assurance quality, common mistakes, board questions and FAQs.'),
+    ('2026-10-07', '/risk-management/kri-design-and-thresholds.html', 'KRI design page: example KRI catalogue, common mistakes and board questions added.'),
+    ('2026-10-07', '/risk-management/risk-appetite-and-tolerance.html', 'Risk appetite page expanded: worked appetite metrics for a super fund, board questions and FAQs.'),
+    ('2026-10-07', '/risk-management/risk-assessment-methodologies.html', 'Risk assessment methodologies page expanded: running an RCSA step by step, common mistakes, board questions and FAQs.'),
+    ('2026-10-07', '/risk-management/control-testing-sampling.html', 'Control testing sampling page: common mistakes and board questions added.'),
+    ('2026-10-07', '/risk-management/control-design-and-testing.html', 'Control design and testing page expanded: a worked control test, common mistakes, board questions and FAQs.'),
     ('2026-10-07', '/risk-management/operational-risk.html', 'Operational risk page expanded: example key risk indicators, common mistakes, board questions, FAQs and key dates.'),
     ('2026-10-07', '/risk-management/business-continuity.html', 'Business continuity page expanded: roles, common mistakes, board questions and FAQs.'),
     ('2026-10-07', '/risk-management/service-provider-exit-and-concentration.html', 'Service provider exit page expanded: an exit plan on a page, common mistakes and board questions.'),

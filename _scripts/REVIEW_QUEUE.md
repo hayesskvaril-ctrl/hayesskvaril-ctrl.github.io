@@ -28,6 +28,8 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 - /risk-management/issue-and-action-management.html (deep review done 7 October 2026: worked example and risk acceptance)
 - /risk-management/setting-cps-230-tolerance-levels.html (deep review done 7 October 2026: tolerance statement template)
 - /risk-management/service-provider-exit-and-concentration.html (deep review done 7 October 2026: exit plan example)
+- /risk-management/risk-assessment-methodologies.html (deep review done 7 October 2026: RCSA steps)
+- /compliance/compliance-monitoring-and-testing.html (deep review done 7 October 2026: monitoring plan example)
 ## Round 2: deeper practice pages
 11. /compliance/breach-significance-analysis.html (worked cases)
 12. /compliance/remediation-calculations.html

@@ -55,8 +55,8 @@
   <p class="summary">How to choose indicators that actually predict risk, set amber and red thresholds that mean something, and test whether a KRI works, with an interactive control chart.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 21 minutes</span>
-    <span>Last reviewed: 28 September 2026</span>
+    <span>About 24 minutes</span>
+    <span>Last reviewed: 7 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -165,6 +165,37 @@
   </div>
   <p>Here the KRI caught 7 of 9 problems (78%), and 7 of its 12 signals were real (58%). That is a reasonably useful indicator. Tightening thresholds would catch more problems at the cost of more false alarms. That trade-off is a judgement for the <a class="term" href="/glossary/#risk-owner">risk owner</a>, not a statistical fact.</p>
 
+  <h2>Example KRI catalogue entries</h2>
+  <p>Illustrative. Each KRI also needs an owner, a data source, a reporting frequency and what happens when it breaches.</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">KRI</th><th scope="col">Risk it warns about</th><th scope="col">Type</th><th scope="col">Threshold approach</th></tr></thead>
+      <tbody>
+        <tr><td>Unallocated contributions older than 5 days</td><td>Member administration errors</td><td>Leading</td><td>Fixed limit linked to appetite</td></tr>
+        <tr><td>Change failure rate for core systems</td><td>System outages</td><td>Leading</td><td>Rolling average plus margin</td></tr>
+        <tr><td>Staff turnover in the claims team</td><td>Claims delays</td><td>Leading</td><td>Percentile of history</td></tr>
+        <tr><td>Complaints about the same issue</td><td>Conduct or systemic error</td><td>Lagging</td><td>Statistical control chart</td></tr>
+        <tr><td>Provider service level breaches</td><td>Third-party failure</td><td>Leading</td><td>Fixed contractual level</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>Too many indicators,</strong> so the important ones are lost.</li>
+    <li><strong>Lagging indicators only,</strong> which report harm after it happens.</li>
+    <li><strong>Thresholds that never trigger,</strong> or trigger so often they are ignored.</li>
+    <li><strong>No defined action</strong> when a threshold is breached.</li>
+    <li><strong>Unreliable data</strong> feeding the indicator.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>Which of our indicators actually warned us before our last major incident?</li>
+    <li>Which thresholds have never been breached, and are they set too loosely?</li>
+  </ol>
+
   <h2 id="theory-and-research">Theory and research</h2>
   <h3>Indicators need a causal model</h3>
   <p>An indicator is only "key" if it sits on a plausible path from cause to harm. <a class="cite narrative" href="#ref-scandizzo-2005">Scandizzo (2005)</a> proposed building KRIs from a map of the business process: identify where in each step operational risk arises, then choose variables that estimate the likelihood or severity of loss at that step, and design controls around them. The discipline matters more than the method. Without a causal story, a dashboard becomes a collection of operational statistics that happen to be easy to collect.</p>
@@ -268,7 +299,7 @@
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 7 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/kri-design-and-thresholds.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Fkri-design-and-thresholds.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

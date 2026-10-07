@@ -55,8 +55,8 @@
   <p class="summary">A control is only worth having if it targets the right risk, is performed consistently, and can be shown to work. This page covers how to design controls well and how to test them.</p>
   <div class="page-meta">
     <span class="level level-intermediate">Intermediate</span>
-    <span>About 15 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 22 minutes</span>
+    <span>Last reviewed: 7 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -321,6 +321,43 @@ Your browser can't play this video. <a href="/assets/video/controls-design-and-t
     <p class="quiz-score" aria-live="polite"></p>
   </div>
 
+  <h2>Worked example: testing a daily reconciliation</h2>
+  <p>This is an illustrative example for learning only.</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Step</th><th scope="col">What the tester does (illustrative)</th></tr></thead>
+      <tbody>
+        <tr><td>Understand</td><td>Reads the control description: the Contributions Team Leader reconciles bank receipts to allocations each business day by 11 am, investigates differences over $100 and escalates unresolved items.</td></tr>
+        <tr><td>Test design</td><td>Walks through one day's reconciliation with the performer. Checks the report is complete (all bank accounts) and the $100 threshold suits the risk. Design: effective.</td></tr>
+        <tr><td>Pick a sample</td><td>About 250 business days in the year; picks 25 at random, plus 2 days around a system change.</td></tr>
+        <tr><td>Test operation</td><td>For each day: was the reconciliation done on time, signed off, were differences over $100 investigated, were items over 5 days escalated?</td></tr>
+        <tr><td>Evaluate</td><td>One late sign-off (2 pm) with no harm, and one unescalated item 7 days old. The second is a deviation that matters.</td></tr>
+        <tr><td>Conclude and act</td><td>Operating effectiveness: partly effective. Issue raised: escalation step not reliably performed; action to add an automated age alert, then retest.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>Controls described as activities</strong> ("reviews reports") with no precision, threshold or evidence.</li>
+    <li><strong>Testing only that a signature exists,</strong> not that the review actually caught what it should.</li>
+    <li><strong>Relying on system reports</strong> without checking they are complete and accurate.</li>
+    <li><strong>Treating training and policies as strong controls.</strong> They direct behaviour but rarely stop or catch errors on their own.</li>
+    <li><strong>Tests that never fail,</strong> which may mean the testing isn't looking hard enough.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>Which key controls protect our most important risks, and when were they last tested?</li>
+    <li>What proportion of tested controls were effective, and what changed as a result of the failures?</li>
+    <li>How much do we rely on manual controls in high-volume processes?</li>
+  </ol>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>Who should test controls?</summary><p>All three lines can, for different purposes: the first line checks its own controls, the second line tests independently for risk and compliance, and internal audit gives independent assurance. See <a href="/risk-management/assurance-mapping.html">Assurance mapping</a>.</p></details>
+  <details><summary>How many items should be tested?</summary><p>It depends on how often the control runs and how much assurance is needed. See <a href="/risk-management/control-testing-sampling.html">Control testing: sampling</a> for the method.</p></details>
+
   <aside class="going-deeper" aria-labelledby="gd-h">
     <h2 id="gd-h">Going deeper <span class="level level-advanced">Advanced</span></h2>
     <ul>
@@ -359,7 +396,7 @@ Your browser can't play this video. <a href="/assets/video/controls-design-and-t
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 7 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/control-design-and-testing.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Fcontrol-design-and-testing.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 
