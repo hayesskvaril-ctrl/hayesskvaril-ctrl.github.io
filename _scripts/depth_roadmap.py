@@ -154,6 +154,20 @@ DONE = {
         'Re-checked; added what Australian regulators expect (CPS 230, ASIC breach reporting findings, the CBA inquiry, RG 277), running an analysis step by step, a report structure, turning incidents into themes, common mistakes and board questions.'),
     "/risk-management/issue-and-action-management.html": ("7 October 2026",
         'Doubled in depth: why it matters to regulators (CPS 230, FAR reasonable steps, the IIA standards), what a good register records, a worked example from control test to validation, risk acceptance, reporting measures, common mistakes and board questions.'),
+    "/standards/cps-230.html": ("7 October 2026",
+        'Re-checked; added the 2026 non-traditional provider exemption in detail (categories, conditions, scope, register flag), minimum critical operations by entity type, a worked example from identifying a critical operation to testing and notification, how APRA supervises CPS 230, board questions and FAQs.'),
+    "/risk-management/setting-cps-230-tolerance-levels.html": ("7 October 2026",
+        'Re-checked; added how tolerance levels differ from RTOs, RPOs and UK impact tolerances, a tolerance statement template, board questions and FAQs.'),
+    "/risk-management/mapping-critical-operations.html": ("7 October 2026",
+        'Re-checked; added keeping maps current (update triggers, owners, links to registers), common mistakes, board questions and FAQs.'),
+    "/risk-management/third-party-risk.html": ("7 October 2026",
+        'Re-checked; added what to monitor for a material provider, common mistakes, board questions, FAQs (related parties, fourth parties, proportionality) and key dates for CPS 230.'),
+    "/risk-management/service-provider-exit-and-concentration.html": ("7 October 2026",
+        'Re-checked; added an illustrative exit plan on a page, common mistakes and board questions.'),
+    "/risk-management/business-continuity.html": ("7 October 2026",
+        'Re-checked (corrected the minimum critical operations for super to include fund administration); added roles, common mistakes, board questions and FAQs.'),
+    "/risk-management/operational-risk.html": ("7 October 2026",
+        'Re-checked; added example key risk indicators, common mistakes, board questions, FAQs and key dates for CPS 230.'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

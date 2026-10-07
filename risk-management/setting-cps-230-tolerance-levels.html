@@ -55,8 +55,8 @@
   <p class="summary">A practical method for deciding how long a critical operation can be disrupted, how much data can be lost, and what service must continue, with worked examples.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 18 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 23 minutes</span>
+    <span>Last reviewed: 7 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -214,6 +214,44 @@
     <li><strong>Never revisited.</strong> Tolerances should change when the business, member base, providers or technology change.</li>
   </ul>
 
+  <h2>Tolerance levels, RTOs and impact tolerances</h2>
+  <p>Tolerance levels are often confused with recovery objectives. They work at different levels:</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Concept</th><th scope="col">Who sets it</th><th scope="col">What it means</th></tr></thead>
+      <tbody>
+        <tr><td>CPS 230 tolerance level</td><td>The board</td><td>The maximum disruption the entity will accept for a critical operation: time, data loss and minimum service. A statement of acceptable harm.</td></tr>
+        <tr><td>Recovery time objective (RTO)</td><td>Management, often IT</td><td>The target time to restore a system or process. It should sit inside the tolerance, with a margin.</td></tr>
+        <tr><td>Recovery point objective (RPO)</td><td>Management, often IT</td><td>How much recent data could be lost. It should fit inside the maximum data loss tolerance.</td></tr>
+        <tr><td>UK "impact tolerance"</td><td>UK regulators' term</td><td>A similar idea used by the Bank of England, PRA and FCA. Useful background reading, but CPS 230's three-part tolerance is the Australian requirement.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>A tolerance statement template</h2>
+  <ul>
+    <li><strong>Critical operation:</strong> [name], and the customers or members it serves.</li>
+    <li><strong>Maximum period of disruption:</strong> [hours or days], and why harm becomes intolerable after this point.</li>
+    <li><strong>Maximum data loss:</strong> [hours], and what data loss would mean for customers.</li>
+    <li><strong>Minimum service level during disruption:</strong> [what continues, for whom, how fast].</li>
+    <li><strong>Evidence:</strong> impact analysis, scenario test results, and gaps between current capability and tolerance with remediation plans.</li>
+    <li><strong>Approval and review:</strong> board approval date; review at least annually and after material change.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>Were these tolerances set from customer harm, or from what our systems can currently do?</li>
+    <li>Which critical operations could not stay within tolerance today, and what is the plan?</li>
+    <li>How do our RTOs and RPOs compare with the tolerances?</li>
+    <li>What would make us change a tolerance level?</li>
+  </ol>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>Can a tolerance level be longer than our current recovery time?</summary><p>Yes, if harm only becomes intolerable later. The reverse is the concern: where current capability can't meet the tolerance, the gap needs a remediation plan and should be visible to the board.</p></details>
+  <details><summary>Should every critical operation have the same tolerance?</summary><p>No. Tolerances reflect how fast harm builds up for each operation, which varies a lot. Payment-type operations usually have far shorter tolerances than, for example, annual statements.</p></details>
+  <details><summary>How often should tolerances be reviewed?</summary><p>Commonly at least annually, and whenever the operation, its dependencies or the customer base changes materially, or after a significant disruption or test.</p></details>
+
   <h2 id="theory-and-research">Theory and research</h2>
   <h3>Tolerance as a statement about harm, not capability</h3>
   <p>A tolerance level asks when disruption to a critical operation becomes unacceptable to the people who rely on it. This reverses the traditional continuity question, which started from how quickly systems <em>could</em> be recovered. The historical review by <a class="cite narrative" href="#ref-herbane-2010">Herbane (2010)</a> shows why the shift happened: continuity management moved from recovering technology to protecting the services an organisation provides, under pressure from major disruptions and regulators. Setting tolerance from harm, and then testing whether recovery capability meets it, is what gives the concept its force.</p>
@@ -286,7 +324,7 @@
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 7 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/setting-cps-230-tolerance-levels.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Fsetting-cps-230-tolerance-levels.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

@@ -8,6 +8,13 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-07', '/risk-management/operational-risk.html', 'Operational risk page expanded: example key risk indicators, common mistakes, board questions, FAQs and key dates.'),
+    ('2026-10-07', '/risk-management/business-continuity.html', 'Business continuity page expanded: roles, common mistakes, board questions and FAQs.'),
+    ('2026-10-07', '/risk-management/service-provider-exit-and-concentration.html', 'Service provider exit page expanded: an exit plan on a page, common mistakes and board questions.'),
+    ('2026-10-07', '/risk-management/third-party-risk.html', 'Third-party risk page expanded: monitoring material providers, common mistakes, board questions, FAQs and key dates.'),
+    ('2026-10-07', '/risk-management/mapping-critical-operations.html', 'Mapping critical operations page expanded: keeping maps current, common mistakes, board questions and FAQs.'),
+    ('2026-10-07', '/risk-management/setting-cps-230-tolerance-levels.html', 'Setting CPS 230 tolerance levels page expanded: tolerances versus recovery objectives, a tolerance statement template, board questions and FAQs.'),
+    ('2026-10-07', '/standards/cps-230.html', 'CPS 230 page expanded: the 2026 exemptions in detail, minimum critical operations, a worked example, how APRA supervises, board questions and FAQs.'),
     ('2026-10-07', '/risk-management/issue-and-action-management.html', 'Issue and action management page expanded: regulator expectations, register fields, a worked example, risk acceptance, reporting measures, common mistakes and board questions.'),
     ('2026-10-07', '/risk-management/root-cause-analysis.html', 'Root cause analysis page expanded: what regulators expect, a step-by-step method, a report structure, spotting themes across incidents, common mistakes and board questions.'),
     ('2026-10-07', '/compliance/remediation-calculations.html', 'Remediation calculations page expanded: special cases such as rollovers, deaths, switches and insurance, oversight measures, common mistakes, and the calculator updated for the current RBA cash rate.'),

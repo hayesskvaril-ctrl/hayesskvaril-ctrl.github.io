@@ -55,8 +55,8 @@
   <p class="summary">APRA's cross-industry standard requiring banks, insurers and super trustees to manage operational risk, stay resilient through severe disruption, and control the risks of relying on service providers.</p>
   <div class="page-meta">
     <span class="level level-intermediate">Intermediate</span>
-    <span>About 16 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 25 minutes</span>
+    <span>Last reviewed: 7 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 <!-- ART:START -->
@@ -207,6 +207,72 @@ Your browser can't play this video. <a href="/assets/video/cps-230-in-90-seconds
 
   <h2>The 2026 amendments</h2>
   <p>On 30 April 2026, APRA finalised targeted amendments to CPS 230, CPG 230 and the material service provider register template, effective 1 July 2026. They provide limited exemptions from some contractual requirements for material arrangements with certain categories of "non-traditional" service providers, such as central banks and clearing and settlement facilities, where standard contractual terms are not practicable. APRA keeps a list of the exempt provider types in an attachment to the standard.</p>
+  <p>In more detail (check the attachment for the exact wording):</p>
+  <ul>
+    <li><strong>Who:</strong> the exempt categories include government agencies, regulators, central banks, financial market exchanges, operators of clearing and settlement facilities, operators of payment systems and schemes, and financial messaging infrastructure. APRA chose to exempt by type of provider, and can add others by written notice.</li>
+    <li><strong>When:</strong> the arrangement must rely on the provider's standard terms or not be documented in a formal agreement at all.</li>
+    <li><strong>What:</strong> only the specified contractual requirements are relaxed. Everything else still applies, including the register, risk management and business continuity planning, and APRA expects entities to keep actively managing the risk of relying on these providers.</li>
+    <li><strong>Register:</strong> the material service provider register template now lets entities flag exempt arrangements.</li>
+    <li><strong>Direction:</strong> APRA has said it expects the scope of exemptions to narrow over time, not expand.</li>
+  </ul>
+
+  <h2>Minimum critical operations</h2>
+  <p>CPS 230 sets a floor: some operations must be classified as critical unless the entity can justify otherwise. In summary:</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Entity type</th><th scope="col">Minimum critical operations (summary)</th></tr></thead>
+      <tbody>
+        <tr><td>Authorised deposit-taking institutions</td><td>Payments, deposit-taking and management, custody, settlements and clearing.</td></tr>
+        <tr><td>General, life and private health insurers</td><td>Claims processing.</td></tr>
+        <tr><td>RSE licensees (super trustees)</td><td>Investment management and fund administration.</td></tr>
+        <tr><td>All entities</td><td>Commentary also lists customer enquiries and the systems and infrastructure needed to support critical operations. Check the standard's current wording, as paragraph numbers changed with the 2026 amendments.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The list is a minimum, not the whole answer. Most entities identify further critical operations based on the harm to customers and the financial system if they were disrupted. See <a href="/risk-management/mapping-critical-operations.html">Mapping critical operations end to end</a>.</p>
+
+  <h2>Worked example: one critical operation from start to finish</h2>
+  <p>This is an illustrative example for learning only. Figures are made up.</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Step</th><th scope="col">Example for a super trustee: "paying benefits to members"</th></tr></thead>
+      <tbody>
+        <tr><td>Identify</td><td>Part of fund administration, a minimum critical operation for RSE licensees.</td></tr>
+        <tr><td>Map</td><td>Claims intake, validation, payment file and bank; the administrator (a material service provider), the payments provider, the member registry, two operations teams.</td></tr>
+        <tr><td>Set tolerances</td><td>Maximum disruption 3 days; maximum data loss 24 hours; minimum service: urgent hardship and death benefit payments continue manually. Approved by the board.</td></tr>
+        <tr><td>Plan</td><td>Business continuity plan with triggers, a manual payment workaround and member communications.</td></tr>
+        <tr><td>Test</td><td>Annual exercise: the administrator's platform is down for five days after a cyber attack. Result: the manual workaround could pay urgent claims, but data reconciliation afterwards took ten days.</td></tr>
+        <tr><td>Fix</td><td>Issue raised to automate reconciliation; tracked in the issues register until validated.</td></tr>
+        <tr><td>Notify</td><td>If a real disruption went outside tolerance, APRA would be notified within 24 hours.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>See <a href="/risk-management/setting-cps-230-tolerance-levels.html">Setting CPS 230 tolerance levels</a> for how to set the numbers.</p>
+
+  <h2>How APRA supervises CPS 230</h2>
+  <ul>
+    <li><strong>Notifications and the register:</strong> event notifications and the annual material service provider register give APRA a picture of each entity and of concentration across the system.</li>
+    <li><strong>Targeted attention:</strong> APRA has indicated heightened supervision where an entity is an outlier in its service provider data or has a material event.</li>
+    <li><strong>Top-down beats bottom-up:</strong> during implementation, APRA observed that entities taking a top-down approach (starting from critical operations and customer harm) gained better insight and made faster progress than those building up from detailed process inventories.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>Which of our operations are critical, and how confident are we that the list is complete?</li>
+    <li>Could we actually stay within our tolerance levels in a severe but plausible disruption, including the failure of a key provider?</li>
+    <li>What did our last business continuity exercise show, and what has been fixed?</li>
+    <li>Which material service providers have no credible, tested exit plan?</li>
+    <li>How quickly would we know, and tell APRA, if a critical operation went outside tolerance?</li>
+  </ol>
+  <p>A printable two-page version is in the <a href="/governance/briefing-cps-230.html">CPS 230 board briefing</a>.</p>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>Does CPS 230 apply to small super funds and insurers?</summary><p>Yes. It applies to all APRA-regulated entities, proportionately. Smaller entities that aren't significant financial institutions had until 1 July 2026 for some business continuity and scenario analysis requirements, and can scale their approach to their size and complexity.</p></details>
+  <details><summary>Is a material service provider the same as an outsourcing arrangement?</summary><p>Not exactly. CPS 230 looks at reliance: a provider is material if the entity relies on it for a critical operation or it exposes the entity to material operational risk. That can include providers that the old outsourcing standards didn't treat as outsourcing.</p></details>
+  <details><summary>Do tolerance levels have to be met in every disruption?</summary><p>They set the maximum disruption the board will accept. The entity must be able to stay within them through severe but plausible disruptions, and notify APRA within 24 hours if a critical operation goes outside tolerance.</p></details>
+  <details><summary>Where does cyber security fit?</summary><p>CPS 230 covers technology risk as part of operational risk and business continuity. Information security specifically is covered by <a href="/standards/cps-234.html">CPS 234</a>, which has its own notification rules.</p></details>
+
 
   <h2>Common gaps to watch for</h2>
   <details><summary>Critical operations defined too narrowly or too broadly</summary><p>Too narrow and important services go unprotected; too broad and resources are spread thin. The test is impact on customers and the financial system, not internal importance.</p></details>
@@ -258,10 +324,11 @@ Your browser can't play this video. <a href="/assets/video/cps-230-in-90-seconds
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-finalises-new-prudential-standard-on-operational-risk">APRA finalises new prudential standard on operational risk</a> (July 2023).</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management">Final targeted amendments to CPS 230</a> (April 2026) and <a href="https://www.apra.gov.au/news-and-publications/apra-releases-material-service-provider-register-template">Material service provider register template</a>.</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/response-to-submissions-cpg-230-operational-risk-management">Response to submissions: CPG 230</a>.</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-finalises-targeted-amendments-cps-230-operational-risk-management">APRA finalises targeted amendments to CPS 230 Operational Risk Management</a> (30 April 2026) and <a href="https://www.apra.gov.au/operational-risk-management">Operational risk management</a> (implementation and supervision material).</li>
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026 (checked against APRA's published standard and 2026 amendment materials)<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 7 October 2026 (checked against APRA's published standard and 2026 amendment materials)<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/standards/cps-230.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Fstandards%2Fcps-230.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 
