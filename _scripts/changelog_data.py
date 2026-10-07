@@ -8,6 +8,10 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-07', '/risk-management/issue-and-action-management.html', 'Issue and action management page expanded: regulator expectations, register fields, a worked example, risk acceptance, reporting measures, common mistakes and board questions.'),
+    ('2026-10-07', '/risk-management/root-cause-analysis.html', 'Root cause analysis page expanded: what regulators expect, a step-by-step method, a report structure, spotting themes across incidents, common mistakes and board questions.'),
+    ('2026-10-07', '/compliance/remediation-calculations.html', 'Remediation calculations page expanded: special cases such as rollovers, deaths, switches and insurance, oversight measures, common mistakes, and the calculator updated for the current RBA cash rate.'),
+    ('2026-10-07', '/standards/asic-rg-277.html', "RG 277 page expanded: calculating lost earnings, review periods, paying former customers, a worked example, ASIC's findings to 2026, common mistakes, board questions, key dates and FAQs."),
     ('2026-10-02', '/compliance/breach-significance-analysis.html', "Breach significance analysis page expanded: how ASIC's 2025 relief changes the analysis, and a new worked case on long-running investigations."),
     ('2026-10-02', '/standards/asic-rg-78.html', 'RG 78 page expanded: the key ideas in the guide, what a report contains, a worked example applying each test, common mistakes, key dates and FAQs.'),
     ('2026-10-02', '/compliance/breach-reporting.html', "Breach reporting page expanded: ASIC's 2025 relief in detail, what a breach assessment should record, ASIC's findings and the Mercer Super penalty, the AUSTRAC IFTI transition, common mistakes, key dates and FAQs."),

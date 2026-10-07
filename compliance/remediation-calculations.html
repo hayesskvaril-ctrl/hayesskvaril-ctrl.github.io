@@ -55,8 +55,8 @@
   <p class="summary">The methodology decisions behind a <a class="term" href="/glossary/#remediation">remediation</a> program, from the rate for foregone returns to <a class="term" href="/glossary/#beneficial-assumption">beneficial assumption</a>s and assurance, with a calculator and a worked super example.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 18 minutes</span>
-    <span>Last reviewed: 28 September 2026</span>
+    <span>About 24 minutes</span>
+    <span>Last reviewed: 7 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 <!-- ART:START -->
@@ -126,7 +126,7 @@ Your browser can't play this video. <a href="/assets/video/remediation.mp4">Down
   <p>This page works through those decisions, with a calculator, a worked super example and the assurance a calculation needs. It builds on <a class="xref" href="/standards/asic-rg-277.html">RG 277 Consumer remediation</a>.</p>
 
   <h2>The building blocks of a remediation calculation</h2>
-  <div class="table-wrap">
+  <div class="table-wrap" tabindex="0">
     <table>
       <thead><tr><th scope="col">Component</th><th scope="col">What it is</th><th scope="col">Typical questions</th></tr></thead>
       <tbody>
@@ -144,7 +144,7 @@ Your browser can't play this video. <a href="/assets/video/remediation.mp4">Down
   <ul>
     <li><strong>Super and investment products:</strong> use the returns the member's money would actually have earned, usually the returns of their investment option over the period, applied through unit prices or crediting rates.</li>
     <li><strong>Where a rate is prescribed</strong> by law for the situation, that rate may be used.</li>
-    <li><strong>Where you can't work out what the person would have earned:</strong> ASIC has indicated that the RBA cash rate plus 6% a year is an acceptable default where it benefits consumers, and other reasonably justified assumptions can also be used.</li>
+    <li><strong>Where you can't work out what the person would have earned:</strong> RG 277 gives the RBA cash rate plus 6% a year as an example of a rate that may be fair and reasonable if justified in the circumstances, and other reasonably justified, beneficial assumptions can also be used. The cash rate changes (it rose to 4.60% from 30 September 2026), so use the rate for each part of the remediation period.</li>
   </ul>
   <p>Negative returns raise a genuine policy question. If the member's option lost money over the period, strictly restoring their position could mean paying back less than the overcharge. Many organisations adopt a beneficial assumption that compensation will not fall below the amount taken. Whatever you decide, decide it deliberately, apply it consistently, and document why.</p>
 
@@ -157,11 +157,11 @@ Your browser can't play this video. <a href="/assets/video/remediation.mp4">Down
       <div><label for="rc-method">Time value method</label><select id="rc-method"><option value="fund" selected>Investment option returns</option><option value="rba">RBA cash rate + 6%</option><option value="none">None (refund only)</option></select></div>
       <div class="rc-ret-row"><label for="rc-ret">Option return (% a year)</label><input type="number" id="rc-ret" value="7" step="0.5"></div>
       <div class="rc-floor-row"><label><input type="checkbox" id="rc-floor" checked> Don't reduce compensation for negative returns</label></div>
-      <div class="rc-cash-row" hidden><label for="rc-cash">RBA cash rate (% a year)</label><input type="number" id="rc-cash" value="3.6" step="0.05"></div>
+      <div class="rc-cash-row" hidden><label for="rc-cash">RBA cash rate (% a year)</label><input type="number" id="rc-cash" value="4.6" step="0.05"></div>
     </div>
     <p class="result" aria-live="polite"></p>
     <noscript><p>The calculator needs JavaScript.</p></noscript>
-    <p class="small">Illustrative. Compounds monthly at a constant rate. Real calculations use actual unit prices or rates for each period and each person's own transaction history. Enter your own current RBA cash rate.</p>
+    <p class="small">Illustrative. Compounds monthly at a constant rate. Real calculations use actual unit prices or rates for each period and each person's own transaction history. The cash rate defaults to 4.60%, the RBA's rate from 30 September 2026; enter the rate for your period.</p>
   </div>
 
   <h2>Worked example: a fee error in super</h2>
@@ -174,7 +174,7 @@ Your browser can't play this video. <a href="/assets/video/remediation.mp4">Down
   <p>Across 12,000 members with different balances, join dates and exit dates, the calculation must be run member by member using actual data. Members who left the fund part-way through, switched options or died during the period each need specific treatment.</p>
 
   <h2>Methodology decisions and beneficial assumptions</h2>
-  <div class="table-wrap">
+  <div class="table-wrap" tabindex="0">
     <table>
       <thead><tr><th scope="col">Situation</th><th scope="col">Beneficial approach (illustrative)</th></tr></thead>
       <tbody>
@@ -190,6 +190,36 @@ Your browser can't play this video. <a href="/assets/video/remediation.mp4">Down
 
   <h2>Who pays, and from where?</h2>
   <p>For super trustees, the source of remediation funds is itself a governance decision. Paying compensation out of the fund's general assets would make other members fund the correction. Trustees commonly use their own resources, or where appropriate the operational risk financial requirement (ORFR) reserve, which exists to address losses from operational risk events. Where a service provider caused the error, contractual recovery may follow, but it shouldn't delay paying members. Document the decision and its reasons.</p>
+
+  <h2>Special cases</h2>
+  <p>Most of the effort in a real program goes into the people who don't fit the standard calculation. Typical approaches (illustrative; each program sets its own, with legal and tax input):</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Situation</th><th scope="col">Issue</th><th scope="col">Common approach</th></tr></thead>
+      <tbody>
+        <tr><td>Member rolled over to another fund</td><td>The money can't simply be paid to them in cash if it is preserved super.</td><td>Generally pay to their current super fund, because preservation rules still apply; check the treatment for each case.</td></tr>
+        <tr><td>Member has retired and been paid out</td><td>They may now be able to receive cash.</td><td>Pay directly where the member has met a condition of release.</td></tr>
+        <tr><td>Member has died</td><td>Who is entitled: the estate or the death benefit beneficiaries?</td><td>Follow the death benefit or estate process, with legal input.</td></tr>
+        <tr><td>Member switched investment options</td><td>Which return applies?</td><td>Follow the actual option held at each point, or a beneficial assumption where records are unclear.</td></tr>
+        <tr><td>Insurance premiums wrongly charged or cover wrongly cancelled</td><td>A refund may not be enough if the person couldn't claim.</td><td>Refund premiums with earnings, and consider claims that would have been paid had cover been in place.</td></tr>
+        <tr><td>Tax effects</td><td>Contributions tax, fee deductions and tax on earnings may change the true loss.</td><td>Get tax advice on the method; don't leave people worse off because of tax treatment.</td></tr>
+        <tr><td>Very small amounts</td><td>Cost of paying exceeds the amount.</td><td>Pay current members regardless; apply RG 277's options for former members owed $5 or less.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Measures for program oversight</h2>
+  <p>Boards and executives tracking a remediation program commonly look at: people in scope and paid (number and dollars), people still to be found, time since the issue was identified, total compensation versus the original estimate, quality assurance error rates, and whether the root cause has been fixed. Long-running programs and growing estimates are warning signs. ASIC's reviews have repeatedly found remediation taking too long; see <a href="/standards/asic-rg-277.html">RG 277</a> for its findings, including licence conditions imposed in 2026 for slow remediation.</p>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>Using one rate for the whole period</strong> when actual returns or rates changed.</li>
+    <li><strong>Letting negative returns reduce compensation</strong> below the amount taken, without a deliberate, documented decision.</li>
+    <li><strong>Calculating at the aggregate level</strong> instead of member by member.</li>
+    <li><strong>Forgetting leavers, deaths and switches,</strong> which are usually where errors cluster.</li>
+    <li><strong>Funding remediation from other members</strong> in a pooled fund.</li>
+    <li><strong>No independent re-performance</strong> before payment, leading to a second remediation.</li>
+  </ul>
 
   <h2>Assurance over calculations</h2>
   <ol>
@@ -296,7 +326,7 @@ Your browser can't play this video. <a href="/assets/video/remediation.mp4">Down
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 28 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 7 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/compliance/remediation-calculations.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Fcompliance%2Fremediation-calculations.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

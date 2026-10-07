@@ -146,6 +146,14 @@ DONE = {
         'Doubled in depth: reasonable grounds, whose knowledge counts, likely breaches, material loss, what a report contains, a worked fee-overcharge example applying every test, common mistakes, key dates (including the 2025 relief and the 2026 Mercer penalty) and FAQs.'),
     "/compliance/breach-significance-analysis.html": ("2 October 2026",
         "Re-checked the tests; added how ASIC's June 2025 relief changes the analysis (minor breach conditions, 60-day investigations, APRA reports), a fifth worked case on an investigation that drifts past 60 days (drawing on the Mercer Super penalty), and two more common errors."),
+    "/standards/asic-rg-277.html": ("7 October 2026",
+        "Doubled in depth: foregone returns (actual, beneficial assumptions, the cash rate plus 6% example), review periods, finding and paying people, a worked super fee example, ASIC's findings from 2018 to 2026 (including the 2026 Cambridge Mercantile licence conditions), common mistakes, board questions, key dates and FAQs."),
+    "/compliance/remediation-calculations.html": ("7 October 2026",
+        'Re-checked against RG 277 and the RBA; tightened the cash rate plus 6% wording, updated the calculator to the 4.60% cash rate (from 30 September 2026), and added special cases (rollovers and preservation, retirees, deaths, switches, insurance, tax, small amounts), program oversight measures and common mistakes.'),
+    "/risk-management/root-cause-analysis.html": ("7 October 2026",
+        'Re-checked; added what Australian regulators expect (CPS 230, ASIC breach reporting findings, the CBA inquiry, RG 277), running an analysis step by step, a report structure, turning incidents into themes, common mistakes and board questions.'),
+    "/risk-management/issue-and-action-management.html": ("7 October 2026",
+        'Doubled in depth: why it matters to regulators (CPS 230, FAR reasonable steps, the IIA standards), what a good register records, a worked example from control test to validation, risk acceptance, reporting measures, common mistakes and board questions.'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

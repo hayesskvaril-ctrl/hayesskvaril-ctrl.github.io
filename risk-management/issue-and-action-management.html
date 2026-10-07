@@ -55,8 +55,8 @@
   <p class="summary">How organisations record, rate, fix and verify control weaknesses, so problems found by audits, testing and incidents actually get fixed.</p>
   <div class="page-meta">
     <span class="level level-intermediate">Intermediate</span>
-    <span>About 10 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 20 minutes</span>
+    <span>Last reviewed: 7 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -73,7 +73,7 @@
 
 <h2>Issues, incidents and breaches</h2>
   <p>These terms overlap, and organisations define them differently, but a common approach is:</p>
-  <div class="table-wrap">
+  <div class="table-wrap" tabindex="0">
     <table>
       <thead><tr><th scope="col">Term</th><th scope="col">Meaning</th><th scope="col">Example</th></tr></thead>
       <tbody>
@@ -114,7 +114,7 @@
 
   <h2>Rating issues and setting timeframes</h2>
   <p>A consistent rating scale lets different teams' issues be compared and prioritised. Ratings usually consider the potential impact if the weakness is exploited or fails, and how likely that is, much like a <a href="/risk-management/risk-assessment-methodologies.html">risk rating</a>.</p>
-  <div class="table-wrap">
+  <div class="table-wrap" tabindex="0">
     <table>
       <caption>Illustrative only. Organisations set their own scales and target timeframes.</caption>
       <thead><tr><th scope="col">Rating</th><th scope="col">Typical description</th><th scope="col">Example target to fix</th><th scope="col">Validation</th></tr></thead>
@@ -148,6 +148,75 @@
   <h2>Looking across issues</h2>
   <p>A single register for all sources (audit, control testing, incidents, compliance reviews, regulators and self-identified issues) makes it possible to spot themes, such as repeated weaknesses in change management or in one business unit. Thematic analysis often tells the board more than any single issue. APRA's prudential inquiry into the Commonwealth Bank, for example, highlighted slow and ineffective resolution of known issues as a sign of wider cultural problems.</p>
 
+  <h2>Why it matters to regulators</h2>
+  <ul>
+    <li><strong>CPS 230</strong> expects control gaps and weaknesses to stay in the operational risk profile until they are remediated, with root causes addressed. See <a href="/standards/cps-230.html">CPS 230</a>.</li>
+    <li><strong>The Financial Accountability Regime</strong> expects accountable persons to take reasonable steps, which include having procedures to identify and remediate problems in their areas. An issues register with clear owners is part of the evidence. See <a href="/governance/reasonable-steps-and-consequence-management.html">Reasonable steps</a>.</li>
+    <li><strong>Internal audit standards</strong> (the IIA's Global Internal Audit Standards, effective from 9 January 2025) expect internal audit to monitor whether management's action plans are implemented. See <a href="/standards/global-internal-audit-standards.html">Global Internal Audit Standards</a>.</li>
+    <li><strong>Regulator findings</strong> from APRA and ASIC reviews are usually tracked with the highest priority and reported to the board until closed.</li>
+  </ul>
+
+  <h2>What a good issues register records</h2>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Field</th><th scope="col">Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>ID, title and description</td><td>A clear statement of the weakness, not the symptom.</td></tr>
+        <tr><td>Source and date raised</td><td>Shows who finds problems. A high share found by audit or regulators, rather than by the business itself, is a warning sign.</td></tr>
+        <tr><td>Root cause</td><td>Links to themes across issues.</td></tr>
+        <tr><td>Rating</td><td>Drives timeframes, escalation and validation.</td></tr>
+        <tr><td>Linked risks, controls, obligations and incidents</td><td>Shows what the weakness exposes the organisation to.</td></tr>
+        <tr><td>Owner and accountable executive</td><td>One named person, consistent with FAR accountabilities where relevant.</td></tr>
+        <tr><td>Actions, milestones and due dates</td><td>Specific, testable steps.</td></tr>
+        <tr><td>Interim controls</td><td>What reduces the risk until the fix is in place.</td></tr>
+        <tr><td>Extensions</td><td>How many, why and who approved them.</td></tr>
+        <tr><td>Closure evidence and validation</td><td>Who confirmed the fix works, when and how.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Worked example (illustrative)</h2>
+  <p>A control test finds that changes to the fee rate table in the administration system are not independently reviewed. The test sample found one unapproved change.</p>
+  <ul>
+    <li><strong>Issue:</strong> "Fee rate table changes can be made without independent review, so incorrect fees could be charged undetected." Rated High, because fee errors affect many members and may be reportable.</li>
+    <li><strong>Interim control:</strong> weekly reconciliation of rates charged to the approved rate register, from next week.</li>
+    <li><strong>Actions:</strong> (1) configure maker-checker approval in the system (IT, 3 months); (2) update the procedure and train staff (Operations, 1 month); (3) check whether past unapproved changes caused wrong fees (Operations, 2 months), and if so start the incident and breach process.</li>
+    <li><strong>Validation:</strong> after the control has run for three months, the second line re-tests a sample of changes before the issue is closed.</li>
+  </ul>
+
+  <h2>When an issue won't be fixed: risk acceptance</h2>
+  <p>Sometimes fixing a weakness costs more than the risk it creates. Rather than leaving the issue open indefinitely or quietly closing it, good practice is a formal risk acceptance: the residual risk is assessed against risk appetite, approved at the right level for its rating, given a review date, and reported. A risk acceptance is not available for breaches of law that need fixing.</p>
+
+  <h2>Measures for reporting</h2>
+  <ul>
+    <li>Open issues by rating and age (for example under 90 days, 90 to 180, over 180).</li>
+    <li>Overdue actions, and issues extended more than once.</li>
+    <li>Repeat issues: weaknesses that reappear after closure.</li>
+    <li>Share of issues self-identified by the business versus found by audit or regulators.</li>
+    <li>Time from identification to validation, by rating.</li>
+    <li>Themes by root cause, process and business unit.</li>
+  </ul>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>Issues written as symptoms</strong> ("errors occurred") instead of weaknesses.</li>
+    <li><strong>Actions that don't fix the root cause,</strong> such as reminders and training alone.</li>
+    <li><strong>Closing without validation,</strong> or validating too soon to see whether the fix works.</li>
+    <li><strong>Endless extensions</strong> approved without challenge.</li>
+    <li><strong>Separate registers</strong> for audit, compliance and risk that nobody joins up.</li>
+    <li><strong>Downgrading ratings</strong> to fit target timeframes.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>How many high-rated issues are overdue, and for how long?</li>
+    <li>Which issues have been extended more than once, and why?</li>
+    <li>What proportion of issues does the business find itself, compared with audit and regulators?</li>
+    <li>Which themes keep recurring?</li>
+    <li>How many issues closed last year reappeared?</li>
+  </ol>
+
 <!-- COURSE:START -->
   <aside class="course-nav" aria-label="Learning pathways">
     <p class="cn-head"><button type="button" class="cn-mark" data-url="/risk-management/issue-and-action-management.html" aria-pressed="false">Mark as read</button> <span class="cn-note">Part of these <a href="/learn/my-learning.html">learning pathways</a> (progress is saved in this browser only):</span></p>
@@ -172,11 +241,12 @@
     <ol>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/sites/default/files/CBA-Prudential-Inquiry_Final-Report_30042018.pdf">Prudential Inquiry into the Commonwealth Bank of Australia: Final Report</a> (April 2018).</li>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-230">Prudential Standard CPS 230 Operational Risk Management</a> (requirements to remediate control weaknesses in a timely way).</li>
-      <li>The Institute of Internal Auditors, <a href="https://www.theiia.org/en/standards/">Global Internal Audit Standards</a> (monitoring of management's action plans).</li>
+      <li>The Institute of Internal Auditors, <a href="https://www.theiia.org/en/standards/">Global Internal Audit Standards</a> (monitoring of management's action plans; effective from 9 January 2025).</li>
+      <li><em>Financial Accountability Regime Act 2023</em> (Cth), s 22 (reasonable steps), on the <a href="https://www.legislation.gov.au/C2023A00067/latest">Federal Register of Legislation</a>.</li>
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 7 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/issue-and-action-management.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Fissue-and-action-management.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

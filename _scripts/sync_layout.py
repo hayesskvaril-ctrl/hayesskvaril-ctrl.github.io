@@ -548,6 +548,8 @@ def main():
         new = apply_formats(new, page_url(rel))
         new = apply_subscribe(new, page_url(rel))
         new = apply_privacy(new, page_url(rel))
+        # wide tables scroll sideways on phones, so their wrapper must be reachable by keyboard
+        new = new.replace('<div class="table-wrap">', '<div class="table-wrap" tabindex="0">')
         new = apply_art(new, page_url(rel))
         new = apply_levels(new, page_url(rel))
         new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
