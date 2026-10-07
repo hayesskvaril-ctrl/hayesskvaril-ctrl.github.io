@@ -113,3 +113,44 @@
     heads.forEach(function (h) { spy.observe(h); });
   }
 })();
+
+/* Main menu: phone menu button, tap-to-open panels on touch screens and phones, Esc to close */
+(function () {
+  var header = document.querySelector('.site-header');
+  if (!header) return;
+  var toggle = header.querySelector('.nav-toggle');
+  var items = Array.prototype.slice.call(header.querySelectorAll('.mm-item'));
+  var narrow = window.matchMedia('(max-width: 834px)');
+  var hover = window.matchMedia('(hover: hover)');
+  function closeAll(except) {
+    items.forEach(function (it) {
+      if (it !== except) { it.classList.remove('open'); var a = it.querySelector('.mm-top'); if (a) a.setAttribute('aria-expanded', 'false'); }
+    });
+  }
+  if (toggle) toggle.addEventListener('click', function () {
+    var open = header.classList.toggle('nav-open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.textContent = open ? 'Close' : 'Menu';
+  });
+  items.forEach(function (it) {
+    var a = it.querySelector('.mm-top');
+    if (!a) return;
+    a.setAttribute('aria-expanded', 'false');
+    a.addEventListener('click', function (e) {
+      // On phones and touch screens the first tap opens the panel; a second tap follows the link.
+      if ((narrow.matches || !hover.matches) && !it.classList.contains('open')) {
+        e.preventDefault(); closeAll(it); it.classList.add('open'); it.classList.remove('closed'); a.setAttribute('aria-expanded', 'true');
+      }
+    });
+    it.addEventListener('mouseleave', function () { it.classList.remove('closed'); });
+    it.addEventListener('focusout', function (e) { if (!it.contains(e.relatedTarget)) it.classList.remove('closed'); });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    var openItem = items.filter(function (it) { return it.classList.contains('open') || it.contains(document.activeElement); })[0];
+    closeAll();
+    if (openItem) { openItem.classList.add('closed'); var a = openItem.querySelector('.mm-top'); if (a) a.focus(); }
+    if (header.classList.contains('nav-open') && toggle) { header.classList.remove('nav-open'); toggle.setAttribute('aria-expanded', 'false'); toggle.textContent = 'Menu'; toggle.focus(); }
+  });
+  document.addEventListener('click', function (e) { if (!header.contains(e.target)) closeAll(); });
+})();

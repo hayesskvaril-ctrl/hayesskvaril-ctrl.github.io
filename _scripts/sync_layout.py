@@ -28,33 +28,78 @@ ROOT = Path(__file__).resolve().parent.parent
 # Header menu: a short list (redesigned October 2026 after an outside review). Pages in the topic
 # sections highlight "Topics"; the glossary highlights "Learn". The footer lists everything, in columns.
 HEADER_SKIP = {"/"}
-NAV = [
-    ("Topics", "/topics/"),
-    ("Playbooks", "/playbooks/"),
-    ("Standards", "/standards/"),
-    ("Learn", "/learn/"),
-    ("Tools", "/tools/"),
-    ("News", "/news/"),
+# Main menu (approved by the owner, October 2026): subject menus with drop-down panels of grouped links.
+# (label, landing page, one-line intro, [(group heading, [(link label, url)])]). Links only show if the page exists.
+MENU = [
+    ("Risk", "/risk-management/", "Managing risk, from the basics to resilience and incidents.", [
+        ("Start with the basics", [("What is risk management?", "/foundations/what-is-risk-management.html"), ("Enterprise risk management", "/risk-management/enterprise-risk-management.html"), ("Risk appetite and tolerance", "/risk-management/risk-appetite-and-tolerance.html"), ("Risk assessment methods", "/risk-management/risk-assessment-methodologies.html")]),
+        ("Incidents and issues", [("What to do when there's an incident", "/playbooks/respond-to-an-incident.html"), ("Incident and breach management", "/risk-management/incident-and-breach-management.html"), ("Root cause analysis", "/risk-management/root-cause-analysis.html"), ("Issue and action management", "/risk-management/issue-and-action-management.html")]),
+        ("Operational resilience", [("Operational risk", "/risk-management/operational-risk.html"), ("Mapping critical operations", "/risk-management/mapping-critical-operations.html"), ("Setting tolerance levels", "/risk-management/setting-cps-230-tolerance-levels.html"), ("Business continuity", "/risk-management/business-continuity.html"), ("Scenarios and stress testing", "/risk-management/scenario-analysis-and-stress-testing.html")]),
+        ("Third parties", [("Third-party and outsourcing risk", "/risk-management/third-party-risk.html"), ("Exit planning and concentration", "/risk-management/service-provider-exit-and-concentration.html"), ("Onboard a service provider", "/playbooks/onboard-a-material-service-provider.html")]),
+        ("Controls and assurance", [("Control design and testing", "/risk-management/control-design-and-testing.html"), ("Sampling for control tests", "/risk-management/control-testing-sampling.html"), ("Key risk indicators", "/risk-management/kri-design-and-thresholds.html"), ("Assurance mapping", "/risk-management/assurance-mapping.html"), ("Test a key control", "/playbooks/test-a-key-control.html")]),
+        ("Types of risk", [("Cyber risk", "/risk-management/cyber-risk.html"), ("Climate risk", "/risk-management/climate-risk.html"), ("Credit, market and liquidity", "/risk-management/credit-market-and-liquidity-risk.html"), ("Model risk", "/risk-management/model-risk.html"), ("Fraud risk", "/risk-management/fraud-risk.html"), ("All risk topics", "/risk-management/")]),
+    ]),
+    ("Compliance", "/compliance/", "Knowing your obligations, and what to do when they're breached.", [
+        ("Start with the basics", [("What is compliance?", "/foundations/what-is-compliance.html"), ("Licensing basics", "/compliance/licensing-basics.html"), ("Interpreting legislation", "/compliance/interpreting-legislation.html"), ("Designing a compliance program", "/compliance/designing-a-compliance-program.html")]),
+        ("Obligations", [("Obligations by sector", "/obligations/sectors.html"), ("Obligations library", "/obligations/"), ("Regulatory tracker", "/news/regulatory-tracker.html")]),
+        ("Breaches and reporting", [("Assess a potential breach", "/playbooks/assess-a-potential-breach.html"), ("Breach reporting: every regime", "/compliance/breach-reporting.html"), ("Breach significance in practice", "/compliance/breach-significance-analysis.html"), ("ASIC RG 78", "/standards/asic-rg-78.html")]),
+        ("Remediation", [("Run a remediation", "/playbooks/run-a-consumer-remediation.html"), ("ASIC RG 277", "/standards/asic-rg-277.html"), ("Remediation calculations", "/compliance/remediation-calculations.html")]),
+        ("Disclosure and conduct", [("Disclosure obligations", "/compliance/disclosure-obligations.html"), ("Misleading or deceptive conduct", "/compliance/misleading-or-deceptive-conduct.html"), ("Design and distribution", "/standards/asic-rg-274.html"), ("Complaints handling", "/standards/asic-rg-271.html"), ("Consumer protection", "/compliance/consumer-protection.html")]),
+        ("Financial crime and privacy", [("AML/CTF", "/compliance/aml-ctf-fundamentals.html"), ("Sanctions", "/compliance/sanctions-compliance.html"), ("Anti-bribery and corruption", "/compliance/anti-bribery-and-corruption.html"), ("Privacy law", "/compliance/privacy-law.html")]),
+        ("Monitoring and enforcement", [("Monitoring and testing", "/compliance/compliance-monitoring-and-testing.html"), ("Enforcement and penalties", "/compliance/enforcement-and-penalties.html"), ("All compliance topics", "/compliance/")]),
+    ]),
+    ("Governance", "/governance/", "How boards and executives oversee it all.", [
+        ("Start with the basics", [("What is governance?", "/foundations/what-is-governance.html"), ("The Three Lines model", "/foundations/three-lines-model.html")]),
+        ("Boards and directors", [("Board structure and accountability", "/governance/board-structure-and-accountability.html"), ("Directors' duties: key cases", "/governance/directors-duties-case-law.html"), ("Board risk reporting", "/governance/board-risk-reporting.html"), ("Board briefings", "/governance/board-briefings.html")]),
+        ("Accountability", [("Financial Accountability Regime", "/governance/financial-accountability-regime.html"), ("Reasonable steps", "/governance/reasonable-steps-and-consequence-management.html")]),
+        ("Culture and people", [("Culture and conduct", "/governance/culture-and-conduct.html"), ("Assessing risk culture", "/governance/risk-culture-assessment.html"), ("Remuneration", "/governance/remuneration-governance.html"), ("Whistleblowing", "/governance/whistleblower-protections.html")]),
+        ("Oversight", [("Internal audit", "/governance/internal-audit.html"), ("Conflicts of interest", "/governance/conflicts-of-interest.html"), ("AI governance", "/governance/ai-governance.html"), ("All governance topics", "/governance/")]),
+        ("GRC systems", [("What is a GRC system?", "/grc/what-is-a-grc-system.html"), ("Establishing a GRC system", "/grc/establishing-a-grc-system.html"), ("Risk taxonomy and hierarchy", "/grc/risk-taxonomy-and-hierarchy.html"), ("All GRC topics", "/grc/")]),
+    ]),
+    ("Your sector", "/sectors/", "Everything for your part of financial services in one place.", [
+        ("Financial services", [("Superannuation", "/sectors/superannuation.html"), ("Banking", "/sectors/banking.html"), ("General insurance", "/sectors/general-insurance.html"), ("Life insurance", "/sectors/life-insurance.html"), ("Private health insurance", "/sectors/private-health-insurance.html"), ("Funds management", "/sectors/managed-investment-schemes.html"), ("Financial advice", "/sectors/financial-advice-licensees.html"), ("Credit and lending", "/sectors/credit-and-non-bank-lenders.html"), ("Payments and fintech", "/sectors/payments-and-fintech.html")]),
+        ("Obligations for your sector", [("Pick your sector", "/obligations/sectors.html"), ("Compare sectors", "/obligations/sectors.html#compare")]),
+        ("Listed companies", [("Guide", "/sectors/listed-companies.html"), ("Obligations", "/obligations/listed.html")]),
+        ("Not-for-profits and charities", [("Guide", "/sectors/not-for-profits-and-charities.html"), ("Obligations", "/obligations/not-for-profits.html")]),
+        ("Commonwealth public sector", [("Guide", "/sectors/public-sector.html"), ("Obligations", "/obligations/public-sector.html")]),
+    ]),
+    ("Standards", "/standards/", "The rules themselves, explained in plain English.", [
+        ("APRA", [("CPS 220 Risk Management", "/standards/cps-220.html"), ("CPS 230 Operational Risk", "/standards/cps-230.html"), ("CPS 234 Information Security", "/standards/cps-234.html"), ("CPS 510 and 520 Governance", "/standards/cps-510-and-cps-520.html"), ("CPS 511 Remuneration", "/standards/cps-511.html"), ("SPS 515 Member Outcomes", "/standards/sps-515.html"), ("SPS 530 Investment Governance", "/standards/sps-530.html")]),
+        ("ASIC", [("RG 78 Breach reporting", "/standards/asic-rg-78.html"), ("RG 97 Fees and costs", "/standards/asic-rg-97.html"), ("RG 271 Complaints", "/standards/asic-rg-271.html"), ("RG 274 Design and distribution", "/standards/asic-rg-274.html"), ("RG 277 Remediation", "/standards/asic-rg-277.html"), ("All key ASIC guides", "/standards/asic-regulatory-guides.html")]),
+        ("Frameworks", [("ISO 31000 Risk management", "/standards/iso-31000.html"), ("COSO", "/standards/coso.html"), ("ISO 37301 Compliance", "/standards/iso-37301.html"), ("ISO 27001 Information security", "/standards/iso-27001.html"), ("Essential Eight", "/standards/essential-eight.html"), ("All standards", "/standards/")]),
+    ]),
+    ("Learn", "/learn/", "Courses, quizzes, videos and the glossary.", [
+        ("Get started", [("Start here", "/start-here/"), ("Learning pathways", "/learn/pathways.html"), ("My learning", "/learn/my-learning.html"), ("Browse by level", "/learn/by-level.html")]),
+        ("Practise", [("Quizzes", "/learn/quizzes.html"), ("Scenarios", "/learn/scenarios.html"), ("Flashcards", "/learn/flashcards.html"), ("Videos", "/learn/videos.html")]),
+        ("Reference", [("Glossary", "/glossary/"), ("Case studies", "/case-studies/"), ("All topics", "/topics/"), ("Research library", "/learn/research-library.html"), ("Advanced study program", "/learn/advanced-study-program.html")]),
+    ]),
+    ("Toolkit", "/tools/", "Playbooks, templates and tools for the job.", [
+        ("Playbooks", [("Respond to an incident", "/playbooks/respond-to-an-incident.html"), ("Assess a potential breach", "/playbooks/assess-a-potential-breach.html"), ("Run a remediation", "/playbooks/run-a-consumer-remediation.html"), ("Onboard a service provider", "/playbooks/onboard-a-material-service-provider.html"), ("Review a disclosure document", "/playbooks/review-a-disclosure-document.html"), ("Test a key control", "/playbooks/test-a-key-control.html"), ("All playbooks", "/playbooks/")]),
+        ("Tools and templates", [("Tools and templates", "/tools/"), ("Resource library", "/tools/resource-library.html"), ("Risk heat map", "/learn/risk-heat-map.html"), ("KRI library", "/tools/kri-library.html")]),
+        ("Build", [("GRC model builder", "/grc/model-builder.html"), ("Obligations library", "/obligations/")]),
+    ]),
 ]
-HEADER_PARENT = {"/foundations/": "/topics/", "/risk-management/": "/topics/", "/compliance/": "/topics/",
-                 "/governance/": "/topics/", "/grc/": "/topics/", "/sectors/": "/topics/",
-                 "/case-studies/": "/topics/", "/obligations/": "/topics/", "/glossary/": "/learn/",
-                 "/start-here/": "/learn/"}
+NAV = [(m[0], m[1]) for m in MENU] + [("News", "/news/")]
+# which top-level menu a page belongs to (for highlighting)
+MENU_OF_DIR = {"/risk-management/": "Risk", "/compliance/": "Compliance", "/obligations/": "Compliance", "/governance/": "Governance",
+               "/grc/": "Governance", "/sectors/": "Your sector", "/standards/": "Standards", "/learn/": "Learn", "/glossary/": "Learn",
+               "/start-here/": "Learn", "/case-studies/": "Learn", "/topics/": "Learn", "/foundations/": "Learn", "/tools/": "Toolkit",
+               "/playbooks/": "Toolkit", "/news/": "News"}
+MENU_OF_PAGE = {"/foundations/what-is-risk-management.html": "Risk", "/foundations/what-is-compliance.html": "Compliance",
+                "/foundations/what-is-governance.html": "Governance", "/foundations/three-lines-model.html": "Governance",
+                "/grc/model-builder.html": "Toolkit", "/learn/risk-heat-map.html": "Toolkit"}
 HEADER_LABELS = {}
 
 # Footer columns: (heading, [(label, url)]). Links show once the page exists.
 FOOTER_COLS = [
-    ("Topics", [("All topics", "/topics/"), ("Foundations", "/foundations/"), ("Risk management", "/risk-management/"),
-                ("Compliance", "/compliance/"), ("Governance", "/governance/"), ("GRC systems", "/grc/"),
-                ("Sectors", "/sectors/"), ("Case studies", "/case-studies/")]),
-    ("Practice", [("Playbooks", "/playbooks/"), ("Obligations library", "/obligations/"), ("Standards library", "/standards/"),
-                  ("Tools and templates", "/tools/"), ("Resource library", "/tools/resource-library.html"),
-                  ("GRC model builder", "/grc/model-builder.html")]),
-    ("Learn", [("Start here", "/start-here/"), ("Learning hub", "/learn/"), ("Learning pathways", "/learn/pathways.html"),
-               ("My learning", "/learn/my-learning.html"), ("Glossary", "/glossary/"), ("News", "/news/"),
-               ("Regulatory tracker", "/news/regulatory-tracker.html")]),
-    ("About", [("About", "/about/"), ("How we check content", "/about/editorial-standards.html"),
-               ("Site roadmap", "/about/roadmap.html"), ("What's new", "/whats-new/"), ("Search", "/search/")]),
+    ("Subjects", [("Risk", "/risk-management/"), ("Compliance", "/compliance/"), ("Governance", "/governance/"), ("GRC systems", "/grc/"),
+                  ("Foundations", "/foundations/"), ("Case studies", "/case-studies/"), ("All topics", "/topics/")]),
+    ("Your sector", [("All sectors", "/sectors/"), ("Obligations by sector", "/obligations/sectors.html"), ("Superannuation", "/sectors/superannuation.html"),
+                     ("Banking", "/sectors/banking.html"), ("Insurance", "/sectors/insurance.html"), ("Standards library", "/standards/"), ("Obligations library", "/obligations/")]),
+    ("Learn and do", [("Start here", "/start-here/"), ("Learning hub", "/learn/"), ("My learning", "/learn/my-learning.html"), ("Glossary", "/glossary/"),
+                      ("Playbooks", "/playbooks/"), ("Tools and templates", "/tools/"), ("GRC model builder", "/grc/model-builder.html")]),
+    ("About", [("About", "/about/"), ("How we check content", "/about/editorial-standards.html"), ("Site roadmap", "/about/roadmap.html"),
+               ("What's new", "/whats-new/"), ("News", "/news/"), ("Regulatory tracker", "/news/regulatory-tracker.html"), ("Search", "/search/")]),
 ]
 SEARCH_ICON = ('<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
                'stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg>')
@@ -85,14 +130,25 @@ def section_of(page: Path) -> str:
     return "/" + rel.split("/")[0] + "/"
 
 
-def header_html(current: str) -> str:
+def header_html(current: str, url: str = "") -> str:
+    active = MENU_OF_PAGE.get(url) or MENU_OF_DIR.get(current, "")
     items = []
-    for label, url in live_nav():
-        if url in HEADER_SKIP:
+    for i, (label, home, intro, groups) in enumerate(MENU):
+        if not target_exists(home):
             continue
-        cur = ' aria-current="page"' if url == current or HEADER_PARENT.get(current) == url else ""
-        label = HEADER_LABELS.get(url, label)
-        items.append(f'        <li><a href="{url}"{cur}>{label}</a></li>')
+        cols = []
+        for heading, links in groups:
+            lis = "".join(f'<li><a href="{u}">{l}</a></li>' for l, u in links if target_exists(u.split("#")[0]))
+            if lis:
+                cols.append(f'<div class="mm-col"><p class="mm-h">{heading}</p><ul>{lis}</ul></div>')
+        cur = ' aria-current="true"' if label == active else ""
+        items.append(
+            f'        <li class="mm-item"><a class="mm-top" href="{home}" id="mm-t{i}" aria-haspopup="true" aria-controls="mm-p{i}"{cur}>{label}</a>\n'
+            f'          <div class="mm-panel" id="mm-p{i}" role="region" aria-labelledby="mm-t{i}"><div class="mm-inner"><p class="mm-intro"><a href="{home}">{label}</a>: {intro}</p>'
+            f'<div class="mm-cols">{"".join(cols)}</div></div></div></li>')
+    if target_exists("/news/"):
+        cur = ' aria-current="true"' if active == "News" else ""
+        items.append(f'        <li><a class="mm-top mm-plain" href="/news/"{cur}>News</a></li>')
     if target_exists("/search/"):
         cur = ' aria-current="page"' if current == "/search/" else ""
         items.append('        <li><a class="nav-search" href="/search/"' + cur + ' title="Search">' + SEARCH_ICON + '<span class="nav-search-label">Search</span></a></li>')
@@ -102,7 +158,8 @@ def header_html(current: str) -> str:
         '<header class="site-header">\n'
         '  <div class="inner">\n'
         '    <a class="brand" href="/">RiskLens <span>Australia</span></a>\n'
-        '    <nav class="site-nav" aria-label="Main">\n'
+        '    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>\n'
+        '    <nav class="site-nav" id="site-nav" aria-label="Main">\n'
         "      <ul>\n" + "\n".join(items) + "\n      </ul>\n"
         "    </nav>\n"
         "  </div>\n"
@@ -406,6 +463,27 @@ def apply_privacy(text: str, url: str) -> str:
     return PRIV_RE.sub(lambda m: "<!-- PRIVACY-COUNT:START -->" + body + "<!-- PRIVACY-COUNT:END -->", text)
 
 
+# "For your sector" link on each sector guide to its obligations page (built by build_obligation_sectors.js)
+SECTOR_OBL = {"/sectors/superannuation.html": "superannuation", "/sectors/banking.html": "banking",
+              "/sectors/general-insurance.html": "general-insurance", "/sectors/life-insurance.html": "life-insurance",
+              "/sectors/private-health-insurance.html": "private-health-insurance", "/sectors/managed-investment-schemes.html": "funds-management",
+              "/sectors/financial-advice-licensees.html": "financial-advice", "/sectors/credit-and-non-bank-lenders.html": "credit-and-lending",
+              "/sectors/payments-and-fintech.html": "payments-and-fintech", "/sectors/listed-companies.html": "listed",
+              "/sectors/not-for-profits-and-charities.html": "not-for-profits", "/sectors/public-sector.html": "public-sector"}
+SECTOR_RE = re.compile(r"\n?<!-- SECTOR:START -->.*?<!-- SECTOR:END -->", re.S)
+
+
+def apply_sector(text: str, url: str) -> str:
+    text = SECTOR_RE.sub("", text)
+    slug = SECTOR_OBL.get(url)
+    if not slug or not target_exists(f"/obligations/{slug}.html") or '<aside class="takeaways"' not in text:
+        return text
+    block = ('\n<!-- SECTOR:START -->\n  <p class="also-as"><strong>For your sector:</strong> '
+             f'<a href="/obligations/{slug}.html">Obligations that usually apply</a> · '
+             '<a href="/obligations/sectors.html#compare">Compare sectors</a></p>\n<!-- SECTOR:END -->')
+    return re.sub(r'(<aside class="takeaways".*?</aside>)', lambda m: m.group(1) + block, text, count=1, flags=re.S)
+
+
 # Email updates. Leave NEWSLETTER_URL empty until the newsletter exists; once it is set to the sign-up
 # page's address (e.g. a Substack https://NAME.substack.com), sync_layout shows a sign-up box on the home
 # page and the News page, and an "Email updates" link in the footer.
@@ -548,11 +626,12 @@ def main():
         new = apply_formats(new, page_url(rel))
         new = apply_subscribe(new, page_url(rel))
         new = apply_privacy(new, page_url(rel))
+        new = apply_sector(new, page_url(rel))
         # wide tables scroll sideways on phones, so their wrapper must be reachable by keyboard
         new = new.replace('<div class="table-wrap">', '<div class="table-wrap" tabindex="0">')
         new = apply_art(new, page_url(rel))
         new = apply_levels(new, page_url(rel))
-        new = HEADER_RE.sub(lambda m: header_html(section_of(page)), new)
+        new = HEADER_RE.sub(lambda m: header_html(section_of(page), page_url(rel)), new)
         new = FOOTER_RE.sub(lambda m: footer_html(), new)
         new = REL_RE.sub(render_rel, new)
         new = CARD_RE.sub(render_card, new)

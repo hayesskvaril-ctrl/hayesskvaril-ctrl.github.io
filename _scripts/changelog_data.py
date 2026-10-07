@@ -8,6 +8,9 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ("2026-10-07", "", "New menu: Risk, Compliance, Governance, Your sector, Standards, Learn and Toolkit each open a panel of grouped topics, including \"what to do when\" guides."),
+    ("2026-10-07", "/obligations/sectors.html", "New: obligations by sector. Pick super, banking, general, life or private health insurance, funds management, advice, credit or payments to see the regimes that usually apply, or compare sectors side by side."),
+    ("2026-10-07", "/sectors/insurance.html", "Insurance now has three guides: general insurance, life insurance and private health insurance, with the insurance page kept as an overview."),
     ('2026-10-07', '/risk-management/enterprise-risk-management.html', 'Enterprise risk management page expanded: what CPS 220 and SPS 220 expect, common mistakes, board questions and FAQs.'),
     ('2026-10-07', '/compliance/compliance-monitoring-and-testing.html', 'Compliance monitoring page: example monitoring plan, common mistakes and board questions added.'),
     ('2026-10-07', '/risk-management/assurance-mapping.html', 'Assurance mapping page expanded: rating assurance quality, common mistakes, board questions and FAQs.'),

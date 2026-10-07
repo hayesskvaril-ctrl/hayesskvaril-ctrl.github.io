@@ -84,7 +84,8 @@ TRACKS = [
         "/standards/iso-37001.html", "/standards/iso-42001.html",
         "/standards/global-internal-audit-standards.html", "/standards/asic-regulatory-guides.html"]),
     ("Sectors", "How the rules apply in each part of the economy.", [
-        "/sectors/banking.html", "/sectors/insurance.html", "/sectors/managed-investment-schemes.html",
+        "/sectors/banking.html", "/sectors/insurance.html", "/sectors/general-insurance.html",
+        "/sectors/life-insurance.html", "/sectors/private-health-insurance.html", "/sectors/managed-investment-schemes.html",
         "/standards/asic-rg-259.html", "/sectors/financial-advice-licensees.html",
         "/sectors/credit-and-non-bank-lenders.html", "/sectors/payments-and-fintech.html",
         "/sectors/listed-companies.html", "/sectors/not-for-profits-and-charities.html",

@@ -408,6 +408,15 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [ ] Owner checks: employer outside-work and conflicts policy; ABN; disclaimers on paid products
 - [ ] Later: paid newsletter tier, sponsorship policy and page, more packs
 
+## Phase 22 — New menu and obligations by sector (approved October 2026)
+
+- [x] Proposal reviewed and approved by the owner (changes: three separate insurance sectors; GRC model builder under Toolkit and GRC explainers under Governance; listed companies, charities and public sector each separate)
+- [x] Main menu with drop-down panels (Risk, Compliance, Governance, Your sector, Standards, Learn, Toolkit, News); phone menu; keyboard and screen reader support; footer re-ordered
+- [x] Obligations by sector: picker, comparison table and 12 sector pages (`_scripts/build_obligation_sectors.js`)
+- [x] New sector guides: general insurance, life insurance, private health insurance (insurance page kept as an overview; claims handling dates corrected)
+- [x] "For your sector" link on every sector guide
+- [ ] Later: add private health insurance and life-specific regimes (Private Health Insurance Act, Life Insurance Act, commissions) to the obligations library data
+
 ## Ideas / backlog
 
 Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.
