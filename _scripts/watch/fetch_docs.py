@@ -103,7 +103,7 @@ def main():
             if code == 200 and data:
                 if "pdf" in ctype or data[:5] == b"%PDF-":
                     kind, text = "pdf", pdf_text(data)
-                elif "officedocument.wordprocessingml" in ctype or (data[:2] == b"PK" and url.lower().endswith(".docx")):
+                elif "officedocument.wordprocessingml" in ctype or (data[:2] == b"PK" and b"word/document.xml" in data[:200000]):
                     kind, text = "docx", docx_text(data)
                 else:
                     kind, text = "html", html_text(data.decode("utf-8", "replace"), final)

@@ -8,6 +8,8 @@ const ROOT = path.resolve(__dirname, '..');
 global.window = global;
 require(path.join(ROOT, 'scripts/grc-builder-data.js'));
 const D = window.GRC_BUILDER;
+require(path.join(ROOT, 'scripts/obligation-details.js'));
+const DET = window.GRC_OBLIGATION_DETAILS || {};
 const { fillHtml } = require('./facts_fill.js');   // {fact:ID} placeholders -> fact markers
 const REVIEWED = '1 October 2026';
 
@@ -26,22 +28,27 @@ D.entities.forEach(e => e.regimes.forEach(k => { (ENTS[k] = ENTS[k] || []).push(
 const BODY = [['APRA', /APRA/], ['ASIC', /ASIC/], ['AUSTRAC', /AUSTRAC/], ['OAIC', /OAIC/], ['ACCC', /ACCC/], ['ASX', /ASX/], ['ACNC', /ACNC/], ['DFAT', /DFAT/], ['Home Affairs', /Home Affairs/], ['Border Force', /Border Force/], ['Finance', /Department of Finance/]];
 const bodiesOf = reg => BODY.filter(b => b[1].test(reg)).map(b => b[0]);
 
-let total = 0, nclocks = 0;
+let total = 0, nclocks = 0, ndetail = 0;
 const sections = GROUPS.map(([gname, ids]) => {
   const regs = ids.map(k => {
     const r = D.regimes[k];
+    const det = DET[k];
     const rows = r.themes.map((t, i) => {
       total++;
       const id = 'OB-' + SHORT[k][0] + '-' + pad(i + 1);
       const risks = t[1].map(x => L2[x] ? L2[x].label : x);
-      return `        <tr data-text="${esc((t[0] + ' ' + t[2] + ' ' + t[3] + ' ' + risks.join(' ')).toLowerCase())}"><th scope="row"><span class="gb-id">${id}</span></th><td>${esc(t[0])}</td><td>${esc(t[2])}</td><td>${esc(t[3])}</td><td>${esc(risks.join('; '))}</td></tr>`;
+      const items = det && det.themes[i + 1] || [];
+      ndetail += items.length;
+      const list = items.length ? `<details class="ob-detail"><summary>${items.length} individual obligation${items.length > 1 ? 's' : ''}</summary><ol>${items.map((it, j) => `<li data-id="${id}.${j + 1}"><span class="ob-it">${esc(it[0])}</span> <span class="ob-cite">${esc(it[1])}</span></li>`).join('')}</ol></details>` : '';
+      return `        <tr data-text="${esc((t[0] + ' ' + t[2] + ' ' + t[3] + ' ' + risks.join(' ') + ' ' + items.map(it => it.join(' ')).join(' ')).toLowerCase())}"><th scope="row"><span class="gb-id">${id}</span></th><td><span class="ob-sum">${esc(t[0])}</span>${list}</td><td>${esc(t[2])}</td><td>${esc(t[3])}</td><td>${esc(risks.join('; '))}</td></tr>`;
     }).join('\n');
+    const checked = det ? `    <p class="ob-meta ob-checked">Individual obligations checked against ${det.source.map(([l, u]) => `<a href="${esc(u)}">${esc(l)}</a>`).join(', ')} on ${esc(det.checkedText)}.</p>\n` : '';
     const clocks = (r.clocks || []).map(c => { nclocks++; return `<li><strong>${esc(c[1])}</strong>: ${esc(c[0])} (${esc(c[2])})</li>`; }).join('');
     return `  <section class="ob-reg" id="${k}" data-reg="${k}" data-bodies="${bodiesOf(r.reg).join(' ')}" data-ents="${(ENTS[k] || []).join(' ')}" data-clock="${r.clocks ? 1 : 0}" data-text="${esc((r.label + ' ' + r.reg + ' ' + r.applies + ' ' + SHORT[k][1] + ' ' + (r.clocks || []).map(c => c.join(' ')).join(' ')).toLowerCase())}">
     <h3>${esc(r.label)}</h3>
     <p class="ob-meta"><span class="gb-chip">${esc(r.reg)}</span> <span class="ob-applies">Applies to: ${esc(r.applies)}</span></p>
     <p class="ob-meta">Typical owner: ${esc(OWNER[k] || 'Executive owner')}. <a href="${r.url}">Read our guide</a></p>
-${clocks ? `    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul>${clocks}</ul></div>\n` : ''}    <div class="table-wrap" tabindex="0"><table class="ob-table">
+${checked}${clocks ? `    <div class="ob-clocks"><p><strong>Notification deadlines</strong></p><ul>${clocks}</ul></div>\n` : ''}    <div class="table-wrap" tabindex="0"><table class="ob-table">
       <thead><tr><th scope="col">ID</th><th scope="col">Obligation (summary)</th><th scope="col">Control objective</th><th scope="col">Evidence</th><th scope="col">Related risks</th></tr></thead>
       <tbody>
 ${rows}
