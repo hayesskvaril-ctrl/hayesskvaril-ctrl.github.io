@@ -343,6 +343,18 @@ DONE = {
         'Added common mistakes, board questions and an FAQ'),
     "/grc/grc-for-complex-groups.html": ("8 October 2026",
         'Added a worked design example for a multi-entity group and an FAQ'),
+    "/foundations/what-is-risk-management.html": ("8 October 2026",
+        'Added an everyday worked example of the risk process and FAQs'),
+    "/foundations/what-is-compliance.html": ("8 October 2026",
+        'Added a worked example following one obligation from law to daily work, and FAQs'),
+    "/foundations/what-is-governance.html": ("8 October 2026",
+        'Added a worked example contrasting good and weak governance, and FAQs'),
+    "/foundations/regulatory-landscape.html": ("8 October 2026",
+        'Added recent changes to who does what, and FAQs'),
+    "/foundations/three-lines-model.html": ("8 October 2026",
+        "Added a worked example of each line's role when a control fails, and an FAQ"),
+    "/foundations/core-frameworks-compared.html": ("8 October 2026",
+        'Added which framework for which question, and FAQs'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

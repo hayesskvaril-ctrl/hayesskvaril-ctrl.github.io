@@ -8,6 +8,12 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/foundations/core-frameworks-compared.html', 'Core frameworks compared: deep review, adding a guide to which framework fits which question'),
+    ('2026-10-08', '/foundations/three-lines-model.html', "Three lines model: deep review, adding a worked example of each line's role"),
+    ('2026-10-08', '/foundations/regulatory-landscape.html', "Regulatory landscape: deep review, adding recent changes to regulators' roles"),
+    ('2026-10-08', '/foundations/what-is-governance.html', 'What is governance: deep review, adding a worked example of good and weak governance'),
+    ('2026-10-08', '/foundations/what-is-compliance.html', 'What is compliance: deep review, adding a worked example following one obligation'),
+    ('2026-10-08', '/foundations/what-is-risk-management.html', 'What is risk management: deep review, adding an everyday worked example and FAQs'),
     ('2026-10-08', '/grc/grc-for-complex-groups.html', 'GRC for complex groups: deep review, adding a worked design example for a multi-entity group'),
     ('2026-10-08', '/grc/grc-technology.html', 'GRC technology: deep review, adding common mistakes and board questions'),
     ('2026-10-08', '/grc/governance-and-operating-model.html', 'GRC governance and operating model: deep review, adding a worked escalation example'),
