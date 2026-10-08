@@ -24,9 +24,12 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
-UA = "RiskLensWatch/1.0 (+https://hayesskvaril-ctrl.github.io; free educational site; weekly check)"
+UA = "Mozilla/5.0 (compatible; RiskLensWatch/1.0; +https://hayesskvaril-ctrl.github.io; weekly check of public regulator pages)"
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 TODAY = datetime.date.today()
+
+
+DEBUG = {}
 
 
 def fetch(url, cache={}):
@@ -37,7 +40,7 @@ def fetch(url, cache={}):
     result = None
     for attempt in range(2):
         try:
-            with urllib.request.urlopen(req, timeout=40) as r:
+            with urllib.request.urlopen(req, timeout=75) as r:
                 body = r.read()
                 if r.headers.get("Content-Encoding") == "gzip":
                     body = gzip.decompress(body)
@@ -53,6 +56,13 @@ def fetch(url, cache={}):
         time.sleep(3)
     time.sleep(1.5)   # be polite
     cache[url] = result
+    st, ctype, body = result
+    t = re.search(r"(?is)<title[^>]*>(.*?)</title>", body or "")
+    DEBUG[url] = {"status": st, "type": ctype, "length": len(body or ""),
+                  "title": re.sub(r"\s+", " ", html.unescape(t.group(1))).strip()[:150] if t else "",
+                  "text_start": text_of(body)[:600] if st == 200 else (body or "")[:200],
+                  "hrefs": sorted(set(re.findall(r'href="([^"#]{8,200})"', body or "")))[:150],
+                  "alternate": re.findall(r'<link[^>]+rel="alternate"[^>]*>', body or "")[:5]}
     return result
 
 
@@ -191,6 +201,11 @@ def main():
             continue
         t = text_of(page).lower()
         ok = any(v in t for v in variants(f["value"]))
+        if not ok:
+            m = re.search(r"([A-Z][a-z]+ \d{4})$", f["value"])
+            key = (m.group(1) if m else f["value"]).lower()
+            near = [text_of(page)[max(0, i - 90): i + 90] for i in [mm.start() for mm in re.finditer(re.escape(key), t)][:4]]
+            DEBUG.setdefault(url, {})["near_" + f["id"]] = near
         results[f["id"]] = {"date": TODAY.isoformat(), "result": "found" if ok else "not_found",
                             "detail": "" if ok else f"'{f['value']}' does not appear on the source page", "url": url}
 
@@ -247,6 +262,7 @@ def main():
     (state / "seen.json").write_text(json.dumps(seen, indent=1) + "\n")
     (state / "auto_checks.json").write_text(json.dumps({"run": TODAY.isoformat(), "facts": results}, indent=1) + "\n")
     (state / "latest_report.md").write_text(report)
+    (state / "debug.json").write_text(json.dumps(DEBUG, indent=1) + "\n")
     if n_new or newly:
         bits = []
         if n_new:

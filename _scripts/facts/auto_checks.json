@@ -1,0 +1,251 @@
+{
+ "run": "2026-10-08",
+ "facts": {
+  "sps530-proposals-released": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-releases-proposals-strengthen-trustee-investment-governance"
+  },
+  "sps530-submissions-close": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/strengthening-superannuation-investment-governance-consultation-paper"
+  },
+  "sps530-proposed-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-releases-proposals-strengthen-trustee-investment-governance"
+  },
+  "payday-super-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/payday-super-readiness"
+  },
+  "sps515-strengthened-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/standards/sps-515"
+  },
+  "cslr-fy27-estimate": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://cslr.org.au/levies/"
+  },
+  "cslr-advice-fy27": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://cslr.org.au/levies/"
+  },
+  "rep833-published": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'29 June 2026' does not appear on the source page",
+   "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-135mr-asic-calls-platform-trustees-to-account-over-persistent-failures-to-safeguard-super-savings"
+  },
+  "cps230-start": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'1 July 2025' does not appear on the source page",
+   "url": "https://www.apra.gov.au/standards/cps-230"
+  },
+  "cps230-amendments-effective": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management"
+  },
+  "cps230-amendments-finalised": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management"
+  },
+  "cps234-incident-notice": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/standards/cps-234"
+  },
+  "cps190-rse-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/standards/cps-190"
+  },
+  "cps510-draft-released": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
+  },
+  "cps510-consultation-closed": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
+  },
+  "cps510-tenure-limit": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'12 years' does not appear on the source page",
+   "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
+  },
+  "ai-letter": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-calls-step-change-ai-related-risk-management-and-governance"
+  },
+  "at1-removal-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-finalises-changes-to-phase-out-additional-tier-1-capital-instruments"
+  },
+  "dti-limit-start": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'1 February 2026' does not appear on the source page",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending"
+  },
+  "dti-limit-share": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending"
+  },
+  "risk-weights-proposed-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-consults-changes-bank-risk-weights-designed-support-lending-and"
+  },
+  "srst-results": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-publishes-findings-inaugural-system-risk-stress-test"
+  },
+  "fcs-limit": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'$250,000' does not appear on the source page",
+   "url": "https://www.fcs.gov.au/"
+  },
+  "far-insurers-super-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/financial-accountability-regime"
+  },
+  "far-adi-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/financial-accountability-regime"
+  },
+  "far-streamlining-close": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'2 October 2026' does not appear on the source page",
+   "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining"
+  },
+  "penalty-unit": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.asic.gov.au/about-asic/asic-investigations-and-enforcement/fines-and-penalties/"
+  },
+  "advice-reforms-announced": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'19 August 2026' does not appear on the source page",
+   "url": "https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package"
+  },
+  "aml-reformed-obligations-start": {
+   "date": "2026-10-08",
+   "result": "error",
+   "detail": "could not read the source (TimeoutError: The read operation timed out)",
+   "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
+  },
+  "aml-tranche2-start": {
+   "date": "2026-10-08",
+   "result": "error",
+   "detail": "could not read the source (TimeoutError: The read operation timed out)",
+   "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
+  },
+  "scams-main-obligations": {
+   "date": "2026-10-08",
+   "result": "error",
+   "detail": "could not read the source (403)",
+   "url": "https://www.accc.gov.au/about-us/scams-prevention-framework"
+  },
+  "scams-afca-membership": {
+   "date": "2026-10-08",
+   "result": "error",
+   "detail": "could not read the source (403)",
+   "url": "https://www.accc.gov.au/about-us/scams-prevention-framework"
+  },
+  "privacy-adm-start": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'10 December 2026' does not appear on the source page",
+   "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles"
+  },
+  "privacy-tranche2-draft": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+  },
+  "privacy-tranche2-close": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+  },
+  "essential-eight-consult-close": {
+   "date": "2026-10-08",
+   "result": "error",
+   "detail": "could not read the source (TimeoutError: The read operation timed out)",
+   "url": "https://www.cyber.gov.au/about-us/view-all-content/news/consultation-on-evolution-of-essential-eight"
+  },
+  "climate-group2-start": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'1 July 2026' does not appear on the source page",
+   "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+  },
+  "climate-group3-start": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'1 July 2027' does not appear on the source page",
+   "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+  },
+  "rep839-published": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'21 September 2026' does not appear on the source page",
+   "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+  },
+  "whistleblower-review-close": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/review-tax-and-corporate-whistleblowing"
+  },
+  "asx-5th-consult-close": {
+   "date": "2026-10-08",
+   "result": "skipped",
+   "detail": "PDF source: check by hand",
+   "url": "https://www.asx.com.au/content/dam/asx/about/corporate-governance-council/asx-corporate-governance-principles-and-recommendations-draft-5th-edition-consultation-paper.pdf"
+  }
+ }
+}
