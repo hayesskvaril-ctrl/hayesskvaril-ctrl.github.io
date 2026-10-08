@@ -206,7 +206,8 @@ due = [f for f in fdata if facts_lib.recheck_due(f) <= TODAY]
 secondary = [f for f in fdata if f["checked"]["how"] == "secondary"]
 auto = facts_lib.load_auto()
 confirmed = {k for k, r in auto.items() if r.get("result") == "found"}
-not_found = [k for k, r in auto.items() if r.get("result") == "not_found"]
+manual = {f["id"] for f in fdata if f.get("autocheck") is False}
+not_found = [k for k, r in auto.items() if r.get("result") == "not_found" and k not in manual]
 unconfirmed = [f for f in secondary if f["id"] not in confirmed]
 print(f"  {len(fdata)} facts; {len(confirmed)} found on their official source by the weekly watch"
       + ("" if pulled else " (watch results not available yet)"))
