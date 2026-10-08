@@ -829,7 +829,7 @@
   function pExport(m) {
     return '<p>Take the model with you. Files are created on this device; nothing is sent anywhere.</p>' +
       '<div class="gb-xgrid">' +
-      '<div class="gb-x"><button type="button" data-x="xlsx">Excel workbook (.xlsx)</button><p>About 20 sheets: documents, taxonomy, appetite, risk register, controls, KRIs, obligations, clocks, linkages, committees, roles, RACI, data model, reporting, calendar, maturity, roadmap and checks. Opens in Excel, Numbers, LibreOffice and Google Sheets.</p></div>' +
+      '<div class="gb-x"><button type="button" data-x="xlsx">Excel workbook (.xlsx)</button><p>About 20 sheets: documents, taxonomy, appetite, risk register, controls, KRIs, obligations (with individual obligations and citations where available), clocks, linkages, committees, roles, RACI, data model, reporting, calendar, maturity, roadmap and checks. Opens in Excel, Numbers, LibreOffice and Google Sheets.</p></div>' +
       '<div class="gb-x"><button type="button" data-x="csv">Risk and control matrix (.csv)</button><p>One row for each risk and control pair, with KRIs and linked obligations: ready to import into a register or GRC tool.</p></div>' +
       '<div class="gb-x"><button type="button" data-x="json">Full model (.json)</button><p>Everything in a structured format, for developers or GRC platform imports.</p></div>' +
       '<div class="gb-x"><button type="button" data-x="print">Print or save as PDF</button><p>Prints every tab in order, with the taxonomy and register sections expanded.</p></div>' +
@@ -891,6 +891,15 @@
     sh.push({ name: 'Obligations', rows: [['Obligation ID', 'Regime', 'Regulator', 'Obligation (summary)', 'Control objective', 'Evidence', 'Linked Level 2 risks', 'Linked controls', 'Typical owner', 'Applies to', 'Guide']].concat(m.obligations.map(function (o) {
       return [o.id, o.rg.def.label, o.rg.def.reg, o.title, o.objective, o.evidence, o.l2.map(function (it) { return it.code + ' ' + it.x.label; }).join('; ') + (o.missing.length ? ' (not in scope: ' + o.missing.map(function (x) { return x.label; }).join('; ') + ')' : ''), o.controls.map(function (c) { return c.id; }).join(', '), REG_OWNER[o.rg.id] || '', o.rg.def.applies, origin + o.rg.def.url];
     })), widths: [16, 30, 16, 60, 40, 34, 40, 30, 24, 40, 40] });
+    // individual obligations with citations (obligations library stage 2), where available for the selected regimes
+    var DET = window.GRC_OBLIGATION_DETAILS || {}, F = window.RL_FACTS || {};
+    var fillF = function (t) { return String(t).replace(/\{fact:([a-z0-9-]+)\}/g, function (x, id) { return Object.prototype.hasOwnProperty.call(F, id) ? F[id] : x; }); };
+    var det = [];
+    m.obligations.forEach(function (o) {
+      var d = DET[o.rg.id], items = d && d.themes[parseInt(o.id.slice(-2), 10)];
+      (items || []).forEach(function (it, j) { det.push([o.id + '.' + (j + 1), o.id, o.rg.def.label, fillF(it[0]), it[1], d.source.map(function (x) { return x[0]; }).join('; ') + ' (checked ' + d.checkedText + ')']); });
+    });
+    if (det.length) sh.push({ name: 'Individual obligations', rows: [['ID', 'Theme ID', 'Regime', 'Obligation (plain English)', 'Citation', 'Checked against']].concat(det), widths: [18, 16, 30, 80, 30, 50] });
     sh.push({ name: 'Clocks', rows: [['Event', 'Timeframe', 'Notify', 'Regime', 'Guide']].concat(m.clocks.map(function (c) { return [c.event, c.time, c.to, c.rg.def.label, origin + c.rg.def.url]; })), widths: [56, 44, 24, 36, 40] });
     sh.push({ name: 'Linkage matrix', rows: [['Regime'].concat(m.l1.map(function (L) { return L.code; })).concat(['Out of scope', 'Total themes'])].concat(m.regimes.map(function (rg) {
       return [rg.def.label].concat(m.l1.map(function (L) { return rg.obs.filter(function (o) { return o.l2.some(function (it) { return it.l1 === L; }); }).length || ''; })).concat([rg.obs.filter(function (o) { return o.missing.length; }).length || '', rg.obs.length]);
