@@ -21,7 +21,7 @@ SECTIONS = [
 ]
 PRACTICE = [
     ("/playbooks/", "Playbooks", "Step-by-step guides with checklists for real situations."),
-    ("/obligations/", "Obligations library", "Plain-English obligations from 37 regimes, searchable and downloadable."),
+    ("/obligations/", "Obligations library", "Plain-English obligations from 39 regimes, searchable and downloadable."),
     ("/tools/", "Tools and templates", "Registers, workpapers and calculators to download and adapt."),
     ("/glossary/", "Glossary", "Plain-English definitions of the terms used across the site."),
 ]

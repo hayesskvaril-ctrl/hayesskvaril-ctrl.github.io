@@ -35,6 +35,7 @@ const THEMES = [
   ['Risk, resilience and cyber', ['cps220', 'cps230', 'cps234', 'cps190', 'ransom', 'ai']],
   ['Capital, liquidity and investment', ['capital', 'liquidity', 'sps515', 'sps530', 'sis']],
   ['Licensing, conduct and disclosure', ['afsl', 'advice', 'credit', 'insurance', 'rg259', 'ddo', 'disclosure', 'rg97', 'idr', 'scams']],
+  ['Insurance sector rules', ['lifeact', 'phiact']],
   ['Breaches and remediation', ['breach', 'remed']],
   ['Financial crime', ['aml', 'sanctions', 'abc']],
   ['Privacy and data', ['privacy']],
@@ -42,8 +43,8 @@ const THEMES = [
 ];
 // sector-specific notes where the shared regimes don't tell the whole story
 const NOTES = {
-  phi: 'Private health insurance is not a "financial product" under the Corporations Act, so ASIC\'s licensing, conduct and breach reporting regimes don\'t apply to health insurance products. Product, premium and community rating rules come from the <em>Private Health Insurance Act 2007</em>, complaints go to the Commonwealth Ombudsman (as Private Health Insurance Ombudsman), and consumer law applies. See the <a href="/sectors/private-health-insurance.html">private health insurance guide</a> for those rules, which aren\'t in the obligations library yet.',
-  li: 'Life insurers also have rules specific to life insurance, such as statutory funds under the <em>Life Insurance Act 1995</em> and caps on advice commissions. See the <a href="/sectors/life-insurance.html">life insurance guide</a>.',
+  phi: 'Private health insurance is not a "financial product" under the Corporations Act, so ASIC\'s licensing, conduct and breach reporting regimes don\'t apply to health insurance products. Product, premium and community rating rules come from the <em>Private Health Insurance Act 2007</em> (see "Insurance sector rules" below), complaints go to the Commonwealth Ombudsman (as Private Health Insurance Ombudsman), and consumer law applies. The <a href="/sectors/private-health-insurance.html">private health insurance guide</a> explains these rules.',
+  li: 'Life insurers also have rules specific to life insurance, such as statutory funds under the <em>Life Insurance Act 1995</em>, caps on advice commissions and the Life Insurance Code of Practice (see "Insurance sector rules" below). The <a href="/sectors/life-insurance.html">life insurance guide</a> explains them.',
   gi: 'General insurers also have rules specific to general insurance, such as the <em>Insurance Act 1973</em> and APRA\'s general insurance standards. See the <a href="/sectors/general-insurance.html">general insurance guide</a>.',
   rse: 'Super trustees also have extensive SIS Act covenants and super-specific prudential standards. See <a href="/sectors/superannuation.html">Superannuation trustee governance</a>.',
 };

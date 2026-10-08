@@ -425,7 +425,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Obligations by sector: picker, comparison table and 12 sector pages (`_scripts/build_obligation_sectors.js`)
 - [x] New sector guides: general insurance, life insurance, private health insurance (insurance page kept as an overview; claims handling dates corrected)
 - [x] "For your sector" link on every sector guide
-- [ ] Later: add private health insurance and life-specific regimes (Private Health Insurance Act, Life Insurance Act, commissions) to the obligations library data
+- [x] Private health insurance and life insurance regimes added to the obligations library and GRC model builder (9 and 5 obligation themes; now 131 themes from 39 regimes), 8 October 2026
 
 ## Phase 23 — Keeping facts current: updates and verification system (requested October 2026)
 
