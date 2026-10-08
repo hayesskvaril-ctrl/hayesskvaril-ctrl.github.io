@@ -97,6 +97,80 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Notify APRA as soon as possible, and no later than {fact:cps234-weakness-notice} after becoming aware, of a material information security control weakness the entity expects it can’t remediate in a timely manner', 'CPS 234 para 36']]
     }
   },
+  afsl: {
+    source: [['Corporations Act 2001, ss 912A–912B (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['Do all things necessary to ensure the financial services covered by the licence are provided efficiently, honestly and fairly', 'Corporations Act s 912A(1)(a)'],
+        ['Comply with the conditions on the licence and with the financial services laws', 'Corporations Act s 912A(1)(b)–(c)'],
+        ['Take reasonable steps to ensure representatives comply with the financial services laws', 'Corporations Act s 912A(1)(ca)'],
+        ['Comply with the Reference Checking and Information Sharing Protocol (for representatives who give personal advice to retail clients about relevant financial products)', 'Corporations Act s 912A(1)(cc), (3A)'],
+        ['If providing services to retail clients, have arrangements to compensate them for loss caused by breaches by the licensee or its representatives', 'Corporations Act s 912B'],
+        ['Contravening most of the general obligations is a civil penalty provision', 'Corporations Act s 912A(5A)']],
+      2: [
+        ['Have adequate risk management systems (not required of APRA-regulated bodies, other than RSE licensees that are also responsible entities of registered schemes)', 'Corporations Act s 912A(1)(h), (5)'],
+        ['Have adequate arrangements for managing conflicts of interest', 'Corporations Act s 912A(1)(aa)'],
+        ['If providing services to retail clients, have a dispute resolution system (internal dispute resolution meeting ASIC’s standards, and AFCA membership) and give ASIC the IDR information it specifies', 'Corporations Act s 912A(1)(g), (2), (2A)']],
+      3: [
+        ['Maintain the competence to provide the financial services covered by the licence', 'Corporations Act s 912A(1)(e)']],
+      4: [
+        ['Have adequate financial, technological and human resources to provide the financial services and carry out supervisory arrangements (not required of APRA-regulated bodies, other than RSE licensees that are also responsible entities of registered schemes)', 'Corporations Act s 912A(1)(d), (4)'],
+        ['Ensure representatives are adequately trained (including meeting continuing professional development requirements) and competent to provide the financial services', 'Corporations Act s 912A(1)(f)']]
+    }
+  },
+  ddo: {
+    source: [['Corporations Act 2001, Part 7.8A, ss 994B–994G (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['Make a target market determination (TMD) before anyone distributes the product to retail clients, for products that need a Product Disclosure Statement or disclosure document (and some others); exclusions include MySuper products, margin lending and most ordinary shares', 'Corporations Act s 994B(1)–(3)'],
+        ['The TMD is in writing and sets out the target market, distribution conditions, review triggers, maximum review periods, the complaints reporting period, and the information distributors must report and when', 'Corporations Act s 994B(5)–(6)'],
+        ['The TMD must be appropriate: retail clients acquiring the product under the distribution conditions are likely to be in the target market, and the product is likely to suit the target market’s likely objectives, financial situation and needs', 'Corporations Act s 994B(8)–(8A)'],
+        ['Make the TMD publicly available free of charge', 'Corporations Act s 994B(9)'],
+        ['Distributors must not distribute a product that needs a TMD unless, after reasonable inquiries, they believe one has been made', 'Corporations Act s 994D'],
+        ['Keep complete and accurate records of decisions about TMDs, review triggers and review periods, and the reasons for them', 'Corporations Act s 994F(1)']],
+      2: [
+        ['The issuer takes reasonable steps that will, or are reasonably likely to, result in distribution consistent with the TMD', 'Corporations Act s 994E(1)'],
+        ['Distributors must also take reasonable steps for consistency with the TMD (not needed where the dealing implements personal advice to the client)', 'Corporations Act s 994E(3), (6)'],
+        ['Reasonable steps take account of the likelihood of inconsistent distribution, the harm it could cause, what the person knows, and the ways available to reduce the likelihood and harm', 'Corporations Act s 994E(5)'],
+        ['Distributors keep records of complaints, the reasonable steps they took and the information they must report to the issuer', 'Corporations Act s 994F(3)']],
+      3: [
+        ['Complete a review of the TMD within each review period while the product is on offer to retail clients', 'Corporations Act s 994C(2)'],
+        ['After learning of a review trigger, or anything else suggesting the TMD is no longer appropriate, stop distributing within 10 business days unless the TMD has been reviewed (and replaced if needed)', 'Corporations Act s 994C(3)–(4)'],
+        ['Within the same 10 business days, take reasonable steps to tell distributors to stop until the TMD has been reviewed; distributors must stop within 10 business days of knowing', 'Corporations Act s 994C(5)–(7)'],
+        ['Distributors report complaint numbers and other specified information to the issuer within 10 business days after each reporting period, and significant dealings inconsistent with the TMD within 10 business days', 'Corporations Act s 994F(4)–(6)'],
+        ['The issuer notifies ASIC in writing of a significant dealing inconsistent with the TMD as soon as practicable and within {fact:ddo-asic-notice} of becoming aware', 'Corporations Act s 994G']]
+    }
+  },
+  advice: {
+    source: [['Corporations Act 2001, Part 7.6 Divisions 8A–8C and Part 7.7A (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['Act in the best interests of the client; the steps that show this include identifying the client’s objectives, financial situation and needs and the subject of the advice, making reasonable inquiries where information is incomplete or inaccurate, and declining to advise without the needed expertise', 'Corporations Act s 961B'],
+        ['Give the advice only if it would be reasonable to conclude it is appropriate to the client', 'Corporations Act s 961G'],
+        ['Warn the client, when the advice is given, if it is or may be based on incomplete or inaccurate information about their circumstances', 'Corporations Act s 961H'],
+        ['Give priority to the client’s interests where there is a conflict with the interests of the adviser, the licensee or their associates', 'Corporations Act s 961J'],
+        ['The licensee takes reasonable steps to ensure its representatives comply with these duties', 'Corporations Act s 961L']],
+      2: [
+        ['Conflicted remuneration is any benefit (other than from the client) that could reasonably be expected to influence the products recommended or the advice given to retail clients', 'Corporations Act s 963A'],
+        ['Licensees must not accept conflicted remuneration and must take reasonable steps so their representatives don’t', 'Corporations Act ss 963E–963F'],
+        ['Authorised and other representatives must not accept it; employers, product issuers and sellers must not give it', 'Corporations Act ss 963G–963K'],
+        ['Volume-based benefits are presumed to be conflicted remuneration unless shown otherwise', 'Corporations Act s 963L'],
+        ['Exceptions are limited, such as some benefits for general insurance and (subject to conditions) life risk insurance products', 'Corporations Act s 963B']],
+      3: [
+        ['Get the client’s signed, dated written consent before entering into or renewing an ongoing fee arrangement, after telling them in writing the services, fees, frequency, consent period and their right to end it', 'Corporations Act s 962G'],
+        ['Consent lapses unless renewed in the window from 60 days before to 150 days after each anniversary (or an earlier date set in the consent), and the arrangement then ends', 'Corporations Act ss 962F, 962H'],
+        ['The client may end an ongoing fee arrangement at any time', 'Corporations Act s 962J'],
+        ['Do not deduct, or arrange or accept deduction of, ongoing fees from a client’s account without their written consent', 'Corporations Act ss 962R–962S'],
+        ['Keep records that show compliance with the ongoing fee arrangement rules', 'Corporations Act s 962X']],
+      4: [
+        ['Relevant providers must not give personal advice to retail clients on relevant financial products unless registered with ASIC, and licensees must not keep authorising unregistered providers', 'Corporations Act ss 921Y–921Z'],
+        ['Relevant providers must meet the education and training standards (qualification, exam, and work and training) and comply with the Code of Ethics', 'Corporations Act ss 921BA, 921E(3)'],
+        ['Licensees notify ASIC when a person becomes a relevant provider, and of changes to their details, within 30 business days', 'Corporations Act ss 922D, 922H, 922L(2)']]
+    }
+  },
   breach: {
     source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
     checkedText: '8 October 2026',

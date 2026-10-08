@@ -252,7 +252,7 @@ window.GRC_BUILDER = {
         ['Make a target market determination before distribution, with distribution conditions and review triggers', ['con.ddo'], 'Every in-scope product has a current TMD', 'TMD register'],
         ['Take reasonable steps so distribution is consistent with the TMD', ['con.ddo'], 'Distribution is monitored against the TMD', 'Distribution data; monitoring reports'],
         ['Monitor, review TMDs when triggers occur, and notify ASIC of significant dealings inconsistent with the TMD', ['con.ddo', 'cmp.reporting'], 'Triggers are acted on and significant dealings notified', 'Review records; ASIC notifications']],
-      clocks: [['Significant dealing inconsistent with a target market determination', 'Within 10 business days', 'ASIC']] },
+      clocks: [['Significant dealing inconsistent with a target market determination', 'Within {fact:ddo-asic-notice}', 'ASIC']] },
 
     remed: { label: 'Consumer remediation (RG 277)', reg: 'ASIC', url: '/standards/asic-rg-277.html',
       applies: 'AFS and credit licensees remediating consumer loss.',

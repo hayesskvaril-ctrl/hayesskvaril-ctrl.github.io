@@ -501,5 +501,17 @@
   "/standards/cps-220.html",
   "/standards/cps-230.html",
   "/standards/cps-511.html"
+ ],
+ "ddo-asic-notice": [
+  "/compliance/breach-reporting.html",
+  "/compliance/consumer-protection.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/credit-and-lending.html",
+  "/obligations/funds-management.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/superannuation.html",
+  "/standards/asic-rg-274.html"
  ]
 }

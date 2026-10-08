@@ -59,5 +59,6 @@ window.RL_FACTS = {
  "cet1-minimum": "4.5%",
  "adi-sfi-threshold": "$30 billion",
  "msfi-threshold": "$300 billion",
- "three-tier-start": "1 July 2026"
+ "three-tier-start": "1 July 2026",
+ "ddo-asic-notice": "10 business days"
 };

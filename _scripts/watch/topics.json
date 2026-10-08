@@ -1216,6 +1216,18 @@
   "/risk-management/third-party-risk.html",
   "/standards/cps-230.html"
  ],
+ "significant dealing": [
+  "/compliance/breach-reporting.html",
+  "/compliance/consumer-protection.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/credit-and-lending.html",
+  "/obligations/funds-management.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/superannuation.html",
+  "/standards/asic-rg-274.html"
+ ],
  "significant financial institution": [
   "/news/regulatory-tracker.html",
   "/standards/aps-110-and-aps-210.html",

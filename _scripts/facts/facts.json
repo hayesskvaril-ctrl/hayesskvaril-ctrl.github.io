@@ -1464,6 +1464,34 @@
     "note": "Read in APRA's official text: CPS 001 Defined terms (in force from 1 July 2026) and APRA's media release of 27 May 2026, fetched by the site's document fetcher, 8 October 2026"
    },
    "history": []
+  },
+  {
+   "id": "ddo-asic-notice",
+   "topic": "Conduct",
+   "fact": "Design and distribution: an issuer must notify ASIC of a significant dealing inconsistent with the target market determination within",
+   "value": "10 business days",
+   "status": "in force",
+   "context": [
+    "significant dealing"
+   ],
+   "source": {
+    "label": "Corporations Act 2001, s 994G",
+    "url": "https://www.legislation.gov.au/C2004A00818/latest/text"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "official",
+    "note": "Read in the official compilation of the Corporations Act (in force 19 September 2026), s 994G, fetched from legislation.gov.au by the site's document fetcher"
+   },
+   "history": [],
+   "exclude": [
+    "CPS 234",
+    "threshold transaction",
+    "TTR",
+    "IFTI"
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: the Act's text is in Word and PDF files on legislation.gov.au, which the weekly watch doesn't read"
   }
  ]
 }
