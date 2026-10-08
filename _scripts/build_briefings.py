@@ -6,6 +6,7 @@ import re
 from html import escape
 from pathlib import Path
 from briefings_data import BRIEFINGS
+from facts_lib import fill, plain
 
 ROOT = Path(__file__).resolve().parent.parent
 REVIEWED = "1 October 2026"
@@ -16,11 +17,11 @@ DISCLAIMER = ("General educational information only, not legal or compliance adv
 
 
 def e(s):
-    return escape(s, quote=False)
+    return fill(escape(s, quote=False))   # {fact:ID} placeholders -> the register's current value
 
 
 def wrap(title, desc, crumb, main_cls, body):
-    return (HEAD + f'<title>{e(title)} | RiskLens Australia</title>\n<meta name="description" content="{escape(desc)}">\n'
+    return (HEAD + f'<title>{e(title)} | RiskLens Australia</title>\n<meta name="description" content="{escape(plain(desc))}">\n'
             '<link rel="stylesheet" href="/styles.css">\n</head>\n<body>\n\n<!-- HEADER:START -->\n<!-- HEADER:END -->\n\n'
             f'<main id="main" class="{main_cls}">\n  <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li>'
             f'<li><a href="/governance/">Governance</a></li>{crumb}</ol></nav>\n' + body +

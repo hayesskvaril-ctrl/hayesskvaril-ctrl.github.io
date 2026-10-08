@@ -153,7 +153,7 @@ def find_mentions(page_html, value, keywords):
 
 # Pages rebuilt by a generator from a data file (update the data file instead), and dated news
 # articles (a record of what was true when published). Facts are not wrapped automatically here.
-NO_WRAP = ("/news/", "/obligations/", "/whats-new/", "/glossary/", "/learn/", "/playbooks/", "/topics/",
+NO_WRAP = ("/news/", "/case-studies/", "/obligations/", "/whats-new/", "/glossary/", "/learn/", "/playbooks/", "/topics/",
            "/governance/briefing-", "/governance/board-briefings.html", "/about/", "/levels/", "/start-here/",
            "/tools/", "/search/", "/resources/", "/404.html", "/index.html")
 
@@ -168,6 +168,35 @@ def published_pages():
 
 def wrappable(url):
     return url != "/" and not url.startswith(NO_WRAP)
+
+
+# Generator data files (tracker, playbooks, briefings) can write {fact:ID} instead of a value: the builder
+# swaps in the register's current value as a fact marker, so the data file never holds a stale copy.
+PLACEHOLDER_RE = re.compile(r"\{fact:([a-z0-9-]+)\}")
+_VALUES = None
+
+
+def fill(text, markup=True):
+    """Replace {fact:ID} placeholders with the fact's current value (a fact marker span if markup=True).
+    Call on text that has already been HTML-escaped. Unknown IDs stop the build."""
+    global _VALUES
+    if "{fact:" not in text:
+        return text
+    if _VALUES is None:
+        _VALUES = {f["id"]: f["value"] for f in load()["facts"]}
+
+    def rep(m):
+        fid = m.group(1)
+        if fid not in _VALUES:
+            raise SystemExit(f"Unknown fact ID in placeholder: {{fact:{fid}}}")
+        v = html.escape(_VALUES[fid], quote=False)
+        return f'<span class="fact" data-fact="{fid}">{v}</span>' if markup else v
+    return PLACEHOLDER_RE.sub(rep, text)
+
+
+def plain(text):
+    """Placeholders replaced with plain values (for titles, attributes and search text)."""
+    return fill(text, markup=False)
 
 
 DATA_FILES = ["_scripts/tracker_data.py", "_scripts/playbooks_data.py", "_scripts/briefings_data.py",

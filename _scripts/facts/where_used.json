@@ -1,33 +1,42 @@
 {
  "sps530-proposals-released": [
+  "/news/regulatory-tracker.html",
   "/standards/sps-530.html"
  ],
  "sps530-submissions-close": [
+  "/news/regulatory-tracker.html",
   "/standards/sps-530.html"
  ],
  "sps530-proposed-start": [
+  "/news/regulatory-tracker.html",
   "/standards/sps-530.html"
  ],
  "payday-super-start": [
+  "/news/regulatory-tracker.html",
   "/sectors/superannuation.html"
  ],
  "sps515-strengthened-start": [
+  "/news/regulatory-tracker.html",
   "/sectors/fund-mergers-and-successor-fund-transfers.html",
   "/standards/sps-515.html"
  ],
  "cslr-fy27-estimate": [
+  "/news/regulatory-tracker.html",
   "/sectors/financial-advice-licensees.html",
   "/sectors/managed-investment-schemes.html"
  ],
  "cslr-advice-fy27": [
+  "/news/regulatory-tracker.html",
   "/sectors/financial-advice-licensees.html",
   "/sectors/managed-investment-schemes.html"
  ],
  "rep833-published": [
   "/governance/financial-accountability-regime.html",
+  "/news/regulatory-tracker.html",
   "/sectors/financial-advice-licensees.html"
  ],
  "cps230-start": [
+  "/news/regulatory-tracker.html",
   "/risk-management/business-continuity.html",
   "/risk-management/control-design-and-testing.html",
   "/risk-management/mapping-critical-operations.html",
@@ -38,21 +47,26 @@
   "/standards/cps-230.html"
  ],
  "cps230-amendments-effective": [
+  "/news/regulatory-tracker.html",
   "/risk-management/mapping-critical-operations.html",
   "/risk-management/operational-risk.html",
   "/standards/cps-230.html"
  ],
  "cps230-amendments-finalised": [
+  "/news/regulatory-tracker.html",
   "/risk-management/operational-risk.html",
   "/standards/cps-230.html"
  ],
  "cps234-incident-notice": [
   "/compliance/breach-reporting.html",
+  "/governance/briefing-cps-234.html",
+  "/playbooks/respond-to-an-incident.html",
   "/risk-management/business-continuity.html",
   "/risk-management/operational-risk.html",
   "/standards/cps-234.html"
  ],
  "cps190-rse-start": [
+  "/news/regulatory-tracker.html",
   "/standards/cps-190-and-cps-900.html",
   "/standards/sps-515.html"
  ],
@@ -65,30 +79,38 @@
  "cps510-consultation-closed": [
   "/foundations/what-is-governance.html",
   "/governance/board-structure-and-accountability.html",
+  "/news/regulatory-tracker.html",
   "/sectors/superannuation.html",
   "/standards/cps-510-and-cps-520.html"
  ],
  "cps510-tenure-limit": [
   "/standards/cps-510-and-cps-520.html"
  ],
- "ai-letter": [],
+ "ai-letter": [
+  "/news/regulatory-tracker.html"
+ ],
  "at1-removal-start": [
+  "/news/regulatory-tracker.html",
   "/sectors/banking.html",
   "/standards/aps-110-and-aps-210.html",
   "/standards/aps-115.html"
  ],
  "dti-limit-start": [
   "/foundations/regulatory-landscape.html",
+  "/news/regulatory-tracker.html",
   "/sectors/banking.html"
  ],
  "dti-limit-share": [
+  "/news/regulatory-tracker.html",
   "/sectors/banking.html"
  ],
  "risk-weights-proposed-start": [
+  "/news/regulatory-tracker.html",
   "/standards/aps-110-and-aps-210.html",
   "/standards/aps-115.html"
  ],
  "srst-results": [
+  "/news/regulatory-tracker.html",
   "/risk-management/scenario-analysis-and-stress-testing.html",
   "/standards/aps-110-and-aps-210.html"
  ],
@@ -97,7 +119,9 @@
  ],
  "far-insurers-super-start": [
   "/foundations/what-is-governance.html",
+  "/governance/briefing-far.html",
   "/governance/financial-accountability-regime.html",
+  "/news/regulatory-tracker.html",
   "/sectors/general-insurance.html",
   "/sectors/insurance.html",
   "/sectors/life-insurance.html",
@@ -107,60 +131,173 @@
  ],
  "far-adi-start": [
   "/foundations/what-is-governance.html",
+  "/governance/briefing-far.html",
   "/governance/financial-accountability-regime.html",
+  "/news/regulatory-tracker.html",
   "/sectors/banking.html"
  ],
  "far-streamlining-close": [
-  "/governance/financial-accountability-regime.html"
+  "/governance/financial-accountability-regime.html",
+  "/news/regulatory-tracker.html"
  ],
  "penalty-unit": [
   "/compliance/enforcement-and-penalties.html"
  ],
  "advice-reforms-announced": [
-  "/compliance/financial-advice-regulation.html"
+  "/compliance/financial-advice-regulation.html",
+  "/news/regulatory-tracker.html"
  ],
  "aml-reformed-obligations-start": [
   "/case-studies/austrac-cba-westpac.html",
   "/compliance/aml-ctf-fundamentals.html",
   "/foundations/regulatory-landscape.html",
+  "/governance/briefing-aml-ctf.html",
+  "/news/regulatory-tracker.html",
   "/sectors/payments-and-fintech.html"
  ],
  "aml-tranche2-start": [
   "/case-studies/austrac-cba-westpac.html",
   "/compliance/aml-ctf-fundamentals.html",
-  "/foundations/regulatory-landscape.html"
+  "/foundations/regulatory-landscape.html",
+  "/governance/briefing-aml-ctf.html",
+  "/news/regulatory-tracker.html"
  ],
  "scams-main-obligations": [
-  "/compliance/consumer-protection.html"
+  "/compliance/consumer-protection.html",
+  "/news/regulatory-tracker.html"
  ],
  "scams-afca-membership": [
-  "/compliance/consumer-protection.html"
+  "/compliance/consumer-protection.html",
+  "/news/regulatory-tracker.html"
  ],
  "privacy-adm-start": [
-  "/governance/ai-governance.html"
+  "/governance/ai-governance.html",
+  "/news/regulatory-tracker.html"
  ],
  "privacy-tranche2-draft": [
-  "/compliance/privacy-law.html"
+  "/compliance/privacy-law.html",
+  "/news/regulatory-tracker.html"
  ],
  "privacy-tranche2-close": [
-  "/compliance/privacy-law.html"
+  "/compliance/privacy-law.html",
+  "/news/regulatory-tracker.html"
  ],
  "essential-eight-consult-close": [
+  "/news/regulatory-tracker.html",
   "/standards/essential-eight.html"
  ],
  "climate-group2-start": [
-  "/compliance/climate-related-financial-disclosures.html"
+  "/compliance/climate-related-financial-disclosures.html",
+  "/news/regulatory-tracker.html"
  ],
  "climate-group3-start": [
-  "/compliance/climate-related-financial-disclosures.html"
+  "/compliance/climate-related-financial-disclosures.html",
+  "/news/regulatory-tracker.html"
  ],
  "rep839-published": [
-  "/compliance/climate-related-financial-disclosures.html"
+  "/compliance/climate-related-financial-disclosures.html",
+  "/news/regulatory-tracker.html"
  ],
  "whistleblower-review-close": [
-  "/governance/whistleblower-protections.html"
+  "/governance/whistleblower-protections.html",
+  "/news/regulatory-tracker.html"
  ],
  "asx-5th-consult-close": [
-  "/foundations/what-is-governance.html"
+  "/foundations/what-is-governance.html",
+  "/news/regulatory-tracker.html"
+ ],
+ "reportable-situations-deadline": [
+  "/compliance/breach-reporting.html",
+  "/foundations/what-is-compliance.html",
+  "/governance/briefing-breach-reporting.html",
+  "/playbooks/assess-a-potential-breach.html",
+  "/playbooks/respond-to-an-incident.html",
+  "/risk-management/incident-and-breach-management.html",
+  "/standards/asic-rg-78.html"
+ ],
+ "cps234-weakness-notice": [
+  "/governance/briefing-cps-234.html",
+  "/standards/cps-234.html",
+  "/standards/iso-27001.html"
+ ],
+ "cps230-disruption-notice": [
+  "/compliance/breach-reporting.html",
+  "/governance/briefing-cps-230.html",
+  "/playbooks/respond-to-an-incident.html",
+  "/risk-management/business-continuity.html",
+  "/risk-management/cyber-risk.html",
+  "/risk-management/operational-risk.html",
+  "/risk-management/setting-cps-230-tolerance-levels.html",
+  "/standards/cps-230.html",
+  "/standards/cps-234.html"
+ ],
+ "cps230-incident-notice": [
+  "/compliance/breach-reporting.html",
+  "/governance/briefing-cps-230.html",
+  "/playbooks/respond-to-an-incident.html",
+  "/risk-management/business-continuity.html",
+  "/risk-management/operational-risk.html",
+  "/standards/cps-230.html"
+ ],
+ "cps230-msp-notice": [
+  "/compliance/designing-a-compliance-program.html",
+  "/governance/briefing-cps-230.html",
+  "/playbooks/onboard-a-material-service-provider.html",
+  "/risk-management/operational-risk.html",
+  "/risk-management/third-party-risk.html",
+  "/standards/cps-230.html"
+ ],
+ "ndb-assessment": [
+  "/compliance/breach-reporting.html",
+  "/compliance/privacy-law.html",
+  "/playbooks/respond-to-an-incident.html",
+  "/risk-management/cyber-risk.html",
+  "/risk-management/incident-and-breach-management.html",
+  "/standards/cps-234.html"
+ ],
+ "ransomware-report": [
+  "/compliance/breach-reporting.html",
+  "/risk-management/cyber-risk.html"
+ ],
+ "smr-deadline": [
+  "/compliance/aml-ctf-fundamentals.html",
+  "/governance/briefing-aml-ctf.html",
+  "/playbooks/respond-to-an-incident.html"
+ ],
+ "smr-tf-deadline": [
+  "/compliance/aml-ctf-fundamentals.html",
+  "/compliance/breach-reporting.html",
+  "/compliance/breach-significance-analysis.html",
+  "/governance/briefing-aml-ctf.html",
+  "/playbooks/respond-to-an-incident.html",
+  "/risk-management/incident-and-breach-management.html"
+ ],
+ "ttr-threshold": [
+  "/compliance/aml-ctf-fundamentals.html",
+  "/compliance/breach-reporting.html",
+  "/governance/briefing-aml-ctf.html"
+ ],
+ "ttr-deadline": [
+  "/compliance/aml-ctf-fundamentals.html",
+  "/governance/briefing-aml-ctf.html"
+ ],
+ "idr-response": [
+  "/standards/asic-rg-271.html"
+ ],
+ "idr-super-response": [
+  "/compliance/consumer-protection.html",
+  "/compliance/designing-a-compliance-program.html",
+  "/sectors/superannuation.html"
+ ],
+ "privacy-small-business": [
+  "/compliance/privacy-law.html",
+  "/foundations/regulatory-landscape.html"
+ ],
+ "modslav-threshold": [
+  "/compliance/modern-slavery.html"
+ ],
+ "cet1-minimum": [
+  "/sectors/banking.html",
+  "/standards/aps-110-and-aps-210.html"
  ]
 }

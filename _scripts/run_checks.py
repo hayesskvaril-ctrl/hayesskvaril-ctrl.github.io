@@ -34,6 +34,7 @@ ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
 from review_common import DATE_RE, MONTHS, fmt, add_months, parse_date  # noqa: E402
 import tracker_data  # noqa: E402
+import facts_lib  # noqa: E402
 import build_videos  # noqa: E402
 
 TODAY = datetime.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else datetime.date.today()
@@ -103,7 +104,7 @@ if as_at and add_months(as_at, TRACKER_MONTHS) <= TODAY:
 OPEN_ENDED = ("to follow", "not yet", "after Royal Assent", "to be confirmed", "no date")
 stale, open_ended = [], []
 for e in tracker_data.ENTRIES:
-    title, regulator, status, when = e[0], e[1], e[2], e[3]
+    title, regulator, status, when = e[0], e[1], e[2], facts_lib.plain(e[3])
     if status not in ("Finalised, starts soon", "Proposed or consultation"):
         continue
     last = latest_date(when)

@@ -937,6 +937,422 @@
     "note": ""
    },
    "history": []
+  },
+  {
+   "id": "reportable-situations-deadline",
+   "topic": "Breach reporting",
+   "fact": "ASIC reportable situations: lodge a report with ASIC within",
+   "value": "30 calendar days",
+   "status": "in force",
+   "context": [
+    "reportable situation",
+    "RG 78",
+    "report to ASIC",
+    "breach report"
+   ],
+   "source": {
+    "label": "ASIC: reportable situations for AFS and credit licensees",
+    "url": "https://www.asic.gov.au/regulatory-resources/financial-services/reportable-situations-for-afs-and-credit-licensees"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "IDR",
+    "internal dispute",
+    "RG 271",
+    "complaint"
+   ]
+  },
+  {
+   "id": "cps234-weakness-notice",
+   "topic": "APRA standards",
+   "fact": "CPS 234: notify APRA of a material information security control weakness the entity can't remediate in a timely manner, within",
+   "value": "10 business days",
+   "status": "in force",
+   "context": [
+    "CPS 234",
+    "control weakness"
+   ],
+   "source": {
+    "label": "APRA: CPS 234",
+    "url": "https://www.apra.gov.au/standards/cps-234"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "threshold transaction",
+    "TTR",
+    "IFTI",
+    "AUSTRAC"
+   ]
+  },
+  {
+   "id": "cps230-disruption-notice",
+   "topic": "APRA standards",
+   "fact": "CPS 230: notify APRA after a disruption takes a critical operation outside tolerance, within",
+   "value": "24 hours",
+   "status": "in force",
+   "context": [
+    "outside tolerance",
+    "outside its tolerance",
+    "beyond tolerance",
+    "tolerance level"
+   ],
+   "source": {
+    "label": "APRA: CPS 230",
+    "url": "https://www.apra.gov.au/standards/cps-230"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "terrorism",
+    "suspicious matter",
+    "SMR"
+   ]
+  },
+  {
+   "id": "cps230-incident-notice",
+   "topic": "APRA standards",
+   "fact": "CPS 230: notify APRA of an operational risk incident likely to have a material financial impact or a material impact on critical operations, within",
+   "value": "72 hours",
+   "status": "in force",
+   "context": [
+    "operational risk incident"
+   ],
+   "source": {
+    "label": "APRA: CPS 230",
+    "url": "https://www.apra.gov.au/standards/cps-230"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "ransom"
+   ]
+  },
+  {
+   "id": "cps230-msp-notice",
+   "topic": "APRA standards",
+   "fact": "CPS 230: notify APRA after entering into or materially changing a material service provider arrangement, within",
+   "value": "20 business days",
+   "status": "in force",
+   "context": [
+    "service provider",
+    "material arrangement",
+    "CPS 230"
+   ],
+   "source": {
+    "label": "APRA: CPS 230",
+    "url": "https://www.apra.gov.au/standards/cps-230"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": []
+  },
+  {
+   "id": "ndb-assessment",
+   "topic": "Privacy",
+   "fact": "Notifiable data breaches: take all reasonable steps to assess a suspected eligible data breach within",
+   "value": "30 days",
+   "status": "in force",
+   "context": [
+    "eligible data breach",
+    "suspected"
+   ],
+   "source": {
+    "label": "OAIC: about the Notifiable Data Breaches scheme",
+    "url": "https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "29JA",
+    "reportable situation",
+    "IDR",
+    "complaint",
+    "ASIC"
+   ]
+  },
+  {
+   "id": "ransomware-report",
+   "topic": "Cyber",
+   "fact": "Ransomware payment reporting (Cyber Security Act 2024): report a ransomware or cyber extortion payment within",
+   "value": "72 hours",
+   "status": "in force",
+   "context": [
+    "ransomware",
+    "ransom payment",
+    "extortion payment"
+   ],
+   "source": {
+    "label": "ASD: ransomware payment and cyber extortion payment reporting",
+    "url": "https://www.cyber.gov.au/report-and-recover/report/ransomware-payment-and-cyber-extortion-payment-reporting"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "CPS 234",
+    "CPS 230",
+    "APRA"
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: cyber.gov.au doesn't respond to automated checks from cloud servers"
+  },
+  {
+   "id": "smr-deadline",
+   "topic": "Financial crime",
+   "fact": "AML/CTF: submit a suspicious matter report (SMR) to AUSTRAC within",
+   "value": "3 business days",
+   "status": "in force",
+   "context": [
+    "suspicious matter",
+    "SMR"
+   ],
+   "source": {
+    "label": "AUSTRAC: suspicious matter reports",
+    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+  },
+  {
+   "id": "smr-tf-deadline",
+   "topic": "Financial crime",
+   "fact": "AML/CTF: a suspicious matter report about terrorism financing is due within",
+   "value": "24 hours",
+   "status": "in force",
+   "context": [
+    "terrorism financing"
+   ],
+   "source": {
+    "label": "AUSTRAC: suspicious matter reports",
+    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "tolerance"
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+  },
+  {
+   "id": "ttr-threshold",
+   "topic": "Financial crime",
+   "fact": "AML/CTF: a threshold transaction report (TTR) is needed for a designated service involving physical currency of",
+   "value": "$10,000",
+   "status": "in force",
+   "context": [
+    "threshold transaction",
+    "TTR",
+    "physical currency",
+    "cash"
+   ],
+   "source": {
+    "label": "AUSTRAC: threshold transaction reports",
+    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/threshold-transaction-reports"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "cross-border",
+    "carry",
+    "mail or ship"
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+  },
+  {
+   "id": "ttr-deadline",
+   "topic": "Financial crime",
+   "fact": "AML/CTF: submit a threshold transaction report (TTR) within",
+   "value": "10 business days",
+   "status": "in force",
+   "context": [
+    "threshold transaction",
+    "TTR"
+   ],
+   "source": {
+    "label": "AUSTRAC: threshold transaction reports",
+    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/threshold-transaction-reports"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "CPS 234"
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+  },
+  {
+   "id": "idr-response",
+   "topic": "Complaints",
+   "fact": "RG 271: maximum time to give an IDR response to a standard complaint",
+   "value": "30 calendar days",
+   "status": "in force",
+   "context": [
+    "IDR",
+    "internal dispute resolution",
+    "RG 271",
+    "standard complaint"
+   ],
+   "source": {
+    "label": "ASIC: RG 271 Internal dispute resolution",
+    "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "reportable situation",
+    "RG 78"
+   ]
+  },
+  {
+   "id": "idr-super-response",
+   "topic": "Complaints",
+   "fact": "RG 271: maximum time to give an IDR response to a superannuation trustee complaint (other than about death benefit distributions)",
+   "value": "45 calendar days",
+   "status": "in force",
+   "context": [
+    "IDR",
+    "RG 271",
+    "superannuation",
+    "trustee",
+    "complaint"
+   ],
+   "source": {
+    "label": "ASIC: RG 271 Internal dispute resolution",
+    "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": []
+  },
+  {
+   "id": "privacy-small-business",
+   "topic": "Privacy",
+   "fact": "Privacy Act small business exemption: annual turnover at or below which most small businesses are exempt",
+   "value": "$3 million",
+   "status": "in force",
+   "context": [
+    "small business",
+    "annual turnover",
+    "Privacy Act"
+   ],
+   "source": {
+    "label": "OAIC: small business",
+    "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "balance",
+    "Division 296",
+    "ransom"
+   ]
+  },
+  {
+   "id": "modslav-threshold",
+   "topic": "Corporate reporting",
+   "fact": "Modern Slavery Act: annual consolidated revenue from which an entity must report",
+   "value": "$100 million",
+   "status": "in force",
+   "context": [
+    "modern slavery",
+    "Modern Slavery",
+    "consolidated revenue"
+   ],
+   "source": {
+    "label": "Attorney-General's Department: Modern Slavery Act",
+    "url": "https://www.ag.gov.au/crime/modern-slavery/modern-slavery-act"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": [],
+   "exclude": [
+    "compensate",
+    "fail to prevent",
+    "offence"
+   ]
+  },
+  {
+   "id": "cet1-minimum",
+   "topic": "Banking",
+   "fact": "APS 110: minimum Common Equity Tier 1 (CET1) capital ratio, before buffers",
+   "value": "4.5%",
+   "status": "in force",
+   "context": [
+    "CET1",
+    "Common Equity Tier 1"
+   ],
+   "source": {
+    "label": "APRA: APS 110",
+    "url": "https://www.apra.gov.au/standards/aps-110"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": []
   }
  ]
 }

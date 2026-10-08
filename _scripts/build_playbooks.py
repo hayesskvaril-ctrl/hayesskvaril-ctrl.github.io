@@ -7,6 +7,7 @@ reader's browser only. Bump REVIEWED when the playbooks are re-checked.
 from html import escape
 from pathlib import Path
 from playbooks_data import PLAYBOOKS
+from facts_lib import fill, plain
 
 ROOT = Path(__file__).resolve().parent.parent
 REVIEWED = "1 October 2026"
@@ -15,11 +16,11 @@ HEAD = TEMPLATE[:TEMPLATE.index("<title>")]
 
 
 def esc(s):
-    return escape(s, quote=False)
+    return fill(escape(s, quote=False))   # {fact:ID} placeholders -> the register's current value
 
 
 def page(title, desc, main, scripts=""):
-    return (HEAD + f'<title>{esc(title)} | RiskLens Australia</title>\n<meta name="description" content="{escape(desc)}">\n'
+    return (HEAD + f'<title>{esc(title)} | RiskLens Australia</title>\n<meta name="description" content="{escape(plain(desc))}">\n'
             '<link rel="stylesheet" href="/styles.css">\n</head>\n<body>\n\n<!-- HEADER:START -->\n<!-- HEADER:END -->\n\n'
             + main + '\n\n<!-- FOOTER:START -->\n<!-- FOOTER:END -->\n\n' + scripts + '</body>\n</html>\n')
 

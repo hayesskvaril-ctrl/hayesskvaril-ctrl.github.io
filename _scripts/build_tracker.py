@@ -7,6 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).parent))
 from tracker_data import AS_AT, STATUSES, ENTRIES
+from facts_lib import fill  # {fact:ID} placeholders -> the register's current value
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "news" / "regulatory-tracker.html"
@@ -23,10 +24,10 @@ for title, reg, status, when, sectors, summary, page, (src_label, src_url) in en
     link = f'<a class="xref" href="{page}">{escape(title)}</a>' if page else escape(title)
     sec = ", ".join(SECTOR_NAMES[s] for s in sectors)
     rows.append(f'''        <tr data-regulator="{escape(reg)}" data-status="{escape(status)}" data-sectors="{" ".join(sectors)}">
-          <td><strong>{link}</strong><br><span class="small">{escape(summary)}</span></td>
+          <td><strong>{link}</strong><br><span class="small">{fill(escape(summary))}</span></td>
           <td>{escape(reg)}</td>
           <td><span class="badge tracker-status {STATUS_CLASS[status]}">{escape(status)}</span></td>
-          <td>{escape(when)}</td>
+          <td>{fill(escape(when))}</td>
           <td>{escape(sec)}</td>
           <td><a href="{escape(src_url)}">{escape(src_label)}</a></td>
         </tr>''')
