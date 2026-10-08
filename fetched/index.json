@@ -8,6 +8,24 @@
   "status": 200,
   "type": "text/html; charset=UTF-8"
  },
+ "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/user_uploads/consultation_paper.pdf": {
+  "chars": 120521,
+  "date": "2026-10-08",
+  "file": "consultations-ag-gov-au-rights-and-protections-privacy-reform-user-uploads-consultation-paper-pdf.txt",
+  "final": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/user_uploads/consultation_paper.pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/user_uploads/exposure-draft-bill-2026.docx": {
+  "chars": 72564,
+  "date": "2026-10-08",
+  "file": "consultations-ag-gov-au-rights-and-protections-privacy-reform-user-uploads-exposure-draft-bill-2026-docx.txt",
+  "final": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/user_uploads/exposure-draft-bill-2026.docx",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
  "https://download.asic.gov.au/media/2wxlpkr0/rg78-published-19-december-2023-20260216.pdf": {
   "chars": 298112,
   "date": "2026-10-08",
@@ -305,6 +323,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2006A00169/2026-07-01/2026-07-01/text/original/word": {
+  "chars": 556126,
+  "date": "2026-10-08",
+  "file": "legislation-gov-au-c2006a00169-2026-07-01-2026-07-01-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2006A00169/2026-07-01/2026-07-01/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
  "https://www.legislation.gov.au/C2006A00169/latest/downloads": {
   "chars": 3469,
   "date": "2026-10-08",
@@ -313,6 +340,15 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2018A00153/2024-11-07/2024-11-07/text/original/word": {
+  "chars": 55340,
+  "date": "2026-10-08",
+  "file": "legislation-gov-au-c2018a00153-2024-11-07-2024-11-07-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2018A00153/2024-11-07/2024-11-07/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
  "https://www.legislation.gov.au/C2018A00153/latest/downloads": {
   "chars": 3186,
@@ -342,22 +378,22 @@
   "type": "application/pdf"
  },
  "https://www.legislation.gov.au/F2019L00669/asmade/2019-05-07/text/original/pdf": {
-  "chars": 0,
+  "chars": 42486,
   "date": "2026-10-08",
-  "file": "",
+  "file": "legislation-gov-au-f2019l00669-asmade-2019-05-07-text-original-pdf.txt",
   "final": "https://www.legislation.gov.au/F2019L00669/asmade/2019-05-07/text/original/pdf",
-  "kind": "none",
-  "status": 500,
-  "type": ""
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
  },
  "https://www.legislation.gov.au/F2023L01535/asmade/2023-11-22/text/original/pdf": {
-  "chars": 0,
+  "chars": 69149,
   "date": "2026-10-08",
-  "file": "",
+  "file": "legislation-gov-au-f2023l01535-asmade-2023-11-22-text-original-pdf.txt",
   "final": "https://www.legislation.gov.au/F2023L01535/asmade/2023-11-22/text/original/pdf",
-  "kind": "none",
-  "status": 504,
-  "type": ""
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
  },
  "https://www.legislation.gov.au/F2024L00940/asmade/2024-07-31/text/original/pdf": {
   "chars": 28364,

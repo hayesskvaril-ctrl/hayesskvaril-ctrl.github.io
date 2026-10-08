@@ -1,0 +1,732 @@
+SOURCE: https://www.legislation.gov.au/C2018A00153/2024-11-07/2024-11-07/text/original/word
+FINAL URL: https://www.legislation.gov.au/C2018A00153/2024-11-07/2024-11-07/text/original/word
+FETCHED: 2026-10-08
+
+
+
+Modern Slavery Act 2018
+No. 153, 2018
+Compilation No.  DOCPROPERTY  CompilationNumber 2
+Compilation date:	DOCPROPERTY StartDate \@ "d MMMM yyyy" \* MERGEFORMAT7 November 2024
+Includes amendments:	 DOCPROPERTY IncludesUpTo Act No. 42, 2024
+About this compilation
+This compilation
+This is a compilation of the  STYLEREF  ShortT Modern Slavery Act 2018 that shows the text of the law as amended and in force on DOCPROPERTY StartDate \@ "d MMMM yyyy" \* MERGEFORMAT7 November 2024 (the compilation date).
+The notes at the end of this compilation (the endnotes) include information about amending laws and the amendment history of provisions of the compiled law.
+Uncommenced amendments
+The effect of uncommenced amendments is not shown in the text of the compiled law. Any uncommenced amendments affecting the law are accessible on the Register (www.legislation.gov.au). The details of amendments made up to, but not commenced at, the compilation date are underlined in the endnotes. For more information on any uncommenced amendments, see the Register for the compiled law.
+Application, saving and transitional provisions for provisions and amendments
+If the operation of a provision or amendment of the compiled law is affected by an application, saving or transitional provision that is not included in this compilation, details are included in the endnotes.
+Editorial changes
+For more information about any editorial changes made in this compilation, see the endnotes.
+Modifications
+If the compiled law is modified by another law, the compiled law operates as modified but the modification does not amend the text of the law. Accordingly, this compilation does not show the text of the compiled law as modified. For more information on any modifications, see the Register for the compiled law.
+Selfrepealing provisions
+If a provision of the compiled law has been repealed in accordance with a provision of the law, details are included in the endnotes.
+  
+  
+  
+
+Contents
+ TOC \o "1-9" Part 1—Preliminary	 PAGEREF _Toc181965941 \h 1
+1	Short title	 PAGEREF _Toc181965942 \h 1
+2	Commencement	 PAGEREF _Toc181965943 \h 1
+3	Simplified outline of this Act	 PAGEREF _Toc181965944 \h 2
+4	Definitions	 PAGEREF _Toc181965945 \h 2
+5	Meaning of reporting entity	 PAGEREF _Toc181965946 \h 6
+6	Voluntary modern slavery statements	 PAGEREF _Toc181965947 \h 7
+7	Constitutional basis	 PAGEREF _Toc181965948 \h 7
+8	Act binds the Crown	 PAGEREF _Toc181965949 \h 9
+9	Extension to external Territories	 PAGEREF _Toc181965950 \h 9
+10	Extraterritorial application	 PAGEREF _Toc181965951 \h 9
+Part 2—Modern slavery statements	 PAGEREF _Toc181965952 \h 10
+11	Simplified outline of this Part	 PAGEREF _Toc181965953 \h 10
+12	Meaning of modern slavery statement	 PAGEREF _Toc181965954 \h 10
+13	Modern slavery statements for single reporting entities	 PAGEREF _Toc181965955 \h 11
+14	Joint modern slavery statements	 PAGEREF _Toc181965956 \h 11
+15	Commonwealth modern slavery statements	 PAGEREF _Toc181965957 \h 12
+16	Mandatory criteria for modern slavery statements	 PAGEREF _Toc181965958 \h 13
+16A	Explanations for failure to comply etc.	 PAGEREF _Toc181965959 \h 14
+Part 3—Access to modern slavery statements	 PAGEREF _Toc181965960 \h 16
+17	Simplified outline of this Part	 PAGEREF _Toc181965961 \h 16
+18	Modern Slavery Statements Register	 PAGEREF _Toc181965962 \h 16
+19	Registration of modern slavery statements	 PAGEREF _Toc181965963 \h 16
+20	Registration of revised modern slavery statements	 PAGEREF _Toc181965964 \h 17
+Part 3A—Australian AntiSlavery Commissioner	 PAGEREF _Toc181965965 \h 18
+Division 1—Preliminary	 PAGEREF _Toc181965966 \h 18
+20A	Simplified outline of this Part	 PAGEREF _Toc181965967 \h 18
+Division 2—Establishment, functions and powers of Australian AntiSlavery Commissioner	 PAGEREF _Toc181965968 \h 19
+20B	Australian AntiSlavery Commissioner	 PAGEREF _Toc181965969 \h 19
+20C	Functions of Commissioner	 PAGEREF _Toc181965970 \h 19
+20D	Commissioner must have regard to international obligations	 PAGEREF _Toc181965971 \h 20
+20E	Application of finance law	 PAGEREF _Toc181965972 \h 20
+20F	Arrangements relating to staff of the Department	 PAGEREF _Toc181965973 \h 20
+20G	Contractors	 PAGEREF _Toc181965974 \h 21
+20H	Consultants	 PAGEREF _Toc181965975 \h 21
+20J	Independence of Commissioner	 PAGEREF _Toc181965976 \h 21
+20K	Commissioner not to be sued	 PAGEREF _Toc181965977 \h 21
+Division 3—Appointment	 PAGEREF _Toc181965978 \h 22
+20L	Appointment of Commissioner	 PAGEREF _Toc181965979 \h 22
+20M	Obligation to fill vacancy as soon as practicable	 PAGEREF _Toc181965980 \h 22
+20N	Period of appointment	 PAGEREF _Toc181965981 \h 23
+20P	Acting appointments	 PAGEREF _Toc181965982 \h 23
+Division 4—Terms and conditions etc.	 PAGEREF _Toc181965983 \h 24
+20Q	Remuneration and allowances	 PAGEREF _Toc181965984 \h 24
+20R	Leave of absence	 PAGEREF _Toc181965985 \h 24
+20S	Other paid work	 PAGEREF _Toc181965986 \h 24
+20T	Resignation	 PAGEREF _Toc181965987 \h 24
+20U	Termination of appointment	 PAGEREF _Toc181965988 \h 25
+20V	Other terms and conditions	 PAGEREF _Toc181965989 \h 25
+Division 5—Other matters	 PAGEREF _Toc181965990 \h 26
+20W	Commissioner may request information from Commonwealth agencies	 PAGEREF _Toc181965991 \h 26
+20WA	Disclosure of information by Commissioner	 PAGEREF _Toc181965992 \h 26
+20X	Strategic plan	 PAGEREF _Toc181965993 \h 27
+20Y	Annual report by Commissioner	 PAGEREF _Toc181965994 \h 28
+Part 4—Miscellaneous	 PAGEREF _Toc181965995 \h 30
+21	Simplified outline of this Part	 PAGEREF _Toc181965996 \h 30
+22	Unincorporated entities	 PAGEREF _Toc181965997 \h 30
+22A	Delegation by Commissioner	 PAGEREF _Toc181965998 \h 30
+23	Delegation by Minister	 PAGEREF _Toc181965999 \h 31
+23A	Annual reports about implementation	 PAGEREF _Toc181966000 \h 31
+24	Threeyear review	 PAGEREF _Toc181966001 \h 31
+25	Rules	 PAGEREF _Toc181966002 \h 32
+Endnotes	 PAGEREF _Toc181966003 \h 34
+Endnote 1—About the endnotes	 PAGEREF _Toc181966004 \h 34
+Endnote 2—Abbreviation key	 PAGEREF _Toc181966005 \h 36
+Endnote 3—Legislation history	 PAGEREF _Toc181966006 \h 37
+Endnote 4—Amendment history	 PAGEREF _Toc181966007 \h 38
+
+An Act to require some entities to report on the risks of modern slavery in their operations and supply chains and actions to address those risks, to establish the Australian AntiSlavery Commissioner, and for related purposes
+Part 1—Preliminary
+  
+1  Short title
+		This Act is the Modern Slavery Act 2018.
+2  Commencement
+	(1)	Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.
+
+Commencement information
+Column 1
+Column 2
+Column 3
+Provisions
+Commencement
+Date/Details
+1.  Sections 1 and 2 and anything in this Act not elsewhere covered by this table
+The day this Act receives the Royal Assent.
+10 December 2018
+2.  Sections 3 to 10 and Parts 2 to 4
+A single day to be fixed by Proclamation.
+However, if the provisions do not commence within the period of 6 months beginning on the day this Act receives the Royal Assent, they commence on the day after the end of that period.
+1 January 2019
+(F2018N00189)
+Note:	This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.
+	(2)	Any information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act.
+3  Simplified outline of this Act
+This Act requires entities based, or operating, in Australia, which have an annual consolidated revenue of more than $100 million, to report annually on the risks of modern slavery in their operations and supply chains, and actions to address those risks. Other entities based, or operating, in Australia may report voluntarily.
+The Commonwealth is required to report on behalf of noncorporate Commonwealth entities, and the reporting requirements also apply to Commonwealth corporate entities and companies with an annual consolidated revenue of more than $100 million.
+Reports are kept by the Minister in a public repository known as the Modern Slavery Statements Register. Statements on the register may be accessed by the public, free of charge, on the internet.
+This Act also establishes the Australian AntiSlavery Commissioner, sets out the Commissioner’s functions and deals with other matters relating to the role of the Commissioner (including administrative matters).
+4  Definitions
+		In this Act:
+accounting standards has the same meaning as in the Corporations Act 2001.
+Australia, when used in a geographical sense, includes the external Territories.
+Australian entity means:
+	(a)	a company which is a resident within the meaning of subsection 6(1) of the Income Tax Assessment Act 1936; or
+	(b)	a trust, if the trust estate is a resident trust estate within the meaning of Division 6 of Part III of the Income Tax Assessment Act 1936; or
+	(c)	a corporate limited partnership which is a resident within the meaning of section 94T of the Income Tax Assessment Act 1936; or
+	(d)	any other partnership, or other entity, whether incorporated or unincorporated, if:
+	(i)	the entity is formed or incorporated within Australia; or
+	(ii)	the central management or control of the entity is in Australia.
+carries on business in Australia: see section 5 (meaning of reporting entity).
+Commissioner means the Australian AntiSlavery Commissioner referred to in section 20B.
+consolidated revenue, of an entity, means:
+	(a)	the total revenue of the entity, for a reporting period; or
+	(b)	if the entity controls another entity or entities—the total revenue of the entity and all of the controlled entities, considered as a group, for a reporting period of the controlling entity;
+worked out in accordance with the accounting standards, even if those standards do not otherwise apply to such an entity (including a controlling entity) or group.
+control, of an entity by another entity, means control of the entity within the meaning of the accounting standards.
+entity has the same meaning as in the Income Tax Assessment Act 1997.
+Note:	See section 960100 of that Act.
+modern slavery means conduct which would constitute:
+	(a)	an offence under Division 270 or 271 of the Criminal Code; or
+	(b)	an offence under either of those Divisions if the conduct took place in Australia; or
+	(c)	trafficking in persons, as defined in Article 3 of the Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, supplementing the United Nations Convention against Transnational Organized Crime, done at New York on 15 November 2000 ([2005] ATS 27); or
+	(d)	the worst forms of child labour, as defined in Article 3 of the ILO Convention (No. 182) concerning the Prohibition and Immediate Action for the Elimination of the Worst Forms of Child Labour, done at Geneva on 17 June 1999 ([2007] ATS 38).
+Note:	In 2018, the text of international agreements in the Australian Treaty Series was accessible through the Australian Treaties Library on the AustLII website (http://www.austlii.edu.au).
+modern slavery statement: see section 12.
+paid work means work for financial gain or reward (whether as an employee, a selfemployed person or otherwise).
+principal governing body, of an entity, means:
+	(a)	the body, or group of members of the entity, with primary responsibility for the governance of the entity; or
+	(b)	if the entity is of a kind prescribed by rules made for the purposes of this paragraph—a prescribed body within the entity, or a prescribed member or members of the entity.
+Example:	Examples of principal governing bodies are as follows:
+(a)	for a company—the company’s board of directors;
+(b)	for a superannuation fund—the fund’s board of trustees.
+register means the Modern Slavery Statements Register established under section 18.
+reporting entity: see section 5.
+reporting period, of an entity, means a financial year, or another annual accounting period applicable to the entity, which starts after the commencement of this section.
+Example:	For a company’s reporting period, see section 319 of the Income Tax Assessment Act 1936.
+responsible member, of an entity, means:
+	(a)	an individual member of the entity’s principal governing body who is authorised to sign modern slavery statements for the purposes of this Act; or
+	(b)	if the entity is a trust administered by a sole trustee—that trustee; or
+	(c)	if the entity is a corporation sole—the individual constituting the corporation; or
+	(d)	if the entity is under administration within the meaning of the Corporations Act 2001—the administrator; or
+	(e)	if the entity is of a kind prescribed by rules made for the purposes of this paragraph—a prescribed member of the entity.
+rules means rules made by the Minister under section 25.
+sensitive information: information is sensitive information if:
+	(a)	the public disclosure of the information would, or could reasonably be expected to, prejudice the investigation of, or the prosecution of a person for, an offence; or
+	(b)	the public disclosure of the information would, or could reasonably be expected to, endanger the life or safety of any person; or
+	(c)	all of the following apply in relation to the information:
+	(i)	the public disclosure of the information would, or could reasonably be expected to, prejudice the security, defence or international relations of Australia;
+	(ii)	the information was given in confidence to the Commissioner, a member of the staff assisting the Commissioner (see section 20F), a person engaged to assist the Commissioner under section 20G or a person engaged as a consultant under section 20H, acting in that capacity;
+	(iii)	written consent to the public disclosure of the information has not been given by the person or body that gave the information.
+strategic plan means a strategic plan prepared under section 20X and includes a strategic plan as revised under that section.
+5  Meaning of reporting entity
+	(1)	Each of the following is a reporting entity in relation to a reporting period:
+	(a)	an entity which has a consolidated revenue of at least $100 million for the reporting period, if the entity:
+	(i)	is an Australian entity at any time in that reporting period; or
+	(ii)	carries on business in Australia at any time in that reporting period;
+	(b)	the Commonwealth;
+	(c)	a corporate Commonwealth entity, or a Commonwealth company, within the meaning of the Public Governance, Performance and Accountability Act 2013, which has a consolidated revenue of at least $100 million for the reporting period;
+	(d)	an entity which has volunteered to comply with the requirements of this Act under section 6 for that period.
+Note:	The Commonwealth is required to report on behalf of noncorporate Commonwealth entities within the meaning of the Public Governance, Performance and Accountability Act 2013: see section 15 of this Act.
+	(2)	An entity carries on business in Australia if the entity:
+	(a)	in the case of a body corporate—carries on business in Australia, a State or a Territory within the meaning of the Corporations Act 2001 (see section 21 of that Act); or
+	(b)	in any other case—would be taken to do so within the meaning of that Act if the entity were a body corporate.
+6  Voluntary modern slavery statements
+How an entity may volunteer
+	(1)	An entity covered by subsection (2) may volunteer to comply with the requirements of this Act for a reporting period, or reporting periods, by giving written notice to the Minister accordingly before the end of the reporting period (or the earliest of the reporting periods), in a manner and form approved by the Minister.
+Note:	An entity can volunteer under this section in relation to a reporting period and all later reporting periods.
+	(2)	An entity is covered by this subsection for a reporting period if the entity, at any time in the reporting period:
+	(a)	is an Australian entity; or
+	(b)	carries on business in Australia.
+Revoking a notice
+	(3)	An entity may revoke a notice given under subsection (1), to the extent that it applies in relation to a reporting period or periods, by giving written notice accordingly to the Minister before the start of the reporting period, or the earliest of the reporting periods.
+7  Constitutional basis
+	(1)	Without limitation, this Act relies on:
+	(a)	the Commonwealth’s legislative powers under the following provisions of the Constitution:
+	(i)	paragraph 51(i) (trade and commerce);
+	(ii)	paragraph 51(xi) (census and statistics);
+	(iii)	paragraph 51(xix) (aliens);
+	(iv)	paragraph 51(xx) (corporations);
+	(v)	paragraph 51(xxi) (marriage);
+	(vi)	paragraph 51(xxvii) (immigration);
+	(vii)	paragraph 51(xxix) (external affairs);
+	(viii)	paragraph 51(xxxix) (incidental matters);
+	(ix)	section 61 (the executive power); and
+	(b)	any implied legislative powers of the Commonwealth.
+	(2)	Without limiting subparagraph (1)(a)(vii), this Act’s reliance on the Commonwealth’s legislative powers under paragraph 51(xxix) of the Constitution is based on purposes including giving effect to the following international agreements, as amended and in force for Australia from time to time:
+	(a)	the International Convention to Suppress the Slave Trade and Slavery, done at Geneva on 25 September 1926 ([1927] ATS 11);
+	(b)	the ILO Convention (No. 29) concerning Forced or Compulsory Labour, done at Geneva on 28 June 1930 ([1933] ATS 21);
+	(c)	the Supplementary Convention on the Abolition of Slavery, the Slave Trade, and Institutions and Practices similar to Slavery, done at Geneva on 7 September 1956 ([1958] ATS 3);
+	(d)	the International Covenant on Civil and Political Rights, done at New York on 16 December 1966 ([1980] ATS 23);
+	(e)	the Convention on the Elimination of All Forms of Discrimination Against Women, done at New York on 18 December 1979 ([1983] ATS 9);
+	(f)	the Convention on the Rights of the Child, done at New York on 20 November 1989 ([1991] ATS 4);
+	(g)	the Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, supplementing the United Nations Convention against Transnational Organized Crime, done at New York on 15 November 2000 ([2005] ATS 27);
+	(h)	the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography, done at New York on 25 May 2000 ([2007] ATS 6);
+	(i)	the ILO Convention (No. 182) concerning the Prohibition and Immediate Action for the Elimination of the Worst Forms of Child Labour, done at Geneva on 17 June 1999 ([2007] ATS 38).
+Note:	In 2018, the text of international agreements in the Australian Treaty Series was accessible through the Australian Treaties Library on the AustLII website (http://www.austlii.edu.au).
+8  Act binds the Crown
+		This Act binds the Crown in right of the Commonwealth. However, it does not bind the Crown in right of a State, the Australian Capital Territory or the Northern Territory.
+9  Extension to external Territories
+		This Act extends to every external Territory.
+10  Extraterritorial application
+		This Act extends to acts, omissions, matters and things outside Australia.
+Part 2—Modern slavery statements
+  
+11  Simplified outline of this Part
+This Part requires modern slavery statements to be given annually to the Minister, describing the risks of modern slavery in the operations and supply chains of reporting entities and entities owned or controlled by those entities.
+The statements must also include information about actions taken to address those risks.
+Joint modern slavery statements may be given on behalf of one or more reporting entities.
+The Minister must prepare an annual modern slavery statement on behalf of all noncorporate Commonwealth entities.
+The Minister may request an explanation from an entity about the entity’s failure to comply with a requirement in relation to modern slavery statements, and may also request that the entity undertake remedial action in relation to that requirement. If the entity fails to comply with the request, the Minister may publish information about the failure to comply on the register or elsewhere, including the identity of the entity.
+12  Meaning of modern slavery statement
+		A modern slavery statement is a statement prepared for the purposes of any of the following:
+	(a)	section 13 (modern slavery statements for single reporting entities);
+	(b)	section 14 (joint modern slavery statements);
+	(c)	section 15 (Commonwealth modern slavery statements).
+13  Modern slavery statements for single reporting entities
+	(1)	A reporting entity must give the Minister a modern slavery statement for the entity, for a reporting period, unless a modern slavery statement has been given covering the entity for that period under section 14 (joint modern slavery statements) or 15 (Commonwealth modern slavery statements).
+	(2)	The reporting entity must ensure that the statement:
+	(a)	complies with section 16; and
+	(b)	is prepared in a form approved by the Minister; and
+	(c)	is approved by the principal governing body of the entity; and
+	(d)	is signed by a responsible member of the entity; and
+	(e)	is given to the Minister within 6 months after the end of the reporting period for the entity, in a manner approved by the Minister.
+Note:	The statement may be signed electronically: see section 10 of the Electronic Transactions Act 1999.
+14  Joint modern slavery statements
+	(1)	An entity, other than the Commonwealth, may give the Minister a modern slavery statement covering one or more reporting entities (which may include the entity giving the statement), for a reporting period for those reporting entities.
+	(2)	The entity giving the statement must ensure that it:
+	(a)	complies with section 16; and
+	(b)	is prepared in a form approved by the Minister; and
+	(c)	is prepared in consultation with each reporting entity covered by the statement; and
+	(d)	is approved by the principal governing body of:
+	(i)	each reporting entity covered by the statement; or
+	(ii)	an entity (the higher entity) which is in a position, directly or indirectly, to influence or control each reporting entity covered by the statement, whether or not the higher entity is itself covered by the statement; or
+	(iii)	if it is not practicable to comply with subparagraph (i) or (ii)—at least one reporting entity covered by the statement; and
+	(e)	is signed by a responsible member of:
+	(i)	if subparagraph (d)(i) applies—each reporting entity covered by the statement; or
+	(ii)	if subparagraph (d)(ii) applies—the higher entity; or
+	(iii)	if subparagraph (d)(iii) applies—each reporting entity to which the subparagraph applies; and
+	(f)	is given to the Minister:
+	(i)	within 6 months after the end of the reporting period for the entities covered by the statement, in a manner approved by the Minister; or
+	(ii)	within a period prescribed by rules made for the purposes of this subparagraph.
+Note 1:	The statement may be signed electronically: see section 10 of the Electronic Transactions Act 1999.
+Note 2:	If subparagraph (d)(iii) applies, the statement must include an explanation: see subsection 16(2).
+15  Commonwealth modern slavery statements
+	(1)	The Minister must prepare a modern slavery statement for the Commonwealth, for a reporting period, covering all noncorporate Commonwealth entities within the meaning of the Public Governance, Performance and Accountability Act 2013.
+	(2)	The Minister must ensure that the statement:
+	(a)	complies with section 16; and
+	(b)	is prepared within 6 months after the end of the reporting period.
+16  Mandatory criteria for modern slavery statements
+	(1)	A modern slavery statement must, in relation to each reporting entity covered by the statement:
+	(a)	identify the reporting entity; and
+	(b)	describe the structure, operations and supply chains of the reporting entity; and
+	(c)	describe the risks of modern slavery practices in the operations and supply chains of the reporting entity, and any entities that the reporting entity owns or controls; and
+	(d)	describe the actions taken by the reporting entity and any entity that the reporting entity owns or controls, to assess and address those risks, including due diligence and remediation processes; and
+	(e)	describe how the reporting entity assesses the effectiveness of such actions; and
+	(f)	describe the process of consultation with:
+	(i)	any entities that the reporting entity owns or controls; and
+	(ii)	in the case of a reporting entity covered by a statement under section 14—the entity giving the statement; and
+	(g)	include any other information that the reporting entity, or the entity giving the statement, considers relevant.
+Example:	For paragraph (d), actions taken by an entity may include the development of policies and processes to address modern slavery risks, and providing training for staff about modern slavery.
+	(2)	A modern slavery statement, other than a statement to be given under section 15 (Commonwealth modern slavery statements), must include:
+	(a)	for a statement to be given under section 13 (modern slavery statements for single reporting entities)—details of approval by the principal governing body of the reporting entity; or
+	(b)	for a statement to be given under section 14 (joint modern slavery statements):
+	(i)	details of approval by the relevant principal governing body or bodies; and
+	(ii)	if subparagraph 14(2)(d)(iii) applies—an explanation of why it is not practicable to comply with subparagraph 14(2)(d)(i) or (ii).
+16A  Explanations for failure to comply etc.
+Request for explanation or remedial action
+	(1)	If the Minister is reasonably satisfied that an entity has failed to comply with a requirement under section 13 or 14 (which deal with requirements to give modern slavery statements), the Minister may give a written request to the entity to do either or both of the following:
+	(a)	provide an explanation for the failure to comply within a specified period of 28 days or longer after the request is given;
+	(b)	undertake specified remedial action in relation to that requirement in accordance with the request within a specified period of 28 days or longer after the request is given.
+Example:	For a request relating to a failure to give a modern slavery statement to the Minister within the period required by section 13, remedial action specified under paragraph (b) of this subsection may be to give a modern slavery statement to the Minister within a further period specified in the request.
+	(2)	The Minister may extend, or further extend, a period specified in a request under subsection (1) by written notice given to the entity. The extension may be given before or after the end of the specified period (or that period as previously extended).
+	(3)	A request under subsection (1) must include a statement of the effect of subsections (2) and (4) to (6).
+Publication of information about failure to comply with request
+	(4)	If the Minister is reasonably satisfied that an entity has failed to comply with a request under subsection (1), the Minister may publish the following information on the register, or in any other way the Minister considers appropriate:
+	(a)	the identity of the entity;
+	(b)	if the request relates to the entity’s failure to comply with subsection 14(2) (joint modern slavery statements) in relation to a modern slavery statement—the identities of the reporting entities covered by the statement;
+	(c)	the date the request was given, and details of any extension given under subsection (2);
+	(d)	details of the explanation or remedial action requested, and the period or periods specified in the request;
+	(e)	the reasons why the Minister is satisfied that the entity has failed to comply with the request.
+	(5)	An entity fails to comply with a request if, and only if:
+	(a)	no explanation is given in response to the request within the period specified in the request under paragraph (1)(a) (as extended, if at all, under subsection (2)); or
+	(b)	no remedial action is undertaken in response to the request within the period specified in the request under paragraph (1)(b) (as extended, if at all, under subsection (2)).
+Review of decisions
+	(6)	Applications may be made to the Administrative Review Tribunal for review of the Minister’s decision under subsection (4) to publish information about an entity’s failure to comply with a request under subsection (1).
+Part 3—Access to modern slavery statements
+  
+17  Simplified outline of this Part
+This Part establishes the Modern Slavery Statements Register.
+The register is made available to the public on the internet.
+Modern slavery statements are registered by the Minister.
+Revised versions of registered modern slavery statements can be registered in some circumstances.
+18  Modern Slavery Statements Register
+	(1)	The Minister must maintain a register of modern slavery statements, to be known as the Modern Slavery Statements Register.
+	(2)	The register must be made available for public inspection, without charge, on the internet.
+19  Registration of modern slavery statements
+	(1)	The Minister must register a modern slavery statement:
+	(a)	given in accordance with section 13 (modern slavery statements for single reporting entities) or 14 (joint modern slavery statements); or
+	(b)	prepared in accordance with section 15 (Commonwealth modern slavery statements).
+	(2)	The Minister may register a statement given for the purposes of compliance with section 13 or 14 (including a statement given in response to a request under section 16A) even if the entity giving the statement does not comply with the requirements of subsection 13(2) or 14(2).
+Note:	However, the Minister may elect not to register a modern slavery statement if the entity does not comply with those requirements.
+20  Registration of revised modern slavery statements
+	(1)	An entity (other than the Commonwealth) may, by written notice to the Minister, accompanied by a revised version of a registered modern slavery statement given by the entity, request the Minister to register the revised version.
+	(2)	The revised version of the modern slavery statement must indicate the date of the revision and include a description of the changes made to the registered statement (or to the most recently registered revised version of the statement).
+	(3)	The Minister must register the revised version of the modern slavery statement, if the revised version complies with the requirements mentioned in the following provisions:
+	(a)	if the original statement was given under section 13—paragraphs 13(2)(a) to (d);
+	(b)	if the original statement was given under section 14—paragraphs 14(2)(a) to (e).
+	(4)	The Minister may register a revised version of a modern slavery statement even if it does not comply with the requirements mentioned in paragraph (3)(a) or (b).
+Note:	However, the Minister may elect not to register a revised version of a modern slavery statement which does not comply with those requirements.
+	(5)	For a modern slavery statement registered under section 15 (Commonwealth modern slavery statements), the Minister may register a revised version of the statement that complies with section 16 and subsection (2) of this section.
+Part 3A—Australian AntiSlavery Commissioner
+Division 1—Preliminary
+20A  Simplified outline of this Part
+This Part establishes and sets out the functions of the Australian AntiSlavery Commissioner.
+The Commissioner has functions relating to addressing modern slavery and supporting victims of modern slavery. The Commissioner’s functions include consulting and liaising with a range of persons, and advocating to the Commonwealth Government, in relation to modern slavery.
+This Part deals with administrative matters relating to the Commissioner, including the appointment of the Commissioner, the terms and conditions on which the Commissioner holds office and arrangements relating to staff, contractors and consultants.
+This Part also deals with requests for information from Commonwealth agencies, information disclosure, strategic plans and annual reports.
+Division 2—Establishment, functions and powers of Australian AntiSlavery Commissioner
+20B  Australian AntiSlavery Commissioner
+		There is to be an Australian AntiSlavery Commissioner.
+Note:	In this Act, Commissioner means the Australian AntiSlavery Commissioner (see section 4).
+20C  Functions of Commissioner
+	(1)	The Commissioner has the following functions:
+	(a)	to promote compliance with this Act;
+	(b)	to support Australian entities and entities carrying on business in Australia to address risks of modern slavery practices in their operations and supply chains, and in the operations and supply chains of entities they own or control;
+	(c)	to support collaboration and engagement within and across sectors in relation to addressing modern slavery;
+	(d)	to support victims of modern slavery by providing information in relation to government and nongovernment resources, programs and services, including by developing and maintaining guidance material and making such material publicly available;
+	(e)	to engage with, and promote engagement with, victims of modern slavery to inform measures for addressing modern slavery;
+	(f)	to support, encourage and conduct education and community awareness initiatives relating to modern slavery;
+	(g)	to support, encourage, conduct and evaluate research about modern slavery;
+	(h)	to collect, analyse, interpret and disseminate information relating to modern slavery;
+	(i)	to consult and liaise with Commonwealth, State and Territory governments, agencies, bodies and office holders on matters relating to modern slavery;
+	(j)	to consult and liaise with other persons and organisations on matters relating to modern slavery;
+	(k)	to advocate to the Commonwealth Government on matters relating to modern slavery, including for continuous improvement in policy and practice;
+	(l)	at the request of the Minister, to provide advice to the Minister on matters relating to modern slavery;
+	(m)	such other functions as are conferred on the Commissioner by this Act or any other law of the Commonwealth;
+	(ma)	to engage with victims of modern slavery to inform and support the performance of the above functions;
+	(n)	to do anything incidental or conducive to the performance of any of the above functions.
+	(2)	To avoid doubt, the Commissioner may not investigate, or resolve complaints concerning, individual instances or suspected instances of modern slavery.
+20D  Commissioner must have regard to international obligations
+		In performing the Commissioner’s functions, the Commissioner must have regard to Australia’s international obligations under the international agreements mentioned in subsection 7(2).
+20E  Application of finance law
+		For the purposes of the finance law (within the meaning of the Public Governance, Performance and Accountability Act 2013), the Commissioner is an official of the Department.
+20F  Arrangements relating to staff of the Department
+	(1)	The staff assisting the Commissioner are to be APS employees in the Department whose services are made available to the Commissioner by the Secretary of the Department, in connection with the performance of any of the Commissioner’s functions or the exercise of any of the Commissioner’s powers.
+	(2)	When performing services for the Commissioner under this section, a person is subject to the directions of the Commissioner.
+20G  Contractors
+		The Commissioner may, on behalf of the Commonwealth, engage persons under a written agreement to assist the Commissioner to perform or exercise the functions or powers of the Commissioner.
+20H  Consultants
+		The Commissioner may, on behalf of the Commonwealth, engage consultants to advise in relation to the performance of the Commissioner’s functions.
+20J  Independence of Commissioner
+		Subject to this Act and any other Act, the Commissioner:
+	(a)	has complete discretion in performing or exercising the Commissioner’s functions or powers; and
+	(b)	is not subject to direction from anyone when doing so.
+20K  Commissioner not to be sued
+		The Commissioner, and any person acting under the direction or authority of the Commissioner, is not liable to an action, suit or proceeding in relation to an act done or omitted to be done in good faith in the performance or purported performance, or exercise or purported exercise, of a function or power conferred by this Act.
+Division 3—Appointment
+20L  Appointment of Commissioner
+	(1)	The Commissioner is to be appointed by the GovernorGeneral by written instrument, on a fulltime basis.
+	(2)	A person must not be appointed under subsection (1) as the Commissioner unless the Minister is satisfied that:
+	(a)	the person has appropriate qualifications, knowledge or experience in two or more of the following fields:
+	(i)	human rights issues relating to business practices;
+	(ii)	regulation;
+	(iii)	public policy relating to modern slavery or related forms of human exploitation;
+Note:	Qualifications, knowledge or experience in public policy relating to modern slavery or related forms of human exploitation may include experience engaging with victims of modern slavery or human trafficking.
+	(b)	the selection of the person for the appointment is the result of a process that:
+	(i)	was meritbased; and
+	(ii)	included public advertising of the position.
+	(3)	Paragraph (2)(b) does not apply in relation to the reappointment of a person who, immediately before the start of the period of reappointment, holds office as the Commissioner under a previous appointment under subsection (1).
+20M  Obligation to fill vacancy as soon as practicable
+		As soon as practicable after the office of the Commissioner becomes vacant, a Commissioner or acting Commissioner must be appointed under section 20L or 20P.
+20N  Period of appointment
+	(1)	The Commissioner holds office for the period specified in the instrument of appointment. The period must not exceed 5 years.
+	(2)	A person is not eligible to be appointed to the office of the Commissioner more than twice.
+20P  Acting appointments
+	(1)	The Minister may, by written instrument, appoint a person to act as the Commissioner:
+	(a)	during a vacancy in the office of the Commissioner (whether or not an appointment has previously been made to the office); or
+	(b)	during any period, or during all periods, when the Commissioner:
+	(i)	is absent from duty or from Australia; or
+	(ii)	is, for any reason, unable to perform the duties of the office.
+Note:	For rules that apply to acting appointments, see sections 33AB and 33A of the Acts Interpretation Act 1901.
+	(2)	A person must not be appointed to act as the Commissioner unless the Minister is satisfied that the person has appropriate qualifications, knowledge or experience to be appointed as the Commissioner.
+Division 4—Terms and conditions etc.
+20Q  Remuneration and allowances
+	(1)	The Commissioner is to be paid the remuneration that is determined by the Remuneration Tribunal. If no determination of that remuneration by the Tribunal is in operation, the member is to be paid the remuneration that is prescribed by the rules.
+	(2)	The Commissioner is to be paid the allowances that are prescribed by the rules.
+	(3)	This section has effect subject to the Remuneration Tribunal Act 1973.
+20R  Leave of absence
+	(1)	The Commissioner has the recreation leave entitlements that are determined by the Remuneration Tribunal.
+	(2)	The Minister may grant the Commissioner leave of absence, other than recreation leave, on the terms and conditions as to remuneration or otherwise that the Minister determines.
+20S  Other paid work
+		The Commissioner must not engage in paid work outside the duties of the Commissioner’s office without the approval of the Minister.
+20T  Resignation
+	(1)	The Commissioner may resign the Commissioner’s appointment by giving the GovernorGeneral a written resignation.
+	(2)	The resignation takes effect on the day it is received by the GovernorGeneral or, if a later day is specified in the resignation, on that later day.
+20U  Termination of appointment
+	(1)	The GovernorGeneral may terminate the appointment of the Commissioner:
+	(a)	for misbehaviour; or
+	(b)	if the Commissioner is unable to perform the duties of the Commissioner’s office because of physical or mental incapacity.
+	(2)	The GovernorGeneral may terminate the appointment of the Commissioner if:
+	(a)	the Commissioner:
+	(i)	becomes bankrupt; or
+	(ii)	applies to take the benefit of any law for the relief of bankrupt or insolvent debtors; or
+	(iii)	compounds with the Commissioner’s creditors; or
+	(iv)	makes an assignment of remuneration for the benefit of the Commissioner’s creditors; or
+	(b)	the Commissioner is absent, except on leave of absence, for 14 consecutive days or for 28 days in any 12 months; or
+	(c)	the Commissioner engages, except with the Minister’s approval, in paid work outside the duties of the Commissioner’s office (see section 20S); or
+	(d)	the Commissioner fails, without reasonable excuse, to comply with section 29 of the Public Governance, Performance and Accountability Act 2013 (which deals with the duty to disclose interests) or rules made for the purposes of that section.
+20V  Other terms and conditions
+		The Commissioner holds office on the terms and conditions (if any) in relation to matters not covered by this Act that are determined by the GovernorGeneral.
+Division 5—Other matters
+20W  Commissioner may request information from Commonwealth agencies
+	(1)	If the Commissioner reasonably believes that a Commonwealth agency has information relevant to the performance of the Commissioner’s functions, the Commissioner may, in writing, request the agency to give the information to the Commissioner.
+	(2)	The request may specify a period within which the information is to be given. The period specified must be reasonable.
+	(3)	The agency must, so far as is reasonably practicable, comply with the request.
+	(4)	In this section:
+Commonwealth agency means:
+	(a)	a Commonwealth entity (within the meaning of the Public Governance, Performance and Accountability Act 2013); or
+	(b)	a person who performs the functions of, or performs functions within, a Commonwealth entity (within the meaning of that Act).
+20WA  Disclosure of information by Commissioner
+	(1)	This section applies to information obtained by any of the following persons in the person’s capacity as such a person:
+	(a)	the Commissioner;
+	(b)	a member of the staff assisting the Commissioner (see section 20F);
+	(c)	a person engaged to assist the Commissioner under section 20G;
+	(d)	a person engaged as a consultant under section 20H.
+	(2)	The Commissioner may disclose the information to a person or body mentioned in subsection (3) if the Commissioner reasonably believes the disclosure will enable or assist the person or body to perform or exercise any of the person or body’s functions or powers.
+	(3)	The persons and bodies are the following:
+	(a)	a Department, agency or authority of the Commonwealth;
+	(b)	the Australian Federal Police;
+	(c)	a person who holds an office or appointment under a law of the Commonwealth.
+	(4)	This section does not limit any other powers the Commissioner has to disclose information.
+20X  Strategic plan
+	(1)	The Commissioner must:
+	(a)	prepare a strategic plan in relation to the Commissioner’s functions; and
+	(b)	ensure that:
+	(i)	the first strategic plan comes into force as soon as practicable after the commencement of this section; and
+	(ii)	a strategic plan is in force at all times after the first strategic plan comes into force.
+	(2)	A strategic plan must:
+	(a)	relate to a period of up to 3 years; and
+	(b)	state the Commissioner’s priorities and principal objectives for the period in relation to the performance of the Commissioner’s functions; and
+	(c)	include, as one such principal objective, the Commissioner making guidance material publicly available to support victims of modern slavery.
+	(3)	A strategic plan must not include sensitive information.
+	(4)	A strategic plan prepared by the Commissioner is in force for the period to which the plan relates.
+	(5)	The Commissioner may revise a strategic plan at any time during the period to which the strategic plan relates.
+	(6)	In preparing or revising a strategic plan, the Commissioner must consult:
+	(a)	the Minister; and
+	(b)	the Secretary of the Department.
+	(7)	The Commissioner must cause a strategic plan to be published on the Commissioner’s website as soon as practicable after the plan is prepared or revised (as the case may be).
+	(8)	A strategic plan is not a legislative instrument.
+20Y  Annual report by Commissioner
+	(1)	The Commissioner must, within 3 months after the end of a financial year, prepare and give to the Minister an annual report on the Commissioner’s activities during the financial year.
+Note:	See also section 34C of the Acts Interpretation Act 1901, which contains extra rules about periodic reports.
+	(2)	The report prepared by the Commissioner for a financial year must set out:
+	(a)	the Commissioner’s activities during the financial year in relation to the Commissioner’s functions; and
+	(b)	the progress made towards any objectives set out in the strategic plan or plans that were in force during all or part of the financial year; and
+	(c)	a description of any milestones in relation to the Commissioner’s activities that were reached during the financial year; and
+	(d)	any emerging issues relating to the Commissioner’s functions.
+	(3)	If the Commissioner considers that the annual report contains sensitive information, the Commissioner must also prepare and give to the Minister, at the same time as the annual report, a version of the report which does not contain that information.
+	(4)	In determining whether the annual report contains sensitive information, the Commissioner may consult the Minister.
+	(5)	The Minister must cause a copy of:
+	(a)	the annual report; or
+	(b)	if the annual report contains sensitive information—the corresponding version of the report which does not contain that information;
+to be tabled in each House of the Parliament within 15 sitting days of that House after the report is given to the Minister.
+	(6)	The Commissioner must cause a copy of:
+	(a)	the annual report; or
+	(b)	if the annual report contains sensitive information—the corresponding version of the report which does not contain that information;
+to be published on the Commissioner’s website as soon as practicable after the report is tabled in the House of Representatives.
+Part 4—Miscellaneous
+  
+21  Simplified outline of this Part
+This Part deals with the following miscellaneous matters:
+	(a)	things done by an unincorporated entity;
+	(b)	delegations under this Act;
+	(ba)	annual reports about the implementation of this Act;
+	(c)	the 3year review of this Act;
+	(d)	the power to make rules.
+22  Unincorporated entities
+	(1)	This section applies if this Act requires or allows a thing to be done by an entity that is an unincorporated body.
+	(2)	The thing must, or may, be done by a responsible member of the entity on the entity’s behalf.
+22A  Delegation by Commissioner
+	(1)	The Commissioner may, in writing, delegate all or any of the Commissioner’s functions or powers under this Act to an APS employee whose services have been made available under section 20F and who is:
+	(a)	an SES employee; or
+	(b)	an acting SES employee; or
+	(c)	classified as Executive Level 2 or equivalent; or
+	(d)	acting in a position usually occupied by an APS employee who is so classified.
+	(2)	In performing functions or exercising powers under the delegation, the delegate must comply with any written directions of the Commissioner.
+23  Delegation by Minister
+	(1)	The Minister may, by writing, delegate all or any of the Minister’s powers and functions under this Act to an SES employee, or acting SES employee, in the Department.
+Note:	The expressions SES employee and acting SES employee are defined in the Acts Interpretation Act 1901.
+	(2)	In exercising powers or functions under a delegation, the delegate must comply with any directions of the Minister.
+	(3)	Subsection (1) does not apply to a power to make, vary or revoke the rules.
+23A  Annual reports about implementation
+	(1)	The Minister must cause a report to be prepared for each calendar year (including the year in which this section commences) about the implementation of this Act during the year, including the following (without limitation):
+	(a)	an overview of compliance by entities with this Act during the year;
+	(b)	the identification of best practice modern slavery reporting under this Act during the year.
+	(2)	The report must be:
+	(a)	started as soon as practicable after the end of the calendar year for which it is prepared; and
+	(b)	completed before the end of the calendar year in which it is started.
+	(3)	The Minister must cause copies of the report to be tabled in each House of the Parliament within 15 sitting days of that House after the completion of the report.
+24  Threeyear review
+	(1)	The Minister must cause a report to be prepared reviewing:
+	(a)	the operation of this Act and any rules over the period of 3 years after this section commences; and
+	(aa)	compliance with this Act and any rules over that period; and
+	(ab)	whether additional measures to improve compliance with this Act and any rules are necessary or desirable, such as civil penalties for failure to comply with the requirements of this Act; and
+	(ac)	whether a further review of this Act and any rules should be undertaken, and if so, when; and
+	(ad)	whether it is necessary or desirable to do anything else to improve the operation of this Act and any rules; and
+	(b)	whether this Act or any rules should be amended to implement review recommendations.
+	(2)	The review must be:
+	(a)	started as soon as practicable after the end of the period of 3 years after this section commences; and
+	(b)	completed within 12 months after it starts.
+	(3)	The Minister must cause copies of the report to be tabled in each House of the Parliament within 15 sitting days of that House after the completion of the report.
+25  Rules
+	(1)	The Minister may, by legislative instrument, make rules prescribing matters:
+	(a)	required or permitted by this Act to be prescribed by the rules; or
+	(b)	necessary or convenient to be prescribed for carrying out or giving effect to this Act.
+	(2)	To avoid doubt, the rules may not do the following:
+	(a)	create an offence or civil penalty;
+	(b)	provide powers of:
+	(i)	arrest or detention; or
+	(ii)	entry, search or seizure;
+	(c)	impose a tax;
+	(d)	set an amount to be appropriated from the Consolidated Revenue Fund under an appropriation in this Act;
+	(e)	directly amend the text of this Act.
+
+Endnotes
+Endnote 1—About the endnotes
+The endnotes provide information about this compilation and the compiled law.
+The following endnotes are included in every compilation:
+Endnote 1—About the endnotes
+Endnote 2—Abbreviation key
+Endnote 3—Legislation history
+Endnote 4—Amendment history
+Abbreviation key—Endnote 2
+The abbreviation key sets out abbreviations that may be used in the endnotes.
+Legislation history and amendment history—Endnotes 3 and 4
+Amending laws are annotated in the legislation history and amendment history.
+The legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.
+The amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.
+Editorial changes
+The Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.
+If the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.
+Misdescribed amendments
+A misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003.
+If a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.
+
+Endnote 2—Abbreviation key
+ad = added or inserted
+o = order(s)
+am = amended
+Ord = Ordinance
+amdt = amendment
+orig = original
+c = clause(s)
+par = paragraph(s)/subparagraph(s)
+C[x] = Compilation No. x
+/subsubparagraph(s)
+Ch = Chapter(s)
+pres = present
+def = definition(s)
+prev = previous
+Dict = Dictionary
+(prev…) = previously
+disallowed = disallowed by Parliament
+Pt = Part(s)
+Div = Division(s)
+r = regulation(s)/rule(s)
+ed = editorial change
+reloc = relocated
+exp = expires/expired or ceases/ceased to have
+renum = renumbered
+effect
+rep = repealed
+F = Federal Register of Legislation
+rs = repealed and substituted
+gaz = gazette
+s = section(s)/subsection(s)
+LA = Legislation Act 2003
+Sch = Schedule(s)
+LIA = Legislative Instruments Act 2003
+Sdiv = Subdivision(s)
+(md) = misdescribed amendment can be given
+SLI = Select Legislative Instrument
+effect
+SR = Statutory Rules
+(md not incorp) = misdescribed amendment
+SubCh = SubChapter(s)
+cannot be given effect
+SubPt = Subpart(s)
+mod = modified/modification
+underlining = whole or part not
+No. = Number(s)
+commenced or to be commenced
+Endnote 3—Legislation history
+
+Act
+Number and year
+Assent
+Commencement
+Application, saving and transitional provisions
+Modern Slavery Act 2018
+153, 2018
+10 Dec 2018
+s 3–25: 1 Jan 2019 (s 2(1) item 2)Remainder: 10 Dec 2018 (s 2(1) item 1)
+
+Administrative Review Tribunal (Consequential and Transitional Provisions No. 1) Act 2024
+38, 2024
+31 May 2024
+Sch 6 (item 13): 14 Oct 2024 (s 2(1) item 2)
+—
+Modern Slavery Amendment (Australian Anti‑Slavery Commissioner) Act 2024
+42, 2024
+11 June 2024
+7 Nov 2024 (s 2(1) item 1)
+Sch 1 (item 8)
+
+Endnote 4—Amendment history
+
+Provision affected
+How affected
+Title	
+am No 42, 2024
+Part 1
+
+s 3	
+am No 42, 2024
+s 4	
+am No 42, 2024
+Part 2
+
+s 16A	
+am No 38, 2024
+Part 3A
+
+Part 3A	
+ad No 42, 2024
+Division 1
+
+s 20A	
+ad No 42, 2024
+Division 2
+
+s 20B	
+ad No 42, 2024
+s 20C	
+ad No 42, 2024
+s 20D	
+ad No 42, 2024
+s 20E	
+ad No 42, 2024
+s 20F	
+ad No 42, 2024
+s 20G	
+ad No 42, 2024
+s 20H	
+ad No 42, 2024
+s 20J	
+ad No 42, 2024
+s 20K	
+ad No 42, 2024
+Division 3
+
+s 20L	
+ad No 42, 2024
+s 20M	
+ad No 42, 2024
+s 20N	
+ad No 42, 2024
+s 20P	
+ad No 42, 2024
+Division 4
+
+s 20Q	
+ad No 42, 2024
+s 20R	
+ad No 42, 2024
+s 20S	
+ad No 42, 2024
+s 20T	
+ad No 42, 2024
+s 20U	
+ad No 42, 2024
+s 20V	
+ad No 42, 2024
+Division 5
+
+s 20W	
+ad No 42, 2024
+s 20WA	
+ad No 42, 2024
+s 20X	
+ad No 42, 2024
+s 20Y	
+ad No 42, 2024
+Part 4
+
+s 21	
+am No 42, 2024
+s 22A	
+ad No 42, 2024
+s 23	
+am No 42, 2024
+
