@@ -71,6 +71,24 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/standards/aps-110": {
+  "chars": 98518,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-aps-110.txt",
+  "final": "https://www.apra.gov.au/standards/aps-110",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/aps-210": {
+  "chars": 130165,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-aps-210.txt",
+  "final": "https://www.apra.gov.au/standards/aps-210",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/standards/cps-001": {
   "chars": 146042,
   "date": "2026-10-08",
@@ -85,6 +103,15 @@
   "date": "2026-10-08",
   "file": "apra-gov-au-standards-cps-190.txt",
   "final": "https://www.apra.gov.au/standards/cps-190",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/cps-220": {
+  "chars": 76745,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-cps-220.txt",
+  "final": "https://www.apra.gov.au/standards/cps-220",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -107,6 +134,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/standards/cps-510": {
+  "chars": 99136,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-cps-510.txt",
+  "final": "https://www.apra.gov.au/standards/cps-510",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/standards/cps-511": {
   "chars": 107350,
   "date": "2026-10-08",
@@ -116,11 +152,47 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/standards/cps-520": {
+  "chars": 89664,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-cps-520.txt",
+  "final": "https://www.apra.gov.au/standards/cps-520",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/sps-515": {
+  "chars": 63412,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-sps-515.txt",
+  "final": "https://www.apra.gov.au/standards/sps-515",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-181-licensing-managing-conflicts-of-interest/": {
+  "chars": 16434,
+  "date": "2026-10-08",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-181-licensing-managing-conflicts-of-interest.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-181-afs-licensing-managing-conflicts-of-interest",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution": {
   "chars": 17882,
   "date": "2026-10-08",
   "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-271-internal-dispute-resolution.txt",
   "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-277-consumer-remediation/": {
+  "chars": 16908,
+  "date": "2026-10-08",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-277-consumer-remediation.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-277-consumer-remediation",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -152,6 +224,15 @@
   "status": 200,
   "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
+ "https://www.legislation.gov.au/C2004A00818/2026-09-19/2026-09-19/text/original/word/6": {
+  "chars": 993063,
+  "date": "2026-10-08",
+  "file": "legislation-gov-au-c2004a00818-2026-09-19-2026-09-19-text-original-word-6.txt",
+  "final": "https://www.legislation.gov.au/C2004A00818/2026-09-19/2026-09-19/text/original/word/6",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
  "https://www.legislation.gov.au/C2004A00818/latest/downloads": {
   "chars": 5627,
   "date": "2026-10-08",
@@ -166,6 +247,15 @@
   "date": "2026-10-08",
   "file": "legislation-gov-au-c2004a00818-latest-text.txt",
   "final": "https://www.legislation.gov.au/C2004A00818/latest/text",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2004A03712/latest/downloads": {
+  "chars": 3164,
+  "date": "2026-10-08",
+  "file": "legislation-gov-au-c2004a03712-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2004A03712/latest/downloads",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
