@@ -26,6 +26,33 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management": {
+  "chars": 49951,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-final-targeted-amendments-to-cps-230-operational-risk-management.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/final-targeted-amendments-cps-230-operational-risk-management",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/registers/list-significant-financial-institutions": {
+  "chars": 42450,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-registers-list-significant-financial-institutions.txt",
+  "final": "https://www.apra.gov.au/registers/list-significant-financial-institutions",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/cps-001": {
+  "chars": 146042,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-cps-001.txt",
+  "final": "https://www.apra.gov.au/standards/cps-001",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/standards/cps-230": {
   "chars": 74448,
   "date": "2026-10-08",
