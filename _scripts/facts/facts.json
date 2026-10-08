@@ -1149,7 +1149,8 @@
     "IDR",
     "complaint",
     "ASIC"
-   ]
+   ],
+   "check_url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/preventing-preparing-for-and-responding-to-data-breaches/data-breach-preparation-and-response/part-4-notifiable-data-breach-ndb-scheme"
   },
   {
    "id": "ransomware-report",
@@ -1431,10 +1432,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official text of APS 110 Capital Adequacy (F2024L01518, in force from 1 January 2025), paragraph 24(a), and APRA's current APS 110 page, fetched by the site's document fetcher, 8 October 2026"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "4.5%",
+     "new": "4.5%",
+     "how": "official",
+     "note": "Read in the official text of APS 110 Capital Adequacy (F2024L01518, in force from 1 January 2025), paragraph 24(a), and APRA's current APS 110 page, fetched by the site's document fetcher, 8 October 2026"
+    }
+   ]
   },
   {
    "id": "adi-sfi-threshold",

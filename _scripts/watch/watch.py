@@ -152,7 +152,7 @@ def variants(value):
     m = re.fullmatch(r"\$([\d.,]+) (million|billion)", value)
     if m:
         v |= {f"{m.group(1)} {m.group(2)}", f"${m.group(1)}{m.group(2)[0]}", f"${m.group(1)} {m.group(2)[0]}"}
-    m = re.fullmatch(r"(\d+)%", value)
+    m = re.fullmatch(r"(\d+(?:\.\d+)?)%", value)
     if m:
         v |= {f"{m.group(1)} per cent", f"{m.group(1)} percent", f"{m.group(1)} %"}
     if value.startswith("$"):
