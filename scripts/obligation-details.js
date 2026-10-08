@@ -190,6 +190,54 @@ window.GRC_OBLIGATION_DETAILS = {
         ['A protected discloser is not subject to civil, criminal or administrative liability for making the disclosure, and contractual remedies cannot be enforced against them for it', 'Corporations Act s 1317AB']]
     }
   },
+  privacy: {
+    source: [['Privacy Act 1988 (compilation in force 4 June 2026), including Schedule 1 (Australian Privacy Principles)', 'https://www.legislation.gov.au/C2004A03712/latest/text']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['Most businesses with annual turnover of {fact:privacy-small-business} or less are not covered (small business operators), with exceptions such as health service providers', 'Privacy Act s 6D'],
+        ['APP entities must not breach the Australian Privacy Principles', 'Privacy Act s 15'],
+        ['Take reasonable steps to put in place practices, procedures and systems that ensure compliance with the APPs and allow privacy inquiries and complaints to be handled', 'Privacy Act Sch 1, APP 1.2'],
+        ['Have a clearly expressed, up-to-date privacy policy covering the kinds of information held, how it is collected and held, its purposes, access and correction, complaints, and likely overseas disclosures, and make it available free of charge', 'Privacy Act Sch 1, APP 1.3–1.5'],
+        ['Collect, notify, use, disclose, send overseas, keep accurate, and give access to and correct personal information in line with APPs 3 to 13', 'Privacy Act Sch 1, APPs 3–13'],
+        ['A serious interference with privacy is a civil penalty provision; for a company the maximum is the greatest of $50 million, three times the benefit obtained, or 30% of adjusted turnover in the breach period', 'Privacy Act s 13G']],
+      2: [
+        ['Take reasonable steps to protect personal information from misuse, interference and loss, and from unauthorised access, modification or disclosure', 'Privacy Act Sch 1, APP 11.1'],
+        ['Destroy or de-identify personal information that is no longer needed (unless the law requires it to be kept)', 'Privacy Act Sch 1, APP 11.2'],
+        ['Reasonable steps include technical and organisational measures', 'Privacy Act Sch 1, APP 11.3']],
+      3: [
+        ['An eligible data breach is unauthorised access to, disclosure or loss of personal information that a reasonable person would conclude is likely to result in serious harm to any of the individuals affected', 'Privacy Act s 26WE(2)'],
+        ['It is not an eligible data breach if remedial action taken before serious harm results means serious harm is no longer likely', 'Privacy Act s 26WF'],
+        ['Where there are reasonable grounds to suspect an eligible data breach, carry out a reasonable and expeditious assessment and take all reasonable steps to complete it within {fact:ndb-assessment}', 'Privacy Act s 26WH'],
+        ['Where there are reasonable grounds to believe there has been an eligible data breach, prepare a statement (entity, description, kinds of information, recommended steps for individuals) and give it to the Commissioner as soon as practicable', 'Privacy Act s 26WK'],
+        ['Notify the individuals affected or at risk (or, if that is not practicable, publish and publicise the statement) as soon as practicable after preparing it', 'Privacy Act s 26WL']]
+    }
+  },
+  remed: {
+    source: [['ASIC Regulatory Guide 277 Consumer remediation (September 2022, updated April 2026). RG 277 is guidance: it sets out how ASIC expects licensees to meet their legal obligations', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-277-consumer-remediation/']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['Have adequate systems and processes to identify misconduct or other failures when they occur, and to protect and compensate consumers for their loss', 'RG 277.3'],
+        ['Initiate a remediation when misconduct or other failure in providing financial services or credit activities has caused, or may have caused, consumer loss, including failures by representatives, service providers and consultants', 'RG 277.22–277.23'],
+        ['Misconduct or other failure includes breaches of financial services or credit laws, contractual failings, negligence or fraud, and failures to meet other regulatory requirements', 'RG 277.25'],
+        ['Start promptly on becoming aware, rather than waiting for complaints, AFCA, ASIC or court proceedings', 'RG 277.24; RG 277 Table 1, principle 6'],
+        ['Licensees giving personal advice to retail clients must also meet the statutory notify, investigate and remediate timeframes', 'Corporations Act ss 912EA–912EB; RG 277.310–277.314']],
+      2: [
+        ['Aim to identify everyone who has or may have suffered loss, by understanding the nature, extent and impact of the failure, including its root cause and when it first caused loss', 'RG 277 Table 1, principle 2; RG 277.45–277.53'],
+        ['Include affected consumers automatically (no opt-in), don’t exclude them for not responding or lacking evidence of loss, and keep the remediation free for consumers', 'RG 277 Table 1, principle 7; RG 277.150–277.152']],
+      3: [
+        ['Aim to return consumers as closely as possible to the position they would have been in had the failure not occurred', 'RG 277 Table 1, principle 1; RG 277.61–277.63'],
+        ['Account for foregone returns or interest, consider indirect financial loss, and don’t discount compensation for unrealisable benefits', 'RG 277.70–277.74'],
+        ['Use assumptions only if they benefit consumers and are evidence based and documented', 'RG 277 Table 1, principle 3; RG 277.113–277.141'],
+        ['Document and justify key decisions about scope and remedies, and keep records ASIC may ask to see', 'RG 277 Table 1, principle 4']],
+      4: [
+        ['Use reasonable endeavours to pay consumers, prioritising methods that need no action from them (such as EFT or PayID)', 'RG 277 Table 1, principle 5; RG 277.153–277.171'],
+        ['Pay consumers with current payment details regardless of amount; for former customers owed $5 or less (after interest) with no current payment details, the amount may go to a residual remediation payment instead (super trustees and scheme operators using fund assets may keep such amounts in the fund for its members)', 'RG 277.160–277.163'],
+        ['Do not profit from the failure: money that can’t be returned despite reasonable endeavours goes to an unclaimed money regime or a residual payment to an ACNC-registered charity', 'RG 277 Table 1, principle 8; RG 277.188–277.197'],
+        ['Give remediations adequate resourcing and governance, with senior management commitment and, where appropriate, an independent expert', 'RG 277 Table 1, principle 9; RG 277.220–277.226']]
+    }
+  },
   breach: {
     source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
     checkedText: '8 October 2026',

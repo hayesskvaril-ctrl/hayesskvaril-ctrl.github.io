@@ -1131,10 +1131,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official Privacy Act 1988 (compilation in force 4 June 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: s 26WH(2)(b)"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "30 days",
+     "new": "30 days",
+     "how": "official",
+     "note": "Read in the official Privacy Act 1988 (compilation in force 4 June 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: s 26WH(2)(b)"
+    }
+   ],
    "exclude": [
     "29JA",
     "reportable situation",
@@ -1362,10 +1370,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official Privacy Act 1988 (compilation in force 4 June 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: s 6D(1) (annual turnover of $3,000,000 or less)"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "$3 million",
+     "new": "$3 million",
+     "how": "official",
+     "note": "Read in the official Privacy Act 1988 (compilation in force 4 June 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: s 6D(1) (annual turnover of $3,000,000 or less)"
+    }
+   ],
    "exclude": [
     "balance",
     "Division 296",
