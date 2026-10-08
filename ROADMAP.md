@@ -397,7 +397,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Phases 17 to 23: CPS 230, tolerance levels, mapping critical operations, third-party risk, service provider exit, business continuity, operational risk (7 October 2026); track 3 complete
 - [x] Phases 24 to 31: controls and risk assessment track (7 October 2026); track 4 complete
 - [x] Phases 32 to 40: disclosure and conduct track (7 October 2026); track 5 complete
-- [ ] Phases 41 to 137: work through `_scripts/depth_roadmap.py` in order (next: CPS 220)
+- [x] Phases 41 to 47: APRA prudential standards track (8 October 2026); track 6 complete
+- [ ] Phases 48 to 137: work through `_scripts/depth_roadmap.py` in order (next: Financial Accountability Regime)
 - **Note:** apra.gov.au, legislation.gov.au and most source sites are blocked by this environment's network policy (October 2026); facts were checked via web search excerpts of the official documents. The owner can allow those domains in the environment's network settings.
 
 ## Phase 21 — Earning money without a paywall (requested October 2026)

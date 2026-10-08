@@ -203,6 +203,20 @@ DONE = {
         'Added common conflicts in financial services, how the rules have tightened, common mistakes and FAQs'),
     "/governance/conflicts-of-interest.html": ("7 October 2026",
         "Added a worked example of a director's conflict, board questions and FAQs"),
+    "/standards/cps-220.html": ("8 October 2026",
+        "Added a worked example from risk appetite to a breach, common mistakes, board questions, what's changing around CPS 220 and FAQs"),
+    "/standards/cps-234.html": ("8 October 2026",
+        "Added APRA's 2024 and 2025 cyber letters, a table of overlapping reporting clocks, common mistakes, board questions and FAQs"),
+    "/standards/cps-510-and-cps-520.html": ("8 October 2026",
+        'Updated for the June 2026 draft CPS 510 (timing and a table of main proposals), board questions and FAQs'),
+    "/standards/cps-511.html": ("8 October 2026",
+        "Added who counts as an SFI, a worked malus example, APRA's pre-implementation findings, common mistakes, board questions and FAQs"),
+    "/standards/cps-190-and-cps-900.html": ("8 October 2026",
+        "Added APRA's 2024 findings for super, a worked example of trustee indicators and triggers, common mistakes, board questions, FAQs and key dates"),
+    "/standards/aps-110-and-aps-210.html": ("8 October 2026",
+        'Added a worked capital ratio example, the changes under way (AT1 removal, risk weights, liquidity, proportionality), board questions and FAQs'),
+    "/standards/aps-115.html": ("8 October 2026",
+        'Added where APS 115 sits in 2026 (AT1 removal, risk weights, CPS 230) and FAQs'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

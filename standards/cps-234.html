@@ -65,8 +65,8 @@
   <p class="summary">APRA's standard requiring banks, insurers and super trustees to protect their <a class="term" href="/glossary/#information-asset">information assets</a> from cyber and other security threats, test that protection, and tell APRA quickly when things go wrong.</p>
   <div class="page-meta">
     <span class="level level-intermediate">Intermediate</span>
-    <span>About 12 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 17 minutes</span>
+    <span>Last reviewed: 8 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 <!-- ART:START -->
@@ -156,6 +156,57 @@
     <p>CPS 234 focuses on protecting information; CPS 230 focuses on keeping critical operations running and managing service providers. A cyber attack on a key provider will usually engage both: CPS 234 for the security incident and control weaknesses, and CPS 230 for the disruption to critical operations and the service provider relationship. Notification timeframes can overlap (72 hours under both, 24 hours under CPS 230 for disruption outside tolerance).</p>
   </div>
 
+  <h2>What APRA has said since</h2>
+  <p>After the tripartite program, APRA published further letters setting out what it expects:</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Date</th><th scope="col">Publication</th><th scope="col">Main points</th></tr></thead>
+      <tbody>
+        <tr><td>15 August 2024</td><td>Letter on common cyber control weaknesses</td><td>Weaknesses in security configuration, privileged access management and security testing. APRA called for a complete inventory of privileged accounts, temporary access only where there is a business need, and identity checks as strong as the harm a false identity could cause.</td></tr>
+        <tr><td>10 June 2025</td><td>Letter to super trustees on authentication</td><td>Issued after credential stuffing attacks on several super funds. APRA asked every trustee to self-assess its controls by 31 August 2025, use multi-factor authentication or equivalent for high-risk activities and privileged access, name the accountable person under the Financial Accountability Regime responsible for CPS 234, and notify APRA of material weaknesses.</td></tr>
+        <tr><td>2025 to 2026</td><td>Corporate plan and supervision</td><td>APRA said it would check how funds responded to the June 2025 letter, with cyber resilience work starting with super trustees, insurers and smaller banks.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Other reporting clocks that can apply</h2>
+  <p>A single cyber incident can set off several clocks at once. A summary (check each law for the detail):</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Law</th><th scope="col">Who</th><th scope="col">Report what</th><th scope="col">When</th></tr></thead>
+      <tbody>
+        <tr><td>CPS 234</td><td>APRA-regulated entities</td><td>Material information security incident</td><td>No later than 72 hours after becoming aware</td></tr>
+        <tr><td>CPS 234</td><td>APRA-regulated entities</td><td>Material control weakness not remediated in a timely way</td><td>No later than 10 business days</td></tr>
+        <tr><td>CPS 230</td><td>APRA-regulated entities</td><td>Disruption to a critical operation outside tolerance</td><td>Within 24 hours</td></tr>
+        <tr><td><em>Privacy Act 1988</em> (notifiable data breaches)</td><td>Entities covered by the Act</td><td>Eligible data breach</td><td>Assess a suspected breach within 30 days; notify the OAIC and affected people as soon as practicable</td></tr>
+        <tr><td><em>Cyber Security Act 2024</em> (ransomware payments)</td><td>Businesses with turnover above $3 million, and some others</td><td>A ransomware payment made</td><td>Within 72 hours of making the payment</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>An incomplete asset register,</strong> especially for information held by service providers.</li>
+    <li><strong>Relying on vendor attestations</strong> instead of assessing a third party's controls.</li>
+    <li><strong>Response plans that have never been tested</strong> against a realistic scenario, or that don't link to business continuity.</li>
+    <li><strong>Multi-factor authentication left optional</strong> for customers or missing for remote and privileged access.</li>
+    <li><strong>Waiting for certainty before notifying APRA,</strong> so the 72-hour window passes.</li>
+  </ul>
+
+  <h2>Questions a board can ask</h2>
+  <p>These are prompts for discussion, not requirements.</p>
+  <ol>
+    <li>Which of our critical information assets are held by third parties, and how do we know they are protected?</li>
+    <li>When did we last test our incident response plan, and what did we change afterwards?</li>
+    <li>Who decides whether an incident is "material", and how quickly can they decide?</li>
+    <li>Where are we relying on passwords alone?</li>
+    <li>Which control weaknesses have been open longest, and why?</li>
+  </ol>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>Does CPS 234 apply to information held by our administrator or cloud provider?</summary><p>Yes. Information assets managed by related parties and third parties are covered, and the entity must evaluate those parties' information security controls.</p></details>
+  <details><summary>Is every incident notifiable to APRA?</summary><p>No. Only material incidents: those that materially affected, or could have materially affected, the entity or the interests of depositors, policyholders or beneficiaries, and incidents notified to other regulators. Many entities set criteria in advance to help decide quickly.</p></details>
+
   <h2>Check your understanding</h2>
   <div class="widget quiz">
     <h3>CPS 234 in practice</h3>
@@ -204,10 +255,13 @@
     <ol>
       <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-234">Prudential Standard CPS 234 Information Security</a> and <a href="https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf">CPG 234 Information Security</a> (June 2019).</li>
       <li>King &amp; Wood Mallesons, <a href="https://www.kwm.com/global/en/insights/latest-thinking/apra-finds-gaps-in-compliance-with-cps-234.html">APRA finds gaps in compliance with CPS 234</a> (summary of APRA's 2023 findings; see APRA's website for the original).</li>
+          <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-shares-further-insights-on-common-cyber-control-weaknesses">APRA shares further insights on common cyber control weaknesses</a> (15 August 2024).</li>
+      <li>Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/news-and-publications/apra-reinforces-expectations-authentication-controls-superannuation-sector">APRA reinforces expectations on authentication controls in superannuation sector</a> (10 June 2025).</li>
+      <li>Australian Signals Directorate, ransomware payment reporting under Part 3 of the <em>Cyber Security Act 2024</em> (Cth); see <a href="https://www.cyber.gov.au/">cyber.gov.au</a>; Office of the Australian Information Commissioner, <a href="https://www.oaic.gov.au/privacy/notifiable-data-breaches">Notifiable data breaches</a>.</li>
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 8 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/standards/cps-234.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Fstandards%2Fcps-234.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

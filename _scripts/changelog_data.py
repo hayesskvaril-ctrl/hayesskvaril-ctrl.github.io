@@ -8,6 +8,13 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/standards/aps-115.html', 'APS 115: deep review, adding how the 2026 capital changes affect operational risk capital'),
+    ('2026-10-08', '/standards/aps-110-and-aps-210.html', 'APS 110 and APS 210: deep review, adding a worked capital ratio and the 2026 to 2027 bank capital and liquidity changes'),
+    ('2026-10-08', '/standards/cps-190-and-cps-900.html', "CPS 190 and CPS 900: deep review, adding APRA's findings for super and a worked trustee trigger example"),
+    ('2026-10-08', '/standards/cps-511.html', "CPS 511: deep review, adding SFI thresholds, a worked malus example and APRA's pre-implementation findings"),
+    ('2026-10-08', '/standards/cps-510-and-cps-520.html', "CPS 510 and CPS 520: deep review, with a table of the June 2026 draft governance standard's main proposals"),
+    ('2026-10-08', '/standards/cps-234.html', "CPS 234: deep review, adding APRA's 2024 and 2025 cyber letters and the overlapping incident reporting clocks"),
+    ('2026-10-08', '/standards/cps-220.html', "CPS 220: deep review, adding a worked risk appetite breach example and what's changing around the standard"),
     ('2026-10-07', '/governance/conflicts-of-interest.html', "Conflicts of interest: deep review, adding a worked director's conflict example and board questions"),
     ('2026-10-07', '/standards/asic-rg-181.html', 'RG 181 (conflicts): deep review, adding common conflicts and how the rules have tightened'),
     ('2026-10-07', '/standards/asic-rg-104-and-rg-105.html', 'RG 104 and RG 105: deep review, adding the general obligations in more detail and common mistakes'),

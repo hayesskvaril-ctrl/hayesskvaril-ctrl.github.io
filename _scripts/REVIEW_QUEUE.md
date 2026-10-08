@@ -34,6 +34,8 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 - /standards/asic-rg-274.html (deep review done 7 October 2026: DDO stop order counts and penalty cases)
 - /standards/asic-rg-271.html (deep review done 7 October 2026: IDR timeframes and data reporting dates)
 - /governance/conflicts-of-interest.html (deep review done 7 October 2026: worked example of a director's conflict)
+- /standards/cps-511.html (deep review done 8 October 2026: worked malus example and SFI thresholds)
+- /standards/cps-190-and-cps-900.html (deep review done 8 October 2026: worked example of trustee recovery triggers)
 ## Round 2: deeper practice pages
 11. /compliance/breach-significance-analysis.html (worked cases)
 12. /compliance/remediation-calculations.html
