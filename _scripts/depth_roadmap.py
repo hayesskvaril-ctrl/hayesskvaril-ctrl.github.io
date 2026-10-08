@@ -8,13 +8,13 @@ The phase in progress is the first page in TRACKS order that isn't in DONE.
 build_site_roadmap.py checks that every educational article is in exactly one track.
 """
 
-PROGRAM = "Deep review, October to November 2026"
-INTRO = ("We're going through every article on the site with a fine-tooth comb, one at a time. Each "
-         "phase takes one page, checks every statement against the current law and regulator "
-         "material, fixes anything out of date, and adds far more depth: the requirements in "
+PROGRAM = "Deep review, October 2026"
+INTRO = ("We went through every article on the site with a fine-tooth comb, one at a time. Each "
+         "phase took one page, checked every statement against the current law and regulator "
+         "material, fixed anything out of date, and added far more depth: the requirements in "
          "detail, how they fit with related rules, what regulators have found in practice, worked "
-         "examples, common mistakes and fuller sources. Specialist pages are then offered for "
-         "expert review.")
+         "examples, common mistakes and fuller sources. Specialist pages are offered for expert "
+         "review, and every page is reviewed again at least yearly.")
 
 # What every phase covers (shown on the roadmap page)
 CHECKLIST = [
@@ -369,6 +369,34 @@ DONE = {
         'Added 2026 developments (court declarations, settlements, ASIC actions, CSLR levy) and an FAQ'),
     "/case-studies/hih-insurance-collapse.html": ("8 October 2026",
         'Added what changed because of HIH, and an FAQ'),
+    "/compliance/theories-of-regulation.html": ("8 October 2026",
+        'Added Australian examples at each level of the enforcement pyramid, and FAQs'),
+    "/governance/corporate-governance-theories.html": ("8 October 2026",
+        'Added an application of four theories to a super trustee merger decision, and an FAQ'),
+    "/risk-management/theories-of-risk.html": ("8 October 2026",
+        'Added Australian examples of each theory, and an FAQ'),
+    "/risk-management/does-erm-work.html": ("8 October 2026",
+        'Added how a board might test its own ERM, and an FAQ'),
+    "/governance/three-lines-research-and-critique.html": ("8 October 2026",
+        'Added an application of the diffused-accountability critique to an assurance chain, and an FAQ'),
+    "/governance/internal-audit-effectiveness.html": ("8 October 2026",
+        'Added indicators an audit committee could use, and an FAQ'),
+    "/governance/remuneration-incentives-and-risk-taking.html": ("8 October 2026",
+        'Added the multitasking problem applied to Royal Commission findings, and an FAQ'),
+    "/governance/whistleblowing-research.html": ("8 October 2026",
+        'Added design responses for each stage of speaking up, and an FAQ'),
+    "/compliance/misconduct-in-financial-services-research.html": ("8 October 2026",
+        'Added practical onboarding and monitoring responses to the findings, and an FAQ'),
+    "/compliance/aml-ctf-effectiveness.html": ("8 October 2026",
+        'Added outcome-focused alternatives to volume measures, and an FAQ'),
+    "/compliance/fraud-theory.html": ("8 October 2026",
+        'Added an insider fraud scenario applying the triangle and its extensions, and an FAQ'),
+    "/risk-management/economics-of-cyber-risk.html": ("8 October 2026",
+        'Added a worked Gordon-Loeb style calculation, and an FAQ'),
+    "/risk-management/climate-risk-research.html": ("8 October 2026",
+        'Added implications of the findings for a super trustee, and an FAQ'),
+    "/risk-management/human-factors-and-bias.html": ("8 October 2026",
+        'Added a worked pre-mortem before go-live, and an FAQ'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)

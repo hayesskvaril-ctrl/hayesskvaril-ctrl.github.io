@@ -68,7 +68,7 @@ def track_html(i, name, desc, urls):
       </div>
     </details>'''
 
-now_txt = (f' Now on phase {cur_n}: <a href="{current}">{escape(TITLE[current])}</a>.') if current else ""
+now_txt = (f' Now on phase {cur_n}: <a href="{current}">{escape(TITLE[current])}</a>.') if current else ' The deep review is complete.'
 tracks_html = "\n".join(track_html(i, *t) for i, t in enumerate(D.TRACKS, 1))
 
 items = []
@@ -159,12 +159,16 @@ next_li = "".join(f'<li><a href="{u}">{escape(TITLE[u])}</a></li>' for u in upne
 now_p = (f'<p class="dr-now"><span>Now:</span> <a href="{current}">{escape(TITLE[current])}</a></p>') if current else ""
 recent_d = (f'<div><p class="dr-lh">Just finished</p><ul>{recent_li}</ul></div>') if recent else ""
 next_d = (f'<div><p class="dr-lh">Up next</p><ul>{next_li}</ul></div>') if upnext else ""
+complete = d_done == d_total
+last_date = max((D.DONE[u][0] for u in order), key=lambda x: __import__("datetime").datetime.strptime(x, "%d %B %Y")) if complete else ""
+intro_home = (f"We've re-checked every page against the current law and regulator guidance and added much more depth: all {d_total} phases, finished {last_date}. Each page is still reviewed at least yearly." if complete
+              else "We're re-checking every page against the current law and regulator guidance, and adding much more depth. One article per phase.")
 banner = f'''<!-- ROADMAP:START -->
   <div class="dr-home" aria-labelledby="dr-home-h">
     <div class="dr-home-main">
-      <p class="dr-k"><span class="rm-pill rm-pill-now">In progress</span> Deep review</p>
+      <p class="dr-k"><span class="rm-pill rm-pill-{"done" if complete else "now"}">{"Complete" if complete else "In progress"}</span> Deep review</p>
       <h2 id="dr-home-h">Every article, checked line by line</h2>
-      <p>We're re-checking every page against the current law and regulator guidance, and adding much more depth. One article per phase.</p>
+      <p>{intro_home}</p>
       <p class="dr-links"><a href="/about/roadmap.html">See the full roadmap</a></p>
     </div>
     <div class="dr-home-progress">

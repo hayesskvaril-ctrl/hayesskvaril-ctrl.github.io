@@ -8,6 +8,21 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/about/roadmap.html', 'Deep review complete: all 137 articles re-checked against current law and regulator guidance, and expanded'),
+    ('2026-10-08', '/risk-management/human-factors-and-bias.html', 'Human factors and bias: deep review, adding a worked pre-mortem'),
+    ('2026-10-08', '/risk-management/climate-risk-research.html', 'Climate risk research: deep review, adding implications for super trustees'),
+    ('2026-10-08', '/risk-management/economics-of-cyber-risk.html', 'Economics of cyber risk: deep review, adding a worked Gordon-Loeb calculation'),
+    ('2026-10-08', '/compliance/fraud-theory.html', 'Fraud theory: deep review, adding an insider fraud scenario'),
+    ('2026-10-08', '/compliance/aml-ctf-effectiveness.html', 'AML/CTF effectiveness: deep review, adding outcome-focused measures'),
+    ('2026-10-08', '/compliance/misconduct-in-financial-services-research.html', 'Misconduct research: deep review, applying the findings to adviser onboarding and monitoring'),
+    ('2026-10-08', '/governance/whistleblowing-research.html', 'Whistleblowing research: deep review, adding design responses for each stage of speaking up'),
+    ('2026-10-08', '/governance/remuneration-incentives-and-risk-taking.html', 'Remuneration, incentives and risk-taking: deep review, applying the multitasking problem'),
+    ('2026-10-08', '/governance/internal-audit-effectiveness.html', 'Internal audit effectiveness: deep review, adding indicators for audit committees'),
+    ('2026-10-08', '/governance/three-lines-research-and-critique.html', 'Three lines research and critique: deep review, applying the critique to a chain of assumed assurance'),
+    ('2026-10-08', '/risk-management/does-erm-work.html', 'Does ERM work: deep review, adding how a board might test its own ERM'),
+    ('2026-10-08', '/risk-management/theories-of-risk.html', 'Theories of risk: deep review, adding Australian examples of each theory'),
+    ('2026-10-08', '/governance/corporate-governance-theories.html', 'Corporate governance theories: deep review, applying four theories to a super fund merger decision'),
+    ('2026-10-08', '/compliance/theories-of-regulation.html', 'Theories of regulation: deep review, adding Australian examples at each level of the enforcement pyramid'),
     ('2026-10-08', '/case-studies/hih-insurance-collapse.html', 'HIH collapse: deep review, adding the reforms that followed'),
     ('2026-10-08', '/case-studies/shield-and-first-guardian.html', 'Shield and First Guardian: deep review, adding the 2026 developments'),
     ('2026-10-08', '/case-studies/asic-cyber-cases-ri-advice-and-fiig.html', 'RI Advice and FIIG: deep review, adding FAQs on s 912A and APRA-regulated entities'),
