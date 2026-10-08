@@ -1,5 +1,5 @@
 {
- "_about": "Official news and consultation pages read by the weekly regulator watch (_scripts/watch/watch.py, run by .github/workflows/regulator-watch.yml). For each source the watch reads the pages listed, uses an RSS or Atom feed if the page advertises one, and otherwise collects links whose address matches 'pattern'. If a source stops finding anything, its page or link pattern has probably changed.",
+ "_about": "Official news and consultation pages read by the weekly regulator watch (_scripts/watch/watch.py, run by .github/workflows/regulator-watch.yml). For each source the watch reads the pages listed, uses an RSS or Atom feed if the page advertises one, and otherwise collects links whose address matches 'pattern'. If a source stops finding anything, its page or link pattern has probably changed. A page address may contain {year}, replaced with the current year.",
  "sources": [
   {
    "name": "APRA",
@@ -11,15 +11,16 @@
   {
    "name": "ASIC media releases",
    "pages": [
-    "https://www.asic.gov.au/newsroom/media-releases/",
-    "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/"
+    "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/{year}-releases/",
+    "https://www.asic.gov.au/newsroom/search/?type=media-release",
+    "https://www.asic.gov.au/newsroom/media-releases/"
    ],
    "pattern": "^https://(www\\.)?asic\\.gov\\.au/.*\\d{2}-\\d{3}mr-[a-z0-9-]+/?$"
   },
   {
    "name": "ASIC news",
    "pages": [
-    "https://www.asic.gov.au/newsroom/news-items/",
+    "https://www.asic.gov.au/newsroom/search/?type=news",
     "https://www.asic.gov.au/about-asic/news-centre/news-items/"
    ],
    "pattern": "^https://(www\\.)?asic\\.gov\\.au/(newsroom|about-asic/news-centre)/news-items/[a-z0-9-]+/?$"
@@ -34,6 +35,7 @@
   {
    "name": "OAIC",
    "pages": [
+    "https://www.oaic.gov.au/news/media-centre?&collection=113e9365-ffcc-4320-a995-5c1b98bea3bb~sp-oaic-web-new&form=result&num_ranks=10&profile=news-results-page&sort=dmetapublishedDateISO&start_rank=1",
     "https://www.oaic.gov.au/news/media-centre"
    ],
    "pattern": "^https://(www\\.)?oaic\\.gov\\.au/news/media-centre/[a-z0-9-]+/?$"

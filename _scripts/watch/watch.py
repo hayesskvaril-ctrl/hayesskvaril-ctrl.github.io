@@ -32,6 +32,28 @@ TODAY = datetime.date.today()
 DEBUG = {}
 
 
+def curl_fetch(url):
+    """Second attempt with curl (a different HTTP client: some government servers stall plain HTTP/1.1
+    requests from cloud servers but answer curl, which uses HTTP/2 where available)."""
+    import subprocess
+    try:
+        r = subprocess.run(["curl", "-sSL", "--compressed", "--max-time", "60", "-A", UA,
+                            "-H", "Accept-Language: en-AU,en;q=0.9", "-w", "\n%{http_code} %{content_type}", url],
+                           capture_output=True, timeout=75)
+    except Exception:
+        return None
+    out = r.stdout.decode("utf-8", "replace")
+    body, _, tail = out.rpartition("\n")
+    parts = tail.split(" ", 1)
+    try:
+        code = int(parts[0])
+    except ValueError:
+        return None
+    if code == 0:
+        return None
+    return (code, parts[1] if len(parts) > 1 else "", body if code == 200 else "")
+
+
 def fetch(url, cache={}):
     if url in cache:
         return cache[url]
@@ -54,6 +76,8 @@ def fetch(url, cache={}):
         except Exception as e:  # network errors, timeouts
             result = (0, "", f"{type(e).__name__}: {e}")
         time.sleep(3)
+    if result[0] == 0:
+        result = curl_fetch(url) or result
     time.sleep(1.5)   # be polite
     cache[url] = result
     st, ctype, body = result
@@ -67,7 +91,11 @@ def fetch(url, cache={}):
 
 
 def text_of(page):
-    page = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", page)
+    # dates are often only in metadata (published dates, structured data), so include those too
+    extra = " ".join(re.findall(r'(?is)<meta[^>]+content="([^"]{4,300})"', page or ""))
+    extra += " " + " ".join(re.findall(r'(?is)<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page or ""))
+    extra += " " + " ".join(re.findall(r'(?is)<time[^>]+datetime="([^"]+)"', page or ""))
+    page = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", page or "") + " " + extra
     t = html.unescape(re.sub(r"<[^>]+>", " ", page)).replace("\xa0", " ").replace("‑", "-")
     t = t.replace("–", "-").replace("—", "-")
     return re.sub(r"\s+", " ", t)
@@ -89,6 +117,10 @@ def variants(value):
         v |= {f"{m.group(1)} per cent", f"{m.group(1)} percent", f"{m.group(1)} %"}
     if value.startswith("$"):
         v.add(value[1:])
+    for x in list(v):
+        if re.search(r"\d,\d{3}", x):
+            v.add(x.replace(",", " "))
+            v.add(x.replace(",", ""))
     return {x.lower() for x in v}
 
 
@@ -165,7 +197,7 @@ def main():
     new, baseline, unreadable, counts = {}, [], [], {}
     for src in sources:
         name, found, used = src["name"], {}, []
-        for page_url in src["pages"]:
+        for page_url in [u.replace("{year}", str(TODAY.year)) for u in src["pages"]]:
             st, ctype, page = fetch(page_url)
             if st != 200 or not page:
                 used.append(f"{page_url} ({st or page[:60]})")
@@ -192,6 +224,9 @@ def main():
     results = {}
     for f in facts:
         url = f["source"]["url"]
+        if f.get("autocheck") is False:
+            results[f["id"]] = {"date": TODAY.isoformat(), "result": "manual", "detail": f.get("autocheck_note", "checked by hand"), "url": url}
+            continue
         if url.lower().endswith(".pdf"):
             results[f["id"]] = {"date": TODAY.isoformat(), "result": "skipped", "detail": "PDF source: check by hand", "url": url}
             continue

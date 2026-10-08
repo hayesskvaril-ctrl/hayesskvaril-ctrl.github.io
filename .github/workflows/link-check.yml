@@ -1,8 +1,8 @@
 # Monthly check that links to outside sites (regulators, legislation, research) still work.
-# Runs on GitHub's free hosted runners. If any link is broken, it opens an issue listing them.
-# Internal links are checked locally by _scripts/check_links.py instead (--root-dir lets this check read them
-# as local files, which the scheme filter then skips). AUSTRAC's server rejects this checker's connection type
-# (HTTP/2), so its links are skipped here; the weekly regulator watch reads AUSTRAC pages with a different client.
+# Runs on GitHub's free hosted runners using _scripts/check_external.py (plain HTTP/1.1 requests, one site
+# at a time with pauses; several government sites reject the HTTP/2 connections used by common link
+# checkers). If any link is broken or failing, it opens an issue listing them with the pages they are on.
+# Internal links are checked locally by _scripts/check_links.py instead.
 name: Monthly external link check
 
 on:
@@ -17,32 +17,20 @@ permissions:
 jobs:
   links:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check external links
-        id: lychee
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: >-
-            --no-progress
-            --scheme https --scheme http
-            --max-concurrency 4
-            --max-retries 3
-            --timeout 30
-            --accept 200..=299,403,429
-            --root-dir ${{ github.workspace }}
-            --exclude-path _scripts
-            --exclude-path .github
-            --exclude 'austrac\.gov\.au'
-            './**/*.html'
-          output: ./lychee-report.md
-          fail: false
+      - name: Check outside links
+        run: python3 _scripts/check_external.py --out external-links-report.md
 
       - name: Open an issue if links are broken
-        if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v5
-        with:
-          title: "Broken outside links found by the monthly check"
-          content-filepath: ./lychee-report.md
-          labels: broken-links
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f external-links-report.md.broken ]; then
+            gh label create broken-links --color D93F0B --description "Broken outside links" --force
+            gh issue create --title "Broken outside links found by the monthly check ($(date -u +%F))" --body-file external-links-report.md --label broken-links
+          else
+            echo "No broken links."
+          fi
