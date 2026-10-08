@@ -83,6 +83,7 @@ const html = `${head}<title>Obligations library | RiskLens Australia</title>
     <span>${total} obligation themes</span>
     <span>${nreg} regimes</span>
     <span>${nclocks} notification deadlines</span>
+    <span>${ndetail} individual obligations with citations</span>
     <span>Last reviewed: ${REVIEWED}</span>
   </div>
 
@@ -90,6 +91,7 @@ const html = `${head}<title>Obligations library | RiskLens Australia</title>
     <h2 id="kt">Key takeaways</h2>
     <ul>
       <li>Each entry summarises a group of related obligations in plain English. It is a starting point for an obligations register, not a substitute for the law: always read the official source.</li>
+      <li>For ${Object.keys(DET).map(k => SHORT[k][1]).join(', ').replace(/, ([^,]*)$/, ' and $1')}, each summary also lists the individual obligations with their legal citations (section, paragraph or regulatory guide paragraph), checked against the official text. More regimes will be added.</li>
       <li>Every entry has a control objective and the evidence that would show it is met, so it can be linked to controls and tested.</li>
       <li>Filter by organisation type to see the regimes that usually apply. Whether a regime applies depends on licences, products, size and thresholds.</li>
       <li>The IDs match the <a href="/grc/model-builder.html">GRC model builder</a>, which links each obligation to risks, controls and committees.</li>

@@ -96,5 +96,64 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Notify APRA as soon as possible, and no later than {fact:cps234-incident-notice} after becoming aware, of an information security incident that materially affected (or could have) the entity or its customers, or that has been notified to other regulators', 'CPS 234 para 35'],
         ['Notify APRA as soon as possible, and no later than {fact:cps234-weakness-notice} after becoming aware, of a material information security control weakness the entity expects it can’t remediate in a timely manner', 'CPS 234 para 36']]
     }
+  },
+  breach: {
+    source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['A reportable situation is a significant breach, or likely significant breach, of a core obligation; an investigation into whether there is one that runs for more than 30 days (60 days under ASIC relief), and its outcome if it finds there is none; or gross negligence or serious fraud in providing a financial service', 'Corporations Act s 912D(1)–(2); National Credit Act s 50A'],
+        ['Core obligations include the general obligations in s 912A (the duty to comply with financial services laws only for specified laws) and s 912B, and representatives’ obligations under specified financial services laws', 'Corporations Act s 912D(3); National Credit Act s 50A(3)'],
+        ['Where there are reasonable grounds to believe a reportable situation has arisen, lodge a report with ASIC in the prescribed form', 'Corporations Act s 912DAA(1)–(2)'],
+        ['Lodge the report within {fact:reportable-situations-deadline} after first knowing, or being reckless about whether, there are reasonable grounds to believe the reportable situation has arisen', 'Corporations Act s 912DAA(3); National Credit Act s 50B; RG 78.83'],
+        ['A further reportable situation with the same or substantially similar underlying circumstances as one already reported may be reported within 90 days (ASIC relief)', 'ASIC Instrument 2024/620 s 7; RG 78.84'],
+        ['Failing to report is a strict liability offence and a civil penalty provision', 'Corporations Act s 912DAA(1) note, (4) and (7)'],
+        ['For APRA-regulated licensees, a report to APRA with all the required information counts as lodged with ASIC', 'Corporations Act s 912DAA(5)']],
+      2: [
+        ['The reporting clock starts when the licensee first knows, or is reckless about whether, there are reasonable grounds to believe a reportable situation has arisen (knowledge and recklessness have their Criminal Code meanings)', 'Corporations Act s 912DAA(3) and (8); RG 78.88–78.92'],
+        ['Do not wait for board consideration, legal advice, rectification or (for a likely breach) the breach to happen if that would take the report past the deadline', 'RG 78.98'],
+        ['Investigations are reportable only once they have run for more than 60 days (ASIC relief; the Act says 30), with the report due within 30 days after that', 'Corporations Act s 912D(1)(c); RG 78.102']],
+      3: [
+        ['A breach is deemed significant if it is an offence punishable by imprisonment of 3 months or more (dishonesty) or 12 months or more (other offences), a civil penalty contravention (unless excluded by regulation), misleading or deceptive conduct, or causes or is likely to cause material loss or damage to clients or members', 'Corporations Act s 912D(4); National Credit Act s 50A(4)'],
+        ['Some breaches are excluded from deemed significance, including certain civil penalty provisions specified in regulations and, under ASIC relief, single breaches of RG 271’s enforceable paragraphs and some minor misleading conduct affecting one person', 'Corporations Regulations reg 7.6.02A(2); ASIC Instrument 2024/620 ss 5–6; RG 78.37–78.38'],
+        ['Otherwise, decide significance having regard to the number or frequency of similar breaches, the impact on the ability to provide licensed services, and the extent to which the breach shows compliance arrangements are inadequate', 'Corporations Act s 912D(5); National Credit Act s 50A(5)'],
+        ['Consider deemed significance first, and only then the significance factors', 'RG 78.31–78.32']],
+      4: [
+        ['Report to ASIC significant breaches, gross negligence or serious fraud by individual advisers of other licensees who give personal advice to retail clients on relevant financial products, within 30 days, and give the other licensee a copy (unless ASIC is already aware)', 'Corporations Act s 912DAB(1)–(5)'],
+        ['Take reasonable steps to notify affected retail clients in writing within 30 days where they may have suffered loss they can recover from the licensee', 'Corporations Act s 912EA(1)–(2)'],
+        ['Start an investigation within 30 days, identify the conduct and quantify the loss, and complete it as soon as reasonably practicable', 'Corporations Act s 912EB(1)–(4)'],
+        ['Tell the affected client the outcome in writing within 10 days of completing the investigation', 'Corporations Act s 912EB(5)'],
+        ['Take reasonable steps to pay the client’s loss or damage within 30 days of completing the investigation', 'Corporations Act s 912EB(8)'],
+        ['Keep records that show compliance with these client notification and remediation obligations', 'Corporations Act s 912EC']]
+    }
+  },
+  idr: {
+    source: [['ASIC Regulatory Guide 271 Internal dispute resolution (enforceable paragraphs)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['Deal with every expression of dissatisfaction that meets the complaint definition (adopted from AS/NZS 10002:2014) through the IDR process', 'RG 271.27–271.28'],
+        ['Posts on the firm’s own social media channels that meet the definition are complaints, where the author is identifiable and contactable', 'RG 271.32'],
+        ['The IDR process must, at a minimum, deal with complaints by retail clients (including small businesses with fewer than 100 employees) and, for super funds, by members and beneficiaries eligible to go to AFCA', 'RG 271.36–271.38; RG 271.41–271.42'],
+        ['The process must be free, easy to understand and use (including for people with disability or language difficulties), and supported by a public complaints policy and an internal procedure', 'RG 271.134; RG 271.141; RG 271.172'],
+        ['Record all complaints in an effective system that tracks the progress of each one', 'RG 271.179'],
+        ['Firms that outsource IDR must choose providers with care, monitor them, and deal with their failures', 'RG 271.48']],
+      2: [
+        ['Give an IDR response no later than {fact:idr-response} after receiving a standard complaint', 'RG 271.56; Table 2'],
+        ['Superannuation trustee complaints (other than about death benefit distributions) and traditional trustee complaints: no later than {fact:idr-super-response}', 'RG 271.58–271.59; Table 2; RG 271.76–271.78'],
+        ['Death benefit distribution complaints: no later than 90 calendar days after the 28-day objection period ends; credit complaints about default notices or hardship: no later than 21 calendar days', 'Table 2; RG 271.80–271.93'],
+        ['Complaints about insurance in super: trustees, insurers and administrators must meet the timeframe wherever the complaint is first lodged', 'RG 271.79'],
+        ['A firm may exceed the timeframe only if the complaint is particularly complex or delayed by circumstances beyond its control, and it sends an IDR delay notification (reasons, AFCA rights and contact details) before the timeframe ends', 'RG 271.64–271.66'],
+        ['If a customer advocate review is offered, it must not be a mandatory step before AFCA, and the total time must stay within the maximum timeframe', 'RG 271.109–271.110'],
+        ['Resource and staff the IDR function to resolve complaints fairly within the timeframes, including during spikes, and give staff the authority to resolve complaints', 'RG 271.142–271.143; RG 271.146–271.147']],
+      3: [
+        ['The IDR response is in writing and gives the final outcome (with reasons for any rejection), the right to go to AFCA and AFCA’s contact details', 'RG 271.53–271.54'],
+        ['No IDR response is needed if the complaint is resolved, or an explanation or apology given, by the end of the fifth business day, unless the complainant asks for one or it is about hardship, a declined claim, a claim’s value, or a super trustee decision', 'RG 271.71; RG 271.75'],
+        ['Implement complaint outcomes (refunds, fee waivers, corrections, compensation) in a timely manner', 'RG 271.165']],
+      4: [
+        ['The board sets clear accountabilities for complaints handling, including managing systemic issues identified through complaints', 'RG 271.118'],
+        ['Reports to the board or executive committees include complaints metrics and analysis, including systemic issues', 'RG 271.119; RG 271.183'],
+        ['Enable staff to escalate possible systemic issues, analyse complaints data regularly, escalate promptly for investigation, and report on outcomes', 'RG 271.120']]
+    }
   }
 };

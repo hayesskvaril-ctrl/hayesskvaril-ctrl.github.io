@@ -26,6 +26,7 @@ This is the system for spotting regulatory changes, checking them, and updating 
 | Watch results | `watch-data` branch (not published) | `pull_watch.py` copies them here; `run_checks.py` does this automatically |
 | Report forms | `.github/ISSUE_TEMPLATE/` | "Report a regulatory change" and "Suggest a correction" |
 | Checks | `python3 _scripts/run_checks.py`, section 8 | Facts due for a re-check, facts the watch couldn't find on their source, new announcements to process |
+| Official document fetcher | `.github/workflows/fetch-docs.yml`, `_scripts/watch/fetch_docs.py` | On request, GitHub's servers fetch the given web addresses (standards, regulatory guides, legislation, including PDF and Word files) and save their text on the `watch-data` branch in `fetched/`, so facts and citations can be checked against the official text when this sandbox can't reach the site |
 
 ## How each fact is checked
 
@@ -41,7 +42,7 @@ Re-check timetable (unless a fact has its own `recheck` date): proposals and con
 ## Procedure for Claude: processing an update
 
 1. **Read the trigger.** List open issues labelled `regulator-watch`, `regulatory-change` and `correction`. Run `python3 _scripts/pull_watch.py` and read `_scripts/watch/latest_report.md`.
-2. **Verify on the official source.** Official sites may be blocked from Claude's sandbox. If so, use the weekly watch result (the watch can read them), and WebSearch for the official release. Record honestly how it was checked (`--how official` only if the official text itself was read, by you or by the watch; otherwise `secondary`). Never invent a value.
+2. **Verify on the official source.** Official sites may be blocked from Claude's sandbox. If so, fetch the document with the official document fetcher (`gh api -X POST repos/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/actions/workflows/fetch-docs.yml/dispatches -f ref=main -f "inputs[urls]=URL1 URL2"`, then `git fetch origin watch-data` and read `fetched/`), use the weekly watch result, and WebSearch for the official release. Record honestly how it was checked (`--how official` only if the official text itself was read, by you or by the watch; otherwise `secondary`). Never invent a value.
 3. **Update facts first.** For a changed date or number: `python3 _scripts/update_fact.py set ID "new value" --how … --note "…"` (add `--status` if it moved from proposed to finalised, for example). For a re-check with no change: `update_fact.py confirm ID --how … --note "…"`. For something new worth tracking: `update_fact.py add …`, then `build_facts.py --wrap`.
 4. **Rewrite the words around it.** `set` lists every other mention of the old value (unlinked page text, dated news, and any data-file values not yet written as placeholders; values written as `{fact:ID}` placeholders update themselves when the generators are rebuilt). Fix them, and fix wording that the change makes wrong (for example "proposed" → "final"). Dated news articles are a record of the time: add an update note rather than rewriting them.
 5. **Tracker and records.** Update `_scripts/tracker_data.py` (and `AS_AT`), add a line to `changelog_data.py`, and add a visible correction note (class `no-fact`) on the page if the site had been wrong.
