@@ -406,8 +406,8 @@ window.GRC_BUILDER = {
         ['Avoid misleading sustainability claims (greenwashing) in all communications', ['cli.reporting', 'con.disclosure'], 'Sustainability claims are substantiated', 'Review records']],
       cal: [['Annually', 'Sustainability report and climate scenario analysis']] },
 
-    modslav: { label: 'Modern slavery reporting', reg: 'Australian Border Force', url: '/compliance/modern-slavery.html',
-      applies: 'Entities with annual consolidated revenue over $100 million. A proposed offence was announced in July 2026; check the current position.',
+    modslav: { label: 'Modern slavery reporting', reg: 'Attorney-General’s Department', url: '/compliance/modern-slavery.html',
+      applies: 'Entities with annual consolidated revenue of at least {fact:modslav-threshold}. A proposed offence was announced in July 2026; check the current position.',
       docs: [['Modern slavery statement', 1, 'Board', 'entity']],
       themes: [
         ['Publish an annual modern slavery statement addressing the seven mandatory criteria, approved by the board', ['cli.slavery'], 'The statement is complete and approved', 'Statement; supplier assessments']],

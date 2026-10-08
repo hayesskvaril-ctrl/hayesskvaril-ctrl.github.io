@@ -1406,10 +1406,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official Modern Slavery Act 2018 (compilation in force 7 November 2024), s 5(1)(a): consolidated revenue of at least $100 million; fetched from legislation.gov.au by the site's document fetcher, 8 October 2026"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "$100 million",
+     "new": "$100 million",
+     "how": "official",
+     "note": "Read in the official Modern Slavery Act 2018 (compilation in force 7 November 2024), s 5(1)(a): consolidated revenue of at least $100 million; fetched from legislation.gov.au by the site's document fetcher, 8 October 2026"
+    }
+   ],
    "exclude": [
     "compensate",
     "fail to prevent",

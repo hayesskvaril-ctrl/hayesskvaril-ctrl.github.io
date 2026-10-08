@@ -25,7 +25,7 @@ const L2 = {};
 D.risks.forEach(r => r.l2.forEach(x => { L2[x[0]] = { label: x[1], risk: r.label }; }));
 const ENTS = {};
 D.entities.forEach(e => e.regimes.forEach(k => { (ENTS[k] = ENTS[k] || []).push(e.id); }));
-const BODY = [['APRA', /APRA/], ['ASIC', /ASIC/], ['AUSTRAC', /AUSTRAC/], ['OAIC', /OAIC/], ['ACCC', /ACCC/], ['ASX', /ASX/], ['ACNC', /ACNC/], ['DFAT', /DFAT/], ['Home Affairs', /Home Affairs/], ['Border Force', /Border Force/], ['Finance', /Department of Finance/]];
+const BODY = [['APRA', /APRA/], ['ASIC', /ASIC/], ['AUSTRAC', /AUSTRAC/], ['OAIC', /OAIC/], ['ACCC', /ACCC/], ['ASX', /ASX/], ['ACNC', /ACNC/], ['DFAT', /DFAT/], ['Home Affairs', /Home Affairs/], ['Attorney-General', /Attorney-General/], ['Finance', /Department of Finance/]];
 const bodiesOf = reg => BODY.filter(b => b[1].test(reg)).map(b => b[0]);
 
 let total = 0, nclocks = 0, ndetail = 0;
@@ -61,7 +61,7 @@ ${rows}
 
 const nreg = Object.keys(D.regimes).length;
 const entOpts = D.entities.map(e => `<option value="${e.id}">${esc(e.label)}</option>`).join('');
-const bodyOpts = ['APRA', 'ASIC', 'AUSTRAC', 'OAIC', 'ACCC', 'ASX', 'ACNC', 'DFAT', 'Home Affairs', 'Border Force', 'Finance'].map(b => `<option value="${b}">${b}</option>`).join('');
+const bodyOpts = ['APRA', 'ASIC', 'AUSTRAC', 'OAIC', 'ACCC', 'ASX', 'ACNC', 'DFAT', 'Home Affairs', 'Attorney-General', 'Finance'].map(b => `<option value="${b}">${b}</option>`).join('');
 
 const tpl = fs.readFileSync(path.join(ROOT, '_scripts/page-template.html'), 'utf8');
 const head = tpl.slice(0, tpl.indexOf('<title>'));

@@ -272,6 +272,19 @@ window.GRC_OBLIGATION_DETAILS = {
         ['ADIs: the ICAAP report comes with a declaration approved by the Board and signed by the CEO on whether capital was managed in line with the ICAAP', 'APS 110 para 22']]
     }
   },
+  modslav: {
+    source: [['Modern Slavery Act 2018 (compilation in force 7 November 2024)', 'https://www.legislation.gov.au/C2018A00153/latest/text']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['Reporting entities include entities based or operating in Australia with consolidated revenue of at least {fact:modslav-threshold} for the reporting period (others may volunteer)', 'Modern Slavery Act ss 5–6'],
+        ['Give the Minister a modern slavery statement for each reporting period (alone or in a joint statement), in the approved form, within 6 months after the period ends', 'Modern Slavery Act ss 13(1), 13(2)(b) and (e), 14'],
+        ['The statement is approved by the principal governing body and signed by a responsible member', 'Modern Slavery Act s 13(2)(c)–(d)'],
+        ['Address the mandatory criteria: identify the entity; describe its structure, operations and supply chains, the modern slavery risks (including in entities it owns or controls), the actions taken to assess and address them (including due diligence and remediation), how effectiveness is assessed, and the consultation process; and include any other relevant information', 'Modern Slavery Act s 16(1)'],
+        ['Include details of the governing body’s approval', 'Modern Slavery Act s 16(2)'],
+        ['If an entity fails to comply, the Minister may ask for an explanation or remedial action within 28 days or more, and may publish details if the request is not met', 'Modern Slavery Act s 16A']]
+    }
+  },
   breach: {
     source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
     checkedText: '8 October 2026',

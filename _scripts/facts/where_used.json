@@ -470,7 +470,14 @@
   "/obligations/superannuation.html"
  ],
  "modslav-threshold": [
-  "/compliance/modern-slavery.html"
+  "/compliance/modern-slavery.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/listed.html",
+  "/obligations/private-health-insurance.html",
+  "/obligations/superannuation.html"
  ],
  "cet1-minimum": [
   "/obligations/",

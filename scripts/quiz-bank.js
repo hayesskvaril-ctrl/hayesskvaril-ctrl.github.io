@@ -132,8 +132,8 @@ window.QUIZ_BANK = [
         explain: "They are in Group 2, reporting from financial years starting on or after 1 July 2026.", page: "/compliance/climate-related-financial-disclosures.html" },
       { q: "What makes advice 'personal advice'?", options: ["It's given face to face", "The adviser considered, or should have considered, the client's objectives, financial situation or needs", "It's about shares", "It's in writing"], answer: 1,
         explain: "Personal advice carries the best interests duty and other heavier obligations.", page: "/compliance/financial-advice-regulation.html" },
-      { q: "Under the Modern Slavery Act 2018, which entities must publish a modern slavery statement?", options: ["Every business", "Entities with annual consolidated revenue of more than $100 million", "Only listed companies", "Only charities"], answer: 1,
-        explain: "Reporting entities with more than $100 million revenue must publish an annual statement against seven mandatory criteria.", page: "/compliance/modern-slavery.html" },
+      { q: "Under the Modern Slavery Act 2018, which entities must publish a modern slavery statement?", options: ["Every business", "Entities with annual consolidated revenue of at least $100 million", "Only listed companies", "Only charities"], answer: 1,
+        explain: "Reporting entities with at least $100 million consolidated revenue must publish an annual statement against seven mandatory criteria.", page: "/compliance/modern-slavery.html" },
       { q: "For a company, breaching Australian sanctions is:", options: ["Only a civil matter", "A strict liability offence, with a defence of reasonable precautions and due diligence", "Legal if unintentional", "Only an issue for banks"], answer: 1,
         explain: "No intent is needed for a company. It must show it took reasonable precautions and exercised due diligence.", page: "/compliance/sanctions-compliance.html" }
     ]

@@ -329,7 +329,14 @@
   "/standards/cps-511.html"
  ],
  "Modern Slavery": [
-  "/compliance/modern-slavery.html"
+  "/compliance/modern-slavery.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/listed.html",
+  "/obligations/private-health-insurance.html",
+  "/obligations/superannuation.html"
  ],
  "Payday Super": [
   "/news/regulatory-tracker.html",
@@ -678,7 +685,14 @@
   "/standards/asic-rg-181.html"
  ],
  "consolidated revenue": [
-  "/compliance/modern-slavery.html"
+  "/compliance/modern-slavery.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/listed.html",
+  "/obligations/private-health-insurance.html",
+  "/obligations/superannuation.html"
  ],
  "consultation": [
   "/compliance/privacy-law.html",
@@ -932,7 +946,14 @@
   "/standards/sps-515.html"
  ],
  "modern slavery": [
-  "/compliance/modern-slavery.html"
+  "/compliance/modern-slavery.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/listed.html",
+  "/obligations/private-health-insurance.html",
+  "/obligations/superannuation.html"
  ],
  "money laundering": [
   "/compliance/aml-ctf-fundamentals.html"
