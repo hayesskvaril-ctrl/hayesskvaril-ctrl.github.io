@@ -321,6 +321,13 @@
  "ISO/IEC 42001": [
   "/standards/iso-42001.html"
  ],
+ "MSFI": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
+ ],
  "Modern Slavery": [
   "/compliance/modern-slavery.html"
  ],
@@ -416,6 +423,13 @@
  ],
  "RSE licensee": [
   "/sectors/superannuation.html"
+ ],
+ "SFI": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
  ],
  "SMR": [
   "/compliance/aml-ctf-fundamentals.html",
@@ -926,6 +940,13 @@
  "mortgage": [
   "/sectors/banking.html"
  ],
+ "most significant financial institution": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
+ ],
  "new class of adviser": [
   "/compliance/financial-advice-regulation.html",
   "/news/regulatory-tracker.html"
@@ -1195,6 +1216,13 @@
   "/risk-management/third-party-risk.html",
   "/standards/cps-230.html"
  ],
+ "significant financial institution": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
+ ],
  "six or more": [
   "/news/regulatory-tracker.html",
   "/sectors/banking.html"
@@ -1323,6 +1351,27 @@
   "/playbooks/respond-to-an-incident.html",
   "/risk-management/incident-and-breach-management.html"
  ],
+ "three formal tiers": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
+ ],
+ "three tiers": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
+ ],
+ "three-tier": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
+ ],
  "threshold transaction": [
   "/compliance/aml-ctf-fundamentals.html",
   "/compliance/breach-reporting.html",
@@ -1351,6 +1400,13 @@
   "/risk-management/setting-cps-230-tolerance-levels.html",
   "/standards/cps-230.html",
   "/standards/cps-234.html"
+ ],
+ "top tier": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
  ],
  "tranche": [
   "/compliance/privacy-law.html",

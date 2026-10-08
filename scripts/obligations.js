@@ -31,7 +31,7 @@
   apply();
 
   function rows() {
-    var out = [['ID', 'Regime', 'Regulator', 'Applies to', 'Obligation (summary)', 'Control objective', 'Evidence', 'Related risks', 'Guide']];
+    var out = [['ID', 'Regime', 'Regulator', 'Applies to', 'Obligation (summary)', 'Individual obligations (with citations)', 'Control objective', 'Evidence', 'Related risks', 'Guide']];
     regs.forEach(function (s) {
       if (s.hidden) return;
       var title = s.querySelector('h3').textContent, reg = s.querySelector('.gb-chip').textContent;
@@ -39,7 +39,9 @@
       Array.prototype.forEach.call(s.querySelectorAll('tbody tr'), function (tr) {
         if (tr.hidden) return;
         var c = tr.children;
-        out.push([c[0].textContent, title, reg, applies, c[1].textContent, c[2].textContent, c[3].textContent, c[4].textContent, guide]);
+        var sum = c[1].querySelector('.ob-sum'), items = c[1].querySelectorAll('.ob-detail li');
+        var detail = Array.prototype.map.call(items, function (li) { return li.getAttribute('data-id') + ' ' + li.querySelector('.ob-it').textContent + ' [' + li.querySelector('.ob-cite').textContent + ']'; }).join('\n');
+        out.push([c[0].textContent, title, reg, applies, sum ? sum.textContent : c[1].textContent, detail, c[2].textContent, c[3].textContent, c[4].textContent, guide]);
       });
     });
     return out;
@@ -58,7 +60,7 @@
       download(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' }), 'obligations-library.csv');
     } else if (window.XLSXLite) {
       var readme = [[{ v: 'RiskLens Australia obligations library', s: 'title' }], [{ v: 'Plain-English summaries for education. Not legal advice and not a complete list of obligations: check the official legislation and regulator guidance.', s: 'plain' }]];
-      download(window.XLSXLite.workbook([{ name: 'Obligations', rows: data, widths: [16, 32, 18, 40, 60, 40, 36, 36, 40] }, { name: 'Read me', header: false, rows: readme, widths: [120] }], { title: 'Obligations library' }), 'obligations-library.xlsx');
+      download(window.XLSXLite.workbook([{ name: 'Obligations', rows: data, widths: [16, 32, 18, 40, 60, 80, 40, 36, 36, 40] }, { name: 'Read me', header: false, rows: readme, widths: [120] }], { title: 'Obligations library' }), 'obligations-library.xlsx');
     }
   });
 })();

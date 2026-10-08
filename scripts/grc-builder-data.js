@@ -120,7 +120,7 @@ window.GRC_BUILDER = {
       cal: [['Annually', 'Risk management declaration to APRA (banks and insurers)'], ['At least every 3 years', 'Comprehensive independent review of the risk management framework']] },
 
     cps230: { label: 'Operational risk management (CPS 230)', reg: 'APRA', url: '/standards/cps-230.html', flag: 'cps230',
-      applies: 'APRA-regulated entities. Significant financial institutions face the full set; some requirements are lighter or phased for smaller entities.',
+      applies: 'APRA-regulated entities, in proportion to their size and complexity. Smaller entities had until 1 July 2026 for some business continuity and scenario analysis requirements; the full standard now applies to all.',
       docs: [['Operational risk management policy', 2, 'Board or board committee', 'both'], ['Business continuity plan and critical operations tolerance levels', 1, 'Board', 'entity'], ['Service provider management policy', 2, 'Board', 'both'], ['Register of material service providers', 3, 'Executive owner', 'entity'], ['Process and resource maps for critical operations', 4, 'Business owners', 'entity']],
       themes: [
         ['Board is ultimately accountable for operational risk, business continuity and service providers; senior management implements', ['gov.board', 'ops.process'], 'Board oversight of operational resilience is evidenced', 'Board papers; accountability statements'],
@@ -130,7 +130,7 @@ window.GRC_BUILDER = {
         ['Identify material service providers; due diligence, formal agreements and ongoing monitoring', ['tpr.msp', 'tpr.exit'], 'Material service providers are assessed, contracted and monitored', 'Due diligence reports; agreements; monitoring records'],
         ['Submit the material service provider register to APRA each year', ['tpr.msp', 'cmp.reporting'], 'The register is complete and submitted on time', 'Register; submission record'],
         ['Notify APRA of material operational risk incidents and of disruptions to critical operations outside tolerance', ['ops.disruption', 'cmp.reporting'], 'Notifiable events are identified and notified within the deadlines', 'Incident register; notification records']],
-      clocks: [['Material operational risk incident', 'Within {fact:cps230-incident-notice}', 'APRA'], ['Disruption to a critical operation outside tolerance', 'Within {fact:cps230-disruption-notice}', 'APRA'], ['Entering or materially changing a material service provider arrangement', 'Within {fact:cps230-msp-notice}', 'APRA']],
+      clocks: [['Material operational risk incident', 'Within {fact:cps230-incident-notice}', 'APRA'], ['Disruption to a critical operation outside tolerance', 'Within {fact:cps230-disruption-notice}', 'APRA'], ['Entering into or materially changing an agreement for a service relied on to undertake a critical operation', 'Within {fact:cps230-msp-notice}', 'APRA']],
       cal: [['Annually', 'Business continuity exercise with severe but plausible scenarios, including service provider failure'], ['Annually', 'Material service provider register submitted to APRA'], ['Annually', 'Review critical operations and tolerance levels']] },
 
     cps234: { label: 'Information security (CPS 234)', reg: 'APRA', url: '/standards/cps-234.html', flag: 'cps234',

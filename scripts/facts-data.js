@@ -56,5 +56,8 @@ window.RL_FACTS = {
  "idr-super-response": "45 calendar days",
  "privacy-small-business": "$3 million",
  "modslav-threshold": "$100 million",
- "cet1-minimum": "4.5%"
+ "cet1-minimum": "4.5%",
+ "adi-sfi-threshold": "$30 billion",
+ "msfi-threshold": "$300 billion",
+ "three-tier-start": "1 July 2026"
 };

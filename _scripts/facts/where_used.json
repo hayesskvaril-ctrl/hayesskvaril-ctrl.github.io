@@ -480,5 +480,26 @@
   "/obligations/private-health-insurance.html",
   "/sectors/banking.html",
   "/standards/aps-110-and-aps-210.html"
+ ],
+ "adi-sfi-threshold": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
+ ],
+ "msfi-threshold": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
+ ],
+ "three-tier-start": [
+  "/news/regulatory-tracker.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html",
+  "/standards/cps-511.html"
  ]
 }

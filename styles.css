@@ -1681,6 +1681,12 @@ details.gb-rels li { break-inside: avoid; }
 .ob-clocks p { margin-bottom: 4px; }
 .ob-clocks ul { margin-left: 18px; }
 .ob-table th, .ob-table td { font-size: 14px; }
+.ob-detail { margin-top: 8px; }
+.ob-detail summary { cursor: pointer; color: var(--blue-bright); font-weight: 600; font-size: 13.5px; }
+.ob-detail ol { margin: 6px 0 2px 18px; }
+.ob-detail li { margin-bottom: 5px; }
+.ob-cite { display: inline-block; font-size: 12.5px; color: var(--muted); background: var(--surface); border-radius: 6px; padding: 0 6px; white-space: nowrap; }
+.ob-checked { font-size: 13.5px; }
 .ob-table th[scope="row"] { white-space: nowrap; }
 @media (max-width: 760px) { .ob-filters { grid-template-columns: 1fr; } .ob-tools { position: static; } .ob-table { min-width: 680px; } }
 

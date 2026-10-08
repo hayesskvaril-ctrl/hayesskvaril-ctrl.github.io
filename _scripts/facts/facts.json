@@ -272,10 +272,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "how": "official",
+    "note": "Read in the official text of CPS 234 (F2018L01745), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 35"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "72 hours",
+     "new": "72 hours",
+     "how": "official",
+     "note": "Read in the official text of CPS 234 (F2018L01745), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 35"
+    }
+   ],
    "exclude": [
     "ransom",
     "making the payment",
@@ -983,10 +991,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official text of CPS 234 (F2018L01745), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 36"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "10 business days",
+     "new": "10 business days",
+     "how": "official",
+     "note": "Read in the official text of CPS 234 (F2018L01745), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 36"
+    }
+   ],
    "exclude": [
     "threshold transaction",
     "TTR",
@@ -1012,10 +1028,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official text of CPS 230 (F2026L00475, in force from 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 41"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "24 hours",
+     "new": "24 hours",
+     "how": "official",
+     "note": "Read in the official text of CPS 230 (F2026L00475, in force from 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 41"
+    }
+   ],
    "exclude": [
     "terrorism",
     "suspicious matter",
@@ -1037,10 +1061,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official text of CPS 230 (F2026L00475, in force from 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 32"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "72 hours",
+     "new": "72 hours",
+     "how": "official",
+     "note": "Read in the official text of CPS 230 (F2026L00475, in force from 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 32"
+    }
+   ],
    "exclude": [
     "ransom"
    ]
@@ -1048,7 +1080,7 @@
   {
    "id": "cps230-msp-notice",
    "topic": "APRA standards",
-   "fact": "CPS 230: notify APRA after entering into or materially changing a material service provider arrangement, within",
+   "fact": "CPS 230: notify APRA after entering into or materially changing an agreement for a service the entity relies on to undertake a critical operation, within",
    "value": "20 business days",
    "status": "in force",
    "context": [
@@ -1062,10 +1094,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official text of CPS 230 (F2026L00475, in force from 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 60(a)"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "20 business days",
+     "new": "20 business days",
+     "how": "official",
+     "note": "Read in the official text of CPS 230 (F2026L00475, in force from 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 8 October 2026: paragraph 60(a)"
+    }
+   ]
   },
   {
    "id": "ndb-assessment",
@@ -1351,6 +1391,77 @@
     "date": "2026-10-08",
     "how": "secondary",
     "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+   },
+   "history": []
+  },
+  {
+   "id": "adi-sfi-threshold",
+   "topic": "Banking",
+   "fact": "Banks (ADIs): total assets above which a bank is a significant financial institution (SFI), once 12 months have passed (from 1 July 2026; previously $20 billion)",
+   "value": "$30 billion",
+   "status": "in force",
+   "context": [
+    "significant financial institution",
+    "SFI"
+   ],
+   "source": {
+    "label": "APRA: three-tiered approach to proportionality in banking (27 May 2026)",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "official",
+    "note": "Read in APRA's official text: CPS 001 Defined terms (in force from 1 July 2026) and APRA's media release of 27 May 2026, fetched by the site's document fetcher, 8 October 2026"
+   },
+   "history": [],
+   "exclude": [
+    "RSE",
+    "super",
+    "trustee"
+   ]
+  },
+  {
+   "id": "msfi-threshold",
+   "topic": "Banking",
+   "fact": "Banks (ADIs): total assets above which a bank is a most significant financial institution (MSFI), the top tier from 1 July 2026",
+   "value": "$300 billion",
+   "status": "in force",
+   "context": [
+    "most significant financial institution",
+    "MSFI",
+    "top tier"
+   ],
+   "source": {
+    "label": "APRA: three-tiered approach to proportionality in banking (27 May 2026)",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "official",
+    "note": "Read in APRA's official text: CPS 001 Defined terms (in force from 1 July 2026) and APRA's media release of 27 May 2026, fetched by the site's document fetcher, 8 October 2026"
+   },
+   "history": []
+  },
+  {
+   "id": "three-tier-start",
+   "topic": "Banking",
+   "fact": "Banks: APRA's three-tier proportionality framework (SFI threshold raised, MSFI tier added) took effect on",
+   "value": "1 July 2026",
+   "status": "in force",
+   "context": [
+    "three-tier",
+    "three tiers",
+    "three formal tiers",
+    "MSFI"
+   ],
+   "source": {
+    "label": "APRA: three-tiered approach to proportionality in banking (27 May 2026)",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "official",
+    "note": "Read in APRA's official text: CPS 001 Defined terms (in force from 1 July 2026) and APRA's media release of 27 May 2026, fetched by the site's document fetcher, 8 October 2026"
    },
    "history": []
   }

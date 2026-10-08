@@ -9,7 +9,7 @@ global.window = global;
 require(path.join(ROOT, 'scripts/grc-builder-data.js'));
 const D = window.GRC_BUILDER;
 const { fillHtml } = require('./facts_fill.js');   // {fact:ID} placeholders -> fact markers
-const REVIEWED = '7 October 2026';
+const REVIEWED = '8 October 2026';
 const eng = fs.readFileSync(path.join(ROOT, 'scripts/grc-builder.js'), 'utf8');
 const SHORT = eval('(' + eng.match(/var SHORT = (\{[^\n]*\});/)[1] + ')');
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

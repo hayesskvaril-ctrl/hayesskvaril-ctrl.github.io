@@ -1072,7 +1072,7 @@ window.GLOSSARY_CARDS = [
 "slug": "sfi",
 "term": "Significant financial institution",
 "abbr": "SFI",
-"def": "APRA's label for larger regulated entities that must meet the full set of certain prudential requirements, including parts of CPS 230, CPS 511 and CPS 190. For example, an ADI with total assets over $20 billion, or an RSE licensee whose funds hold over $30 billion in total assets. APRA can also designate an entity as an SFI because of its complexity or group membership."
+"def": "APRA's label for larger regulated entities that must meet the full set of certain prudential requirements, including parts of CPS 511 and CPS 190 (CPS 230 also gave smaller entities extra time until 1 July 2026). For example, since 1 July 2026 a bank with total assets over $30 billion, or an RSE licensee whose funds hold over $30 billion in total assets. Banks over $300 billion are \"most significant financial institutions\". APRA can also designate an entity as an SFI because of its complexity or group membership."
 },
 {
 "slug": "social-amplification-of-risk",

@@ -28,7 +28,7 @@ CHECKLISTS = [
             ("Due diligence is done before entering or materially changing material arrangements.", "CPS 230: service providers"),
             ("Formal, legally binding agreements cover the matters CPS 230 specifies.", "CPS 230: service providers"),
             ("Service provider performance and risk are monitored on an ongoing basis.", "CPS 230: service providers"),
-            ("APRA is notified within 20 business days of entering or materially changing material arrangements, and before material offshoring.", "CPS 230: notification"),
+            ("APRA is notified within 20 business days of entering into or materially changing an agreement for a service relied on to undertake a critical operation, and before material offshoring.", "CPS 230: notification"),
         ],
     },
     {

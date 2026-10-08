@@ -8,7 +8,7 @@ window.FLASH_DECKS = [
     cards: [
       { front: "CPS 230: disruption to a critical operation outside tolerance. When must APRA be told?", back: "As soon as possible, and no later than 24 hours.", link: "/standards/cps-230.html" },
       { front: "CPS 230: material operational risk incident. Notification deadline?", back: "As soon as possible, and no later than 72 hours after becoming aware.", link: "/standards/cps-230.html" },
-      { front: "CPS 230: new or materially changed material service provider arrangement. Notify APRA within?", back: "20 business days.", link: "/risk-management/third-party-risk.html" },
+      { front: "CPS 230: new or materially changed agreement for a service relied on for a critical operation. Notify APRA within?", back: "20 business days.", link: "/risk-management/third-party-risk.html" },
       { front: "CPS 234: material information security incident. Notification deadline?", back: "As soon as possible, and no later than 72 hours after becoming aware.", link: "/standards/cps-234.html" },
       { front: "CPS 234: material control weakness that can't be fixed in time. Notify APRA within?", back: "10 business days after becoming aware.", link: "/standards/cps-234.html" },
       { front: "ASIC reportable situations: deadline to report a significant breach?", back: "30 calendar days after first knowing of, or being reckless about, reasonable grounds.", link: "/standards/asic-rg-78.html" },
