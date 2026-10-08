@@ -160,7 +160,7 @@ ENTRIES = [
     ("Privacy Act reforms (second tranche)", "Attorney-General's Department", "Proposed or consultation",
      "Exposure draft released {fact:privacy-tranche2-draft}; consultation closed {fact:privacy-tranche2-close}; bill planned for introduction by December 2026",
      ["all"],
-     "Draft Privacy Amendment (Personal Data Protection) Bill 2026, centred on a requirement that handling personal information be lawful, fair and reasonable, with consent becoming one factor rather than a gateway in many cases.",
+     "Draft Privacy Amendment (Personal Data Protection) Bill 2026, centred on a requirement that handling personal information be lawful, fair and reasonable, with consent becoming one factor rather than a gateway in many cases. It would also require a statement to the Privacy Commissioner within 72 hours of believing there has been an eligible data breach.",
      "/compliance/privacy-law.html", ("AGD: privacy reform consultation", "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/")),
     ("Evolution of the Essential Eight", "Australian Signals Directorate", "Under review",
      "Consultation closed {fact:essential-eight-consult-close}; the November 2023 maturity model still applies; no retirement date confirmed",
