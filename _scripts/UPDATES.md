@@ -5,7 +5,7 @@ This is the system for spotting regulatory changes, checking them, and updating 
 ## In plain English (for the site owner)
 
 1. **Something changes.** You'll hear about it one of three ways:
-   - **The weekly regulator watch.** Every Monday morning a free automatic check reads the latest announcements from APRA, ASIC, AUSTRAC, the OAIC, the ACCC, Treasury, the ASD and the Attorney-General's Department. If there is anything new, GitHub emails you an issue called "Regulator watch …" that lists each announcement and the pages it may affect.
+   - **The weekly regulator watch.** Every Monday morning a free automatic check reads the latest announcements from APRA, ASIC, Treasury and the Attorney-General's Department. If there is anything new, GitHub emails you an issue called "Regulator watch …" that lists each announcement and the pages it may affect. AUSTRAC, the OAIC, the ACCC and the ASD can't be read automatically, so they are checked by hand.
    - **You spot it.** Use the **Report a regulatory change** form (on the Key facts register page, or GitHub → Issues → New issue). It takes a minute and works on a phone.
    - **A reader spots it.** Every page has a **Suggest a correction** link.
 2. **Ask Claude to process it.** Say "process the regulator watch issue" or "process the open issues". Claude checks each item against the official source, updates the site, and closes the issue with a note of what changed.

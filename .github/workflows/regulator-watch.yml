@@ -1,6 +1,7 @@
 # Weekly regulator watch. Runs on GitHub's free hosted runners, which can read regulator websites directly.
-# 1. Lists new announcements and consultations from APRA, ASIC, AUSTRAC, the OAIC, the ACCC, Treasury, the ASD
-#    and the Attorney-General's Department, with the site pages each may affect.
+# 1. Lists new announcements and consultations from APRA, ASIC (via its sitemap), Treasury and the Attorney-General's
+#    Department, with the site pages each may affect. AUSTRAC, the ACCC, the ASD and the OAIC can't be read
+#    automatically and are listed for a hand check.
 # 2. Looks for every fact in the key facts register (_scripts/facts/facts.json) on its official source page.
 # Results are saved on the "watch-data" branch (not published). If there is anything new to look at, it opens a
 # GitHub issue labelled "regulator-watch". See _scripts/UPDATES.md.
