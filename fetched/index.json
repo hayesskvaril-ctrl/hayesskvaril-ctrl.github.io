@@ -1,0 +1,65 @@
+{
+ "https://handbook.apra.gov.au/standard/cps-230": {
+  "chars": 74448,
+  "date": "2026-10-08",
+  "file": "handbook-apra-gov-au-standard-cps-230.txt",
+  "final": "https://www.apra.gov.au/standards/cps-230",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/cps-230": {
+  "chars": 74448,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-cps-230.txt",
+  "final": "https://www.apra.gov.au/standards/cps-230",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/cps-234": {
+  "chars": 63402,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-cps-234.txt",
+  "final": "https://www.apra.gov.au/standards/cps-234",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution": {
+  "chars": 17882,
+  "date": "2026-10-08",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-271-internal-dispute-resolution.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/": {
+  "chars": 16434,
+  "date": "2026-10-08",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-78-breach-reporting-by-afs-licensees-and-credit-licensees.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2004A00818/latest/downloads": {
+  "chars": 5627,
+  "date": "2026-10-08",
+  "file": "legislation-gov-au-c2004a00818-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2004A00818/latest/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2004A00818/latest/text": {
+  "chars": 326833,
+  "date": "2026-10-08",
+  "file": "legislation-gov-au-c2004a00818-latest-text.txt",
+  "final": "https://www.legislation.gov.au/C2004A00818/latest/text",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ }
+}
