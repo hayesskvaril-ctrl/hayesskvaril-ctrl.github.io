@@ -6,21 +6,21 @@ Automatic weekly check of official announcements and of the key facts register. 
 
 None since the last check.
 
-## Key facts not found on their official source (11, 11 new this week)
+## Key facts not found on their official source (11, 0 new this week)
 
 The value below did not appear on the fact's source page. The fact may have changed, the page may word it differently, or the source page may have moved. Check by hand, then run update_fact.py.
 
-- [ ] **New:** `rep833-published`: ASIC REP 833 on platform trustees published: **29 June 2026** ([source](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-135mr-asic-calls-platform-trustees-to-account-over-persistent-failures-to-safeguard-super-savings))
-- [ ] **New:** `cps230-start`: CPS 230 Operational Risk Management applies: **1 July 2025** ([source](https://www.apra.gov.au/standards/cps-230))
-- [ ] **New:** `cps510-tenure-limit`: Proposed maximum tenure for non-executive directors in the draft CPS 510: **12 years** ([source](https://www.apra.gov.au/consultations/proposed-changes-governance))
-- [ ] **New:** `dti-limit-start`: APRA's debt-to-income limit applies: **1 February 2026** ([source](https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending))
-- [ ] **New:** `fcs-limit`: Financial Claims Scheme protection per account holder per ADI: **$250,000** ([source](https://www.fcs.gov.au/))
-- [ ] **New:** `far-streamlining-close`: Consultation on FAR streamlining closed: **2 October 2026** ([source](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining))
-- [ ] **New:** `advice-reforms-announced`: Government confirmed remaining advice reforms: **19 August 2026** ([source](https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package))
-- [ ] **New:** `privacy-adm-start`: Privacy policies must explain substantially automated decisions: **10 December 2026** ([source](https://www.oaic.gov.au/privacy/australian-privacy-principles))
-- [ ] **New:** `climate-group2-start`: Climate reporting starts for Group 2 (financial years starting on or after): **1 July 2026** ([source](https://www.asic.gov.au/regulatory-resources/sustainability-reporting/))
-- [ ] **New:** `climate-group3-start`: Climate reporting starts for Group 3 (financial years starting on or after): **1 July 2027** ([source](https://www.asic.gov.au/regulatory-resources/sustainability-reporting/))
-- [ ] **New:** `rep839-published`: ASIC REP 839 review of first sustainability reports published: **21 September 2026** ([source](https://www.asic.gov.au/regulatory-resources/sustainability-reporting/))
+- [ ] `rep833-published`: ASIC REP 833 on platform trustees published: **29 June 2026** ([source](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-135mr-asic-calls-platform-trustees-to-account-over-persistent-failures-to-safeguard-super-savings))
+- [ ] `cps230-start`: CPS 230 Operational Risk Management applies: **1 July 2025** ([source](https://www.apra.gov.au/standards/cps-230))
+- [ ] `cps510-tenure-limit`: Proposed maximum tenure for non-executive directors in the draft CPS 510: **12 years** ([source](https://www.apra.gov.au/consultations/proposed-changes-governance))
+- [ ] `dti-limit-start`: APRA's debt-to-income limit applies: **1 February 2026** ([source](https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending))
+- [ ] `fcs-limit`: Financial Claims Scheme protection per account holder per ADI: **$250,000** ([source](https://www.fcs.gov.au/))
+- [ ] `far-streamlining-close`: Consultation on FAR streamlining closed: **2 October 2026** ([source](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining))
+- [ ] `advice-reforms-announced`: Government confirmed remaining advice reforms: **19 August 2026** ([source](https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package))
+- [ ] `privacy-adm-start`: Privacy policies must explain substantially automated decisions: **10 December 2026** ([source](https://www.oaic.gov.au/privacy/australian-privacy-principles))
+- [ ] `climate-group2-start`: Climate reporting starts for Group 2 (financial years starting on or after): **1 July 2026** ([source](https://www.asic.gov.au/regulatory-resources/sustainability-reporting/))
+- [ ] `climate-group3-start`: Climate reporting starts for Group 3 (financial years starting on or after): **1 July 2027** ([source](https://www.asic.gov.au/regulatory-resources/sustainability-reporting/))
+- [ ] `rep839-published`: ASIC REP 839 review of first sustainability reports published: **21 September 2026** ([source](https://www.asic.gov.au/regulatory-resources/sustainability-reporting/))
 
 ## Fact sources that could not be read (5)
 
@@ -31,13 +31,6 @@ The value below did not appear on the fact's source page. The fact may have chan
 - `essential-eight-consult-close`: could not read the source (TimeoutError: The read operation timed out) (https://www.cyber.gov.au/about-us/view-all-content/news/consultation-on-evolution-of-essential-eight)
 
 ## Confirmed on the official source: 24 of 41 facts
-
-## First run for these sources
-
-- APRA: 13 current items recorded as the starting point
-- Treasury consultations: 9 current items recorded as the starting point
-- Treasury ministers: 42 current items recorded as the starting point
-- Attorney-General's Department consultations: 6 current items recorded as the starting point
 
 ## Sources where nothing was found
 
