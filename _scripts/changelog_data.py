@@ -8,6 +8,15 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/grc/grc-for-complex-groups.html', 'GRC for complex groups: deep review, adding a worked design example for a multi-entity group'),
+    ('2026-10-08', '/grc/grc-technology.html', 'GRC technology: deep review, adding common mistakes and board questions'),
+    ('2026-10-08', '/grc/governance-and-operating-model.html', 'GRC governance and operating model: deep review, adding a worked escalation example'),
+    ('2026-10-08', '/grc/grc-data-model.html', 'GRC data model: deep review, adding common mistakes'),
+    ('2026-10-08', '/grc/risk-taxonomy-and-hierarchy.html', 'Risk taxonomy and hierarchy: deep review, adding common mistakes and FAQs'),
+    ('2026-10-08', '/grc/control-framework-architecture.html', 'Control framework architecture: deep review, adding a worked control description'),
+    ('2026-10-08', '/grc/obligations-architecture.html', 'Obligations architecture: deep review, adding a worked obligation record'),
+    ('2026-10-08', '/grc/establishing-a-grc-system.html', 'Establishing a GRC system: deep review, adding an illustrative 12-month plan'),
+    ('2026-10-08', '/grc/what-is-a-grc-system.html', 'What is a GRC system: deep review, adding a worked example of a breach flowing through the system'),
     ('2026-10-08', '/sectors/public-sector.html', 'Public sector: deep review, adding a worked shared risk example'),
     ('2026-10-08', '/sectors/not-for-profits-and-charities.html', "Not-for-profits and charities: deep review, adding a worked list of a small charity's top risks"),
     ('2026-10-08', '/sectors/listed-companies.html', 'Listed companies: deep review, adding a worked continuous disclosure example and the 5th edition timeline'),

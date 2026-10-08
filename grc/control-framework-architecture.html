@@ -65,8 +65,8 @@
   <p class="summary">A control framework turns risks and obligations into a single library of well-described controls, each tested once and reused wherever it is relied on, so that control results flow straight into the risk profile and compliance reporting.</p>
   <div class="page-meta">
     <span class="level level-intermediate">Intermediate</span>
-    <span>About 16 minutes</span>
-    <span>Last reviewed: 1 October 2026</span>
+    <span>About 14 minutes</span>
+    <span>Last reviewed: 8 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -134,6 +134,33 @@
   <h2>Rationalising the library</h2>
   <p>When organisations first combine registers they often find thousands of controls, many duplicated or poorly described. Rationalisation means merging duplicates, rewriting vague controls, removing "controls" that are really policies or intentions, and confirming which are key. It is slow, but it is the single biggest source of efficiency in a GRC programme.</p>
 
+  <h2>Worked example: a well-described control</h2>
+  <p>A control description should let someone who has never seen the control test it:</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Element</th><th scope="col">Example</th></tr></thead>
+      <tbody>
+        <tr><td>Objective</td><td>Prevent payments to fraudulent bank accounts.</td></tr>
+        <tr><td>Control</td><td>Any change to a member's bank details is verified by a call-back to the phone number held before the change, before any payment can be made to the new account.</td></tr>
+        <tr><td>Type</td><td>Preventive; manual with system enforcement (payments are blocked until verification is recorded).</td></tr>
+        <tr><td>Frequency</td><td>Every change.</td></tr>
+        <tr><td>Owner and operator</td><td>Owner: Head of Member Services. Operator: administrator's verification team.</td></tr>
+        <tr><td>Evidence</td><td>Call-back log with date, time, staff ID and outcome.</td></tr>
+        <tr><td>Linked risks and obligations</td><td>Fraud; member account takeover; obligations to act in members' best financial interests.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>Describing a policy as a control</strong> ("we have a fraud policy").</li>
+    <li><strong>Controls with no evidence,</strong> so they can't be tested.</li>
+    <li><strong>Hundreds of near-duplicate controls</strong> across teams.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>What is the difference between design and operating effectiveness?</summary><p>Design effectiveness asks whether the control, if it works as described, would address the risk. Operating effectiveness asks whether it actually worked as described over a period.</p></details>
+
   <h2>Testing and how results roll up</h2>
   <p>Control testing (see <a class="xref" href="/risk-management/control-testing-sampling.html">control testing and sampling</a>) checks design effectiveness (would the control work if performed as described?) and operating effectiveness (was it performed consistently?). In an integrated system:</p>
   <ul>
@@ -171,7 +198,7 @@
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 1 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 8 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/grc/control-framework-architecture.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Fgrc%2Fcontrol-framework-architecture.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 
