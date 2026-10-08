@@ -1,0 +1,49 @@
+# Fetch official documents (standards, regulatory guides, legislation) as plain text, on request.
+# GitHub's free hosted runners can read regulator and legislation websites that Claude's sandbox can't, so this
+# lets Claude check facts and legal citations against the official text. Run it from Actions -> "Fetch official
+# documents" -> Run workflow, with the web addresses to fetch (or Claude starts it). The text is saved on the
+# unpublished watch-data branch in fetched/. See _scripts/watch/fetch_docs.py.
+name: Fetch official documents
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Web addresses to fetch, separated by spaces or new lines"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency: watch-data
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get the watch-data branch
+        uses: actions/checkout@v4
+        with:
+          ref: watch-data
+          path: watch-out
+
+      - name: Install the PDF reader
+        run: sudo apt-get install -y -q poppler-utils > /dev/null
+
+      - name: Fetch the documents
+        env:
+          URLS: ${{ inputs.urls }}
+        run: python3 _scripts/watch/fetch_docs.py --out watch-out/fetched "$URLS"
+
+      - name: Save to the watch-data branch
+        working-directory: watch-out
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Fetched documents $(date -u +%F)" || echo "nothing to save"
+          git pull -q --rebase origin watch-data || true
+          git push -q origin HEAD:watch-data

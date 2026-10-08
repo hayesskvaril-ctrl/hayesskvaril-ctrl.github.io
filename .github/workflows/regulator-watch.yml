@@ -16,7 +16,7 @@ permissions:
   contents: write
   issues: write
 
-concurrency: regulator-watch
+concurrency: watch-data   # shared with fetch-docs.yml, so only one run writes to the watch-data branch at a time
 
 jobs:
   watch:
