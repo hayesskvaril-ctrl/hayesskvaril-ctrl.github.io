@@ -8,6 +8,17 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/compliance/interpreting-legislation.html', 'Interpreting legislation: deep review, adding a worked example breaking an obligation into elements'),
+    ('2026-10-08', '/compliance/designing-a-compliance-program.html', 'Designing a compliance program: deep review, adding a worked first 90 days at a small licensee'),
+    ('2026-10-08', '/compliance/enforcement-and-penalties.html', 'Enforcement and penalties: deep review, adding recent outcomes for context'),
+    ('2026-10-08', '/compliance/licensing-basics.html', 'Licensing basics: deep review, adding a worked example on whether an app needs a licence'),
+    ('2026-10-08', '/compliance/climate-related-financial-disclosures.html', "Climate-related financial disclosures: deep review, adding ASIC's findings on the first sustainability reports"),
+    ('2026-10-08', '/compliance/modern-slavery.html', 'Modern slavery: deep review, adding a worked supplier assessment'),
+    ('2026-10-08', '/compliance/privacy-law.html', 'Privacy law: deep review, updated for the tranche 2 exposure draft and a worked data breach example'),
+    ('2026-10-08', '/risk-management/fraud-risk.html', 'Fraud risk: deep review, adding a worked assessment of member account takeover fraud'),
+    ('2026-10-08', '/compliance/anti-bribery-and-corruption.html', 'Anti-bribery and corruption: deep review, adding a worked gift decision and third-party red flags'),
+    ('2026-10-08', '/compliance/sanctions-compliance.html', 'Sanctions compliance: deep review, adding current penalty amounts and how sanctions are enforced'),
+    ('2026-10-08', '/compliance/aml-ctf-fundamentals.html', 'AML/CTF fundamentals: deep review, adding current AUSTRAC cases and a worked tranche 2 example'),
     ('2026-10-08', '/governance/ai-governance.html', 'AI governance: deep review, adding a worked assessment of an AI use case'),
     ('2026-10-08', '/governance/directors-duties-case-law.html', "Directors' duties case law: deep review, adding the Star case penalties and appeals"),
     ('2026-10-08', '/governance/internal-audit.html', 'Internal audit: deep review, adding the third-party topical requirement and a worked finding rating'),
