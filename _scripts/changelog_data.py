@@ -8,6 +8,13 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/case-studies/hih-insurance-collapse.html', 'HIH collapse: deep review, adding the reforms that followed'),
+    ('2026-10-08', '/case-studies/shield-and-first-guardian.html', 'Shield and First Guardian: deep review, adding the 2026 developments'),
+    ('2026-10-08', '/case-studies/asic-cyber-cases-ri-advice-and-fiig.html', 'RI Advice and FIIG: deep review, adding FAQs on s 912A and APRA-regulated entities'),
+    ('2026-10-08', '/case-studies/optus-medibank-data-breaches.html', 'Optus and Medibank: deep review, adding where the privacy court cases stand'),
+    ('2026-10-08', '/case-studies/austrac-cba-westpac.html', 'AUSTRAC v CBA and Westpac: deep review, adding later AUSTRAC cases and the reforms'),
+    ('2026-10-08', '/case-studies/apra-cba-prudential-inquiry.html', "CBA prudential inquiry: deep review, mapping the inquiry's findings to today's standards"),
+    ('2026-10-08', '/case-studies/hayne-royal-commission.html', 'Hayne Royal Commission: deep review, adding the reforms that followed and when they started'),
     ('2026-10-08', '/foundations/core-frameworks-compared.html', 'Core frameworks compared: deep review, adding a guide to which framework fits which question'),
     ('2026-10-08', '/foundations/three-lines-model.html', "Three lines model: deep review, adding a worked example of each line's role"),
     ('2026-10-08', '/foundations/regulatory-landscape.html', "Regulatory landscape: deep review, adding recent changes to regulators' roles"),

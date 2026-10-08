@@ -355,6 +355,20 @@ DONE = {
         "Added a worked example of each line's role when a control fails, and an FAQ"),
     "/foundations/core-frameworks-compared.html": ("8 October 2026",
         'Added which framework for which question, and FAQs'),
+    "/case-studies/hayne-royal-commission.html": ("8 October 2026",
+        'Added what changed because of the Royal Commission (selected reforms and dates) and FAQs'),
+    "/case-studies/apra-cba-prudential-inquiry.html": ("8 October 2026",
+        "Added how the inquiry's findings map to today's rules, and an FAQ"),
+    "/case-studies/austrac-cba-westpac.html": ("8 October 2026",
+        'Added what came after (later AUSTRAC cases and reforms), and an FAQ'),
+    "/case-studies/optus-medibank-data-breaches.html": ("8 October 2026",
+        'Added where the court cases stand, the first Privacy Act civil penalty, and FAQs'),
+    "/case-studies/asic-cyber-cases-ri-advice-and-fiig.html": ("8 October 2026",
+        'Added FAQs'),
+    "/case-studies/shield-and-first-guardian.html": ("8 October 2026",
+        'Added 2026 developments (court declarations, settlements, ASIC actions, CSLR levy) and an FAQ'),
+    "/case-studies/hih-insurance-collapse.html": ("8 October 2026",
+        'Added what changed because of HIH, and an FAQ'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)
