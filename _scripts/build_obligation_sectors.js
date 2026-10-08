@@ -9,6 +9,8 @@ global.window = global;
 require(path.join(ROOT, 'scripts/grc-builder-data.js'));
 const D = window.GRC_BUILDER;
 const { fillHtml } = require('./facts_fill.js');   // {fact:ID} placeholders -> fact markers
+require(path.join(ROOT, 'scripts/obligation-details.js'));
+const DET = window.GRC_OBLIGATION_DETAILS || {};
 const REVIEWED = '8 October 2026';
 const eng = fs.readFileSync(path.join(ROOT, 'scripts/grc-builder.js'), 'utf8');
 const SHORT = eval('(' + eng.match(/var SHORT = (\{[^\n]*\});/)[1] + ')');
@@ -82,7 +84,11 @@ function sectorPage([id, slug, name, plural, guide, fs_]) {
   const groups = THEMES.map(([t, list]) => [t, list.filter(k => set.has(k))]).filter(g => g[1].length);
   const sections = groups.map(([t, list]) => `  <h2>${esc(t)}</h2>\n` + list.map(k => {
     const r = D.regimes[k];
-    const rows = r.themes.map((th, i) => `        <tr><th scope="row"><span class="gb-id">OB-${SHORT[k][0]}-${pad(i + 1)}</span></th><td>${esc(th[0])}</td><td>${esc(th[2])}</td><td>${esc(th[3])}</td></tr>`).join('\n');
+    const rows = r.themes.map((th, i) => {
+      const id = `OB-${SHORT[k][0]}-${pad(i + 1)}`, items = (DET[k] && DET[k].themes[i + 1]) || [];
+      const list = items.length ? `<details class="ob-detail"><summary>${items.length} individual obligation${items.length > 1 ? 's' : ''}</summary><ol>${items.map((it, j) => `<li data-id="${id}.${j + 1}"><span class="ob-it">${esc(it[0])}</span> <span class="ob-cite">${esc(it[1])}</span></li>`).join('')}</ol></details>` : '';
+      return `        <tr><th scope="row"><span class="gb-id">${id}</span></th><td><span class="ob-sum">${esc(th[0])}</span>${list}</td><td>${esc(th[2])}</td><td>${esc(th[3])}</td></tr>`;
+    }).join('\n');
     const cl = (r.clocks || []).map(c => `<li><strong>${esc(c[1])}</strong>: ${esc(c[0])} (${esc(c[2])})</li>`).join('');
     return `  <section class="ob-reg" id="${k}">
     <h3>${esc(r.label)}</h3>

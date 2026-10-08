@@ -964,10 +964,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in the official texts, 8 October 2026: Corporations Act s 912DAA(3) (report within 30 days after first knowing, or being reckless about, reasonable grounds; compilation in force 19 September 2026) and ASIC RG 78.83 and RG 78.100 (30 calendar days), fetched by the site's document fetcher"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "30 calendar days",
+     "new": "30 calendar days",
+     "how": "official",
+     "note": "Read in the official texts, 8 October 2026: Corporations Act s 912DAA(3) (report within 30 days after first knowing, or being reckless about, reasonable grounds; compilation in force 19 September 2026) and ASIC RG 78.83 and RG 78.100 (30 calendar days), fetched by the site's document fetcher"
+    }
+   ],
    "exclude": [
     "IDR",
     "internal dispute",
@@ -1286,10 +1294,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in ASIC RG 271 (official PDF), RG 271.56 and Table 2, fetched by the site's document fetcher, 8 October 2026"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "30 calendar days",
+     "new": "30 calendar days",
+     "how": "official",
+     "note": "Read in ASIC RG 271 (official PDF), RG 271.56 and Table 2, fetched by the site's document fetcher, 8 October 2026"
+    }
+   ],
    "exclude": [
     "reportable situation",
     "RG 78"
@@ -1314,10 +1330,18 @@
    },
    "checked": {
     "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "how": "official",
+    "note": "Read in ASIC RG 271 (official PDF), Table 2 and RG 271.59, fetched by the site's document fetcher, 8 October 2026"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-08",
+     "old": "45 calendar days",
+     "new": "45 calendar days",
+     "how": "official",
+     "note": "Read in ASIC RG 271 (official PDF), Table 2 and RG 271.59, fetched by the site's document fetcher, 8 October 2026"
+    }
+   ]
   },
   {
    "id": "privacy-small-business",
