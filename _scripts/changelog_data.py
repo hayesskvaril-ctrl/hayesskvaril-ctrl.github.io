@@ -8,6 +8,16 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/standards/asic-regulatory-guides.html', 'ASIC regulatory guides: deep review, adding how to read a regulatory guide'),
+    ('2026-10-08', '/standards/global-internal-audit-standards.html', 'Global Internal Audit Standards: deep review, adding key requirements and topical requirement dates'),
+    ('2026-10-08', '/standards/iso-42001.html', 'ISO/IEC 42001: deep review, adding a worked example of starting an AI management system'),
+    ('2026-10-08', '/standards/iso-37001.html', 'ISO 37001: deep review, adding what changed in the 2025 edition'),
+    ('2026-10-08', '/standards/essential-eight.html', "Essential Eight: deep review, adding ASD's 2026 consultation on the new Essentials series"),
+    ('2026-10-08', '/standards/iso-27001.html', 'ISO/IEC 27001: deep review, adding how certification works'),
+    ('2026-10-08', '/standards/iso-22301.html', 'ISO 22301: deep review, adding the steps to build a business continuity management system'),
+    ('2026-10-08', '/standards/iso-37301.html', 'ISO 37301: deep review, adding a staged build example and a mapping to Australian expectations'),
+    ('2026-10-08', '/standards/coso.html', 'COSO: deep review, adding a worked control evaluation using the five components'),
+    ('2026-10-08', '/standards/iso-31000.html', 'ISO 31000: deep review, adding a worked example of the risk management process'),
     ('2026-10-08', '/risk-management/risk-aggregation-and-correlation.html', 'Risk aggregation and correlation: deep review, adding a worked diversification example'),
     ('2026-10-08', '/risk-management/quantitative-operational-risk.html', 'Quantitative operational risk: deep review, adding a worked reading of a loss distribution'),
     ('2026-10-08', '/risk-management/scenario-analysis-and-stress-testing.html', "Scenario analysis and stress testing: deep review, adding APRA's first System Risk Stress Test results"),
