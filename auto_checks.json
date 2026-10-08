@@ -243,8 +243,8 @@
   },
   "asx-5th-consult-close": {
    "date": "2026-10-08",
-   "result": "skipped",
-   "detail": "PDF source: check by hand",
+   "result": "found",
+   "detail": "",
    "url": "https://www.asx.com.au/content/dam/asx/about/corporate-governance-council/asx-corporate-governance-principles-and-recommendations-draft-5th-edition-consultation-paper.pdf"
   },
   "reportable-situations-deadline": {
@@ -279,9 +279,9 @@
   },
   "ndb-assessment": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'30 days' does not appear on the source page",
-   "url": "https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme"
+   "result": "found",
+   "detail": "",
+   "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/preventing-preparing-for-and-responding-to-data-breaches/data-breach-preparation-and-response/part-4-notifiable-data-breach-ndb-scheme"
   },
   "ransomware-report": {
    "date": "2026-10-08",
@@ -315,15 +315,15 @@
   },
   "idr-response": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'30 calendar days' does not appear on the source page",
-   "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution"
+   "result": "found",
+   "detail": "",
+   "url": "https://download.asic.gov.au/media/3olo5aq5/rg271-published-2-september-2021.pdf"
   },
   "idr-super-response": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'45 calendar days' does not appear on the source page",
-   "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution"
+   "result": "found",
+   "detail": "",
+   "url": "https://download.asic.gov.au/media/3olo5aq5/rg271-published-2-september-2021.pdf"
   },
   "privacy-small-business": {
    "date": "2026-10-08",
@@ -339,8 +339,8 @@
   },
   "cet1-minimum": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'4.5%' does not appear on the source page",
+   "result": "found",
+   "detail": "",
    "url": "https://www.apra.gov.au/standards/aps-110"
   },
   "adi-sfi-threshold": {
@@ -360,6 +360,12 @@
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
+  },
+  "ddo-asic-notice": {
+   "date": "2026-10-08",
+   "result": "manual",
+   "detail": "Checked by hand: the Act's text is in Word and PDF files on legislation.gov.au, which the weekly watch doesn't read",
+   "url": "https://www.legislation.gov.au/C2004A00818/latest/text"
   }
  }
 }
