@@ -93,8 +93,8 @@
   },
   "cps510-tenure-limit": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'12 years' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: the limit is stated in APRA's draft standard (a PDF), not on its web pages",
    "url": "https://www.apra.gov.au/news-and-publications/apra-commences-next-phase-push-strengthen-and-streamline-governance"
   },
   "ai-letter": {
