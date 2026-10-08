@@ -135,14 +135,18 @@ def feed_items(page, base):
     st, _, body = fetch(url)
     if st != 200 or not body:
         return None
+    return parse_feed(body), url
+
+
+def parse_feed(body):
     items = []
     for block in re.findall(r"(?is)<(?:item|entry)\b.*?</(?:item|entry)>", body):
         t = re.search(r"(?is)<title[^>]*>(.*?)</title>", block)
         l = re.search(r"(?is)<link[^>]*>(.*?)</link>", block) or re.search(r'(?is)<link[^>]*href="([^"]+)"', block)
         if t and l:
             title = html.unescape(re.sub(r"<!\[CDATA\[|\]\]>|<[^>]+>", "", t.group(1))).strip()
-            items.append((l.group(1).strip(), title))
-    return items, url
+            items.append((html.unescape(l.group(1).strip()), title))
+    return items
 
 
 def link_items(page, base, pattern):
@@ -202,7 +206,10 @@ def main():
             if st != 200 or not page:
                 used.append(f"{page_url} ({st or page[:60]})")
                 continue
-            fi = feed_items(page, page_url)
+            if re.search(r"<(rss|feed)\b", page[:2000]):          # the page itself is a feed
+                fi = (parse_feed(page), page_url)
+            else:
+                fi = feed_items(page, page_url)
             items = fi[0] if fi else link_items(page, page_url, src["pattern"])
             used.append(f"{page_url} ({'feed ' + fi[1] if fi else 'links'}: {len(items)})")
             for u, t in items:

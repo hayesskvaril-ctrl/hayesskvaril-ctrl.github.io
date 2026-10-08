@@ -1,5 +1,5 @@
 {
- "_about": "Key regulatory facts register. Edit with _scripts/update_fact.py, then run sync_layout.py. Pages show a fact by wrapping it in <span class=\"fact\" data-fact=\"ID\">…</span>; build_facts.py keeps every copy identical to this file. checked.how is one of: official (read on the official source), auto (found on the official source by the weekly watch), expert (confirmed by the site's expert reviewer), secondary (checked only through secondary sources such as law firm summaries or search results). Optional 'exclude' phrases stop build_facts.py --wrap from linking look-alike mentions (same value, different fact).",
+ "_about": "Key regulatory facts register. Edit with _scripts/update_fact.py, then run sync_layout.py. Pages show a fact by wrapping it in <span class=\"fact\" data-fact=\"ID\">…</span>; build_facts.py keeps every copy identical to this file. checked.how is one of: official (read on the official source), auto (found on the official source by the weekly watch), expert (confirmed by the site's expert reviewer), secondary (checked only through secondary sources such as law firm summaries or search results). Optional 'exclude' phrases stop build_facts.py --wrap from linking look-alike mentions (same value, different fact). Set \"autocheck\": false (with an \"autocheck_note\") for facts whose official page can't be read automatically; they are then re-checked by hand on the normal timetable.",
  "facts": [
   {
    "id": "sps530-proposals-released",
@@ -203,7 +203,9 @@
    "history": [],
    "exclude": [
     "SPS 515"
-   ]
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: APRA's standard page doesn't state the start date in readable text"
   },
   {
    "id": "cps230-amendments-effective",
@@ -355,8 +357,8 @@
     "non-executive director"
    ],
    "source": {
-    "label": "APRA: proposed changes to governance",
-    "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
+    "label": "APRA: next phase of push to strengthen and streamline governance requirements",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-commences-next-phase-push-strengthen-and-streamline-governance"
    },
    "checked": {
     "date": "2026-10-08",
@@ -428,7 +430,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: APRA's pages don't state the date in readable text"
   },
   {
    "id": "dti-limit-share",
@@ -514,7 +518,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: the Financial Claims Scheme page doesn't state the amount in readable text"
   },
   {
    "id": "far-insurers-super-start",
@@ -582,7 +588,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: ASIC's media release pages are built in the browser"
   },
   {
    "id": "penalty-unit",
@@ -625,7 +633,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: no single official page states this date"
   },
   {
    "id": "aml-reformed-obligations-start",
@@ -652,7 +662,9 @@
    "exclude": [
     "Enrolment for tranche 2",
     "enrol"
-   ]
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
   },
   {
    "id": "aml-tranche2-start",
@@ -673,7 +685,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
   },
   {
    "id": "scams-main-obligations",
@@ -695,7 +709,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: AFCA's website blocks automated checks"
   },
   {
    "id": "scams-afca-membership",
@@ -716,7 +732,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: AFCA's website blocks automated checks"
   },
   {
    "id": "privacy-adm-start",
@@ -737,7 +755,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: the OAIC page doesn't state the date"
   },
   {
    "id": "privacy-tranche2-draft",
@@ -803,7 +823,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: cyber.gov.au doesn't respond to automated checks from cloud servers"
   },
   {
    "id": "climate-group2-start",
@@ -823,7 +845,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: ASIC's page doesn't state the dates in readable text"
   },
   {
    "id": "climate-group3-start",
@@ -843,7 +867,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: ASIC's page doesn't state the dates in readable text"
   },
   {
    "id": "rep839-published",
@@ -864,7 +890,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: ASIC's page doesn't state the date in readable text"
   },
   {
    "id": "whistleblower-review-close",

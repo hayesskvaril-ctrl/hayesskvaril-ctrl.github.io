@@ -45,8 +45,8 @@
   },
   "rep833-published": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'29 June 2026' does not appear on the source page",
+   "result": "found",
+   "detail": "",
    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-135mr-asic-calls-platform-trustees-to-account-over-persistent-failures-to-safeguard-super-savings"
   },
   "cps230-start": {
@@ -113,7 +113,7 @@
    "date": "2026-10-08",
    "result": "not_found",
    "detail": "'1 February 2026' does not appear on the source page",
-   "url": "https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending"
+   "url": "https://www.apra.gov.au/news-and-publications/activating-debt-income-limits-macroprudential-policy-tool"
   },
   "dti-limit-share": {
    "date": "2026-10-08",
@@ -185,13 +185,13 @@
    "date": "2026-10-08",
    "result": "error",
    "detail": "could not read the source (403)",
-   "url": "https://www.accc.gov.au/about-us/scams-prevention-framework"
+   "url": "https://www.afca.org.au/about-afca/scams-prevention-framework"
   },
   "scams-afca-membership": {
    "date": "2026-10-08",
    "result": "error",
    "detail": "could not read the source (403)",
-   "url": "https://www.accc.gov.au/about-us/scams-prevention-framework"
+   "url": "https://www.afca.org.au/about-afca/scams-prevention-framework"
   },
   "privacy-adm-start": {
    "date": "2026-10-08",
