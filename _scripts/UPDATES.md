@@ -55,8 +55,7 @@ Re-check timetable (unless a fact has its own `recheck` date): proposals and con
 | ASIC | Its sitemap (ASIC's newsroom pages are built in the browser, so the sitemap is used to list media releases) |
 | Treasury | Consultations page and the Treasurer's and Financial Services Minister's media releases |
 | Attorney-General's Department | Consultation hub |
-| OAIC | Its sitemap |
-| AUSTRAC, ACCC, ASD (cyber.gov.au) | **Not readable automatically**: these sites block automated reading from cloud servers. The report lists them under "Check by hand", and the monthly upkeep includes checking their news pages. |
+| AUSTRAC, ACCC, ASD (cyber.gov.au), OAIC | **Not readable automatically**: AUSTRAC, the ACCC and the ASD block automated reading from cloud servers; the OAIC builds its news list in the browser and its feed and sitemap are out of date. The report lists them under "Check by hand", and the monthly upkeep includes checking their news pages. |
 
 Facts whose official page can't be read automatically carry `"autocheck": false` with a note, and are re-checked by hand on the normal timetable.
 

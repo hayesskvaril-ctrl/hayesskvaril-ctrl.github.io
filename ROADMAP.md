@@ -435,7 +435,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Weekly regulator watch (GitHub Actions, free): new announcements from APRA, ASIC, AUSTRAC, OAIC, ACCC, Treasury, ASD and AGD with suggested pages; checks every fact on its official source; results on the `watch-data` branch; opens a `regulator-watch` issue
 - [x] "Report a regulatory change" form; `run_checks.py` section 8; procedure in `_scripts/UPDATES.md`; CLAUDE.md and UPKEEP.md updated
 - [x] Monthly link check fixed (it was reporting thousands of false errors for the site's own links)
-- [ ] After the first watch runs: tune `_scripts/watch/sources.json` for any source that finds nothing, and point facts the watch can't find at the page that states them
+- [x] Watch tuned over five test runs (8 October 2026): APRA, ASIC (sitemap), Treasury and AGD read automatically; AUSTRAC, ACCC, ASD and OAIC listed for a weekly hand check; 25 of 41 facts confirmed on their official source, the rest marked "checked by hand" with reasons
+- [x] Link check rebuilt (`_scripts/check_external.py`); 8 broken outside links fixed; GitHub issues 1 to 4 processed and closed
 - [ ] Grow the register: add facts as pages are updated (thresholds, notification deadlines, penalty amounts), and link the tracker and generator data files to facts
 
 ## Ideas / backlog

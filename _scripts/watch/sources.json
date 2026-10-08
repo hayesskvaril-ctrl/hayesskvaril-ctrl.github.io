@@ -28,9 +28,10 @@
   {
    "name": "OAIC",
    "pages": [
-    "https://www.oaic.gov.au/sitemap.xml"
+    "https://www.oaic.gov.au/news/media-centre"
    ],
-   "pattern": "^https://(www\\.)?oaic\\.gov\\.au/news/media-centre/[a-z0-9-]+/?$"
+   "pattern": "^https://(www\\.)?oaic\\.gov\\.au/news/media-centre/[a-z0-9-]+/?$",
+   "blocked_note": "The OAIC's news list is built in the browser, and its RSS feed and sitemap are out of date: check its media centre by hand (monthly upkeep)."
   },
   {
    "name": "ACCC",

@@ -219,7 +219,7 @@ def write_public_page(facts, where):
   <h2>How this works</h2>
   <p>Key facts such as commencement dates, consultation deadlines, thresholds and penalty amounts are kept in one register. Every page that mentions a fact takes it from the register, so when something changes it is updated once and every page changes together.</p>
   <ul>
-    <li><strong>Watching for change:</strong> every week an automatic check reads the latest announcements from APRA, ASIC, AUSTRAC, the OAIC, the ACCC and Treasury and flags anything that may affect a page.</li>
+    <li><strong>Watching for change:</strong> every week an automatic check reads the latest announcements from APRA, ASIC, Treasury and the Attorney-General's Department and flags anything that may affect a page. AUSTRAC, the OAIC, the ACCC and the Australian Signals Directorate can't be read automatically, so their news is checked by hand.</li>
     <li><strong>Checking against the source:</strong> the same weekly check looks for each fact on its official source page. Facts it can't find there are checked by hand.</li>
     <li><strong>Re-checking on a timetable:</strong> proposals and consultations are re-checked at least monthly, and facts that are in force at least yearly.</li>
   </ul>
