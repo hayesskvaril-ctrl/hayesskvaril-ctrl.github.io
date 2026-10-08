@@ -1,0 +1,654 @@
+{
+ " AI ": [
+  "/governance/ai-governance.html"
+ ],
+ "5th edition": [
+  "/foundations/what-is-governance.html"
+ ],
+ "6 or more": [
+  "/sectors/banking.html"
+ ],
+ "833": [
+  "/governance/financial-accountability-regime.html",
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "839": [
+  "/compliance/climate-related-financial-disclosures.html"
+ ],
+ "ADI": [
+  "/foundations/what-is-governance.html",
+  "/governance/financial-accountability-regime.html",
+  "/sectors/banking.html"
+ ],
+ "AFCA": [
+  "/compliance/consumer-protection.html",
+  "/standards/asic-rg-271.html"
+ ],
+ "AML/CTF": [
+  "/case-studies/austrac-cba-westpac.html",
+  "/compliance/aml-ctf-fundamentals.html",
+  "/foundations/regulatory-landscape.html",
+  "/sectors/payments-and-fintech.html"
+ ],
+ "APS 110": [
+  "/standards/aps-110-and-aps-210.html"
+ ],
+ "APS 112": [
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/aps-115.html"
+ ],
+ "APS 115": [
+  "/standards/aps-115.html"
+ ],
+ "APS 210": [
+  "/standards/aps-110-and-aps-210.html"
+ ],
+ "ASX Corporate Governance Principles": [
+  "/foundations/what-is-governance.html"
+ ],
+ "ASX Principles": [
+  "/foundations/what-is-governance.html"
+ ],
+ "AT1": [
+  "/sectors/banking.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/aps-115.html"
+ ],
+ "AUSTRAC": [
+  "/case-studies/austrac-cba-westpac.html",
+  "/compliance/aml-ctf-fundamentals.html",
+  "/foundations/regulatory-landscape.html",
+  "/sectors/payments-and-fintech.html"
+ ],
+ "Additional Tier 1": [
+  "/sectors/banking.html",
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/aps-115.html"
+ ],
+ "CPS 190": [
+  "/standards/cps-190-and-cps-900.html",
+  "/standards/sps-515.html"
+ ],
+ "CPS 220": [
+  "/standards/cps-220.html"
+ ],
+ "CPS 230": [
+  "/risk-management/business-continuity.html",
+  "/risk-management/control-design-and-testing.html",
+  "/risk-management/mapping-critical-operations.html",
+  "/risk-management/operational-risk.html",
+  "/risk-management/third-party-risk.html",
+  "/standards/aps-115.html",
+  "/standards/cps-220.html",
+  "/standards/cps-230.html"
+ ],
+ "CPS 230 amendment": [
+  "/risk-management/operational-risk.html",
+  "/standards/cps-230.html"
+ ],
+ "CPS 234": [
+  "/compliance/breach-reporting.html",
+  "/risk-management/business-continuity.html",
+  "/risk-management/operational-risk.html",
+  "/standards/cps-234.html"
+ ],
+ "CPS 510": [
+  "/foundations/what-is-governance.html",
+  "/governance/board-structure-and-accountability.html",
+  "/sectors/superannuation.html",
+  "/standards/cps-220.html",
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "CPS 511": [
+  "/standards/cps-511.html"
+ ],
+ "CPS 520": [
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "CPS 900": [
+  "/standards/cps-190-and-cps-900.html"
+ ],
+ "CSLR": [
+  "/sectors/financial-advice-licensees.html",
+  "/sectors/managed-investment-schemes.html"
+ ],
+ "Code of Practice": [
+  "/sectors/insurance.html"
+ ],
+ "Compensation Scheme of Last Resort": [
+  "/sectors/financial-advice-licensees.html",
+  "/sectors/managed-investment-schemes.html"
+ ],
+ "DTI": [
+  "/foundations/regulatory-landscape.html",
+  "/sectors/banking.html"
+ ],
+ "Delivering Better Financial Outcomes": [
+  "/compliance/financial-advice-regulation.html"
+ ],
+ "Essential Eight": [
+  "/standards/essential-eight.html"
+ ],
+ "Essentials": [
+  "/standards/essential-eight.html"
+ ],
+ "FAR": [
+  "/foundations/what-is-governance.html",
+  "/governance/financial-accountability-regime.html",
+  "/sectors/banking.html",
+  "/sectors/general-insurance.html",
+  "/sectors/insurance.html",
+  "/sectors/life-insurance.html",
+  "/sectors/private-health-insurance.html",
+  "/sectors/superannuation.html",
+  "/standards/sps-515.html"
+ ],
+ "Financial Accountability Regime": [
+  "/foundations/what-is-governance.html",
+  "/governance/financial-accountability-regime.html",
+  "/sectors/banking.html",
+  "/sectors/general-insurance.html",
+  "/sectors/insurance.html",
+  "/sectors/life-insurance.html",
+  "/sectors/private-health-insurance.html",
+  "/sectors/superannuation.html",
+  "/standards/sps-515.html"
+ ],
+ "Financial Claims Scheme": [
+  "/sectors/banking.html"
+ ],
+ "First Guardian": [
+  "/case-studies/shield-and-first-guardian.html"
+ ],
+ "Group 2": [
+  "/compliance/climate-related-financial-disclosures.html"
+ ],
+ "Group 3": [
+  "/compliance/climate-related-financial-disclosures.html"
+ ],
+ "ISO 22301": [
+  "/standards/iso-22301.html"
+ ],
+ "ISO 31000": [
+  "/standards/iso-31000.html"
+ ],
+ "ISO 37001": [
+  "/standards/iso-37001.html"
+ ],
+ "ISO 37301": [
+  "/standards/iso-37301.html"
+ ],
+ "ISO/IEC 27001": [
+  "/standards/iso-27001.html"
+ ],
+ "ISO/IEC 42001": [
+  "/standards/iso-42001.html"
+ ],
+ "Payday Super": [
+  "/sectors/superannuation.html"
+ ],
+ "Personal Data Protection": [
+  "/compliance/privacy-law.html"
+ ],
+ "REP 833": [
+  "/governance/financial-accountability-regime.html",
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "REP 839": [
+  "/compliance/climate-related-financial-disclosures.html"
+ ],
+ "RG 104": [
+  "/standards/asic-rg-104-and-rg-105.html"
+ ],
+ "RG 105": [
+  "/standards/asic-rg-104-and-rg-105.html"
+ ],
+ "RG 181": [
+  "/standards/asic-rg-181.html"
+ ],
+ "RG 259": [
+  "/standards/asic-rg-259.html"
+ ],
+ "RG 270": [
+  "/standards/asic-rg-270.html"
+ ],
+ "RG 271": [
+  "/standards/asic-rg-271.html"
+ ],
+ "RG 274": [
+  "/standards/asic-rg-274.html"
+ ],
+ "RG 277": [
+  "/standards/asic-rg-277.html"
+ ],
+ "RG 78": [
+  "/standards/asic-rg-78.html"
+ ],
+ "RG 97": [
+  "/standards/asic-rg-97.html"
+ ],
+ "RSE licensee": [
+  "/sectors/superannuation.html"
+ ],
+ "SPS 515": [
+  "/sectors/fund-mergers-and-successor-fund-transfers.html",
+  "/standards/sps-515.html"
+ ],
+ "SPS 530": [
+  "/standards/sps-530.html"
+ ],
+ "Scams Prevention Framework": [
+  "/compliance/consumer-protection.html"
+ ],
+ "Shield": [
+  "/case-studies/shield-and-first-guardian.html"
+ ],
+ "System Risk Stress Test": [
+  "/risk-management/scenario-analysis-and-stress-testing.html",
+  "/standards/aps-110-and-aps-210.html"
+ ],
+ "Tranche 2": [
+  "/case-studies/austrac-cba-westpac.html",
+  "/compliance/aml-ctf-fundamentals.html",
+  "/foundations/regulatory-landscape.html"
+ ],
+ "YourSuper": [
+  "/sectors/superannuation.html"
+ ],
+ "accountability": [
+  "/governance/financial-accountability-regime.html"
+ ],
+ "advice": [
+  "/compliance/financial-advice-regulation.html",
+  "/sectors/financial-advice-licensees.html",
+  "/sectors/managed-investment-schemes.html"
+ ],
+ "adviser": [
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "amendment": [
+  "/risk-management/mapping-critical-operations.html",
+  "/risk-management/operational-risk.html",
+  "/standards/cps-230.html"
+ ],
+ "amendments to CPS 230": [
+  "/risk-management/operational-risk.html",
+  "/standards/cps-230.html"
+ ],
+ "artificial intelligence": [
+  "/governance/ai-governance.html"
+ ],
+ "automated decision": [
+  "/governance/ai-governance.html"
+ ],
+ "automated decisions": [
+  "/governance/ai-governance.html"
+ ],
+ "bank": [
+  "/foundations/what-is-governance.html",
+  "/governance/financial-accountability-regime.html",
+  "/sectors/banking.html"
+ ],
+ "best interests duty": [
+  "/compliance/financial-advice-regulation.html"
+ ],
+ "breach report": [
+  "/compliance/breach-reporting.html",
+  "/standards/asic-rg-78.html"
+ ],
+ "bribery": [
+  "/compliance/anti-bribery-and-corruption.html"
+ ],
+ "business continuity": [
+  "/risk-management/business-continuity.html"
+ ],
+ "buy now pay later": [
+  "/sectors/credit-and-non-bank-lenders.html"
+ ],
+ "capital": [
+  "/standards/aps-110-and-aps-210.html"
+ ],
+ "charit": [
+  "/sectors/not-for-profits-and-charities.html"
+ ],
+ "claims": [
+  "/sectors/insurance.html"
+ ],
+ "climate": [
+  "/compliance/climate-related-financial-disclosures.html",
+  "/risk-management/climate-risk.html"
+ ],
+ "complaints": [
+  "/standards/asic-rg-271.html"
+ ],
+ "conflicts of interest": [
+  "/governance/conflicts-of-interest.html",
+  "/standards/asic-rg-181.html"
+ ],
+ "consultation": [
+  "/compliance/privacy-law.html",
+  "/standards/sps-530.html"
+ ],
+ "continuous disclosure": [
+  "/sectors/listed-companies.html"
+ ],
+ "corporate plan": [
+  "/foundations/regulatory-landscape.html"
+ ],
+ "credit licen": [
+  "/sectors/credit-and-non-bank-lenders.html"
+ ],
+ "crypto": [
+  "/sectors/payments-and-fintech.html"
+ ],
+ "cyber": [
+  "/risk-management/cyber-risk.html",
+  "/standards/cps-234.html"
+ ],
+ "data breach": [
+  "/compliance/privacy-law.html"
+ ],
+ "debt-to-income": [
+  "/foundations/regulatory-landscape.html",
+  "/sectors/banking.html"
+ ],
+ "deposit": [
+  "/sectors/banking.html"
+ ],
+ "design and distribution": [
+  "/standards/asic-rg-274.html"
+ ],
+ "digital asset": [
+  "/sectors/payments-and-fintech.html"
+ ],
+ "director": [
+  "/governance/directors-duties-case-law.html"
+ ],
+ "draft": [
+  "/foundations/what-is-governance.html",
+  "/sectors/superannuation.html",
+  "/standards/cps-220.html",
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "enforcement": [
+  "/compliance/enforcement-and-penalties.html"
+ ],
+ "exposure draft": [
+  "/compliance/privacy-law.html"
+ ],
+ "financial advice": [
+  "/compliance/financial-advice-regulation.html",
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "fit and proper": [
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "framework is expected": [
+  "/standards/sps-530.html"
+ ],
+ "fraud": [
+  "/risk-management/fraud-risk.html"
+ ],
+ "general insur": [
+  "/sectors/general-insurance.html"
+ ],
+ "governance": [
+  "/foundations/what-is-governance.html",
+  "/governance/board-structure-and-accountability.html",
+  "/sectors/superannuation.html",
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "governance standard": [
+  "/foundations/what-is-governance.html",
+  "/sectors/superannuation.html",
+  "/standards/cps-220.html",
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "greenwashing": [
+  "/compliance/disclosure-obligations.html",
+  "/compliance/misleading-or-deceptive-conduct.html"
+ ],
+ "hardship": [
+  "/sectors/credit-and-non-bank-lenders.html"
+ ],
+ "home loan": [
+  "/sectors/banking.html"
+ ],
+ "income protection": [
+  "/sectors/life-insurance.html"
+ ],
+ "information security": [
+  "/standards/cps-234.html"
+ ],
+ "information security incident": [
+  "/compliance/breach-reporting.html",
+  "/risk-management/business-continuity.html",
+  "/risk-management/operational-risk.html",
+  "/standards/cps-234.html"
+ ],
+ "insurers and super": [
+  "/foundations/what-is-governance.html",
+  "/governance/financial-accountability-regime.html",
+  "/sectors/general-insurance.html",
+  "/sectors/insurance.html",
+  "/sectors/life-insurance.html",
+  "/sectors/private-health-insurance.html",
+  "/sectors/superannuation.html",
+  "/standards/sps-515.html"
+ ],
+ "internal dispute resolution": [
+  "/standards/asic-rg-271.html"
+ ],
+ "investment governance": [
+  "/standards/sps-530.html"
+ ],
+ "key functions": [
+  "/governance/financial-accountability-regime.html"
+ ],
+ "levy": [
+  "/sectors/financial-advice-licensees.html",
+  "/sectors/managed-investment-schemes.html"
+ ],
+ "life insur": [
+  "/sectors/life-insurance.html"
+ ],
+ "liquidity": [
+  "/risk-management/super-liquidity-stress-testing.html",
+  "/standards/aps-110-and-aps-210.html"
+ ],
+ "listed": [
+  "/sectors/listed-companies.html"
+ ],
+ "managed investment": [
+  "/sectors/managed-investment-schemes.html"
+ ],
+ "material information security": [
+  "/compliance/breach-reporting.html",
+  "/risk-management/business-continuity.html",
+  "/risk-management/operational-risk.html",
+  "/standards/cps-234.html"
+ ],
+ "member outcomes": [
+  "/standards/sps-515.html"
+ ],
+ "modern slavery": [
+  "/compliance/modern-slavery.html"
+ ],
+ "money laundering": [
+  "/compliance/aml-ctf-fundamentals.html"
+ ],
+ "mortgage": [
+  "/sectors/banking.html"
+ ],
+ "new class of adviser": [
+  "/compliance/financial-advice-regulation.html"
+ ],
+ "non-executive director": [
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "operational risk": [
+  "/risk-management/operational-risk.html",
+  "/standards/cps-230.html"
+ ],
+ "outsourcing": [
+  "/risk-management/third-party-risk.html"
+ ],
+ "payday super": [
+  "/sectors/superannuation.html"
+ ],
+ "payment": [
+  "/sectors/payments-and-fintech.html"
+ ],
+ "penalt": [
+  "/compliance/enforcement-and-penalties.html"
+ ],
+ "penalty unit": [
+  "/compliance/enforcement-and-penalties.html"
+ ],
+ "per account holder": [
+  "/sectors/banking.html"
+ ],
+ "performance test": [
+  "/sectors/superannuation.html"
+ ],
+ "platform": [
+  "/case-studies/shield-and-first-guardian.html",
+  "/standards/sps-530.html"
+ ],
+ "platform trustees": [
+  "/governance/financial-accountability-regime.html",
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "priorities": [
+  "/foundations/regulatory-landscape.html"
+ ],
+ "privacy": [
+  "/compliance/privacy-law.html"
+ ],
+ "private credit": [
+  "/sectors/managed-investment-schemes.html"
+ ],
+ "private health": [
+  "/sectors/private-health-insurance.html"
+ ],
+ "proposals": [
+  "/standards/sps-530.html"
+ ],
+ "proposed start": [
+  "/standards/sps-530.html"
+ ],
+ "ransomware": [
+  "/risk-management/cyber-risk.html"
+ ],
+ "recovery": [
+  "/standards/cps-190-and-cps-900.html"
+ ],
+ "reformed": [
+  "/case-studies/austrac-cba-westpac.html",
+  "/compliance/aml-ctf-fundamentals.html",
+  "/foundations/regulatory-landscape.html",
+  "/sectors/payments-and-fintech.html"
+ ],
+ "remediation": [
+  "/compliance/remediation-calculations.html"
+ ],
+ "remuneration": [
+  "/governance/remuneration-governance.html",
+  "/standards/cps-511.html"
+ ],
+ "reportable situation": [
+  "/standards/asic-rg-78.html"
+ ],
+ "reporting entit": [
+  "/case-studies/austrac-cba-westpac.html",
+  "/compliance/aml-ctf-fundamentals.html",
+  "/foundations/regulatory-landscape.html",
+  "/sectors/payments-and-fintech.html"
+ ],
+ "resolution": [
+  "/standards/cps-190-and-cps-900.html"
+ ],
+ "responsible entit": [
+  "/sectors/managed-investment-schemes.html",
+  "/standards/asic-rg-259.html"
+ ],
+ "responsible lending": [
+  "/sectors/credit-and-non-bank-lenders.html"
+ ],
+ "retirement income": [
+  "/sectors/superannuation.html"
+ ],
+ "risk weight": [
+  "/standards/aps-110-and-aps-210.html",
+  "/standards/aps-115.html"
+ ],
+ "sanction": [
+  "/compliance/sanctions-compliance.html"
+ ],
+ "scam": [
+  "/compliance/consumer-protection.html"
+ ],
+ "sector code": [
+  "/compliance/consumer-protection.html"
+ ],
+ "service provider": [
+  "/risk-management/third-party-risk.html",
+  "/standards/cps-230.html"
+ ],
+ "six or more": [
+  "/sectors/banking.html"
+ ],
+ "stop order": [
+  "/standards/asic-rg-274.html"
+ ],
+ "streamlin": [
+  "/governance/financial-accountability-regime.html"
+ ],
+ "stress test": [
+  "/risk-management/scenario-analysis-and-stress-testing.html",
+  "/standards/aps-110-and-aps-210.html"
+ ],
+ "submissions": [
+  "/standards/sps-530.html"
+ ],
+ "successor fund transfer": [
+  "/sectors/fund-mergers-and-successor-fund-transfers.html"
+ ],
+ "superannuation": [
+  "/sectors/superannuation.html"
+ ],
+ "sustainability report": [
+  "/compliance/climate-related-financial-disclosures.html"
+ ],
+ "target market": [
+  "/standards/asic-rg-274.html"
+ ],
+ "targeted amendments": [
+  "/risk-management/operational-risk.html",
+  "/standards/cps-230.html"
+ ],
+ "tenure": [
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "tranche": [
+  "/compliance/privacy-law.html"
+ ],
+ "tranche 2": [
+  "/case-studies/austrac-cba-westpac.html",
+  "/compliance/aml-ctf-fundamentals.html",
+  "/foundations/regulatory-landscape.html"
+ ],
+ "trustee": [
+  "/sectors/superannuation.html"
+ ],
+ "unit pricing": [
+  "/sectors/unit-pricing.html"
+ ],
+ "valuation": [
+  "/standards/sps-530.html"
+ ],
+ "whistleblow": [
+  "/governance/whistleblower-protections.html",
+  "/standards/asic-rg-270.html"
+ ]
+}

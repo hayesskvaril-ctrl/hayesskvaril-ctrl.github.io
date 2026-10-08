@@ -427,6 +427,17 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] "For your sector" link on every sector guide
 - [ ] Later: add private health insurance and life-specific regimes (Private Health Insurance Act, Life Insurance Act, commissions) to the obligations library data
 
+## Phase 23 — Keeping facts current: updates and verification system (requested October 2026)
+
+- [x] Key facts register (`_scripts/facts/facts.json`, 41 starter facts) with source, status, how and when checked, and history; fact markers on pages kept identical by `build_facts.py` (run by `sync_layout.py`); 125 mentions linked on 40 article pages
+- [x] One-step update tool `_scripts/update_fact.py` (set, confirm, add, show, list --due): lists every other mention of the old value, including generator data files
+- [x] Public Key facts register page (`/about/fact-register.html`), linked from About, How we check content and the footer
+- [x] Weekly regulator watch (GitHub Actions, free): new announcements from APRA, ASIC, AUSTRAC, OAIC, ACCC, Treasury, ASD and AGD with suggested pages; checks every fact on its official source; results on the `watch-data` branch; opens a `regulator-watch` issue
+- [x] "Report a regulatory change" form; `run_checks.py` section 8; procedure in `_scripts/UPDATES.md`; CLAUDE.md and UPKEEP.md updated
+- [x] Monthly link check fixed (it was reporting thousands of false errors for the site's own links)
+- [ ] After the first watch runs: tune `_scripts/watch/sources.json` for any source that finds nothing, and point facts the watch can't find at the page that states them
+- [ ] Grow the register: add facts as pages are updated (thresholds, notification deadlines, penalty amounts), and link the tracker and generator data files to facts
+
 ## Ideas / backlog
 
 Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.

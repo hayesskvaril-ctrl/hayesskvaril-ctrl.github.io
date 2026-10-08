@@ -18,6 +18,11 @@ Then commit, push to `main`, and check the live page.
 
 ---
 
+## Weekly (automatic)
+
+- [ ] The **weekly regulator watch** runs every Monday morning and opens a `regulator-watch` issue when there are new announcements or key facts it couldn't find on their official source. Process it the same week and close it (see `_scripts/UPDATES.md`).
+- [ ] Process any `regulatory-change` or `correction` issues.
+
 ## Monthly
 
 - [ ] Run `run_checks.py` and work through its TO DO list.
@@ -50,6 +55,8 @@ Then commit, push to `main`, and check the live page.
 - [ ] If Nick has signed off the page, add it to `_scripts/expert_reviews.py` with the date. Expert sign-offs older than 12 months are flagged by `review_report.py`.
 
 ## When regulations change
+
+Full procedure: `_scripts/UPDATES.md`. In short: change key facts with `python3 _scripts/update_fact.py set ID "new value" --how … --note …` (every page showing the fact updates together, and the tool lists every other mention of the old value), then:
 
 1. Use the site search (`/search/`) and `grep -rl "<term>" --include=*.html .` to find every page, template, quiz question and flashcard that mentions the changed rule.
 2. Update them all in the same week. Check the glossary (`_scripts/build_glossary.py`) too.

@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/about/fact-register.html', 'New Key facts register: the main regulatory dates, amounts and limits on the site, each with its official source and when and how it was last checked. Pages now take these facts from one place, and a weekly automatic check watches regulator announcements'),
     ('2026-10-08', '/standards/sps-530.html', 'SPS 530: corrected the date of APRA\'s proposals to strengthen investment governance (released 30 September 2026, submissions close 3 February 2027) and added the detail of the eight proposed areas'),
     ('2026-10-08', '/about/roadmap.html', 'Deep review complete: all 137 articles re-checked against current law and regulator guidance, and expanded'),
     ('2026-10-08', '/risk-management/human-factors-and-bias.html', 'Human factors and bias: deep review, adding a worked pre-mortem'),

@@ -1,0 +1,80 @@
+{
+ "_about": "Official news and consultation pages read by the weekly regulator watch (_scripts/watch/watch.py, run by .github/workflows/regulator-watch.yml). For each source the watch reads the pages listed, uses an RSS or Atom feed if the page advertises one, and otherwise collects links whose address matches 'pattern'. If a source stops finding anything, its page or link pattern has probably changed.",
+ "sources": [
+  {
+   "name": "APRA",
+   "pages": [
+    "https://www.apra.gov.au/news-and-publications"
+   ],
+   "pattern": "^https://(www\\.)?apra\\.gov\\.au/news-and-publications/[a-z0-9-]+/?$"
+  },
+  {
+   "name": "ASIC media releases",
+   "pages": [
+    "https://www.asic.gov.au/newsroom/media-releases/",
+    "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/"
+   ],
+   "pattern": "^https://(www\\.)?asic\\.gov\\.au/.*\\d{2}-\\d{3}mr-[a-z0-9-]+/?$"
+  },
+  {
+   "name": "ASIC news",
+   "pages": [
+    "https://www.asic.gov.au/newsroom/news-items/",
+    "https://www.asic.gov.au/about-asic/news-centre/news-items/"
+   ],
+   "pattern": "^https://(www\\.)?asic\\.gov\\.au/(newsroom|about-asic/news-centre)/news-items/[a-z0-9-]+/?$"
+  },
+  {
+   "name": "AUSTRAC",
+   "pages": [
+    "https://www.austrac.gov.au/news-and-media"
+   ],
+   "pattern": "^https://(www\\.)?austrac\\.gov\\.au/news-and-media/[a-z-]+/[a-z0-9-]+/?$"
+  },
+  {
+   "name": "OAIC",
+   "pages": [
+    "https://www.oaic.gov.au/news/media-centre"
+   ],
+   "pattern": "^https://(www\\.)?oaic\\.gov\\.au/news/media-centre/[a-z0-9-]+/?$"
+  },
+  {
+   "name": "ACCC",
+   "pages": [
+    "https://www.accc.gov.au/media-releases",
+    "https://www.accc.gov.au/news-centre"
+   ],
+   "pattern": "^https://(www\\.)?accc\\.gov\\.au/media-release/[a-z0-9-]+/?$"
+  },
+  {
+   "name": "Treasury consultations",
+   "pages": [
+    "https://treasury.gov.au/consultation",
+    "https://consult.treasury.gov.au/"
+   ],
+   "pattern": "^https://(treasury\\.gov\\.au/consultation|consult\\.treasury\\.gov\\.au)/c\\d{4}-\\d+/?$"
+  },
+  {
+   "name": "Treasury ministers",
+   "pages": [
+    "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases",
+    "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases"
+   ],
+   "pattern": "^https://ministers\\.treasury\\.gov\\.au/ministers/[a-z0-9-]+/media-releases/[a-z0-9-]+/?$"
+  },
+  {
+   "name": "Australian Signals Directorate",
+   "pages": [
+    "https://www.cyber.gov.au/about-us/view-all-content/news"
+   ],
+   "pattern": "^https://(www\\.)?cyber\\.gov\\.au/about-us/view-all-content/news/[a-z0-9-]+/?$"
+  },
+  {
+   "name": "Attorney-General's Department consultations",
+   "pages": [
+    "https://consultations.ag.gov.au/"
+   ],
+   "pattern": "^https://consultations\\.ag\\.gov\\.au/[a-z0-9-]+/[a-z0-9-]+/?$"
+  }
+ ]
+}

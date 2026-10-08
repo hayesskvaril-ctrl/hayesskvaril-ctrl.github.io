@@ -1,0 +1,279 @@
+{
+ "superannuation": [
+  "/sectors/superannuation.html"
+ ],
+ "trustee": [
+  "/sectors/superannuation.html"
+ ],
+ "RSE licensee": [
+  "/sectors/superannuation.html"
+ ],
+ "platform": [
+  "/case-studies/shield-and-first-guardian.html",
+  "/standards/sps-530.html"
+ ],
+ "Shield": [
+  "/case-studies/shield-and-first-guardian.html"
+ ],
+ "First Guardian": [
+  "/case-studies/shield-and-first-guardian.html"
+ ],
+ "performance test": [
+  "/sectors/superannuation.html"
+ ],
+ "YourSuper": [
+  "/sectors/superannuation.html"
+ ],
+ "member outcomes": [
+  "/standards/sps-515.html"
+ ],
+ "retirement income": [
+  "/sectors/superannuation.html"
+ ],
+ "unit pricing": [
+  "/sectors/unit-pricing.html"
+ ],
+ "successor fund transfer": [
+  "/sectors/fund-mergers-and-successor-fund-transfers.html"
+ ],
+ "valuation": [
+  "/standards/sps-530.html"
+ ],
+ "liquidity": [
+  "/standards/aps-110-and-aps-210.html",
+  "/risk-management/super-liquidity-stress-testing.html"
+ ],
+ "operational risk": [
+  "/standards/cps-230.html",
+  "/risk-management/operational-risk.html"
+ ],
+ "service provider": [
+  "/standards/cps-230.html",
+  "/risk-management/third-party-risk.html"
+ ],
+ "outsourcing": [
+  "/risk-management/third-party-risk.html"
+ ],
+ "business continuity": [
+  "/risk-management/business-continuity.html"
+ ],
+ "cyber": [
+  "/risk-management/cyber-risk.html",
+  "/standards/cps-234.html"
+ ],
+ "information security": [
+  "/standards/cps-234.html"
+ ],
+ "ransomware": [
+  "/risk-management/cyber-risk.html"
+ ],
+ "data breach": [
+  "/compliance/privacy-law.html"
+ ],
+ "privacy": [
+  "/compliance/privacy-law.html"
+ ],
+ "artificial intelligence": [
+  "/governance/ai-governance.html"
+ ],
+ " AI ": [
+  "/governance/ai-governance.html"
+ ],
+ "remuneration": [
+  "/standards/cps-511.html",
+  "/governance/remuneration-governance.html"
+ ],
+ "governance": [
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "fit and proper": [
+  "/standards/cps-510-and-cps-520.html"
+ ],
+ "accountability": [
+  "/governance/financial-accountability-regime.html"
+ ],
+ "FAR": [
+  "/governance/financial-accountability-regime.html"
+ ],
+ "recovery": [
+  "/standards/cps-190-and-cps-900.html"
+ ],
+ "resolution": [
+  "/standards/cps-190-and-cps-900.html"
+ ],
+ "capital": [
+  "/standards/aps-110-and-aps-210.html"
+ ],
+ "stress test": [
+  "/risk-management/scenario-analysis-and-stress-testing.html"
+ ],
+ "climate": [
+  "/risk-management/climate-risk.html",
+  "/compliance/climate-related-financial-disclosures.html"
+ ],
+ "sustainability report": [
+  "/compliance/climate-related-financial-disclosures.html"
+ ],
+ "greenwashing": [
+  "/compliance/misleading-or-deceptive-conduct.html",
+  "/compliance/disclosure-obligations.html"
+ ],
+ "design and distribution": [
+  "/standards/asic-rg-274.html"
+ ],
+ "target market": [
+  "/standards/asic-rg-274.html"
+ ],
+ "stop order": [
+  "/standards/asic-rg-274.html"
+ ],
+ "breach report": [
+  "/standards/asic-rg-78.html",
+  "/compliance/breach-reporting.html"
+ ],
+ "reportable situation": [
+  "/standards/asic-rg-78.html"
+ ],
+ "complaints": [
+  "/standards/asic-rg-271.html"
+ ],
+ "internal dispute resolution": [
+  "/standards/asic-rg-271.html"
+ ],
+ "AFCA": [
+  "/standards/asic-rg-271.html"
+ ],
+ "remediation": [
+  "/compliance/remediation-calculations.html"
+ ],
+ "conflicts of interest": [
+  "/standards/asic-rg-181.html",
+  "/governance/conflicts-of-interest.html"
+ ],
+ "financial advice": [
+  "/compliance/financial-advice-regulation.html",
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "adviser": [
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "CSLR": [
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "Compensation Scheme of Last Resort": [
+  "/sectors/financial-advice-licensees.html"
+ ],
+ "managed investment": [
+  "/sectors/managed-investment-schemes.html"
+ ],
+ "responsible entit": [
+  "/sectors/managed-investment-schemes.html",
+  "/standards/asic-rg-259.html"
+ ],
+ "private credit": [
+  "/sectors/managed-investment-schemes.html"
+ ],
+ "whistleblow": [
+  "/governance/whistleblower-protections.html",
+  "/standards/asic-rg-270.html"
+ ],
+ "director": [
+  "/governance/directors-duties-case-law.html"
+ ],
+ "money laundering": [
+  "/compliance/aml-ctf-fundamentals.html"
+ ],
+ "AML/CTF": [
+  "/compliance/aml-ctf-fundamentals.html"
+ ],
+ "sanction": [
+  "/compliance/sanctions-compliance.html"
+ ],
+ "bribery": [
+  "/compliance/anti-bribery-and-corruption.html"
+ ],
+ "scam": [
+  "/compliance/consumer-protection.html"
+ ],
+ "fraud": [
+  "/risk-management/fraud-risk.html"
+ ],
+ "modern slavery": [
+  "/compliance/modern-slavery.html"
+ ],
+ "hardship": [
+  "/sectors/credit-and-non-bank-lenders.html"
+ ],
+ "responsible lending": [
+  "/sectors/credit-and-non-bank-lenders.html"
+ ],
+ "buy now pay later": [
+  "/sectors/credit-and-non-bank-lenders.html"
+ ],
+ "credit licen": [
+  "/sectors/credit-and-non-bank-lenders.html"
+ ],
+ "home loan": [
+  "/sectors/banking.html"
+ ],
+ "mortgage": [
+  "/sectors/banking.html"
+ ],
+ "bank": [
+  "/sectors/banking.html"
+ ],
+ "deposit": [
+  "/sectors/banking.html"
+ ],
+ "payment": [
+  "/sectors/payments-and-fintech.html"
+ ],
+ "digital asset": [
+  "/sectors/payments-and-fintech.html"
+ ],
+ "crypto": [
+  "/sectors/payments-and-fintech.html"
+ ],
+ "general insur": [
+  "/sectors/general-insurance.html"
+ ],
+ "life insur": [
+  "/sectors/life-insurance.html"
+ ],
+ "income protection": [
+  "/sectors/life-insurance.html"
+ ],
+ "private health": [
+  "/sectors/private-health-insurance.html"
+ ],
+ "claims": [
+  "/sectors/insurance.html"
+ ],
+ "Code of Practice": [
+  "/sectors/insurance.html"
+ ],
+ "listed": [
+  "/sectors/listed-companies.html"
+ ],
+ "continuous disclosure": [
+  "/sectors/listed-companies.html"
+ ],
+ "charit": [
+  "/sectors/not-for-profits-and-charities.html"
+ ],
+ "Essential Eight": [
+  "/standards/essential-eight.html"
+ ],
+ "enforcement": [
+  "/compliance/enforcement-and-penalties.html"
+ ],
+ "penalt": [
+  "/compliance/enforcement-and-penalties.html"
+ ],
+ "corporate plan": [
+  "/foundations/regulatory-landscape.html"
+ ],
+ "priorities": [
+  "/foundations/regulatory-landscape.html"
+ ]
+}

@@ -1,0 +1,37 @@
+name: Report a regulatory change
+description: A regulator, Treasury or Parliament has announced, finalised or changed something the site should reflect.
+title: "Regulatory change: "
+labels: ["regulatory-change"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this when something has changed: a new or final standard, a new consultation, a changed date or threshold, a court decision, or a new report. Please don't include personal or confidential information: this report is public.
+  - type: textarea
+    id: what
+    attributes:
+      label: What has changed?
+      description: One or two sentences is enough, for example "APRA has finalised the new SPS 530; it now starts on 1 July 2028".
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official link
+      description: The regulator's media release, the consultation page or the legislation.
+    validations:
+      required: true
+  - type: input
+    id: pages
+    attributes:
+      label: Pages affected (if you know)
+      description: Optional. The page addresses or topics you think need updating.
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: How soon?
+      options:
+        - Normal (next update round)
+        - Soon (something on the site is now wrong)
+    validations:
+      required: true

@@ -13,6 +13,8 @@ Checks:
      and sits on its pages; official videos were confirmed in the last 3 months
   7. Research: citations and reference lists are up to date, and every Advanced page meets the
      university-level standard (3+ peer-reviewed sources and the required sections)
+  8. Key facts register: facts due for a re-check, facts checked only through secondary sources, and the
+     latest weekly regulator watch (facts not found on their official source, new announcements)
 
 Run:  python3 _scripts/run_checks.py              (as at today)
       python3 _scripts/run_checks.py 2027-03-01   (as at another date)
@@ -193,6 +195,42 @@ if out:
     todo.append("Deal with the research reference items listed in section 7.")
 else:
     print("  All citations current; every Advanced page meets the university-level standard.")
+
+# 8. Key facts register and the weekly regulator watch
+heading("8. Key facts register and regulator watch")
+import facts_lib  # noqa: E402
+import pull_watch  # noqa: E402
+pulled = pull_watch.pull(quiet=True)
+fdata = facts_lib.load()["facts"]
+due = [f for f in fdata if facts_lib.recheck_due(f) <= TODAY]
+secondary = [f for f in fdata if f["checked"]["how"] == "secondary"]
+auto = facts_lib.load_auto()
+confirmed = {k for k, r in auto.items() if r.get("result") == "found"}
+not_found = [k for k, r in auto.items() if r.get("result") == "not_found"]
+unconfirmed = [f for f in secondary if f["id"] not in confirmed]
+print(f"  {len(fdata)} facts; {len(confirmed)} found on their official source by the weekly watch"
+      + ("" if pulled else " (watch results not available yet)"))
+for f in due:
+    print(f"  - re-check due: {f['id']} ({f['value']}), last checked {f['checked']['date']}")
+if due:
+    todo.append(f"Re-check {len(due)} key fact(s) (update_fact.py confirm or set; see section 8).")
+for k in not_found:
+    print(f"  - not found on its official source by the weekly watch: {k}")
+if not_found:
+    todo.append(f"Check {len(not_found)} key fact(s) the weekly watch could not find on their official source (section 8).")
+if unconfirmed:
+    print(f"  {len(unconfirmed)} fact(s) checked only through secondary sources and not yet found on an official source: "
+          + ", ".join(f["id"] for f in unconfirmed[:12]) + (" ..." if len(unconfirmed) > 12 else ""))
+rep = HERE / "watch/latest_report.md"
+if pulled and rep.exists():
+    m = re.search(r"## New announcements \((\d+)\)", rep.read_text(encoding="utf-8"))
+    if m and int(m.group(1)):
+        print(f"  Latest weekly watch listed {m.group(1)} new announcement(s): see the open 'regulator-watch' issue on GitHub.")
+        todo.append("Process the open regulator watch issue on GitHub (new announcements to check against the site).")
+out = run("build_facts.py").strip()
+if "PROBLEM" in out:
+    print("  " + "\n  ".join(l for l in out.splitlines() if "PROBLEM" in l))
+    todo.append("Fix the key facts register problems listed in section 8.")
 
 heading("TO DO")
 if todo:

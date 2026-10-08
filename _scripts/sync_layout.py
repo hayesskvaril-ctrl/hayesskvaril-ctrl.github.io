@@ -98,7 +98,7 @@ FOOTER_COLS = [
                      ("Banking", "/sectors/banking.html"), ("Insurance", "/sectors/insurance.html"), ("Standards library", "/standards/"), ("Obligations library", "/obligations/")]),
     ("Learn and do", [("Start here", "/start-here/"), ("Learning hub", "/learn/"), ("My learning", "/learn/my-learning.html"), ("Glossary", "/glossary/"),
                       ("Playbooks", "/playbooks/"), ("Tools and templates", "/tools/"), ("GRC model builder", "/grc/model-builder.html")]),
-    ("About", [("About", "/about/"), ("How we check content", "/about/editorial-standards.html"), ("Site roadmap", "/about/roadmap.html"),
+    ("About", [("About", "/about/"), ("How we check content", "/about/editorial-standards.html"), ("Key facts register", "/about/fact-register.html"), ("Site roadmap", "/about/roadmap.html"),
                ("What's new", "/whats-new/"), ("News", "/news/"), ("Regulatory tracker", "/news/regulatory-tracker.html"), ("Search", "/search/")]),
 ]
 SEARCH_ICON = ('<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
@@ -609,6 +609,11 @@ FOOTER_RE = re.compile(r"<!-- FOOTER:START -->.*?<!-- FOOTER:END -->", re.S)
 
 
 def main():
+    # key facts register first: stamps every fact span with its current value and writes
+    # /about/fact-register.html, which the loop below then gives the standard layout
+    import build_facts
+    if build_facts.main():
+        print("WARNING: facts register problems (see above)")
     changed = 0
     published = []
     for page in sorted(ROOT.rglob("*.html")):

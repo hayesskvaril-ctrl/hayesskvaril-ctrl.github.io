@@ -1,6 +1,8 @@
 # Monthly check that links to outside sites (regulators, legislation, research) still work.
 # Runs on GitHub's free hosted runners. If any link is broken, it opens an issue listing them.
-# Internal links are checked locally by _scripts/check_links.py instead.
+# Internal links are checked locally by _scripts/check_links.py instead (--root-dir lets this check read them
+# as local files, which the scheme filter then skips). AUSTRAC's server rejects this checker's connection type
+# (HTTP/2), so its links are skipped here; the weekly regulator watch reads AUSTRAC pages with a different client.
 name: Monthly external link check
 
 on:
@@ -29,8 +31,10 @@ jobs:
             --max-retries 3
             --timeout 30
             --accept 200..=299,403,429
+            --root-dir ${{ github.workspace }}
             --exclude-path _scripts
             --exclude-path .github
+            --exclude 'austrac\.gov\.au'
             './**/*.html'
           output: ./lychee-report.md
           fail: false

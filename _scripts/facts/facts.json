@@ -1,0 +1,912 @@
+{
+ "_about": "Key regulatory facts register. Edit with _scripts/update_fact.py, then run sync_layout.py. Pages show a fact by wrapping it in <span class=\"fact\" data-fact=\"ID\">…</span>; build_facts.py keeps every copy identical to this file. checked.how is one of: official (read on the official source), auto (found on the official source by the weekly watch), expert (confirmed by the site's expert reviewer), secondary (checked only through secondary sources such as law firm summaries or search results). Optional 'exclude' phrases stop build_facts.py --wrap from linking look-alike mentions (same value, different fact).",
+ "facts": [
+  {
+   "id": "sps530-proposals-released",
+   "topic": "Superannuation",
+   "fact": "APRA released proposals to strengthen SPS 530 Investment Governance",
+   "value": "30 September 2026",
+   "status": "proposed",
+   "context": [
+    "SPS 530",
+    "investment governance",
+    "proposals",
+    "consultation"
+   ],
+   "source": {
+    "label": "APRA: proposals to strengthen trustee investment governance",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-releases-proposals-strengthen-trustee-investment-governance"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": "Confirmed by APRA's media release title and law firm summaries; corrected from an earlier wrong date"
+   },
+   "history": []
+  },
+  {
+   "id": "sps530-submissions-close",
+   "topic": "Superannuation",
+   "fact": "Submissions on APRA's draft SPS 530 close",
+   "value": "3 February 2027",
+   "status": "proposed",
+   "context": [
+    "SPS 530",
+    "submissions",
+    "consultation",
+    "investment governance"
+   ],
+   "source": {
+    "label": "APRA: Strengthening superannuation investment governance consultation paper",
+    "url": "https://www.apra.gov.au/strengthening-superannuation-investment-governance-consultation-paper"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "sps530-proposed-start",
+   "topic": "Superannuation",
+   "fact": "Proposed start of the strengthened SPS 530",
+   "value": "1 January 2028",
+   "status": "proposed",
+   "context": [
+    "SPS 530",
+    "investment governance",
+    "proposed start",
+    "framework is expected"
+   ],
+   "source": {
+    "label": "APRA: proposals to strengthen trustee investment governance",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-releases-proposals-strengthen-trustee-investment-governance"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "payday-super-start",
+   "topic": "Superannuation",
+   "fact": "Payday Super starts",
+   "value": "1 July 2026",
+   "status": "in force",
+   "context": [
+    "Payday Super",
+    "payday super"
+   ],
+   "source": {
+    "label": "APRA: Payday Super readiness",
+    "url": "https://www.apra.gov.au/payday-super-readiness"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "sps515-strengthened-start",
+   "topic": "Superannuation",
+   "fact": "Strengthened SPS 515 applies",
+   "value": "1 July 2025",
+   "status": "in force",
+   "context": [
+    "SPS 515"
+   ],
+   "source": {
+    "label": "APRA: SPS 515",
+    "url": "https://www.apra.gov.au/standards/sps-515"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": [],
+   "exclude": [
+    "service providers (from 1 July 2025)",
+    "CPS 230"
+   ]
+  },
+  {
+   "id": "cslr-fy27-estimate",
+   "topic": "Superannuation and advice",
+   "fact": "Revised CSLR levy estimate for 2026–27",
+   "value": "$198.1 million",
+   "status": "estimate",
+   "context": [
+    "CSLR",
+    "Compensation Scheme of Last Resort",
+    "levy"
+   ],
+   "source": {
+    "label": "CSLR: Levies",
+    "url": "https://cslr.org.au/levies/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "cslr-advice-fy27",
+   "topic": "Superannuation and advice",
+   "fact": "Part of the 2026–27 CSLR estimate relating to personal financial advice",
+   "value": "$190.3 million",
+   "status": "estimate",
+   "context": [
+    "CSLR",
+    "Compensation Scheme of Last Resort",
+    "advice",
+    "levy"
+   ],
+   "source": {
+    "label": "CSLR: Levies",
+    "url": "https://cslr.org.au/levies/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "rep833-published",
+   "topic": "Superannuation",
+   "fact": "ASIC REP 833 on platform trustees published",
+   "value": "29 June 2026",
+   "status": "report",
+   "context": [
+    "REP 833",
+    "833",
+    "platform trustees"
+   ],
+   "source": {
+    "label": "ASIC: 26-135MR",
+    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-135mr-asic-calls-platform-trustees-to-account-over-persistent-failures-to-safeguard-super-savings"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "cps230-start",
+   "topic": "APRA standards",
+   "fact": "CPS 230 Operational Risk Management applies",
+   "value": "1 July 2025",
+   "status": "in force",
+   "context": [
+    "CPS 230"
+   ],
+   "source": {
+    "label": "APRA: CPS 230",
+    "url": "https://www.apra.gov.au/standards/cps-230"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": [],
+   "exclude": [
+    "SPS 515"
+   ]
+  },
+  {
+   "id": "cps230-amendments-effective",
+   "topic": "APRA standards",
+   "fact": "Targeted CPS 230 amendments take effect",
+   "value": "1 July 2026",
+   "status": "in force",
+   "context": [
+    "CPS 230",
+    "amendment"
+   ],
+   "source": {
+    "label": "APRA: final targeted amendments to CPS 230",
+    "url": "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": [],
+   "exclude": [
+    "had until 1 July 2026",
+    "pre-existing contracts",
+    "transition"
+   ]
+  },
+  {
+   "id": "cps230-amendments-finalised",
+   "topic": "APRA standards",
+   "fact": "Targeted CPS 230 amendments finalised",
+   "value": "30 April 2026",
+   "status": "in force",
+   "context": [
+    "CPS 230 amendment",
+    "amendments to CPS 230",
+    "targeted amendments"
+   ],
+   "source": {
+    "label": "APRA: final targeted amendments to CPS 230",
+    "url": "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "cps234-incident-notice",
+   "topic": "APRA standards",
+   "fact": "CPS 234: notify APRA of a material information security incident within",
+   "value": "72 hours",
+   "status": "in force",
+   "context": [
+    "CPS 234",
+    "information security incident",
+    "material information security"
+   ],
+   "source": {
+    "label": "APRA: CPS 234",
+    "url": "https://www.apra.gov.au/standards/cps-234"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": [],
+   "exclude": [
+    "ransom",
+    "making the payment",
+    "Cyber Security Act"
+   ]
+  },
+  {
+   "id": "cps190-rse-start",
+   "topic": "APRA standards",
+   "fact": "CPS 190 applies to RSE licensees",
+   "value": "1 January 2025",
+   "status": "in force",
+   "context": [
+    "CPS 190"
+   ],
+   "source": {
+    "label": "APRA: CPS 190",
+    "url": "https://www.apra.gov.au/standards/cps-190"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "cps510-draft-released",
+   "topic": "APRA standards",
+   "fact": "APRA released the draft consolidated CPS 510 Governance",
+   "value": "16 June 2026",
+   "status": "proposed",
+   "context": [
+    "CPS 510",
+    "governance standard",
+    "draft"
+   ],
+   "source": {
+    "label": "APRA: proposed changes to governance",
+    "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "cps510-consultation-closed",
+   "topic": "APRA standards",
+   "fact": "Consultation on the draft CPS 510 closed",
+   "value": "28 August 2026",
+   "status": "proposed",
+   "context": [
+    "CPS 510",
+    "governance"
+   ],
+   "source": {
+    "label": "APRA: proposed changes to governance",
+    "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "cps510-tenure-limit",
+   "topic": "APRA standards",
+   "fact": "Proposed maximum tenure for non-executive directors in the draft CPS 510",
+   "value": "12 years",
+   "status": "proposed",
+   "context": [
+    "tenure",
+    "CPS 510",
+    "non-executive director"
+   ],
+   "source": {
+    "label": "APRA: proposed changes to governance",
+    "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "ai-letter",
+   "topic": "APRA standards",
+   "fact": "APRA letter to industry on artificial intelligence",
+   "value": "30 April 2026",
+   "status": "report",
+   "context": [
+    "artificial intelligence",
+    "AI-related",
+    "letter to industry on AI",
+    "AI letter"
+   ],
+   "source": {
+    "label": "APRA: step-change in AI-related risk management",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-calls-step-change-ai-related-risk-management-and-governance"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "at1-removal-start",
+   "topic": "Banking",
+   "fact": "Removal of Additional Tier 1 capital starts",
+   "value": "1 January 2027",
+   "status": "finalised",
+   "context": [
+    "AT1",
+    "Additional Tier 1"
+   ],
+   "source": {
+    "label": "APRA: AT1 phase-out finalised",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-finalises-changes-to-phase-out-additional-tier-1-capital-instruments"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "dti-limit-start",
+   "topic": "Banking",
+   "fact": "APRA's debt-to-income limit applies",
+   "value": "1 February 2026",
+   "status": "in force",
+   "context": [
+    "debt-to-income",
+    "DTI"
+   ],
+   "source": {
+    "label": "APRA: DTI limits",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "dti-limit-share",
+   "topic": "Banking",
+   "fact": "Maximum share of new lending at a debt-to-income ratio of six or more",
+   "value": "20%",
+   "status": "in force",
+   "context": [
+    "debt-to-income",
+    "DTI",
+    "six or more",
+    "6 or more"
+   ],
+   "source": {
+    "label": "APRA: DTI limits",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "risk-weights-proposed-start",
+   "topic": "Banking",
+   "fact": "Proposed start of lower standardised credit risk weights",
+   "value": "1 April 2027",
+   "status": "proposed",
+   "context": [
+    "risk weight",
+    "APS 112"
+   ],
+   "source": {
+    "label": "APRA: changes to bank risk weights",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-consults-changes-bank-risk-weights-designed-support-lending-and"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "srst-results",
+   "topic": "Banking",
+   "fact": "APRA published System Risk Stress Test results",
+   "value": "30 June 2026",
+   "status": "report",
+   "context": [
+    "System Risk Stress Test",
+    "stress test"
+   ],
+   "source": {
+    "label": "APRA: System Risk Stress Test findings",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-publishes-findings-inaugural-system-risk-stress-test"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "fcs-limit",
+   "topic": "Banking",
+   "fact": "Financial Claims Scheme protection per account holder per ADI",
+   "value": "$250,000",
+   "status": "in force",
+   "context": [
+    "Financial Claims Scheme",
+    "per account holder"
+   ],
+   "source": {
+    "label": "Financial Claims Scheme",
+    "url": "https://www.fcs.gov.au/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "far-insurers-super-start",
+   "topic": "Accountability",
+   "fact": "FAR applies to insurers and super trustees",
+   "value": "15 March 2025",
+   "status": "in force",
+   "context": [
+    "Financial Accountability Regime",
+    "FAR",
+    "insurers and super"
+   ],
+   "source": {
+    "label": "APRA: Financial Accountability Regime",
+    "url": "https://www.apra.gov.au/financial-accountability-regime"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "far-adi-start",
+   "topic": "Accountability",
+   "fact": "FAR applies to banks (ADIs)",
+   "value": "15 March 2024",
+   "status": "in force",
+   "context": [
+    "Financial Accountability Regime",
+    "FAR",
+    "ADI",
+    "bank"
+   ],
+   "source": {
+    "label": "APRA: Financial Accountability Regime",
+    "url": "https://www.apra.gov.au/financial-accountability-regime"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "far-streamlining-close",
+   "topic": "Accountability",
+   "fact": "Consultation on FAR streamlining closed",
+   "value": "2 October 2026",
+   "status": "proposed",
+   "context": [
+    "FAR",
+    "Financial Accountability Regime",
+    "streamlin",
+    "key functions"
+   ],
+   "source": {
+    "label": "ASIC: 26-204MR",
+    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "penalty-unit",
+   "topic": "Enforcement",
+   "fact": "Value of a Commonwealth penalty unit (offences from 1 July 2026)",
+   "value": "$364",
+   "status": "in force",
+   "context": [
+    "penalty unit"
+   ],
+   "source": {
+    "label": "ASIC: fines and penalties",
+    "url": "https://www.asic.gov.au/about-asic/asic-investigations-and-enforcement/fines-and-penalties/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "advice-reforms-announced",
+   "topic": "Financial advice",
+   "fact": "Government confirmed remaining advice reforms",
+   "value": "19 August 2026",
+   "status": "proposed",
+   "context": [
+    "advice",
+    "best interests duty",
+    "new class of adviser",
+    "Delivering Better Financial Outcomes"
+   ],
+   "source": {
+    "label": "ASIC: DBFO package",
+    "url": "https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "aml-reformed-obligations-start",
+   "topic": "Financial crime",
+   "fact": "Reformed AML/CTF obligations apply to existing reporting entities",
+   "value": "31 March 2026",
+   "status": "in force",
+   "context": [
+    "AML/CTF",
+    "reporting entit",
+    "reformed",
+    "AUSTRAC"
+   ],
+   "source": {
+    "label": "AUSTRAC: about the reforms",
+    "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": [],
+   "exclude": [
+    "Enrolment for tranche 2",
+    "enrol"
+   ]
+  },
+  {
+   "id": "aml-tranche2-start",
+   "topic": "Financial crime",
+   "fact": "AML/CTF obligations start for tranche 2 sectors",
+   "value": "1 July 2026",
+   "status": "in force",
+   "context": [
+    "tranche 2",
+    "Tranche 2"
+   ],
+   "source": {
+    "label": "AUSTRAC: about the reforms",
+    "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "scams-main-obligations",
+   "topic": "Financial crime",
+   "fact": "Most Scams Prevention Framework obligations apply from",
+   "value": "31 March 2027",
+   "status": "finalised",
+   "context": [
+    "Scams Prevention Framework",
+    "scam",
+    "sector code"
+   ],
+   "source": {
+    "label": "ACCC: Scams Prevention Framework",
+    "url": "https://www.accc.gov.au/about-us/scams-prevention-framework"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "scams-afca-membership",
+   "topic": "Financial crime",
+   "fact": "AFCA membership required for SPF regulated services",
+   "value": "1 September 2026",
+   "status": "in force",
+   "context": [
+    "Scams Prevention Framework",
+    "AFCA"
+   ],
+   "source": {
+    "label": "ACCC: Scams Prevention Framework",
+    "url": "https://www.accc.gov.au/about-us/scams-prevention-framework"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "privacy-adm-start",
+   "topic": "Privacy and cyber",
+   "fact": "Privacy policies must explain substantially automated decisions",
+   "value": "10 December 2026",
+   "status": "finalised",
+   "context": [
+    "automated decision",
+    "automated decisions"
+   ],
+   "source": {
+    "label": "OAIC",
+    "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "privacy-tranche2-draft",
+   "topic": "Privacy and cyber",
+   "fact": "Exposure draft of the second tranche of Privacy Act reforms released",
+   "value": "31 August 2026",
+   "status": "proposed",
+   "context": [
+    "tranche",
+    "exposure draft",
+    "Personal Data Protection"
+   ],
+   "source": {
+    "label": "AGD: privacy reform consultation",
+    "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "privacy-tranche2-close",
+   "topic": "Privacy and cyber",
+   "fact": "Consultation on the second tranche privacy exposure draft closed",
+   "value": "18 September 2026",
+   "status": "proposed",
+   "context": [
+    "tranche",
+    "exposure draft",
+    "Personal Data Protection",
+    "consultation"
+   ],
+   "source": {
+    "label": "AGD: privacy reform consultation",
+    "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "essential-eight-consult-close",
+   "topic": "Privacy and cyber",
+   "fact": "Consultation on the evolution of the Essential Eight closed",
+   "value": "12 July 2026",
+   "status": "proposed",
+   "context": [
+    "Essential Eight",
+    "Essentials"
+   ],
+   "source": {
+    "label": "ASD: consultation on evolution of Essential Eight",
+    "url": "https://www.cyber.gov.au/about-us/view-all-content/news/consultation-on-evolution-of-essential-eight"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "climate-group2-start",
+   "topic": "Climate and reporting",
+   "fact": "Climate reporting starts for Group 2 (financial years starting on or after)",
+   "value": "1 July 2026",
+   "status": "in force",
+   "context": [
+    "Group 2"
+   ],
+   "source": {
+    "label": "ASIC: sustainability reporting",
+    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "climate-group3-start",
+   "topic": "Climate and reporting",
+   "fact": "Climate reporting starts for Group 3 (financial years starting on or after)",
+   "value": "1 July 2027",
+   "status": "finalised",
+   "context": [
+    "Group 3"
+   ],
+   "source": {
+    "label": "ASIC: sustainability reporting",
+    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "rep839-published",
+   "topic": "Climate and reporting",
+   "fact": "ASIC REP 839 review of first sustainability reports published",
+   "value": "21 September 2026",
+   "status": "report",
+   "context": [
+    "REP 839",
+    "839"
+   ],
+   "source": {
+    "label": "ASIC: sustainability reporting",
+    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "whistleblower-review-close",
+   "topic": "Governance",
+   "fact": "Consultation on the statutory review of whistleblower laws closed",
+   "value": "29 July 2026",
+   "status": "proposed",
+   "context": [
+    "whistleblow"
+   ],
+   "source": {
+    "label": "Treasury: review of tax and corporate whistleblowing",
+    "url": "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/review-tax-and-corporate-whistleblowing"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  },
+  {
+   "id": "asx-5th-consult-close",
+   "topic": "Governance",
+   "fact": "Submissions on the draft ASX Principles 5th edition closed",
+   "value": "14 September 2026",
+   "status": "proposed",
+   "context": [
+    "5th edition",
+    "ASX Corporate Governance Principles",
+    "ASX Principles"
+   ],
+   "source": {
+    "label": "ASX: draft 5th edition consultation paper",
+    "url": "https://www.asx.com.au/content/dam/asx/about/corporate-governance-council/asx-corporate-governance-principles-and-recommendations-draft-5th-edition-consultation-paper.pdf"
+   },
+   "checked": {
+    "date": "2026-10-08",
+    "how": "secondary",
+    "note": ""
+   },
+   "history": []
+  }
+ ]
+}
