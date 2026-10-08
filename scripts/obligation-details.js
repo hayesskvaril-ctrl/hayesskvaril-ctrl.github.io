@@ -171,6 +171,25 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Licensees notify ASIC when a person becomes a relevant provider, and of changes to their details, within 30 business days', 'Corporations Act ss 922D, 922H, 922L(2)']]
     }
   },
+  whistle: {
+    source: [['Corporations Act 2001, Part 9.4AAA, ss 1317AA–1317AI (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['Public companies must have a whistleblower policy and make it available to officers and employees', 'Corporations Act s 1317AI(1)'],
+        ['Large proprietary companies must have one from 6 months after the end of their first financial year as a large proprietary company; proprietary companies that are trustees of registrable superannuation entities must have one', 'Corporations Act s 1317AI(2)–(3)'],
+        ['The policy must explain the protections available, to whom and how protected disclosures can be made, how the company will support and protect whistleblowers, how disclosures will be investigated, how people mentioned in disclosures will be treated fairly, and how the policy is made available', 'Corporations Act s 1317AI(5)'],
+        ['Failing to have the policy is a strict liability offence', 'Corporations Act s 1317AI(4)']],
+      2: [
+        ['Disclosures qualify for protection when an eligible whistleblower (including current and former officers, employees, suppliers and their relatives) has reasonable grounds to suspect misconduct or an improper state of affairs, and discloses to ASIC, APRA, an eligible recipient or a lawyer; disclosers need not identify themselves', 'Corporations Act ss 1317AA, 1317AAA'],
+        ['Eligible recipients include officers and senior managers, auditors, actuaries, people the entity authorises to receive disclosures and, for super funds, trustees and trustee directors', 'Corporations Act s 1317AAC'],
+        ['Public interest and emergency disclosures to journalists or parliamentarians are protected only in limited circumstances, such as after a prior disclosure to a regulator and (for public interest disclosures) at least 90 days and written notice', 'Corporations Act s 1317AAD'],
+        ['Disclosures about a personal work-related grievance are generally not protected, unless they concern victimisation or are made to a lawyer', 'Corporations Act s 1317AADA'],
+        ['Do not disclose the whistleblower’s identity, or information likely to identify them, except as the law allows (for example to ASIC, APRA, the AFP, a lawyer, or with consent)', 'Corporations Act s 1317AAE'],
+        ['Do not cause or threaten detriment to anyone because of a belief or suspicion that they made, or could make, a protected disclosure', 'Corporations Act s 1317AC'],
+        ['A protected discloser is not subject to civil, criminal or administrative liability for making the disclosure, and contractual remedies cannot be enforced against them for it', 'Corporations Act s 1317AB']]
+    }
+  },
   breach: {
     source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
     checkedText: '8 October 2026',
