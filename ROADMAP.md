@@ -402,7 +402,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Phases 60 to 70: financial crime and compliance programs track (8 October 2026); track 8 complete
 - [x] Phases 71 to 78: risk types track (8 October 2026); track 9 complete
 - [x] Phases 79 to 88: frameworks and international standards track (8 October 2026); track 10 complete
-- [ ] Phases 89 to 137: work through `_scripts/depth_roadmap.py` in order (next: Banking and ADIs)
+- [x] Phases 89 to 101: sectors track (8 October 2026); track 11 complete
+- [ ] Phases 102 to 137: work through `_scripts/depth_roadmap.py` in order (next: What is a GRC system?)
 - **Note:** apra.gov.au, legislation.gov.au and most source sites are blocked by this environment's network policy (October 2026); facts were checked via web search excerpts of the official documents. The owner can allow those domains in the environment's network settings.
 
 ## Phase 21 — Earning money without a paywall (requested October 2026)

@@ -36,6 +36,7 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 - /governance/conflicts-of-interest.html (deep review done 7 October 2026: worked example of a director's conflict)
 - /standards/cps-511.html (deep review done 8 October 2026: worked malus example and SFI thresholds)
 - /standards/cps-190-and-cps-900.html (deep review done 8 October 2026: worked example of trustee recovery triggers)
+- /sectors/financial-advice-licensees.html (deep review done 8 October 2026: CSLR levy figures and adviser monitoring example)
 ## Round 2: deeper practice pages
 11. /compliance/breach-significance-analysis.html (worked cases)
 12. /compliance/remediation-calculations.html

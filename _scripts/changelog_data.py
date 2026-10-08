@@ -8,6 +8,19 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/sectors/public-sector.html', 'Public sector: deep review, adding a worked shared risk example'),
+    ('2026-10-08', '/sectors/not-for-profits-and-charities.html', "Not-for-profits and charities: deep review, adding a worked list of a small charity's top risks"),
+    ('2026-10-08', '/sectors/listed-companies.html', 'Listed companies: deep review, adding a worked continuous disclosure example and the 5th edition timeline'),
+    ('2026-10-08', '/sectors/payments-and-fintech.html', 'Payments and fintech: deep review, adding the status of the payments licensing reforms'),
+    ('2026-10-08', '/sectors/credit-and-non-bank-lenders.html', 'Credit and non-bank lenders: deep review, adding a worked responsible lending assessment'),
+    ('2026-10-08', '/sectors/financial-advice-licensees.html', 'Financial advice licensees: deep review, adding the 2026-27 CSLR levy and a worked fee monitoring example'),
+    ('2026-10-08', '/standards/asic-rg-259.html', "RG 259: deep review, adding a worked summary of a responsible entity's main risks"),
+    ('2026-10-08', '/sectors/managed-investment-schemes.html', 'Managed investment schemes: deep review, adding a worked liquidity mismatch example and the CSLR special levy'),
+    ('2026-10-08', '/sectors/private-health-insurance.html', 'Private health insurance: deep review, adding a worked example on waiting periods when switching'),
+    ('2026-10-08', '/sectors/life-insurance.html', 'Life insurance: deep review, adding a worked claim and disclosure example'),
+    ('2026-10-08', '/sectors/general-insurance.html', 'General insurance: deep review, adding a worked pricing promise review'),
+    ('2026-10-08', '/sectors/insurance.html', 'Insurance overview: deep review, adding common weak spots and board questions'),
+    ('2026-10-08', '/sectors/banking.html', "Banking and ADIs: deep review, adding a worked example of APRA's debt-to-income limit"),
     ('2026-10-08', '/standards/asic-regulatory-guides.html', 'ASIC regulatory guides: deep review, adding how to read a regulatory guide'),
     ('2026-10-08', '/standards/global-internal-audit-standards.html', 'Global Internal Audit Standards: deep review, adding key requirements and topical requirement dates'),
     ('2026-10-08', '/standards/iso-42001.html', 'ISO/IEC 42001: deep review, adding a worked example of starting an AI management system'),
