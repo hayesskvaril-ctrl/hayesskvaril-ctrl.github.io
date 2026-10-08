@@ -125,7 +125,7 @@ DONE = {
     "/standards/sps-530.html": ("2 October 2026",
         "Expanded requirement by requirement: the framework and its three-yearly independent review, objectives "
         "and the SIS Act investment covenant, due diligence, monitoring, the valuation policy, liquidity "
-        "management and stress testing; APRA's Canva and unlisted valuation reviews; the June 2026 proposals "
+        "management and stress testing; APRA's Canva and unlisted valuation reviews; the September 2026 proposals "
         "after Shield and First Guardian; a revaluation trigger example; board questions and FAQs."),
     "/sectors/superannuation.html": ("2 October 2026",
         "Every claim re-checked; added insurance in super (inactive and low-balance rules, claims handling and ASIC's Report 831), recent enforcement (AustralianSuper, Cbus, Australian Ethical, Mercer, platform trustees), a key dates table, Payday Super and Division 296 updates, the June 2026 CPS 510 consultation, common weak spots, board questions and FAQs."),

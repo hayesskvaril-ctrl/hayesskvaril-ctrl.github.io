@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/standards/sps-530.html', 'SPS 530: corrected the date of APRA\'s proposals to strengthen investment governance (released 30 September 2026, submissions close 3 February 2027) and added the detail of the eight proposed areas'),
     ('2026-10-08', '/about/roadmap.html', 'Deep review complete: all 137 articles re-checked against current law and regulator guidance, and expanded'),
     ('2026-10-08', '/risk-management/human-factors-and-bias.html', 'Human factors and bias: deep review, adding a worked pre-mortem'),
     ('2026-10-08', '/risk-management/climate-risk-research.html', 'Climate risk research: deep review, adding implications for super trustees'),
@@ -147,7 +148,7 @@ UPDATES = [
     ('2026-10-02', '/sectors/fund-mergers-and-successor-fund-transfers.html', 'Fund mergers page expanded: the merger process stage by stage, tax relief, performance test histories, the 2026 ACCC merger regime, common mistakes, board questions and key dates.'),
     ('2026-10-02', '/standards/asic-rg-97.html', "RG 97 page expanded: super fee rules beyond disclosure, common mistakes, fee governance questions, key dates, FAQs, and the latest on stamp duty averaging and ASIC's 2026–27 review."),
     ('2026-10-02', '/sectors/superannuation.html', 'Superannuation trustee governance page expanded: insurance in super, recent enforcement cases, a key dates table, Payday Super and Division 296, board questions and FAQs.'),
-    ("2026-10-02", "/standards/sps-530.html", "SPS 530 page expanded in depth: every requirement explained, valuation policy and revaluation triggers, liquidity and stress testing, APRA's 2023 to 2026 findings on unlisted valuations, and APRA's June 2026 proposals after the Shield and First Guardian collapses."),
+    ("2026-10-02", "/standards/sps-530.html", "SPS 530 page expanded in depth: every requirement explained, valuation policy and revaluation triggers, liquidity and stress testing, APRA's 2023 to 2026 findings on unlisted valuations, and APRA's 2026 proposals after the Shield and First Guardian collapses."),
     ("2026-10-02", "", "Tables in articles now line up with the text column on large screens."),
     ("2026-10-02", "/standards/sps-515.html", "SPS 515 page rewritten in depth: every requirement of the 2025 version explained, APRA's crackdown on super fund spending and what it found, how SPS 515 fits with the SIS Act, a worked example, common mistakes, board questions, FAQs and a timeline."),
     ("2026-10-02", "/about/roadmap.html", "New deep review roadmap: every article is being re-checked line by line and expanded, one phase per article, with progress shown on the home page."),
