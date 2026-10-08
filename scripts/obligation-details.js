@@ -238,6 +238,40 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Give remediations adequate resourcing and governance, with senior management commitment and, where appropriate, an independent expert', 'RG 277 Table 1, principle 9; RG 277.220–277.226']]
     }
   },
+  conflicts: {
+    source: [['Corporations Act 2001, s 912A(1)(aa) (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 181 AFS licensing: Managing conflicts of interest (December 2025)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-181-licensing-managing-conflicts-of-interest/']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['AFS licensees must have adequate arrangements to manage conflicts of interest arising in providing financial services (a civil penalty provision)', 'Corporations Act s 912A(1)(aa), (5A); RG 181.48'],
+        ['Take a proportionate, risk-based approach that reflects other legal requirements, the likelihood and seriousness of each conflict and the harm it could cause, and the nature, scale and complexity of the business', 'RG 181.50–181.59'],
+        ['Other duties may require putting clients’ or members’ interests first or stronger arrangements, and some conflicts are prohibited outright (such as conflicted remuneration)', 'RG 181.54–181.55'],
+        ['Have arrangements to identify, assess and respond to conflicts, and to check that responses stay effective', 'RG 181.60; RG 181 Table 2, steps 1–3'],
+        ['Manage conflicts through a combination of avoiding, controlling and disclosing them; disclosure alone is often not enough', 'RG 181.64–181.65']],
+      2: [
+        ['Implement, monitor, maintain and review the arrangements, with senior management (and, where appropriate, board) approval, staff training, accountable people, compliance monitoring and disciplinary measures', 'RG 181.61; RG 181 Table 2, step 4'],
+        ['Be able to show the arrangements are integrated into business operations; having a policy is not enough', 'RG 181 Table 2, step 4'],
+        ['Document identified conflicts and actions taken (for example in a conflicts register), reports to senior management, and disclosures given to affected parties', 'RG 181.63']]
+    }
+  },
+  capital: {
+    source: [['Prudential Standard APS 110 Capital Adequacy (F2024L01518, in force from 1 January 2025). Banks (ADIs) only so far: insurers have their own capital standards (GPS, LPS and HPS 110), not yet itemised here', 'https://www.legislation.gov.au/F2024L01518/asmade/text']],
+    checkedText: '8 October 2026',
+    themes: {
+      1: [
+        ['ADIs: the Board ensures capital is commensurate with the type, amount and concentration of risks, having regard to prospective changes in the risk profile', 'APS 110 para 12'],
+        ['ADIs: maintain capital ratios above the prudential capital requirements at all times; the minimums are {fact:cet1-minimum} Common Equity Tier 1, 6.0% Tier 1 and 8.0% Total Capital, and APRA may set higher requirements (which must not be publicly disclosed)', 'APS 110 paras 24–25'],
+        ['ADIs: hold a capital conservation buffer of Common Equity Tier 1 (2.5% for standardised ADIs, 3.75% for IRB ADIs, plus 1.0% for domestic systemically important banks), or face limits on distributions', 'APS 110 paras 27–28, 30'],
+        ['ADIs: hold a countercyclical capital buffer of Common Equity Tier 1, calculated by jurisdiction', 'APS 110 para 32'],
+        ['IRB ADIs: maintain a leverage ratio of at least 3.5%', 'APS 110 para 37'],
+        ['ADIs: get APRA’s approval before any planned reduction in capital, and notify APRA of any breach or likely breach of the capital requirements and the remedial action', 'APS 110 paras 40, 44']],
+      2: [
+        ['ADIs: have an internal capital adequacy assessment process (ICAAP), documented, approved by the Board and appropriate to size, business mix and complexity', 'APS 110 paras 14–15'],
+        ['ADIs: have the ICAAP reviewed by qualified, operationally independent people at least every three years', 'APS 110 para 19'],
+        ['ADIs: prepare an annual ICAAP report, including current and three-year projected capital against requirements and targets, and give it to APRA within three months of the period end', 'APS 110 paras 20–21'],
+        ['ADIs: the ICAAP report comes with a declaration approved by the Board and signed by the CEO on whether capital was managed in line with the ICAAP', 'APS 110 para 22']]
+    }
+  },
   breach: {
     source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
     checkedText: '8 October 2026',
