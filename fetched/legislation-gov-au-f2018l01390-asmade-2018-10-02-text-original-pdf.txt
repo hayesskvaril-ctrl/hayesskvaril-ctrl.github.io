@@ -1,0 +1,1316 @@
+SOURCE: https://www.legislation.gov.au/F2018L01390/asmade/2018-10-02/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2018L01390/asmade/2018-10-02/text/original/pdf
+FETCHED: 2026-10-08
+
+Banking, Insurance, Life Insurance and Health
+Insurance (prudential standard) determination No.2 of
+2018
+
+Prudential Standard CPS 520 Fit and Proper
+
+Banking Act 1959
+Insurance Act 1973
+Life Insurance Act 1995
+Private Health Insurance (Prudential Supervision) Act 2015
+I, Geoff Summerhayes, a delegate of APRA:
+
+(a)   under subsection 11AF(3) of the Banking Act 1959 REVOKE Banking,
+      Insurance and Life Insurance (prudential standard) determination No. 9 of
+      2016, including Prudential Standard CPS 520 Fit and Proper made under that
+      Determination, to the extent that it applied to all ADIs and authorised banking
+      NOHCs;
+
+(b)   under subsection 32(4) of the Insurance Act 1973 REVOKE Banking,
+      Insurance and Life Insurance (prudential standard) determination No. 9 of
+      2016, including Prudential Standard CPS 520 Fit and Proper made under that
+      Determination, to the extent that it applied to all general insurers, authorised
+      insurance NOHCs, and subsidiaries of general insurers and authorised
+      insurance NOHCs;
+
+(c)   under subsection 230A(5) of the Life Insurance Act 1995 REVOKE Banking,
+      Insurance and Life Insurance (prudential standard) determination No. 9 of
+      2016, including Prudential Standard CPS 520 Fit and Proper made under that
+      Determination, to the extent that it applied to life companies, friendly
+      societies, registered life NOHCs, and subsidiaries of life companies and
+      registered life NOHCs;
+
+(d)   under subsection 11AF(1) of the Banking Act 1959 DETERMINE Prudential
+      Standard CPS 520 Fit and Proper in the form set out in the Schedule, to the
+      extent that it applies to all ADIs and authorised banking NOHCs;
+
+
+
+
+                      Authorised Version F2018L01390 registered 02/10/2018
+(e)   under subsection 32(1) of the Insurance Act 1973 DETERMINE Prudential
+      Standard CPS 520 Fit and Proper in the form set out in the Schedule, to the
+      extent that it applies to all general insurers, authorised insurance NOHCs, and
+      subsidiaries of general insurers and authorised insurance NOHCs;
+
+(f)   under subsection 230A(1) of the Life Insurance Act 1995 DETERMINE
+      Prudential Standard CPS 520 Fit and Proper in the form set out in the
+      Schedule, to the extent that it applies to all life companies, friendly societies,
+      registered life NOHCs, and subsidiaries of life companies and registered life
+      NOHCs; and
+
+(g)   under subsection 92(1) of the Private Health Insurance (Prudential
+      Supervision) Act 2015 DETERMINE Prudential Standard CPS 520 Fit and
+      Proper in the form set out in the Schedule, to the extent that it applies to all
+      private health insurers.
+
+This instrument commences on 1 July 2019.
+
+
+
+Dated 14 September 2018
+
+
+
+
+Geoff Summerhayes
+
+Member
+
+
+
+
+                       Authorised Version F2018L01390 registered 02/10/2018
+Interpretation
+In this Determination:
+ADI has the meaning given in section 5 of the Banking Act 1959.
+APRA means the Australian Prudential Regulation Authority.
+authorised banking NOHC has the meaning given to the expression authorised
+NOHC in section 5 of the Banking Act 1959.
+authorised insurance NOHC has the meaning given to the expression authorised
+NOHC in subsection 3(1) of the Insurance Act 1973.
+friendly society has the meaning given in section 16C of the Life Insurance Act 1995.
+general insurer has the meaning given in section 11 of the Insurance Act 1973.
+life company has the meaning given in the Schedule to the Life Insurance Act 1995.
+private health insurer has the meaning given in section 4(1) of Private Health
+Insurance (Prudential Supervision) Act 2015.
+registered life NOHC has the meaning given to the expression registered NOHC in
+the Schedule to the Life Insurance Act 1995.
+
+
+
+
+Schedule
+Prudential Standard CPS 520 Fit and Proper comprises the 24 pages commencing on
+the following page.
+
+
+
+
+                         Authorised Version F2018L01390 registered 02/10/2018
+                                                                                  July 2019
+
+
+
+
+Prudential Standard CPS 520
+Fit and Proper
+Objectives and key requirements of this Prudential
+Standard
+
+This Prudential Standard sets out minimum requirements for APRA-regulated
+institutions in determining the fitness and propriety of individuals to hold positions of
+responsibility. Its objective is to ensure that an institution prudently manages the risks
+that persons acting in responsible person positions who are not fit and proper pose to
+the institution’s business and financial standing.
+
+The ultimate responsibility for ensuring the fitness and propriety of the responsible
+persons of an APRA-regulated institution rests with its Board of directors (or
+equivalent).
+
+Persons who are responsible for the management and oversight of an APRA-regulated
+institution, and persons employed by a member of the group whose activities may
+materially affect the business or financial standing of the group, need to have
+appropriate skills, experience and knowledge, and act with honesty and integrity.
+These skills and qualities strengthen the protection afforded to depositors,
+policyholders and other stakeholders. To this end, institutions need to prudently
+manage the risk that persons in positions of responsibility might not be fit and proper.
+
+The key requirements of this Prudential Standard are that an APRA-regulated
+institution and a Head of a group must:
+
+     maintain a Fit and Proper Policy that meets the requirements of this Prudential
+      Standard;
+
+     ensure that the fitness and propriety of a responsible person generally be
+      assessed prior to initial appointment and then re-assessed annually;
+
+     take all prudent steps to ensure that a person is not appointed to, or does not
+      continue to hold, a responsible person position for which they are not fit and
+      proper;
+
+     ensure that additional requirements be met for certain auditors and Appointed
+      and Reviewing Actuaries; and
+
+
+                                                                                CPS 520 - 1
+                         Authorised Version F2018L01390 registered 02/10/2018
+                                                                              July 2019
+
+
+   ensure that certain information be provided to APRA regarding responsible
+    persons and the APRA-regulated institution’s and Head of a group’s assessment
+    of their fitness and propriety.
+
+
+
+
+                                                                            CPS 520 - 2
+                     Authorised Version F2018L01390 registered 02/10/2018
+                                                                                                         July 2019
+
+
+Table of Contents
+
+Authority ........................................................................................................... 4
+Application ....................................................................................................... 4
+Interpretation .................................................................................................... 5
+Fit and Proper Policy........................................................................................ 6
+Additional requirements of the Head of a group ............................................... 7
+Responsible persons ....................................................................................... 7
+Senior managers.............................................................................................. 8
+Criteria to determine if a responsible person is fit and proper ........................ 10
+Additional criteria applying to auditors ........................................................... 10
+Additional criteria applying to Appointed Actuaries ........................................ 12
+Process for assessment of fitness and propriety............................................ 13
+Whistleblowing ............................................................................................... 15
+When a responsible person is not fit and proper ............................................ 16
+Informing APRA ............................................................................................. 16
+Adjustments and exclusions........................................................................... 17
+Determinations made under previous prudential standards ........................... 17
+Attachment A - Responsible persons of authorised deposit-taking
+institutions and authorised banking NOHCs .................................................. 18
+Attachment B - Responsible persons of foreign authorised deposit-taking
+institutions ...................................................................................................... 19
+Attachment C - Responsible persons of general insurers and authorised
+insurance NOHCs .......................................................................................... 20
+Attachment D - Responsible persons of Category C insurers ........................ 21
+Attachment E - Responsible persons of life companies and registered life
+NOHCs .......................................................................................................... 22
+Attachment F - Responsible persons of eligible foreign life insurance
+companies ..................................................................................................... 23
+Attachment G – Responsible persons of private health insurers ................... 24
+
+
+
+
+                                                                                                      CPS 520 - 3
+                                 Authorised Version F2018L01390 registered 02/10/2018
+                                                                                            July 2019
+
+
+Authority
+
+1.       This Prudential Standard is made under:
+
+         (a)   section 11AF of the Banking Act 1959 (Banking Act);
+
+         (b)   section 32 of the Insurance Act 1973 (Insurance Act);
+
+         (c)   section 230A of the Life Insurance Act 1995 (Life Insurance Act); and
+
+         (d)   section 92 of the Private Health Insurance (Prudential Supervision Act)
+               2015 (PHIPS Act).
+
+Application
+
+    2.   This Prudential Standard applies to all ‘APRA-regulated institutions’,1 defined
+         as:
+
+         (a)   all authorised deposit-taking institutions (ADIs), including foreign
+               ADIs, and non-operating holding companies authorised under the
+               Banking Act (authorised banking NOHCs);
+
+         (b)   all general insurers, including Category C insurers, non-operating
+               holding companies authorised under the Insurance Act (authorised
+               insurance NOHCs) and parent entities of Level 2 insurance groups;
+
+         (c)   all life companies, including friendly societies and eligible foreign life
+               insurance companies (EFLICs), and non-operating holding companies
+               registered under the Life Insurance Act (registered life NOHCs); and
+
+         (d)   all private health insurers registered under the PHIPS Act.
+
+3.       All APRA-regulated institutions have to comply with this Prudential Standard
+         in its entirety, unless otherwise expressly indicated. The obligations imposed by
+         this Prudential Standard on, or in relation to, a foreign ADI, a Category C
+         insurer or an EFLIC apply only in relation to the Australian branch operations
+         of that institution.
+
+4.       Where an APRA-regulated institution is the ‘Head of a group’,2 it must comply
+         with a requirement of this Prudential Standard:
+
+         (a)   in its capacity as an APRA-regulated institution;
+
+         (b)   by ensuring that a requirement is applied appropriately throughout the
+               group, including in relation to institutions that are not APRA-regulated;
+               and
+
+1
+         Note, for the purposes of this Prudential Standard, an RSE licensee is not treated as an ‘APRA-
+         regulated institution’. Refer to Prudential Standard SPS 520 Fit and Proper (SPS 520) for
+         fitness and propriety requirements for an RSE licensee.
+2
+         Where a Level 2 group operates within a Level 3 group, a requirement expressed as applying to
+         a Head of a group is to be read as applying to the Level 3 Head.
+
+
+
+                                                                                         CPS 520 - 4
+                              Authorised Version F2018L01390 registered 02/10/2018
+                                                                                July 2019
+
+
+     (c)   where specified, on a group basis.
+
+     In applying the requirements of this Prudential Standard on a group basis,
+     references in paragraphs 12 to 16 and 25 to 61 to an ‘APRA-regulated
+     institution’ should be read as ‘Head of a group’ and references to ‘institution’
+     should be read as ‘group’.
+
+5.   This Prudential Standard commences on 1 July 2019.
+
+Interpretation
+
+6.   Terms that are defined in Prudential Standard 3PS 001 Definitions, Prudential
+     Standard APS 001 Definitions (APS 001), Prudential Standard GPS 001
+     Definitions (GPS 001), Prudential Standard LPS 001 Definitions or Prudential
+     Standard HPS 001 Definitions (HPS 001) appear in bold the first time they are
+     used in this Prudential Standard.
+
+7.   Where this Prudential Standard provides for APRA to exercise a power or
+     discretion, this power or discretion is to be exercised in writing.
+
+8.   For the purposes of this Prudential Standard:
+
+     ‘group’ means a Level 2 group or a Level 3 group, as relevant;
+
+     ‘Head of a group’ means a Level 2 Head or Level 3 Head, as relevant;
+
+     ‘Level 2 group’ means the entities that comprise:
+
+     (a)   Level 2 as defined in APS 001; or
+
+     (b)   a Level 2 insurance group as defined in GPS 001;
+
+     Level 2 Head’ means:
+
+     (a)   where an ADI that is a member of a Level 2 group is not a subsidiary of
+           an authorised banking NOHC or another ADI, that ADI;
+
+     (b)   where an ADI that is a member of a Level 2 group is a subsidiary of an
+           authorised banking NOHC, that authorised banking NOHC; or
+
+     (c)   the parent entity of a Level 2 insurance group as defined in GPS 001.
+
+9.   For the purposes of this Prudential Standard, a reference to an ‘auditor’ is taken
+     to be a reference to a person holding any of the following positions unless
+     otherwise specified:
+
+     (a)   ‘Appointed auditor’ has the meaning given in APS 001, in relation to an
+           ADI or authorised banking NOHC;
+
+     (b)   ‘Appointed Auditor’ has the meaning given in GPS 001, in relation to a
+           general insurer (including a Category C insurer);
+
+     (c)   ‘Auditor’ has the meaning given in Prudential Standard LPS 310 Audit
+
+                                                                              CPS 520 - 5
+                       Authorised Version F2018L01390 registered 02/10/2018
+                                                                                          July 2019
+
+
+             and Related Matters (LPS 310), in relation to a life company (including
+             an EFLIC);
+
+      (d)    ‘responsible auditor’ has the meaning given in GPS 001, in relation to an
+             authorised insurance NOHC, and, in relation to a registered life NOHC, is
+             an auditor who is required to prepare a report under the Life Insurance
+             Act, prudential standards made under the Life Insurance Act or reporting
+             standards made under the Financial Sector (Collection of Data) Act 2001
+             (FSCODA);
+
+      (e)    ‘Appointed Auditor’ has the meaning given in Prudential Standard 3PS
+             310 Audit and Related Matters, in relation to a Level 3 Head; and
+
+      (f)    ‘Appointed Auditor’ has the meaning given in Prudential Standard HPS
+             310 Audit and Related Matters in relation to a private health insurer.
+
+10.   In this Prudential Standard, the term ‘Prudential Acts’ is used to refer to the
+      Banking Act, the Insurance Act and the Life Insurance Act.
+
+11.   This Prudential Standard specifies:
+
+      (a)    the senior management responsibilities for the purposes of the definition
+             of senior manager in the Prudential Acts3 and the definition of officer in
+             the PHIPS Act;
+
+      (b)    the fitness and propriety criteria for auditors and Appointed Actuaries for
+             the purposes of the Prudential Acts4 and the PHIPS Act;
+
+      (c)    the fitness and propriety criteria for certain responsible persons for the
+             purposes of the Prudential Acts5 and the PHIPS Act; and
+
+      (d)    the fitness and propriety criteria for the purposes of paragraph 21(3)(b) of
+             the Banking Act.
+
+Fit and Proper Policy
+
+12.   An APRA-regulated institution must prudently manage the risks that persons
+      acting in responsible person positions6 who are not fit and proper pose to the
+
+3
+      Refer to subsection 5(1) of the Banking Act in relation to ADIs and authorised banking NOHCs,
+      subsection 3(1) of the Insurance Act in relation to general insurers and authorised insurance
+      NOHCs, and section 8 of the Life Insurance Act in relation to life companies and registered life
+      NOHCs.
+4
+      Refer to paragraph 17(2)(b) of the Banking Act in relation to ADIs and authorised banking
+      NOHCs, paragraphs 39(3)(a) and 43(2)(c), and subparagraph 44(1)(a)(iii), of the Insurance Act
+      in relation to general insurers and authorised insurance NOHCs, and section 84 and subsection
+      93(3) of the Life Insurance Act in relation to life companies and registered life NOHCs.
+5
+      Refer to paragraph 23(2)(b) of the Banking Act in relation to ADIs and authorised banking
+      NOHCs, paragraphs 25A(3)(b), 27(2)(b), 43(2)(b), 44(3)(b) and 49R(3)(b), and subparagraph
+      44(1)(a)(ii), of the Insurance Act in relation to general insurers and authorised insurance
+      NOHCs, and section 245A(3)(b) of the Life Insurance Act in relation to life companies and
+      registered life NOHCs.
+6
+      Refer to paragraph 24 for the definition of responsible person position.
+
+
+
+                                                                                       CPS 520 - 6
+                           Authorised Version F2018L01390 registered 02/10/2018
+                                                                                            July 2019
+
+
+      institution’s business and financial standing. To this end, an APRA-regulated
+      institution must maintain a documented policy relating to the fitness and
+      propriety of the institution’s responsible persons that meets the requirements of
+      this Prudential Standard (Fit and Proper Policy).
+
+13.   The Fit and Proper Policy must be approved by the Board.7
+
+14.   An APRA-regulated institution must take all reasonable steps to ensure that
+      each responsible person is aware of, and understands, the provisions of its Fit
+      and Proper Policy.
+
+15.   The Fit and Proper Policy must form part of an institution’s risk management
+      framework.8
+
+16.   Nothing in this Prudential Standard prevents an APRA-regulated institution
+      from adopting and applying a group Fit and Proper Policy used by a related
+      body corporate9, provided that the policy has been approved by the Board in
+      accordance with paragraph 13 and meets the requirements of this Prudential
+      Standard.
+
+Additional requirements of the Head of a group
+
+17.   The Head of a group must maintain a group Fit and Proper Policy (refer to
+      paragraphs 12 to 16).
+
+18.   Where an entity within the group that is not an APRA-regulated institution
+      engages in business activities that may materially affect, either directly or
+      indirectly, the whole, or a substantial part, of the group, the Head of the group
+      must ensure that the responsible persons for those business activities are
+      assessed for fitness and propriety in a way that complies with the group Fit and
+      Proper Policy.10
+
+19.   The Head of a group must notify APRA in accordance with paragraphs 56 to 61
+      in respect of each responsible person across the group, except where an APRA-
+      regulated institution within the group has otherwise notified APRA of that
+      information.
+
+Responsible persons
+
+20.   A ‘responsible person’ is:
+
+      (a)    for an ADI (other than a foreign ADI) or an authorised banking NOHC, a
+             person defined in Attachment A;
+
+      (b)    for a foreign ADI, a person defined in Attachment B;
+7
+      A reference to the Board in the case of a foreign ADI is a reference to the senior officer outside
+      Australia.
+8
+      Refer to Prudential Standard CPS 220 Risk Management.
+9
+      Related body corporate has the meaning given in section 50 of the Corporations Act 2001
+      (Corporations Act).
+10
+      This paragraph does not override any requirements in SPS 520 applying to an RSE licensee.
+
+
+
+                                                                                        CPS 520 - 7
+                            Authorised Version F2018L01390 registered 02/10/2018
+                                                                                             July 2019
+
+
+      (c)    for a general insurer (other than a Category C insurer) or an authorised
+             insurance NOHC, a person defined in Attachment C;
+
+      (d)    for a Category C insurer, a person defined in Attachment D;
+
+      (e)    for a life company (other than an EFLIC) or a registered life NOHC, a
+             person defined in Attachment E;
+
+      (f)    for an EFLIC, a person defined in Attachment F;
+
+      (g)    for the purposes of a group, a person whose activities may materially
+             affect, either directly or indirectly, the whole, or a substantial part, of the
+             business or financial status of the group; and
+
+      (h)    for a private health insurer, a person defined in Attachment G.
+
+21.   A person need not be an employee of an APRA-regulated institution to be a
+      responsible person. In some circumstances a consultant, contractor or employee
+      of another entity may be a responsible person.
+
+22.   In addition to persons who meet the definition of a responsible person, APRA
+      may determine that a person is a responsible person if APRA is satisfied that the
+      person plays a significant role in the management or control of the APRA-
+      regulated institution or group, or that the person’s activities may materially
+      impact on prudential matters.
+
+23.   APRA may determine that a person is not a responsible person in relation to a
+      particular position, responsibility or activity if APRA is satisfied that the person
+      does not play a significant role in the management or control of the APRA-
+      regulated institution or group or that the person’s activities may not materially
+      impact on prudential matters.
+
+24.   ‘Responsible person position’ means the responsibilities or activities of a
+      responsible person that would lead to the person being a responsible person
+      under the definition in paragraph 20.
+
+Senior managers
+
+25.   ‘Senior manager’, or a person who has or exercises senior management
+      responsibilities11, means a person (other than a director) who:
+
+      (a)    makes, or participates in making, decisions that affect the whole, or a
+             substantial part, of the business of the institution;
+
+      (b)    has the capacity to affect significantly the institution’s financial
+             standing12;
+
+11
+      For the purposes of an ‘officer’ as defined in subsection 4(1) of the PHIPS Act, in this case
+      excluding a CEO or director.
+12
+      Paragraphs 25(a) and (b) are intended to be interpreted consistently with the definition of ‘senior
+      manager’ (in relation to a corporation) in section 9 of the Corporations Act.
+
+
+
+                                                                                         CPS 520 - 8
+                            Authorised Version F2018L01390 registered 02/10/2018
+                                                                                             July 2019
+
+
+      (c)      may materially affect the whole, or a substantial part, of the business of
+               the institution or its financial standing through their responsibility for:
+
+            (i)     enforcing policies and implementing strategies approved by the
+                    Board of the APRA-regulated institution;
+
+            (ii)    the development and implementation of systems used to identify,
+                    assess, manage or monitor risks in relation to the business of the
+                    institution; or
+
+        (iii)       monitoring the appropriateness, adequacy and effectiveness of risk
+                    management systems; or
+
+      (d)      for a foreign ADI or Category C insurer, is nominated as the senior officer
+               outside Australia to the extent that the person meets the definition in
+               subparagraphs (a), (b) or (c).
+
+26.   For the purposes of the definition of senior manager in the Prudential Acts13 and
+      the definition of officer in the PHIPS Act14, the responsibilities set out in
+      paragraph 25, when exercised for an APRA-regulated institution, are senior
+      management responsibilities (except where carried out by a director).
+
+27.   ‘Senior manager’, in relation to a corporate agent of a Category C insurer,
+      means a person (other than a director of the corporate agent) who, when acting
+      for the corporate agent:
+
+      (a)      makes, or participates in making, decisions that affect the whole, or a
+               substantial part, of the business of the Category C insurer represented by
+               the corporate agent;
+
+      (b)      has the capacity to affect significantly the Category C insurer’s financial
+               standing;15 or
+
+      (c)      may materially affect the whole, or a substantial part, of the business of
+               the Category C insurer or its financial standing through:
+
+            (i)     enforcing policies and implementing strategies approved by the
+                    Board of the Category C insurer;
+
+            (ii)    the development and implementation of systems that identify,
+                    assess, manage or monitor risks in relation to the business of the
+                    Category C insurer; or
+
+        (iii)       monitoring the appropriateness, adequacy and effectiveness of risk
+                    management systems.
+13
+      Refer to subsection 5(1) of the Banking Act, subsection 3(1) of the Insurance Act and section 8
+      of the Life Insurance Act.
+14
+      In relation to section 4(1) of the PHIPS Act, only category (c) in the definition of ‘officer’ is
+      relevant here.
+15
+      Paragraphs 27(a) and (b) are intended to be interpreted consistently with the definition of ‘senior
+      manager’ (in relation to a corporation) in section 9 of the Corporations Act.
+
+
+
+                                                                                         CPS 520 - 9
+                            Authorised Version F2018L01390 registered 02/10/2018
+                                                                                          July 2019
+
+
+28.   For the purposes of the definition of senior manager in subsection 3(1) of the
+      Insurance Act, the responsibilities set out in paragraph 27, when exercised for a
+      corporate agent in respect of an APRA-regulated institution, are senior
+      management responsibilities (except when carried out by a director of the
+      corporate agent).
+
+Criteria to determine if a responsible person is fit and proper
+
+29.   An APRA-regulated institution must clearly define and document the
+      competencies required for each responsible person position.
+
+30.   For the purposes of the Prudential Acts and the PHIPS Act and for the purposes
+      of determining whether a person is fit and proper to hold a responsible person
+      position, the criteria are whether: 16
+
+      (a)      it would be prudent for an APRA-regulated institution to conclude that the
+               person possesses the competence, character, diligence, honesty, integrity
+               and judgement to perform properly the duties of the responsible person
+               position;
+
+      (b)      the person is not disqualified under an applicable Prudential Act or the
+               PHIPS Act from holding the position;
+
+      (c)      the person either:
+
+            (i)      has no conflict of interest in performing the duties of the responsible
+                     person position; or
+
+            (ii)     if the person has a conflict of interest, it would be prudent for an
+                     APRA-regulated institution to conclude that the conflict will not
+                     create a material risk that the person will fail to perform properly the
+                     duties of the position; and
+
+      (d)      for a senior manager of a corporate agent of a general insurer, the person
+               is ordinarily resident in Australia.
+
+Additional criteria applying to auditors17
+
+31.   The criteria for fitness and propriety of an auditor for the purposes of the
+      Prudential Acts are those contained in paragraphs 30 and 32.18
+
+
+
+16
+      Refer to paragraphs 21(3)(b) and 23(2)(b) of the Banking Act, paragraphs 25A(3)(b), 27(2)(b),
+      43(2)(b) and 44(3)(b) and subparagraph 44(1)(a)(ii) of the Insurance Act, paragraph 245A(3)(b)
+      of the Life Insurance Act and subsections 120(1)(a) and 120(3)(a) of the PHIPS Act. Paragraphs
+      32 and 35 to 36 provide additional criteria for fitness and propriety of an auditor or Appointed
+      Actuary (as applicable) and the eligibility criteria that must be met before an auditor or
+      Appointed Actuary may be appointed (other than a criterion that APRA has determined under
+      paragraphs 33 or 37 does not apply in relation to a particular case).
+17
+      Refer to Prudential Standard CPS 510 Governance (CPS 510) for the requirement for auditors
+      to be independent.
+
+
+
+                                                                                     CPS 520 - 10
+                           Authorised Version F2018L01390 registered 02/10/2018
+                                                                                         July 2019
+
+
+32.   The additional criteria which must be met for an auditor to be fit and proper are
+      that the person:
+
+      (a)      is a registered company auditor under the Corporations Act;
+
+      (b)      has a minimum of five years’ relevant experience in the audit of APRA-
+               regulated institutions in the industry within which they are working;
+
+      (c)      is neither the Chief Executive Officer (CEO) nor a director of the APRA-
+               regulated institution nor of a related body corporate;
+
+      (d)      has experience relating to ADIs, general insurers, life companies or
+               private health insurers (as applicable) that is sufficiently relevant and
+               recent to provide reasonable assurance that the person is familiar with
+               current issues in the audit of that type of APRA-regulated institution;
+
+      (e)      for an Appointed Auditor of a general insurer19 or responsible auditor of
+               an authorised insurance NOHC, is not:
+
+            (i)      for the Appointed Auditor of a general insurer, the Appointed
+                     Actuary of the general insurer or, for the responsible auditor of an
+                     authorised insurance NOHC, the Appointed Actuary of a general
+                     insurer that is a subsidiary of the authorised insurance NOHC;
+
+            (ii)     an employee or director of a body corporate, statutory body,
+                     partnership, trust, or commercial or professional enterprise of any
+                     kind of which that Appointed Actuary is an employee or director20;
+                     or
+
+        (iii)        a partner of that Appointed Actuary;
+
+      (f)      for an Auditor of a life company or responsible auditor of a registered life
+               NOHC, is not:
+
+        (iv)         the Appointed Actuary of the life company or of a life company
+                     that is a subsidiary of the registered life NOHC;
+
+            (v)      an employee or director of a body corporate, statutory body,
+                     partnership, trust, or commercial or professional enterprise of any
+                     kind of which that Appointed Actuary is an employee or director; or
+
+        (vi)         a partner of that Appointed Actuary;
+
+      (g)      is a member of a recognised professional body; and
+
+18
+      Refer to paragraphs 17(2)(b) and 21(3)(b) of the Banking Act; paragraphs 39(3)(a), 43(2)(b) and
+      44(3)(b), and subparagraph 44(1)(a)(ii) of the Insurance Act and paragraph 245A(3)(b) of the
+      Life Insurance Act.
+19
+      For paragraphs 32 to 37 refer also to Prudential Standard GPS 310 Audit and Related Matters
+      and Prudential Standard CPS 320 Actuarial and Related Matters (CPS 320).
+20
+      Refer to CPS 510 for a similar restriction on the Appointed Auditor and Appointed Actuary of a
+      general insurer or a private health insurer being from the same entity.
+
+
+
+                                                                                    CPS 520 - 11
+                           Authorised Version F2018L01390 registered 02/10/2018
+                                                                                            July 2019
+
+
+      (h)      is ordinarily resident in Australia.
+
+33.   The criteria in paragraph 32 do not apply if the following conditions are met:
+
+      (a)      the APRA-regulated institution reasonably considers that there are
+               exceptional circumstances;
+
+      (b)      the APRA-regulated institution has promptly notified APRA of the
+               eligibility criteria that are not satisfied and of the exceptional
+               circumstances as to why they do not apply; and
+
+      (c)      APRA has notified the APRA-regulated institution that APRA has no
+               objections to the person holding the position in question.
+
+Additional criteria applying to Appointed Actuaries21
+
+34.   The criteria for fitness and propriety of an Appointed Actuary of a general
+      insurer, a life company or a private health insurer, for the purposes of the
+      Insurance Act, Life Insurance Act and PHIPS Act are those contained in
+      paragraphs 30 and 35 to 37.22
+
+35.   The additional criteria that must be met for a person to be fit and proper to act as
+      an Appointed Actuary of a general insurer, a life company or a private health
+      insurer are that the person:
+
+      (a)      has appropriate formal qualifications;
+
+      (b)      is not the CEO or a director of the general insurer or life company, as
+               applicable, or of a related body corporate (except when that related body
+               corporate is a subsidiary of the general insurer or life company, as
+               applicable);
+
+      (c)      is not:
+
+            (i)      the Appointed Auditor or Auditor, as applicable;
+
+            (ii)     for an Appointed Actuary, an employee or director of an entity of
+                     which the Appointed Auditor or Auditor is an employee or director;
+                     or
+
+        (iii)        for an Appointed Actuary, a partner of the Appointed Auditor or
+                     Auditor, as applicable;
+
+      (d)      has a minimum of five years’ relevant experience in the provision of
+               actuarial services to entities carrying on insurance business (for a general
+               insurer), life business (for a life company), or private health insurance (for
+               a private health insurer) and has experience relating to general insurers,
+21
+      Refer to CPS 320 for eligibility criteria for appointed actuaries as required by section 93 of the
+      Life Insurance Act.
+22
+      Refer to paragraphs 39(3)(a), 43(2)(b) and 44(3)(b), and subparagraph 44(1)(a)(ii) of the
+      Insurance Act.
+
+
+
+                                                                                       CPS 520 - 12
+                            Authorised Version F2018L01390 registered 02/10/2018
+                                                                                          July 2019
+
+
+             life companies, or private health insurers, as applicable, that is sufficiently
+             relevant and recent to provide reasonable assurance that the person is
+             familiar with current issues in the provision of actuarial services to such
+             institutions;
+
+      (e)    is a Fellow or Accredited Member23 of the Institute of Actuaries of
+             Australia; and
+
+      (f)    is ordinarily resident in Australia.
+
+36.   The criterion in paragraph 35(f) does not apply to the Appointed Actuary of a
+      Category B insurer and a Category C insurer if:
+
+      (a)    the Appointed Actuary is responsible for providing actuarial services to
+             the corporate group, as a whole, to which the insurer belongs; and
+
+      (b)    the Appointed Actuary meets the criteria in paragraphs 35(a) to (e).
+
+37.   The criteria in paragraphs 34 to 36 do not apply while:
+
+      (a)    the APRA-regulated institution reasonably considers that there are
+             exceptional circumstances;
+
+      (b)    the APRA-regulated institution has promptly notified APRA of the
+             eligibility criteria that are not satisfied and of the exceptional
+             circumstances as to why they do not apply; and
+
+      (c)    APRA has notified the APRA-regulated institution in writing that APRA
+             has no objections to the person holding the position.
+
+Process for assessment of fitness and propriety
+
+38.   The Fit and Proper Policy must include the processes to be undertaken in
+      assessing whether a person is fit and proper for a responsible person position
+      (fit and proper assessment). The processes must include details of:
+
+      (a)    a statement of who will conduct fit and proper assessments on behalf of
+             the APRA-regulated institution;
+
+      (b)    the information to be obtained and how it will be obtained;
+
+      (c)    the matters that will be considered before determining if a person is fit and
+             proper for a responsible person position; and
+
+      (d)    the decision-making processes that will be followed.
+
+39.   The Fit and Proper Policy must specify the actions to be taken where a person is
+      assessed as being not fit and proper.
+
+
+23
+      ‘Fellow’ and ‘Accredited Member’ as defined by the Institute of Actuaries of Australia.
+
+
+
+                                                                                     CPS 520 - 13
+                           Authorised Version F2018L01390 registered 02/10/2018
+                                                                                     July 2019
+
+
+40.   The Fit and Proper Policy must provide that a copy of the Policy is to be given
+      to:
+
+      (a)   any candidate for election as a director as soon as possible after the
+            candidate is nominated; and
+
+      (b)   any other person before an assessment of their fitness and propriety is
+            conducted.
+
+41.   The Fit and Proper Policy must require a fit and proper assessment to be
+      completed before a person becomes the holder of a responsible person position
+      unless they hold the position:
+
+      (a)   because of a resolution of members of the APRA-regulated institution; or
+
+      (b)   because APRA has determined that the person is a responsible person
+            under paragraph 22.
+
+      In such cases, the Fit and Proper Policy must require an assessment to be
+      completed within 28 days of the person becoming the holder of the responsible
+      person position or 28 days after APRA makes the determination under
+      paragraph 22.
+
+42.   Interim appointment to a responsible person position may be made without a
+      full fit and proper assessment for a period of up to 90 days (or longer with
+      APRA’s written agreement) including any prior period of interim appointment.
+      Prior to making such an appointment, reasonable steps must be taken, as
+      specified in the Fit and Proper Policy, to assess the fitness and propriety of the
+      person. The APRA-regulated institution must complete a full fit and proper
+      assessment prior to appointing the person to the responsible person position on a
+      permanent basis.
+
+43.   The Fit and Proper Policy must require annual fit and proper assessments (or as
+      close to annual as is practicable) for each responsible person position.
+
+44.   When a fit and proper assessment is conducted, an APRA-regulated institution
+      must make all reasonable enquiries24 to obtain information, including collecting
+      sensitive information as defined in the Privacy Act 1988 (Privacy Act), that it
+      believes may be relevant to an assessment of whether the person is fit and
+      proper to hold a responsible person position.
+
+45.   Where a responsible person has been assessed as fit and proper, but the APRA-
+      regulated institution subsequently becomes aware of information that may result
+      in the person being assessed as not fit and proper, the APRA-regulated
+      institution must take all reasonable steps, including collecting sensitive
+      information as defined in the Privacy Act if relevant, to ensure that it can
+      prudently conclude that no material fitness and propriety concern exists. Where
+      a concern exists, a full fit and proper assessment must be conducted.
+
+24
+      Including following the processes described in the Fit and Proper Policy under subparagraph
+      38(b).
+
+
+
+                                                                                 CPS 520 - 14
+                          Authorised Version F2018L01390 registered 02/10/2018
+                                                                                          July 2019
+
+
+46.   The Fit and Proper Policy must contain adequate provisions:
+
+      (a)      to encourage any person to disclose information that may be relevant to a
+               fit and proper assessment to the APRA-regulated institution or to APRA;
+
+      (b)      to enable the disclosure to APRA of any information the APRA-regulated
+               institution is required to provide under this Prudential Standard; and
+
+      (c)      for giving or obtaining any consents required for the collection and use of
+               any information:
+
+            (i)     by the APRA-regulated institution to comply with the Fit and Proper
+                    Policy or this Prudential Standard; and
+
+            (ii)    by APRA for its powers and functions under the Prudential Acts and
+                    the PHIPS Act.
+
+47.   The Fit and Proper Policy must require that sufficient documentation for each fit
+      and proper assessment is retained to demonstrate the fitness and propriety of the
+      institution’s current, and recently past, responsible persons.
+
+Whistleblowing25
+
+48.   The Fit and Proper Policy must include adequate provisions to allow
+      whistleblowing if a person has information that a responsible person does not
+      meet the APRA-regulated institution’s fit and proper criteria. The Fit and Proper
+      Policy must ensure that the APRA-regulated institution and its subsidiaries
+      consent to the person providing that information to either the person responsible
+      for conducting fit and proper assessments or APRA.
+
+49.   The Fit and Proper Policy must include adequate provisions to allow persons
+      who have information that the APRA-regulated institution has not complied
+      with this Prudential Standard to provide that information to APRA.
+
+50.   The Fit and Proper Policy must provide that the APRA-regulated institution and
+      its subsidiaries consent to any person who held a responsible person position
+      disclosing information or providing documents to APRA relating to their
+      reasons for resignation, retirement or removal.
+
+51.   An APRA-regulated institution must not, and must ensure that its subsidiaries
+      do not, constrain, impede, restrict or discourage, whether by confidentiality
+      clauses, policies or other means, any person from disclosing information or
+      providing documents to APRA about matters referred to in paragraphs 48 to
+      50.26
+
+25
+      Also refer to the provisions for the protection of whistleblowers in Part VIA, Division 1 of the
+      Banking Act, Part IIIA, Division 4 of the Insurance Act, and Part 7, Division 5 of the Life
+      Insurance Act, and the provisions in CPS 510 for not constraining persons from providing
+      information.
+26
+      Refer also to section 52C of the Banking Act, section 38C of the Insurance Act and section
+      156C of the Life Insurance Act.
+
+
+
+                                                                                     CPS 520 - 15
+                           Authorised Version F2018L01390 registered 02/10/2018
+                                                                                           July 2019
+
+
+52.   The Fit and Proper Policy must require that all provisions of the Policy
+      encouraging whistleblowing, and the procedures related to whistleblowing, are
+      adequately explained to directors and employees of the APRA-regulated
+      institution and its subsidiaries who are likely to have information relevant to fit
+      and proper assessments.
+
+53.   APRA does not require that an APRA-regulated institution impose an obligation
+      on any person to make the disclosures under paragraphs 48 to 50. However, the
+      Fit and Proper Policy must require that all reasonable steps be taken to ensure
+      that no person making such disclosures in good faith is subject to, or threatened
+      with, a detriment because of any notification in purported compliance with the
+      requirements of the Fit and Proper Policy.
+
+When a responsible person is not fit and proper
+
+54.   Where an APRA-regulated institution has assessed that a person is not fit and
+      proper, or a reasonable person in the APRA-regulated institution’s position
+      would make that assessment, the APRA-regulated institution must take all steps
+      it reasonably can to ensure that the person:27
+
+      (a)    is not appointed to; or
+
+      (b)    for an existing responsible person, does not continue to hold,
+
+      the responsible person position.
+
+Informing APRA
+
+55.   An APRA-regulated institution must notify APRA of the following information
+      for each responsible person:
+
+      (a)    the title of the responsible person’s position;
+
+      (b)    the person’s full name;
+
+      (c)    the person’s date of birth (for identification purposes only);
+
+      (d)    the person’s position and main responsibilities; and
+
+      (e)    a statement of whether the person has been assessed under the Fit and
+             Proper Policy.
+
+56.   An APRA-regulated institution must ensure that the information provided under
+      paragraph 55 remains correct for all of its responsible persons. Subject to the
+      Prudential Acts and the PHIPS Act, it must provide revised information to
+      APRA within 28 days of any change or new appointment.
+
+57.   An APRA-regulated institution must notify APRA within 10 business days if it
+      assesses that a responsible person is not fit and proper. If the person remains in
+
+27
+      Including the actions outlined in the Fit and Proper Policy in accordance with paragraph 39.
+
+
+
+                                                                                      CPS 520 - 16
+                            Authorised Version F2018L01390 registered 02/10/2018
+                                                                                   July 2019
+
+
+      the responsible person position, the notification must state the reason for this
+      and the action that is being taken.
+
+58.   The information or notifications required by this Prudential Standard must be
+      given in such form, if any, and by such procedures, if any, as APRA publishes
+      on its website from time to time.
+
+59.   An APRA-regulated institution must take reasonable steps to:
+
+      (a)   obtain any information and documentation that APRA asks of it; and
+
+      (b)   provide that information to APRA,
+
+      to assist APRA in assessing the fitness and propriety of a person. This could
+      include providing the Fit and Proper Policy to APRA on request.
+
+60.   APRA does not and will not require disclosure of spent convictions where
+      precluded under Part VIIC of the Crimes Act 1914.
+
+Adjustments and exclusions
+
+61.   APRA may adjust or exclude a specific prudential requirement in this Prudential
+      Standard in relation to an APRA-regulated institution.28
+
+Determinations made under previous prudential standards
+
+62.   An exercise of APRA’s discretion (such as an approval, waiver or direction)
+      under a previous version of this Prudential Standard continues to have effect as
+      though exercised pursuant to a corresponding power (if any) exercisable by
+      APRA under this Prudential Standard. For the purposes of this paragraph, ‘a
+      previous version of this Prudential Standard’ includes any versions of:
+
+      (a)   Prudential Standard APS 520 Fit and Proper;
+
+      (b)   Prudential Standard GPS 520 Fit and Proper; and
+
+      (c)   Prudential Standard LPS 520 Fit and Proper.
+
+
+
+
+28
+      Refer to subsection 11AF(2) of the Banking Act, subsection 32(3D) of the Insurance Act,
+      subsection 230A(4) of the Life Insurance Act and section 92 of the PHIPS Act.
+
+
+
+                                                                                CPS 520 - 17
+                         Authorised Version F2018L01390 registered 02/10/2018
+                                                                                   July 2019
+
+
+Attachment A - Responsible persons of authorised
+deposit-taking institutions and authorised banking
+NOHCs
+
+1.   A responsible person of an ADI (other than a foreign ADI) or authorised
+     banking NOHC is any person who is:
+
+     (a)   a director of the APRA-regulated institution;
+
+     (b)   a senior manager of the institution;
+
+     (c)   an appointed auditor who provides any report in relation to the ADI that is
+           required to be prepared by an auditor under the Banking Act, prudential
+           standards made under the Banking Act or reporting standards under
+           FSCODA;
+
+     (d)   an appointed auditor who provides any report in relation to the authorised
+           banking NOHC that is required to be prepared by an auditor under the
+           Banking Act, prudential standards made under the Banking Act or
+           reporting standards; or
+
+     (e)   a person who performs activities for a subsidiary of the APRA-regulated
+           institution where those activities could materially affect the whole, or a
+           substantial part, of the business of the APRA-regulated institution or its
+           financial standing, either directly or indirectly.
+
+2.   References to a subsidiary in subparagraph 1(e) of this Attachment do not apply
+     to      a       subsidiary       that     is        an       RSE       licensee.
+
+
+
+
+                                                                 CPS 520 – Attachment G - 18
+
+                       Authorised Version F2018L01390 registered 02/10/2018
+                                                                                      July 2019
+
+
+Attachment B - Responsible persons of foreign
+authorised deposit-taking institutions
+
+1.   A responsible person of a foreign ADI is any person who is:
+
+     (a)      a senior manager of the Australian operations of the foreign ADI who is,
+              except in the case of the senior officer outside Australia referred to in
+              paragraph 25(d) of this Prudential Standard, ordinarily resident in
+              Australia;
+
+     (b)      an appointed auditor of the foreign ADI; or
+
+     (c)      a person who performs activities for a subsidiary of the foreign ADI that
+              the foreign ADI controls as part of its Australian operations, where:
+
+           (i)     those activities could materially affect the whole, or a substantial
+                   part, of the business of the Australian operations of the foreign ADI
+                   or its financial standing, either directly or indirectly; and
+
+           (ii)    the person is ordinarily resident in Australia.
+
+2.   References to a subsidiary in subparagraph 1(c) of this Attachment do not apply
+     to      a       subsidiary       that     is        an       RSE       licensee.
+
+
+
+
+                                                                    CPS 520 – Attachment G - 19
+
+                          Authorised Version F2018L01390 registered 02/10/2018
+                                                                                   July 2019
+
+
+Attachment C - Responsible persons of general
+insurers and authorised insurance NOHCs
+
+1.   A responsible person of a general insurer (other than a Category C insurer) or
+     authorised insurance NOHC is any person who is:
+
+     (a)   a director of the APRA-regulated institution;
+
+     (b)   a senior manager of the institution;
+
+     (c)   for a general insurer, the Appointed Auditor;
+
+     (d)   for a general insurer, the Appointed Actuary and the Reviewing Actuary;
+
+     (e)   a responsible auditor who provides any report in relation to the authorised
+           insurance NOHC that is required to be prepared by an auditor under the
+           Insurance Act, prudential standards made under the Insurance Act or
+           reporting standards under FSCODA; or
+
+     (f)   a person who performs activities for a subsidiary of the APRA-regulated
+           institution where those activities may materially affect the whole, or a
+           substantial part, of the business of the APRA-regulated institution or its
+           financial standing, either directly or indirectly.
+
+2.   References to a subsidiary in subparagraph 1(f) of this Attachment do not apply
+     to      a       subsidiary       that     is        an       RSE       licensee.
+
+
+
+
+                                                                 CPS 520 – Attachment G - 20
+
+                       Authorised Version F2018L01390 registered 02/10/2018
+                                                                                      July 2019
+
+
+Attachment D - Responsible persons of Category C
+insurers
+
+1.   A responsible person of a Category C insurer is any person who is:
+
+     (a)      a senior manager of the Category C insurer who is, except in the case of
+              the senior officer outside Australia referred to in paragraph 25(d) of this
+              Prudential Standard, ordinarily resident in Australia;
+
+     (b)      the Category C insurer’s agent in Australia where the agent in Australia
+              is an individual29;
+
+     (c)      a director of the Category C insurer’s agent in Australia where the agent in
+              Australia is a corporate agent;
+
+     (d)      a senior manager of the Category C insurer’s agent in Australia where the
+              agent in Australia is a corporate agent;
+
+     (e)      the Appointed Auditor of the Category C insurer;
+
+     (f)      the Appointed Actuary and the Reviewing Actuary of the Category C
+              insurer; or
+
+     (g)      a person who performs activities for a subsidiary of the Category C
+              insurer that the Category C insurer controls as part of its Australian
+              operations, where:
+
+           (i)      those activities may materially affect the whole, or a substantial
+                    part, of the business of the Category C insurer or its financial
+                    standing, either directly or indirectly; and
+
+           (ii)     the person is ordinarily resident in Australia.
+
+2.   References to a subsidiary in subparagraph 1(g) of this Attachment do not apply
+     to      a       subsidiary       that      is       an       RSE       licensee.
+
+
+
+
+29
+     Note that ‘agent in Australia’ in this Prudential Standard includes a person appointed under
+     subsection 118(2), (3) or (3A) of the Insurance Act to act as agent on a temporary basis.
+
+
+                                                                    CPS 520 – Attachment G - 21
+
+                          Authorised Version F2018L01390 registered 02/10/2018
+                                                                                    July 2019
+
+
+Attachment E - Responsible persons                                               of     life
+companies and registered life NOHCs
+
+1.   A responsible person of a life company (other than an EFLIC) or registered life
+     NOHC is any person who is:
+
+     (a)   a director of the APRA-regulated institution;
+
+     (b)   a senior manager of the institution;
+
+     (c)   for a life company, the Auditor;
+
+     (d)   for a life company, the Appointed Actuary;
+
+     (e)   a responsible auditor who is required, in relation to a registered life
+           NOHC, to prepare a report under the Life Insurance Act, prudential
+           standards made under the Life Insurance Act or reporting standards under
+           FSCODA; or
+
+     (f)   a person who performs activities for a subsidiary of the life company or
+           registered life NOHC where those activities may materially affect the
+           whole, or a substantial part, of the business of the life company or
+           registered life NOHC or its financial standing, either directly or
+           indirectly.
+
+2.   References to a subsidiary in subparagraph 1(f) of this Attachment do not apply
+     to      a       subsidiary       that     is        an       RSE       licensee.
+
+
+
+
+                                                                 CPS 520 – Attachment G - 22
+
+                       Authorised Version F2018L01390 registered 02/10/2018
+                                                                                     July 2019
+
+
+Attachment F - Responsible persons of eligible
+foreign life insurance companies
+
+1.   A responsible person of an EFLIC is any person who is:
+
+     (a)      a member of the Compliance Committee of the EFLIC;
+
+     (b)      a senior manager of the Australian operations of the EFLIC who is
+              ordinarily resident in Australia;
+
+     (c)      the Auditor of the EFLIC;
+
+     (d)      the Appointed Actuary of the EFLIC; or
+
+     (e)      a person who performs activities for a subsidiary of the EFLIC that the
+              EFLIC controls as part of its Australian operations, where:
+
+           (i)     those activities may materially affect the whole, or a substantial
+                   part, of the business of the Australian operations of the EFLIC or its
+                   financial standing, either directly or indirectly; and
+
+           (ii)    where the person is ordinarily resident in Australia.
+
+2.   References to a subsidiary in subparagraph 1(e) of this Attachment do not apply
+     to a subsidiary that is an RSE licensee.
+
+
+
+
+                                                                   CPS 520 – Attachment G - 23
+
+                         Authorised Version F2018L01390 registered 02/10/2018
+                                                                                    July 2019
+
+
+Attachment G – Responsible persons of private health
+insurers
+
+1.   A responsible person of a private health insurer is any person who is:
+
+     (a)   a director of the private health insurer;
+
+     (b)   an officer of the private health insurer;
+
+     (c)   an Appointed Auditor who provides any report in relation to the private
+           health insurer that is required to be prepared by an auditor under the
+           prudential standards made under the PHIPS Act or reporting standards
+           under FSCODA;
+
+     (d)   the Appointed Actuary;
+
+     (e)   any person who performs activities for a subsidiary of the APRA-
+           regulated institution where those activities could materially affect the
+           whole, or a substantial part, of the business of the APRA-regulated
+           institution or its financial standing, either directly or indirectly.
+
+2.   References to a subsidiary in subparagraph 1(e) of this Attachment do not apply
+     to a subsidiary that is an RSE licensee.
+
+
+
+
+                                                                  CPS 520 – Attachment G - 24
+
+                        Authorised Version F2018L01390 registered 02/10/2018
+

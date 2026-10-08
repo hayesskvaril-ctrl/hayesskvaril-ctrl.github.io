@@ -1,0 +1,2145 @@
+SOURCE: https://download.asic.gov.au/media/on5fk2xr/rg181-published-16-december-2025-20260121.pdf
+FINAL URL: https://download.asic.gov.au/media/on5fk2xr/rg181-published-16-december-2025-20260121.pdf
+FETCHED: 2026-10-08
+
+REGULATORY GUIDE 181
+
+AFS licensing: Managing
+conflicts of interest
+
+December 2025
+
+
+About this guide
+This guide is for Australian financial services (AFS) licensees, their
+representatives and AFS licence applicants.
+
+It explains the legal obligations under the Corporations Act for having
+adequate arrangements to manage conflicts of interest. It includes guidance
+on identifying conflicts, what adequate arrangements involve, and effective
+conflicts management through a range of tools.
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                                 About ASIC regulatory documents
+
+                                 In administering legislation ASIC issues the following types of regulatory
+                                 documents.
+                                 Consultation papers: seek feedback from stakeholders on matters ASIC
+                                 is considering, such as proposed relief or proposed regulatory guidance.
+                                 Regulatory guides: give guidance to regulated entities by:
+                                     explaining when and how ASIC will exercise specific powers under
+                                      legislation (primarily the Corporations Act)
+                                     explaining how ASIC interprets the law
+                                     describing the principles underlying ASIC’s approach
+                                     giving practical guidance (e.g. describing the steps of a process such
+                                      as applying for a licence or giving practical examples of how
+                                      regulated entities may decide to meet their obligations).
+                                 Information sheets: provide concise guidance on a specific process or
+                                 compliance issue or an overview of detailed guidance.
+                                 Reports: describe ASIC compliance or relief activity or the results of a
+                                 research project.
+
+
+
+                             Document history
+                             This guide was issued in December 2025 and is based on legislation and
+                             regulations as at the date of issue. In January 2026 we corrected a typo in
+                             the appendix.
+
+                             Previous versions:
+                                    Superseded Regulatory Guide 181, issued August 2004.
+
+
+                             Disclaimer
+                             This guide does not constitute legal advice. We encourage you to seek your
+                             own professional advice to find out how the Corporations Act and other
+                             applicable laws apply to you, as it is your responsibility to determine your
+                             obligations.
+
+                             Examples in this guide are purely for illustration; they are not exhaustive and
+                             are not intended to impose or imply particular rules or requirements.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                              Page 2
+                                                       REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Contents
+
+
+                             A      Overview ........................................................................................... 4
+                             B      Your conflicts management obligation ......................................... 5
+                                    Your obligation ................................................................................... 5
+                                    Purpose of the obligation ................................................................... 5
+                                    Scope of the obligation ...................................................................... 6
+                                    Other legal obligations ....................................................................... 6
+                                    Complying with your obligation .......................................................... 8
+                             C      Identifying conflicts of interest .................................................... 10
+                                    What is a conflict of interest? ........................................................... 10
+                                    Types of conflicts ............................................................................. 11
+                                    Specific considerations when identifying conflicts ........................... 14
+                             D      Having adequate arrangements ................................................... 16
+                                    What are adequate arrangements? ................................................. 16
+                                    Taking a proportionate and risk-based approach ............................ 16
+                                    What should your arrangements include? ....................................... 18
+                                    Documents and record keeping ....................................................... 19
+                             E      Effective conflicts management ................................................... 20
+                                    Avoiding conflicts of interest ............................................................ 20
+                                    Controlling conflicts of interest ......................................................... 21
+                                    Disclosing conflicts of interest.......................................................... 22
+                                    Specific considerations for managing conflicts ................................ 24
+                             Appendix: Catalogue—Key legal obligations and information
+                                relevant to conflicts management ............................................... 26
+                                What is the purpose of this catalogue? ........................................... 26
+                                How to use this catalogue................................................................ 26
+                                Important information about the catalogue ...................................... 26
+                                Catalogue: Key obligations for AFS licensees................................. 27
+                                Catalogue: Key obligations for other licensees ............................... 38
+                             Key terms ............................................................................................... 40
+                             Related information ............................................................................... 42
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                      Page 3
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+A          Overview
+
+
+                              Key points
+
+                              This guide sets out how you should comply with the Australian financial
+                              services (AFS) licence obligation to have adequate arrangements in place
+                              to manage conflicts of interest.
+
+
+              RG 181.1       If you are an AFS licensee or applicant, you must comply with your
+                             licensing obligation to have adequate arrangements in place to manage
+                             conflicts of interest.
+
+              RG 181.2       This guide explains:
+                             (a)   how the law applies, including its scope and interaction with other
+                                   related obligations (Section B);
+                             (b)   the types of conflicts you may need to consider (Section C);
+                             (c)   what constitutes ‘adequate arrangements’ to manage conflicts—
+                                   supported by specific steps to identify, assess, and respond to conflicts,
+                                   and implement, maintain, monitor and review your arrangements
+                                   (Section D); and
+                             (d)   what effective conflicts management involves—that is, avoiding,
+                                   controlling, and disclosing conflicts (Section E).
+
+              RG 181.3       This guide also sets out that you should take a proportionate and risk-based
+                             approach to your conflicts management obligation, tailored to your facts and
+                             circumstances as they arise or change.
+
+              RG 181.4       Further guidance is available in the appendix to this guide. It provides a
+                             catalogue of key legal obligations and information relevant to your
+                             compliance with the conflicts management obligation.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                              Page 4
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+B          Your conflicts management obligation
+
+
+                              Key points
+
+                              If you are an AFS licensee or applicant, you must have in place adequate
+                              arrangements to manage conflicts of interest.
+
+                              This obligation is broad. Other relevant financial service laws inform how
+                              you should comply with your conflicts management obligation.
+
+
+
+
+Your obligation
+              RG 181.5       If you are an AFS licensee, or an AFS licence applicant, you must comply
+                             with your general licensing obligations under s912A of the Corporations Act
+                             2001 (Corporations Act).
+
+                                  Note 1: For an overview of the general licensing obligations of AFS licensees, see
+                                  Regulatory Guide 104 AFS licensing: Meeting the general obligations (RG 104).
+
+                                  Note 2: In this guide, references to sections (s), chapters (Ch), divisions (Div). and parts
+                                  (Pt) are to the Corporations Act, unless otherwise specified.
+
+              RG 181.6       This includes your obligation to have in place adequate arrangements for
+                             managing conflicts of interest that may arise wholly, or partially, in relation
+                             to activities undertaken by you or your representatives in the provision of
+                             financial services as part of your financial services business or the financial
+                             services business of your representatives (‘the conflicts management
+                             obligation’): see s912A(1)(aa).
+
+              RG 181.7       The conflicts management obligation does not require you to eliminate all
+                             conflicts of interest. Rather, it requires you to adequately and effectively
+                             manage all conflicts of interest. You can manage many conflicts of interest
+                             with a combination of control mechanisms and disclosures. However, if you
+                             cannot manage a conflict in this way, you should instead avoid it.
+
+                                  Note: For further guidance on what effective conflicts management involves, see
+                                  Section E.
+
+
+
+
+Purpose of the obligation
+              RG 181.8       Managing conflicts of interest is a central pillar of financial services
+                             regulation.
+
+              RG 181.9       The obligation is intended to ensure financial markets and services are fair,
+                             efficient, and honest. It promotes both consumer protection and market
+
+
+
+© Australian Securities and Investments Commission December 2025                                                       Page 5
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                             integrity—preventing misconduct and reducing harm to consumers or
+                             investors. It can also improve economic efficiency.
+
+                                  Note: For the objectives of the financial services regime (including for the general
+                                  licensing obligations), see s760A.
+
+              RG 181.10      It is also beneficial to you—it improves the quality and integrity of your
+                             financial services business.
+
+
+
+Scope of the obligation
+              RG 181.11      The conflicts management obligation is broad and is intended to apply
+                             widely—it is not limited in its application. It applies to all conflicts of
+                             interest other than those wholly outside (i.e. completely separate to) the
+                             financial services business of you or your representative.
+
+                                  Note: While the conflicts management obligation is intended to apply broadly, you
+                                  should take a proportionate and risk-based approach to managing conflicts, tailored to
+                                  the facts and circumstances as they arise or change: see RG 181.52–RG 181.53.
+
+              RG 181.12      It applies to conflicts of interest that arise within the financial services
+                             business. It also applies to conflicts that arise between something within the
+                             financial services business and something outside it, particularly where the
+                             relationship, interest or activity may affect (or reasonably appear to affect)
+                             how financial services are provided by the business. For example, an
+                             employee prioritising their competing personal or financial interest outside
+                             the business may affect how they provide financial services within the
+                             business, as well as the quality of the services they provide.
+
+                                  Note: See Table 1 for illustrative examples of different types of conflicts across
+                                  financial services.
+
+              RG 181.13      The conflicts management obligation does not include conflicts that are
+                             outside of and unrelated to the financial services business.
+
+                                  Note: See the Explanatory Memorandum to the Corporate Law Economic Reform
+                                  Program (Audit Reform and Corporate Disclosure) Bill 2003 (Explanatory
+                                  Memorandum) at paragraphs 5.597 and 5.599.
+
+
+
+
+Other legal obligations
+
+                             General licensing obligations
+
+              RG 181.14      The conflicts management obligation works together with and supplements
+                             the general licensing obligation to act efficiently, honestly and fairly.
+
+              RG 181.15      The general licensing obligations—including your compliance with the
+                             financial services laws and establishing and maintaining adequate risk
+
+
+© Australian Securities and Investments Commission December 2025                                                       Page 6
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                             management systems—inform how you must comply with the conflicts
+                             management obligation.
+
+
+                             Other legal requirements
+
+              RG 181.16      Other laws may apply to you that relate to conflicts of interest or conduct
+                             potentially affected by conflicts. You must take these laws into account
+                             when complying with your conflicts management obligation.
+
+              RG 181.17      The appendix provides a catalogue of key legal obligations and information
+                             you may need to consider when complying with your conflicts management
+                             obligation. How you incorporate other relevant legal obligations informs the
+                             adequacy of your arrangements. Some obligations may also determine the
+                             way you manage certain conflicts. For example:
+                             (a)   if you are a director of a financial services business, you must comply
+                                   with your directors’ duties—including your obligation to disclose
+                                   material personal interests when a conflict arises;
+                             (b)   if you are a market participant, you must comply with the market
+                                   integrity rules—including those related to managing conflicts;
+                             (c)   if you are the responsible entity of a registered managed investment
+                                   scheme, you must comply with your responsible entity duties—
+                                   including your obligation to act in the best interests of scheme members
+                                   and to prioritise the interests of members over your own where they
+                                   conflict; and
+                             (d)   if you are an AFS licensee or their representative, an employer of an
+                                   AFS licensee or their representative, or a financial product issuer or
+                                   seller, you must comply with the ban on conflicted remuneration—
+                                   including the prohibition against giving or accepting certain types of
+                                   benefits relating to the provision of financial product advice.
+
+                                   Note: For further guidance on what constitutes ‘adequate arrangements’, see Section D.
+
+              RG 181.18      The catalogue is not an exhaustive list. You must consider other legal
+                             requirements, including in common law and equity, that may apply to you.
+                             This includes any relevant conduct prohibitions that may be affected by
+                             conflicts, such as misleading and deceptive conduct, unconscionable
+                             conduct, or insider trading and market misconduct.
+
+              RG 181.19      You may also need to consider legal requirements outside the financial
+                             services laws that may be relevant to you, such as privacy obligations.
+
+
+                             Fiduciary duty
+
+              RG 181.20      You or your representatives may owe a fiduciary duty to your clients,
+                             members, or other parties.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                   Page 7
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+              RG 181.21      A fiduciary duty can arise under common law in certain recognised
+                             relationships of trust and confidence. If a fiduciary duty exists, subject to any
+                             terms governing the fiduciary relationship, you may need to act in the other
+                             party’s best interests, prioritise their interests, not profit without consent, or
+                             address any conflicts.
+
+              RG 181.22      You must take this duty into account when complying with your conflicts
+                             management obligation. Whether an AFS licensee is in a fiduciary position
+                             will also inform the adequacy of their conflict management arrangements.
+
+                                   Note: See Australian Securities and Investments Commission v Avestra Asset
+                                   Management Limited (In Liquidation) (2017) 348 ALR 525, 562 (ASIC v Avestra).
+
+
+                             Industry standards or codes
+
+              RG 181.23      We may consider your compliance with industry standards or practices in
+                             assessing your compliance with the conflicts management obligation.
+                             Specifically, we will take industry standards or codes of conduct into
+                             account if the law or your AFS licence conditions require you to comply
+                             with a particular standard or code.
+
+
+                             International obligations
+
+              RG 181.24      You may be subject to international obligations or standards on conflicts
+                             management. While we check compliance with the Australian conflicts
+                             management obligation and AFS licence conditions, we may also consider
+                             how your international obligations inform your compliance.
+
+
+
+Complying with your obligation
+              RG 181.25      If we have reason to believe you are not complying with your conflicts
+                             management obligation, we may take enforcement action.
+
+                                   Note: Our general approach to enforcement is set out in Information Sheet 151 ASIC’s
+                                   approach to enforcement (INFO 151).
+
+              RG 181.26      This could include administrative action, such as suspending or cancelling
+                             your AFS licence or imposing additional licence conditions: see s915C(1)
+                             and s914A(1).
+
+                                   Note: If you have reasonable grounds to believe that you have failed to comply with
+                                   your conflicts management obligation, you may be required to report this breach to
+                                   ASIC—see Regulatory Guide 78 Breach reporting by AFS licensees and credit
+                                   licensees (RG 78).
+
+              RG 181.27      Depending on the severity, a breach of your conflicts management obligation
+                             may result in civil penalties:
+                             (a)   for individuals, the greater of:
+
+
+
+© Australian Securities and Investments Commission December 2025                                                   Page 8
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                                   (i)     5,000 penalty units; or
+                                   (ii)    if the court can determine—three times the benefit derived from (or
+                                           detriment avoided) by the contravention; and
+                             (b)   for corporations, the greater of:
+                                   (i)     50,000 penalty units;
+                                   (ii)    if the court can determine—three times the benefit derived from (or
+                                           detriment avoided by) the contravention; or
+                                   (iii)   10% of annual turnover, up to a maximum value of 2.5 million
+                                           penalty units (see s912A(5A) and 1317G).
+
+                                   Note: For more information about penalties, including the value of a penalty unit, see
+                                   Fines and penalties on the ASIC website.
+
+              RG 181.28      When assessing your compliance with the conflicts management obligation,
+                             we may consider the materiality or seriousness of any conflict of interest that
+                             occurs or may occur or systemic failures.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                     Page 9
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+C          Identifying conflicts of interest
+
+
+                              Key points
+
+                              You should identify all relevant conflicts, including those arising from
+                              confidential information or business structures.
+
+                              Conflicts of interest include actual and potential conflicts.
+
+                              To help you identify conflicts, we have set out different types and illustrative
+                              examples of conflicts to consider.
+
+
+
+
+What is a conflict of interest?
+              RG 181.29      A conflict of interest can arise where there are competing financial interests,
+                             personal interests, business or related party interests—whether direct or
+                             indirect—or competing loyalties and obligations. In some circumstances, a
+                             combination of these may give rise to a conflict.
+
+              RG 181.30      This guide deals with the conflicts management obligation. It is generally
+                             concerned with conflicts that have a real and sensible possibility of swaying
+                             your judgement or actions—or those of your representatives (including
+                             employees, directors or agents)—in an adverse way.
+
+              RG 181.31      You should take a ‘common-sense’ and objective approach to determining if
+                             there is a conflict of interest. Whether there is a conflict of interest will
+                             ultimately turn on the facts and circumstances of a situation.
+
+              RG 181.32      Conflicts of interest can be:
+                             (a)   actual—where a conflict currently exists that could sway your
+                                   judgement or actions (or those of your representatives); and
+                             (b)   potential—where circumstances do not currently give rise to an actual
+                                   conflict but could reasonably be expected to do so in the future.
+
+                                   Note: In determining whether an actual or potential conflict exists that could sway your
+                                   judgement or actions, you should take into account whether a reasonable person might
+                                   consider such a conflict exists.
+
+              RG 181.33      A conflict of interest can include:
+                             (a)   conflicts of, or within, the financial services business (including
+                                   conflicts arising from its corporate structure and relationships);
+                             (b)   the conflicts of any individual—for example, clients (retail or
+                                   wholesale), members, shareholders, employees, directors, third
+                                   parties—that arise in relation to the financial services business; and
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                    Page 10
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                             (c)   the conflicts of any entity—for example, wholesale clients,
+                                   counterparties, related entities in intra-group structures, commercial
+                                   third parties—that arise in relation to the financial services business.
+
+              RG 181.34      In addition, the following factors may be relevant to the materiality or
+                             seriousness of a conflict of interest:
+                             (a)   the nature of relationship between parties in a conflict—conflicts can
+                                   occur across a range of business and interpersonal relationships,
+                                   including fiduciary relationships;
+                             (b)   the scale of a conflict—conflicts cover situations ranging from those
+                                   that result in minor breaches to those that result in significant harm to
+                                   affected parties, misconduct, or corruption;
+                             (c)   the outcome of a conflict—conflicts can compromise the independence,
+                                   objectivity or impartiality required in your circumstances or lead to
+                                   negative consequences for your business or to consumers (such as
+                                   customers, clients, members or investors); and
+                             (d)   the other legal duties, obligations or prohibitions applicable to the
+                                   conflict—conflict situations may be governed by a range of laws,
+                                   including those that require you to treat certain conflicts in specific
+                                   ways (e.g. prioritising the best financial interests of members).
+
+                                   Note: For further guidance on other legal requirements, see RG 181.16–RG 181.24 and
+                                   the appendix.
+
+
+
+
+Types of conflicts
+              RG 181.35      When applying the conflicts management obligation, you should consider all
+                             conflicts that may be relevant to your financial services business.
+
+              RG 181.36      Table 1 provides illustrative examples of different types of actual and
+                             potential conflicts across financial services, with a focus on the factors that
+                             give rise to a conflict (such as the competing interests of individuals and
+                             their relationships). It is not intended to be an exhaustive list or used as a
+                             checklist. Instead, it provides examples that you should consider, tailor and
+                             apply to your circumstances.
+
+                                   Note 1: You should take an objective approach to identifying conflicts of interest,
+                                   including when assessing whether they are actual or potential—RG 181.31–RG 181.32.
+
+                                   Note 2: You may operate in various roles across the different transactions illustrated in
+                                   Table 1—such as principal, agent, market maker or regulated entity—each involving
+                                   different types of conflicts and legal obligations.
+
+              RG 181.37      For guidance on managing these types of conflicts, see Section E.
+
+                                   Note: Certain examples in Table 1 may also illustrate conduct prohibited by other laws
+                                   (e.g. insider trading). Your arrangements should ensure that a conflict of interest does
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                     Page 11
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                                  not result in prohibited conduct. Avoiding these conflicts may be the most effective
+                                  conflicts management tool for your circumstances: see RG 181.54–RG 181.55 and
+                                  RG 181.68.
+
+
+Table 1:    Illustrative examples of conflicts
+
+ Type of conflict           Illustrative example
+
+ Conflicts with clients      An insurance broker—influenced by their financial interest—recommending to a
+ or members                   client a product that generates higher commission over a product with similar
+                              coverage but that would result in lower commission.
+                             An adviser in a position where they can recommend that clients invest in financial
+                              products from a related entity—creating a potential conflict as they could prioritise
+                              their own financial and related-party interests over the interests of clients.
+                             A stockbroker—incentivised by their remuneration arrangements to maximise
+                              trading volume (i.e. to generate brokerage from which they will personally benefit)
+                              on clients’ accounts—trading in a manner that is inconsistent with their clients’
+                              interests.
+                             A private credit fund operator—which may be motivated by its financial interest in
+                              retaining fees and interest margins on loans under management—prioritising its
+                              own revenue over the interests of fund members, even though the fund members
+                              provide the capital and carry the credit risk.
+
+ Conflicts between           A multi-disciplinary firm—prioritising its business and financial interests over its
+ clients, members, or         clients’ interests—leveraging confidential information obtained from one client of
+ classes of persons           its financial services business to obtain new clients in its other businesses.
+                             A corporate advisory—steered by its own business interests—deciding to provide
+                              confidential information about a takeover transaction to the directors and
+                              management of the target company or to other firms it is seeking to do business
+                              with when advising on a takeover transaction, to the detriment of other
+                              shareholders or potential bidders.
+
+ Structural conflicts        A related-party service provider to a responsible entity—motivated by the interests
+                              of the corporate group—performing the outsourced functions in a manner that
+                              prioritises the commercial interests of the responsible entities and/or entities in the
+                              corporate group over outcomes for investors.
+                             A financial services group—incentivised by its dual financial interest in the
+                              success of an entity’s capital raising (through underwriting or another distribution
+                              role) and loan repayment (as a creditor)—distributing the entity’s capital raising in
+                              order to ensure repayment of the loan.
+                             A financial institution—influenced by its financial and related-party interests—
+                              provides financial product advice recommending a related entity’s high-cost home
+                              insurance product at a premium price to new home loan customers.
+                             A superannuation trustee, responsible entity or product issuer that owns a
+                              financial advice business and permits the business to recommend the owner
+                              entity’s products to clients—creating a potential conflict as these entities could
+                              prioritise their own financial interests over the interests of clients.
+
+                             A multi-disciplinary firm—incentivised by its business and financial interests—
+                              offering auditing services to a client while also providing the same client with financial
+                              services (except where auditor independence requirements are complied with).
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                   Page 12
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+ Type of conflict           Illustrative example
+
+ Proprietary conflicts       A financial institution as an agent—prioritising its own financial and business
+                              interests—using confidential client order instructions that have yet to be traded
+                              when hedging risks or obtaining beneficial prices in proprietary trading.
+                             A market maker—prioritising its financial interests—using confidential information
+                              from client orders to benefit its proprietary trading by front running orders and taking
+                              advantage of the anticipated price impact of the order.
+                             The responsible entity of a registered managed investment scheme—influenced by
+                              its related party interest—lending to a related company when there are inadequate
+                              arrangements to manage the risks and insufficient evidence that the transaction is
+                              managed at arm’s length.
+
+ Conflicts relating to       An insurance broker—influenced by its financial interest arising from cross-
+ duties                       ownership or shareholdings between the broker (or its corporate group) and an
+                              insurer or underwriter it places business with—recommending or placing policies
+                              that benefit the related insurer (including non-monetary benefits and/or other
+                              incentives), rather than those that are most suitable for the client.
+                             The director of both a general insurer and an advertising agency involved in
+                              deciding which advertising agency the general insurer engages to promote its car
+                              insurance products—creating a potential conflict as the director could be
+                              influenced by their personal interest arising from their advertising agency
+                              affiliation.
+
+ Third-party conflicts       An investment manager, which has been outsourced by a responsible entity
+                              making investment decisions that prioritise its own business interests or those of
+                              its related entities over the best interests of investors.
+                             A comparison website—influenced by their financial interests in relation to certain
+                              financial products—prioritising and recommending those products to consumers.
+                             An investment manager of a fund, who is solely responsible for valuing the assets
+                              of the fund and derives asset-based management fees (i.e. the valuation is not
+                              determined or reviewed by an independent third-party)—influenced by their own
+                              financial interests—artificially inflating the value of those assets.
+
+ Individual conflicts        An adviser—prioritising their own and related party interests—recommending that
+                              a client set up a self-managed superannuation fund to borrow money and invest in
+                              residential property, where the adviser receives a commission from a related party
+                              property developer for referring the client.
+
+                             The personal interest of an employee of a corporate advisory influencing the
+                              sharing of their sell-side client’s material, non-public information with an employee
+                              from the buy-side, to the detriment of the rest of their buy-side clients.
+
+                             An employee of a superannuation trustee in a position where they can approve
+                              investment strategies that result in financial benefit to the employee—creating a
+                              potential conflict as they could be influenced by their own financial interest.
+                             A research analyst—influenced by their personal interests in holdings and
+                              proprietary business interests—compromising their independence in selecting a
+                              company for research, promoting the company or overstating the company’s
+                              prospects to clients, for the analyst’s own benefit.
+                             A director or executive of a superannuation fund who is privy to price-sensitive
+                              information about fund transaction activities (such as the revaluation of an unlisted
+                              asset)—influenced by their personal and financial interests—using that
+                              information for personal gain by switching investment options based on their
+                              knowledge of the timing of that revaluation.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                Page 13
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Specific considerations when identifying conflicts
+              RG 181.38      You should consider the following factors when identifying the types of
+                             conflicts that may arise.
+
+                             Confidentiality
+
+              RG 181.39      Receiving confidential information may give rise to a conflict of interest.
+                             This may be confidential information received in the ordinary course of
+                             business, information that is price-sensitive, or material non-public
+                             information (‘inside information’).
+                                   Note: For the definition of ‘inside information’, see s1042A(1) of the Corporations Act.
+
+              RG 181.40      You or your staff should not misuse confidential information in a way that
+                             may benefit yourself, another part of your business, another client or
+                             counterparty, or generally affect market integrity.
+
+                             Conflict of duties
+
+              RG 181.41      A conflict of duties will generally give rise to a conflict of interest. This may
+                             include directors’ duties, fiduciary or common law duties, or duties of a
+                             particular role (such as a responsible manager or auditor).
+
+              RG 181.42      You should also consider conflicts between duties, or a conflict between a
+                             duty and an interest. For example, there may be a conflict:
+                             (a)   between a fiduciary duty to one client and a fiduciary duty to another
+                                   client;
+                             (b)   if one part of a financial services business owes a fiduciary duty to a
+                                   client, while another part of the financial services business is acting
+                                   against that client’s interests;
+                             (c)   between a director’s duties in a financial services business and their
+                                   duties to another company; or
+                             (d)   between a director’s duties in a financial services business and their
+                                   personal interests.
+
+              RG 181.43      A conflict of duties may also relate to:
+                             (a)   an individual’s professional, legal, or other duties and interests; or
+                             (b)   the statutory obligations and duties of an entity.
+
+
+                             Structural conflicts
+
+              RG 181.44      Misaligned incentives resulting from business structures may give rise to
+                             conflicts of interest. This may be the result of:
+                             (a)   vertical integration of product issuers, product manufacturers, product
+                                   sales or advisory roles, and service providers;
+
+
+
+© Australian Securities and Investments Commission December 2025                                                   Page 14
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                             (b)   the influence of related entities; or
+                             (c)   misaligned incentives between business units or intra-group structures
+                                   in a conglomerate firm or financial institution.
+
+
+                             Third-party commercial relationships
+
+              RG 181.45      Third-party commercial relationships of your financial services business
+                             may also raise conflict issues. This includes any conflicts you may have in
+                             relation to a third party or conflicts a third party may have that impacts your
+                             financial services business.
+
+              RG 181.46      Third-party commercial relationships may include outsourced functions of
+                             your financial services business, relationships with product issuers or
+                             advisers, or those engaged to undertake specific activities—such as auditors,
+                             lawyers, valuers, consultants, accountants or experts.
+
+
+                             Remuneration
+
+              RG 181.47      Remuneration practices, including non-monetary benefits, may cause
+                             misaligned incentives and result in conflicts of interest. These practices may
+                             include commissions, volume-based remuneration, staff rewards and
+                             bonuses, or expenses. They may result in poor consumer outcomes and lead
+                             to harms, such as consumers:
+                             (a)   being sold financial products or services that are not in their interests,
+                                   due to the commissions or financial benefits you can earn; or
+                             (b)   being charged unnecessary fees or excessive expenses.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                             Page 15
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+D          Having adequate arrangements
+
+
+                              Key points
+
+                              Arrangements for managing conflicts of interest should be robust, effective,
+                              and tailored to your circumstances. You should take a proportionate and
+                              risk-based approach.
+
+                              In practice, you should clearly identify, assess, and respond to conflicts.
+                              You should also implement, monitor, maintain, and review your
+                              arrangements.
+
+                              Table 2 outlines arrangements you should generally have in place to
+                              manage conflicts.
+
+
+
+What are adequate arrangements?
+              RG 181.48      You must have adequate arrangements to manage conflicts of interest. Your
+                             arrangements should be robust and effective.
+
+                                   Note: See the Explanatory Memorandum at paragraph 5.597.
+
+              RG 181.49      Your arrangements should be tailored with your own circumstances in mind
+                             and designed to meet your obligations. Whether your arrangements are
+                             adequate will depend on several factors, including the nature, scale and
+                             complexity of your business.
+
+                                   Note: See ASIC v Avestra.
+
+              RG 181.50      You should take a proportionate and risk-based approach to your conflicts
+                             management obligation: see RG 181.52–RG 181.59.
+
+              RG 181.51      Your arrangements may include:
+                             (a)   policies, processes and procedures;
+                             (b)   people and resources;
+                             (c)   systems and controls over the business and staff; and
+                             (d)   governance and supervisory arrangements.
+
+
+
+Taking a proportionate and risk-based approach
+              RG 181.52      You should take a proportionate and risk-based approach to your conflicts
+                             management obligation based on:
+                             (a)   your legal and compliance requirements—including other related laws
+                                   and obligations (see the appendix);
+
+
+
+© Australian Securities and Investments Commission December 2025                                             Page 16
+                                                    REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                             (b)   the risks posed by a conflict of interest or class of conflicts—including:
+                                   (i)     the likelihood of a conflict occurring;
+                                   (ii)    the materiality or seriousness of a conflict;
+                                   (iii)   any resulting misconduct or harm (such as consumer, investor, or
+                                           economic harm, including to your financial services business) or
+                                           impact to market integrity;
+                                   (iv)    whether similar conflicts have arisen in the past; and
+                                   (v)     how conflict management activities may change the risk posed by a
+                                           conflict; and
+                             (c)   the nature, scale and complexity of your business.
+
+              RG 181.53      How you address these factors informs the adequacy of your arrangements.
+                             Whether your arrangements are adequate to effectively manage conflicts is a
+                             question of fact in each case and may change over time.
+
+                             Other legal requirements
+
+              RG 181.54      Depending on other legal obligations that apply—such as your fiduciary
+                             duties, best interest obligations, or prudential requirements—you may need
+                             to prioritise the interests of members or clients (retail or wholesale) in a
+                             conflict or have different or more robust arrangements in place. Some
+                             conflicts may also be prohibited, such as conflicted remuneration.
+
+                                   Note: See Regulatory Guide 246 Conflicted and other banned remuneration (RG 246).
+
+              RG 181.55      Your arrangements should also ensure that a conflict does not result in
+                             prohibited conduct.
+
+                             Risks posed by a conflict
+
+              RG 181.56      Conflicts of interest can be a significant driver of consumer, investor, and
+                             economic harm and can also impact market integrity. The risks posed by a
+                             conflict may not be realised unless acted on or may change over time.
+
+              RG 181.57      You should tailor your arrangements—including how you effectively
+                             manage conflicts—to the risks posed by a conflict or a class of conflicts,
+                             including the risks to you, other affected parties, or market integrity.
+
+                             Nature, scale and complexity of the business
+
+              RG 181.58      Your arrangements will differ based on the nature, scale and complexity of
+                             your business. You should design and tailor these arrangements to your
+                             circumstances. For example:
+                             (a)   a listed company will have substantially different arrangements to a
+                                   small business or sole trader; or
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                               Page 17
+                                                    REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                              (b)   a firm that is part of a multi-national group may need to consider
+                                    international obligations or standards when developing their
+                                    arrangements—see RG 181.24.
+
+                RG 181.59     The type and number of financial services you offer, as well as the level of
+                              sophistication of your clients (i.e. whether they meet the criteria of the
+                              wholesale client or investor tests), will also influence the nature and scale of
+                              your arrangements.
+
+                                    Note: For the wholesale investor test, see s708. For the wholesale client tests, see s761G
+                                    and 761GA.
+
+
+
+What should your arrangements include?
+                RG 181.60     You should have in place arrangements to identify and assess a conflict or
+                              class of conflicts, and to respond to a conflict—that is, effectively manage
+                              the conflict: see Section E.
+
+                RG 181.61     You should also implement, monitor, maintain and review your
+                              arrangements for them to be adequate.
+
+                RG 181.62     Your arrangements may include, but are not limited to, the steps set out in
+                              Table 2.
+
+                                    Note: See ASIC v Avestra, as affirmed by the Federal Court in Australian Securities and
+                                    Investments Commission v Westpac Banking Corporation (No 2) (2018) 357 ALR 240.
+
+
+Table 2:       Adequate arrangements to manage conflicts
+
+ Steps                Arrangements
+
+ 1. Identify          Your arrangements should help you identify when a conflict of interest or class of conflicts
+                      may or does occur (including conflicts that a reasonable person might consider to exist).
+
+                      This does not mean you need to identify every conflict of interest that may or does occur.
+                      However, you should have in place arrangements to:
+                       identify relevant conflicts based on the general risk and materiality or seriousness posed
+                        by a conflict or class of conflicts; and
+                       obtain further or specific information on a conflict, if appropriate.
+
+                      The information you need to identify a conflict may depend on:
+                       the role, type, or class of employee, client, or another party; or
+                       the risks and potential harm posed by a conflict of interest or class of conflicts.
+
+ 2. Assess            Your arrangements should enable you to assess and evaluate a conflict of interest or class
+                      of conflicts to effectively manage it. This includes considering the materiality or seriousness
+                      of a conflict.
+
+                      This may include undertaking a risk assessment of a conflict of interest or class of conflicts
+                      and evaluating what an appropriate response would be.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                     Page 18
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+ Steps               Arrangements
+
+ 3. Respond          You should decide on and apply an appropriate response to effectively manage a conflict of
+                     interest. For guidance on effective conflicts management, see Section E.
+
+                     Responding to a conflict also includes having arrangements to evaluate and monitor the
+                     effectiveness of your specific response and rectifying or providing remedial action if the
+                     response is not effective. For example:
+                      regular checks to ensure your response remains effective and that you are managing the
+                       conflict properly over time;
+                      adjusting controls if the conflict changes in scope or impact; or
+                      verifying disclosure continues to meet the needs of affected parties.
+
+ 4. Implement        You should implement, monitor, maintain and review your arrangements to ensure they
+                     remain robust and effective. This includes ensuring:
+                      your senior management and, if appropriate, your board approves and endorses your
+                       arrangements;
+                      you appropriately train your staff and relevant parties to thoroughly understand the
+                       arrangements and apply them to a range of conflicts;
+                      you have systems in place and people with the authority to apply the arrangements to a
+                       conflict of interest (i.e. compliance monitoring) and take appropriate action when
+                       required;
+                      you have a person or persons accountable for complying with your arrangements;
+                      arrangements include disciplinary measures for non-compliance, if appropriate;
+                      you appropriately document and store your arrangements; and
+                      you or a third-party expert reviews your arrangements and updates them as necessary.
+                     Merely having or possessing conflicts management arrangements is insufficient. To meet
+                     your conflicts management obligation, you should be able to demonstrate that you have
+                     integrated your arrangements into your business operations.
+
+
+
+
+Documents and record keeping
+              RG 181.63      You should document and keep records of your arrangements for them to be
+                             adequate and to demonstrate your compliance, including by:
+                             (a)   documenting identified conflicts and the actions taken (e.g. a conflicts
+                                   register or multiple registers);
+                             (b)   keeping records of reports made to your senior management or third
+                                   parties about conflict matters; and
+                             (c)   storing copies or records of any written disclosures given to affected
+                                   parties—whether individually, as a representative sample, or as a record
+                                   of oral disclosures—including any scripts used.
+
+                                   Note: For related legal information and obligations you may need to consider, see the
+                                   appendix.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                   Page 19
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+E          Effective conflicts management
+
+
+                              Key points
+
+                              To effectively manage conflicts, you should use a combination of avoiding,
+                              controlling, and disclosing conflicts of interest.
+
+                              You should tailor these measures to your specific circumstances; in many
+                              cases, disclosure alone may be insufficient to manage conflicts of interest
+                              effectively.
+
+
+              RG 181.64      Effective conflicts management will generally involve a combination of
+                             avoiding, controlling, and disclosing conflicts of interest. This informs the
+                             adequacy of your arrangements.
+
+                                   Note: See ASIC v Avestra.
+
+              RG 181.65      Conflicts management requires a proactive and strategic approach that goes
+                             beyond mere disclosure. How you use controls to avoid or mitigate the risk
+                             of conflicts, and disclosure to manage conflicts, should be tailored to the
+                             specific facts and circumstances. This includes addressing risks associated
+                             with a conflict of interest.
+
+              RG 181.66      A failure to effectively manage a conflict may result in a breach of your
+                             conflicts management obligation.
+
+                                   Note: For example, see Australian Securities and Investments Commission v Westpac
+                                   Banking Corporation (Penalty Hearing) [2024] FCA 52.
+
+
+
+
+Avoiding conflicts of interest
+              RG 181.67      Avoiding conflicts of interest may be the most effective conflicts
+                             management tool for your circumstances.
+
+              RG 181.68      Avoiding a conflict may involve identifying conflicts, or classes of conflict,
+                             that could arise and proactively preventing these from occurring
+                             (e.g. prohibiting certain activities) or eliminating an identified conflict
+                             (e.g. refusing to enter a particular transaction). This can be contrasted with
+                             control measures, which mitigate the risks associated with an existing
+                             conflict but do not eliminate it.
+
+              RG 181.69      Examples where you should avoid a conflict of interest include:
+                             (a)   where the interests of one client are in direct conflict with the interests
+                                   of another in the provision of your financial services; or
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                               Page 20
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                             (b)   where remuneration practices place your interests in direct conflict with
+                                   the interests of clients or members.
+
+              RG 181.70      Measures you can consider as part of your arrangements to avoid certain
+                             conflicts or classes of conflicts include:
+                             (a)   having information barriers (both physical or virtual) in place—such as
+                                   between different business units—to prevent the flow of confidential
+                                   information, ensure structural separation and avoid conflicts between
+                                   areas with differing interests;
+                             (b)   prohibiting certain activities, such as certain types of remuneration; or
+                             (c)   not providing specific services to certain types of clients.
+
+              RG 181.71      You can also eliminate the risks arising from a conflict. For example, by:
+                             (a)   removing a conflicted person from a transaction;
+                             (b)   declining to service a client, or only servicing them under limited
+                                   circumstances; or
+                             (c)   refusing to enter a particular transaction.
+
+
+
+Controlling conflicts of interest
+              RG 181.72      Effective conflicts management does not require you to eliminate every
+                             conflict, although that approach is open to you. You can put in place controls
+                             to mitigate the risks associated with a conflict of interest. What is
+                             appropriate will depend on the facts and circumstances.
+
+              RG 181.73      When controlling conflicts of interest, you should aim to limit situations
+                             where there is a real and sensible possibility that a conflict will adversely
+                             sway or influence the judgement or actions of decision makers: see
+                             RG 181.30.
+
+              RG 181.74      Examples of controls that you may use to manage the risks associated with a
+                             conflict of interest are listed in Table 3. It is not an exhaustive list.
+
+Table 3:    Examples of conflict control mechanisms
+
+ Type of control              Summary
+
+ Information barriers         Robust information barriers (both physical or virtual) to prevent or restrict staff from
+                              transferring or accessing information (including data) and to mitigate the effect of a
+                              conflict of interest.
+
+ Functional separation        Separation of relevant business units or teams (including physical segregation) to
+                              minimise the risks of a conflict of interest.
+
+ Communication controls       Controls around how certain staff or business units can communicate, including
+                              what they should not communicate, and how and when communication occurs.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                               Page 21
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+ Type of control              Summary
+
+ Approval requirements        Additional or separate approvals as a precondition for certain transactions or the
+                              provision of financial services where there is a conflict, to provide additional
+                              oversight and objectivity.
+
+ Trading restrictions         Trading restrictions (including ‘blackout’ periods) to limit the risks of a conflict—for
+                              example, if a person is working on an initial public offering or market transaction,
+                              or holds certain financial products.
+
+ Removal of staff             Removal of conflicted staff from a particular transaction or the provision of certain
+                              financial services, to ensure objectivity or impartiality in activities.
+
+ Arm’s length engagement      Engaging third-party service providers to deliver services—such as administration,
+                              asset valuation, marketing and distribution—at arm’s length to ensure impartiality
+                              and objectivity.
+
+ Decision-making              Restrictions on conflicted parties or relevant staff, limiting their decision making on
+ restrictions                 a particular transaction or the provision of certain financial services.
+
+ Compliance monitoring        Mechanisms for compliance monitoring. For example, control rooms, compliance
+                              officers or committees who are responsible for monitoring compliance with
+                              documented conflict policies or leveraging design and distribution review
+                              mechanisms.
+
+ Governance and               Appropriate governance structures to monitor a conflict and ensure transparency,
+ transparency                 with clear escalation channels and whistleblowing policies.
+
+ Disciplinary measures        Disciplinary measures to minimise the likelihood of a conflict being acted on or
+                              mitigate any risks associated with a conflict.
+
+
+
+
+Disclosing conflicts of interest
+              RG 181.75      Disclosure to customers (including clients, members and investors) or other
+                             affected parties (such as prospective customers) is a mechanism that you can
+                             use to manage conflicts of interest.
+
+              RG 181.76      It should allow affected parties to understand and consider the impact of a
+                             disclosed conflict before making an informed decision. For example,
+                             effective disclosure should allow an investor to consider the risks and impact
+                             of the conflict before making an investment decision.
+
+              RG 181.77      Whether or not disclosure is an effective method to manage conflicts will
+                             depend on the facts and circumstances, including the level of materiality or
+                             seriousness of the conflict, the nature of the financial service and the needs
+                             of the affected party. It may also depend on other relevant legal obligations.
+
+              RG 181.78      In many cases, disclosure alone may be insufficient to effectively manage
+                             conflicts. It may be more appropriate to control or avoid the conflict
+                             altogether or to consider a combination of these mechanisms.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                Page 22
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+              RG 181.79      How you disclose a conflict of interest will also depend on the facts and
+                             circumstances of your situation, including the risks posed by the conflict, the
+                             financial service you provide and who you are disclosing to (e.g. retail or
+                             wholesale clients). You should only disclose material conflicts, considering
+                             the cumulative effect of conflicts that arise in the financial services business
+                             or within the financial services business structure. You should not use
+                             excessive or unnecessary disclosure that could obscure or distract from an
+                             issue.
+
+                                  Note: The factors that may be relevant to the materiality or seriousness of a conflict are
+                                  set out at RG 181.33.
+
+              RG 181.80      You should ensure your disclosure is consistent with any other legal
+                             requirements, including Pt 7.7 of the Corporations Act. You may incorporate
+                             your conflicts disclosure into, or in addition to, your other disclosure
+                             requirements.
+
+              RG 181.81      Table 4 provides principles you should generally apply when using
+                             disclosure to effectively manage conflicts.
+
+Table 4: Disclosing a conflict of interest
+
+ Principles                   Summary
+
+ General disclosure           Disclosure should be timely, prominent, specific, and meaningful.
+ principles
+                              Giving generic or ‘boilerplate’ disclosure (i.e. disclosure that does not address the
+                              nature and potential impact of a specific conflict) is unlikely to effectively manage a
+                              conflict. Instead, disclosures should:
+                               occur before or during the provision of the financial service, allowing time for the
+                                affected party to assess its impact before making a decision;
+                               be clear, targeted and useful to the affected party;
+                               enable affected parties to make decisions based on the information received or
+                                give consent to proceed, if appropriate; and
+                               refer specifically to the financial service related to the conflict.
+
+ Disclosure content           Disclosures should generally include:
+                               the nature and relevant details of the conflict;
+                               the likelihood of the conflict occurring;
+                               the scale of the potential consequences if the conflict does occur, including any
+                                advantages or disadvantages to you, other participants or beneficiaries, or the
+                                affected party; and
+                               realistic and actionable steps (if any) the person receiving the disclosure can take
+                                to mitigate the risks of the conflict.
+                                Note 1: See ASIC v Avestra.
+                                Note 2: This is not intended to be a prescriptive list of content requirements for all
+                                disclosures of conflicts of interest, including those required in a Financial Services Guide or
+                                Statement of Advice. Disclosure content should be proportionate, and risk based, tailored to
+                                the specific circumstances of the conflict.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                       Page 23
+                                                      REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+ Principles                   Summary
+
+ Methods of disclosure        Disclosure should be:
+                               written or oral; and
+                               presented in a way that is easily noticeable by affected parties.
+
+ Inappropriate disclosure     In some cases, disclosing a conflict may be inappropriate, such as when:
+                               the information is commercially sensitive or protected by a confidentiality
+                                agreement;
+                               it is in breach of privacy obligations; or
+                               the disclosure amounts to ‘inside information’ under the insider trading provisions
+                                (see Pt 7.10, Div 3).
+
+ Disclosure for financial     When providing financial product advice to wholesale or retail clients, you should
+ product advice               disclose any:
+                               legal or beneficial interest in the financial products;
+                               relationships with the issuer or provider of the products; and
+                               financial or other benefits linked to the client following your advice.
+                                   Note: You must consider how any disclosure interacts with your other relevant legal obligations,
+                                   including specific disclosure requirements for retail clients—see the appendix.
+
+ Disclosure for retail and    You should ensure that retail and wholesale clients can understand the nature,
+ wholesale clients            potential risk and impact of the conflict. However, disclosures for wholesale clients
+                              may be less detailed than for retail clients.
+
+                              When disclosing to a client, you should consider:
+                               their level of financial sophistication;
+                               if a third party will or is likely to rely on this information, including if they will pass
+                                on this information to retail clients or if the information will affect retail clients;
+                               how much a client already knows; and
+                               the complexity of the financial service.
+
+
+
+
+Specific considerations for managing conflicts
+
+                             Internal structures
+
+              RG 181.82      Your internal structures and reporting lines should support effective conflicts
+                             management.
+
+              RG 181.83      You should consider how your organisation’s structure, layout, and reporting
+                             processes can contribute to the incidences of certain conflicts occurring if
+                             not managed. For example, you can assess whether it is appropriate for:
+                             (a)     advisory staff to report to marketing staff;
+                             (b)     standalone advice units to be in the same physical location as sales or
+                                     investment staff; or
+                             (c)     compliance or internal audit staff to report to a business unit.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                          Page 24
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                             Remuneration
+
+              RG 181.84      You should ensure your remuneration practices, including any non-monetary
+                             benefits, comply with your conflicts management obligation. For example,
+                             you should:
+                             (a)   disclose commissions that are based on sales; and
+                             (b)   avoid remuneration structures where advisers only earn commission
+                                   (i.e. where you pay no salary or other remuneration).
+
+              RG 181.85      Some types of conflicted remuneration and benefits are banned. However,
+                             some benefits that are not banned may still create conflicts of interest.
+
+                                   Note: The Corporations Act bans certain conflicted remuneration and other benefits
+                                   from being given to persons who provide financial product advice and other financial
+                                   services to clients—see Divs 4 and 5 of Pt 7.7A.
+
+              RG 181.86      Disclosure can help to manage conflicts, but you should avoid (and not
+                             merely disclose or control) remuneration practices that create significant
+                             conflicts—particularly if they place your interests in direct conflict with
+                             clients or members.
+
+              RG 181.87      Volume-based remuneration is typically conflicted as it creates incentives to
+                             maximise sales at the expense of a client’s interests, but exceptions exist.
+                             You should ensure that any benefits align with the conflicts management
+                             obligation and any other relevant legal obligation (e.g. best interest duties).
+
+
+                             Fair treatment of clients and members
+
+              RG 181.88      For effective conflicts management, you should ensure that you treat clients
+                             and members fairly. This does not prevent you from making a profit or
+                             expecting a return (e.g. fees) in exchange for providing products and
+                             services. However, you should be fair in your dealings.
+
+              RG 181.89      You should generally avoid placing yourself in a position where there is a
+                             material conflict between your own interests and the interests of your clients
+                             or members. This is to minimise the risk that you may unfairly prefer your
+                             own interests.
+
+              RG 181.90      Where required by your legal obligations, you must prioritise the interests of
+                             your clients or members.
+
+
+                             Market integrity principles
+
+              RG 181.91      To effectively manage a conflict, you should ensure the impact of a conflict
+                             on market integrity is minimised—that is, it promotes fair, orderly and
+                             transparent markets for financial products: see s760A.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                  Page 25
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Appendix: Catalogue—Key legal obligations and
+information relevant to conflicts management
+
+              RG 181.92      This appendix outlines some key legal obligations and information relevant
+                             to conflicts management that may apply to you as an AFS licensee,
+                             representative, or AFS licence applicant.
+
+
+What is the purpose of this catalogue?
+              RG 181.93      This catalogue is intended to signpost key obligations and information to
+                             help you comply with the conflicts management obligation under the
+                             Corporations Act. It emphasises that conflicts can arise across a wide range
+                             of activities. This catalogue does not introduce new obligations or guidance.
+
+
+How to use this catalogue
+              RG 181.94      Whether the obligations apply to you depends on the facts and circumstances
+                             of your situation. Where relevant, you must take these obligations into
+                             account when complying with your conflicts management obligation. This
+                             informs the adequacy of your arrangements.
+
+              RG 181.95      The catalogue is not an exhaustive list of legal obligations and information
+                             that may relate to the conflicts management obligation, other legal
+                             obligations, and separate information relevant to your circumstances. This
+                             catalogue avoids legal language where possible and may include some
+                             generalisations about the application of the law. Some provisions have
+                             exceptions or important qualifications that we have not included.
+
+              RG 181.96      We have included the following summary information in this catalogue:
+                             (a)   Key obligation: A description of required disclosures and other conflicts
+                                   related obligations by AFS industry category.
+                             (b)   Source: Where to find the obligation in legislation.
+                             (c)   Guidance and further information: Links to relevant guidance
+                                   published by regulators or other relevant documents.
+
+
+Important information about the catalogue
+              RG 181.97      This catalogue does not generally cover obligations in legislation not
+                             administered by ASIC—that is, you may have obligations relating to
+                             conflicts in other legislation that ASIC does not administer.
+
+              RG 181.98      This catalogue does not constitute legal advice. We encourage you to seek
+                             your own professional advice to find out how the relevant laws apply to you,
+                             as it is your responsibility to determine your obligations.
+
+
+
+© Australian Securities and Investments Commission December 2025                                             Page 26
+                                                                                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                         REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Catalogue: Key obligations for AFS licensees
+General AFS licensee requirements
+
+  General licensing obligations                                    Source                                                       Relevant guidance and further information
+  You must comply with your general licence obligations            Section 912A of the Corporations Act, including:             RG 1 Applying for and varying an AFS licence
+  under s912A, which informs how you approach your                 › s912A(1)(a) (efficiently, honestly and fairly);
+                                                                                                                                RG 166 AFS licensing: Financial requirements
+  conflicts management obligation.                                 › s912A(1)(aa) (conflicts management obligation);
+                                                                   › s912A(1)(c) and (ca) (compliance with financial            RG 265 Guidance on ASIC market integrity rules for
+  When applying for an Australian financial services (AFS)
+                                                                      services laws);                                           participants of securities markets
+  licence, you must provide information on your
+  arrangements to comply with your general licensing               › s912A(1)(h) (adequate risk management systems);
+  obligations, including the conflicts management                     and
+  obligation.                                                      › reg 7.6.03(g) (obligation to have adequate
+                                                                      compliance arrangements).
+
+
+ Financial products and services
+
+  Retail client disclosure                                         Source                                                       Relevant guidance and further information
+  There are specific content requirements for a Financial          Corporations Act:                                            RG 168 Product Disclosure Statements: Disclosure and
+  Services Guide (FSG) and a Product Disclosure                    › s942B and 942C (obligation to disclose benefits and        other obligations
+  Statement (PDS) that relate to conflicts, including                 relationships in an FSG before providing financial
+                                                                                                                                RG 175 AFS licensing: Financial product advisers—
+  disclosing remuneration and possible conflicts of                   services);
+                                                                                                                                Conduct and disclosure
+  interest.                                                        › s1013D(1)(c) (obligation to disclose information
+                                                                      about significant risks of holding the product in a       RG 221 Facilitating digital financial services disclosures
+                                                                      PDS);                                                     INFO 291 FAQs: FSGs and website disclosure
+                                                                   › s1013D(1)(f) (obligation to disclose information           information
+                                                                      about other significant characteristics or features of
+                                                                      the product in a PDS); and
+                                                                   › s1013E (general obligation to include other
+                                                                      information that might influence a decision to
+                                                                      acquire in a PDS).
+
+                                                                   ASIC Corporations (Financial Services Guide, General
+                                                                   Advice Warning and Advertising Related Relief)
+                                                                   Instrument 2025/234
+© Australian Securities and Investments Commission December 2025                                                                                                                      Page 27
+                                                                                                                REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Personal advice
+
+Client interests                                               Source                                                         Relevant guidance and further information
+                                                               Section 961J of the Corporations Act (obligation to            RG 175 AFS licensing: Financial product advisers—
+If you provide personal advice to a retail client, you must
+prioritise the client’s interests over your interests or the   prioritise the client’s interests over your own or your        Conduct and disclosure
+interests of your associates, unless the advice relates to a   associates’ interests).
+basic banking product, a general insurance product or a
+combination of these.
+
+
+
+Conflicted remuneration                                        Source                                                         Relevant guidance and further information
+Conflicted remuneration is any benefit given to an AFS         Corporations Act:                                              RG 246 Conflicted and other banned remuneration
+licensee or its representatives that:                          › Div 4 of Pt 7.7A (prohibition against conflicted
+                                                                                                                              INFO 292 FAQs: Informed consents for insurance
+                                                                  remuneration); and
+›   could reasonably be expected to influence the                                                                             commissions
+                                                               › Div 5 of Pt 7.7A (other banned remuneration).
+    financial product recommended or the advice
+    given; or
+
+›   relates to information on, or dealing in, a life risk
+    insurance product.
+
+As an AFS licensee or representative, you must not
+accept conflicted remuneration. Product issuers and
+sellers, as well as those employing AFS licensees and
+their representatives, are also banned from providing it
+to you.
+
+Other forms of remuneration that may influence the
+advice provided (e.g. volume-based shelf-space fees)
+are also banned.
+
+Certain insurance commissions are exempt from the ban
+on conflicted remuneration. If you provide personal
+advice to a retail client and gain the client’s informed
+consent, the exemption applies to monetary benefits
+given to you in connection with the sale or issue of
+general insurance products, certain life insurance
+products or consumer credit insurance.
+
+© Australian Securities and Investments Commission December 2025                                                                                                                 Page 28
+                                                                                                              REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                    REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Code of Ethics                                                Source
+                                                              Section 921E of the Corporations Act (obligation to
+If you are authorised to provide personal advice to a
+retail client, you must comply with the Financial Planners    comply with Code of Ethics).
+and Advisers Code of Ethics 2019, which requires you to       Financial Planners and Advisers Code of Ethics 2019 (see
+avoid advising, referring, or acting where there is a         Standard 3 relating to conflicts).
+conflict of interest or duty.
+
+
+
+Statement of Advice                                           Source                                                        Relevant guidance and further information
+When required, you must give a Statement of Advice            Sections 947B and 947C of the Corporations Act                RG 175 AFS licensing: Financial product advisers—
+(SOA) when providing personal advice to a client. The         (obligations to disclose benefits and relationships in        Conduct and disclosure
+SOA must include information about any conflicts of           SOA).
+                                                                                                                            RG 221 Facilitating digital financial services disclosures
+interest, such as remuneration and interests held by the
+                                                              Division 3 of Pt 7.7 of the Corporations Regulations 2001
+adviser or their associates, that could influence the                                                                       INFO 266 FAQs: Records of Advice (ROAs)
+                                                              (SOA).
+advice provided.
+
+
+
+
+General advice
+
+Research reports                                              Source                                                        Relevant guidance and further information
+If you provide retail and wholesale clients with relevant     Section 912A(1)(aa) of the Corporations Act (conflicts        RG 79 Research report providers: Improving the quality
+investment research (‘research report providers’), you        management obligation).                                       of investment research
+must comply with the conflicts management obligation.
+                                                                                                                            RG 264 Sell-side research
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                                Page 29
+                                                                                                              REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                    REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+Claims handling
+
+Claims handling and settlement services                        Source                                                       Relevant guidance and further information
+If you undertake claims handling and settlement                Section 912A(1)(aa) of the Corporations Act (conflicts       INFO 253 Claims handling and settling: How to comply
+services, you must comply with your conflicts                  management obligation).                                      with your AFS licence obligations
+management obligation. This includes managing
+conflicts relating to:
+
+›   incentives and performance metrics for claims staff
+    and management;
+
+›   remuneration agreements; and
+
+›   profit-sharing contracts.
+
+
+
+
+Superannuation
+
+Superannuation trustees                                        Source
+If you are a superannuation trustee, you must act in the       Superannuation Industry (Supervision) Act 1993:
+members’ best financial interests if there is a conflict and   › s52(2)(a) (duty of trustees of registrable
+ensure that:                                                      superannuation entities (RSEs) to act honestly);
+                                                               › s52(2)(c) (duty of trustees of RSEs to act in members’
+›   you prioritise your duties to members, and in the
+                                                                  best financial interests);
+    best interests of members;
+                                                               › s52A(2)(c) (duty of corporate trustee directors to
+›   you meet your duties to members despite the                   perform their duties and exercise their powers in
+    conflict;                                                     members’ best financial interests);
+›   the conflict does not adversely affect the interests of    › s52(2)(d)(i)–(iv) (e.g. duties of trustees of RSEs to
+    members; and                                                  prioritise the members’ interests); and
+                                                               › s52A(2)(d)(i)–(iv) (e.g. duties of corporate trustee
+›   you comply with the prudential standards in relation
+                                                                  directors to prioritise the members’ interests).
+    to conflicts.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                               Page 30
+                                                                                                            REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+Retail funds management
+
+Registered managed investment schemes                         Source                                                      Relevant guidance and further information
+                                                              Chapter 5C of the Corporations Act, including:              RG 132 Funds management: Compliance and oversight
+As a responsible entity (or its officer) of a registered
+scheme, you must act honestly and (in a conflict) prefer      › s601FC and 601FD (duty to act in members’ best
+                                                                interests and to give priority to members’ interests);    RG 133 Funds management and custodial services:
+the interests of your members over your own.
+                                                              › s601FC and 601FD (duty to not misuse information);        Holding assets
+If you appoint an agent (e.g. an investment manager),         › s601FE (employees to not misuse information or            RG 148 Platforms that are managed investment schemes
+you remain responsible for all acts and omissions of that       make improper use of their position); and                 and nominee and custody services
+agent—including those matters that may give rise to a
+                                                              › s601FB(2) (responsibility for agents).
+conflict or potential conflict of interest.                                                                               RG 259 Risk management systems of fund operators
+                                                              ASIC Corporations (Asset Holding Standards for
+We have also provided specific guidance on a range of
+                                                              Responsible Entities) Instrument 2024/16
+matters, including:
+
+›   holding assets, which includes addressing certain
+    conflicts of interest, such as conflicts of custodial
+    staff; and
+
+›   for certain scheme types—the use of disclosure for
+    relevant conflicts issues such as related-party
+    transactions and conflicts in valuations.
+
+Operators of unregistered schemes may wish to
+consider the relevant guidance and further information
+for registered schemes when establishing and reviewing
+their conflict management arrangements.
+
+
+
+Corporate collective investment vehicles (CCIVs)              Source                                                      Relevant guidance and further information
+If you are a corporate director of a CCIV, you must           Chapter 8B of the Corporations Act, including s1224D        RG 132 Funds management: Compliance and oversight
+prioritise members’ interests in a conflict and minimise      (duty to give priority to members’ interests).
+                                                                                                                          RG 133 Funds management and custodial services:
+conflicts of custodial staff when holding assets.
+                                                              ASIC Corporations (Asset Holding Standards for              Holding assets
+                                                              Responsible Entities) Instrument 2024/16
+                                                                                                                          RG 259 Risk management systems of fund operators
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                             Page 31
+                                                                                                             REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Crowd-sourced funding (CSF) intermediaries                    Source                                                       Relevant guidance and further information
+If you are a CSF intermediary, you must comply with the       Corporations Act:                                            RG 261 Crowd-sourced funding: Guide for companies
+                                                              › s912A(1)(aa) (conflicts management obligation);
+conflicts management obligation and specific
+                                                              › s738G and reg 6D.3A.01 (eligibility of related party       RG 262 Crowd-sourced funding: Guide for
+obligations on related party transactions.
+                                                                 offers); and                                              intermediaries
+                                                              › s738ZK (related party transactions).
+
+
+Custodial or depository services                              Source                                                       Relevant guidance and further information
+If you provide a custodial or depository service, you         ASIC Corporations (Custody Standards for Providers of        RG 133 Funds management and custodial services:
+                                                              Custodial and Depository Services) Instrument 2024/17        Holding assets
+must:
+
+›   segregate custodial staff (and direct and indirect
+    managers) from persons performing other functions
+    in a way that minimises the potential for conflicts of
+    interest between their duties and other functions;
+    and
+
+›   use business structures that support minimising
+    these conflicts.
+
+
+
+Managed discretionary accounts (MDAs) and                     Source                                                       Relevant guidance and further information
+investor directed portfolio services (IDPS)                   ASIC Corporations (Managed Discretionary Account             RG 179 Managed discretionary accounts
+If you are an MDA provider or an operator of an IDPS          Services) Instrument 2016/968
+                                                                                                                           RG 148 Platforms that are managed investment schemes
+that holds custodial property, you must:                      ASIC Corporations (Investor Directed Portfolio Services)     and nominee and custody services
+›   segregate custodial staff (and direct and indirect        Instrument 2023/669
+    managers) from persons performing other functions
+    in a way that minimises the potential for conflicts of
+    interest between their duties and other functions;
+    and
+
+›   use business structures that support minimising this
+    conflict.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                              Page 32
+                                                                                                              REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                    REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Market supervision
+
+Market conduct                                                Source                                                        Relevant guidance and further information
+You are prohibited from certain conduct that results in       Part 7.10 of the Corporations Act, including:                 REP 331 Dark liquidity and high-frequency trading
+insider trading and market manipulation of financial          › Div 3 (insider trading provisions); and
+                                                                                                                            REP 486 Sell-side research and corporate advisory:
+products and services. These provisions are intended to       › s1041A (market manipulation).
+                                                                                                                            Confidential information and conflicts
+promote investor protection and market integrity.
+                                                                                                                            REP 605 Allocations in equity raising transactions
+Conflicts of interest are a significant driver of, and can
+result in, market misconduct.                                                                                               REP 652 Wholesale FX practices in Australia
+
+                                                                                                                            REP 668 Allocations in debt capital market transactions
+
+                                                                                                                            REP 741 Conduct risk in wholesale fixed income markets
+
+                                                                                                                            REP 742 Managing conflicts of interest in wholesale
+                                                                                                                            financial markets
+
+
+
+Market Integrity Rules (Securities and Futures)               Source                                                        Relevant guidance and further information
+If you are a securities or futures market participant, you    ASIC Market Integrity Rules (Securities Markets) 2017         RG 265 Guidance on ASIC market integrity rules for
+must comply with the ASIC market integrity rules, which                                                                     participants of securities markets
+                                                              ASIC Market Integrity Rules (Futures Markets) 2017
+include those that address conflicts of interest. These
+                                                                                                                            RG 266 Guidance on ASIC market integrity rules for
+rules are designed to promote fair, orderly and               ASIC Market Integrity Rules (Securities Markets and
+                                                                                                                            participants of futures markets
+transparent markets.                                          Futures Markets) Amendment Instrument 2022/74
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                                 Page 33
+                                                                                                             REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Listed entity                                                 Source                                                       Relevant guidance and further information
+If you are a listed disclosing entity, you must               Sections 674 and 677 of the Corporations Act                 RG 193 Notification of directors’ interests in securities:
+                                                              (continuous disclosure obligations).                         Listed companies
+immediately disclose market-sensitive information to the
+market operator once you are aware of it. This may            ASX Listing Rules, Rules 3.1 and 3.1A.
+include disclosing relevant conflicts of interest.
+
+
+
+ASX Listing and Operating Rules and                           Source
+CBOE Operating Rules                                          Sections 793C and 1101B of the Corporations Act.
+If you are a listed entity, or their associate, you must      ASX Listing Rules, including Chapter 10 and 12, which
+comply with your ASX Listing and Operating Rules              include obligations relating to transactions with persons
+(including AQUA rules) or Cboe Operating Rules, which         in positions of influence, key management personnel
+include conflicts of interest obligations.                    and investors. See also Guidance Note 27 Trading
+You must take these rules into account when complying         policies.
+with your conflicts management obligation if you are:         AQUA Rules (Schedule 10A to the ASX Operating Rules)
+›   a listed entity that operates a financial services        are designed for ‘open-ended’ investment schemes
+    business; or                                              such as exchange traded funds (ETFs) and structured
+                                                              products. It includes obligations to manage conflicts.
+›   hold an AFS licence and advise or deal in relation to
+    a listed entity.                                          Cboe Operating Rules, which includes obligations to
+                                                              manage conflicts.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                                Page 34
+                                                                                                             REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+Corporate governance
+
+Directors’ duties                                             Source
+If you are a director or other relevant employee in           Part 2D.1 of the Corporations Act, including:
+relation to a financial services business, you must           › s180–181 (general duties to act in good faith and
+consider your:                                                   with care and diligence);
+                                                              › s182–183 (obligation to not use position or
+›   duties to disclose material personal interests or
+                                                                 information improperly); and
+    standing interests when conflicts arise; and
+                                                              › s191–192 (conflicts of interest and disclosure).
+›   general duties, such as acting in good faith and not
+    misusing your position.
+
+
+
+Annual disclosure                                             Source                                                       Relevant guidance and further information
+                                                              Division 1 of Pt 2M.3, including:                            RG 170 Prospective financial information
+If you are a company, registered managed investment
+scheme, registrable superannuation entity, or disclosing      › s292 (financial and directors’ reports); and
+                                                              › s299 (annual directors’ report, general information).      RG 247 Effective disclosure in an operating and financial
+entity, you should consider whether you need to
+                                                                                                                           review
+disclose any conflicts of interest in your annual financial
+report and directors’ report.
+
+
+
+Related party transactions                                    Source                                                       Relevant guidance and further information
+A related party transaction occurs when a public              Corporations Act:                                            RG 76 Related party transactions
+company or registered managed investment scheme               › Div 2 of Pt 2D.1 (material personal interests); and
+provides a financial benefit to a related party, such as a    › Ch 2E and Pt 5C.7 (related party transactions).
+director, their spouse, or certain relatives, creating an
+actual conflict of interest.
+
+If you are a public company or responsible entity that is
+a financial services business, you must obtain member
+approval before providing such benefits, unless an
+exception applies.
+
+Directors who have a material personal interest may be
+restricted from voting on the matter.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                              Page 35
+                                                                                                               REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                     REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+Fundraising
+
+Securities transactions                                       Source                                                         Relevant guidance and further information
+                                                              Chapters 2E, 5, 6, 6A, 6B, 6C, 6D of the Corporations          REP 605 Allocations in equity raising transactions
+Securities transactions may raise a range of conflicts of
+interest issues, including when providing corporate           Act.
+                                                                                                                             REP 486 Sell-side research and corporate advisory:
+advice or undertaking allocations in equity raising.
+                                                                                                                             Confidential information and conflicts
+If you advise or deal in securities, you should consider
+how relevant conflicts may need to be effectively
+managed.
+
+
+
+Offering securities—Disclosure                                Source                                                         Relevant guidance and further information
+If you advise or deal in the offer of securities, you must    Chapter 6D (fundraising provisions) of the Corporations        RG 228 Prospectuses: Effective disclosure for retail
+                                                              Act, including:                                                investors
+consider:
+                                                              › s710 (content of a prospectus); and
+›   how you can effectively manage any relevant               › s715 (content of offer information statement).               RG 254 Offering securities under a disclosure document
+    conflicts; and
+
+›   if and how you should disclose relevant conflicts in
+    the relevant disclosure document.
+
+
+
+Independent experts and expert reports                        Source                                                         Related guidance and further information
+If you are engaged to provide an expert report for a          Chapters 2E, 5, 6 and 6A of the Corporations Act               RG 111 Content of expert reports
+securities transaction, both you and the report must          (requirements to obtain expert reports for certain
+                                                                                                                             RG 112 Independence of experts
+remain independent.                                           securities transactions such as takeover bids, schemes of
+                                                              arrangement, buy-backs, related party transactions, and
+As an AFS licensee, you must comply with the conflicts
+                                                              compulsory acquisition of shares).
+management obligation when:
+                                                              ASX Listing Rules, Chapters 5, 6, 7, 8, 9, 10, 11 and 13
+›   providing an expert report (advising on or dealing
+                                                              (expert reports required, including for transactions with
+    in a financial product); or
+                                                              persons in a position of influence).
+›   advising or dealing in a securities transaction
+    requiring an expert report.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                                  Page 36
+                                                                                                         REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                               REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+Audit services
+
+Audit services                                                Source                                                   Related guidance and further information
+If you are a financial services business, you should          Corporations Act:                                        RG 26 Resignation, removal and replacement of auditors
+ensure you procure and engage with auditors so that           › Div 3 of Pt 2M.4 (auditor independence);
+                                                                                                                       RG 34 Auditor obligations: Reporting to ASIC
+you comply with your conflicts management obligation          › Div 5 of Pt 2M.4 (auditor rotation for listed
+and other relevant legal obligations.                            companies, listed registered schemes and              RG 187 Auditor rotation
+                                                                 registrable superannuation entities); and             ASA 102 Compliance with ethical requirements when
+If you are an auditor, you must comply with the
+requirements associated with auditor independence             › s307C on auditors’ independence declarations in Div    performing audits, reviews and other assurance
+and conflicts of interest:                                       3 of Pt 2M.3.                                         engagements
+
+›   auditor rotation; and                                                                                              APES 110 Code of ethics for professional accountants
+                                                                                                                       (including independence standards)
+›   evaluating whether the provision of certain non-
+    audit services, a long association between auditor                                                                 REP 817 Building trust: Auditors’ compliance with
+    and audit client and/or relationships between                                                                      independence and conflict of interest obligations
+    auditor and audit client, could undermine
+    independence and create potential conflicts of
+    interest.
+
+Auditors must consider the potential for real and
+perceived conflicts of interest.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                           Page 37
+                                                                                                             REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+                                                                                                                       REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+Catalogue: Key obligations for other licensees
+Australian market licensees
+
+Market licensing obligations                                  Source                                                          Relevant guidance and further information
+If you are also a market licensee, you must comply with       Parts 7.2 and 7.2A of the Corporations Act, including:          RG 172 Financial markets: Domestic and overseas
+your general licensing obligations, including having          › s792A(c) (manage conflicts of interest); and                  operators
+adequate arrangements to prevent conflicts from               › s798E (other potential conflict situations).
+undermining market integrity.
+
+
+
+Clearing and settlement (CS) facility licensees
+
+CS facility licensing obligations                             Source                                                          Relevant guidance and further information
+
+                                                              Section 821A of the Corporations Act (general licensing         RG 211 Clearing and settlement facilities: Australian and
+If you are also a CS facility licensee, you must do all
+things necessary to reduce systemic risk and, to the          obligations), including s821A(1)(c)(i) (adequate                overseas operators
+extent reasonably practicable, have adequate                  arrangements to handle conflicts).
+arrangements to handle conflicts as required by the law.
+
+
+
+Australian credit licensees
+
+Credit licensing obligations                                  Source                                                          Relevant guidance and further information
+If you are also a credit licensee, you must comply with       National Consumer Credit Protection Act 2009:                   RG 205 Credit licensing: General conduct obligations
+your general credit licensing obligations, including to       › s47 (general credit licensing obligations);
+                                                                                                                              RG 209 Credit licensing: Responsible lending conduct
+have in place adequate arrangements to ensure conflicts       › Ch 3 (responsible lending and disclosure
+of interest do not disadvantage clients.                         obligations); and                                            RG 273 Mortgage brokers: Best interests duty
+                                                              › Pt 3.5A (applicable to mortgage brokers and                   INFO 134 Complying with your obligations if both credit
+If you are a mortgage broker, you must also ensure that
+you comply with:                                                 mortgage intermediaries), including Div 2 (including         licensee and AFS licensee
+                                                                 obligations to prioritise the consumers’ interests) and
+›   the duty to prioritise the consumers’ interests when         Div 4 (conflicted remuneration obligations).                 INFO 146 Responsible lending disclosure obligations:
+    providing credit assistance; and                                                                                          Overview for credit licensees and representatives
+
+›   prohibitions on conflicted remuneration.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                                  Page 38
+                                                                                                            REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+                                                                                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+Entities regulated by the Australian Prudential Regulation Authority (APRA)
+
+APRA Prudential Standards                                     Source
+If you are also an APRA-regulated entity, you must            CPS 510 Governance (obligations related to
+comply with your licensing and prudential obligations,        independence) and SPS 510 Governance (conflicts of
+including those that are relevant to managing conflicts       interest and governance of an RSE licensee);
+of interest.
+                                                              CPS 511 Remuneration (obligations related to mitigating
+                                                              conflicts in remuneration arrangements);
+
+                                                              CPS 220 Risk management;
+
+                                                              CPS 520 Fit and proper; and
+
+                                                              SPS 521 Conflicts of interest (conflicts of interest and
+                                                              requirements relating to the management of conflicts by
+                                                              an RSE licensee.
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                                                                             Page 39
+                                                      REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Key terms
+
+
+                              Term                          Meaning in this document
+
+                              AFS licence                   An Australian financial services licence under s913B of
+                                                            the Corporations Act that authorises a person who carries
+                                                            on a financial services business to provide financial
+                                                            services
+                                                              Note: This is a definition in s9.
+
+                              AFS licensee (or              A person who holds an AFS licence
+                              licensee)                       Note: This is a definition in s9.
+
+                              APRA                          Australian Prudential Regulation Authority
+
+                              ASIC                          Australian Securities and Investments Commission
+
+                              ASIC v Avestra                Australian Securities and Investments Commission v
+                                                            Avestra Asset Management Limited (In Liquidation)
+                                                            (2017) 348 ALR 525
+
+                              conflicts of interest         See RG 181.29–RG 181.34
+
+                              conflicts management          The obligation in s912A(1)(aa) to have in place adequate
+                              obligation                    arrangements for managing conflicts of interest
+
+                              Corporations Act              Corporations Act 2001, including regulations made for the
+                                                            purposes of that Act
+
+                              credit licensee               A person who holds an Australian credit licence under
+                                                            s35 of the National Consumer Credit Protection Act 2009
+
+                              CS facility                   A clearing and settlement facility as defined in s768A of
+                                                            the Corporations Act
+
+                              CS facility licensee          A person who holds an Australian CS facility licence
+                                                              Note: This is a definition in s768A of the Corporations Act.
+
+                              CSF intermediary              An AFS licensee whose licence expressly authorises the
+                                                            licensee to provide a crowd-funding service
+                                                              Note: See s738C of the Corporations Act.
+
+                              Explanatory                   Explanatory Memorandum to the Corporate Law
+                              Memorandum                    Economic Reform Program (Audit Reform and Corporate
+                                                            Disclosure) Bill 2003
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                       Page 40
+                                                   REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+                              Term                       Meaning in this document
+
+                              financial product          Generally, a facility through which, or through the
+                                                         acquisition of which, a person does one or more of the
+                                                         following:
+                                                          makes a financial investment (see s763B);
+                                                          manages financial risk (see s763C); and/or
+                                                          makes non-cash payments (see s763D)
+                                                           Note: See Div 3 of Pt 7.1 of the Corporations Act for the exact
+                                                           definition. In addition to the general categories above, this
+                                                           specifies certain things as being included or excluded from the
+                                                           definition.
+
+                              financial product          A recommendation or a statement of opinion, or a report
+                              advice                     of any of those things, that:
+                                                          is intended to influence a person or persons in making
+                                                           a decision about a particular financial product or class
+                                                           of financial products, or an interest in a particular
+                                                           financial product or class of financial products; or
+                                                          could reasonably be regarded as being intended to
+                                                           have such an influence
+
+                                                         This does not include anything in an exempt document or
+                                                         statement.
+                                                           Note: This is a definition in s766B of the Corporations Act.
+
+                              financial service          Has the meaning given in Div 4 of Pt 7.1 of the
+                                                         Corporations Act
+
+                              financial services         Has the meaning set out in s761A of the Corporations Act
+                              laws
+
+                              INFO 151 (for              An ASIC information sheet (in this example numbered
+                              example)                   151)
+
+                              market licensee            The holder of an Australian market licence
+                                                           Note: This is a definition in s9 of the Corporations Act.
+
+                              representative             Means:
+                                                          an authorised representative of the licensee;
+                                                          an employee or director of the licensee;
+                                                          an employee or director of a related body corporate of
+                                                           the licensee; or
+                                                          any other person acting on behalf of the licensee
+                                                           Note: This is a definition contained in s9 of the Corporations
+                                                           Act.
+
+                              retail client              A client as defined in s761G and 761GA of the
+                                                         Corporations Act and Div 2 of Pt 7.1 of the Corporations
+                                                         Regulations 2001
+
+                              RG 78 (for example)        An ASIC regulatory guide (in this example numbered 78)
+
+                              target market              The class of consumers described in the target market
+                                                         determination for the product under s994B(5)(b) of the
+                                                         Corporations Act
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                                       Page 41
+                                                  REGULATORY GUIDE 181: AFS licensing: Managing conflicts of interest
+
+
+
+
+Related information
+
+                             Headnotes
+
+                             conflicts of interest; conflicts; internal controls; information barriers;
+                             conflicts management; disclosure; avoiding; managing conflicts; adequate
+                             arrangements
+
+
+                             Regulatory guides
+
+                             RG 36 Licensing: Financial product advice and dealing
+
+                             RG 78 Breach reporting by AFS licensees and credit licensees
+
+                             RG 79 Research report providers: Improving the quality of investment
+                             research
+
+                             RG 104 AFS licensing: Meeting the general obligations
+
+                             RG 105 AFS licensing: Organisational competence
+
+                             RG 166 AFS licensing: Financial requirements
+
+                             RG 175 AFS licensing: Financial product advisers—Conduct and disclosure
+
+                             RG 246 Conflicted and other banned remuneration
+
+
+                             Legislation
+
+                             Corporations Act 2001, s9, 601FC, 760A, 912A(1)(aa), 912A(1),
+                             912A(1)(a), 912A(1)(c), 912A(1)(ca), 941A, 941B, 946A
+
+                             Superannuation Industry (Supervision) Act 1993, s52(2)(d)
+
+
+                             Cases
+
+                             Australian Securities and Investments Commission v Avestra Asset
+                             Management Limited (In Liquidation) (2017) 348 ALR 525
+
+                             Australian Securities and Investments Commission v Westpac Banking
+                             Corporation (No 2) (2018) 357 ALR 240
+
+                             Australian Securities and Investments Commission v Westpac Banking
+                             Corporation (Penalty Hearing) [2024] FCA 52
+
+
+
+
+© Australian Securities and Investments Commission December 2025                                             Page 42
+

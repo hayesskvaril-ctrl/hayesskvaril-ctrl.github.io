@@ -1,0 +1,2062 @@
+SOURCE: https://hayesskvaril-ctrl.github.io/obligations/
+FINAL URL: https://hayesskvaril-ctrl.github.io/obligations/
+FETCHED: 2026-10-08
+
+
+
+Obligations library | RiskLens Australia
+
+Skip to content
+
+RiskLens Australia
+Menu
+
+Risk
+Risk : Managing risk, from the basics to resilience and incidents.
+Start with the basics
+What is risk management?
+Enterprise risk management
+Risk appetite and tolerance
+Risk assessment methods
+
+Incidents and issues
+What to do when there's an incident
+Incident and breach management
+Root cause analysis
+Issue and action management
+
+Operational resilience
+Operational risk
+Mapping critical operations
+Setting tolerance levels
+Business continuity
+Scenarios and stress testing
+
+Third parties
+Third-party and outsourcing risk
+Exit planning and concentration
+Onboard a service provider
+
+Controls and assurance
+Control design and testing
+Sampling for control tests
+Key risk indicators
+Assurance mapping
+Test a key control
+
+Types of risk
+Cyber risk
+Climate risk
+Credit, market and liquidity
+Model risk
+Fraud risk
+All risk topics
+
+Compliance
+Compliance : Knowing your obligations, and what to do when they're breached.
+Start with the basics
+What is compliance?
+Licensing basics
+Interpreting legislation
+Designing a compliance program
+
+Obligations
+Obligations by sector
+Obligations library
+Regulatory tracker
+
+Breaches and reporting
+Assess a potential breach
+Breach reporting: every regime
+Breach significance in practice
+ASIC RG 78
+
+Remediation
+Run a remediation
+ASIC RG 277
+Remediation calculations
+
+Disclosure and conduct
+Disclosure obligations
+Misleading or deceptive conduct
+Design and distribution
+Complaints handling
+Consumer protection
+
+Financial crime and privacy
+AML/CTF
+Sanctions
+Anti-bribery and corruption
+Privacy law
+
+Monitoring and enforcement
+Monitoring and testing
+Enforcement and penalties
+All compliance topics
+
+Governance
+Governance : How boards and executives oversee it all.
+Start with the basics
+What is governance?
+The Three Lines model
+
+Boards and directors
+Board structure and accountability
+Directors' duties: key cases
+Board risk reporting
+Board briefings
+
+Accountability
+Financial Accountability Regime
+Reasonable steps
+
+Culture and people
+Culture and conduct
+Assessing risk culture
+Remuneration
+Whistleblowing
+
+Oversight
+Internal audit
+Conflicts of interest
+AI governance
+All governance topics
+
+GRC systems
+What is a GRC system?
+Establishing a GRC system
+Risk taxonomy and hierarchy
+All GRC topics
+
+Your sector
+Your sector : Everything for your part of financial services in one place.
+Financial services
+Superannuation
+Banking
+General insurance
+Life insurance
+Private health insurance
+Funds management
+Financial advice
+Credit and lending
+Payments and fintech
+
+Obligations for your sector
+Pick your sector
+Compare sectors
+
+Listed companies
+Guide
+Obligations
+
+Not-for-profits and charities
+Guide
+Obligations
+
+Commonwealth public sector
+Guide
+Obligations
+
+Standards
+Standards : The rules themselves, explained in plain English.
+APRA
+CPS 220 Risk Management
+CPS 230 Operational Risk
+CPS 234 Information Security
+CPS 510 and 520 Governance
+CPS 511 Remuneration
+SPS 515 Member Outcomes
+SPS 530 Investment Governance
+
+ASIC
+RG 78 Breach reporting
+RG 97 Fees and costs
+RG 271 Complaints
+RG 274 Design and distribution
+RG 277 Remediation
+All key ASIC guides
+
+Frameworks
+ISO 31000 Risk management
+COSO
+ISO 37301 Compliance
+ISO 27001 Information security
+Essential Eight
+All standards
+
+Learn
+Learn : Courses, quizzes, videos and the glossary.
+Get started
+Start here
+Learning pathways
+My learning
+Browse by level
+
+Practise
+Quizzes
+Scenarios
+Flashcards
+Videos
+
+Reference
+Glossary
+Case studies
+All topics
+Research library
+Advanced study program
+
+Toolkit
+Toolkit : Playbooks, templates and tools for the job.
+Playbooks
+Respond to an incident
+Assess a potential breach
+Run a remediation
+Onboard a service provider
+Review a disclosure document
+Test a key control
+All playbooks
+
+Tools and templates
+Tools and templates
+Resource library
+Risk heat map
+KRI library
+
+Build
+GRC model builder
+Obligations library
+
+News
+
+Search
+
+Home
+Obligations library
+
+Obligations library
+
+131 plain-English obligation summaries from 39 Australian regimes, each with a control objective, the evidence that shows it is met, the risks it relates to and any notification deadlines. Search it, filter it by organisation type, or download it.
+
+131 obligation themes
+39 regimes
+14 notification deadlines
+163 individual obligations with citations
+Last reviewed: 8 October 2026
+
+Key takeaways
+
+Each entry summarises a group of related obligations in plain English. It is a starting point for an obligations register, not a substitute for the law: always read the official source.
+
+For CPS 230, CPS 234, AFSL, DDO, Advice, Whistleblower, RG 78 and RG 271, each summary also lists the individual obligations with their legal citations (section, paragraph or regulatory guide paragraph), checked against the official text. More regimes will be added.
+
+Every entry has a control objective and the evidence that would show it is met, so it can be linked to controls and tested.
+
+Filter by organisation type to see the regimes that usually apply. Whether a regime applies depends on licences, products, size and thresholds.
+
+The IDs match the GRC model builder , which links each obligation to risks, controls and committees.
+
+Search
+
+Organisation type All types Bank or other ADI General insurer Life insurer Private health insurer Super trustee (RSE licensee) Responsible entity or fund manager Financial advice licensee Credit licensee or non-bank lender Payments or fintech business Listed company (non-financial) Charity or not-for-profit Commonwealth government entity
+
+Regulator All regulators APRA ASIC AUSTRAC OAIC ACCC ASX ACNC DFAT Home Affairs Border Force Finance
+
+Only regimes with notification deadlines
+
+Download Excel Download CSV Downloads include what you have filtered.
+
+Jump to: CPS 220 CPS 230 CPS 234 CPS 510/520 CPS 511 FAR Capital APS 210 CPS 190/900 SPS 515 SPS 530 SIS Act AFSL RG 78 RG 271 DDO RG 277 RG 97 Disclosure Conflicts Credit Advice Insurance conduct RG 259 Life insurance Private health AML/CTF Sanctions Anti-bribery Scams Privacy Ransomware AI ASX Whistleblower Climate Modern slavery ACNC PGPA
+
+Prudential (APRA)
+
+Risk management (CPS 220, or SPS 220 for super)
+
+APRA Applies to: APRA-regulated entities (SPS 220 for super trustees). Check which version applies to your entity.
+
+Typical owner: Chief Risk Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CPS220-01
+Maintain a risk management framework covering all material risks, including credit, market and investment, liquidity, insurance, operational and strategic risks
+The framework is complete, approved and reflects every material risk
+Board-approved framework; material risk assessment
+Risk framework effectiveness; Licence and regulatory requirements
+
+OB-CPS220-02
+Board approves a risk appetite statement and a risk management strategy
+Appetite and strategy are current, approved and used in decisions
+Board papers and minutes; appetite metrics reporting
+Risk framework effectiveness
+
+OB-CPS220-03
+Board forms a view of the entity’s risk culture
+Risk culture is assessed and reported to the board
+Risk culture assessment; board minutes
+Risk culture and speaking up
+
+OB-CPS220-04
+Operationally independent risk management function headed by a Chief Risk Officer, and a designated compliance function
+Second-line functions are independent and resourced
+Organisation chart; CRO reporting lines; function charters
+Risk framework effectiveness; Licence and regulatory requirements
+
+OB-CPS220-05
+Comprehensive, operationally independent review of the framework at least every three years
+The framework is independently reviewed on time and findings are fixed
+Review report; action tracker
+Risk framework effectiveness
+
+OB-CPS220-06
+Annual risk management declaration to APRA (banks and insurers)
+The declaration is supported by evidence and approved by the board
+Declaration; supporting attestations
+Regulatory reporting and notifications
+
+Operational risk management (CPS 230)
+
+APRA Applies to: APRA-regulated entities, in proportion to their size and complexity. Smaller entities had until 1 July 2026 for some business continuity and scenario analysis requirements; the full standard now applies to all.
+
+Typical owner: Chief Operating Officer. Read our guide
+
+Individual obligations checked against Prudential Standard CPS 230 Operational Risk Management (F2026L00475, in force from 1 July 2026) on 8 October 2026.
+
+Notification deadlines
+Within 72 hours : Material operational risk incident (APRA)
+Within 24 hours : Disruption to a critical operation outside tolerance (APRA)
+Within 20 business days : Entering into or materially changing an agreement for a service relied on to undertake a critical operation (APRA)
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CPS230-01
+Board is ultimately accountable for operational risk, business continuity and service providers; senior management implements 7 individual obligations The Board is ultimately accountable for oversight of operational risk management, including business continuity and service provider arrangements CPS 230 para 19
+The Board makes sure clear roles and responsibilities are set for senior managers for operational risk, business continuity and service providers CPS 230 para 20
+The Board oversees operational risk management and key internal controls, gets regular updates on the operational risk profile, and makes sure senior management acts on concerns CPS 230 para 21(a)
+The Board approves the business continuity plan (BCP) and tolerance levels, reviews testing results and oversees the follow-up CPS 230 para 21(b)
+The Board approves the service provider management policy and reviews risk and performance reporting on material service providers CPS 230 para 21(c)
+Senior management gives the Board clear and comprehensive information on the expected impact on critical operations when the Board makes decisions that could affect their resilience CPS 230 para 22
+Senior management is responsible for operational risk management across end-to-end processes for all business operations CPS 230 para 23
+
+Board oversight of operational resilience is evidenced
+Board papers; accountability statements
+Board effectiveness and oversight; Process execution
+
+OB-CPS230-02
+Identify, assess and manage operational risks; design, implement and test internal controls; keep weaknesses in the risk profile until fixed 13 individual obligations Identify, assess and manage operational risks from inadequate or failed processes or systems, people, and external drivers and events CPS 230 para 12
+As part of the risk management framework, maintain governance arrangements, an operational risk profile with a defined appetite (indicators, limits and tolerance levels), effective internal controls, monitoring and escalation, BCPs and service provider processes CPS 230 para 15
+Review operational risk management as part of the regular reviews of the risk management framework CPS 230 para 16
+Integrate operational risk management into the overall risk management framework, and keep business continuity planning consistent with recovery and exit planning CPS 230 para 17
+Manage the full range of operational risks, including legal, regulatory, compliance, conduct, technology, data and change management risk CPS 230 para 23
+Maintain sound IT capability for current and projected needs, monitor the age and health of information assets, and meet CPS 234 CPS 230 para 24
+Assess the impact of business and strategic decisions, including new products, services, geographies and technologies, on the operational risk profile and resilience CPS 230 para 25
+Maintain a comprehensive assessment of the operational risk profile: operational risk information systems, documented processes and resources for critical operations (with interdependencies, risks, obligations, key data and controls) and scenario analysis of severe events CPS 230 para 26
+Carry out a comprehensive risk assessment before providing a material service to another party CPS 230 para 27
+Design, implement and embed internal controls in line with risk appetite and compliance obligations CPS 230 para 28
+Regularly monitor, review and test controls for design and operating effectiveness, as often as the risk warrants; report results to senior management and fix gaps in a timely manner CPS 230 para 29
+Remediate material weaknesses with clear accountability and assurance, address root causes, and keep open gaps in the risk profile until fixed CPS 230 para 30
+Identify, escalate, record and address operational risk incidents and near misses in a timely manner, and reflect them in the risk profile and control assessments CPS 230 para 31
+
+Operational risks and controls are current and tested
+Risk registers; control testing results; issues register
+Process execution; Data management and quality; Operational change
+
+OB-CPS230-03
+Identify critical operations and set board-approved tolerance levels 4 individual obligations Define, identify and keep a register of critical operations CPS 230 para 33(a)
+At a minimum, treat the operations listed for the industry as critical unless it can justify otherwise (for example claims processing for insurers, investment management and fund administration for super trustees, and customer enquiries and supporting systems for all) CPS 230 para 35
+For each critical operation, set tolerance levels for the maximum period of disruption, the maximum data loss and the minimum service levels under alternative arrangements CPS 230 para 37
+Monitor compliance with tolerance levels and report any failure to meet them, with a remediation plan, to the Board CPS 230 para 40
+
+Every critical operation has approved tolerances
+Critical operations register; tolerance statements
+Business disruption and critical operations
+
+OB-CPS230-04
+Maintain a credible business continuity plan and test it, including an annual exercise with severe but plausible scenarios 8 individual obligations Take reasonable steps to minimise the likelihood and impact of disruptions to critical operations CPS 230 para 33(b)
+Maintain a credible BCP for keeping critical operations within tolerance through disruptions (including disaster recovery for critical information assets), activate it when needed and return to normal operations promptly CPS 230 para 33(c)–(e)
+The BCP includes the register of critical operations and tolerances, activation triggers, the actions to stay within tolerance, an assessment of execution risks, resources and dependencies, and a communications strategy CPS 230 para 39
+Maintain the people, resources and technology needed to execute the BCP CPS 230 para 40
+Run a systematic BCP testing program covering all critical operations, including an annual business continuity exercise CPS 230 para 42
+Tailor testing to material risks, with severe but plausible scenarios, including disruption to material service providers and scenarios that need contingency arrangements CPS 230 para 43
+Update the BCP as needed each year for changes in structure, business mix, strategy or risk profile, and for shortcomings found in testing CPS 230 para 44
+Internal audit periodically reviews the BCP and gives the Board assurance that it is credible and that testing is adequate CPS 230 para 45
+
+The organisation can stay within tolerance through severe disruption
+BCP; test reports and lessons
+Business disruption and critical operations; System availability and resilience
+
+OB-CPS230-05
+Identify material service providers; due diligence, formal agreements and ongoing monitoring 11 individual obligations Do not rely on a service provider unless prudential obligations can still be met in full and the risks managed CPS 230 para 14
+Maintain a service provider management policy covering how material service providers are identified, entered into, monitored, substituted and exited, and how their risks and fourth-party risks are managed CPS 230 paras 46–47
+Identify and keep a register of material service providers and manage the material risks of using them CPS 230 para 48
+At a minimum, treat providers of the listed services as material unless it can justify otherwise (including risk management, core technology services and internal audit for all entities) CPS 230 para 49
+Before entering into or materially changing a material arrangement, carry out due diligence and assess financial and non-financial risks, including location and concentration CPS 230 para 52
+Keep a formal legally binding agreement for every material arrangement, covering services and service levels, rights and responsibilities (including data, audit access and liability), compliance, sub-contracting, force majeure and termination CPS 230 para 53
+The agreement gives APRA access to documentation and information and a right to visit the provider, and the provider agrees not to impede APRA CPS 230 para 54
+For each material arrangement, manage risks to the provider’s ability to deliver and risks to the entity (such as step-in or contagion risk), and make sure the BCP can be executed and an orderly exit is possible CPS 230 para 55
+Limited exemption: some contract, exit and monitoring requirements need not be met for listed categories of provider (such as government agencies, regulators, central banks, exchanges, clearing and settlement, payment systems and financial messaging) where the arrangement uses standardised terms or has no formal agreement CPS 230 paras 57–58
+Monitor material arrangements, with reporting to senior management on performance against service levels, control effectiveness and both parties’ compliance with the agreement CPS 230 para 59
+Internal audit reviews any proposed material arrangement to outsource a critical operation, and reports regularly to the Board or audit committee on compliance with the policy CPS 230 para 61
+
+Material service providers are assessed, contracted and monitored
+Due diligence reports; agreements; monitoring records
+Material service providers; Exit and substitutability
+
+OB-CPS230-06
+Submit the material service provider register to APRA each year 1 individual obligation Submit the register of material service providers to APRA every year CPS 230 para 50
+
+The register is complete and submitted on time
+Register; submission record
+Material service providers; Regulatory reporting and notifications
+
+OB-CPS230-07
+Notify APRA of material operational risk incidents and of disruptions to critical operations outside tolerance 4 individual obligations Notify APRA as soon as possible, and no later than 72 hours after becoming aware, of an operational risk incident likely to have a material financial impact or a material impact on the ability to maintain critical operations (an incident already notified under CPS 234 need not be notified again) CPS 230 para 32
+Notify APRA as soon as possible, and no later than 24 hours , after a disruption to a critical operation outside tolerance, covering the disruption, the action taken, the likely impact and the time to return to normal CPS 230 para 41
+Notify APRA as soon as possible, and no more than 20 business days after entering into or materially changing an agreement for a service relied on to undertake a critical operation CPS 230 para 60(a)
+Notify APRA before entering into a material offshoring arrangement, or when a significant change to one is proposed, including where data or personnel will be offshore CPS 230 para 60(b)
+
+Notifiable events are identified and notified within the deadlines
+Incident register; notification records
+Business disruption and critical operations; Regulatory reporting and notifications
+
+Information security (CPS 234)
+
+APRA Applies to: APRA-regulated entities.
+
+Typical owner: Chief Information Security Officer. Read our guide
+
+Individual obligations checked against Prudential Standard CPS 234 Information Security (F2018L01745) on 8 October 2026.
+
+Notification deadlines
+Within 72 hours : Material information security incident (APRA)
+Within 10 business days : Material information security control weakness that can’t be remediated in a timely way (APRA)
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CPS234-01
+Board is ultimately responsible for information security 3 individual obligations The Board is ultimately responsible for information security and must make sure it is maintained in proportion to the threats, so the entity can keep operating soundly CPS 234 para 13
+Clearly define the information security roles and responsibilities of the Board, senior management, governing bodies and individuals CPS 234 para 14
+Escalate and report to the Board or senior management any testing results showing control deficiencies that can’t be fixed in a timely manner CPS 234 para 29
+
+Board oversight of information security is evidenced
+Board papers; security reporting
+Cyber security; Board effectiveness and oversight
+
+OB-CPS234-02
+Know and classify information assets by criticality and sensitivity, including those managed by third parties 4 individual obligations Classify information assets, including those managed by related parties and third parties, by criticality and sensitivity, reflecting the potential impact of an incident on the entity and its customers CPS 234 para 20
+Maintain an information security capability in proportion to the threats, and keep it current as vulnerabilities, threats, assets and the business environment change CPS 234 paras 15 and 17
+Assess the information security capability of related parties and third parties that manage its information assets CPS 234 para 16
+Maintain an information security policy framework in proportion to its exposures, giving direction to everyone with information security responsibilities CPS 234 paras 18–19
+
+Every information asset is classified and owned
+Information asset register
+Information security and access; Data loss and leakage
+
+OB-CPS234-03
+Protect information assets with controls proportionate to the threats 5 individual obligations Implement information security controls in a timely manner, in proportion to vulnerabilities and threats, the criticality and sensitivity of the assets, their life-cycle stage and the potential consequences of an incident CPS 234 para 21
+Evaluate the design of the controls that related parties and third parties use to protect its information assets CPS 234 para 22
+Have robust mechanisms to detect and respond to information security incidents in a timely manner CPS 234 para 23
+Maintain response plans for incidents that could plausibly occur, covering every stage from detection to post-incident review, and escalation to the Board CPS 234 paras 24–25
+Review and test the response plans every year CPS 234 para 26
+
+Controls match the criticality and sensitivity of assets
+Control library; maturity assessments
+Cyber security; Information security and access
+
+OB-CPS234-04
+Test controls through a systematic testing program, with internal audit review 6 individual obligations Test control effectiveness through a systematic testing program, with nature and frequency matched to changing threats, criticality and sensitivity, consequences, untrusted environments and change CPS 234 para 27
+Where it relies on a related or third party’s control testing, assess whether that testing is adequate CPS 234 para 28
+Testing is done by appropriately skilled and functionally independent specialists CPS 234 para 30
+Review the sufficiency of the testing program at least annually, or when assets or the business environment change materially CPS 234 para 31
+Internal audit reviews the design and operating effectiveness of information security controls, including those of related and third parties, using appropriately skilled people CPS 234 paras 32–33
+Internal audit assesses a related or third party’s control assurance where an incident could materially affect the entity and internal audit intends to rely on that assurance CPS 234 para 34
+
+Security controls are tested and gaps fixed
+Testing program; audit reports
+Cyber security
+
+OB-CPS234-05
+Notify APRA of material information security incidents, and of material control weaknesses that cannot be fixed in a timely way 2 individual obligations Notify APRA as soon as possible, and no later than 72 hours after becoming aware, of an information security incident that materially affected (or could have) the entity or its customers, or that has been notified to other regulators CPS 234 para 35
+Notify APRA as soon as possible, and no later than 10 business days after becoming aware, of a material information security control weakness the entity expects it can’t remediate in a timely manner CPS 234 para 36
+
+Notifiable security events are notified within the deadlines
+Incident log; notification records
+Cyber security; Regulatory reporting and notifications
+
+Governance and fit and proper (CPS 510, CPS 520, SPS 510, SPS 520)
+
+APRA Applies to: APRA-regulated entities. APRA has proposed one consolidated governance standard; check the current position.
+
+Typical owner: Company Secretary. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CPS510-01
+Meet minimum requirements for board size, independence, committees, renewal and performance review
+Board structure meets the standard and is reviewed
+Board charter; skills matrix; review reports
+Board effectiveness and oversight
+
+OB-CPS510-02
+Assess responsible persons as fit and proper before appointment and at least annually
+Every responsible person has a current assessment
+Assessment records
+Fit and proper
+
+OB-CPS510-03
+Keep a fit and proper policy and records, and notify APRA if someone is assessed as not fit and proper
+Policy and records are complete; notifications are made
+Policy; register; notifications
+Fit and proper; Regulatory reporting and notifications
+
+Remuneration (CPS 511)
+
+APRA Applies to: APRA-regulated entities; significant financial institutions face extra requirements.
+
+Typical owner: Chief People Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CPS511-01
+Board-approved remuneration framework that supports sound risk management and long-term outcomes
+Remuneration design reflects risk and conduct outcomes
+Framework; remuneration committee papers
+Remuneration and incentives
+
+OB-CPS511-02
+Variable pay can be reduced for poor risk or conduct outcomes (in-period adjustment, malus and clawback)
+Adjustments are considered and applied consistently
+Adjustment decisions and records
+Remuneration and incentives
+
+OB-CPS511-03
+Significant financial institutions: board remuneration committee, material weight on non-financial measures, minimum deferral
+SFI requirements are met
+Committee charter; scorecards; deferral records
+Remuneration and incentives; Board effectiveness and oversight
+
+Financial Accountability Regime (FAR)
+
+APRA and ASIC Applies to: Banks (from 15 March 2024 ) and insurers and super trustees (from 15 March 2025 ).
+
+Typical owner: Company Secretary. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-FAR-01
+Register accountable persons and keep an accountability statement for each and an accountability map for the entity
+Every key responsibility is allocated to a registered accountable person
+Statements; map; registrations
+Accountability and delegations
+
+OB-FAR-02
+Accountable persons act with honesty, integrity, due skill, care and diligence, deal openly with APRA and ASIC, and take reasonable steps
+Reasonable steps are evidenced for each accountable person
+Reasonable steps records; information received by accountable persons
+Accountability and delegations; Risk culture and speaking up
+
+OB-FAR-03
+Defer at least 40% of accountable persons’ variable remuneration for at least four years, and reduce it for failures to meet obligations
+Deferral and adjustment rules are applied
+Remuneration records
+Remuneration and incentives
+
+Capital management and ICAAP
+
+APRA Applies to: ADIs (APS 110) and insurers (their own capital standards).
+
+Typical owner: Chief Financial Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CAP-01
+Hold capital above the minimum requirements, with buffers (for ADIs, Common Equity Tier 1 of at least 4.5% of risk-weighted assets before buffers)
+Capital stays above targets and triggers
+Capital reporting
+Capital adequacy
+
+OB-CAP-02
+Run an ICAAP to assess capital needs, including under stress
+Capital planning reflects the risk profile and stress results
+ICAAP report; stress testing results
+Capital adequacy
+
+Liquidity (APS 210)
+
+APRA Applies to: ADIs. Larger ADIs meet the LCR and NSFR; smaller ADIs have a minimum liquidity holdings requirement.
+
+Typical owner: Treasurer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-APS210-01
+Larger ADIs: Liquidity Coverage Ratio and Net Stable Funding Ratio of at least 100%; smaller ADIs: minimum liquidity holdings
+Liquidity ratios stay above minimums and targets
+Daily liquidity reporting
+Funding liquidity
+
+OB-APS210-02
+Manage liquidity risk with stress testing and a contingency funding plan
+Liquidity stress is planned for and tested
+Stress tests; contingency funding plan
+Funding liquidity
+
+Recovery and exit planning (CPS 190, CPS 900)
+
+APRA Applies to: APRA-regulated entities; significant financial institutions have extra requirements.
+
+Typical owner: Chief Financial Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CPS190-01
+Maintain a credible, tested recovery and exit plan (significant financial institutions include at least two severe stress scenarios)
+Recovery and exit options are credible and tested
+Plan; test reports
+Recovery and exit readiness
+
+OB-CPS190-02
+Support APRA’s resolution planning and be ready to execute it (CPS 900)
+Resolution information and capabilities are maintained
+Resolution planning records
+Recovery and exit readiness
+
+Strategic planning and member outcomes (SPS 515)
+
+APRA Applies to: Super trustees.
+
+Typical owner: Chief Executive. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-SPS515-01
+Set board-approved strategic objectives that support good member outcomes, and a business plan to deliver them
+Strategy and plan are linked to member outcomes
+Strategic plan; business plan
+Customer or member outcomes and value; Strategy and business model
+
+OB-SPS515-02
+Manage financial resources so spending is in members’ best financial interests
+Significant expenditure is justified against members’ interests
+Business cases; expenditure reviews
+Customer or member outcomes and value
+
+OB-SPS515-03
+Assess member outcomes regularly, including the annual outcomes assessment and business performance review
+Outcomes are assessed and acted on
+Outcomes assessment; performance review
+Customer or member outcomes and value
+
+Investment governance (SPS 530)
+
+APRA Applies to: Super trustees.
+
+Typical owner: Chief Investment Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-SPS530-01
+Board-approved investment governance framework for how investment decisions are made, monitored and reviewed
+Investment decisions follow the framework
+Framework; committee papers
+Investment strategy and performance
+
+OB-SPS530-02
+Objectives, strategy and ongoing monitoring of performance and risk for each investment option
+Each option is monitored against its objectives
+Option reviews
+Investment strategy and performance; Customer or member outcomes and value
+
+OB-SPS530-03
+Due diligence before investing, and monitoring of investments and managers afterwards
+Due diligence and monitoring are evidenced
+Due diligence reports; manager reviews
+Investment strategy and performance; Material service providers
+
+OB-SPS530-04
+Valuation governance and liquidity management, including a comprehensive stress-testing program
+Valuations are robust and liquidity is stress tested
+Valuation committee papers; stress test results
+Valuation; Fund and member liquidity
+
+Super trustee duties (SIS Act, performance test)
+
+APRA and ASIC Applies to: Super trustees.
+
+Typical owner: Chief Executive. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-SIS-01
+Act in members’ best financial interests, with evidence for how decisions, including spending, meet that test
+Decisions record how they serve members’ best financial interests
+Decision papers; expenditure assessments
+Customer or member outcomes and value; Conflicts of interest
+
+OB-SIS-02
+Prepare for APRA’s annual performance test and the trustee’s annual outcomes assessment
+Performance is monitored against the test throughout the year
+Performance test monitoring
+Customer or member outcomes and value; Investment strategy and performance
+
+Licensing and conduct (ASIC)
+
+AFS licence general obligations (s 912A, RG 104, RG 105)
+
+ASIC Applies to: Australian financial services licensees.
+
+Typical owner: Head of Compliance. Read our guide
+
+Individual obligations checked against Corporations Act 2001, ss 912A–912B (compilation in force 19 September 2026) on 8 October 2026.
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-AFSL-01
+Provide financial services efficiently, honestly and fairly 6 individual obligations Do all things necessary to ensure the financial services covered by the licence are provided efficiently, honestly and fairly Corporations Act s 912A(1)(a)
+Comply with the conditions on the licence and with the financial services laws Corporations Act s 912A(1)(b)–(c)
+Take reasonable steps to ensure representatives comply with the financial services laws Corporations Act s 912A(1)(ca)
+Comply with the Reference Checking and Information Sharing Protocol (for representatives who give personal advice to retail clients about relevant financial products) Corporations Act s 912A(1)(cc), (3A)
+If providing services to retail clients, have arrangements to compensate them for loss caused by breaches by the licensee or its representatives Corporations Act s 912B
+Contravening most of the general obligations is a civil penalty provision Corporations Act s 912A(5A)
+
+Services meet the efficiently, honestly and fairly standard
+Monitoring results; complaints and breach trends
+Licence and regulatory requirements; Disclosure and marketing
+
+OB-AFSL-02
+Maintain adequate risk management systems and compliance arrangements 3 individual obligations Have adequate risk management systems (not required of APRA-regulated bodies, other than RSE licensees that are also responsible entities of registered schemes) Corporations Act s 912A(1)(h), (5)
+Have adequate arrangements for managing conflicts of interest Corporations Act s 912A(1)(aa)
+If providing services to retail clients, have a dispute resolution system (internal dispute resolution meeting ASIC’s standards, and AFCA membership) and give ASIC the IDR information it specifies Corporations Act s 912A(1)(g), (2), (2A)
+
+Risk and compliance systems are adequate for the business
+Frameworks; monitoring plans
+Risk framework effectiveness; Licence and regulatory requirements
+
+OB-AFSL-03
+Maintain organisational competence through responsible managers with appropriate knowledge and skills (RG 105) 1 individual obligation Maintain the competence to provide the financial services covered by the licence Corporations Act s 912A(1)(e)
+
+Responsible managers are nominated, competent and current
+Responsible manager records
+Training and competence
+
+OB-AFSL-04
+Have adequate resources and ensure representatives are trained and competent 2 individual obligations Have adequate financial, technological and human resources to provide the financial services and carry out supervisory arrangements (not required of APRA-regulated bodies, other than RSE licensees that are also responsible entities of registered schemes) Corporations Act s 912A(1)(d), (4)
+Ensure representatives are adequately trained (including meeting continuing professional development requirements) and competent to provide the financial services Corporations Act s 912A(1)(f)
+
+Training and competence are tracked
+Training records
+Training and competence; Key person and capability
+
+Breach reporting (reportable situations, RG 78)
+
+ASIC Applies to: AFS and credit licensees.
+
+Typical owner: Head of Compliance. Read our guide
+
+Individual obligations checked against Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026) , ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026) on 8 October 2026.
+
+Notification deadlines
+Within 30 calendar days of awareness : Reportable situation (significant breach or likely breach of a core obligation) (ASIC)
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-RG78-01
+Report reportable situations (mainly significant breaches or likely breaches of core obligations) within 30 calendar days 7 individual obligations A reportable situation is a significant breach, or likely significant breach, of a core obligation; an investigation into whether there is one that runs for more than 30 days (60 days under ASIC relief), and its outcome if it finds there is none; or gross negligence or serious fraud in providing a financial service Corporations Act s 912D(1)–(2); National Credit Act s 50A
+Core obligations include the general obligations in s 912A (the duty to comply with financial services laws only for specified laws) and s 912B, and representatives’ obligations under specified financial services laws Corporations Act s 912D(3); National Credit Act s 50A(3)
+Where there are reasonable grounds to believe a reportable situation has arisen, lodge a report with ASIC in the prescribed form Corporations Act s 912DAA(1)–(2)
+Lodge the report within 30 calendar days after first knowing, or being reckless about whether, there are reasonable grounds to believe the reportable situation has arisen Corporations Act s 912DAA(3); National Credit Act s 50B; RG 78.83
+A further reportable situation with the same or substantially similar underlying circumstances as one already reported may be reported within 90 days (ASIC relief) ASIC Instrument 2024/620 s 7; RG 78.84
+Failing to report is a strict liability offence and a civil penalty provision Corporations Act s 912DAA(1) note, (4) and (7)
+For APRA-regulated licensees, a report to APRA with all the required information counts as lodged with ASIC Corporations Act s 912DAA(5)
+
+Reportable situations are assessed and reported on time
+Breach register; ASIC lodgements
+Breach identification and management; Regulatory reporting and notifications
+
+OB-RG78-02
+Start the clock from awareness (or recklessness), not from the end of the investigation 3 individual obligations The reporting clock starts when the licensee first knows, or is reckless about whether, there are reasonable grounds to believe a reportable situation has arisen (knowledge and recklessness have their Criminal Code meanings) Corporations Act s 912DAA(3) and (8); RG 78.88–78.92
+Do not wait for board consideration, legal advice, rectification or (for a likely breach) the breach to happen if that would take the report past the deadline RG 78.98
+Investigations are reportable only once they have run for more than 60 days (ASIC relief; the Act says 30), with the report due within 30 days after that Corporations Act s 912D(1)(c); RG 78.102
+
+The awareness date is recorded for every potential breach
+Incident log with awareness dates
+Regulatory reporting and notifications
+
+OB-RG78-03
+Apply deemed significance and the significance factors consistently 4 individual obligations A breach is deemed significant if it is an offence punishable by imprisonment of 3 months or more (dishonesty) or 12 months or more (other offences), a civil penalty contravention (unless excluded by regulation), misleading or deceptive conduct, or causes or is likely to cause material loss or damage to clients or members Corporations Act s 912D(4); National Credit Act s 50A(4)
+Some breaches are excluded from deemed significance, including certain civil penalty provisions specified in regulations and, under ASIC relief, single breaches of RG 271’s enforceable paragraphs and some minor misleading conduct affecting one person Corporations Regulations reg 7.6.02A(2); ASIC Instrument 2024/620 ss 5–6; RG 78.37–78.38
+Otherwise, decide significance having regard to the number or frequency of similar breaches, the impact on the ability to provide licensed services, and the extent to which the breach shows compliance arrangements are inadequate Corporations Act s 912D(5); National Credit Act s 50A(5)
+Consider deemed significance first, and only then the significance factors RG 78.31–78.32
+
+Significance assessments are consistent and documented
+Significance assessments
+Breach identification and management
+
+OB-RG78-04
+Licensees giving personal advice: notify, investigate and remediate affected clients; report some misconduct by other licensees’ advisers 6 individual obligations Report to ASIC significant breaches, gross negligence or serious fraud by individual advisers of other licensees who give personal advice to retail clients on relevant financial products, within 30 days, and give the other licensee a copy (unless ASIC is already aware) Corporations Act s 912DAB(1)–(5)
+Take reasonable steps to notify affected retail clients in writing within 30 days where they may have suffered loss they can recover from the licensee Corporations Act s 912EA(1)–(2)
+Start an investigation within 30 days, identify the conduct and quantify the loss, and complete it as soon as reasonably practicable Corporations Act s 912EB(1)–(4)
+Tell the affected client the outcome in writing within 10 days of completing the investigation Corporations Act s 912EB(5)
+Take reasonable steps to pay the client’s loss or damage within 30 days of completing the investigation Corporations Act s 912EB(8)
+Keep records that show compliance with these client notification and remediation obligations Corporations Act s 912EC
+
+Advice-related breaches are notified, investigated and remediated
+Client notifications; remediation records
+Advice quality; Remediation
+
+Internal dispute resolution (RG 271)
+
+ASIC Applies to: AFS and credit licensees and others required to have IDR.
+
+Typical owner: Head of Customer Operations. Read our guide
+
+Individual obligations checked against ASIC Regulatory Guide 271 Internal dispute resolution (enforceable paragraphs) on 8 October 2026.
+
+Notification deadlines
+30 calendar days (generally); 45 calendar days for most super complaints : Complaint response (IDR) (Customer, with AFCA rights)
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-RG271-01
+Accept complaints in any form, including on social media, without requiring them in writing 6 individual obligations Deal with every expression of dissatisfaction that meets the complaint definition (adopted from AS/NZS 10002:2014) through the IDR process RG 271.27–271.28
+Posts on the firm’s own social media channels that meet the definition are complaints, where the author is identifiable and contactable RG 271.32
+The IDR process must, at a minimum, deal with complaints by retail clients (including small businesses with fewer than 100 employees) and, for super funds, by members and beneficiaries eligible to go to AFCA RG 271.36–271.38; RG 271.41–271.42
+The process must be free, easy to understand and use (including for people with disability or language difficulties), and supported by a public complaints policy and an internal procedure RG 271.134; RG 271.141; RG 271.172
+Record all complaints in an effective system that tracks the progress of each one RG 271.179
+Firms that outsource IDR must choose providers with care, monitor them, and deal with their failures RG 271.48
+
+Every complaint is captured
+Complaints system
+Complaints handling
+
+OB-RG271-02
+Resolve complaints within maximum timeframes: generally 30 calendar days, 45 days for most super complaints 7 individual obligations Give an IDR response no later than 30 calendar days after receiving a standard complaint RG 271.56; Table 2
+Superannuation trustee complaints (other than about death benefit distributions) and traditional trustee complaints: no later than 45 calendar days RG 271.58–271.59; Table 2; RG 271.76–271.78
+Death benefit distribution complaints: no later than 90 calendar days after the 28-day objection period ends; credit complaints about default notices or hardship: no later than 21 calendar days Table 2; RG 271.80–271.93
+Complaints about insurance in super: trustees, insurers and administrators must meet the timeframe wherever the complaint is first lodged RG 271.79
+A firm may exceed the timeframe only if the complaint is particularly complex or delayed by circumstances beyond its control, and it sends an IDR delay notification (reasons, AFCA rights and contact details) before the timeframe ends RG 271.64–271.66
+If a customer advocate review is offered, it must not be a mandatory step before AFCA, and the total time must stay within the maximum timeframe RG 271.109–271.110
+Resource and staff the IDR function to resolve complaints fairly within the timeframes, including during spikes, and give staff the authority to resolve complaints RG 271.142–271.143; RG 271.146–271.147
+
+Complaints are resolved within timeframes
+Timeliness reports
+Complaints handling
+
+OB-RG271-03
+Give a written IDR response explaining the outcome and the right to go to AFCA 3 individual obligations The IDR response is in writing and gives the final outcome (with reasons for any rejection), the right to go to AFCA and AFCA’s contact details RG 271.53–271.54
+No IDR response is needed if the complaint is resolved, or an explanation or apology given, by the end of the fifth business day, unless the complainant asks for one or it is about hardship, a declined claim, a claim’s value, or a super trustee decision RG 271.71; RG 271.75
+Implement complaint outcomes (refunds, fee waivers, corrections, compensation) in a timely manner RG 271.165
+
+IDR responses are complete
+Response samples
+Complaints handling
+
+OB-RG271-04
+Identify and escalate systemic issues; report complaints data to the board and to ASIC 3 individual obligations The board sets clear accountabilities for complaints handling, including managing systemic issues identified through complaints RG 271.118
+Reports to the board or executive committees include complaints metrics and analysis, including systemic issues RG 271.119; RG 271.183
+Enable staff to escalate possible systemic issues, analyse complaints data regularly, escalate promptly for investigation, and report on outcomes RG 271.120
+
+Systemic issues are identified and reported
+Board reports; ASIC data lodgements
+Complaints handling; Regulatory reporting and notifications
+
+Design and distribution obligations (RG 274)
+
+ASIC Applies to: Issuers and distributors of most retail financial products (some products, such as MySuper and ordinary shares, are excluded).
+
+Typical owner: Head of Products. Read our guide
+
+Individual obligations checked against Corporations Act 2001, Part 7.8A, ss 994B–994G (compilation in force 19 September 2026) on 8 October 2026.
+
+Notification deadlines
+Within 10 business days : Significant dealing inconsistent with a target market determination (ASIC)
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-DDO-01
+Make a target market determination before distribution, with distribution conditions and review triggers 6 individual obligations Make a target market determination (TMD) before anyone distributes the product to retail clients, for products that need a Product Disclosure Statement or disclosure document (and some others); exclusions include MySuper products, margin lending and most ordinary shares Corporations Act s 994B(1)–(3)
+The TMD is in writing and sets out the target market, distribution conditions, review triggers, maximum review periods, the complaints reporting period, and the information distributors must report and when Corporations Act s 994B(5)–(6)
+The TMD must be appropriate: retail clients acquiring the product under the distribution conditions are likely to be in the target market, and the product is likely to suit the target market’s likely objectives, financial situation and needs Corporations Act s 994B(8)–(8A)
+Make the TMD publicly available free of charge Corporations Act s 994B(9)
+Distributors must not distribute a product that needs a TMD unless, after reasonable inquiries, they believe one has been made Corporations Act s 994D
+Keep complete and accurate records of decisions about TMDs, review triggers and review periods, and the reasons for them Corporations Act s 994F(1)
+
+Every in-scope product has a current TMD
+TMD register
+Product design and distribution
+
+OB-DDO-02
+Take reasonable steps so distribution is consistent with the TMD 4 individual obligations The issuer takes reasonable steps that will, or are reasonably likely to, result in distribution consistent with the TMD Corporations Act s 994E(1)
+Distributors must also take reasonable steps for consistency with the TMD (not needed where the dealing implements personal advice to the client) Corporations Act s 994E(3), (6)
+Reasonable steps take account of the likelihood of inconsistent distribution, the harm it could cause, what the person knows, and the ways available to reduce the likelihood and harm Corporations Act s 994E(5)
+Distributors keep records of complaints, the reasonable steps they took and the information they must report to the issuer Corporations Act s 994F(3)
+
+Distribution is monitored against the TMD
+Distribution data; monitoring reports
+Product design and distribution
+
+OB-DDO-03
+Monitor, review TMDs when triggers occur, and notify ASIC of significant dealings inconsistent with the TMD 5 individual obligations Complete a review of the TMD within each review period while the product is on offer to retail clients Corporations Act s 994C(2)
+After learning of a review trigger, or anything else suggesting the TMD is no longer appropriate, stop distributing within 10 business days unless the TMD has been reviewed (and replaced if needed) Corporations Act s 994C(3)–(4)
+Within the same 10 business days, take reasonable steps to tell distributors to stop until the TMD has been reviewed; distributors must stop within 10 business days of knowing Corporations Act s 994C(5)–(7)
+Distributors report complaint numbers and other specified information to the issuer within 10 business days after each reporting period, and significant dealings inconsistent with the TMD within 10 business days Corporations Act s 994F(4)–(6)
+The issuer notifies ASIC in writing of a significant dealing inconsistent with the TMD as soon as practicable and within 10 business days of becoming aware Corporations Act s 994G
+
+Triggers are acted on and significant dealings notified
+Review records; ASIC notifications
+Product design and distribution; Regulatory reporting and notifications
+
+Consumer remediation (RG 277)
+
+ASIC Applies to: AFS and credit licensees remediating consumer loss.
+
+Typical owner: Head of Remediation. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-RG277-01
+Start remediation promptly and proactively once conduct may have caused consumer loss
+Remediation starts without waiting for complaints
+Remediation register
+Remediation
+
+OB-RG277-02
+Include everyone who has or may have been affected, automatically where possible, at no cost to them
+Scope is complete
+Scoping papers
+Remediation
+
+OB-RG277-03
+Use beneficial assumptions where information is missing, and restore consumers’ position including the time value of money
+Calculations are fair and documented
+Methodology; calculation reviews
+Remediation
+
+OB-RG277-04
+Handle small amounts and money that can’t be returned through the residual payment options
+Residual amounts are handled as RG 277 describes
+Residual payment records
+Remediation
+
+Fees and costs disclosure (RG 97)
+
+ASIC Applies to: Super trustees and issuers of managed investment products.
+
+Typical owner: Chief Financial Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-RG97-01
+Show fees and costs in the PDS fees and costs summary and in periodic statements
+Fee disclosure is complete and accurate
+PDS; periodic statement reviews
+Fees and charges; Disclosure and marketing
+
+OB-RG97-02
+Include indirect costs, using reliable data from investment managers
+Indirect cost estimates are supported by data
+Cost data and estimation records
+Fees and charges; Data management and quality
+
+OB-RG97-03
+Fee governance: authority to charge, accurate calculation, and disclosure that matches what is charged
+Every fee has authority and is charged correctly
+Fee register; recalculation testing
+Fees and charges
+
+Disclosure and misleading conduct (Corporations Act, ASIC Act)
+
+ASIC Applies to: Financial services providers dealing with retail clients; the misleading conduct rules apply to everyone.
+
+Typical owner: Head of Products and Marketing. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-DISC-01
+Give retail clients the right documents at the right points (FSG, SOA, PDS) and keep ongoing disclosure current
+Required documents are given on time
+Document delivery records
+Disclosure and marketing
+
+OB-DISC-02
+Do not make misleading or deceptive statements in any communication, including sustainability claims
+Every claim is substantiated before publication
+Review records; evidence files
+Disclosure and marketing; Sustainability reporting and claims
+
+Conflicts of interest (s 912A(1)(aa), RG 181; SPS 521 for super)
+
+ASIC and APRA Applies to: AFS licensees; super trustees also under SPS 521.
+
+Typical owner: Head of Compliance. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-COI-01
+Maintain adequate arrangements to manage conflicts, matched to the nature and risk of each conflict
+Conflicts are identified and managed
+Conflicts register; management plans
+Conflicts of interest
+
+OB-COI-02
+Keep a conflicts register and tailored policy, train staff, and give the board oversight
+Policy, register and training are current
+Register; training records; board reports
+Conflicts of interest; Training and competence
+
+OB-COI-03
+Super trustees: give priority to members’ interests and keep a board-approved conflicts management framework (SPS 521)
+Member interests are prioritised in conflicted decisions
+Framework; decision records
+Conflicts of interest; Group and related-party arrangements
+
+Credit licence obligations (responsible lending, hardship)
+
+ASIC Applies to: Credit licensees, including lenders and brokers.
+
+Typical owner: Chief Credit Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CREDIT-01
+Make reasonable inquiries, verify the borrower’s situation, and do not provide unsuitable credit
+Lending decisions meet responsible lending obligations
+Application files; QA reviews
+Retail and consumer credit; Product design and distribution
+
+OB-CREDIT-02
+Respond to hardship requests within the set timeframes
+Hardship requests are handled on time
+Hardship register
+Vulnerable customers and hardship
+
+OB-CREDIT-03
+Mortgage brokers act in consumers’ best interests; credit reporting follows the Privacy Act
+Broker and credit reporting obligations are met
+Broker file reviews; privacy controls
+Advice quality; Privacy and data protection
+
+Financial advice obligations
+
+ASIC Applies to: Licensees and advisers giving personal advice to retail clients.
+
+Typical owner: Head of Advice. Read our guide
+
+Individual obligations checked against Corporations Act 2001, Part 7.6 Divisions 8A–8C and Part 7.7A (compilation in force 19 September 2026) on 8 October 2026.
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-ADVICE-01
+Advisers act in the client’s best interests, give appropriate advice and prioritise the client’s interests 5 individual obligations Act in the best interests of the client; the steps that show this include identifying the client’s objectives, financial situation and needs and the subject of the advice, making reasonable inquiries where information is incomplete or inaccurate, and declining to advise without the needed expertise Corporations Act s 961B
+Give the advice only if it would be reasonable to conclude it is appropriate to the client Corporations Act s 961G
+Warn the client, when the advice is given, if it is or may be based on incomplete or inaccurate information about their circumstances Corporations Act s 961H
+Give priority to the client’s interests where there is a conflict with the interests of the adviser, the licensee or their associates Corporations Act s 961J
+The licensee takes reasonable steps to ensure its representatives comply with these duties Corporations Act s 961L
+
+Advice meets the best interests duty
+Advice file reviews
+Advice quality
+
+OB-ADVICE-02
+No conflicted remuneration, apart from limited exceptions 5 individual obligations Conflicted remuneration is any benefit (other than from the client) that could reasonably be expected to influence the products recommended or the advice given to retail clients Corporations Act s 963A
+Licensees must not accept conflicted remuneration and must take reasonable steps so their representatives don’t Corporations Act ss 963E–963F
+Authorised and other representatives must not accept it; employers, product issuers and sellers must not give it Corporations Act ss 963G–963K
+Volume-based benefits are presumed to be conflicted remuneration unless shown otherwise Corporations Act s 963L
+Exceptions are limited, such as some benefits for general insurance and (subject to conditions) life risk insurance products Corporations Act s 963B
+
+Remuneration arrangements are reviewed for conflicts
+Remuneration reviews
+Conflicts of interest; Remuneration and incentives
+
+OB-ADVICE-03
+Renew ongoing fee arrangements annually, with client consent for deductions 5 individual obligations Get the client’s signed, dated written consent before entering into or renewing an ongoing fee arrangement, after telling them in writing the services, fees, frequency, consent period and their right to end it Corporations Act s 962G
+Consent lapses unless renewed in the window from 60 days before to 150 days after each anniversary (or an earlier date set in the consent), and the arrangement then ends Corporations Act ss 962F, 962H
+The client may end an ongoing fee arrangement at any time Corporations Act s 962J
+Do not deduct, or arrange or accept deduction of, ongoing fees from a client’s account without their written consent Corporations Act ss 962R–962S
+Keep records that show compliance with the ongoing fee arrangement rules Corporations Act s 962X
+
+No fees are deducted without current consent
+Consent records
+Fees and charges; Advice quality
+
+OB-ADVICE-04
+Advisers are registered and meet professional standards; the licensee supervises and monitors them 3 individual obligations Relevant providers must not give personal advice to retail clients on relevant financial products unless registered with ASIC, and licensees must not keep authorising unregistered providers Corporations Act ss 921Y–921Z
+Relevant providers must meet the education and training standards (qualification, exam, and work and training) and comply with the Code of Ethics Corporations Act ss 921BA, 921E(3)
+Licensees notify ASIC when a person becomes a relevant provider, and of changes to their details, within 30 business days Corporations Act ss 922D, 922H, 922L(2)
+
+Adviser records and supervision are current
+Registration checks; supervision records
+Training and competence; Advice quality
+
+Insurance conduct obligations
+
+ASIC Applies to: General and life insurers.
+
+Typical owner: Head of Claims. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-INSCON-01
+Handling and settling claims is a financial service, so it must be efficient, honest and fair
+Claims are handled fairly and promptly
+Claims QA; timeliness reports
+Claims handling
+
+OB-INSCON-02
+Duty of utmost good faith on both sides of every insurance contract
+Conduct reflects utmost good faith
+Claims and underwriting reviews
+Claims handling; Disclosure and marketing
+
+OB-INSCON-03
+Hawking ban, deferred sales model for add-on insurance and unfair contract terms rules
+Sales and contract terms meet the rules
+Sales monitoring; contract reviews
+Product design and distribution; Disclosure and marketing
+
+Responsible entity risk management (RG 259) and scheme compliance
+
+ASIC Applies to: Responsible entities of registered schemes and other fund operators.
+
+Typical owner: Head of Compliance. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-RG259-01
+Manage risk at two levels: the operator’s own business and each scheme
+Risk is assessed for the business and each scheme
+Scheme risk registers
+Risk framework effectiveness; Investment strategy and performance
+
+OB-RG259-02
+Document risk appetite and tolerance for each material risk and review the framework at least annually
+The framework is reviewed every year
+Annual review report
+Risk framework effectiveness
+
+OB-RG259-03
+Stress test or run scenario analysis on each fund’s liquidity at least annually
+Fund liquidity is tested
+Liquidity stress test results
+Fund and member liquidity
+
+OB-RG259-04
+Each scheme has a compliance plan, a compliance committee (unless most directors are external) and an annual compliance plan audit
+Compliance plans are followed and audited
+Compliance plans; audit reports
+Licence and regulatory requirements; Board effectiveness and oversight
+
+Insurance sector rules
+
+Life insurance (Life Insurance Act, advice commissions and the Life Code)
+
+APRA and ASIC Applies to: Life insurers registered under the Life Insurance Act 1995. The commission caps also apply to licensees and advisers who sell life insurance.
+
+Typical owner: Appointed Actuary and Head of Compliance. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-LIFE-01
+Keep policyholders’ money in statutory funds, separate from shareholders’ funds, and meet APRA’s life insurance prudential standards (LPS) for capital and actuarial matters
+Statutory funds are kept separate and managed within the prudential standards
+Statutory fund accounts; actuarial reports; APRA returns
+Capital adequacy; Licence and regulatory requirements
+
+OB-LIFE-02
+Advice commissions are capped at 60% of the first year’s premium upfront and 20% ongoing, with a two-year clawback if a policy lapses or is cancelled
+Commissions stay within the caps and clawbacks are applied
+Commission reports; clawback records
+Conflicts of interest; Remuneration and incentives; Advice quality
+
+OB-LIFE-03
+Insurers bound by the Life Insurance Code of Practice meet its commitments on sales, underwriting, claims timeframes, vulnerable customers and complaints
+Code commitments are met and Code breaches are identified and fixed
+Code compliance monitoring; breach register
+Claims handling; Vulnerable customers and hardship; Complaints handling
+
+OB-LIFE-04
+Design income protection to be sustainable, in line with APRA’s measures (including no agreed-value income protection for new customers since 31 March 2020)
+Income protection design and pricing are sustainable
+Product reviews; claims experience analysis
+Underwriting and pricing; Policyholder experience
+
+OB-LIFE-05
+For cover held through super, work within the trustee’s own insurance obligations under the SIS Act and SPS 250
+Group insurance arrangements with trustees are clear and monitored
+Group policy terms; reporting to trustees
+Customer or member outcomes and value; Claims handling
+
+Private health insurance (Private Health Insurance Act 2007)
+
+Department of Health, Disability and Ageing; APRA; Private Health Insurance Ombudsman; ACCC Applies to: Private health insurers. Health insurance is not a financial product under the Corporations Act, so these rules take the place of ASIC’s licensing and conduct regimes for health insurance products.
+
+Typical owner: Head of Compliance. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-PHI-01
+Community rating: do not improperly discriminate between people, for example on health, claims history or where they live, when offering or pricing complying policies
+Product and pricing rules meet community rating
+Fund rules reviews; pricing sign-off
+Underwriting and pricing; Licence and regulatory requirements
+
+OB-PHI-02
+Premium changes need the Health Minister’s approval; approved increases usually take effect from 1 April
+No premium change takes effect without approval
+Premium round application; approval records
+Underwriting and pricing; Regulatory reporting and notifications
+
+OB-PHI-03
+Classify hospital cover as Gold, Silver, Bronze or Basic, and give members private health information statements that summarise each policy
+Product tiers and information statements are accurate and current
+Product classification reviews; statement checks
+Disclosure and marketing
+
+OB-PHI-04
+Keep waiting periods within the legislated maximums (12 months for pre-existing conditions and obstetrics, 2 months for most other hospital treatment) and honour portability when members switch
+Waiting periods and transfers are applied correctly
+Claims QA; transfer certificate timeliness
+Claims handling; Disclosure and marketing
+
+OB-PHI-05
+Give members reasonable advance notice of rule changes that may be detrimental to them
+Members hear about detrimental changes in time to act
+Change notices; Ombudsman complaint trends
+Disclosure and marketing; Complaints handling
+
+OB-PHI-06
+Apply the Lifetime Health Cover loading correctly
+Loadings are calculated correctly
+Premium calculation testing
+Underwriting and pricing; Process execution
+
+OB-PHI-07
+Handle complaints well and resolve those raised with the Private Health Insurance Ombudsman, fixing root causes
+Complaints are resolved and their causes fixed
+Complaints register; Ombudsman reports
+Complaints handling
+
+OB-PHI-08
+Meet the Australian Consumer Law (no misleading conduct) and the Private Health Insurance Code of Conduct where the insurer subscribes
+Marketing and communications are accurate and Code commitments are met
+Marketing reviews; Code compliance monitoring
+Disclosure and marketing; Licence and regulatory requirements
+
+OB-PHI-09
+Meet APRA’s private health insurance prudential standards, including HPS 110 Capital Adequacy and its companion standards for asset risk, asset concentration risk and operational risk
+Capital stays above APRA requirements and targets
+Capital reporting; APRA returns
+Capital adequacy; Licence and regulatory requirements
+
+Financial crime
+
+AML/CTF
+
+AUSTRAC Applies to: Reporting entities that provide designated services. Major reforms applied from 31 March 2026 , with tranche 2 sectors from 1 July 2026 .
+
+Typical owner: AML/CTF Compliance Officer. Read our guide
+
+Notification deadlines
+Within 3 business days ( 24 hours for terrorism financing) : Suspicious matter report (AUSTRAC)
+Within 10 business days : Threshold transaction report ( $10,000 or more in physical currency) (AUSTRAC)
+Within 10 business days : International funds transfer instruction report (AUSTRAC)
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-AML-01
+Assess money laundering and terrorism financing risk
+The ML/TF risk assessment is current
+Risk assessment
+Money laundering and terrorism financing
+
+OB-AML-02
+Maintain AML/CTF policies (the program), with governing body oversight and an AML/CTF compliance officer reporting at least every 12 months
+The program is approved, owned and reported on
+Program; compliance officer reports
+Money laundering and terrorism financing; Board effectiveness and oversight
+
+OB-AML-03
+Know your customer through customer due diligence
+Customers are identified and risk-rated
+Due diligence records
+Money laundering and terrorism financing
+
+OB-AML-04
+Report to AUSTRAC: suspicious matters, threshold transactions, international funds transfers and annual compliance reports
+Reports are complete and on time
+Lodgement records
+Money laundering and terrorism financing; Regulatory reporting and notifications
+
+OB-AML-05
+Keep records, train staff and have the program independently evaluated at least every three years
+Records, training and evaluation are current
+Training records; evaluation report
+Money laundering and terrorism financing; Training and competence
+
+Sanctions
+
+DFAT (Australian Sanctions Office) Applies to: Everyone. For companies, breaching sanctions is a strict liability offence; the defence is reasonable precautions and due diligence.
+
+Typical owner: Head of Financial Crime. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-SANCT-01
+Screen customers, owners, counterparties and payments against the Consolidated List (and other relevant lists)
+Screening covers every relevant party and payment
+Screening configuration; testing
+Sanctions
+
+OB-SANCT-02
+Handle alerts carefully and keep evidence of reasonable precautions and due diligence
+Alerts are resolved and documented
+Alert records
+Sanctions
+
+OB-SANCT-03
+A sanctions match may also require an AUSTRAC report
+Sanctions and AML processes are connected
+Escalation procedure
+Sanctions; Money laundering and terrorism financing
+
+Anti-bribery and corruption
+
+Commonwealth and state law Applies to: Companies, including the offence of failing to prevent foreign bribery by associates (since 8 September 2024).
+
+Typical owner: Head of Financial Crime. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-ABC-01
+Have adequate procedures to prevent bribery by associates, including employees, agents and contractors
+Procedures are adequate and evidenced
+Policy; training; risk assessment
+Bribery and corruption
+
+OB-ABC-02
+Carry out due diligence on and monitor higher-risk third parties
+Third parties are vetted and monitored
+Due diligence records
+Bribery and corruption; Material service providers
+
+Scams Prevention Framework
+
+ACCC and ASIC Applies to: Sectors designated under the framework, starting with banks, telcos and digital platforms.
+
+Typical owner: Head of Financial Crime. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-SPF-01
+Meet Scams Prevention Framework obligations as your sector is designated and sector codes apply
+Scam prevention, detection and response obligations are met
+Scam controls; incident data
+Scams
+
+Privacy, cyber and technology
+
+Privacy Act and notifiable data breaches
+
+OAIC Applies to: Australian Government agencies and most businesses with annual turnover over $3 million , plus some smaller ones such as health service providers.
+
+Typical owner: Privacy Officer. Read our guide
+
+Notification deadlines
+Assess quickly, generally within 30 days : Suspected eligible data breach (OAIC)
+Notify the OAIC and affected individuals as soon as practicable : Eligible data breach (OAIC)
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-PRIV-01
+Handle personal information in line with the 13 Australian Privacy Principles across its whole life
+Personal information is collected, used and disclosed lawfully
+Data inventory; privacy impact assessments
+Privacy and data protection
+
+OB-PRIV-02
+Protect personal information from misuse, loss and unauthorised access (APP 11)
+Security controls protect personal information
+Security controls; testing
+Information security and access; Data loss and leakage; Privacy and data protection
+
+OB-PRIV-03
+Assess suspected eligible data breaches quickly (generally within 30 days ) and notify the OAIC and affected people as soon as practicable
+Suspected breaches are assessed and notified on time
+Breach assessments; notifications
+Privacy and data protection; Regulatory reporting and notifications
+
+OB-PRIV-04
+From 10 December 2026 , explain in the privacy policy when personal information is used in substantially automated decisions
+Automated decisions are identified and disclosed
+Decision inventory; privacy policy
+AI and automated decisions; Privacy and data protection
+
+Ransomware payment reporting
+
+Department of Home Affairs (ASD for cyber support) Applies to: Most businesses with annual turnover of $3 million or more.
+
+Typical owner: Chief Information Security Officer. Read our guide
+
+Notification deadlines
+Within 72 hours : Ransomware payment made (Australian Government)
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-RANSOM-01
+Report any ransomware payment within 72 hours
+Ransomware payments are reported on time
+Incident records
+Cyber security; Regulatory reporting and notifications
+
+AI use (existing laws and regulator expectations)
+
+Multiple regulators Applies to: Anyone using AI. Australia has no AI-specific law; existing laws, APRA’s standards and regulator expectations apply.
+
+Typical owner: Chief Data Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-AI-01
+Apply existing obligations to AI use: consumer and financial services laws, privacy, anti-discrimination, directors’ duties and prudential standards
+Each AI use case is assessed against existing obligations
+AI risk assessments
+AI and automated decisions; Licence and regulatory requirements
+
+OB-AI-02
+Clear accountability, an inventory of AI uses, risk-based lifecycle controls, human oversight, transparency and monitoring
+AI is governed across its lifecycle
+Inventory; monitoring reports
+AI and automated decisions
+
+Corporate, sustainability and sector rules
+
+Listed company obligations (continuous disclosure, ASX Principles)
+
+ASX and ASIC Applies to: ASX-listed entities.
+
+Typical owner: Company Secretary. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-ASX-01
+Tell the market immediately about information that would materially affect the share price, subject to limited exceptions
+Price-sensitive information is identified and disclosed
+Disclosure committee records
+Regulatory reporting and notifications; Board effectiveness and oversight
+
+OB-ASX-02
+Report against the ASX Corporate Governance Principles on an if not, why not basis
+Governance practices and explanations are accurate
+Governance statement
+Board effectiveness and oversight; Risk framework effectiveness
+
+OB-ASX-03
+Board oversight of risk, typically through a risk committee, and remuneration reporting
+Risk oversight is evidenced
+Committee papers
+Board effectiveness and oversight; Remuneration and incentives
+
+Whistleblower protections
+
+ASIC Applies to: Public companies, large proprietary companies and super trustee companies must have a whistleblower policy; the protections apply more widely.
+
+Typical owner: Whistleblower protection officer. Read our guide
+
+Individual obligations checked against Corporations Act 2001, Part 9.4AAA, ss 1317AA–1317AI (compilation in force 19 September 2026) on 8 October 2026.
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-WB-01
+Have a whistleblower policy (public companies, large proprietary companies, super trustees) 4 individual obligations Public companies must have a whistleblower policy and make it available to officers and employees Corporations Act s 1317AI(1)
+Large proprietary companies must have one from 6 months after the end of their first financial year as a large proprietary company; proprietary companies that are trustees of registrable superannuation entities must have one Corporations Act s 1317AI(2)–(3)
+The policy must explain the protections available, to whom and how protected disclosures can be made, how the company will support and protect whistleblowers, how disclosures will be investigated, how people mentioned in disclosures will be treated fairly, and how the policy is made available Corporations Act s 1317AI(5)
+Failing to have the policy is a strict liability offence Corporations Act s 1317AI(4)
+
+The policy is current and accessible
+Policy; communications
+Risk culture and speaking up
+
+OB-WB-02
+Protect whistleblowers: confidentiality of identity, protection from detriment, and anonymous disclosures 7 individual obligations Disclosures qualify for protection when an eligible whistleblower (including current and former officers, employees, suppliers and their relatives) has reasonable grounds to suspect misconduct or an improper state of affairs, and discloses to ASIC, APRA, an eligible recipient or a lawyer; disclosers need not identify themselves Corporations Act ss 1317AA, 1317AAA
+Eligible recipients include officers and senior managers, auditors, actuaries, people the entity authorises to receive disclosures and, for super funds, trustees and trustee directors Corporations Act s 1317AAC
+Public interest and emergency disclosures to journalists or parliamentarians are protected only in limited circumstances, such as after a prior disclosure to a regulator and (for public interest disclosures) at least 90 days and written notice Corporations Act s 1317AAD
+Disclosures about a personal work-related grievance are generally not protected, unless they concern victimisation or are made to a lawyer Corporations Act s 1317AADA
+Do not disclose the whistleblower’s identity, or information likely to identify them, except as the law allows (for example to ASIC, APRA, the AFP, a lawyer, or with consent) Corporations Act s 1317AAE
+Do not cause or threaten detriment to anyone because of a belief or suspicion that they made, or could make, a protected disclosure Corporations Act s 1317AC
+A protected discloser is not subject to civil, criminal or administrative liability for making the disclosure, and contractual remedies cannot be enforced against them for it Corporations Act s 1317AB
+
+Protections operate in practice
+Case records; training
+Risk culture and speaking up; Licence and regulatory requirements
+
+Climate risk and climate-related disclosures (AASB S2)
+
+ASIC (and APRA guidance) Applies to: Entities above the size thresholds, phased: Group 1 from years starting 1 January 2025, Group 2 from 1 July 2026 , Group 3 from 1 July 2027 . Super funds and registered schemes with $5 billion or more in assets are in Group 2.
+
+Typical owner: Head of Sustainability. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-CLIMATE-01
+Prepare an annual sustainability report with climate statements under AASB S2 (governance, strategy, risk management, metrics and targets)
+Climate disclosures are complete and supported
+Sustainability report; data records
+Sustainability reporting and claims; Physical climate risk; Transition risk
+
+OB-CLIMATE-02
+Run climate scenario analysis and disclose greenhouse gas emissions
+Scenario analysis and emissions data are robust
+Scenario analysis; emissions inventory
+Physical climate risk; Transition risk
+
+OB-CLIMATE-03
+Avoid misleading sustainability claims (greenwashing) in all communications
+Sustainability claims are substantiated
+Review records
+Sustainability reporting and claims; Disclosure and marketing
+
+Modern slavery reporting
+
+Australian Border Force Applies to: Entities with annual consolidated revenue over $100 million. A proposed offence was announced in July 2026; check the current position.
+
+Typical owner: Head of Procurement. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-MSA-01
+Publish an annual modern slavery statement addressing the seven mandatory criteria, approved by the board
+The statement is complete and approved
+Statement; supplier assessments
+Modern slavery and human rights
+
+ACNC governance and external conduct standards
+
+ACNC Applies to: Registered charities; the external conduct standards apply to charities operating overseas.
+
+Typical owner: Company Secretary. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-ACNC-01
+Meet the five governance standards; responsible people act with care, honestly in the charity’s best interests, and manage conflicts
+Governance standards are met
+Board records; conflicts register
+Board effectiveness and oversight; Conflicts of interest
+
+OB-ACNC-02
+Report to the ACNC according to size
+Annual reporting is on time
+Lodgement records
+Regulatory reporting and notifications
+
+OB-ACNC-03
+Charities operating overseas meet the external conduct standards
+Overseas activities are controlled
+Overseas activity records
+Licence and regulatory requirements; Bribery and corruption
+
+PGPA Act and Commonwealth Risk Management Policy
+
+Department of Finance Applies to: Commonwealth entities (the Risk Management Policy is mandatory for non-corporate Commonwealth entities).
+
+Typical owner: Chief Risk Officer. Read our guide
+
+ID
+Obligation (summary)
+Control objective
+Evidence
+Related risks
+
+OB-PGPA-01
+Establish and maintain appropriate systems of risk oversight and management and internal control (PGPA Act s 16)
+Risk and control systems are appropriate
+Framework; audit committee reports
+Risk framework effectiveness
+
+OB-PGPA-02
+Apply the Commonwealth Risk Management Policy (non-corporate Commonwealth entities)
+The policy’s elements are embedded
+Self-assessment
+Risk framework effectiveness
+
+OB-PGPA-03
+Meet the Fraud and Corruption Control Framework
+Fraud and corruption controls are in place
+Fraud control plan; incident records
+Internal and external fraud; Bribery and corruption
+
+OB-PGPA-04
+Non-corporate Commonwealth entities implement the Essential Eight at Maturity Level Two
+Essential Eight maturity is met
+Maturity assessments
+Cyber security
+
+How to use this library
+
+Start an obligations register: download the library, keep the regimes that apply to you, then break each summary into the individual obligations in the legislation or standard, with citations, interpretations and owners. The obligations register template has the fields.
+
+Link to controls: use the control objective and evidence columns to find or design the controls that meet each obligation. Obligations architecture explains the structure.
+
+Plan incident triage: the notification deadlines show the clocks every incident should be tested against. See the incident response playbook .
+
+Every summary matches the guide it links to, where the detail and official sources are. Regulatory requirements change, so check the source before relying on any entry. Spotted an error? Use the correction link below.
+
+Mark as read Part of these learning pathways (progress is saved in this browser only):
+
+Compliance professional : step 35 of 44. Next: Assess a potential breach
+
+Related topics
+
+Obligations architecture
+
+GRC model builder
+
+Breach and incident reporting obligations
+
+Standards library
+
+Sources
+
+Each regime's guide on this site, linked above, lists the legislation and regulator guidance it summarises.
+
+Federal Register of Legislation, legislation.gov.au ; APRA, apra.gov.au ; ASIC, asic.gov.au ; AUSTRAC, austrac.gov.au ; OAIC, oaic.gov.au .
+
+Last reviewed: 8 October 2026 · Next review due: October 2027
+
+Spotted an error or an out-of-date requirement? Suggest a correction (free GitHub account needed). See how we check content .
+
+Subjects
+
+Risk
+
+Compliance
+
+Governance
+
+GRC systems
+
+Foundations
+
+Case studies
+
+All topics
+
+Your sector
+
+All sectors
+
+Obligations by sector
+
+Superannuation
+
+Banking
+
+Insurance
+
+Standards library
+
+Obligations library
+
+Learn and do
+
+Start here
+
+Learning hub
+
+My learning
+
+Glossary
+
+Playbooks
+
+Tools and templates
+
+GRC model builder
+
+About
+
+About
+
+How we check content
+
+Key facts register
+
+Site roadmap
+
+What's new
+
+News
+
+Regulatory tracker
+
+Search
+
+RiskLens Australia provides general educational information only. It is not legal, financial or compliance advice and does not take into account your circumstances. Always refer to the official legislation and regulator guidance, and seek professional advice where appropriate.
+
+© 2026 RiskLens Australia. Free to read, no login, no paywall.
+
+
+
+==== LINKS ====
+RiskLens Australia -> https://hayesskvaril-ctrl.github.io/
+Risk -> https://hayesskvaril-ctrl.github.io/risk-management/
+What is risk management? -> https://hayesskvaril-ctrl.github.io/foundations/what-is-risk-management.html
+Enterprise risk management -> https://hayesskvaril-ctrl.github.io/risk-management/enterprise-risk-management.html
+Risk appetite and tolerance -> https://hayesskvaril-ctrl.github.io/risk-management/risk-appetite-and-tolerance.html
+Risk assessment methods -> https://hayesskvaril-ctrl.github.io/risk-management/risk-assessment-methodologies.html
+What to do when there's an incident -> https://hayesskvaril-ctrl.github.io/playbooks/respond-to-an-incident.html
+Incident and breach management -> https://hayesskvaril-ctrl.github.io/risk-management/incident-and-breach-management.html
+Root cause analysis -> https://hayesskvaril-ctrl.github.io/risk-management/root-cause-analysis.html
+Issue and action management -> https://hayesskvaril-ctrl.github.io/risk-management/issue-and-action-management.html
+Operational risk -> https://hayesskvaril-ctrl.github.io/risk-management/operational-risk.html
+Mapping critical operations -> https://hayesskvaril-ctrl.github.io/risk-management/mapping-critical-operations.html
+Setting tolerance levels -> https://hayesskvaril-ctrl.github.io/risk-management/setting-cps-230-tolerance-levels.html
+Business continuity -> https://hayesskvaril-ctrl.github.io/risk-management/business-continuity.html
+Scenarios and stress testing -> https://hayesskvaril-ctrl.github.io/risk-management/scenario-analysis-and-stress-testing.html
+Third-party and outsourcing risk -> https://hayesskvaril-ctrl.github.io/risk-management/third-party-risk.html
+Exit planning and concentration -> https://hayesskvaril-ctrl.github.io/risk-management/service-provider-exit-and-concentration.html
+Onboard a service provider -> https://hayesskvaril-ctrl.github.io/playbooks/onboard-a-material-service-provider.html
+Control design and testing -> https://hayesskvaril-ctrl.github.io/risk-management/control-design-and-testing.html
+Sampling for control tests -> https://hayesskvaril-ctrl.github.io/risk-management/control-testing-sampling.html
+Key risk indicators -> https://hayesskvaril-ctrl.github.io/risk-management/kri-design-and-thresholds.html
+Assurance mapping -> https://hayesskvaril-ctrl.github.io/risk-management/assurance-mapping.html
+Test a key control -> https://hayesskvaril-ctrl.github.io/playbooks/test-a-key-control.html
+Cyber risk -> https://hayesskvaril-ctrl.github.io/risk-management/cyber-risk.html
+Climate risk -> https://hayesskvaril-ctrl.github.io/risk-management/climate-risk.html
+Credit, market and liquidity -> https://hayesskvaril-ctrl.github.io/risk-management/credit-market-and-liquidity-risk.html
+Model risk -> https://hayesskvaril-ctrl.github.io/risk-management/model-risk.html
+Fraud risk -> https://hayesskvaril-ctrl.github.io/risk-management/fraud-risk.html
+All risk topics -> https://hayesskvaril-ctrl.github.io/risk-management/
+Compliance -> https://hayesskvaril-ctrl.github.io/compliance/
+What is compliance? -> https://hayesskvaril-ctrl.github.io/foundations/what-is-compliance.html
+Licensing basics -> https://hayesskvaril-ctrl.github.io/compliance/licensing-basics.html
+Interpreting legislation -> https://hayesskvaril-ctrl.github.io/compliance/interpreting-legislation.html
+Designing a compliance program -> https://hayesskvaril-ctrl.github.io/compliance/designing-a-compliance-program.html
+Obligations by sector -> https://hayesskvaril-ctrl.github.io/obligations/sectors.html
+Obligations library -> https://hayesskvaril-ctrl.github.io/obligations/
+Regulatory tracker -> https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html
+Assess a potential breach -> https://hayesskvaril-ctrl.github.io/playbooks/assess-a-potential-breach.html
+Breach reporting: every regime -> https://hayesskvaril-ctrl.github.io/compliance/breach-reporting.html
+Breach significance in practice -> https://hayesskvaril-ctrl.github.io/compliance/breach-significance-analysis.html
+ASIC RG 78 -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-78.html
+Run a remediation -> https://hayesskvaril-ctrl.github.io/playbooks/run-a-consumer-remediation.html
+ASIC RG 277 -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-277.html
+Remediation calculations -> https://hayesskvaril-ctrl.github.io/compliance/remediation-calculations.html
+Disclosure obligations -> https://hayesskvaril-ctrl.github.io/compliance/disclosure-obligations.html
+Misleading or deceptive conduct -> https://hayesskvaril-ctrl.github.io/compliance/misleading-or-deceptive-conduct.html
+Design and distribution -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-274.html
+Complaints handling -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-271.html
+Consumer protection -> https://hayesskvaril-ctrl.github.io/compliance/consumer-protection.html
+AML/CTF -> https://hayesskvaril-ctrl.github.io/compliance/aml-ctf-fundamentals.html
+Sanctions -> https://hayesskvaril-ctrl.github.io/compliance/sanctions-compliance.html
+Anti-bribery and corruption -> https://hayesskvaril-ctrl.github.io/compliance/anti-bribery-and-corruption.html
+Privacy law -> https://hayesskvaril-ctrl.github.io/compliance/privacy-law.html
+Monitoring and testing -> https://hayesskvaril-ctrl.github.io/compliance/compliance-monitoring-and-testing.html
+Enforcement and penalties -> https://hayesskvaril-ctrl.github.io/compliance/enforcement-and-penalties.html
+All compliance topics -> https://hayesskvaril-ctrl.github.io/compliance/
+Governance -> https://hayesskvaril-ctrl.github.io/governance/
+What is governance? -> https://hayesskvaril-ctrl.github.io/foundations/what-is-governance.html
+The Three Lines model -> https://hayesskvaril-ctrl.github.io/foundations/three-lines-model.html
+Board structure and accountability -> https://hayesskvaril-ctrl.github.io/governance/board-structure-and-accountability.html
+Directors' duties: key cases -> https://hayesskvaril-ctrl.github.io/governance/directors-duties-case-law.html
+Board risk reporting -> https://hayesskvaril-ctrl.github.io/governance/board-risk-reporting.html
+Board briefings -> https://hayesskvaril-ctrl.github.io/governance/board-briefings.html
+Financial Accountability Regime -> https://hayesskvaril-ctrl.github.io/governance/financial-accountability-regime.html
+Reasonable steps -> https://hayesskvaril-ctrl.github.io/governance/reasonable-steps-and-consequence-management.html
+Culture and conduct -> https://hayesskvaril-ctrl.github.io/governance/culture-and-conduct.html
+Assessing risk culture -> https://hayesskvaril-ctrl.github.io/governance/risk-culture-assessment.html
+Remuneration -> https://hayesskvaril-ctrl.github.io/governance/remuneration-governance.html
+Whistleblowing -> https://hayesskvaril-ctrl.github.io/governance/whistleblower-protections.html
+Internal audit -> https://hayesskvaril-ctrl.github.io/governance/internal-audit.html
+Conflicts of interest -> https://hayesskvaril-ctrl.github.io/governance/conflicts-of-interest.html
+AI governance -> https://hayesskvaril-ctrl.github.io/governance/ai-governance.html
+All governance topics -> https://hayesskvaril-ctrl.github.io/governance/
+What is a GRC system? -> https://hayesskvaril-ctrl.github.io/grc/what-is-a-grc-system.html
+Establishing a GRC system -> https://hayesskvaril-ctrl.github.io/grc/establishing-a-grc-system.html
+Risk taxonomy and hierarchy -> https://hayesskvaril-ctrl.github.io/grc/risk-taxonomy-and-hierarchy.html
+All GRC topics -> https://hayesskvaril-ctrl.github.io/grc/
+Your sector -> https://hayesskvaril-ctrl.github.io/sectors/
+Superannuation -> https://hayesskvaril-ctrl.github.io/sectors/superannuation.html
+Banking -> https://hayesskvaril-ctrl.github.io/sectors/banking.html
+General insurance -> https://hayesskvaril-ctrl.github.io/sectors/general-insurance.html
+Life insurance -> https://hayesskvaril-ctrl.github.io/sectors/life-insurance.html
+Private health insurance -> https://hayesskvaril-ctrl.github.io/sectors/private-health-insurance.html
+Funds management -> https://hayesskvaril-ctrl.github.io/sectors/managed-investment-schemes.html
+Financial advice -> https://hayesskvaril-ctrl.github.io/sectors/financial-advice-licensees.html
+Credit and lending -> https://hayesskvaril-ctrl.github.io/sectors/credit-and-non-bank-lenders.html
+Payments and fintech -> https://hayesskvaril-ctrl.github.io/sectors/payments-and-fintech.html
+Pick your sector -> https://hayesskvaril-ctrl.github.io/obligations/sectors.html
+Guide -> https://hayesskvaril-ctrl.github.io/sectors/listed-companies.html
+Obligations -> https://hayesskvaril-ctrl.github.io/obligations/listed.html
+Guide -> https://hayesskvaril-ctrl.github.io/sectors/not-for-profits-and-charities.html
+Obligations -> https://hayesskvaril-ctrl.github.io/obligations/not-for-profits.html
+Guide -> https://hayesskvaril-ctrl.github.io/sectors/public-sector.html
+Obligations -> https://hayesskvaril-ctrl.github.io/obligations/public-sector.html
+Standards -> https://hayesskvaril-ctrl.github.io/standards/
+CPS 220 Risk Management -> https://hayesskvaril-ctrl.github.io/standards/cps-220.html
+CPS 230 Operational Risk -> https://hayesskvaril-ctrl.github.io/standards/cps-230.html
+CPS 234 Information Security -> https://hayesskvaril-ctrl.github.io/standards/cps-234.html
+CPS 510 and 520 Governance -> https://hayesskvaril-ctrl.github.io/standards/cps-510-and-cps-520.html
+CPS 511 Remuneration -> https://hayesskvaril-ctrl.github.io/standards/cps-511.html
+SPS 515 Member Outcomes -> https://hayesskvaril-ctrl.github.io/standards/sps-515.html
+SPS 530 Investment Governance -> https://hayesskvaril-ctrl.github.io/standards/sps-530.html
+RG 78 Breach reporting -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-78.html
+RG 97 Fees and costs -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-97.html
+RG 271 Complaints -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-271.html
+RG 274 Design and distribution -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-274.html
+RG 277 Remediation -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-277.html
+All key ASIC guides -> https://hayesskvaril-ctrl.github.io/standards/asic-regulatory-guides.html
+ISO 31000 Risk management -> https://hayesskvaril-ctrl.github.io/standards/iso-31000.html
+COSO -> https://hayesskvaril-ctrl.github.io/standards/coso.html
+ISO 37301 Compliance -> https://hayesskvaril-ctrl.github.io/standards/iso-37301.html
+ISO 27001 Information security -> https://hayesskvaril-ctrl.github.io/standards/iso-27001.html
+Essential Eight -> https://hayesskvaril-ctrl.github.io/standards/essential-eight.html
+All standards -> https://hayesskvaril-ctrl.github.io/standards/
+Learn -> https://hayesskvaril-ctrl.github.io/learn/
+Start here -> https://hayesskvaril-ctrl.github.io/start-here/
+Learning pathways -> https://hayesskvaril-ctrl.github.io/learn/pathways.html
+My learning -> https://hayesskvaril-ctrl.github.io/learn/my-learning.html
+Browse by level -> https://hayesskvaril-ctrl.github.io/learn/by-level.html
+Quizzes -> https://hayesskvaril-ctrl.github.io/learn/quizzes.html
+Scenarios -> https://hayesskvaril-ctrl.github.io/learn/scenarios.html
+Flashcards -> https://hayesskvaril-ctrl.github.io/learn/flashcards.html
+Videos -> https://hayesskvaril-ctrl.github.io/learn/videos.html
+Glossary -> https://hayesskvaril-ctrl.github.io/glossary/
+Case studies -> https://hayesskvaril-ctrl.github.io/case-studies/
+All topics -> https://hayesskvaril-ctrl.github.io/topics/
+Research library -> https://hayesskvaril-ctrl.github.io/learn/research-library.html
+Advanced study program -> https://hayesskvaril-ctrl.github.io/learn/advanced-study-program.html
+Toolkit -> https://hayesskvaril-ctrl.github.io/tools/
+Respond to an incident -> https://hayesskvaril-ctrl.github.io/playbooks/respond-to-an-incident.html
+Review a disclosure document -> https://hayesskvaril-ctrl.github.io/playbooks/review-a-disclosure-document.html
+All playbooks -> https://hayesskvaril-ctrl.github.io/playbooks/
+Tools and templates -> https://hayesskvaril-ctrl.github.io/tools/
+Resource library -> https://hayesskvaril-ctrl.github.io/tools/resource-library.html
+Risk heat map -> https://hayesskvaril-ctrl.github.io/learn/risk-heat-map.html
+KRI library -> https://hayesskvaril-ctrl.github.io/tools/kri-library.html
+GRC model builder -> https://hayesskvaril-ctrl.github.io/grc/model-builder.html
+News -> https://hayesskvaril-ctrl.github.io/news/
+Search -> https://hayesskvaril-ctrl.github.io/search/
+Home -> https://hayesskvaril-ctrl.github.io/
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/cps-220.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/cps-230.html
+Prudential Standard CPS 230 Operational Risk Management (F2026L00475, in force from 1 July 2026) -> https://www.legislation.gov.au/F2026L00475/asmade/text
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/cps-234.html
+Prudential Standard CPS 234 Information Security (F2018L01745) -> https://www.legislation.gov.au/F2018L01745/asmade/text
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/cps-510-and-cps-520.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/cps-511.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/governance/financial-accountability-regime.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/aps-110-and-aps-210.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/cps-190-and-cps-900.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/sps-515.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/sps-530.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/sectors/superannuation.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-104-and-rg-105.html
+Corporations Act 2001, ss 912A–912B (compilation in force 19 September 2026) -> https://www.legislation.gov.au/C2004A00818/latest/text
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-78.html
+Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026) -> https://www.legislation.gov.au/C2004A00818/latest/text
+ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026) -> https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-271.html
+ASIC Regulatory Guide 271 Internal dispute resolution (enforceable paragraphs) -> https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-274.html
+Corporations Act 2001, Part 7.8A, ss 994B–994G (compilation in force 19 September 2026) -> https://www.legislation.gov.au/C2004A00818/latest/text
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-277.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-97.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/disclosure-obligations.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-181.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/sectors/credit-and-non-bank-lenders.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/financial-advice-regulation.html
+Corporations Act 2001, Part 7.6 Divisions 8A–8C and Part 7.7A (compilation in force 19 September 2026) -> https://www.legislation.gov.au/C2004A00818/latest/text
+Read our guide -> https://hayesskvaril-ctrl.github.io/sectors/insurance.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/standards/asic-rg-259.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/sectors/life-insurance.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/sectors/private-health-insurance.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/aml-ctf-fundamentals.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/sanctions-compliance.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/anti-bribery-and-corruption.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/consumer-protection.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/privacy-law.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/risk-management/cyber-risk.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/governance/ai-governance.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/sectors/listed-companies.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/governance/whistleblower-protections.html
+Corporations Act 2001, Part 9.4AAA, ss 1317AA–1317AI (compilation in force 19 September 2026) -> https://www.legislation.gov.au/C2004A00818/latest/text
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/climate-related-financial-disclosures.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/compliance/modern-slavery.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/sectors/not-for-profits-and-charities.html
+Read our guide -> https://hayesskvaril-ctrl.github.io/sectors/public-sector.html
+obligations register template -> https://hayesskvaril-ctrl.github.io/tools/obligations-register-template.html
+Obligations architecture -> https://hayesskvaril-ctrl.github.io/grc/obligations-architecture.html
+incident response playbook -> https://hayesskvaril-ctrl.github.io/playbooks/respond-to-an-incident.html
+learning pathways -> https://hayesskvaril-ctrl.github.io/learn/my-learning.html
+Breach and incident reporting obligations -> https://hayesskvaril-ctrl.github.io/compliance/breach-reporting.html
+Standards library -> https://hayesskvaril-ctrl.github.io/standards/
+legislation.gov.au -> https://www.legislation.gov.au/
+apra.gov.au -> https://www.apra.gov.au/
+asic.gov.au -> https://asic.gov.au/
+austrac.gov.au -> https://www.austrac.gov.au/
+oaic.gov.au -> https://www.oaic.gov.au/
+Suggest a correction -> https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&title=Correction%3A%20/obligations/&page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Fobligations%2F
+how we check content -> https://hayesskvaril-ctrl.github.io/about/editorial-standards.html
+GRC systems -> https://hayesskvaril-ctrl.github.io/grc/
+Foundations -> https://hayesskvaril-ctrl.github.io/foundations/
+All sectors -> https://hayesskvaril-ctrl.github.io/sectors/
+Insurance -> https://hayesskvaril-ctrl.github.io/sectors/insurance.html
+Learning hub -> https://hayesskvaril-ctrl.github.io/learn/
+Playbooks -> https://hayesskvaril-ctrl.github.io/playbooks/
+About -> https://hayesskvaril-ctrl.github.io/about/
+How we check content -> https://hayesskvaril-ctrl.github.io/about/editorial-standards.html
+Key facts register -> https://hayesskvaril-ctrl.github.io/about/fact-register.html
+Site roadmap -> https://hayesskvaril-ctrl.github.io/about/roadmap.html
+What's new -> https://hayesskvaril-ctrl.github.io/whats-new/

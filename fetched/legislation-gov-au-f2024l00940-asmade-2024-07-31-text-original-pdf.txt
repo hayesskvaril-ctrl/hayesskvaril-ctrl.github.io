@@ -1,0 +1,614 @@
+SOURCE: https://www.legislation.gov.au/F2024L00940/asmade/2024-07-31/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2024L00940/asmade/2024-07-31/text/original/pdf
+FETCHED: 2026-10-08
+
+Superannuation (prudential standard)
+determination No. 5 of 2024
+Prudential Standard SPS 515 Strategic Planning and Member
+Outcomes
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Clare Gibney, a delegate of APRA:
+
+(a)   under subsection 34C(6) of the Superannuation Industry (Supervision) Act 1993
+      (the Act) REVOKE Superannuation (prudential standard) determination No. 2 of
+      2019, including Prudential Standard SPS 515 Strategic Planning and Member
+      Outcomes made under that determination; and
+
+(b)   under subsection 34C(1) of the Act, DETERMINE Prudential Standard SPS 515
+      Strategic Planning and Member Outcomes in the form set out in the Schedule,
+      which applies to all RSE licensees.
+
+This instrument commences on 1 July 2025.
+
+
+
+Dated: 29 July 2024
+
+
+
+Clare Gibney
+Executive Director
+Policy & Advice Division
+
+
+Interpretation
+In this instrument:
+APRA means the Australian Prudential Regulation Authority.
+RSE licensee has the meaning given in section 10(1) of the Act.
+
+
+
+
+                       Authorised Version F2024L00940 registered 31/07/2024
+                                                                                          July 2025
+
+
+
+
+Prudential Standard SPS 515
+Strategic Planning and Member Outcomes
+    About this Prudential Standard
+
+    Prudential Standard SPS 515 Strategic Planning and Member Outcomes (SPS 515)
+    is the core prudential standard in the business operations pillar of APRA’s
+    superannuation prudential framework. It requires an RSE licensee to manage its
+    business operations in a sound and prudent manner to achieve the outcomes it seeks
+    for beneficiaries, consistent with all legal duties and obligations of the RSE licensee,
+    including the duty to act in the best financial interests of beneficiaries and the sole
+    purpose test. Key requirements relate to setting strategic objectives, conducting
+    business planning, financial resource management, performance monitoring,
+    outcomes assessment and transfer planning.
+
+
+Authority
+
+1.      This Prudential Standard is made under section 34C and pursuant to section 29XA
+        of the Superannuation Industry (Supervision) Act 1993 (SIS Act).
+
+Application and commencement
+
+2.      This Prudential Standard applies to all registrable superannuation entity (RSE)
+        licensees (RSE licensees).1
+
+3.      Paragraphs 33 to 43 only apply to an RSE licensee that is authorised, or was
+        formerly authorised, to offer a class of beneficial interest in a regulated
+        superannuation fund as a MySuper product.2
+
+4.      An RSE licensee is not required to comply, in relation to a pooled superannuation
+        trust3, with:
+
+
+
+1       For the purposes of this Prudential Standard, ‘RSE licensee’ has the meaning given in section
+        10(1) of the SIS Act.
+2       Under section 29E(6B) of the SIS Act, it is a condition of all RSE licensees to give effect to
+        elections made in accordance with section 29SAB of the SIS Act. For the purposes of this
+        Prudential Standard, ‘MySuper product’ and ‘choice product’ have the meanings given in section
+        10(1) of the SIS Act.
+3       For the purposes of this Prudential Standard, pooled superannuation trust has the meaning given
+        in section 10(1) of the SIS Act.
+
+
+                                                                                        SPS 515 – 2
+
+                             Authorised Version F2024L00940 registered 31/07/2024
+                                                                                        July 2025
+
+
+     (a)    paragraph 8 (only in relation to the Board being required to approve
+            strategic objectives that support achieving outcomes for beneficiaries);
+
+     (b)    paragraphs 9(a), 9(b) and 9(g);
+
+     (c)    paragraph 10;
+
+     (d)    paragraphs 14 and 15;
+
+     (e)    paragraphs 21 to 24 inclusive (only in relation to outcomes for beneficiaries
+            and section 62 of the SIS Act (‘the sole purpose test’));
+
+     (f)    paragraphs 25 and 26(b) (only in relation to outcomes for beneficiaries, the
+            sole purpose test and promoting the financial interests of beneficiaries);
+
+     (g)    paragraphs 27 to 29 inclusive;
+
+     (h)    paragraphs 30 to 32 inclusive (in relation to outcomes to beneficiaries, the
+            annual performance assessment and a transfer of beneficiaries)4; and
+
+     (i)    paragraphs 33 to 43 inclusive.
+
+5.   This Prudential Standard commences on 1 July 2025.
+
+Interpretation
+
+6.   Where this Prudential Standard provides for APRA to exercise a power or
+     discretion, the power or discretion is to be exercised in writing.
+
+Adjustments and exclusions
+
+7.   APRA may adjust or exclude a specific requirement in this Prudential Standard
+     in relation to:
+
+     (a)    a particular RSE licensee of an RSE; or
+
+     (b)    specified RSE licensees of RSEs.
+
+Strategic objectives
+
+8.   An RSE licensee must set specific strategic objectives for the sound and prudent
+     management of its business operations that support achieving the outcomes the
+
+
+
+
+4    A reference to ‘a transfer of beneficiaries’ is a reference to a decision by an RSE licensee to
+     transfer member benefits to a ‘successor fund’ (as defined in subregulation 1.03(1)) without the
+     consent of a member, or to receive member benefits as a successor fund from another RSE. Refer
+     to Prudential Standard CPS 190 Recovery and Exit Planning, which is effective from 1 January
+     2025, for requirements relating to recovery and exit planning for an RSE licensee, including
+     paragraph 15 of CPS 190.
+
+
+                                                                                      SPS 515 – 3
+
+                          Authorised Version F2024L00940 registered 31/07/2024
+                                                                                               July 2025
+
+
+      RSE licensee seeks for beneficiaries. The strategic objectives must be approved
+      by the Board.5
+
+9.    The strategic objectives must be informed by an RSE licensee’s consideration of:
+
+      (a)    the specific outcomes that the RSE licensee seeks to achieve for
+             beneficiaries;
+
+      (b)    changes to the RSE licensee’s business operations that the RSE licensee
+             considers, consistent with paragraph 14 of this Prudential Standard, are
+             likely to improve outcomes for beneficiaries or the sound and prudent
+             management of its business;
+
+      (c)    the RSE licensee’s risk appetite statement;
+
+      (d)    the strategies formulated pursuant to sections 52(2)(i), 52(6)(a), 52(7)(a),
+             52(8)(a) and 52(8A)(a) of the SIS Act;
+
+      (e)    the financial resources deemed necessary to cover the operational risk that
+             relates to the RSE under section 52(8)(b) of the SIS Act;
+
+      (f)    the most recent business performance review;
+
+      (g)    the duty to act in the best financial interests of beneficiaries; and
+
+      (h)    the sole purpose test.
+
+10.   An RSE licensee must ensure its retirement income strategy is subject to review
+      of its appropriateness, effectiveness and adequacy at least every three years.6
+
+Business plan
+
+11.   An RSE licensee must create and maintain a written rolling plan, of at least three
+      years’ duration, that covers the entirety of the RSE licensee’s business operations
+      (business plan). The business plan must be approved by the Board and set out the
+      RSE licensee’s approach for implementing and delivering on its strategic
+      objectives.
+
+12.   An RSE licensee’s business plan must specify:
+
+
+
+
+5     For the purposes of this Prudential Standard, an ‘RSE licensee’s business operations’ includes all
+      activities as an RSE licensee (including the activities of each RSE of which it is the licensee), and
+      all other activities of the RSE licensee to the extent that they are relevant to, or may impact on, its
+      activities as an RSE licensee. For the purposes of this Prudential Standard, a reference to the
+      ‘Board’ is to be read as a reference to the Board of directors (Board) or group of individual trustees
+      of an RSE licensee and a reference to ‘a director’ is a reference to a director of an RSE licensee
+      which has a Board of directors or, in the case of a group of individual trustees, an individual
+      trustee and ‘group of individual trustees’ has the meaning given in section 10(1) of the SIS Act.
+6     A reference to ‘retirement income strategy’ means a strategy required under section 52(8A) of the
+      SIS Act.
+
+
+                                                                                             SPS 515 – 4
+
+                             Authorised Version F2024L00940 registered 31/07/2024
+                                                                                         July 2025
+
+
+      (a)    the key initiatives it will undertake to achieve the RSE licensee’s strategic
+             objectives, including for each initiative, the expected cost, how it will be
+             funded and the expected results;
+
+      (b)    where an RSE licensee has decided to undertake a transfer of beneficiaries,
+             remedial action or other recovery or exit activities, how this decision will
+             be implemented. This includes, where necessary, adjusting key strategic
+             initiatives and maintaining business operations during implementation.
+
+13.   An RSE licensee must be able to demonstrate how the business plan reflects the
+      RSE licensee’s view of its current, and expected, level of financial resources,
+      informed by7:
+
+      (a)    financial projections that demonstrate the ongoing financial soundness of
+             the RSE licensee’s business operations, including under different potential
+             scenarios, for at least the term of the business plan; and
+
+      (b)    key assumptions used in the required financial projections and how these
+             assumptions take into account the material risks identified under the risk
+             management framework.
+
+14.   The business plan must be updated annually having regard to the results of the
+      most recent business performance review and ongoing monitoring. The annual
+      updates to the business plan must incorporate changes to the RSE licensee’s
+      business operations that the RSE licensee considers are likely to improve
+      outcomes for beneficiaries or the sound and prudent management of its business
+      operations including, but not limited to, changes arising from recovery and exit
+      planning activities required under Prudential Standard CPS 190 Recovery and
+      Exit Planning or changes arising from remedial actions or transfer planning
+      required under this Prudential Standard.
+
+Financial resource management
+
+15.   An RSE licensee must have a robust approach to the management of the financial
+      resources available to support achieving the outcomes sought for beneficiaries
+      and the sound and prudent management of the RSE licensee’s business
+      operations.
+
+Setting fees
+
+16.   An RSE licensee must set each fee prudently and transparently. This includes
+      demonstrating why the RSE licensee is satisfied, with respect to a fee charged to
+      beneficiaries or a fee charged by the RSE licensee out of an RSE, that:
+
+      (a)    the charging of the fee, including determining the amount of the fee,
+             complies with its legal duties and obligations; and
+
+      (b)    the fee is appropriate and proportionate, having regard to factors such as the
+             arm’s length value of the features and services that the fee relates to,
+
+7     For the purposes of this Prudential Standard, a reference to ‘demonstrate’ includes being able to
+      prove or show both in written form and in practice.
+
+
+                                                                                        SPS 515 – 5
+
+                            Authorised Version F2024L00940 registered 31/07/2024
+                                                                                        July 2025
+
+
+            comparable fees charged in relation to comparable RSEs and financial
+            resources currently available to the RSE licensee.
+
+17.   An RSE licensee must ensure that the use of any new fee power, or the use of an
+      existing power for the first time, is approved by the Board.
+
+Management of reserves
+
+18.   An RSE licensee’s strategy for the prudent management of reserves must
+      demonstrate the need for, and purpose of, each reserve in the RSE licensee’s
+      business operations.8 An RSE licensee’s reserving strategy must include:
+
+      (a)   how each reserve is managed in the context of its purpose; and
+
+      (b)   an appropriate target amount or range for each reserve, including how and
+            over what period the reserve is to be established and replenished in an
+            equitable manner, with reference to different cohorts of beneficiaries, and
+            intergenerational issues.
+
+19.   An RSE licensee’s regular review of each reserve must ensure:
+
+      (a)   the reserve remains appropriate to the RSE’s circumstances; and
+
+      (b)   there are adequate controls and procedures to ensure the reserve is used for
+            the intended purpose.
+
+Management of other financial resources
+
+20.   An RSE licensee must have controls to ensure prudent management of financial
+      resources held at the trustee company level and to ensure it is in a sound financial
+      position. Such controls include, at a minimum, a capital management plan to
+      govern the permitted use of financial resources held at the trustee company level.9
+
+Expenditure management10
+
+21.   An RSE licensee must ensure that its expenditure decisions are for the purposes
+      of the sound and prudent management of its business operations and are
+      consistent with all legal duties and obligations of the RSE licensee, including the
+      duty to act in the best financial interests of beneficiaries and the sole purpose test.
+
+22.   When making expenditure decisions relating to its business operations, an RSE
+      licensee must positively demonstrate, at a minimum:
+
+      (a)   the purpose of the expenditure, including how the expenditure will
+            contribute to the RSE licensee meeting its strategic objectives and outcomes
+
+8     Refer to section 52(2)(i) of the SIS Act for the requirement to formulate, review regularly and
+      give effect to a strategy for the prudential management of reserves held in an RSE.
+9     For the avoidance of doubt, this requirement does not apply to financial resources held in
+      compliance with Prudential Standard SPS 114 Operational Risk Financial Requirement.
+10    For the purposes of this Prudential Standard, ‘expenditure’ means a payment or expected future
+      payment from the assets of an RSE or RSE licensee, including payments to and from reserves,
+      not otherwise allocated to members’ accounts.
+
+
+                                                                                      SPS 515 – 6
+
+                           Authorised Version F2024L00940 registered 31/07/2024
+                                                                                   July 2025
+
+
+            sought for beneficiaries, together with consideration of any previous
+            assessment by the RSE licensee of whether the expenditure or type of
+            expenditure has achieved its intended purpose;
+
+      (b)   where the expenditure has been incurred for a proper purpose and may also
+            result in incidental benefits to beneficiaries or others, why, in such
+            circumstances, the expenditure remains consistent with all legal duties and
+            obligations of the RSE licensee;
+
+      (c)   how the expenditure will be funded; and
+
+      (d)   how the expenditure will be monitored, including the metrics used to
+            determine delivery of expected outcomes, the circumstances that would
+            trigger a review of the decision and timely action.
+
+Monitoring
+
+23.   An RSE licensee must monitor progress against its strategic objectives and the
+      business plan to prompt remedial action or transfer planning where expected
+      outcomes sought for beneficiaries are not being, or are unlikely to be, achieved,
+      using key performance indicators and triggers determined for this purpose.
+
+24.   An RSE licensee must set triggers that identify to an RSE licensee the need to
+      commence taking action to improve outcomes expected to be achieved for
+      beneficiaries or to commence preparation for a transfer of beneficiaries. These
+      triggers must, at a minimum, include failing or expecting to fail the legislated
+      annual performance assessment in section 60C(2) of the SIS Act.
+
+Business performance review
+
+25.   An RSE licensee must, on an annual basis, review its performance in achieving
+      its strategic objectives, informed by the RSE licensee’s monitoring of key
+      performance indicators and triggers. The results of the review must be used to
+      improve the RSE licensee’s business operations for the benefit of beneficiaries.
+
+26.   An RSE licensee’s business performance review must assess and demonstrate, at
+      a minimum:
+
+      (a)   whether the strategic objectives are being met, including an explanation of
+            what has driven this assessment;
+
+      (b)   the outcomes achieved for beneficiaries, having regard to:
+
+            (i)    different cohorts of beneficiaries, including beneficiaries who are
+                   retired or approaching retirement (and sub-classes of those
+                   beneficiaries)11;
+
+            (ii)   objective internal and external benchmarks; and
+
+
+
+11    Refer to section 52AA of the SIS Act.
+
+
+                                                                                  SPS 515 – 7
+
+                           Authorised Version F2024L00940 registered 31/07/2024
+                                                                                         July 2025
+
+
+             (iii) the outcomes assessments under section 52(9) of the SIS Act,
+                   including having regard to the latest determinations (if any) made by
+                   APRA under section 60C(2) of the SIS Act that relate to the product.
+
+Annual outcomes assessment
+
+27.   An RSE licensee must, at a minimum, document the methodology applied in
+      undertaking the annual outcomes assessment under section 52(9) of the SIS Act,
+      including:
+
+      (a)    how the RSE licensee has balanced the factors it must have regard to under
+             sections 52(10) or (10A) and section 52(11) of the SIS Act and any
+             benchmarks under the Superannuation Industry (Supervision) Regulations
+             1994 (the SIS Regulations) in making its overall determination(s) under
+             section 52(9); and
+
+      (b)    how the RSE licensee has determined the products it will use for the
+             purposes of comparing its MySuper or choice products.
+
+28.   For the purposes of comparing a MySuper product with other MySuper products
+      under section 52(9)(a)(i) of the SIS Act, an RSE licensee must calculate the
+      comparison factors as follows:
+
+      (a)    for section 52(10)(a)-(b) of the SIS Act, use the methodologies set out in
+             Reporting Standard SRS 705.0 Components of Net Return and Reporting
+             Standard SRS 705.1 Investment Performance and Objectives; and
+
+      (b)    for section 52(10)(c) of the SIS Act, use the methodology set out in
+             Reporting Standard SRS 700.0 Product Dashboard.
+
+29.   Pursuant to section 52(11)(e) of the SIS Act, in determining whether the financial
+      interests of beneficiaries of the RSE who hold a MySuper product or choice
+      product are being promoted, an RSE licensee must also assess the following
+      matters:
+
+      (a)    whether, because of the scale of, and within, the RSE licensee’s business
+             operations, those beneficiaries are disadvantaged;
+
+      (b)    whether the operating costs of the RSE licensee’s business operations are
+             adversely impacting the financial interests of those beneficiaries; and
+
+      (c)    whether the basis for the setting of fees is appropriate for those
+             beneficiaries.
+
+Remedial actions and transfer planning12
+
+30.   An RSE licensee must be able to demonstrate how it is taking timely remedial
+      action where expected outcomes it seeks for beneficiaries are not being achieved,
+
+12    Refer to CPS 190 for requirements relating to actions required for the recovery and exit of the
+      RSE licensee. It is open to an RSE licensee to develop a single document to meet the requirements
+      of CPS 190 and this Prudential Standard.
+
+
+                                                                                        SPS 515 – 8
+
+                            Authorised Version F2024L00940 registered 31/07/2024
+                                                                                           July 2025
+
+
+      including where relevant triggers have been met as set out in paragraph 24 of this
+      Prudential Standard.
+
+31.   An RSE licensee must take appropriate and timely steps to prepare for
+      circumstances that may necessitate a transfer of beneficiaries out of, or into, its
+      RSE(s), including where relevant triggers have been met as set out in paragraph
+      24 of this Prudential Standard.
+
+32.   Where an RSE licensee has received a determination from APRA that one or more
+      of its products has not met the requirements of the legislated annual performance
+      assessment under section 60D(1) of the SIS Act, the RSE licensee must document
+      its plan for responding to this determination in a timely manner. This plan may
+      include, but is not limited to:
+
+      (a)    remedial actions to improve the performance of such products; and
+
+      (b)    commencing preparations for a transfer of beneficiaries.
+
+      An RSE licensee must notify APRA if it has activated a plan made for the
+      purposes of this paragraph.13
+
+Transfer of MySuper product assets
+
+33.   Paragraphs 33 to 43 of this Prudential Standard only apply if an authority of an
+      RSE licensee to offer a class of beneficial interests in a regulated superannuation
+      fund as a MySuper product is cancelled, or if APRA notifies an RSE licensee that
+      its authority to offer a MySuper product may be cancelled, by APRA under
+      subsection 29U(1) of the SIS Act.
+
+34.   The Board is accountable for ensuring that, following the cancellation of an
+      authority to offer a MySuper product, any affected MySuper product assets are
+      transferred into another MySuper product within the timeframe stipulated in
+      section 29SAB of the SIS Act.14
+
+35.   The Board must ensure that there are clear roles and responsibilities at a senior
+      executive level for the purpose of meeting the requirements in paragraphs 36 to
+      43 of this Prudential Standard.
+
+Planning for a transfer of MySuper product assets
+
+36.   Where APRA notifies an RSE licensee that its authority to offer a MySuper
+      product may be cancelled by APRA15, the RSE licensee must document, within a
+      time period specified by APRA, a plan that demonstrates preparedness to transfer
+
+
+13    Refer to regulation 11.08 of the SIS Regulations for a requirement to provide APRA with a written
+      notice of a decision to undertake a successor fund transfer.
+14    For the purposes of this Prudential Standard, ‘asset’ has the meaning given in section 10(1) of the
+      SIS Act and ‘MySuper product assets’ includes any asset or assets of the RSE that are attributed
+      to the MySuper product, including any corresponding member benefits attributed to the MySuper
+      product.
+15    Refer to section 29U(1) of the SIS Act for APRA’s ability to cancel an RSE licensee’s authority
+      to offer a MySuper product.
+
+
+                                                                                         SPS 515 – 9
+
+                            Authorised Version F2024L00940 registered 31/07/2024
+                                                                                   July 2025
+
+
+      any MySuper product assets to another MySuper product (MySuper assets
+      transfer plan).16
+
+37.   An RSE licensee must nominate a MySuper product to receive the MySuper
+      product assets (the receiving MySuper product) that meets the following
+      requirements17:
+
+      (a)   the RSE licensee of the receiving MySuper product has determined, in
+            writing, in its most recent annual determination, that the financial interests
+            of the beneficiaries who hold the MySuper product are being promoted by
+            the RSE licensee18; and
+
+      (b)   APRA has determined that the receiving MySuper product has met the
+            requirement in relation to the most recent legislative annual performance
+            assessment and is not closed to new members.19
+
+38.   An RSE licensee must ensure that its MySuper assets transfer plan has regard to:
+
+      (a)   the RSE licensee’s risk appetite as set out in its risk management
+            framework20;
+
+      (b)   the RSE licensee’s business plan; and
+
+      (c)   any other plans developed and maintained pursuant to this Prudential
+            Standard, CPS 190 and Prudential Standard CPS 900 Resolution Planning.
+
+39.   An RSE licensee’s MySuper assets transfer plan must, at a minimum, include:
+
+      (a)   the governance arrangements for the transfer of MySuper product assets,
+            including the role of the Board;
+
+      (b)   a description of the roles and responsibilities of stakeholders with a key role
+            in the transfer process;
+
+      (c)   the name of the MySuper product to which the RSE licensee considers that
+            the assets should be transferred21;
+
+      (d)   the name of the receiving RSE licensee that has agreed in-principle to
+            receive the MySuper product assets from the transferring RSE licensee; and
+
+      (e)   a communication strategy that will be deployed in the event that the
+            authority to offer a MySuper product is cancelled.
+
+
+
+16    Refer to section 29SAB of the SIS Act.
+17    For the avoidance of doubt, an RSE licensee may nominate more than one receiving MySuper
+      product in its MySuper product assets transfer preparations.
+18    Refer to sections 52(9) to (11) of the SIS Act.
+19    Refer to section 60C(2) of the SIS Act.
+20    Refer to Prudential Standard SPS 220 Risk Management.
+21    An RSE licensee must also document the Australian Business Number of the RSE for the
+      receiving MySuper product.
+
+
+                                                                                 SPS 515 – 10
+
+                          Authorised Version F2024L00940 registered 31/07/2024
+                                                                                 July 2025
+
+
+40.   APRA may require an RSE licensee to develop and implement additional actions
+      to support the orderly transfer of MySuper product assets to a receiving MySuper
+      product.
+
+Undertaking a transfer of MySuper product assets
+
+41.   If an RSE licensee’s authority to offer a MySuper product is cancelled, the RSE
+      licensee must:
+
+      (a)   implement the MySuper assets transfer plan;
+
+      (b)   report to APRA on progress of the transfer of MySuper product assets as
+            required; and
+
+      (c)   transfer the MySuper product assets to the receiving MySuper product.
+
+42.   An RSE licensee must provide all reasonable assistance to the receiving RSE
+      licensee to ensure that the transfer of MySuper product assets to the receiving
+      MySuper product is completed in accordance with this Prudential Standard.
+
+43.   An RSE licensee must notify APRA within 10 business days once the transfer of
+      MySuper product assets has been completed.
+
+
+
+
+                                                                               SPS 515 – 11
+
+                        Authorised Version F2024L00940 registered 31/07/2024
+
