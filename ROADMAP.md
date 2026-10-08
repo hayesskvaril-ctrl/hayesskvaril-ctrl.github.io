@@ -438,7 +438,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Watch tuned over five test runs (8 October 2026): APRA, ASIC (sitemap), Treasury and AGD read automatically; AUSTRAC, ACCC, ASD and OAIC listed for a weekly hand check; 25 of 41 facts confirmed on their official source, the rest marked "checked by hand" with reasons
 - [x] Link check rebuilt (`_scripts/check_external.py`); 8 broken outside links fixed; GitHub issues 1 to 4 processed and closed
 - [x] Register grown to 57 facts: 16 added for notification deadlines and thresholds (CPS 230, CPS 234, reportable situations, data breaches, ransomware payments, AUSTRAC reports, IDR timeframes, privacy small business exemption, modern slavery threshold, CET1 minimum), shown 86 times on 30 pages; the tracker, playbooks and board briefings now take registered values from the register through `{fact:ID}` placeholders (65 values), 8 October 2026
-- [ ] Keep growing the register as pages are updated (penalty amounts, super caps and rates); link the GRC model builder data (`scripts/grc-builder-data.js`) to facts
+- [x] GRC model builder and obligations library data (`scripts/grc-builder-data.js`) linked to the register: 29 placeholders, filled in the browser from the generated `scripts/facts-data.js` and as fact markers on the 14 obligations pages, 8 October 2026
+- [ ] Keep growing the register as pages are updated (penalty amounts, super caps and rates)
 
 ## Ideas / backlog
 

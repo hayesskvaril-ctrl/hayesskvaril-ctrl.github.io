@@ -130,7 +130,7 @@ window.GRC_BUILDER = {
         ['Identify material service providers; due diligence, formal agreements and ongoing monitoring', ['tpr.msp', 'tpr.exit'], 'Material service providers are assessed, contracted and monitored', 'Due diligence reports; agreements; monitoring records'],
         ['Submit the material service provider register to APRA each year', ['tpr.msp', 'cmp.reporting'], 'The register is complete and submitted on time', 'Register; submission record'],
         ['Notify APRA of material operational risk incidents and of disruptions to critical operations outside tolerance', ['ops.disruption', 'cmp.reporting'], 'Notifiable events are identified and notified within the deadlines', 'Incident register; notification records']],
-      clocks: [['Material operational risk incident', 'Within 72 hours', 'APRA'], ['Disruption to a critical operation outside tolerance', 'Within 24 hours', 'APRA'], ['Entering or materially changing a material service provider arrangement', 'Within 20 business days', 'APRA']],
+      clocks: [['Material operational risk incident', 'Within {fact:cps230-incident-notice}', 'APRA'], ['Disruption to a critical operation outside tolerance', 'Within {fact:cps230-disruption-notice}', 'APRA'], ['Entering or materially changing a material service provider arrangement', 'Within {fact:cps230-msp-notice}', 'APRA']],
       cal: [['Annually', 'Business continuity exercise with severe but plausible scenarios, including service provider failure'], ['Annually', 'Material service provider register submitted to APRA'], ['Annually', 'Review critical operations and tolerance levels']] },
 
     cps234: { label: 'Information security (CPS 234)', reg: 'APRA', url: '/standards/cps-234.html', flag: 'cps234',
@@ -142,7 +142,7 @@ window.GRC_BUILDER = {
         ['Protect information assets with controls proportionate to the threats', ['tec.cyber', 'tec.access'], 'Controls match the criticality and sensitivity of assets', 'Control library; maturity assessments'],
         ['Test controls through a systematic testing program, with internal audit review', ['tec.cyber'], 'Security controls are tested and gaps fixed', 'Testing program; audit reports'],
         ['Notify APRA of material information security incidents, and of material control weaknesses that cannot be fixed in a timely way', ['tec.cyber', 'cmp.reporting'], 'Notifiable security events are notified within the deadlines', 'Incident log; notification records']],
-      clocks: [['Material information security incident', 'Within 72 hours', 'APRA'], ['Material information security control weakness that can’t be remediated in a timely way', 'Within 10 business days', 'APRA']] },
+      clocks: [['Material information security incident', 'Within {fact:cps234-incident-notice}', 'APRA'], ['Material information security control weakness that can’t be remediated in a timely way', 'Within {fact:cps234-weakness-notice}', 'APRA']] },
 
     cps510: { label: 'Governance and fit and proper (CPS 510, CPS 520, SPS 510, SPS 520)', reg: 'APRA', url: '/standards/cps-510-and-cps-520.html',
       applies: 'APRA-regulated entities. APRA has proposed one consolidated governance standard; check the current position.',
@@ -161,7 +161,7 @@ window.GRC_BUILDER = {
         ['Significant financial institutions: board remuneration committee, material weight on non-financial measures, minimum deferral', ['ppl.remuneration', 'gov.board'], 'SFI requirements are met', 'Committee charter; scorecards; deferral records']] },
 
     far: { label: 'Financial Accountability Regime (FAR)', reg: 'APRA and ASIC', url: '/governance/financial-accountability-regime.html', flag: 'far',
-      applies: 'Banks (from 15 March 2024) and insurers and super trustees (from 15 March 2025).',
+      applies: 'Banks (from {fact:far-adi-start}) and insurers and super trustees (from {fact:far-insurers-super-start}).',
       docs: [['Accountability map', 1, 'Board', 'entity'], ['Accountability statements for accountable persons', 3, 'Board', 'entity'], ['Reasonable steps framework', 3, 'Executive owner', 'both']],
       themes: [
         ['Register accountable persons and keep an accountability statement for each and an accountability map for the entity', ['gov.accountability'], 'Every key responsibility is allocated to a registered accountable person', 'Statements; map; registrations'],
@@ -172,7 +172,7 @@ window.GRC_BUILDER = {
       applies: 'ADIs (APS 110) and insurers (their own capital standards).',
       docs: [['Internal capital adequacy assessment process (ICAAP) and report', 1, 'Board', 'entity'], ['Stress testing and scenario analysis framework', 3, 'Chief risk officer', 'both']],
       themes: [
-        ['Hold capital above the minimum requirements, with buffers (for ADIs, Common Equity Tier 1 of at least 4.5% of risk-weighted assets before buffers)', ['cap.adequacy'], 'Capital stays above targets and triggers', 'Capital reporting'],
+        ['Hold capital above the minimum requirements, with buffers (for ADIs, Common Equity Tier 1 of at least {fact:cet1-minimum} of risk-weighted assets before buffers)', ['cap.adequacy'], 'Capital stays above targets and triggers', 'Capital reporting'],
         ['Run an ICAAP to assess capital needs, including under stress', ['cap.adequacy'], 'Capital planning reflects the risk profile and stress results', 'ICAAP report; stress testing results']],
       cal: [['Annually', 'ICAAP review and report to the board']] },
 
@@ -229,11 +229,11 @@ window.GRC_BUILDER = {
       applies: 'AFS and credit licensees.',
       docs: [['Breach and reportable situations procedure', 4, 'Compliance', 'both']],
       themes: [
-        ['Report reportable situations (mainly significant breaches or likely breaches of core obligations) within 30 calendar days', ['cmp.breach', 'cmp.reporting'], 'Reportable situations are assessed and reported on time', 'Breach register; ASIC lodgements'],
+        ['Report reportable situations (mainly significant breaches or likely breaches of core obligations) within {fact:reportable-situations-deadline}', ['cmp.breach', 'cmp.reporting'], 'Reportable situations are assessed and reported on time', 'Breach register; ASIC lodgements'],
         ['Start the clock from awareness (or recklessness), not from the end of the investigation', ['cmp.reporting'], 'The awareness date is recorded for every potential breach', 'Incident log with awareness dates'],
         ['Apply deemed significance and the significance factors consistently', ['cmp.breach'], 'Significance assessments are consistent and documented', 'Significance assessments'],
         ['Licensees giving personal advice: notify, investigate and remediate affected clients; report some misconduct by other licensees’ advisers', ['con.advice', 'con.remediation'], 'Advice-related breaches are notified, investigated and remediated', 'Client notifications; remediation records']],
-      clocks: [['Reportable situation (significant breach or likely breach of a core obligation)', 'Within 30 calendar days of awareness', 'ASIC']] },
+      clocks: [['Reportable situation (significant breach or likely breach of a core obligation)', 'Within {fact:reportable-situations-deadline} of awareness', 'ASIC']] },
 
     idr: { label: 'Internal dispute resolution (RG 271)', reg: 'ASIC', url: '/standards/asic-rg-271.html',
       applies: 'AFS and credit licensees and others required to have IDR.',
@@ -243,7 +243,7 @@ window.GRC_BUILDER = {
         ['Resolve complaints within maximum timeframes: generally 30 calendar days, 45 days for most super complaints', ['con.complaints'], 'Complaints are resolved within timeframes', 'Timeliness reports'],
         ['Give a written IDR response explaining the outcome and the right to go to AFCA', ['con.complaints'], 'IDR responses are complete', 'Response samples'],
         ['Identify and escalate systemic issues; report complaints data to the board and to ASIC', ['con.complaints', 'cmp.reporting'], 'Systemic issues are identified and reported', 'Board reports; ASIC data lodgements']],
-      clocks: [['Complaint response (IDR)', '30 calendar days (generally); 45 days for most super complaints', 'Customer, with AFCA rights']] },
+      clocks: [['Complaint response (IDR)', '{fact:idr-response} (generally); {fact:idr-super-response} for most super complaints', 'Customer, with AFCA rights']] },
 
     ddo: { label: 'Design and distribution obligations (RG 274)', reg: 'ASIC', url: '/standards/asic-rg-274.html',
       applies: 'Issuers and distributors of most retail financial products (some products, such as MySuper and ordinary shares, are excluded).',
@@ -347,7 +347,7 @@ window.GRC_BUILDER = {
       cal: [['Annually', 'Risk management framework review and fund liquidity stress tests'], ['Annually', 'Compliance plan audit for each scheme']] },
 
     aml: { label: 'AML/CTF', reg: 'AUSTRAC', url: '/compliance/aml-ctf-fundamentals.html', flag: 'aml',
-      applies: 'Reporting entities that provide designated services. Major reforms applied from 31 March 2026, with tranche 2 sectors from 1 July 2026.',
+      applies: 'Reporting entities that provide designated services. Major reforms applied from {fact:aml-reformed-obligations-start}, with tranche 2 sectors from {fact:aml-tranche2-start}.',
       docs: [['ML/TF risk assessment', 1, 'Governing body', 'entity'], ['AML/CTF program (policies, procedures, systems and controls)', 2, 'Governing body', 'entity'], ['Customer due diligence and transaction monitoring standards', 3, 'AML/CTF compliance officer', 'both']],
       themes: [
         ['Assess money laundering and terrorism financing risk', ['fcr.aml'], 'The ML/TF risk assessment is current', 'Risk assessment'],
@@ -355,7 +355,7 @@ window.GRC_BUILDER = {
         ['Know your customer through customer due diligence', ['fcr.aml'], 'Customers are identified and risk-rated', 'Due diligence records'],
         ['Report to AUSTRAC: suspicious matters, threshold transactions, international funds transfers and annual compliance reports', ['fcr.aml', 'cmp.reporting'], 'Reports are complete and on time', 'Lodgement records'],
         ['Keep records, train staff and have the program independently evaluated at least every three years', ['fcr.aml', 'ppl.competence'], 'Records, training and evaluation are current', 'Training records; evaluation report']],
-      clocks: [['Suspicious matter report', 'Within 3 business days (24 hours for terrorism financing)', 'AUSTRAC'], ['Threshold transaction report ($10,000 or more in physical currency)', 'Within 10 business days', 'AUSTRAC'], ['International funds transfer instruction report', 'Within 10 business days', 'AUSTRAC']],
+      clocks: [['Suspicious matter report', 'Within {fact:smr-deadline} ({fact:smr-tf-deadline} for terrorism financing)', 'AUSTRAC'], ['Threshold transaction report ({fact:ttr-threshold} or more in physical currency)', 'Within {fact:ttr-deadline}', 'AUSTRAC'], ['International funds transfer instruction report', 'Within 10 business days', 'AUSTRAC']],
       cal: [['Annually', 'AML/CTF compliance report to AUSTRAC; compliance officer report to the governing body'], ['At least every 3 years', 'Independent evaluation of the AML/CTF program']] },
 
     sanctions: { label: 'Sanctions', reg: 'DFAT (Australian Sanctions Office)', url: '/compliance/sanctions-compliance.html',
@@ -374,21 +374,21 @@ window.GRC_BUILDER = {
         ['Carry out due diligence on and monitor higher-risk third parties', ['fcr.bribery', 'tpr.msp'], 'Third parties are vetted and monitored', 'Due diligence records']] },
 
     privacy: { label: 'Privacy Act and notifiable data breaches', reg: 'OAIC', url: '/compliance/privacy-law.html',
-      applies: 'Australian Government agencies and most businesses with annual turnover over $3 million, plus some smaller ones such as health service providers.',
+      applies: 'Australian Government agencies and most businesses with annual turnover over {fact:privacy-small-business}, plus some smaller ones such as health service providers.',
       docs: [['Privacy policy (APP 1)', 2, 'Executive owner', 'both'], ['Data breach response plan', 3, 'Executive owner', 'both'], ['Privacy impact assessment procedure', 4, 'Privacy officer', 'both']],
       themes: [
         ['Handle personal information in line with the 13 Australian Privacy Principles across its whole life', ['cmp.privacy'], 'Personal information is collected, used and disclosed lawfully', 'Data inventory; privacy impact assessments'],
         ['Protect personal information from misuse, loss and unauthorised access (APP 11)', ['tec.access', 'tec.dataloss', 'cmp.privacy'], 'Security controls protect personal information', 'Security controls; testing'],
-        ['Assess suspected eligible data breaches quickly (generally within 30 days) and notify the OAIC and affected people as soon as practicable', ['cmp.privacy', 'cmp.reporting'], 'Suspected breaches are assessed and notified on time', 'Breach assessments; notifications'],
-        ['From 10 December 2026, explain in the privacy policy when personal information is used in substantially automated decisions', ['mod.ai', 'cmp.privacy'], 'Automated decisions are identified and disclosed', 'Decision inventory; privacy policy']],
-      clocks: [['Suspected eligible data breach', 'Assess quickly, generally within 30 days', 'OAIC'], ['Eligible data breach', 'Notify the OAIC and affected individuals as soon as practicable', 'OAIC']] },
+        ['Assess suspected eligible data breaches quickly (generally within {fact:ndb-assessment}) and notify the OAIC and affected people as soon as practicable', ['cmp.privacy', 'cmp.reporting'], 'Suspected breaches are assessed and notified on time', 'Breach assessments; notifications'],
+        ['From {fact:privacy-adm-start}, explain in the privacy policy when personal information is used in substantially automated decisions', ['mod.ai', 'cmp.privacy'], 'Automated decisions are identified and disclosed', 'Decision inventory; privacy policy']],
+      clocks: [['Suspected eligible data breach', 'Assess quickly, generally within {fact:ndb-assessment}', 'OAIC'], ['Eligible data breach', 'Notify the OAIC and affected individuals as soon as practicable', 'OAIC']] },
 
     ransom: { label: 'Ransomware payment reporting', reg: 'Department of Home Affairs (ASD for cyber support)', url: '/risk-management/cyber-risk.html',
       applies: 'Most businesses with annual turnover of $3 million or more.',
       docs: [['Cyber incident and ransomware response playbook', 3, 'Chief information security officer', 'both']],
       themes: [
-        ['Report any ransomware payment within 72 hours', ['tec.cyber', 'cmp.reporting'], 'Ransomware payments are reported on time', 'Incident records']],
-      clocks: [['Ransomware payment made', 'Within 72 hours', 'Australian Government']] },
+        ['Report any ransomware payment within {fact:ransomware-report}', ['tec.cyber', 'cmp.reporting'], 'Ransomware payments are reported on time', 'Incident records']],
+      clocks: [['Ransomware payment made', 'Within {fact:ransomware-report}', 'Australian Government']] },
 
     whistle: { label: 'Whistleblower protections', reg: 'ASIC', url: '/governance/whistleblower-protections.html',
       applies: 'Public companies, large proprietary companies and super trustee companies must have a whistleblower policy; the protections apply more widely.',
@@ -398,7 +398,7 @@ window.GRC_BUILDER = {
         ['Protect whistleblowers: confidentiality of identity, protection from detriment, and anonymous disclosures', ['ppl.culture', 'cmp.prudential'], 'Protections operate in practice', 'Case records; training']] },
 
     climate: { label: 'Climate risk and climate-related disclosures (AASB S2)', reg: 'ASIC (and APRA guidance)', url: '/compliance/climate-related-financial-disclosures.html',
-      applies: 'Entities above the size thresholds, phased: Group 1 from years starting 1 January 2025, Group 2 from 1 July 2026, Group 3 from 1 July 2027. Super funds and registered schemes with $5 billion or more in assets are in Group 2.',
+      applies: 'Entities above the size thresholds, phased: Group 1 from years starting 1 January 2025, Group 2 from {fact:climate-group2-start}, Group 3 from {fact:climate-group3-start}. Super funds and registered schemes with $5 billion or more in assets are in Group 2.',
       docs: [['Climate risk management approach and scenario analysis', 3, 'Chief risk officer', 'both'], ['Sustainability report (climate statements)', 1, 'Board', 'entity']],
       themes: [
         ['Prepare an annual sustainability report with climate statements under AASB S2 (governance, strategy, risk management, metrics and targets)', ['cli.reporting', 'cli.physical', 'cli.transition'], 'Climate disclosures are complete and supported', 'Sustainability report; data records'],
@@ -927,3 +927,18 @@ window.GRC_BUILDER = {
       state: { name: 'Example Charity', entities: { nfp: 1 }, scale: 'small', sfi: false, juris: [], features: ['retail'], pains: [], maturity: { framework: 2, people: 2, process: 1, data: 1, technology: 1 } } }
   ]
 };
+
+// Registered facts: '{fact:ID}' in any string above is replaced with the current value from the key facts
+// register (scripts/facts-data.js, generated by _scripts/build_facts.py; load it before this file). The
+// obligations library builders (Node) leave the placeholders for _scripts/facts_fill.js to turn into fact markers.
+(function (F) {
+  if (!F) return;
+  (function walk(o) {
+    Object.keys(o).forEach(function (k) {
+      var v = o[k];
+      if (typeof v === 'string') {
+        if (v.indexOf('{fact:') >= 0) o[k] = v.replace(/\{fact:([a-z0-9-]+)\}/g, function (m, id) { return Object.prototype.hasOwnProperty.call(F, id) ? F[id] : m; });
+      } else if (v && typeof v === 'object') walk(v);
+    });
+  })(window.GRC_BUILDER);
+})(window.RL_FACTS);

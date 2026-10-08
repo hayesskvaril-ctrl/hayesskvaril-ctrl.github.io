@@ -8,6 +8,7 @@ const ROOT = path.resolve(__dirname, '..');
 global.window = global;
 require(path.join(ROOT, 'scripts/grc-builder-data.js'));
 const D = window.GRC_BUILDER;
+const { fillHtml } = require('./facts_fill.js');   // {fact:ID} placeholders -> fact markers
 const REVIEWED = '7 October 2026';
 const eng = fs.readFileSync(path.join(ROOT, 'scripts/grc-builder.js'), 'utf8');
 const SHORT = eval('(' + eng.match(/var SHORT = (\{[^\n]*\});/)[1] + ')');
@@ -229,6 +230,6 @@ ${rows}
     '<li>Obligations by sector</li>', body, 'article wide ob-page');
 }
 
-fs.writeFileSync(path.join(ROOT, 'obligations/sectors.html'), hub());
-SECTORS.forEach(s => fs.writeFileSync(path.join(ROOT, `obligations/${s[1]}.html`), sectorPage(s)));
+fs.writeFileSync(path.join(ROOT, 'obligations/sectors.html'), fillHtml(hub()));
+SECTORS.forEach(s => fs.writeFileSync(path.join(ROOT, `obligations/${s[1]}.html`), fillHtml(sectorPage(s))));
 console.log(`obligations by sector: hub + ${SECTORS.length} sector pages`);

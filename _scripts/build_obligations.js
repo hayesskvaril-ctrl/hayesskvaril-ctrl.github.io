@@ -8,6 +8,7 @@ const ROOT = path.resolve(__dirname, '..');
 global.window = global;
 require(path.join(ROOT, 'scripts/grc-builder-data.js'));
 const D = window.GRC_BUILDER;
+const { fillHtml } = require('./facts_fill.js');   // {fact:ID} placeholders -> fact markers
 const REVIEWED = '1 October 2026';
 
 // regime codes and short labels, and regime groups: taken from the builder so IDs match
@@ -141,5 +142,5 @@ ${sections}
 </html>
 `;
 fs.mkdirSync(path.join(ROOT, 'obligations'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'obligations/index.html'), html);
+fs.writeFileSync(path.join(ROOT, 'obligations/index.html'), fillHtml(html));
 console.log(`obligations library: ${total} themes, ${nreg} regimes, ${nclocks} deadlines`);
