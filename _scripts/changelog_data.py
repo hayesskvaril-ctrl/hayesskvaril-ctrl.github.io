@@ -8,6 +8,18 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/governance/ai-governance.html', 'AI governance: deep review, adding a worked assessment of an AI use case'),
+    ('2026-10-08', '/governance/directors-duties-case-law.html', "Directors' duties case law: deep review, adding the Star case penalties and appeals"),
+    ('2026-10-08', '/governance/internal-audit.html', 'Internal audit: deep review, adding the third-party topical requirement and a worked finding rating'),
+    ('2026-10-08', '/standards/asic-rg-270.html', 'RG 270: deep review, adding what makes a whistleblower policy work in practice'),
+    ('2026-10-08', '/governance/whistleblower-protections.html', "Whistleblower protections: deep review, updated for Treasury's 2026 review of the whistleblower laws"),
+    ('2026-10-08', '/governance/risk-culture-assessment.html', 'Risk culture assessment: deep review, adding a worked example of triangulating evidence'),
+    ('2026-10-08', '/governance/culture-and-conduct.html', 'Culture and conduct: deep review, adding a worked example on reading culture from everyday data'),
+    ('2026-10-08', '/governance/remuneration-governance.html', 'Remuneration governance: deep review, adding a remuneration committee calendar and common mistakes'),
+    ('2026-10-08', '/governance/reasonable-steps-and-consequence-management.html', 'Reasonable steps and consequence management: deep review, adding a consequence management matrix'),
+    ('2026-10-08', '/governance/board-risk-reporting.html', 'Board risk reporting: deep review, adding a worked dashboard example and lessons from the Star case'),
+    ('2026-10-08', '/governance/board-structure-and-accountability.html', 'Board structure and accountability: deep review, adding a worked example of how a big decision moves through the system'),
+    ('2026-10-08', '/governance/financial-accountability-regime.html', 'FAR: deep review, adding the 2026 streamlining changes and a worked example tracing accountability'),
     ('2026-10-08', '/standards/aps-115.html', 'APS 115: deep review, adding how the 2026 capital changes affect operational risk capital'),
     ('2026-10-08', '/standards/aps-110-and-aps-210.html', 'APS 110 and APS 210: deep review, adding a worked capital ratio and the 2026 to 2027 bank capital and liquidity changes'),
     ('2026-10-08', '/standards/cps-190-and-cps-900.html', "CPS 190 and CPS 900: deep review, adding APRA's findings for super and a worked trustee trigger example"),
