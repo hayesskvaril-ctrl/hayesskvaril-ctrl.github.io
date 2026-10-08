@@ -90,6 +90,22 @@ def fetch(url, cache={}):
     return result
 
 
+def quick_fetch(url):
+    """One short attempt, for sources known to block automated reading (listed for a hand check anyway):
+    notices if they become readable again without spending minutes on timeouts and retries."""
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-AU,en;q=0.9"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            body = r.read()
+            if r.headers.get("Content-Encoding") == "gzip":
+                body = gzip.decompress(body)
+            return (r.status, r.headers.get("Content-Type", ""), body.decode("utf-8", "replace"))
+    except urllib.error.HTTPError as e:
+        return (e.code, "", "")
+    except Exception as e:
+        return (0, "", f"{type(e).__name__}: {e}")
+
+
 def text_of(page):
     # dates are often only in metadata (published dates, structured data), so include those too
     extra = " ".join(re.findall(r'(?is)<meta[^>]+content="([^"]{4,300})"', page or ""))
@@ -233,7 +249,7 @@ def main():
     for src in sources:
         name, found, used = src["name"], {}, []
         for page_url in [u.replace("{year}", str(TODAY.year)) for u in src["pages"]]:
-            st, ctype, page = fetch(page_url)
+            st, ctype, page = (quick_fetch if src.get("blocked_note") and not a.offline else fetch)(page_url)
             if st != 200 or not page:
                 used.append(f"{page_url} ({st or page[:60]})")
                 continue
