@@ -400,7 +400,8 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] Phases 41 to 47: APRA prudential standards track (8 October 2026); track 6 complete
 - [x] Phases 48 to 59: governance and accountability track (8 October 2026); track 7 complete
 - [x] Phases 60 to 70: financial crime and compliance programs track (8 October 2026); track 8 complete
-- [ ] Phases 71 to 137: work through `_scripts/depth_roadmap.py` in order (next: Cyber risk)
+- [x] Phases 71 to 78: risk types track (8 October 2026); track 9 complete
+- [ ] Phases 79 to 137: work through `_scripts/depth_roadmap.py` in order (next: ISO 31000)
 - **Note:** apra.gov.au, legislation.gov.au and most source sites are blocked by this environment's network policy (October 2026); facts were checked via web search excerpts of the official documents. The owner can allow those domains in the environment's network settings.
 
 ## Phase 21 — Earning money without a paywall (requested October 2026)

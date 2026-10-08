@@ -65,8 +65,8 @@
   <p class="summary">How hundreds of individual risks become one enterprise risk profile, and why the way risks move together matters as much as their size.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 18 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 23 minutes</span>
+    <span>Last reviewed: 8 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -190,6 +190,26 @@
   </ol>
   <p>The Basel Committee's principles for risk data aggregation and reporting (BCBS 239) set out the data foundations large banks need for this: accurate, complete and timely risk data that can be aggregated quickly, including in a crisis. APRA's CPG 235 gives guidance on managing data risk.</p>
 
+  <h2>Worked example: how correlation changes the total</h2>
+  <p>Two risks need $100 million and $60 million of capital on their own. Using the common formula √(a² + b² + 2ρab), the combined amount depends on the correlation ρ:</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Correlation between the two risks</th><th scope="col">Combined capital ($m)</th><th scope="col">Diversification benefit</th></tr></thead>
+      <tbody>
+        <tr><td>1 (move together perfectly)</td><td>160</td><td>None</td></tr>
+        <tr><td>0.5</td><td>140</td><td>$20m</td></tr>
+        <tr><td>0.25</td><td>129</td><td>$31m</td></tr>
+        <tr><td>0 (independent)</td><td>117</td><td>$43m</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The diversification benefit is attractive, but correlations estimated in normal times often rise in a crisis, so the benefit can vanish when it is needed most. Many entities therefore cap diversification benefits or test results with correlations set closer to 1.</p>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>Is adding up risk ratings across the taxonomy a valid aggregation?</summary><p>It can give a useful overview, but ratings are ordinal labels, not numbers, so adding or averaging them can mislead. Show the distribution and the highest risks, not just an average.</p></details>
+  <details><summary>What is a concentration?</summary><p>Exposure to the same driver through different routes, such as one service provider supporting several critical operations. Concentrations can make risks that look separate fail together.</p></details>
+
   <h2 id="theory-and-research">Theory and research</h2>
   <h3>Correlation is not dependence</h3>
   <p>The variance-covariance method on this page treats a single correlation number as a full description of how risks move together. That is only true for a narrow family of distributions. <a class="cite narrative" href="#ref-embrechts-2002">Embrechts et al. (2002)</a> showed why linear correlation is misleading for skewed and heavy-tailed risks: two risks can have a low correlation yet a high chance of extreme losses together (tail dependence), and the correlation can even be impossible to reach for some combinations of distributions. Their recommended alternative is to model dependence with <em>copulas</em>, which separate the shape of each risk from the way they are joined.</p>
@@ -264,7 +284,7 @@
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 8 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/risk-aggregation-and-correlation.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Frisk-aggregation-and-correlation.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

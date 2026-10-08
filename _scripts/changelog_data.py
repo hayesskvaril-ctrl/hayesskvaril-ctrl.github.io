@@ -8,6 +8,14 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-08', '/risk-management/risk-aggregation-and-correlation.html', 'Risk aggregation and correlation: deep review, adding a worked diversification example'),
+    ('2026-10-08', '/risk-management/quantitative-operational-risk.html', 'Quantitative operational risk: deep review, adding a worked reading of a loss distribution'),
+    ('2026-10-08', '/risk-management/scenario-analysis-and-stress-testing.html', "Scenario analysis and stress testing: deep review, adding APRA's first System Risk Stress Test results"),
+    ('2026-10-08', '/risk-management/change-project-and-reputational-risk.html', 'Change, project and reputational risk: deep review, adding a worked administration platform migration example'),
+    ('2026-10-08', '/risk-management/model-risk.html', 'Model risk: deep review, adding a worked model tiering example'),
+    ('2026-10-08', '/risk-management/credit-market-and-liquidity-risk.html', 'Credit, market and liquidity risk: deep review, adding a worked expected loss example'),
+    ('2026-10-08', '/risk-management/climate-risk.html', "Climate risk: deep review, adding APRA's 2026 insurance climate vulnerability assessment"),
+    ('2026-10-08', '/risk-management/cyber-risk.html', "Cyber risk: deep review, adding ASD's latest threat figures and a worked ransomware example"),
     ('2026-10-08', '/compliance/interpreting-legislation.html', 'Interpreting legislation: deep review, adding a worked example breaking an obligation into elements'),
     ('2026-10-08', '/compliance/designing-a-compliance-program.html', 'Designing a compliance program: deep review, adding a worked first 90 days at a small licensee'),
     ('2026-10-08', '/compliance/enforcement-and-penalties.html', 'Enforcement and penalties: deep review, adding recent outcomes for context'),

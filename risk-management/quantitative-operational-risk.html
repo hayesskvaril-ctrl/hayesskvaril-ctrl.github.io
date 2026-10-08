@@ -65,8 +65,8 @@
   <p class="summary">How risk teams put numbers on operational losses: how often losses happen, how big they get, and how bad a really bad year could be.</p>
   <div class="page-meta">
     <span class="level level-advanced">Advanced</span>
-    <span>About 20 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 25 minutes</span>
+    <span>Last reviewed: 8 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -221,6 +221,25 @@
     <li><strong>False precision:</strong> a figure of "$43.7 million at 99.9%" implies a certainty that doesn't exist. Good practice reports ranges, tests sensitivities and explains the assumptions to decision-makers.</li>
   </ul>
 
+  <h2>Worked example: reading a loss distribution</h2>
+  <p>Output from a simulation like the one above might look like this:</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Measure</th><th scope="col">Value (illustrative, $ million per year)</th><th scope="col">What it tells you</th></tr></thead>
+      <tbody>
+        <tr><td>Expected loss</td><td>12</td><td>The average yearly loss; usually budgeted and priced in.</td></tr>
+        <tr><td>Median</td><td>8</td><td>Half of years are lower. Heavy tails pull the mean above the median.</td></tr>
+        <tr><td>99th percentile (1 in 100 years)</td><td>95</td><td>A severe year; useful for risk appetite.</td></tr>
+        <tr><td>99.9th percentile (1 in 1,000 years)</td><td>240</td><td>Close to the level internal models once used for capital.</td></tr>
+        <tr><td>Expected shortfall at 99%</td><td>150</td><td>The average loss in the worst 1% of years; more sensitive to the tail than the percentile.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>If APS 115 sets capital by formula, why model operational risk?</summary><p>Models still inform the ICAAP, risk appetite, scenario analysis and insurance decisions, and help test whether the formula's capital is enough for the entity's actual risk profile.</p></details>
+  <details><summary>How reliable are the tail estimates?</summary><p>Not very. Large losses are rare, so tail estimates rest on few data points and on assumptions about the distribution. Results should be presented as ranges and challenged with scenarios.</p></details>
+
   <h2 id="theory-and-research">Theory and research</h2>
   <h3>What makes a good risk measure?</h3>
   <p><a class="cite narrative" href="#ref-artzner-1999">Artzner et al. (1999)</a> set out four properties a risk measure should have to be called <em>coherent</em>: monotonicity, translation invariance, positive homogeneity and subadditivity. Subadditivity is the one that matters most in practice: the risk of two activities combined should be no more than the sum of their separate risks, because combining them can only help or do nothing. Value at risk can fail this test for heavy-tailed or lumpy losses, which are exactly what operational risk produces. <a class="cite narrative" href="#ref-acerbi-2002">Acerbi and Tasche (2002)</a> showed that a properly defined expected shortfall, the average loss beyond the VaR point, is coherent for any loss distribution. This is the theoretical reason why expected shortfall has increasingly replaced VaR in regulation and internal models.</p>
@@ -302,7 +321,7 @@
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 8 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/quantitative-operational-risk.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Fquantitative-operational-risk.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

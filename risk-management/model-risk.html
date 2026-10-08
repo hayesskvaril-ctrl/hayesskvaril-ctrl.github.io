@@ -65,8 +65,8 @@
   <p class="summary">How organisations manage the risk that the models they rely on for decisions, from credit scores to actuarial valuations and AI, are wrong or misused.</p>
   <div class="page-meta">
     <span class="level level-intermediate">Intermediate</span>
-    <span>About 12 minutes</span>
-    <span>Last reviewed: 27 September 2026</span>
+    <span>About 16 minutes</span>
+    <span>Last reviewed: 8 October 2026</span>
     <a class="badge review-status" data-status href="/about/editorial-standards.html" title="Checked against the sources listed on this page; not yet expert reviewed">Checked against sources</a>
   </div>
 
@@ -152,6 +152,32 @@
   <h2>AI and machine learning models</h2>
   <p>AI models are models, and the same principles apply, but they bring extra challenges: they are harder to explain, can learn biases from data, may change as they are retrained, and are often supplied by third parties whose inner workings can't be inspected. Validation needs to cover fairness, robustness and explainability, and monitoring needs to be more frequent. See <a href="/governance/ai-governance.html">AI governance</a>.</p>
 
+  <h2>Worked example: tiering models</h2>
+  <p>Model risk frameworks usually tier models by how much harm an error could cause, and set validation depth by tier. An illustrative inventory:</p>
+  <div class="table-wrap" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Model</th><th scope="col">Use</th><th scope="col">Tier</th><th scope="col">Validation</th></tr></thead>
+      <tbody>
+        <tr><td>Unit pricing valuation model</td><td>Sets prices at which members buy and sell units</td><td>High: errors affect every member transaction</td><td>Full independent validation before use; annual review; daily reconciliations</td></tr>
+        <tr><td>Insurance claims reserving model</td><td>Estimates liabilities for unpaid claims</td><td>High</td><td>Independent actuarial review; back-testing against actual claims</td></tr>
+        <tr><td>Member churn forecast</td><td>Planning and budgeting</td><td>Medium</td><td>Periodic performance review against actual outcomes</td></tr>
+        <tr><td>Spreadsheet tracking training completion</td><td>Reporting</td><td>Low (may not even be a model)</td><td>Basic checks; not in the validation program</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><strong>No complete inventory,</strong> especially of spreadsheets and vendor models.</li>
+    <li><strong>Validation by the people who built the model.</strong></li>
+    <li><strong>Models used for purposes they weren't designed for.</strong></li>
+    <li><strong>Assumptions never revisited</strong> after markets or customer behaviour change.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <details><summary>Does APRA have a model risk standard?</summary><p>Not a standalone one. Model risk is managed within CPS 220 and CPS 230, and some standards set specific model requirements, for example for banks approved to use internal models for capital.</p></details>
+  <details><summary>Are AI systems models?</summary><p>Many are, and they bring extra challenges such as explainability and drift. See <a href="/governance/ai-governance.html">AI governance</a>.</p></details>
+
   <h2>Regulatory expectations</h2>
   <div class="table-wrap" tabindex="0">
     <table>
@@ -194,7 +220,7 @@
     </ol>
   </section>
 
-  <p class="last-reviewed">Last reviewed: 27 September 2026<span class="review-due"> · Next review due: September 2027</span></p>
+  <p class="last-reviewed">Last reviewed: 8 October 2026<span class="review-due"> · Next review due: October 2027</span></p>
   <p class="page-feedback" data-feedback>Spotted an error or an out-of-date requirement? <a href="https://github.com/hayesskvaril-ctrl/hayesskvaril-ctrl.github.io/issues/new?template=correction.yml&amp;title=Correction%3A%20/risk-management/model-risk.html&amp;page=https%3A%2F%2Fhayesskvaril-ctrl.github.io%2Frisk-management%2Fmodel-risk.html">Suggest a correction</a> (free GitHub account needed). See <a href="/about/editorial-standards.html">how we check content</a>.</p>
 </main>
 

@@ -263,6 +263,22 @@ DONE = {
         'Added a worked first-90-days example and FAQs'),
     "/compliance/interpreting-legislation.html": ("8 October 2026",
         'Added a worked example breaking breach reporting into elements, and FAQs'),
+    "/risk-management/cyber-risk.html": ("8 October 2026",
+        "Added ASD's 2024-25 threat figures, a worked ransomware-at-a-provider example with reporting clocks, and common mistakes"),
+    "/risk-management/climate-risk.html": ("8 October 2026",
+        "Added APRA's 2026 insurance climate vulnerability assessment and survey findings, a worked transition risk example and FAQs"),
+    "/risk-management/credit-market-and-liquidity-risk.html": ("8 October 2026",
+        'Added a worked expected credit loss example, how the risks show up in super and insurance, and an FAQ'),
+    "/risk-management/model-risk.html": ("8 October 2026",
+        'Added a worked model tiering example, common mistakes and FAQs'),
+    "/risk-management/change-project-and-reputational-risk.html": ("8 October 2026",
+        'Added a worked platform migration example, common mistakes, board questions and an FAQ'),
+    "/risk-management/scenario-analysis-and-stress-testing.html": ("8 October 2026",
+        "Added APRA's 2026 system-wide exercises (System Risk Stress Test and insurance CVA) and FAQs"),
+    "/risk-management/quantitative-operational-risk.html": ("8 October 2026",
+        'Added a worked reading of a loss distribution and FAQs'),
+    "/risk-management/risk-aggregation-and-correlation.html": ("8 October 2026",
+        'Added a worked correlation and diversification example and FAQs'),
 }
 
 # Pages excluded from the programme on purpose (short by design, or tools)
