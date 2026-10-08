@@ -35,6 +35,33 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/finalising-a-third-tier-banking-framework": {
+  "chars": 45629,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-finalising-a-third-tier-banking-framework.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/finalising-third-tier-banking-framework",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential": {
+  "chars": 41907,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-news-and-publications-apra-formalises-three-tiered-approach-proportionality-banking-prudential.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-to-proportionality-banking-prudential": {
+  "chars": 41907,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-news-and-publications-apra-formalises-three-tiered-approach-to-proportionality-banking-prudential.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/registers/list-significant-financial-institutions": {
   "chars": 42450,
   "date": "2026-10-08",
@@ -53,6 +80,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/standards/cps-190": {
+  "chars": 57881,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-cps-190.txt",
+  "final": "https://www.apra.gov.au/standards/cps-190",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/standards/cps-230": {
   "chars": 74448,
   "date": "2026-10-08",
@@ -67,6 +103,15 @@
   "date": "2026-10-08",
   "file": "apra-gov-au-standards-cps-234.txt",
   "final": "https://www.apra.gov.au/standards/cps-234",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/cps-511": {
+  "chars": 107350,
+  "date": "2026-10-08",
+  "file": "apra-gov-au-standards-cps-511.txt",
+  "final": "https://www.apra.gov.au/standards/cps-511",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
