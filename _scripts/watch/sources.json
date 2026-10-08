@@ -1,5 +1,5 @@
 {
- "_about": "Official news and consultation pages read by the weekly regulator watch (_scripts/watch/watch.py, run by .github/workflows/regulator-watch.yml). For each source the watch reads the pages listed, uses an RSS or Atom feed if the page advertises one, and otherwise collects links whose address matches 'pattern'. If a source stops finding anything, its page or link pattern has probably changed. A page address may contain {year}, replaced with the current year. Where a regulator's own news page can't be read automatically (it is built in the browser, or the site blocks cloud servers), a Google News search feed for that site is used as a backup; its links lead to the regulator's announcement.",
+ "_about": "Official news and consultation pages read by the weekly regulator watch (_scripts/watch/watch.py, run by .github/workflows/regulator-watch.yml). For each source the watch reads the pages listed, uses an RSS or Atom feed if the page advertises one, and otherwise collects links whose address matches 'pattern'. If a source stops finding anything, its page or link pattern has probably changed. A page address may contain {year}, replaced with the current year. A page may also be an RSS or Atom feed, or a sitemap (the site's own machine-readable list of its pages), which is read directly.",
  "sources": [
   {
    "name": "APRA",
@@ -11,8 +11,8 @@
   {
    "name": "ASIC media releases",
    "pages": [
-    "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/{year}-releases/",
-    "https://news.google.com/rss/search?q=site:asic.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en"
+    "https://www.asic.gov.au/sitemap.xml",
+    "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/{year}-releases/"
    ],
    "pattern": "^https://(www\\.)?asic\\.gov\\.au/.*\\d{2}-\\d{3}mr-[a-z0-9-]+/?$"
   },
@@ -20,23 +20,22 @@
    "name": "AUSTRAC",
    "pages": [
     "https://www.austrac.gov.au/news-and-media",
-    "https://news.google.com/rss/search?q=site:austrac.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en"
+    "https://www.austrac.gov.au/sitemap.xml"
    ],
    "pattern": "^https://(www\\.)?austrac\\.gov\\.au/news-and-media/[a-z-]+/[a-z0-9-]+/?$"
   },
   {
    "name": "OAIC",
    "pages": [
-    "https://www.oaic.gov.au/rss",
-    "https://www.oaic.gov.au/news/media-centre"
+    "https://www.oaic.gov.au/rss"
    ],
    "pattern": "^https://(www\\.)?oaic\\.gov\\.au/news/media-centre/[a-z0-9-]+/?$"
   },
   {
    "name": "ACCC",
    "pages": [
-    "https://www.accc.gov.au/media-releases",
-    "https://news.google.com/rss/search?q=site:accc.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en"
+    "https://www.accc.gov.au/sitemap.xml",
+    "https://www.accc.gov.au/media-releases"
    ],
    "pattern": "^https://(www\\.)?accc\\.gov\\.au/media-release/[a-z0-9-]+/?$"
   },
@@ -60,7 +59,7 @@
    "name": "Australian Signals Directorate",
    "pages": [
     "https://www.cyber.gov.au/about-us/view-all-content/news",
-    "https://news.google.com/rss/search?q=site:cyber.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en"
+    "https://www.cyber.gov.au/sitemap.xml"
    ],
    "pattern": "^https://(www\\.)?cyber\\.gov\\.au/about-us/view-all-content/news/[a-z0-9-]+/?$"
   },

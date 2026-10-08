@@ -142,11 +142,42 @@ def parse_feed(body):
     items = []
     for block in re.findall(r"(?is)<(?:item|entry)\b.*?</(?:item|entry)>", body):
         t = re.search(r"(?is)<title[^>]*>(.*?)</title>", block)
-        l = re.search(r"(?is)<link[^>]*>(.*?)</link>", block) or re.search(r'(?is)<link[^>]*href="([^"]+)"', block)
+        l = (re.search(r"(?is)<link[^>]*>\s*(?:<!\[CDATA\[)?\s*(https?://[^<\]\s]+)", block)
+             or re.search(r'(?is)<link[^>]*href="([^"]+)"', block)
+             or re.search(r"(?is)<guid[^>]*>\s*(?:<!\[CDATA\[)?\s*(https?://[^<\]\s]+)", block))
         if t and l:
             title = html.unescape(re.sub(r"<!\[CDATA\[|\]\]>|<[^>]+>", "", t.group(1))).strip()
             items.append((html.unescape(l.group(1).strip()), title))
     return items
+
+
+def sitemap_items(page, pattern, depth=0):
+    """URLs from a sitemap that match the source's pattern, newest first where dates are given.
+    Follows a sitemap index to child sitemaps whose names suggest news or media (at most 6)."""
+    if "<sitemapindex" in page[:3000] and depth == 0:
+        items = []
+        kids = re.findall(r"(?is)<loc>\s*(.*?)\s*</loc>", page)
+        pick = [k for k in kids if re.search(r"news|media|release|article", k, re.I)] or kids
+        for k in pick[:6]:
+            st, _, body = fetch(html.unescape(k))
+            if st == 200 and body:
+                items += sitemap_items(body, pattern, 1)
+        return items
+    entries = []
+    for block in re.findall(r"(?is)<url>(.*?)</url>", page):
+        loc = re.search(r"(?is)<loc>\s*(.*?)\s*</loc>", block)
+        if not loc:
+            continue
+        u = html.unescape(loc.group(1)).split("?")[0]
+        if not re.match(pattern, u):
+            continue
+        mod = re.search(r"(?is)<lastmod>\s*(.*?)\s*</lastmod>", block)
+        title = u.rstrip("/").rsplit("/", 1)[-1].replace("-", " ").capitalize()
+        title = re.sub(r"^(\d{2}) (\d{3})mr ", r"\1-\2MR ", title)
+        title = re.sub(r"\b(asic|apra|accc|austrac|oaic|asd|afca|far|cps|sps)\b", lambda m: m.group(1).upper(), title)
+        entries.append((mod.group(1) if mod else "", u, title))
+    entries.sort(reverse=True)
+    return [(u, t) for _, u, t in entries[:200]]
 
 
 def link_items(page, base, pattern):
@@ -206,7 +237,10 @@ def main():
             if st != 200 or not page:
                 used.append(f"{page_url} ({st or page[:60]})")
                 continue
-            if re.search(r"<(rss|feed)\b", page[:2000]):          # the page itself is a feed
+            DEBUG.setdefault(page_url, {})["raw_start"] = page[:1500]
+            if re.search(r"<(urlset|sitemapindex)\b", page[:3000]):  # a sitemap: the site's own list of its pages
+                fi = (sitemap_items(page, src["pattern"]), page_url)
+            elif re.search(r"<(rss|feed)\b", page[:2000]):          # the page itself is a feed
                 fi = (parse_feed(page), page_url)
             else:
                 fi = feed_items(page, page_url)
@@ -218,6 +252,10 @@ def main():
         if not found:
             unreadable.append(f"{name}: nothing found ({'; '.join(used)})")
             continue
+        pages_key = seen.setdefault("_pages", {})
+        if pages_key.get(name) != src["pages"]:
+            seen.pop(name, None)          # the way this source is read has changed: start again from a baseline
+            pages_key[name] = src["pages"]
         if name not in seen:
             baseline.append(f"{name}: {len(found)} current items recorded as the starting point")
             seen[name] = list(found)

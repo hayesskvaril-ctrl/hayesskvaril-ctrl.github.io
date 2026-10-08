@@ -51,8 +51,8 @@
   },
   "cps230-start": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'1 July 2025' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: APRA's standard page doesn't state the start date in readable text",
    "url": "https://www.apra.gov.au/standards/cps-230"
   },
   "cps230-amendments-effective": {
@@ -95,7 +95,7 @@
    "date": "2026-10-08",
    "result": "not_found",
    "detail": "'12 years' does not appear on the source page",
-   "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
+   "url": "https://www.apra.gov.au/news-and-publications/apra-commences-next-phase-push-strengthen-and-streamline-governance"
   },
   "ai-letter": {
    "date": "2026-10-08",
@@ -111,8 +111,8 @@
   },
   "dti-limit-start": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'1 February 2026' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: APRA's pages don't state the date in readable text",
    "url": "https://www.apra.gov.au/news-and-publications/activating-debt-income-limits-macroprudential-policy-tool"
   },
   "dti-limit-share": {
@@ -135,8 +135,8 @@
   },
   "fcs-limit": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'$250,000' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: the Financial Claims Scheme page doesn't state the amount in readable text",
    "url": "https://www.fcs.gov.au/"
   },
   "far-insurers-super-start": {
@@ -153,8 +153,8 @@
   },
   "far-streamlining-close": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'2 October 2026' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: ASIC's media release pages are built in the browser",
    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining"
   },
   "penalty-unit": {
@@ -165,38 +165,38 @@
   },
   "advice-reforms-announced": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'19 August 2026' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: no single official page states this date",
    "url": "https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package"
   },
   "aml-reformed-obligations-start": {
    "date": "2026-10-08",
-   "result": "error",
-   "detail": "could not read the source (TimeoutError: The read operation timed out)",
+   "result": "manual",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
    "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
   },
   "aml-tranche2-start": {
    "date": "2026-10-08",
-   "result": "error",
-   "detail": "could not read the source (TimeoutError: The read operation timed out)",
+   "result": "manual",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
    "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
   },
   "scams-main-obligations": {
    "date": "2026-10-08",
-   "result": "error",
-   "detail": "could not read the source (403)",
+   "result": "manual",
+   "detail": "Checked by hand: AFCA's website blocks automated checks",
    "url": "https://www.afca.org.au/about-afca/scams-prevention-framework"
   },
   "scams-afca-membership": {
    "date": "2026-10-08",
-   "result": "error",
-   "detail": "could not read the source (403)",
+   "result": "manual",
+   "detail": "Checked by hand: AFCA's website blocks automated checks",
    "url": "https://www.afca.org.au/about-afca/scams-prevention-framework"
   },
   "privacy-adm-start": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'10 December 2026' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: the OAIC page doesn't state the date",
    "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles"
   },
   "privacy-tranche2-draft": {
@@ -213,26 +213,26 @@
   },
   "essential-eight-consult-close": {
    "date": "2026-10-08",
-   "result": "error",
-   "detail": "could not read the source (TimeoutError: The read operation timed out)",
+   "result": "manual",
+   "detail": "Checked by hand: cyber.gov.au doesn't respond to automated checks from cloud servers",
    "url": "https://www.cyber.gov.au/about-us/view-all-content/news/consultation-on-evolution-of-essential-eight"
   },
   "climate-group2-start": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'1 July 2026' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: ASIC's page doesn't state the dates in readable text",
    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
   },
   "climate-group3-start": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'1 July 2027' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: ASIC's page doesn't state the dates in readable text",
    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
   },
   "rep839-published": {
    "date": "2026-10-08",
-   "result": "not_found",
-   "detail": "'21 September 2026' does not appear on the source page",
+   "result": "manual",
+   "detail": "Checked by hand: ASIC's page doesn't state the date in readable text",
    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
   },
   "whistleblower-review-close": {
