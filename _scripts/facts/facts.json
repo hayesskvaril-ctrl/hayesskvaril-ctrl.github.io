@@ -365,7 +365,9 @@
     "how": "secondary",
     "note": ""
    },
-   "history": []
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: the limit is stated in APRA's draft standard (a PDF), not on its web pages"
   },
   {
    "id": "ai-letter",

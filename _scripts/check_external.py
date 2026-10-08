@@ -103,9 +103,14 @@ def main():
         for r in ex.map(check_host, by_host.values()):
             results.update(r)
     broken = {u: r for u, r in results.items() if r[0] in (404, 410)}
-    failing = {u: r for u, r in results.items() if r[0] == 0 or r[0] >= 500}
+    # Sites where no link got any response at all usually block automated checks from cloud servers
+    # (several Australian government sites do). List those sites once instead of every link as failing.
+    silent = {h for h, us in by_host.items() if all(results[u][0] == 0 for u in us)}
+    failing = {u: r for u, r in results.items()
+               if (r[0] == 0 or r[0] >= 500) and urllib.parse.urlsplit(u).hostname not in silent}
     blocked = {u: r for u, r in results.items() if r[0] in (401, 403, 429)}
-    ok = len(results) - len(broken) - len(failing) - len(blocked)
+    n_silent = sum(len(by_host[h]) for h in silent)
+    ok = len(results) - len(broken) - len(failing) - len(blocked) - n_silent
 
     def lines(d, why):
         out = []
@@ -118,12 +123,18 @@ def main():
 
     L = ["# Outside link check", "",
          f"{len(results)} outside links on {len({p for ps in links.values() for p in ps})} pages: {ok} working, "
-         f"{len(broken)} broken, {len(failing)} failing, {len(blocked)} sites that refuse automated checks.", "",
+         f"{len(broken)} broken, {len(failing)} failing, {len(blocked)} refused by sites that block automated checks, "
+         f"{n_silent} on {len(silent)} sites that didn't respond to automated checks at all.", "",
          "Fix or replace broken links (find the document's new address on the official site), check failing ones by hand, "
          "then close this issue. Ask Claude to \"fix the broken links issue\".", ""]
     L += [f"## Broken ({len(broken)})", ""] + (lines(broken, lambda s, d: f"{s}") or ["None."]) + [""]
     L += [f"## Failing: server error or no connection, twice ({len(failing)})", ""] + (lines(failing, lambda s, d: d if s == 0 else f"{s}") or ["None."]) + [""]
-    L += ["<details><summary>Sites that refuse automated checks (not counted as broken)</summary>", ""]
+    if silent:
+        L += [f"## Sites that didn't respond to automated checks ({len(silent)})", "",
+              "These sites usually block checks from cloud servers, so their links can't be tested automatically. "
+              "Spot-check a few by hand each quarter.", ""]
+        L += [f"- {h} ({len(by_host[h])} links)" for h in sorted(silent)] + [""]
+    L += ["<details><summary>Links refused by sites that block automated checks (not counted as broken)</summary>", ""]
     L += [f"- <{u}> ({r[0]})" for u, r in sorted(blocked.items())] + ["", "</details>", ""]
     report = "\n".join(L)
     if len(report) > 60000:

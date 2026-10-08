@@ -229,7 +229,7 @@ def main():
         fetch = lambda url, cache={}: (0, "", "offline")
 
     # 1. announcements
-    new, baseline, unreadable, counts = {}, [], [], {}
+    new, baseline, unreadable, counts, by_hand = {}, [], [], {}, []
     for src in sources:
         name, found, used = src["name"], {}, []
         for page_url in [u.replace("{year}", str(TODAY.year)) for u in src["pages"]]:
@@ -250,7 +250,11 @@ def main():
                 found.setdefault(u, t)
         counts[name] = (len(found), used)
         if not found:
-            unreadable.append(f"{name}: nothing found ({'; '.join(used)})")
+            if src.get("blocked_note"):
+                page = next((u for u in src["pages"] if "sitemap" not in u), src["pages"][0])
+                by_hand.append(f"[{name}]({page}): {src['blocked_note']}")
+            else:
+                unreadable.append(f"{name}: nothing found ({'; '.join(used)})")
             continue
         pages_key = seen.setdefault("_pages", {})
         if pages_key.get(name) != src["pages"]:
@@ -328,6 +332,8 @@ def main():
     L += [f"## Confirmed on the official source: {len(found)} of {len(facts)} facts", ""]
     if baseline:
         L += ["## First run for these sources", ""] + [f"- {b}" for b in baseline] + [""]
+    if by_hand:
+        L += ["## Check by hand", ""] + [f"- {x}" for x in by_hand] + [""]
     if unreadable:
         L += ["## Sources where nothing was found", "", "The page or its link pattern in `_scripts/watch/sources.json` may need updating.", ""]
         L += [f"- {u}" for u in unreadable] + [""]

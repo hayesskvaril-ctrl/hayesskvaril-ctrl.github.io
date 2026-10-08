@@ -47,6 +47,19 @@ Re-check timetable (unless a fact has its own `recheck` date): proposals and con
 6. **Rebuild and check.** Rebuild any generators whose data changed, then `sync_layout.py`, `check_links.py`, `run_checks.py`. Commit, publish, and close each issue with a short comment saying what changed and on which pages (end the comment with the Claude Code footer).
 7. **Flag for expert review** anything in the owner's specialist areas (see CLAUDE.md §2).
 
+## What the weekly watch can and can't read
+
+| Source | How it is read |
+|---|---|
+| APRA | News and publications page |
+| ASIC | Its sitemap (ASIC's newsroom pages are built in the browser, so the sitemap is used to list media releases) |
+| Treasury | Consultations page and the Treasurer's and Financial Services Minister's media releases |
+| Attorney-General's Department | Consultation hub |
+| OAIC | Its sitemap |
+| AUSTRAC, ACCC, ASD (cyber.gov.au) | **Not readable automatically**: these sites block automated reading from cloud servers. The report lists them under "Check by hand", and the monthly upkeep includes checking their news pages. |
+
+Facts whose official page can't be read automatically carry `"autocheck": false` with a note, and are re-checked by hand on the normal timetable.
+
 ## When the watch needs attention
 
 - **A source finds nothing** (listed under "Sources where nothing was found"): the regulator has probably redesigned its news page. Update its `pages` or `pattern` in `_scripts/watch/sources.json`.

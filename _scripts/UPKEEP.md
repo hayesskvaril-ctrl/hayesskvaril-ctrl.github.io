@@ -39,6 +39,7 @@ Then commit, push to `main`, and check the live page.
 - [ ] Run `python3 _scripts/review_report.py` and plan reviews for pages due in the next quarter.
 - [ ] Check the "watch" items in the ROADMAP backlog (court outcomes, consultations awaiting final decisions).
 - [ ] Check the "No fixed next date" tracker items listed by `run_checks.py`.
+- [ ] Spot-check a few links on the sites the monthly link check lists as "didn't respond to automated checks" (AUSTRAC, cyber.gov.au, DFAT and others block cloud servers), and check AUSTRAC, ACCC and ASD news by hand if not done monthly.
 - [ ] Add a news quiz question or flashcard for any major new development (`scripts/quiz-bank.js`, `scripts/flashcards-data.js`).
 - [ ] Check each official video on `/learn/videos.html` still plays and is still on the regulator's channel. Remove any that have gone, then set `checked` in `_scripts/build_videos.py` and run it. `run_checks.py` flags videos not checked for 3 months.
 

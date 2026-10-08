@@ -1,5 +1,5 @@
 {
- "_about": "Official news and consultation pages read by the weekly regulator watch (_scripts/watch/watch.py, run by .github/workflows/regulator-watch.yml). For each source the watch reads the pages listed, uses an RSS or Atom feed if the page advertises one, and otherwise collects links whose address matches 'pattern'. If a source stops finding anything, its page or link pattern has probably changed. A page address may contain {year}, replaced with the current year. A page may also be an RSS or Atom feed, or a sitemap (the site's own machine-readable list of its pages), which is read directly.",
+ "_about": "Official news and consultation pages read by the weekly regulator watch (_scripts/watch/watch.py, run by .github/workflows/regulator-watch.yml). For each source the watch reads the pages listed, uses an RSS or Atom feed if the page advertises one, and otherwise collects links whose address matches 'pattern'. If a source stops finding anything, its page or link pattern has probably changed. A page address may contain {year}, replaced with the current year. A page may also be an RSS or Atom feed, or a sitemap (the site's own machine-readable list of its pages), which is read directly. 'blocked_note' marks sources known to block automated reading; the report lists them as hand checks rather than errors.",
  "sources": [
   {
    "name": "APRA",
@@ -22,12 +22,13 @@
     "https://www.austrac.gov.au/news-and-media",
     "https://www.austrac.gov.au/sitemap.xml"
    ],
-   "pattern": "^https://(www\\.)?austrac\\.gov\\.au/news-and-media/[a-z-]+/[a-z0-9-]+/?$"
+   "pattern": "^https://(www\\.)?austrac\\.gov\\.au/news-and-media/[a-z-]+/[a-z0-9-]+/?$",
+   "blocked_note": "This site blocks automated reading from cloud servers: check its news page by hand (monthly upkeep)."
   },
   {
    "name": "OAIC",
    "pages": [
-    "https://www.oaic.gov.au/rss"
+    "https://www.oaic.gov.au/sitemap.xml"
    ],
    "pattern": "^https://(www\\.)?oaic\\.gov\\.au/news/media-centre/[a-z0-9-]+/?$"
   },
@@ -37,7 +38,8 @@
     "https://www.accc.gov.au/sitemap.xml",
     "https://www.accc.gov.au/media-releases"
    ],
-   "pattern": "^https://(www\\.)?accc\\.gov\\.au/media-release/[a-z0-9-]+/?$"
+   "pattern": "^https://(www\\.)?accc\\.gov\\.au/media-release/[a-z0-9-]+/?$",
+   "blocked_note": "This site blocks automated reading from cloud servers: check its news page by hand (monthly upkeep)."
   },
   {
    "name": "Treasury consultations",
@@ -61,7 +63,8 @@
     "https://www.cyber.gov.au/about-us/view-all-content/news",
     "https://www.cyber.gov.au/sitemap.xml"
    ],
-   "pattern": "^https://(www\\.)?cyber\\.gov\\.au/about-us/view-all-content/news/[a-z0-9-]+/?$"
+   "pattern": "^https://(www\\.)?cyber\\.gov\\.au/about-us/view-all-content/news/[a-z0-9-]+/?$",
+   "blocked_note": "This site blocks automated reading from cloud servers: check its news page by hand (monthly upkeep)."
   },
   {
    "name": "Attorney-General's Department consultations",
