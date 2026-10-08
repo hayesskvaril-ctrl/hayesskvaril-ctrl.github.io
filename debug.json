@@ -157,7 +157,18 @@
    "/non-regulated-industry/registered-financial-corporations/reporting-requirements-registered",
    "/privacy"
   ],
-  "alternate": []
+  "alternate": [],
+  "raw_start": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" style=\"--color--primary-hue:202;--color--primary-saturation:79%;--color--primary-lightness:50\">\n  <head>\n    <meta charset=\"utf-8\" />\n<meta name=\"Generator\" content=\"Drupal 11 (https://www.drupal.org)\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<link rel=\"icon\" href=\"/themes/custom/apra/favicon.ico\" type=\"image/vnd.microsoft.icon\" />\n\n    <title>News and Publications | APRA</title>\n    <meta name=\"google-site-verification\" content=\"m82leNJpW_FeOElLU1mPB0WV60fI1spYOJOiB-8djgc\"/>\n    <link rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_JWom8T0-W3L0Kw1gwrJxqg9_r69njTl9YbIu1TERSFY.css?delta=0&amp;language=en&amp;theme=apra&amp;include=eJxdUgmOwyAM_FAoT4oMcQm7XMIm7f5-3UCatFIUecbGHh-QEj5nA4Qa0lMVcDjBJ0eb-6bYc_iIcyEbCBOUChqszXXxOXVowP4qzvKVQVSExdYWTcc2J8bEEuBcQGUa8_HW0qaW_Eghw9IZ3CSUun3PmbEedo3Kp9L4ihnjBQYwODRe9a4QTavuyLSKutOuuVveHpp8CI24Ar873Muqh-dVUTPRDwl7uU7v5TFgFPHDmd3IHNGBEkcbMBsvUziJhA9SpZng7V5zNP_a1FBZRJKiEo7ChFCtFPVBxkMf3GVCg-kbvxAVqYV3jD3bZDAjGecc2Pd1zv2ZpuYcUhdo8D5HSeJJerasv7D4WZTN-CyZcJmHUO0wYZWtyPmgXmorEG7wA8_ptegkuyb9tqYCFVyFstIRejK3lvaB0YrLRH8kZ6BfZzptXoap9_8t5qUF_AdQayWx\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_CiaJp98C6nMd821P8g4M8Wq-fYYZW5eVCuoUl76S2ic.css?delta=1&amp;language=en&amp;theme=apra&amp;include=eJxdUgmOwyAM_FAoT4oMcQm7XMIm7f5-3UCatFIUecb"
+ },
+ "https://www.asic.gov.au/sitemap.xml": {
+  "status": 200,
+  "type": "application/xml",
+  "length": 2172208,
+  "title": "",
+  "text_start": " https://www.asic.gov.au/ 2026-10-07T01:20:03Z https://www.asic.gov.au/for-business-and-companies 2026-09-10T12:21:07Z https://www.asic.gov.au/for-business-and-companies/business-basics 2026-09-29T00:47:50Z https://www.asic.gov.au/for-business-and-companies/business-basics/starting-a-business-asic-and-your-obligations 2025-06-16T01:30:59Z https://www.asic.gov.au/for-business-and-companies/business-basics/sole-trader-partnership-company-trust 2025-06-16T23:24:51Z https://www.asic.gov.au/for-business-and-companies/business-basics/trading-names-are-not-registered-business-names 2025-06-10T22:59:1",
+  "hrefs": [],
+  "alternate": [],
+  "raw_start": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n        <url>\n<loc>https://www.asic.gov.au/</loc>\n<lastmod>2026-10-07T01:20:03Z</lastmod>\n</url><url>\n<loc>https://www.asic.gov.au/for-business-and-companies</loc>\n<lastmod>2026-09-10T12:21:07Z</lastmod>\n</url><url>\n<loc>https://www.asic.gov.au/for-business-and-companies/business-basics</loc>\n<lastmod>2026-09-29T00:47:50Z</lastmod>\n</url><url>\n<loc>https://www.asic.gov.au/for-business-and-companies/business-basics/starting-a-business-asic-and-your-obligations</loc>\n<lastmod>2025-06-16T01:30:59Z</lastmod>\n</url><url>\n<loc>https://www.asic.gov.au/for-business-and-companies/business-basics/sole-trader-partnership-company-trust</loc>\n<lastmod>2025-06-16T23:24:51Z</lastmod>\n</url><url>\n<loc>https://www.asic.gov.au/for-business-and-companies/business-basics/trading-names-are-not-registered-business-names</loc>\n<lastmod>2025-06-10T22:59:17Z</lastmod>\n</url><url>\n<loc>https://www.asic.gov.au/for-business-and-companies/business-basics/check-another-business-is-trustworthy</loc>\n<lastmod>2026-10-02T01:35:02Z</lastmod>\n</url><url>\n<loc>https://www.asic.gov.au/for-business-and-companies/business-basics/for-businesses-facing-financial-difficulties</loc>\n<lastmod>2026-10-02T01:35:31Z</lastmod>\n</url><url>\n<loc>https://www.asic.gov.au/for-business-and-compani"
  },
  "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/": {
   "status": 200,
@@ -249,18 +260,8 @@
    "https://www.linkedin.com/company/asic",
    "https://x.com/asicmedia"
   ],
-  "alternate": []
- },
- "https://news.google.com/rss/search?q=site:asic.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en": {
-  "status": 200,
-  "type": "application/xml; charset=utf-8",
-  "length": 143595,
-  "title": "\"site:asic.gov.au when:14d\" - Google News",
-  "text_start": " NFE/5.0 \"site:asic.gov.au when:14d\" - Google News https://news.google.com/search?q=site:asic.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en en-AU news-webmaster@google.com Copyright \u00a9 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions. Thu, 08 Oct 2026 09:24:37 GMT Google News https://lh3.goog",
-  "hrefs": [
-   "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xTUQwdUo0c3dCWGdnQUN3QjhLVzd0a2JlWmNFeFFISzBUSVVSNU5meWtoYWRYNVVlMFdVZDdrYngtOExjTFVWNi15VzNESENBTXN1a1hxc3pYR2NvVUF5U1VQWW4?oc=5"
-  ],
-  "alternate": []
+  "alternate": [],
+  "raw_start": "\n    \n\n\t<!DOCTYPE html>\n\t<html lang=\"en\" dir=\"ltr\">\n\t<head>\n\t\t<!-- Google Tag Manager -->\n\t\t<script>\n\t\t\t(function (w, d, s, l, i) {\n\t\t\t\tw[l] = w[l] || []; w[l].push({\n\t\t\t\t\t'gtm.start':\n\t\t\t\t\t\tnew Date().getTime(), event: 'gtm.js'\n\t\t\t\t}); var f = d.getElementsByTagName(s)[0],\n\t\t\t\t\tj = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =\n\t\t\t\t\t\t'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);\n\t\t\t})(window, document, 'script', 'dataLayer', 'GTM-KSDNRK');\n\t\t</script>\n\t\t<!-- End Google Tag Manager -->  \n\t\t<meta charset=\"utf-8\">\n\t\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" />\n\t\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n\t\t<link rel=\"canonical\" href=\"https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases\" />\n\t\t<link property=\"AGLS_Metadata_Element_Set_v1-3\" href=\"http://www.agls.gov.au/AGLS_Metadata_Element_Set_v1-3.html\" />\n\t\t<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\t\t<!-- social -->\t\t\n\t\t\t<meta property=\"og:title\" content=\"2026 releases | ASIC\" />\n\t\t\t<meta property=\"og:type\" content=\"website\" />\n\t\t\t<meta property=\"og:url\" content=\"https://www.asic.gov.au/\" />\n\t\t\t<meta property=\"og:description\" content=\"Fair, strong and efficient financial system for all Australians.\" />\n\t\t\t<meta property=\"og:image\" content=\"https://download.asic.gov.au/asic-nextgen/img/image-soci"
  },
  "https://www.austrac.gov.au/news-and-media": {
   "status": 0,
@@ -271,19 +272,13 @@
   "hrefs": [],
   "alternate": []
  },
- "https://news.google.com/rss/search?q=site:austrac.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en": {
-  "status": 200,
-  "type": "application/xml; charset=utf-8",
-  "length": 34994,
-  "title": "\"site:austrac.gov.au when:14d\" - Google News",
-  "text_start": " NFE/5.0 \"site:austrac.gov.au when:14d\" - Google News https://news.google.com/search?q=site:austrac.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en en-AU news-webmaster@google.com Copyright \u00a9 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions. Thu, 08 Oct 2026 09:27:17 GMT Google News https://lh",
-  "hrefs": [
-   "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5JODNPUkp4TGZydFRnWFR4allPTm9GV2lIUUFJcG1WeFoyMEgxTkM0YnZwTzVXTkZFNWhRTUVTOWxWMmo1dmZLTTR0VQ?oc=5",
-   "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WVk82ZVFlSEIySExrWE1hVEhlRzVhVldCT2tNQ3V0ME9XSk9zS09LTnlSTXl2OWtSS0p0aFFFMk9ZUGZKR2luQ2lsS1ZZZw?oc=5",
-   "https://news.google.com/rss/articles/CBMiTkFVX3lxTE91OUxiSDNFOFF5NEI1UXk0NlNEZWJVUklNa3pOUHBBd09ZUnkwdHFiOEYyT3gxbXVBZUhGNEEwMGFuRV9zMHJtS1FsdnFSZw?oc=5",
-   "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kT0NEWnZUX0hKaTN2UEtua3dtcU9od0F4MXZYZnY2YlZMQ0VSTDM3VHpqRzhKTEJ2SXVISVZaeGotSk1UWUVnVERpZDhXb1VMakxvVkFLOGx4QVh0MTBoR2hiMEFscHdvQkcwTw?oc=5",
-   "https://news.google.com/rss/articles/CBMicEFVX3lxTE81Q283NGhrVU9LZzhRaHQxa1UyX2FrbURWY3ltZkNlVTJBRWFPN09uLUhaWTJNdnlNLTdXa1RfXzkzb2lpMURVeGtjMEhoSDVUdkZrUktMY2t5NUFGZ2NzZWNVV2psS3BhVXhRVHdJMjM?oc=5"
-  ],
+ "https://www.austrac.gov.au/sitemap.xml": {
+  "status": 0,
+  "type": "",
+  "length": 42,
+  "title": "",
+  "text_start": "TimeoutError: The read operation timed out",
+  "hrefs": [],
   "alternate": []
  },
  "https://www.oaic.gov.au/rss": {
@@ -293,95 +288,16 @@
   "title": "OAIC media RSS",
   "text_start": " OAIC media RSS https://www.oaic.gov.au/news/media-centre Read our media releases and statements. 60 Principles for nationally consistent approaches to accessing Stolen Generations records Privacy in focus as the foundation of trust this Privacy Awareness Week Privacy: The foundation of trust - Joint statement by Privacy Authorities Australia FOI Commissioner appointed to OAIC Addressing online harms central to Digital Platform Regulators Forum Australian Information Commissioner approves variation to the Privacy Credit Reporting Code 2014 Communications Law Bulletin interview with Commissione",
   "hrefs": [],
-  "alternate": []
+  "alternate": [],
+  "raw_start": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss version=\"2.0\"><channel><title>OAIC media RSS</title><link>https://www.oaic.gov.au/news/media-centre</link><description>Read our media releases and statements.</description><ttl>60</ttl><item><title>Principles for nationally consistent approaches to accessing Stolen Generations records</title></item><item><title>Privacy in focus as the foundation of trust this Privacy Awareness Week</title></item><item><title>Privacy: The foundation of trust \u2013 Joint statement by Privacy Authorities Australia</title></item><item><title>FOI Commissioner appointed to OAIC</title></item><item><title>Addressing online harms central to Digital Platform Regulators Forum</title></item><item><title>Australian Information Commissioner approves variation to the Privacy Credit Reporting Code 2014</title></item><item><title>Communications Law Bulletin interview with Commissioner Falk</title></item><item><title>Focus on accountability to prevent data breaches</title></item><item><title>ARCA submits amended application to vary Credit Reporting Code</title></item><item><title>Commissioner welcomes Full Federal Court ruling on Facebook appeal</title></item><item><title>Privacy regulator welcomes proposals to strengthen privacy protections</title></item><item><title>OAIC 2021 highlights</title></item><item><title>AFP ordered to strengthen privacy governance</title></item><item><title>OAIC publishes first Consumer Data Right privacy assessment</title></item><item><title"
  },
- "https://www.oaic.gov.au/news/media-centre": {
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "length": 82934,
-  "title": "Media centre | OAIC",
-  "text_start": " Media centre | OAIC We use cookies on this site We use cookies to analyse traffic and to improve your browsing experience on our website. To find out more, read our privacy policy . Close Skip to main content News Join our team Contact us Home Privacy Privacy Your privacy rights Privacy complaints Australian Privacy Principles Privacy guidance for organisations and government agencies Notifiable data breaches Privacy legislation Privacy assessments and decisions Privacy registers Privacy for Kids Freedom of information Freedom of information Your freedom of information rights How to access go",
-  "hrefs": [
-   "//app-oc.readspeaker.com/cgi-bin/rsent?customerid=9755&lang=en_au&readclass=page-content&url=https%3A%2F%2Fwww.oaic.gov.au%2Fnews%2Fmedia-centre",
-   "//app-oc.readspeaker.com/cgi-bin/rsent?customerid=9755&lang=en_au&readclass=search-content&url=https%3A%2F%2Fwww.oaic.gov.au%2Fnews%2Fmedia-centre",
-   "/__data/assets/image/0027/163377/Elizabeth-Tydd-3600x2400.jpg",
-   "/__data/assets/image/0029/163379/Carly-Kind-2140x2560.jpg",
-   "/about-the-OAIC/join-our-team",
-   "/contact-us",
-   "?&amp;collection=113e9365-ffcc-4320-a995-5c1b98bea3bb~sp-oaic-web-new&amp;form=result&amp;num_ranks=10&amp;profile=news-results-page&amp;sort=dmetapublishedDateISO&amp;start_rank=1",
-   "?&amp;collection=113e9365-ffcc-4320-a995-5c1b98bea3bb~sp-oaic-web-new&amp;form=result&amp;num_ranks=10&amp;profile=news-results-page&amp;sort=dmetapublishedDateISO&amp;start_rank=11",
-   "?&amp;collection=113e9365-ffcc-4320-a995-5c1b98bea3bb~sp-oaic-web-new&amp;form=result&amp;num_ranks=10&amp;profile=news-results-page&amp;sort=dmetapublishedDateISO&amp;start_rank=21",
-   "?&amp;collection=113e9365-ffcc-4320-a995-5c1b98bea3bb~sp-oaic-web-new&amp;form=result&amp;num_ranks=10&amp;profile=news-results-page&amp;sort=dmetapublishedDateISO&amp;start_rank=31",
-   "?&amp;collection=113e9365-ffcc-4320-a995-5c1b98bea3bb~sp-oaic-web-new&amp;form=result&amp;num_ranks=10&amp;profile=news-results-page&amp;sort=dmetapublishedDateISO&amp;start_rank=41",
-   "https://au.linkedin.com/company/office-of-the-australian-information-commissioner",
-   "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css",
-   "https://fonts.googleapis.com",
-   "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-   "https://fonts.gstatic.com",
-   "https://twitter.com/OAICgov",
-   "https://www.facebook.com/OAICgov",
-   "https://www.instagram.com/oaicgov/",
-   "https://www.oaic.gov.au",
-   "https://www.oaic.gov.au/__data/assets/css_file/0024/240585/custom.css?v=0.1.400",
-   "https://www.oaic.gov.au/__data/assets/git_bridge/0012/12063/main.css?h=0a5fa99",
-   "https://www.oaic.gov.au/__data/assets/image/0015/14181/apple-touch-icon.png",
-   "https://www.oaic.gov.au/__data/assets/image/0016/14182/favicon-32x32.png",
-   "https://www.oaic.gov.au/about-the-OAIC",
-   "https://www.oaic.gov.au/about-the-OAIC/access-our-information",
-   "https://www.oaic.gov.au/about-the-OAIC/accessibility",
-   "https://www.oaic.gov.au/about-the-OAIC/commissioner-priorities",
-   "https://www.oaic.gov.au/about-the-OAIC/copyright",
-   "https://www.oaic.gov.au/about-the-OAIC/information-policy",
-   "https://www.oaic.gov.au/about-the-OAIC/join-our-team",
-   "https://www.oaic.gov.au/about-the-OAIC/our-corporate-information",
-   "https://www.oaic.gov.au/about-the-OAIC/our-corporate-information/plans-policies-and-procedures/privacy-policy",
-   "https://www.oaic.gov.au/about-the-OAIC/our-regulatory-approach",
-   "https://www.oaic.gov.au/about-the-OAIC/serving-legal-documents-on-the-australian-information-commissioner",
-   "https://www.oaic.gov.au/about-the-OAIC/terms-and-conditions",
-   "https://www.oaic.gov.au/about-the-OAIC/what-we-do",
-   "https://www.oaic.gov.au/about-the-OAIC/who-we-are",
-   "https://www.oaic.gov.au/consumer-data-right",
-   "https://www.oaic.gov.au/consumer-data-right/consumer-data-right-assessments",
-   "https://www.oaic.gov.au/consumer-data-right/consumer-data-right-complaints",
-   "https://www.oaic.gov.au/consumer-data-right/consumer-data-right-guidance-for-business",
-   "https://www.oaic.gov.au/consumer-data-right/consumer-data-right-legislation,-regulation-and-definitions",
-   "https://www.oaic.gov.au/consumer-data-right/information-for-consumers",
-   "https://www.oaic.gov.au/contact-us",
-   "https://www.oaic.gov.au/digital-id",
-   "https://www.oaic.gov.au/engage-with-us",
-   "https://www.oaic.gov.au/engage-with-us/consultations",
-   "https://www.oaic.gov.au/engage-with-us/events",
-   "https://www.oaic.gov.au/engage-with-us/networks",
-   "https://www.oaic.gov.au/engage-with-us/research-and-training-resources",
-   "https://www.oaic.gov.au/engage-with-us/submissions",
-   "https://www.oaic.gov.au/engage-with-us/translations",
-   "https://www.oaic.gov.au/freedom-of-information",
-   "https://www.oaic.gov.au/freedom-of-information/australian-government-freedom-of-information-statistics",
-   "https://www.oaic.gov.au/freedom-of-information/freedom-of-information-guidance-for-government-agencies",
-   "https://www.oaic.gov.au/freedom-of-information/freedom-of-information-legislation-and-determinations",
-   "https://www.oaic.gov.au/freedom-of-information/freedom-of-information-statistics-for-the-oaic",
-   "https://www.oaic.gov.au/freedom-of-information/how-to-access-government-information",
-   "https://www.oaic.gov.au/freedom-of-information/information-commissioner-decisions-and-reports",
-   "https://www.oaic.gov.au/freedom-of-information/your-freedom-of-information-rights",
-   "https://www.oaic.gov.au/news",
-   "https://www.oaic.gov.au/news/media-centre",
-   "https://www.oaic.gov.au/privacy",
-   "https://www.oaic.gov.au/privacy/australian-privacy-principles",
-   "https://www.oaic.gov.au/privacy/notifiable-data-breaches",
-   "https://www.oaic.gov.au/privacy/privacy-assessments-and-decisions",
-   "https://www.oaic.gov.au/privacy/privacy-complaints",
-   "https://www.oaic.gov.au/privacy/privacy-for-kids",
-   "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies",
-   "https://www.oaic.gov.au/privacy/privacy-legislation",
-   "https://www.oaic.gov.au/privacy/privacy-registers",
-   "https://www.oaic.gov.au/privacy/your-privacy-rights",
-   "https://www.oaic.gov.au/rss",
-   "https://www.oaic.gov.au/sitemap",
-   "https://www.youtube.com/user/oaicgov",
-   "mailto: media@oaic.gov.au",
-   "tel: 0407 663 968",
-   "tel:1300 363 992"
-  ],
+ "https://www.accc.gov.au/sitemap.xml": {
+  "status": 403,
+  "type": "",
+  "length": 0,
+  "title": "",
+  "text_start": "",
+  "hrefs": [],
   "alternate": []
  },
  "https://www.accc.gov.au/media-releases": {
@@ -391,21 +307,6 @@
   "title": "",
   "text_start": "",
   "hrefs": [],
-  "alternate": []
- },
- "https://news.google.com/rss/search?q=site:accc.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en": {
-  "status": 200,
-  "type": "application/xml; charset=utf-8",
-  "length": 16365,
-  "title": "\"site:accc.gov.au when:14d\" - Google News",
-  "text_start": " NFE/5.0 \"site:accc.gov.au when:14d\" - Google News https://news.google.com/search?q=site:accc.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en en-AU news-webmaster@google.com Copyright \u00a9 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions. Thu, 08 Oct 2026 09:27:25 GMT Google News https://lh3.goog",
-  "hrefs": [
-   "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Qd2hMOHFRUUo2MGVBd2hKelllMkdJMmFtUlIxaFhES01kcUJySnNPenhPRTM4NGROOGxRWlFaQUN0aUk5WUljT2R1bWZHQjhtM1lF?oc=5",
-   "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40TjNCdTR0NHBEVmh1bGtJb1N1ZmRJUWwxRTA2VW5Ta0Eyc3M1ZnNaM080WlhjVXZGelJUdG1lQy0ybzBkcUZtRjFQMWRPcElxaGc?oc=5",
-   "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tQmhOXzZrR3F5VC1tc2FHN3ZmWTVXNU5icG5qTmpua2ZwUUVjZm9nb093NVpZcE56aG1uVjRmZllWQnBleENTbU1HZXVFX0Nac2hhbld5T2V3cFF5UW5rUWt0OFJ3OWpON18w?oc=5",
-   "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pMnlJZW5PODRSTVFnS20ta3pxTk50RHhqZEZ2M2hxeU9zZ3JLS0VYY2RsWWl5SVJGS3JHM1BIdGJmVU1WZDBaZlI2T1ZicTBmY2txWUVEaHJpdDdLYnhrQVdKSElNVVl4VGJ1Tg?oc=5",
-   "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xVkpSTlVySUJuaUtVbm1CZGJqNjZkN2R6VmZLOWdjT09Ic3hISXc5NlpsV2pXUTNlWlV6cDhKMXBuQVBvQkE1UzBnYkpmRi1wcGZocFdzYlVwNDF6Njk5NENTbkZudGtoYnNPNA?oc=5"
-  ],
   "alternate": []
  },
  "https://treasury.gov.au/consultation": {
@@ -497,7 +398,8 @@
    "https://treasury.gov.au/the-department/contact-us",
    "https://twitter.com/Treasury_AU"
   ],
-  "alternate": []
+  "alternate": [],
+  "raw_start": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\" />\n<link rel=\"canonical\" href=\"https://treasury.gov.au/consultation\" />\n<meta name=\"dcterms.creator\" content=\"Department of the Treasury\" />\n<meta name=\"dcterms.subject\" content=\"\" />\n<meta name=\"dcterms.publisher\" content=\"Department of the Treasury\" />\n<meta name=\"dcterms.type\" content=\"text\" />\n<meta name=\"dcterms.identifier\" content=\"https://treasury.gov.au/consultation\" />\n<meta name=\"format-detection\" content=\"telephone=no\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<link rel=\"icon\" href=\"/themes/treasury/favicon.ico\" type=\"image/vnd.microsoft.icon\" />\n\n    <title>Consultations | Treasury.gov.au</title>\n    <link rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_snrr5bGBfCUToavOHQCXtTNr2Zbxha-i9JAdl_tRnRQ.css?delta=0&amp;language=en&amp;theme=treasury&amp;include=eJyFjlkOgzAQQy-UkiOhIbgQNGGqeNh6-u5q__pj2U-25A7uqC32ixF9e856j4wDZlTRkFTII3ZCfHwBKQMYklXEvi4X0UYm2V9gtlpE8xXhbLPLBlpB_PHNhu4R-bfQcMwlqBy2eNtnJltRj-ibJdPAg47yuuZI42ypisdBrRM9JfI0MXiFcLmP3vhbDGvGxvjUpli_KG6LV2mG\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_u6SqzPfcC8LNcXNhxBiRMfkyfH-RXTwg-ou4Lyy6d-4.css?delta=1&amp;language=en&amp;theme=treasury&amp;include=eJyFjlkOgzAQQy-UkiOhIbgQNGGqeNh6-u5q__pj2U-25A7uqC32ixF9e856j4wDZlTRkFTII3ZCfHwBKQMYklXEvi4X0UYm2V9gtlpE8xXhbLPLB"
  },
  "https://consult.treasury.gov.au/": {
   "status": 200,
@@ -527,7 +429,8 @@
    "https://sentry.converlens.com",
    "https://storage.googleapis.com/cl-assets/brand/converlens-favicon.ico"
   ],
-  "alternate": []
+  "alternate": [],
+  "raw_start": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=yes, shrink-to-fit=no, viewport-fit=cover\" />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n\n    <meta name=\"twitter:card\" />\n    <meta name=\"twitter:creator\" />\n    <meta property=\"og:url\" />\n    <meta property=\"og:title\" />\n    <meta property=\"og:image\" />\n    <meta property=\"og:description\" />\n\n    <script>\n      window.prerenderReady = false\n    </script>\n\n    <base href=\"/\" />\n    <title>\n      Open Point - Engagement, insights and analytics platform for surveys and\n      consultations\n    </title>\n    <meta\n      name=\"description\"\n      content=\"Collect, Manage and Analyse surveys, consultation data and text\" />\n\n    <link\n      id=\"favicon\"\n      rel=\"shortcut icon\"\n      href=\"https://storage.googleapis.com/cl-assets/brand/converlens-favicon.ico\" />\n    <link rel=\"stylesheet\" href=\"/fonts.css\" />\n\n    <link rel=\"preconnect\" href=\"https://sentry.converlens.com\" />\n    <link rel=\"preconnect\" href=\"https://converlens.com\" />\n    <script type=\"module\" crossorigin src=\"/assets/app-Clg8zGim.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/chunks/modulepreload-polyfill-YP0FEG5d.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/vendor/vendor-charts-JummxpPu.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/vendor/vendor-misc-DIhy"
  },
  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases": {
   "status": 200,
@@ -617,7 +520,8 @@
    "https://www.treasury.gov.au/the-department/accountability-reporting/foi",
    "media-releases/feed"
   ],
-  "alternate": []
+  "alternate": [],
+  "raw_start": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\" />\n<link rel=\"canonical\" href=\"https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases\" />\n<meta name=\"dcterms.creator\" content=\"Treasury Ministers\" />\n<meta name=\"dcterms.subject\" content=\"Media releases\" />\n<meta name=\"dcterms.publisher\" content=\"Treasury Ministers\" />\n<meta name=\"dcterms.date\" content=\"2 June 2022\" />\n<meta name=\"dcterms.identifier\" content=\"https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<link rel=\"icon\" href=\"/sites/ministers.treasury.gov.au/themes/custom/ministers/favicon.ico\" type=\"image/vnd.microsoft.icon\" />\n\n    <title>Media releases | Treasury Ministers</title>\n    <link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/core/components/progress.module.css?tlozg3\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/core/components/ajax-progress.module.css?tlozg3\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/system/components/align.module.css?tlozg3\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/system/components/fieldgroup.module.css?tlozg3\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/system/components/container-inline.module.css?tlozg3\" />\n<link rel=\"styl"
  },
  "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases": {
   "status": 200,
@@ -706,7 +610,8 @@
    "https://www.treasury.gov.au/the-department/accountability-reporting/foi",
    "media-releases/feed"
   ],
-  "alternate": []
+  "alternate": [],
+  "raw_start": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\" />\n<link rel=\"canonical\" href=\"https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases\" />\n<meta name=\"dcterms.creator\" content=\"Treasury Ministers\" />\n<meta name=\"dcterms.subject\" content=\"Media releases\" />\n<meta name=\"dcterms.publisher\" content=\"Treasury Ministers\" />\n<meta name=\"dcterms.date\" content=\"13 May 2025\" />\n<meta name=\"dcterms.identifier\" content=\"https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<link rel=\"icon\" href=\"/sites/ministers.treasury.gov.au/themes/custom/ministers/favicon.ico\" type=\"image/vnd.microsoft.icon\" />\n\n    <title>Media releases | Treasury Ministers</title>\n    <link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/core/components/progress.module.css?tlozg3\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/core/components/ajax-progress.module.css?tlozg3\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/system/components/align.module.css?tlozg3\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/system/components/fieldgroup.module.css?tlozg3\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/themes/stable9/css/system/components/container-inline.module.css?tlozg3\" />\n<link rel=\"st"
  },
  "https://www.cyber.gov.au/about-us/view-all-content/news": {
   "status": 0,
@@ -717,35 +622,13 @@
   "hrefs": [],
   "alternate": []
  },
- "https://news.google.com/rss/search?q=site:cyber.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en": {
-  "status": 200,
-  "type": "application/xml; charset=utf-8",
-  "length": 34410,
-  "title": "\"site:cyber.gov.au when:14d\" - Google News",
-  "text_start": " NFE/5.0 \"site:cyber.gov.au when:14d\" - Google News https://news.google.com/search?q=site:cyber.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en en-AU news-webmaster@google.com Copyright \u00a9 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions. Thu, 08 Oct 2026 09:30:13 GMT Google News https://lh3.go",
-  "hrefs": [
-   "https://news.google.com/rss/articles/CBMiREFVX3lxTFB2OUlXcDNJTUFMMVRid21iNmtWMF9zVEdLSlZOYnpDbFlma1NMMm12LTNuYTk1YS1iQjJBTW13Z05SYzVW?oc=5",
-   "https://news.google.com/rss/articles/CBMiREFVX3lxTFBIbGhucG0ycXlJX3JKS3pwUVN0OXAzdFUxVVhqTVdSXy0wYS1HYmpzTlVQS0g4VUl6SkdwX1Mwb1NzUmRu?oc=5",
-   "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBUR0dYeWdsdFVBM251WGo1aktxeTlCbU5zSFRnbi1oLWxZWnQwTk5SVzByWlA4WWszR3puM0E2NTlrbFJKSGc?oc=5",
-   "https://news.google.com/rss/articles/CBMiTEFVX3lxTE11TzVBQm9ud0w1MnFwdWZZaXJVandsZEhacmhGV0RORTZYWU9YTENoNnNWOWM4akZ5RzlPUjdfQ2haUENOXzZFbi1VU1g?oc=5",
-   "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TcC1VSlVqZFZ6YU1oMFcxci1zR1RZSW0tU0xJSlEzSW5IV0t2bzN0M0xKYjZPQXpKZjVQWkxUQzJEejBKMkNQTUowUG9ad3QxaE5B?oc=5",
-   "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HcFlLWm40UDdqWGVPSHN2VDRTRG9IWFJvNDJYc3BTbEtJdWpoUDY2aUtJYVJQRDZhQ1BRU1NUOU1zVmxPb3liTWhRWmhXZ1lCY1dN?oc=5",
-   "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOFc4dVFRdG0zOXRBYjYzM0Z6T3NDMjMyeEwzd1hsS2V2ZlV3TkxmXzRJZHE4Qk9UbG1SaEpGeWQ0TDc5MUpnbGtKUU5hQVljX294X3Fn?oc=5",
-   "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xaUI0SWNkVy1uaUY3NnZFend6ZXpLV01qeEZsVkFodmZ5TDN4VndnMjlSb1RnQWJ1RmVhVnBNMF9yRVNPdUh6b201c3dPSWRuWXFfX2FR?oc=5",
-   "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uNk5JQzV5ZXhhbHZuUnNPaEFZTEZjeUZXMUZQMU9IQ3NfU3VQMU5MN2Z0V2ItR0JPNWJRTnQ0MHVVQzNURm9wY0FWdVJrdFZnN2FueDBn?oc=5",
-   "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95Mlc2YTRqNEZCalphOEktT3UxY3VFbVdRc3A1TDdENWJwVG9HSDFSaXpOZ1psSWNCOVprUXRPc1ZnQTVSYlYxTi1Vb3hZaFJTanlCckFwZ010eVk?oc=5",
-   "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPaVB1QnhGQXV5V05qNjFtU0MzaUVIRlRpdUJBRUdYQldVTHhBTUh4anlPU091V2l4YmRaaVhYd3B1RHlRX0ZQTjd0TjNiaXlwU1FFSVFsSUs?oc=5",
-   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qY0ROZW5TX1R0TktEZGVuMjN2Q3REOUY5NmFfVW9TcW9YazhwQkt0c3RvbjJ1Vy1UOGlQRVJ3alBWdjRBNmgxU3NyTWVyMEVodXBtc09OTDN3Zw?oc=5",
-   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sOHc2YnB6TG1vVTlZeDc0aGFNQTVYU0xwTHRBeFd6ejFpYngxYm9SVVBhbEN2aTRmTlJwZUpnUEVJMEkyaEVmZGdOZVFpYWxVNVFaVktQakg4UQ?oc=5",
-   "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iT3BhNGU5c2NfNDNZWW9RUmV2QnRCZk5XRGdpV0NNN3VZUVJIc0Zncm9BZk4tNnRuZDVnSFB2c2IySEVjaFR4Ym5aNjBCZ1BxREVRYXJsbkNpM0pPeW1F?oc=5",
-   "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91RTJ6dDUtVTh1Rzd0enlfRWtaeHY1dTVwbVFXNGlxV25aV3B6WXl0VjFfdjNBWnJjYmRwYlpLb0dxRFphMDh0U3dyMUw5ZzE4Y2N5U3JyUXNyUkQxOW9uWk9wVTk1RDg?oc=5",
-   "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrTGJaclppTndSdGRCT3YyU1JDTFdCMkpVaUs1ejNtZWJoRXVmbUhIdGlHSDlFNXVzekliaDFvbkpZa0RCT3ZhRVRMVmFlZzhMSWtKWDdLYms0R1R2YjZWMXlUUENiZjg?oc=5",
-   "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tYlpuc0NFX2dLY2JzZXNQS1pqekdfcXNIdU04UHU3TW5nOGtYWTRXb2l2a2N5V2EwdTZ1SS0wenpWUmZKbE9SUkV4LWw1ZWVBd2t1OHNGM01lcHF3Znl4aVpOTDU?oc=5",
-   "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiaTA5TWItaTJ5WDE4QUt1VGxaWWc5TzZZY3RoT0RkakVrZ2N2NTZDNnViUFdLZjgyMThyazBBNENoR2NpenhGZk8ya2h3R3MzWVg5b2xXMVVLZnAwelpxNzhPeG8?oc=5",
-   "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQelVhczcwd2diXzFPNFl3aXBZdmVsSnU4UnptazItdDJZMERldlkySS1meFFpV242LVBNSnBRZkxMamxVZGR2bXl3UVZrZmdfbWYyUUItSzhXS0tISUJ0N2swVDZEUQ?oc=5",
-   "https://news.google.com/rss/articles/CBMia0FVX3lxTE5SZUFic3c4TjZoUm9scFhTemN3UGR2NTNTWWxEcUtMVHMxTllXY25iZEtKenRSRWtHVDdMT3NZMXdrcVJRQklaTkRuNlc0T0VZNk91ZjE2LUJrVEoxbktISGV0MEJ2d3RSaFhN?oc=5",
-   "https://news.google.com/rss/articles/CBMiakFVX3lxTE54S2lQemFZN245NXJWYjJTSGJZSmRLdmVQTWM3UkdhRnZDeWkwdVRVeGZ0TTd2ZzZXcHBvS0VBSXF2NjZGY2ZKbjJZMnhPeVk2bHFSQUJTN1lTeHBOSWdsTWp2eHJGb3BMc0E?oc=5"
-  ],
+ "https://www.cyber.gov.au/sitemap.xml": {
+  "status": 0,
+  "type": "",
+  "length": 42,
+  "title": "",
+  "text_start": "TimeoutError: The read operation timed out",
+  "hrefs": [],
   "alternate": []
  },
  "https://consultations.ag.gov.au/": {
@@ -780,7 +663,8 @@
    "https://www.delib.net",
    "https://www.delib.net/citizen_space"
   ],
-  "alternate": []
+  "alternate": [],
+  "raw_start": "\n<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" class=\"no-js\">\n    <head>\n        \n            <base href=\"https://consultations.ag.gov.au/\"/>\n        \n        \n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <meta name=\"description\" content=\"Find and participate in consultations run by Attorney General's Department\">\n        \n        \n        <title>\n            Attorney-General's Department\n            \n            - Citizen Space\n        </title>\n        \n        <link rel=\"stylesheet\" href=\"/static_frontend/vendor/lato-2.015/fonts.css\">\n        <link type=\"text/css\" href=\"/static_frontend/vendor/dlb-public-ui/css/bootstrap.css\" rel=\"stylesheet\">\n        \n        <link type=\"text/css\" href=\"https://consultations.ag.gov.au/static_frontend/vendor/dlb-public-ui/css/dlb-public-ui-compiled.css\" rel=\"stylesheet\">\n        <link type=\"text/css\" href=\"https://consultations.ag.gov.au/static_frontend/css/citizenspace.css\" rel=\"stylesheet\">\n\n        \n\n        \n        <script type=\"text/javascript\">\n            var tr_auto_embed = true;\n        </script>\n\n        <!--jQuery -->\n        <script type=\"text/javascript\" src=\"/static_frontend/vendor/dlb-public-ui/libraries/jquery/jquery.min.js\"></script>\n        <!--/jQuery -->\n        <script type=\"text/javascript\" src=\"/static_f"
  },
  "https://www.apra.gov.au/news-and-publications/apra-releases-proposals-strengthen-trustee-investment-governance": {
   "status": 200,

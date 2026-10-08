@@ -16,27 +16,31 @@ The value below did not appear on the fact's source page. The fact may have chan
 
 ## First run for these sources
 
-- ASIC media releases: 100 current items recorded as the starting point
-- AUSTRAC: 30 current items recorded as the starting point
-- ACCC: 14 current items recorded as the starting point
-- Australian Signals Directorate: 34 current items recorded as the starting point
+- APRA: 13 current items recorded as the starting point
+- ASIC media releases: 200 current items recorded as the starting point
+- Treasury consultations: 9 current items recorded as the starting point
+- Treasury ministers: 42 current items recorded as the starting point
+- Attorney-General's Department consultations: 6 current items recorded as the starting point
 
 ## Sources where nothing was found
 
 The page or its link pattern in `_scripts/watch/sources.json` may need updating.
 
-- OAIC: nothing found (https://www.oaic.gov.au/rss (feed https://www.oaic.gov.au/rss: 0); https://www.oaic.gov.au/news/media-centre (links: 0))
+- AUSTRAC: nothing found (https://www.austrac.gov.au/news-and-media (TimeoutError: The read operation timed out); https://www.austrac.gov.au/sitemap.xml (TimeoutError: The read operation timed out))
+- OAIC: nothing found (https://www.oaic.gov.au/rss (feed https://www.oaic.gov.au/rss: 0))
+- ACCC: nothing found (https://www.accc.gov.au/sitemap.xml (403); https://www.accc.gov.au/media-releases (403))
+- Australian Signals Directorate: nothing found (https://www.cyber.gov.au/about-us/view-all-content/news (TimeoutError: The read operation timed out); https://www.cyber.gov.au/sitemap.xml (TimeoutError: The read operation timed out))
 
 <details><summary>Sources read</summary>
 
 - APRA: 13 items from https://www.apra.gov.au/news-and-publications (links: 13)
-- ASIC media releases: 100 items from https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/ (links: 0); https://news.google.com/rss/search?q=site:asic.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en (feed https://news.google.com/rss/search?q=site:asic.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en: 100)
-- AUSTRAC: 30 items from https://www.austrac.gov.au/news-and-media (TimeoutError: The read operation timed out); https://news.google.com/rss/search?q=site:austrac.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en (feed https://news.google.com/rss/search?q=site:austrac.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en: 30)
-- OAIC: 0 items from https://www.oaic.gov.au/rss (feed https://www.oaic.gov.au/rss: 0); https://www.oaic.gov.au/news/media-centre (links: 0)
-- ACCC: 14 items from https://www.accc.gov.au/media-releases (403); https://news.google.com/rss/search?q=site:accc.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en (feed https://news.google.com/rss/search?q=site:accc.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en: 14)
+- ASIC media releases: 200 items from https://www.asic.gov.au/sitemap.xml (feed https://www.asic.gov.au/sitemap.xml: 200); https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/ (links: 0)
+- AUSTRAC: 0 items from https://www.austrac.gov.au/news-and-media (TimeoutError: The read operation timed out); https://www.austrac.gov.au/sitemap.xml (TimeoutError: The read operation timed out)
+- OAIC: 0 items from https://www.oaic.gov.au/rss (feed https://www.oaic.gov.au/rss: 0)
+- ACCC: 0 items from https://www.accc.gov.au/sitemap.xml (403); https://www.accc.gov.au/media-releases (403)
 - Treasury consultations: 9 items from https://treasury.gov.au/consultation (links: 9); https://consult.treasury.gov.au/ (links: 0)
 - Treasury ministers: 42 items from https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases (links: 21); https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases (links: 21)
-- Australian Signals Directorate: 34 items from https://www.cyber.gov.au/about-us/view-all-content/news (TimeoutError: The read operation timed out); https://news.google.com/rss/search?q=site:cyber.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en (feed https://news.google.com/rss/search?q=site:cyber.gov.au+when:14d&hl=en-AU&gl=AU&ceid=AU:en: 34)
+- Australian Signals Directorate: 0 items from https://www.cyber.gov.au/about-us/view-all-content/news (TimeoutError: The read operation timed out); https://www.cyber.gov.au/sitemap.xml (TimeoutError: The read operation timed out)
 - Attorney-General's Department consultations: 6 items from https://consultations.ag.gov.au/ (links: 6)
 
 </details>
