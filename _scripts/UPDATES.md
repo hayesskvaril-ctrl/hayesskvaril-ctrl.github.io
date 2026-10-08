@@ -59,7 +59,7 @@ Re-check timetable (unless a fact has its own `recheck` date): proposals and con
 | Attorney-General's Department | Consultation hub |
 | AUSTRAC, ACCC, ASD (cyber.gov.au), OAIC | **Not readable automatically**: AUSTRAC, the ACCC and the ASD block automated reading from cloud servers; the OAIC builds its news list in the browser and its feed and sitemap are out of date. The report lists them under "Check by hand", and the monthly upkeep includes checking their news pages. |
 
-Facts whose official page can't be read automatically carry `"autocheck": false` with a note, and are re-checked by hand on the normal timetable.
+Facts whose official page can't be read automatically carry `"autocheck": false` with a note, and are re-checked by hand on the normal timetable. Where the value is stated in a document rather than on the source page (for example a regulatory guide or standard as a PDF), add `"check_url"` with that document's address: the watch reads PDFs too, and still shows readers the `source` page.
 
 ## When the watch needs attention
 

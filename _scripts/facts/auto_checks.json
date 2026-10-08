@@ -246,6 +246,120 @@
    "result": "skipped",
    "detail": "PDF source: check by hand",
    "url": "https://www.asx.com.au/content/dam/asx/about/corporate-governance-council/asx-corporate-governance-principles-and-recommendations-draft-5th-edition-consultation-paper.pdf"
+  },
+  "reportable-situations-deadline": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.asic.gov.au/regulatory-resources/financial-services/reportable-situations-for-afs-and-credit-licensees"
+  },
+  "cps234-weakness-notice": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/standards/cps-234"
+  },
+  "cps230-disruption-notice": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/standards/cps-230"
+  },
+  "cps230-incident-notice": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/standards/cps-230"
+  },
+  "cps230-msp-notice": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/standards/cps-230"
+  },
+  "ndb-assessment": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'30 days' does not appear on the source page",
+   "url": "https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme"
+  },
+  "ransomware-report": {
+   "date": "2026-10-08",
+   "result": "manual",
+   "detail": "Checked by hand: cyber.gov.au doesn't respond to automated checks from cloud servers",
+   "url": "https://www.cyber.gov.au/report-and-recover/report/ransomware-payment-and-cyber-extortion-payment-reporting"
+  },
+  "smr-deadline": {
+   "date": "2026-10-08",
+   "result": "manual",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
+   "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports"
+  },
+  "smr-tf-deadline": {
+   "date": "2026-10-08",
+   "result": "manual",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
+   "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports"
+  },
+  "ttr-threshold": {
+   "date": "2026-10-08",
+   "result": "manual",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
+   "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/threshold-transaction-reports"
+  },
+  "ttr-deadline": {
+   "date": "2026-10-08",
+   "result": "manual",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
+   "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/threshold-transaction-reports"
+  },
+  "idr-response": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'30 calendar days' does not appear on the source page",
+   "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution"
+  },
+  "idr-super-response": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'45 calendar days' does not appear on the source page",
+   "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution"
+  },
+  "privacy-small-business": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business"
+  },
+  "modslav-threshold": {
+   "date": "2026-10-08",
+   "result": "error",
+   "detail": "could not read the source (TimeoutError: The read operation timed out)",
+   "url": "https://www.ag.gov.au/crime/modern-slavery/modern-slavery-act"
+  },
+  "cet1-minimum": {
+   "date": "2026-10-08",
+   "result": "not_found",
+   "detail": "'4.5%' does not appear on the source page",
+   "url": "https://www.apra.gov.au/standards/aps-110"
+  },
+  "adi-sfi-threshold": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
+  },
+  "msfi-threshold": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
+  },
+  "three-tier-start": {
+   "date": "2026-10-08",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
   }
  }
 }

@@ -1309,7 +1309,8 @@
    "exclude": [
     "reportable situation",
     "RG 78"
-   ]
+   ],
+   "check_url": "https://download.asic.gov.au/media/3olo5aq5/rg271-published-2-september-2021.pdf"
   },
   {
    "id": "idr-super-response",
@@ -1341,7 +1342,8 @@
      "how": "official",
      "note": "Read in ASIC RG 271 (official PDF), Table 2 and RG 271.59, fetched by the site's document fetcher, 8 October 2026"
     }
-   ]
+   ],
+   "check_url": "https://download.asic.gov.au/media/3olo5aq5/rg271-published-2-september-2021.pdf"
   },
   {
    "id": "privacy-small-business",

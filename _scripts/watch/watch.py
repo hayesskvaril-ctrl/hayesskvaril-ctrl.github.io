@@ -106,6 +106,30 @@ def quick_fetch(url):
         return (0, "", f"{type(e).__name__}: {e}")
 
 
+def pdf_text(url):
+    """Text of a PDF (official standards, regulatory guides and legislation are often PDFs), using pdftotext
+    (poppler-utils, installed by the workflow). Returns (status, text); status 0 with a note if unavailable."""
+    import shutil
+    import subprocess
+    import tempfile
+    if not shutil.which("pdftotext"):
+        return 0, "pdftotext is not installed"
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/pdf,*/*"})
+    try:
+        with urllib.request.urlopen(req, timeout=90) as r:
+            data, st = r.read(), r.status
+    except urllib.error.HTTPError as e:
+        return e.code, ""
+    except Exception as e:
+        return 0, f"{type(e).__name__}: {e}"
+    if data[:5] != b"%PDF-":
+        return st, data.decode("utf-8", "replace")
+    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as fh:
+        fh.write(data)
+    out = subprocess.run(["pdftotext", "-layout", fh.name, "-"], capture_output=True, timeout=180)
+    return st, out.stdout.decode("utf-8", "replace")
+
+
 def text_of(page):
     # dates are often only in metadata (published dates, structured data), so include those too
     extra = " ".join(re.findall(r'(?is)<meta[^>]+content="([^"]{4,300})"', page or ""))
@@ -288,14 +312,17 @@ def main():
     # 2. facts on their official sources
     results = {}
     for f in facts:
-        url = f["source"]["url"]
+        url = f.get("check_url") or f["source"]["url"]   # check_url: the document that states the value, if not the source page
         if f.get("autocheck") is False:
             results[f["id"]] = {"date": TODAY.isoformat(), "result": "manual", "detail": f.get("autocheck_note", "checked by hand"), "url": url}
             continue
-        if url.lower().endswith(".pdf"):
-            results[f["id"]] = {"date": TODAY.isoformat(), "result": "skipped", "detail": "PDF source: check by hand", "url": url}
-            continue
-        st, ctype, page = fetch(url)
+        if url.lower().endswith(".pdf") or "/text/original/pdf" in url:
+            st, page = pdf_text(url)
+            ctype = "application/pdf"
+        else:
+            st, ctype, page = fetch(url)
+            if st == 200 and "pdf" in ctype.lower():
+                st, page = pdf_text(url)
         if st != 200 or not page:
             results[f["id"]] = {"date": TODAY.isoformat(), "result": "error", "detail": f"could not read the source ({st or page[:80]})", "url": url}
             continue

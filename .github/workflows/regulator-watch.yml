@@ -30,6 +30,9 @@ jobs:
           ref: watch-data
           path: watch-out
 
+      - name: Install the PDF reader
+        run: sudo apt-get install -y -q poppler-utils > /dev/null
+
       - name: Run the watch
         run: python3 _scripts/watch/watch.py --state watch-out
 
