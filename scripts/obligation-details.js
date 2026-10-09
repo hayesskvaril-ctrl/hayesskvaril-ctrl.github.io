@@ -349,6 +349,31 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Submit it within three months of the annual balance date (four months for ADIs that are not disclosing entities, and for Level 3 heads), unless APRA approves otherwise', 'CPS 220 para 51']]
     }
   },
+  cps510: {
+    source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers; super trustees follow SPS 510 and SPS 520, not yet itemised here. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['The Board is ultimately responsible for oversight of the sound and prudent management of the institution, and has a formal charter', 'CPS 510 paras 16–17'],
+        ['Have at least five directors and a majority of independent directors, with an independent chair, and a majority of non-executive directors at every meeting (some exceptions for subsidiaries)', 'CPS 510 paras 26–29'],
+        ['The chair cannot have been CEO in the previous three years (an interim CEO role over 90 days needs APRA approval)', 'CPS 510 para 30'],
+        ['Assess the Board’s performance, and each director’s, at least annually', 'CPS 510 para 44'],
+        ['Have a formal Board renewal policy that considers whether long tenure could interfere with acting in the institution’s best interests, and covers appointing, re-appointing and removing directors', 'CPS 510 para 45'],
+        ['Have a Board Audit Committee of at least three non-executive directors, a majority independent, with an independent chair who is not the Board chair', 'CPS 510 paras 51–55'],
+        ['Have a Board Risk Committee with an independent chair (not the Board chair) to oversee the risk management framework', 'CPS 510 paras 79–83'],
+        ['Have an independent, adequately resourced internal audit function (or an APRA-approved alternative)', 'CPS 510 para 68']],
+      2: [
+        ['Fit and proper means it would be prudent to conclude the person has the competence, character, diligence, honesty, integrity and judgement for the role, is not disqualified, and has no material conflict of interest', 'CPS 520 para 30'],
+        ['Complete a fit and proper assessment before a person takes a responsible person position (within 28 days where they are appointed by members’ resolution or APRA determination)', 'CPS 520 para 41'],
+        ['Interim appointments without a full assessment are allowed for up to 90 days, after reasonable checks', 'CPS 520 para 42'],
+        ['Assess every responsible person at least annually (or as close as practicable), making all reasonable enquiries', 'CPS 520 paras 43–44'],
+        ['If someone is not fit and proper, take all reasonable steps to make sure they are not appointed, or do not continue', 'CPS 520 para 54']],
+      3: [
+        ['Maintain a Board-approved Fit and Proper Policy, as part of the risk management framework, and make sure responsible persons understand it', 'CPS 520 paras 12–15'],
+        ['Tell APRA each responsible person’s title, name, date of birth, responsibilities and assessment status, and update it within 28 days of any change or appointment', 'CPS 520 paras 55–56'],
+        ['Notify APRA within 10 business days of assessing that a responsible person is not fit and proper, with reasons if they stay in the role', 'CPS 520 para 57']]
+    }
+  },
   breach: {
     source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
     checkedText: '8 October 2026',
