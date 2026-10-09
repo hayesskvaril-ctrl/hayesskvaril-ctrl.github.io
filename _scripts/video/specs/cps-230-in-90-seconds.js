@@ -34,7 +34,7 @@ window.RL_SPEC = {
         { pos: 0.08, h: 'Event', b: 'incident or disruption', tone: 'cyan', above: true, w: 180 },
         { pos: 0.35, h: '24 hours', b: 'critical operation disrupted outside tolerance', tone: 'red', above: false, w: 240 },
         { pos: 0.62, h: '72 hours', b: 'material operational risk incident', tone: 'amber', above: true, w: 240 },
-        { pos: 0.92, h: '20 business days', b: 'after entering or materially changing a material arrangement', tone: 'violet', above: false, w: 240 }
+        { pos: 0.92, h: '20 business days', b: 'after entering or materially changing an agreement for a service a critical operation relies on', tone: 'violet', above: false, w: 240 }
       ],
       caption: 'APRA must be told within 24 hours of a disruption outside tolerance, and within 72 hours of a material operational risk incident.',
       visual: 'A timeline of CPS 230 notifications: 24 hours, 72 hours and 20 business days.' },
