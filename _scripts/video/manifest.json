@@ -943,5 +943,76 @@
    }
   ],
   "narrated": true
+ },
+ "enforcement-pyramid": {
+  "title": "The enforcement pyramid",
+  "label": "Explainer · Compliance · Advanced",
+  "section": "Compliance",
+  "level": "Advanced",
+  "desc": "Responsive regulation: why regulators start with persuasion, escalate when firms don't respond, and how the idea shows up in Australia.",
+  "pages": [
+   "/compliance/theories-of-regulation.html",
+   "/compliance/enforcement-and-penalties.html"
+  ],
+  "slug": "enforcement-pyramid",
+  "specHash": "f7051e1b7bfe",
+  "duration": 68,
+  "bytes": 1857813,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: The enforcement pyramid. Responsive regulation: persuade first, escalate if needed.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 13,
+    "visual": "A statement: persuade or punish? Ayres and Braithwaite argued regulators do not have to choose.",
+    "captions": [
+     "Regulators have long debated whether to cooperate with firms or punish them. Ayres and Braithwaite argued that they can do both."
+    ]
+   },
+   {
+    "start": 13,
+    "end": 31,
+    "visual": "A pyramid with five layers. From the wide base to the narrow top: persuasion, education and supervision; warnings and enforceable undertakings; civil penalties and infringement notices; criminal prosecution; licence removal. An arrow beside it points upwards, labelled escalate if no response.",
+    "captions": [
+     "Most regulatory work happens at the wide base of the pyramid: persuasion, education and supervision.",
+     "If a firm doesn't respond, the regulator escalates. The credible threat at the top is what makes cooperation at the bottom work."
+    ]
+   },
+   {
+    "start": 31,
+    "end": 45,
+    "visual": "Two cards. Lower on the pyramid: APRA letters to industry, ASIC public reviews and reports, and design and distribution stop orders, many revoked once fixed. Higher on the pyramid: civil penalties such as greenwashing cases, banning and disqualification, and licence cancellation.",
+    "captions": [
+     "Australian regulators use the whole pyramid. After the Royal Commission, ASIC litigated more, and whether that fits the theory is still debated."
+    ]
+   },
+   {
+    "start": 45,
+    "end": 54,
+    "visual": "A statement: really responsive regulation. Respond to a firm's systems and culture, not just its attitude.",
+    "captions": [
+     "Later research by Baldwin and Black argued regulators should respond to a firm's systems, culture and wider environment, not only its attitude."
+    ]
+   },
+   {
+    "start": 54,
+    "end": 62,
+    "visual": "A statement: why it matters for compliance teams. The theory helps predict how a regulator will respond to a problem.",
+    "captions": [
+     "Knowing the pyramid helps explain why regulators usually start with cooperation, and why they escalate when a firm doesn't respond."
+    ]
+   },
+   {
+    "start": 62,
+    "end": 68,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ],
+  "narrated": true
  }
 }

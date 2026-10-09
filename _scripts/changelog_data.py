@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-09', '/compliance/theories-of-regulation.html', 'New explainer video: The enforcement pyramid. Responsive regulation in about a minute, with captions, a voiceover and a full transcript; also on the enforcement and penalties page and the Watch page.'),
     ('2026-10-09', '/learn/videos.html', 'CPS 230 in 90 seconds: re-rendered so the 20-business-day notice label says it applies to agreements for services a critical operation relies on, matching CPS 230 paragraph 60(a).'),
     ('2026-10-09', '/about/fact-register.html', 'Key facts register: 64 facts. Added the super guarantee rate (12%), the FAR deferral share (40%) and the CPS 511 CEO deferral share (60%), and confirmed eight more against the official text, including the $364 penalty unit, the SPS 515 and CPS 190 start dates and the climate reporting phase-in.'),
     ('2026-10-09', '/governance/remuneration-governance.html', 'Remuneration: made the CPS 511 deferral rules precise (40% over five years applies to senior managers and executive directors; highly paid material risk-takers defer 40% over four years) and added a material risk-taker option to the deferral calculator. CPS 511 page: clawback lasts at least two years after payment or vesting.'),
