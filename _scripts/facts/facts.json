@@ -1164,15 +1164,23 @@
     "extortion payment"
    ],
    "source": {
-    "label": "ASD: ransomware payment and cyber extortion payment reporting",
-    "url": "https://www.cyber.gov.au/report-and-recover/report/ransomware-payment-and-cyber-extortion-payment-reporting"
+    "label": "Cyber Security Act 2024, s 27 (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2024A00098/latest/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official text of the Cyber Security Act 2024 (as made, fetched from legislation.gov.au with fetch-docs.yml): s 27(1) requires a ransomware payment report within 72 hours of making the payment or becoming aware it was made"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "72 hours",
+     "new": "72 hours",
+     "how": "official",
+     "note": "Read in the official text of the Cyber Security Act 2024 (as made, fetched from legislation.gov.au with fetch-docs.yml): s 27(1) requires a ransomware payment report within 72 hours of making the payment or becoming aware it was made"
+    }
+   ],
    "exclude": [
     "CPS 234",
     "CPS 230",

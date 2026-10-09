@@ -514,6 +514,61 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Have a valuation governance framework with a Board-approved valuation policy covering roles, reporting, methods for each asset class, independent external valuations, frequency, interim valuation triggers, validation and back-testing, and disputed valuations', 'SPS 530 paras 39–41']]
     }
   },
+  far: {
+    source: [['Financial Accountability Regime Act 2023 (compilation in force from 21 February 2025)', 'https://www.legislation.gov.au/C2023A00067/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Make sure accountable persons’ responsibilities together cover all parts of the group’s operations and each prescribed responsibility', 'FAR Act s 23(1)(a)'],
+        ['Make sure no one acts as an accountable person unless registered with the regulator (with grace periods, for example 90 days for a temporary or unforeseen vacancy) and not disqualified', 'FAR Act ss 23(1)(b), 24'],
+        ['Notify the regulator within 30 days (or as the Regulator rules provide) when an accountable person leaves, is dismissed or suspended, or has variable pay reduced for failing their obligations, or when there are reasonable grounds to believe the entity or a person has failed to comply, and of material changes to registered information', 'FAR Act ss 31(1), (6), 32'],
+        ['Entities above the enhanced notification threshold give the regulator an accountability statement for each accountable person (with the person’s declaration that it is accurate) and an accountability map of names, reporting lines and responsibilities, and notify material changes', 'FAR Act ss 31(2), 33–34']],
+      2: [
+        ['The entity takes reasonable steps to conduct its business with honesty, integrity, due skill, care and diligence, to deal with the regulators openly and cooperatively, and to prevent matters that would harm its prudential standing or reputation', 'FAR Act s 20(a)–(c)'],
+        ['The entity takes reasonable steps to make sure each accountable person meets their obligations, and that significant related entities do the same', 'FAR Act s 20(d)–(e)'],
+        ['Accountable persons act with honesty, integrity, due skill, care and diligence, deal with the regulators openly and cooperatively, and take reasonable steps to prevent harm to prudential standing and material breaches of the financial sector laws', 'FAR Act s 21(1)'],
+        ['Where two or more accountable persons share a responsibility, each is fully accountable for it', 'FAR Act s 21(2)'],
+        ['Reasonable steps include appropriate governance, control and risk management, safeguards against inappropriate delegation, procedures to find and fix problems, and action on non-compliance', 'FAR Act s 22']],
+      3: [
+        ['Defer at least 40% of each accountable person’s variable remuneration for at least four years', 'FAR Act ss 25(1)(a), 27(1), 28'],
+        ['Have a remuneration policy that reduces an accountable person’s variable remuneration in proportion to any failure to meet their obligations (possibly to zero), and do not pay the reduced amount', 'FAR Act s 25(1)(b)–(c), (2)'],
+        ['Deferral is not required where the amount to be deferred for the year is less than $50,000 (or any amount set by the Minister rules)', 'FAR Act s 29']]
+    }
+  },
+  ransom: {
+    source: [['Cyber Security Act 2024, Part 3 Ransomware reporting obligations (as made)', 'https://www.legislation.gov.au/C2024A00098/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['The duty applies when a cyber security incident affects a reporting business entity, someone makes a demand to benefit from it, and the entity (or someone on its behalf) makes a payment or gives a benefit directly related to the demand', 'Cyber Security Act s 26(1)'],
+        ['Reporting business entities are businesses carrying on business in Australia with annual turnover above the threshold set in the rules (not Commonwealth or State bodies), and responsible entities for critical infrastructure assets covered by Part 2B of the Security of Critical Infrastructure Act 2018', 'Cyber Security Act s 26(2)–(3)'],
+        ['Report to the designated Commonwealth body within {fact:ransomware-report} of making the payment or becoming aware it was made', 'Cyber Security Act s 27(1)'],
+        ['Include what the entity knows or can find out by reasonable enquiry about who paid, the incident and its impact, the demand, the payment, and communications with the extorting entity, in the approved form', 'Cyber Security Act s 27(2), (4)'],
+        ['Failing to report is a civil penalty provision (60 penalty units)', 'Cyber Security Act s 27(5)']]
+    }
+  },
+  insurance: {
+    source: [['Corporations Act 2001, ss 766A, 766G, 912A and 992A (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['Insurance Contracts Act 1984 (compilation in force 1 March 2024)', 'https://www.legislation.gov.au/C2004A02944/latest/text'], ['ASIC Act 2001, s 12BF and Part 2 Division 2 Subdivision DA (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00819/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Providing a claims handling and settling service is a financial service, so it needs an AFS licence (or an exemption)', 'Corporations Act s 766A(1)(eb)'],
+        ['Claims handling and settling includes assisting with or deciding a claim, assessing or quantifying the insurer’s liability, and offering to settle or paying it', 'Corporations Act s 766G(1)'],
+        ['Licensees must do all things necessary to ensure their financial services, including claims handling, are provided efficiently, honestly and fairly', 'Corporations Act s 912A(1)(a)']],
+      2: [
+        ['Every insurance contract implies a duty on each party to act towards the other with the utmost good faith in any matter arising under or in relation to it; an insurer’s breach is a civil penalty provision', 'Insurance Contracts Act s 13(1)–(2A)'],
+        ['A party cannot rely on a contract term if doing so would fail to act with the utmost good faith', 'Insurance Contracts Act s 14'],
+        ['ASIC can vary, suspend or cancel an insurer’s AFS licence, or ban people, for failing the utmost good faith duty in handling or settling claims', 'Insurance Contracts Act s 14A'],
+        ['For consumer insurance contracts, the insured’s duty is to take reasonable care not to make a misrepresentation, judged with regard to things like how clear the insurer’s questions were', 'Insurance Contracts Act ss 20A–20B'],
+        ['For other contracts, the insurer must clearly tell the insured in writing about the duty of disclosure before the contract is entered into, or it cannot rely on non-disclosure (unless fraudulent)', 'Insurance Contracts Act ss 21–22']],
+      3: [
+        ['Do not offer or invite a retail client to buy a financial product, including insurance, in or because of unsolicited real-time contact such as a phone call or meeting, unless an exception applies', 'Corporations Act s 992A(1)–(2)'],
+        ['Consent to contact must be positive, voluntary, clear and recent (within six weeks, or up to 12 weeks where a medical check is needed), and hawked products can be returned for a refund', 'Corporations Act ss 992A(5), 992AA'],
+        ['Add-on insurance (deferred sales model): do not sell an add-on insurance product until the deferral period ends, which runs to the end of four days after the customer commits to the main product and is given the prescribed information', 'ASIC Act ss 12DP, 12DQ'],
+        ['Do not offer add-on insurance other than in writing during the deferral period and six weeks after it starts, unless the customer initiated the contact (some exceptions, such as comprehensive motor vehicle insurance)', 'ASIC Act ss 12DR, 12DW'],
+        ['Unfair terms in standard form consumer and small business insurance contracts are void, and proposing or relying on one is a contravention', 'ASIC Act s 12BF(1), (2A), (2C); Insurance Contracts Act s 15(2)(d)']]
+    }
+  },
   cps510: {
     source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text'], ['Prudential Standards SPS 510 Governance (F2024L00637) and SPS 520 Fit and Proper (F2024L00638), both in force from 30 June 2024, for super trustees, shown as “Super”', 'https://www.legislation.gov.au/F2024L00637/asmade/text']],
     checkedText: '9 October 2026',
