@@ -6,20 +6,15 @@ Automatic weekly check of official announcements and of the key facts register. 
 
 None since the last check.
 
-## Key facts not found on their official source (4, 4 new this week)
+## Key facts not found on their official source (0, 0 new this week)
 
-The value below did not appear on the fact's source page. The fact may have changed, the page may word it differently, or the source page may have moved. Check by hand, then run update_fact.py.
-
-- [ ] **New:** `ndb-assessment`: Notifiable data breaches: take all reasonable steps to assess a suspected eligible data breach within: **30 days** ([source](https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme))
-- [ ] **New:** `idr-response`: RG 271: maximum time to give an IDR response to a standard complaint: **30 calendar days** ([source](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution))
-- [ ] **New:** `idr-super-response`: RG 271: maximum time to give an IDR response to a superannuation trustee complaint (other than about death benefit distributions): **45 calendar days** ([source](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-271-internal-dispute-resolution))
-- [ ] **New:** `cet1-minimum`: APS 110: minimum Common Equity Tier 1 (CET1) capital ratio, before buffers: **4.5%** ([source](https://www.apra.gov.au/standards/aps-110))
+None.
 
 ## Fact sources that could not be read (1)
 
 - `modslav-threshold`: could not read the source (TimeoutError: The read operation timed out) (https://www.ag.gov.au/crime/modern-slavery/modern-slavery-act)
 
-## Confirmed on the official source: 34 of 60 facts
+## Confirmed on the official source: 39 of 61 facts
 
 ## Check by hand
 

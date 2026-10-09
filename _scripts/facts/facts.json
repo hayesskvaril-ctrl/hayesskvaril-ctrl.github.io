@@ -1422,7 +1422,9 @@
     "compensate",
     "fail to prevent",
     "offence"
-   ]
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: the Attorney-General's Department website doesn't respond to automated checks from cloud servers; confirmed in the Act's text (s 5(1)(a))"
   },
   {
    "id": "cet1-minimum",
