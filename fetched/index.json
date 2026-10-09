@@ -1,4 +1,22 @@
 {
+ "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-259-risk-management-systems-of-responsible-entities/": {
+  "chars": 16556,
+  "date": "2026-10-09",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-259-risk-management-systems-of-responsible-entities.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-259-risk-management-systems-of-fund-operators",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-97-disclosing-fees-and-costs-in-pdss-and-periodic-statements/": {
+  "chars": 24480,
+  "date": "2026-10-09",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-97-disclosing-fees-and-costs-in-pdss-and-periodic-statements.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-97-disclosing-fees-and-costs-in-pdss-and-periodic-statements",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/": {
   "chars": 9615,
   "date": "2026-10-08",
@@ -215,11 +233,65 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/standards/cps-900": {
+  "chars": 60188,
+  "date": "2026-10-09",
+  "file": "apra-gov-au-standards-cps-900.txt",
+  "final": "https://www.apra.gov.au/standards/cps-900",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/sps-220": {
+  "chars": 64208,
+  "date": "2026-10-09",
+  "file": "apra-gov-au-standards-sps-220.txt",
+  "final": "https://www.apra.gov.au/standards/sps-220",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/sps-510": {
+  "chars": 65029,
+  "date": "2026-10-09",
+  "file": "apra-gov-au-standards-sps-510.txt",
+  "final": "https://www.apra.gov.au/standards/sps-510",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/standards/sps-515": {
   "chars": 63412,
   "date": "2026-10-08",
   "file": "apra-gov-au-standards-sps-515.txt",
   "final": "https://www.apra.gov.au/standards/sps-515",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/sps-520": {
+  "chars": 66081,
+  "date": "2026-10-09",
+  "file": "apra-gov-au-standards-sps-520.txt",
+  "final": "https://www.apra.gov.au/standards/sps-520",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/sps-521": {
+  "chars": 52600,
+  "date": "2026-10-09",
+  "file": "apra-gov-au-standards-sps-521.txt",
+  "final": "https://www.apra.gov.au/standards/sps-521",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/sps-530": {
+  "chars": 61905,
+  "date": "2026-10-09",
+  "file": "apra-gov-au-standards-sps-530.txt",
+  "final": "https://www.apra.gov.au/standards/sps-530",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -323,6 +395,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2004A04633/latest/downloads": {
+  "chars": 3886,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a04633-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2004A04633/latest/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.legislation.gov.au/C2006A00169/2026-07-01/2026-07-01/text/original/word": {
   "chars": 556126,
   "date": "2026-10-08",
@@ -341,6 +422,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2009A00134/latest/downloads": {
+  "chars": 3862,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2009a00134-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2009A00134/latest/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.legislation.gov.au/C2018A00153/2024-11-07/2024-11-07/text/original/word": {
   "chars": 55340,
   "date": "2026-10-08",
@@ -355,6 +445,24 @@
   "date": "2026-10-08",
   "file": "legislation-gov-au-c2018a00153-latest-downloads.txt",
   "final": "https://www.legislation.gov.au/C2018A00153/latest/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2023A00025/latest/downloads": {
+  "chars": 3683,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2023a00025-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2023A00025/latest/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2024A00098/latest/downloads": {
+  "chars": 4726,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2024a00098-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2024A00098/latest/downloads",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -386,6 +494,24 @@
   "status": 200,
   "type": "application/pdf"
  },
+ "https://www.legislation.gov.au/F2023L01348/asmade/2023-09-29/text/original/pdf": {
+  "chars": 82249,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-f2023l01348-asmade-2023-09-29-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2023L01348/asmade/2023-09-29/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "https://www.legislation.gov.au/F2023L01380/asmade/2023-10-16/text/original/pdf": {
+  "chars": 23398,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-f2023l01380-asmade-2023-10-16-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2023L01380/asmade/2023-10-16/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
  "https://www.legislation.gov.au/F2023L01535/asmade/2023-11-22/text/original/pdf": {
   "chars": 69149,
   "date": "2026-10-08",
@@ -409,6 +535,15 @@
   "date": "2026-10-08",
   "file": "legislation-gov-au-f2024l01518-asmade-2024-11-28-text-original-pdf.txt",
   "final": "https://www.legislation.gov.au/F2024L01518/asmade/2024-11-28/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "https://www.legislation.gov.au/F2025L00653/asmade/2025-06-06/text/original/pdf": {
+  "chars": 122284,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-f2025l00653-asmade-2025-06-06-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2025L00653/asmade/2025-06-06/text/original/pdf",
   "kind": "pdf",
   "status": 200,
   "type": "application/pdf"

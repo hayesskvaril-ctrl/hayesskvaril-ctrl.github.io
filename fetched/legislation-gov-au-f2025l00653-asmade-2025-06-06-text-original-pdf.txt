@@ -1,0 +1,2462 @@
+SOURCE: https://www.legislation.gov.au/F2025L00653/asmade/2025-06-06/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2025L00653/asmade/2025-06-06/text/original/pdf
+FETCHED: 2026-10-09
+
+Banking (prudential standard) determination
+No. 3 of 2025
+Prudential Standard APS 210 Liquidity
+
+Banking Act 1959
+I, Sean Carmody, a delegate of APRA:
+
+(a)   under subsection 11AF(3) of the Banking Act 1959 (the Act), REVOKE Banking
+      (prudential standard) determination No. 13 of 2022, including Prudential
+      Standard APS 210 Liquidity made under that determination; and
+
+(b)   under subsection 11AF(1) of the Act, DETERMINE Prudential Standard APS 210
+      Liquidity in the form set out in the schedule, which applies to all ADIs and
+      authorised NOHCs to the extent provided in paragraphs 2 to 5 of the prudential
+      standard.
+
+This instrument commences on 1 July 2025.
+
+Dated: 13 April 2025
+
+
+
+
+Sean Carmody
+Executive Director
+Policy and Advice Division
+
+
+Interpretation
+In this instrument:
+APRA means the Australian Prudential Regulation Authority.
+ADI, authorised NOHC and prudential standard have their respective meanings
+given in subsection 5(1) of the Act.
+
+
+
+
+                       Authorised Version F2025L00653 registered 06/06/2025
+Schedule
+Prudential Standard APS 210 Liquidity comprises the document commencing on the
+following page.
+
+
+
+
+                      Authorised Version F2025L00653 registered 06/06/2025
+                                                                               July 2025
+
+
+
+
+Prudential Standard APS 210
+Liquidity
+Objectives and key requirements of this Prudential
+Standard
+
+This Prudential Standard requires an authorised deposit-taking institution to adopt
+prudent practices in managing its liquidity risks and to maintain an adequate level of
+liquidity to meet its obligations as they fall due across a wide range of operating
+circumstances.
+
+The key requirements of this Prudential Standard are that an authorised deposit-taking
+institution must:
+
+•   have a risk management framework to measure, monitor and manage liquidity risk
+    that is commensurate with the nature, scale and complexity of the institution;
+
+•   maintain a portfolio of liquid assets sufficient in size and quality to enable the
+    institution to withstand a severe liquidity stress; and
+
+•   maintain a robust funding structure appropriate for its size, business mix and
+    complexity.
+
+
+
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                                        July 2025
+
+
+
+
+Table of contents
+
+Application ........................................................................................................3
+Interpretation.....................................................................................................3
+Definitions .........................................................................................................4
+Key principles....................................................................................................4
+Board and senior management responsibilities ................................................4
+Liquidity risk management framework ..............................................................6
+Management of liquidity risk .............................................................................7
+Funding strategy ...............................................................................................8
+Contingency funding plan .................................................................................9
+Classification of ADIs ......................................................................................10
+Liquidity coverage ratio ADIs ..........................................................................10
+Minimum liquidity holdings ADIs .....................................................................10
+Net stable funding ratio ...................................................................................10
+Stress testing ..................................................................................................11
+Local operational capacity ..............................................................................11
+Adjustments and exclusions ...........................................................................12
+Previous exercise of discretion .......................................................................12
+
+Attachment A - Liquidity coverage ratio ..........................................................13
+
+Attachment B - Minimum liquidity holdings approach .....................................34
+
+Attachment C - Net stable funding ratio ..........................................................35
+
+
+
+
+                                                                                                     APS 210 - 2
+
+                                 Authorised Version F2025L00653 registered 06/06/2025
+                                                                                 July 2025
+
+
+
+
+Authority
+
+1.   This Prudential Standard is made under section 11AF of the Banking Act 1959
+     (Banking Act).
+
+Application
+
+2.   This Prudential Standard applies to all authorised deposit-taking institutions
+     (ADIs) under the Banking Act.
+
+3.   A reference to an ADI in this Prudential Standard is a reference to:
+
+     (a)    an ADI on a Level 1 basis; and
+
+     (b)    a group of which an ADI is a member on a Level 2 basis.
+
+4.   If an ADI to which this Prudential Standard applies is:
+
+     (a)    the holding company for a group of bodies corporate, the ADI must ensure
+            that the requirements in this Prudential Standard are met on a Level 2 basis,
+            where applicable; or
+
+     (b)    a subsidiary of an authorised non-operating holding company (authorised
+            NOHC), the authorised NOHC must ensure that the requirements in this
+            Prudential Standard are met on a Level 2 basis, where applicable.
+
+5.   If an ADI, or a member of its Level 2 group, is the originating ADI in a
+     securitisation and meets the operational requirements for regulatory capital relief
+     under Prudential Standard APS 120 Securitisation (APS 120), the ADI may
+     exclude the assets and liabilities of the relevant special purpose vehicles (SPVs)
+     from the calculation of its minimum liquidity holdings (MLH) and net stable
+     funding ratio (NSFR), as applicable. For the purposes of calculating its liquidity
+     coverage ratio (LCR), an ADI must include the cash flows from the assets and
+     liabilities of SPVs related to the ADI’s securitisation activities in the ADI’s
+     reported amounts.
+
+6.   This Prudential Standard commences on 1 July 2025.
+
+Interpretation
+
+7.   Terms that are defined in Prudential Standard CPS 001 Defined terms appear in
+     bold the first time they are used in this Prudential Standard.
+
+8.   Where this Prudential Standard provides for APRA to exercise a power or
+     discretion, this power or discretion is to be exercised in writing.
+
+9.   In this Prudential Standard, unless the contrary intention appears, a reference to
+     an Act, Regulations or Prudential Standard is a reference to the instrument as in
+     force from time to time.
+
+
+
+                                                                               APS 210 - 3
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                 July 2025
+
+
+
+
+Definitions
+
+10.   The following definitions apply in this Prudential Standard:
+
+      (a)   associated entity – an associated entity within the meaning of section
+            50AAA of the Corporations Act 2001; and
+
+      (b)   financial institution – for the avoidance of doubt, a financial institution
+            includes a money market corporation, finance company, friendly society
+            and the trustee of a superannuation/pension fund, public unit trust/mutual
+            fund or cash management trust.
+
+Key principles
+
+11.   An ADI is responsible for the sound management of its liquidity risk and must
+      have a robust framework to manage its liquidity risk accordingly.
+
+12.   An ADI must at all times maintain sufficient liquidity to meet its obligations as
+      they fall due and hold a minimum level of liquid assets to survive a severe
+      liquidity stress.
+
+13.   An ADI must ensure that its activities are funded with stable sources of funding
+      on an ongoing basis.
+
+14.   An ADI must inform APRA as soon as possible of any concerns it has about its
+      current or future liquidity position, and its plans to address those concerns. In
+      particular, if an ADI experiences a severe liquidity stress, it must notify APRA
+      immediately and advise the action that is being taken to address the situation.
+
+Board and senior management responsibilities
+
+15.   An ADI’s Board of directors (Board) is ultimately responsible for the sound and
+      prudent management of the liquidity risk of the ADI. An ADI must maintain a
+      liquidity risk management framework commensurate with the level and extent of
+      liquidity risk to which the ADI is exposed from its activities. In relation to a
+      foreign ADI, the responsibilities of the Board in this Prudential Standard are to
+      be fulfilled by the senior officer outside Australia.
+
+16.   The liquidity risk management framework must include, at a minimum:
+
+      (a)   a statement of the ADI’s liquidity risk tolerance, approved by the Board;
+
+      (b)   the liquidity management strategy and policy of the ADI, approved by the
+            Board;
+
+      (c)   the ADI’s operating standards (e.g. in the form of policies, procedures and
+            controls) for identifying, measuring, monitoring and controlling its
+            liquidity risk in accordance with its liquidity risk tolerance;
+
+      (d)   the ADI’s funding strategy, approved by the Board; and
+
+
+                                                                               APS 210 - 4
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                  July 2025
+
+
+
+
+      (e)   a contingency funding plan.
+
+17.   The Board must ensure that:
+
+      (a)   senior management and other relevant personnel have the necessary
+            experience to manage liquidity risk; and
+
+      (b)   the ADI’s liquidity risk management framework and liquidity risk
+            management practices are documented and reviewed at least annually.
+
+18.   The Board must review regular reports on the liquidity position of the ADI and,
+      where necessary, information on new or emerging liquidity risks.
+
+19.   An ADI’s senior management must, at a minimum:
+
+      (a)   develop a liquidity management strategy, policies and processes in
+            accordance with the Board-approved liquidity tolerance;
+
+      (b)   ensure that the ADI maintains sufficient liquidity at all times;
+
+      (c)   determine the structure, responsibilities and controls for managing liquidity
+            risk and for overseeing the liquidity positions of all legal entities, branches
+            and subsidiaries in the jurisdictions in which the ADI is active, and outline
+            these elements clearly in the ADI’s liquidity policies;
+
+      (d)   ensure that the ADI has adequate internal controls to ensure the integrity
+            of its liquidity risk management processes;
+
+      (e)   ensure that stress tests, contingency funding plans and holdings of liquid
+            assets are effective and appropriate for the ADI;
+
+      (f)   establish a set of reporting criteria specifying the scope, manner and
+            frequency of reporting for various recipients (such as the Board, senior
+            management and the asset/liability committee) including the parties
+            responsible for preparing the reports;
+
+      (g)   establish specific procedures and approvals necessary for exceptions to
+            policies and limits, including escalation procedures and follow-up actions
+            to be taken for breaches of limits;
+
+      (h)   closely monitor current trends and potential market developments that may
+            present significant, unprecedented and complex challenges for managing
+            liquidity risk so that appropriate and timely changes to the liquidity
+            management strategy may be made as needed; and
+
+      (i)   continuously review information on the ADI’s liquidity developments and
+            report to the Board on a regular basis.
+
+20.   Senior management and the Board must be able to demonstrate a thorough
+      understanding of the links between funding liquidity risk (the risk that an ADI
+
+
+                                                                                APS 210 - 5
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                  July 2025
+
+
+
+
+      may not be able to meet its financial obligations as they fall due) and market
+      liquidity risk (the risk that liquidity in financial markets, such as the market for
+      debt securities, may reduce significantly), as well as how other risks, including
+      credit, market, operational and reputation risks, affect the ADI’s overall liquidity
+      risk management strategy.
+
+Liquidity risk management framework
+
+21.   An ADI’s liquidity risk tolerance defines the level of liquidity risk that the ADI
+      is willing to assume. An ADI’s liquidity risk tolerance must be documented and
+      appropriate for the ADI’s operations and strategy and its role in the financial
+      system.
+
+22.   The liquidity risk tolerance must be reviewed, at least annually, to reflect the
+      ADI’s financial condition and funding capacity.
+
+23.   In setting the liquidity risk tolerance, the Board and senior management must
+      ensure that the risk tolerance allows the ADI to effectively manage its liquidity
+      position in such a way that it is able to withstand a prolonged period of stress.
+
+24.   The liquidity risk tolerance must be articulated in such a way that clearly states
+      the trade-off between risks and profits.
+
+25.   An ADI’s liquidity risk management framework must clearly set out the
+      organisational structure as it relates to liquidity for the ADI on both a Level 1 and
+      Level 2 basis, and define the responsibilities and roles of management involved
+      in managing liquidity risk.
+
+26.   An ADI’s liquidity risk management framework must be formulated to ensure
+      that the ADI maintains sufficient liquidity, including a cushion of unencumbered
+      liquid assets, to withstand a range of stress events, including those involving the
+      loss or impairment of both unsecured and secured funding sources. The source of
+      liquidity stress could be specific to the ADI or market-wide or a combination of
+      the two.
+
+27.   An ADI’s liquidity risk management framework must be well integrated into the
+      ADI’s overall risk management process.
+
+28.   An ADI’s liquidity risk management oversight function must be operationally
+      independent and staffed with personnel who have the skills and authority to
+      challenge the ADI’s treasury and other liquidity risk management businesses.
+
+29.   The liquidity management strategy must include specific policies on liquidity
+      management, such as:
+
+      (a)   the composition and maturity of assets and liabilities;
+
+      (b)   the diversity and stability of funding sources;
+
+
+
+
+                                                                                APS 210 - 6
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                 July 2025
+
+
+
+
+      (c)   the approach to managing liquidity in different currencies, across borders,
+            and across business lines and legal entities; and
+
+      (d)   the approach to intraday liquidity management.
+
+30.   The liquidity management strategy must take account of the ADI’s liquidity
+      needs under normal conditions as well as periods of liquidity stress. The
+      strategy must include quantitative and qualitative targets.
+
+31.   The liquidity management strategy must be appropriate for the nature, scale and
+      complexity of the ADI. In formulating this strategy, the ADI must consider its
+      legal structure, key business lines, the breadth and diversity of markets, products
+      and jurisdictions in which it operates and home and host regulatory requirements.
+
+32.   The liquidity management strategy, key policies for implementing the strategy
+      and the liquidity risk management structure must be communicated throughout
+      the organisation by senior management.
+
+33.   An ADI must have adequate policies, procedures and controls in place to ensure
+      that the Board and senior management are informed immediately of new and
+      emerging liquidity concerns. These include increasing funding costs or
+      concentrations, increases in any funding requirements, the lack of availability of
+      alternative sources of liquidity, material and/or persistent breaches of limits, a
+      significant decline in the cushion of unencumbered liquid assets or changes in
+      external market conditions that could signal future difficulties.
+
+34.   Senior management must be satisfied that all business units conducting activities
+      that have an impact on liquidity are fully aware of the liquidity management
+      strategy and operate in accordance with approved policies, procedures, limits and
+      controls.
+
+35.   The liquidity risk management framework must be subject to effective review on
+      an ongoing basis, in addition to a comprehensive review as part of the review of
+      the risk management framework under Prudential Standard CPS 220 Risk
+      Management (CPS 220).
+
+Management of liquidity risk
+
+36.   An ADI must have a sound process for identifying, measuring, monitoring and
+      controlling liquidity risk. This process must include a robust framework for
+      comprehensively projecting cash flows arising from assets, liabilities and off-
+      balance sheet items over an appropriate set of time horizons.
+
+37.   An ADI must set limits to control its liquidity risk exposure and vulnerabilities.
+      Limits and corresponding escalation procedures must be reviewed regularly.
+      Limits must be relevant to the business in terms of its location, complexity of
+      activity, nature of products, currencies and markets served. Where a liquidity risk
+      limit is breached, an ADI must implement a plan of action to review the exposure
+      and reduce it to a level that is within the limit.
+
+
+
+                                                                               APS 210 - 7
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                  July 2025
+
+
+
+
+38.   An ADI must actively manage its collateral positions, differentiating between
+      encumbered and unencumbered assets. An ADI must monitor the legal entity and
+      physical location where collateral is held and how it may be mobilised in a timely
+      manner.
+
+39.   An ADI must design a set of early warning indicators to aid its daily liquidity
+      risk management processes in identifying the emergence of increased risk or
+      vulnerabilities in its liquidity risk position or potential funding needs. Such early
+      warning indicators must be structured so as to assist in the identification and
+      escalation of any negative trends in the ADI’s liquidity position and lead to an
+      assessment and potential response by management to mitigate the ADI’s exposure
+      to these trends.
+
+40.   An ADI must have a reliable management information system that provides the
+      Board, senior management and other appropriate personnel with timely and
+      forward-looking information on the liquidity position of the ADI.
+
+41.   An ADI must actively manage its intraday liquidity positions and risks in
+      order to meet payment and settlement obligations on a timely basis under both
+      normal and stressed conditions, thus contributing to the orderly functioning of
+      payment and settlement systems.
+
+42.   An ADI must develop and implement a costs and benefits allocation process for
+      funding and liquidity that appropriately apportions the costs of prudent liquidity
+      management to the sources of liquidity risk and provides appropriate incentives
+      to manage liquidity risk.
+
+43.   An ADI active in multiple currencies must:
+
+      (a)   maintain liquid assets consistent with the distribution of its liquidity needs
+            by currency;
+
+      (b)   assess its aggregate foreign currency liquidity needs and determine an
+            acceptable level of currency mismatches; and
+
+      (c)   undertake a separate analysis of its strategy for each currency in which it
+            has material activities, considering potential constraints in times of stress.
+
+Funding strategy
+
+44.   An ADI must:
+
+      (a)   develop and document a three-year funding strategy, which must be
+            provided to APRA on request;
+
+      (b)   maintain an ongoing presence in its chosen funding markets and strong
+            relationships with funds providers; and
+
+
+
+
+                                                                                APS 210 - 8
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                  July 2025
+
+
+
+
+      (c)   regularly gauge its capacity to raise funds quickly. It must identify the main
+            factors that affect its ability to raise funds and monitor those factors closely
+            to ensure that estimates of fund-raising capacity remain valid.
+
+45.   The funding strategy must be reviewed and approved by the Board, at least
+      annually, and supported by robust assumptions in line with the ADI’s liquidity
+      management strategy and business objectives.
+
+46.   The funding strategy must be reviewed and updated, at least annually, to account
+      for, at a minimum, changed funding conditions and/or a change in the ADI’s
+      strategy. An ADI must advise APRA of any material changes to the ADI’s
+      funding strategy.
+
+Contingency funding plan
+
+47.   An ADI must have a formal contingency funding plan that clearly sets out the
+      strategies for addressing liquidity shortfalls in stressed situations. The plan must
+      outline policies to manage a range of stress environments, establish clear lines
+      of responsibility and include clear invocation and escalation procedures.
+
+48.   An ADI’s contingency funding plan must be commensurate with its complexity,
+      risk profile, scope of operations and role in the financial systems in which it
+      operates. The plan must articulate available contingency funding sources and the
+      amount of funds an ADI estimates can be derived from these sources, clear
+      escalation/prioritisation procedures detailing when and how each of the actions
+      can and must be activated and the lead time needed to tap additional funds from
+      each of the contingency sources. The contingency funding plan must provide a
+      framework with a high degree of flexibility so that an ADI can respond quickly in
+      a variety of situations.
+
+49.   The plan’s design, scope and procedures must be closely integrated with the
+      ADI’s ongoing analysis of liquidity risk and with the assumptions used in its
+      stress tests and the results of those stress tests. As such, the plan must address
+      issues over a range of different time horizons, including intraday.
+
+50.   For an ADI that has retail deposits, the plan must address a retail deposit run and
+      must include measures to repay retail depositors as soon as practicable. The retail
+      run contingency plan must not rely upon closing distribution channels to retail
+      depositors. The retail run contingency plan must seek to ensure that in the event
+      of a loss of market confidence in the ADI, retail depositors wishing to retrieve
+      their deposits may do so as quickly and as conveniently as is practicable in the
+      circumstances, and within the contractual terms and conditions applicable to the
+      relevant deposit products.
+
+51.   An ADI’s contingency funding plan must be reviewed and tested, at least
+      annually, to ensure its effectiveness and operational feasibility. An ADI’s Board
+      must review and approve the contingency funding plan, at least annually, or
+      more often as changing business or market circumstances require.
+
+
+
+                                                                                APS 210 - 9
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                   July 2025
+
+
+
+
+Classification of ADIs
+
+52.   For a locally incorporated ADI, APRA will determine whether an ADI is
+      classified as a Liquidity Coverage Ratio ADI (LCR ADI) or a Minimum Liquidity
+      Holdings ADI (MLH ADI) for the purposes of this Prudential Standard.
+
+53.   A foreign ADI is an LCR ADI, unless APRA determines that the foreign ADI is
+      an MLH ADI. In making a determination, APRA will give consideration to the
+      ADI’s size and complexity with respect to liquidity risk.
+
+54.   An ADI is required to meet the minimum quantitative requirements associated
+      with its classification on a continuous basis, absent a situation of financial stress.
+
+Liquidity coverage ratio ADIs
+
+55.   An LCR ADI must maintain an adequate level of unencumbered high-quality
+      liquid assets (HQLA) to meet its liquidity needs for a 30 calendar day period
+      under a severe stress scenario, in accordance with Attachment A. Absent a
+      situation of financial stress (refer to paragraph 5 of Attachment A):
+
+      (a)   for a locally incorporated ADI, the value of each of the Australian dollar
+            (AUD) LCR and all currencies LCR must not be less than 100 per cent; and
+
+      (b)   for a foreign ADI, the value of the LCR must not be less than 40 per cent
+            on an all currencies basis.
+
+56.   APRA may require an LCR ADI to maintain a higher minimum LCR if APRA
+      has concerns about the ADI’s liquidity risk profile or the quality of its liquidity
+      risk management.
+
+Minimum liquidity holdings ADIs
+
+57.   An MLH ADI must maintain a minimum holding of nine per cent of its liabilities
+      in specified liquid assets, in accordance with Attachment B.
+
+58.   APRA may require an MLH ADI to maintain higher minimum liquidity holdings
+      if APRA has concerns about the ADI’s liquidity risk profile or the quality of its
+      liquidity risk management.
+
+Net stable funding ratio
+
+59.   A locally incorporated ADI classified as an LCR ADI must meet the NSFR
+      requirements in this Prudential Standard.
+
+60.   A locally incorporated LCR ADI must maintain an NSFR of at least 100 per cent
+      at all times.
+
+61.   APRA may require an LCR ADI to maintain a higher minimum NSFR where
+      APRA considers it appropriate to do so, including if it has concerns about the
+
+
+
+                                                                                APS 210 - 10
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                    July 2025
+
+
+
+
+      ADI’s funding or liquidity risk profile or the quality of its liquidity risk
+      management.
+
+Stress testing
+
+62.   In addition to the requirements contained in paragraphs 52 to 56 of this Prudential
+      Standard, an LCR ADI must conduct stress tests on a regular basis for a variety
+      of short-term and protracted institution-specific and market-wide stress scenarios
+      (individually and in combination) to identify sources of potential liquidity strain
+      and to ensure that current exposures remain in accordance with the ADI’s
+      liquidity risk tolerance.
+
+63.   The stress test outcomes must be used to adjust the ADI’s liquidity management
+      strategy, policies and positions and to develop effective contingency plans to deal
+      with events of liquidity stress.
+
+64.   Stress tests must enable the ADI to analyse the impact of stress scenarios on its
+      Level 1 and Level 2 liquidity positions, as well as on the liquidity positions of
+      individual business lines.
+
+65.   An LCR ADI’s stress test scenarios and related assumptions must be well
+      documented and reviewed together with the stress test results. Stress test results
+      and vulnerabilities and any resulting actions must be reported to, and discussed
+      with, the Board and APRA. Results of the stress tests must be integrated into the
+      ADI’s strategic planning process and its day-to-day risk management practices.
+      The results of the stress tests must be explicitly considered in the setting of internal
+      limits.
+
+66.   An LCR ADI must decide how to incorporate the results of stress tests in
+      assessing and planning for related potential funding shortfalls in its contingency
+      funding plan.
+
+Local operational capacity
+
+67.   A foreign ADI must perform an assessment of its local operational capacity
+      (LOC) to liquidate assets and make or receive payments without assistance from
+      staff located outside Australia, at least annually, and provide the results of the
+      assessment to APRA upon request.
+
+68.   A foreign ADI, in performing a LOC assessment, must ensure at a minimum, it
+      considers a scenario involving a combination of time zones, different public
+      holidays and an offshore operational risk event under which the foreign ADI
+      would operate, including making and receiving payments, for a minimum of three
+      business days without assistance from staff located outside Australia. For this
+      purpose, the foreign ADI may assume that related-party operations within
+      Australia continue to function normally.
+
+69.   APRA may impose additional requirements on a foreign ADI if the LOC
+      assessment highlights issues concerning the ability of the foreign ADI to liquidate
+
+
+                                                                                 APS 210 - 11
+
+                          Authorised Version F2025L00653 registered 06/06/2025
+                                                                                     July 2025
+
+
+
+
+      assets and make or receive payments without assistance from staff located outside
+      Australia.
+
+Exceptional Liquidity Assistance
+
+70.   An ADI under severe liquidity stress may request Exceptional Liquidity
+      Assistance (ELA) from the Reserve Bank of Australia (RBA). Prior to
+      approaching the RBA, the ADI must notify APRA immediately of the ADI’s
+      liquidity concerns and its intention to request ELA. An ADI must provide any
+      information requested by APRA or the RBA in relation to the ADI’s ELA request.
+      An ADI must have the operational capability to provide information along with
+      its application for ELA or within other timeframes specified by APRA.
+
+Adjustments and exclusions
+
+71.   APRA may adjust or exclude a specific requirement in this Prudential Standard
+      in relation to an ADI or authorised NOHC.1
+
+Previous exercise of discretion
+
+72.   An ADI must contact APRA if it seeks to place reliance, for the purposes of
+      complying with this Prudential Standard, on a previous exemption or other
+      exercise of discretion by APRA under a previous version of this Prudential
+      Standard.
+
+
+
+
+1     Refer to subsection 11AF(2) of the Banking Act.
+
+
+                                                                                  APS 210 - 12
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                     July 2025
+
+
+
+
+Attachment A
+Liquidity coverage ratio
+1.   The objective of the LCR is to ensure that an ADI maintains an adequate level
+     of unencumbered HQLA that can be converted into cash to meet its liquidity
+     needs for a 30 calendar day time period under a severe liquidity stress scenario.
+
+2.   The LCR has two components:
+
+     (a)   the value of the stock of HQLA; and
+
+     (b)   total net cash outflows, calculated according to the scenario parameters set
+           out in this Attachment.
+
+3.   The LCR is calculated as:
+
+     Stock of HQLA
+     Total net cash outflows over the next 30 calendar days
+
+4.   An ADI must include an appropriate buffer of HQLA over the LCR requirement
+     in line with its liquidity risk tolerance.
+
+5.   During a period of financial stress, an ADI may need to liquidate part of its stock
+     of HQLA and/or draw on its Committed Liquidity Facility (CLF) with the RBA,
+     using the cash generated to cover cash outflows; as a consequence, the LCR may
+     fall below the minimum level required under paragraph 55 of this Prudential
+     Standard. An ADI must inform APRA immediately in the event of an actual
+     breach of its LCR requirement or if it becomes aware of circumstances that may
+     result in a breach of its LCR requirement.
+
+Eligible stock of high-quality liquid assets (HQLA)
+
+6.   There are two categories of assets that may be included in the stock of HQLA.
+     Assets that may be included in each category are those that the ADI is holding
+     on the first day of the stress period, irrespective of their residual maturity. The
+     highest-quality liquid assets (HQLA1) may be included without limit, while
+     other high-quality liquid assets (HQLA2) – which includes HQLA2A and
+     HQLA2B – may only comprise up to 40 per cent of the total stock of HQLA.
+     HQLA2B must not exceed 15 per cent of the total stock of HQLA. HQLA2B
+     must be included within the overall 40 per cent cap on HQLA2.
+
+7.   The calculation of the 40 per cent cap detailed in paragraph 6 of this Attachment,
+     and the 15 per cent cap detailed in paragraph 6 of this Attachment, must take into
+     account the impact on the stock of HQLA of the amounts of HQLA1 and
+     HQLA2 involved in secured funding, secured lending and collateral swaps
+     transactions maturing within 30 calendar days. The maximum amount of
+     adjusted HQLA2 in the stock of HQLA is equal to two-thirds of the adjusted
+
+
+                                                                     APS 210 Attachment A - 13
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                     July 2025
+
+
+
+     amount of HQLA1 after haircuts have been applied. The maximum amount of
+     adjusted HQLA2B in the stock of HQLA is equal to either: 15/85 of the sum of
+     the adjusted amounts of HQLA1 and HQLA2A after haircuts have been applied;
+     or, in cases where the 40 per cent cap is binding, up to one quarter of the adjusted
+     amounts of HQLA1 after haircuts are applied.
+
+8.   The adjusted amount of HQLA1 is the amount of HQLA1 that would result
+     after unwinding short-term secured funding, secured lending and collateral swap
+     transactions involving the exchange of any HQLA for any HQLA1 that meet, or
+     would meet if held unencumbered, the operational requirements for HQLA set
+     out in paragraphs 22 to 25 of this Attachment. The adjusted amount of HQLA2A
+     is defined as the amount of HQLA2A that would result after unwinding those
+     short-term secured funding, secured lending and collateral swap transactions
+     involving the exchange of any HQLA for any HQLA2A that meet, or would
+     meet if held unencumbered, the operational requirements for HQLA set out in
+     paragraphs 22 to 25 of this Attachment. The adjusted amount of HQLA2B is
+     the amount of HQLA2B that would result after unwinding short-term secured
+     funding, secured lending and collateral swap transactions involving the
+     exchange of any HQLA for HQLA2B that meet, or would meet if held
+     unencumbered, the operational requirements for HQLA set out in paragraphs
+     22 to 25 of this Attachment. In this context, short-term transactions are
+     transactions with a maturity date up to and including 30 calendar days.
+
+     HQLA1
+
+9.   HQLA1 may comprise an unlimited share of the stock of eligible HQLA. HQLA1
+     are included at market value and are not subject to a haircut under the LCR.
+     These assets are limited to:
+
+     (a)   notes and coin;
+
+     (b)   central bank balances, to the extent that these balances may be drawn down
+           in times of stress;
+
+     (c)   marketable securities representing claims on or claims guaranteed by
+           sovereigns, central banks, public sector entities (PSEs), the Bank for
+           International Settlements (BIS), the International Monetary Fund (IMF),
+           the European Central Bank (ECB) and European Union (EU) or
+           multilateral development banks (MDBs), and that satisfy all of the
+           following conditions:
+           (i)    assigned a zero per cent risk-weight under Attachment B of Prudential
+                  Standard APS 112 Capital Adequacy: Standardised Approach to
+                  Credit Risk (APS 112);
+
+           (ii)   traded in large, deep and active repo or cash markets characterised by
+                  a low level of concentration;
+
+           (iii) proven record as a reliable source of liquidity in the markets (repo or
+                 sale) even during stressed market conditions; and
+
+
+                                                                     APS 210 Attachment A - 14
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                       July 2025
+
+
+
+            (iv) not an obligation of a financial institution or any of its associated
+                 entities;
+
+      (d) for non-zero per cent risk-weighted sovereigns: sovereign or central bank
+          debt securities issued in domestic currencies by the sovereign or central
+          bank in the country in which the liquidity risk is being taken or in the
+          ADI’s home country; and
+
+      (e)   for non-zero per cent risk-weighted sovereigns: domestic sovereign or
+            central bank debt securities issued in foreign currencies are eligible up to
+            the amount of the ADI’s stressed net cash outflows in that specific foreign
+            currency stemming from the ADI’s operations in the jurisdiction where the
+            ADI’s liquidity risk is being taken.
+
+      HQLA2A
+
+10.   An ADI may include the following as HQLA2A where these assets have been
+      recognised by APRA or the relevant prudential regulator in the jurisdiction where
+      the liquidity risk is taken. A 15 per cent haircut is applied to the current market
+      value of each HQLA2A held in the stock of eligible HQLA. HQLA2A are limited
+      to:
+
+      (a)   marketable securities representing claims on or guaranteed by sovereigns,
+            central banks, PSEs or MDBs that satisfy all of the following conditions:
+
+            (i)    assigned a 20 per cent risk-weight under Attachment B of APS 112;
+
+            (ii)   traded in large, deep and active repo or cash markets characterised
+                   by a low level of concentration;
+
+            (iii) proven record as a reliable source of liquidity in the markets (repo
+                  or sale) even during stressed market conditions (i.e. maximum
+                  decline of price not exceeding 10 per cent or increase in haircut not
+                  exceeding 10 percentage points over a 30-day period during a relevant
+                  period of significant liquidity stress); and
+
+            (iv) not an obligation of a financial institution or any of its associated
+                 entities;
+
+      (b)   corporate debt securities (including commercial paper) and covered bonds
+            that satisfy all of the following conditions:
+
+            (i)    in the case of corporate debt securities: are not issued by a financial
+                   institution or any of its associated entities and are plain vanilla assets
+                   whose valuation is readily available based on standard methods and
+                   does not depend on private knowledge;
+
+            (ii)   in the case of covered bonds: are not issued by the ADI itself or any
+                   of its associated entities;
+
+
+
+                                                                       APS 210 Attachment A - 15
+
+                          Authorised Version F2025L00653 registered 06/06/2025
+                                                                                        July 2025
+
+
+
+
+            (iii) the assets have a credit rating from a recognised external credit
+                  assessment institution (ECAI) of at least AA-2 or, in the case of an
+                  ADI that has approval to use the internal ratings-based (IRB)
+                  approach to credit risk under Prudential Standard APS 113
+                  Capital Adequacy: Internal Ratings-based Approach to Credit Risk
+                  (APS 113), do not have a credit assessment by a recognised ECAI
+                  and are internally rated as having a probability of default (PD)
+                  corresponding to a credit rating of at least AA-;
+
+            (iv) traded in large, deep and active repo or cash markets characterised
+                 by a low level of concentration; and
+
+            (v)    proven record as a reliable source of liquidity in the markets (repo
+                   or sale) even during stressed market conditions (i.e. maximum
+                   decline of price or increase in haircut over a 30-day period during a
+                   relevant period of significant liquidity stress not exceeding 10 per
+                   cent).
+
+11.   The portfolio of HQLA2A held by the ADI must be well diversified in terms of
+      type of assets, type of issuer and specific counterparty or issuer.
+
+      HQLA2B
+
+12.   An ADI may include the following as HQLA2B where these assets have been
+      recognised by APRA or the relevant prudential regulator in the jurisdiction where
+      the liquidity risk is taken:
+
+      (a) subject to a 25 per cent haircut, residential mortgage backed securities that
+          satisfy the following criteria:
+
+            (i)    are not issued by, nor are the underlying exposures originated by, the
+                   ADI itself or an associated entity of the ADI;
+
+            (ii)   have a long-term credit rating from a recognised ECAI of AA or
+                   higher3 or, in the absence of a long-term rating, a short-term rating
+                   equivalent in quality to the long-term rating;
+
+            (iii) traded in large, deep and active repo or cash markets characterised
+                  by a low level of concentration;
+
+            (iv) proven record as a reliable source of liquidity in markets (repo or
+                 sale) even during stressed market conditions (i.e. a maximum
+                 decline in price not exceeding 20 per cent or increase in haircut over
+                 a 30-day period not exceeding 20 percentage points during a relevant
+
+2     In the event of an asset having multiple assessments, the applicable rating must be determined
+      according to the method used in APS 112.
+3     Refer to footnote 2.
+
+
+                                                                        APS 210 Attachment A - 16
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                         July 2025
+
+
+
+                  period of significant liquidity stress);
+
+           (v)    the underlying asset pool is restricted to residential mortgages and
+                  cannot contain structured products;
+
+           (vi) the underlying mortgages are full recourse loans and, at issuance,
+                have a maximum average loan-to-valuation ratio (LVR) of 80 per
+                cent; and
+
+           (vii) the securitisation is subject to risk retention regulations which
+                 requires an issuer to retain an interest in the assets they securitise;
+
+    (b) subject to a 50 per cent haircut, corporate debt securities (including
+        commercial paper) that satisfy the following criteria:
+
+           (i)    are not issued by a financial institution or an associated entity;
+
+           (ii)   either:
+
+                           (1) have a long-term credit rating from a recognised ECAI
+                           between A+ and BBB-4 or, in the absence of a long-term rating,
+                           a short-term rating equivalent in quality to the long-term rating;
+                           or
+
+                           (2) in the case of an ADI that has approval to use the IRB
+                           approach to credit risk under APS 113, do not have a credit
+                           assessment by a recognised ECAI and are internally rated as
+                           having a PD estimate corresponding to a credit rating of
+                           between A+ and BBB-;
+
+           (iii) traded in large, deep and active repo or cash markets characterised
+                 by a low level of concentration; and
+
+           (iv) proven record as a reliable source of liquidity in markets (repo or
+                sale) even during stressed market conditions (i.e. a maximum
+                decline in price not exceeding 20 per cent or increase in haircut over
+                a 30-day period not exceeding 20 percentage points during a relevant
+                period of significant liquidity stress).
+
+    (c) subject to a 50 per cent haircut, common equity shares that satisfy the
+        following criteria:
+
+           (i)    are not issued by a financial institution or an associated entity;
+
+           (ii)   are exchange traded and centrally cleared;
+
+           (iii) are a constituent of the major stock index where the liquidity risk is
+
+4   Refer to footnote 2.
+
+
+                                                                         APS 210 Attachment A - 17
+
+                            Authorised Version F2025L00653 registered 06/06/2025
+                                                                                        July 2025
+
+
+
+                  taken;
+
+            (iv) are denominated in the currency of the jurisdiction where a bank’s
+                 liquidity risk is taken;
+
+            (v)   traded in large, deep active repo or cash markets characterised by a
+                  low level of concentration; and
+
+            (vi) proven record as a reliable source of liquidity in markets (repo or
+                 sale) even during stressed market conditions, i.e. a maximum decline
+                 in share price not exceeding 40 per cent or increase in haircut not
+                 exceeding 40 percentage points over a 30-day period during a
+                 relevant period of significant liquidity stress.
+
+Use of alternative liquid asset treatment for LCR
+
+13.   A locally incorporated LCR ADI may establish a CLF with the RBA, sufficient
+      in size to cover any shortfall in Australian dollars between the ADI’s holdings of
+      HQLA and net cash outflows. Qualifying collateral for the CLF will comprise
+      all assets eligible for repurchase transactions with the RBA under normal market
+      conditions and any other assets nominated by the RBA.
+
+14.   The CLF must only be used by an ADI to manage any shortfall in Australian
+      dollars between its holding of HQLA and its net cash outflows.
+
+15.   The amount of HQLA that may be included in the numerator of an ADI’s LCR
+      calculation is the market value of HQLA1 and HQLA2 held by the ADI, after
+      applicable haircuts as outlined in paragraphs 10 and 12 of this Attachment, plus
+      the lowest of:
+
+      (a)   the contractual amount of the CLF an ADI has agreed with the RBA that
+            is approved by APRA for LCR purposes (refer to paragraphs 17 to 20 of
+            this Attachment); or
+
+      (b)   the contractual amount of the CLF as defined in paragraph 15(a),
+
+            less the market value, after RBA margins have been applied, of eligible
+            CLF securities that have been pledged as collateral under maturing secured
+            funding transactions to a counterparty and to which a zero per cent run-off
+            rate applies,
+
+            plus the market value, after RBA margins have been applied, of eligible
+            CLF securities that have been received by the ADI as collateral under
+            maturing secured lending transactions, where the collateral received is not
+            used to cover short positions as outlined in paragraph 56 of this Attachment,
+            and to which a zero per cent inflow rate applies; or
+
+      (c)   the market value of the assets held by an ADI as collateral for the CLF after
+            applicable RBA margins have been applied.
+
+
+                                                                        APS 210 Attachment A - 18
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                     July 2025
+
+
+
+
+16.   Assets held by an ADI for the purposes of the CLF must:
+
+      (a)   meet the operational requirements for HQLA as outlined in paragraphs 22
+            to 25 of this Attachment; and
+
+      (b)   be well diversified in terms of type of assets, type of issuer and specific
+            counterparty or issuer.
+
+17.   An ADI that requires a CLF from the RBA for LCR purposes must apply to
+      APRA for approval before establishing the CLF.
+
+18.   To facilitate APRA’s approval process, the ADI’s funding strategy must clearly
+      state the amount of the CLF required in the forecast period. An ADI must make
+      every reasonable effort to manage its liquidity risk through its own balance sheet
+      management before applying for a CLF for LCR purposes.
+
+19.   Following the initial approval, an ADI must apply on an annual basis for
+      APRA’s approval of the size of the CLF that may be recognised for LCR
+      purposes.
+
+20.   In the case of unforeseen changes in circumstances, an ADI may apply to
+      APRA, at any time, for a change in the amount of its CLF to be recognised for
+      LCR purposes by submitting an updated Board-approved funding and liquidity
+      plan.
+
+21.   In the event that an ADI draws funds under its CLF other than for intraday
+      purposes or the funding of end-of-day balances held at the RBA, senior
+      management must attest that the proceeds of the drawdown will be used for
+      Australian dollar liquidity needs only. APRA must be advised of any proposed
+      drawdown of the CLF that is not for intraday purposes or for the funding of end-
+      of-day balances held at the RBA.
+
+Operational requirements
+
+22.   All assets in the stock of eligible HQLA must be managed as part of that stock
+      and are subject to the following operational requirements:
+
+      (a)   the assets must be available for the ADI to convert into cash at any time;
+
+      (b)   the assets must be unencumbered and be under the control of the specific
+            function or functions charged with managing the liquidity risk of the ADI.
+            This would typically be the treasurer who must have the continuous
+            authority, and legal and operational capability, to monetise any asset in the
+            stock; and
+
+      (c)   control must be evidenced either by maintaining assets in a separate pool
+            managed by the function with the sole intent to use as a source of contingent
+            funds, or by demonstrating that the function can monetise the asset at any
+
+
+                                                                     APS 210 Attachment A - 19
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                      July 2025
+
+
+
+            point in the 30-day stress period and that the proceeds of doing so are
+            available to the function throughout the 30-day stress period without
+            directly conflicting with a stated business or risk management strategy.
+
+23.   The assets must not be pledged to secure, collateralise or credit enhance any
+      transactions or be designated to cover operational costs (such as rents and
+      salaries). Assets received in reverse repo and securities financing transactions
+      that are held at the ADI, have not been rehypothecated and are legally and
+      contractually available for the ADI’s use may be considered as part of the stock
+      of HQLA.
+
+24.   At Level 2, an ADI may also include in the stock of HQLA, liquid assets that
+      qualify for inclusion in the numerator of the LCR as set out in paragraphs 9 to
+      17, 22 to 23 and 28 of this Attachment, where they are held to meet legal entity
+      requirements, where applicable, and the related risks as measured by the legal
+      entity’s net cash outflows are also reflected in the LCR. Any surplus of liquid
+      assets held at the legal entity may only be included in the Level 2 stock if those
+      assets would be freely available to the consolidated (parent) entity in times of
+      stress.
+
+25.   For the purpose of calculating the LCR, if an eligible HQLA or eligible CLF
+      liquid asset becomes ineligible (e.g. due to rating downgrade), an ADI may keep
+      the asset in its stock of liquid assets for an additional 30 calendar days. This
+      allows the ADI time to adjust its stock as needed or replace the asset.
+
+Level 2 consolidated banking group
+
+26.   The LCR is to be met by an ADI on both a Level 1 and Level 2 basis. Where an
+      ADI has a branch or subsidiary in an offshore jurisdiction, in calculating a
+      subsidiary’s LCR the ADI must apply the requirements outlined in this
+      Prudential Standard. The only exceptions are:
+
+      (a)   for retail and small and medium enterprise (SME) deposits, where the host
+            supervisor’s outflow assumptions must be applied; and
+
+      (b)   alternative liquid assets, as provided for in the Basel Committee on
+            Banking Supervision’s (Basel Committee) global framework for liquidity
+            risk and allowed by the host supervisor, may be included.
+
+27.   Where an ADI has a branch or subsidiary in an offshore jurisdiction that does
+      not apply the Basel Committee’s global framework for liquidity risk, the cash
+      flow assumptions outlined in this Prudential Standard must be applied in
+      calculating the ADI’s Level 2 LCR.
+
+28.   An ADI with a material banking subsidiary in another offshore jurisdiction must
+      ensure that the subsidiary maintains an LCR of at least 100 per cent. APRA may
+      allow an ADI to include assets that are formally recognised as eligible liquid
+      assets by the relevant offshore prudential regulator.
+
+
+
+                                                                      APS 210 Attachment A - 20
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                       July 2025
+
+
+
+29.   For the calculation of the Level 2 LCR, an ADI must take into account
+      restrictions on the transferability of liquid assets across borders. Excess liquidity
+      is not to be recognised in the Level 2 LCR unless there is reasonable certainty
+      about the availability of such liquidity.
+
+Net cash outflows
+
+30.   Total net cash outflows represent the total expected cash outflows minus total
+      expected cash inflows in the specified stress scenario for the subsequent 30
+      calendar days. Total expected cash outflows are calculated by multiplying the
+      outstanding balances of various categories or types of liabilities and off-balance
+      sheet commitments by the rates at which they are expected to run off or be
+      drawn down as set out in Table 3 of paragraph 53 of this Attachment. Total
+      expected cash inflows are calculated by multiplying the outstanding balances
+      of various categories of contractual receivables by the rates (refer to paragraphs
+      54 to 66 of this Attachment) at which they are expected to flow in under the
+      scenario, up to an aggregate cap of 75 per cent of total expected cash outflows.
+      That is:
+
+             Total net cash outflows over the next 30 calendar days = Total
+             expected cash outflows – Min {total expected cash inflows; 75 per
+             cent of total expected cash outflows}
+
+31.   An ADI must not double- count items. That is, if assets are included as part of
+      the stock of HQLA (the numerator of the LCR), the associated cash inflows
+      cannot also be counted as cash inflows.
+
+32.   APRA will assess the suitability of an ADI’s assumptions made for those cash
+      flow items that are derived. An ADI must be in a position to provide analysis and
+      evidence to justify the assumptions.
+
+33.   Where APRA determines that an ADI is actively using collateral swaps for
+      liquidity management purposes, APRA may require that the ADI include in its
+      LCR calculation the net cash flow impact of collateral swaps based on a method
+      determined by APRA at that time.
+
+Cash outflows
+
+Retail deposit outflows
+
+34.   For the purposes of the LCR, retail deposits are defined as deposits placed with
+      an ADI by a natural person. Deposits from legal entities, sole proprietorships or
+      partnerships are captured in wholesale deposit categories. Retail deposits include
+      demand deposits and term deposits, unless otherwise excluded under the criteria
+      set out in paragraphs 41 and 42 of this Attachment.
+
+35.   Where a person places funds with an intermediary, which then places those funds
+      with an ADI, the deposit with the ADI is considered to be a deposit from a
+      financial institution unless, during the next 30 days:
+
+
+                                                                       APS 210 Attachment A - 21
+
+                          Authorised Version F2025L00653 registered 06/06/2025
+                                                                                      July 2025
+
+
+
+      (a)   the person retains all legal rights regarding the withdrawal or other
+            movement of the funds;
+
+      (b)   the person exercises these rights in practice and cannot transfer these
+            rights to the intermediary;
+
+      (c)   there is clear and prominent disclosure to the person that the funds will be
+            placed with the ADI; and
+
+      (d)   the intermediary or an associated entity can neither make investment
+            decisions on behalf of the person regarding the deposit, nor withdraw
+            funds from the ADI in the absence of specific directions to do so from the
+            person (other than miscellaneous items such as fees, expense
+            reimbursements, taxes).
+
+      If all of these conditions are satisfied, an ADI may treat the funds as if they are
+      from the person. An ADI must be able to demonstrate how this treatment
+      satisfies the conditions outlined in this paragraph.
+
+36.   Retail deposits are divided into stable and less stable portions of funds, as
+      described below.
+
+37.   Stable deposits are the portion of deposits that are fully covered by the
+      Financial Claims Scheme (or an effective government deposit insurance scheme)
+      where:
+
+      (a)   the depositor has other established relationships with the ADI that make
+            deposit withdrawal highly unlikely; or
+
+      (b)   the deposits are in transactional accounts (e.g. accounts where salaries
+            are automatically credited).
+
+38.   Less stable deposits are the portion of deposits that do not meet the requirements
+      of stable deposits.
+
+39.   Certain types of deposits are considered more likely to be withdrawn in a time of
+      stress. These include high-value deposits (i.e. deposits above any government
+      deposit guarantee limit), deposits from customers who do not have established
+      relationships with an ADI that would make the deposit withdrawal unlikely,
+      deposits where the internet is integral to the design, marketing and usage of the
+      account (on-line accounts) and deposits with promotional interest rates (heavily
+      rate-driven).
+
+40.   An ADI must assess each less stable account or product balance against the
+      following scorecard:
+
+      Table 1 – The scorecard
+
+
+
+
+                                                                      APS 210 Attachment A - 22
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                     July 2025
+
+
+
+
+                                          Criteria                                     Score
+        Deposit balance is greater than any government deposit guarantee                 2
+        limit where it exists and, in its absence, where the deposit balance
+        is greater than the equivalent of AUD 250,000
+        Deposit is an on-line account                                                    2
+        Absence of an established customer relationship                                  1
+        Deposit is heavily rate-driven                                                   1
+
+      The total score is then used to allocate the account or product deposit outflow as
+      follows:
+
+      Table 2 – Less stable deposit allocations
+
+             Score             Run-off rate
+              0–2               10 per cent
+           3 or more            25 per cent
+
+Fixed-term deposits
+
+41.   Cash outflows related to fixed or term deposits with a residual maturity or
+      withdrawal notice period of greater than 30 days will be excluded from LCR
+      calculations if the depositor has no legal right to withdraw deposits within the
+      30-day horizon of the LCR, or if early withdrawal results in a significant penalty
+      that is materially greater than the loss of interest.
+
+42.   If an ADI allows a depositor to withdraw such deposits despite a clause that says
+      the depositor has no legal right to withdraw, the entire category of these funds
+      must be treated as demand deposits.
+
+43.   An ADI may allow depositors experiencing hardship to withdraw their term
+      deposits without changing the treatment of the entire pool of deposits. The ADI
+      must have a policy defining hardship.
+
+Unsecured wholesale funding outflows
+
+44.   For the purposes of the LCR, unsecured wholesale funding is defined as those
+      liabilities and general obligations that are raised from non-natural persons (i.e.
+      legal entities, including sole proprietorships and partnerships) and are not
+      collateralised by legal rights to specifically designated assets owned by the
+      borrowing institution in the case of bankruptcy, insolvency, liquidation or
+      resolution. Obligations related to derivative contracts are explicitly excluded
+      from this definition.
+
+45.   Wholesale funding included in the LCR is defined as all funding that is callable
+      within the LCR’s horizon of 30 days or that has its earliest possible contractual
+
+
+                                                                     APS 210 Attachment A - 23
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                      July 2025
+
+
+
+      maturity date within this horizon (such as maturing term deposits and unsecured
+      debt securities), as well as funding with an undetermined maturity. This must
+      include all funding with options that are exercisable at the investor’s discretion
+      within the 30-day horizon. Wholesale funding that is callable by the provider
+      of the funds, subject to a contractually defined and binding notice period
+      surpassing the 30-day horizon, may be excluded.
+
+46.   Unsecured wholesale funding provided by SME customers may be treated as
+      retail deposits where:
+
+      (a)   the deposits and other extensions of funds made by non-financial SME
+            customers are managed as retail exposures and are generally considered
+            as having similar liquidity risk characteristics to retail accounts; and
+
+      (b)   the total aggregated funding raised from an SME customer is less than
+            AUD 2 million, (on a consolidated basis where applicable).
+
+Operational deposits
+
+47.   For the purpose of the LCR, operational deposits are those where customers
+      place, or leave, deposits with an ADI in order to facilitate their access and ability
+      to use payment and settlement systems and otherwise make payments. Deposits
+      may only be included as operational deposits if the customer has a substantive
+      dependency on the ADI and the deposit is required for such activities.
+
+48.   For the purpose of determining operational deposits, qualifying activities in this
+      context refer to clearing, custody or cash management activities where the
+      customer is reliant on the ADI to perform these services as an independent third-
+      party intermediary in order to fulfil its normal banking activities over the next 30
+      days. These services must be provided to institutional customers under a legally
+      binding agreement and the termination of such agreements must be subject either
+      to a notice period of at least 30 days or to significant switching costs to be borne
+      by the customer if the operational deposits are moved before 30 days.
+
+49.   Qualifying operational deposits generated by such an activity are those where the
+      deposits are:
+
+      (a)   by-products of the underlying services provided by the ADI;
+
+      (b)   not offered by the ADI in the wholesale market for the sole purpose of
+            offering interest income; and
+
+      (c)   held in specifically designated accounts and priced without giving an
+            economic incentive to the customer to leave excess funds in these accounts.
+
+50.   Any excess balances that could be withdrawn without jeopardising these
+      clearing, custody or cash management activities do not qualify as operational
+      deposits.
+
+
+
+                                                                      APS 210 Attachment A - 24
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                      July 2025
+
+
+
+Liquidity facilities
+
+51.   A liquidity facility is any committed, undrawn back-up facility that would be
+      used to refinance the debt obligations of a customer in situations where such a
+      customer is unable to rollover that debt in financial markets. The amount of any
+      commitment to be treated as a liquidity facility is the amount of the outstanding
+      debt issued by the customer (or proportionate share of a syndicated facility)
+      maturing within a 30-day period that is backstopped by the facility. Any
+      additional capacity of the facility is to be treated as a committed credit facility.
+      General working capital facilities for corporate entities (e.g. revolving credit
+      facilities in place for general corporate or working capital purposes) must not be
+      classified as liquidity facilities, but as credit facilities.
+
+52.   Notwithstanding paragraph 51 of this Attachment, any facilities provided to
+      hedge funds, money market funds and special purpose funding vehicles, or other
+      vehicles used to finance an ADI’s own assets, must be captured in their entirety
+      as a liquidity facility to a financial institution.
+
+
+
+
+                                                                      APS 210 Attachment A - 25
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                        July 2025
+
+
+
+53.   The following table sets out the run-off rates that must be applied to each liability
+      and off-balance sheet cash outflow category.
+
+      Table 3 – Cash outflow categories
+
+           Run-off rate (%)                                Cash outflow category
+                                         Retail and qualifying SME deposits (refer to
+                                         paragraphs 34 to 40 and 46)
+                  •
+
+                      5                       •    Stable deposits
+                      10                      •    Less stable retail deposits
+                      25                      •    Higher run-off less stable retail deposits
+                                         Unsecured wholesale funding (refer to
+                                         paragraphs 44 to 46)
+                      5                       •    Operational deposit balances from all
+                                                   counterparties fully covered by deposit
+                                                   insurance
+                      25                      •    Operational deposit balances from all
+                                                   counterparties not fully covered by deposit
+                                                   insurance
+                                              •    Non-operational deposits from non-
+                                                   financial corporations, sovereigns, central
+                                                   banks, PSEs, MDBs and SMEs of greater
+                                                   than AUD 2m:
+                      20                                o where the entire amount is fully
+                                                          covered by deposit insurance
+                      40                                o where the entire amount is not fully
+                                                          covered by deposit insurance
+                   100                        •    All other non-operational deposits
+                   100                        •    Unsecured debt issuance
+                                              Secured funding
+                      0                       •    Secured funding transactions backed by
+                                                   HQLA1, with any counterparty
+                      0                       •    Secured funding transactions with any
+                                                   counterparty backed by CLF-eligible debt
+                                                   securities, where the ADI pledging assets
+                                                   has a CLF with the RBA subject to the
+                                                   ADI’s CLF limit
+
+
+
+
+                                                                        APS 210 Attachment A - 26
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                          July 2025
+
+
+
+
+          Run-off rate (%)                                Cash outflow category
+                                        Secured funding (continued)
+                    15                       •    Secured funding transactions backed by
+                                                  HQLA2A, with any counterparty
+                    25                       •    Secured funding transactions that are not
+                                                  eligible for inclusion in the 0 or 15 per cent
+                                                  categories above where the counterparties
+                                                  are domestic sovereigns, PSEs (but not the
+                                                  RBA) or MDBs with a risk weight of 20
+                                                  per cent or lower under APS 112
+                                             •    Secured funding transactions backed by
+                                                  RMBS eligible for inclusion as HQLA2B
+                    50                       •    Secured funding transactions backed by
+                                                  other HQLA2B with any counterparty
+                   100                       •    All other secured funding transactions
+                                        Asset-backed commercial paper (ABCP), asset
+                                        backed securities, covered bonds and other
+                                        structured financing instruments/facilities
+                   100                       •    Maturing transactions issued by the ADI
+                                                  itself
+                   100                       •    Loss of funding on SPVs, conduits and
+                                                  structured investment vehicles due to
+                                                  inability to refinance maturing debt,
+                                                  embedded options and other potential loss
+                                                  of funding
+                                        Increased liquidity needs related to derivatives
+                                        and other transactions
+                   100                       •    Derivatives cash outflows5
+                   100                       •    Collateral that would need to be posted as
+                                                  a result of a downgrade of 3-notches of the
+                                                  ADI
+
+
+
+5   Expected derivative amounts payable and receivable are taken into account on a net basis by
+    counterparty, only where a valid master netting agreement exists. Amounts must also be net of
+    HQLA1 and HQLA2 collateral, to the extent that this collateral is not already counted in the stock
+    of HQLA, in line with the principle in paragraph 31 of this Attachment that items cannot be double
+    counted in the LCR. An ADI may net payments that are subject to industry wide netting
+    agreements subject to approval from APRA. Cash flows arising from FX derivative transactions
+    that involve a full exchange of principal amounts on a simultaneous basis (or within the same day)
+    may be reflected as a net payable or receivable figure, even where those transactions are not
+    covered by a master netting agreement.
+
+
+                                                                       APS 210 Attachment A - 27
+
+                          Authorised Version F2025L00653 registered 06/06/2025
+                                                                                             July 2025
+
+
+
+
+          Run-off rate (%)                               Cash outflow category
+                                       Increased liquidity needs related to derivatives
+                                       and other transactions (continued)
+                  100                       •    Excess non-segregated collateral held by
+                                                 the ADI that could contractually be called
+                                                 at any time by the counterparty
+                  100                       •    Contractually required collateral on
+                                                 transactions for which the counterparty has
+                                                 not yet demanded the collateral be posted
+                  100                       •    Contracts that allow collateral substitution
+                                                 to non-HQLA– the amount of HQLA that
+                                                 may be substituted without the ADI’s
+                                                 consent
+          100 per cent of the               •    Collateral outflows due to market
+       largest absolute net 30-                  valuation changes on derivative
+          day collateral flow                    transactions and other transactions
+        realised in the past 24
+               months6
+                   20                       •    Valuation changes on posted non-HQLA1
+                                                 collateral securing derivatives and other
+                                                 transactions
+                                       Committed facilities
+
+                                            •    For the undrawn portion of committed
+                                                 credit and liquidity facilities:
+                   5                                  o to retail and SME customers
+                                                      o to non-financial corporate,
+                                                        sovereigns and central banks,
+                                                        PSEs:
+                   10                                            ▪    credit facilities
+                   30                                            ▪    liquidity facilities
+                • 40                                  o to banks and other ADIs subject to
+                                                        prudential supervision
+
+
+
+
+6   An ADI may, in certain circumstances, apply to APRA for approval to use an alternative method
+    to calculate collateral outflows due to market valuation changes on derivative transactions.
+
+
+                                                                      APS 210 Attachment A - 28
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                      July 2025
+
+
+
+
+  Run-off rate (%)                                Cash outflow category
+                                Committed facilities (continued)
+
+                                     •    For the undrawn portion of committed
+                                          credit and liquidity facilities:
+         •                                     o to other financial institutions:
+             40                                           ▪    credit facilities
+         100                                              ▪    liquidity facilities
+         100                         •    Other legal entity customers
+                                Other contingent funding obligations
+             5                       •    Revocable credit and liquidity facilities
+  Average of actual                  •    Trade finance related obligations
+monthly net outflows in
+  a recent 12-month
+        period
+  50 per cent of the                 •    Guarantees and letters of credit other than
+   average of actual                      trade finance related obligations
+monthly net outflows in
+  a recent 12-month
+        period
+     10 per cent for                 •    Buybacks of domestic Australian debt
+ short-term securities                    securities
+   and 5 per cent for
+  long-term securities
+unless otherwise agreed
+      with APRA
+             5                       •    Non-contractual obligations related to
+                                          structured products and managed funds
+ To be set by the ADI                •    Issuers with an affiliated dealer or market
+    unless APRA                           maker
+determines the rate for
+       the ADI
+ To be set by the ADI                •    Other non-contractual contingent funding
+    unless APRA                           obligations
+determines the rate for
+       the ADI
+         100                    Other contractual cash outflows
+
+
+
+
+                                                               APS 210 Attachment A - 29
+
+                  Authorised Version F2025L00653 registered 06/06/2025
+                                                                                     July 2025
+
+
+
+Cash inflows
+
+54.   When considering its available cash inflows, an ADI must only include
+      contractual inflows from outstanding exposures that are fully performing and for
+      which it has no reason to expect a default within the 30-day time horizon. Where
+      APRA is of the view that an ADI is overly reliant on cash inflows from one or a
+      limited number of wholesale counterparties, APRA may set an alternative limit
+      on the level of cash inflows that may be included in the LCR in consultation with
+      the ADI.
+
+Secured lending, including reverse repos and securities borrowing
+
+55.   An ADI must assume that maturing reverse repurchase or securities borrowing
+      agreements secured by HQLA1 will be rolled over and will not give rise to any
+      cash inflows (zero per cent). Maturing reverse repurchase or securities
+      borrowing agreements secured by other HQLA are to be modelled as cash
+      inflows, as outlined in Table 4 below, due to the reduction of funds extended
+      against the collateral. Collateralised loans extended to customers for the
+      purpose of taking leveraged trading positions are to be modelled with a 50 per
+      cent cash inflow from contractual inflows made against non-HQLA1 or non-
+      HQLA2.
+
+56.   As an exception to paragraph 55 of this Attachment, if the collateral obtained
+      through reverse repo, securities borrowing or collateral swaps, which matures
+      within the 30-day horizon, is re-used (i.e. rehypothecated) and is tied up for 30
+      days or longer to cover short positions, an ADI must assume that such reverse
+      repo or securities borrowing arrangements will be rolled over and will not give
+      rise to any cash inflows (zero per cent), reflecting its need to continue to cover
+      the short position or to re-purchase the relevant securities.
+
+
+
+
+                                                                     APS 210 Attachment A - 30
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                             July 2025
+
+
+
+      Table 4 – Maturing secured lending inflow rates
+
+
+            Maturing secured                   Inflow rate                           Inflow rate
+            lending backed by                      (%)                                   (%)
+                                           (if collateral is not                (if collateral is used
+            the following asset           used to cover short                       to cover short
+                 category                       positions)                            positions)
+        HQLA1                                        0                                  0
+        CLF-eligible debt                            0                                  0
+        securities, where the
+        ADI receiving assets
+        has a CLF with the
+        RBA subject to the
+        ADI’s CLF limit
+        HQLA2A                                      15                                  0
+        HQLA2B (eligible                            25                                  0
+        residential mortgage-
+        backed securities)
+        Other HQLA2B                                50                                  0
+        Margin lending backed                       50                                  0
+        by securities that are
+        not HQLA1, HQLA2
+        or CLF-eligible
+        securities
+        All other collateral                       100                                  0
+
+Lines of credit
+
+57.   Lines of credit, liquidity facilities and other contingent funding facilities that an
+      ADI holds at other institutions for its own purposes receive a zero per cent inflow
+      rate.
+
+58.   APRA may allow recognition of access to head office funds via a committed
+      funding facility if the ADI is a foreign ADI. In such instances, the head office
+      committed funding facility must meet all of the following criteria:
+
+      (a)    the committed funding facility is an irrevocable commitment from the
+             branch’s head office and is appropriately documented; and
+
+      (b)    the committed funding facility is quantified.
+
+      This paragraph does not apply to a foreign ADI that is part of a group that also
+      has a locally-incorporated banking subsidiary in Australia.
+
+
+
+                                                                      APS 210 Attachment A - 31
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                            July 2025
+
+
+
+59.   A foreign ADI may meet up to 50 per cent of its LCR requirement with a head
+      office committed funding facility. The remaining liquidity requirement must be
+      met with eligible liquid assets as detailed in this Attachment.
+
+Inflows by counterparty
+
+60.   All inflows are to be taken only at the latest possible date, based on the
+      contractual rights available to counterparties. Inflows from loans that have no
+      specific maturity are not included, with the exception of minimum payments of
+      principal, fee or interest associated with an open maturity loan.
+
+      Retail and SME inflows
+
+61.   An ADI is assumed to receive all fully performing contractual inflows from retail
+      and SME7 customers. At the same time, however, an ADI is assumed to continue
+      to extend loans to retail and SME customers, at a rate of 50 per cent of contractual
+      inflows. This results in a net inflow rate of 50 per cent of the contractual amount.
+
+      Other wholesale inflows
+
+62.   An ADI is assumed to receive all fully performing contractual wholesale cash
+      inflows. In addition, an ADI is assumed to continue to extend loans to wholesale
+      clients, at a rate of zero per cent of inflows for financial institutions and central
+      banks, and 50 per cent for all others, including non-financial corporates,
+      sovereigns, PSEs and MDBs. This will result in an inflow rate of:
+
+      (a)    100 per cent from financial institution and central bank counterparties; and
+
+      (b)    50 per cent for other entities.
+
+      Inflows from maturing securities not included in the stock of HQLA receive an
+      inflow rate of 100 per cent.
+
+      Operational deposits
+
+63.   A zero per cent inflow rate applies to deposits held at other financial institutions
+      for operational purposes.
+
+64.   Likewise, the depositing ADI must not count any inflow for deposits held at the
+      centralised institution in a cooperative banking network, which are assumed to
+      stay at the centralised institution. These funds will receive a zero per cent inflow
+      rate.
+
+
+
+
+7     Where the definition for an SME customer in paragraph 46 of this Attachment cannot be applied
+      due to the absence of liability products, the definition in paragraph 40 of Prudential Standard APS
+      113 Capital Adequacy: Internal Ratings-based Approach to Credit Risk can be used instead.
+
+
+                                                                         APS 210 Attachment A - 32
+
+                            Authorised Version F2025L00653 registered 06/06/2025
+                                                                                         July 2025
+
+
+
+Other cash inflows
+
+      Derivatives cash inflows8
+
+65.   These derivative items receive an inflow rate of 100 per cent.
+
+      Other contractual cash inflows
+
+66.   Other contractual cash inflows receive an inflow rate of 100 per cent. Cash
+      inflows related to non-financial revenues are not taken into account in the
+      calculation of the net cash outflows for the purposes of the LCR.
+
+
+
+
+8     The treatment in footnote 5 also applies here.
+
+
+                                                                         APS 210 Attachment A - 33
+
+                            Authorised Version F2025L00653 registered 06/06/2025
+                                                                                     July 2025
+
+
+
+Attachment B
+Minimum liquidity holdings approach
+1.   For the purpose of this Attachment, liabilities are defined as total on-balance sheet
+     liabilities and irrevocable commitments, except where approved for a prudential
+     purpose by APRA.
+
+2.   For the purpose of the MLH requirement, liquid assets are included at market
+     value. These assets must be free from encumbrances except where approved for
+     a prudential purpose by APRA, and include:
+
+     (a)   notes and coin and settlement funds;
+
+     (b)   Commonwealth Government and semi-government securities;
+
+     (c)   debt securities guaranteed by the Australian Government, or foreign
+           sovereign governments;
+
+     (d)   debt securities issued by supranationals and foreign governments;
+
+     (e)   bank bills, certificates of deposits (CDs) and debt securities issued by ADIs;
+
+     (f)   deposits (at call and any other deposits readily convertible into cash within
+           two business days) held with other ADIs net of placements by other ADIs;
+           and
+
+     (g)   any other securities approved by APRA.
+
+3.   All debt securities must be eligible for repurchase agreement with the RBA and
+     must not be subordinated.
+
+4.   An MLH ADI must ensure it has the operational capacity to liquidate any
+     securities held as liquid assets within two business days.
+
+5.   In order to ensure that the MLH requirement is not breached, absent a situation
+     of financial stress, an ADI must set a trigger ratio above its MLH requirement and
+     must ensure that it manages its liquidity in accordance with its trigger ratio.
+
+6.   An ADI must inform APRA immediately when it becomes aware that its liquid
+     assets may fall below its MLH requirement and advise APRA of the remedial
+     action taken or planned to restore its liquidity position above its MLH
+     requirement.
+
+
+
+
+                                                                     APS 210 Attachment B - 34
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+                                                                                           July 2025
+
+
+
+Attachment C
+Net stable funding ratio
+1.   The objective of the NSFR is to reduce the funding risk of an ADI over a one-
+     year time horizon by requiring an ADI to fund its activities with sufficiently stable
+     sources of funding in order to mitigate the risk of future funding stress.
+
+2.   The NSFR has two components:
+
+     (a)    available stable funding (ASF); and
+
+     (b)    required stable funding (RSF).
+
+3.   The NSFR is calculated as:
+
+      Available stable funding
+      Required stable funding
+
+4.   An ADI must maintain an appropriate buffer above its required NSFR under this
+     Prudential Standard, in line with its liquidity risk tolerance, at all times.
+
+5.   For the purposes of this Attachment, the meanings and definitions in Attachment
+     A apply unless otherwise indicated.
+
+Available stable funding (ASF)
+
+6.   ASF is the portion of capital and liabilities expected to be reliably provided over
+     a one-year time horizon, and is measured based on the broad characteristics of the
+     relative stability of an ADI’s funding sources, including the contractual maturity
+     of its liabilities and the differences in propensity of different types of funding
+     providers to withdraw their funds.
+
+7.   An ADI must calculate its ASF as follows:
+
+     (a)    assign the carrying value9 of the ADI’s capital and liabilities to the relevant
+            ASF category (refer to paragraphs 11 to 15 of this Attachment);
+
+     (b)    multiply the amount assigned to each liability category by the
+            corresponding ASF factor to obtain a weighted amount; and
+
+     (c)    sum the weighted amounts.
+
+Maturity of funding
+
+8.   In order to determine the maturity of a funding instrument with an option or a
+     deposit with a withdrawal notice period, an ADI must, for the purposes of the
+
+9    The carrying value represents the amount of a liability or equity instrument before application of
+     any regulatory deductions, filters or other adjustments.
+
+                                                                        APS 210 Attachment C - 35
+
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                              July 2025
+
+
+      NSFR, assume the maturity date as being the earliest date at which the funds may
+      be redeemed. For long-dated liabilities, only that portion of cash flows falling on
+      or after the six-month and one-year time horizons may be treated as having an
+      effective residual maturity of six months or more and one year or more,
+      respectively.
+
+Calculation of derivative liability amounts
+
+9.    An ADI must calculate its derivative liabilities based on the replacement cost for
+      derivative contracts (obtained by marking-to-market) where the contract has a
+      negative value. When an eligible bilateral netting contract is in place that meets
+      the conditions specified in paragraphs 9 to 11 of Attachment H of APS 112 and
+      paragraphs 8 and 9 of the annex of the Basel III leverage ratio framework and
+      disclosure requirements,10 the replacement cost for the set of derivative exposures
+      covered by the contract will be the net replacement cost.
+
+10.   In calculating NSFR derivative liabilities, an ADI must deduct any collateral
+      posted in the form of variation margin in connection with derivative contracts,
+      regardless of the asset type, from the negative replacement cost amount.11,12
+
+Liabilities and capital receiving a 100 per cent ASF factor
+
+11.   The following liabilities and capital instruments must be assigned a 100 per cent
+      ASF factor:
+      (a)    the total amount of regulatory capital, before the application of regulatory
+             adjustments, as defined in Prudential Standard APS 111 Capital Adequacy:
+             Measurement of Capital (APS 111), excluding the proportion of Tier 2
+             instruments with a residual maturity of less than one year;
+
+      (b)    the total amount of any capital instrument not included in paragraph 11(a)
+             that has an effective residual maturity of one year or more, but excluding
+             any instruments with explicit or embedded options that, if exercised, would
+             reduce the expected maturity to less than one year; and
+
+      (c)    the total amount of secured and unsecured borrowings and liabilities,
+             including term deposits with an effective residual maturity of one year or
+             more. Cash flows due in less than one year that arise from liabilities with a
+             final maturity greater than one year are not eligible for the 100 per cent ASF
+             factor.
+
+
+
+
+10    Refer to Basel III leverage ratio framework and disclosure requirements, January 2014, Basel
+      Committee on Banking Supervision as it exists at 12 January 2014.
+11    NSFR derivative liabilities = (derivative liabilities) – (total collateral posted as variation margin
+      on derivative liabilities).
+12    When determining its RSF, an ADI must not include an asset on its balance sheet associated with
+      collateral posted as variation margin where the asset is deducted from the replacement cost amount
+      of a derivative contract for the purposes of the NSFR.
+
+                                                                          APS 210 Attachment C - 36
+
+
+                             Authorised Version F2025L00653 registered 06/06/2025
+                                                                                            July 2025
+
+
+Liabilities receiving a 95 per cent ASF factor
+
+12.   The following liabilities must be assigned a 95 per cent ASF factor:
+
+      (a)   liabilities classified as stable13 demand deposits and term deposits with a
+            residual maturity of less than one year provided by retail and SME
+            customers;14 and
+
+      (b)   intermediated deposits that meet the requirements of paragraph 35 of
+            Attachment A for treatment as stable retail deposits and where the
+            intermediary cannot replace the ADI unless it provides at least 12-months’
+            notice.
+
+Liabilities receiving a 90 per cent ASF factor
+
+13.   The following liabilities must be assigned a 90 per cent ASF factor:
+
+      (a)   liabilities classified as less stable15 demand deposits and term deposits with
+            a residual maturity of less than one year provided by retail and SME
+            customers; and
+
+      (b)   intermediated deposits, including member-directed superannuation
+            deposits, that meet the requirements of paragraph 35 of Attachment A for
+            treatment as less stable retail deposits and where the intermediary cannot
+            replace the ADI unless it provides at least 12-months’ notice.
+
+Liabilities receiving a 50 per cent ASF factor
+
+14.   The following liabilities must be assigned a 50 per cent ASF factor:
+
+      (a)   secured and unsecured funding with a residual maturity of less than one
+            year provided by non-financial corporate customers;
+
+      (b)   operational deposits;16
+
+      (c)   superannuation fund deposits that meet the definition of operational
+            deposits;17
+
+      (d)   intermediated deposits, including member-directed superannuation
+            deposits, that meet the requirements of paragraph 35 of Attachment A and
+            where the intermediary cannot replace the ADI unless it provides at least
+            six months’ notice;
+
+      (e)   funding with a residual maturity of less than one year from sovereigns,
+            PSEs and MDBs and national development banks; and
+
+
+13    Refer to paragraph 37 of Attachment A.
+14    Refer to paragraph 34 of Attachment A. Also refer to paragraph 46 and footnote 9 of
+      Attachment A for the definition of SME.
+15    Refer to paragraph 38 of Attachment A.
+16    Refer to paragraphs 47 to 50 of Attachment A.
+17    Refer to footnote 16.
+
+                                                                        APS 210 Attachment C - 37
+
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                            July 2025
+
+
+      (f)    other funding, secured and unsecured, not included in the categories above
+             with a residual maturity of between six months to less than one year,
+             including funding from central banks and financial institutions.
+
+Liabilities receiving a zero per cent ASF factor
+
+15.   The following liabilities must be assigned a zero per cent ASF factor:
+
+      (a)    all other liabilities and equity categories not included in paragraphs 11 to
+             14 of this Attachment, including other funding with a residual maturity of
+             less than six months from central banks and financial institutions;18
+
+      (b)    other liabilities without a stated maturity including short positions and open
+             maturity positions, except for:
+
+             (i)    deferred tax liabilities, which must be treated according to the nearest
+                    possible date on which such liabilities could be realised; and
+
+             (ii)   minority interests, which must be treated according to the term of
+                    the instrument, usually in perpetuity.
+
+             These liabilities are assigned a 100 per cent ASF factor if the effective
+             maturity is one year or greater, or 50 per cent, if the effective maturity is
+             between six months and less than one year;
+
+      (c)    if NSFR derivative liabilities are greater than NSFR derivative assets, then
+             NSFR derivative liabilities calculated in accordance with paragraphs 9 and
+             10 of this Attachment net of NSFR derivative assets as calculated in
+             accordance with paragraphs 27 and 28 of this Attachment;19 and
+
+      (d)    trade date payables arising from the purchase of financial instruments,
+             foreign currencies and commodities that (i) are expected to settle within the
+             standard settlement cycle or period that is customary for the relevant
+             exchange or type of transaction or (ii) have failed to, but are still expected
+             to, settle.
+
+
+
+
+18    Subject to APRA’s approval, deposits between ADIs within the same cooperative network may
+      be excluded from liabilities receiving a zero per cent ASF provided they are either (a) required
+      by law to be placed at the central organisation and are legally constrained within the cooperative
+      network as minimum deposit requirements; or (b) in the context of common task sharing and
+      legal, statutory or contractual arrangements, so long as the ADI that has received the monies and
+      the ADI that has deposited participate in the same institutional network’s mutual protection
+      scheme against illiquidity and insolvency of its members. Such deposits may be assigned an
+      ASF up to the RSF factor assigned by regulation for the same deposits to the depositing bank,
+      not to exceed 85 per cent.
+19    ASF = 0 per cent x MAX ((NSFR derivative liabilities – NSFR derivative assets), 0).
+
+
+                                                                         APS 210 Attachment C - 38
+
+
+                            Authorised Version F2025L00653 registered 06/06/2025
+                                                                                            July 2025
+
+
+Required stable funding (RSF)
+
+16.   RSF is the minimum amount of stable funding an ADI is required to hold and is
+      a function of the liquidity characteristics and residual maturities of the various
+      assets held by an ADI including off-balance sheet (OBS) exposures.
+
+17.   An ADI must calculate its RSF as follows:
+
+      (a)    assign the ADI’s assets, at carrying value, and OBS exposures to the
+             relevant RSF category (refer to paragraphs 29 to 37 of this Attachment);
+
+      (b)    multiply the amount assigned to each asset category and OBS exposure (or
+             potential liquidity exposure) by the corresponding RSF factor; and
+
+      (c)    sum the weighted amounts.20
+
+18.   An ADI must allocate assets to the appropriate RSF factor based on the asset’s
+      residual maturity or liquidity value as detailed in this attachment.
+
+19.   For the purposes of determining its RSF, an ADI must include financial
+      instruments, foreign currencies and commodities for which a purchase order has
+      been executed. An ADI may exclude financial instruments, foreign currencies
+      and commodities for which a sales order has been executed, even if such
+      transactions are not reflected in the ADI’s balance sheet under a settlement-date
+      accounting model provided that (i) such transactions are not reflected as
+      derivatives or secured financing transactions on the ADI’s balance sheet and (ii)
+      the effects of such transactions will be reflected in the ADI’s balance sheet when
+      settled.
+
+Maturity of assets
+
+20.   To determine the maturity of an asset, an ADI must, for the purposes of the NSFR,
+      assume the maturity date as being the latest possible date at which the asset may
+      mature. An ADI must assume that for an asset with an option to extend maturity,
+      the option will be exercised.
+
+21.   Where an asset does not have a defined maturity or the maturity is subject to
+      periodic review, an ADI must, for NSFR purposes, classify the asset as having a
+      residual maturity of greater than or equal to one year and assign the relevant RSF
+      factor on this basis.
+
+22.   For an amortising loan, or a loan with minimum contractual payments, that
+      portion that falls due within the one-year time horizon may be included in the less
+      than one year residual maturity category.
+
+
+20    For the purposes of calculating the NSFR, HQLA is defined as all HQLA without regard to LCR
+      operational requirements and LCR caps on HQLA2 and HQLA2B that may otherwise limit the
+      ability of some HQLA to be included as eligible HQLA in calculation of the LCR. HQLA is
+      defined in paragraphs 6 to 29 of Attachment A and operational requirements is defined in
+      paragraphs 22 to 29 of Attachment A. For the purposes of calculating the NSFR, assets include
+      20 per cent of derivative liabilities calculated in accordance with paragraph 9 of this Attachment.
+
+                                                                         APS 210 Attachment C - 39
+
+
+                            Authorised Version F2025L00653 registered 06/06/2025
+                                                                                         July 2025
+
+
+Encumbered assets
+
+23.   Assets on an ADI’s balance sheet that are encumbered21 for one year or more
+      must be assigned a 100 per cent RSF factor. Assets encumbered for a period of
+      between six months and less than one year that would, if unencumbered, receive
+      an RSF factor lower than or equal to 50 per cent must be assigned a 50 per cent
+      RSF factor. Assets encumbered for between six months and less than one year
+      that would, if unencumbered, receive an RSF factor higher than 50 per cent must
+      be assigned the higher RSF factor. Where assets have less than six months
+      remaining in the encumbrance period, the same RSF factor is applied as that for
+      an equivalent asset that is unencumbered.
+
+24.   Where an asset is encumbered for exceptional22 central bank liquidity operations,
+      the asset may be given a lower RSF factor if approval is sought from APRA and
+      APRA agrees to the lower RSF factor.
+
+Secured financing transactions
+
+25.   For the purposes of determining its NSFR, an ADI must exclude from its assets
+      amount, securities borrowed in securities financing transactions (for example,
+      reverse repos and collateral swaps) where the ADI does not retain beneficial
+      ownership of the securities. Conversely, an ADI must include securities lent in
+      securities financing transactions where the ADI retains beneficial ownership. An
+      ADI must not include securities received through collateral swaps if those
+      securities do not appear on the ADI’s balance sheet. If an ADI has encumbered
+      securities in repos or other securities financing transactions, but retains beneficial
+      ownership and the assets remain on the ADI’s balance sheet, the ADI must
+      allocate the security to the appropriate RSF category.
+
+26.   An ADI may net securities financing transactions with a single counterparty when
+      calculating its NSFR, provided that the netting conditions set out in paragraph 38
+      of Attachment D of Prudential Standard APS 110 Capital Adequacy (APS 110)
+      are met.
+
+Calculation of derivative asset amounts
+
+27.   An ADI must calculate the value of derivative assets based on the replacement
+      cost for derivative contracts (obtained by marking-to-market) where the contract
+      has a positive value. When an eligible bilateral netting agreement is in place that
+      meets the conditions in paragraphs 9 to 11 of Attachment H of APS 112 and
+      paragraphs 8 and 9 of the annex of the Basel III leverage ratio framework and
+      disclosure requirements,23 the replacement cost for the set of derivative exposures
+      covered by the contract must be calculated as the net replacement cost.
+
+
+21    Encumbered assets include but are not limited to assets backing securities or covered bonds and
+      assets pledged in securities financing transactions or collateral swaps.
+22    In general, exceptional central bank liquidity operations are considered to be non-standard,
+      temporary operations conducted by a central bank in order to achieve its mandate in a period of
+      market-wide financial stress and/or exceptional macroeconomic circumstances.
+23    Basel III leverage ratio framework and disclosure requirements, January 2014, Basel Committee
+      on Banking Supervision as it exists at 12 January 2014.
+
+                                                                        APS 210 Attachment C - 40
+
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                            July 2025
+
+
+28.   When calculating NSFR derivative assets, collateral received in connection with
+      derivative contracts must not offset the positive replacement cost amount,
+      regardless of whether or not netting is permitted under an ADI’s operational
+      accounting or risk-based framework, unless it is received in the form of a cash
+      variation margin and meets the conditions specified in paragraph 23 of
+      Attachment D to APS 110 and is in the same currency as the currency of
+      settlement24 of the derivative contract. Any remaining balance sheet liability
+      associated with variation margin received that does not meet the criteria above or
+      initial margin received must not offset derivative assets and must be assigned a
+      zero per cent ASF factor.
+
+Assets assigned a zero per cent RSF factor
+
+29.   An ADI must assign a zero per cent RSF factor to the following assets:
+
+      (a)    notes and coins immediately available to meet obligations;
+
+      (b)    central bank reserves and balances;25
+
+      (c)    all claims on central banks with a residual maturity of less than six months;
+             and
+
+      (d)    trade date receivables arising from the sale of financial instruments, foreign
+             currencies and commodities that (i) are expected to settle within the
+             standard settlement cycle or period for the relevant exchange or type of
+             transaction or (ii) have failed to, but are still expected to, settle.
+
+Assets assigned a five per cent RSF factor
+
+30.   An ADI must assign a five per cent RSF factor to the following assets. They
+      include unencumbered HQLA1 assets, but exclude assets receiving a zero per
+      cent RSF factor as specified in paragraph 29 of this Attachment:
+
+      (a)    marketable securities representing claims on or claims guaranteed by
+             sovereigns, central banks, PSEs, the BIS, the IMF, the ECB and EU or
+             MDBs and that are assigned a zero per cent risk weight under Attachment
+             B of APS 112; and
+
+      (b)    certain non-zero per cent risk-weighted sovereign or central bank debt
+             securities as specified in paragraphs 9(d) and (e) of Attachment A.
+
+Assets assigned a 10 per cent RSF factor
+
+31.   An ADI must assign a 10 per cent RSF factor to unencumbered loans to financial
+      institutions with a residual maturity of less than six months, where the loan is
+
+24    Refer to question 2.1 of Basel III leverage ratio framework and disclosure requirements, January
+      2014, Basel Committee on Banking Supervision as it exists at 12 January 2014.
+25    APRA may impose a higher RSF factor after discussing and agreeing with the relevant central
+      bank and taking into consideration whether the reserve requirement must be satisfied at all times
+      and the extent to which the reserve requirement in a particular jurisdiction exists over a longer-
+      term horizon and therefore requires associated stable funding.
+
+                                                                         APS 210 Attachment C - 41
+
+
+                            Authorised Version F2025L00653 registered 06/06/2025
+                                                                                      July 2025
+
+
+      secured against HQLA1 assets as defined in paragraph 9 of Attachment A,
+      provided the ADI has the ability to freely rehypothecate the received collateral
+      for the life of the loan.
+
+32.   An ADI may assign an RSF factor of 10 per cent to:
+
+      (a)   CLF-eligible third-party debt securities, other jurisdictions’ ALA and assets
+            recognised as eligible liquid assets by a host supervisor that APRA allows
+            to be included in the numerator of the LCR. The 10 per cent RSF factor
+            may only be applied to the lower of the carrying value of the assets and the
+            amount of the CLF that may be included in the numerator of the ADI’s LCR
+            as allowed for under this Prudential Standard; and
+
+      (b)   self-securitised assets, eligible as CLF collateral. The maximum amount
+            eligible for the 10 per cent RSF factor is the ADI’s CLF less eligible third-
+            party debt securities held as collateral for the CLF.
+
+Assets assigned a 15 per cent RSF factor
+
+33.   An ADI must assign a 15 per cent RSF factor to the following assets:
+
+      (a)   unencumbered HQLA2A assets as defined in paragraph 10 of Attachment
+            A; and
+
+      (b)   all other unencumbered loans to financial institutions with a residual
+            maturity of less than six months not included in paragraph 31 of this
+            Attachment.
+
+Assets assigned a 50 per cent RSF factor
+
+34.   An ADI must assign a 50 per cent RSF factor to the following assets:
+
+      (a)   unencumbered HQLA2B assets as defined in paragraph 12 of Attachment
+            A;
+
+      (b)   any HQLA as defined in Attachment A that are encumbered for a period of
+            between six months and less than one year;
+
+      (c)   all loans to financial institutions and central banks with a residual maturity
+            of between six months and less than one year;
+
+      (d)   operational deposits held at other ADIs that are subject to a 50 per cent ASF
+            factor in paragraph 14(b) of this Attachment;
+
+      (e)   Australian equities, other than financial institutions or associated entities
+            (as defined in section 50AAA of the Corporations Act 2001), that trade on
+            the Australian Securities Exchange (ASX) and form part of the
+            S&P/ASX200 stock index; and
+
+      (f)   all other non-HQLA not included in the above categories that have a
+            residual maturity of less than one year, including loans to non-financial
+
+
+                                                                      APS 210 Attachment C - 42
+
+
+                         Authorised Version F2025L00653 registered 06/06/2025
+                                                                                        July 2025
+
+
+            corporate clients, loans to retail customers (i.e. natural persons) and SME
+            customers and loans to sovereigns and PSEs.
+
+Assets assigned a 65 per cent RSF factor
+
+35.   An ADI must assign a 65 per cent RSF factor to the following assets:
+
+      (a)   unencumbered standard residential property loans to an individual (that is,
+            a natural person) or individuals with a residual maturity of one year or more
+            and a loan-to-valuation ratio of 80 per cent or below, as defined under APS
+            112; and
+
+      (b)   other unencumbered loans not included in the above categories, excluding
+            loans to financial institutions, with a residual maturity of one year or more
+            that are subject to or would qualify for a 35 per cent or lower risk weight
+            under APS 112.
+
+Assets assigned an 85 per cent RSF factor
+
+36.   An ADI must assign an 85 per cent RSF factor to the following assets:
+
+      (a)   cash, securities or other assets, whether on- or off-balance sheet, posted as
+            an initial margin for derivative contracts and cash or other assets provided
+            to contribute to the default fund of a central counterparty (CCP).26 Where
+            securities or other assets posted as an initial margin for derivative contracts
+            would otherwise receive a higher RSF factor, they must be assigned the
+            higher factor;
+
+      (b)   other unencumbered performing loans that do not qualify under paragraph
+            35 of this Attachment that have residual maturities of one year or more,
+            excluding loans to financial institutions; 27
+
+      (c)   unencumbered securities with a remaining maturity of one year or more and
+            exchange-traded equities, that are not in default and do not qualify as
+            HQLA; and
+
+      (d)   physical traded commodities, including gold.
+
+Assets assigned a 100 per cent RSF factor
+
+37.   An ADI must assign a 100 per cent RSF factor to the following assets:
+
+      (a)   all assets that are encumbered for a period of one year or more;28
+
+      (b)   NSFR derivative assets calculated in accordance with paragraphs 27 and 28
+            of this Attachment net of NSFR derivative liabilities calculated in
+26    An initial margin posted on behalf of a customer, where an ADI does not guarantee performance
+      of the third party, is exempt from this requirement.
+27    Whether a loan is performing or non-performing is determined by reference to Prudential
+      Standard APS 220 Credit Risk Management.
+28    For a non-maturity reverse repo, an RSF of 100 per cent applies, unless an ADI is able to
+      demonstrate to APRA’s satisfaction that it would effectively have a different maturity period.
+
+                                                                        APS 210 Attachment C - 43
+
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                        July 2025
+
+
+            accordance with paragraphs 9 and 10 of this Attachment, if NSFR
+            derivative assets are greater than NSFR derivative liabilities;29
+
+      (c)   all other assets not included in the above categories, including non-
+            performing loans, loans to financial institutions with a residual maturity of
+            one year or more, non-exchange-traded equities, fixed assets, items
+            deducted from regulatory capital (as defined in APS 111), retained interest,
+            insurance assets, subsidiary interests and defaulted securities; and
+
+      (d)   20 per cent of derivative liabilities (i.e. negative replacement cost amounts)
+            as calculated according to paragraph 9 of this Attachment (before deducting
+            any variation margin posted).
+
+Interdependent assets and liabilities
+
+38.   APRA may determine that certain asset and liability items, on the basis of
+      contractual arrangements, are interdependent such that the liability cannot fall due
+      while the asset remains on the balance sheet, the principal payment flows from
+      the asset cannot be used other than for repaying the liability, and the liability
+      cannot be used to fund other assets.
+
+39.   For the purposes of paragraph 38, APRA will only make a determination, on a
+      case-by-case basis, in exceptional circumstances. As part of any determination,
+      an ADI must, at a minimum, be able to demonstrate that the criteria in paragraph
+      40 are met in full.
+
+40.   If APRA determines asset and liability items to be interdependent in accordance
+      with paragraph 38 of this Attachment then APRA may, at its discretion, adjust
+      the RSF and ASF factors relating to those asset and liability items to zero per
+      cent, subject to the following criteria:
+
+      (a)   the individual interdependent asset and liability items are clearly
+            identifiable;
+
+      (b)   the maturity and principal amount of both the liability and its
+            interdependent asset are the same;
+
+      (c)   the ADI is acting solely as a pass-through unit to channel the funding
+            received (the interdependent liability) into the corresponding
+            interdependent asset; and
+
+      (d)   the counterparties for each pair of interdependent liabilities and assets are
+            not the same.
+
+
+
+
+29    RSF = 100 per cent x MAX ((NSFR derivative assets – NSFR derivative liabilities), 0).
+
+                                                                        APS 210 Attachment C - 44
+
+
+                           Authorised Version F2025L00653 registered 06/06/2025
+                                                                                     July 2025
+
+
+Off-balance sheet exposures
+
+41.   An ADI must apply the RSF factor to the RSF category in Table 1 for the OBS
+      exposure categories in the Table.
+
+      Table 1 – OBS exposure categories
+
+         RSF factor (%)                               RSF category
+               5              Irrevocable and conditionally revocable credit and
+                              liquidity facilities to any client
+                1             Unconditionally revocable credit and liquidity facilities
+
+42.   An ADI must apply an RSF factor of 100 per cent to trade finance-related
+      obligations and guarantees and letters of credit unrelated to trade finance
+      obligations using the actual net outflows for these obligations in the most recent
+      12-month period.
+
+
+
+
+                                                                     APS 210 Attachment C - 45
+
+
+                        Authorised Version F2025L00653 registered 06/06/2025
+
