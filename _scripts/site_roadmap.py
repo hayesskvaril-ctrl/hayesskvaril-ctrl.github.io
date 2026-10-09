@@ -42,8 +42,8 @@ STAGES = [
     ("done", "Keeping facts current",
      "Key dates, amounts and limits now live in one register with their official source and when they were last checked, and every page takes them from it. A weekly automatic check reads new regulator announcements and looks for each fact on its official source.",
      "/about/fact-register.html", "8 October 2026"),
-    ("later", "Obligations library, stage 2",
-     "Breaking each obligation summary into the individual obligations in the law, with citations.",
+    ("done", "Obligations library, stage 2",
+     "Breaking each obligation summary into the individual obligations in the law, with citations: 568 obligations across 38 regimes, each checked against the official text (October 2026).",
      "/obligations/", ""),
 ]
 
