@@ -386,6 +386,33 @@
   "status": 200,
   "type": "application/pdf"
  },
+ "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/contributions-caps": {
+  "chars": 0,
+  "date": "2026-10-09",
+  "file": "",
+  "final": "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/contributions-caps",
+  "kind": "none",
+  "status": 403,
+  "type": ""
+ },
+ "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee": {
+  "chars": 0,
+  "date": "2026-10-09",
+  "file": "",
+  "final": "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee",
+  "kind": "none",
+  "status": 403,
+  "type": ""
+ },
+ "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/transfer-balance-cap": {
+  "chars": 0,
+  "date": "2026-10-09",
+  "file": "",
+  "final": "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/transfer-balance-cap",
+  "kind": "none",
+  "status": 403,
+  "type": ""
+ },
  "https://www.finance.gov.au/government/comcover/risk-services/management/commonwealth-risk-management-policy": {
   "chars": 0,
   "date": "2026-10-09",
@@ -556,6 +583,15 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2004A04402/2026-07-01/2026-07-01/text/original/word": {
+  "chars": 176489,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a04402-2026-07-01-2026-07-01-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2004A04402/2026-07-01/2026-07-01/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
  "https://www.legislation.gov.au/C2004A04633/2026-08-10/2026-08-10/text/original/word/1": {
   "chars": 628439,
@@ -994,6 +1030,15 @@
   "date": "2026-10-08",
   "file": "legislation-gov-au-f2026l00475-asmade-2026-04-29-text-original-pdf.txt",
   "final": "https://www.legislation.gov.au/F2026L00475/asmade/2026-04-29/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "https://www.legislation.gov.au/F2026N00424/asmade/2026-06-16/text/original/pdf": {
+  "chars": 3543,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-f2026n00424-asmade-2026-06-16-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2026N00424/asmade/2026-06-16/text/original/pdf",
   "kind": "pdf",
   "status": 200,
   "type": "application/pdf"
