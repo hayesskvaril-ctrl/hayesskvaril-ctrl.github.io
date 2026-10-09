@@ -569,6 +569,49 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Unfair terms in standard form consumer and small business insurance contracts are void, and proposing or relying on one is a contravention', 'ASIC Act s 12BF(1), (2A), (2C); Insurance Contracts Act s 15(2)(d)']]
     }
   },
+  lifeact: {
+    source: [['Life Insurance Act 1995 (compilation in force from 21 February 2025)', 'https://www.legislation.gov.au/C2004A04860/latest/text'], ['Corporations Act 2001, ss 963B, 963BA and 963BB (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Have at least one statutory fund for life insurance business, with separate funds for investment-linked business and (generally) for business outside Australia', 'Life Insurance Act s 31'],
+        ['Credit premiums, investment income and other money received for a fund’s business to that fund, and keep its assets separate from other funds and the company’s other assets', 'Life Insurance Act ss 34(3), 36'],
+        ['Use a fund’s assets only for its liabilities and expenses, permitted investments and authorised distributions, and do not charge them except as allowed', 'Life Insurance Act s 38'],
+        ['In managing a statutory fund, give priority to the interests of owners and prospective owners of its policies; directors must take reasonable care to see that the company does so and can be personally liable for losses', 'Life Insurance Act ss 32, 48'],
+        ['Each policy document names the statutory fund or funds the policy belongs to', 'Life Insurance Act s 35'],
+        ['Statutory funds cannot be restructured or terminated without APRA’s approval', 'Life Insurance Act ss 30(e), 46'],
+        ['Appoint an auditor and an appointed actuary who meet APRA’s eligibility criteria, replacing an actuary within six weeks; the actuary must raise problems with the company and tell APRA immediately of significant suspected contraventions', 'Life Insurance Act ss 83–85, 93–94, 98']],
+      2: [
+        ['Commissions on life risk insurance given to advice licensees are not banned conflicted remuneration only if they are level, or meet ASIC’s benefit ratio limits and clawback requirements (group cover in super and default MySuper members excluded)', 'Corporations Act s 963B(1)(b), (2)'],
+        ['ASIC sets the acceptable benefit ratio for each year by legislative instrument', 'Corporations Act s 963BA(1)–(2)'],
+        ['The arrangement must require repayment of commission if the policy is cancelled, not continued or reduced within two years of first issue (other than because of a claim), in at least the amount ASIC sets', 'Corporations Act s 963BA(3)–(4)'],
+        ['Where personal advice is given, the client must consent before the product is issued to the commission, after being told the insurer, the commission rate as a percentage of the policy cost, any services, and that consent is required by law and irrevocable', 'Corporations Act s 963BB']]
+    }
+  },
+  phiact: {
+    source: [['Private Health Insurance Act 2007 (compilation in force from 19 September 2026). Product tiers (Gold, Silver, Bronze, Basic) and the content of information statements are set in the Private Health Insurance (Complying Product) Rules, not itemised here', 'https://www.legislation.gov.au/C2007A00031/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Do not take any action, or make any decision, that improperly discriminates between people who are or want to be insured under a complying health insurance policy', 'PHI Act s 55-5(1)'],
+        ['Improper discrimination includes discrimination based on a medical condition, gender, race, sexual orientation, religious belief, age or where someone lives (except as the Act allows), characteristics likely to increase the need for treatment, or how often someone needs treatment or claims', 'PHI Act s 55-5(2)']],
+      2: [
+        ['Premiums must match the amount approved by the Minister for the product subgroup, apart from Lifetime Health Cover loadings and allowed discounts offered on the same basis across the product', 'PHI Act s 66-5'],
+        ['Apply to the Minister for approval before changing premiums or making a designated change to a product; within the approved application period the Minister approves unless an increase is contrary to the public interest', 'PHI Act s 66-10']],
+      3: [
+        ['Keep an accurate, up-to-date private health information statement for every product subgroup offered or held (an offence of strict liability if missing or out of date)', 'PHI Act s 93-1'],
+        ['Make information statements available and give up-to-date copies to the Department or the Private Health Insurance Ombudsman on request', 'PHI Act ss 93-10, 96-1']],
+      4: [
+        ['Waiting periods for people who have not transferred can be no longer than 12 months for obstetrics and pre-existing conditions, and 2 months for psychiatric care, rehabilitation, palliative care and other hospital treatment', 'PHI Act s 75-1'],
+        ['A pre-existing condition is one whose signs or symptoms existed in the six months before joining, in the opinion of the insurer’s appointed medical practitioner', 'PHI Act s 75-15'],
+        ['Portability: someone transferring from another complying policy (within 7 days or longer if allowed) serves no new waiting period for hospital treatment covered under the old policy, only any unexpired balance', 'PHI Act ss 75-10, 78-1']],
+      5: [
+        ['Tell an adult insured person a reasonable time in advance about any proposed rule change that is or might be detrimental to their interests (failing to do so is an offence)', 'PHI Act ss 93-25, 93-30']],
+      6: [
+        ['Increase hospital cover premiums by the Lifetime Health Cover loading for adults who did not have hospital cover by their base day, or who later drop cover', 'PHI Act ss 34-1, 34-5'],
+        ['Stop the loading after 10 years of continuous hospital cover, and never let it exceed 70% of the base rate', 'PHI Act ss 34-10, 37-15']]
+    }
+  },
   cps510: {
     source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text'], ['Prudential Standards SPS 510 Governance (F2024L00637) and SPS 520 Fit and Proper (F2024L00638), both in force from 30 June 2024, for super trustees, shown as “Super”', 'https://www.legislation.gov.au/F2024L00637/asmade/text']],
     checkedText: '9 October 2026',
