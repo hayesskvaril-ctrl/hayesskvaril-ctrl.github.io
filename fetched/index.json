@@ -350,6 +350,24 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2004A00109/2026-09-16/2026-09-16/text/original/word/1": {
+  "chars": 831316,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a00109-2026-09-16-2026-09-16-text-original-word-1.txt",
+  "final": "https://www.legislation.gov.au/C2004A00109/2026-09-16/2026-09-16/text/original/word/1",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
+ "https://www.legislation.gov.au/C2004A00109/2026-09-16/2026-09-16/text/original/word/2": {
+  "chars": 810947,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a00109-2026-09-16-2026-09-16-text-original-word-2.txt",
+  "final": "https://www.legislation.gov.au/C2004A00109/2026-09-16/2026-09-16/text/original/word/2",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
  "https://www.legislation.gov.au/C2004A00109/latest/downloads": {
   "chars": 4894,
   "date": "2026-10-09",
@@ -422,6 +440,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2004A00819/2026-09-19/2026-09-19/text/original/word/1": {
+  "chars": 426046,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a00819-2026-09-19-2026-09-19-text-original-word-1.txt",
+  "final": "https://www.legislation.gov.au/C2004A00819/2026-09-19/2026-09-19/text/original/word/1",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
  "https://www.legislation.gov.au/C2004A00819/latest/downloads": {
   "chars": 4002,
   "date": "2026-10-09",
@@ -430,6 +457,15 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2004A02944/2024-03-01/2024-03-01/text/original/word": {
+  "chars": 183475,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a02944-2024-03-01-2024-03-01-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2004A02944/2024-03-01/2024-03-01/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
  "https://www.legislation.gov.au/C2004A02944/latest/downloads": {
   "chars": 3264,
@@ -467,6 +503,15 @@
   "status": 200,
   "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
+ "https://www.legislation.gov.au/C2004A04633/2026-08-10/2026-08-10/text/original/word/2": {
+  "chars": 505320,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a04633-2026-08-10-2026-08-10-text-original-word-2.txt",
+  "final": "https://www.legislation.gov.au/C2004A04633/2026-08-10/2026-08-10/text/original/word/2",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
  "https://www.legislation.gov.au/C2004A04633/latest/downloads": {
   "chars": 3886,
   "date": "2026-10-09",
@@ -476,11 +521,29 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2004A04860/2025-02-21/2025-02-21/text/original/word": {
+  "chars": 559672,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a04860-2025-02-21-2025-02-21-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2004A04860/2025-02-21/2025-02-21/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
  "https://www.legislation.gov.au/C2004A04860/latest/downloads": {
   "chars": 3181,
   "date": "2026-10-09",
   "file": "legislation-gov-au-c2004a04860-latest-downloads.txt",
   "final": "https://www.legislation.gov.au/C2004A04860/latest/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2004A04868/latest/downloads": {
+  "chars": 4040,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2004a04868-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2004A04868/latest/downloads",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -502,6 +565,15 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2007A00031/2026-09-19/2026-09-19/text/original/word": {
+  "chars": 310670,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2007a00031-2026-09-19-2026-09-19-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2007A00031/2026-09-19/2026-09-19/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
  "https://www.legislation.gov.au/C2007A00031/latest/downloads": {
   "chars": 3261,
@@ -539,6 +611,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2011A00038/2024-04-09/2024-04-09/text/original/word": {
+  "chars": 32771,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2011a00038-2024-04-09-2024-04-09-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2011A00038/2024-04-09/2024-04-09/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+ },
  "https://www.legislation.gov.au/C2011A00038/latest/downloads": {
   "chars": 3225,
   "date": "2026-10-09",
@@ -547,6 +628,15 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2013A00123/2017-08-23/2017-08-23/text/original/word": {
+  "chars": 142038,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2013a00123-2017-08-23-2017-08-23-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2013A00123/2017-08-23/2017-08-23/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
  "https://www.legislation.gov.au/C2013A00123/latest/downloads": {
   "chars": 4343,
@@ -583,6 +673,15 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2023A00067/2025-02-21/2025-02-21/text/original/word": {
+  "chars": 160243,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2023a00067-2025-02-21-2025-02-21-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/C2023A00067/2025-02-21/2025-02-21/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
  "https://www.legislation.gov.au/C2023A00067/latest/downloads": {
   "chars": 3286,
@@ -655,6 +754,15 @@
   "kind": "pdf",
   "status": 200,
   "type": "application/pdf"
+ },
+ "https://www.legislation.gov.au/F2022L01301/2023-11-01/2023-11-01/text/original/word": {
+  "chars": 65014,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-f2022l01301-2023-11-01-2023-11-01-text-original-word.txt",
+  "final": "https://www.legislation.gov.au/F2022L01301/2023-11-01/2023-11-01/text/original/word",
+  "kind": "docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
  },
  "https://www.legislation.gov.au/F2022L01301/latest/downloads": {
   "chars": 3699,

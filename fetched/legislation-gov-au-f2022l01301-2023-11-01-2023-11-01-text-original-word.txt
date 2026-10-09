@@ -1,0 +1,778 @@
+SOURCE: https://www.legislation.gov.au/F2022L01301/2023-11-01/2023-11-01/text/original/word
+FINAL URL: https://www.legislation.gov.au/F2022L01301/2023-11-01/2023-11-01/text/original/word
+FETCHED: 2026-10-09
+
+
+
+Australian Charities and Notforprofits Commission Regulations 2022
+made under the
+Australian Charities and Not‑for‑profits Commission Act 2012
+Compilation No.  DOCPROPERTY  CompilationNumber 1
+Compilation date:	DOCPROPERTY StartDate \@ "d MMMM yyyy" \* MERGEFORMAT1 November 2023
+Includes amendments up to:	 DOCPROPERTY IncludesUpTo F2023L01458
+Registered:	 IF  DOCPROPERTY RegisteredDate 22 November 2023 = #1/1/1901# "Unknown"  DOCPROPERTY RegisteredDate \@ "d MMMM yyyy" 22 November 2023 \*MERGEFORMAT 22 November 2023
+About this compilation
+This compilation
+This is a compilation of the  STYLEREF  ShortT Australian Charities and Not-for-profits Commission Regulations 2022 that shows the text of the law as amended and in force on DOCPROPERTY StartDate \@ "d MMMM yyyy" \* MERGEFORMAT1 November 2023 (the compilation date).
+The notes at the end of this compilation (the endnotes) include information about amending laws and the amendment history of provisions of the compiled law.
+Uncommenced amendments
+The effect of uncommenced amendments is not shown in the text of the compiled law. Any uncommenced amendments affecting the law are accessible on the Register (www.legislation.gov.au). The details of amendments made up to, but not commenced at, the compilation date are underlined in the endnotes. For more information on any uncommenced amendments, see the Register for the compiled law.
+Application, saving and transitional provisions for provisions and amendments
+If the operation of a provision or amendment of the compiled law is affected by an application, saving or transitional provision that is not included in this compilation, details are included in the endnotes.
+Editorial changes
+For more information about any editorial changes made in this compilation, see the endnotes.
+Modifications
+If the compiled law is modified by another law, the compiled law operates as modified but the modification does not amend the text of the law. Accordingly, this compilation does not show the text of the compiled law as modified. For more information on any modifications, see the Register for the compiled law.
+Selfrepealing provisions
+If a provision of the compiled law has been repealed in accordance with a provision of the law, details are included in the endnotes.
+  
+  
+  
+
+Contents
+ TOC \o "1-9" Part 11—Preliminary	 PAGEREF _Toc151554784 \h 1
+1.1	Name	 PAGEREF _Toc151554785 \h 1
+1.3	Authority	 PAGEREF _Toc151554786 \h 1
+1.5	Definitions	 PAGEREF _Toc151554787 \h 1
+Part 22—Australian Charities and Notforprofits Register	 PAGEREF _Toc151554788 \h 3
+Division 40—Australian Charities and Notforprofits Register	 PAGEREF _Toc151554789 \h 3
+Subdivision 40A—Additional information that must be included on Register	 PAGEREF _Toc151554790 \h 3
+40.1	Additional information that must be included on Register	 PAGEREF _Toc151554791 \h 3
+Subdivision 40B—Information withheld or removed from Register	 PAGEREF _Toc151554792 \h 6
+40.10	Information withheld from Register	 PAGEREF _Toc151554793 \h 6
+Division 45—Governance standards	 PAGEREF _Toc151554794 \h 8
+Subdivision 45A—Preliminary	 PAGEREF _Toc151554795 \h 8
+45.1	Simplified outline—how the governance standards apply	 PAGEREF _Toc151554796 \h 8
+45.2	Purpose of this Division	 PAGEREF _Toc151554797 \h 8
+45.3	Interpretation of governance standards	 PAGEREF _Toc151554798 \h 9
+Subdivision 45B—Governance standards	 PAGEREF _Toc151554799 \h 9
+45.5	Governance standard 1—Purposes and notforprofit nature of a registered entity	 PAGEREF _Toc151554800 \h 9
+45.10	Governance standard 2—Accountability to members	 PAGEREF _Toc151554801 \h 9
+45.15	Governance standard 3—Compliance with Australian laws	 PAGEREF _Toc151554802 \h 10
+45.20	Governance standard 4—Suitability of responsible entities	 PAGEREF _Toc151554803 \h 11
+45.25	Governance standard 5—Duties of responsible entities	 PAGEREF _Toc151554804 \h 12
+45.30	Governance standard 6—Maintaining and enhancing public trust and confidence in the Australian notforprofit sector	 PAGEREF _Toc151554805 \h 14
+Subdivision 45C—Protections under governance standard 5	 PAGEREF _Toc151554806 \h 14
+45.100	Reasonable steps taken to ensure compliance with duties	 PAGEREF _Toc151554807 \h 14
+45.105	Protection 1	 PAGEREF _Toc151554808 \h 14
+45.110	Protection 2	 PAGEREF _Toc151554809 \h 15
+45.115	Protection 3	 PAGEREF _Toc151554810 \h 15
+45.120	Protection 4	 PAGEREF _Toc151554811 \h 16
+Subdivision 45D—Disqualified Responsible Entities Register	 PAGEREF _Toc151554812 \h 16
+45.150	Disqualified Responsible Entities Register	 PAGEREF _Toc151554813 \h 16
+Division 50—External conduct standards	 PAGEREF _Toc151554814 \h 17
+Subdivision 50A—Preliminary	 PAGEREF _Toc151554815 \h 17
+50.1	Simplified outline—how the external conduct standards apply	 PAGEREF _Toc151554816 \h 17
+50.2	Interpretation	 PAGEREF _Toc151554817 \h 18
+50.3	Purpose of this Division	 PAGEREF _Toc151554818 \h 18
+50.4	Application—operating outside Australia	 PAGEREF _Toc151554819 \h 18
+Subdivision 50B—Standards about public accountability and financial matters	 PAGEREF _Toc151554820 \h 18
+50.20	Standard 1—Activities and control of resources (including funds)	 PAGEREF _Toc151554821 \h 18
+50.25	Standard 2—Annual review of overseas activities and recordkeeping	 PAGEREF _Toc151554822 \h 19
+Subdivision 50C—Standards about conduct outside Australia	 PAGEREF _Toc151554823 \h 20
+50.30	Standard 3—Antifraud and anticorruption	 PAGEREF _Toc151554824 \h 20
+50.35	Standard 4—Protection of vulnerable individuals	 PAGEREF _Toc151554825 \h 21
+Division 60—Requirements for annual financial reports	 PAGEREF _Toc151554826 \h 22
+Subdivision 60A—Purpose of Division 60	 PAGEREF _Toc151554827 \h 22
+60.1	Purpose of this Division	 PAGEREF _Toc151554828 \h 22
+Subdivision 60B—Requirements for annual financial reports (core rules)	 PAGEREF _Toc151554829 \h 22
+60.5	Contents of annual financial report	 PAGEREF _Toc151554830 \h 22
+60.10	Financial statements and notes	 PAGEREF _Toc151554831 \h 22
+60.15	Responsible entities’ declaration	 PAGEREF _Toc151554832 \h 22
+Subdivision 60BA—Auditors	 PAGEREF _Toc151554833 \h 23
+60.17	Prescribed entities undertaking audits or reviews	 PAGEREF _Toc151554834 \h 23
+Subdivision 60C—Requirements for annual financial reports (special rules)	 PAGEREF _Toc151554835 \h 23
+60.20	Application of Subdivision 60C	 PAGEREF _Toc151554836 \h 23
+60.25	Resolution of inconsistency	 PAGEREF _Toc151554837 \h 23
+60.30	Special purpose financial statements	 PAGEREF _Toc151554838 \h 24
+Part 81—Core concepts	 PAGEREF _Toc151554839 \h 26
+Division 205—Core concepts	 PAGEREF _Toc151554840 \h 26
+205.1	Small and medium registered entities	 PAGEREF _Toc151554841 \h 26
+Part 9-1—Application, saving and transitional provisions	 PAGEREF _Toc151554842 \h 27
+Division 305—Application of this instrument as originally made	 PAGEREF _Toc151554843 \h 27
+305.1	Application provision—information included on Register	 PAGEREF _Toc151554844 \h 27
+305.5	Application provision—review of overseas activities	 PAGEREF _Toc151554845 \h 27
+305.10	Application provision—financial reports	 PAGEREF _Toc151554846 \h 27
+305.15	Application provision—small, medium and large registered entities	 PAGEREF _Toc151554847 \h 27
+Endnotes	 PAGEREF _Toc151554848 \h 28
+Endnote 1—About the endnotes	 PAGEREF _Toc151554849 \h 28
+Endnote 2—Abbreviation key	 PAGEREF _Toc151554850 \h 29
+Endnote 3—Legislation history	 PAGEREF _Toc151554851 \h 30
+Endnote 4—Amendment history	 PAGEREF _Toc151554852 \h 31
+Endnote 5—Editorial changes	 PAGEREF _Toc151554853 \h 32
+
+
+Part 11—Preliminary
+  
+1.1  Name
+		This instrument is the Australian Charities and Notforprofits Commission Regulations 2022.
+1.3  Authority
+		This instrument is made under the Australian Charities and Notforprofits Commission Act 2012.
+1.5  Definitions
+Note:	A number of expressions included in this instrument are defined in the Act, including the following:
+(a)	accounting standards;
+(b)	basic religious charity;
+(c)	large registered entity;
+(d)	medium registered entity;
+(e)	Register;
+(f)	registered entity;
+(g)	responsible entity;
+(h)	small registered entity.
+		In this instrument:
+Act means the Australian Charities and Notforprofits Commission Act 2012.
+arrangement has the same meaning as in the Income Tax Assessment Act 1997.
+child means an individual who is under 18 years old.
+general purpose financial statement has the meaning given by the accounting standards.
+individual donor means an individual who makes a contribution to a registered entity.
+member has the meaning given by the Income Tax Assessment Act 1997.
+participating nongovernment institution has the same meaning as in the National Redress Scheme for Institutional Child Sexual Abuse Act 2018.
+private ancillary fund has the same meaning as in the Income Tax Assessment Act 1997.
+private ancillary fund guidelines has the same meaning as in the Income Tax Assessment Act 1997.
+sexual abuse has the same meaning as in the National Redress Scheme for Institutional Child Sexual Abuse Act 2018.
+special purpose financial statement means a financial statement that is not a general purpose financial statement.
+third party, in relation to a registered entity, means an entity (other than another registered entity) that formally or informally collaborates with the registered entity for the purpose of advancing the registered entity’s purpose or purposes, and includes:
+	(a)	an entity with which the registered entity has some form of membership, association or alliance; and
+	(b)	an entity that has an arrangement with the registered entity.
+vulnerable individual means:
+	(a)	a child; or
+	(b)	an individual who is or may be unable to take care of themselves, or is unable to protect themselves against harm or exploitation.
+Example: 	An individual may be unable to take care of, or protect, themselves by reason of age, illness, trauma or disability.
+Part 22—Australian Charities and Notforprofits Register
+Division 40—Australian Charities and Notforprofits Register
+Subdivision 40A—Additional information that must be included on Register
+40.1  Additional information that must be included on Register
+		For the purposes of paragraph 405(1)(g) of the Act, the information in column 1 of an item of the following table is specified if the conditions (if any) mentioned in column 2 of that item exist.
+
+Additional information
+Item
+Column 1
+Column 2
+
+Information
+Condition(s)
+1
+Whether, for a financial year (or substituted accounting period), a registered entity is:
+(a) a small registered entity; or
+(b) a medium registered entity; or
+(c) a large registered entity; or
+(d) a basic religious charity
+The Commissioner:
+(a) has received an annual information statement or annual financial report for the financial year; or
+(b) has otherwise become aware of the information because:
+(i) the information was not provided as described in paragraph (a); or
+(ii) the information provided as described in paragraph (a) was incorrect
+1A
+Purpose of registered entity
+Both of the following:
+(a) the information has been voluntarily disclosed to the Commissioner by the registered entity, as an extract of the governing rules of the entity, for the purpose of being included on the Register;
+(b) the Commissioner is satisfied that the extract:
+(i) is consistent with the governing rules of the entity; and
+(ii) complies with governance standard 1, set out in section 45.5 of this instrument
+2
+The countries (other than Australia) in which a registered entity operates
+The Commissioner:
+(a) has received the information from the registered entity; or
+(b) has otherwise become aware of the information because:
+(i) the information was not received from the registered entity; or
+(ii) the information provided by the registered entity was incorrect
+3
+The States and Territories in which a registered entity operates
+The registered entity has voluntarily disclosed the information to the Commissioner for the purpose of being included on the Register
+4
+Other names by which a registered entity may be publicly known
+Both of the following:
+(a) the registered entity has voluntarily disclosed the information to the Commissioner for the purpose of being included on the Register;
+(b) the use of the name is not contrary to an Australian law
+5
+The categories of benefit recipients of a registered entity
+The Commissioner:
+(a) has received an annual information statement for that financial year; or
+(b) has otherwise become aware of the information because:
+(i) the information was not provided as described in paragraph (a); or
+(ii) the information provided as described in paragraph (a) was incorrect
+6
+Either:
+(a) a copy of an annual report of a registered entity for a financial year (or substituted accounting period); or
+(b) an electronic link to a registered entity’s annual report on a website maintained by the entity
+The registered entity has voluntarily disclosed the information to the Commissioner for the purpose of being included on the Register
+7
+An annual or financial reports of a registered entity for a financial year (or substituted accounting period) before the 201213 financial year
+Either:
+(a) the registered entity has voluntarily disclosed the information to the Commissioner for the purpose of being included on the Register; or
+(b) an Australian government agency has voluntarily disclosed the information to the Commissioner for the purpose of being included on the Register, and the reports are publicly available
+8
+The day a registered entity was established in Australia
+The registered entity has voluntarily disclosed the information to the Commissioner for the purpose of being included on the Register
+9
+Both of the following:
+(a) whether, for a financial year (or a substituted accounting period), a registered entity has been approved by the Commissioner to prepare and lodge joint or collective reports under Subdivision 60G of the Act;
+(b) if so—the other registered entity or entities that are grouped with a registered entity under Subdivision 60G of the Act
+None specified
+10
+An electronic link to a website maintained by a registered entity
+The registered entity has voluntarily disclosed the information to the Commissioner for the purpose of being included on the Register
+11
+A statement that a registered entity has failed to give the Commissioner a report or statement required by Division 60 of the Act
+Both of the following:
+(a) the registered entity has not given Commissioner a report or statement required by Division 60 of the Act;
+(b) more than 6 months (or a longer period allowed by the Commissioner for the purposes of this item) have elapsed since the day the report or statement was required to be given
+12
+A summary of:
+(a) a registered entity’s financial information; and
+(b) information about the registered entity’s activities
+The summary is derived only from information disclosed by the registered entity to the Commissioner and which is included on the Register
+13
+For each entry on the Transparency Register (within the meaning of Part XX of the Commonwealth Electoral Act 1918) that relates to a registered entity—an electronic link to the part or parts of the website of the Transparency Register that make information contained in the entry publicly available
+The Commissioner is satisfied that the Transparency Register contains the entry
+14
+Information about a registered entity’s activities
+The registered entity has voluntarily disclosed the information to the Commissioner for the purpose of being included on the Register
+
+Note 1:	For items 1, 2 and 5 of the table, an example of the Commissioner becoming aware of information is where:
+(a)	a registered entity has given the Commissioner incorrect information in an annual information statement or annual financial statement; and
+(b)	through an audit or review of the registered entity, the Commissioner then becomes aware of the correct information.
+Note 2:	For item 4 of the table, information that may be included on the Register includes:
+(a)	a registered business name under the Business Names Registration Act 2011; and
+(b)	a name on a notified State or Territory register under that Act.
+Note 3:	For item 5 of the table, a benefit recipient of a registered entity includes an entity or cause that the registered entity assists or furthers in undertaking its purpose.
+Note 4:	For item 12 of the table, a summary of information may include information in a graphical, numerical or other form determined by the Commissioner.
+Subdivision 40B—Information withheld or removed from Register
+40.10  Information withheld from Register
+	(1)	For the purposes of subsection 4010(1) of the Act, the Commissioner must not include information specified in column 1 of an item of the following table on the Register, or must remove information specified in column 1 of an item of the following table from the Register:
+	(a)	if the circumstances mentioned in column 2 of that item exist; and
+	(b)	if the registered entity to which the information relates makes a request, in the approved form, that the information not be included on the Register.
+
+Information withheld
+Item
+Column 1
+Column 2
+
+Information
+Circumstance(s)
+1
+The name and ABN of a registered entity
+All of the following:
+(a) the registered entity is a private ancillary fund;
+(b) the publication of the name is likely to result in the identification of an individual donor;
+(c) the name and ABN can be substituted on the Register with a description that:
+(i) is unlikely to result in the identification of an individual donor; and
+(ii) would not mislead the public as to the nature and characteristics of the registered entity; and
+(iii) would not reasonably be regarded as identifying a different registered entity; and
+(iv) would make clear on the Register that the name of the registered entity has been withheld;
+(d) the Commissioner has consulted the registered entity about the description referred to in paragraph (c)
+2
+A contact detail for a registered entity, including the address for service for the entity
+Both of the following:
+(a) the registered entity is a private ancillary fund;
+(b) the publication of the detail:
+(i) is likely to result in the identification of an individual donor; or
+(ii) would create an unreasonable administrative burden on the registered entity
+3
+A governing rule in the governing rules of a registered entity
+Both of the following:
+(a) the registered entity is a private ancillary fund;
+(b) the publication of the governing rule is likely to result in the identification of an individual donor
+4
+The name of a responsible entity
+Both of the following:
+(a) the registered entity is a private ancillary fund;
+(b) the publication of the name is likely to result in the identification of an individual donor
+5
+Information in an annual information statement
+The publication of the information is likely to result in the identification of an individual donor
+6
+Information in a financial report, audit or review report
+The publication of the information is likely to result in the identification of an individual donor
+
+	(2)	Items 1, 2, 3, 5 and 6 of the table in subsection (1) continue to apply to information that relates to an individual donor who has died if:
+	(a)	the individual donor died within the previous 2 years; or
+	(b)	a responsible entity of the registered entity is an associate of the individual donor.
+Note:	Subsection (2) ensures that the privacy of the family of an individual donor will remain protected while the family remains actively involved in the management of the registered entity.
+	(3)	For the purposes of subsection (2), a registered entity must:
+	(a)	notify the Commissioner, in the approved form, that information that is not on the Register because of this section can no longer be excluded from the Register because:
+	(i)	an individual donor has died; and
+	(ii)	subsection (2) no longer applies to require the information to be treated that way; and
+	(b)	provide the notification with the first information statement the registered entity provides to the Commissioner after the registered entity becomes aware that the events referred to in subparagraphs (a)(i) and (ii) have occurred.
+	(4)	Item 4 of the table in subsection (1) does not apply if the responsible entity is an entity of a kind mentioned in the private ancillary fund guidelines.
+	(5)	Items 5 and 6 of the table in subsection (1) do not apply to information that relates to a breach of:
+	(a)	the Act; or
+	(b)	a legislative instrument made under the Act; or
+	(c)	the taxation law.
+Division 45—Governance standards
+Subdivision 45A—Preliminary
+45.1  Simplified outline—how the governance standards apply
+The governance standards support registered entities in fulfilling their objectives by providing a minimum level of assurance that they meet community expectations in relation to how a registered entity should be managed.
+Community expectations in relation to governance may include expectations about how a registered entity goes about managing its affairs, the use of public monies, volunteer time and donations provided to it, how the entity manages the risks that it faces, how the entity promotes the effective and responsible use of its resources and how the entity goes about demonstrating that it is operating transparently and for a proper purpose.
+The steps a registered entity will need to take to comply with the governance standards will vary according to its particular circumstances, such as its size, the sources of its funding, the nature of its activities and the needs of the public (including members, donors, employees, volunteers and benefit recipients of the registered entity).
+The compliance obligations, processes and reasonable steps specified in the governance standards are to be interpreted having regard to the objects of the Act and the matters the Commissioner must consider in exercising the Commissioner’s powers as listed in section 1510 of the Act (in particular, the principles of regulatory necessity, reflecting risk and proportionate regulation, as well as the unique nature and diversity of notforprofit entities and the distinctive role that they play in Australia).
+The objects of the Act are: to maintain, protect and enhance public trust and confidence in the Australian notforprofit sector; to support and sustain a robust, vibrant, independent and innovative Australian notforprofit sector; and to promote the reduction of unnecessary regulatory obligations on the Australian notforprofit sector.
+The governance standards also act as a mechanism which may enliven the enforcement powers in Part 42 of the Act to help protect and sustain the notforprofit sector and maintain and enhance public trust and confidence.
+45.2  Purpose of this Division
+		For the purposes of section 4510 of the Act, the governance standards in Subdivision 45B of this Division are specified.
+45.3  Interpretation of governance standards
+		The governance standards in Subdivision 45B of this Division must be interpreted in a manner that is consistent with the objects of the Act and the requirements of section 1510 of the Act.
+Subdivision 45B—Governance standards
+45.5  Governance standard 1—Purposes and notforprofit nature of a registered entity
+Object
+	(1)	The object of this governance standard is:
+	(a)	to commit a registered entity, its members and its responsible entities to the registered entity’s purposes; and
+	(b)	to give the public, including members, donors, employees, volunteers and benefit recipients of the registered entity, confidence that the registered entity is acting to further its purposes.
+Standard
+	(2)	A registered entity must:
+	(a)	be able to demonstrate, by reference to the governing rules of the entity or by other means, its purposes and its character as a notforprofit entity; and
+	(b)	make information about its purposes available to the public, including members, donors, employees, volunteers and benefit recipients; and
+	(c)	comply with its purposes and its character as a notforprofit entity.
+Note:	Information in relation to the purposes of a registered entity would be available to the public if it appears on the Australian Charities and Notforprofits Register or in an Australian law or is otherwise made available on request. Australian law could in 2022 be viewed on the Federal Register of Legislation website (www.legislation.gov.au) or on the AustLII website (http://www.austlii.edu.au).
+45.10  Governance standard 2—Accountability to members
+Object
+	(1)	The object of this governance standard is to ensure the accountability and transparency of a registered entity to its members.
+Standard
+	(2)	A registered entity that has members must take reasonable steps to ensure that:
+	(a)	the registered entity is accountable to its members; and
+	(b)	the registered entity’s members have an adequate opportunity to raise concerns about the governance of the registered entity.
+Note 1:	The steps that a registered entity may take to ensure that it is accountable to its members could include:
+(a)	holding annual general meetings; and
+(b)	providing members with an annual report (including financial information and achievements towards its purpose); and
+(c)	providing for elections for its responsible entities.
+Note 2:	The steps that a registered entity may take to ensure its members have an adequate opportunity to raise concerns could include:
+(a)	holding an annual general meeting with a question and answer session; and
+(b)	providing an opportunity for members to propose resolutions and to vote upon those resolutions.
+Note 3:	When taking the reasonable steps required by governance standard 2, regard must be had to requirements of the governing rules of the registered entity, to the extent that those governing rules include appropriate accountability mechanisms. If those governing rules include appropriate accountability mechanisms, compliance with those rules would demonstrate compliance with governance standard 2.
+Note 4:	Subdivision 60C of the Act sets out rules about the preparation of annual financial reports.
+45.15  Governance standard 3—Compliance with Australian laws
+Object
+	(1)	The object of this governance standard is to give the public (including members, donors, employees, volunteers and benefit recipients of a registered entity) trust and confidence that a registered entity is governed in a way that ensures its ongoing operations and the safety of its assets, through compliance with Australian laws (including preventing the misuse of its assets).
+Note:	Compliance with Australian laws sets a minimum benchmark by which all entities should govern themselves. A failure by a registered entity to comply with an Australian law puts the public (including members, donors, employees, volunteers and benefit recipients of the registered entity) at risk and, therefore, governance standard 3 allows the Commissioner to take a proportionate approach to:
+(a)	protect public trust and confidence; and
+(b)	protect the assets of the registered entity; and
+(c)	ensure that the registered entity continues to operate in a manner that is sustainable and consistent with its purposes.
+Standard
+	(2)	A registered entity must not engage in conduct, or omit to engage in conduct, if the conduct or omission may be dealt with:
+	(a)	as an indictable offence under an Australian law (even if it may, in some circumstances, be dealt with as a summary offence); or
+	(b)	by way of a civil penalty of 60 penalty units or more.
+Note 1:	See section 4AA of the Crimes Act 1914 for the current value of a penalty unit.
+Note 2:	Governance standard 3 does not extend Australian law to overseas jurisdictions. An Australian law may already extend to an overseas jurisdiction by other means.
+Note 3:	While a registered entity must comply with all Australian laws, a serious infringement of an Australian law covered by governance standard 3 may allow the Commissioner to exercise their enforcement powers under Part 42 of the Act, following consideration of the matters mentioned in subsection 3510(2) of the Act.
+45.20  Governance standard 4—Suitability of responsible entities
+Object
+	(1)	The object of this governance standard is to maintain, protect and enhance public trust and confidence in the governance and operation of a registered entity.
+Standard
+	(2)	A registered entity must:
+	(a)	take reasonable steps to ensure that each of its responsible entities meet the conditions mentioned in subsection (3); and
+	(b)	after taking those steps:
+	(i)	be, and remain, satisfied that each responsible entity meets the conditions; or
+	(ii)	if it is unable to be, or remain, satisfied that a responsible entity meets the conditions, take reasonable steps to remove that entity.
+Note 1:	Other Australian laws may require responsible entities to be replaced, if removed, because a registered entity may need to have a minimum number of responsible entities.
+Note 2:	The reasonable steps required of a registered entity may include:
+(a)	obtaining declarations from responsible entities and searching public registers on appointment; and
+(b)	obtaining a commitment from a responsible entity that, if its circumstances change, it will advise the registered entity.
+	(3)	Subject to subsection (5), the conditions for each responsible entity are that:
+	(a)	it is not disqualified from managing a corporation, within the meaning of the Corporations Act 2001; and
+	(b)	it is not disqualified by the Commissioner, at any time during the preceding 12 months, from being a responsible entity of a registered entity under subsection (4).
+Note:	Other Australian laws may place other limitations on who may be the responsible entity of a registered entity, or a particular type of registered entity.
+	(4)	The Commissioner may disqualify an entity from being eligible to be a responsible entity for the purpose of this governance standard if:
+	(a)	the entity has been previously suspended, or removed, under Division 100 of the Act as a responsible entity of a registered entity; and
+	(b)	the entity has been given notice of its disqualification by the Commissioner; and
+	(c)	the Commissioner reasonably believes that the disqualification is justified having regard to the objects of the Act.
+Note 1:	The secrecy provisions in Part 71 of the Act prohibit ACNC officers (including the Commissioner) from disclosing protected ACNC information unless the disclosure is authorised by the Act. This prohibits the ACNC from disclosing information about ongoing investigations about particular responsible entities that may be subject to compliance with governance standard 4.
+Note 2:	The effect of a disqualification lasts for no longer than 12 months from the day a notice is issued by the Commissioner (see paragraph (3)(b)).
+	(5)	Despite subsection (3), the Commissioner may allow an individual to be a responsible entity for a particular registered entity if the Commissioner believes it is reasonable to do so in the circumstances.
+	(6)	An entity that is dissatisfied with a decision of the Commissioner to disqualify the entity under subsection (4) may object to the decision in the manner set out in Part 72 of the Act.
+45.25  Governance standard 5—Duties of responsible entities
+Object
+	(1)	The object of this governance standard is:
+	(a)	to ensure that the responsible entities of a registered entity conduct themselves in the manner that would be necessary if:
+	(i)	the relationship between them and the entity were a fiduciary relationship; and
+	(ii)	they were obliged to satisfy minimum standards of behaviour consistent with that relationship; and
+	(b)	to give the public, including members, donors, employees, volunteers and benefit recipients of a registered entity, confidence that the registered entity:
+	(i)	is acting to prevent noncompliance with the duties imposed on responsible entities; and
+	(iii)	if noncompliance with the duties imposed on responsible entities occurs—will act to identify and remedy noncompliance with the duties imposed on the entity.
+Standard
+	(2)	A registered entity must take reasonable steps to ensure that its responsible entities are subject to, and comply with, the following duties:
+	(a)	to exercise the responsible entity’s powers and discharge the responsible entity’s duties with the degree of care and diligence that a reasonable individual would exercise if they were a responsible entity of the registered entity;
+	(b)	to act in good faith in the registered entity’s best interests, and to further the purposes of the registered entity;
+	(c)	not to misuse the responsible entity’s position;
+	(d)	not to misuse information obtained in the performance of the responsible entity’s duties as a responsible entity of the registered entity;
+	(e)	to disclose perceived or actual material conflicts of interest of the responsible entity;
+Note:	A perceived or actual material conflict of interest that must be disclosed includes a related party transaction.
+	(f)	to ensure that the registered entity’s financial affairs are managed in a responsible manner;
+	(g)	not to allow the registered entity to operate while insolvent.
+Note 1:	Governance standard 5 sets out some of the more significant duties of responsible entities. Other duties are imposed by other Australian laws, including the principles and rules of the common law and equity.
+Note 2:	Some of the duties imposed by other Australian laws may require a responsible entity to exercise its powers and discharge its duties to a higher standard.
+Note 3:	For the purposes of paragraph (f), ensuring that the registered entity’s financial affairs are managed in a responsible manner includes putting in place appropriate and tailored financial systems and procedures.
+	The systems and procedures for a particular registered entity should be developed having regard to the registered entity’s size and circumstances and the complexity of its financial affairs.
+	The systems and procedures may include:
+(a)	procedures relating to spending funds (for example, the approval of expenditure or the signing of cheques); and
+(b)	having insurance that is appropriate for the registered entity’s requirements.
+	(3)	For the purposes of paragraph (2)(e), a perceived or actual material conflict of interest must be disclosed:
+	(a)	if the responsible entity is a director of the registered entity—to the other directors (if any); or
+	(b)	if the registered entity is a trust, and the responsible entity is a director of a trustee of the registered entity—to the other directors (if any); or
+	(c)	if the registered entity is a company—to the members of the registered entity; or
+	(d)	in any other case—unless the Commissioner provides otherwise, to the Commissioner, in the approved form.
+Note 1:	Company is defined in section 20510 of the Act to include a body corporate or any unincorporated association or body of persons (but not a partnership).
+Note 2:	Paragraph (c) applies in situations where paragraph (a) cannot apply, for example, if there is only one director or all the directors have a similar conflict.
+Note 3:	Part 76 of the Act provides for the approval of forms.
+Note 4:	A responsible entity may disclose a conflict of interest in the form of a standing notice with ongoing effect.
+	(4)	If the responsible entity’s conduct is consistent with Subdivision 45C, the responsible entity is taken to have complied with the duties mentioned in subsection (2).
+	(5)	In this section:
+insolvent has the same meaning as in the Corporations Act 2001.
+45.30  Governance standard 6—Maintaining and enhancing public trust and confidence in the Australian notforprofit sector
+Object
+	(1)	The object of this governance standard is to maintain and enhance public trust and confidence in the Australian notforprofit sector by ensuring that a registered entity’s governance enables it to be accountable for its past conduct relating to institutional child sexual abuse.
+Standard
+	(2)	A registered entity must take reasonable steps to become a participating nongovernment institution if the entity is, or is likely to be, identified as being involved in the sexual abuse of a person:
+	(a)	in an application for redress made under section 19 of the National Redress Scheme for Institutional Child Sexual Abuse Act 2018 before, on or after the day this section commences; or
+	(b)	in information given in response to a request made under section 24 or 25 of that Act in relation to such an application.
+Note 1:	The reasonable steps that a registered entity could take include agreeing to participate in the National Redress Scheme for Institutional Child Sexual Abuse (the Redress Scheme) for the purposes of paragraph 115(3)(c) of the National Redress Scheme for Institutional Child Sexual Abuse Act 2018.
+Note 2:	Once a registered entity has become a participating nongovernment institution, the entity is subject to the Redress Scheme.
+	(3)	For the purposes of subsection (2), it does not matter whether the application is valid.
+Subdivision 45C—Protections under governance standard 5
+45.100  Reasonable steps taken to ensure compliance with duties
+		If a responsible entity meets a protection mentioned in this Subdivision, the registered entity is taken to have taken all reasonable steps to ensure that its responsible entities have complied with the duties set out in section 45.25.
+45.105  Protection 1
+	(1)	A responsible entity meets this protection if the responsible entity, in the exercise of the responsible entity’s duties, relies on information, including professional or expert advice, in good faith, and after the responsible entity has made an independent assessment of the information, if that information has been given by:
+	(a)	an employee of the registered entity that the responsible entity believes on reasonable grounds to be reliable and competent in relation to the matters concerned; or
+	(b)	a professional adviser or expert in relation to matters that the responsible entity believes on reasonable grounds to be within the individual’s professional or expert competence; or
+	(c)	another responsible entity in relation to matters within their authority or area of responsibility; or
+	(d)	an authorised committee of responsible entities that does not include the responsible entity.
+	(2)	In determining whether the responsible entity has made an independent assessment of the information or advice, regard must be had to the responsible entity’s knowledge of the registered entity and the complexity of the structure and operations of the registered entity.
+45.110  Protection 2
+	(1)	A responsible entity meets this protection if the responsible entity makes a decision in relation to the registered entity, and the responsible entity meets all of the following:
+	(a)	the responsible entity makes the decision in good faith for a proper purpose;
+	(b)	the responsible entity does not have a material personal interest in the subject matter of the decision;
+	(c)	the responsible entity informs itself about the subject matter of the decision, to the extent the entity reasonably believes to be appropriate;
+	(d)	the responsible entity rationally believes that the decision is in the best interests of the registered entity.
+Note 1:	Protection 2 is also referred to as the “business judgement rule”.
+Note 2:	Protection 2 relates to the duty mentioned in paragraph 45.25(2)(a).
+	(2)	In this section:
+decision means any decision to take, or not take, action in relation to a matter relevant to the operations of the registered entity.
+45.115  Protection 3
+		A responsible entity meets this protection if:
+	(a)	at the time when the debt was incurred, the responsible entity had reasonable grounds to expect, and did expect, that the registered entity was solvent at that time and would remain solvent even if it incurred that debt and any other debts that it incurred at that time; or
+	(b)	the responsible entity took all reasonable steps to prevent the registered entity from incurring the debt.
+Note:	Protection 3 relates to the duty mentioned in paragraph 45.25(2)(g).
+45.120  Protection 4
+		This section is satisfied if, because of illness or for some other good reason, a responsible entity could not take part in the management of the registered entity at the relevant time.
+Subdivision 45D—Disqualified Responsible Entities Register
+45.150  Disqualified Responsible Entities Register
+	(1)	The Commissioner must maintain a register, to be known as the Disqualified Responsible Entities Register.
+	(2)	The Disqualified Responsible Entities Register must include the following information:
+	(a)	the name of each entity disqualified from being a responsible entity of a registered entity under subsection 45.20(4) of this instrument;
+	(b)	the date that the entity was disqualified;
+	(c)	whether the disqualification remains subject to review under Part 72 of the Act.
+	(3)	The Disqualified Responsible Entities Register must be maintained by electronic means.
+	(4)	The Disqualified Responsible Entities Register must be made publicly available for inspection on a website maintained by the Commissioner.
+Note 1:	The secrecy provisions in Part 71 of the Act prohibit ACNC officers (including the Commissioner) from disclosing protected ACNC information unless the disclosure is authorised by the Act. This prohibits the ACNC from disclosing information about ongoing investigations about particular responsible entities that may be subject to compliance with governance standard 4.
+Note 2:	The Commissioner may remove an entity from the Disqualified Responsible Entities Register if the entity ceases to be disqualified. See governance standard 4 for how the Commissioner disqualifies an entity.
+Division 50—External conduct standards
+Subdivision 50A—Preliminary
+50.1  Simplified outline—how the external conduct standards apply
+The external conduct standards support registered entities in fulfilling their objectives, by providing a minimum level of assurance that they meet public expectations in relation to their conduct when they undertake activities (including providing funds), or otherwise support activities, outside Australia.
+Australian registered entities play an important role in providing development assistance, essential services and humanitarian aid to those in need around the world. Unfortunately, there is a risk that criminal organisations may take advantage of registered entities, by misusing funds and providing a cover for, or support for, criminal activities.
+The external conduct standards are intended to provide greater confidence that funds sent, and services provided, outside Australia are reaching legitimate beneficiaries and are being used for legitimate purposes. The standards are also intended to prevent a registered entity from being misused by a criminal organisation.
+The external conduct standards apply to registered entities in relation to matters both outside Australia and matters not outside Australia but closely related to entities, things or matters outside Australia (such as the management within Australia of overseas aid).
+The external conduct standards assist in meeting Australia’s international obligations including under the FATF Recommendations (within the meaning of section 5 of the AntiMoney Laundering and CounterTerrorism Financing Act 2006).
+The steps a registered entity will need to take to comply with the standards will vary according to its particular circumstances, such as its size, the sources of its funding, the nature of its activities (including the extent and importance of its activities outside Australia and resources given to parties outside Australia) and the needs of the public (including members, donors, employees, volunteers and benefit recipients of the registered entity).
+The requirements in the external conduct standards are to be interpreted having regard to the objects of the Act and the matters the Commissioner must consider in exercising the Commissioner’s powers as listed in section 1510 of the Act (in particular, the principles of regulatory necessity, reflecting risk and proportionate regulation, as well as the unique nature and diversity of notforprofit entities and the distinctive role that they play in Australia).
+The objects of the Act are: to maintain, protect and enhance public trust and confidence in the Australian notforprofit sector; to support and sustain a robust, vibrant, independent and innovative Australian notforprofit sector; and to promote the reduction of unnecessary regulatory obligations on the Australian notforprofit sector.
+50.2  Interpretation
+		In this Division, the external conduct standards in Subdivisions 50B and 50C of this Division must be interpreted in a way that is consistent with the objects of the Act and the requirements of section 1510 of the Act.
+50.3  Purpose of this Division
+		For the purposes of section 5010 of the Act, the external conduct standards in Subdivisions 50B and 50C of this Division are specified.
+50.4  Application—operating outside Australia
+	(1)	For the purposes of this Division, a registered entity, or a third party, operates outside Australia if it operates outside Australia in whole or in part.
+	(2)	However, a registered entity does not operate outside Australia only because it carries out activities outside Australia (including providing funds to be used outside Australia) that are directly related to the pursuit of the registered entity’s purposes in Australia and merely incidental to its operations in Australia.
+Subdivision 50B—Standards about public accountability and financial matters
+50.20  Standard 1—Activities and control of resources (including funds)
+Object
+	(1)	The object of this external conduct standard is to give the public (including members, donors, employees, volunteers and benefit recipients of a registered entity to which the standard applies) confidence that a registered entity is managed in a way that:
+	(a)	ensures that the registered entity remains solvent; and
+	(b)	minimises the risks to the registered entity’s assets; and
+	(c)	ensures that the registered entity, and its resources, are furthering the registered entity’s purposes; and
+	(d)	ensures that the registered entity is operating in a way that is consistent with its purpose and character as a notforprofit entity.
+Application
+	(2)	This standard applies to a registered entity that is:
+	(a)	operating outside Australia; or
+	(b)	working with third parties that are operating outside Australia.
+Standard
+	(3)	The registered entity must:
+	(a)	take reasonable steps to ensure that its activities outside Australia are carried out in a way that is consistent with its purpose and character as a notforprofit entity; and
+	(b)	maintain reasonable internal control procedures to ensure that resources (including funds) are used outside Australia in a way that is consistent with its purpose and character as a notforprofit entity; and
+	(c)	take reasonable steps to ensure that the resources (including funds) given to third parties outside Australia (or within Australia for use outside Australia) are applied:
+	(i)	in accordance with the entity’s purpose and character as a notforprofit entity; and
+	(ii)	with reasonable controls and risk management processes in place.
+Note:	Paragraphs (a) and (b) are intended to ensure that a registered entity has procedures in place to manage the risks associated with its own operations and activities. Paragraph (c) is intended to ensure that reasonable controls are in place with respect to resources given to third parties.
+	(4)	The registered entity must comply, in relation to its activities outside Australia, with Australian laws relating to any of the following:
+	(a)	money laundering;
+	(b)	the financing of terrorism;
+	(c)	sexual offences against children;
+	(d)	slavery and slaverylike conditions;
+	(e)	trafficking in individuals and debt bondage;
+	(f)	people smuggling;
+	(g)	international sanctions;
+	(h)	taxation;
+	(i)	bribery.
+	(5)	The registered entity must maintain reasonable internal control procedures to ensure compliance with subsection (4).
+50.25  Standard 2—Annual review of overseas activities and recordkeeping
+Object
+	(1)	The object of this external conduct standard is to ensure that a registered entity to which the standard applies is transparent and accountable to the public in relation to its activities carried out outside Australia.
+Application
+	(2)	This standard applies to a registered entity that is:
+	(a)	operating outside Australia; or
+	(b)	working with third parties that are operating outside Australia.
+Standard
+	(3)	The registered entity must obtain and keep records necessary to prepare a summary of its activities outside Australia on a country by country basis for each financial year during which it:
+	(a)	operates outside Australia; or
+	(b)	gives resources (including funds) to third parties outside Australia (or within Australia for use outside Australia).
+Example:	Records should be obtained and kept about the following information:
+(a)	the kinds of activities that the registered entity conducted outside Australia;
+(b)	details of how the registered entity’s activities outside Australia enabled it to pursue and achieve its purpose;
+(c)	details of any procedures and processes that the registered entity used to monitor its overseas activities;
+(d)	a list of the third parties that the registered entity worked with outside Australia;
+(e)	details of any documented claims of inappropriate behaviour by the registered entity’s employees or responsible entities outside Australia, and subsequent actions taken by the registered entity as a result.
+	(4)	The records obtained and kept must include information on the registered entity’s expenditure relating to its activities outside Australia on a country by country basis for the financial year.
+Subdivision 50C—Standards about conduct outside Australia
+50.30  Standard 3—Antifraud and anticorruption
+Object
+	(1)	The object of this external conduct standard is to give the public (including members, donors, employees, volunteers and benefit recipients of a registered entity to which the standard applies) confidence that the registered entity is managed in a way that:
+	(a)	ensures that the registered entity remains solvent; and
+	(b)	minimises the risks to the registered entity’s assets; and
+	(c)	ensures that the registered entity, and its resources, are furthering the registered entity’s purposes; and
+	(d)	ensures that the registered entity is operating in a way that is consistent with its purpose and character as a notforprofit entity.
+Application
+	(2)	This standard applies to a registered entity that is:
+	(a)	operating outside Australia; or
+	(b)	working with third parties that are operating outside Australia.
+Standard
+	(3)	The registered entity must take reasonable steps to:
+	(a)	minimise any risk of corruption, fraud, bribery or other financial impropriety by its responsible entities, employees, volunteers and third parties outside Australia; and
+	(b)	identify and document any perceived or actual material conflicts of interest for their employees, volunteers, third parties and responsible entities outside Australia.
+Note:	A responsible entity of a registered entity must also disclose all material conflicts of interest as one of their duties under governance standard 5—see section 45.25.
+50.35  Standard 4—Protection of vulnerable individuals
+Object
+	(1)	The object of this external conduct standard is to ensure that when a registered entity to which the standard applies operates outside Australia, it operates in a manner that minimises the risk to vulnerable individuals of exploitation or abuse.
+Application
+	(2)	This standard applies to a registered entity that is:
+	(a)	operating outside Australia; or
+	(b)	working with third parties that are operating outside Australia.
+Standard
+	(3)	The registered entity must take reasonable steps to ensure the safety of vulnerable individuals outside Australia to the extent that those individuals are being provided with services, or accessing benefits, under programs provided by:
+	(a)	the registered entity; or
+	(b)	a third party in collaboration with the registered entity.
+	(4)	The registered entity must take reasonable steps to ensure the safety of vulnerable individuals outside Australia to the extent that those individuals are engaged by:
+	(a)	the registered entity; or
+	(b)	a third party in collaboration with the registered entity;
+to provide services or benefits on behalf of the registered entity or the third party.
+Division 60—Requirements for annual financial reports
+Subdivision 60A—Purpose of Division 60
+60.1  Purpose of this Division
+		For the purposes of subsection 6015(1) of the Act, Subdivisions 60B and 60C of this Division prescribe requirements for annual financial reports.
+Subdivision 60B—Requirements for annual financial reports (core rules)
+60.5  Contents of annual financial report
+		A registered entity’s financial report for a financial year consists of:
+	(a)	the registered entity’s financial statements for the year (see section 60.10 of this instrument); and
+	(b)	the notes to the financial statements (see section 60.10 of this instrument); and
+	(c)	the responsible entities’ declaration about the statements and notes (see section 60.15 of this instrument).
+60.10  Financial statements and notes
+	(1)	The financial statements for the financial year are the financial statements in relation to the registered entity that are required to be prepared by the accounting standards.
+	(2)	The notes to the financial statements are:
+	(a)	notes required by the accounting standards; and
+	(b)	any other information necessary to give a true and fair view of the financial position and performance of the registered entity.
+	(3)	The financial statements and notes:
+	(a)	must give a true and fair view of the financial position and performance of the registered entity; and
+	(b)	subject to Subdivision 60C, must comply with the accounting standards.
+Note 1:	The accounting standards set out the test for whether a registered entity will need to prepare a general purpose financial statement or can instead prepare a special purpose financial statement. See section 60.30 of this instrument for the accounting standards that must be complied with in preparing a special purpose financial statement.
+Note 2:	If the financial statements and notes prepared in compliance with the accounting standards would not give a true and fair view, additional information must be included in the notes to the financial statements under paragraph (2)(b).
+60.15  Responsible entities’ declaration
+	(1)	The responsible entities’ declaration is a declaration by the responsible entities of the registered entity that states:
+	(a)	whether, in their opinion, there are reasonable grounds to believe that the registered entity is able to pay all of its debts, as and when they become due and payable; and
+	(b)	whether, in their opinion, the financial statements and notes satisfy the requirements of the Act.
+	(2)	The declaration must be signed by a responsible entity that is authorised to do so by each of the responsible entities.
+Subdivision 60BA—Auditors
+60.17  Prescribed entities undertaking audits or reviews
+		The following entities are prescribed for the purposes of paragraph 6030(1)(d) of the Act:
+	(a)	an individual who holds office as, or is for the time being exercising the powers and performing the duties of:
+	(i)	the AuditorGeneral; or
+	(ii)	the AuditorGeneral for a State or Territory;
+	(b)	an individual to whom the AuditorGeneral for the Commonwealth, or for a State or Territory, delegates:
+	(i)	the function of conducting an audit; or
+	(ii)	the power to conduct an audit.
+Subdivision 60C—Requirements for annual financial reports (special rules)
+60.20  Application of Subdivision 60C
+		This Subdivision applies if the accounting standards are inconsistent with Subdivisions 60E and 60G of the Act.
+60.25  Resolution of inconsistency
+		The financial statements and notes mentioned in Subdivision 60B of this Division do not have to comply with the accounting standards to the extent to which the accounting standards are inconsistent with Subdivisions 60E and 60G of the Act.
+Note 1:	In requiring further information under Subdivision 60E of the Act, or allowing joint and collective reporting under Subdivision 60G of the Act, the Commissioner may specify requirements relating to the information or reports, including particular accounting standards that do not need to be complied with.
+Note 2:	A registered entity would not breach a requirement in the accounting standards to prepare a general purpose financial statement if this Subdivision does not require the entity to comply with the requirement.
+60.30  Special purpose financial statements
+	(1)	This section applies if a registered entity:
+	(a)	is not required to prepare a general purpose financial statement; and
+	(b)	does not propose to prepare a general purpose financial statement.
+	(2)	Each accounting standard mentioned in the following table is taken to apply in relation to the registered entity and the preparation of a special purpose financial statement unless the Commissioner allows the registered entity not to comply with part or all of the accounting standard.
+
+Accounting standards
+Item
+Standard
+1
+AASB 101 Presentation of Financial Statements
+2
+AASB 107 Statement of Cash Flows
+3
+AASB 108 Accounting Policies, Changes in Accounting Estimates and Errors
+4
+AASB 124 Related Party Disclosures
+5
+AASB 1048 Interpretation of Standards
+6
+AASB 1054 Australian Additional Disclosures
+	(3)	The registered entity may, under this subsection, also apply accounting standard AASB 1060 General Purpose Financial Statements—Simplified Disclosures for ForProfit and NotforProfit Tier 2 Entities (the simplified disclosures standard) in the preparation of the special purpose financial statement. If the registered entity does so, then in the preparation of that statement:
+	(a)	the simplified disclosures standard applies unless the Commissioner allows the registered entity not to comply with part of that standard; and
+	(b)	the simplified disclosures standard applies only to the extent that it deals with matters that are dealt with in an accounting standard mentioned in subsection (2); and
+	(c)	an accounting standard mentioned in subsection (2) (other than accounting standard AASB 1054 Australian Additional Disclosures) does not apply in relation to the registered entity to the same extent that the standard does not apply to entities preparing general purpose financial statements that apply the simplified disclosures standard; and
+	(d)	in relation to accounting standard AASB 1054 Australian Additional Disclosures—only paragraphs 1 to 6, 9, 9A, 9B and 17 of that standard apply in relation to the registered entity.
+	(4)	Subsection (2) or (3) does not apply in relation to the following entities and accounting standard AASB 124 Related Party Disclosures, or accounting standard AASB 1060 General Purpose Financial Statements—Simplified Disclosures for ForProfit and NotforProfit Tier 2 Entities, to the extent that the standard relates to the disclosure of key management personnel compensation:
+	(a)	a medium registered entity;
+	(b)	a large registered entity whose key management personnel consists of only one individual.
+	(5)	Subsection (2) does not apply to any part of an accounting standard referred to in the table in that subsection that is expressed to apply only to a reporting entity.
+Part 81—Core concepts
+Division 205—Core concepts
+205.1  Small and medium registered entities
+Small registered entities
+	(1)	For the purposes of subsection 20525(1) of the Act, the amount of $500,000 is prescribed.
+Medium registered entities
+	(2)	For the purposes of paragraph 20525(2)(b) of the Act, the amount of $3,000,000 is prescribed.
+Part 9-1—Application, saving and transitional provisions
+Division 305—Application of this instrument as originally made
+305.1  Application provision—information included on Register
+		Division 40 of this instrument applies in relation to information required to be included on the Register in relation to:
+	(a)	the 202223 financial year; and
+	(b)	each later financial year.
+305.5  Application provision—review of overseas activities
+		Section 50.25 of this instrument applies in relation to activities for:
+	(a)	the 202223 financial year; and
+	(b)	each later financial year.
+305.10  Application provision—financial reports
+		Division 60 of this instrument applies in relation to financial reports required to be given for:
+	(a)	the 202223 financial year; and
+	(b)	each later financial year.
+305.15  Application provision—small, medium and large registered entities
+		Division 205 of this instrument applies in relation to working out whether a registered entity is a small registered entity, a medium registered entity or a large registered entity for:
+	(a)	the 202223 financial year; and
+	(b)	each later financial year.
+Endnotes
+Endnote 1—About the endnotes
+The endnotes provide information about this compilation and the compiled law.
+The following endnotes are included in every compilation:
+Endnote 1—About the endnotes
+Endnote 2—Abbreviation key
+Endnote 3—Legislation history
+Endnote 4—Amendment history
+Abbreviation key—Endnote 2
+The abbreviation key sets out abbreviations that may be used in the endnotes.
+Legislation history and amendment history—Endnotes 3 and 4
+Amending laws are annotated in the legislation history and amendment history.
+The legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.
+The amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.
+Editorial changes
+The Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.
+If the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.
+Misdescribed amendments
+A misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003.
+If a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.
+
+Endnote 2—Abbreviation key
+ad = added or inserted
+o = order(s)
+am = amended
+Ord = Ordinance
+amdt = amendment
+orig = original
+c = clause(s)
+par = paragraph(s)/subparagraph(s)
+C[x] = Compilation No. x
+/subsubparagraph(s)
+Ch = Chapter(s)
+pres = present
+def = definition(s)
+prev = previous
+Dict = Dictionary
+(prev…) = previously
+disallowed = disallowed by Parliament
+Pt = Part(s)
+Div = Division(s)
+r = regulation(s)/rule(s)
+ed = editorial change
+reloc = relocated
+exp = expires/expired or ceases/ceased to have
+renum = renumbered
+effect
+rep = repealed
+F = Federal Register of Legislation
+rs = repealed and substituted
+gaz = gazette
+s = section(s)/subsection(s)
+LA = Legislation Act 2003
+Sch = Schedule(s)
+LIA = Legislative Instruments Act 2003
+Sdiv = Subdivision(s)
+(md) = misdescribed amendment can be given
+SLI = Select Legislative Instrument
+effect
+SR = Statutory Rules
+(md not incorp) = misdescribed amendment
+SubCh = SubChapter(s)
+cannot be given effect
+SubPt = Subpart(s)
+mod = modified/modification
+underlining = whole or part not
+No. = Number(s)
+commenced or to be commenced
+
+Endnote 3—Legislation history
+
+Name
+Registration
+Commencement
+Application, saving and transitional provisions
+Australian Charities and Not‑for‑profits Commission Regulations 2022
+30 Sept 2022 (F2022L01301)
+1 April 2023 (s 2(1) item 1)
+
+Treasury Laws Amendment (ALRC Financial Services Interim Report) Regulations 2023
+31 Oct 2023 (F2023L01458)
+Sch 2 (item 15): 1 Nov 2023 (s 2(1) item 1)
+—
+
+Endnote 4—Amendment history
+
+Provision affected
+How affected
+Part 11
+
+s 1.2	
+rep LA s 48D
+s 1.4	
+rep LA s 48C
+Part 22
+
+Division 45
+
+Subdivision 45B
+
+s 45.25	
+am F2023L01458
+Part 91
+
+Part 91 heading	
+ed C1
+Schedule 1	
+rep LA s 48C
+
+Endnote 5—Editorial changes
+In preparing this compilation for registration, the following kinds of editorial change(s) were made under the Legislation Act 2003.
+Part 9.1 (heading)
+Kind of editorial change
+Renumbering of provisions
+Details of editorial change
+This compilation was editorially changed by renumbering Part 9.1 as Part 9-1 to reflect the Part numbering within the rest of these regulations.
+

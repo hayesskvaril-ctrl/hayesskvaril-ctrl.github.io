@@ -1,0 +1,1856 @@
+SOURCE: https://www.legislation.gov.au/C2023A00067/2025-02-21/2025-02-21/text/original/word
+FINAL URL: https://www.legislation.gov.au/C2023A00067/2025-02-21/2025-02-21/text/original/word
+FETCHED: 2026-10-09
+
+
+
+Financial Accountability Regime Act 2023
+No. 67, 2023
+Compilation No.  DOCPROPERTY  CompilationNumber 2
+Compilation date:	DOCPROPERTY StartDate \@ "d MMMM yyyy" \* MERGEFORMAT21 February 2025
+Includes amendments:	 DOCPROPERTY IncludesUpTo Act No. 14, 2025
+About this compilation
+This compilation
+This is a compilation of the  STYLEREF  ShortT Financial Accountability Regime Act 2023 that shows the text of the law as amended and in force on DOCPROPERTY StartDate \@ "d MMMM yyyy" \* MERGEFORMAT21 February 2025 (the compilation date).
+The notes at the end of this compilation (the endnotes) include information about amending laws and the amendment history of provisions of the compiled law.
+Uncommenced amendments
+The effect of uncommenced amendments is not shown in the text of the compiled law. Any uncommenced amendments affecting the law are accessible on the Register (www.legislation.gov.au). The details of amendments made up to, but not commenced at, the compilation date are underlined in the endnotes. For more information on any uncommenced amendments, see the Register for the compiled law.
+Application, saving and transitional provisions for provisions and amendments
+If the operation of a provision or amendment of the compiled law is affected by an application, saving or transitional provision that is not included in this compilation, details are included in the endnotes.
+Editorial changes
+For more information about any editorial changes made in this compilation, see the endnotes.
+Modifications
+If the compiled law is modified by another law, the compiled law operates as modified but the modification does not amend the text of the law. Accordingly, this compilation does not show the text of the compiled law as modified. For more information on any modifications, see the Register for the compiled law.
+Selfrepealing provisions
+If a provision of the compiled law has been repealed in accordance with a provision of the law, details are included in the endnotes.
+  
+  
+  
+
+Contents
+ TOC \o "1-9" Chapter 1—Introduction	 PAGEREF _Toc191391599 \h 1
+Part 1—Preliminary	 PAGEREF _Toc191391600 \h 1
+1  Short title	 PAGEREF _Toc191391601 \h 1
+2  Commencement	 PAGEREF _Toc191391602 \h 1
+3  Objects of this Act	 PAGEREF _Toc191391603 \h 2
+4  Simplified outline of this Act	 PAGEREF _Toc191391604 \h 2
+5  Act binds the Crown	 PAGEREF _Toc191391605 \h 3
+6  Extension to external Territories	 PAGEREF _Toc191391606 \h 3
+7  Extraterritorial application	 PAGEREF _Toc191391607 \h 3
+Part 2—Interpretation	 PAGEREF _Toc191391608 \h 4
+8  Definitions	 PAGEREF _Toc191391609 \h 4
+9  Meaning of accountable entity	 PAGEREF _Toc191391610 \h 8
+10  Meaning of accountable person	 PAGEREF _Toc191391611 \h 9
+11  When a person is not an accountable person	 PAGEREF _Toc191391612 \h 11
+12  Meaning of significant related entity	 PAGEREF _Toc191391613 \h 12
+13  Meaning of constitutionally covered body	 PAGEREF _Toc191391614 \h 14
+Chapter 2—Obligations under the Financial Accountability Regime	 PAGEREF _Toc191391615 \h 15
+Part 1—Introduction	 PAGEREF _Toc191391616 \h 15
+14  Simplified outline of this Chapter	 PAGEREF _Toc191391617 \h 15
+Part 2—Obligations of accountable entities and accountable persons	 PAGEREF _Toc191391618 \h 17
+Division 1—Accountable entities	 PAGEREF _Toc191391619 \h 17
+15  Obligations of accountable entities	 PAGEREF _Toc191391620 \h 17
+16  Minister may exempt accountable entities	 PAGEREF _Toc191391621 \h 17
+17  Inconsistency with corresponding foreign laws	 PAGEREF _Toc191391622 \h 18
+Division 2—Accountable persons	 PAGEREF _Toc191391623 \h 20
+18  Obligations of accountable persons	 PAGEREF _Toc191391624 \h 20
+19  Inconsistency with corresponding foreign laws	 PAGEREF _Toc191391625 \h 20
+Part 3—Accountability obligations	 PAGEREF _Toc191391626 \h 22
+20  The accountability obligations of an accountable entity	 PAGEREF _Toc191391627 \h 22
+21  The accountability obligations of an accountable person	 PAGEREF _Toc191391628 \h 22
+22  Taking reasonable steps	 PAGEREF _Toc191391629 \h 24
+Part 4—Key personnel obligations	 PAGEREF _Toc191391630 \h 25
+23  The key personnel obligations of an accountable entity	 PAGEREF _Toc191391631 \h 25
+24  People prohibited from being an accountable person	 PAGEREF _Toc191391632 \h 26
+Part 5—Deferred remuneration obligations	 PAGEREF _Toc191391633 \h 28
+25  The deferred remuneration obligations of an accountable entity	 PAGEREF _Toc191391634 \h 28
+26  Meaning of variable remuneration	 PAGEREF _Toc191391635 \h 29
+27  Minimum amount of variable remuneration to be deferred	 PAGEREF _Toc191391636 \h 30
+28  Minimum deferral period for variable remuneration	 PAGEREF _Toc191391637 \h 32
+29  Exemption for small amounts of variable remuneration	 PAGEREF _Toc191391638 \h 35
+30  Exemption for variable remuneration payable for temporary performance	 PAGEREF _Toc191391639 \h 35
+Part 6—Notification obligations	 PAGEREF _Toc191391640 \h 36
+31  The notification obligations of an accountable entity	 PAGEREF _Toc191391641 \h 36
+32  Events for which the Regulator must be notified	 PAGEREF _Toc191391642 \h 38
+33  Accountability statements	 PAGEREF _Toc191391643 \h 39
+34  Accountability map	 PAGEREF _Toc191391644 \h 39
+Chapter 3—Administration	 PAGEREF _Toc191391645 \h 40
+Part 1—Introduction	 PAGEREF _Toc191391646 \h 40
+35  Simplified outline of this Chapter	 PAGEREF _Toc191391647 \h 40
+Part 2—The Regulator	 PAGEREF _Toc191391648 \h 41
+Division 1—Arrangements for administration	 PAGEREF _Toc191391649 \h 41
+36  Administration of this Act	 PAGEREF _Toc191391650 \h 41
+37  Arrangement for administration	 PAGEREF _Toc191391651 \h 43
+38  Agreement about exercise of powers	 PAGEREF _Toc191391652 \h 43
+Division 2—Information sharing	 PAGEREF _Toc191391653 \h 45
+39  Disclosure of information and documents between APRA and ASIC	 PAGEREF _Toc191391654 \h 45
+Part 3—Registration and disqualification of accountable persons	 PAGEREF _Toc191391655 \h 47
+Division 1—Registration of accountable persons	 PAGEREF _Toc191391656 \h 47
+40  Register of accountable persons	 PAGEREF _Toc191391657 \h 47
+41  Registration of a person as an accountable person	 PAGEREF _Toc191391658 \h 48
+Division 2—Disqualification of accountable persons	 PAGEREF _Toc191391659 \h 50
+42  Regulator may disqualify an accountable person	 PAGEREF _Toc191391660 \h 50
+43  Regulator may vary or revoke a disqualification	 PAGEREF _Toc191391661 \h 51
+44  Allowing a person disqualified by the Regulator to act as an accountable person	 PAGEREF _Toc191391662 \h 52
+Part 4—Regulatory powers and enforcement	 PAGEREF _Toc191391663 \h 53
+Division 1—Investigations	 PAGEREF _Toc191391664 \h 53
+45  Regulator may appoint an investigator	 PAGEREF _Toc191391665 \h 53
+46  Requirement to assist investigator	 PAGEREF _Toc191391666 \h 54
+47  Investigator may require production of books etc.	 PAGEREF _Toc191391667 \h 54
+48  Concealing books, accounts or documents relevant to investigation	 PAGEREF _Toc191391668 \h 55
+Division 2—Examinations	 PAGEREF _Toc191391669 \h 56
+49  Notice requiring appearance for examination	 PAGEREF _Toc191391670 \h 56
+50  Conduct of examinations	 PAGEREF _Toc191391671 \h 56
+51  Who may be present at examinations	 PAGEREF _Toc191391672 \h 57
+52  Record of examination	 PAGEREF _Toc191391673 \h 58
+53  Offences	 PAGEREF _Toc191391674 \h 58
+Division 3—Evidentiary use of certain material	 PAGEREF _Toc191391675 \h 59
+54  Statements made at an examination—proceedings against examinee	 PAGEREF _Toc191391676 \h 59
+55  Statements made at an examination—other proceedings	 PAGEREF _Toc191391677 \h 60
+56  Weight of evidence under section 55	 PAGEREF _Toc191391678 \h 61
+57  Objection to admission of statements made at examination	 PAGEREF _Toc191391679 \h 62
+58  Copies of, or extracts from, certain books, accounts and documents	 PAGEREF _Toc191391680 \h 63
+59  Admissibility of investigation report	 PAGEREF _Toc191391681 \h 64
+60  Exceptions to admissibility of investigation report	 PAGEREF _Toc191391682 \h 64
+61  Material otherwise admissible	 PAGEREF _Toc191391683 \h 65
+Division 4—Requesting information	 PAGEREF _Toc191391684 \h 66
+62  Regulator may request information	 PAGEREF _Toc191391685 \h 66
+63  Failing to give information	 PAGEREF _Toc191391686 \h 68
+Division 5—Regulator’s power to issue directions	 PAGEREF _Toc191391687 \h 69
+Subdivision A—Kinds of directions	 PAGEREF _Toc191391688 \h 69
+64  Direction dealing with noncompliance	 PAGEREF _Toc191391689 \h 69
+65  Direction to reallocate responsibilities	 PAGEREF _Toc191391690 \h 71
+Subdivision B—Noncompliance with directions	 PAGEREF _Toc191391691 \h 73
+66  Offence provision for noncompliance with a direction	 PAGEREF _Toc191391692 \h 73
+Subdivision C—Secrecy and disclosure provisions relating to directions	 PAGEREF _Toc191391693 \h 74
+67  Regulator may determine that a direction is covered by secrecy provision	 PAGEREF _Toc191391694 \h 74
+68  Secrecy relating to directions	 PAGEREF _Toc191391695 \h 75
+69  Disclosure of publicly available information	 PAGEREF _Toc191391696 \h 76
+70  Disclosure allowed by the Regulator	 PAGEREF _Toc191391697 \h 76
+71  Disclosure for the purpose of seeking review or legal advice	 PAGEREF _Toc191391698 \h 77
+72  Disclosure under the APRA Act	 PAGEREF _Toc191391699 \h 78
+73  Disclosure under the ASIC Act	 PAGEREF _Toc191391700 \h 79
+74  Disclosure in circumstances set out in the Minister rules	 PAGEREF _Toc191391701 \h 79
+75  Disclosure for purpose	 PAGEREF _Toc191391702 \h 80
+76  Exceptions operate independently	 PAGEREF _Toc191391703 \h 80
+Subdivision D—Other provisions relating to directions	 PAGEREF _Toc191391704 \h 80
+77  Direction not grounds for denial of obligations	 PAGEREF _Toc191391705 \h 80
+78  Information to the Minister about certain directions	 PAGEREF _Toc191391706 \h 82
+79  Relationship with other laws	 PAGEREF _Toc191391707 \h 82
+Division 6—Civil penalties	 PAGEREF _Toc191391708 \h 83
+80  Civil penalty provision for noncompliance with obligations	 PAGEREF _Toc191391709 \h 83
+81  Ancillary contravention of civil penalty provisions	 PAGEREF _Toc191391710 \h 83
+82  Civil penalty provisions—enforcement	 PAGEREF _Toc191391711 \h 84
+83  Civil penalty provisions—amount of penalty	 PAGEREF _Toc191391712 \h 85
+Division 7—Enforceable undertakings	 PAGEREF _Toc191391713 \h 87
+84  Enforceable undertakings	 PAGEREF _Toc191391714 \h 87
+Division 8—Injunctions	 PAGEREF _Toc191391715 \h 89
+85  Injunctions	 PAGEREF _Toc191391716 \h 89
+Division 9—Miscellaneous	 PAGEREF _Toc191391717 \h 90
+86  Physical elements of offences	 PAGEREF _Toc191391718 \h 90
+87  Contravening an offence provision or a civil penalty provision	 PAGEREF _Toc191391719 \h 90
+88  Selfincrimination	 PAGEREF _Toc191391720 \h 90
+89  Legal professional privilege	 PAGEREF _Toc191391721 \h 91
+90  Powers of Court relating to noncompliance with this Act	 PAGEREF _Toc191391722 \h 92
+Part 5—Review of decisions	 PAGEREF _Toc191391723 \h 93
+91  Reviewable decisions	 PAGEREF _Toc191391724 \h 93
+92  Notice of decisions and review rights	 PAGEREF _Toc191391725 \h 96
+93  Affected person may request reconsideration of reviewable decision	 PAGEREF _Toc191391726 \h 97
+94  Reconsideration of reviewable decision	 PAGEREF _Toc191391727 \h 97
+95  Review by the Administrative Appeals Tribunal	 PAGEREF _Toc191391728 \h 99
+Part 6—Miscellaneous	 PAGEREF _Toc191391729 \h 100
+96  Disclosure for the purpose of seeking review or legal advice	 PAGEREF _Toc191391730 \h 100
+97  Indemnifying accountable entities	 PAGEREF _Toc191391731 \h 100
+98  Causes of action not created	 PAGEREF _Toc191391732 \h 101
+99  Compensation for acquisition of property	 PAGEREF _Toc191391733 \h 101
+100  Conduct of directors, employees and agents	 PAGEREF _Toc191391734 \h 102
+101  Protection from liability—general	 PAGEREF _Toc191391735 \h 103
+102  Protection from liability—directions and secrecy	 PAGEREF _Toc191391736 \h 103
+103  Protection from liability—provisions do not limit each other	 PAGEREF _Toc191391737 \h 104
+104  Minister rules	 PAGEREF _Toc191391738 \h 104
+105  Regulator rules	 PAGEREF _Toc191391739 \h 105
+Endnotes	 PAGEREF _Toc191391740 \h 107
+Endnote 1—About the endnotes	 PAGEREF _Toc191391741 \h 107
+Endnote 2—Abbreviation key	 PAGEREF _Toc191391742 \h 109
+Endnote 3—Legislation history	 PAGEREF _Toc191391743 \h 110
+Endnote 4—Amendment history	 PAGEREF _Toc191391744 \h 111
+
+An Act to provide for a strengthened accountability framework for financial entities in the banking, insurance and superannuation industries, and for related purposes
+Chapter 1—Introduction
+Part 1—Preliminary
+  
+1  Short title
+		This Act is the Financial Accountability Regime Act 2023.
+2  Commencement
+	(1)	Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.
+
+Commencement information
+Column 1
+Column 2
+Column 3
+Provisions
+Commencement
+Date/Details
+1.  The whole of this Act
+The day after this Act receives the Royal Assent.
+15 September 2023
+Note:	This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.
+	(2)	Any information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act.
+3  Objects of this Act
+		The objects of this Act are:
+	(a)	to provide for a strengthened accountability framework for:
+	(i)	financial entities in the banking, insurance and superannuation industries; and
+	(ii)	persons who hold certain positions, or have certain responsibilities, related to those financial entities; and
+	(b)	to confer on APRA and ASIC functions and powers (including information gathering, investigation and enforcement powers) that:
+	(i)	relate to obligations under that framework; and
+	(ii)	can be performed and exercised in aid of their functions and powers under other laws.
+4  Simplified outline of this Act
+This Act establishes a strengthened accountability framework for financial entities in the banking, insurance and superannuation industries that are regulated by Acts under which APRA is the prudential or principal regulator. These entities are called accountable entities.
+The framework is intended to ensure that accountable entities take reasonable steps:
+	(a)	to conduct their business with honesty and integrity, and with due skill, care and diligence; and
+	(b)	to deal with APRA and ASIC in an open, constructive and cooperative way; and
+	(c)	to prevent adverse effects on their prudential standing or prudential reputation; and
+	(d)	to ensure that their senior executives and other key personnel (called accountable persons) meet those same standards of conduct, and take reasonable steps to ensure compliance with applicable laws; and
+	(e)	to ensure that related entities whose business and activities materially and substantially affect the accountable entities (called significant related entities) comply with the framework in the same way as the accountable entities themselves.
+Note:	Other entities that hold Australian financial services licences or Australian credit licences are not covered by the framework in this Act.
+Accountable entities are subject to a series of obligations that enable oversight and enforcement by APRA and ASIC (together called the Regulator). These are enforced mainly through civil penalties for noncompliance.
+Accountable persons are also subject to obligations, which can be enforced by accountable entities through reduction of deferred remuneration, or by the Regulator through disqualification.
+A range of compliance and enforcement powers are provided for, including by applying the Regulatory Powers (Standard Provisions) Act 2014.
+5  Act binds the Crown
+	(1)	This Act binds the Crown in each of its capacities.
+	(2)	This Act does not make the Crown liable to be prosecuted for an offence.
+6  Extension to external Territories
+		This Act extends to every external Territory.
+7  Extraterritorial application
+		This Act extends to acts, omissions, matters and things outside Australia.
+Note:	The expression this Act includes the Regulatory Powers Act as it applies in relation to this Act (see section 8).
+Part 2—Interpretation
+  
+8  Definitions
+		In this Act:
+accountability map: see subsection 31(2).
+accountability statement: see subsection 31(2).
+accountable entity: see section 9.
+accountable person: see sections 10 and 11.
+ADI has the same meaning as in the Banking Act 1959.
+Note:	ADI is short for authorised deposittaking institution.
+affected person: see section 91.
+annual turnover, of an accountable entity during a 12month period, has the same meaning as in the Corporations Act 2001.
+APRA means the Australian Prudential Regulation Authority.
+APRA staff member has the same meaning as in the Australian Prudential Regulation Authority Act 1998.
+ASIC means the Australian Securities and Investments Commission.
+ASIC staff member means a staff member within the meaning of the Australian Securities and Investments Commission Act 2001.
+Australia, when used in a geographical sense, includes the external Territories.
+authorised NOHC:
+	(a)	of an ADI—means an authorised NOHC (within the meaning of the Banking Act 1959) of the ADI; and
+	(b)	of a general insurer—means an authorised NOHC (within the meaning of the Insurance Act 1973) of the general insurer.
+Note:	NOHC is short for nonoperating holding company.
+benefit derived and detriment avoided has the same meaning as in the Corporations Act 2001.
+civil penalty order has the same meaning as in the Regulatory Powers Act.
+civil penalty provision has the same meaning as in the Regulatory Powers Act.
+connected entity, in relation to an RSE licensee, means a connected entity (within the meaning of the Superannuation Industry (Supervision) Act 1993) of the RSE licensee.
+constitutional corporation means a corporation to which paragraph 51(xx) of the Constitution applies.
+constitutionally covered body: see section 13.
+decisionmaker for a reviewable decision means:
+	(a)	if APRA made the reviewable decision—APRA; or
+	(b)	if ASIC made the reviewable decision—ASIC.
+enhanced notification threshold: see subsection 31(3).
+financial year, in relation to an accountable entity or significant related entity:
+	(a)	if the accountable entity or significant related entity is a company that is registered under the Corporations Act 2001—has the same meaning as in that Act; or
+	(b)	if:
+	(i)	the accountable entity or significant related entity is not a company that is registered under the Corporations Act 2001; and
+	(ii)	the accountable entity or significant related entity is incorporated or registered under another law; and
+	(iii)	a definition of financial year applies in relation to that other law;
+		has the same meaning as in that other law; or
+	(c)	in any other case—means a period of 12 months starting on 1 July.
+foreign accountable entity means:
+	(a)	a foreign ADI (within the meaning of the Banking Act 1959); or
+	(b)	a foreign general insurer (within the meaning of the Insurance Act 1973); or
+	(c)	an eligible foreign life insurance company (within the meaning of the Life Insurance Act 1995) that is registered under section 21 of the Life Insurance Act 1995.
+general insurer has the same meaning as in the Insurance Act 1973.
+internal decision reviewer: see subsection 94(1).
+investigator means a person the Regulator appoints under subsection 45(1).
+lawyer means a duly qualified legal practitioner and, in relation to a person, means such a practitioner acting for the person.
+life company means a body corporate that is registered under section 21 of the Life Insurance Act 1995.
+minimum deferral period, for variable remuneration of an accountable person, has the meaning given by subsection 28(1).
+Minister rules means the rules made under subsection 104(1).
+officer has the same meaning as in the Corporations Act 2001.
+private health insurer has the same meaning as in the Private Health Insurance (Prudential Supervision) Act 2015.
+reconsideration decision means a decision made under subsection 94(2).
+registered NOHC, of a life company, means a registered NOHC (within the meaning of the Life Insurance Act 1995) of the life company.
+Note:	NOHC is short for nonoperating holding company.
+Regulator means either APRA or ASIC, but, if the context requires the reference to be particularly to one of those bodies, then Regulator means that body.
+Note:	However, ASIC is to perform functions and exercise powers under this Act only in relation to certain persons: see subsection 36(2).
+Regulator rules means the rules made under subsection 105(1).
+Regulatory Powers Act means the Regulatory Powers (Standard Provisions) Act 2014.
+related: the question whether 2 bodies corporate are related to each other is to be determined for the purposes of this Act in the same way as for the purposes of the Corporations Act 2001.
+relevant group, of an accountable entity, means the accountable entity and its significant related entities.
+remuneration, of an accountable person, has a meaning affected by subsection 25(3).
+reviewable decision: see section 91.
+RSE licensee means a constitutional corporation, or a body corporate, that:
+	(a)	holds an RSE licence granted under section 29D of the Superannuation Industry (Supervision) Act 1993; and
+	(b)	is not the trustee of a fund that is an exempt public sector superannuation scheme (within the meaning of that Act).
+significant related entity has the meaning given by section 12.
+subsidiary: the question whether a body corporate is a subsidiary of another body corporate is to be determined for the purposes of this Act in the same way as for the purposes of the Corporations Act 2001.
+this Act includes:
+	(a)	the Minister rules; and
+	(b)	the Regulator rules; and
+	(c)	the Regulatory Powers Act as it applies in relation to this Act.
+variable remuneration has the meaning given by section 26.
+9  Meaning of accountable entity
+ADIs and authorised NOHCs of ADIs
+	(1)	A body corporate is an accountable entity if both of the following apply to the body corporate:
+	(a)	it is an ADI or an authorised NOHC of an ADI;
+	(b)	it is a constitutionally covered body.
+Note:	For when a body corporate is a constitutionally covered body, see section 13.
+	(2)	The ADI or authorised NOHC is an accountable entity from the start of the later of:
+	(a)	the day that is 6 months after the commencement of this Act; and
+	(b)	the day on which it becomes an ADI or authorised NOHC, as the case may be.
+Other bodies corporate
+	(3)	A body corporate is an accountable entity if both of the following apply to the body corporate:
+	(a)	it is:
+	(i)	a general insurer; or
+	(ii)	an authorised NOHC of a general insurer; or
+	(iii)	a life company; or
+	(iv)	a registered NOHC of a life company; or
+	(v)	a private health insurer; or
+	(vi)	an RSE licensee;
+	(b)	it is a constitutionally covered body.
+	(4)	The body corporate is an accountable entity from the start of the later of:
+	(a)	the day that is 18 months after the commencement of this Act; and
+	(b)	the day on which it becomes a body corporate covered by the relevant subparagraph of paragraph (3)(a).
+10  Meaning of accountable person
+Accountable persons of accountable entities
+	(1)	An individual is an accountable person of an accountable entity if:
+	(a)	either of the following applies:
+	(i)	in the case of an accountable entity other than an RSE licensee—the person holds a position in the accountable entity or in another body corporate of which the accountable entity is a subsidiary;
+	(ii)	in the case of an accountable entity that is an RSE licensee—the person holds a position in the accountable entity or in another body corporate of which the accountable entity is a connected entity; and
+	(b)	because of that position, the person has actual or effective senior executive responsibility:
+	(i)	for management or control of the accountable entity; or
+	(ii)	for management or control of a significant or substantial part or aspect of the operations of the accountable entity or the accountable entity’s relevant group.
+Note 1:	For the definitions of connected entity, relevant group and subsidiary, see section 8.
+Note 2:	This section is subject to section 11 (when a person is not an accountable person).
+Prescribed responsibilities and positions
+	(2)	An individual is an accountable person of an accountable entity if the person:
+	(a)	holds a position in, or relating to, the accountable entity; and
+	(b)	because of that position has a responsibility, relating to the accountable entity, prescribed by the Minister rules for the purposes of this paragraph.
+	(3)	If an individual holds a position in an accountable entity that is a position prescribed by the Minister rules for the purposes of this subsection, then:
+	(a)	the individual is an accountable person of the accountable entity; and
+	(b)	for the purposes of this Act, the responsibilities associated with that position are responsibilities that cause the individual to be an accountable person of the accountable entity.
+	(4)	The Minister rules:
+	(a)	may prescribe responsibilities relating to accountable entities for the purposes of paragraph (2)(b); and
+	(b)	may prescribe positions in accountable entities for the purposes of subsection (3).
+Note:	For example, the Minister rules could prescribe responsibilities relating to accountable entities for the purposes of paragraph (2)(b) by reference to one or more of the following:
+(a)	a level of responsibility;
+(b)	responsibility for a matter;
+(c)	accountable entities of a particular kind.
+Accountable persons of foreign accountable entities
+	(5)	An individual is an accountable person of an accountable entity that is a foreign accountable entity if the person:
+	(a)	has a responsibility of a kind mentioned in subsection (1) or (2); or
+	(b)	holds a position of a kind mentioned in subsection (3);
+in relation to a branch of the accountable entity that is operating in Australia.
+Accountable persons of significant related entities
+	(6)	An individual is an accountable person of a significant related entity of an accountable entity if:
+	(a)	the person holds a position in the significant related entity; and
+	(b)	because of that position, the person has actual or effective senior executive responsibility:
+	(i)	for management or control of the accountable entity; or
+	(ii)	for management or control of a significant or substantial part or aspect of the operations of the accountable entity or the accountable entity’s relevant group.
+Note:	For the definitions of relevant group and significant related entity, see section 8.
+Alternative tests
+	(7)	An individual can be an accountable person of an accountable entity (other than a foreign accountable entity) because of one or more of subsections (1), (2) and (3). An individual can be an accountable person of a foreign accountable entity only because of subsection (5).
+11  When a person is not an accountable person
+When persons are not accountable persons
+	(1)	A person is not an accountable person of an accountable entity, or of a significant related entity, if each of the person’s responsibilities that would (apart from this subsection) cause the person to be an accountable person of the entity is either:
+	(a)	a responsibility excluded under subsection (2) in relation to the entity; or
+	(b)	a responsibility excluded under subsection (3) in relation to a class of accountable entities or significant related entities that includes that accountable entity or significant related entity.
+	(2)	For the purposes of paragraph (1)(a), the Regulator may, by written notice given to an accountable entity or a significant related entity, exclude specified responsibilities.
+	(3)	For the purposes of paragraph (1)(b), the Regulator rules may exclude specified responsibilities relating to:
+	(a)	a specified class of accountable entities; or
+	(b)	a specified class of significant related entities.
+Relationship with other provisions
+	(4)	This section has effect despite section 10.
+Notice not a legislative instrument
+	(5)	A notice under subsection (2) is not a legislative instrument.
+12  Meaning of significant related entity
+Significant related entities of accountable entities other than RSE licensees
+	(1)	Subject to subsection (2), a body corporate is a significant related entity of an accountable entity that is not an RSE licensee if all of the following apply to the body corporate:
+	(a)	it is a subsidiary of the accountable entity;
+	(b)	it, or its business or activities, has (or is likely to have) an effect on the accountable entity, or the business or activities of the accountable entity, that is material and substantial;
+	(c)	it is a constitutionally covered body;
+	(d)	it is not an accountable entity itself.
+Note 1:	For the definition of subsidiary, see section 8.
+Note 2:	For when a body corporate is a constitutionally covered body, see section 13.
+	(2)	A body corporate is not a significant related entity of an accountable entity (the first accountable entity) if:
+	(a)	the body corporate is also a subsidiary of another accountable entity; and
+	(b)	that other accountable entity is a subsidiary of the first accountable entity.
+Example:	Company A is a subsidiary of the authorised NOHC of an ADI, and also a subsidiary of the ADI. Both the ADI and the authorised NOHC are accountable entities. Under this subsection:
+(a)	if the business of Company A has a material and substantial effect on both the ADI and the authorised NOHC—Company A would be a significant related entity only in relation to the ADI; but
+(b)	if the business of Company A did not have a material and substantial effect on the ADI—Company A would not be a significant related entity in relation to either the ADI or the authorised NOHC.
+Significant related entities of accountable entities that are RSE licensees
+	(3)	A body corporate is a significant related entity of an accountable entity that is an RSE licensee if all of the following apply to the body corporate:
+	(a)	it is a connected entity of the accountable entity;
+	(b)	it, or its business or activities, has (or is likely to have) an effect on the accountable entity, or the business or activities of the accountable entity, that is material and substantial;
+	(c)	it is a constitutionally covered body;
+	(d)	it is not an accountable entity itself.
+Note:	For the definition of connected entity, see section 8.
+Material and substantial effect
+	(4)	For the purposes of paragraphs (1)(b) and (3)(b), in determining whether a body corporate has (or is likely to have) an effect on an accountable entity, or the business or activities of an accountable entity, that is material and substantial, the following matters may be taken into account:
+	(a)	the nature of the body corporate’s business or activities;
+	(b)	the scale of the body corporate’s business or activities;
+	(c)	the nature and extent of any interdependency between the body corporate and the accountable entity;
+	(d)	any organisational, financial or administrative arrangements between the body corporate and the accountable entity;
+	(e)	any other relevant matter.
+13  Meaning of constitutionally covered body
+	(1)	A body corporate is a constitutionally covered body if any of the following apply to the body corporate:
+	(a)	it is a constitutional corporation;
+	(b)	it carries on the business of banking (within the meaning of paragraph 51(xiii) of the Constitution), other than State banking not extending beyond the limits of the State concerned;
+	(c)	it carries on the business of insurance (within the meaning of paragraph 51(xiv) of the Constitution), other than State insurance not extending beyond the limits of the State concerned;
+	(d)	it is the trustee of a superannuation fund (within the meaning of the Superannuation Industry (Supervision) Act 1993) the sole or primary purpose of which is the provision of oldage pensions (within the meaning of paragraph 51(xxiii) of the Constitution).
+	(2)	A body corporate is also a constitutionally covered body if:
+	(a)	the conduct of the body corporate affects (or is capable of affecting) the activities, functions, relationships or business of another body corporate; and
+	(b)	the other body corporate is covered by paragraph (1)(a), (b), (c) or (d).
+Chapter 2—Obligations under the Financial Accountability Regime
+Part 1—Introduction
+  
+14  Simplified outline of this Chapter
+Entities of the following kinds are accountable entities:
+	(a)	an authorised deposittaking institution (ADI);
+	(b)	an authorised nonoperating holding company (NOHC) of an ADI;
+	(c)	a general insurer;
+	(d)	an authorised NOHC of a general insurer;
+	(e)	a life company;
+	(f)	a registered NOHC of a life company;
+	(g)	a private health insurer;
+	(h)	an RSE licensee.
+Note:	RSE is short for registrable superannuation entity.
+An accountable person is primarily someone who has actual or effective senior executive responsibility for management or control of an accountable entity, or of a significant or substantial part or aspect of the operations of the entity or its corporate group. Rules made by the Minister can prescribe other responsibilities and positions that cause a person to be an accountable person.
+An accountable entity must comply with:
+	(a)	accountability obligations under Part 3; and
+	(b)	key personnel obligations under Part 4, including to ensure that responsibilities covering all parts of its business are appropriately allocated to accountable persons who are registered with the Regulator and not disqualified; and
+	(c)	obligations under Part 5 to defer a prescribed portion of the variable remuneration of its accountable persons to ensure compliance with their obligations; and
+	(d)	obligations under Part 6 to notify the Regulator of matters relating to accountable persons and their responsibilities.
+An accountable entity that fails to comply with any of these obligations is liable to a civil penalty.
+Accountable persons also have accountability obligations under Part 3. Failure by an accountable person to comply with any of those obligations may lead to reduction of their variable remuneration or disqualification by the Regulator.
+A foreign accountable entity is subject to obligations only to the extent that it operates a branch of the foreign accountable entity in Australia.
+Part 2—Obligations of accountable entities and accountable persons
+Division 1—Accountable entities
+15  Obligations of accountable entities
+	(1)	An accountable entity must comply with each one of the following:
+	(a)	its accountability obligations under Part 3;
+	(b)	its key personnel obligations under Part 4;
+	(c)	its deferred remuneration obligations under Part 5;
+	(d)	its notification obligations under Part 6.
+Note:	Failure to comply with an obligation under this Chapter is a contravention of a civil penalty provision (see section 80).
+	(2)	Subsection (1) does not apply to:
+	(a)	an accountable entity that:
+	(i)	the Minister has exempted under section 16; or
+	(ii)	is included in a class of accountable entities that the Minister has exempted under section 16; or
+	(b)	a foreign accountable entity, except to the extent that it operates a branch of the foreign accountable entity in Australia.
+	(3)	Subsection (1) does not apply to an accountable entity and an obligation to the extent that the accountable entity is not required to comply with the obligation because of subsection 17(2).
+16  Minister may exempt accountable entities
+Exemption of particular accountable entities
+	(1)	The Minister may, by notifiable instrument, exempt an accountable entity from compliance with this Chapter.
+	(2)	The Minister may only exempt an accountable entity under subsection (1) if the Minister is satisfied that it would be unreasonable for the accountable entity to be required to comply with this Chapter.
+	(3)	An exemption under subsection (1) must include a statement that sets out the Minister’s reasons for making the exemption.
+Class exemptions
+	(4)	The Minister may, by legislative instrument, exempt a class of accountable entities from compliance with this Chapter.
+	(5)	The Minister may only exempt a class of accountable entities under subsection (4) if the Minister is satisfied that it would be unreasonable for the class of accountable entities to be required to comply with this Chapter.
+17  Inconsistency with corresponding foreign laws
+	(1)	If the Regulator is satisfied that an accountable entity would contravene a law of a foreign country if the accountable entity were to comply with a particular obligation under section 15, the Regulator may:
+	(a)	give a written notice specifying that obligation to the accountable entity; and
+	(b)	specify in the notice:
+	(i)	the extent to which the accountable entity need not comply with that obligation; and
+	(ii)	conditions to which the notice is subject.
+Note:	A decision not to specify an obligation, or to specify conditions, is a reviewable decision (see Part 5 of Chapter 3).
+	(2)	The accountable entity is not required to comply with that obligation:
+	(a)	to the extent compliance would result in the accountable entity contravening that law of a foreign country; or
+	(b)	if the notice specifies the extent to which the accountable entity need not comply with that obligation—to the extent so specified;
+if the conditions (if any) specified in the notice are complied with.
+	(3)	A notice under subsection (1) is not a legislative instrument.
+Division 2—Accountable persons
+18  Obligations of accountable persons
+	(1)	An accountable person must comply with each of the person’s accountability obligations under Part 3 in relation to each of the responsibilities that cause the person to be an accountable person of an accountable entity or a significant related entity.
+	(2)	Subsection (1) does not apply to an accountable person of an accountable entity to which section 15 does not apply because of paragraph 15(2)(a).
+	(3)	Subsection (1) applies to an accountable person of a foreign accountable entity only in relation to a branch of the accountable entity that is operating in Australia.
+	(4)	Subsection (1) does not apply to an accountable person and an obligation to the extent that the accountable person is not required to comply with the obligation because of subsection 19(2).
+19  Inconsistency with corresponding foreign laws
+	(1)	If the Regulator is satisfied that an accountable person of an accountable entity, or of a significant related entity, would contravene a law of a foreign country if the person were to comply with a particular obligation under section 18, the Regulator may:
+	(a)	give a written notice specifying that obligation to the accountable person; and
+	(b)	specify in the notice:
+	(i)	the extent to which the accountable person need not comply with that obligation; and
+	(ii)	conditions to which the notice is subject.
+Note:	A decision not to specify an obligation, or to specify conditions, is a reviewable decision (see Part 5 of Chapter 3).
+	(2)	The accountable person is not required to comply with that obligation:
+	(a)	to the extent that compliance would result in the accountable person contravening that law of a foreign country; or
+	(b)	if the notice specifies the extent to which the accountable person need not comply with that obligation—to the extent so specified;
+if the conditions (if any) specified in the notice are complied with.
+	(3)	The Regulator must give a copy of the notice to the accountable entity or significant related entity.
+	(4)	A notice under subsection (1) is not a legislative instrument.
+Part 3—Accountability obligations
+  
+20  The accountability obligations of an accountable entity
+		The accountability obligations of an accountable entity are:
+	(a)	to take reasonable steps to conduct its business with honesty and integrity, and with due skill, care and diligence; and
+	(b)	to take reasonable steps to deal with the Regulator in an open, constructive and cooperative way; and
+	(c)	in conducting its business, to take reasonable steps to prevent matters from arising that would (or would be likely to) adversely affect the accountable entity’s prudential standing or prudential reputation; and
+	(d)	to take reasonable steps to ensure that each of its accountable persons meets their accountability obligations under section 21; and
+	(e)	to take reasonable steps to ensure that each of its significant related entities complies with each of paragraphs (a), (b), (c) and (d) as if the significant related entity were an accountable entity.
+Note:	See also section 22 (taking reasonable steps).
+21  The accountability obligations of an accountable person
+	(1)	The accountability obligations of an accountable person of an accountable entity, or of a significant related entity of an accountable entity, are to conduct the responsibilities of their position as an accountable person:
+	(a)	by acting with honesty and integrity, and with due skill, care and diligence; and
+	(b)	by dealing with the Regulator in an open, constructive and cooperative way; and
+	(c)	by taking reasonable steps in conducting those responsibilities to prevent matters from arising that would (or would be likely to) adversely affect the prudential standing or prudential reputation of the accountable entity; and
+	(d)	by taking reasonable steps in conducting those responsibilities to prevent matters from arising that would (or would be likely to) result in a material contravention by the accountable entity of any of the following:
+	(i)	this Act;
+	(ii)	the Banking Act 1959;
+	(iii)	the credit legislation (within the meaning of the National Consumer Credit Protection Act 2009);
+	(iv)	the Financial Sector (Collection of Data) Act 2001;
+	(v)	the financial services law (within the meaning of the Corporations Act 2001);
+	(vi)	the Insurance Act 1973;
+	(vii)	the Life Insurance Act 1995;
+	(viii)	the Private Health Insurance (Prudential Supervision) Act 2015;
+	(ix)	the Superannuation Industry (Supervision) Act 1993;
+	(x)	regulations, instruments, directions or orders made under a law referred to in any of subparagraphs (i) to (ix).
+Example:	Cherie is an accountable person of an ADI and has senior executive responsibility for management of the ADI’s financial resources. Cherie must take reasonable steps to ensure that the management of those resources complies with the requirements of laws, instruments, directions and orders referred to in subparagraphs (d)(i) to (x) that apply in relation to financial resource management.
+Note 1:	See also section 22 (taking reasonable steps).
+Note 2:	For protection for whistleblowers, see Part 9.4AAA of the Corporations Act 2001.
+	(2)	To the extent that 2 or more accountable persons of an accountable entity or significant related entity have the same responsibility, each of them has the accountability obligations under subsection (1) in relation to that responsibility to the same extent as if it were solely that person’s responsibility.
+Note:	Under section 65, the Regulator may direct an accountable entity to reallocate a responsibility of an accountable person.
+22  Taking reasonable steps
+		Without limiting what constitutes the taking of reasonable steps in relation to a matter for the purposes of this Part, the taking of reasonable steps in relation to that matter includes:
+	(a)	having appropriate governance, control and risk management in relation to that matter; and
+	(b)	having safeguards against inappropriate delegations of responsibility in relation to that matter; and
+	(c)	having appropriate procedures for identifying and remediating problems that arise or may arise in relation to that matter; and
+	(d)	taking appropriate action in response to noncompliance, or suspected noncompliance, in relation to that matter.
+Part 4—Key personnel obligations
+  
+23  The key personnel obligations of an accountable entity
+	(1)	The key personnel obligations of an accountable entity are:
+	(a)	subject to subsections (2) and (3), to ensure that the responsibilities of the accountable persons of the accountable entity and its significant related entities cover:
+	(i)	all parts or aspects of the operations of the accountable entity’s relevant group; and
+	(ii)	each of the responsibilities to which subsection 10(2) applies; and
+	(iii)	each of the responsibilities to which subsection 10(3) applies; and
+	(b)	to ensure that no accountable person of the accountable entity or any of its significant related entities is prohibited by section 24 from being an accountable person of the accountable entity or significant related entity; and
+	(c)	to comply with each direction the Regulator gives to the accountable entity under section 65; and
+	(d)	to take reasonable steps to ensure that each of the accountable entity’s significant related entities complies with each of paragraphs (b) and (c) as if the significant related entity were an accountable entity.
+Note:	For the definition of relevant group, see section 8.
+	(2)	Paragraph (1)(a) does not apply in relation to a responsibility excluded by the Regulator under subsection 11(2) or (3).
+	(3)	If the accountable entity is a foreign accountable entity, the accountable entity’s obligation under paragraph (1)(a) is taken to be an obligation to ensure that the responsibilities of the accountable entity’s accountable persons cover:
+	(a)	all parts or aspects of the operations of each branch of the accountable entity operating in Australia; and
+	(b)	for each such branch:
+	(i)	each of the responsibilities to which subsection 10(2) applies; and
+	(ii)	each of the responsibilities to which subsection 10(3) applies.
+24  People prohibited from being an accountable person
+	(1)	A person is prohibited from being an accountable person of an accountable entity or significant related entity if the person:
+	(a)	is not registered in respect of the accountable entity or significant related entity on the register established under section 40; or
+	(b)	is disqualified under section 42 from being or acting as an accountable person of the accountable entity or significant related entity.
+	(2)	If a person becomes an accountable person of an accountable entity or significant related entity by filling a temporary or unforeseen vacancy, paragraph (1)(a) does not apply to the person in respect of the accountable entity or significant related entity until the person has been an accountable person of the entity for:
+	(a)	90 days; or
+	(b)	such other period as is determined under subsection (5) or prescribed by the Regulator rules.
+Note:	One example of a temporary vacancy is when the holder of a position is absent from duty but is expected to return. Another is where a position becomes vacant and there is an intention to fill it, but the new holder has not yet been appointed.
+	(3)	If a person becomes an accountable person of an accountable entity by being appointed a director of a body corporate at a general meeting of the body, paragraph (1)(a) does not apply to the person in respect of the accountable entity until the person has been an accountable person of the entity for:
+	(a)	30 days; or
+	(b)	such other period as is determined under subsection (5) or prescribed by the Regulator rules.
+	(4)	If, because a body corporate first becomes an ADI, an authorised NOHC of an ADI, a general insurer, an authorised NOHC of a general insurer, a life company, a registered NOHC of a life company, a private health insurer or an RSE licensee:
+	(a)	that or another body corporate becomes an accountable entity; and
+	(b)	a person becomes an accountable person of the accountable entity, or of a significant related entity of the accountable entity;
+paragraph (1)(a) does not apply to the person in respect of the accountable entity or significant related entity, as the case may be, until the person has been an accountable person of the entity for:
+	(c)	30 days; or
+	(d)	such other period as is determined under subsection (5) or prescribed by the Regulator rules.
+	(5)	The Regulator may, by written notice given to an accountable entity or significant related entity, determine a period for the purposes of paragraph (2)(b), (3)(b) or (4)(d).
+	(6)	If a determination made under subsection (5) is inconsistent with Regulator rules made for the purposes of paragraph (2)(b), (3)(b) or (4)(d), the determination prevails and the Regulator rules, to the extent of the inconsistency, do not have any effect.
+	(7)	A determination made under subsection (5) is not a legislative instrument.
+Part 5—Deferred remuneration obligations
+  
+25  The deferred remuneration obligations of an accountable entity
+	(1)	The deferred remuneration obligations of an accountable entity are:
+	(a)	to ensure that, in relation to the variable remuneration of an accountable person of the accountable entity:
+	(i)	the payment of a portion of that variable remuneration is deferred for a period; and
+	(ii)	the amount of that portion is at least the amount required under subsection 27(1); and
+	(iii)	that period is not shorter than the minimum deferral period (see section 28); and
+	(b)	to have a remuneration policy in force that requires that, if the person has failed to comply with one or more of their accountability obligations under section 21, the person’s variable remuneration is to be reduced by an amount that is proportionate to the failure; and
+	(c)	to ensure that, if the remuneration policy requires the variable remuneration to be reduced because of that failure, the amount of the reduction is not paid or transferred to the person; and
+	(d)	to take reasonable steps to ensure that, if variable remuneration may become payable to an accountable person of a significant related entity of the accountable entity, the significant related entity complies with each of paragraphs (a), (b) and (c) as if the significant related entity were an accountable entity.
+	(2)	A reduction of variable remuneration:
+	(a)	need not be a reduction of variable remuneration relating to a period in which the failure occurred; and
+	(b)	may be a reduction to zero.
+	(3)	Remuneration, of an accountable person, includes:
+	(a)	in relation to an accountable person of an accountable entity—any remuneration that:
+	(i)	is an amount paid or payable, or property transferred or transferrable, to the accountable person by a related body corporate of the accountable entity; and
+	(ii)	relates wholly or partly to the responsibilities that cause the person to be an accountable person of the accountable entity; or
+	(b)	in relation to an accountable person of a significant related entity—any remuneration that:
+	(i)	is an amount paid or payable, or property transferred or transferrable, to the accountable person by a related body corporate of the significant related entity; and
+	(ii)	relates wholly or partly to the responsibilities that cause the person to be an accountable person of the significant related entity.
+Note:	For when bodies corporate are related, see section 8.
+26  Meaning of variable remuneration
+	(1)	The variable remuneration of an accountable person of an accountable entity or a significant related entity is:
+	(a)	so much (if any) of the accountable person’s total remuneration as:
+	(i)	is conditional on the achievement of objectives; and
+	(ii)	is not remuneration of a kind prescribed by the Regulator rules for the purposes of this subparagraph; and
+	(b)	so much (if any) of the accountable person’s total remuneration as is remuneration of a kind determined under paragraph (3)(a) or prescribed by the Regulator rules.
+	(2)	However, remuneration of a kind determined under paragraph (3)(b) is not variable remuneration of an accountable person of an accountable entity or a significant related entity.
+	(3)	The Regulator may, by written notice given to an accountable entity or a significant related entity, determine that:
+	(a)	remuneration of a particular kind, of one or more accountable persons, or of a class of accountable persons, of the accountable entity or significant related entity, is variable remuneration; or
+	(b)	remuneration of a particular kind, of one or more accountable persons, or of a class of accountable persons, of the accountable entity or significant related entity, is not variable remuneration.
+Note:	A decision under this subsection is a reviewable decision (see Part 5 of Chapter 3).
+	(4)	The Regulator must give a copy of a determination it makes under subsection (3) to each person who, when the determination is made, is an accountable person covered by the determination.
+	(5)	If:
+	(a)	after a determination is made under subsection (3), a person becomes an accountable person of the accountable entity or significant related entity; and
+	(b)	the determination covers the person;
+the accountable entity or significant related entity must give a copy of the determination to the person.
+	(6)	A notice under subsection (3) is not a legislative instrument.
+	(7)	Regulator rules made for the purposes of paragraph (1)(b), or a determination made for the purposes of paragraph (3)(a), may also identify the day, or a way of working out the day, on which the minimum deferral period for the variable remuneration starts.
+27  Minimum amount of variable remuneration to be deferred
+	(1)	The amount of an accountable person’s variable remuneration that is required to be deferred under subparagraph 25(1)(a)(ii) is 40% of the accountable person’s variable remuneration for the financial year in which the minimum deferral period for the variable remuneration starts.
+Note 1:	For when the minimum deferral period starts, see section 28.
+Note 2:	For the applicable financial year, see subsection (7) of this section.
+Working out value of variable remuneration
+	(2)	For the purposes of this section, the value of variable remuneration of an accountable person that has been deferred is taken to be:
+	(a)	if a written notice given under subsection (3) determines a way to work out that value—the value worked out in that way; or
+	(b)	if paragraph (a) does not apply and the Regulator rules prescribe a way to work out that value—the value worked out in that way; or
+	(c)	if paragraphs (a) and (b) do not apply—what would have been the value of that remuneration if it had instead been paid or transferred to the person at the start of the minimum deferral period for the variable remuneration.
+	(3)	The Regulator may, by written notice given to an accountable entity or a significant related entity, determine the way to work out, for the purposes of this section, the value of variable remuneration of accountable persons of the accountable entity or significant related entity.
+Note:	A decision under this subsection is a reviewable decision (see Part 5 of Chapter 3).
+	(4)	The Regulator must give a copy of a determination it makes under subsection (3) to each person who, when the determination is made, is an accountable person covered by the determination.
+	(5)	If:
+	(a)	after a determination is made under subsection (3), a person becomes an accountable person of the accountable entity or significant related entity; and
+	(b)	the determination covers the person;
+the accountable entity or significant related entity must give a copy of the determination to the person.
+Notice not a legislative instrument
+	(6)	A notice under subsection (3) is not a legislative instrument.
+Financial year
+	(7)	In determining an amount of an accountable person’s variable remuneration for the purposes of this section, use the financial year of the accountable entity or significant related entity of which the person is an accountable person.
+Note:	See section 8 for the definition of financial year.
+28  Minimum deferral period for variable remuneration
+	(1)	The minimum deferral period for the variable remuneration of an accountable person of an accountable entity or a significant related entity is the period:
+	(a)	starting on the day determined under subsection (2) or (3); and
+	(b)	ending on the day determined under subsection (4).
+When the deferral period starts
+	(2)	The minimum deferral period for the variable remuneration of an accountable person starts (subject to subsection (3)) on the later of the following days:
+	(a)	the day after the day on which the decision was first made that the person’s total remuneration would be wholly or partly conditional on the achievement of objectives;
+	(b)	if the achievement of those objectives (as first decided) is to be measured by reference to a particular period—the day that period starts.
+	(3)	However, if:
+	(a)	the variable remuneration is remuneration of a kind determined under paragraph 26(3)(a), or prescribed by the Regulator rules for the purposes of paragraph 26(1)(b); and
+	(b)	the determination provides, or the Regulator rules provide, for when the minimum deferral period for the variable remuneration starts;
+then the minimum deferral period starts on the day so provided.
+When the minimum deferral period ends
+	(4)	The minimum deferral period for the variable remuneration of an accountable person ends on the earliest day worked out under an applicable item of the following table.
+
+End of minimum deferral period
+
+Item
+Column 1
+If …
+Column 2
+the period ends on …
+1
+it is the last day of the period of 4 years after the start of the minimum deferral period
+(a) that last day, unless paragraph (b) applies; or
+(b) if, on the day determined under paragraph (a), the accountable entity or significant related entity considers that the accountable person is likely to have failed to comply with one or more of their accountability obligations under section 21—the later day on which the entity determines whether or not the person has failed to comply.
+2
+the accountable person ceases to be an accountable person because of the person’s death, serious incapacity, serious disability or serious illness
+(a) the day on which the person so ceases, unless paragraph (b) applies; or
+(b) if, on the day determined under paragraph (a), the accountable entity or significant related entity is not yet satisfied on reasonable grounds that the person has complied with the person’s accountability obligations under section 21:
+(i) the day on which the entity is so satisfied (whether the compliance occurred on or before the entity being so satisfied); or
+(ii) if the day mentioned in subparagraph (i) does not occur—the day determined under item 1.
+3
+a circumstance determined under subsection (5), or prescribed by the Regulator rules for the purposes of this item, exists or occurs in relation to the accountable person
+(a) the day on which the circumstance occurs or begins to exist, unless paragraph (b) applies; or
+(b) if, on the day determined under paragraph (a), the accountable entity or significant related entity is not yet satisfied on reasonable grounds that the person has complied with the person’s accountability obligations under section 21:
+(i) the day on which the entity is so satisfied (whether the compliance occurred on or before the entity being so satisfied); or
+(ii) if the day mentioned in subparagraph (i) does not occur—the day determined under item 1.
+Note:	In relation to item 1, if the accountable entity or significant related entity determines that the person has failed to comply, the remuneration policy must require the amount of variable remuneration paid or transferred to the person to be reduced by an amount that is proportionate to the failure: see paragraph 25(1)(b).
+	(5)	The Regulator may, by written notice given to an accountable entity, determine circumstances for the purposes of item 3 of the table in subsection (4) in relation to either or both of the following:
+	(a)	the accountable entity;
+	(b)	one or more significant related entities of the accountable entity.
+Notice not a legislative instrument
+	(6)	A notice under subsection (5) is not a legislative instrument.
+29  Exemption for small amounts of variable remuneration
+	(1)	Paragraph 25(1)(a) does not apply in relation to the variable remuneration of an accountable person for a financial year if the amount of the person’s variable remuneration that is required, or would apart from this section be required, under subparagraph 25(1)(a)(ii) to be deferred for that financial year is less than:
+	(a)	the amount (if any) prescribed by the Minister rules; or
+	(b)	if no amount is prescribed for the purposes of paragraph (a)—$50,000.
+Financial year
+	(2)	For the purposes of subsection (1), use the financial year of the accountable entity or significant related entity of which the person is an accountable person.
+Note:	See section 8 for the definition of financial year.
+30  Exemption for variable remuneration payable for temporary performance
+	(1)	This section applies if:
+	(a)	a person becomes an accountable person of an accountable entity or a significant related entity by filling a temporary or unforeseen vacancy; and
+	(b)	the person is not registered under Division 1 of Part 3 of Chapter 3.
+	(2)	Paragraph 25(1)(a) does not apply in relation to the variable remuneration of the accountable person for the period during which, because of subsection 24(2), the person is not prohibited from being an accountable person of the accountable entity or significant related entity.
+Part 6—Notification obligations
+  
+31  The notification obligations of an accountable entity
+Core notification obligations
+	(1)	The notification obligations of an accountable entity are:
+	(a)	to notify the Regulator of an event mentioned in section 32:
+	(i)	within the period, after the event, provided under subsection (6) of this section; and
+	(ii)	in accordance with the requirements under subsection (7) of this section; and
+	(b)	to take reasonable steps to ensure that each of its significant related entities complies with paragraph (a) as if the significant related entity were an accountable entity.
+Enhanced notification obligations
+	(2)	In addition to subsection (1), if the accountable entity meets the enhanced notification threshold under subsection (3), then the notification obligations of the accountable entity are:
+	(a)	to give to the Regulator a document complying with section 33 (an accountability statement) for each of its accountable persons; and
+	(b)	to ensure that the Regulator is notified of any material change to the information contained in the accountability statement for each of its accountable persons:
+	(i)	within the period, after the change, provided under subsection (6) of this section; and
+	(ii)	in accordance with the requirements under subsection (7) of this section; and
+	(c)	to give to the Regulator a document complying with section 34 (an accountability map) within the period, after the body corporate starts being an accountable entity in accordance with subsection 9(2) or (4), provided under subsection (6) of this section; and
+	(d)	to ensure that the Regulator is notified of any material change to the information contained in the accountability map:
+	(i)	within the period, after the change, provided under subsection (6) of this section; and
+	(ii)	in accordance with the requirements under subsection (7) of this section; and
+	(e)	to take reasonable steps to ensure that each of its significant related entities complies with each of paragraphs (a) and (b) as if the significant related entity were an accountable entity.
+Enhanced notification threshold
+	(3)	For the purposes of subsection (2), the Minister rules may set out how to determine when an accountable entity meets the enhanced notification threshold.
+	(4)	Without limiting subsection (3), the Minister rules may do either or both of the following:
+	(a)	specify a method for working out the enhanced notification threshold;
+	(b)	specify different methods for working out the enhanced notification threshold for different circumstances.
+Incorporation by reference
+	(5)	Despite subsection 14(2) of the Legislation Act 2003, Minister rules made for the purposes of subsection (3) may provide for a matter by applying, adopting or incorporating any matter contained in an instrument or other writing, as in force or existing from time to time, if the instrument or other writing is published on a website maintained by the Regulator.
+Period for compliance
+	(6)	For the purposes of subparagraphs (1)(a)(i) and (2)(b)(i) and (d)(i) and paragraph (2)(c), the period is:
+	(a)	30 days; or
+	(b)	such other period (if any) prescribed by the Regulator rules.
+Requirements for notice
+	(7)	For the purposes of subparagraphs (1)(a)(ii) and (2)(b)(ii) and (d)(ii), the notice must:
+	(a)	be in the form approved in writing by the Regulator; and
+	(b)	contain the information that the form requires.
+32  Events for which the Regulator must be notified
+		For the purposes of paragraph 31(1)(a), the following events must be notified to the Regulator by an accountable entity:
+	(a)	a person ceases to be an accountable person of the accountable entity or of a significant related entity of the accountable entity;
+	(b)	an accountable person of the accountable entity, or of a significant related entity of the accountable entity, is dismissed or suspended because the person has failed to comply with one or more of the person’s accountability obligations under section 21;
+	(c)	the variable remuneration of an accountable person of the accountable entity, or of a significant related entity of the accountable entity, is reduced because the person has failed to comply with one or more of the person’s accountability obligations under section 21;
+	(d)	the accountable entity has reasonable grounds to believe that:
+	(i)	the accountable entity has failed to comply with one or more of its accountability obligations under section 20 or of its key personnel obligations under section 23; or
+	(ii)	an accountable person of the accountable entity, or of a significant related entity of the accountable entity, has failed to comply with one or more of the person’s accountability obligations under section 21;
+	(e)	a material change occurs to information that relates to an accountable person of the accountable entity, or of a significant related entity of the accountable entity, and is contained in the register established under section 40.
+33  Accountability statements
+		For the purposes of paragraph 31(2)(a), an accountability statement for an accountable person of an accountable entity, or of a significant related entity, must:
+	(a)	contain a comprehensive statement of:
+	(i)	the part or aspect of the operations of the accountable entity, or of the significant related entity, for which the accountable person has actual or effective responsibility for management or control; and
+	(ii)	the responsibilities of the accountable person, including any responsibilities to which paragraph 23(1)(a) or subsection 23(3) applies, as the case requires; and
+	(iii)	the matters (if any) prescribed by the Regulator rules; and
+	(b)	include a statement by the accountable person declaring that:
+	(i)	the content of the accountability statement is accurate; and
+	(ii)	the accountable person understands their accountability obligations under section 21.
+34  Accountability map
+		For the purposes of paragraph 31(2)(c), an accountability map of an accountable entity must contain the following information:
+	(a)	the names of all of the accountable persons of the accountable entity and each of its significant related entities;
+	(b)	details of the reporting lines and lines of responsibility of those accountable persons;
+	(c)	sufficient information to identify an accountable person for each of the responsibilities to which paragraph 23(1)(a) or subsection 23(3) applies, as the case requires;
+	(d)	information (if any) prescribed by the Regulator rules.
+Chapter 3—Administration
+Part 1—Introduction
+  
+35  Simplified outline of this Chapter
+APRA and ASIC jointly administer this Act, and must agree about how to perform functions and exercise powers under it.
+Accountable persons must be registered, and may be disqualified for noncompliance with their obligations.
+The Regulator may issue a direction to an accountable entity:
+	(a)	to address noncompliance, or the risk of noncompliance, by the accountable entity or any of its significant related entities or accountable persons; or
+	(b)	to reallocate responsibilities among accountable persons.
+The Regulator has powers to ensure compliance with this Act, to investigate noncompliance and to enforce this Act. Enforcement mechanisms include civil and criminal penalties.
+Part 2—The Regulator
+Division 1—Arrangements for administration
+36  Administration of this Act
+	(1)	Subject to this section, APRA and ASIC each have the general administration of this Act.
+Note:	See the definition of Regulator in section 8.
+	(2)	ASIC is to perform functions, and exercise powers, under the provisions specified in column 1 of the table, only in relation to the following:
+	(a)	accountable entities that hold an Australian financial services licence (within the meaning of the Corporations Act 2001) or an Australian credit licence (within the meaning of the National Consumer Credit Protection Act 2009);
+	(b)	significant related entities of accountable entities covered by paragraph (a);
+	(c)	accountable persons of accountable entities covered by paragraph (a) or of significant related entities covered by paragraph (b).
+However, a failure to comply with this subsection does not invalidate the performance of a function, or the exercise of a power, by ASIC.
+
+Provisions under which ASIC has limited functions and powers
+
+Item
+Column 1
+Provision
+Column 2
+Subject matter
+1
+Subsection 11(2)
+Excluding responsibilities that would otherwise cause someone to be an accountable person
+2
+Sections 17 and 19
+Identifying obligations that are inconsistent with foreign laws
+3
+Subsection 24(5)
+Determining the period during which, because of subsection 24(2), (3) or (4), an unregistered person is not prohibited from being an accountable person of an accountable entity or significant related entity
+4
+Subsection 26(3)
+Determining what is or is not variable remuneration
+5
+Subsection 27(3)
+Determining how to work out the value of variable remuneration
+6
+Subsection 28(5)
+Determining circumstances that will end the minimum deferral period for variable remuneration
+7
+Subsection 41(3)
+Requesting further information in relation to an application to register an accountable person
+8
+Division 2 of Part 3 of this Chapter
+Disqualifying accountable persons
+9
+Part 4 of this Chapter (other than subsection 70(4) and subsection 70(5) so far as it relates to subsection 70(4))
+Regulatory powers and enforcement
+10
+Part 5 of this Chapter
+Review of decisions
+11
+Provisions of the Regulatory Powers Act, as they apply for the purposes of a provision of Part 4 of this Chapter
+Regulatory powers and enforcement
+	(3)	The Minister may, by legislative instrument, give APRA or ASIC directions about the performance or exercise of its functions or powers under this Act.
+37  Arrangement for administration
+	(1)	APRA and ASIC must enter into an arrangement relating to the administration of this Act.
+	(2)	The arrangement must include provisions relating to the matters (if any) specified in the Minister rules.
+	(3)	APRA and ASIC must each publish the arrangement on its website.
+	(4)	If the arrangement is not entered into within 6 months after the commencement of this Act, the Minister may, by notifiable instrument, determine arrangements between APRA and ASIC relating to the administration of this Act.
+	(5)	A failure to comply with this section does not invalidate the performance or exercise of a function or power by APRA or ASIC.
+38  Agreement about exercise of powers
+	(1)	Subject to this section, neither APRA nor ASIC may perform a function, or exercise a power, under this Act without the agreement of the other.
+	(2)	Subsection (1) does not apply in relation to performing a function, or exercising a power, under:
+	(a)	section 39 (which is about disclosure of information between APRA and ASIC); or
+	(b)	section 41 (which is about registering accountable persons); or
+	(c)	Part 4 of this Chapter (which is about regulatory powers and enforcement) other than sections 64 and 65 (which are about directions); or
+	(d)	the Regulatory Powers Act as it applies in relation to this Act.
+	(3)	Subsection (1) does not apply to the extent that subsection 36(2) prevents ASIC from performing a function or exercising a power.
+	(4)	A failure to comply with subsection (1) does not invalidate the performance or exercise of a function or power by APRA or ASIC.
+Division 2—Information sharing
+39  Disclosure of information and documents between APRA and ASIC
+	(1)	APRA and ASIC may share with each other information that is disclosed or obtained, or a document that is given or produced, under or for the purposes of this Act.
+Note:	The expression this Act includes the Regulatory Powers Act as it applies in relation to this Act (see section 8).
+	(2)	However, information or a document may only be shared with APRA or ASIC (the recipient) under subsection (1) for the purposes of the recipient performing or exercising its functions or powers.
+	(3)	If either APRA or ASIC obtains information, or gives or produces a document, that is covered by subsection (4), it must disclose the information, or give a copy of the document, to the other.
+	(4)	For the purposes of subsection (3), the information and documents are the following:
+	(a)	information provided under Part 6 of Chapter 2 (notification obligations);
+	(b)	information provided under Division 1 of Part 3 of this Chapter (registration of accountable persons);
+	(c)	a notice given to another person under this Act;
+	(d)	information or a document (if any) prescribed by the Minister rules.
+	(5)	If either APRA or ASIC discloses information or gives a document under subsection (1) or (3) to the other, it need not notify any other person that it plans to disclose the information or give the document, or that it has done so.
+Note:	Disclosure under this section is authorised under section 56 of the Australian Prudential Regulation Authority Act 1998 and section 127 of the Australian Securities and Investments Commission Act 2001 (which are about secrecy obligations).
+	(6)	A disclosure of personal information in accordance with this section is taken to be authorised by this Act for the purposes of paragraph 6.2(b) of Australian Privacy Principle 6.
+Part 3—Registration and disqualification of accountable persons
+Division 1—Registration of accountable persons
+40  Register of accountable persons
+	(1)	The Regulator must establish and keep a register of accountable persons.
+	(2)	The register may be kept by electronic means.
+	(3)	The register is not a legislative instrument.
+	(4)	The register must contain, for each accountable person:
+	(a)	the person’s name; and
+	(b)	the date of the person’s registration as an accountable person; and
+	(c)	the date the person ceases to be an accountable person; and
+	(d)	details of any disqualification of the person under section 42; and
+	(e)	details of any variation or revocation of disqualification under section 43; and
+	(f)	for each accountable entity, and each significant related entity, in respect of which the person is registered as an accountable person—details of the responsibilities that cause the person to be an accountable person of the entity; and
+	(g)	any information prescribed by the Regulator rules for the purposes of this paragraph; and
+	(h)	any other information that:
+	(i)	the Regulator considers appropriate to include in the register; and
+	(ii)	is relevant to the person’s registration as an accountable person.
+	(5)	The Regulator may make any of the information contained in the register available for public inspection on the internet.
+41  Registration of a person as an accountable person
+	(1)	An accountable entity may apply to the Regulator to register a person as an accountable person in respect of the accountable entity or a significant related entity of the accountable entity.
+	(2)	The application must:
+	(a)	be in the form approved in writing by the Regulator; and
+	(b)	contain the information that the form requires; and
+	(c)	include a signed declaration that the accountable entity is satisfied the person is suitable to be an accountable person; and
+	(d)	if the accountable entity is required under section 31 to give an accountability statement complying with section 33—include the accountability statement for the person.
+	(3)	The Regulator may, by written notice given to the accountable entity, request the accountable entity to give to the Regulator further information in relation to the application.
+	(4)	The Regulator must, within the period provided under subsection (5), register a person as an accountable person if:
+	(a)	the application meets the requirements of subsection (2); and
+	(b)	the accountable entity gives to the Regulator any further information requested under subsection (3) in relation to the application;
+unless the accountable entity withdraws the application before the day of registration.
+	(5)	The period for registration under subsection (4) is the period of 21 days after the later of:
+	(a)	the day the application is made; or
+	(b)	if the Regulator requests the accountable entity to give further information under subsection (3) in relation to the application—the day the accountable entity gives the further information to the Regulator.
+Division 2—Disqualification of accountable persons
+42  Regulator may disqualify an accountable person
+Disqualification by the Regulator
+	(1)	The Regulator may disqualify a person from being or acting as an accountable person, for a period that the Regulator considers appropriate, if the Regulator is satisfied that:
+	(a)	the person has failed to comply with one or more of their accountability obligations under section 21; and
+	(b)	the disqualification is justified, having regard to the seriousness of the failure to comply.
+Note:	A decision to disqualify a person is a reviewable decision (see Part 5 of this Chapter).
+	(2)	For the purposes of subsection (1), the Regulator may disqualify a person from being or acting as an accountable person of one or more of the following:
+	(a)	a particular accountable entity;
+	(b)	a particular significant related entity of an accountable entity;
+	(c)	a class of accountable entities;
+	(d)	a class of significant related entities of accountable entities;
+	(e)	any accountable entity;
+	(f)	any significant related entity of an accountable entity.
+Written notice
+	(3)	The Regulator must give written notice of a disqualification to:
+	(a)	the person; and
+	(b)	each accountable entity of which the person is an accountable person when the disqualification decision is made; and
+	(c)	each significant related entity of which the person is an accountable person when the disqualification decision is made; and
+	(d)	each accountable entity of which an entity covered by paragraph (c) is a significant related entity.
+	(4)	A disqualification takes effect on the day specified in the notice (which must be at least 7 days after it is given).
+	(5)	Before disqualifying a person, the Regulator must give written notice to each person mentioned in paragraphs (3)(a) to (d), giving each of them an opportunity to make submissions on the matter.
+	(6)	If a submission is made to the Regulator in response to the notice, the Regulator must have regard to the submission and may discuss any matter contained in the submission with such persons as it considers appropriate for the purpose of making a decision under this section.
+	(7)	A notice given under subsection (5) must state that any submissions made in response to the notice may be discussed by the Regulator with any other persons as mentioned in subsection (6).
+Notice not a legislative instrument
+	(8)	A notice under subsection (3) or (5) is not a legislative instrument.
+43  Regulator may vary or revoke a disqualification
+	(1)	The Regulator may vary or revoke a disqualification made under section 42 on its own initiative or on application by the disqualified person.
+Note:	A decision to vary or revoke a disqualification, or to refuse to vary or revoke a disqualification, is a reviewable decision (see Part 5 of this Chapter).
+	(2)	A variation or revocation of a disqualification takes effect on the day on which it is made.
+	(3)	The Regulator must give written notice of:
+	(a)	a variation or revocation of a disqualification; or
+	(b)	a refusal to vary or revoke the disqualification;
+to the disqualified person and to each person to whom the Regulator was required by subsection 42(3) to given notice of the disqualification.
+	(4)	A notice under subsection (3) is not a legislative instrument.
+44  Allowing a person disqualified by the Regulator to act as an accountable person
+	(1)	An accountable entity or significant related entity contravenes this subsection if:
+	(a)	a person is disqualified under section 42 from being, or acting as, an accountable person of the accountable entity or significant related entity; and
+	(b)	the person is, or acts as, an accountable person of the accountable entity or significant related entity; and
+	(c)	the accountable entity or significant related entity allows the person to be, or act as, an accountable person.
+Note:	An accountable entity may also contravene a civil penalty provision if it fails to ensure that its accountable persons are not prohibited from being accountable persons (see sections 24 and 80).
+Faultbased offence
+	(2)	An accountable entity or a significant related entity commits an offence if it contravenes subsection (1).
+Penalty:	250 penalty units.
+Strict liability offence
+	(3)	An accountable entity or a significant related entity commits an offence of strict liability if it contravenes subsection (1).
+Penalty:	60 penalty units.
+Part 4—Regulatory powers and enforcement
+Division 1—Investigations
+45  Regulator may appoint an investigator
+Appointment of investigator
+	(1)	The Regulator may, in writing, appoint a person (the investigator) to investigate and report in relation to an accountable entity or a significant related entity if the Regulator has reasonable grounds to believe that:
+	(a)	the accountable entity or the significant related entity may have contravened a provision of this Act; or
+	(b)	an accountable person of the accountable entity, or of the significant related entity, may have contravened a provision of this Act.
+Delegation by investigator
+	(2)	The investigator may, in writing, delegate to an APRA staff member or ASIC staff member any or all of the investigator’s functions and powers under this Part.
+	(3)	A delegate must produce for inspection the instrument of delegation, or a copy of the instrument, on the request of a person:
+	(a)	in relation to whom any of the delegated functions and powers may be performed or exercised; or
+	(b)	who is affected by the performance or exercise of any of the delegated functions and powers.
+	(4)	A reference in this Act to an investigator includes a reference to a delegate of an investigator.
+46  Requirement to assist investigator
+	(1)	If the Regulator appoints an investigator under section 45, the accountable entity or significant related entity must give the investigator:
+	(a)	access to its books, accounts and documents; and
+	(b)	such information and facilities as the investigator requires to conduct the investigation and produce the report.
+	(2)	A person commits an offence if:
+	(a)	the person is subject to a requirement under subsection (1); and
+	(b)	the person fails to comply with the requirement.
+Penalty:	50 penalty units.
+Note:	Chapter 2 of the Criminal Code sets out the general principles of criminal responsibility.
+	(3)	If a person does, or fails to do, an act in circumstances that give rise to the person committing an offence against subsection (2), the person commits an offence against that subsection in respect of:
+	(a)	the first day on which the offence is committed; and
+	(b)	each subsequent day (if any) on which the circumstances that gave rise to the person committing the offence continue (including the day of conviction for any such offence or any later day).
+Note:	This subsection is not intended to imply that section 4K of the Crimes Act 1914 does not apply to offences against this Act.
+	(4)	Nothing in this section is intended to limit the operation of any other provision of this Act.
+47  Investigator may require production of books etc.
+	(1)	If an investigator has reasonable grounds to believe that a person has custody or control of any books, accounts or documents relevant to the investigator’s investigation, the investigator may, by written notice given to the person, require the person to produce any or all of the books, accounts or documents to the investigator.
+	(2)	The notice must specify the day by which the books, accounts or documents are to be produced (which must be at least 14 days after the day the notice is given to the person).
+	(3)	A person commits an offence if:
+	(a)	the person is required to produce books, accounts or documents in accordance with a notice given to the person under subsection (1); and
+	(b)	the person fails to comply with the requirement.
+Penalty:	30 penalty units.
+48  Concealing books, accounts or documents relevant to investigation
+		A person commits an offence if:
+	(a)	the person knows that an investigator is investigating, or is about to investigate, a matter; and
+	(b)	the person:
+	(i)	conceals, destroys, mutilates or alters a book, account or document relating to the matter; or
+	(ii)	if a book, account or document relating to the matter is in a particular State or Territory—takes or sends the book, account or document out of that State or Territory; and
+	(c)	the person intended that the investigation or proposed investigation would be delayed or obstructed as a result of that conduct.
+Penalty:	Imprisonment for 2 years.
+Division 2—Examinations
+49  Notice requiring appearance for examination
+		If an investigator has reasonable grounds to believe that a person (the examinee) can give information relevant to the investigator’s investigation, the investigator may, by written notice given to the examinee, require the examinee:
+	(a)	to give the investigator all reasonable assistance in connection with the investigation; and
+	(b)	to appear before the investigator for examination on a specified day that is at least 14 days after the notice is given.
+Note:	Failure to comply with a requirement made under this section is an offence (see section 53).
+50  Conduct of examinations
+	(1)	The investigator may examine the examinee on oath or affirmation and may, for that purpose:
+	(a)	require the examinee to either take an oath or make an affirmation; and
+	(b)	administer an oath or affirmation to the examinee.
+Note:	Failure to comply with a requirement made under this subsection is an offence (see section 53).
+	(2)	The oath or affirmation to be taken or made by the examinee for the purposes of the examination is an oath or affirmation that the statements that the examinee will make will be true.
+	(3)	The investigator may require the examinee to answer a question that is put to the examinee at the examination and is relevant to a matter that the investigator is investigating, or is to investigate.
+Note:	Failure to comply with a requirement made under this subsection is an offence (see section 53).
+	(4)	The examiner may make an audio, or audio visual, recording of all or any part of the examination.
+51  Who may be present at examinations
+	(1)	The examination must take place in private.
+	(2)	The following people may be present at the examination:
+	(a)	the investigator;
+	(b)	the examinee;
+	(c)	the examinee’s lawyer;
+	(d)	either or both of the following:
+	(i)	an APRA staff member approved by APRA to be present;
+	(ii)	an ASIC staff member approved by ASIC to be present;
+	(e)	a person directed by the investigator to be present.
+Note:	For the definitions of APRA staff member and ASIC staff member, see section 8.
+	(3)	A person commits an offence if the person:
+	(a)	is present at an examination; and
+	(b)	is not a person mentioned in subsection (2).
+Penalty:	30 penalty units.
+	(4)	The examinee’s lawyer may, at such times during the examination as the investigator determines, address the investigator and examine the examinee about matters about which the investigator has examined the examinee.
+	(5)	The investigator may require a person to stop addressing the investigator or examining the examinee if, in the investigator’s opinion, the person is trying to obstruct the examination by exercising rights under subsection (4).
+Note:	Failure to comply with a requirement made under this subsection is an offence (see section 53).
+52  Record of examination
+Written record of statements
+	(1)	The investigator must cause a written record (including a transcript of an audio, or audiovisual, recording) to be made of statements made at the examination.
+	(2)	The investigator may require the examinee to read the written record, or to have it read to the examinee, and may require the examinee to sign it.
+Note:	Failure to comply with a requirement made under this subsection is an offence (see section 53).
+Copies of record
+	(3)	The investigator must give a copy of a written record to the examinee, without charge, but subject to such conditions (if any) as the investigator imposes.
+Use of copies
+	(4)	If the investigator gives a copy of a written record to a person under subsection (3) subject to conditions, the person, or any other person who has possession, custody or control of the copy or a copy of it, must comply with the conditions.
+Penalty:	Imprisonment for 6 months.
+53  Offences
+		A person commits an offence if:
+	(a)	the person is subject to a requirement under this Division; and
+	(b)	the person refuses or fails to comply with the requirement.
+Penalty:	30 penalty units.
+Division 3—Evidentiary use of certain material
+54  Statements made at an examination—proceedings against examinee
+Admissibility of statements made at examination
+	(1)	Subject to this section, a statement that a person makes at an examination of the person is admissible in evidence against the person in a proceeding.
+Selfincrimination exception
+	(2)	The statement is not admissible if the statement is not admissible in evidence against the person under section 88.
+Irrelevant statement exception
+	(3)	The statement is not admissible if it is not relevant to the proceeding and the person objects to the admission of evidence of the statement.
+Related statement exception
+	(4)	The statement (the subject statement) is not admissible if:
+	(a)	it is qualified or explained by some other statement made at the examination; and
+	(b)	evidence of the other statement is not tendered in the proceeding; and
+	(c)	the person objects to the admission of evidence of the subject statement.
+Legal professional privilege exception
+	(5)	The statement is not admissible if:
+	(a)	it discloses matter in respect of which the person could claim legal professional privilege in the proceeding if subsection (1) did not apply in relation to the statement; and
+	(b)	the person objects to the admission of evidence of the statement.
+Joint proceedings
+	(6)	Subsection (1) applies in relation to a proceeding against a person even if it is heard together with a proceeding against another person.
+Record is prima facie evidence
+	(7)	If a written record of an examination of a person is signed by the person under subsection 52(2), or is authenticated in a manner (if any) specified in the Minister rules, the record is admissible in a proceeding as prima facie evidence of the statements it records.
+Admissibility of other evidence
+	(8)	This Division does not limit or affect the admissibility in the proceeding of other evidence of statements made at the examination.
+55  Statements made at an examination—other proceedings
+Admissibility of absent witness evidence
+	(1)	If direct evidence by a person (the absent witness) of a matter would be admissible in a proceeding, a statement that the absent witness made at an examination of the absent witness and that tends to establish that matter is admissible in the proceeding as evidence of that matter in accordance with subsection (2).
+Requirement for admissibility
+	(2)	The statement is admissible:
+	(a)	if it appears to the court or tribunal that:
+	(i)	the absent witness is dead or is unfit, because of physical or mental incapacity, to attend as a witness; or
+	(ii)	the absent witness is outside the State or Territory in which the proceeding is being heard and it is not reasonably practicable to secure their attendance; or
+	(iii)	all reasonable steps have been taken to find the absent witness but they cannot be found; or
+	(b)	if it does not so appear to the court or tribunal—unless another party to the proceeding requires the party tendering evidence of the statement to call the absent witness as a witness in the proceeding and the tendering party does not so call the absent witness.
+56  Weight of evidence under section 55
+	(1)	If evidence of a statement made by a person at an examination of the person is admitted under section 55 in a proceeding, in deciding how much weight (if any) to give to the statement as evidence of a matter, regard is to be had to:
+	(a)	the length of period between the statement and the matter to which the statement relates; and
+	(b)	any reason the person may have had for concealing or misrepresenting a material matter; and
+	(c)	any other circumstances from which it is reasonable to draw an inference about the accuracy of the statement.
+	(2)	If the person is not called as a witness in the proceeding:
+	(a)	evidence that would, if the person had been so called, have been admissible in the proceeding for the purpose of destroying or supporting their credibility is so admissible; and
+	(b)	evidence is admissible to show that the statement is inconsistent with another statement that the person has made at any time.
+	(3)	However, evidence of a matter is not admissible under this section if, had the person been called as a witness in the proceeding and denied the matter in crossexamination, evidence of the matter would not have been admissible if adduced by the crossexamining party.
+57  Objection to admission of statements made at examination
+Notice of intention to apply to admit evidence and statements
+	(1)	A party (the adducing party) to a proceeding may, not less than 14 days before the first day of the hearing of the proceeding, give to another party to the proceeding written notice that the adducing party:
+	(a)	will apply to have admitted in evidence in the proceeding specified statements made at an examination; and
+	(b)	for that purpose, will apply to have evidence of those statements admitted in the proceeding.
+Notice to set out etc. statements
+	(2)	A notice under subsection (1) must set out, or be accompanied by writing that sets out, the specified statements.
+Notice of objection
+	(3)	Within 14 days after a notice is given under subsection (1), the other party may give to the adducing party a written notice:
+	(a)	stating that the other party objects to specified statements being admitted in evidence in the proceeding; and
+	(b)	specifies, in relation to each of those statements, the grounds of objection.
+Extension of objection period
+	(4)	The period prescribed by subsection (3) may be extended by the court or tribunal or by agreement between the parties concerned.
+Notice etc. to be given to court or tribunal
+	(5)	On receiving a notice given under subsection (3), the adducing party must give to the court or tribunal a copy of:
+	(a)	the notice under subsection (1) and any writing that subsection (2) requires to accompany that notice; and
+	(b)	the notice under subsection (3).
+Action by court or tribunal
+	(6)	If subsection (5) is complied with, the court or tribunal may either:
+	(a)	determine the objections as a preliminary point before the hearing of the proceeding begins; or
+	(b)	defer determination of the objections until the hearing.
+Right to object to admission of statement
+	(7)	If a notice has been given in accordance with subsections (1) and (2), the other party is not entitled to object at the hearing of the proceeding to a statement specified in the notice being admitted in evidence in the proceedings, unless:
+	(a)	the other party has, in accordance with subsection (3), objected to the statement being so admitted; or
+	(b)	the court or tribunal gives the other party leave to object to the statement being so admitted.
+58  Copies of, or extracts from, certain books, accounts and documents
+	(1)	A copy of, or an extract from, a book, account or document to which subsection 46(1) or 47(1) or paragraph 62(5)(f) applies, is admissible in evidence in a proceeding as if the copy were the original book, account or document or the extract were the relevant part of original book, account or document.
+	(2)	A copy of, or an extract from, a book, account or document is not admissible in evidence under subsection (1) unless it is proved that the copy or extract is a true copy of the book, account or document, or of the relevant part of the book, account or document.
+	(3)	For the purposes of subsection (2), a person who has compared:
+	(a)	a copy of a book, account or document with the book, account or document; or
+	(b)	an extract from a book, account or document, with the relevant part of the book, account or document;
+may give evidence, either orally or by an affidavit or statutory declaration, that the copy or extract is a true copy of the book, account or document, or relevant part of the book, account or document.
+59  Admissibility of investigation report
+		Subject to section 60, if a copy of a report under subsection 45(1) purports to be certified by the Regulator as a true copy of such a report, the copy is admissible in a proceeding (other than a criminal proceeding) as prima facie evidence of any facts or matters that the report states an investigator to have found to exist.
+60  Exceptions to admissibility of investigation report
+	(1)	If a party to a proceeding tenders a copy of a report under subsection 45(1) as evidence against another party, the copy is not admissible under section 59 in the proceeding as evidence against the other party unless the court or tribunal is satisfied that:
+	(a)	a copy of the report has been given to the other party; and
+	(b)	the other party, and the other party’s lawyer, have had a reasonable opportunity to examine that copy and to take its contents into account in preparing the other party’s case.
+	(2)	Before or after the copy tendered in evidence is admitted in evidence, the other party may apply to crossexamine, in relation to the report, a specified person who, or 2 or more specified persons each of whom:
+	(a)	was concerned in preparing the report or making a finding about a fact or matter that the report states the investigator to have found to exist; or
+	(b)	whether or not pursuant to a requirement made under this Part, gave information, or produced a book, account or document, on the basis of which, or on the basis of matters including which, such a finding was made.
+	(3)	The court or tribunal must grant an application made under subsection (2) unless it considers that, in all the circumstances, it is not appropriate to do so.
+	(4)	The court or tribunal must refuse to admit the copy, or must treat the copy as not having been admitted, if:
+	(a)	the court or tribunal grants the application or applications made under subsection (2); and
+	(b)	one or more persons to whom the application or any of the applications relates:
+	(i)	are unavailable; or
+	(ii)	do not attend to be crossexamined in relation to the report; and
+	(c)	the court or tribunal is of the opinion that to admit the copy under section 59 in the proceeding as evidence against the other party without the other party having the opportunity to crossexamine the other person or persons would unfairly prejudice the other party.
+61  Material otherwise admissible
+		Nothing in this Division renders evidence inadmissible in a proceeding in circumstances where it would have been admissible in that proceeding if this Division had not been enacted.
+Division 4—Requesting information
+62  Regulator may request information
+Request for information from accountable entities
+	(1)	The Regulator may request an accountable entity to give to the Regulator information relating to any of the following:
+	(a)	the accountable entity;
+	(b)	a significant related entity of the accountable entity;
+	(c)	an accountable person of the accountable entity, or of a significant related entity of the accountable entity;
+	(d)	a related body corporate of the accountable entity;
+	(e)	a related body corporate of a significant related entity of the accountable entity;
+	(f)	if the accountable entity is an RSE licensee—a connected entity of the accountable entity.
+Note 1:	Failure to comply with the request is an offence (see section 63).
+Note 2:	For when bodies corporate are related, see section 8.
+Request for information from significant related entities
+	(2)	The Regulator may request a significant related entity of an accountable entity to give to the Regulator information relating to any of the following:
+	(a)	the accountable entity;
+	(b)	the significant related entity;
+	(c)	an accountable person of the significant related entity;
+	(d)	a related body corporate of the significant related entity.
+Note 1:	Failure to comply with the request is an offence (see section 63).
+Note 2:	For when bodies corporate are related, see section 8.
+Request for information from accountable persons
+	(3)	The Regulator may request an accountable person of an accountable entity, or of a significant related entity, to give to the Regulator information relating to:
+	(a)	the accountable entity; or
+	(b)	the significant related entity.
+Note:	Failure to comply with the request is an offence (see section 63).
+Purposes of request
+	(4)	However, the Regulator may request information under this section only if:
+	(a)	the request is made for one or more of the following purposes:
+	(i)	performing a function or exercising a power of the Regulator under this Act;
+	(ii)	ensuring compliance with this Act;
+	(iii)	taking action in relation to noncompliance, or suspected noncompliance, with this Act; and
+ 	(b)	the Regulator has reasonable grounds to believe that the information is relevant to that purpose or those purposes.
+Requirements of request
+	(5)	The request:
+	(a)	must be made in writing; and
+	(b)	must state what information must be given to the Regulator; and
+	(c)	may require the information to be verified by statutory declaration; and
+	(d)	must specify a day on or before which the information must be given; and
+	(e)	must contain a statement to the effect that a failure to comply with the request is an offence; and
+	(f)	may include a requirement to produce books, accounts or documents.
+	(6)	The day specified under paragraph (5)(d) must be at least 14 days after the day on which the request was made.
+63  Failing to give information
+		A person commits an offence if:
+	(a)	the person is given a request under section 62; and
+	(b)	the person fails to comply with the request.
+Note 1:	Chapter 2 of the Criminal Code sets out the general principles of criminal responsibility.
+Note 2:	See also subsection 4B(3) (body corporate multiplier) and section 4K (continuing and multiple offences) of the Crimes Act 1914.
+Note 3:	See also sections 88 (selfincrimination) and 89 (legal professional privilege) of this Act.
+Penalty:	200 penalty units.
+Division 5—Regulator’s power to issue directions
+Subdivision A—Kinds of directions
+64  Direction dealing with noncompliance
+Power of the Regulator to give direction
+	(1)	The Regulator may give an accountable entity a direction of a kind specified in subsection (2) if the Regulator has reasonable grounds to believe that:
+	(a)	the accountable entity has contravened a provision of this Act; or
+	(b)	the accountable entity is likely to contravene a provision of this Act and the direction is reasonably necessary to ensure compliance with the provision; or
+	(c)	an accountable person of the accountable entity, or of a significant related entity of the accountable entity, has contravened a provision of this Act; or
+	(d)	an accountable person of the accountable entity, or of a significant related entity of the accountable entity, is likely to contravene a provision of this Act and the direction is reasonably necessary to ensure compliance with the provision.
+Note 1:	A decision to give a direction under this section is a reviewable decision (see Part 5 of this Chapter).
+Note 2:	For variation and revocation of a direction given under this section, see subsection 33(3) of the Acts Interpretation Act 1901.
+Kinds of direction
+	(2)	The kinds of direction that the accountable entity may be given are directions to do, or to cause a significant related entity of the accountable entity to do, any one or more of the following:
+	(a)	to take specified action to deal with the ground for giving the direction;
+	(b)	to order an audit of the affairs of the accountable entity or significant related entity, at the expense of the accountable entity or significant related entity, by an auditor chosen by the Regulator;
+	(c)	to make changes to the accountable entity’s or significant related entity’s systems, business practices or operations;
+	(d)	to reconstruct, amalgamate or otherwise alter all or part of:
+	(i)	the business, structure or organisation of the accountable entity or significant related entity; or
+	(ii)	the business, structure or organisation of the accountable entity’s relevant group;
+	(e)	to do, or to refrain from doing, anything else in relation to the affairs of the accountable entity or significant related entity.
+Note:	For the definition of relevant group, see section 8.
+	(3)	The direction must:
+	(a)	be given by notice in writing to the accountable entity; and
+	(b)	specify the ground referred to in subsection (1) as a result of which the direction is given; and
+	(c)	specify the time by which, or period during which, the direction is to be complied with; and
+	(d)	state that the accountable entity could commit an offence if the accountable entity fails to comply with the direction.
+Note:	See section 66 (offence for noncompliance with a direction).
+	(4)	If the Regulator gives a direction under paragraph (1)(c) or (d), the Regulator must give a copy of the direction:
+	(a)	to the accountable person; and
+	(b)	if the accountable person is an accountable person of a significant related entity of the accountable entity—to the significant related entity.
+Power to comply
+	(5)	The accountable entity has power to comply with the direction despite anything in its constitution or any contract or arrangement to which it is a party.
+	(6)	If the direction requires the accountable entity to cause a significant related entity to do, or to refrain from doing, an act or thing:
+	(a)	the accountable entity has power to cause the significant related entity to do, or to refrain from doing, the act or thing; and
+	(b)	the significant related entity has power to do, or to refrain from doing, the act or thing;
+despite anything in the significant related entity’s constitution or any contract or arrangement to which the significant related entity is a party.
+Direction not a legislative instrument
+	(7)	A direction under subsection (1) is not a legislative instrument.
+Note:	Under paragraph 11(2)(c) of the Legislation Act 2003, the Regulator may register a direction under this section as a notifiable instrument.
+65  Direction to reallocate responsibilities
+Power to give direction
+	(1)	The Regulator may give an accountable entity a direction to reallocate a responsibility to which paragraph 23(1)(a) applies if the Regulator has reasonable grounds to believe that the current allocation of the responsibility has given rise to, or is likely to give rise to:
+	(a)	a prudential risk; or
+	(b)	a risk of significant and systemic noncompliance with a law, instrument, direction or order referred to in any of subparagraphs 21(1)(d)(i) to (x).
+Note 1:	A decision to give a direction under this section is a reviewable decision (see Part 5 of this Chapter).
+Note 2:	For variation and revocation of a direction given under this section, see subsection 33(3) of the Acts Interpretation Act 1901.
+	(2)	If:
+	(a)	the person who currently has the responsibility is an accountable person of the accountable entity or of a significant related entity of the accountable entity; and
+	(b)	the accountable entity or significant related entity has given an accountability statement for the accountable person under section 31;
+the Regulator must have regard to the responsibilities set out in the accountability statement.
+	(3)	The direction must:
+	(a)	be given by notice in writing to the accountable entity; and
+	(b)	specify the time by which, or period during which, the direction is to be complied with; and
+	(c)	state that the accountable entity could commit an offence or be liable to a civil penalty if the accountable entity fails to comply with the direction.
+Note:	See section 66 (offence for noncompliance with a direction) and paragraph 23(1)(c) (key personnel obligations of accountable entities) and section 80 (civil penalty provisions).
+	(4)	The Regulator must give a copy of the direction to each of the following:
+	(a)	the person who currently has the responsibility;
+	(b)	the person to whom the responsibility is to be reallocated;
+	(c)	if a person referred to in paragraph (a) or (b) is an accountable person of a significant related entity of the accountable entity—the significant related entity.
+	(5)	Subsections 64(5) and (6) apply to a direction under this section in the same way as they apply to a direction under section 64.
+Direction not a legislative instrument
+	(6)	A direction under subsection (1) is not a legislative instrument.
+Note:	Under paragraph 11(2)(c) of the Legislation Act 2003, the Regulator may register a direction under this section as a notifiable instrument.
+Subdivision B—Noncompliance with directions
+66  Offence provision for noncompliance with a direction
+Accountable entity
+	(1)	An accountable entity contravenes this subsection if:
+	(a)	the accountable entity is given a direction under section 64 or 65; and
+	(b)	the accountable entity fails to comply with the direction.
+	(2)	An accountable entity commits an offence if the accountable entity contravenes subsection (1).
+Note 1:	Chapter 2 of the Criminal Code sets out the general principles of criminal responsibility.
+Note 2:	See also subsection 4B(3) (body corporate multiplier) and section 4K (continuing and multiple offences) of the Crimes Act 1914.
+Note 3:	An accountable entity may also contravene a civil penalty provision if it fails to comply with a direction given under section 65 (see paragraph 23(1)(c) and section 80).
+Penalty:	50 penalty units.
+Officer of accountable entity
+	(3)	An officer of an accountable entity contravenes this subsection if:
+	(a)	the accountable entity is given a direction under section 64 or 65; and
+	(b)	the officer fails to take reasonable steps to ensure that the accountable entity complies with the direction; and
+	(c)	the officer’s duties include ensuring that the accountable entity complies with the direction; and
+	(d)	the accountable entity fails to comply with the direction.
+	(4)	An officer of an accountable entity commits an offence if the officer contravenes subsection (3).
+Note 1:	Chapter 2 of the Criminal Code sets out the general principles of criminal responsibility.
+Note 2:	See also subsection 4B(3) (body corporate multiplier) and section 4K (continuing and multiple offences) of the Crimes Act 1914.
+Penalty:	50 penalty units.
+Subdivision C—Secrecy and disclosure provisions relating to directions
+67  Regulator may determine that a direction is covered by secrecy provision
+When this section applies
+	(1)	This section applies if the Regulator has given an accountable entity a direction under section 64 or 65.
+Power of Regulator to make determination
+	(2)	The Regulator may determine, in writing, that the direction is covered by this subsection if the Regulator considers that the determination is necessary:
+	(a)	to protect the depositors (within the meaning of the Banking Act 1959) of any ADI; or
+	(b)	to protect the policyholders (within the meaning of the Insurance Act 1973) of any general insurer; or
+	(c)	to protect the policy owners (within the meaning of the Life Insurance Act 1995) of any life company; or
+	(d)	to protect the policy holders (within the meaning of the Private Health Insurance (Prudential Supervision) Act 2015) of a health benefits fund (within the meaning of that Act) of any private health insurer; or
+	(e)	to protect the beneficiaries (within the meaning of the Superannuation Industry (Supervision) Act 1993) of a registrable superannuation entity (within the meaning of that Act) of any RSE licensee; or
+	(f)	to promote financial system stability in Australia.
+Note:	For repeal of a determination, see subsection 33(3) of the Acts Interpretation Act 1901.
+	(3)	The Regulator must give the accountable entity a copy of the determination as soon as practicable after making it.
+Regulator must consider other determinations
+	(4)	If the Regulator makes a determination under subsection (2), the Regulator must consider whether it is appropriate in the circumstances to also make a determination under either or both of subsections 70(2) and 70(4).
+Determination not a legislative instrument
+	(5)	An instrument under subsection (2) is not a legislative instrument.
+68  Secrecy relating to directions
+	(1)	A person commits an offence if:
+	(a)	the Regulator has given an accountable entity (the directed accountable entity) a direction under section 64 or 65; and
+	(b)	the direction is covered by a determination under subsection 67(2); and
+	(c)	the person is, or has been, covered by subsection (2) of this section in relation to the direction; and
+	(d)	the person discloses information; and
+	(e)	the information reveals the fact that the direction was given.
+Penalty:	Imprisonment for 2 years.
+	(2)	A person is covered by this subsection in relation to the direction if the person is:
+	(a)	the directed accountable entity; or
+	(b)	a significant related entity of the directed accountable entity; or
+	(c)	at or after the time when the Regulator gave the direction, an officer, employee or contractor of the directed accountable entity or of a significant related entity of the directed accountable entity; or
+	(d)	any other person who, because of their employment, or in the course of that employment, has acquired information that reveals the fact that the direction was given.
+Exception
+	(3)	Subsection (1) does not apply if:
+	(a)	the disclosure is authorised by section 69, 70, 71, 72, 73, 74, or 75; or
+	(b)	the disclosure is required by an order or direction of a court or tribunal.
+Note:	A defendant bears an evidential burden in relation to a matter in subsection (3) (see subsection 13.3(3) of the Criminal Code).
+69  Disclosure of publicly available information
+		A person covered by subsection 68(2) in relation to a direction may disclose information that reveals the fact that the direction was given, to the extent that the information has already been lawfully made available to the public.
+70  Disclosure allowed by the Regulator
+	(1)	A person covered by subsection 68(2) in relation to a direction may disclose information that reveals the fact that the direction was given if:
+	(a)	a determination under subsection (2) or (4) of this section allows the disclosure by the person; and
+	(b)	if the Regulator has included conditions in the determination—those conditions are satisfied.
+Determinations relating to specified person
+	(2)	The Regulator may, in writing, make a determination allowing:
+	(a)	a specified person covered by subsection 68(2) in relation to a specified direction; or
+	(b)	a specified person covered by subsection 68(2) in relation to a direction that is in a specified class of directions;
+to disclose specified information in relation to the direction.
+	(3)	The Regulator must give a copy of the determination, as soon as practicable after making it, to:
+	(a)	the directed accountable entity; and
+	(b)	the person specified, or each person specified, in the determination.
+Determinations relating to specified class of persons
+	(4)	The Regulator may, by legislative instrument, make a determination allowing a specified class of persons covered by subsection 68(2) in relation to a direction that is in a specified class of directions to disclose:
+	(a)	specified kinds of information in relation to the direction; or
+	(b)	any kind of information in relation to the direction.
+Conditions in determinations
+	(5)	The Regulator may include conditions in a determination under subsection (2) or (4) that relate to any of the following:
+	(a)	the kind of entities to which the disclosure may be made;
+	(b)	the way in which the disclosure is to be made;
+	(c)	any other matter that the Regulator considers appropriate.
+Determination not a legislative instrument
+	(6)	An instrument under subsection (2) is not a legislative instrument.
+71  Disclosure for the purpose of seeking review or legal advice
+	(1)	A person covered by subsection 68(2) in relation to a direction may disclose information that reveals the fact that the direction was given if the disclosure is made for the purposes of seeking review, under Part 5 of this Chapter or any other applicable law, of the direction or of a decision made in relation to the direction.
+	(2)	A person covered by subsection 68(2) in relation to a direction may disclose information that reveals the fact that the direction was given if:
+	(a)	the disclosure is to the person’s lawyer; and
+	(b)	the purpose of the person making the disclosure is for the lawyer to provide legal advice, or another legal service, in relation to the direction.
+72  Disclosure under the APRA Act
+	(1)	A person covered by subsection 68(2) in relation to a direction may disclose information that reveals the fact that the direction was given if:
+	(a)	the person is:
+	(i)	an APRA member within the meaning of the Australian Prudential Regulation Authority Act 1998; or
+	(ii)	an APRA staff member; or
+	(iii)	an entrusted person within the meaning of the Financial Regulator Assessment Authority Act 2021; or
+	(iv)	a Commonwealth officer, within the meaning of the Crimes Act 1914, who is covered by paragraph (c) of the definition of officer in subsection 56(1) of the Australian Prudential Regulation Authority Act 1998; and
+	(b)	the information:
+	(i)	is protected information, as defined in subsection 56(1) of the Australian Prudential Regulation Authority Act 1998; or
+	(ii)	is contained in a protected document, as defined in that subsection; and
+	(c)	the disclosure is in accordance with a provision referred to in paragraph 56(2)(c) of the Australian Prudential Regulation Authority Act 1998.
+Note:	For the definition of APRA staff member, see section 8.
+Relationship to APRA Act secrecy provision
+	(2)	Disclosure of information in relation to a direction is not an offence under section 56 of the Australian Prudential Regulation Authority Act 1998 if the disclosure is authorised by section 69, 70, 71, 73, 74 or 75 of this Act.
+Note:	A defendant bears an evidential burden in relation to the matters in this subsection (see subsection 13.3(3) of the Criminal Code).
+73  Disclosure under the ASIC Act
+		A person covered by subsection 68(2) in relation to a direction may disclose information that reveals the fact that the direction was given if:
+	(a)	the person is:
+	(i)	a member of ASIC; or
+	(ii)	an ASIC staff member; or
+	(iii)	a Commonwealth officer, within the meaning of the Crimes Act 1914, who, because of their employment, or in the course of that employment, has acquired the information (other than an employee of the body to which the information relates); and
+	(b)	the information is protected information as defined in subsection 127(9) of the Australian Securities and Investments Commission Act 2001; and
+	(c)	the disclosure is authorised use and disclosure of the information for the purposes of subsection 127(1) of that Act.
+Note 1:	For the definition of ASIC staff member, see section 8.
+Note 2:	A disclosure of information permitted by section 69, 70, 71, 72, 74 or 75 of this Act is authorised use and disclosure because of subsection 127(2) of the Australian Securities and Investments Commission Act 2001.
+74  Disclosure in circumstances set out in the Minister rules
+		A person covered by subsection 68(2) in relation to a direction may disclose information that reveals the fact that the direction was given, if the disclosure is made in circumstances (if any) prescribed by the Minister rules.
+75  Disclosure for purpose
+		A person covered by subsection 68(2) (the relevant person) in relation to a direction may disclose information that reveals the fact that the direction was given if:
+	(a)	another person covered by subsection 68(2) in relation to the direction disclosed that information to the relevant person for a particular purpose in accordance with section 70, 71, 72, 73 or 74, or in accordance with a previous operation of this section; and
+	(b)	the disclosure by the relevant person is for the same purpose.
+76  Exceptions operate independently
+		Sections 69, 70, 71, 72, 73, 74 and 75 do not limit each other.
+Subdivision D—Other provisions relating to directions
+77  Direction not grounds for denial of obligations
+When this section applies
+	(1)	This section applies if an accountable entity, or a significant related entity of an accountable entity, is party to a contract, whether the proper law of the contract is:
+	(a)	Australian law (including the law of a State or Territory); or
+	(b)	law of a foreign country (including the law of part of a foreign country).
+Direction does not allow denial of obligations
+	(2)	The fact that the accountable entity is given a direction under section 64 does not allow the contract, or a party to the contract (other than the accountable entity or a significant related entity of the accountable entity), to do any of the following:
+	(a)	deny any obligations under the contract;
+	(b)	accelerate any debt under the contract;
+	(c)	close out any transaction relating to the contract;
+	(d)	enforce any security under the contract.
+This subsection has effect subject to this section.
+	(3)	If the accountable entity or the significant related entity is prevented from fulfilling its obligations under the contract because of a direction under section 64, the other party or parties to the contract are, subject to any orders made under subsection (4) of this section, relieved from obligations owed to the accountable entity or significant related entity under the contract.
+Application to the Federal Court
+	(4)	A party to a contract to which subsection (3) applies may apply to the Federal Court of Australia for an order relating to the effect on the contract of a direction under section 64. The order may deal with matters including (but not limited to):
+	(a)	requiring a party to the contract to fulfil an obligation under the contract despite subsection (3) of this section; or
+	(b)	obliging a party to the contract to take some other action (for example, paying money or transferring property) in view of obligations that were fulfilled under the contract before the direction was made.
+The order must not require a person to take action that would contravene the direction.
+Covered bonds
+	(5)	Subsection (2) does not prevent the exercise of a contractual right in relation to an asset that secures liabilities to holders of covered bonds (within the meaning of the Banking Act 1959), or their representatives, if payments under the covered bonds to the holders or representatives are not made.
+78  Information to the Minister about certain directions
+	(1)	If the Minister requests the Regulator to provide information about:
+	(a)	directions given under section 64 or 65 to a particular accountable entity; or
+	(b)	directions given under section 64 or 65 during a particular period;
+the Regulator must comply with the request.
+	(2)	The Regulator may provide any information that it considers appropriate to the Minister about:
+	(a)	directions given under section 64 or 65; or
+	(b)	revocations of such directions.
+	(3)	If the Regulator provides the Minister with information about a direction and later revokes the direction, the Regulator must notify the Minister of the revocation as soon as practicable after the revocation.
+	(4)	Failure to comply with this section does not affect the validity of a direction or revocation.
+79  Relationship with other laws
+		If a direction given under section 64 or 65 is inconsistent with the Minister rules or the Regulator rules, the direction prevails and the rules, to the extent of the inconsistency, do not have any effect.
+Division 6—Civil penalties
+80  Civil penalty provision for noncompliance with obligations
+	(1)	A person contravenes this subsection if:
+	(a)	the person is an accountable entity; and
+	(b)	the person is subject to an obligation under Chapter 2; and
+	(c)	the person fails to comply with the obligation.
+Note:	It is generally not necessary to prove a person’s state of mind in proceedings for a contravention of a civil penalty provision (see section 94 of the Regulatory Powers Act, which applies because of section 82 of this Act).
+	(2)	A person is liable to a civil penalty if the person contravenes subsection (1).
+81  Ancillary contravention of civil penalty provisions
+	(1)	A person must not:
+	(a)	attempt to contravene a civil penalty provision of this Act; or
+	(b)	aid, abet, counsel or procure a contravention of a civil penalty provision of this Act; or
+	(c)	induce (by threats, promises or otherwise) a contravention of a civil penalty provision of this Act; or
+	(d)	be in any way, directly or indirectly, knowingly concerned in, or party to, a contravention of a civil penalty provision of this Act; or
+	(e)	conspire with others to effect a contravention of a civil penalty provision of this Act.
+Civil penalty
+	(2)	A person is liable to a civil penalty if the person contravenes subsection (1).
+	(3)	Section 92 of the Regulatory Powers Act (which deals with ancillary contravention of civil penalty provisions) does not apply in relation to a civil penalty provision of this Act.
+	(4)	Section 94 of the Regulatory Powers Act (which deals with a person’s state of mind in relation to a contravention of a civil penalty provision) does not apply in relation to a contravention of subsection (1) of this section.
+82  Civil penalty provisions—enforcement
+Civil penalty provisions enforceable under Regulatory Powers Act
+	(1)	Each civil penalty provision of this Act is enforceable under Part 4 of the Regulatory Powers Act.
+Note:	Part 4 of the Regulatory Powers Act allows a civil penalty provision to be enforced by obtaining an order for a person to pay a pecuniary penalty for the contravention of the provision.
+Authorised applicant
+	(2)	For the purposes of Part 4 of the Regulatory Powers Act, the Regulator is an authorised applicant in relation to the provisions mentioned in subsection (1).
+Relevant court
+	(3)	For the purposes of Part 4 of the Regulatory Powers Act, the Federal Court of Australia is a relevant court in relation to the provisions mentioned in subsection (1).
+Liability of Crown
+	(4)	Part 4 of the Regulatory Powers Act, as that Part applies in relation to the provisions mentioned in subsection (1), does not make the Crown liable to a pecuniary penalty.
+Extension to external Territories
+	(5)	Part 4 of the Regulatory Powers Act, as it applies in relation to the provisions mentioned in subsection (1), extends to every external Territory.
+83  Civil penalty provisions—amount of penalty
+	(1)	Despite subsection 82(5) of the Regulatory Powers Act, the pecuniary penalty payable:
+	(a)	by a person; and
+	(b)	under a civil penalty order under Part 4 of that Act (as that Part applies because of section 82 of this Act);
+must not be more than the maximum penalty amount worked out under this section for a contravention by the person.
+Maximum amount of civil penalty—bodies corporate
+	(2)	For the purposes of subsection (1), the maximum penalty amount for a contravention by a body corporate of a civil penalty provision of this Act is the greatest of the following:
+	(a)	50,000 penalty units;
+	(b)	if the court can determine the benefit derived and detriment avoided because of the contravention—that amount multiplied by 3;
+	(c)	either:
+	(i)	10% of the annual turnover of the body corporate for the 12month period ending at the end of the month in which the body corporate contravened, or began to contravene, the provision; or
+	(ii)	if the amount worked out under subparagraph (i) is greater than an amount equal to 2.5 million penalty units—2.5 million penalty units.
+Note:	For the meanings of annual turnover and benefit derived and detriment avoided, see section 8.
+Maximum amount of civil penalty—other persons
+	(3)	For the purposes of subsection (1), the maximum penalty amount for a contravention by a person other than a body corporate of a civil penalty provision of this Act is the greater of the following:
+	(a)	5,000 penalty units;
+	(b)	if the court can determine the benefit derived and detriment avoided because of the contravention—that amount multiplied by 3.
+Note 1:	For the meaning of benefit derived and detriment avoided, see section 8.
+Note 2:	Section 81 is the only civil penalty provision of this Act that can be contravened by a person other than a body corporate.
+Additional relevant matter
+	(4)	In addition to the matters a court must take into account under subsection 82(6) of the Regulatory Powers Act in determining the pecuniary penalty for a contravention of a civil penalty provision by an RSE licensee, the court must take into account the impact that the penalty under consideration would have on the beneficiaries of any registrable superannuation entities of which the RSE licensee is a trustee.
+Division 7—Enforceable undertakings
+84  Enforceable undertakings
+Enforceable provisions
+	(1)	The provisions of this Act are enforceable under Part 6 of the Regulatory Powers Act.
+Note:	Part 6 of the Regulatory Powers Act creates a framework for accepting and enforcing undertakings relating to compliance with provisions.
+Authorised person
+	(2)	For the purposes of Part 6 of the Regulatory Powers Act, the Regulator is an authorised person in relation to the provisions mentioned in subsection (1).
+Relevant court
+	(3)	For the purposes of Part 6 of the Regulatory Powers Act, the Federal Court of Australia is a relevant court in relation to the provisions mentioned in subsection (1).
+Other undertakings
+	(4)	An authorised person may accept an undertaking in connection with a matter in relation to which the Regulator has a power or function under this Act. The undertaking must be expressed to be an undertaking under this subsection.
+	(5)	The power in subsection (4) is in addition to the power of an authorised person under subsection 114(1) of the Regulatory Powers Act.
+	(6)	Part 6 of the Regulatory Powers Act, other than subsections 114(1) and (2), applies to an undertaking accepted under subsection (4) of this section as if it were an undertaking accepted under subsection 114(1) of the Regulatory Powers Act.
+Extension to external Territories
+	(7)	Part 6 of the Regulatory Powers Act, as it applies in relation to the provisions mentioned in subsection (1), extends to every external Territory.
+Division 8—Injunctions
+85  Injunctions
+Enforceable provisions
+	(1)	The provisions of this Act are enforceable under Part 7 of the Regulatory Powers Act.
+Note:	Part 7 of the Regulatory Powers Act creates a framework for using injunctions to enforce provisions.
+Authorised person
+	(2)	For the purposes of Part 7 of the Regulatory Powers Act, the Regulator is an authorised person in relation to the provisions mentioned in subsection (1).
+Relevant court
+	(3)	For the purposes of Part 7 of the Regulatory Powers Act, the Federal Court of Australia is a relevant court in relation to the provisions mentioned in subsection (1).
+Consent injunctions
+	(4)	A relevant court may grant an injunction under Part 7 of the Regulatory Powers Act in relation to a provision mentioned in subsection (1) of this section by consent of all the parties to proceedings brought under that Part, whether or not the court is satisfied that section 121 of that Act applies.
+Extension to external Territories
+	(5)	Part 7 of the Regulatory Powers Act, as it applies in relation to the provisions mentioned in subsection (1), extends to every external Territory.
+Division 9—Miscellaneous
+86  Physical elements of offences
+	(1)	This section applies if a provision of this Act provides that a person contravening another provision of this Act (the conduct provision) commits an offence.
+	(2)	For the purposes of applying Chapter 2 of the Criminal Code to the offence, the physical elements of the offence are set out in the conduct provision.
+Note:	Chapter 2 of the Criminal Code sets out general principles of criminal responsibility.
+87  Contravening an offence provision or a civil penalty provision
+	(1)	This section applies if a provision of this Act provides that a person contravening another provision of this Act (the conduct provision) commits an offence or is liable to a civil penalty.
+	(2)	For the purposes of this Act, a reference to a contravention of an offence provision or a civil penalty provision includes a reference to a contravention of the conduct provision.
+Note:	The expression this Act includes the Regulatory Powers Act as it applies in relation to this Act (see section 8).
+88  Selfincrimination
+	(1)	An individual is not excused from complying with a requirement under this Act to give information, produce a book, account or document or sign a record on the ground that doing so would tend to incriminate the individual.
+Note:	A body corporate is not entitled to claim the privilege against selfincrimination.
+	(2)	However, the information given, the record signed or the book, account or document produced by the individual in compliance with the requirement, is not admissible in evidence against the individual in criminal proceedings, other than proceedings in respect of the falsity of the information, if:
+	(a)	before complying with the requirement, the individual claims that giving the information, signing the record or producing the book, account or document might tend to incriminate the individual; and
+	(b)	giving the information, signing the record or producing the book, account or document might in fact tend to incriminate the individual.
+	(3)	If, at general law, an individual would otherwise be able to claim the privilege against selfexposure to a penalty (other than a penalty for an offence) in relation to giving information, producing a book, account or document, or signing a record under this Act, the individual is not excused from giving the information, producing the book, account or document, or signing the record, under those provisions on that ground.
+Note:	A body corporate is not entitled to claim the privilege against selfexposure to a penalty.
+89  Legal professional privilege
+	(1)	This section applies if:
+	(a)	under this Act, a person requires a lawyer;
+	(i)	to give information; or
+	(ii)	to produce a book, account or document; and
+	(b)	either:
+	(i)	giving the information would involve disclosing; or
+	(ii)	the book, account or document contains;
+		a privileged communication made by, or on behalf of or to the lawyer in their capacity as a lawyer.
+	(2)	The lawyer is entitled to refuse to comply with the requirement unless:
+	(a)	if the person to whom, or by or on behalf of whom, the communication was made is a body corporate that is under administration or is being wound up—the administrator or the liquidator of the body; or
+	(b)	otherwise—the person to whom, or by or on behalf of whom, the communication was made;
+consents to the lawyer complying with the requirement.
+	(3)	If the lawyer so refuses, they must, as soon as practicable, give to the person who made the requirement a written notice setting out:
+	(a)	if the lawyer knows the name of the person to whom, or by or on behalf of whom, the communication was made—that name and address; and
+	(b)	if subparagraph (1)(a)(i) applies and the communication was made in writing—sufficient particulars to identify the document containing the communication; and
+	(c)	if subparagraph (1)(a)(ii) applies—sufficient particulars to identify the book, account or document, or the part of the book, account or document, containing the communication.
+	(4)	A person commits an offence if the person refuses or fails to comply with a requirement under this section.
+Penalty:	30 penalty units.
+90  Powers of Court relating to noncompliance with this Act
+	(1)	If the Regulator or an investigator is satisfied that a person has, without reasonable excuse, failed to comply with a requirement made under this Act, the Regulator or the investigator may by writing certify the failure to the Federal Court of Australia.
+	(2)	If the Regulator or the investigator certifies the failure under subsection (1), the Federal Court of Australia may inquire into the case and may order the person to comply with the requirement as specified in the order.
+Part 5—Review of decisions
+  
+91  Reviewable decisions
+		A decision by the Regulator referred to in column 1 of an item of the following table is a reviewable decision. Each person referred to in column 2 of the item is an affected person for the decision.
+
+Reviewable decisions
+
+Item
+Column 1
+Decision
+Column 2
+Affected person
+1
+A decision under subsection 17(1) not to specify an obligation that an accountable entity need not comply with
+The accountable entity
+2
+A decision under subsection 17(1) to specify conditions to which a notice specifying an obligation that an accountable entity need not comply with is subject
+The accountable entity
+3
+A decision under subsection 19(1) not to specify an obligation that an accountable person of an accountable entity, or of a significant related entity of an accountable entity, need not comply with
+All of the following:
+(a) the accountable person;
+(b) the accountable entity;
+(c) the significant related entity
+4
+A decision under subsection 19(1) to specify conditions to which a notice specifying an obligation that an accountable person of an accountable entity, or of a significant related entity of an accountable entity, need not comply with is subject
+All of the following:
+(a) the accountable person;
+(b) the accountable entity;
+(c) the significant related entity
+5
+A decision under subsection 24(5) to determine for the purposes of paragraph 24(2)(b), (3)(b) or (4)(d) a period that is shorter than the period that would otherwise apply
+Both of the following:
+(a) the accountable entity;
+(b) the significant related entity
+6
+A decision under subsection 26(3) that remuneration of an accountable person of an accountable entity, or of a significant related entity of an accountable entity, is, or is not, variable remuneration
+All of the following:
+(a) the accountable person;
+(b) the accountable entity;
+(c) the significant related entity
+7
+A decision under subsection 26(3) to vary the remuneration of an accountable person of an accountable entity, or of a significant related entity of an accountable entity, that is, or is not, variable remuneration
+All of the following:
+(a) the accountable person;
+(b) the accountable entity;
+(c) the significant related entity
+8
+A decision under subsection 26(3) to refuse to vary the remuneration of an accountable person of an accountable entity, or of a significant related entity of an accountable entity, that is, or is not, variable remuneration
+All of the following:
+(a) the accountable person;
+(b) the accountable entity;
+(c) the significant related entity
+9
+A decision under subsection 27(3) that the value of variable remuneration of an accountable person of an accountable entity, or of a significant related entity of an accountable entity, is to be worked out in a particular way
+All of the following:
+(a) the accountable person;
+(b) the accountable entity;
+(c) the significant related entity
+10
+A decision under subsection 27(3) to vary the way that the value of variable remuneration of an accountable person of an accountable entity, or of a significant related entity of an accountable entity, is to be worked out
+All of the following:
+(a) the accountable person;
+(b) the accountable entity;
+(c) the significant related entity
+11
+A decision under subsection 27(3) to refuse to vary the way that the value of variable remuneration of an accountable person of an accountable entity, or of a significant related entity of an accountable entity, is to be worked out
+All of the following:
+(a) the accountable person;
+(b) the accountable entity;
+(c) the significant related entity
+12
+A decision under subsection 42(1) to disqualify a person from being or acting as an accountable person
+All of the following:
+(a) the person;
+(b) an accountable entity;
+(c) a significant related entity
+13
+A decision under subsection 43(1) to vary or revoke a disqualification of a person from being or acting as an accountable person
+All of the following:
+(a) the person;
+(b) an accountable entity;
+(c) a significant related entity
+14
+A decision under subsection 43(1) to refuse to vary or revoke a disqualification of a person from being or acting as an accountable person
+All of the following:
+(a) the person;
+(b) an accountable entity;
+(c) a significant related entity
+15
+A decision under subsection 64(1) to give a direction to an accountable entity to do something, or to cause something to be done
+Both of the following:
+(a) the accountable entity;
+(b) if another person is subject to the direction—that person
+16
+A decision under subsection 64(1) to vary or revoke a direction given to an accountable entity to do something, or to cause something to be done
+Both of the following:
+(a) the accountable entity;
+(b) if another person is subject to the direction—that person
+17
+A decision under subsection 64(1) to refuse to vary or revoke a direction given to an accountable entity to do something, or to cause something to be done
+Both of the following:
+(a) the accountable entity;
+(b) if another person is subject to the direction—that person
+18
+A decision under subsection 65(1) to give a direction to an accountable entity to reallocate a responsibility of a person
+Both of the following:
+(a) the accountable entity;
+(b) the person
+19
+A decision under subsection 65(1) to vary or revoke a direction given to an accountable entity to reallocate a responsibility of a person
+Both of the following:
+(a) the accountable entity;
+(b) the person
+20
+A decision under subsection 65(1) to refuse to vary or revoke a direction given to an accountable entity to reallocate a responsibility of a person
+Both of the following:
+(a) the accountable entity;
+(b) the person
+92  Notice of decisions and review rights
+	(1)	If written notice of a reviewable decision is given to an affected person, the notice:
+	(a)	must include a statement setting out particulars of the person’s review rights; and
+	(b)	if the reviewable decision is in relation to a direction under section 64 or 65 that is covered by a determination under subsection 67(2)—may impose conditions relating to the disclosure of information contained in reasons for the decision that are included in the notice.
+	(2)	A person commits an offence if:
+	(a)	the person is given a notice of a reviewable decision; and
+	(b)	the notice includes a condition relating to the disclosure of information; and
+	(c)	the person fails to comply with the condition.
+Penalty:	Imprisonment for 2 years.
+Note:	A person does not commit the offence if the disclosure is made for the purpose of seeking review or legal advice: see section 96.
+93  Affected person may request reconsideration of reviewable decision
+	(1)	An affected person for a reviewable decision may request the decisionmaker to reconsider the decision.
+Note:	For the meaning of decisionmaker, see section 8.
+	(2)	The request must:
+	(a)	be made in writing; and
+	(b)	set out the reasons for the request; and
+	(c)	be given to the decisionmaker within 21 days after the affected person is notified of the reviewable decision.
+94  Reconsideration of reviewable decision
+	(1)	If a request is made under section 93 by an affected person for a reviewable decision, the decisionmaker must:
+	(a)	personally reconsider the decision to which the application relates; or
+	(b)	cause the decision to be reconsidered by a delegate of the decisionmaker who:
+	(i)	was not involved in making the decision; and
+	(ii)	occupies a position that is at least the same level as that occupied by the person who made the decision.
+The person who reconsiders the decision is the internal decision reviewer.
+	(2)	After reconsidering the reviewable decision, the internal decision reviewer must:
+	(a)	affirm the decision; or
+	(b)	vary the decision; or
+	(c)	set the decision aside and substitute a new decision.
+	(3)	After the internal decision reviewer makes the reconsideration decision, the reviewer must give written notice of the following to the applicant:
+	(a)	the reconsideration decision;
+	(b)	the date that decision takes effect;
+	(c)	the reasons for that decision.
+Note:	Section 266 of the Administrative Review Tribunal Act 2024 requires the applicant to be notified of the applicant’s review rights.
+	(4)	If the reviewable decision is in relation to a direction under section 64 or 65 that is covered by a determination under subsection 67(2), the notice may impose conditions relating to the disclosure of information contained in the reasons for the decision.
+	(5)	A person commits an offence if:
+	(a)	the person is given a notice under subsection (3); and
+	(b)	the notice includes a condition relating to the disclosure of information; and
+	(c)	the person fails to comply with the condition.
+Penalty:	Imprisonment for 2 years.
+Note:	A person does not commit the offence if the disclosure is made for the purpose of seeking review or legal advice: see section 96.
+	(6)	The internal decision reviewer is taken to have affirmed the reviewable decision if the reviewer does not give notice of the reconsideration decision to the applicant within 60 days after receiving the application.
+	(7)	The reconsideration decision is taken to have been made under the provision under which the reviewable decision was made other than for the purposes of section 93.
+95  Review by the Administrative Review Tribunal
+	(1)	Applications may be made to the Administrative Review Tribunal for review of a reconsideration decision of an internal decision reviewer.
+Note:	For the definitions of internal decision reviewer and reconsideration decision, see section 8.
+	(2)	An application under subsection (1) may be made only by, or on behalf of, an affected person for the reviewable decision.
+Note:	For the definition of affected person, see section 8.
+	(3)	Subsection (2) has effect despite section 17 of the Administrative Review Tribunal Act 2024.
+Part 6—Miscellaneous
+  
+96  Disclosure for the purpose of seeking review or legal advice
+	(1)	A person does not commit an offence against subsection 92(2) or 94(5) by disclosing information if the disclosure is made for the purposes of seeking review, under Part 5 of this Chapter or any other applicable law, of:
+ 	(a)	the direction referred to in paragraph 92(1)(b) or subsection 94(4); or
+	(b)	a decision made in relation to the direction.
+	(2)	A person does not commit an offence against subsection 92(2) or 94(5) by disclosing information if:
+	(a)	the disclosure is to the person’s lawyer; and
+	(b)	the purpose of the person making the disclosure is for the lawyer to provide legal advice, or another legal service, in relation to the direction referred to in paragraph 92(1)(b) or subsection 94(4).
+Note 1:	Subsections 92(2) and 94(5) create offences for disclosing information that is contained in a notice and is subject to conditions relating to disclosure.
+Note 2:	A defendant bears an evidential burden in relation to the matters in subsection (1) or (2) of this section (see subsection 13.3(3) of the Criminal Code).
+97  Indemnifying accountable entities
+	(1)	A significant related entity of an accountable entity must not (whether by agreement or by making a payment, and whether directly or through an interposed entity):
+	(a)	indemnify the accountable entity against the consequences of breaching an obligation under this Act; or
+	(b)	pay, or agree to pay, a premium for a contract insuring the accountable entity against the consequences of breaching an obligation under this Act.
+	(2)	Subsection (1) does not apply to a liability for legal costs.
+	(3)	Anything that purports to indemnify or insure a person against a liability, or exempt them from a liability, is void to the extent that it contravenes subsection (1).
+	(4)	Without prejudice to their effect apart from this subsection:
+	(a)	subsection (1) applies to a related body corporate (other than a significant related entity) of an accountable entity in the same way as it applies to a significant related entity of the accountable entity; and
+	(b)	subsections (2) and (3) have effect accordingly.
+98  Causes of action not created
+		This Act does not have the effect of creating a cause of action that would not have existed if this Act had not been enacted.
+99  Compensation for acquisition of property
+	(1)	If the operation of this Act would result in an acquisition of property (within the meaning of paragraph 51(xxxi) of the Constitution) from a person otherwise than on just terms (within the meaning of that paragraph), the Commonwealth is liable to pay a reasonable amount of compensation to the person.
+	(2)	If the Commonwealth and the person do not agree on the amount of the compensation, the person may institute proceedings in the Federal Court of Australia or the Supreme Court of a State or Territory for the recovery from the Commonwealth of such reasonable amount of compensation as the court determines.
+100  Conduct of directors, employees and agents
+State of mind of an individual
+	(1)	If, in proceedings for an offence against this Act, it is necessary to establish the state of mind of an individual in relation to particular conduct, it is sufficient to show:
+	(a)	that the conduct was engaged in by an employee or agent of the individual within the scope of actual or apparent authority; and
+	(b)	that the employee or agent had the state of mind.
+Conduct of an individual
+	(2)	Any conduct engaged in on behalf of an individual by an employee or agent of the individual within the scope of actual or apparent authority is taken to have been engaged in also by the individual unless the individual establishes that they took reasonable precautions and exercised due diligence to avoid the conduct.
+Note:	Part 2.5 of the Criminal Code and section 97 of the Regulatory Powers Act deal with responsibility of bodies corporate for offences and civil penalties.
+Limitation on imprisonment
+	(3)	If:
+	(a)	an individual is convicted of an offence; and
+	(b)	the individual would not have been convicted of the offence if subsections (1) and (2) had not been enacted;
+the individual is not liable to be punished by imprisonment for that offence.
+Extended meaning of state of mind
+	(4)	A reference in subsection (1) to the state of mind of a person includes a reference to:
+	(a)	the person’s knowledge, intention, opinion, belief or purpose; and
+	(b)	the person’s reasons for the intention, opinion, belief or purpose.
+Engaging in conduct
+	(5)	A reference in this section to engaging in conduct includes a reference to failing or refusing to engage in conduct.
+101  Protection from liability—general
+	(1)	A person is not subject to any liability to any person in respect of anything done, or omitted to be done, in good faith and without negligence in the exercise or performance, or the purported exercise or performance, of powers, functions or duties under this Act.
+	(2)	Subsection (1) does not apply to a person referred to in section 58 of the Australian Prudential Regulation Authority Act 1998 and, to avoid doubt, does not affect the operation of that section.
+Note:	Section 58 of the Australian Prudential Regulation Authority Act 1998 deals with protection from liability for APRA, APRA members, APRA staff members and their agents.
+102  Protection from liability—directions and secrecy
+	(1)	An action, suit or proceeding (whether criminal or civil) does not lie against a person in relation to anything done, or omitted to be done, in good faith by the person if:
+	(a)	the person does the thing, or omits to do the thing, for the purpose of any of the following:
+	(i)	complying with a direction under this Act given by the Regulator to an accountable entity;
+	(ii)	complying with subsection 68(1), 92(2) or 94(5) in relation to a direction under this Act given by the Regulator to an accountable entity; and
+	(b)	it is reasonable for the person to do the thing, or to omit to do the thing, in order to achieve that purpose; and
+	(c)	the person is any of the following:
+	(i)	an officer or senior manager of the accountable entity, or of a member of the accountable entity’s relevant group;
+	(ii)	an employee or agent of the accountable entity, or of a member of the accountable entity’s relevant group;
+	(iii)	the accountable entity or a member of the accountable entity’s relevant group.
+Note:	For the definition of relevant group, see section 8.
+	(2)	For the purposes of paragraph (1)(b), treat it as reasonable for a person to do a thing, or to omit to do a thing, in order to achieve a purpose unless no reasonable person in that person’s position would do the thing, or omit to do the thing, in order to achieve that purpose.
+	(3)	In this section:
+employee of an accountable entity, or of a member of an accountable entity’s relevant group, includes a person engaged to provide advice or services to the accountable entity or member.
+103  Protection from liability—provisions do not limit each other
+		The following provisions do not limit the operation of each other:
+	(a)	section 101 of this Act;
+	(b)	section 102 of this Act;
+	(c)	section 58 of the Australian Prudential Regulation Authority Act 1998;
+	(d)	section 246 of the Australian Securities and Investments Commission Act 2001.
+104  Minister rules
+	(1)	The Minister may, by legislative instrument, make rules (the Minister rules) prescribing matters:
+	(a)	required or permitted by this Act to be prescribed by the Minister rules; or
+	(b)	necessary or convenient to be prescribed for carrying out or giving effect to this Act.
+	(2)	To avoid doubt, the Minister rules may not do the following:
+	(a)	create an offence or civil penalty;
+	(b)	provide powers of:
+	(i)	arrest or detention; or
+	(ii)	entry, search or seizure;
+	(c)	impose a tax;
+	(d)	set an amount to be appropriated from the Consolidated Revenue Fund under an appropriation in this Act;
+	(e)	directly amend the text of this Act.
+	(3)	In this section, a reference to this Act does not include a reference to the Minister rules, the Regulator rules or the Regulatory Powers Act.
+105  Regulator rules
+	(1)	APRA and ASIC may jointly, by legislative instrument, make rules (the Regulator rules) prescribing matters:
+	(a)	required or permitted by this Act to be prescribed by the Regulator rules; or
+	(b)	necessary or convenient to be prescribed for carrying out or giving effect to this Act.
+	(2)	To avoid doubt, the Regulator rules may not do the following:
+	(a)	create an offence or civil penalty;
+	(b)	provide powers of:
+	(i)	arrest or detention; or
+	(ii)	entry, search or seizure;
+	(c)	impose a tax;
+	(d)	set an amount to be appropriated from the Consolidated Revenue Fund under an appropriation in this Act;
+	(e)	directly amend the text of this Act.
+	(3)	Regulator rules that are inconsistent with the Minister rules have no effect to the extent of the inconsistency, but the Regulator rules are taken to be consistent with the Minister rules to the extent that the Regulator rules are capable of operating concurrently with the Minister rules.
+	(4)	In this section, a reference to this Act does not include a reference to the Regulator rules, the Minister rules or the Regulatory Powers Act.
+
+Endnotes
+Endnote 1—About the endnotes
+The endnotes provide information about this compilation and the compiled law.
+The following endnotes are included in every compilation:
+Endnote 1—About the endnotes
+Endnote 2—Abbreviation key
+Endnote 3—Legislation history
+Endnote 4—Amendment history
+Abbreviation key—Endnote 2
+The abbreviation key sets out abbreviations that may be used in the endnotes.
+Legislation history and amendment history—Endnotes 3 and 4
+Amending laws are annotated in the legislation history and amendment history.
+The legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.
+The amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.
+Editorial changes
+The Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.
+If the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.
+Misdescribed amendments
+A misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003.
+If a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.
+Endnote 2—Abbreviation key
+
+ad = added or inserted
+o = order(s)
+am = amended
+Ord = Ordinance
+amdt = amendment
+orig = original
+c = clause(s)
+par = paragraph(s)/subparagraph(s)
+C[x] = Compilation No. x
+/subsubparagraph(s)
+Ch = Chapter(s)
+pres = present
+def = definition(s)
+prev = previous
+Dict = Dictionary
+(prev…) = previously
+disallowed = disallowed by Parliament
+Pt = Part(s)
+Div = Division(s)
+r = regulation(s)/rule(s)
+ed = editorial change
+reloc = relocated
+exp = expires/expired or ceases/ceased to have
+renum = renumbered
+effect
+rep = repealed
+F = Federal Register of Legislation
+rs = repealed and substituted
+gaz = gazette
+s = section(s)/subsection(s)
+LA = Legislation Act 2003
+Sch = Schedule(s)
+LIA = Legislative Instruments Act 2003
+Sdiv = Subdivision(s)
+(md) = misdescribed amendment can be given
+SLI = Select Legislative Instrument
+effect
+SR = Statutory Rules
+(md not incorp) = misdescribed amendment
+SubCh = SubChapter(s)
+cannot be given effect
+SubPt = Subpart(s)
+mod = modified/modification
+underlining = whole or part not
+No. = Number(s)
+commenced or to be commenced
+
+Endnote 3—Legislation history
+
+Act
+Number and year
+Assent
+Commencement
+Application, saving and transitional provisions
+Financial Accountability Regime Act 2023
+67, 2023
+14 Sept 2023
+15 Sept 2023 (s 2(1) item 1)
+
+Treasury Laws Amendment (2023 Law Improvement Package No. 1) Act 2023
+76, 2023
+20 Sept 2023
+Sch 3 (items 4–6): 20 Oct 2023 (s 2(1) item 4)
+—
+Administrative Review Tribunal (Miscellaneous Measures) Act 2025
+14, 2025
+20 Feb 2025
+Sch 2 (items 18–21): 21 Feb 2025 (s 2(1) item 2)
+—
+
+Endnote 4—Amendment history
+
+Provision affected
+How affected
+Chapter 1
+
+Part 2
+
+s 8	
+am No 76, 2023
+Chapter 2
+
+Part 3
+
+s 21	
+am No 76, 2023
+Chapter 3
+
+Part 5
+
+s 94	
+am No 14, 2025
+s 95	
+am No 14, 2025
+
