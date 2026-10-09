@@ -239,8 +239,8 @@ window.GRC_OBLIGATION_DETAILS = {
     }
   },
   conflicts: {
-    source: [['Corporations Act 2001, s 912A(1)(aa) (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 181 AFS licensing: Managing conflicts of interest (December 2025)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-181-licensing-managing-conflicts-of-interest/']],
-    checkedText: '8 October 2026',
+    source: [['Corporations Act 2001, s 912A(1)(aa) (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 181 AFS licensing: Managing conflicts of interest (December 2025)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-181-licensing-managing-conflicts-of-interest/'], ['Prudential Standard SPS 521 Conflicts of Interest (F2012L02230, in force from 1 July 2013) for super trustees', 'https://www.legislation.gov.au/F2012L02230/asmade/text']],
+    checkedText: '9 October 2026',
     themes: {
       1: [
         ['AFS licensees must have adequate arrangements to manage conflicts of interest arising in providing financial services (a civil penalty provision)', 'Corporations Act s 912A(1)(aa), (5A); RG 181.48'],
@@ -251,7 +251,14 @@ window.GRC_OBLIGATION_DETAILS = {
       2: [
         ['Implement, monitor, maintain and review the arrangements, with senior management (and, where appropriate, board) approval, staff training, accountable people, compliance monitoring and disciplinary measures', 'RG 181.61; RG 181 Table 2, step 4'],
         ['Be able to show the arrangements are integrated into business operations; having a policy is not enough', 'RG 181 Table 2, step 4'],
-        ['Document identified conflicts and actions taken (for example in a conflicts register), reports to senior management, and disclosures given to affected parties', 'RG 181.63']]
+        ['Document identified conflicts and actions taken (for example in a conflicts register), reports to senior management, and disclosures given to affected parties', 'RG 181.63']],
+      3: [
+        ['Have a Board-approved conflicts management framework, proportionate to the business, so that all potential and actual conflicts are identified and avoided or prudently managed; the Board is ultimately responsible for it', 'SPS 521 paras 8–10, 14'],
+        ['The framework includes a Board-approved conflicts management policy, defined roles and resources, and up-to-date registers of relevant duties and relevant interests, with a process for deciding what is relevant', 'SPS 521 paras 15–16'],
+        ['The policy covers identifying and monitoring conflicts, avoiding them where required, managing them so that members’ duties and interests get priority (SIS Act ss 52(2)(d) and 52A(2)(d)), escalation, and minuting each conflict and the action taken', 'SPS 521 para 18'],
+        ['Regularly and thoroughly look for conflicts arising from relationships with existing or prospective service providers and advisers', 'SPS 521 para 19'],
+        ['Make sure responsible persons and staff understand conflicts and the framework, and that incoming responsible persons disclose their relevant duties and interests before appointment', 'SPS 521 paras 11–12'],
+        ['Review the framework every year and report to the Board, with an operationally independent comprehensive review at least every three years', 'SPS 521 paras 20–23']]
     }
   },
   capital: {
@@ -318,7 +325,7 @@ window.GRC_OBLIGATION_DETAILS = {
     }
   },
   cps220: {
-    source: [['Prudential Standard CPS 220 Risk Management (F2019L00669, in force from 1 July 2019) for banks and insurers. Super trustees follow SPS 220, not yet itemised here', 'https://www.legislation.gov.au/F2019L00669/asmade/text']],
+    source: [['Prudential Standard CPS 220 Risk Management (F2019L00669, in force from 1 July 2019) for banks and insurers', 'https://www.legislation.gov.au/F2019L00669/asmade/text'], ['Prudential Standard SPS 220 Risk Management (F2019L01578, in force from 1 January 2020) for super trustees, shown as “Super (SPS 220)”', 'https://www.legislation.gov.au/F2019L01578/asmade/text']],
     checkedText: '9 October 2026',
     themes: {
       1: [
@@ -327,26 +334,37 @@ window.GRC_OBLIGATION_DETAILS = {
         ['At a minimum, the framework includes a risk appetite statement, a risk management strategy and a business plan, among other elements', 'CPS 220 para 23'],
         ['At a minimum, it addresses credit, market and investment, liquidity, insurance and operational risk, risks from strategic objectives and business plans, and any other material risks', 'CPS 220 para 26'],
         ['Notify APRA within 10 business days of becoming aware of a significant breach of, or material deviation from, the framework, or that it did not adequately address a material risk', 'CPS 220 para 53'],
-        ['Notify APRA within 10 business days of material or prospective material changes to size, business mix and complexity', 'CPS 220 para 54']],
+        ['Notify APRA within 10 business days of material or prospective material changes to size, business mix and complexity', 'CPS 220 para 54'],
+        ['Super (SPS 220): keep a risk management framework at all times covering all material financial and non-financial risks, assessed against the business as a whole, each fund and the obligations to members', 'SPS 220 paras 5–6, 10–11'],
+        ['Super (SPS 220): cover at least governance, investment governance, liquidity (including investment options), operational, insurance and strategic risks, and contagion risk from any non-super business', 'SPS 220 paras 12–13'],
+        ['Super (SPS 220): the framework includes the risk appetite statement, risk management strategy, risk management function, policies and controls for each material risk, defined roles, an adequate management information system and a review process', 'SPS 220 para 16'],
+        ['Super (SPS 220): the Board is ultimately responsible for the framework, for solvency and for adequate resources', 'SPS 220 paras 7–8'],
+        ['Super (SPS 220): notify APRA within 10 business days of a significant breach of, or material deviation from, the framework, or finding it did not address a material risk; and as soon as practicable of material changes to size, business mix and complexity', 'SPS 220 paras 35–36']],
       2: [
         ['The Board is ultimately responsible for the risk management framework and its oversight, sets the risk appetite and approves the risk appetite statement and risk management strategy', 'CPS 220 paras 9(a), 27, 29'],
         ['The risk appetite statement sets out the risk appetite, a risk tolerance (limit) for each material risk, how tolerances are set and monitored, what happens if one is breached, and when they are reviewed', 'CPS 220 para 28'],
         ['The Board makes sure senior management manage material risks within appetite, the structure supports risk management, risk-taking policies match the strategy, and enough resources go to risk management', 'CPS 220 para 9(c)–(f)'],
-        ['Submit the risk appetite statement, business plan and risk management strategy to APRA on adoption and after material revisions, within 10 business days of Board approval', 'CPS 220 para 52']],
+        ['Submit the risk appetite statement, business plan and risk management strategy to APRA on adoption and after material revisions, within 10 business days of Board approval', 'CPS 220 para 52'],
+        ['Super (SPS 220): keep an up-to-date, Board-approved risk appetite statement with a risk tolerance for each material risk, how tolerances are set and monitored, what happens on a breach, and when they are reviewed', 'SPS 220 paras 19–20'],
+        ['Super (SPS 220): keep an up-to-date, Board-approved risk management strategy describing each material risk, the key risk policies and their review dates, roles, and how risk culture is instilled', 'SPS 220 paras 21–22']],
       3: [
         ['The Board forms a view of the risk culture, how far it supports operating within appetite, identifies desirable changes and makes sure they are addressed', 'CPS 220 para 9(b)']],
       4: [
         ['Have a designated risk management function that is operationally independent, appropriately resourced, has access to all sources of material risk and tells the Board of significant breaches of or deviations from the framework', 'CPS 220 para 37'],
         ['Designate a Chief Risk Officer who can effectively challenge decisions affecting the risk profile, is independent of business lines and finance, and is not the CEO, CFO, Appointed Actuary or Head of Internal Audit', 'CPS 220 paras 38–39'],
         ['The CRO reports directly to the CEO and has regular and unfettered access to the Board and Board Risk Committee', 'CPS 220 para 40'],
-        ['Have a designated compliance function, adequately staffed, with enough authority and a reporting line independent of business lines', 'CPS 220 para 43']],
+        ['Have a designated compliance function, adequately staffed, with enough authority and a reporting line independent of business lines', 'CPS 220 para 43'],
+        ['Super (SPS 220): have a designated risk management function that is operationally independent, properly resourced, has access to all sources of material risk and tells the Board of material deviations or breaches (it may sit in the group or with an external provider if it meets these tests)', 'SPS 220 paras 24–26']],
       5: [
         ['Internal or external audit reviews compliance with, and the effectiveness of, the framework at least annually, reporting to the Board Audit Committee', 'CPS 220 para 44'],
-        ['Operationally independent, competent people carry out a comprehensive review of the framework at least every three years, reporting to the Board Risk Committee', 'CPS 220 paras 45–47']],
+        ['Operationally independent, competent people carry out a comprehensive review of the framework at least every three years, reporting to the Board Risk Committee', 'CPS 220 paras 45–47'],
+        ['Super (SPS 220): an operationally independent comprehensive review at least every three years, and a review of the framework in each other year', 'SPS 220 paras 27–29'],
+        ['Super (SPS 220): have internal audit procedures and external audit arrangements that check compliance with the framework', 'SPS 220 para 30']],
       6: [
         ['The Board makes an annual risk management declaration to APRA, signed by the Board chair and the Board Risk Committee chair', 'CPS 220 para 49; Attachment A'],
         ['Qualify the declaration if there has been a significant breach of, or material deviation from, the framework, explaining the cause and the remedy', 'CPS 220 para 50'],
-        ['Submit it within three months of the annual balance date (four months for ADIs that are not disclosing entities, and for Level 3 heads), unless APRA approves otherwise', 'CPS 220 para 51']]
+        ['Submit it within three months of the annual balance date (four months for ADIs that are not disclosing entities, and for Level 3 heads), unless APRA approves otherwise', 'CPS 220 para 51'],
+        ['Super (SPS 220): the Board gives APRA an annual risk management declaration signed by two directors, on or before the day annual information is due under APRA’s reporting standards, and explains any qualification', 'SPS 220 paras 32–34; Attachment A']]
     }
   },
   sps515: {
@@ -414,7 +432,7 @@ window.GRC_OBLIGATION_DETAILS = {
     }
   },
   cps190: {
-    source: [['Prudential Standard CPS 190 Recovery and Exit Planning (F2023L01380; applies from 1 January 2024, and to super trustees from 1 January 2025)', 'https://www.legislation.gov.au/F2023L01380/asmade/text']],
+    source: [['Prudential Standard CPS 190 Recovery and Exit Planning (F2023L01380; applies from 1 January 2024, and to super trustees from 1 January 2025)', 'https://www.legislation.gov.au/F2023L01380/asmade/text'], ['Prudential Standard CPS 900 Resolution Planning (F2023L01384, in force from 1 January 2024; applies to SFIs, and to other entities APRA decides provide critical functions, once APRA notifies them)', 'https://www.legislation.gov.au/F2023L01384/asmade/text']],
     checkedText: '9 October 2026',
     themes: {
       1: [
@@ -427,7 +445,15 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Maintain the capabilities, preparatory steps and financial resources needed to execute the plan, and monitor the stress indicators regularly', 'CPS 190 paras 24–27'],
         ['Review and update the plan at least annually (SFIs) or every three years (others), and after significant changes in structure, business mix, strategy or risk profile', 'CPS 190 paras 28–29'],
         ['SFIs have an independent comprehensive review at least every three years, including operational testing that simulates using the plan', 'CPS 190 paras 30–31'],
-        ['Give APRA a copy of the plan within three months of Board approval after each review, and notify APRA if the plan is activated', 'CPS 190 paras 32–33']]
+        ['Give APRA a copy of the plan within three months of Board approval after each review, and notify APRA if the plan is activated', 'CPS 190 paras 32–33']],
+      2: [
+        ['Support APRA in developing and maintaining a resolution plan (including cross-border parts for entities with overseas operations)', 'CPS 900 paras 13–15'],
+        ['The Board supports resolution planning, is ultimately responsible for meeting the standard, sets clear senior executive roles, and approves any resolvability assessment and pre-positioning plan', 'CPS 900 paras 16–17'],
+        ['If APRA requires it, analyse critical functions and the shared services, including third-party services, they depend on', 'CPS 900 paras 18–19'],
+        ['If APRA requires it, assess resolvability: for each resolution option, the barriers, timelines, execution risks and pre-positioning needed, possibly with independent review', 'CPS 900 paras 20–22'],
+        ['If APRA requires it, develop and implement a pre-positioning plan to remove barriers (for example structure changes, renegotiating third-party contracts, wind-down plans and operational continuity)', 'CPS 900 paras 23–25'],
+        ['Maintain the financial resources and capabilities (governance, operations, financial management, data and systems) needed to support the resolution plan; APRA may require extra loss-absorbing capacity outside super', 'CPS 900 paras 26–29'],
+        ['Review the critical functions analysis and resolvability assessment independently at least every three years and report to APRA, and notify APRA of material changes that may create a barrier to resolution', 'CPS 900 paras 32–34']]
     }
   },
   liquidity: {
@@ -455,8 +481,41 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Foreign ADIs assess at least annually whether they can operate locally for at least three business days without help from offshore staff', 'APS 210 paras 67–68']]
     }
   },
+  sps530: {
+    source: [['Prudential Standard SPS 530 Investment Governance (F2022L01492, in force from 1 January 2023)', 'https://www.legislation.gov.au/F2022L01492/asmade/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['The trustee is ultimately responsible for the sound and prudent management of each fund’s investments', 'SPS 530 para 7'],
+        ['Have an investment governance framework at all times, appropriate to size, business mix and complexity; the Board is ultimately responsible for establishing, overseeing and maintaining it', 'SPS 530 paras 10–12, 14'],
+        ['The framework includes, at a minimum, investment objectives for each option, a method for reporting measures, the investment strategies, Board investment policies, role statements, processes for performance, risk, stress testing, valuation and reporting, and a review process', 'SPS 530 para 13'],
+        ['Make sure everyone in investment roles knows the framework, with processes and controls to monitor compliance', 'SPS 530 para 15'],
+        ['Have the framework comprehensively reviewed by operationally independent, competent people at least every three years', 'SPS 530 paras 16–17'],
+        ['If group policies or functions are used, the Board approves their use and makes sure they suit the trustee’s business', 'SPS 530 para 9']],
+      2: [
+        ['The Board approves investment objectives for each option and an investment strategy for each fund and each option, monitors whether objectives are met, and acts on investment reports', 'SPS 530 para 8'],
+        ['Set specific, measurable objectives for each option, including at least a return objective and a risk objective', 'SPS 530 para 18'],
+        ['Document how each strategy has regard to the SIS Act s 52(6) factors, and set diversification by identifying risk factors, sources of return and target exposures', 'SPS 530 paras 19–20'],
+        ['For multi-asset options, set asset allocation targets and ranges, the basis for changing them, and a policy to keep allocations within range', 'SPS 530 para 21'],
+        ['For MySuper strategies, also document diversification, compliance with s 52(13) and compliance with the fee rules', 'SPS 530 para 22'],
+        ['Review each strategy against its objectives at least annually under a Board-approved review policy with triggers for interim reviews, and justify any change', 'SPS 530 paras 28–29']],
+      3: [
+        ['Have an investment selection process with due diligence proportionate to the investment, done before it is selected', 'SPS 530 para 23'],
+        ['Before selecting, understand the investment, the factors that could affect the option’s objectives, how it performs under stress scenarios, and whether it suits the option', 'SPS 530 para 24'],
+        ['Set performance measures and benchmarks for each MySuper product, option and investment (Board approved, except benchmarks for individual investments)', 'SPS 530 para 25'],
+        ['Report each option’s and MySuper product’s performance regularly to the Board and senior management, explaining out- and under-performance against benchmarks', 'SPS 530 para 26'],
+        ['People assessing performance are operationally independent from those making the investments', 'SPS 530 para 27']],
+      4: [
+        ['Have a comprehensive, Board-approved investment stress testing program integrated into the framework, with adverse scenarios for each option’s strategy', 'SPS 530 paras 30–31'],
+        ['Stress test before implementing a strategy, and at least annually to confirm strategies and allocation ranges remain appropriate and to assess each option’s actual allocation', 'SPS 530 para 32'],
+        ['Document the program’s objectives, methods, assumptions, roles, outputs, review, ad hoc triggers and data quality, and have the Board review results and record how they are used', 'SPS 530 paras 33–35'],
+        ['Have a Board-approved liquidity management plan for each fund covering every option, stress scenarios, what counts as a liquidity event, the action to take, roles and key metrics', 'SPS 530 paras 36–37'],
+        ['Include liquidity stress testing in the stress testing program and the liquidity management plan', 'SPS 530 para 38'],
+        ['Have a valuation governance framework with a Board-approved valuation policy covering roles, reporting, methods for each asset class, independent external valuations, frequency, interim valuation triggers, validation and back-testing, and disputed valuations', 'SPS 530 paras 39–41']]
+    }
+  },
   cps510: {
-    source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers; super trustees follow SPS 510 and SPS 520, not yet itemised here. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text']],
+    source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text'], ['Prudential Standards SPS 510 Governance (F2024L00637) and SPS 520 Fit and Proper (F2024L00638), both in force from 30 June 2024, for super trustees, shown as “Super”', 'https://www.legislation.gov.au/F2024L00637/asmade/text']],
     checkedText: '9 October 2026',
     themes: {
       1: [
@@ -467,17 +526,33 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Have a formal Board renewal policy that considers whether long tenure could interfere with acting in the institution’s best interests, and covers appointing, re-appointing and removing directors', 'CPS 510 para 45'],
         ['Have a Board Audit Committee of at least three non-executive directors, a majority independent, with an independent chair who is not the Board chair', 'CPS 510 paras 51–55'],
         ['Have a Board Risk Committee with an independent chair (not the Board chair) to oversee the risk management framework', 'CPS 510 paras 79–83'],
-        ['Have an independent, adequately resourced internal audit function (or an APRA-approved alternative)', 'CPS 510 para 68']],
+        ['Have an independent, adequately resourced internal audit function (or an APRA-approved alternative)', 'CPS 510 para 68'],
+        ['Super (SPS 510): the Board is ultimately responsible for sound and prudent management, documents and monitors delegations, and makes sure directors and senior management collectively have the skills needed', 'SPS 510 paras 8–10'],
+        ['Super (SPS 510): keep a governance framework including a Board charter, voting procedures, and policies on Board size and composition, renewal, and nominating, appointing and removing directors with defined terms and maximum tenure', 'SPS 510 paras 16–18, 22–23'],
+        ['Super (SPS 510): the Board chair is a director, a majority of directors and all senior management are ordinarily resident in Australia, and only a director chairs a committee that could materially affect members', 'SPS 510 paras 11–12, 19–20'],
+        ['Super (SPS 510): assess the Board’s and each director’s performance at least annually', 'SPS 510 para 21'],
+        ['Super (SPS 510): have a Board Audit Committee of at least three non-executive directors (the Board chair may chair it only if they are the only independent director), which reviews the RSE auditor’s independence each year and audit plans and findings, and runs a confidential channel for staff concerns', 'SPS 510 paras 24–36'],
+        ['Super (SPS 510): have an independent, adequately resourced internal audit function (or seek an APRA exemption), obtain an independence declaration from the RSE auditor, and observe the cooling-off and rotation rules for auditors', 'SPS 510 paras 37–47'],
+        ['Super (SPS 510): do not stop anyone, by confidentiality clauses or otherwise, from giving information to APRA', 'SPS 510 paras 48–49']],
       2: [
         ['Fit and proper means it would be prudent to conclude the person has the competence, character, diligence, honesty, integrity and judgement for the role, is not disqualified, and has no material conflict of interest', 'CPS 520 para 30'],
         ['Complete a fit and proper assessment before a person takes a responsible person position (within 28 days where they are appointed by members’ resolution or APRA determination)', 'CPS 520 para 41'],
         ['Interim appointments without a full assessment are allowed for up to 90 days, after reasonable checks', 'CPS 520 para 42'],
         ['Assess every responsible person at least annually (or as close as practicable), making all reasonable enquiries', 'CPS 520 paras 43–44'],
-        ['If someone is not fit and proper, take all reasonable steps to make sure they are not appointed, or do not continue', 'CPS 520 para 54']],
+        ['If someone is not fit and proper, take all reasonable steps to make sure they are not appointed, or do not continue', 'CPS 520 para 54'],
+        ['Super (SPS 520): responsible persons include directors, the secretary, senior managers, the RSE auditor and actuary, and people in connected entities who could materially affect the business; define the competencies for each position', 'SPS 520 paras 12–18'],
+        ['Super (SPS 520): a person is fit and proper if it is prudent to conclude they have the competence, character, diligence, experience, honesty, integrity, judgement and qualifications for the role, are not disqualified under the SIS Act, and have no conflict that creates a material risk', 'SPS 520 para 19'],
+        ['Super (SPS 520): RSE auditors and actuaries meet extra criteria, including at least five years’ relevant experience and living in Australia', 'SPS 520 paras 20–25'],
+        ['Super (SPS 520): assess before appointment (interim appointments up to 90 days after reasonable checks), at least annually, and again if new information raises a concern', 'SPS 520 paras 29–33'],
+        ['Super (SPS 520): take all reasonable steps to stop someone assessed as not fit and proper from being appointed or continuing, and check no responsible person is a disqualified person', 'SPS 520 paras 42, 48']],
       3: [
         ['Maintain a Board-approved Fit and Proper Policy, as part of the risk management framework, and make sure responsible persons understand it', 'CPS 520 paras 12–15'],
         ['Tell APRA each responsible person’s title, name, date of birth, responsibilities and assessment status, and update it within 28 days of any change or appointment', 'CPS 520 paras 55–56'],
-        ['Notify APRA within 10 business days of assessing that a responsible person is not fit and proper, with reasons if they stay in the role', 'CPS 520 para 57']]
+        ['Notify APRA within 10 business days of assessing that a responsible person is not fit and proper, with reasons if they stay in the role', 'CPS 520 para 57'],
+        ['Super (SPS 520): keep a Board-approved Fit and Proper Policy, part of the risk management framework, covering who assesses, what information is gathered, how decisions are made, and what happens if someone fails', 'SPS 520 paras 7–10, 26–28'],
+        ['Super (SPS 520): the policy allows whistleblowing to the assessor or APRA about a responsible person, protects people who disclose in good faith, and the trustee must not restrict such disclosures', 'SPS 520 paras 36–41'],
+        ['Super (SPS 520): give APRA each responsible person’s details and keep them correct, and promptly tell APRA in writing if someone stays in a role despite being assessed as not fit and proper', 'SPS 520 paras 43–45'],
+        ['Super (SPS 520): keep enough records of each assessment to show the fitness and propriety of current and recent responsible persons', 'SPS 520 para 35']]
     }
   },
   breach: {

@@ -116,7 +116,7 @@ window.GRC_BUILDER = {
         ['Board forms a view of the entity’s risk culture', ['ppl.culture'], 'Risk culture is assessed and reported to the board', 'Risk culture assessment; board minutes'],
         ['Operationally independent risk management function headed by a Chief Risk Officer, and a designated compliance function', ['gov.framework', 'cmp.prudential'], 'Second-line functions are independent and resourced', 'Organisation chart; CRO reporting lines; function charters'],
         ['Comprehensive, operationally independent review of the framework at least every three years', ['gov.framework'], 'The framework is independently reviewed on time and findings are fixed', 'Review report; action tracker'],
-        ['Annual risk management declaration to APRA (banks and insurers)', ['cmp.reporting'], 'The declaration is supported by evidence and approved by the board', 'Declaration; supporting attestations']],
+        ['Annual risk management declaration to APRA (CPS 220 for banks and insurers; SPS 220 for super trustees)', ['cmp.reporting'], 'The declaration is supported by evidence and approved by the board', 'Declaration; supporting attestations']],
       cal: [['Annually', 'Risk management declaration to APRA (banks and insurers)'], ['At least every 3 years', 'Comprehensive independent review of the risk management framework']] },
 
     cps230: { label: 'Operational risk management (CPS 230)', reg: 'APRA', url: '/standards/cps-230.html', flag: 'cps230',
