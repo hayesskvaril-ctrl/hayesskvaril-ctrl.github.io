@@ -793,17 +793,24 @@
     "automated decisions"
    ],
    "source": {
-    "label": "OAIC",
-    "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles"
+    "label": "Privacy and Other Legislation Amendment Act 2024, s 2 and Schedule 1 Part 15 (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2024A00128/asmade/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official Privacy and Other Legislation Amendment Act 2024 (No. 128, 2024, fetched from legislation.gov.au): Schedule 1 Part 15 (APP 1.7 to 1.9, automated decisions in privacy policies) commences the day after 24 months from Royal Assent, 10 December 2026"
    },
-   "history": [],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: the OAIC page doesn't state the date"
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "10 December 2026",
+     "new": "10 December 2026",
+     "how": "official",
+     "note": "Read in the official Privacy and Other Legislation Amendment Act 2024 (No. 128, 2024, fetched from legislation.gov.au): Schedule 1 Part 15 (APP 1.7 to 1.9, automated decisions in privacy policies) commences the day after 24 months from Royal Assent, 10 December 2026"
+    }
+   ],
+   "check_url": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
   },
   {
    "id": "privacy-tranche2-draft",

@@ -819,6 +819,17 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Sector-specific SPF codes can add detail on what reasonable steps are required', 'CCA ss 58CB–58CC']]
     }
   },
+  ai: {
+    source: [['Privacy Act 1988, Schedule 1, APP 1.7 to 1.9, inserted by the Privacy and Other Legislation Amendment Act 2024 (Schedule 1 Part 15, commencing {fact:privacy-adm-start})', 'https://www.legislation.gov.au/C2024A00128/asmade/text'], ['Corporations Act 2001 and ASIC Act 2001 (compilations in force 19 September 2026). Australia has no AI-specific law; these are existing obligations applied to AI use', 'https://www.legislation.gov.au/C2004A00818/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['From {fact:privacy-adm-start}, if a computer program makes, or does something substantially and directly related to making, a decision that could significantly affect an individual using their personal information, the APP privacy policy must say so', 'Privacy Act Sch 1, APP 1.7'],
+        ['The privacy policy must describe the kinds of personal information used, the kinds of decisions made solely by computer programs, and the kinds where a program does something substantially and directly related to the decision', 'Privacy Act Sch 1, APP 1.8–1.9'],
+        ['AFS licensees using AI in their services must still provide those services efficiently, honestly and fairly', 'Corporations Act s 912A(1)(a)'],
+        ['Claims about what an AI tool or AI-driven product does must not be misleading or deceptive', 'ASIC Act s 12DA; Corporations Act s 1041H']]
+    }
+  },
   cps510: {
     source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text'], ['Prudential Standards SPS 510 Governance (F2024L00637) and SPS 520 Fit and Proper (F2024L00638), both in force from 30 June 2024, for super trustees, shown as “Super”', 'https://www.legislation.gov.au/F2024L00637/asmade/text']],
     checkedText: '9 October 2026',

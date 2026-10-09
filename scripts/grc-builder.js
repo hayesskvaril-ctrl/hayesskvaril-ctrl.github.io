@@ -897,7 +897,7 @@
     var det = [];
     m.obligations.forEach(function (o) {
       var d = DET[o.rg.id], items = d && d.themes[parseInt(o.id.slice(-2), 10)];
-      (items || []).forEach(function (it, j) { det.push([o.id + '.' + (j + 1), o.id, o.rg.def.label, fillF(it[0]), it[1], d.source.map(function (x) { return x[0]; }).join('; ') + ' (checked ' + d.checkedText + ')']); });
+      (items || []).forEach(function (it, j) { det.push([o.id + '.' + (j + 1), o.id, o.rg.def.label, fillF(it[0]), it[1], fillF(d.source.map(function (x) { return x[0]; }).join('; ')) + ' (checked ' + d.checkedText + ')']); });
     });
     if (det.length) sh.push({ name: 'Individual obligations', rows: [['ID', 'Theme ID', 'Regime', 'Obligation (plain English)', 'Citation', 'Checked against']].concat(det), widths: [18, 16, 30, 80, 30, 50] });
     sh.push({ name: 'Clocks', rows: [['Event', 'Timeframe', 'Notify', 'Regime', 'Guide']].concat(m.clocks.map(function (c) { return [c.event, c.time, c.to, c.rg.def.label, origin + c.rg.def.url]; })), widths: [56, 44, 24, 36, 40] });
