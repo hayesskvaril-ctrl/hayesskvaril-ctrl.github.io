@@ -317,6 +317,38 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Train relevant staff and have the program independently evaluated at least every 3 years, as set out in the policies', 'AML/CTF Act s 26F(4)(e)–(f)']]
     }
   },
+  cps220: {
+    source: [['Prudential Standard CPS 220 Risk Management (F2019L00669, in force from 1 July 2019) for banks and insurers. Super trustees follow SPS 220, not yet itemised here', 'https://www.legislation.gov.au/F2019L00669/asmade/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Maintain a risk management framework that gives the Board an institution-wide view of material risks and allows strategies, policies, procedures and controls to manage them', 'CPS 220 paras 19–20'],
+        ['The framework is consistent with the business plan and provides a structure for identifying and managing each material risk, suited to size, business mix and complexity', 'CPS 220 paras 21–22'],
+        ['At a minimum, the framework includes a risk appetite statement, a risk management strategy and a business plan, among other elements', 'CPS 220 para 23'],
+        ['At a minimum, it addresses credit, market and investment, liquidity, insurance and operational risk, risks from strategic objectives and business plans, and any other material risks', 'CPS 220 para 26'],
+        ['Notify APRA within 10 business days of becoming aware of a significant breach of, or material deviation from, the framework, or that it did not adequately address a material risk', 'CPS 220 para 53'],
+        ['Notify APRA within 10 business days of material or prospective material changes to size, business mix and complexity', 'CPS 220 para 54']],
+      2: [
+        ['The Board is ultimately responsible for the risk management framework and its oversight, sets the risk appetite and approves the risk appetite statement and risk management strategy', 'CPS 220 paras 9(a), 27, 29'],
+        ['The risk appetite statement sets out the risk appetite, a risk tolerance (limit) for each material risk, how tolerances are set and monitored, what happens if one is breached, and when they are reviewed', 'CPS 220 para 28'],
+        ['The Board makes sure senior management manage material risks within appetite, the structure supports risk management, risk-taking policies match the strategy, and enough resources go to risk management', 'CPS 220 para 9(c)–(f)'],
+        ['Submit the risk appetite statement, business plan and risk management strategy to APRA on adoption and after material revisions, within 10 business days of Board approval', 'CPS 220 para 52']],
+      3: [
+        ['The Board forms a view of the risk culture, how far it supports operating within appetite, identifies desirable changes and makes sure they are addressed', 'CPS 220 para 9(b)']],
+      4: [
+        ['Have a designated risk management function that is operationally independent, appropriately resourced, has access to all sources of material risk and tells the Board of significant breaches of or deviations from the framework', 'CPS 220 para 37'],
+        ['Designate a Chief Risk Officer who can effectively challenge decisions affecting the risk profile, is independent of business lines and finance, and is not the CEO, CFO, Appointed Actuary or Head of Internal Audit', 'CPS 220 paras 38–39'],
+        ['The CRO reports directly to the CEO and has regular and unfettered access to the Board and Board Risk Committee', 'CPS 220 para 40'],
+        ['Have a designated compliance function, adequately staffed, with enough authority and a reporting line independent of business lines', 'CPS 220 para 43']],
+      5: [
+        ['Internal or external audit reviews compliance with, and the effectiveness of, the framework at least annually, reporting to the Board Audit Committee', 'CPS 220 para 44'],
+        ['Operationally independent, competent people carry out a comprehensive review of the framework at least every three years, reporting to the Board Risk Committee', 'CPS 220 paras 45–47']],
+      6: [
+        ['The Board makes an annual risk management declaration to APRA, signed by the Board chair and the Board Risk Committee chair', 'CPS 220 para 49; Attachment A'],
+        ['Qualify the declaration if there has been a significant breach of, or material deviation from, the framework, explaining the cause and the remedy', 'CPS 220 para 50'],
+        ['Submit it within three months of the annual balance date (four months for ADIs that are not disclosing entities, and for Level 3 heads), unless APRA approves otherwise', 'CPS 220 para 51']]
+    }
+  },
   breach: {
     source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
     checkedText: '8 October 2026',
