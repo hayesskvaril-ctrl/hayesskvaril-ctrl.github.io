@@ -827,6 +827,33 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2024A00110/asmade/downloads": {
+  "chars": 3630,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2024a00110-asmade-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2024A00110/asmade/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2024A00110/asmade/latest/downloads": {
+  "chars": 5966,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2024a00110-asmade-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/C2024A00110/asmade/latest/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf": {
+  "chars": 165704,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2024a00128-asmade-2024-12-10-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
  "https://www.legislation.gov.au/F2011L02673/2025-12-05/2025-12-05/text/original/word": {
   "chars": 94357,
   "date": "2026-10-09",
