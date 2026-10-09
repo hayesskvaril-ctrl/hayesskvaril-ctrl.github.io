@@ -1196,13 +1196,21 @@
     "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official AML/CTF Act 2006 (compilation in force 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 9 October 2026: s 41(2)(a)"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "3 business days",
+     "new": "3 business days",
+     "how": "official",
+     "note": "Read in the official AML/CTF Act 2006 (compilation in force 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 9 October 2026: s 41(2)(a)"
+    }
+   ],
    "autocheck": false,
-   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers; confirmed in the AML/CTF Act's text"
   },
   {
    "id": "smr-tf-deadline",
@@ -1218,16 +1226,24 @@
     "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official AML/CTF Act 2006 (compilation in force 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 9 October 2026: s 41(1)(g)-(h) and (2)(b)"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "24 hours",
+     "new": "24 hours",
+     "how": "official",
+     "note": "Read in the official AML/CTF Act 2006 (compilation in force 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 9 October 2026: s 41(1)(g)-(h) and (2)(b)"
+    }
+   ],
    "exclude": [
     "tolerance"
    ],
    "autocheck": false,
-   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers; confirmed in the AML/CTF Act's text"
   },
   {
    "id": "ttr-threshold",
@@ -1246,18 +1262,26 @@
     "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/threshold-transaction-reports"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official AML/CTF Act 2006 (compilation in force 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 9 October 2026: s 5, definition of threshold transaction (not less than $10,000 in physical currency)"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "$10,000",
+     "new": "$10,000",
+     "how": "official",
+     "note": "Read in the official AML/CTF Act 2006 (compilation in force 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 9 October 2026: s 5, definition of threshold transaction (not less than $10,000 in physical currency)"
+    }
+   ],
    "exclude": [
     "cross-border",
     "carry",
     "mail or ship"
    ],
    "autocheck": false,
-   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers; confirmed in the AML/CTF Act's text"
   },
   {
    "id": "ttr-deadline",
@@ -1274,16 +1298,24 @@
     "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/threshold-transaction-reports"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": "Confirmed in law firm and practitioner summaries (search results), 8 October 2026; official text not read from this sandbox"
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official AML/CTF Act 2006 (compilation in force 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 9 October 2026: s 43(2)"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "10 business days",
+     "new": "10 business days",
+     "how": "official",
+     "note": "Read in the official AML/CTF Act 2006 (compilation in force 1 July 2026), fetched from legislation.gov.au by the site's document fetcher, 9 October 2026: s 43(2)"
+    }
+   ],
    "exclude": [
     "CPS 234"
    ],
    "autocheck": false,
-   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers; confirmed in the AML/CTF Act's text"
   },
   {
    "id": "idr-response",

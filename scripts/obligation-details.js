@@ -285,6 +285,38 @@ window.GRC_OBLIGATION_DETAILS = {
         ['If an entity fails to comply, the Minister may ask for an explanation or remedial action within 28 days or more, and may publish details if the request is not met', 'Modern Slavery Act s 16A']]
     }
   },
+  aml: {
+    source: [['Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (compilation in force 1 July 2026, after the 2024 reforms). Detailed requirements are also in the AML/CTF Rules, not itemised here', 'https://www.legislation.gov.au/C2006A00169/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Undertake an ML/TF risk assessment of the money laundering, terrorism financing and proliferation financing risks reasonably faced in providing designated services, proportionate to the business and considering services, customers, delivery channels, countries and AUSTRAC information', 'AML/CTF Act s 26C'],
+        ['Review the risk assessment after a significant change or new risk information from AUSTRAC, and at least every 3 years, and update it to address what the review finds', 'AML/CTF Act s 26D'],
+        ['Do not start providing a designated service without a risk assessment that meets these requirements', 'AML/CTF Act s 26E']],
+      2: [
+        ['Develop and maintain AML/CTF policies (procedures, systems and controls) that manage and mitigate the risks, ensure compliance and suit the nature, size and complexity of the business', 'AML/CTF Act s 26F(1)'],
+        ['The policies cover significant changes, customer due diligence, reviews (at least every 3 years), keeping the governing body informed, the compliance officer, senior manager approvals, due diligence on and training of relevant staff, and independent evaluations at least every 3 years', 'AML/CTF Act s 26F(3)–(4)'],
+        ['Comply with the AML/CTF policies (and, in a reporting group, the lead entity’s policies that apply)', 'AML/CTF Act s 26G'],
+        ['The governing body exercises ongoing oversight of the risk assessment and compliance, and takes reasonable steps to ensure risks are managed and obligations met', 'AML/CTF Act s 26H'],
+        ['Designate an AML/CTF compliance officer at management level with enough authority, independence and resources, who is fit and proper (and an Australian resident where services are provided in Australia), within 28 days of starting to provide designated services', 'AML/CTF Act ss 26J–26K'],
+        ['A senior manager approves the risk assessment and the policies; updates to the risk assessment are notified to the governing body as soon as practicable', 'AML/CTF Act s 26P'],
+        ['Document the AML/CTF program', 'AML/CTF Act s 26N']],
+      3: [
+        ['Before providing a designated service, establish on reasonable grounds who the customer is, who acts for them or on whose behalf they act, their beneficial owners, whether any of them is a politically exposed person or designated for targeted financial sanctions, and the nature and purpose of the relationship or transaction', 'AML/CTF Act s 28'],
+        ['Monitor customers on an ongoing basis, including for unusual transactions and behaviour that may lead to a suspicious matter report', 'AML/CTF Act s 30'],
+        ['Apply enhanced due diligence where the customer’s risk is high, where service continues after a suspicious matter arises, or where a foreign politically exposed person is involved (among other cases)', 'AML/CTF Act s 32']],
+      4: [
+        ['Report suspicious matters to AUSTRAC within {fact:smr-deadline} of forming the suspicion ({fact:smr-tf-deadline} for terrorism financing; 5 business days where some of the information may be privileged)', 'AML/CTF Act s 41(2)'],
+        ['Report threshold transactions (transfers of physical currency of {fact:ttr-threshold} or more) within {fact:ttr-deadline}', 'AML/CTF Act ss 5, 43(2)'],
+        ['Report international value transfer services within 10 business days of passing on or receiving the transfer message (AUSTRAC’s transitional rules keep the earlier IFTI reporting in place until each entity moves across)', 'AML/CTF Act s 46'],
+        ['Give AUSTRAC an AML/CTF compliance report for each reporting period set by the AML/CTF Rules', 'AML/CTF Act s 47']],
+      5: [
+        ['Keep records that allow individual transactions to be reconstructed, for 7 years', 'AML/CTF Act s 107'],
+        ['Keep customer due diligence records, including data collected and risk decisions, for 7 years after the relationship ends', 'AML/CTF Act s 111'],
+        ['Keep records showing compliance with the AML/CTF program obligations for 7 years after they stop being relevant', 'AML/CTF Act s 116'],
+        ['Train relevant staff and have the program independently evaluated at least every 3 years, as set out in the policies', 'AML/CTF Act s 26F(4)(e)–(f)']]
+    }
+  },
   breach: {
     source: [['Corporations Act 2001, ss 912D–912EC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Regulatory Guide 78 Breach reporting by AFS licensees and credit licensees (December 2023, updated February 2026)', 'https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/']],
     checkedText: '8 October 2026',
