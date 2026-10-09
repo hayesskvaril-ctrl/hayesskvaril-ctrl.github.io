@@ -44,7 +44,7 @@ STAGES = [
      "/about/fact-register.html", "8 October 2026"),
     ("done", "Obligations library, stage 2",
      "Breaking each obligation summary into the individual obligations in the law, with citations: 568 obligations across 38 regimes, each checked against the official text (October 2026).",
-     "/obligations/", ""),
+     "/obligations/", "9 October 2026"),
 ]
 
 # Ideas being considered, not yet committed
