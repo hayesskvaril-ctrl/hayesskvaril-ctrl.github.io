@@ -726,6 +726,99 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Listed companies include a remuneration report in the directors’ report, covering board policy on key management personnel remuneration, its link to company performance, and any performance conditions', 'Corporations Act s 300A(1)']]
     }
   },
+  rg259: {
+    source: [['ASIC Regulatory Guide 259 Risk management systems of fund operators (October 2022). Mostly ASIC expectations (“should”, “we expect”) on how to meet the s 912A(1)(h) duty', 'https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-259-risk-management-systems-of-responsible-entities/'], ['Corporations Act 2001, ss 601HA, 601HG, 601JA and 601JC (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Responsible entities and CCIV corporate directors must maintain adequate risk management systems, covering material risks to both the operator’s business and each fund it operates', 'Corporations Act s 912A(1)(h); RG 259.1, RG 259.18'],
+        ['Document the systems: clear roles, policies for identifying and assessing each material risk, adequate controls, oversight, and regular review', 'RG 259.21'],
+        ['Keep one or more risk registers recording material risks for the business and each fund', 'RG 259.68'],
+        ['Include a liquidity risk management process: at fund level, stress testing or scenario analysis and an assessment of liquidity management tools; at operator level, ongoing checks of licence financial requirements', 'RG 259.47–259.49']],
+      2: [
+        ['Document the risk appetite in a policy or statement, and set a risk tolerance for each material risk', 'RG 259.32–259.34'],
+        ['Review and monitor the risk management systems at least annually, taking steps to keep internal reviews objective', 'RG 259.28, RG 259.89']],
+      3: [
+        ['Stress test or run scenario analysis on each fund’s liquidity risks at least annually, and update arrangements in response', 'RG 259.91'],
+        ['Review the stress testing framework at least annually, and if no testing is done, document why and review that decision regularly', 'RG 259.92–259.93']],
+      4: [
+        ['The compliance plan sets out adequate measures to comply with the Act and the constitution, including keeping scheme property separate, regular valuation, records and the compliance plan audit', 'Corporations Act s 601HA'],
+        ['Establish a compliance committee within 14 days if fewer than half the responsible entity’s directors are external directors', 'Corporations Act s 601JA'],
+        ['The compliance committee monitors compliance with the plan, reports breaches to the responsible entity, reports to ASIC if appropriate action is not taken, and regularly assesses whether the plan is adequate', 'Corporations Act s 601JC'],
+        ['Engage an independent auditor of the compliance plan at all times, who audits compliance within three months after each financial year', 'Corporations Act s 601HG']]
+    }
+  },
+  rg97: {
+    source: [['ASIC Regulatory Guide 97 Disclosing fees and costs in PDSs and periodic statements (September 2020), explaining the Corporations Act and Schedule 10 to the Corporations Regulations', 'https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-97-disclosing-fees-and-costs-in-pdss-and-periodic-statements/'], ['Prudential Standard SPS 515 (F2024L00940), paragraphs 16–17 on setting fees', 'https://www.legislation.gov.au/F2024L00940/asmade/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Consumers of super and managed investment products generally receive a PDS when they acquire the product and a periodic statement each year', 'RG 97.1'],
+        ['A full super PDS includes a “Fees and other costs” section with a consumer advisory warning, a fees and costs summary, an example of annual fees and costs, cost of product information and additional explanation, plus the prescribed fee definitions', 'RG 97.33–97.34; reg 7.9.16N; Sch 10 cl 209A'],
+        ['Give super members a periodic statement for each reporting period of no more than 12 months, within six months after it ends, and an exit statement within one month of becoming aware a member has left', 'Corporations Act s 1017D(2)–(3A); RG 97.113–97.114'],
+        ['Periodic statements show a transaction list, fees deducted directly from the account and other prescribed fees and costs information', 'Corporations Act ss 1017D(5), 1017DA; RG 97.117–97.120'],
+        ['Keep the PDS up to date, and notify members of material changes and significant events that would have had to be in the PDS', 'Corporations Act ss 1012J, 1017B; RG 97.420, RG 97.435']],
+      2: [
+        ['Indirect costs capture all amounts that reduce the return of the product or option, including through interposed vehicles, and form part of investment, administration or management fees and costs', 'Sch 10 cll 101, 101A, 102(1)(h); RG 97.284–97.286'],
+        ['Use a reasonable estimate only where the exact amount cannot be determined, as the requirements allow', 'RG 97.407–97.408'],
+        ['Set up governance for collecting and compiling fees and costs data: document calculation methods and due diligence, and agree data arrangements with service providers and interposed vehicles', 'RG 97.364'],
+        ['Categorise transaction costs carefully; wrongly treating a cost as an excluded operational cost makes the disclosure non-compliant and possibly misleading', 'RG 97.359']],
+      3: [
+        ['Super trustees set each fee prudently and transparently, showing that charging it complies with legal duties and that it is appropriate and proportionate', 'SPS 515 para 16'],
+        ['The Board approves any new fee power, or an existing power used for the first time', 'SPS 515 para 17'],
+        ['Monitor excluded transactional and operational costs to make sure members get value for money, consistent with best interests duties', 'RG 97.358']]
+    }
+  },
+  disclosure: {
+    source: [['Corporations Act 2001, Parts 7.7, 7.9 and 7.10 (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASIC Act 2001, Part 2 Division 2 Subdivision D (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00819/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Give a Financial Services Guide to a retail client when providing a financial service (a civil penalty provision)', 'Corporations Act s 941A'],
+        ['Give a Statement of Advice when providing personal advice to a retail client, unless an exception applies', 'Corporations Act s 946A'],
+        ['Give a Product Disclosure Statement when personal advice recommends a particular product, and in the situations where a product is offered or issued to a retail client', 'Corporations Act ss 1012A–1012B'],
+        ['Keep the PDS up to date and notify holders of material changes and significant events', 'Corporations Act ss 1012J, 1017B']],
+      2: [
+        ['Do not engage in conduct in relation to a financial product or service that is misleading or deceptive or likely to mislead or deceive', 'Corporations Act s 1041H; ASIC Act s 12DA'],
+        ['Do not make false or misleading representations about financial services, including their standard, quality or value, or testimonials', 'ASIC Act s 12DB'],
+        ['A statement about a future matter (such as a forecast or a net zero target) is taken to be misleading unless there were reasonable grounds for making it, and the maker must bring evidence of those grounds', 'ASIC Act s 12BB'],
+        ['Do not engage in conduct liable to mislead the public about the nature, characteristics or suitability of financial services (a strict liability offence)', 'ASIC Act s 12DF']]
+    }
+  },
+  climate: {
+    source: [['Corporations Act 2001, Chapter 2M (sustainability reports) and Part 10.77 (transition), compilation in force 19 September 2026. The detailed content comes from the sustainability standards (AASB S2), not itemised here', 'https://www.legislation.gov.au/C2004A00818/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['From financial years starting on or after 1 July 2027, entities that prepare a financial report and meet two of $50 million revenue, $25 million gross assets or 100 employees, or are NGER reporters, or are registered schemes, super funds or retail CCIVs with $5 billion or more in assets, prepare an annual sustainability report; larger entities started earlier under the transition rules', 'Corporations Act ss 292A(1), (3), (5)–(6), 1707B'],
+        ['The report contains the climate statements, notes, and a directors’ declaration on whether it complies with the Act, the sustainability standards and the climate disclosure requirements', 'Corporations Act s 296A'],
+        ['Comply with the sustainability standards and any further requirements the Minister sets', 'Corporations Act s 296C'],
+        ['Keep sustainability records, and have the sustainability report audited or reviewed', 'Corporations Act ss 286A, 301A']],
+      2: [
+        ['Climate statements and notes disclose material climate-related financial risks and opportunities, climate metrics and targets (including scope 1, 2 and 3 greenhouse gas emissions, with financed emissions), and governance, strategy and risk management', 'Corporations Act s 296D(1)'],
+        ['Any scenario analysis must use at least two scenarios: one where warming well exceeds 2°C and one where it is limited to 1.5°C (the temperature goals referred to in the Climate Change Act 2022)', 'Corporations Act s 296D(2A)–(2B)'],
+        ['For the first three years, statements about scope 3 emissions, scenario analysis and transition plans have limited immunity from private actions, but not from ASIC or criminal proceedings', 'Corporations Act s 1707D']],
+      3: [
+        ['ASIC can direct an entity to correct an incorrect, incomplete or misleading statement in a sustainability report', 'Corporations Act s 296E'],
+        ['Sustainability and green claims in any communication must not be misleading; statements about the future need reasonable grounds', 'Corporations Act s 1041H; ASIC Act ss 12BB, 12DA']]
+    }
+  },
+  scams: {
+    source: [['Competition and Consumer Act 2010, Part IVF Scams Prevention Framework (compilation in force from 16 September 2026). The obligations apply once the Minister designates a sector; sector codes and SPF rules add detail', 'https://www.legislation.gov.au/C2004A00109/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['The framework applies to businesses in sectors the Minister designates by legislative instrument (banking, insurance and telecommunications and digital platform services are among the classes that can be designated)', 'CCA s 58AC'],
+        ['Governance: document and implement policies and procedures for preventing, detecting, disrupting, responding to and reporting scams, with performance metrics and targets', 'CCA s 58BD'],
+        ['A senior officer certifies in writing each year whether the SPF governance policies, procedures, metrics and targets comply, and records are kept for at least six years', 'CCA ss 58BE–58BF'],
+        ['Prevent: take reasonable steps to prevent scams using the entity’s services, which means more than just acting on intelligence received from others', 'CCA ss 58BJ–58BK'],
+        ['Detect: take reasonable steps to detect scams as they happen and afterwards, investigate actionable scam intelligence, and identify affected consumers', 'CCA ss 58BM–58BO'],
+        ['Report: give reports of actionable scam intelligence and scams to the SPF regulator as the SPF rules require', 'CCA ss 58BR–58BS'],
+        ['Disrupt: take proportionate, reasonable steps within a reasonable time to disrupt activity that is the subject of actionable scam intelligence and prevent further loss', 'CCA s 58BX'],
+        ['Respond: provide an accessible way to report scams, an accessible and transparent internal dispute resolution process, and membership of the SPF external dispute resolution scheme', 'CCA ss 58BZC–58BZD, 58BZG'],
+        ['Sector-specific SPF codes can add detail on what reasonable steps are required', 'CCA ss 58CB–58CC']]
+    }
+  },
   cps510: {
     source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text'], ['Prudential Standards SPS 510 Governance (F2024L00637) and SPS 520 Fit and Proper (F2024L00638), both in force from 30 June 2024, for super trustees, shown as “Super”', 'https://www.legislation.gov.au/F2024L00637/asmade/text']],
     checkedText: '9 October 2026',
