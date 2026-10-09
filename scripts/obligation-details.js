@@ -379,6 +379,82 @@ window.GRC_OBLIGATION_DETAILS = {
         ['If a MySuper authority is, or may be, cancelled: prepare a MySuper assets transfer plan nominating a receiving product, carry out the transfer, and notify APRA within 10 business days once it is complete', 'SPS 515 paras 33–43']]
     }
   },
+  cps511: {
+    source: [['Prudential Standard CPS 511 Remuneration (F2023L01348, in force from 1 January 2024). Paragraphs 21–73 apply to significant financial institutions (SFIs) and 74–98 to everyone else; the numbers below give both where a rule applies to all', 'https://www.legislation.gov.au/F2023L01348/asmade/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Keep a remuneration framework that aligns with the business plan, strategy and risk management framework, promotes management of financial and non-financial risks and long-term soundness (for super trustees, members’ best financial interests), and helps prevent conduct risk', 'CPS 511 paras 21, 74'],
+        ['Document a remuneration policy covering how the framework meets those aims, the structure of remuneration arrangements (including staff of related service companies), conflicts from third-party service provider pay, and the supporting systems', 'CPS 511 paras 22, 75'],
+        ['The Board is ultimately responsible for the framework and its effective application, and approves the remuneration policy', 'CPS 511 paras 23–24, 76–77'],
+        ['Design variable pay to reflect financial and non-financial risks, with payout and vesting schedules matched to the time horizon of risk', 'CPS 511 paras 33(a)–(b), 78(a)–(b)'],
+        ['The Board approves variable pay outcomes individually for senior managers and executive directors, and by cohort for material risk-takers and risk and financial control staff', 'CPS 511 paras 52, 87'],
+        ['Do not pay remuneration through vehicles that undermine the standard: no indemnity or insurance against its consequences, and a documented ban on hedging unvested equity-linked pay', 'CPS 511 paras 61, 89'],
+        ['Publish remuneration disclosures on the website each financial year, no more than six months after the year ends', 'CPS 511 paras 63–66, 91–94'],
+        ['Assess and mitigate conflicts of interest in the design of remuneration arrangements, including from service contracts', 'CPS 511 paras 40, 83']],
+      2: [
+        ['Build in adjustment tools (Board discretion, in-period adjustment, malus and, where appropriate, clawback) with a downward-adjustment process that has clear triggers and can reduce pay to nil', 'CPS 511 paras 33(c), 78(c)'],
+        ['All variable remuneration is subject to malus', 'CPS 511 paras 35, 79'],
+        ['Set criteria for using the tools, at least: misconduct with significant adverse outcomes, significant risk management failures, significant breaches of accountability, fit and proper or compliance obligations, significant errors or misstatements, and significant adverse outcomes for customers, members or counterparties', 'CPS 511 paras 37, 80'],
+        ['Take reasonable steps to reduce variable pay when a criterion is met, in proportion to the severity of the outcome', 'CPS 511 paras 38, 81'],
+        ['Variable pay of someone under investigation for one of those criteria must not vest until the investigation closes', 'CPS 511 paras 39, 82'],
+        ['Variable pay outcomes align with performance and risk outcomes and reflect the use of the adjustment tools', 'CPS 511 paras 44, 85'],
+        ['Do not accelerate vesting for people in specified roles who leave, except for death or serious incapacity, disability or illness', 'CPS 511 paras 47, 86']],
+      3: [
+        ['Establish a Board Remuneration Committee of at least three non-executive directors with a written charter. Outside super it needs a majority of independent members and an independent chair; a super trustee’s Board chair may be a member but may chair it only if they are the Board’s only independent director', 'CPS 511 paras 25–29'],
+        ['The committee consults the Board Risk Committee and the Chief Risk Officer under a documented process, gets comprehensive reporting, and has free access to other committees and to risk and financial control staff', 'CPS 511 paras 30–32'],
+        ['Give material weight to non-financial measures in performance-related variable pay; no component may depend entirely on share price or profit', 'CPS 511 para 34 and footnote 12'],
+        ['Clawback applies to senior managers, executive directors and highly paid material risk-takers for at least two years after payment or vesting, even after they leave', 'CPS 511 para 36'],
+        ['Defer at least 60% of the CEO’s variable pay over at least six years, and at least 40% for other senior managers and executive directors over five years (vesting pro rata, only after four years), and for highly paid material risk-takers over four years (only after two)', 'CPS 511 para 41'],
+        ['Deferral does not apply to anyone with deferred variable pay of less than $50,000 in a financial year', 'CPS 511 para 43'],
+        ['Pay or vest variable remuneration only if justified by the effectiveness of risk management and by individual, business unit and entity performance', 'CPS 511 para 45'],
+        ['The committee recommends specified roles’ arrangements and outcomes to the Board each year, and pay for risk and financial control staff is not unduly influenced by the businesses they control', 'CPS 511 paras 49–53'],
+        ['Review the framework’s compliance at least annually and its effectiveness, independently, at least every three years, reporting results to the committee', 'CPS 511 paras 54–57'],
+        ['Publish the detailed disclosure tables, with Tables 2 to 4 in a machine-readable format such as CSV', 'CPS 511 paras 64, 67–73']]
+    }
+  },
+  cps190: {
+    source: [['Prudential Standard CPS 190 Recovery and Exit Planning (F2023L01380; applies from 1 January 2024, and to super trustees from 1 January 2025)', 'https://www.legislation.gov.au/F2023L01380/asmade/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Keep a recovery and exit plan showing how the entity could recover its financial resilience under a stress that threatens its viability, or exit regulated activity in an orderly and solvent way if recovery fails', 'CPS 190 para 13'],
+        ['Make the plan proportionate and integrate it with the risk management framework, capital and liquidity management (not super), and for super trustees the business plan and business performance review', 'CPS 190 paras 14–15'],
+        ['Do not assume extraordinary public sector support', 'CPS 190 para 16'],
+        ['The Board approves the plan, oversees its reviews and any execution; an SFI’s Board also forms a view on whether recovery capacity is sufficient', 'CPS 190 paras 17–18'],
+        ['The plan includes a standalone summary, a trigger framework with early warning indicators, governance with senior executive roles, credible recovery and exit actions, and a communication strategy', 'CPS 190 para 19'],
+        ['SFIs add scenario analysis with at least two scenarios severe enough to threaten viability (one systemic, one idiosyncratic), a quantified recovery capacity, and for each action a timeline, barriers, preparatory measures and estimated impact', 'CPS 190 paras 20–21'],
+        ['Maintain the capabilities, preparatory steps and financial resources needed to execute the plan, and monitor the stress indicators regularly', 'CPS 190 paras 24–27'],
+        ['Review and update the plan at least annually (SFIs) or every three years (others), and after significant changes in structure, business mix, strategy or risk profile', 'CPS 190 paras 28–29'],
+        ['SFIs have an independent comprehensive review at least every three years, including operational testing that simulates using the plan', 'CPS 190 paras 30–31'],
+        ['Give APRA a copy of the plan within three months of Board approval after each review, and notify APRA if the plan is activated', 'CPS 190 paras 32–33']]
+    }
+  },
+  liquidity: {
+    source: [['Prudential Standard APS 210 Liquidity (F2025L00653, in force from 1 July 2025)', 'https://www.legislation.gov.au/F2025L00653/asmade/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Maintain enough liquidity at all times to meet obligations as they fall due, hold enough liquid assets to survive a severe liquidity stress, and fund activities with stable sources', 'APS 210 paras 12–13'],
+        ['APRA classifies each locally incorporated ADI as a Liquidity Coverage Ratio (LCR) ADI or a Minimum Liquidity Holdings (MLH) ADI, and the ADI meets its minimum requirements continuously, absent financial stress', 'APS 210 paras 52–54'],
+        ['LCR ADIs hold enough unencumbered high-quality liquid assets for 30 days of severe stress: an Australian dollar LCR and an all-currencies LCR of at least 100% (40% all currencies for foreign ADIs)', 'APS 210 para 55; Attachment A'],
+        ['Locally incorporated LCR ADIs maintain a Net Stable Funding Ratio of at least 100% at all times', 'APS 210 paras 59–60; Attachment C'],
+        ['MLH ADIs hold at least 9% of their liabilities in specified liquid assets', 'APS 210 para 57; Attachment B'],
+        ['APRA may set a higher minimum LCR, MLH or NSFR if it has concerns about the ADI’s liquidity risk profile or management', 'APS 210 paras 56, 58, 61'],
+        ['Tell APRA as soon as possible of any concerns about the current or future liquidity position, and immediately if there is a severe liquidity stress, with the action being taken', 'APS 210 para 14']],
+      2: [
+        ['The Board is ultimately responsible for liquidity risk, and the framework includes a Board-approved liquidity risk tolerance, liquidity management strategy and policy, and funding strategy, plus operating standards and a contingency funding plan', 'APS 210 paras 15–16'],
+        ['The Board makes sure the framework is documented and reviewed at least annually, and reviews regular reports on the liquidity position', 'APS 210 paras 17–18'],
+        ['Review the liquidity risk tolerance at least annually; it must let the ADI withstand a prolonged period of stress', 'APS 210 paras 21–24'],
+        ['The liquidity risk oversight function is operationally independent and able to challenge treasury', 'APS 210 para 28'],
+        ['Project cash flows over suitable horizons, set and review liquidity limits (with an action plan when one is breached), manage collateral and intraday liquidity, and use early warning indicators', 'APS 210 paras 36–41'],
+        ['Keep a documented three-year funding strategy, approved by the Board at least annually, and tell APRA of material changes', 'APS 210 paras 44–46'],
+        ['Keep a formal contingency funding plan with funding sources, escalation procedures and lead times, linked to stress test results; ADIs with retail deposits plan for a retail deposit run without closing distribution channels', 'APS 210 paras 47–50'],
+        ['Review and test the contingency funding plan at least annually, with Board approval', 'APS 210 para 51'],
+        ['LCR ADIs run regular stress tests (short and prolonged, institution-specific and market-wide), report results to the Board and APRA, and use them in limits and planning', 'APS 210 paras 62–66'],
+        ['Foreign ADIs assess at least annually whether they can operate locally for at least three business days without help from offshore staff', 'APS 210 paras 67–68']]
+    }
+  },
   cps510: {
     source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers; super trustees follow SPS 510 and SPS 520, not yet itemised here. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text']],
     checkedText: '9 October 2026',
