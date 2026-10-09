@@ -536,14 +536,14 @@ window.GRC_OBLIGATION_DETAILS = {
     }
   },
   ransom: {
-    source: [['Cyber Security Act 2024, Part 3 Ransomware reporting obligations (as made)', 'https://www.legislation.gov.au/C2024A00098/latest/text']],
+    source: [['Cyber Security Act 2024, Part 3 Ransomware reporting obligations (as made)', 'https://www.legislation.gov.au/C2024A00098/latest/text'], ['Cyber Security (Ransomware Payment Reporting) Rules 2025 (F2025L00278)', 'https://www.legislation.gov.au/F2025L00278/asmade/text']],
     checkedText: '9 October 2026',
     themes: {
       1: [
         ['The duty applies when a cyber security incident affects a reporting business entity, someone makes a demand to benefit from it, and the entity (or someone on its behalf) makes a payment or gives a benefit directly related to the demand', 'Cyber Security Act s 26(1)'],
-        ['Reporting business entities are businesses carrying on business in Australia with annual turnover above the threshold set in the rules (not Commonwealth or State bodies), and responsible entities for critical infrastructure assets covered by Part 2B of the Security of Critical Infrastructure Act 2018', 'Cyber Security Act s 26(2)–(3)'],
+        ['Reporting business entities are businesses carrying on business in Australia with annual turnover for the previous financial year above $3 million (not Commonwealth or State bodies), and responsible entities for critical infrastructure assets covered by Part 2B of the Security of Critical Infrastructure Act 2018', 'Cyber Security Act s 26(2)–(3); Ransomware Payment Reporting Rules s 6'],
         ['Report to the designated Commonwealth body within {fact:ransomware-report} of making the payment or becoming aware it was made', 'Cyber Security Act s 27(1)'],
-        ['Include what the entity knows or can find out by reasonable enquiry about who paid, the incident and its impact, the demand, the payment, and communications with the extorting entity, in the approved form', 'Cyber Security Act s 27(2), (4)'],
+        ['Include what the entity knows or can find out by reasonable enquiry about who paid, the incident and its impact, the demand, the payment, and communications with the extorting entity, in the approved form', 'Cyber Security Act s 27(2), (4); Ransomware Payment Reporting Rules s 7'],
         ['Failing to report is a civil penalty provision (60 penalty units)', 'Cyber Security Act s 27(5)']]
     }
   },
@@ -662,6 +662,68 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Publish the determination and a summary of the assessments on the fund’s website within 28 days, and keep it there until the next one', 'SIS Act s 52(9)(b)–(d)'],
         ['APRA assesses each product in the annual performance test; if a product fails, tell each member who holds it within 28 days of APRA’s notification (or a later day APRA or ASIC allows), in the prescribed form', 'SIS Act ss 60C, 60E'],
         ['After two consecutive fails, the product cannot take on new members (unless APRA grants an exemption)', 'SIS Act s 60F(2)–(4)']]
+    }
+  },
+  acnc: {
+    source: [['Australian Charities and Not-for-profits Commission Regulations 2022, Divisions 45 and 50 (compilation in force from 1 November 2023)', 'https://www.legislation.gov.au/F2022L01301/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Standard 1: be able to show the charity’s purposes and not-for-profit character, make its purposes public, and comply with them', 'ACNC Regulations s 45.5'],
+        ['Standard 2: if the charity has members, take reasonable steps to be accountable to them and give them an adequate opportunity to raise governance concerns', 'ACNC Regulations s 45.10'],
+        ['Standard 3: do not engage in conduct that could be an indictable offence or attract a civil penalty of 60 penalty units or more', 'ACNC Regulations s 45.15'],
+        ['Standard 4: take reasonable steps to be satisfied that responsible people are not disqualified from managing a corporation or by the ACNC Commissioner, and remove any who are', 'ACNC Regulations s 45.20'],
+        ['Standard 5: take reasonable steps to ensure responsible people act with reasonable care and diligence, in good faith in the charity’s best interests, do not misuse their position or information, disclose material conflicts (including related party transactions), manage finances responsibly and do not allow insolvent trading', 'ACNC Regulations s 45.25'],
+        ['Standard 6: if the charity is, or is likely to be, named in a National Redress Scheme application, take reasonable steps to join the Scheme', 'ACNC Regulations s 45.30']],
+      3: [
+        ['External Conduct Standard 1: run overseas activities consistently with the charity’s purpose, keep reasonable internal controls over resources used overseas, check funds given to third parties are properly applied, and comply overseas with Australian laws on money laundering, terrorism financing, child sexual offences, slavery, trafficking, people smuggling, sanctions, tax and bribery, with internal controls to do so', 'ACNC Regulations s 50.20'],
+        ['External Conduct Standard 2: keep records to prepare a country-by-country summary of overseas activities and expenditure each year', 'ACNC Regulations s 50.25'],
+        ['External Conduct Standard 3: take reasonable steps to minimise fraud, corruption and bribery by people and third parties overseas, and document material conflicts of interest', 'ACNC Regulations s 50.30'],
+        ['External Conduct Standard 4: take reasonable steps to ensure the safety of vulnerable people overseas who receive the charity’s services or work on its programs', 'ACNC Regulations s 50.35']]
+    }
+  },
+  pgpa: {
+    source: [['Public Governance, Performance and Accountability Act 2013 (compilation downloaded from the Federal Register of Legislation)', 'https://www.legislation.gov.au/C2013A00123/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['The accountable authority must establish and maintain an appropriate system of risk oversight and management, and an appropriate system of internal control, including measures to make sure officials comply with the finance law', 'PGPA Act s 16'],
+        ['This duty covers consultants and contractors who work for the entity, not just officials', 'PGPA Act s 16, note 2'],
+        ['Govern the entity to promote the proper use and management of public resources, the achievement of its purposes and its financial sustainability', 'PGPA Act s 15'],
+        ['Keep the responsible Minister informed, and notify them as soon as practicable of significant decisions and significant issues', 'PGPA Act s 19']]
+    }
+  },
+  sanctions: {
+    source: [['Autonomous Sanctions Act 2011 (compilation in force from 9 April 2024) and Autonomous Sanctions Regulations 2011 (compilation in force from 5 December 2025)', 'https://www.legislation.gov.au/F2011L02673/latest/text'], ['Charter of the United Nations Act 1945 (compilation in force from 14 September 2021)', 'https://www.legislation.gov.au/C1945A00032/latest/text'], ['Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (compilation in force from 1 July 2026)', 'https://www.legislation.gov.au/C2006A00169/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Do not directly or indirectly make an asset available to, or for the benefit of, a designated person or entity without a permit', 'Autonomous Sanctions Regulations reg 14'],
+        ['Do not use or deal with a controlled asset you hold, or allow or facilitate its use, without a permit', 'Autonomous Sanctions Regulations reg 15'],
+        ['Under UN sanctions, do not deal with freezable assets or make assets available to proscribed persons or entities, except as authorised', 'Charter of the United Nations Act ss 20–21'],
+        ['DFAT maintains the Consolidated List of designated persons, entities and assets, published on its website', 'Autonomous Sanctions Regulations reg 22'],
+        ['AML/CTF reporting entities must establish in initial customer due diligence whether the customer, beneficial owners and people acting for them are designated for targeted financial sanctions', 'AML/CTF Act s 28(2)(e)(ii)']],
+      2: [
+        ['For companies, breaching a sanction law is a strict liability offence; the defence is to prove reasonable precautions and due diligence to avoid the contravention', 'Autonomous Sanctions Act s 16(5)–(8); Charter of the United Nations Act s 21(2C)–(2E)'],
+        ['Penalties for companies reach the greater of 10,000 penalty units or three times the value of the transaction', 'Autonomous Sanctions Act s 16(9)']],
+      3: [
+        ['If you hold an asset and form the opinion it is a controlled asset (or no longer is), tell the Australian Federal Police as soon as practicable, with what you know about it and why', 'Autonomous Sanctions Regulations reg 24'],
+        ['AML/CTF risk assessments and controls must cover proliferation financing, which includes breaches of sanctions addressing weapons of mass destruction', 'AML/CTF Act s 5 (definition of proliferation financing), ss 26C, 26F']]
+    }
+  },
+  listed: {
+    source: [['ASX Listing Rules 3.1–3.1B, as set out in ASX Guidance Note 8 Continuous disclosure (amended 27 May 2024)', 'https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn08-continuous-disclosure.pdf'], ['Corporations Act 2001, ss 300A and 674 (compilation in force 19 September 2026)', 'https://www.legislation.gov.au/C2004A00818/latest/text'], ['ASX Corporate Governance Principles and Recommendations (4th edition, 2019; a draft 5th edition was consulted on from July to September 2026)', 'https://www.asx.com.au/about/regulation/corporate-governance-principles-and-recommendations']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Once aware of information that a reasonable person would expect to have a material effect on the price or value of its securities, tell ASX immediately', 'ASX Listing Rule 3.1'],
+        ['The exception applies only while the information is confidential, a reasonable person would not expect it to be disclosed, and it falls in a listed category (breach of law, incomplete proposal or negotiation, insufficiently definite, internal management information, or a trade secret)', 'ASX Listing Rule 3.1A'],
+        ['If ASX asks for information to correct or prevent a false market, give it immediately', 'ASX Listing Rule 3.1B'],
+        ['The rule has statutory force: failing to notify price-sensitive information that is not generally available can breach the Corporations Act', 'Corporations Act s 674(1)–(2)']],
+      2: [
+        ['Benchmark governance practices against the ASX Corporate Governance Principles and Recommendations and, where not followed, disclose that fact and why', 'ASX Listing Rule 4.10.3']],
+      3: [
+        ['Listed companies include a remuneration report in the directors’ report, covering board policy on key management personnel remuneration, its link to company performance, and any performance conditions', 'Corporations Act s 300A(1)']]
     }
   },
   cps510: {

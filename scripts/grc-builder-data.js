@@ -384,7 +384,7 @@ window.GRC_BUILDER = {
       clocks: [['Suspected eligible data breach', 'Assess quickly, generally within {fact:ndb-assessment}', 'OAIC'], ['Eligible data breach', 'Notify the OAIC and affected individuals as soon as practicable', 'OAIC']] },
 
     ransom: { label: 'Ransomware payment reporting', reg: 'Department of Home Affairs (ASD for cyber support)', url: '/risk-management/cyber-risk.html',
-      applies: 'Most businesses with annual turnover of $3 million or more.',
+      applies: 'Businesses with annual turnover above $3 million, and responsible entities for critical infrastructure assets.',
       docs: [['Cyber incident and ransomware response playbook', 3, 'Chief information security officer', 'both']],
       themes: [
         ['Report any ransomware payment within {fact:ransomware-report}', ['tec.cyber', 'cmp.reporting'], 'Ransomware payments are reported on time', 'Incident records']],
@@ -425,7 +425,7 @@ window.GRC_BUILDER = {
       applies: 'Registered charities; the external conduct standards apply to charities operating overseas.',
       docs: [['Governance policies under the ACNC governance standards', 2, 'Board', 'entity'], ['Risk management policy proportionate to size', 2, 'Board', 'entity']],
       themes: [
-        ['Meet the five governance standards; responsible people act with care, honestly in the charity’s best interests, and manage conflicts', ['gov.board', 'con.conflicts'], 'Governance standards are met', 'Board records; conflicts register'],
+        ['Meet the six governance standards; responsible people act with care, honestly in the charity’s best interests, and manage conflicts', ['gov.board', 'con.conflicts'], 'Governance standards are met', 'Board records; conflicts register'],
         ['Report to the ACNC according to size', ['cmp.reporting'], 'Annual reporting is on time', 'Lodgement records'],
         ['Charities operating overseas meet the external conduct standards', ['cmp.prudential', 'fcr.bribery'], 'Overseas activities are controlled', 'Overseas activity records']] },
 
