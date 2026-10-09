@@ -827,6 +827,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/pdf": {
+  "chars": 348590,
+  "date": "2026-10-09",
+  "file": "legislation-gov-au-c2024a00110-asmade-2024-12-10-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
  "https://www.legislation.gov.au/C2024A00110/asmade/downloads": {
   "chars": 3630,
   "date": "2026-10-09",
