@@ -612,6 +612,58 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Stop the loading after 10 years of continuous hospital cover, and never let it exceed 70% of the base rate', 'PHI Act ss 34-10, 37-15']]
     }
   },
+  abc: {
+    source: [['Criminal Code Act 1995, Schedule (Criminal Code), Division 70 (compilation in force from 30 June 2026)', 'https://www.legislation.gov.au/C2004A04868/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['A company commits an offence if an associate bribes a foreign public official (or does so overseas) for the company’s profit or gain, even if the associate is not convicted', 'Criminal Code s 70.5A(1)–(3)'],
+        ['The only defence is for the company to prove it had adequate procedures designed to prevent its associates from bribing foreign public officials', 'Criminal Code s 70.5A(5)'],
+        ['The Minister must publish guidance on the steps a company can take to prevent bribery by associates; it is guidance, not law', 'Criminal Code s 70.5B'],
+        ['Maximum fine is the greatest of 100,000 penalty units, three times the benefit obtained, or 10% of annual turnover (including related bodies corporate)', 'Criminal Code ss 70.5A(6), 70.5C'],
+        ['Providing, offering or promising a benefit to anyone, intending to improperly influence a foreign public official to obtain or keep business or an advantage, is itself an offence (the business or advantage need not actually be obtained)', 'Criminal Code s 70.2(1)–(2)']],
+      2: [
+        ['Associates include officers, employees, agents, contractors, subsidiaries, controlled entities and anyone else who performs services for or on behalf of the company, so third parties’ conduct can make the company liable', 'Criminal Code s 70.1 (definition of associate)']]
+    }
+  },
+  credit: {
+    source: [['National Consumer Credit Protection Act 2009, including the National Credit Code in Schedule 1 (compilation in force from 1 July 2026)', 'https://www.legislation.gov.au/C2009A00134/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Before entering a credit contract or increasing a credit limit, assess within the previous 90 days whether it will be unsuitable for the consumer', 'NCCP Act ss 128–129'],
+        ['Before assessing, make reasonable inquiries about the consumer’s requirements, objectives and financial situation, and take reasonable steps to verify the financial situation (for small amount credit, review at least 90 days of bank statements)', 'NCCP Act s 130'],
+        ['Assess the contract as unsuitable if the consumer is likely to be unable to meet the repayments, or only with substantial hardship, or it will not meet their requirements and objectives', 'NCCP Act s 131'],
+        ['Having to sell their home to meet repayments is presumed to be substantial hardship; for credit cards, the test is whether the consumer could repay the credit limit within the period ASIC sets', 'NCCP Act s 131(3)–(3AA)'],
+        ['Do not enter an unsuitable credit contract or increase the limit of one', 'NCCP Act s 133']],
+      2: [
+        ['A debtor can give a hardship notice orally or in writing if they are or will be unable to meet their obligations', 'National Credit Code s 72(1)'],
+        ['The lender may ask for relevant information within 21 days of the notice, and must then give a written decision within the set period (generally 21 days, or 28 days if requested information is not provided)', 'National Credit Code s 72(2), (5)'],
+        ['If the change is not agreed, the notice must give the reasons and AFCA’s contact details and the debtor’s rights; not needed where a deferral or reduction of up to 90 days is agreed', 'National Credit Code s 72(4)–(4A)'],
+        ['Confirm an agreed hardship variation in writing within 30 days, to the debtor and any guarantor (unless it is a deferral or reduction of up to 90 days)', 'National Credit Code s 73']],
+      3: [
+        ['Mortgage brokers must act in the best interests of the consumer when giving credit assistance, and give priority to the consumer’s interests if there is a conflict', 'NCCP Act ss 158LA–158LB'],
+        ['The same duties apply to credit representatives of mortgage brokers, and the licensee must take reasonable steps to make sure they comply', 'NCCP Act ss 158LE–158LF']]
+    }
+  },
+  sis: {
+    source: [['Superannuation Industry (Supervision) Act 1993 (compilation in force from 10 August 2026)', 'https://www.legislation.gov.au/C2004A04633/latest/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Act honestly, with the care, skill and diligence of a prudent superannuation trustee, and perform duties and exercise powers in the best financial interests of beneficiaries, including payments to third parties', 'SIS Act s 52(2)(a)–(c), (3A)'],
+        ['In civil proceedings, a trustee is presumed not to have acted in members’ best financial interests unless it brings evidence to the contrary, so record how decisions and spending meet the test', 'SIS Act s 220A'],
+        ['Where there is a conflict, give priority to beneficiaries’ duties and interests, make sure they are not adversely affected, and comply with the prudential standards on conflicts', 'SIS Act s 52(2)(d)'],
+        ['Act fairly between classes of beneficiaries and within a class, keep fund assets separate, and do not enter arrangements that hinder proper performance of trustee duties', 'SIS Act s 52(2)(e)–(h)'],
+        ['Formulate, regularly review and give effect to an investment strategy for the fund and each option (risk and return, diversification, liquidity, valuation, liabilities, tax and costs), a reserves strategy, an insurance strategy, a risk management strategy and a retirement income strategy', 'SIS Act s 52(2)(i), (6), (7), (8), (8A)'],
+        ['Only offer insurance whose cost does not inappropriately erode retirement income, and do everything reasonable to pursue a member’s insurance claim with a reasonable prospect of success', 'SIS Act s 52(7)(c)–(d)']],
+      2: [
+        ['Each year, determine in writing for each MySuper and choice product whether members’ financial interests are being promoted, comparing fees and costs, net returns and investment risk with other products, and assessing options, investment and insurance strategies and insurance fees', 'SIS Act s 52(9)(a), (10), (10A), (11)'],
+        ['Publish the determination and a summary of the assessments on the fund’s website within 28 days, and keep it there until the next one', 'SIS Act s 52(9)(b)–(d)'],
+        ['APRA assesses each product in the annual performance test; if a product fails, tell each member who holds it within 28 days of APRA’s notification (or a later day APRA or ASIC allows), in the prescribed form', 'SIS Act ss 60C, 60E'],
+        ['After two consecutive fails, the product cannot take on new members (unless APRA grants an exemption)', 'SIS Act s 60F(2)–(4)']]
+    }
+  },
   cps510: {
     source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text'], ['Prudential Standards SPS 510 Governance (F2024L00637) and SPS 520 Fit and Proper (F2024L00638), both in force from 30 June 2024, for super trustees, shown as “Super”', 'https://www.legislation.gov.au/F2024L00637/asmade/text']],
     checkedText: '9 October 2026',
