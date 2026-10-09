@@ -1,0 +1,5518 @@
+SOURCE: https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/asx-listing-rules-guidance-notes-and-waivers
+FINAL URL: https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/asx-listing-rules-guidance-notes-and-waivers
+FETCHED: 2026-10-09
+
+
+
+ASX Listing Rules
+
+-->
+
+-->
+
+-->
+
+-->
+
+-->
+
+ASX
+
+-->
+
+-->
+
+Login
+
+{{numOfNotifications}}
+
+account_circle {{ displayName }}
+
+account_circle
+
+ASX Sharemarket Game
+
+Frequently asked questions (FAQs)
+
+-->
+
+ASX Schools Sharemarket Game
+
+Frequently Asked Questions (FAQs)
+
+My dashboard
+
+My
+profile
+
+Download Legacy Watchlist
+-->
+Logout
+
+{{ item.name }}
+{{item.marketNotificationCount}}
+{{item.marketNotificationCount}}
+
+No watchlists
+
+{{numOfNotifications}}
+
+account_circle {{ displayName }}
+
+account_circle
+
+ASX Sharemarket Game
+
+Frequently asked questions (FAQs)
+
+-->
+
+ASX Schools Sharemarket Game
+
+Frequently Asked Questions (FAQs)
+
+My
+dashboard
+
+My
+profile
+
+Logout
+
+{{ item.name }}
+{{item.marketNotificationCount}}
+{{item.marketNotificationCount}}
+
+No watchlists
+
+Enter Keyword for Search
+
+VIEW ALL RESULTS
+
+popular searches
+
+{{ item }}
+
+recent searches
+
+{{ item }}
+
+Markets
+
+Trade our cash market
+
+Cash market prices
+
+Today's announcements
+
+Historical announcements
+
+Company directory
+
+Dividend search
+
+Australian equities trading
+
+Australian Cash Market Report
+
+ASX Trade - platform updates
+
+Trade our derivatives market
+
+Derivatives market prices
+
+Futures market trading
+
+Equity options market trading
+
+ASX 24 Platform Replacement Project
+
+Clearing and settlement services
+
+ASX Clear
+
+ASX Clear (Futures) | Clearing and Settlements
+
+ClearStar Program
+
+OTC Clearing
+
+ASX Settlement
+
+Austraclear
+
+ASX Collateral
+
+CHESS Project
+
+Stakeholder Engagement
+
+ASX Bond and Repo Clearing
+
+Market resources
+
+ISIN Services
+
+ASX fee schedules
+
+ASX codes and descriptors
+
+Market maker arrangements
+
+System status
+
+Incident Management
+
+Trading hours and calendars
+
+Market Notices
+
+Market volatility FAQs
+
+Market capitalisation methodology
+
+Connectivity and data
+
+Information services
+
+Price data
+
+Reference data
+
+Company news
+
+Interest rate benchmarks
+
+New Original Work
+
+Energy data
+
+Debt market data products
+
+Connectivity services
+
+ASX Colo OnDemand
+
+Australian Liquidity Centre (ALC)
+
+ASX Net
+
+Your office or data centre
+
+Public cloud providers
+
+Alternative liquidity venues
+
+Global exchange hubs
+
+Trading platforms network replacement
+
+Listings
+
+Why list on ASX
+
+Listed Company Services
+
+A global leader in metals and mining
+
+Listing considerations
+
+Is listing for you?
+
+Listing requirements
+
+The listing process
+
+Listing fees
+
+Guides, rules and resources
+
+Resources
+
+Upcoming listings
+
+Company directory
+
+Listed@ASX
+
+Issuers
+
+Investment products
+
+Issuing investment products
+
+Benefits and considerations
+
+Product options
+
+How to issue
+
+ASX investment products monthly report
+
+Debt securities
+
+Issuing debt securities
+
+Listing and quoting debt securities
+
+Issuer Services
+
+Our services
+
+Issuer Services tools and resources
+
+Issuer Services pricing calculator
+
+CHESS Depositary Nominees Pty Limited and CHESS Depositary Interests
+
+Listed Company Services
+
+Investor Engagement
+
+Education
+
+Listed@ASX
+
+Tools and resources
+
+Get in touch with the Listed Company Services Team
+
+Participants
+
+Apply to become a participant
+
+Application kit
+
+Participants resources
+
+Rules, guidance notes and waivers
+
+ASX fee schedules
+
+Technical documentation
+
+Securities lending disclosure
+
+Short sales reports
+
+Participant education
+
+Market notices
+
+Holder management
+
+Investors
+
+Start investing
+
+Find a broker or adviser
+
+Electronic delivery of CHESS notifications
+
+Investment tools and resources
+
+Frequently asked questions
+
+Australian Investor Study
+
+Online courses
+
+Analysis tools
+
+Equity Research Scheme
+
+Trading games
+
+ASX for financial advisers
+
+Events
+
+Content on-demand
+
+Brochures
+
+Glossary
+
+Participant Defaults
+
+Investment options
+
+Investing in Shares
+
+Investing in A-REITs
+
+Investing in Exchange Traded Products
+
+Investing in LICs and LITs
+
+Investing in Hybrids
+
+Investing in Bonds
+
+ASX Options knowledge hub
+
+Investing in Warrants
+
+Investing in Futures
+
+Investing in Indices
+
+Options over International ETFs
+
+Options over GOLD ETF
+
+Markets
+
+Trade our cash market
+
+Cash market prices
+
+Today's announcements
+
+Historical announcements
+
+Company directory
+
+Dividend search
+
+Australian equities trading
+
+Australian Cash Market Report
+
+ASX Trade - platform updates
+
+Trade our derivatives market
+
+Derivatives market prices
+
+Futures market trading
+
+Equity options market trading
+
+ASX 24 Platform Replacement Project
+
+Clearing and settlement services
+
+ASX Clear
+
+ASX Clear (Futures) | Clearing and Settlements
+
+ClearStar Program
+
+OTC Clearing
+
+ASX Settlement
+
+Austraclear
+
+ASX Collateral
+
+CHESS Project
+
+Stakeholder Engagement
+
+ASX Bond and Repo Clearing
+
+Market resources
+
+ISIN Services
+
+ASX fee schedules
+
+ASX codes and descriptors
+
+Market maker arrangements
+
+System status
+
+Incident Management
+
+Trading hours and calendars
+
+Market Notices
+
+Market volatility FAQs
+
+Market capitalisation methodology
+
+Connectivity and data
+
+Information services
+
+Price data
+
+Reference data
+
+Company news
+
+Interest rate benchmarks
+
+New Original Work
+
+Energy data
+
+Debt market data products
+
+Connectivity services
+
+ASX Colo OnDemand
+
+Australian Liquidity Centre (ALC)
+
+ASX Net
+
+Your office or data centre
+
+Public cloud providers
+
+Alternative liquidity venues
+
+Global exchange hubs
+
+Trading platforms network replacement
+
+Listings
+
+Why list on ASX
+
+Listed Company Services
+
+A global leader in metals and mining
+
+Listing considerations
+
+Is listing for you?
+
+Listing requirements
+
+The listing process
+
+Listing fees
+
+Guides, rules and resources
+
+Resources
+
+Upcoming listings
+
+Company directory
+
+Listed@ASX
+
+Issuers
+
+Investment products
+
+Issuing investment products
+
+Benefits and considerations
+
+Product options
+
+How to issue
+
+ASX investment products monthly report
+
+Debt securities
+
+Issuing debt securities
+
+Listing and quoting debt securities
+
+Issuer Services
+
+Our services
+
+Issuer Services tools and resources
+
+Issuer Services pricing calculator
+
+CHESS Depositary Nominees Pty Limited and CHESS Depositary Interests
+
+Listed Company Services
+
+Investor Engagement
+
+Education
+
+Listed@ASX
+
+Tools and resources
+
+Get in touch with the Listed Company Services Team
+
+Participants
+
+Apply to become a participant
+
+Application kit
+
+Participants resources
+
+Rules, guidance notes and waivers
+
+ASX fee schedules
+
+Technical documentation
+
+Securities lending disclosure
+
+Short sales reports
+
+Participant education
+
+Market notices
+
+Holder management
+
+Investors
+
+Start investing
+
+Find a broker or adviser
+
+Electronic delivery of CHESS notifications
+
+Investment tools and resources
+
+Frequently asked questions
+
+Australian Investor Study
+
+Online courses
+
+Analysis tools
+
+Equity Research Scheme
+
+Trading games
+
+ASX for financial advisers
+
+Events
+
+Content on-demand
+
+Brochures
+
+Glossary
+
+Participant Defaults
+
+Investment options
+
+Investing in Shares
+
+Investing in A-REITs
+
+Investing in Exchange Traded Products
+
+Investing in LICs and LITs
+
+Investing in Hybrids
+
+Investing in Bonds
+
+ASX Options knowledge hub
+
+Investing in Warrants
+
+Investing in Futures
+
+Investing in Indices
+
+Options over International ETFs
+
+Options over GOLD ETF
+
+Compensation funds
+
+publish
+
+×
+
+Haven't signed up?
+
+JOIN NOW
+
+WELCOME
+Sign up at ASX
+
+First Name
+{{ errors.first('firstName') }}
+
+Last Name
+{{ errors.first('lastName') }}
+
+Email address
+{{ errors.first('email') }}
+
+Next
+
+WELCOME
+Sign up at ASX
+
+Create new password
+
+Confirm password
+
+Your password should be 8-64 characters
+
+-->
+
+Invalid password: this word has been flagged as unsuitable for use as a secure password. Please choose another
+
+Invalid password: must not contain more than 3 consecutive identical characters
+
+Invalid password: must not contain more than 3 consecutive sequential characters
+
+The password cannot contain the user name, given name, or family name
+
+I acknowledge that I have read and understood the ASX Privacy Statement and the notification of Collection Statement
+
+SIGN UP
+Edit name and email
+
+WELCOME
+Sign up at ASX
+
+A verification email has been sent.
+
+Thank you for registering.
+
+An email containing a verification link has been sent to {{verificationEmail}}.
+
+Please check your inbox.
+
+WELCOME
+Sign up at ASX
+
+An account with your email already exists.
+
+You might already have an ASX account with another platform. Please log in with your existing credentials
+
+ASX Listing Rules
+
+Below you will find a list of sections which are available for download in PDF format. PDF documents require Adobe Acrobat Reader .
+
+The sections are available to view only and cannot be printed.
+
+The Rules are available as subscription services by contacting our Authorised Publisher, LexisNexis at customersupport@lexisnexis.com.au or via phone on 1800 772 772.
+
+You can take the ASX Listing Rules Compliance Course approved for persons responsible for communicating with ASX on Listing Rule matters.
+
+Rules
+
+Appendices
+
+Guidance notes
+
+Waivers
+
+>
+
+Name
+
+Size
+
+Introduction
+
+28KB
+
+1. Admission
+
+245KB
+
+2. Quotation
+
+165KB
+
+3. Continuous Disclosure
+
+257KB
+
+4. Periodic Disclosure
+
+201KB
+
+5. Additional reporting on mining and oil and gas production and exploration activities
+
+250KB
+
+6. Securities
+
+68KB
+
+7. Changes in capital and new issues
+
+243KB
+
+8. Transfers and registration
+
+53KB
+
+9. Restricted securities
+
+124KB
+
+10. Transactions with persons in a position of influence
+
+181KB
+
+11. Significant transactions
+
+108KB
+
+12. On-going requirements
+
+131KB
+
+13. Additional requirements for trusts
+
+35KB
+
+14. Meetings
+
+160KB
+
+15. Requirements for Documents
+
+158KB
+
+16. Fees
+
+115KB
+
+17. Trading halts, suspension, removal
+
+139KB
+
+18. Application of listing rules
+
+131KB
+
+19. Interpretation and definitions
+
+325KB
+
+20. Self-listing of ASX
+
+29KB
+
+Appendix
+Description
+
+1A
+ASX Listing Application
+
+1B
+ASX Debt Listing Application
+
+1C
+ASX Foreign Exempt Listing Application
+
+2A
+Application for Quotation of Securities
+
+3A
+Timetable
+
+3A.1
+Notification of Dividend / Distribution
+
+3A.2
+Notification of Interest Payment or Interest Rate Change
+
+3A.3
+Notification of Reorganisation of Capital – Security Consolidation or Split
+
+3A.4
+Notification of Reorganisation of Capital – Return of Capital (Cash)
+
+3A.5
+Notification of Reorganisation of Capital – Return of Capital by way of In Specie Distribution of Securities in Another Entity
+
+3A.6
+Notification of Call – No Liability Company or Call/Instalment – Entities Except No Liability Companies
+
+3B
+Notification of Proposed Issue of Securities
+
+3C
+Announcement of Buy-back (Except Minimum Holding Buy-back)
+
+3D
+[Deleted]
+
+3E
+[Deleted]
+
+3F
+[Deleted]
+
+3G
+Notification of Issue, Conversion or Payment up of Equity Securities
+
+3H
+Notification of cessation of securities
+
+3X
+Initial Director's Interest Notice
+
+3Y
+Change of Director’s Interest Notice
+
+3Z
+Final Director’s Interest Notice
+
+4A
+Statement of CDIs on Issue
+
+4B
+Half Yearly/Preliminary Final Report - Superseded. Please use Appendix 4D
+
+4C
+Quarterly Cash Flow Report for Entities Subject to Listing Rule 4.7B
+
+4D
+Half Year Report Period ending on or after 30 June 2003
+
+4E
+Preliminary Final Report Period ending on or after 30 June 2003
+
+4F
+Change of balance date 12 month period ending on or after 30 June 2003
+
+4G
+Key to Disclosures Corporate Governance Council Principles and Recommendations
+
+5A
+Australasian Code for Reporting of Exploration Results, Mineral Resources and Ore Reserves
+
+5B
+Mining Exploration Entity or Oil and Gas Exploration Entity Quarterly Cash Flow Report
+
+6A
+Timetables
+
+7A
+Timetables
+
+8A
+Time Limits
+
+9A
+Restriction Deed
+
+9B
+Restrictions on Securities
+
+9C
+Restriction notice
+
+15A
+Provisions required by rule 15.11.1
+
+15B
+Provisions required by rule 15.11.1
+
+Name
+
+Size
+
+1. Applying for Admission - ASX Listings
+
+809KB
+
+2. Stapled Securities
+
+154KB
+
+3. Co-Operatives and Mutuals Listing on ASX
+
+294KB
+
+4. Foreign Entities Listing on ASX
+
+419KB
+
+5. CHESS Depositary Interests
+
+300KB
+
+6. Trusts
+
+161KB
+
+7. US Entities - Regulation S Offerings on ASX
+
+285KB
+
+8. Continuous Disclosure: Listing Rules 3.1 - 3.1B
+
+1MB
+
+9. Disclosure of Corporate Governance Practices
+
+416KB
+
+10. Review of Operations and Activities: Listing Rule 4.10.17
+
+273KB
+
+11. Restricted Securities and Voluntary Escrow
+
+725KB
+
+12. Significant Changes to Activities
+
+692KB
+
+13. Spin-outs of Major Assets
+
+299KB
+
+14. ASX Market Announcements Platform
+
+295KB
+
+15. ASX Listing Fees
+
+233KB
+
+15A. Schedule of ASX Listing Fees
+
+140KB
+
+16. Trading Halts and Voluntary Suspensions
+
+306KB
+
+17. Waivers and In-Principle Advice
+
+259KB
+
+18. Market Codes and Trading Procedures
+
+195KB
+
+19. Performance Securities
+
+368KB
+
+20. ASX Online
+
+298KB
+
+21. The Restrictions on Issuing Equity Securities in Chapter 7 of the Listing Rules
+
+804KB
+
+22. Director Disclosure of Interests and Transactions in Securities - Obligations of Listed Entities
+
+294KB
+
+23. Quarterly Reports
+
+276KB
+
+24. Acquisitions and Disposals of Substantial Assets Involving Persons in a Position of Influence
+
+414KB
+
+25. Issues of Equity Securities to Persons in a Position of Influence
+
+508KB
+
+26. Management Agreements
+
+243KB
+
+27. Trading Policies
+
+362KB
+
+28. Reasonable Fees for Activites Covered by Listing Rule 8.14.1
+
+169KB
+
+29. Applying for Admission – ASX Debt Listings
+
+372KB
+
+30. Notifying Changes in Issued Securities and Applying For Quotation of New or Additional Securities
+
+544KB
+
+31. Reporting on Mining Activities
+
+296KB
+
+32. Reporting on Oil & Gas Activities
+
+518KB
+
+33. Removal of Entities from the ASX Official List
+
+309KB
+
+34. Naming Conventions for Debt and Hybrid Securities
+
+248KB
+
+35. Security Holder Resolutions
+
+266KB
+
+Name
+
+Size
+
+Upload Date
+
+ASX Listing Rule Waivers: 1-15 September 2026
+
+156KB
+
+23/09/2026
+
+ASX Listing Rule Waivers: 16-31 August 2026
+
+205KB
+
+10/09/2026
+
+ASX Listing Rule Waivers: 1-15 August 2026
+
+165KB
+
+26/08/2026
+
+ASX Listing Rule Waivers: 16-31 July 2026
+
+89KB
+
+11/08/2026
+
+ASX Listing Rule Waivers: 1-15 July 2026
+
+208KB
+
+23/07/2026
+
+ASX Listing Rule Waivers: 16-30 June 2026
+
+303KB
+
+09/07/2026
+
+ASX Listing Rule Waivers: 1-15 June 2026
+
+234KB
+
+29/06/2026
+
+ASX Listing Rule Waivers: 16-31 May 2026
+
+274KB
+
+22/06/2026
+
+ASX Listing Rule Waivers: 1-15 May 2026
+
+147KB
+
+27/05/2026
+
+ASX Listing Rule Waivers: 16-30 April 2026
+
+89KB
+
+12/05/2026
+
+ASX Listing Rule Waivers: 1-15 April 2026
+
+111KB
+
+28/04/2026
+
+ASX Listing Rule Waivers: 16-31 March 2026
+
+136KB
+
+08/04/2026
+
+ASX Listing Rule Waivers: 1-15 March 2026
+
+70KB
+
+25/03/2026
+
+ASX Listing Rule Waivers: 16-28 February 2026
+
+170KB
+
+09/03/2026
+
+ASX Listing Rule Waivers: 1-15 February 2026
+
+119KB
+
+26/02/2026
+
+ASX Listing Rule Waivers: 16-31 January 2026
+
+124KB
+
+10/02/2026
+
+ASX Listing Rule Waivers: 1-15 January 2026
+
+88KB
+
+21/01/2026
+
+2025
+
+Name
+
+Size
+
+Upload Date
+
+ASX Listing Rule Waivers: 16-31 December 2025
+
+261KB
+
+08/01/2026
+
+ASX Listing Rule Waivers: 1-15 December 2025
+
+216KB
+
+23/12/2025
+
+ASX Listing Rule Waivers: 16-30 November 2025
+
+110KB
+
+14/12/2025
+
+ASX Listing Rule Waivers: 1-15 November 2025
+
+165KB
+
+01/12/2025
+
+ASX Listing Rule Waivers: 16-31 October 2025
+
+229KB
+
+12/11/2025
+
+ASX Listing Rule Waivers: 1-15 October 2025
+
+204KB
+
+29/10/2025
+
+ASX Listing Rule Waivers: 16-30 September 2025
+
+157KB
+
+15/10/2025
+
+ASX Listing Rule Waivers: 1-15 September 2025
+
+128KB
+
+13/10/2025
+
+ASX Listing Rule Waivers: 16-31 August 2025
+
+123KB
+
+24/09/2025
+
+ASX Listing Rule Waivers: 1-15 August 2025
+
+232KB
+
+05/09/2025
+
+ASX Listing Rule Waivers: 16-31 July 2025
+
+123KB
+
+19/08/2025
+
+ASX Listing Rule Waivers: 1-15 July 2025
+
+133KB
+
+05/08/2025
+
+ASX Listing Rule Waivers: 16-30 June 2025
+
+168KB
+
+17/07/2025
+
+ASX Listing Rule Waivers: 1-15 June 2025
+
+111KB
+
+02/07/2025
+
+ASX Listing Rule Waivers: 16-31 May 2025
+
+181KB
+
+18/06/2025
+
+ASX Listing Rule Waivers: 1-15 May 2025
+
+86KB
+
+04/06/2025
+
+ASX Listing Rule Waivers: 16-30 April 2025
+
+102KB
+
+22/05/2025
+
+ASX Listing Rule Waivers: 1-15 April 2025
+
+184KB
+
+12/05/2025
+
+ASX Listing Rule Waivers: 16-31 March 2025
+
+99KB
+
+16/04/2025
+
+ASX Listing Rule Waivers: 1-15 March 2025
+
+126KB
+
+01/04/2025
+
+ASX Listing Rule Waivers: 16-28 February 2025
+
+170KB
+
+20/03/2025
+
+ASX Listing Rule Waivers: 1-15 February 2025
+
+118KB
+
+07/03/2025
+
+ASX Listing Rule Waivers: 16-31 January 2025
+
+99KB
+
+19/02/2025
+
+ASX Listing Rule Waivers: 1-15 January 2025
+
+76KB
+
+05/02/2025
+
+2024
+
+Name
+
+Size
+
+Upload Date
+
+ASX Listing Rule Waivers: 16-31 December, 2024
+
+176KB
+
+28/01/2025
+
+ASX Listing Rule Waivers: December 1-15, 2024
+
+153KB
+
+07/01/2025
+
+ASX Listing Rule Waivers: November 16-30, 2024
+
+138KB
+
+19/12/2024
+
+ASX Listing Rule Waivers: November 1-15, 2024
+
+147KB
+
+05/12/2024
+
+ASX Listing Rule Waivers: October 16-31, 2024
+
+162KB
+
+28/11/2024
+
+ASX Listing Rule Waivers: October 1-15, 2024
+
+163KB
+
+01/11/2024
+
+ASX Listing Rule Waivers: September 16-30, 2024
+
+195KB
+
+16/10/2024
+
+ASX Listing Rule Waivers: September 1-15, 2024
+
+114KB
+
+03/10/2024
+
+ASX Listing Rule Waivers: August 16-31, 2024
+
+106KB
+
+18/09/2024
+
+ASX Listing Rule Waivers: August 1-15, 2024
+
+108KB
+
+06/09/2024
+
+ASX Listing Rule Waivers: July 16-31, 2024
+
+240KB
+
+19/08/2024
+
+ASX Listing Rule Waivers: July 1-15, 2024
+
+126KB
+
+30/07/2024
+
+ASX Listing Rules Wavers: June 16-30, 2024
+
+169KB
+
+22/07/2024
+
+ASX Listing Rule Waivers: June 1-15, 2024
+
+192KB
+
+05/07/2024
+
+ASX Listing Rule Waivers: May 16-31, 2024
+
+109KB
+
+18/06/2024
+
+ASX Listing Rule Waivers: May 1-15, 2024
+
+125KB
+
+06/06/2024
+
+ASX Listing Rule Waivers: April 16-30, 2024
+
+177KB
+
+21/05/2024
+
+ASX Listing Rule Waivers: April 1-15, 2024
+
+120KB
+
+06/05/2024
+
+ASX Listing Rule Waivers: March 16-31, 2024
+
+138KB
+
+22/04/2024
+
+ASX Listing Rule Waivers: March 1-15, 2024
+
+149KB
+
+03/04/2024
+
+ASX Listing Rule Waivers: February 16-29, 2024
+
+171KB
+
+20/03/2024
+
+ASX Listing Rule Waivers: February 1-15, 2024
+
+140KB
+
+14/03/2024
+
+ASX Listing Rule Waivers: January 16-31, 2024
+
+112KB
+
+04/03/2024
+
+ASX Listing Rule Waivers: January 1-15, 2024
+
+120KB
+
+09/02/2024
+
+2023
+
+Name
+
+Size
+
+Upload Date
+
+ASX Listing Rule Waivers: December 16-31, 2023
+
+159KB
+
+18/01/2024
+
+ASX Listing Rule Waivers: December 1-15, 2023
+
+164KB
+
+03/01/2024
+
+ASX Listing Rule Waivers: November 16-30, 2023
+
+131KB
+
+20/12/2023
+
+ASX Listing Rule Waivers: November 1-15, 2023
+
+122KB
+
+04/12/2023
+
+ASX Listing Rule Waivers: October 16-31, 2023
+
+196KB
+
+22/11/2023
+
+ASX Listing Rule Waivers: October 1-15, 2023
+
+137KB
+
+13/11/2023
+
+ASX Listing Rule Waivers: September 16-30, 2023
+
+131KB
+
+25/10/2023
+
+ASX Listing Rule Waivers: September 1-15, 2023
+
+233KB
+
+09/10/2023
+
+ASX Listing Rule Waivers: August 16-31, 2023
+
+156KB
+
+21/09/2023
+
+ASX Listing Rule Waivers: August 1-15, 2023
+
+142KB
+
+04/09/2023
+
+ASX Listing Rule Waivers: July 16-31, 2023
+
+152KB
+
+08/08/2023
+
+ASX Listing Rule Waivers: July 1-15, 2023
+
+135KB
+
+02/08/2023
+
+ASX Listing Rule Waivers: June 16-30, 2023
+
+126KB
+
+18/07/2023
+
+ASX Listing Rule Waivers: June 1-15, 2023
+
+122KB
+
+06/07/2023
+
+ASX Listing Rule Waivers: May 16-31, 2023
+
+191KB
+
+22/06/2023
+
+ASX Listing Rule Waivers: May 1-15, 2023
+
+128KB
+
+16/06/2023
+
+ASX Listing Rule Waivers: April 16-30, 2023
+
+135KB
+
+19/05/2023
+
+ASX Listing Rule Waivers: April 1-15, 2023
+
+117KB
+
+08/05/2023
+
+ASX Listing Rule Waivers: March 16-31, 2023
+
+127KB
+
+21/04/2023
+
+ASX Listing Rule Waivers: March 1-15, 2023
+
+137KB
+
+12/04/2023
+
+ASX Listing Rule Waivers: February 16-28, 2023
+
+111KB
+
+31/03/2023
+
+ASX Listing Rule Waivers: February 1-15, 2023
+
+111KB
+
+20/03/2023
+
+ASX Listing Rule Waivers: January 16-31, 2023
+
+110KB
+
+02/03/2023
+
+ASX Listing Rule Waivers: January 1-15, 2023
+
+129KB
+
+24/02/2023
+
+2022
+
+Name
+
+Size
+
+Upload Date
+
+ASX Listing Rule Waivers: December 16-31, 2022
+
+137KB
+
+23/01/2023
+
+ASX Listing Rule Waivers: December 1-15, 2022
+
+210KB
+
+10/01/2023
+
+ASX Listing Rule Waivers: November 16-30, 2022
+
+263KB
+
+21/12/2022
+
+ASX Listing Rule Waivers: November 1-15, 2022
+
+160KB
+
+09/12/2022
+
+ASX Listing Rule Waivers: October 16-31, 2022
+
+156KB
+
+22/11/2022
+
+ASX Listing Rule Waivers: October 1-15, 2022
+
+173KB
+
+09/11/2022
+
+ASX Listing Rule Waivers: September 16-30, 2022
+
+145KB
+
+24/10/2022
+
+ASX Listing Rule Waivers: September 1-15 2022
+
+130KB
+
+11/10/2022
+
+ASX Listing Rule Waivers: August 16-31 2022
+
+142KB
+
+30/09/2022
+
+ASX Listing Rule Waivers: August 1-15 2022
+
+130KB
+
+09/09/2022
+
+ASX Listing Rule Waivers: July 16-31 2022
+
+138KB
+
+22/08/2022
+
+ASX Listing Rule Waivers: July 1-15 2022
+
+142KB
+
+08/08/2022
+
+ASX Listing Rule Waivers: June 16-30 2022
+
+113KB
+
+28/07/2022
+
+ASX Listing Rule Waivers: June 1-15 2022
+
+163KB
+
+11/07/2022
+
+ASX Listing Rule Waivers: May 16-31 2022
+
+141KB
+
+27/06/2022
+
+ASX Listing Rule Waivers: May 1-15, 2022
+
+218KB
+
+08/06/2022
+
+ASX Listing Rule Waivers: April 16-30, 2022
+
+117KB
+
+24/05/2022
+
+ASX Listing Rule Waivers: April 1-15, 2022
+
+143KB
+
+16/05/2022
+
+ASX Listing Rule Waivers: March 16-31, 2022
+
+142KB
+
+11/05/2022
+
+ASX Listing Rule Waivers: March 1-15, 2022
+
+168KB
+
+08/04/2022
+
+ASX Listing Rule Waivers: February 16-28, 2022
+
+142KB
+
+23/03/2022
+
+ASX Listing Rule Waivers: February 1-15, 2022
+
+123KB
+
+03/03/2022
+
+ASX Listing Rule Waivers: January 16-31, 2022
+
+143KB
+
+16/02/2022
+
+ASX Listing Rule Waivers: January 1-15, 2022
+
+127KB
+
+04/02/2022
+
+2021
+
+Name
+
+Size
+
+Upload Date
+
+ASX Listing Rule Waivers: December 16-31, 2021
+
+218KB
+
+27/01/2022
+
+ASX Listing Rule Waivers: December 1-15, 2021
+
+184KB
+
+13/01/2022
+
+ASX Listing Rule Waivers: November 16-30, 2021
+
+199KB
+
+21/12/2021
+
+ASX Listing Rule Waivers: November 1-15, 2021
+
+191KB
+
+08/12/2021
+
+ASX Listing Rule Waivers: October 16-31, 2021
+
+164KB
+
+24/11/2021
+
+ASX Listing Rule Waivers: October 1-15, 2021
+
+215KB
+
+09/11/2021
+
+ASX Listing Rule Waivers: September 16-30, 2021
+
+191KB
+
+21/10/2021
+
+ASX Listing Rule Waivers: September 1-15, 2021
+
+227KB
+
+11/10/2021
+
+ASX Listing Rule Waivers: August 16-31, 2021
+
+195KB
+
+27/09/2021
+
+ASX Listing Rule Waivers: August 1-15, 2021
+
+154KB
+
+13/09/2021
+
+ASX Listing Rule Waivers: July 16-31, 2021
+
+179KB
+
+26/08/2021
+
+ASX Listing Rule Waivers: July 1-15, 2021
+
+182KB
+
+10/08/2021
+
+ASX Listing Rule Waivers: June 16-30, 2021
+
+218KB
+
+22/07/2021
+
+ASX Listing Rule Waivers: June 1-15, 2021
+
+156KB
+
+12/07/2021
+
+ASX Listing Rule Waivers: May 16-31, 2021
+
+189KB
+
+23/06/2021
+
+ASX Listing Rule Waivers: May 1-16, 2021
+
+230KB
+
+09/06/2021
+
+ASX Listing Rule Waivers: April 16-30, 2021
+
+189KB
+
+26/05/2021
+
+ASX Listing Rule Waivers: April 1-15, 2021
+
+166KB
+
+13/05/2021
+
+ASX Listing Rule Waivers: March 16-31, 2021
+
+254KB
+
+23/04/2021
+
+ASX Listing Rule Waivers: March 1-15, 2021
+
+141KB
+
+08/04/2021
+
+ASX Listing Rule Waivers: February 16-28, 2021
+
+140KB
+
+22/03/2021
+
+ASX Listing Rule Waivers: February 1-15, 2021
+
+192KB
+
+10/03/2021
+
+ASX Listing Rule Waivers: January 16-31, 2021
+
+120KB
+
+23/02/2021
+
+ASX Listing Rule Waivers: January 1-15, 2021
+
+153KB
+
+08/02/2021
+
+2020
+
+Name
+
+Size
+
+Upload Date
+
+ASX Listing Rule Waivers: December 16-31, 2020
+
+312KB
+
+28/01/2021
+
+ASX Listing Rule Waivers: December 1-15, 2020
+
+190KB
+
+14/01/2021
+
+ASX Listing Rule Waivers: November 16-30, 2020
+
+181KB
+
+07/01/2021
+
+ASX Listing Rule Waivers: November 1-15, 2020
+
+133KB
+
+07/12/2020
+
+ASX Listing Rule Waivers: October 16-31, 2020
+
+243KB
+
+24/11/2020
+
+ASX Listing Rule Waivers: October 1-15, 2020
+
+132KB
+
+05/11/2020
+
+ASX Listing Rule Waivers: September 16-30, 2020
+
+131KB
+
+22/10/2020
+
+ASX Listing Rule Waivers: September 1-15, 2020
+
+166KB
+
+12/10/2020
+
+ASX Listing Rule Waivers: August 16-31, 2020
+
+186KB
+
+24/09/2020
+
+ASX Listing Rule Waivers: August 1-15, 2020
+
+134KB
+
+08/09/2020
+
+ASX Listing Rule Waivers: July 16-31, 2020
+
+152KB
+
+20/08/2020
+
+ASX Listing Rule Waivers: July 1-15, 2020
+
+209KB
+
+04/08/2020
+
+ASX Listing Rule Waivers: June 16-30, 2020
+
+208KB
+
+20/07/2020
+
+ASX Listing Rule Waivers: June 1-15, 2020
+
+143KB
+
+06/07/2020
+
+ASX Listing Rule Waivers: May 16-31, 2020
+
+139KB
+
+31/05/2020
+
+ASX Listing Rule Waivers: May 1-15, 2020
+
+196KB
+
+30/05/2020
+
+ASX Listing Rule Waivers: April 16-30, 2020
+
+165KB
+
+21/05/2020
+
+ASX Listing Rule Waivers: April 1-15, 2020
+
+145KB
+
+05/05/2020
+
+ASX Listing Rule Waivers: March 16-31, 2020
+
+133KB
+
+21/04/2020
+
+ASX Listing Rule Waivers: March 1-15, 2020
+
+116KB
+
+31/03/2020
+
+ASX Listing Rule Waivers: February 16-29, 2020
+
+169KB
+
+15/03/2020
+
+ASX Listing Rule Waivers: February 1-15, 2020
+
+116KB
+
+29/02/2020
+
+ASX Listing Rule Waivers: January 16-31, 2020
+
+1MB
+
+15/02/2020
+
+ASX Listing Rule Waivers: January 1-15, 2020
+
+1MB
+
+31/01/2020
+
+Archive (2005 - 2019)
+
+Name
+
+Size
+
+Upload Date
+
+ASX Listing Rule Waivers: December 16-31, 2019
+
+Waivers
+
+2MB
+
+15/12/2019
+
+ASX Listing Rule Waivers: December 1-15, 2019
+
+Waivers
+
+2MB
+
+30/11/2019
+
+ASX Listing Rule Waivers: November 16-30, 2019
+
+Waivers
+
+1MB
+
+15/11/2019
+
+ASX Listing Rule Waivers: November 1-15, 2019
+
+Waivers
+
+2MB
+
+31/10/2019
+
+ASX Listing Rule Waivers: October 16-31, 2019
+
+Waivers
+
+3MB
+
+15/10/2019
+
+ASX Listing Rule Waivers: October 1-15, 2019
+
+Waivers
+
+4MB
+
+01/10/2019
+
+ASX Listing Rule Waivers: September 16-30 2019
+
+Waivers
+
+2MB
+
+16/09/2019
+
+ASX Listing Rule Waivers: September 1-15, 2019
+
+Waivers
+
+1MB
+
+01/09/2019
+
+ASX Listing Rule Waivers: August 16-31, 2019
+
+Waivers
+
+2MB
+
+16/08/2019
+
+ASX Listing Rule Waivers: August 1-15, 2019
+
+Waivers
+
+1MB
+
+01/08/2019
+
+ASX Listing Rule Waivers: July 16-31, 2019
+
+Waivers
+
+1MB
+
+16/07/2019
+
+ASX Listing Rule Waivers: July 1-15, 2019
+
+Waivers
+
+1MB
+
+01/07/2019
+
+ASX Listing Rule Waivers: June 16-30, 2019
+
+Waivers
+
+2MB
+
+16/06/2019
+
+ASX Listing Rule Waivers: June 1-15, 2019
+
+Waivers
+
+1MB
+
+01/06/2019
+
+ASX Listing Rule Waivers: May 16-31, 2019
+
+Waivers
+
+1MB
+
+16/05/2019
+
+ASX Listing Rule Waivers: May 1-15, 2019
+
+Waivers
+
+1MB
+
+01/05/2019
+
+ASX Listing Rule Waivers: April 16-30, 2019
+
+Waivers
+
+2MB
+
+16/04/2019
+
+ASX Listing Rule Waivers: April 1-15, 2019
+
+Waivers
+
+2MB
+
+31/03/2019
+
+ASX Listing Rule Waivers: March 16-31, 2019
+
+Waivers
+
+2MB
+
+15/03/2019
+
+ASX Listing Rule Waivers: March 1-15, 2019
+
+Waivers
+
+1MB
+
+28/02/2019
+
+ASX Listing Rule Waivers: February 16-28, 2019
+
+Waivers
+
+1MB
+
+15/02/2019
+
+ASX Listing Rule Waivers: February 1-15, 2019
+
+Waivers
+
+506KB
+
+31/01/2019
+
+ASX Listing Rule Waivers: January 16-31, 2019
+
+Waivers
+
+1MB
+
+15/01/2019
+
+ASX Listing Rule Waivers: January 1-15, 2019
+
+Waivers
+
+1MB
+
+01/01/2019
+
+ASX Listing Rule Waivers: December 16-31, 2018
+
+Waivers
+
+1MB
+
+15/12/2018
+
+ASX Listing Rule Waivers: December 1-15, 2018
+
+Waivers
+
+914KB
+
+30/11/2018
+
+ASX Listing Rule Waivers: November 16-30, 2018
+
+Waivers
+
+2MB
+
+15/11/2018
+
+ASX Listing Rule Waivers: November 1-15, 2018
+
+Waivers
+
+1MB
+
+31/10/2018
+
+ASX Listing Rule Waivers: October 16-31, 2018
+
+Waivers
+
+3MB
+
+15/10/2018
+
+ASX Listing Rule Waivers: October 1-15, 2018
+
+Waivers
+
+3MB
+
+30/09/2018
+
+ASX Listing Rule Waivers: September 16-30, 2018
+
+Waivers
+
+1MB
+
+15/09/2018
+
+ASX Listing Rule Waivers: September 1-15, 2018
+
+Waivers
+
+621KB
+
+31/08/2018
+
+ASX Listing Rule Waivers: August 16-31, 2018
+
+Waivers
+
+3MB
+
+15/08/2018
+
+ASX Listing Rule Waivers: August 1-15, 2018
+
+Waivers
+
+867KB
+
+31/07/2018
+
+ASX Listing Rule Waivers: July 16-31, 2018
+
+Waivers
+
+2MB
+
+15/07/2018
+
+ASX Listing Rule Waivers: July 1-15, 2018
+
+Waivers
+
+2MB
+
+30/06/2018
+
+ASX Listing Rule Waivers: June 16-30, 2018
+
+Waivers
+
+1MB
+
+15/06/2018
+
+ASX Listing Rule Waivers: June 1-15, 2018
+
+Waivers
+
+1MB
+
+31/05/2018
+
+ASX Listing Rule Waivers: May 16-31, 2018
+
+Waivers
+
+1MB
+
+15/05/2018
+
+ASX Listing Rule Waivers: May 1-15, 2018
+
+Waivers
+
+1MB
+
+30/04/2018
+
+ASX Listing Rule Waivers: April 16-30, 2018
+
+Waivers
+
+1MB
+
+15/04/2018
+
+ASX Listing Rule Waivers: April 1-15, 2018
+
+Waivers
+
+3MB
+
+31/03/2018
+
+ASX Listing Rule Waivers: March 16-31, 2018
+
+Waivers
+
+2MB
+
+15/03/2018
+
+ASX Listing Rule Waivers: March 1-15, 2018
+
+Waivers
+
+1MB
+
+28/02/2018
+
+ASX Listing Rule Waivers: February 16-28, 2018
+
+Waivers
+
+866KB
+
+15/02/2018
+
+ASX Listing Rule Waivers: February 1-15, 2018
+
+Waivers
+
+926KB
+
+31/01/2018
+
+ASX Listing Rule Waivers: January 16-31, 2018
+
+Waivers
+
+2MB
+
+15/01/2018
+
+ASX Listing Rule Waivers: January 1-15, 2018
+
+Waivers
+
+937KB
+
+31/12/2017
+
+ASX Listing Rule Waivers: December 16-31, 2017
+
+Waivers
+
+931KB
+
+15/12/2017
+
+ASX Listing Rule Waivers: December 1-15, 2017
+
+Waivers
+
+2MB
+
+30/11/2017
+
+ASX Listing Rule Waivers: November 16-30, 2017
+
+Waivers
+
+4MB
+
+15/11/2017
+
+ASX Listing Rule Waivers: November 1-15, 2017
+
+Waivers
+
+2MB
+
+31/10/2017
+
+ASX Listing Rule Waivers: October 16-31, 2017
+
+Waivers
+
+3MB
+
+15/10/2017
+
+ASX Listing Rule Waivers: October 1-15, 2017
+
+Waivers
+
+2MB
+
+30/09/2017
+
+ASX Listing Rule Waivers: September 16-30, 2017
+
+Waivers
+
+2MB
+
+15/09/2017
+
+ASX Listing Rule Waivers: September 1-15, 2017
+
+Waivers
+
+2MB
+
+31/08/2017
+
+ASX Listing Rule Waivers: August 16-31, 2017
+
+Waivers
+
+2MB
+
+15/08/2017
+
+ASX Listing Rule Waivers: August 1-15, 2017
+
+Waivers
+
+1MB
+
+31/07/2017
+
+ASX Listing Rule Waivers: July 16-31, 2017
+
+Waivers
+
+2MB
+
+15/07/2017
+
+ASX Listing Rule Waivers: July 1-15, 2017
+
+Waivers
+
+800KB
+
+30/06/2017
+
+ASX Listing Rule Waivers: June 16-30, 2017
+
+Waivers
+
+2MB
+
+15/06/2017
+
+ASX Listing Rule Waivers: June 1-15, 2017
+
+Waivers
+
+1MB
+
+31/05/2017
+
+ASX Listing Rule Waivers: May 16-31, 2017
+
+Waivers
+
+1MB
+
+15/05/2017
+
+ASX Listing Rule Waivers: May 1-15, 2017
+
+Waivers
+
+1MB
+
+30/04/2017
+
+ASX Listing Rule Waivers: April 16-30, 2017
+
+Waivers
+
+1MB
+
+15/04/2017
+
+ASX Listing Rule Waivers: April 1-15, 2017
+
+Waivers
+
+1MB
+
+31/03/2017
+
+ASX Listing Rule Waivers: March 16-31, 2017
+
+Waivers
+
+2MB
+
+15/03/2017
+
+ASX Listing Rule Waivers: March 1-15, 2017
+
+Waivers
+
+1MB
+
+28/02/2017
+
+ASX Listing Rule Waivers: February 16-28, 2017
+
+Waivers
+
+922KB
+
+15/02/2017
+
+ASX Listing Rule Waivers: February 1-15, 2017
+
+Waivers
+
+1MB
+
+31/01/2017
+
+ASX Listing Rule Waivers: January 16-31, 2017
+
+Waivers
+
+1MB
+
+15/01/2017
+
+ASX Listing Rule Waivers: January 1-15, 2017
+
+Waivers
+
+865KB
+
+31/12/2016
+
+ASX Listing Rule Waivers: December 16-31, 2016
+
+Waivers
+
+1MB
+
+15/12/2016
+
+ASX Listing Rule Waivers: December 1-15, 2016
+
+Waivers
+
+1MB
+
+30/11/2016
+
+ASX Listing Rule Waivers: November 16-30, 2016
+
+Waivers
+
+1MB
+
+15/11/2016
+
+ASX Listing Rule Waivers: November 1-15, 2016
+
+Waivers
+
+2MB
+
+31/10/2016
+
+ASX Listing Rule Waivers: October 16-31, 2016
+
+Waivers
+
+3MB
+
+15/10/2016
+
+ASX Listing Rule Waivers: October 1-15, 2016
+
+Waivers
+
+2MB
+
+30/09/2016
+
+ASX Listing Rule Waivers: September 16-30, 2016
+
+Waivers
+
+3MB
+
+15/09/2016
+
+ASX Listing Rule Waivers: September 1-15, 2016
+
+Waivers
+
+909KB
+
+31/08/2016
+
+ASX Listing Rule Waivers: August 16-31, 2016
+
+Waivers
+
+2MB
+
+15/08/2016
+
+ASX Listing Rule Waivers: August 1-15, 2016
+
+Waivers
+
+1MB
+
+31/07/2016
+
+ASX Listing Rule Waivers: July 16-31, 2016
+
+Waivers
+
+2MB
+
+15/07/2016
+
+ASX Listing Rule Waivers: July 1-15, 2016
+
+Waivers
+
+1MB
+
+30/06/2016
+
+ASX Listing Rule Waivers: June 16-30, 2016
+
+Waivers
+
+3MB
+
+15/06/2016
+
+ASX Listing Rule Waivers: June 1-15, 2016
+
+Waivers
+
+2MB
+
+31/05/2016
+
+ASX Listing Rule Waivers: May 16-31, 2016
+
+Waivers
+
+1MB
+
+15/05/2016
+
+ASX Listing Rule Waivers: May 1-15, 2016
+
+Waivers
+
+2MB
+
+30/04/2016
+
+ASX Listing Rule Waivers: April 16-30, 2016
+
+Waivers
+
+2MB
+
+15/04/2016
+
+ASX Listing Rule Waivers: April 1-15, 2016
+
+Waivers
+
+1MB
+
+31/03/2016
+
+ASX Listing Rule Waivers: March 16-31, 2016
+
+Waivers
+
+1MB
+
+15/03/2016
+
+ASX Listing Rule Waivers: March 1-15, 2016
+
+Waivers
+
+1MB
+
+29/02/2016
+
+ASX Listing Rule Waivers: February 16-29, 2016
+
+Waivers
+
+2MB
+
+15/02/2016
+
+ASX Listing Rule Waivers: February 1-15, 2016
+
+Waivers
+
+1MB
+
+31/01/2016
+
+ASX Listing Rule Waivers: January 16-31, 2016
+
+Waivers
+
+1MB
+
+15/01/2016
+
+ASX Listing Rule Waivers: January 1-15, 2016
+
+Waivers
+
+1MB
+
+31/12/2015
+
+ASX Listing Rule Waivers: December 16-31, 2015
+
+Waivers
+
+1MB
+
+15/12/2015
+
+ASX Listing Rule Waivers: December 1-15, 2015
+
+Waivers
+
+2MB
+
+30/11/2015
+
+ASX Listing Rule Waivers: November 16-30, 2015
+
+Waivers
+
+2MB
+
+15/11/2015
+
+ASX Listing Rule Waivers: November 1-15, 2015
+
+Waivers
+
+2MB
+
+31/10/2015
+
+ASX Listing Rule Waivers: October 16-31, 2015
+
+Waivers
+
+2MB
+
+15/10/2015
+
+ASX Listing Rule Waivers: October 1-15, 2015
+
+Waivers
+
+3MB
+
+30/09/2015
+
+ASX Listing Rule Waivers: September 16-30, 2015
+
+Waivers
+
+2MB
+
+15/09/2015
+
+ASX Listing Rule Waivers: September 1-15, 2015
+
+Waivers
+
+1MB
+
+31/08/2015
+
+ASX Listing Rule Waivers: August 16-31, 2015
+
+Waivers
+
+3MB
+
+15/08/2015
+
+ASX Listing Rule Waivers: August 1-15, 2015
+
+Waivers
+
+664KB
+
+31/07/2015
+
+ASX Listing Rule Waivers: July 16-31, 2015
+
+Waivers
+
+1MB
+
+15/07/2015
+
+ASX Listing Rule Waivers: July 1-15, 2015
+
+Waivers
+
+2MB
+
+30/06/2015
+
+ASX Listing Rule Waivers: June 16-30, 2015
+
+Waivers
+
+2MB
+
+15/06/2015
+
+ASX Listing Rule Waivers: June 1-15, 2015
+
+Waivers
+
+2MB
+
+31/05/2015
+
+ASX Listing Rule Waivers: May 16-31, 2015
+
+Waivers
+
+1MB
+
+15/05/2015
+
+ASX Listing Rule Waivers: May 1-15, 2015
+
+Waivers
+
+2MB
+
+30/04/2015
+
+ASX Listing Rule Waivers: April 16-30, 2015
+
+Waivers
+
+1MB
+
+15/04/2015
+
+ASX Listing Rule Waivers: April 1-15, 2015
+
+Waivers
+
+1MB
+
+31/03/2015
+
+ASX Listing Rule Waivers: March 16-31, 2015
+
+Waivers
+
+2MB
+
+15/03/2015
+
+ASX Listing Rule Waivers: March 1-15, 2015
+
+Waivers
+
+1MB
+
+28/02/2015
+
+ASX Listing Rule Waivers: February 16-28, 2015
+
+Waivers
+
+1MB
+
+15/02/2015
+
+ASX Listing Rule Waivers: February 1-15, 2015
+
+Waivers
+
+2MB
+
+31/01/2015
+
+ASX Listing Rule Waivers: January 16-31, 2015
+
+Waivers
+
+1MB
+
+15/01/2015
+
+ASX Listing Rule Waivers: January 1-15, 2015
+
+Waivers
+
+781KB
+
+31/12/2014
+
+ASX Listing Rule Waivers: December 16-31, 2014
+
+Waivers
+
+1MB
+
+15/12/2014
+
+ASX Listing Rule Waivers: December 1-15, 2014
+
+Waivers
+
+2MB
+
+30/11/2014
+
+ASX Listing Rule Waivers: November 16-30, 2014
+
+Waivers
+
+2MB
+
+15/11/2014
+
+ASX Listing Rule Waivers: November 1-15, 2014
+
+Waivers
+
+2MB
+
+31/10/2014
+
+ASX Listing Rule Waivers: October 16-31, 2014
+
+Waivers
+
+2MB
+
+15/10/2014
+
+ASX Listing Rule Waivers: October 1-15, 2014
+
+Waivers
+
+2MB
+
+30/09/2014
+
+ASX Listing Rule Waivers: September 16-30, 2014
+
+Waivers
+
+2MB
+
+15/09/2014
+
+ASX Listing Rule Waivers: September 1-15, 2014
+
+Waivers
+
+2MB
+
+31/08/2014
+
+ASX Listing Rule Waivers: August 16-31, 2014
+
+Waivers
+
+3MB
+
+15/08/2014
+
+ASX Listing Rule Waivers: August 1-15, 2014
+
+Waivers
+
+1MB
+
+31/07/2014
+
+ASX Listing Rule Waivers: July 16-31, 2014
+
+Waivers
+
+1MB
+
+15/07/2014
+
+ASX Listing Rule Waivers: July 1-15, 2014
+
+Waivers
+
+2MB
+
+30/06/2014
+
+ASX Listing Rule Waivers: June 16-30, 2014
+
+Waivers
+
+2MB
+
+15/06/2014
+
+ASX Listing Rule Waivers: June 1-15, 2014
+
+Waivers
+
+1MB
+
+31/05/2014
+
+ASX Listing Rule Waivers: May 16-31, 2014
+
+Waivers
+
+2MB
+
+15/05/2014
+
+ASX Listing Rule Waivers: May 1-15, 2014
+
+Waivers
+
+846KB
+
+30/04/2014
+
+ASX Listing Rule Waivers: April 16-30, 2014
+
+Waivers
+
+2MB
+
+15/04/2014
+
+ASX Listing Rule Waivers: April 1-15, 2014
+
+Waivers
+
+2MB
+
+31/03/2014
+
+ASX Listing Rule Waivers: March 16-31, 2014
+
+Waivers
+
+1MB
+
+15/03/2014
+
+ASX Listing Rule Waivers: March 1-15, 2014
+
+Waivers
+
+1MB
+
+28/02/2014
+
+ASX Listing Rule Waivers: February 16-28, 2014
+
+Waivers
+
+2MB
+
+15/02/2014
+
+ASX Listing Rule Waivers: February 1-15, 2014
+
+Waivers
+
+221KB
+
+31/01/2014
+
+ASX Listing Rule Waivers: January 16-31, 2014
+
+Waivers
+
+1MB
+
+15/01/2014
+
+ASX Listing Rule Waivers: January 1-15, 2014
+
+Waivers
+
+1MB
+
+31/12/2013
+
+ASX Listing Rule Waivers: December 16-31, 2013
+
+Waivers
+
+3MB
+
+15/12/2013
+
+ASX Listing Rule Waivers: December 1-15, 2013
+
+Waivers
+
+3MB
+
+30/11/2013
+
+ASX Listing Rule Waivers: November 16-30, 2013
+
+Waivers
+
+1MB
+
+15/11/2013
+
+ASX Listing Rule Waivers: November 1-15, 2013
+
+Waivers
+
+2MB
+
+31/10/2013
+
+ASX Listing Rule Waivers: October 16-31, 2013
+
+Waivers
+
+3MB
+
+15/10/2013
+
+ASX Listing Rule Waivers: October 1-15, 2013
+
+Waivers
+
+2MB
+
+30/09/2013
+
+ASX Listing Rule Waivers: September 16-30, 2013
+
+Waivers
+
+1MB
+
+15/09/2013
+
+ASX Listing Rule Waivers: September 1-15, 2013
+
+Waivers
+
+2MB
+
+31/08/2013
+
+ASX Listing Rule Waivers: August 16-31, 2013
+
+Waivers
+
+1MB
+
+15/08/2013
+
+ASX Listing Rule Waivers: August 1-15, 2013
+
+Waivers
+
+2MB
+
+31/07/2013
+
+ASX Listing Rule Waivers: July 16-31, 2013
+
+Waivers
+
+2MB
+
+15/07/2013
+
+ASX Listing Rule Waivers: July 1-15, 2013
+
+Waivers
+
+1MB
+
+30/06/2013
+
+ASX Listing Rule Waivers: June 16-30, 2013
+
+Waivers
+
+2MB
+
+15/06/2013
+
+ASX Listing Rule Waivers: June, 2013
+
+Waivers
+
+121KB
+
+10/06/2013
+
+ASX Listing Rule Waivers: June 1-15, 2013
+
+Waivers
+
+2MB
+
+31/05/2013
+
+ASX Listing Rule Waivers: May 16-31, 2013
+
+Waivers
+
+3MB
+
+15/05/2013
+
+ASX Listing Rule Waivers: May 1-15, 2013
+
+Waivers
+
+1MB
+
+30/04/2013
+
+ASX Listing Rule Waivers: April 16-30, 2013
+
+Waivers
+
+2MB
+
+15/04/2013
+
+ASX Listing Rule Waivers: April 1-15, 2013
+
+Waivers
+
+1MB
+
+31/03/2013
+
+ASX Listing Rule Waivers: March 16-31, 2013
+
+Waivers
+
+1MB
+
+15/03/2013
+
+ASX Listing Rule Waivers: March 1-15, 2013
+
+Waivers
+
+3MB
+
+28/02/2013
+
+ASX Listing Rule Waivers: February 16-28, 2013
+
+Waivers
+
+1MB
+
+15/02/2013
+
+ASX Listing Rule Waivers: February 1-15, 2013
+
+Waivers
+
+968KB
+
+31/01/2013
+
+ASX Listing Rule Waivers: January 16-31, 2013
+
+Waivers
+
+613KB
+
+15/01/2013
+
+ASX Listing Rule Waivers: January 1-15, 2013
+
+Waivers
+
+3MB
+
+31/12/2012
+
+ASX Listing Rule Waivers: December 16-31, 2012
+
+Waivers
+
+918KB
+
+15/12/2012
+
+ASX Listing Rule Waivers: December 1-15, 2012
+
+Waivers
+
+1MB
+
+30/11/2012
+
+ASX Listing Rule Waivers: November 16-30, 2012
+
+Waivers
+
+4MB
+
+15/11/2012
+
+ASX Listing Rule Waivers: November 1-15, 2012
+
+Waivers
+
+1MB
+
+31/10/2012
+
+ASX Listing Rule Waivers: October 16-31, 2012
+
+Waivers
+
+1MB
+
+15/10/2012
+
+ASX Listing Rule Waivers: October 1-15, 2012
+
+Waivers
+
+1MB
+
+30/09/2012
+
+ASX Listing Rule Waivers: September 16-30, 2012
+
+Waivers
+
+1MB
+
+15/09/2012
+
+ASX Listing Rule Waivers: September 1-15, 2012
+
+Waivers
+
+1MB
+
+31/08/2012
+
+ASX Listing Rule Waivers: August 16-31, 2012
+
+Waivers
+
+1MB
+
+15/08/2012
+
+ASX Listing Rule Waivers: August 1-15, 2012
+
+Waivers
+
+201KB
+
+31/07/2012
+
+ASX Listing Rule Waivers: July 16-31, 2012
+
+Waivers
+
+238KB
+
+15/07/2012
+
+ASX Listing Rule Waivers: July 1-15, 2012
+
+Waivers
+
+197KB
+
+30/06/2012
+
+ASX Listing Rule Waivers: June 16-30, 2012
+
+Waivers
+
+259KB
+
+15/06/2012
+
+ASX Listing Rule Waivers: June 1-15, 2012
+
+Waivers
+
+2MB
+
+31/05/2012
+
+ASX Listing Rule Waivers: May 16-31, 2012
+
+Waivers
+
+1MB
+
+15/05/2012
+
+ASX Listing Rule Waivers: May 1-15, 2012
+
+Waivers
+
+1MB
+
+30/04/2012
+
+ASX Listing Rule Waivers: April 16-30, 2012
+
+Waivers
+
+900KB
+
+15/04/2012
+
+ASX Listing Rule Waivers: April 1-15, 2012
+
+Waivers
+
+1MB
+
+31/03/2012
+
+ASX Listing Rule Waivers: March 16-31, 2012
+
+Waivers
+
+1MB
+
+15/03/2012
+
+ASX Listing Rule Waivers: March 1-15, 2012
+
+Waivers
+
+1023KB
+
+29/02/2012
+
+ASX Listing Rule Waivers: February 16-29, 2012
+
+Waivers
+
+1MB
+
+15/02/2012
+
+ASX Listing Rule Waivers: February 1-15, 2012
+
+Waivers
+
+778KB
+
+31/01/2012
+
+ASX Listing Rule Waivers: January 16-31, 2012
+
+Waivers
+
+952KB
+
+15/01/2012
+
+ASX Listing Rule Waivers: January 1-15, 2012
+
+Waivers
+
+780KB
+
+31/12/2011
+
+ASX Listing Rule Waivers: December 16-31, 2011
+
+Waivers
+
+669KB
+
+15/12/2011
+
+ASX Listing Rule Waivers: December 1-15, 2011
+
+Waivers
+
+2MB
+
+30/11/2011
+
+ASX Listing Rule Waivers: November 16-30, 2011
+
+Waivers
+
+2MB
+
+15/11/2011
+
+ASX Listing Rule Waivers: November 1-15, 2011
+
+Waivers
+
+1MB
+
+31/10/2011
+
+ASX Listing Rule Waivers: October 16-31, 2011
+
+Waivers
+
+2MB
+
+15/10/2011
+
+ASX Listing Rule Waivers: October 1-15, 2011
+
+Waivers
+
+2MB
+
+30/09/2011
+
+ASX Listing Rule Waivers: September 16-30, 2011
+
+Waivers
+
+4MB
+
+15/09/2011
+
+ASX Listing Rule Waivers: September 1-15, 2011
+
+Waivers
+
+2MB
+
+31/08/2011
+
+ASX Listing Rule Waivers: August 16-31, 2011
+
+Waivers
+
+1MB
+
+15/08/2011
+
+ASX Listing Rule Waivers: August 1-15, 2011
+
+Waivers
+
+1MB
+
+31/07/2011
+
+ASX Listing Rule Waivers: July 16-31, 2011
+
+Waivers
+
+1MB
+
+15/07/2011
+
+ASX Listing Rule Waivers: July 1-15, 2011
+
+Waivers
+
+1MB
+
+30/06/2011
+
+ASX Listing Rule Waivers: June 16-30, 2011
+
+Waivers
+
+1MB
+
+15/06/2011
+
+ASX Listing Rule Waivers: June 1-15, 2011
+
+Waivers
+
+1MB
+
+31/05/2011
+
+ASX Listing Rule Waivers: May 16-31, 2011
+
+Waivers
+
+1MB
+
+15/05/2011
+
+ASX Listing Rule Waivers: May 1-15, 2011
+
+Waivers
+
+1MB
+
+30/04/2011
+
+ASX Listing Rule Waivers: April 16-30, 2011
+
+Waivers
+
+620KB
+
+15/04/2011
+
+ASX Listing Rule Waivers: April 1-15, 2011
+
+Waivers
+
+1MB
+
+31/03/2011
+
+ASX Listing Rule Waivers: March 16-31, 2011
+
+Waivers
+
+1MB
+
+15/03/2011
+
+ASX Listing Rule Waivers: March 1-15, 2011
+
+Waivers
+
+978KB
+
+28/02/2011
+
+ASX Listing Rule Waivers: February 16-28, 2011
+
+Waivers
+
+1MB
+
+15/02/2011
+
+ASX Listing Rule Waivers: February 1-15, 2011
+
+Waivers
+
+1MB
+
+31/01/2011
+
+ASX Listing Rule Waivers: January 16-31, 2011
+
+Waivers
+
+2MB
+
+15/01/2011
+
+ASX Listing Rule Waivers: January 1-15, 2011
+
+Waivers
+
+437KB
+
+31/12/2010
+
+ASX Listing Rule Waivers: December 16-31, 2010
+
+Waivers
+
+2MB
+
+15/12/2010
+
+ASX Listing Rule Waivers: December 1-15, 2010
+
+Waivers
+
+1MB
+
+30/11/2010
+
+ASX Listing Rule Waivers: November 16-30, 2010
+
+Waivers
+
+1MB
+
+15/11/2010
+
+ASX Listing Rule Waivers: November 1-15, 2010
+
+Waivers
+
+2MB
+
+31/10/2010
+
+ASX Listing Rule Waivers: October 16-31, 2010
+
+Waivers
+
+1MB
+
+15/10/2010
+
+ASX Listing Rule Waivers: October 1-15, 2010
+
+Waivers
+
+2MB
+
+30/09/2010
+
+ASX Listing Rule Waivers: September 16-30, 2010
+
+Waivers
+
+206KB
+
+15/09/2010
+
+ASX Listing Rule Waivers: September 1-15, 2010
+
+Waivers
+
+1MB
+
+31/08/2010
+
+ASX Listing Rule Waivers: August 16-31, 2010
+
+Waivers
+
+1MB
+
+15/08/2010
+
+ASX Listing Rule Waivers: August 1-15, 2010
+
+Waivers
+
+1MB
+
+31/07/2010
+
+ASX Listing Rule Waivers: July 16-31, 2010
+
+Waivers
+
+1MB
+
+15/07/2010
+
+ASX Listing Rule Waivers: July 1-15, 2010
+
+Waivers
+
+1MB
+
+30/06/2010
+
+ASX Listing Rule Waivers: June 16-30, 2010
+
+Waivers
+
+1MB
+
+15/06/2010
+
+ASX Listing Rule Waivers: June 1-15, 2010
+
+Waivers
+
+1MB
+
+31/05/2010
+
+ASX Listing Rule Waivers: May 16-31, 2010
+
+Waivers
+
+1MB
+
+15/05/2010
+
+ASX Listing Rule Waivers: May 1-15, 2010
+
+Waivers
+
+1MB
+
+30/04/2010
+
+ASX Listing Rule Waivers: April 16-30, 2010
+
+Waivers
+
+2MB
+
+15/04/2010
+
+ASX Listing Rule Waivers: April 1-15, 2010
+
+Waivers
+
+1MB
+
+31/03/2010
+
+ASX Listing Rule Waivers: March 16-31, 2010
+
+Waivers
+
+2MB
+
+15/03/2010
+
+ASX Listing Rule Waivers: March 1-15, 2010
+
+Waivers
+
+1MB
+
+28/02/2010
+
+ASX Listing Rule Waivers: February 16-28, 2010
+
+Waivers
+
+1MB
+
+15/02/2010
+
+ASX Listing Rule Waivers: February 1-15, 2010
+
+Waivers
+
+2MB
+
+31/01/2010
+
+ASX Listing Rule Waivers: January 16-31, 2010
+
+Waivers
+
+2MB
+
+15/01/2010
+
+ASX Listing Rule Waivers: January 1-15, 2010
+
+Waivers
+
+1MB
+
+31/12/2009
+
+ASX Listing Rule Waivers: December 16-31, 2009
+
+Waivers
+
+2MB
+
+15/12/2009
+
+ASX Listing Rule Waivers: December 1-15, 2009
+
+Waivers
+
+4MB
+
+30/11/2009
+
+ASX Listing Rule Waivers: November 16-30, 2009
+
+Waivers
+
+3MB
+
+15/11/2009
+
+ASX Listing Rule Waivers: November 1-15, 2009
+
+Waivers
+
+3MB
+
+31/10/2009
+
+ASX Listing Rule Waivers: October 16-31, 2009
+
+Waivers
+
+5MB
+
+15/10/2009
+
+ASX Listing Rule Waivers: October 1-15, 2009
+
+Waivers
+
+2MB
+
+30/09/2009
+
+ASX Listing Rule Waivers: September 16-30, 2009
+
+Waivers
+
+3MB
+
+15/09/2009
+
+ASX Listing Rule Waivers: September 1-15, 2009
+
+Waivers
+
+358KB
+
+31/08/2009
+
+ASX Listing Rule Waivers: August 16-31, 2009
+
+Waivers
+
+4MB
+
+15/08/2009
+
+ASX Listing Rule Waivers: August 1-15, 2009
+
+Waivers
+
+3MB
+
+31/07/2009
+
+ASX Listing Rule Waivers: July 16-31, 2009
+
+Waivers
+
+2MB
+
+15/07/2009
+
+ASX Listing Rule Waivers: July 1-15, 2009
+
+Waivers
+
+2MB
+
+30/06/2009
+
+ASX Listing Rule Waivers: June 16-30, 2009
+
+Waivers
+
+2MB
+
+15/06/2009
+
+ASX Listing Rule Waivers: June 1-15, 2009
+
+Waivers
+
+2MB
+
+31/05/2009
+
+ASX Listing Rule Waivers: May 16-31, 2009
+
+Waivers
+
+2MB
+
+15/05/2009
+
+ASX Listing Rule Waivers: May 1-15, 2009
+
+Waivers
+
+4MB
+
+30/04/2009
+
+ASX Listing Rule Waivers: April 16-30, 2009
+
+Waivers
+
+2MB
+
+15/04/2009
+
+ASX Listing Rule Waivers: April 1-15, 2009
+
+Waivers
+
+666KB
+
+31/03/2009
+
+ASX Listing Rule Waivers: March 16-31, 2009
+
+Waivers
+
+2MB
+
+15/03/2009
+
+ASX Listing Rule Waivers: March 1-15, 2009
+
+Waivers
+
+1MB
+
+28/02/2009
+
+ASX Listing Rule Waivers: February 16-28, 2009
+
+Waivers
+
+1MB
+
+15/02/2009
+
+ASX Listing Rule Waivers: February 1-15, 2009
+
+Waivers
+
+1MB
+
+31/01/2009
+
+ASX Listing Rule Waivers: January 16-31, 2009
+
+Waivers
+
+1MB
+
+15/01/2009
+
+ASX Listing Rule Waivers: January 1-15, 2009
+
+Waivers
+
+1MB
+
+31/12/2008
+
+ASX Listing Rule Waivers: December 16-31, 2008
+
+Waivers
+
+1MB
+
+15/12/2008
+
+ASX Listing Rule Waivers: December 1-15, 2008
+
+Waivers
+
+1MB
+
+30/11/2008
+
+ASX Listing Rule Waivers: November 16-30, 2008
+
+Waivers
+
+1MB
+
+15/11/2008
+
+ASX Listing Rule Waivers: November 1-15, 2008
+
+Waivers
+
+3MB
+
+31/10/2008
+
+ASX Listing Rule Waivers: October 16-31, 2008
+
+Waivers
+
+2MB
+
+15/10/2008
+
+ASX Listing Rule Waivers: October 1-15, 2008
+
+Waivers
+
+1MB
+
+30/09/2008
+
+ASX Listing Rule Waivers: September 16-30, 2008
+
+Waivers
+
+777KB
+
+15/09/2008
+
+ASX Listing Rule Waivers: September 1-15, 2008
+
+Waivers
+
+1MB
+
+31/08/2008
+
+ASX Listing Rule Waivers: August 16-31, 2008
+
+Waivers
+
+1MB
+
+15/08/2008
+
+ASX Listing Rule Waivers: August 1-15, 2008
+
+Waivers
+
+1MB
+
+31/07/2008
+
+ASX Listing Rule Waivers: July 16-31, 2008
+
+Waivers
+
+2MB
+
+15/07/2008
+
+ASX Listing Rule Waivers: July 1-15, 2008
+
+Waivers
+
+1MB
+
+30/06/2008
+
+ASX Listing Rule Waivers: June 16-30, 2008
+
+Waivers
+
+1MB
+
+15/06/2008
+
+ASX Listing Rule Waivers: June 1-15, 2008
+
+Waivers
+
+1MB
+
+31/05/2008
+
+ASX Listing Rule Waivers: May 16-31, 2008
+
+Waivers
+
+1MB
+
+15/05/2008
+
+ASX Listing Rule Waivers: May 1-15, 2008
+
+Waivers
+
+919KB
+
+30/04/2008
+
+ASX Listing Rule Waivers: April 16-30, 2008
+
+Waivers
+
+842KB
+
+15/04/2008
+
+ASX Listing Rule Waivers: April 1-15, 2008
+
+Waivers
+
+974KB
+
+31/03/2008
+
+ASX Listing Rule Waivers: March 16-31, 2008
+
+Waivers
+
+1MB
+
+15/03/2008
+
+ASX Listing Rule Waivers: March 1-15, 2008
+
+Waivers
+
+915KB
+
+29/02/2008
+
+ASX Listing Rule Waivers: February 16-29, 2008
+
+Waivers
+
+1MB
+
+15/02/2008
+
+ASX Listing Rule Waivers: February 1-15, 2008
+
+Waivers
+
+789KB
+
+31/01/2008
+
+ASX Listing Rule Waivers: January 16-31, 2008
+
+Waivers
+
+784KB
+
+15/01/2008
+
+ASX Listing Rule Waivers: January 1-15, 2008
+
+Waivers
+
+1MB
+
+31/12/2007
+
+ASX Listing Rule Waivers: December 16-31, 2007
+
+Waivers
+
+4MB
+
+15/12/2007
+
+ASX Listing Rule Waivers: December 01-15, 2007
+
+Waivers
+
+3MB
+
+30/11/2007
+
+ASX Listing Rule Waivers: November 16-30, 2007
+
+Waivers
+
+1MB
+
+15/11/2007
+
+ASX Listing Rule Waivers: November 01-15, 2007
+
+Waivers
+
+1MB
+
+31/10/2007
+
+ASX Listing Rule Waivers: October 16-31, 2007
+
+Waivers
+
+2MB
+
+15/10/2007
+
+ASX Listing Rule Waivers: October 01-15, 2007
+
+Waivers
+
+1MB
+
+30/09/2007
+
+ASX Listing Rule Waivers: September 16-30, 2007
+
+Waivers
+
+2MB
+
+15/09/2007
+
+ASX Listing Rule Waivers: September 01-15, 2007
+
+Waivers
+
+2MB
+
+31/08/2007
+
+ASX Listing Rule Waivers: August 16-31, 2007
+
+Waivers
+
+1MB
+
+15/08/2007
+
+ASX Listing Rule Waivers: August 01-15, 2007
+
+Waivers
+
+2MB
+
+31/07/2007
+
+ASX Listing Rule Waivers: July, 2007
+
+Waivers
+
+2MB
+
+30/06/2007
+
+ASX Listing Rule Waivers: June, 2007
+
+Waivers
+
+763KB
+
+31/05/2007
+
+ASX Listing Rule Waivers: May, 2007
+
+Waivers
+
+1MB
+
+30/04/2007
+
+ASX Listing Rule Waivers: April, 2007
+
+Waivers
+
+1MB
+
+31/03/2007
+
+ASX Listing Rule Waivers: March, 2007
+
+Waivers
+
+1MB
+
+28/02/2007
+
+ASX Listing Rule Waivers: February, 2007
+
+Waivers
+
+1MB
+
+31/01/2007
+
+ASX Listing Rule Waivers: January, 2007
+
+Waivers
+
+1MB
+
+31/12/2006
+
+ASX Listing Rule Waivers: December, 2006
+
+Waivers
+
+1MB
+
+30/11/2006
+
+ASX Listing Rule Waivers: November, 2006
+
+Waivers
+
+1MB
+
+31/10/2006
+
+ASX Listing Rule Waivers: October, 2006
+
+Waivers
+
+2MB
+
+30/09/2006
+
+ASX Listing Rule Waivers: September, 2006
+
+Waivers
+
+1MB
+
+31/08/2006
+
+ASX Listing Rule Waivers: August, 2006
+
+Waivers
+
+1MB
+
+31/07/2006
+
+ASX Listing Rule Waivers: July, 2006
+
+Waivers
+
+1MB
+
+30/06/2006
+
+ASX Listing Rule Waivers: June, 2006
+
+Waivers
+
+1MB
+
+31/05/2006
+
+ASX Listing Rule Waivers: May, 2006
+
+Waivers
+
+1MB
+
+30/04/2006
+
+ASX Listing Rule Waivers: April, 2006
+
+Waivers
+
+1MB
+
+31/03/2006
+
+ASX Listing Rule Waivers: March, 2006
+
+Waivers
+
+1MB
+
+28/02/2006
+
+ASX Listing Rule Waivers: February, 2006
+
+Waivers
+
+1MB
+
+31/01/2006
+
+ASX Listing Rule Waivers: Januray, 2006
+
+Waivers
+
+429KB
+
+31/12/2005
+
+ASX Listing Rule Waivers: December, 2005
+
+Waivers
+
+1MB
+
+30/11/2005
+
+ASX Listing Rule Waivers: November, 2005
+
+Waivers
+
+1MB
+
+31/10/2005
+
+ASX Listing Rule Waivers: October, 2005
+
+Waivers
+
+1MB
+
+30/09/2005
+
+ASX Listing Rule Waivers: September, 2005
+
+Waivers
+
+2MB
+
+31/08/2005
+
+ASX Listing Rule Waivers: August, 2005
+
+Waivers
+
+1MB
+
+31/07/2005
+
+ASX Listing Rule Waivers: July, 2005
+
+Waivers
+
+1MB
+
+30/06/2005
+
+ASX Listing Rule Waivers: June, 2005
+
+Waivers
+
+1MB
+
+31/05/2005
+
+ASX Listing Rule Waivers: May, 2005
+
+Waivers
+
+918KB
+
+30/04/2005
+
+ASX Listing Rule Waivers: March, 2005
+
+Waivers
+
+1MB
+
+01/03/2005
+
+ASX Listing Rule Waivers: February, 2005
+
+Waivers
+
+479KB
+
+01/03/2005
+
+About us
+
+About ASX
+
+ASX shareholders
+
+Our Board
+
+Corporate governance
+
+Sustainability
+
+Media centre
+
+Careers
+
+Important information
+
+Rules, guidance notes and waivers
+
+ASX Supervision
+
+ASX regulatory framework
+
+Consultations & policy submissions
+
+Cash Equity Clearing and Settlement (CS) services rules and code of practice
+
+Support and insights
+
+Contact us
+
+Frequently asked questions
+
+Latest insights
+
+Subscribe to newsletters
+
+ASX acknowledges the Traditional Owners of Country throughout Australia. We pay our respects to Elders past and present.
+Artwork by: Lee Anne Hall, My Country, My People
+
+Terms of use
+
+Privacy statement
+
+Security and fraud
+
+
+
+==== LINKS ====
+ASX --> --> -> https://www.asx.com.au/content/asx/home.html
+ASX Sharemarket Game -> https://myasx.asx.com.au/home/login.do
+ASX Schools Sharemarket Game -> https://game.asx.com.au/game/teacher/school/2026-2
+My dashboard -> https://www.asx.com.au/content/asx/investor/dashboard.html
+My profile -> https://www.asx.com.au/content/asx/investor/profile.html
+Download Legacy Watchlist -> https://www.asx.com.au/bin/asx/beta/servlets/watchlistdownload
+{{ item.name }} {{item.marketNotificationCount}} {{item.marketNotificationCount}} -> https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/'/content/asx/investor/dashboard.html?watchlistId='+item.watchlistId+'&tab=announcements'
+{{ item.name }} -> https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/'/content/asx/investor/dashboard.html?watchlistId='+item.watchlistId+'&tab=announcements'
+ -> javascript:void(0)
+ -> https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/'/content/asx/etf.html?symbol='+item.symbol
+ -> https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/'/content/asx/company.html?symbol='+item.symbol
+ -> https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/item.url
+Markets -> https://www.asx.com.au/content/asx/home/markets.html
+Trade our cash market -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market.html
+Cash market prices -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market/equity-market-prices.html
+Today's announcements -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market/todays-announcements.html
+Historical announcements -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market/historical-announcements.html
+Company directory -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market/directory.html
+Dividend search -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market/dividend-search.html
+Australian equities trading -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market/asx-equities-trading.html
+Australian Cash Market Report -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market/australian-cash-market-report.html
+ASX Trade - platform updates -> https://www.asx.com.au/content/asx/home/markets/trade-our-cash-market/asx-trade-platform-updates.html
+Trade our derivatives market -> https://www.asx.com.au/content/asx/home/markets/trade-our-derivatives-market.html
+Derivatives market prices -> https://www.asx.com.au/content/asx/home/markets/trade-our-derivatives-market/derivatives-market-prices.html
+Futures market trading -> https://www.asx.com.au/content/asx/home/markets/trade-our-derivatives-market/futures-market.html
+Equity options market trading -> https://www.asx.com.au/content/asx/home/markets/trade-our-derivatives-market/equity-options-market-trading.html
+ASX 24 Platform Replacement Project -> https://www.asx.com.au/content/asx/home/markets/trade-our-derivatives-market/asx-24-platform-replacement-project.html
+Clearing and settlement services -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services.html
+ASX Clear -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/asx-clear.html
+ASX Clear (Futures) | Clearing and Settlements -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/asx-clear-futures.html
+ClearStar Program -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/clearstar-program.html
+OTC Clearing -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/otc-clearing.html
+ASX Settlement -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/asx-settlement.html
+Austraclear -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/austraclear.html
+ASX Collateral -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/collateral-services.html
+CHESS Project -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/chess-project.html
+Stakeholder Engagement -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/stakeholder-engagement.html
+ASX Bond and Repo Clearing -> https://www.asx.com.au/content/asx/home/markets/clearing-and-settlement-services/bond-and-repo-clearing.html
+Market resources -> https://www.asx.com.au/content/asx/home/markets/market-resources.html
+ISIN Services -> https://www.asx.com.au/content/asx/home/markets/market-resources/isin-services.html
+ASX fee schedules -> https://www.asx.com.au/content/asx/home/markets/market-resources/asx-schedule-of-fees.html
+ASX codes and descriptors -> https://www.asx.com.au/content/asx/home/markets/market-resources/asx-codes-and-descriptors.html
+Market maker arrangements -> https://www.asx.com.au/content/asx/home/markets/market-resources/market-maker-arrangements.html
+System status -> https://www.asx.com.au/content/asx/home/markets/market-resources/system-status.html
+Incident Management -> https://www.asx.com.au/content/asx/home/markets/market-resources/incident-management.html
+Trading hours and calendars -> https://www.asx.com.au/content/asx/home/markets/market-resources/trading-hours-calendar.html
+Market Notices -> https://www.asx.com.au/content/asx/home/markets/market-resources/market-notices.html
+Market volatility FAQs -> https://www.asx.com.au/content/asx/home/markets/market-resources/market-volatility-faqs.html
+Market capitalisation methodology -> https://www.asx.com.au/content/asx/home/markets/market-resources/market-capitalisation-methodology.html
+Connectivity and data -> https://www.asx.com.au/content/asx/home/connectivity-and-data.html
+Information services -> https://www.asx.com.au/content/asx/home/connectivity-and-data/information-services.html
+Price data -> https://www.asx.com.au/content/asx/home/connectivity-and-data/information-services/price-data.html
+Reference data -> https://www.asx.com.au/content/asx/home/connectivity-and-data/information-services/reference-data.html
+Company news -> https://www.asx.com.au/content/asx/home/connectivity-and-data/information-services/company-news.html
+Interest rate benchmarks -> https://www.asx.com.au/content/asx/home/connectivity-and-data/information-services/benchmarks.html
+New Original Work -> https://www.asx.com.au/content/asx/home/connectivity-and-data/information-services/new-original-work.html
+Energy data -> https://www.asx.com.au/content/asx/home/connectivity-and-data/information-services/energy-data.html
+Debt market data products -> https://www.asx.com.au/content/asx/home/connectivity-and-data/information-services/debt-market-data-products.html
+Connectivity services -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services.html
+ASX Colo OnDemand -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services/asx-colo-on-demand.html
+Australian Liquidity Centre (ALC) -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services/alc.html
+ASX Net -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services/asx-net.html
+Your office or data centre -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services/your-office-or-data-centre.html
+Public cloud providers -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services/public-cloud-providers.html
+Alternative liquidity venues -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services/alternative-liquidity-venues.html
+Global exchange hubs -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services/global-exchange-hubs.html
+Trading platforms network replacement -> https://www.asx.com.au/content/asx/home/connectivity-and-data/connectivity-services/trading-platforms-network-replacement.html
+Listings -> https://www.asx.com.au/content/asx/home/listings.html
+Why list on ASX -> https://www.asx.com.au/content/asx/home/listings/why-list-on-asx.html
+Listed Company Services -> https://www.asx.com.au/content/asx/home/issuers/listed-company-services.html
+A global leader in metals and mining -> https://www.asx.com.au/content/asx/home/listings/why-list-on-asx/metals-and-mining.html
+Listing considerations -> https://www.asx.com.au/content/asx/home/listings/listing-considerations.html
+Is listing for you? -> https://www.asx.com.au/content/asx/home/listings/listing-considerations/is-listing-for-you.html
+Listing requirements -> https://www.asx.com.au/content/asx/home/listings/listing-considerations/listing-requirements.html
+The listing process -> https://www.asx.com.au/content/asx/home/listings/listing-considerations/the-listing-process.html
+Listing fees -> https://www.asx.com.au/content/asx/home/listings/listing-considerations/listing-fees.html
+Guides, rules and resources -> https://www.asx.com.au/content/asx/home/listings/listing-considerations/guides-rules-and-resources.html
+Resources -> https://www.asx.com.au/content/asx/home/listings/resources.html
+Upcoming listings -> https://www.asx.com.au/content/asx/home/listings/upcoming-floats-and-listings.html
+Listed@ASX -> https://www.asx.com.au/content/asx/home/blog/listed-at-asx.html
+Issuers -> https://www.asx.com.au/content/asx/home/issuers.html
+Investment products -> https://www.asx.com.au/content/asx/home/issuers/investment-products.html
+Issuing investment products -> https://www.asx.com.au/content/asx/home/issuers/investment-products/issuing-investment-products.html
+Benefits and considerations -> https://www.asx.com.au/content/asx/home/issuers/investment-products/benefits-and-considerations.html
+Product options -> https://www.asx.com.au/content/asx/home/issuers/investment-products/product-options.html
+How to issue -> https://www.asx.com.au/content/asx/home/issuers/investment-products/how-to-issue.html
+ASX investment products monthly report -> https://www.asx.com.au/content/asx/home/issuers/investment-products/asx-investment-products-monthly-report.html
+Debt securities -> https://www.asx.com.au/content/asx/home/issuers/debt-securities.html
+Issuing debt securities -> https://www.asx.com.au/content/asx/home/issuers/debt-securities/issuing-debt-securities.html
+Listing and quoting debt securities -> https://www.asx.com.au/content/asx/home/issuers/debt-securities/listed-debt-securities.html
+Issuer Services -> https://www.asx.com.au/content/asx/home/issuers/issuer-services.html
+Our services -> https://www.asx.com.au/content/asx/home/issuers/issuer-services/our-services.html
+Issuer Services tools and resources -> https://www.asx.com.au/content/asx/home/issuers/issuer-services/tools-and-resources.html
+Issuer Services pricing calculator -> https://www.asx.com.au/content/asx/home/issuers/issuer-services/pricing-calculator.html
+CHESS Depositary Nominees Pty Limited and CHESS Depositary Interests -> https://www.asx.com.au/content/asx/home/issuers/issuer-services/cdn-and-cdi.html
+Investor Engagement -> https://www.asx.com.au/content/asx/home/issuers/listed-company-services/investor-engagement.html
+Education -> https://www.asx.com.au/content/asx/home/issuers/listed-company-services/education.html
+Tools and resources -> https://www.asx.com.au/content/asx/home/issuers/listed-company-services/tools-and-resources.html
+Get in touch with the Listed Company Services Team -> https://www.asx.com.au/content/asx/home/issuers/listed-company-services/contact-listed-company-services.html
+Participants -> https://www.asx.com.au/content/asx/home/participants.html
+Apply to become a participant -> https://www.asx.com.au/content/asx/home/participants/apply-to-become-a-participant.html
+Application kit -> https://www.asx.com.au/content/asx/home/participants/apply-to-become-a-participant/application-kit.html
+Participants resources -> https://www.asx.com.au/content/asx/home/participants/participants-resource.html
+Rules, guidance notes and waivers -> https://www.asx.com.au/content/asx/home/about/regulation/rules-guidance-notes-and-waivers.html
+ASX fee schedules -> https://www.asx.com.au/content/asx/home/participants/participants-resource/asx-fee-schedules.html
+Technical documentation -> https://www.asx.com.au/content/asx/home/participants/participants-resource/technical-documentation.html
+Securities lending disclosure -> https://www.asx.com.au/content/asx/home/participants/participants-resource/securities-lending-disclosure.html
+Short sales reports -> https://www.asx.com.au/content/asx/home/participants/participants-resource/short-sales-reports.html
+Participant education -> https://www.asx.com.au/content/asx/home/participants/participants-resource/participant-education.html
+Market notices -> https://www.asx.com.au/content/asx/home/participants/participants-resource/market-notices.html
+Holder management -> https://www.asx.com.au/content/asx/home/participants/participants-resource/holder-management.html
+Investors -> https://www.asx.com.au/content/asx/home/investors.html
+Start investing -> https://www.asx.com.au/content/asx/home/investors/start-investing.html
+Find a broker or adviser -> https://www.asx.com.au/content/asx/home/investors/start-investing/find-a-broker-adviser.html
+Electronic delivery of CHESS notifications -> https://www.asx.com.au/content/asx/home/investors/start-investing/electronic-delivery-of-chess-notifications.html
+Investment tools and resources -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources.html
+Frequently asked questions -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/faq.html
+Australian Investor Study -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/australian-investor-study.html
+Online courses -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/online-courses.html
+Analysis tools -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/analysis-tools.html
+Equity Research Scheme -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/broker-reports.html
+Trading games -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/trading-games.html
+ASX for financial advisers -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/financial-advisers.html
+Events -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/events.html
+Content on-demand -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/content-on-demand.html
+Brochures -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/brochures.html
+Glossary -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/glossary.html
+Participant Defaults -> https://www.asx.com.au/content/asx/home/investors/investment-tools-and-resources/faqs-company-defaults.html
+Investment options -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions.html
+Investing in Shares -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/shares.html
+Investing in A-REITs -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/a-reits.html
+Investing in Exchange Traded Products -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/etfs-and-other-etps.html
+Investing in LICs and LITs -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/lics-and-lits.html
+Investing in Hybrids -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/hybrids.html
+Investing in Bonds -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/bonds.html
+ASX Options knowledge hub -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub.html
+Investing in Warrants -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/warrants.html
+Investing in Futures -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/futures.html
+Investing in Indices -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/indices.html
+Options over International ETFs -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/options-over-etfs.html
+Options over GOLD ETF -> https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/options-over-gold-etf.html
+Compensation funds -> https://www.asx.com.au/content/asx/home/compensation-funds.html
+ASX Privacy Statement -> https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/'/content/asx/home/legals/privacy-statement.html'
+Collection Statement -> https://www.asx.com.au/about/regulation/rules-guidance-notes-and-waivers/'/content/asx/home/legals/collection-statement.html'
+Adobe Acrobat Reader -> https://get.adobe.com/reader/
+ASX Listing Rules Compliance Course -> https://www.asx.com.au/content/asx/home/about/regulation/asx-supervision/listings-supervision/asx-listing-rules-compliance-course.html
+Introduction -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/introduction.pdf
+1. Admission -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter01.pdf
+2. Quotation -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter02.pdf
+3. Continuous Disclosure -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter03.pdf
+4. Periodic Disclosure -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter04.pdf
+5. Additional reporting on mining and oil and gas production and exploration activities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter05.pdf
+6. Securities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter06.pdf
+7. Changes in capital and new issues -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter07.pdf
+8. Transfers and registration -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter08.pdf
+9. Restricted securities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter09.pdf
+10. Transactions with persons in a position of influence -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter10.pdf
+11. Significant transactions -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter11.pdf
+12. On-going requirements -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter12.pdf
+13. Additional requirements for trusts -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter13.pdf
+14. Meetings -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter14.pdf
+15. Requirements for Documents -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter15.pdf
+16. Fees -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter16.pdf
+17. Trading halts, suspension, removal -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter17.pdf
+18. Application of listing rules -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter18.pdf
+19. Interpretation and definitions -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter19.pdf
+20. Self-listing of ASX -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/rules/Chapter20.pdf
+1A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_01A.pdf
+1B -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_01B.pdf
+1C -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_01C.pdf
+2A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_02A.pdf
+3A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03A.pdf
+3A.1 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03A.01.pdf
+3A.2 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03A.02.pdf
+3A.3 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03A.03.pdf
+3A.4 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03A.04.pdf
+3A.5 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03A.05.pdf
+3A.6 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03A.06.pdf
+3B -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03B.pdf
+3C -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03C.pdf
+3G -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03G.pdf
+3H -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03H.pdf
+3X -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03X.pdf
+3Y -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03Y.pdf
+3Z -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_03Z.pdf
+4A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_04A.pdf
+Appendix 4D -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_04D.doc
+4C -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_04C.pdf
+4D -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_04D.pdf
+4E -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_04E.pdf
+4F -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_04F.pdf
+4G -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_04G.pdf
+5A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_05A.pdf
+5B -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_05B.pdf
+6A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_06A.pdf
+7A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_07A.pdf
+8A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_08A.pdf
+9A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_09A.pdf
+9B -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_09B.pdf
+9C -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_09C.pdf
+15A -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_15A.pdf
+15B -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/appendices/Appendix_15B.pdf
+1. Applying for Admission - ASX Listings -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn01-admission.pdf
+2. Stapled Securities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn02-stapled-securities.pdf
+3. Co-Operatives and Mutuals Listing on ASX -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn03-cooperatives.pdf
+4. Foreign Entities Listing on ASX -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn04-foreign-entities.pdf
+5. CHESS Depositary Interests -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn05-chess-depositary-interests.pdf
+6. Trusts -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn06-trusts.pdf
+7. US Entities - Regulation S Offerings on ASX -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn07-us-entities-regulations-offerings.pdf
+8. Continuous Disclosure: Listing Rules 3.1 - 3.1B -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn08-continuous-disclosure.pdf
+9. Disclosure of Corporate Governance Practices -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn09-disclosure-corporate-governance-practices.pdf
+10. Review of Operations and Activities: Listing Rule 4.10.17 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn10-review-of-operations-and-activities.pdf
+11. Restricted Securities and Voluntary Escrow -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn11-restricted-securities-and-voluntary-escrow.pdf
+12. Significant Changes to Activities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn12-changes-to-activities.pdf
+13. Spin-outs of Major Assets -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn13-spin-outs-of-major-assets.pdf
+14. ASX Market Announcements Platform -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn14-asx-market-announcements-platform.pdf
+15. ASX Listing Fees -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn15-listings-fees.pdf
+15A. Schedule of ASX Listing Fees -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn15a-schedule-of-listing-fees.pdf
+16. Trading Halts and Voluntary Suspensions -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn16-trading-halts.pdf
+17. Waivers and In-Principle Advice -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn17-waivers-and-in-principle-advice.pdf
+18. Market Codes and Trading Procedures -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn18-market-codes-and-trading-procedures.pdf
+19. Performance Securities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn19-performance-securities.pdf
+20. ASX Online -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn20-asx-online.pdf
+21. The Restrictions on Issuing Equity Securities in Chapter 7 of the Listing Rules -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn21-chapter-7-restrictions.pdf
+22. Director Disclosure of Interests and Transactions in Securities - Obligations of Listed Entities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn22-disclosure-of-interests.pdf
+23. Quarterly Reports -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn23-quarterly-reporting.pdf
+24. Acquisitions and Disposals of Substantial Assets Involving Persons in a Position of Influence -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn24-acquisition-and-disposal-of-assets.pdf
+25. Issues of Equity Securities to Persons in a Position of Influence -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn25-issues-of-equity-securities.pdf
+26. Management Agreements -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn26-management-agreements.pdf
+27. Trading Policies -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn27-trading-policies.pdf
+28. Reasonable Fees for Activites Covered by Listing Rule 8.14.1 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn28-transfers-and-registration.pdf
+29. Applying for Admission – ASX Debt Listings -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn29-debt-listings.pdf
+30. Notifying Changes in Issued Securities and Applying For Quotation of New or Additional Securities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn30-quotation-of-additional-securities.pdf
+31. Reporting on Mining Activities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn31-reporting-on-mining-activities.pdf
+32. Reporting on Oil & Gas Activities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn32-reporting-on-oil-gas-activities.pdf
+33. Removal of Entities from the ASX Official List -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn33-removal-of-entities.pdf
+34. Naming Conventions for Debt and Hybrid Securities -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn34-debt-and-hybrid-securities.pdf
+35. Security Holder Resolutions -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/guidance-notes/gn35-security-holder-resolutions.pdf
+ASX Listing Rule Waivers: 1-15 September 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-september-2026.pdf
+ASX Listing Rule Waivers: 16-31 August 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--16-31-august-2026.pdf
+ASX Listing Rule Waivers: 1-15 August 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-august-2026.pdf
+ASX Listing Rule Waivers: 16-31 July 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--16-31-july-2026.pdf
+ASX Listing Rule Waivers: 1-15 July 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-july-2026.pdf
+ASX Listing Rule Waivers: 16-30 June 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--16-30-june-2026.pdf
+ASX Listing Rule Waivers: 1-15 June 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-june-2026.pdf
+ASX Listing Rule Waivers: 16-31 May 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--16-31-may-2026.pdf
+ASX Listing Rule Waivers: 1-15 May 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-may-2026.pdf
+ASX Listing Rule Waivers: 16-30 April 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--16-30-april-2026.pdf
+ASX Listing Rule Waivers: 1-15 April 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-april-2026.pdf
+ASX Listing Rule Waivers: 16-31 March 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--16-31-march-2026.pdf
+ASX Listing Rule Waivers: 1-15 March 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-march-2026.pdf
+ASX Listing Rule Waivers: 16-28 February 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--16-28-february-2026.pdf
+ASX Listing Rule Waivers: 1-15 February 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-february-2026.pdf
+ASX Listing Rule Waivers: 16-31 January 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--16-31-january-2026.pdf
+ASX Listing Rule Waivers: 1-15 January 2026 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2026/asx-listing-rule-waivers--1-15-january-2026.pdf
+ASX Listing Rule Waivers: 16-31 December 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/asx-listing-rule-waivers--16-31-december-2025.pdf
+ASX Listing Rule Waivers: 1-15 December 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/asx-listing-rule-waivers--1-15-december-2025.pdf
+ASX Listing Rule Waivers: 16-30 November 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/asx-listing-rule-waivers--16-30-november-2025.pdf
+ASX Listing Rule Waivers: 1-15 November 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/asx-listing-rule-waivers--1-15-november-2025.pdf
+ASX Listing Rule Waivers: 16-31 October 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/asx-listing-rule-waivers--16-31-october-2025.pdf
+ASX Listing Rule Waivers: 1-15 October 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/asx-listing-rule-waivers--1-15-october-2025.pdf
+ASX Listing Rule Waivers: 16-30 September 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/asx-listing-rule-waivers--16-30-september-2025.pdf
+ASX Listing Rule Waivers: 1-15 September 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202509a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-31 August 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202508b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 1-15 August 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202508a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-31 July 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202507b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 1-15 July 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202507a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-30 June 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202506b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 1-15 June 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202506a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-31 May 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202505b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 1-15 May 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202505a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-30 April 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202504b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 1-15 April 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202504a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-31 March 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202503b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 1-15 March 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202503a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-28 February 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202502b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 1-15 February 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202502a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-31 January 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202501b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 1-15 January 2025 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2025/202501a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: 16-31 December, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202412b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202412a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202411b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202411a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202410b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202410a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202409b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202409a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202408b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202408a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202407b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202407a-listing-rule-waivers.pdf
+ASX Listing Rules Wavers: June 16-30, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202406b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202406a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202405b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202405a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202404b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202404a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202403b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202403a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-29, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202402b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202402a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202401b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2024 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2024/202401a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202312b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202312a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202311b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202311a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202310b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202310a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202309b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202309a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202308b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202308a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202307b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202307a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202306b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202306a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202305b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202305a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202304b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202304a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202303b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202303a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202302b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202302a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202301b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2023 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2023/202301a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202212b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202212a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202211b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202211a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202210b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202210a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202209b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202209a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202208b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202208a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202207b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202207a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202206b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202206a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202205b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202205a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202204b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202204a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202203b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202203a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202202b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202202a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202201b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2022 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2022/202201a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202112b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/2022112a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202111b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202111a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202110b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202110a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202109b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202109a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202108b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202108a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202107b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202107a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202106b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202106a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202105b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-16, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202105a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202104b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202104a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202103b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202103a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202102b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202102a-listing-ruile-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202101b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2021 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2021/202101a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202012b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202012a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202011b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202011a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202010b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202010a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202009b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202009a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202008b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202008a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202007b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202007a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202006b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202006a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202005b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202005a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202004b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202004a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202003b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202003a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-29, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202002b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202002a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/20201b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2020 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/2020/202001a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201912b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201912a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201911b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201911a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201910b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201910a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201909b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201909a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201908b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201908a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201907b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201907a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201906b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201906a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201905b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201905a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201904b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201904a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201903b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201903a-listing-rule-waivers_LR_WAIVE.pdf
+ASX Listing Rule Waivers: February 16-28, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201902b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201902a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201901b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2019 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201901a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201812bb-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201812b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201811b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201811a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201810b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201810a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2018109b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201809a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201808b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201808a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201807b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201807a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201806b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201806a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201805a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201805b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201804b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201804a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201803bb-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201803a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201803b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201802a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201801b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2018 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201801a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201712b-listing-rule-wavers.pdf
+ASX Listing Rule Waivers: December 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201712a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201711b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201711a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201710b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201710a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201709b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201709a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201708b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201708a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201707b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201707a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201706b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201706a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201705b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201705a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201704b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201704a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201703b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201703a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201702b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201702a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201701b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2017 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201701a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201612b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201612a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201611b-asx-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201611a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201610b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201610a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201609bb-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201609a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201609b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201608a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201607b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201607a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201606b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201606-a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201605a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201606a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201605b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201604a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201603b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201603a1-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-29, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201602b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201602a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201601b-listings-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2016 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201601a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201512b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201512a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201511b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201511a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201510b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201510a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201509b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201509a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201508b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201508a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201507b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201507a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201506b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201506a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201505b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201505a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201504b-listing-rule-waivesr.pdf
+ASX Listing Rule Waivers: April 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201504a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201503b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201503a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201502b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201502a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201501b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2015 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201501a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201412b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201412a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201411b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201411a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201410b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201410a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201409b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201409a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201408b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201408a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201407b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201407a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201406b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201406a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201405b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201405a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201404b-listings-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201404a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201403b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201403a-listing-rules-waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201402b-listing-rules-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201402a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201401b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2014 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201401a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201312b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201312a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201311b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201311a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201310b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201310a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201309b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201309a-asx-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201308b-listing-rules-aug13.pdf
+ASX Listing Rule Waivers: August 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201308a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201307b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201307a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201306b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/listing-rule-waivers-granted-by-asic-10.11-3.20.2-7.1-7.40.pdf
+ASX Listing Rule Waivers: June 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201306a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201305b-listings-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201305a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201304b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201304a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201303b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201303a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201302b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201302a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201301b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2013 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201301a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201212b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201212a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201211b-listing-rule-waives.pdf
+ASX Listing Rule Waivers: November 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201211a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201210b-asx-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201210a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201209b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201209a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201208b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201208a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201207b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201207a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201206b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201206a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201205b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201205a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201204b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201204a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201203b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201203a-listings-rule-waivers.pdf
+ASX Listing Rule Waivers: February 16-29, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201202b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201202a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201201b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2012 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201201a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201112b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201112a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201111b-asx-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201111a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201111b-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201110a-listing-rule-waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201109b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201109a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201108b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201108a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201107b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201107a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201106b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201106a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201105b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201105a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201104b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201104a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201103b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201103a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201102b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201102a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201101b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2011 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201101a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201012b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201012a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201011b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201011a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201010b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201010a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201010a_listing_rule_waivers%20(1).pdf
+ASX Listing Rule Waivers: September 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201009a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201008b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201008a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201007b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201007a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201006b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201006a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201005b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201005a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201004b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201004a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201003b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201003a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201002b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201002a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201001b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2010 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/201001a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200912b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200912a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200911b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200911a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200910b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200910a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200909b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200909a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200908b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200908a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200907b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200907a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200906b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200906a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200905b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200905a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200904b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200904a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200903b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200903a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February 16-28, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200902b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200902a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200901b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2009 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200901a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200812b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200812a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200811b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200811a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200810b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200810a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200809b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200809a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200808b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200808a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July 16-31, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200807b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200807a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June 16-30, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200806b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200806a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May 16-31, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200805b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200805a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April 16-30, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200804b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200804a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March 16-31, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200803b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200803a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February 16-29, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200802b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200802a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January 16-31, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200801b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January 1-15, 2008 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200801a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December 16-31, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200712b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December 01-15, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200712a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 16-30, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200711b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November 01-15, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200711a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October 16-31, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200710b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October 01-15, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200710a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September 16-30, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200709b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September 01-15, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200709a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 16-31, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200708b_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August 01-15, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200708a_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200707_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200706_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200705_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200704_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200703_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200702_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: January, 2007 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200701_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200612_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: November, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200611_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: October, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200610_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: September, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200609_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: August, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200608_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: July, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200607_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: June, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200606_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: May, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200605_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: April, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200604_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: March, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200603_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: February, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200602_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: Januray, 2006 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/200601_asx_listing_rule_waivers.pdf
+ASX Listing Rule Waivers: December, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2005_december_lr_waiver.pdf
+ASX Listing Rule Waivers: November, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2005_november_lr_waivers.pdf
+ASX Listing Rule Waivers: October, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2005_October_lr_waivers.pdf
+ASX Listing Rule Waivers: September, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2005_september_lr_waiver.pdf
+ASX Listing Rule Waivers: August, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2005_august_lr_waivers.pdf
+ASX Listing Rule Waivers: July, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2005_july_listing_rules_waivers.pdf
+ASX Listing Rule Waivers: June, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2005_june_listing_rules_waivers.pdf
+ASX Listing Rule Waivers: May, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/2005_May_Listing_Rules_Waivers.pdf
+ASX Listing Rule Waivers: March, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/20050418_LR_WAIVE.pdf
+ASX Listing Rule Waivers: February, 2005 -> https://www.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-listing-rules/waivers/archive/waivers-feb-2005.pdf
+About ASX -> https://www.asx.com.au/content/asx/home/about.html
+ASX shareholders -> https://www.asx.com.au/content/asx/home/about/asx-shareholders.html
+Our Board -> https://www.asx.com.au/content/asx/home/about/our-board-and-management.html
+Corporate governance -> https://www.asx.com.au/content/asx/home/about/corporate-governance.html
+ -> https://www.asx.com.au/content/asx/home/about/corporate-governance.html
+Sustainability -> https://www.asx.com.au/content/asx/home/about/sustainability.html
+ -> https://author-p100253-e919674.adobeaemcloud.com/content/asx/home/about/sustainability.html
+Media centre -> https://www.asx.com.au/content/asx/home/about/media-centre.html
+Careers -> https://www.asx.com.au/content/asx/home/about/careers.html
+ASX Supervision -> https://www.asx.com.au/content/asx/home/about/regulation/asx-supervision.html
+ASX regulatory framework -> https://www.asx.com.au/content/asx/home/about/regulation.html
+Consultations & policy submissions -> https://www.asx.com.au/content/asx/home/about/regulation/consultations-and-submissions.html
+Cash Equity Clearing and Settlement (CS) services rules and code of practice -> https://www.asx.com.au/content/asx/home/about/regulation/clearing-and-settlement-of-cash-equities-in-australia/cs-services-rules-and-code-of-practice.html
+Contact us -> https://www.asx.com.au/content/asx/home/about/contact-asx.html
+Latest insights -> https://www.asx.com.au/content/asx/home/blog.html
+Terms of use -> https://www.asx.com.au/content/asx/home/legals/terms-of-use.html
+Privacy statement -> https://www.asx.com.au/content/asx/home/legals/privacy-statement.html
+Security and fraud -> https://www.asx.com.au/content/asx/home/legals/security-and-fraud.html
+ -> https://www.linkedin.com/company/asx
+ -> https://twitter.com/ASX
+ -> https://www.youtube.com/user/ASXLtd
+ -> https://www.instagram.com/asx__official
+ -> https://www.facebook.com/OfficialASX

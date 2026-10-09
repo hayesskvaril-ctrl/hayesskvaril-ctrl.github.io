@@ -1,0 +1,1350 @@
+SOURCE: https://www.legislation.gov.au/F2011L02673/2025-12-05/2025-12-05/text/original/word
+FINAL URL: https://www.legislation.gov.au/F2011L02673/2025-12-05/2025-12-05/text/original/word
+FETCHED: 2026-10-09
+
+
+
+Autonomous Sanctions Regulations 2011
+Select Legislative Instrument No. 247, 2011
+made under the
+Autonomous Sanctions Act 2011
+Compilation No.  DOCPROPERTY  CompilationNumber 18
+Compilation date:	DOCPROPERTY StartDate \@ "d MMMM yyyy" \* MERGEFORMAT5 December 2025
+Includes amendments:	 DOCPROPERTY  IncludesUpTo F2025L01499
+About this compilation
+This compilation
+This is a compilation of the  STYLEREF  ShortT Autonomous Sanctions Regulations 2011 that shows the text of the law as amended and in force on  DOCPROPERTY StartDate \@ "d MMMM yyyy" 5 December 2025 (the compilation date).
+The notes at the end of this compilation (the endnotes) include information about amending laws and the amendment history of provisions of the compiled law.
+Uncommenced amendments
+The effect of uncommenced amendments is not shown in the text of the compiled law. The details of amendments made up to, but not commenced at, the compilation date are underlined in the endnotes. Any uncommenced amendments affecting the law are accessible on the Register (www.legislation.gov.au).
+Application, saving and transitional provisions
+If the operation of a provision or amendment of the compiled law is affected by an application, saving or transitional provision that is not included in this compilation, details are included in the endnotes.
+Editorial changes
+For more information about any editorial changes made in this compilation, see the endnotes.
+Presentational changes
+The Legislation Act 2003 provides for First Parliamentary Counsel to make presentational changes to a compilation. Presentational changes are applied to give a more consistent look and feel to legislation published on the Register, and enable the user to more easily navigate those documents.
+Modifications
+If the compiled law is modified by another law, the compiled law operates as modified but the modification does not amend the text of the law. Accordingly, this compilation does not show the text of the compiled law as modified. Any modifications affecting the law are accessible on the Register.
+Selfrepealing provisions
+If a provision of the compiled law has been repealed in accordance with a provision of the law, details are included in the endnotes.
+  
+  
+  
+
+Contents
+ TOC \o "1-9" Part 1—Preliminary	 PAGEREF _Toc215932092 \h 1
+1	Name of Regulations	 PAGEREF _Toc215932093 \h 1
+3	Definitions	 PAGEREF _Toc215932094 \h 1
+3A	Interpretative rule for provisions that specify both a part of a country and that country	 PAGEREF _Toc215932095 \h 6
+3B	Specified Ukraine regions	 PAGEREF _Toc215932096 \h 7
+Part 2—Autonomous sanctions	 PAGEREF _Toc215932097 \h 8
+4	Sanctioned supply	 PAGEREF _Toc215932098 \h 8
+4A	Sanctioned imports	 PAGEREF _Toc215932099 \h 10
+5	Sanctioned service	 PAGEREF _Toc215932100 \h 11
+5A	Sanctioned commercial activity—Syria	 PAGEREF _Toc215932101 \h 14
+5B	Sanctioned commercial activity—Russia	 PAGEREF _Toc215932102 \h 16
+5C	Sanctioned commercial activity—specified Ukraine regions	 PAGEREF _Toc215932103 \h 18
+5CA	Sanctioned commercial activity—DPRK	 PAGEREF _Toc215932104 \h 18
+5D	Suspension of sanctions for specified activities	 PAGEREF _Toc215932105 \h 20
+6	Countryspecific designation of persons or entities or declaration of persons	 PAGEREF _Toc215932106 \h 20
+6A	Thematic designation of persons or entities or declaration of persons	 PAGEREF _Toc215932107 \h 23
+7	Designating controlled assets	 PAGEREF _Toc215932108 \h 25
+8	Sanctioned vessels	 PAGEREF _Toc215932109 \h 25
+10	Revocation of designation under regulation 6, 6A, 7 or 8 or declaration under regulation 6 or 6A	 PAGEREF _Toc215932110 \h 26
+11	Application for revocation of designation under regulation 6, 6A, 7 or 8 or declaration under regulation 6 or 6A	 PAGEREF _Toc215932111 \h 27
+Part 3—Sanctions laws	 PAGEREF _Toc215932112 \h 28
+12	Prohibitions relating to a sanctioned supply	 PAGEREF _Toc215932113 \h 28
+12A	Prohibitions relating to sanctioned import	 PAGEREF _Toc215932114 \h 28
+13	Prohibitions relating to the provision of sanctioned services	 PAGEREF _Toc215932115 \h 29
+13A	Prohibitions relating to engaging in sanctioned commercial activity	 PAGEREF _Toc215932116 \h 29
+14	Prohibition of dealing with designated persons or entities	 PAGEREF _Toc215932117 \h 30
+15	Prohibition of dealing with controlled assets	 PAGEREF _Toc215932118 \h 30
+16	Prohibitions relating to sanctioned vessels	 PAGEREF _Toc215932119 \h 31
+17	Forfeiture of sanctioned vessels	 PAGEREF _Toc215932120 \h 32
+Part 4—Authorisations	 PAGEREF _Toc215932121 \h 33
+18	Minister may grant permits	 PAGEREF _Toc215932122 \h 33
+19	Minister may waive operation of declaration under paragraph 6(b) or 6A(1)(b), (2)(b), (4)(b), (5)(b), (8)(b) or (9)(b)	 PAGEREF _Toc215932123 \h 33
+20	Permit for assets and controlled assets	 PAGEREF _Toc215932124 \h 34
+Part 5—Dealing with assets	 PAGEREF _Toc215932125 \h 36
+21	Advance notice of listing of persons, entities and assets	 PAGEREF _Toc215932126 \h 36
+22	Consolidated list of entities, persons and assets	 PAGEREF _Toc215932127 \h 36
+23	Request to AFP for help	 PAGEREF _Toc215932128 \h 36
+24	Informing AFP of opinion about asset	 PAGEREF _Toc215932129 \h 37
+25	Protection of information	 PAGEREF _Toc215932130 \h 37
+Part 6—Miscellaneous	 PAGEREF _Toc215932131 \h 39
+25A	Review of operation of the autonomous sanctions legislative framework	 PAGEREF _Toc215932132 \h 39
+26	Delegations by Minister	 PAGEREF _Toc215932133 \h 39
+Part 7—Application, saving and transitional provisions	 PAGEREF _Toc215932134 \h 40
+27	Amendments made by the Autonomous Sanctions Amendment (Magnitskystyle and Other Thematic Sanctions) Regulations 2021	 PAGEREF _Toc215932135 \h 40
+28	Amendments made by the Autonomous Sanctions Amendment (Ukraine Regions) Regulations 2022	 PAGEREF _Toc215932136 \h 40
+29	Amendments made by the Autonomous Sanctions Amendment (Periodic Legislative Review) Regulations 2024	 PAGEREF _Toc215932137 \h 41
+Endnotes	 PAGEREF _Toc215932138 \h 42
+Endnote 1—About the endnotes	 PAGEREF _Toc215932139 \h 42
+Endnote 2—Abbreviation key	 PAGEREF _Toc215932140 \h 43
+Endnote 3—Legislation history	 PAGEREF _Toc215932141 \h 44
+Endnote 4—Amendment history	 PAGEREF _Toc215932142 \h 46
+
+Part 1—Preliminary
+  
+1  Name of Regulations
+		These Regulations are the Autonomous Sanctions Regulations 2011.
+3  Definitions
+		In these Regulations:
+Act means the Autonomous Sanctions Act 2011.
+AFP means the Australian Federal Police.
+arms or related matériel includes any of the following:
+	(a)	weapons;
+	(b)	ammunition;
+	(c)	military vehicles and equipment;
+	(d)	spare parts and accessories for the things mentioned in paragraphs (a) to (c);
+	(e)	paramilitary equipment.
+authorised commercial activity means a sanctioned commercial activity authorised by a permit granted under paragraph 18(1)(c).
+authorised import means a sanctioned import authorised by a permit granted under paragraph 18(1)(b).
+authorised service means a sanctioned service authorised by a permit granted under regulation 18.
+authorised supply means a sanctioned supply authorised by a permit granted under regulation 18.
+bribery means:
+	(a)	the promise, offering or giving, to a foreign public official, directly or indirectly, of an undue advantage, for the official or another person or entity, in order that the official act or refrain from acting in a particular way in the exercise of the official’s official duties; or
+	(b)	the solicitation or acceptance by a foreign public official, directly or indirectly, of an undue advantage, for the official or another person or entity, in order that the official act or refrain from acting in a particular way in the exercise of the official’s official duties.
+brokering services means:
+	(a)	the negotiation or arrangement of transactions for the purchase, sale or supply of goods and technology or of financial and technical services, including from a third country to any other third country; or
+	(b)	the selling or buying of goods and technology or of financial and technical services, including where they are located in third countries for their transfer to another third country.
+commencement day means the day on which these Regulations commence.
+controlled asset means an asset owned or controlled by a designated person or entity.
+correspondent banking relationship has the meaning given in section 5 of the AntiMoney Laundering and CounterTerrorism Financing Act 2006.
+corruption means:
+	(a)	bribery; or
+	(b)	misappropriation of property.
+designated asset means a controlled asset to which a designation relates under regulation 7.
+designated person or entity means a person or entity that has been designated under paragraph 6(a) or 6A(1)(a), (2)(a), (4)(a), (5)(a), (8)(a) or (9)(a).
+Note:	A person may also be declared under paragraph 6(b) or 6A(1)(b), (2)(b), (4)(b), (5)(b), (8)(b) or (9)(b) for the purpose of preventing the person from travelling to, entering or remaining in Australia.
+DPRK means the Democratic People’s Republic of Korea.
+DPRK person or entity means any of the following:
+	(a)	the government of the DPRK;
+	(b)	the Workers’ Party of Korea;
+	(c)	the Korean People’s Army;
+	(d)	a public body, corporation or agency of the DPRK;
+	(e)	an entity formed or incorporated in the DPRK;
+	(f)	an official of an entity referred to in paragraph (a), (b), (c), (d) or (e);
+	(g)	an individual who is in, or a resident of, the DPRK.
+export sanctioned goods means:
+	(a)	the goods in the table in subregulation 4(2); and
+	(b)	goods designated under subregulation 4(3).
+extractive or related industry means an industry engaged in any of the following:
+	(a)	extracting raw materials from the earth;
+	(b)	exploring or prospecting for raw materials to be extracted from the earth;
+	(c)	refining or processing raw materials extracted from the earth.
+FFRY means the former Federal Republic of Yugoslavia.
+financial institution means a natural or legal person that conducts, as a business, one or more of the following for, or on behalf of, a customer:
+	(a)	the acceptance of deposits and other repayable funds from the public;
+	(b)	the lending of money;
+	(c)	financial leasing, other than the financial leasing of a consumer product;
+	(d)	the transfer of money or value, other than the provision of message or other support for the purpose of transmitting money;
+	(e)	the issue and management of means of payment;
+	(f)	the giving of financial guarantees and commitments;
+	(g)	trading in money market instruments;
+	(h)	trading foreign exchange;
+	(i)	trading in exchange instruments;
+	(j)	trading in interest rate instruments;
+	(k)	trading in interest index instruments;
+	(l)	trading in transferable securities;
+	(m)	trading in commodity futures;
+	(n)	participation in the issue of securities and the provision of financial services in relation to the issue of securities;
+	(o)	the management of individual or collective portfolios;
+	(p)	the safekeeping and administration of cash or liquid securities;
+	(q)	the investment, administration or management of funds or money;
+	(r)	the underwriting and placement of life insurance and other insurance that is related to investments;
+	(s)	money changing and other currency changing.
+Examples of means of payment for paragraph (e):
+1	Credit and debit cards.
+2	Cheques.
+3	Travellers’ cheques.
+4	Money orders.
+5	Bankers’ drafts.
+6	Electronic money.
+financial service includes:
+	(a)	an investment service; and
+	(b)	a service providing financial advice; and
+	(c)	a brokering service; and
+	(d)	insurance; and
+	(e)	reinsurance; and
+	(f)	financial derivatives.
+foreign public official has the same meaning as in Division 70 of the Criminal Code.
+gold, precious metals and diamonds means the following items:
+	(a)	diamonds, whether or not worked, but not mounted or set;
+	(b)	silver (including silver plated with gold or platinum), unwrought or in semimanufactured forms, or in powder form;
+	(c)	gold (including gold plated with platinum), unwrought or in semimanufactured forms, or in powder form;
+	(d)	base metals or silver, clad with gold, not further worked than semimanufactured;
+	(e)	platinum, unwrought or in semimanufactured forms, or in powder form;
+	(f)	base metals, silver or gold, clad with platinum, not further worked than semimanufactured;
+	(g)	waste and scrap of:
+	(i)	precious metal; or
+	(ii)	metal clad with precious metal;
+	(h)	other waste and scrap containing precious metal or preciousmetal compounds, of a kind used principally for the recovery of precious metal.
+ICTY means the International Criminal Tribunal for the former Yugoslavia.
+immediate family member, of a person, means:
+	(a)	a spouse of the person; or
+	(b)	an adult child of the person; or
+	(c)	a spouse of an adult child of the person; or
+	(d)	a parent of the person; or
+	(e)	a brother, sister, stepbrother or stepsister of the person; or
+	(f)	a spouse of a brother, sister, stepbrother or stepsister of the person.
+import sanctioned goods means goods designated under subregulation 4A(1).
+insurance means an undertaking or commitment under which a person is obliged, in return for a payment, to provide a person, in the event of materialisation of a risk, with an indemnity or a benefit as determined by the undertaking or commitment.
+investment service means the following services and activities:
+	(a)	reception and transmission of orders in relation to one or more financial instruments;
+	(b)	execution of orders on behalf of clients;
+	(c)	dealing on own account;
+	(d)	portfolio management;
+	(e)	investment advice;
+	(f)	either or both of the following:
+	(i)	underwriting of financial instruments;
+	(ii)	placing of financial instruments on a firm commitment basis;
+	(g)	placing of financial instruments without a firm commitment basis;
+	(h)	any service in relation to the admission to trading on a regulated market or trading on a multilateral trading facility.
+misappropriation of property means the misappropriation or other diversion by a foreign public official for the official’s benefit or for the benefit of another person or entity, of any asset entrusted to the official because of the official’s position.
+moneymarket instruments means instruments, other than instruments of payment, that are normally dealt in on the money market, such as treasury bills, certificates of deposit and commercial papers.
+paramilitary equipment means any of the following:
+	(a)	batons, clubs, riot sticks and similar devices of a kind used for law enforcement purposes;
+	(b)	body armour, including:
+	(i)	bulletresistant apparel; and
+	(ii)	bulletresistant pads; and
+	(iii)	protective helmets;
+	(c)	handcuffs, leg irons and other devices used for restraining prisoners;
+	(d)	riot protection shields;
+	(e)	whips;
+	(f)	parts and accessories designed or adapted for use in, or with, equipment mentioned in paragraphs (a) to (e).
+petrochemical industry means production plants for the manufacturing of petrochemical products of a kind specified in an instrument under regulation 4A.
+reinsurance means:
+	(a)	the activity of accepting risks ceded by an insurance undertaking or by another reinsurance undertaking; or
+	(b)	for the association of underwriters known as Lloyd’s—the activity of accepting risks, ceded by any member of Lloyd’s, by an insurance or reinsurance undertaking other than the association of underwriters known as Lloyd’s.
+sanctioned commercial activity has the meaning given by regulations 5A, 5B, 5C and 5CA, but does not include an activity specified in a legislative instrument under regulation 5D.
+sanctioned import has the meaning given by regulation 4A, but does not include an activity specified in a legislative instrument under regulation 5D.
+sanctioned service has the meaning given by regulation 5, but does not include an activity specified in a legislative instrument under regulation 5D.
+sanctioned supply has the meaning given by regulation 4, but does not include an activity specified in a legislative instrument under regulation 5D.
+sanctioned vessel has the meaning given by regulation 8.
+specified Ukraine region: each of the following is a specified Ukraine region:
+	(a)	Crimea;
+	(b)	Donetsk;
+	(c)	Luhansk;
+	(d)	Sevastopol;
+	(e)	a region of Ukraine specified by the Minister under regulation 3B.
+tradeable securities means transferable securities, other than instruments of payment, that are negotiable on the capital market, including but not limited to the following:
+	(a)	shares in companies, or securities that are equivalent to shares in companies, partnerships or other entities, and depositary receipts in respect of such shares or securities;
+	(b)	bonds or other forms of securitised debt, including depositary receipts in respect of such bonds or other forms of securitised debt;
+	(c)	any other securities that give the right to acquire or sell such transferable securities, or give rise to a cash settlement.
+vessel means a vessel or boat of any description and includes a hovercraft and any floating structure, but does not include an installation.
+Note:	Other words and expressions used in these Regulations have the meaning given by section 4 of the Act, including:
+	asset
+	sanction law.
+3A  Interpretative rule for provisions that specify both a part of a country and that country
+	(1)	If both part of a country, and the country, are specified in regulation 4, 4A or 5, the following rules apply:
+	(a)	for regulation 4—goods are export sanctioned goods for the part of the country if they are export sanctioned goods for the country, but are not export sanctioned goods for the country merely because they are export sanctioned goods for the part;
+	(b)	for regulation 4A—goods are import sanctioned goods for the part of the country if they are import sanctioned goods for the country, but are not import sanctioned goods for the country merely because they are import sanctioned goods for the part;
+	(c)	for regulation 5—a service is a sanctioned service for the part of the country if it is a sanctioned service for the country, but is not a sanctioned service for the country merely because it is a sanctioned service for the part.
+	(2)	If more than one part of a country is specified in regulation 4, 4A or 5, the parts are to be considered separately (even if one part is located within the other), and the following rules apply:
+	(a)	for regulation 4—goods are not export sanctioned goods for one part merely because they are export sanctioned goods for another part;
+	(b)	for regulation 4A—goods are not import sanctioned goods for one part merely because they are import sanctioned goods for another part;
+	(c)	for regulation 5—a service is not a sanctioned service for one part merely because it is a sanctioned service for another part.
+3B  Specified Ukraine regions
+		The Minister may, by legislative instrument, specify a region of Ukraine for the purposes of paragraph (e) of the definition of specified Ukraine region.
+Part 2—Autonomous sanctions
+  
+4  Sanctioned supply
+	(1)	For these Regulations, a person makes a sanctioned supply if:
+	(a)	the person supplies, sells or transfers goods to another person; and
+	(b)	the goods are export sanctioned goods in relation to a country or part of a country; and
+	(c)	as a direct or indirect result of the supply, sale or transfer the goods are transferred:
+	(i)	to that country or part of a country; or
+	(ii)	for use in that country or part of a country; or
+	(iii)	for the benefit of that country or part of a country.
+	(2)	Goods mentioned in an item of the table are export sanctioned goods for the country or part of a country mentioned in the item.
+
+Countries or parts of countries and export sanctioned goods
+Item
+Country or part of country
+Goods
+1A
+Afghanistan
+Arms or related matériel.
+1
+A specified Ukraine region
+Items, of a kind specified by the Minister in an instrument under this regulation, relating to the creation, acquisition or development of infrastructure in one or more of the following sectors:
+(a) transport;
+(b) telecommunications;
+(c) energy;
+(d) the exploitation of oil, gas and mineral reserves in the specified Ukraine region.
+2
+Iran
+(a) Arms or related matériel.
+(e) Graphite of a kind specified by the Minister in an instrument under this regulation.
+(f) Raw metals of a kind specified by the Minister in an instrument under this regulation.
+(g) Semifinished metals of a kind specified by the Minister in an instrument under this regulation.
+(j) Software for integrating industrial processes, of a kind specified by the Minister in an instrument under this regulation.
+3
+Myanmar
+Arms or related matériel.
+3A
+Russia
+(a) Arms or related matériel.
+(b) Items, of a kind specified by the Minister in an instrument under this regulation, suited to any of the following categories of exploration and production projects in Russia, including its Exclusive Economic Zone and Continental Shelf:
+(i) oil exploration and production in waters deeper than 150 metres;
+(ii) oil exploration and production in the offshore area north of the Arctic Circle;
+(iii) projects that have the potential to produce oil from resources located in shale formations by way of hydraulic fracturing (other than exploration and production through shale formations to locate or extract oil from nonshale reservoirs).
+4
+Syria
+(a) Arms or related matériel.
+(b) Equipment and technology, for use in the construction or installation of new power plants for electricity, of a kind specified by the Minister in an instrument under this regulation.
+(c) Equipment and technology for the oil and gas industry, or the petrochemical industry, of a kind specified by the Minister in an instrument under this regulation.
+(d) Newly printed or unissued Syrian denominated bank notes or newly minted or unissued Syrian denominated coinage.
+(e) Equipment, technology or software for the monitoring or interception of internet or telephone communications, of a kind specified by the Minister in an instrument under this regulation.
+(f) Luxury goods, of a kind specified by the Minister in an instrument under this regulation.
+5
+Zimbabwe
+Arms or related matériel.
+	(3)	In addition to subregulation (2), the Minister may, by legislative instrument, designate goods as export sanctioned goods for a country or part of a country mentioned in the designation.
+Example:	Equipment or technology related to the oil and gas industry.
+	(4)	For these Regulations, a person also makes a sanctioned supply if the person supplies, sells or transfers an item of gold, precious metals and diamonds to another person and, as a direct or indirect result of the supply, sale or transfer, the goods are transferred to:
+	(c)	the government of Syria; or
+	(d)	a public body, corporation or agency of the government of Syria; or
+	(e)	a person entity or body acting on behalf or at the direction of an entity mentioned in paragraph (c) or (d); or
+	(f)	an entity or body owned or controlled by an entity mentioned in paragraph (c) or (d).
+4A  Sanctioned imports
+	(1)	For these Regulations, a person makes a sanctioned import if:
+	(a)	the person:
+	(i)	imports or purchases goods from another person; or
+	(ii)	transports goods; and
+	(b)	the goods are import sanctioned goods for a country or part of a country.
+	(2)	Goods mentioned in an item of the table are import sanctioned goods for the country or part of a country mentioned in the item if:
+	(a)	the goods are exported from the country or part of a country; or
+	(b)	the goods originate in the country or part of a country.
+
+Countries or parts of countries and sanctioned imports
+Item
+Country or part of country
+Goods
+1AA
+A specified Ukraine region
+All goods
+1A
+Russia
+Arms or related matériel
+2
+Syria
+(a) Crude oil products of a kind specified by the Minister in an instrument under this regulation
+(b) Petroleum products of a kind specified by the Minister in an instrument under this regulation
+(c) Petrochemical products of a kind specified by the Minister in an instrument under this regulation
+	(3)	In addition to subregulation (2), the Minister may, by legislative instrument, designate goods as import sanctioned goods for a country or part of a country mentioned in the designation.
+	(4)	For these Regulations, a person also makes a sanctioned import if the person imports or purchases an item of gold, precious metals and diamonds from:
+	(c)	the government of Syria; or
+	(d)	a public body, corporation or agency of the government of Syria; or
+	(e)	a person entity or body acting on behalf or at the direction of an entity mentioned in paragraph (c) or (d); or
+	(f)	an entity or body owned or controlled by an entity mentioned in paragraph (c) or (d).
+	(5)	Subregulation (2) does not include goods originating in a specified Ukraine region which have been made available to the Ukrainian authorities for examination and for which compliance with the conditions conferring entitlement to preferential origin has been verified by the Ukrainian authorities.
+5  Sanctioned service
+Services relating to a sanctioned supply
+	(1)	For these Regulations, a sanctioned service is the provision to a person of:
+	(a)	technical advice, assistance or training; or
+	(b)	financial assistance; or
+	(c)	a financial service; or
+	(d)	another service;
+if it assists with, or is provided in relation to, a sanctioned supply.
+	(1A)	Subregulation (1) does not apply to a sanctioned supply of an export sanctioned good for Russia mentioned in paragraph (b) of the column headed “Goods” of item 3A of the table in subregulation 4(2) (certain items relating to oil).
+Services relating to a sanctioned import
+	(2)	For these Regulations, a sanctioned service is also the provision to a person of:
+	(a)	financial assistance; or
+	(b)	a financial service;
+if it assists with, or is provided in relation to, a sanctioned import.
+	(2A)	Subregulation (2) does not apply to a sanctioned import of an import sanctioned good for Russia mentioned in the column headed “Goods” of item 1A of the table in subregulation 4A(2) (arms or related matériel).
+Services relating to a sanctioned commercial activity
+	(2B)	For these Regulations, a sanctioned service is also the provision to a person of an investment service if it assists with, or is provided in relation to, a sanctioned commercial activity.
+Services relating to particular countries and particular activities
+	(4)	For these Regulations, a sanctioned service is also, for a country or part of a country mentioned in an item of the following table, the provision to the country or part of a country, or a person for use in the country or part of a country, of:
+	(a)	technical advice, assistance or training; or
+	(b)	financial assistance; or
+	(c)	a financial service; or
+	(d)	another service;
+if it assists with, or is provided in relation to, an activity mentioned in the item.
+
+Countries or parts of countries and activities
+Item
+Country or part of country
+Activity
+1A
+Afghanistan
+(a) A military activity.
+(b) The manufacture, maintenance or use of an export sanctioned good for Afghanistan.
+1
+A specified Ukraine region
+(a) The manufacture, maintenance or use of an export sanctioned good for the specified Ukraine region.
+(b) Engagement in a sanctioned commercial activity for the specified Ukraine region.
+2
+Iran
+The manufacture, maintenance or use of an export sanctioned good for Iran.
+3
+Myanmar
+The manufacture, maintenance or use of an export sanctioned good for Myanmar.
+3A
+Russia
+(a) A military activity.
+(b) The manufacture, maintenance or use of an export sanctioned good for Russia mentioned in paragraph (a) of the column headed “Goods” of item 3A of the table in subregulation 4(2) (arms or related matériel).
+4
+Syria
+(a) A military activity.
+(b) The manufacture, maintenance or use of an export sanctioned good for Syria.
+5
+Zimbabwe
+(a) A military activity.
+(b) The manufacture, maintenance or use of an export sanctioned good for Zimbabwe.
+Additional services relating to Syria
+	(5)	For these Regulations, a sanctioned service is also, for an entity or person mentioned in an item of the following table, the provision to the entity or person of:
+	(a)	technical advice, assistance or training; or
+	(b)	financial assistance; or
+	(c)	a financial service; or
+	(d)	another service;
+if it assists with, or is provided in relation to, an activity involving the supply, sale, transfer, import, purchase or transport of an item of gold, precious metals and diamonds.
+
+Entities and persons
+Item
+Entity or person
+3
+The government of Syria.
+4
+A public body, corporation, or agency of the government of Syria.
+5
+A person, entity or body acting on behalf or at the direction of an entity mentioned in item 3 or 4.
+6
+An entity or body owned or controlled by an entity mentioned in any of items 3 to 5.
+Additional services relating to Russia
+	(6)	For these Regulations, a sanctioned service is also, for Russia, the provision to Russia, or to a person, entity or body for use in Russia, of a service mentioned in subregulation (7) that is necessary for any of the following categories of exploration and production projects in Russia, including its Exclusive Economic Zone and Continental Shelf:
+	(a)	oil exploration and production in waters deeper than 150 metres;
+	(b)	oil exploration and production in the offshore area north of the Arctic Circle;
+	(c)	projects that have the potential to produce oil from resources located in shale formations by way of hydraulic fracturing (other than exploration and production through shale formations to locate or extract oil from nonshale reservoirs).
+	(7)	For subregulation (6), the services are the following:
+	(a)	drilling;
+	(b)	welltesting;
+	(c)	logging and completion services;
+	(d)	supply of specialised floating vessels.
+Additional services relating to the DPRK
+	(8)	For the purposes of these Regulations, a sanctioned service is also, for the DPRK, the provision of any service to Air Koryo.
+	(9)	For the purposes of these Regulations, a sanctioned service is also, for the DPRK, the provision to a person or entity of any service that assists with, or is provided in relation to, an extractive or related industry in the DPRK.
+	(10)	For the purposes of these Regulations, a sanctioned service is also, for the DPRK, the provision to a person or entity of any service that assists with, or is provided in relation to, the creation, construction, installation, development, maintenance or decommissioning of infrastructure associated with an extractive or related industry in the DPRK.
+	(11)	For the purposes of these Regulations, a sanctioned service is also, for the DPRK, the provision to a person or entity mentioned in an item of the following table of any service that assists with, or is provided in relation to, an extractive or related industry outside the DPRK.
+
+Item
+Person or entity
+1
+A DPRK person or entity.
+2
+A person or entity acting on behalf of, or at the direction of, a DPRK person or entity.
+3
+An entity owned or controlled by a DPRK person or entity.
+5A  Sanctioned commercial activity—Syria
+	(1)	For these Regulations, sanctioned commercial activity means:
+	(a)	the acquisition by a person of an interest in an entity or a person mentioned in an item of the table; and
+	(b)	the extension by a person of an interest in an entity or a person mentioned in an item of the table; and
+	(c)	the establishment by a person of a joint venture with an entity or a person mentioned in an item of the table; and
+	(d)	participation by a person in a joint venture with an entity or a person mentioned in an item of the table (including a subsidiary of that entity or person); and
+	(e)	the granting by a person of a financial loan or credit to an entity or a person mentioned in an item of the table.
+
+Item
+Entity or person
+4
+An entity in Syria that is engaged in:
+(a) the Syrian petrochemical industry; or
+(b) any of the following sectors of the Syrian oil and gas industry:
+(i) refining of fuels;
+(ii) exploration of crude oil or natural gas;
+(iii) production crude oil or natural gas;
+(iv) liquefaction of natural gas
+5
+A Syrian entity engaged in a sector mentioned in item 4 outside Syria
+6
+A Syrianowned entity engaged in a sector mentioned in item 4 outside Syria
+7
+An entity in Syria engaged in the construction or installation of new power plants for electricity production
+	(2)	For these Regulations, sanctioned commercial activity also means:
+	(a)	the sale by a person, to an entity or a person mentioned in an item of the table, of an interest in a commercial activity in Australia in any of the following sectors of the oil and gas industry:
+	(i)	refining of fuels;
+	(ii)	exploration of crude oil and natural gas;
+	(iii)	production of crude oil and natural gas;
+	(iv)	liquefaction of natural gas; and
+	(b)	the making available by a person (otherwise than by sale), to an entity or a person mentioned in an item of the table, of an interest in a commercial activity in Australia in any of the following sectors of the oil and gas industry:
+	(i)	refining of fuels;
+	(ii)	exploration of crude oil and natural gas;
+	(iii)	production of crude oil and natural gas;
+	(iv)	liquefaction of natural gas.
+
+Item
+Entity or person
+4
+The government of Syria
+5
+Any natural person in, or resident in, Syria
+6
+An entity formed or incorporated in Syria 
+7
+An entity or person acting on behalf of an entity or a person mentioned in items 4 to 6
+8
+An entity or person acting at the direction of an entity or a person mentioned in items 4 to 6
+9
+An entity owned or controlled by a person or entity mentioned in items 4 to 6
+	(3)	For these Regulations, sanctioned commercial activity also means:
+	(a)	the opening in Australia of a representative office of an entity or person mentioned in an item of the table; and
+	(b)	the establishment in Australia of a branch or subsidiary of an entity or person mentioned in an item of the table; and
+	(c)	the conclusion by a person of an agreement, for or on behalf of an entity or person mentioned in an item of the table, related to:
+	(i)	the opening in Australia of a representative office of that entity or person; or
+	(ii)	the establishment in Australia of a branch or subsidiary of that entity or person; and
+	(d)	the acquisition or extension of an interest in an Australian financial institution by an entity or person mentioned in an item of the table; and
+	(e)	the sale by a person of an interest in an Australian financial institution to an entity or person mentioned in an item of the table; and
+	(f)	the making available by a person (other than by sale) of an interest in an Australian financial institution to an entity or person mentioned in an item of the table.
+
+Item
+Entity or person
+4
+A financial institution domiciled in Syria
+5
+A branch or a subsidiary, wherever located, of a financial institution domiciled in Syria
+6
+A financial institution, wherever domiciled, that is controlled by an entity or a person domiciled in Syria
+	(4)	For these Regulations, sanctioned commercial activity also means:
+	(a)	the establishment by a financial institution of a joint venture with an entity or person mentioned in an item of the table; and
+	(b)	the establishment by a financial institution of a correspondent banking relationship with an entity or person mentioned in an item of the table; and
+	(c)	the opening by a financial institution of a representative office in Syria; and
+	(d)	the establishment by a financial institution of a branch or subsidiary in Syria; and
+	(e)	the opening by a financial institution of a bank account with an entity or person mentioned in an item of the table.
+
+Item
+Entity or person
+4
+A financial institution domiciled in Syria
+5
+A branch or a subsidiary, wherever located, of a financial institution domiciled in Syria
+6
+A financial institution, wherever domiciled, that is controlled by a person or entity domiciled in Syria
+5B  Sanctioned commercial activity—Russia
+	(1)	For these Regulations, sanctioned commercial activity also means the direct or indirect purchase or sale of, or any other dealing with, bonds, equity, transferable securities, money market instruments or other similar financial instruments, if the financial instrument:
+	(a)	is issued, after the commencement of this subregulation, by an entity specified in subregulation (6); and
+	(b)	has a maturity period specified by the Minister in an instrument under this regulation for the financial instrument and the entity.
+	(2)	Subregulation (1) does not apply to an activity in relation to tradeable securities or other financial instruments that:
+	(a)	is a derivative product the value of which is linked to an underlying asset of a type mentioned in subsection (1); and
+	(b)	does not involve the purchase or sale of, or any other dealing in relation to, the underlying asset.
+	(3)	For these Regulations, sanctioned commercial activity also means directly or indirectly making, or being part of any arrangement to make, loans or credit if the loan or credit:
+	(a)	is made, after the commencement of this subregulation, to an entity specified in subregulation (6); and
+	(b)	has a maturity period specified by the Minister in an instrument under this regulation for the financial instrument and the entity.
+	(4)	Subregulation (3) does not apply to loans or credit that have a specific and documented objective to provide:
+	(a)	financing for nonprohibited imports or exports of goods and nonfinancial services between Australia and Russia; or
+	(b)	emergency funding to meet the solvency and liquidity criteria for legal persons:
+	(i)	established in Australia; and
+	(ii)	whose proprietary rights are owned for more than 50% by an entity specified by the Minister in an instrument under this regulation.
+	(5)	Subregulation (3) does not apply to drawdown or disbursements made under a contract concluded before the commencement of this subregulation if:
+	(a)	all the terms and conditions of such drawdown or disbursements:
+	(i)	were agreed before the commencement of this subregulation; and
+	(ii)	have not been modified on or after the commencement of this subregulation; and
+	(b)	before the commencement of this subregulation, a contractual maturity date has been fixed for the repayment in full of all funds made available and for the cancellation of all the commitments, rights and obligations under the contract.
+	(6)	For paragraphs (1)(a) and (3)(a), the entities are the following:
+	(a)	a major financial institution, or other major institution that:
+	(i)	is incorporated, or was established, in Russia and has an explicit mandate to promote competitiveness in the Russian economy, its diversification and the encouragement of investment; and
+	(ii)	at the commencement of this subregulation, was over 50% publicly owned or controlled; and
+	(iii)	is specified by the Minister in an instrument under this regulation;
+	(b)	a body corporate or other entity that:
+	(i)	is incorporated, or was established, in Russia; and
+	(ii)	is predominantly engaged in major activities relating to the development, production, sale or export of military equipment or services; and
+	(iii)	is specified by the Minister in an instrument under this regulation;
+	(c)	a body corporate or other entity that:
+	(i)	is incorporated, or was established, in Russia; and
+	(ii)	is publicly controlled or over 50% publicly owned; and
+	(iii)	is involved in the sale or transportation of crude oil or petroleum products; and
+	(iv)	is specified by the Minister in an instrument under this regulation;
+	(d)	a body corporate or other entity that is incorporated, or was established, outside Australia and is over 50% owned by an institution, body corporate or entity referred to in paragraph (a), (b) or (c);
+	(e)	a body corporate or other entity acting on behalf of, or at the direction of, an institution, body corporate or entity referred to in paragraph (a), (b), (c) or (d).
+	(7)	In this regulation:
+terms and conditions of drawdowns and disbursements include provisions relating to:
+	(a)	the length of the repayment period for the drawdown or disbursement; and
+	(b)	the interest rate, or method of calculating the interest rate, for the drawdown or disbursement; and
+	(c)	the maximum amount for the drawdown or disbursement.
+5C  Sanctioned commercial activity—specified Ukraine regions
+	(1)	For these Regulations, sanctioned commercial activity also means:
+	(a)	the granting by a person of any financial loan or credit; or
+	(b)	the establishment by a person of a joint venture;
+relating to:
+	(c)	the creation, acquisition or development of infrastructure in any of the following sectors in a specified Ukraine region:
+	(i)	transport;
+	(ii)	telecommunications;
+	(iii)	energy; or
+	(d)	the exploitation of oil or gas, or of mineral resources specified by the Minister in an instrument under this regulation, in a specified Ukraine region.
+	(2)	For these Regulations, sanctioned commercial activity also means the acquisition or extension by a person of an interest in an enterprise that was established in a specified Ukraine region and is engaged in an activity referred to in paragraph (1)(c) or (d).
+5CA  Sanctioned commercial activity—DPRK
+	(1)	For the purposes of these Regulations, sanctioned commercial activity also means:
+	(a)	the acquisition or extension of an interest in a person or entity mentioned in an item of the following table; or
+	(b)	the establishment of, or participation in, a joint venture, partnership or other business relationship with a person or entity mentioned in an item of the following table; or
+	(c)	the granting of a financial loan or credit to a person or entity mentioned in an item of the following table.
+
+Item
+Person or entity
+1
+A person or entity, wherever located, that is engaged in an extractive or related industry in the DPRK.
+2
+A person or entity, wherever located, that is engaged in the creation, construction, installation, development, maintenance or decommissioning of infrastructure associated with an extractive or related industry in the DPRK.
+3
+A person or entity acting on behalf of, or at the direction of, a person or entity mentioned in item 1 or 2.
+4
+An entity owned or controlled by a person or entity mentioned in item 1 or 2.
+5
+A person or entity, wherever located, that:
+(a) is engaged in an extractive or related industry outside the DPRK; and
+(b) is any of the following:
+(i) a DPRK person or entity;
+(ii) a person or entity acting on behalf of, or at the direction of, a DPRK person or entity;
+(iii) an entity owned or controlled by a DPRK person or entity.
+	(2)	For the purposes of these Regulations, sanctioned commercial activity also means the sale of, or the making available of (otherwise than by sale), an interest in a commercial activity in an extractive or related industry in Australia to a person or entity mentioned in an item of the following table.
+
+Item
+Person or entity
+1
+A DPRK person or entity.
+2
+A person or entity acting on behalf of, or at the direction of, a DPRK person or entity.
+3
+An entity owned or controlled by a DPRK person or entity.
+	(3)	For the purposes of these Regulations, sanctioned commercial activity also means:
+	(a)	the obtaining of any asset that is a tenement or permission (however described) in relation to an extractive or related industry in the DPRK; or
+	(b)	the obtaining of any asset that is a tenement or permission (however described) in relation to the creation, construction, installation, development, maintenance or decommissioning of infrastructure associated with an extractive or related industry in the DPRK; or
+	(c)	the use of, dealing with or making available of any asset for the purpose of obtaining any tenement or permission (however described) in relation to an extractive or related industry in the DPRK; or
+	(d)	the use of, dealing with or making available of any asset for the purpose of obtaining any tenement or permission (however described) in relation to the creation, construction, installation, development, maintenance or decommissioning of infrastructure associated with an extractive or related industry in the DPRK.
+	(4)	For the purposes of these Regulations, sanctioned commercial activity also means:
+	(a)	the obtaining, directly or indirectly, of any tenement or permission (however described) in relation to an extractive or related industry in the DPRK from a person or entity mentioned in an item of the table in subregulation (2); or
+	(b)	the obtaining, directly or indirectly, of any tenement or permission (however described) in relation to the creation, construction, installation, development, maintenance or decommissioning of infrastructure associated with an extractive or related industry in the DPRK from a person or entity mentioned in an item of the table in subregulation (2).
+5D  Suspension of sanctions for specified activities
+		If the Minister is satisfied that it is in the national interest to do so, the Minister may, by legislative instrument, specify any of the following:
+	(a)	that an activity mentioned in regulation 4 is not a sanctioned supply;
+	(b)	that an activity mentioned in regulation 4A is not a sanctioned import;
+	(c)	that an activity mentioned in regulation 5 is not a sanctioned service;
+	(d)	that an activity mentioned in regulation 5A, 5B, 5C or 5CA is not a sanctioned commercial activity.
+6  Countryspecific designation of persons or entities or declaration of persons
+		For paragraph 10(1)(a) of the Act, the Minister may, by legislative instrument, do either or both of the following:
+	(a)	designate a person or entity mentioned in an item of the table as a designated person or entity for the country mentioned in the item;
+	(b)	declare a person mentioned in an item of the table for the purpose of preventing the person from travelling to, entering or remaining in Australia.
+
+Countries, persons and entities
+Item
+Country
+Activity
+1A
+Afghanistan
+A person or entity that the Minister is satisfied is engaging in, is responsible for or is complicit in, or has engaged in, been responsible for or been complicit in, any of the following:
+(a) the oppression of women and girls in Afghanistan;
+(b) the oppression of minority groups in Afghanistan;
+(c) the general oppression of people in Afghanistan;
+(d) undermining good governance or the rule of law in Afghanistan.
+1
+DPRK
+(a) A person or entity that the Minister is satisfied is, or has been, associated with the DPRK’s weapons of mass destruction program or missiles program.
+(b) A person or entity that the Minister is satisfied is assisting, or has assisted, in the violation, or evasion, by the DPRK of:
+(i) Resolution 825, 1540, 1695, 1718, 1874, 1887, 2087, 2094, 2270 or 2321 of the United Nations Security Council; or
+(ii) a subsequent resolution relevant to a resolution mentioned in subparagraph (i).
+2
+FFRY
+(a) A person who has been indicted for an offence by the ICTY (whether or not the person has been convicted of the offence).
+(b) A person who has been indicted for an offence within the jurisdiction of the ICTY by a domestic court in BosniaHerzegovina, Croatia or Serbia (whether or not the person has been convicted of the offence).
+(c) A person who is subject to an Interpol arrest warrant related to an offence within the jurisdiction of the ICTY.
+(d) A person who the Minister is satisfied is a supporter of the former regime of Slobodan Milosevic.
+(e) A person who is suspected of assisting a person who is:
+(i) indicted by the ICTY; and
+(ii) not currently detained by the ICTY.
+4
+Iran
+(a) A person or entity that the Minister is satisfied has contributed to, or is contributing to, Iran’s nuclear or missile programs.
+(b) A person or entity that the Minister is satisfied has assisted, or is assisting, Iran to violate:
+(i) Resolution 1737, 1747, 1803, 1929 or 2231 of the United Nations Security Council; or
+(ii) a subsequent resolution relevant to a resolution mentioned in subparagraph (i).
+(c) A person or entity that the Minister is satisfied is engaging in, is responsible for or is complicit in, or has engaged in, been responsible for or been complicit in, any of the following:
+(i) the oppression of women and girls in Iran;
+(ii) the general oppression of people in Iran;
+(iii) undermining good governance or the rule of law in Iran.
+(d) A person or entity that the Minister is satisfied is assisting, or has assisted, Iran to threaten or undermine the sovereignty or territorial integrity of another country.
+5
+Libya
+(a) A person who the Minister is satisfied was a close associate of the former Qadhafi regime.
+(b) An entity that the Minister is satisfied is under the control of one or more members of Muammar Qadhafi’s family.
+(c)	A person or entity that the Minister is satisfied has assisted, or is assisting, in the violation of:
+(i) Resolution 1970 or 1973 of the United Nations Security Council; or
+(ii) a subsequent resolution relevant to a resolution mentioned in subparagraph (i).
+(d) An immediate family member of a person mentioned in paragraph (a) or (c).
+6
+Myanmar
+(a) A former member of the State Peace and Development Council (SPDC).
+(b) A person who the Minister is satisfied is a business associate of the Myanmar military.
+(c) A current or former minister or a current or former deputy minister.
+(d) A current or former military officer of the rank of BrigadierGeneral or higher.
+(e) A senior official in any of Myanmar’s security or corrections agencies.
+(f) A current or former senior officeholder of the Union Solidarity and Development Party (USDP) or the Union Solidarity and Development Association (USDA).
+(g) A senior official or executive in a stateowned or a militaryowned enterprise.
+(ga) A current or former member of any of the following:
+(i) the State Administration Council (SAC) or any successor of that body with similar functions;
+(ii) the National Defence and Security Council (NDSC) or any successor of that body with similar functions;
+(iii) any other body that the Minister is satisfied is a key governance body of a regime controlled by the Myanmar military;
+(iv) a political party or association that the Minister is satisfied is part of, or is participating in the governance or administration of, a regime controlled by the Myanmar military.
+(h) An immediate family member of a person mentioned in any of paragraphs (a) to (ga).
+(i) An entity that the Minister is satisfied:
+(i) is owned or controlled by, or provides support (including political support) to, a regime controlled by the Myanmar military; or
+(ii) is owned or controlled by a person mentioned in any of paragraphs (a) to (ga) or by an immediate family member of such a person.
+6A
+Russia
+(a) A person or entity that the Minister is satisfied is, or has been, engaging in an activity or performing a function that is of economic or strategic significance to Russia.
+(b) A current or former Minister or senior official of the Russian Government.
+(c) An immediate family member of a person mentioned in paragraph (a) or (b).
+7
+Syria
+(a) A person or entity that the Minister is satisfied is providing support to the Syrian regime.
+(b) A person or entity that the Minister is satisfied is responsible for human rights abuses in Syria, including:
+(i) the use of violence against civilians; and
+(ii) the commission of other abuses.
+8
+Zimbabwe
+A person or entity that the Minister is satisfied is engaged in, or has engaged in, activities that seriously undermine democracy, respect for human rights and the rule of law in Zimbabwe.
+9
+Ukraine
+A person or entity that the Minister is satisfied is responsible for, or complicit in, the threat to the sovereignty and territorial integrity of Ukraine.
+6A  Thematic designation of persons or entities or declaration of persons
+Proliferation of weapons of mass destruction
+	(1)	For the purposes of paragraph 10(1)(a) of the Act, the Minister may, by legislative instrument, do either or both of the following:
+	(a)	designate a person or entity as a designated person or entity if the Minister is satisfied that the person or entity is contributing to the proliferation of weapons of mass destruction;
+	(b)	declare a person for the purpose of preventing the person from travelling to, entering or remaining in Australia if the Minister is satisfied that the person is contributing to the proliferation of weapons of mass destruction.
+Significant cyber incidents
+	(2)	For the purposes of paragraph 10(1)(a) of the Act, the Minister may, by legislative instrument, do either or both of the following:
+	(a)	designate a person or entity as a designated person or entity if the Minister is satisfied that the person or entity:
+	(i)	has caused, or attempted to cause, a significant cyber incident; or
+	(ii)	has assisted with causing, or with attempting to cause, a significant cyber incident; or
+	(iii)	has otherwise been complicit in causing, or in attempting to cause, a significant cyber incident;
+	(b)	declare a person for the purpose of preventing the person from travelling to, entering or remaining in Australia if the Minister is satisfied that the person:
+	(i)	has caused, or attempted to cause, a significant cyber incident; or
+	(ii)	has assisted with causing, or with attempting to cause, a significant cyber incident; or
+	(iii)	has otherwise been complicit in causing, or in attempting to cause, a significant cyber incident.
+	(3)	For the purposes of this regulation, in deciding whether the Minister is satisfied that a cyber incident was, or would have been, significant, the Minister may have regard to the following matters:
+	(a)	whether the conduct of the person or entity was malicious;
+	(b)	in the case of a cyber incident that has occurred—whether the incident involved any of the following:
+	(i)	actions that destroyed, degraded or rendered unavailable an essential service or critical infrastructure;
+	(ii)	actions that resulted in the loss of a person’s life, or caused serious risk of loss of a person’s life;
+	(iii)	theft of intellectual property, trade secrets or confidential business information for the purposes of gaining a competitive advantage for an entity or a commercial sector;
+	(iv)	interference with a political or governmental process, the exercise of a political right or duty, or the functions or operations of a parliament;
+	(c)	in the case of a cyber incident that has been attempted but has not occurred—whether the Minister is satisfied that, if the incident had occurred, the incident could reasonably be expected to have involved one or more of the matters mentioned in subparagraphs (b)(i) to (iv);
+	(d)	any other matters the Minister considers relevant.
+Serious violations or serious abuses of human rights
+	(4)	For the purposes of paragraph 10(1)(a) of the Act, the Minister may, by legislative instrument, do either or both of the following:
+	(a)	designate a person or entity as a designated person or entity if the Minister is satisfied that the person or entity has engaged in, has been responsible for or has been complicit in an act that constitutes a serious violation or serious abuse of a person’s:
+	(i)	right to life; or
+	(ii)	right not to be subjected to torture or to cruel, inhuman or degrading treatment or punishment; or
+	(iii)	right not to be held in slavery or servitude or right not to be required to perform forced or compulsory labour;
+	(b)	declare a person for the purpose of preventing the person from travelling to, entering or remaining in Australia if the Minister is satisfied that the person has engaged in, has been responsible for or has been complicit in an act that constitutes a serious violation or serious abuse of a person’s:
+	(i)	right to life; or
+	(ii)	right not to be subjected to torture or to cruel, inhuman or degrading treatment or punishment; or
+	(iii)	right not to be held in slavery or servitude or right not to be required to perform forced or compulsory labour.
+Serious corruption
+	(5)	For the purposes of paragraph 10(1)(a) of the Act, the Minister may, by legislative instrument, do either or both of the following:
+	(a)	designate a person or entity as a designated person or entity if the Minister is satisfied that the person or entity has engaged in, has been responsible for or has been complicit in an act of corruption that is serious;
+	(b)	declare a person for the purpose of preventing the person from travelling to, entering or remaining in Australia if the Minister is satisfied that the person has engaged in, has been responsible for or has been complicit in an act of corruption that is serious.
+	(6)	For the purposes of this regulation, in deciding whether the Minister is satisfied that an act of corruption is serious, the Minister may have regard to the following matters:
+	(a)	the status or position of the person or entity;
+	(b)	the nature, extent and impact of the conduct of the person or entity;
+	(c)	the circumstances in which that conduct occurred;
+	(d)	any other matters the Minister considers relevant.
+Conduct in whole or in part outside Australia
+	(7)	The Minister must not make a designation or a declaration under subregulation (1), (2), (4) or (5) unless the Minister is satisfied that the conduct of the person or entity concerned occurred, in whole or in part, outside Australia.
+Immediate family members
+	(8)	For the purposes of paragraph 10(1)(a) of the Act, the Minister may, by legislative instrument, do either or both of the following:
+	(a)	designate a person as a designated person or entity if the Minister is satisfied that the person is an immediate family member of a person who is covered by a designation under paragraph (4)(a) or (5)(a);
+	(b)	declare a person for the purpose of preventing the person from travelling to, entering or remaining in Australia if the Minister is satisfied that the person is an immediate family member of a person who is covered by a declaration under paragraph (4)(b) or (5)(b).
+Persons or entities obtaining financial or other benefits
+	(9)	For the purposes of paragraph 10(1)(a) of the Act, the Minister may, by legislative instrument, do either or both of the following:
+	(a)	designate a person or entity as a designated person or entity if the Minister is satisfied that the person or entity has obtained a financial or other benefit as a result of the act of another person or entity who is covered by a designation under paragraph (4)(a) or (5)(a), being the act referred to in paragraph (4)(a) or (5)(a);
+	(b)	declare a person for the purpose of preventing the person from travelling to, entering or remaining in Australia if the Minister is satisfied that the person has obtained a financial or other benefit as a result of the act of another person who is covered by a declaration under paragraph (4)(b) or (5)(b), being the act referred to in paragraph (4)(b) or (5)(b).
+7  Designating controlled assets
+		For paragraph 10(1)(b) of the Act, the Minister may, by legislative instrument, designate a controlled asset as a designated asset.
+8  Sanctioned vessels
+Designation of vessels
+	(1)	For paragraph 10(1)(b) of the Act, the Minister may, by legislative instrument:
+	(a)	designate a vessel as a sanctioned vessel for a country mentioned in the designation; or
+	(b)	designate each vessel in a class of vessels as a sanctioned vessel for a country mentioned in the designation.
+	(2)	A vessel is not required to be owned, registered or flagged by the country mentioned in the designation.
+	(3)	A sanctioned vessel does not cease to be a sanctioned vessel solely because:
+	(a)	its name is changed; or
+	(b)	the flag under which it is operated changes; or
+	(c)	its registration is changed.
+Directions to sanctioned vessels
+	(4)	The Minister may direct a sanctioned vessel to:
+	(a)	leave Australia, including by a particular route; or
+	(b)	not enter a particular port or place, or any port or place, in Australia.
+	(5)	Before giving the direction, the Minister must have regard to Australia’s obligations at international law.
+	(6)	A direction given under subregulation (4) in writing is not a legislative instrument.
+10  Revocation of designation under regulation 6, 6A, 7 or 8 or declaration under regulation 6 or 6A
+	(1)	The Minister may, by legislative instrument, revoke:
+	(a)	a designation made under paragraph 6(a) or 6A(1)(a), (2)(a), (4)(a), (5)(a), (8)(a) or (9)(a), regulation 7 or paragraph 8(1)(a) or (b); or
+	(b)	a declaration made under paragraph 6(b) or 6A(1)(b), (2)(b), (4)(b), (5)(b), (8)(b) or (9)(b).
+	(2)	The Minister may revoke a designation or declaration on the Minister’s initiative.
+	(3)	The Minister may also revoke:
+	(a)	a designation made under paragraph 6(a) or 6A(1)(a), (2)(a), (4)(a), (5)(a), (8)(a) or (9)(a); or
+	(b)	a declaration made under paragraph 6(b) or 6A(1)(b), (2)(b), (4)(b), (5)(b), (8)(b) or (9)(b);
+on application by the person or entity to which the designation or declaration relates.
+Note:	See regulation 11.
+	(4)	The Minister may also revoke a designation made under regulation 7 on application by the designated person or entity that owns or controls the designated asset to which the designation relates.
+Note:	See regulation 11.
+	(5)	The Minister may also revoke a designation made under paragraph 8(1)(a) or (b) on application by:
+	(a)	the owner of the sanctioned vessel to which the designation relates; or
+	(b)	the person who controls the sanctioned vessel to which the designation relates.
+Note:	See regulation 11.
+11  Application for revocation of designation under regulation 6, 6A, 7 or 8 or declaration under regulation 6 or 6A
+	(1)	For regulation 10:
+	(a)	a designated person or entity may apply to the Minister to revoke the designation of the person or entity; and
+	(b)	a person who has been declared under paragraph 6(b) or 6A(1)(b), (2)(b), (4)(b), (5)(b), (8)(b) or (9)(b) may apply to the Minister to revoke the declaration of the person; and
+	(c)	a person or entity that owns or controls a designated asset may apply to the Minister to revoke the designation of the asset; and
+	(d)	the owner of a sanctioned vessel may apply to the Minister to revoke the designation of the vessel; and
+	(e)	a person who controls a sanctioned vessel may apply to the Minister to revoke the designation of the vessel.
+	(2)	The application must:
+	(a)	be in writing; and
+	(b)	set out the circumstances relied upon to justify the application.
+	(3)	The Minister is not required to consider an application (the current application) by a person or entity under this regulation if the person or entity has made an application under this regulation within one year before the current application.
+Part 3—Sanctions laws
+  
+12  Prohibitions relating to a sanctioned supply
+	(1)	A person contravenes this regulation if:
+	(a)	the person makes a sanctioned supply; and
+	(b)	the sanctioned supply is not an authorised supply.
+	(1A)	Strict liability applies to the circumstance that the sanctioned supply is not in accordance with a permit under regulation 18.
+Note 1:	For strict liability, see section 6.1 of the Criminal Code.
+Note 2:	Strict liability is not imposed on an individual for any other element of an offence under section 16 of the Act that relates to a contravention of this regulation.
+	(2)	Section 15.1 of the Criminal Code applies to an offence under section 16 of the Act that relates to a contravention of this regulation.
+Note:	This has the effect that the offence has extraterritorial operation.
+	(3)	A person, whether or not in Australia, and whether or not an Australian citizen, contravenes this regulation if the person uses the services of an Australian ship or an Australian aircraft to transport export sanctioned goods in the course of, or for the purpose of, making a sanctioned supply that is not an authorised supply.
+	(4)	A body corporate contravenes this regulation if:
+	(a)	the body corporate has effective control over the actions of another body corporate or entity, wherever incorporated or situated; and
+	(b)	the other body corporate or entity makes a sanctioned supply; and
+	(c)	the sanctioned supply is not an authorised supply.
+Note:	This regulation may be specified as a sanction law by the Minister under section 6 of the Act.
+12A  Prohibitions relating to sanctioned import
+	(1)	A person contravenes this regulation if:
+	(a)	the person makes a sanctioned import; and
+	(b)	the sanctioned import is not an authorised import.
+	(1A)	Strict liability applies to the circumstance that the sanctioned import is not in accordance with a permit under regulation 18.
+Note 1:	For strict liability, see section 6.1 of the Criminal Code.
+Note 2:	Strict liability is not imposed on an individual for any other element of an offence under section 16 of the Act that relates to a contravention of this regulation.
+	(2)	Section 15.1 of the Criminal Code applies to an offence under section 16 of the Act that relates to a contravention of this regulation.
+Note:	This has the effect that the offence has extraterritorial operation.
+	(3)	A person, whether or not in Australia, and whether or not an Australian citizen, contravenes this regulation if the person uses the services of an Australian ship or an Australian aircraft to transport import sanctioned goods in the course of, or for the purpose of, making a sanctioned import that is not an authorised import.
+	(4)	A body corporate contravenes this regulation if:
+	(a)	the body corporate has effective control over the actions of another body corporate or entity, wherever incorporated or situated; and
+	(b)	the other body corporate or entity makes a sanctioned import; and
+	(c)	the sanctioned import is not an authorised import.
+Note:	This regulation may be specified as a sanction law by the Minister under section 6 of the Act.
+13  Prohibitions relating to the provision of sanctioned services
+	(1)	A person contravenes this regulation if:
+	(a)	the person provides a sanctioned service; and
+	(b)	the sanctioned service is not an authorised service; and
+	(c)	the sanctioned service is not provided in relation to an authorised supply.
+	(1A)	Strict liability applies to the circumstance that the sanctioned service is not in accordance with a permit under regulation 18.
+Note 1:	For strict liability, see section 6.1 of the Criminal Code.
+Note 2:	Strict liability is not imposed on an individual for any other element of an offence under section 16 of the Act that relates to a contravention of this regulation.
+	(2)	Section 15.1 of the Criminal Code applies to an offence under section 16 of the Act that relates to a contravention of this regulation.
+Note:	This has the effect that the offence has extraterritorial operation.
+	(3)	A body corporate contravenes this regulation if:
+	(a)	the body corporate has effective control over the actions of another body corporate or entity, wherever incorporated or situated; and
+	(b)	the other body corporate or entity provides a sanctioned service; and
+	(c)	the sanctioned service is not an authorised service; and
+	(d)	the sanctioned service is not provided in relation to an authorised supply.
+Note:	This regulation may be specified as a sanction law by the Minister under section 6 of the Act.
+13A  Prohibitions relating to engaging in sanctioned commercial activity
+	(1)	A person contravenes this regulation if:
+	(a)	the person engages in a sanctioned commercial activity; and
+	(b)	the sanctioned commercial activity is not an authorised commercial activity.
+	(1A)	Strict liability applies to the circumstance that the sanctioned commercial activity is not in accordance with a permit under regulation 18.
+Note 1:	For strict liability, see section 6.1 of the Criminal Code.
+Note 2:	Strict liability is not imposed on an individual for any other element of an offence under section 16 of the Act that relates to a contravention of this regulation.
+	(2)	Section 15.1 of the Criminal Code applies to an offence under section 16 of the Act that relates to a contravention of this regulation.
+Note:	This has the effect that the offence has extraterritorial operation.
+	(3)	A body corporate contravenes this regulation if:
+	(a)	the body corporate has effective control over the actions of another body corporate or entity, wherever incorporated or situated; and
+	(b)	the other body corporate or entity engages in a sanctioned commercial activity; and
+	(c)	the sanctioned commercial activity is not an authorised commercial activity.
+Note:	This regulation may be specified as a sanction law under the Autonomous Sanctions (Sanction Law) Declaration 2012.
+14  Prohibition of dealing with designated persons or entities
+	(1)	A person contravenes this regulation if:
+	(a)	the person directly or indirectly makes an asset available to, or for the benefit of, a designated person or entity; and
+	(b)	the making available of the asset is not authorised by a permit granted under regulation 18.
+	(1A)	Strict liability applies to the circumstance that the making available of the asset is not in accordance with a permit under regulation 18.
+Note 1:	For strict liability, see section 6.1 of the Criminal Code.
+Note 2:	Strict liability is not imposed on an individual for any other element of an offence under section 16 of the Act that relates to a contravention of this regulation.
+	(2)	Section 15.1 of the Criminal Code applies to an offence under section 16 of the Act that relates to a contravention of this regulation.
+Note 1:	This has the effect that the offence has extraterritorial operation.
+Note 2:	This regulation may be specified as a sanction law by the Minister under section 6 of the Act.
+15  Prohibition of dealing with controlled assets
+	(1)	A person contravenes this regulation if:
+	(a)	the person holds a controlled asset; and
+	(b)	the person:
+	(i)	uses or deals with the asset; or
+	(ii)	allows the asset to be used or dealt with; or
+	(iii)	facilitates the use of the asset or dealing with the asset; and
+	(c)	the use or dealing is not authorised by a permit granted under regulation 18.
+	(1A)	Strict liability applies to the circumstance that the use or dealing with the asset is not in accordance with a permit under regulation 18.
+Note 1:	For strict liability, see section 6.1 of the Criminal Code.
+Note 2:	Strict liability is not imposed on an individual for any other element of an offence under section 16 of the Act that relates to a contravention of this regulation.
+	(2)	Section 15.1 of the Criminal Code applies to an offence under section 16 of the Act that relates to a contravention of this regulation.
+Note 1:	This has the effect that the offence has extraterritorial operation.
+Note 2:	This regulation may be specified as a sanction law by the Minister under section 6 of the Act.
+16  Prohibitions relating to sanctioned vessels
+	(1)	A person contravenes this regulation if:
+	(a)	a direction is given to a sanctioned vessel under subregulation 8(4); and
+	(b)	the person engages in conduct; and
+	(c)	the conduct causes the sanctioned vessel to contravene the direction.
+	(2)	Section 15.1 of the Criminal Code applies to an offence under section 16 of the Act that relates to a contravention of this regulation.
+Note 1:	This has the effect that the offence has extraterritorial operation.
+Note 2:	This regulation may be specified as a sanction law by the Minister under section 6 of the Act.
+Exception—safety of vessel or human life
+	(3)	Subregulation (1) does not apply if the person is engaging in conduct necessary to secure the safety of the sanctioned vessel or human life.
+Note:	A defendant bears an evidential burden in relation to the matters in subregulation (3) (see subsection 13.3(3) of the Criminal Code).
+Exception—authorisation or requirement under Part IIIAAA of the Defence Act 1903
+	(4)	Subregulation (1) does not apply if the operation of the sanctioned vessel or the conduct of the person is authorised or required under Part IIIAAA of the Defence Act 1903.
+Note:	A defendant bears an evidential burden in relation to the matters in subregulation (4) (see subsection 13.3(3) of the Criminal Code).
+	(5)	It is not a defence to a prosecution for an offence against subregulation (1) that the operation of the sanctioned vessel or the conduct of the person is authorised or required under any other law.
+17  Forfeiture of sanctioned vessels
+	(1)	A sanctioned vessel is forfeited to the Commonwealth if:
+	(a)	a direction is given to the sanctioned vessel under subregulation 8(4); and
+	(b)	the sanctioned vessel contravenes the direction.
+Exception—safety of vessel or human life
+	(2)	Subregulation (1) does not apply if the contravention is necessary to secure the safety of the sanctioned vessel or human life.
+Exception—authorisation or requirement under Part IIIAAA of the Defence Act 1903
+	(3)	Subregulation (1) does not apply if the contravention is authorised or required under Part IIIAAA of the Defence Act 1903.
+Part 4—Authorisations
+  
+18  Minister may grant permits
+	(1)	The Minister may grant to a person a permit authorising:
+	(a)	the making of a sanctioned supply; or
+	(b)	the making of a sanctioned import; or
+	(c)	engaging in a sanctioned commercial activity; or
+	(d)	the provision of a sanctioned service; or
+	(e)	the making available of an asset to a person or entity that would otherwise contravene regulation 14; or
+	(f)	a use of, or a dealing with, a controlled asset.
+Note:	Section 15 of the Act applies to a permit granted by the Minister under this subregulation.
+	(2)	The Minister may grant a permit:
+	(a)	on the Minister’s initiative; or
+	(b)	on application by a person.
+	(3)	The Minister must not grant a permit unless the Minister is satisfied:
+	(a)	that it would be in the national interest to grant the permit; and
+	(b)	about any circumstance or matter required by this Part to be considered for a particular kind of permit.
+	(4)	A permit may be granted subject to conditions specified in the permit.
+19  Minister may waive operation of declaration under paragraph 6(b) or 6A(1)(b), (2)(b), (4)(b), (5)(b), (8)(b) or (9)(b)
+	(1)	This regulation applies if:
+	(a)	the Minister has declared a person under paragraph 6(b) or 6A(1)(b), (2)(b), (4)(b), (5)(b), (8)(b) or (9)(b) for the purpose of preventing the person from travelling to, entering or remaining in Australia; and
+	(b)	the person:
+	(i)	holds a visa under the Migration Act 1958; or
+	(ii)	had applied under that Act for the grant of a visa before the declaration, and the application had not been finally determined (within the meaning of that Act) before the declaration; or
+	(iii)	applies under that Act for the grant of a visa after the declaration.
+	(2)	The Minister may, in writing, waive the operation of the declaration to the extent that it would have the effect of preventing the person from travelling to, entering or remaining in Australia as would be permitted by the visa.
+	(3)	The Minister may waive the operation of the declaration only:
+	(a)	on the grounds that it would be in the national interest; or
+	(b)	on humanitarian grounds.
+	(4)	The Minister may waive the operation of the declaration subject to conditions specified in the waiver.
+	(5)	A waiver has effect:
+	(a)	for the period (if any) specified by the Minister in the waiver; or
+	(b)	in the circumstances (if any) specified by the Minister in the waiver.
+	(6)	The waiver ceases to have effect if:
+	(a)	the person fails to comply with a condition to which it is subject; or
+	(b)	the period (if any) for which it has effect ends; or
+	(c)	the circumstances in which it has effect cease to exist.
+20  Permit for assets and controlled assets
+	(1)	An application for a permit authorising the making available of an asset to a person or entity that would otherwise contravene regulation 14 must be for:
+	(a)	a basic expense dealing; or
+	(b)	a legally required dealing; or
+	(c)	a contractual dealing.
+Note:	See paragraph 18(1)(e).
+	(2)	An application for a permit authorising a use of, or a dealing with, a controlled asset must be for:
+	(a)	a basic expense dealing; or
+	(b)	a legally required dealing; or
+	(c)	a contractual dealing.
+Note:	See paragraph 18(1)(f).
+	(3)	A dealing is a basic expense dealing if:
+	(a)	it is constituted by:
+	(i)	a payment to a designated person or entity; or
+	(ii)	a payment to a person or entity acting on behalf of, or at the direction of, a designated person or entity; or
+	(iii)	a payment to an entity owned or controlled by a designated person or entity; or
+	(iv)	a use or dealing with a controlled asset; and
+	(b)	the dealing is necessary for basic expenses, including any of the following:
+	(i)	foodstuffs;
+	(ii)	rent or mortgage;
+	(iii)	medicines or medical treatment;
+	(iv)	taxes;
+	(v)	insurance premiums;
+	(vi)	public utility charges;
+	(vii)	reasonable professional fees;
+	(viii)	reimbursement of expenses associated with the provision of legal services;
+	(ix)	fees or service charges that are in accordance with a law in force in Australia for the routine holding or maintenance of frozen assets.
+	(4)	A dealing is a legally required dealing if:
+	(a)	it is constituted by:
+	(i)	a payment to a designated person or entity; or
+	(ii)	a payment to a person or entity acting on behalf of, or at the direction of, a designated person or entity; or
+	(iii)	a payment to an entity owned or controlled by a designated person or entity; or
+	(iv)	a use or dealing with a controlled asset; and
+	(b)	the dealing is necessary to satisfy a judicial, administrative or arbitral lien or judgement that was made prior to the date on which the person or entity became a designated person or entity; and
+	(c)	the dealing is not for the benefit of a designated person or entity.
+	(5)	A dealing is a contractual dealing if:
+	(a)	it is constituted by:
+	(i)	a payment to a designated person or entity; or
+	(ii)	a payment to a person or entity acting on behalf of, or at the direction of, a designated person or entity; or
+	(iii)	a payment to an entity owned or controlled by a designated person or entity; or
+	(iv)	a use or dealing with a controlled asset; and
+	(b)	the dealing is a payment:
+	(i)	to apply interest or other earnings due on accounts holding controlled assets; or
+	(ii)	required under contracts, agreements or obligations made before the date on which those accounts became accounts holding controlled assets.
+Note:	If the account into which the payment is paid is frozen under Sanctions Regulations, this payment will also be frozen once received.
+Part 5—Dealing with assets
+  
+21  Advance notice of listing of persons, entities and assets
+	(1)	The Department may give notice of a designation made under paragraph 6(a) or 6A(1)(a), (2)(a), (4)(a), (5)(a), (8)(a) or (9)(a) or regulation 7 to any person who is engaged in the business of holding, dealing in, or facilitating dealing in, assets.
+	(2)	The Department may give the notice before the designation is published.
+22  Consolidated list of entities, persons and assets
+	(1)	The Department must maintain a document that sets out:
+	(a)	all persons and entities that are currently designated persons or entities; and
+	(b)	all assets or classes of assets currently designated under regulation 8.
+	(2)	The document must contain the following information about a designated person or entity:
+	(a)	the name of the person, including any alias for the person known to the Department;
+	(b)	the name of the entity, and any registration or incorporation number or name that will facilitate the identification of the entity;
+	(c)	the date on which the person or entity was designated.
+	(3)	The document must contain the following information about a designated asset:
+	(a)	a description of the asset or class of assets;
+	(b)	the name of the designated person or entity that, owns or controls the asset;
+	(c)	the date on which the asset was designated under regulation 7.
+	(4)	The document must be made available to the public on the Department’s website.
+	(5)	The document may be consolidated with the document mentioned in regulation 40 of the Charter of the United Nations (Dealing with Assets) Regulations 2008.
+23  Request to AFP for help
+	(1)	A person who holds an asset that the person suspects is, or may be, a controlled asset may request the AFP to help the person determine whether or not the asset is owned or controlled by a designated person or entity.
+	(2)	The request must be accompanied by:
+	(a)	details of the asset; and
+	(b)	as much information about the asset (including information about the owner or controller of the asset) as is known to the person making the request.
+	(3)	The AFP must use its best endeavours to help a person who has made a request under subregulation (1).
+	(4)	As soon as practicable after receiving a request under subregulation (1), the AFP must respond in writing.
+	(5)	The response must state whether the AFP considers that:
+	(a)	it is likely that the asset is owned or controlled by a designated person or entity; or
+	(b)	it is unlikely that the asset is owned or controlled by a designated person or entity; or
+	(c)	it is unknown whether the asset is owned or controlled by a designated person or entity.
+Note:	These Regulations do not limit the obligation of:
+(a)	a cash dealer under section 16 of the Financial Transaction Reports Act 1988 to report a suspicious transaction; or
+(b)	a reporting entity under the AntiMoney Laundering and CounterTerrorism Financing Act 2006.
+24  Informing AFP of opinion about asset
+	(1)	This regulation sets out what a person who is holding an asset must do if the person forms an opinion (a notifiable opinion) that:
+	(a)	the asset is a controlled asset; or
+	(b)	the asset, having been a controlled asset, or having been previously treated by the person as a controlled asset, is not, or is no longer, a controlled asset.
+	(2)	Paragraph (1)(b) does not apply if:
+	(a)	the asset has been removed from the document mentioned in regulation 22; or
+	(b)	all designated persons and entities associated with the asset have been removed from the document.
+	(3)	As soon as practicable after a person forms a notifiable opinion, the person must inform the AFP of:
+	(a)	the asset about which the opinion was formed; and
+	(b)	as much information about the asset (including information about the owner or controller of the asset) as is known to the person; and
+	(c)	the reasons for the opinion.
+25  Protection of information
+	(1)	This regulation applies to a person who, at the time that something is done under the Act or these Regulations (a relevant action), is:
+	(a)	the Minister; or
+	(b)	the Secretary of the Department; or
+	(c)	an APS employee; or
+	(d)	an AFP employee, or a member of the Australian Federal Police, within the meaning of the Australian Federal Police Act 1979; or
+	(e)	a person who holds a controlled asset or an asset that the person suspects may be a controlled asset; or
+	(f)	a person employed by a person mentioned in paragraph (e).
+	(2)	A person to whom this regulation applies is not required:
+	(a)	to produce in a court any document that has come into the custody or control of the person in the course of, or because of, the relevant action; or
+	(b)	to divulge or communicate to a court any matter or thing that has come to the notice of the person in the course of, or because of, the relevant action;
+unless it is necessary to do so to comply with the Act or these Regulations.
+Part 6—Miscellaneous
+  
+25A  Review of operation of the autonomous sanctions legislative framework
+	(1)	The Minister must cause a review of the operation of the autonomous sanctions legislative framework to be undertaken every 5 years, starting 5 years from the commencement of this regulation.
+	(2)	Without limiting subregulation (1), each review must consider:
+	(a)	the effectiveness of the autonomous sanctions legislative framework for achieving Australia’s foreign policy objectives; and
+	(b)	whether the Act and these Regulations are appropriate for achieving the objects of the Act.
+	(3)	The persons who undertake a review must give the Minister a written report on the review within 12 months of the commencement of the review.
+	(4)	The Minister must cause a copy of the report to be tabled in each House of the Parliament within 15 sitting days of that House after the Minister receives the report.
+26  Delegations by Minister
+	(1)	The Minister may delegate the Minister’s powers and functions under these Regulations (other than this power of delegation) to:
+	(a)	the Secretary of the Department; or
+	(b)	an SES employee, or acting SES employee, in the Department.
+	(2)	The delegation must be in writing.
+	(3)	The delegate must comply with any directions of the Minister in exercising powers or functions under the delegation.
+Part 7—Application, saving and transitional provisions
+  
+27  Amendments made by the Autonomous Sanctions Amendment (Magnitskystyle and Other Thematic Sanctions) Regulations 2021
+	(1)	An instrument in force under subregulation 6(1) immediately before the commencement of this regulation continues in force on and after that commencement as if it were an instrument in force under regulation 6.
+	(2)	A designation made under paragraph 6(1)(a) before the commencement of this regulation and in force immediately before that commencement has effect on and after that commencement as if it were a designation made under paragraph 6(a).
+	(3)	A declaration made under paragraph 6(1)(b) before the commencement of this regulation and in force immediately before that commencement has effect on and after that commencement as if it were a declaration made under paragraph 6(b).
+	(4)	An instrument in force under subregulation 6(2) immediately before the commencement of this regulation continues in force on and after that commencement as if it were an instrument in force under subregulation 6A(1).
+	(5)	A designation made under paragraph 6(2)(a) before the commencement of this regulation and in force immediately before that commencement has effect on and after that commencement as if it were a designation made under paragraph 6A(1)(a).
+	(6)	A declaration made under paragraph 6(2)(b) before the commencement of this regulation and in force immediately before that commencement has effect on and after that commencement as if it were a declaration made under paragraph 6A(1)(b).
+	(7)	An instrument made under subregulation 9(3) before the commencement of this regulation, in relation to a designation or declaration, and in force immediately before that commencement, has effect on and after that commencement as if it were an instrument made under that subregulation in relation to that designation or declaration as affected by the operation of subregulation (2), (3), (5) or (6) of this regulation.
+	(8)	This regulation does not affect the day on which a designation or declaration took effect.
+28  Amendments made by the Autonomous Sanctions Amendment (Ukraine Regions) Regulations 2022
+	(1)	Subsection 3(2) of the Autonomous Sanctions (Russia, Crimea and Sevastopol) Specification 2015 (the Specification) has effect on and after the commencement of this regulation as if the reference in that subsection to “Crimea and Sevastopol” were instead a reference to “each specified Ukraine region”.
+	(2)	Subparagraph 4(a)(iii) of the Specification has effect on and after the commencement of this regulation as if the reference in that subparagraph to “Russia, Crimea or Sevastopol” were instead a reference to “Russia or a specified Ukraine region”.
+	(3)	Subsection 5(5) of the Specification has effect on and after the commencement of this regulation as if the reference in that subsection to “Crimea and Sevastopol” were instead a reference to “a specified Ukraine region”.
+29  Amendments made by the Autonomous Sanctions Amendment (Periodic Legislative Review) Regulations 2024
+	(1)	The repeal of regulation 9 made by the Autonomous Sanctions Amendment (Periodic Legislative Review) Regulations 2024 applies in relation to a designation or declaration made under these Regulations, whether it was made before, on or after the commencement of the Autonomous Sanctions Amendment (Periodic Legislative Review) Regulations 2024.
+	(2)	To avoid doubt, the repeal of regulation 9 does not affect the previous operation of a declaration made under subregulation (3) of that regulation.
+Note:	See section 7 of the Acts Interpretation Act 1901 as it applies because of paragraph 13(1)(a) of the Legislation Act 2003.
+
+Endnotes
+Endnote 1—About the endnotes
+The endnotes provide information about this compilation and the compiled law.
+The following endnotes are included in every compilation:
+Endnote 1—About the endnotes
+Endnote 2—Abbreviation key
+Endnote 3—Legislation history
+Endnote 4—Amendment history
+Abbreviation key—Endnote 2
+The abbreviation key sets out abbreviations that may be used in the endnotes.
+Legislation history and amendment history—Endnotes 3 and 4
+Amending laws are annotated in the legislation history and amendment history.
+The legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.
+The amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.
+Editorial changes
+The Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.
+If the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.
+Misdescribed amendments
+A misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003.
+If a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.
+Endnote 2—Abbreviation key
+
+ad = added or inserted
+orig = original
+am = amended
+p = page(s)
+amdt = amendment
+para = paragraph(s)/subparagraph(s)
+C[x] = Compilation No. x
+/subsubparagraph(s)
+ch = Chapter(s)
+pres = present
+cl = clause(s)
+prev = previous
+cont. = continued
+(prev…) = previously
+def = definition(s)
+pt = Part(s)
+Dict = Dictionary
+r = regulation(s)/Court rule(s)
+disallowed = disallowed by Parliament
+reloc = relocated
+div = Division(s)
+renum = renumbered
+ed = editorial change
+rep = repealed
+exp = expires/expired or ceases/ceased to have
+rs = repealed and substituted
+effect
+s = section(s)/subsection(s)
+gaz = gazette
+/rule(s)/subrule(s)/order(s)/suborder(s)
+LA = Legislation Act 2003
+sch = Schedule(s)
+LIA = Legislative Instruments Act 2003
+SLI = Select Legislative Instrument
+(md) = misdescribed amendment can be given
+SR = Statutory Rules
+effect
+sub ch = SubChapter(s)
+(md not incorp) = misdescribed amendment
+sub div = Subdivision(s)
+cannot be given effect
+sub pt = Subpart(s)
+mod = modified/modification
+underlining = whole or part not
+No. = Number(s)
+commenced or to be commenced
+Ord = Ordinance
+
+
+Endnote 3—Legislation history
+
+Number and year
+FRLI registration
+Commencement
+Application, saving and transitional provisions
+247, 2011
+14 Dec 2011 (F2011L02673)
+15 Dec 2011 (r 2)
+
+204, 2012
+20 Aug 2012 (F2012L01707)
+21 Aug 2012 (s 2)
+—
+198, 2013
+26 July 2013 (F2013L01447)
+27 July 2013 (s 2)
+—
+76, 2014
+16 June 2014 (F2014L00720)
+17 June 2014 (s 2)
+—
+157, 2014
+30 Oct 2014 (F2014L01448)
+31 Oct 2014 (s 2)
+—
+30, 2015
+30 Mar 2015 (F2015L00356)
+31 Mar 2015 (s 2)
+—
+69, 2015
+15 May 2015 (F2015L00691)
+16 May 2015 (s 2)
+—
+100, 2015
+26 June 2015 (F2015L00946)
+27 June 2015 (s 2(1) item 1)
+—
+117, 2015
+13 July 2015 (F2015L01143)
+14 July 2015 (s 2(1) item 1)
+—
+
+Name
+Registration
+Commencement
+Application, saving and transitional provisions
+Autonomous Sanctions Amendment (Iran) Regulation 2016
+29 Feb 2016 (F2016L00177)
+1 Mar 2016 (s 2(1) item 1)
+—
+Autonomous Sanctions Amendment (Democratic People’s Republic of Korea) Regulations 2017
+5 July 2017 (F2017L00880)
+Sch 1 (items 2–12): 5 Aug 2017 (s 2(1) item 3)Remainder: 6 July 2017 (s 2(1) items 1, 2)
+—
+Autonomous Sanctions Amendment (Magnitskystyle and Other Thematic Sanctions) Regulations 2021
+20 Dec 2021 (F2021L01855)
+Sch 1 (items 1–29): 21 Dec 2021 (s 2(1) item 1)
+—
+Autonomous Sanctions Amendment (Ukraine Regions) Regulations 2022
+24 Feb 2022 (F2022L00179)
+28 Mar 2022 (s 2(1) item 1)
+—
+Autonomous Sanctions Amendment (Russia) Regulations 2022
+24 Feb 2022 (F2022L00180)
+25 Feb 2022 (s 2(1) item 1)
+—
+Autonomous Sanctions Amendment (Myanmar) Regulations 2022
+4 Mar 2022 (F2022L00246)
+5 Mar 2022 (s 2(1) item 1)
+—
+Autonomous Sanctions Amendment (Iran) Regulations 2023
+7 July 2023 (F2023L00993)
+8 July 2023 (s 2(1) item 1)
+—
+Autonomous Sanctions Amendment (Periodic Legislative Review) Regulations 2024
+7 Nov 2024 (F2024L01418)
+8 Nov 2024 (s 2(1) item 1)
+—
+Autonomous Sanctions Amendment (Afghanistan) Regulations 2025
+4 Dec 2025 (F2025L01499)
+5 Dec 2025 (s 2(1) item 1)
+—
+
+Endnote 4—Amendment history
+
+Provision affected
+How affected
+Part 1
+
+r 2	
+rep LA s 48D
+r 3	
+am No 204, 2012; No 30, 2015; No 117, 2015; F2016L00177; F2017L00880; F2021L01855; F2022L00179
+r 3A	
+ad No 30, 2015
+r 3B	
+ad F2022L00179
+Part 2
+
+r 4	
+am No 204, 2012; No 198, 2013; No 157, 2014; No 30, 2015; F2016L00177; F2022L00179; F2025L01499
+r 4A	
+ad No 204, 2012
+
+am No 198, 2013; No 30, 2015; F2016L00177; F2022L00179
+r 5	
+rs No 204, 2012; No 198, 2013
+
+am No 157, 2014; No 30, 2015; No 69, 2015; F2016L00177; F2017L00880; F2022L00179
+
+ed C15
+
+am F2025L01499
+r 5A	
+ad No 204, 2012
+
+am No 30, 2015; F2016L00177
+r 5B	
+ad No 30, 2015
+
+am No 100, 2015
+r 5C	
+ad No 30, 2015
+
+am F2022L00179
+r 5CA	
+ad F2017L00880
+r 5D	
+ad No 117, 2015
+
+am F2017L00880
+r 6	
+am No 204, 2012; No 198, 2013; No 76, 2014; No 157, 2014; F2016L00177; F2017L00880; F2021L01855; F2022L00180; F2022L00246; F2023L00993; F2025L01499
+r 6A	
+ad F2021L01855
+
+am F2024L01418
+r 9	
+am F2021L01855
+
+rep F2024L01418
+r 10	
+am F2021L01855
+r 11	
+am F2021L01855
+Part 3
+
+r 12	
+am No 198, 2013
+r 12A	
+ad No 204, 2012
+
+am No 198, 2013
+r 13	
+am No 198, 2013
+r 13A	
+ad No 204, 2012
+
+am No 198, 2013
+r 14	
+am No 198, 2013
+r 15	
+am No 198, 2013
+Part 4
+
+r 18	
+am No 204, 2012
+r 19	
+am F2021L01855
+r 20	
+am No 204, 2012
+Part 5
+
+r 21	
+am F2021L01855
+Part 6
+
+s 25A	
+ad F2024L01418
+Part 7
+
+Part 7	
+ad F2021L01855
+r 27	
+ad F2021L01855
+r 28	
+ad F2022L00179
+r 29	
+ad F2024L01418
+
+
