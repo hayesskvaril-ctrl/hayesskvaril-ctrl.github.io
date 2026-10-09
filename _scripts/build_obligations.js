@@ -11,7 +11,7 @@ const D = window.GRC_BUILDER;
 require(path.join(ROOT, 'scripts/obligation-details.js'));
 const DET = window.GRC_OBLIGATION_DETAILS || {};
 const { fillHtml } = require('./facts_fill.js');   // {fact:ID} placeholders -> fact markers
-const REVIEWED = '8 October 2026';
+const REVIEWED = '9 October 2026';
 
 // regime codes and short labels, and regime groups: taken from the builder so IDs match
 const eng = fs.readFileSync(path.join(ROOT, 'scripts/grc-builder.js'), 'utf8');

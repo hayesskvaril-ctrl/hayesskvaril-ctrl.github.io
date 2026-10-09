@@ -11,7 +11,7 @@ const D = window.GRC_BUILDER;
 const { fillHtml } = require('./facts_fill.js');   // {fact:ID} placeholders -> fact markers
 require(path.join(ROOT, 'scripts/obligation-details.js'));
 const DET = window.GRC_OBLIGATION_DETAILS || {};
-const REVIEWED = '8 October 2026';
+const REVIEWED = '9 October 2026';
 const eng = fs.readFileSync(path.join(ROOT, 'scripts/grc-builder.js'), 'utf8');
 const SHORT = eval('(' + eng.match(/var SHORT = (\{[^\n]*\});/)[1] + ')');
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
