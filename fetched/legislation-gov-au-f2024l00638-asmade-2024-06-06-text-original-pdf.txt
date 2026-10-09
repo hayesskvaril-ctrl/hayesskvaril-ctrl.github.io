@@ -1,0 +1,706 @@
+SOURCE: https://www.legislation.gov.au/F2024L00638/asmade/2024-06-06/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2024L00638/asmade/2024-06-06/text/original/pdf
+FETCHED: 2026-10-09
+
+Superannuation (prudential standard)
+determination No. 4 of 2024
+Prudential Standard SPS 520 Fit and Proper
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Clare Gibney, a delegate of APRA:
+
+(a)   under subsection 34C(6) of the Superannuation Industry (Supervision) Act 1993
+      REVOKE Superannuation (prudential standard) determination No. 4 of 2013,
+      including Prudential Standard SPS 520 Fit and Proper; and
+
+(b)   under subsection 34C(1) of the Act, DETERMINE Prudential Standard SPS
+      520 Fit and Proper in the form set out in the Schedule, which applies to all RSE
+      licensees.
+
+This instrument commences on 30 June 2024.
+
+
+
+Dated: 3 June 2024
+
+
+
+Clare Gibney
+Executive Director
+Policy and Advice Division
+
+
+
+Interpretation
+In this instrument:
+APRA means the Australian Prudential Regulation Authority.
+RSE licensee has the meaning given in section 10(1) of the Act.
+
+
+
+
+                        Authorised Version F2024L00638 registered 06/06/2024
+                                                                                 June 2024
+
+
+
+
+Prudential Standard SPS 520 Fit and Proper
+Objectives and key requirements of this Prudential
+Standard
+
+This Prudential Standard sets out minimum requirements for RSE licensees in
+determining the fitness and propriety of individuals to hold positions of responsibility.
+Its objective is to ensure that an RSE licensee prudently manages the risks posed to its
+business operations by having persons acting in responsible positions who are not fit
+and proper.
+
+The ultimate responsibility for ensuring the fitness and propriety of the responsible
+persons of an RSE licensee rests with its Board of directors.
+
+Persons who are responsible for the management and oversight of an RSE licensee’s
+business operations need to have appropriate skills, experience and knowledge, and act
+with honesty and integrity. These skills and qualities strengthen the protection afforded
+to beneficiaries and other stakeholders. To this end, RSE licensees need to prudently
+manage the risk that persons in positions of responsibility might not be fit and proper.
+
+The key requirements of this Prudential Standard are:
+
+•     an RSE licensee must have and implement a Fit and Proper Policy that meets the
+      requirements of this Prudential Standard;
+•     the fitness and propriety of a responsible person must generally be assessed prior
+      to initial appointment and then re-assessed annually;
+•     an RSE licensee must take all prudent steps to ensure that a person is not
+      appointed to, or does not continue to hold, a responsible person position for which
+      they are not fit and proper;
+•     additional requirements must be met for RSE auditors and RSE actuaries; and
+•     certain information must be provided to APRA regarding responsible persons and
+      the RSE licensee’s assessment of their fitness and propriety.
+
+
+
+
+                                                                               SPS 520 –- 1
+
+                        Authorised Version F2024L00638 registered 06/06/2024
+                                                                                         June 2024
+
+
+Authority
+
+1.   This Prudential Standard is made under section 34C of the Superannuation
+     Industry (Supervision) Act 1993 (SIS Act).
+
+Application and commencement
+
+2.   This Prudential Standard applies to all registrable superannuation entity (RSE)
+     licensees (RSE licensees) under the SIS Act.1
+
+3.   All RSE licensees must comply with this Prudential Standard in its entirety,
+     unless otherwise expressly indicated.
+
+4.   This Prudential Standard specifies:
+
+     (a)    the fitness and propriety criteria for the purposes of certain provisions of
+            the SIS Act2; and
+
+     (b)    the eligibility criteria for RSE auditors and RSE actuaries for the purposes
+            of the SIS Act.3
+
+5.   This Prudential Standard commences on 30 June 2024.
+
+Interpretation
+
+6.   Where this Prudential Standard provides for APRA to exercise a power or
+     discretion, the power or discretion is to be exercised in writing.
+
+Fit and Proper Policy
+
+7.   An RSE licensee must prudently manage the risks that persons acting in
+     responsible person positions4 who are not fit and proper pose to the interests, or
+     reasonable expectations, of beneficiaries, the financial position of the RSE
+     licensee, any of its RSEs or connected entities, or in relation to any other relevant
+     prudential matter.5 To this end, an RSE licensee must have a documented policy
+
+
+
+1    ‘RSE licensee’ has the meaning given in section 10(1) of the SIS Act.
+2    Paragraph 19 sets out criteria for fitness and propriety for the purposes of sections
+     107(2)(a)(ii)(DA), 108(2)(a)(iia), 126H(6A), 130D(5A), 131AA(2A), 131A(1A) and 134(5) of
+     the SIS Act. Paragraph 21 sets out additional criteria for fitness and propriety for RSE auditors
+     for the purposes of sections 130D(5A), 130EA(2)(c), 131AA(2A) and 131A(1A) of the SIS Act.
+     Paragraph 24 sets out additional criteria for fitness and propriety for RSE actuaries for the
+     purposes of sections 130D(5A), 131AA(2A) and 131A(1A) of the SIS Act.
+3    Paragraphs 19 and 21 set out the eligibility criteria for auditors for the purposes of sections
+     35AC(2)(a), 35AC(2A)(a)(i), 35AC(6)(a), 35AC(7)(a)(i), 130D(4)(aa), 130D(4)(ab),
+     130EA(2)(b), 131AA(2)(ba) and 131A(1)(aa) of the SIS Act. Paragraphs 19 and 24 set out the
+     eligibility criteria for actuaries for the purposes of paragraphs 35AD(2)(a), 35AD(6)(a),
+     130D(4)(aa), 131AA(2)(ba) and 131A(1)(aa) of the SIS Act.
+4    Refer to paragraph 16 for the definition of responsible person position.
+5    For the purposes of this Prudential Standard, a reference to ‘beneficiaries’ is a reference to
+     ‘beneficiaries of an RSE within the RSE licensee’s business operations’, an ‘RSE licensee’s
+
+
+
+                                                                                      SPS 520 –- 2
+
+                           Authorised Version F2024L00638 registered 06/06/2024
+                                                                                              June 2024
+
+
+      relating to the fitness and propriety of its responsible persons that meets the
+      requirements of this Prudential Standard (Fit and Proper Policy).
+
+8.    The Fit and Proper Policy must be approved by the Board of an RSE licensee (the
+      Board).6
+
+9.    An RSE licensee must take all reasonable steps to ensure that each responsible
+      person is aware of, and understands, the provisions of its Fit and Proper Policy.
+
+10.   The Fit and Proper Policy must form part of an RSE licensee’s risk management
+      framework.7
+
+11.   Nothing in this Prudential Standard prevents an RSE licensee from adopting and
+      applying a group Fit and Proper Policy used by a connected entity, provided that
+      the policy has been approved by the Board in accordance with paragraph 8 and
+      meets the requirements of this Prudential Standard.
+
+Responsible persons
+
+12.   A responsible person of an RSE licensee is:
+
+      (a)    a director of the RSE licensee8;
+
+      (b)    a secretary of the RSE licensee;
+
+      (c)    a senior manager of the RSE licensee;
+
+      (d)    an individual RSE auditor or a lead auditor, appointed to conduct an audit
+             of an RSE for which the RSE licensee is trustee, or of any connected
+             entity of the RSE licensee9;
+
+      (e)    an RSE actuary who is appointed to perform an actuarial function under
+             RSE licensee law10; and
+
+      (f)    a person who performs activities for a connected entity of the RSE
+             licensee where those activities could materially affect the whole, or a
+
+
+
+
+      business operations’ includes all activities as an RSE licensee (including the activities of each
+      RSE of which it is the licensee), and all other activities of the RSE licensee to the extent that they
+      are relevant to, or may impact on, its activities as an RSE licensee and ‘connected entity’ has the
+      meaning given in section 10(1) of the SIS Act. Refer also to Part 3A of the SIS Act.
+6     For the purposes of this Prudential Standard, a reference to ‘the Board’ is a reference to the Board
+      of directors or group of individual trustees of an RSE licensee and ‘group of individual trustees’
+      has the meaning given in section 10(1) of the SIS Act.
+7     As required by Prudential Standard SPS 220 Risk Management.
+8     For the purposes of this Prudential Standard, a reference to ‘a director’ is a reference to a director
+      of an RSE licensee which has a Board of directors or, in the case of a group of individual trustees,
+      an individual trustee.
+9     ‘RSE auditor’ has the meaning given in section 10(1) of the SIS Act. ‘Lead auditor’ has the
+      meaning given in section 11F of the SIS Act.
+10    ‘RSE actuary’ and ‘RSE licensee law’ have the meaning given in section 10(1) of the SIS Act.
+
+
+                                                                                           SPS 520 –- 3
+
+                             Authorised Version F2024L00638 registered 06/06/2024
+                                                                                           June 2024
+
+
+             substantial part, of the RSE licensee’s business operations, or its financial
+             standing, either directly or indirectly.
+
+13.   A person need not be an employee of an RSE licensee to be a responsible person
+      if they are within one of the definitions in paragraph 12. In some circumstances a
+      consultant, contractor or employee of another entity may be a responsible person.
+
+14.   In addition to persons who meet the definition of a responsible person, APRA
+      may determine that a person is a responsible person if APRA is satisfied that the
+      person plays a significant role in the management or control of the RSE licensee,
+      or that the person’s activities may materially impact on the interests, or reasonable
+      expectations, of beneficiaries, or the financial position of the RSE licensee, any
+      of its RSEs or connected entities, or any other relevant prudential matter.
+
+15.   APRA may determine that a person is not a responsible person in relation to a
+      particular position, responsibility or activity if APRA is satisfied that the person
+      does not play a significant role in the management or control of the RSE licensee
+      or that the person’s activities may not materially impact on the interests, or
+      reasonable expectations, of beneficiaries, or the financial position of the RSE
+      licensee, any of its RSEs or connected entities, or any other relevant prudential
+      matter.
+
+16.   ‘Responsible person position’ means the responsibilities or activities of a
+      responsible person that would lead to the person being a responsible person within
+      one of the definitions in paragraph 12.
+
+Senior managers
+
+17.   ‘Senior manager’, in relation to an RSE licensee, means a person (other than a
+      director of the RSE licensee) who:
+
+      (a)    makes, or participates in making, decisions that affect the whole, or a
+             substantial part, of the RSE licensee’s business operations;
+
+      (b)    has the capacity to affect significantly the RSE licensee’s business
+             operations or its financial standing11;
+
+      (c)    may materially affect the whole, or a substantial part, of the RSE
+             licensee’s business operations or its financial standing through their
+             responsibility for:
+
+             (i)    enforcing policies and implementing strategies approved by the
+                    Board;
+
+
+
+
+11    Paragraphs 17(a) and (b) are intended to be interpreted consistently with the definition of ‘senior
+      manager’ (in relation to a corporation) in section 9 of the Corporations Act 2001 (Corporations
+      Act).
+
+
+                                                                                        SPS 520 –- 4
+
+                            Authorised Version F2024L00638 registered 06/06/2024
+                                                                                          June 2024
+
+
+             (ii)   the development and implementation of systems used to identify,
+                    assess, manage or monitor risks in relation to the RSE licensee’s
+                    business operations; or
+
+             (iii) monitoring the appropriateness, adequacy and effectiveness of risk
+                   management frameworks; or
+
+      (d)    is otherwise an executive officer of the RSE licensee.12
+
+Criteria to determine if a responsible person is fit and proper
+
+18.   An RSE licensee must clearly define and document the competencies required for
+      each responsible person position.
+
+19.   For the purposes of the SIS Act and for the purposes of determining whether a
+      person is fit and proper to hold a responsible person position, the criteria are
+      whether13:
+
+      (a)    it would be prudent for an RSE licensee to conclude that the person
+             possesses the competence, character, diligence, experience, honesty,
+             integrity and judgement to perform properly the duties of the responsible
+             person position;
+
+      (b)    it would be prudent for an RSE licensee to conclude that the person
+             possesses the education or technical qualifications, knowledge and skills
+             relevant to the duties and responsibilities of an RSE licensee;
+
+      (c)    the person is not disqualified under the SIS Act from holding the position;
+             and
+
+      (d)    the person either:
+
+             (i)    has no conflict in performing the duties of the responsible person
+                    position; or
+
+             (ii)   if the person has a conflict, it would be prudent for an RSE licensee
+                    to conclude that the conflict will not create a material risk that the
+                    person will fail to perform properly the duties of the position.14
+
+
+
+
+12    ‘Executive officer’ has the meaning given in section 10(1) of the SIS Act. Where the RSE licensee
+      is a group of individual trustees, an executive officer is a person, by whatever name called, who
+      is concerned or takes part in the management of the body.
+13    Refer to section 126H(6A) of the SIS Act.
+14    Refer to Prudential Standard SPS 521 Conflicts of Interest.
+
+
+                                                                                       SPS 520 –- 5
+
+                            Authorised Version F2024L00638 registered 06/06/2024
+                                                                                     June 2024
+
+
+Additional criteria applying to RSE auditors15
+
+20.   The criteria for fitness and propriety of an individual RSE auditor and a lead
+      auditor, for the purposes of the SIS Act are those contained in paragraphs 19 and
+      21.16
+
+21.   The additional criteria which must be met for an individual RSE auditor and a
+      lead auditor to be fit and proper are that the person:
+
+      (a)   is registered as an auditor under the Corporations Act 2001 (Corporations
+            Act) or is the Auditor-General (or a delegate of the Auditor-General) of
+            the Commonwealth, a State or Territory;
+
+      (b)   is not the Chief Executive Officer (CEO) or a director or employee of (i)
+            the RSE licensee or (ii) a connected entity;
+
+      (c)   has a minimum of five years’ relevant experience in the audit of the
+            business operations of RSE licensees;
+
+      (d)   has experience relating to the business operations of RSE licensees that is
+            sufficiently relevant and recent to provide reasonable assurance that the
+            person is familiar with current issues in the audit of the business
+            operations of RSE licensees;
+
+      (e)   is not:
+
+            (i)    the RSE actuary of an RSE within the RSE licensee’s business
+                   operations;
+
+            (ii)   an employee or director of a body corporate, statutory body,
+                   partnership, trust, or commercial or professional enterprise of any
+                   kind of which the RSE actuary is an employee or director17; or
+
+            (iii) a partner of the RSE actuary;
+
+      (f)   is a member of a recognised professional body; and
+
+      (g)   is ordinarily resident in Australia.
+
+22.   A criterion in paragraph 21 does not apply if the following conditions are met:
+
+      (a)   the RSE licensee reasonably considers that there are exceptional
+            circumstances;
+
+
+
+
+15    Refer to SPS 510 for the requirement for auditors to be independent.
+16    Refer to section 35AC(2)(a) of the SIS Act.
+17    Refer to SPS 510 for a similar restriction on the RSE auditor and RSE actuary being from the
+      same entity.
+
+
+                                                                                  SPS 520 –- 6
+
+                          Authorised Version F2024L00638 registered 06/06/2024
+                                                                                     June 2024
+
+
+      (b)   the RSE licensee has promptly notified APRA that the criterion is not
+            satisfied and of the exceptional circumstances as to why it should not
+            apply; and
+
+      (c)   APRA has notified the RSE licensee that APRA has no objections to the
+            person holding the position in question.
+
+Additional criteria applying to RSE actuaries
+
+23.   The criteria for fitness and propriety of an RSE actuary for the purposes of the
+      SIS Act are those contained in paragraphs 19 and 24.18
+
+24.   The additional criteria that must be met for a person to be fit and proper to act as
+      an RSE actuary are that the person:
+
+      (a)   has appropriate formal qualifications;
+
+      (b)   is not the CEO or a director or employee of (i) the RSE licensee or (ii) a
+            connected entity;
+
+      (c)   is not:
+
+            (i)    the auditor of the RSE licensee;
+
+            (ii)   the RSE auditor of an RSE within the RSE licensee’s business
+                   operations;
+
+            (iii) an employee or director of an entity of which the RSE auditor is an
+                  employee or director; or
+
+            (iv) a partner of the RSE auditor;
+
+      (d)   has a minimum of five years’ relevant experience in the provision of
+            actuarial services to RSE licensees and RSEs or in superannuation more
+            generally, that is sufficiently relevant and recent to provide reasonable
+            assurance that the person is familiar with current issues in the provision of
+            actuarial services to the business operations of RSE licensees;
+
+      (e)   is a Fellow or Accredited Member (however described) of the Institute of
+            Actuaries of Australia19; and
+
+      (f)   is ordinarily resident in Australia.
+
+25.   A criterion in paragraph 24 does not apply if the following conditions are met:
+
+
+
+
+18    Refer to section 35AD(2)(a) of the SIS Act.
+19    A reference to ‘Fellow’ and ‘Accredited Member’ is to be read as defined by the Institute of
+      Actuaries of Australia.
+
+
+                                                                                  SPS 520 –- 7
+
+                          Authorised Version F2024L00638 registered 06/06/2024
+                                                                                 June 2024
+
+
+      (a)   the RSE licensee reasonably considers that there are exceptional
+            circumstances;
+
+      (b)   the RSE licensee has promptly notified APRA that the criterion is not
+            satisfied and of the exceptional circumstances as to why it should not
+            apply; and
+
+      (c)   APRA has notified the RSE licensee that APRA has no objections to the
+            person holding the position.
+
+Process for assessment of fitness and propriety
+
+26.   The Fit and Proper Policy must include the processes to be undertaken in
+      assessing whether a person is fit and proper for a responsible person position (fit
+      and proper assessment). The processes must include details of:
+
+      (a)   a statement of who will conduct fit and proper assessments on behalf of
+            the RSE licensee;
+
+      (b)   what information will be obtained and how it will be obtained;
+
+      (c)   the matters that will be considered before determining if a person is fit and
+            proper for a responsible person position; and
+
+      (d)   the decision-making processes that will be followed.
+
+27.   The Fit and Proper Policy must specify the actions to be taken where a person is
+      assessed as being not fit and proper.
+
+28.   The Fit and Proper Policy must provide that a copy of the Policy is to be given
+      to:
+
+      (a)   any candidate for election or appointment as a director of the RSE
+            licensee as soon as possible after the candidate is nominated; and
+
+      (b)   any other person before an assessment of their fitness and propriety is
+            conducted.
+
+29.   The Fit and Proper Policy must require a fit and proper assessment to be
+      completed before a person becomes the holder of a responsible person position
+      unless they hold the position because APRA has determined that the person is a
+      responsible person under paragraph 14. In such cases, the Fit and Proper Policy
+      must require an assessment to be completed within 28 days of the person
+      becoming the holder of the responsible person position or 28 days after APRA
+      makes the determination under paragraph 14.
+
+30.   Interim appointment to a responsible person position may be made without a full
+      fit and proper assessment for a period of up to 90 days (or longer with APRA’s
+      written agreement) including any prior period of interim appointment. Prior to
+      making such an appointment, reasonable steps must be taken, as specified in the
+      Fit and Proper Policy, to assess the fitness and propriety of the person. The RSE
+
+
+
+                                                                               SPS 520 –- 8
+
+                        Authorised Version F2024L00638 registered 06/06/2024
+                                                                                         June 2024
+
+
+      licensee must complete a full fit and proper assessment prior to appointing the
+      person to the responsible person position on a permanent basis.
+
+31.   The Fit and Proper Policy must require annual fit and proper assessments (or as
+      close to annual as is practicable) for each responsible person position.
+
+32.   When a fit and proper assessment is conducted, an RSE licensee must make all
+      reasonable enquiries20 to obtain information, including collecting sensitive
+      information as defined in the Privacy Act 1988, that it believes may be relevant
+      to an assessment of whether the person is fit and proper to hold a responsible
+      person position.
+
+33.   Where a responsible person has been assessed as fit and proper, but an RSE
+      licensee subsequently becomes aware of information that may result in the person
+      being assessed as not fit and proper, the RSE licensee must take all reasonable
+      steps, including collecting sensitive information as defined in the Privacy Act
+      1988 if relevant, to ensure that it can prudently conclude that no material fitness
+      and propriety concern exists. Where a concern exists, a full fit and proper
+      assessment must be conducted.
+
+34.   The Fit and Proper Policy must contain adequate provisions:
+
+      (a)    to encourage any person to disclose information that may be relevant to a
+             fit and proper assessment to the RSE licensee or to APRA;
+
+      (b)    to enable the disclosure to APRA of any information the RSE licensee is
+             required to provide under this Prudential Standard; and
+
+      (c)    for giving or obtaining any consents required for the collection and use of
+             any information:
+
+             (i)    by the RSE licensee to comply with the Fit and Proper Policy or this
+                    Prudential Standard; and
+
+             (ii)   by APRA for its powers and functions under the SIS Act.
+
+35.   The Fit and Proper Policy must require that sufficient documentation for each fit
+      and proper assessment is retained to demonstrate the fitness and propriety of the
+      RSE licensee’s current, and recently past, responsible persons.
+
+Whistleblowing21
+
+36.   The Fit and Proper Policy must include adequate provisions to allow
+      whistleblowing if a person has information that a responsible person does not
+      meet the RSE licensee’s fit and proper criteria. The Fit and Proper Policy must
+      ensure that the RSE licensee and its connected entities consent to the person
+
+
+
+
+20    Including following the processes described in the Fit and Proper Policy under paragraph 26(b).
+21    Also refer to the provisions in SPS 510 for not constraining persons from providing information.
+
+
+                                                                                      SPS 520 –- 9
+
+                           Authorised Version F2024L00638 registered 06/06/2024
+                                                                                          June 2024
+
+
+      providing that information to either the person responsible for conducting fit and
+      proper assessments or APRA.
+
+37.   The Fit and Proper Policy must include adequate provisions to allow any person
+      who has information that the RSE licensee has not complied with this Prudential
+      Standard to provide that information to APRA.
+
+38.   The Fit and Proper Policy must provide that the RSE licensee and its connected
+      entities consent to any person who held a responsible person position disclosing
+      information or providing documents to APRA relating to their reasons for
+      resignation, retirement or removal.
+
+39.   An RSE licensee must not, and must ensure that its connected entities do not,
+      constrain, impede, restrict or discourage, whether by confidentiality clauses,
+      policies or other means, any person from disclosing information or providing
+      documents to APRA about matters referred to in paragraphs 36 to 38 inclusive.
+
+40.   The Fit and Proper Policy must require that all provisions of the Policy
+      encouraging whistleblowing, and the procedures relating to whistleblowing, are
+      adequately explained to directors and employees of the RSE licensee and its
+      connected entities who are likely to have information relevant to fit and proper
+      assessments.
+
+41.   APRA does not require that an RSE licensee impose an obligation on any person
+      to make the disclosures under paragraphs 36 to 38 inclusive. However, the Fit and
+      Proper Policy must require that all reasonable steps be taken to ensure that no
+      person making such disclosures in good faith is subject to, or threatened with, a
+      detriment because of any notification in purported compliance with the
+      requirements of the Fit and Proper Policy.
+
+When a responsible person is not fit and proper
+
+42.   Where an RSE licensee has assessed that a person is not fit and proper, or a
+      reasonable person in the RSE licensee’s position would make that assessment, the
+      RSE licensee must take all steps it reasonably can to ensure that the person22:
+
+      (a)    is not appointed to; or
+
+      (b)    for an existing responsible person, does not continue to hold,
+
+      the responsible person position.
+
+Informing APRA
+
+43.   An RSE licensee must notify APRA of the following information for each
+      responsible person:
+
+
+
+
+22    Including the actions outlined in the Fit and Proper Policy in accordance with paragraph 34.
+
+
+                                                                                     SPS 520 –- 10
+
+                            Authorised Version F2024L00638 registered 06/06/2024
+                                                                                           June 2024
+
+
+      (a)    the title of the responsible person position;
+
+      (b)    the person’s full name;
+
+      (c)    the person’s date of birth (for identification purposes only);
+
+      (d)    the person’s position and main responsibilities; and
+
+      (e)    a statement of whether the person has been assessed under the Fit and
+             Proper Policy.
+
+44.   An RSE licensee must ensure that the information provided under paragraph 43
+      remains correct for all of its responsible persons.23
+
+45.   If a person remains in a responsible person position, despite the RSE licensee’s
+      assessment that the person is not fit and proper, the RSE licensee must promptly
+      notify APRA in writing of the reason for this and the action that is being taken.24
+
+46.   The information or notifications required by this Prudential Standard must be
+      given in such form, if any, and by such procedures, if any, as APRA publishes on
+      its website from time to time.
+
+47.   An RSE licensee must take reasonable steps to:
+
+      (a)    obtain any information and documentation that APRA asks of it; and
+
+      (b)    provide that information to APRA,
+
+      to assist APRA in assessing the fitness and propriety of a person. This could
+      include providing the Fit and Proper Policy to APRA on request.
+
+48.   An RSE licensee must take reasonable steps to satisfy itself that a person holding,
+      or proposed to hold, a responsible person position is not a disqualified person
+      within the meaning of section 120 of the SIS Act. To this end, the RSE licensee
+      must satisfy itself that the person has never been convicted of any offence of
+      dishonesty in any jurisdiction, whether in Australia of overseas. Other than for
+      this purpose, APRA does not and will not require disclosure of spent convictions
+      where precluded under Part VIIC of the Crimes Act 1914.
+
+
+
+
+23    Under Reporting Standard SRS 520.0 Responsible Persons Information (SRS 520.0), an RSE
+      licensee must provide revised information to APRA within 14 days of any change or new
+      appointment.
+24    Under SRS 520.0, an RSE licensee must notify APRA within 14 days if it assesses that a
+      responsible person is not fit and proper. If the responsible person is an auditor, refer to section
+      331AK of the Corporations Act for requirements relating to the removal and resignation of RSE
+      auditors.
+
+
+                                                                                       SPS 520 –- 11
+
+                            Authorised Version F2024L00638 registered 06/06/2024
+                                                                                      June 2024
+
+
+Adjustments and exclusions
+
+49.   APRA may adjust or exclude a specific prudential requirement in this Prudential
+      Standard in relation to:
+
+      (a)    a particular RSE licensee of an RSE; or
+
+      (b)    specified RSE licensees of RSEs.25
+
+Previous exercise of discretion
+
+50.   An RSE licensee must contact APRA if it seeks to place reliance, for the purposes
+      of complying with this Prudential Standard, on an exercise of discretion made by
+      APRA under a previous version of this Prudential Standard.
+
+
+
+
+25    Refer to section 34C(5) of the SIS Act.
+
+
+                                                                                   SPS 520 –- 12
+
+                            Authorised Version F2024L00638 registered 06/06/2024
+

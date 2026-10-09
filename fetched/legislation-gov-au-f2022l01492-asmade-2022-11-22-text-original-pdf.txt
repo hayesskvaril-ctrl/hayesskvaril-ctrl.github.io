@@ -1,0 +1,628 @@
+SOURCE: https://www.legislation.gov.au/F2022L01492/asmade/2022-11-22/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2022L01492/asmade/2022-11-22/text/original/pdf
+FETCHED: 2026-10-09
+
+                                                                                January 2023
+
+
+
+
+Superannuation (prudential standard)
+determination No. 2 of 2022
+
+Prudential Standard SPS 530 Investment Governance
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Renée Roberts, delegate of APRA:
+
+(a)   under subsection 34C(6) of the Superannuation Industry (Supervision) Act 1993
+      (the Act) REVOKE Superannuation (prudential standard) determination No. 8
+      of 2012, including Prudential Standard SPS 530 Investment Governance made
+      under that Determination; and
+
+(b)   under subsection 34C(1) of the Act, DETERMINE Prudential Standard SPS
+      530 Investment Governance in the form set out in the Schedule, which applies to
+      all RSE licensees.
+
+This instrument commences on 1 January 2023.
+
+Dated: 18 November 2022
+
+
+
+
+Renée Roberts
+Executive Director
+Policy and Advice Division
+
+
+
+Interpretation
+In this Determination:
+APRA means the Australian Prudential Regulation Authority.
+RSE licensee has the meaning given in section 10(1) of the Act.
+
+
+
+
+                                                                                SPS 530 - 1
+                         Authorised Version F2022L01492 registered 22/11/2022
+                                                                               January 2023
+
+
+
+
+Prudential Standard SPS 530
+
+Investment Governance
+Objectives and key requirements of this Prudential
+Standard
+
+The purpose of this Prudential Standard is to ensure that an RSE licensee, consistent
+with its obligation to act in the best financial interests of beneficiaries, prudently
+selects, manages and monitors investments on behalf of beneficiaries. An RSE
+licensee is required to implement a sound investment governance framework which
+focuses on managing relevant risks and returns.
+
+The Board of an RSE licensee is ultimately responsible for having an investment
+governance framework for the selection, management and monitoring of investments
+that is appropriate to the size, business mix and complexity of the RSE licensee’s
+business operations. The investment governance framework must include the
+investment strategies for the whole of each RSE, and for each investment option, as
+required by the Superannuation Industry (Supervision) Act 1993.
+
+The key requirements of this Prudential Standard are that an RSE licensee must:
+
+    formulate specific and measurable investment objectives for each investment
+     option, including return and risk objectives;
+
+    develop, maintain and implement an effective due diligence process for the
+     selection of investments;
+
+    determine appropriate measures to monitor and assess the performance of
+     investments on an ongoing basis;
+
+    review the investment objectives and investment strategies on a periodic basis;
+
+    develop, maintain and implement a comprehensive investment stress testing
+     program;
+
+    formulate a liquidity management plan; and
+
+    develop, maintain and implement an effective valuation governance framework.
+
+
+
+                                                                               SPS 530 - 2
+                        Authorised Version F2022L01492 registered 22/11/2022
+                                                                                           January 2023
+
+Authority
+
+1.   This Prudential Standard is made under section 34C of the Superannuation
+     Industry (Supervision) Act 1993 (SIS Act).
+
+Application and commencement
+
+2.   This Prudential Standard applies to all registrable superannuation entity (RSE)
+     licensees (RSE licensees).1
+
+3.   This Prudential Standard commences on 1 January 2023.
+
+Interpretation
+
+4.   Where this Prudential Standard provides for APRA to exercise a power or
+     discretion, the power or discretion is to be exercised in writing.
+
+Adjustments and exclusions
+
+5.   APRA may adjust or exclude a specific requirement in this Prudential Standard
+     in relation to:
+
+     (a)    a particular RSE licensee of an RSE;
+
+     (b)    a particular connected entity of an RSE licensee of an RSE;
+
+     (c)    specified RSE licensees of RSEs; or
+
+     (d)    specified connected entities of RSE licensees of RSEs.
+
+Previous exercise of discretion
+
+6.   An RSE licensee must contact APRA if it seeks to place reliance, for the
+     purposes of complying with this Prudential Standard, on a previous exercise of
+     discretion by APRA under a previous version of this Prudential Standard.
+
+The role of the Board
+
+7.   An RSE licensee is ultimately responsible for the sound and prudent
+     management of the investments of each RSE within the RSE licensee’s business
+     operations.2
+
+
+
+
+1
+     For the purposes of this Prudential Standard, ‘RSE licensee’ has the meaning given in section
+     10(1) of the SIS Act.
+2
+     For the purposes of this Prudential Standard, an ‘RSE licensee’s business operations’ includes
+     all activities as an RSE licensee (including the activities of each RSE of which it is the licensee),
+
+
+
+
+                                                                                           SPS 530 - 3
+                            Authorised Version F2022L01492 registered 22/11/2022
+                                                                                           January 2023
+
+8.    The Board of an RSE licensee (the Board3) must, for the RSE licensee’s
+      business operations, at a minimum:
+
+      (a)    approve investment objectives for each investment option offered in each
+             RSE;
+
+      (b)    approve an investment strategy, in respect of each RSE, that is consistent
+             with the RSE licensee’s duties to beneficiaries, including those in section
+             52(6) and (13) (if applicable) of the SIS Act and the requirements in this
+             Prudential Standard:
+
+             (i)    for the whole of that RSE; and
+
+             (ii)   in respect of each investment option offered in that RSE;
+
+      (c)    monitor and assess regularly whether the investment objectives are being
+             met; and
+
+      (d)    take appropriate and timely action regarding information contained in
+             reports to the Board on investment matters.
+
+RSE licensees that are part of a group4
+
+9.    Where an RSE licensee is part of a corporate group, and the RSE licensee
+      utilises group policies or functions, the Board must approve the use of group
+      policies and functions and must ensure that these policies and functions give
+      appropriate regard to the RSE licensee’s business operations.
+
+Investment governance framework
+
+10.   An RSE licensee must at all times have an investment governance framework to
+      manage investments to meet the RSE licensee’s obligations to beneficiaries.5
+
+11.   An investment governance framework is the totality of systems, structures,
+      policies, processes and people to address the RSE licensee’s responsibilities
+      with regard to investments of each RSE within the RSE licensee’s business
+      operations. An RSE licensee’s responsibilities include generating returns to
+
+
+
+
+      and all other activities of the RSE licensee to the extent that they are relevant to, or may impact
+      on, its activities as an RSE licensee.
+3
+      For the purposes of this Prudential Standard, a reference to ‘the Board’ is a reference to the
+      Board of directors or group of individual trustees of an RSE licensee and ‘group of individual
+      trustees’ has the meaning given in section 10(1) of the SIS Act.
+4
+      For the purposes of this Prudential Standard, a reference to ‘a group’ is a reference to a group
+      comprising the RSE licensee and all connected entities and ‘connected entity’ has the meaning
+      given in section 10(1) of the SIS Act
+5
+      For the purposes of this Prudential Standard, a reference to ‘beneficiaries’ is a reference to
+      ‘beneficiaries of an RSE within the RSE licensee’s business operations’.
+
+
+
+
+                                                                                          SPS 530 - 4
+                            Authorised Version F2022L01492 registered 22/11/2022
+                                                                                      January 2023
+
+      meet investment objectives while managing and monitoring all identified
+      sources of investment risk.6
+
+12.   The Board is ultimately responsible for the establishment, implementation,
+      oversight and maintenance of an RSE licensee’s investment governance
+      framework.
+
+13.   An RSE licensee’s investment governance framework must, at a minimum,
+      include:
+
+      (a)   investment objectives for each investment option offered by the RSE
+            licensee;
+
+      (b)   a methodology for determining investment reporting measures7;
+
+      (c)   the investment strategy for the whole of each RSE and for each
+            investment option as required by section 52(6) of the SIS Act;
+
+      (d)   all Board policies relating to investment activities;
+
+      (e)   role statements that include the details of each role’s responsibilities and
+            reporting structures for all roles related to investment activities;
+
+      (f)   structures, policies and processes relating to investment activities,
+            including for investment performance and risk measurement, assessment,
+            stress-testing, valuations and reporting to the Board and senior
+            management; and
+
+      (g)   a review process to ensure that the investment governance framework
+            remains effective.
+
+14.   An RSE licensee’s investment governance framework must be appropriate to
+      the size, business mix and complexity of the RSE licensee’s business
+      operations.
+
+15.   An RSE licensee must have procedures to ensure that all persons in roles related
+      to investment activities of the RSE licensee are made aware of, and have
+      processes and controls for monitoring compliance with, the RSE licensee’s
+      investment governance framework.
+
+
+
+
+6
+      An RSE licensee’s investment governance framework must reflect the risks associated with
+      investments as a material risk area identified in Prudential Standard SPS 220 Risk Management.
+7
+      An RSE licensee’s methodology for determining the investment reporting measures must also
+      support compliance with relevant reporting standards made under the Financial Sector
+      Collection of Data Act 2001.
+
+
+
+
+                                                                                      SPS 530 - 5
+                           Authorised Version F2022L01492 registered 22/11/2022
+                                                                                   January 2023
+
+Review of the investment governance framework
+
+16.   An RSE licensee must ensure that the appropriateness, effectiveness and
+      adequacy of its investment governance framework are subject to a
+      comprehensive review by operationally independent, appropriately trained and
+      competent persons at least every three years.
+
+17.   The scope of the review of an RSE licensee’s investment governance
+      framework must have regard to the size, business mix and complexity of the
+      RSE licensee’s business operations, the extent of any change to those operations
+      and any changes to the external environment in which the RSE licensee
+      operates.
+
+Investment objectives
+
+18.   An RSE licensee must, when formulating the investment strategy for each
+      investment option, set investment objectives that are:
+
+      (a)    aligned with the size, business mix and complexity of the RSE from
+             which the investment option is offered; and
+
+      (b)    specific and measurable and, at a minimum, include:
+
+             (i)    a return objective; and
+
+             (ii)   a risk objective.
+
+Formulating the investment strategy
+
+19.   When formulating each investment strategy for the whole of the RSE, and for
+      each investment option, an RSE licensee must document how it has regard to
+      each of the factors in section 52(6) of the SIS Act.
+
+20.   An RSE licensee must, when determining an appropriate level of diversification
+      for each investment strategy8:
+
+      (a)    identify the risk factors, and sources of return with which the risk factors
+             are associated;
+
+      (b)    where the strategy includes multiple assets and/or asset classes, identify
+             how sources of returns are expected to interact, the variability in these
+             interactions and the impact of these interactions on the overall
+             diversification of the strategy in different market conditions;
+
+      (c)    determine the target exposure to the risk factors in paragraph 20(a); and
+
+
+
+
+8
+      As required by section 52(6)(a)(ii) of the SIS Act.
+
+
+
+
+                                                                                   SPS 530 - 6
+                            Authorised Version F2022L01492 registered 22/11/2022
+                                                                                    January 2023
+
+      (d)   determine the asset classes and/or individual assets that it will invest in to
+            achieve the desired risk exposure and whether making, holding and
+            realising investments in those asset classes and/or individual assets can be
+            implemented in a manner consistent with the interests of, and the RSE
+            licensee’s duties to, beneficiaries.
+
+21.   An RSE licensee must, at a minimum, determine for each investment strategy
+      for an investment option that includes multiple assets and/or asset classes:9
+
+      (a)   asset allocation targets and ranges that are appropriate to the investment
+            objectives of the investment option;
+
+      (b)   the basis on which asset allocation targets and ranges would be changed;
+            and
+
+      (c)   a policy to monitor and maintain the asset allocation within the
+            determined ranges within a reasonable timeframe.
+
+22.   For the investment strategy of a MySuper product, an RSE licensee must also
+      document, in addition to the requirements in paragraphs 19-21 inclusive, at a
+      minimum, how the investment strategy:
+
+      (a)   is diversified over multiple risk factors and sources of return as required in
+            the SIS Act;
+
+      (b)   complies with section 52(13) of the SIS Act; and
+
+      (c)   complies with the relevant fee rules for MySuper products and general fee
+            rules in the SIS Act.10
+
+Giving effect to the investment strategy
+
+23.   An RSE licensee must have processes and criteria for selecting each investment
+      to give effect to the investment strategy (investment selection process) to ensure
+      that effective due diligence that is commensurate with the nature and
+      characteristics of the investment is undertaken prior to the selection of an
+      investment for an investment option.11
+
+24.   An RSE licensee’s investment selection process must enable the RSE licensee
+      to ensure:
+
+
+
+
+9
+          Refer to paragraphs 32-34 for minimum requirements relating to the comprehensive stress
+      testing program.
+10
+      As required in Part 2C Division 5 and Part 11A of the SIS Act.
+11
+      Where an RSE licensee engages an external service provider under an investment management
+      agreement or mandate, the RSE licensee must comply with the requirements in Prudential
+      Standard SPS 231 Outsourcing.
+
+
+
+
+                                                                                   SPS 530 - 7
+                          Authorised Version F2022L01492 registered 22/11/2022
+                                                                               January 2023
+
+      (a)   it has sufficient understanding and knowledge of the investment selected,
+            including an assessment of any factors that could have a material impact
+            on achieving the investment objectives of the investment option;
+
+      (b)   it has sufficient understanding of how the investment is expected to
+            perform under the range of stress scenarios determined under paragraph
+            31; and
+
+      (c)   the investment is appropriate for the investment option.
+
+Monitoring investments
+
+25.   An RSE licensee must determine appropriate measures, for the purposes of
+      monitoring performance on an ongoing basis, in respect of each MySuper
+      product, each investment option and each investment within an investment
+      option. These measures must include appropriate performance benchmarks and
+      a methodology for setting performance benchmarks. These measures, other than
+      performance benchmarks for each investment within an investment option, must
+      be approved by the Board.
+
+26.   An RSE licensee must ensure that the performance of each investment option
+      and each MySuper product is regularly reported to the Board and senior
+      management. This reporting must include an assessment of the sources of out-
+      performance and under-performance relative to appropriate performance
+      benchmarks as determined by the RSE licensee under paragraph 25.
+
+27.   An RSE licensee must ensure that persons undertaking the assessment of
+      performance, by applying and assessing the measures required in paragraph 25
+      are operationally independent from persons who are responsible for making the
+      investment.
+
+Reviewing the investment strategy
+
+28.   For each investment strategy, an RSE licensee must have a review policy that is
+      approved by the Board and that, at a minimum, requires each investment
+      strategy to be reviewed against its investment objectives on at least an annual
+      basis. The policy must also include:
+
+      (a)   the triggers that will cause an interim review of the investment strategy in
+            addition to the annual review;
+
+      (b)   the processes for reporting the results of each review to the Board; and
+
+      (c)   the criteria that will determine whether the investment strategy must be
+            changed.
+
+29.   On receipt of the results of a review of an investment strategy undertaken in
+      accordance with the review policy, the Board must ensure that any decision to
+      amend the investment strategy is supported by sufficient justification and
+      analysis.
+
+Investment stress testing
+
+
+                                                                               SPS 530 - 8
+                        Authorised Version F2022L01492 registered 22/11/2022
+                                                                               January 2023
+
+30.   An RSE licensee must have a comprehensive investment stress testing program
+      that is approved by the Board and is integrated into an RSE licensee’s
+      investment governance framework.
+
+31.   An RSE licensee must, at a minimum, determine appropriate adverse stress
+      scenarios for the investment strategy of each option. These adverse stress
+      scenarios must cover a range of factors that can create extraordinary losses or
+      make the control of risk within accepted tolerance level in the investment
+      strategy difficult.
+
+32.   An RSE licensee’s comprehensive investment stress testing program must
+      provide for:
+
+      (a)   investment stress testing performed prior to the implementation of the
+            investment strategy;
+
+      (b)   investment stress testing based on scenarios determined in paragraph 31 to
+            confirm that each investment strategy, including the targets and ranges set
+            under paragraph 20(c) and paragraph 21(a) remain appropriate on at least
+            an annual basis; and
+
+      (c)   investment stress testing based on scenarios determined in paragraph 31,
+            and other parameters deemed appropriate by the RSE licensee, to assess
+            the performance of each investment option based on the actual asset
+            allocation on at least an annual basis.
+
+33.   The comprehensive investment stress testing program must, at a minimum
+      include:
+
+      (a)   clearly articulated stress testing objectives, methodology, assumptions,
+            frequency (at least annually), and risk factors, including the rationale for
+            the severity of the adverse stress scenarios as required in paragraph 31;
+
+      (b)   the roles and responsibilities of persons (both internal and external)
+            involved in the design, implementation, review, reporting and oversight of
+            investment stress testing, including the role of the Board, relevant Board
+            committees and senior management;
+
+      (c)   investment stress testing output or metrics that demonstrate the
+            performance of each investment option under the stress scenarios required
+            in paragraph 31;
+
+      (d)   processes for the regular review of stress testing methodology and
+            assumptions;
+
+      (e)   circumstances that might lead to ad hoc investment stress testing,
+            including triggers to indicate when ad hoc investment stress testing would
+            be undertaken; and
+
+      (f)   processes for ensuring that relevant and reliable data are used in
+            investment stress testing.
+
+
+
+                                                                               SPS 530 - 9
+                        Authorised Version F2022L01492 registered 22/11/2022
+                                                                                January 2023
+
+34.   An RSE licensee must ensure that the results of the comprehensive investment
+      stress testing program are:
+
+      (a)   reviewed periodically by the Board, relevant Board committees, and
+            senior management; and
+
+      (b)   reflected in the RSE licensee’s investment governance framework.
+
+35.   The Board must document the methodology for stress scenario selection and
+      how the results of the comprehensive stress testing program have been used in
+      decision-making.
+
+Liquidity and cash flow management
+
+36.   An RSE licensee must, at a minimum, have a liquidity management plan,
+      approved by the Board, for each RSE within its business operations that:
+
+      (a)   covers each investment option in the RSE;
+
+      (b)   outlines the procedures determined by the RSE licensee for measuring and
+            managing liquidity on an ongoing basis;
+
+      (c)   includes consideration of how the liquidity of investment options in an
+            RSE can be managed in a range of stress scenarios;
+
+      (d)   identifies the circumstances the RSE licensee considers to be a
+            significantly adverse liquidity outcome that requires action (liquidity
+            event);
+
+      (e)   outlines what action the RSE licensee will take when a liquidity event
+            occurs;
+
+      (f)   outlines the roles and responsibilities of persons involved in the
+            management and oversight of liquidity risk, including the role of the
+            Board, relevant Board committees and senior management; and
+
+      (g)   outlines information, including key metrics, that must be reported to the
+            Board, relevant Board committees and senior management, to ensure
+            adequate oversight of liquidity risk.
+
+37.   An RSE licensee must ensure that information, including key metrics referred to
+      in paragraph 36(g) are periodically reviewed by the Board, relevant Board
+      committees and senior management, to ensure that such information and key
+      metrics remain suitable.
+
+38.   An RSE licensee must implement liquidity stress testing as part of the
+      comprehensive investment stress testing program required in paragraph 31 and
+      the RSE licensee’s liquidity management plan.
+
+
+
+
+                                                                               SPS 530 - 10
+                        Authorised Version F2022L01492 registered 22/11/2022
+                                                                                January 2023
+
+Valuation governance framework
+
+39.   An RSE licensee must have an adequate valuation governance framework,
+      which consists of the structures, processes, procedures and controls necessary to
+      identify and manage valuation risk of investments.
+
+40.   The valuation governance framework must include a Board-approved valuation
+      policy which, at a minimum, outlines:
+
+      (a)   the roles and responsibilities of persons for the oversight and management
+            of valuation processes and procedures, including the Board, relevant
+            Board committees and senior management;
+
+      (b)   the key metrics and information that must be reported to the Board,
+            relevant Board committees and senior management, and the frequency of
+            that reporting;
+
+      (c)   the valuation methodology employed for each asset class (and sub-asset
+            class and instrument/holding vehicle type where relevant), including the
+            sources of valuation inputs;
+
+      (d)   the circumstances under which independent external valuations are to be
+            obtained;
+
+      (e)   the frequency of valuation of investments having regard to the prevailing
+            market, economic environment, member equity considerations and matters
+            concerning the ongoing appropriateness of the asset valuation;
+
+      (f)   the circumstances in which interim valuations are to be made, to ensure
+            the approach taken is consistent and transparent;
+
+      (g)   the triggers that would require an interim valuation of investments outside
+            of the frequency determined under paragraph 40(e) and which reflect the
+            circumstances identified in paragraph 40(f);
+
+      (h)   a review process to ensure that the valuation policy remains effective;
+
+      (i)   the validation of valuation outputs including any back-testing procedures;
+            and
+
+      (j)   the circumstances as to when to accept, reject or reassess valuations of
+            investments to ensure that an RSE licensee’s valuations remain
+            appropriate, including an escalation procedure for the resolution of any
+            disputed valuations.
+
+41.   An RSE licensee must ensure that the key metrics and information referred to in
+      paragraph 40(b) are periodically reviewed by the Board, relevant Board
+      committees and senior management, to ensure that such information and the key
+      metrics remain appropriate to enable sufficient oversight of valuation risk.
+
+
+
+
+                                                                               SPS 530 - 11
+                        Authorised Version F2022L01492 registered 22/11/2022
+

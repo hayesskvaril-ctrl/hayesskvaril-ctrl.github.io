@@ -1,0 +1,599 @@
+SOURCE: https://www.legislation.gov.au/F2024L00637/asmade/2024-06-06/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2024L00637/asmade/2024-06-06/text/original/pdf
+FETCHED: 2026-10-09
+
+Superannuation (prudential standard)
+determination No. 3 of 2024
+Prudential Standard SPS 510 Governance
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Clare Gibney, a delegate of APRA:
+
+(a)   under subsection 34C(6) of the Superannuation Industry (Supervision) Act 1993
+      REVOKE Superannuation (prudential standard) determination No. 2 of 2023,
+      including Prudential Standard SPS 510 Governance made under that
+      determination; and
+
+(b)   under subsection 34C(1) of the Act, DETERMINE Prudential Standard SPS
+      510 Governance in the form set out in the Schedule, which applies to all RSE
+      licensees.
+
+This instrument commences on 30 June 2024.
+
+
+
+Dated: 3 June 2024
+
+
+
+Clare Gibney
+Executive Director
+Policy and Advice Division
+
+
+
+Interpretation
+In this instrument:
+APRA means the Australian Prudential Regulation Authority.
+RSE licensee has the meaning given in section 10(1) of the Act.
+
+
+
+
+                        Authorised Version F2024L00637 registered 06/06/2024
+                                                                               June 2024
+
+
+
+
+Prudential Standard SPS 510 Governance
+Objectives and key requirements of this Prudential
+Standard
+
+This Prudential Standard sets out minimum foundations for good governance of an
+RSE licensee. Its objective is to ensure that an RSE licensee’s business operations
+are managed soundly and prudently by a competent Board, which can make
+reasonable and impartial business judgements in the best financial interests of
+beneficiaries and which duly considers the impact of its decisions on beneficiaries.
+The ultimate responsibility for the sound and prudent management of an RSE
+licensee’s business operations rests with its Board of directors.
+It is essential that an RSE licensee has a sound governance framework and conducts
+its affairs with a high degree of integrity. A culture that promotes good governance
+benefits all stakeholders of an RSE licensee and helps to maintain public confidence
+in the entity.
+The governance of an RSE licensee builds on these foundations in ways that take
+account of the size, business mix and complexity of the RSE licensee’s business
+operations.
+The key requirements of this Prudential Standard are that:
+
+•    the Board must have a governance framework which includes, at a minimum,
+     the Board’s charter (or equivalent document) and policies and processes that
+     achieve appropriate skills, structure and composition of the Board;
+
+•    the Board must have a written policy which sets out requirements relating to
+     the nomination, appointment and removal of directors that support appropriate
+     Board composition and renewal on an ongoing basis;
+
+•    a Board Audit Committee must be established; and
+
+•    an RSE licensee must have a dedicated internal audit function.
+
+
+
+
+                                                                              SPS 510 - 1
+
+                       Authorised Version F2024L00637 registered 06/06/2024
+                                                                                               June 2024
+
+
+Authority
+
+1.    This Prudential Standard is made under section 34C of the Superannuation
+      Industry (Supervision) Act 1993 (SIS Act).
+
+Application
+
+2.    This Prudential Standard applies to all registrable superannuation entity (RSE)
+      licensees (RSE licensees) under the SIS Act.1
+
+3.    All RSE licensees must comply with this Prudential Standard in its entirety,
+      unless otherwise expressly indicated.
+
+4.    For the purposes of this Prudential Standard, a reference to the ‘Board’ is to be
+      read as a reference to the Board of directors or group of individual trustees of an
+      RSE licensee.2
+
+5.    For the purposes of this Prudential Standard, references to an RSE auditor or an
+      RSE actuary are taken to be references to an RSE auditor or an RSE actuary that
+      an RSE licensee must appoint under RSE licensee law.3
+
+6.    This Prudential Standard sets out the minimum requirements that an RSE licensee
+      must meet in the interests of promoting strong and effective governance.
+
+7.    This Prudential Standard commences on 30 June 2024.
+
+The role of the Board and senior management
+
+8.    The Board is ultimately responsible for the sound and prudent management of an
+      RSE licensee’s business operations.4
+
+9.    The Board, in fulfilling its functions, may delegate authority to management to
+      act on behalf of the Board with respect to certain matters, as decided by the Board.
+      This delegation of authority must be clearly set out and documented. The Board
+      must have mechanisms in place for monitoring the exercise of delegated
+      authority. The Board cannot abrogate its responsibility for functions delegated to
+      management.
+
+10.   The Board must ensure that the directors and the senior management of the RSE
+      licensee, collectively, have the full range of skills needed for the effective and
+      prudent operation of the RSE licensee’s business operations, and that each
+
+1     For the purposes of this Prudential Standard, ‘RSE licensee’ has the meaning given in section
+      10(1) of the SIS Act.
+2     For the purposes of this Prudential Standard, a reference to ‘a director’ is a reference to a director
+      of an RSE licensee which has a Board of directors or, in the case of a group of individual trustees,
+      an individual trustee and ‘group of individual trustees’ has the meaning given in section 10(1) of
+      the SIS Act.
+3     For the purposes of this Prudential Standard, ‘RSE auditor’, ‘RSE actuary’ and ‘RSE licensee
+      law’ have the meaning given in section 10(1) of the SIS Act.
+4     For the purposes of this Prudential Standard, an ‘RSE licensee’s business operations’ includes all
+      activities as an RSE licensee (including the activities of each RSE of which it is the licensee), and
+      all other activities of the RSE licensee to the extent that they are relevant to, or may impact on, its
+      activities as an RSE licensee.
+
+
+                                                                                             SPS 510 - 2
+
+                             Authorised Version F2024L00637 registered 06/06/2024
+                                                                                          June 2024
+
+
+      director has skills that allow them to make an effective contribution to Board
+      deliberations and processes. This includes the requirement for directors,
+      collectively, to have the necessary skills, knowledge and experience to understand
+      the risks of the RSE licensee’s business operations, including its legal and
+      prudential obligations, and to ensure that the RSE licensee’s business operations
+      are managed in an appropriate way taking into account these risks. This does not
+      preclude the Board from supplementing its skills and knowledge by engaging
+      external consultants and experts.
+
+11.   Where the Board establishes a board committee that has responsibility for
+      activities that have the potential to have a material impact on the interests, or
+      reasonable expectations, of beneficiaries5, or to the long term financial soundness
+      of the RSE licensee, any of its RSEs or connected entities6, an RSE licensee must
+      ensure that only a director of the RSE licensee holds the position of chairperson
+      on that board committee.
+
+12.   Senior management of an RSE licensee must be ordinarily resident in Australia.
+
+13.   Directors and senior management of an RSE licensee must be available to meet
+      with APRA on request.
+
+14.   The Board must provide the RSE auditor and the RSE actuary, as relevant, with
+      the opportunity to raise matters directly with the Board.
+
+RSE licensees that are part of a corporate group7
+
+15.   Where an RSE licensee is part of a corporate group, and the RSE licensee utilises
+      group policies or functions, the Board must approve the use of group policies and
+      functions and must ensure that these policies and functions give appropriate
+      regard to the RSE licensee’s business operations and its specific requirements.
+
+Governance framework
+
+16.   An RSE licensee must at all times have a governance framework that sets out how
+      the Board oversees and exercises its authority in relation to the business
+      operations of the RSE licensee and which encompasses the totality of systems,
+      structures, policies, processes and people within an RSE licensee’s business
+      operations.8
+
+17.   The Board is ultimately responsible for the establishment, implementation and
+      oversight of the governance framework.
+
+18.   An RSE licensee’s governance framework must, at a minimum, include:
+
+
+5     For the purposes of this Prudential Standard, a reference to ‘beneficiaries’ is a reference to
+      ‘beneficiaries of an RSE within the RSE licensee’s business operations’.
+6     For the purposes of this Prudential Standard, a reference to a ‘connected entity’ has the meaning
+      given in subsection 10(1) of the SIS Act.
+7     For the purposes of this Prudential Standard, a reference to ‘a group’ is a reference to a group
+      comprising the RSE licensee and all connected entities of the RSE licensee.
+8     Refer also to Prudential Standard SPS 220 Risk Management (SPS 220) for requirements relating
+      to the management of governance risk.
+
+
+                                                                                        SPS 510 - 3
+
+                            Authorised Version F2024L00637 registered 06/06/2024
+                                                                                               June 2024
+
+
+      (a)    a formal charter that sets out the roles, responsibilities and objectives of
+             the Board;
+
+      (b)    the Board’s policy in relation to voting rights and procedures for the
+             decisions of the Board;
+
+      (c)    the Board’s policies on:
+
+             (i)     the size and composition of the Board and any Board committees9;
+
+             (ii)    Board renewal;
+
+             (iii) the nomination, appointment and removal of directors, including
+                   defined director terms in office and maximum tenure periods10;
+
+      (d)    the RSE licensee’s policies and processes:
+
+             (i)     to manage risks relating to fitness and propriety of responsible
+                     persons11; and
+
+             (ii)    relating to the management of conflicts12; and
+
+      (e)    a review process to ensure that the governance framework remains
+             effective.
+
+Board composition
+
+19.   The chairperson of the Board must be a director of the RSE licensee.
+
+20.   A majority of directors of an RSE licensee must be ordinarily resident in
+      Australia.
+
+Board performance assessment
+
+21.   The Board must have procedures for assessing, at least annually, the Board’s
+      performance relative to its objectives. It must also have in place a procedure for
+      assessing, at least annually, the performance of individual directors.
+
+Board renewal
+
+22.   The Board must have in place a formal policy on Board renewal. This policy must
+      provide details of how the Board intends to renew itself in order to ensure it
+
+
+9     For the purposes of this Prudential Standard, a reference to ‘board committees’ is a reference to
+      the Board Audit Committee, the Board Remuneration Committee required under CPS 511 and
+      any other committees which meet the description set out in paragraph 11 of this Prudential
+      Standard.
+10    For the purpose of this Prudential Standard, a reference to ‘tenure’ is a reference to the total length
+      of service of an individual director on the Board (including non-continuous service).
+11    Refer to Prudential Standard SPS 520 Fit and Proper (SPS 520) for requirements relating to the
+      fitness and propriety of responsible persons.
+12    Refer to Prudential Standard SPS 521 Conflicts of Interest (SPS 521) for requirements relating to
+      the management of conflicts.
+
+
+                                                                                             SPS 510 - 4
+
+                             Authorised Version F2024L00637 registered 06/06/2024
+                                                                                June 2024
+
+
+      remains open to new ideas and independent thinking, while retaining adequate
+      expertise.
+
+Board nomination, appointment and removal
+
+23.   The Board must establish and implement policies and processes for the
+      nomination, appointment and removal of directors. These policies and processes
+      must, at a minimum, address:
+
+      (a)   the length of the term for which a director is appointed to the Board;
+
+      (b)   the maximum tenure limit for an individual director;
+
+      (c)   how vacancies will be managed, including, where applicable, how the
+            RSE licensee will comply with the vacancy requirements in Part 9 of the
+            SIS Act;
+
+      (d)   the process by which a candidate will be nominated for a vacant Board
+            position;
+
+      (e)   the factors that will be considered when assessing the suitability of a
+            nominated candidate, including how the RSE licensee assesses the
+            independence of the candidate where relevant and the Board’s process for
+            determining whether a particular candidate is appointed;
+
+      (f)   the process by which a director will be appointed to the Board;
+
+      (g)   the factors that will determine when an existing director will be re-
+            appointed, including whether the director has served on the Board for a
+            period that could, or could reasonably be perceived to, materially interfere
+            with their ability to act in the best interests of beneficiaries;
+
+      (h)   the process by which the Board will resolve disputes about nominations,
+            appointment, re-appointment or removal of directors;
+
+      (i)   when and how a director will be removed from the Board; and
+
+      (j)   the Board’s policy on voting rights and procedures in relation to
+            nomination, appointment, reappointment and removal of a director.
+
+Board Audit Committee
+
+24.   An RSE licensee must have a Board Audit Committee, which assists the Board
+      by providing an objective non-executive review of the effectiveness of the RSE
+      licensee’s financial reporting and risk management framework unless, with
+      respect to risk management, there is another Board Committee which carries out
+      this function.
+
+25.   The Board Audit Committee must have sufficient powers to enable it to obtain all
+      information necessary for the performance of its functions.
+
+
+
+
+                                                                               SPS 510 - 5
+
+                        Authorised Version F2024L00637 registered 06/06/2024
+                                                                                             June 2024
+
+
+26.   The Board Audit Committee must have at least three members. All members of
+      the Committee must be non-executive directors.13
+
+27.   The chairperson of the Board may sit on the Board Audit Committee, but may not
+      chair the Committee except where the chairperson of the Board is the only
+      independent director (within the definition of section 10 of the SIS Act) on the
+      Board.
+
+28.   The Board Audit Committee must have a charter that includes a reference to the
+      fact that the Committee is responsible for the oversight of:
+
+      (a)    all APRA statutory reporting requirements;
+
+      (b)    other financial reporting requirements;
+
+      (c)    professional accounting requirements;
+
+      (d)    internal and external audit; and
+
+      (e)    the appointment of both the RSE auditor and internal audit function.
+
+29.   The Board Audit Committee must review the engagement of the RSE auditor at
+      least annually, including making an assessment of whether the RSE auditor meets
+      the Audit Independence tests set out in APES 110 Code of Ethics for Professional
+      Accountants14, as well as the additional auditor independence requirements set
+      out in the Corporations Act 2001 (Corporations Act) (if applicable) and in this
+      Prudential Standard.
+
+30.   The Board Audit Committee must regularly review the internal and external audit
+      plans, ensuring that they cover all material risks and financial reporting
+      requirements of the RSE licensee. It must also regularly review the findings of
+      audits, and ensure that issues are being managed and rectified in an appropriate
+      and timely manner.
+
+31.   The Board Audit Committee must ensure the adequacy and independence of both
+      the internal and external audit functions.
+
+32.   The members of the Board Audit Committee must, at all times, have free and
+      unfettered access to senior management, the internal audit function, the heads of
+      all risk management functions, the RSE auditor and the RSE actuary, as
+      applicable, and vice versa.
+
+33.   The Board Audit Committee must establish and maintain policies and procedures
+      for employees of the RSE licensee to submit, confidentially, information about
+      accounting, internal control, compliance, audit, and other matters about which the
+
+
+13    For the purpose of this Prudential Standard, a reference to ‘a non-executive director’ is a reference
+      to a director who is not a member of the RSE licensee’s management. Non-executive directors
+      may include Board members or senior managers of the parent company of the RSE licensee or of
+      the parent company’s subsidiaries, but not executives of the RSE licensee.
+14    APES 110 Code of Ethics for Professional Accountants was issued by the Accounting Professional
+      and Ethical Standards Board in November 2018.
+
+
+                                                                                           SPS 510 - 6
+
+                             Authorised Version F2024L00637 registered 06/06/2024
+                                                                                           June 2024
+
+
+      employee has concerns. The Committee must also have a process for ensuring
+      employees are aware of these policies and for dealing with matters raised by
+      employees under these policies.
+
+34.   Members of the Board Audit Committee must be available to meet with APRA
+      on request.
+
+35.   The Board Audit Committee must invite the individual RSE auditor or lead
+      auditor and the RSE actuary, as applicable, to meetings of the Committee.15
+
+36.   The internal auditor must have a reporting line, and unfettered access, to the
+      Board Audit Committee.
+
+Internal audit
+
+37.   An RSE licensee must have an independent and adequately resourced internal
+      audit function. An RSE licensee may outsource this function where the
+      outsourcing agreement meets the requirements of Prudential Standard SPS 231
+      Outsourcing. If an RSE licensee does not believe it is necessary to have a
+      dedicated internal audit function, it must apply to APRA to seek an exemption
+      from this requirement, setting out reasons why it believes it should be exempt.
+      APRA may approve alternative arrangements in writing for an RSE licensee
+      where APRA is satisfied that they will achieve the same objectives.
+
+38.   The objectives of the internal audit function must include evaluation of the
+      adequacy and effectiveness of the financial and risk management framework of
+      the RSE licensee.16 To fulfil its functions, the internal auditor must, at all times,
+      have unfettered access to all the RSE licensee’s business lines and support
+      functions.
+
+Auditor independence
+
+39.   The Corporations Act contains a number of requirements in relation to auditor
+      independence.17 The auditor independence requirements in this Prudential
+      Standard are substantially consistent with those requirements, and are intended to
+      help ensure the independence of an RSE auditor engaged to perform work of a
+      prudential nature in relation to RSE licensee law.
+
+40.   The Board must, to the extent practical, undertake steps to satisfy itself that the
+      RSE auditor is independent of the RSE licensee and the RSE, and that there is no
+      conflict of interest situation that could compromise, or be seen to compromise,
+      the independence of the RSE auditor.18
+
+
+
+
+15    ‘Individual RSE auditor’ has the meaning given by section 10(1) of the SIS Act. ‘Lead auditor’
+      has the meaning given by section 11F of the SIS Act.
+16    Refer to SPS 220 for the requirement to review the risk management framework.
+17    Refer to Part 2M.4 of the Corporations Act.
+18    Independent of the RSE licensee means that the auditor has been assessed as independent in terms
+      of paragraph 29 of this Prudential Standard. Refer to SPS 521 for requirements to identify relevant
+      interests and relevant duties for all responsible persons.
+
+
+                                                                                          SPS 510 - 7
+
+                            Authorised Version F2024L00637 registered 06/06/2024
+                                                                                           June 2024
+
+
+41.   As part of the process of ascertaining the independence of the RSE auditor, an
+      RSE licensee must obtain a declaration from the individual RSE auditor or the
+      lead auditor to the effect that:
+
+      (a)    they are independent, both in appearance and in fact;
+
+      (b)    they have no conflict of interest situation; and
+
+      (c)    there is nothing to their knowledge (including in relation to any audit firm
+             or audit company of which the auditor is a member or director) that could
+             compromise that independence.
+
+42.   For the purposes of this Prudential Standard, a conflict of interest situation exists
+      in relation to an RSE licensee at a particular time if, because of circumstances
+      that exist at that time:
+
+      (a)    the individual RSE auditor or lead auditor is not capable of exercising
+             objective and impartial judgement in relation to the conduct of the work
+             that is undertaken for the RSE licensee in relation to RSE licensee law; or
+
+      (b)    a reasonable person, with full knowledge of all relevant facts and
+             circumstances, would conclude that the individual RSE auditor or lead
+             auditor is not capable of exercising objective and impartial judgement in
+             relation to undertaking the work for the RSE licensee for the purposes of
+             RSE licensee law.19
+
+43.   A person, who was a member of an audit firm or a director of an audit company
+      or an individual auditor, and who served in a professional capacity in the audit of
+      an RSE licensee in relation to RSE licensee law, cannot be appointed to the role
+      of director or senior manager of that RSE licensee until at least two years have
+      passed since they served in that professional capacity.
+
+44.   A person, who was an employee of an audit company or audit firm, other than a
+      director of that company or member of that firm, and who acted as the lead auditor
+      or review auditor20 in the audit of an RSE licensee’s business operations in
+      relation to RSE licensee law, cannot be appointed to the role of director or senior
+      manager of that RSE licensee until at least two years have passed since they acted
+      as the lead auditor or review auditor.
+
+45.   A person cannot be appointed as a director or senior manager of an RSE licensee
+      if:
+
+
+
+
+19    Refer to sections 324CA - 324CD of the Corporations Act that describes the circumstances under
+      which a conflict of interest situation is considered to exist. Without limiting the situations that
+      may cause a conflict to arise for the purposes of this Prudential Standard, it is expected that any
+      circumstances of the type that would lead to a breach of Division 3 of Part 2M.4 of the
+      Corporations Act will also result in a breach of the provisions of this Prudential Standard.
+20    ‘Review auditor’ means the registered company auditor (if any) who is primarily responsible to
+      the individual auditor, audit firm or audit company for reviewing audit work conducted in relation
+      to RSE licensee law.
+
+
+                                                                                          SPS 510 - 8
+
+                            Authorised Version F2024L00637 registered 06/06/2024
+                                                                                            June 2024
+
+
+      (a)    the person was, or is, a director of the audit company or a member of the
+             audit firm that was, or is, responsible for the audit of the RSE licensee in
+             relation to RSE licensee law; and
+
+      (b)    there is already another person appointed or employed as a director or
+             senior manager of the RSE licensee who was a director of the audit
+             company or a member of the audit firm, at a time when the audit company
+             or audit firm undertook an audit of the RSE licensee at any time during
+             the previous two years.
+
+46.   Until 1 July 2028, an individual who plays a significant role21 in the audit of an
+      RSE in relation to RSE licensee law, for five successive years, or for more than
+      five years out of seven successive years, cannot continue to play a significant role
+      in the audit until at least a further two years have passed, except with an
+      exemption in writing from APRA. APRA may grant an exemption from this
+      requirement if the individual provides specialist services that are otherwise not
+      readily available or there are no other registered company auditors available to
+      provide satisfactory services for the RSE licensee.22
+
+47.   For the purposes of maintaining their independence and objectivity, the RSE
+      auditor and RSE actuary cannot both be employed by the same body corporate or
+      related bodies corporate, or by the same firm or related firms.
+
+Persons not to be constrained from providing information to APRA23
+
+48.   No prospective, current, or former officer, employee or contractor (including
+      professional service provider) of an RSE licensee may be constrained or impeded,
+      whether by confidentiality clauses or other means, from disclosing information to
+      APRA, from discussing issues with APRA of relevance to the management and
+      prudential supervision of the RSE licensee, or from providing documents under
+      their control to APRA, that may be relevant in the context of the management or
+      prudential supervision of the RSE licensee. Such persons are not to be constrained
+      or impeded from providing information to, as applicable, auditors, actuaries and
+      others, who have statutory responsibilities in relation to the RSE licensee.
+
+49.   An RSE licensee must ensure that its internal policy and contractual arrangements
+      do not explicitly or implicitly restrict or discourage auditors or other parties from
+      communicating with APRA.
+
+Adjustments and exclusions
+
+50.   APRA may adjust or exclude a specific requirement in this Prudential Standard
+      in relation to:
+
+21    For the purpose of this paragraph, an individual ‘plays a significant role’ if (a) the person is
+      appointed as an individual RSE auditor and acts as the auditor in respect of any of the requirements
+      of RSE licensee law; or (b) an audit company or audit firm is appointed as RSE auditor and the
+      person acts, on behalf of the company or firm, as a lead auditor, or a review auditor, in respect of
+      any of the requirements of RSE licensee law.
+22    From 1 July 2028, the limited term for eligibility to play a significant role in the audit of an RSE
+      will be assessed solely in accordance with section 324DA of the Corporations Act.
+23    Refer also to the whistleblowing provisions in SPS 520.
+
+
+                                                                                           SPS 510 - 9
+
+                            Authorised Version F2024L00637 registered 06/06/2024
+                                                                                     June 2024
+
+
+      (a)    a particular RSE licensee of an RSE; or
+
+      (b)    specified RSE licensees of RSEs.24
+
+Previous exercise of discretion
+
+51.   An RSE licensee must contact APRA if it seeks to place reliance, for the purposes
+      of complying with this Prudential Standard, on an exercise of discretion by APRA
+      made under a previous version of this Prudential Standard.
+
+
+
+
+24    Refer to section 34C(5) of the SIS Act.
+
+
+                                                                                   SPS 510 - 10
+
+                            Authorised Version F2024L00637 registered 06/06/2024
+

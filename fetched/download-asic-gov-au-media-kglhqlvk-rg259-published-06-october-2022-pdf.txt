@@ -1,0 +1,2546 @@
+SOURCE: https://download.asic.gov.au/media/kglhqlvk/rg259-published-06-october-2022.pdf
+FINAL URL: https://download.asic.gov.au/media/kglhqlvk/rg259-published-06-october-2022.pdf
+FETCHED: 2026-10-09
+
+REGULATORY GUIDE 259
+
+Risk management systems of
+fund operators
+
+October 2022
+
+
+
+
+About this guide
+This guide is for Australian financial services (AFS) licensees that are
+responsible entities or corporate directors (fund operators).
+
+It gives specific guidance on how fund operators may comply with their
+obligation under s912A(1)(h) of the Corporations Act 2001 (Corporations
+Act) to maintain adequate risk management systems.
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                                 About ASIC regulatory documents
+
+                                 In administering legislation ASIC issues the following types of regulatory
+                                 documents.
+                                 Consultation papers: seek feedback from stakeholders on matters ASIC
+                                 is considering, such as proposed relief or proposed regulatory guidance.
+                                 Regulatory guides: give guidance to regulated entities by:
+                                     explaining when and how ASIC will exercise specific powers under
+                                      legislation (primarily the Corporations Act)
+                                     explaining how ASIC interprets the law
+                                     describing the principles underlying ASIC’s approach
+                                     giving practical guidance (e.g. describing the steps of a process such
+                                      as applying for a licence or giving practical examples of how
+                                      regulated entities may decide to meet their obligations).
+                                 Information sheets: provide concise guidance on a specific process or
+                                 compliance issue or an overview of detailed guidance.
+                                 Reports: describe ASIC compliance or relief activity or the results of a
+                                 research project.
+
+
+                             Document history
+                             This guide was issued in September 2022 and is based on legislation and
+                             regulations as at the date of issue.
+
+                             Previous versions:
+                                    Superseded Regulatory Guide 259 Risk management systems of
+                                     responsible entities, issued March 2017
+
+
+                             Disclaimer
+                             This guide does not constitute legal advice. We encourage you to seek your
+                             own professional advice to find out how the Corporations Act and other
+                             applicable laws apply to you, as it is your responsibility to determine your
+                             obligations.
+
+                             Examples in this guide are purely for illustration; they are not exhaustive and
+                             are not intended to impose or imply particular rules or requirements.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 2
+                                                       REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Contents
+                             A      Overview .................................................................................................4
+                                    Legislative obligation ...............................................................................4
+                                    What this guide covers ............................................................................4
+                                    Who this guide applies to.........................................................................9
+                             B      Establishing risk management systems ...........................................10
+                                    Risk management systems....................................................................10
+                                    Developing risk management systems ..................................................11
+                                    Implementation and review of risk management systems.....................12
+                                    Setting risk management in context ......................................................13
+                                    Policy or statement on risk appetite.......................................................13
+                                    Risk management culture ......................................................................14
+                                    Structure and risk ownership .................................................................15
+                                    Liquidity risk management .....................................................................16
+                                    Relevant industry, local and international guidance ..............................17
+                                    Good practice guidance .........................................................................17
+                             C      Identifying and assessing risks .........................................................20
+                                    Identifying risks ......................................................................................20
+                                    Risks relevant to the business and the funds ........................................21
+                                    Strategies for assessing risks ................................................................22
+                                    Selecting risk identification and assessment methodologies ................23
+                                    Good practice guidance .........................................................................23
+                             D      Managing risks.....................................................................................24
+                                    Determining appropriate risk treatments ...............................................24
+                                    Controls or measures to manage or mitigate risks ................................25
+                                    Use of technology ..................................................................................25
+                                    Compliance with other relevant obligations as an AFS licensee ...........25
+                                    Residual risks ........................................................................................27
+                                    Monitoring and review............................................................................27
+                                    Stress testing and scenario analysis .....................................................28
+                                    Good practice guidance .........................................................................30
+                             Appendix: Examples of risks and risk treatments ...................................31
+                                Strategic risk ..........................................................................................31
+                                Governance risk.....................................................................................32
+                                Operational risk ......................................................................................33
+                                Market and investment risk ....................................................................39
+                                Liquidity risk ...........................................................................................43
+                             Key terms .....................................................................................................47
+                             Related information .....................................................................................49
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                                       Page 3
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+A          Overview
+
+                               Key points
+
+                               As Australian financial services (AFS) licensees, responsible entities of
+                               registered managed investment schemes (registered schemes) and
+                               corporate directors of corporate collective investment vehicles (CCIVs) are
+                               legally obliged to have adequate risk management systems. These
+                               systems are fundamental to mitigating exposure to relevant risks and
+                               informing business decision making.
+
+                               This guide provides guidance on how fund operators may comply with this
+                               obligation, including:
+                               • establishing and maintaining risk management systems that are suitable
+                                 for the fund operator’s business and the funds operated (see Section B);
+                               • identifying and assessing risks (see Section C); and
+                               • managing risks (see Section D).
+
+
+
+
+Legislative obligation
+              RG 259.1       Under s912A(1)(h) of the Corporations Act 2001 (Corporations Act),
+                             responsible entities of registered schemes and corporate directors of CCIVs
+                             (fund operators) have an ongoing obligation to maintain adequate risk
+                             management systems.
+
+              RG 259.2       In Regulatory Guide 104 AFS licensing: Meeting the general obligations
+                             (RG 104), we set out our general guidance for AFS licensees on what is
+                             required to comply with s912A(1)(h).
+
+              RG 259.3       This guide provides guidance on specific areas to improve the risk
+                             management systems of fund operators.
+
+
+
+What this guide covers
+              RG 259.4       This guide outlines our expectations of fund operators when complying with
+                             the obligation within s912A(1)(h).
+
+              RG 259.5       While RG 104 gives guidance on risk management systems for AFS licensees
+                             generally, this guide focuses specifically on the business of fund operators, the
+                             registered schemes and CCIVs (funds) they operate and the particular risks
+                             they face.
+
+              RG 259.6       The sections of this guide detail our expectations for fund operators to have:
+                             (a)   overarching risk management systems in place (Section B);
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 4
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             (b)   processes for identifying and assessing risks (Section C); and
+                             (c)   processes for managing risks (Section D).
+
+                             We expect these systems and processes to be appropriate for the nature, scale
+                             and complexity of the business and funds operated.
+
+              RG 259.7       We have also included in this guide additional good practice guidance. This
+                             guidance is not mandatory; it is intended to help fund operators improve their
+                             risk management systems to operate at a level above their statutory
+                             obligations.
+
+              RG 259.8       Table 1 provides a summary of our expectations of fund operators and the
+                             good practice guidance.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 5
+                                                                                                              REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Table 1:     Summary of guidance
+
+ Section                       Expectations for compliance with s912A(1)(h)                                            Good practice guidance (not mandatory)
+
+ Section B (Establishing a     Fund operators should:                                                                  Fund operators may:
+ risk management                maintain documented risk management systems that include:                              at least every three years, conduct a
+ system)                                                                                                                 comprehensive independent review of the
+                                 − clearly defined roles and responsibilities;
+                                                                                                                         appropriateness, effectiveness and adequacy of the
+                                 − policies and procedures for identifying, assessing and understanding each of
+                                                                                                                         risk management systems;
+                                   the material risks of the fund operator’s business and funds operated;
+                                                                                                                        segregate functions to allow for independent checks
+                                 − policies and procedures for ensuring there are adequate controls in place to
+                                                                                                                         and balances;
+                                   manage the risks identified;
+                                                                                                                        establish a designated risk management function
+                                 − policies and procedures for ensuring there is adequate oversight of the risk
+                                                                                                                         and/or risk management committee;
+                                   management systems by both the party responsible for ownership of the risk and
+                                   the compliance function, including appropriate reporting; and                        appoint a chief risk officer; and
+
+                                 − a policy or statement on the fund operator’s risk appetite and the risk tolerance    publicly disclose a summary of the key aspects of
+                                   for each material risk identified;                                                    the fund operator’s risk management systems.
+
+                                foster a strong risk management culture;
+                                take into account relevant industry, local and international guidance;
+                                include, as a component of the risk management systems, a liquidity risk
+                                 management process;
+                                review their risk management systems—to ensure that they are current, relevant,
+                                 effective and complied with—as frequently as appropriate, given the nature, scale
+                                 and complexity of the fund operator’s business and the funds it operates (at a
+                                 minimum, annually); and
+                                if relying on external service providers for risk management functions, maintain a
+                                 strong understanding of risk management and have sufficient skills to
+                                 independently monitor and assess the performance and ongoing suitability of the
+                                 service provider.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                                                                        Page 6
+                                                                                                                REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+ Section                       Expectations for compliance with s912A(1)(h)                                              Good practice guidance (not mandatory)
+
+ Section C (Identifying        Fund operators should:                                                                    Fund operators may use risk indicators and regularly
+ and assessing risks)           maintain one or more risk registers as part of their risk identification and            report on these to the board and senior management.
+                                 assessment process;
+                                ensure that their risk management systems address all material risks—including
+                                 (but not limited to) strategic risk, governance risk, operational risk, market and
+                                 investment risk, and liquidity risk—at both the fund operator and fund level;
+                                when choosing methodologies for identifying and assessing risks, take into
+                                 account:
+                                 − the nature, scale and complexity of the business;
+                                 − processes based on forward-looking analysis;
+                                 − ensuring an appropriate level of human input;
+                                 − ensuring senior management involvement in the process; and
+                                 − whether different processes should be used for different funds; and
+                                adopt appropriate methods to assess risks, which may include:
+                                 − self-assessment;
+                                 − stress testing and/or scenario analysis;
+                                 − loss data analysis;
+                                 − change management; and
+                                 − digital systems.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                                                                         Page 7
+                                                                                                                 REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+ Section                       Expectations for compliance with s912A(1)(h)                                               Good practice guidance (not mandatory)
+
+ Section D (Managing           Fund operators should:                                                                     Fund operators may:
+ risks)                         implement appropriate strategies for managing each of the material risks                  conduct regular stress testing and/or scenario
+                                 identified, including:                                                                     analysis of all material risks of the business and the
+                                 − a control monitoring and assurance process;                                              funds they operate;
+
+                                 − conducting stress testing and/or scenario analysis of liquidity risks of the funds      have a written risk treatment plan; and
+                                   they operate as part of their risk management systems as frequently as                  include in the compliance plan for their funds
+                                   appropriate, given the nature, scale and complexity of the business (at a                additional procedures for ensuring that the material
+                                   minimum, annually);                                                                      risks identified for the fund are relevant and
+                                 − reviewing their framework for stress testing and/or scenario analysis—to ensure          managed on an ongoing basis.
+                                   the tested scenarios are relevant and appropriate in light of the business and
+                                   market conditions—as frequently as appropriate, given the nature, scale and
+                                   complexity of the business (at a minimum, annually); and
+                                 − if stress testing and/or scenario analysis is not conducted, document why this is
+                                   the case, keep appropriate internal records of this rationale and review this
+                                   decision regularly;
+                                have adequately experienced staff regularly review and monitor the risks
+                                 identified;
+                                ensure there is regular reporting and escalation of issues to the board, risk
+                                 committee and compliance committee, as appropriate; and
+                                ensure compliance with other relevant obligations as an AFS licensee.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                                                                              Page 8
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+              RG 259.9       In the appendix to this guide we give examples of risks and risk treatments
+                             that we consider are particularly relevant to fund operators, based on our
+                             regulatory experience. These examples may help operators establish and
+                             review their arrangements to identify, assess and manage risks, and may be
+                             considered by operators as part of these processes.
+
+              RG 259.10      The examples of risks in this guide are not intended to be exhaustive. We
+                             expect that, through the application of a structured and systematic process,
+                             fund operators will identify, assess and manage risks relevant to their
+                             business and the funds they operate in an ongoing and dynamic way.
+
+
+
+Who this guide applies to
+              RG 259.11      This guide is for responsible entities of registered schemes and corporate
+                             directors of CCIVs but is also relevant for:
+                             (a)   AFS licensees not currently operating a fund;
+                             (b)   investor directed portfolio services (IDPS) and managed discretionary
+                                   account (MDA) operators; and
+                             (c)   entities operating unregistered managed investment schemes.
+
+
+                             Other entities that may benefit from this guidance
+
+              RG 259.12      We expect all AFS licensees authorised to operate a fund to consider this
+                             guide, even if they are not currently operating any funds. This will help
+                             ensure they have in place compliant risk management systems that can be
+                             applied to the funds on commencement of their operation.
+
+              RG 259.13      We expect IDPS and MDA operators to consider this guidance when
+                             establishing and reviewing their risk management systems, as these services
+                             would need to be registered schemes if they could not rely on our relief for
+                             IDPSs and MDAs.
+
+              RG 259.14      All aspects of this guide may not be relevant to entities operating
+                             unregistered managed investment schemes. However, we recommend that
+                             operators of such schemes consider this guidance when establishing and
+                             reviewing their risk management systems.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 9
+                                                   REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+B          Establishing risk management systems
+
+                               Key points
+
+                               A fund operator should ensure its risk management systems comprise
+                               documented processes to identify, assess and treat risks, and that these
+                               systems are suitable for its business and the funds it operates: see
+                               RG 259.15–RG 259.16.
+                               This section sets out our guidance for fund operators on:
+                               • developing risk management systems (see RG 259.17–RG 259.25);
+                               • implementing and reviewing risk management systems (see
+                                 RG 259.26–RG 259.29);
+                               • setting risk management in context (see RG 259.30–RG 259.31 and
+                                 Table 2);
+                               • risk appetite (see RG 259.32–RG 259.36);
+                               • the role of culture and structure in risk management systems (see
+                                 RG 259.37–RG 259.45);
+                               • liquidity management (see RG 259.46–RG 259.49); and
+                               • relevant industry, local and international guidance (see RG 259.50–
+                                 RG 259.53).
+
+                               This section also sets out our good practice guidance for establishing risk
+                               management systems: see RG 259.54–RG 259.62.
+
+
+
+
+Risk management systems
+              RG 259.15      The international standard for risk management defines risk as the ‘effect of
+                             uncertainty on objectives’ and risk management as ‘coordinated activities to
+                             direct and control an organization with regard to risk’: see International
+                             Standard ISO 31000:2018 Risk management—Guidelines.
+
+              RG 259.16      Effective risk management needs to:
+                             (a)   be integrated;
+                             (b)   be structured and comprehensive;
+                             (c)   be customised;
+                             (d)   be inclusive;
+                             (e)   be dynamic;
+                             (f)   use the best available information;
+                             (g)   consider human and cultural factors; and
+                             (h)   have continual improvement.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 10
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Developing risk management systems
+              RG 259.17      Risk management systems include all structures, systems and subsystems,
+                             policies, procedures, and staff that a fund operator uses to identify, assess
+                             and treat risks or to monitor and review the relevant controls or measures. It
+                             may be regarded as a framework comprising all elements that allow the fund
+                             operator to perform its risk management functions as required by the
+                             Corporations Act.
+
+              RG 259.18      Adequate risk management systems enable material risks faced by the fund
+                             operator and the funds it operates to be identified, analysed and treated in a
+                             comprehensive and systematic way. Sound corporate governance and
+                             management oversight are an essential part of any effective risk management
+                             systems.
+
+              RG 259.19      The adequacy of a fund operator’s risk management systems will depend on
+                             the nature, scale and complexity of its business and the funds it operates.
+
+              RG 259.20      We consider the following to be core processes that are essential to adequate
+                             risk management systems in any fund operator’s business:
+                             (a)   setting out the scope, context and criteria in which the risk management
+                                   systems operate, including a policy or statement on the fund operator’s
+                                   risk appetite (see RG 259.30–RG 259.36);
+                             (b)   identifying and assessing risks (see Section C); and
+                             (c)   managing risks, including reviewing and monitoring the risk
+                                   management systems (see Section D and RG 259.26–RG 259.29).
+
+              RG 259.21      A fund operator should maintain documented risk management systems that
+                             include:
+                             (a)   clearly defined roles and responsibilities;
+                             (b)   policies and procedures for identifying, assessing and understanding
+                                   each of the material risks of the fund operator’s business and funds
+                                   operated;
+                             (c)   policies and procedures for ensuring there are adequate controls in place
+                                   to manage the risks identified;
+                             (d)   policies and procedures for ensuring there is adequate oversight of the
+                                   risk management systems by both the party responsible for ownership of
+                                   the risk and the compliance function, including appropriate reporting; and
+                             (e)   a policy or statement on the fund operator’s risk appetite and the risk
+                                   tolerance for each material risk identified.
+
+              RG 259.22      We expect fund operators to maintain a strong understanding of risk
+                             management in the context of the business, even if the establishment and the
+                             monitoring of the risk management systems are done by a small group of
+                             employees or external third-party service providers (e.g. compliance and risk
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 11
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             management consultants). We expect those who carry out the risk
+                             management function to have appropriate knowledge and skills.
+
+              RG 259.23      Where external third-party service providers are used, we expect fund
+                             operators to have sufficient skills to independently identify material risks
+                             and to monitor and assess the service provider’s performance and ongoing
+                             suitability. We note that responsible entities retain ultimate responsibility for
+                             the operation of a scheme (see s601FB) and corporate directors have
+                             responsibility for the operation of a CCIV (see s1224M).
+
+              RG 259.24      We understand that if a fund operator is part of a corporate group, the risk
+                             management systems of the fund operator, or the policies and procedures for
+                             its risk management systems, may be subject to the overarching approach of
+                             the corporate group or form part of its risk management framework. Some
+                             fund operators may rely on the risk management systems of a related entity
+                             to assist with complying with their risk management obligations.
+
+              RG 259.25      This may be appropriate for businesses that are part of a larger corporate
+                             group; however, if this approach is adopted, each fund operator should take
+                             into consideration their specific individual risks and requirements. The fund
+                             operator should carefully assess the risk management systems of the
+                             corporate group or related entity to ensure that they are appropriate and
+                             tailored as necessary.
+
+
+
+Implementation and review of risk management systems
+              RG 259.26      Risk management systems are most effective if applied and adhered to in
+                             day-to-day decision making at all levels. Therefore, it is essential that a fund
+                             operator ensures that all processes, policies and procedures that form part of
+                             its risk management systems are implemented and applied to the day-to-day
+                             operation of its business and the funds it operates.
+
+              RG 259.27      We consider that the development of adequate risk management systems is
+                             not a ‘set and forget’ or one-off process. The systems should adapt and
+                             evolve to take into account internal changes within the fund operator and the
+                             funds it operates, as well as changes in the external environment.
+
+              RG 259.28      To ensure that risk management systems are always current, relevant, effective
+                             and complied with, they should be monitored and reviewed as frequently as
+                             appropriate, given the nature, scale and complexity of the business and the
+                             funds operated. This should be at least annually. See also RG 259.89–
+                             RG 259.90.
+
+              RG 259.29      We consider that the fund operator’s senior management has a specific role
+                             in ensuring that:
+                             (a)   this review is undertaken;
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 12
+                                                   REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             (b)   the risk management systems are current, relevant, effective and
+                                   complied with on an ongoing basis; and
+                             (c)   the risk management systems remain appropriate to the business and
+                                   funds operated.
+
+
+
+Setting risk management in context
+              RG 259.30      A fund operator should consider and document the context in which its risk
+                             management systems are developed. That is, the internal and external
+                             environment in which its business operates, including the objectives of the
+                             business.
+
+              RG 259.31      Adequate risk management systems require a thorough understanding of the
+                             internal and external factors that could affect the fund operator’s ability to
+                             achieve its goals and objectives. Table 2 lists some examples of these
+                             factors.
+
+Table 2:     Examples of internal and external factors
+
+ Internal factors                                            External factors
+
+  Vision, missions, value, goals and objectives in the       Business, financial, competitive, political, economic,
+   strategic and business plans, including the                 social, cultural, technological and environmental
+   objectives of the relevant funds (e.g. whether a fund       factors the business faces.
+   will be a liquid fund offering redemptions on              Expectations of external stakeholders (including
+   demand or an illiquid fund). Particular business            shareholders) about the operation of the business.
+   strategies may create specific risks affecting the
+                                                              Legal and regulatory changes that affect the
+   business.
+                                                               operation of the business and the funds.
+  Capabilities of the organisation (e.g. financial,
+                                                              New product offerings in the market that compel a
+   human and technological resources).
+                                                               fund operator to compete more effectively.
+  Information flow and decision-making processes.
+                                                              Contractual relationships and commitments.
+  Culture of the fund operator.
+                                                              The complexity of networks and dependencies.
+  Interdependencies and interconnections.
+
+
+
+
+Policy or statement on risk appetite
+              RG 259.32      A fund operator should document its risk appetite in a policy or statement.
+                             This policy or statement should outline the fund operator’s attitude towards
+                             risk taking while carrying out its business plans, including the amount of risk
+                             (which may refer to the level of losses) it is willing to take to pursue its
+                             business strategies and achieve its objectives. It should also address the risks
+                             relevant to the fund operator’s overall strategy to achieve its objectives and
+                             set out the limits to these risks. In undertaking this process we consider it is
+                             important for the fund operator to take into account any differences in the
+                             risk profile of the funds operated.
+
+
+
+© Australian Securities and Investments Commission October 2022                                               Page 13
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+              RG 259.33      The fund operator may have one such policy or statement setting out its risk
+                             appetite in aggregate, or separate policies and statements. The policy or
+                             statement should be approved by the board or its delegate.
+
+              RG 259.34      During this process the risk tolerance for each material risk should be
+                             identified. This can be expressed in qualitative or quantitative terms, where
+                             appropriate. The risk tolerance will reflect the risk appetite.
+
+              RG 259.35      A fund operator should ensure its risk appetite is reviewed at appropriate
+                             intervals and that it takes into account changes in the internal and external
+                             context in which the business operates, including changes to the objectives
+                             and strategic direction of the business.
+
+              RG 259.36      Fund operators may adopt the following approach in setting and applying a
+                             policy or statement on risk appetite:
+                             (a)   senior management sets the policy or statement on risk appetite for the
+                                   business;
+                             (b)   the board or its delegate approves the policy or statement on risk
+                                   appetite;
+                             (c)   based on this statement, risk tolerance is set and documented for each
+                                   material risk, broken down into clearly defined limits or thresholds for
+                                   particular activities of the business to support the decision-making
+                                   process; and
+                             (d)   risk management processes, policies and procedures to implement and
+                                   monitor the limits and thresholds are developed and communicated to
+                                   staff, so that they are applied to support day-to-day operational decision
+                                   making.
+
+
+
+Risk management culture
+              RG 259.37      We expect fund operators to foster a strong risk management culture
+                             throughout their organisations. The effectiveness of adequate risk
+                             management systems depend on the whole organisation understanding the
+                             value of managing risks effectively, and acting accordingly.
+
+              RG 259.38      We expect fund operators to ensure that all relevant staff understand the
+                             purposes of risk management, including ensuring legal and regulatory
+                             compliance, as well as its value to the organisation. This can be done
+                             through induction, training and education programs.
+
+              RG 259.39      The board and senior management have specific responsibilities to ensure
+                             that a fund operator, as an AFS licensee, complies with its obligation to have
+                             adequate risk management systems. We acknowledge that the board may not
+                             be directly involved in the day-to-day operation of the policies, procedures
+                             and processes for the risk management systems and may delegate the
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 14
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             supervision of these roles. However, the board’s commitment to fostering a
+                             strong risk management culture within the organisation is especially
+                             important, as the board is in a position to provide leadership and make sure
+                             that relevant measures are implemented effectively.
+
+              RG 259.40      An effective risk management culture may include:
+                             (a)   communicating with staff about the importance of managing risks to
+                                   achieve strategic business objectives;
+                             (b)   providing sufficient resources for all risk management functions;
+                             (c)   relevant staff receiving ongoing training about risk management
+                                   (e.g. general risk management training and/or training that is relevant to
+                                   a staff member’s role and responsibilities) to help them identify risks
+                                   and understand how they can be managed;
+                             (d)   discouraging breaches of any risk management procedures by staff
+                                   through adequate consequence management;
+                             (e)   supporting, recognising and/or rewarding employees who demonstrate
+                                   their commitment to effective risk management; and
+                             (f)   assigning a designated director the responsibility of making sure the
+                                   risk management systems for the fund operator and funds it operates are
+                                   adequate (or designated directors having responsibility over particular
+                                   parts of the risk management system).
+
+              RG 259.41      We expect fund operators to implement and maintain remuneration policies
+                             that are aligned with, and supportive of, the risk management systems of
+                             their business, including the funds they operate.
+
+
+
+Structure and risk ownership
+              RG 259.42      A fund operator’s risk management systems should include details of the
+                             functions, roles and responsibilities for implementing and carrying out
+                             specific risk management activities.
+
+              RG 259.43      We consider that an adequate risk structure requires:
+                             (a)   staff who perform risk management functions to have the appropriate
+                                   knowledge and skills;
+                             (b)   decision making that is cognisant of the risk management systems;
+                             (c)   key staff to take responsibility for owning risks and developing
+                                   processes to mitigate them;
+                             (d)   regular reviews; and
+                             (e)   that risk owners regularly monitor and report on those risks.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 15
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+              RG 259.44      We expect fund operators’ risk management systems to require relevant staff
+                             to report internally to identified escalation points (e.g. the risk management
+                             committee, the designated risk management function or the board) about
+                             compliance with risk management processes, policies and procedures on a
+                             regular basis, and whenever any issues are identified (e.g. exceeding the risk
+                             tolerance for a particular risk, or a failure to follow the relevant processes).
+                             Such reporting increases the risk-related information available in the
+                             organisation, to assist decision making and improve risk management
+                             systems where systemic issues about their operation are identified.
+
+              RG 259.45      We also consider that fund operators should implement processes for regular
+                             reporting and escalation of issues to the board and/or any risk or compliance
+                             committee established.
+
+
+
+Liquidity risk management
+              RG 259.46      Effective liquidity risk management is important for a fund operator to
+                             ensure the financial obligations and needs of the business and funds operated
+                             are met, including:
+                             (a)   investor redemptions;
+                             (b)   payment of distributions;
+                             (c)   changes in operational needs; and
+                             (d)   unexpected expenses.
+
+              RG 259.47      We expect risk management systems of fund operators to include a liquidity
+                             risk management process, designed to ensure there are adequate financial
+                             resources to meet the financial obligations and needs of the fund operator
+                             and the funds operated.
+
+              RG 259.48      At the fund level, we expect this will include stress testing or scenario
+                             analysis (see RG 259.91–RG 259.98). We also expect it will include fund
+                             operators assessing available liquidity management tools and considering
+                             whether these are appropriate to use. For example, redemption fees,
+                             suspension of withdrawal requests, redemption gates (a limit on the amount
+                             of redemptions), in specie transfers (transferring assets of an equivalent
+                             amount instead of providing cash proceeds), swing pricing (applying higher
+                             transaction costs adjustments on redemptions, reflecting the lack of an
+                             offsetting issue of fund interests or shares), minimum or maximum limits on
+                             withdrawals, or satisfying withdrawals on a partial or staggered basis.
+
+              RG 259.49      At the fund operator level, we expect this will include an ongoing
+                             assessment of whether the fund operator is complying with the financial
+                             requirements of its AFS licence and is able to meet its financial obligations
+                             and needs.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 16
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Relevant industry, local and international guidance
+              RG 259.50      In developing, implementing and reviewing its risk management systems, we
+                             consider that a fund operator should take into account relevant industry,
+                             local and international guidance.
+
+              RG 259.51      We appreciate that in many cases compliance with the guidance may not be
+                             mandatory and a wide range of material may exist. We expect, at a
+                             minimum, that fund operators will consider whether the guidance that exists
+                             for the material risks identified for the business and funds operated would be
+                             useful to adopt.
+
+              RG 259.52      We consider liquidity a material risk for funds. In developing their liquidity
+                             risk management process, fund operators should consider the following
+                             international guidance, which outline tools to help fund operators manage
+                             liquidity risk:
+                             (a)   the International Organization of Securities Commissions’ (IOSCO)
+                                   Recommendations for Liquidity Risk Management for Collective
+                                   Investment Schemes; and
+
+                                   Note: See IOSCO, Recommendations for liquidity risk management for collective
+                                   investment schemes: Final report (PDF 363 KB), February 2018.
+
+                             (b)   the Financial Stability Board’s (FSB) Policy Recommendations to
+                                   Address Structural Vulnerabilities from Asset Management Activities.
+
+                                   Note: See FSB, Policy recommendations to address structural vulnerabilities from asset
+                                   management activities, January 2017.
+
+              RG 259.53      We encourage industry bodies and associations to develop standards on risk
+                             management, to further assist fund operators to meet their obligation under
+                             s912A(1)(h).
+
+
+
+Good practice guidance
+              RG 259.54      Additional strategies that may be implemented by fund operators in
+                             establishing and maintaining risk management systems include:
+                             (a)   supplementary review of the risk management systems (see RG 259.55–
+                                   RG 259.56);
+                             (b)   segregating functions to allow for independent checks and balances (see
+                                   RG 259.57);
+                             (c)   designating a risk management function and committee (see
+                                   RG 259.58–RG 259.60);
+                             (d)   appointing a chief risk officer (see RG 259.61); and
+                             (e)   publicly disclosing a summary of key aspects of their risk management
+                                   systems (see RG 259.62).
+
+
+
+© Australian Securities and Investments Commission October 2022                                                  Page 17
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             Review of risk management systems
+
+              RG 259.55      Fund operators may undertake an additional independent comprehensive
+                             review of the appropriateness, effectiveness and adequacy of the risk
+                             management systems (at least every three years).
+
+              RG 259.56      The above review should be carried out by an independent, appropriately
+                             trained and competent person. This does not require an external party and
+                             can be done internally, as long as the fund operator is satisfied that any other
+                             roles carried out by the person reviewing the risk management systems do
+                             not have an impact on their ability to perform an objective review and will
+                             not limit the robustness of the review.
+
+
+                             Segregation of functions to allow for independent checks
+                             and balances
+
+              RG 259.57      Depending on the nature, scale and complexity of the business, we
+                             encourage fund operators to segregate functions to allow for independent
+                             checks and balances. This may include, for example, segregating the internal
+                             function in charge of valuing assets from the investment management
+                             function. We consider this will help manage conflicts of interests that may
+                             arise, and builds in an additional level of oversight to identify any issues.
+
+
+                             Designated risk management function and committee
+
+              RG 259.58      Depending on the nature, scale and complexity of the business, we consider
+                             it is good practice for fund operators to establish a designated risk
+                             management function and/or risk management committee. We understand
+                             that this may not be feasible for some operators.
+
+              RG 259.59      The designated risk management function may have a hands-on role in
+                             ensuring the day-to-day operation of a fund operator (including the funds it
+                             operates) is conducted in alignment with its risk management systems.
+                             To achieve this, the designated risk management function may be
+                             independent from the operating units of the fund operator’s business. It may
+                             also have the specific responsibility of monitoring compliance with risk
+                             management processes, policies and procedures, as well as reporting to the
+                             board and any risk management committee all significant breaches of the
+                             processes, policies and procedures.
+
+              RG 259.60      The responsibilities of a risk management committee may include:
+                             (a)   helping senior management develop the risk management systems;
+                             (b)   reviewing the effectiveness of the risk management systems;
+                             (c)   reporting to the board and/or senior management on breaches of risk
+                                   tolerance or risk management processes, policies and procedures,
+                                   according to the fund operator’s escalation policy; and
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 18
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             (d)   reporting to the board and/or senior management on the risk
+                                   management systems and their performance.
+
+
+                             Appointing a chief risk officer
+
+              RG 259.61      Depending on the nature, scale and complexity of the business, we consider
+                             it is good practice for fund operators to appoint a dedicated chief risk officer.
+                             Generally, the chief risk officer will be a key member of senior management
+                             to ensure they have sufficient stature and authority to influence risk-based
+                             decision making. It is important for any chief risk officer to communicate
+                             freely and have direct and unfettered access to the board, senior management
+                             and any risk or compliance committee established.
+
+
+                             Disclosure of risk management policies
+
+              RG 259.62      In addition to its obligation to disclose information about significant risks in
+                             the Product Disclosure Statement (PDS) under Pt 7.9 of the Corporations
+                             Act, an issuer may provide additional transparency to investors about its
+                             arrangements by publicly disclosing a summary of the key aspects of the risk
+                             management systems of the fund operator—for example, on its website or in
+                             its annual report.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 19
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+C          Identifying and assessing risks
+
+                               Key points
+
+                               This section sets out our guidance for fund operators on identifying and
+                               assessing risks, including:
+                               • the processes for identifying risks, documenting the processes, policies
+                                 and procedures used to identify these risks, and maintaining one or
+                                 more risk registers to record material risks (see RG 259.64–RG 259.68).
+                                 The processes should be suitable for the business’s objectives and
+                                 operations, including for the funds it operates;
+                               • ensuring their risk management systems address all material risks (see
+                                 RG 259.69–RG 259.70) for their business and each fund operated.
+                                 These may include strategic risk, governance risk, operational risk,
+                                 market and investment risk, and liquidity risk;
+                               • strategies for assessing identified risks and documenting its risk
+                                 assessment processes (see RG 259.71–RG 259.75); and
+                               • taking into account certain factors when selecting risk identification and
+                                 assessment methodologies (see RG 259.76).
+
+                               It also sets out our good practice guidance for identifying and assessing
+                               risks: see RG 259.77.
+
+
+
+
+Identifying risks
+              RG 259.63      Risk identification is the process used by fund operators to identify risks that
+                             will affect their ability to pursue business strategies and achieve the
+                             objectives of their business.
+
+              RG 259.64      We do not consider that any one particular method for identifying risks is the
+                             most appropriate and applicable for all fund operators.
+
+              RG 259.65      Fund operators should adapt the processes for risk identification in their risk
+                             management systems as the business develops and business risk profiles
+                             change, over time and in different market conditions. Risks need to be
+                             identified at any given point in time to ensure fund operators can effectively
+                             manage them in the operation of their business and day-to-day decision
+                             making.
+
+              RG 259.66      There are different ways to identify the risks that can affect a fund operator’s
+                             business. For example, evidence-based methods that rely on reviewing audit
+                             reports, post-event reports, historical data or risk registers can help to
+                             identify existing and emerging risks that the fund operator may face.
+                             Observations from our regulatory experience indicate that incorporating this
+                             approach to risk identification in strategic and business planning is
+                             particularly helpful in identifying risks. Fund operators may use a systematic
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 20
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             team approach that uses focus groups and brainstorming to identify risks.
+                             Purpose-built software can also be used.
+
+              RG 259.67      A fund operator should document the processes, policies and procedures it
+                             uses to identify risks.
+
+              RG 259.68      We expect fund operators to maintain one or more risk registers for
+                             recording material risks to the business and funds operated as part of their
+                             risk identification process. A fund operator should select the format of the
+                             risk register(s) that is most suitable for the business and funds operated.
+                             Fund operators are not required to keep separate risk registers at the fund
+                             operator and fund level, or for each fund they operate, as long as the material
+                             risks for the business and each fund operated are identified and addressed in
+                             the registers maintained.
+
+
+
+Risks relevant to the business and the funds
+              RG 259.69      We appreciate that the risks identified by fund operators as part of their risk
+                             management systems will depend on the nature, scale and complexity of
+                             their business and risk profile, and will be different for each fund operator.
+                             Our regulatory experience suggests that certain types of funds (e.g. unlisted
+                             property funds, mortgage funds, agribusiness funds, quoted funds, hedge
+                             funds and novel funds) are subject to more complex risks.
+
+              RG 259.70      A fund operator should ensure that its risk management systems address all
+                             the material risks faced by the business and each fund operated. These may
+                             include, but are not limited, to the following risks:
+                             (a)   Strategic risk—Any risk that arises out of a fund operator’s business
+                                   strategies and business plan.
+                             (b)   Governance risk—Any risk that threatens the ability of a fund operator
+                                   to make reasonable and impartial business decisions in the best interests
+                                   of members. This risk may arise if a fund operator does not have the
+                                   appropriate processes in place to:
+                                   (i)    support sound and transparent decision making that is not
+                                          influenced by conflicts of interests; and
+                                   (ii)   ensure that decisions related to the funds are in the best interest of
+                                          members.
+                             (c)   Operational risk—The risk of loss, for the business or funds, resulting
+                                   from inadequate or failed internal processes, people and systems or
+                                   from external events.
+                             (d)   Market and investment risk—The risk that a fund operated by a fund
+                                   operator will not meet its objectives. Specific investment risks include
+                                   those relating to investment governance and structure, market
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 21
+                                                   REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                                   conditions, counterparty failure, product suitability, and valuation and
+                                   pricing.
+                             (e)   Liquidity risk—The risk that the fund operator will not have adequate
+                                   financial resources to meet its financial obligations and needs, either at
+                                   the fund operator level or at the fund level (including meeting the
+                                   fund’s objectives and members’ expectations for redemptions). As
+                                   previously outlined, we consider that liquidity risk is a material risk for
+                                   funds.
+
+                                   Note: For a detailed description of these risks (including examples of specific risks) and
+                                   treatments to manage these risks based on our regulatory experience, see the appendix
+                                   to this guide.
+
+
+
+
+Strategies for assessing risks
+              RG 259.71      Risk assessment is the process of describing identified risks, including by
+                             reference to the inherent risk, and determining the likelihood of a risk
+                             eventuating and the significance of its potential impact. This process can
+                             help a fund operator determine whether the identified risks are acceptable in
+                             light of its risk appetite and develop appropriate treatments for those risks.
+
+              RG 259.72      Examples of different methods that fund operators may adopt for assessing
+                             risks include the following:
+                             (a)   Self-assessment––The fund operator, its senior management and those
+                                   in the designated risk management function (if applicable) assess risks
+                                   through the business and the funds it operates. This may include risk
+                                   mapping, where risks are prioritised according to the significance of the
+                                   risk and likelihood of a risk eventuating and mapped into four
+                                   quadrants.
+                             (b)   Stress testing and/or scenario analysis—The fund operator uses
+                                   techniques such as stress testing and/or scenario testing to assess how it
+                                   will be impacted by different scenarios. See also RG 259.91–RG 259.98.
+                             (c)   Loss data analysis—The fund operator implements processes to analyse
+                                   observed incidents to evaluate the actual losses caused by risks.
+                             (d)   Change management—The fund operator implements processes to
+                                   assess how the business and funds operated are affected by change, to
+                                   ensure objectives are still met.
+                             (e)   Digital systems––The fund operator uses purpose-built software to
+                                   assess risks.
+
+              RG 259.73      Fund operators may also seek expert advice and appoint an external
+                             consultant to help in the process of assessing the likelihood of a risk
+                             eventuating and the significance of its potential impact.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                      Page 22
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+              RG 259.74      We do not consider that any one particular approach for assessing risks will
+                             be the most appropriate and applicable to the operation of all fund operators.
+
+              RG 259.75      A fund operator should document its risk assessment processes.
+                             Documenting the reasons why particular assessments are made, including
+                             the thinking that led to the decisions about identified risks, provides a useful
+                             context for future risk assessment.
+
+
+
+Selecting risk identification and assessment methodologies
+              RG 259.76      When considering which approach or combination of approaches to adopt in
+                             identifying and assessing risks, fund operators may consider:
+                             (a)   the nature, scale and complexity of the business;
+                             (b)   incidents and complaints, trends or developments in the industry, and
+                                   changes to the business environment;
+                             (c)   processes based on a forward-looking analysis in accordance with
+                                   strategic and business plans (e.g. when assessing the risk of not having
+                                   adequate technological or human resources, identification of risks
+                                   should be based on forward planning);
+                             (d)   the need to ensure there is an appropriate level of human input in the
+                                   process—sole or disproportionate reliance on digital systems may not
+                                   be adequate;
+                             (e)   senior management involvement in the process (e.g. any determination
+                                   about whether an identified risk is at an acceptable level in light of the
+                                   policy or statement on risk appetite); and
+                             (f)   if applicable, whether different processes should be used to identify and
+                                   assess risks for different funds in light of the operation of each
+                                   particular fund.
+
+
+
+Good practice guidance
+              RG 259.77      Fund operators may use risk indicators to provide an early signal of
+                             increasing risk exposures in various areas of the business. Regular reporting
+                             on the risk indicators can give the board and senior management an insight
+                             into the changes in the external and internal environment that may indicate
+                             risk concerns. It can also help ensure that risk levels are managed within
+                             defined tolerances.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 23
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+D          Managing risks
+
+                               Key points
+
+                               This section sets out our guidance for fund operators on managing risks,
+                               including:
+                               • determining appropriate risk treatments (see RG 259.78–RG 259.80);
+                               • controls or measures to manage or mitigate risk (see RG 259.81–
+                                 RG 259.83;
+                               • use of technology (see RG 259.84);
+                               • compliance with other relevant obligations as an AFS licensee (see
+                                 RG 259.85 and Table 3);
+                               • dealing with residual risks (see RG 259.86);
+                               • monitoring and review (see RG 259.87–RG 259.90); and
+                               • stress testing and scenario analysis (see RG 259.91–RG 259.98).
+
+                               It also sets out our good practice guidance for managing risks: see
+                               RG 259.99–RG 259.102.
+
+
+
+Determining appropriate risk treatments
+              RG 259.78      A fund operator should determine the appropriate treatment for each material
+                             risk identified and document how the risk will be treated.
+
+              RG 259.79      There are different ways that fund operators may manage risks. For example,
+                             they may:
+                             (a)   do nothing if the identified risk is within acceptable risk tolerance levels;
+                             (b)   avoid the risk by not undertaking the relevant activities that give rise to
+                                   the risk;
+                             (c)   prevent the eventuation of the risk through specific actions, such as
+                                   developing rules and documented policies and procedures;
+                             (d)   reduce or mitigate the consequences or impact of realised risks
+                                   (e.g. through contingency, emergency or business continuity plans);
+                                   and/or
+                             (e)   transfer the risks to other parties, through insurance, outsourcing or
+                                   indemnification.
+
+              RG 259.80      Risks faced by the business should be considered as a whole, given that
+                             some risks may be interrelated (e.g. liquidity and valuation risks).
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 24
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Controls or measures to manage or mitigate risks
+              RG 259.81      We expect fund operators to have adequate controls to manage or mitigate
+                             risks (e.g. performance standards for external service providers). It is also
+                             important for the fund operator to implement a control monitoring and
+                             assurance process that considers the:
+                             (a)   adequacy of coverage of controls and whether appropriate remediation
+                                   and response strategies are in place for material risks;
+                             (b)   effectiveness of internal controls designed to ensure risks have been
+                                   mitigated; and
+                             (c)   appropriateness of monitoring strategies and ongoing testing (e.g. self-
+                                   assessment, real-time transaction monitoring and reporting, and control
+                                   assurance reviews by independent teams).
+
+              RG 259.82      The appendix to this guide includes examples of controls and measures for
+                             treating the risks that we consider are most relevant to the business of a fund
+                             operator. The examples of risk treatments in the appendix are not mandatory,
+                             unless otherwise specified in the guidance.
+
+              RG 259.83      Nor are the risk management strategies exhaustive. We expect fund
+                             operators to implement strategies for managing risks that are appropriate to
+                             the nature, scale and complexity of the business and funds operated.
+
+
+
+Use of technology
+              RG 259.84      There are a variety of technological resources that can be used to help fund
+                             operators manage risks. These technologies come in a variety of forms and
+                             can help by analysing and storing data, automating compliance processes,
+                             monitoring trading, and streamlining regulatory reporting. External service
+                             providers may be used to facilitate this process and also to store data. The
+                             use of these technologies may result in enhanced and more cost-effective
+                             management of risks. However, it is important to ensure that there is
+                             appropriate human oversight and review of any technological resources
+                             used.
+
+
+
+Compliance with other relevant obligations as an AFS licensee
+              RG 259.85      Apart from the obligations contained within s912A(1)(h), we expect fund
+                             operators to comply with their other existing obligations as an AFS licensee.
+                             As outlined in Table 3, many of these obligations are also relevant to
+                             assisting the management of risks.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 25
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Table 3:     Other relevant AFS licence obligations
+
+ Obligation                    Explanation                                                  Further guidance
+
+ Compensation for retail       If financial services are provided to retail clients, an     Regulatory Guide 126
+ clients: s912B                AFS licensee must have arrangements for                      Compensation and
+                               compensating those persons for loss or damage                insurance
+                               suffered due to breaches by the licensee or its              arrangements for AFS
+                               representatives. We consider adequate professional           licensees (RG 126)
+                               indemnity (PI) insurance is another important measure
+                               to manage operational risk.
+
+ Adequate financial            An AFS licensee must have adequate financial                 Regulatory Guide 166
+ resources: s912A(1)(d)        resources. All fund operators must comply with               AFS licensing:
+                               minimum financial requirements. We consider these            Financial requirements
+                               requirements are another important measure to assist         (RG 166), Class Order
+                               in managing liquidity risk affecting the fund operator       [CO 13/760] Financial
+                               itself. We expect operators to ensure that their financial   requirements for
+                               resources will be adequate to carry on their business in     responsible entities and
+                               compliance with their licensee obligations, or to wind up    operators of investor
+                               their business in an orderly manner.                         directed portfolio
+                                                                                            services and ASIC
+                                                                                            Corporations (Financial
+                                                                                            Requirements for
+                                                                                            Corporate Directors of
+                                                                                            Retail Corporate
+                                                                                            Collective Investment
+                                                                                            Vehicles) Instrument
+                                                                                            2022/449.
+
+ Adequate records of           The compliance plan of a registered scheme must set          Regulatory Guide 132
+ scheme operation:             out the arrangements for ensuring adequate records of        Funds management:
+ s601HA(1)(e)                  the scheme’s operations are kept. In complying with          Compliance and
+                               this obligation, we expect that a responsible entity will    oversight (RG 132)
+                               ensure that it keeps adequate records of the
+                               establishment, implementation and review of its risk
+                               management systems for the schemes operated.
+
+                               The compliance plan of a CCIV must set out adequate
+                               measures that the corporate director will apply when
+                               fulfilling its responsibilities in relation to the CCIV to
+                               ensure compliance with the Corporations Act and the
+                               CCIV’s constitution: see s1226A.
+
+ Adequate technological        An AFS licensee must have adequate technological             Report 429 Cyber
+ resources: s912A(1)(d)        resources. We expect that in complying with this             resilience: Health check
+                               obligation a fund operator will maintain secure and          (REP 429)
+                               stable information systems. This will assist in managing
+                               relevant risks, including system failure and malicious
+                               cyber activity.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                               Page 26
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+ Obligation                    Explanation                                               Further guidance
+
+ Reportable situations:        An AFS licensee must report to ASIC, in writing, all      Regulatory Guide 78
+ s912DAA                       reportable situations within 30 calendar days after the   Breach reporting by
+                               licensee first knows that there are reasonable grounds    AFS licensees and
+                               to believe a reportable situation has arisen. We expect   credit licensees
+                               that a fund operator will ensure that it reports any      (RG 78)
+                               breach of s912A(1)(h). We consider processes to
+                               identify, escalate, report and analyse breaches
+                               (including trends) can help manage risks.
+
+
+
+
+Residual risks
+              RG 259.86      Residual risks often remain, even after measures to treat risks have been
+                             applied. Understanding the concept of residual risk is an important
+                             consideration when identifying, assessing and managing risks, as it
+                             determines whether residual risks are within acceptable risk tolerance levels
+                             or require further treatment. It can also help inform future risk assessments.
+                             Monitoring residual risks can help ensure they do not increase to a level
+                             above the fund operator’s risk appetite, and determine whether further
+                             treatment should be applied to manage those risks.
+
+
+
+Monitoring and review
+              RG 259.87      A fund operator should ensure that staff members follow the processes,
+                             policies and procedures put in place to manage risks.
+
+              RG 259.88      We expect fund operators to have adequately experienced staff who
+                             regularly review and monitor the risks identified. We also expect operators
+                             to ensure there is regular reporting and escalation of issues to the board, risk
+                             committee and compliance committee, as appropriate.
+
+              RG 259.89      As previously outlined, we consider that a fund operator should review and
+                             monitor its risk management systems as frequently as appropriate—given the
+                             nature, scale and complexity of the business and funds operated—to ensure
+                             they are current, relevant, effective and complied with. We expect this to be
+                             done at least on an annual basis. The nature, scale and complexity of the
+                             business and the funds operated will also determine the level of detail of the
+                             review. If the review is undertaken internally, a fund operator should
+                             consider appropriate steps to ensure that the review is objective.
+
+              RG 259.90      Such reviews may:
+                             (a)   comprehensively cover all aspects of the fund operator’s risk
+                                   management systems, including the policy and statement on risk
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 27
+                                                   REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                                   appetite and all processes, policies and procedures related to these
+                                   systems;
+                             (b)   take into account changes affecting the fund operator’s business and the
+                                   funds it operates, including changes to:
+                                   (i)     the operation of the fund operator or its funds;
+                                   (ii)    the context in which the fund operator operates the business or
+                                           funds;
+                                   (iii)   the fund operator’s risk appetite or strategic business objectives;
+                                   (iv)    laws that affect the business or funds; and
+                                   (v)     business plan objectives, including starting any new business;
+                             (c)   monitor compliance with the risk management systems, including the
+                                   processes, policies and procedures put in place to identify, assess and
+                                   manage risks;
+                             (d)   ensure information systems are effective and up to date;
+                             (e)   ensure escalation policies and procedures are operating and effective;
+                                   and
+                             (f)   ensure reporting of breaches is occurring, document the review process
+                                   and any issues identified, and report to the board or senior management.
+
+
+
+Stress testing and scenario analysis
+              RG 259.91      We expect a fund operator to conduct stress testing and/or scenario analysis
+                             of the liquidity risks identified for the funds it operates as frequently as
+                             appropriate—given the nature, scale and complexity of the business—and to
+                             update or revise its arrangements if required in response to the testing or
+                             analysis results. At a minimum, we expect this to be undertaken annually.
+                             We consider liquidity risk a material risk for which fund operators should
+                             undertake stress testing and/or scenario analysis.
+
+              RG 259.92      We also expect fund operators to review their framework for stress testing
+                             and scenario analysis as frequently as appropriate—given the nature, scale
+                             and complexity of the business—to ensure the nature, currency and severity
+                             of the tested scenarios are relevant and appropriate, in light of the business
+                             and market conditions. At a minimum, we expect this to be undertaken
+                             annually.
+
+              RG 259.93      If a fund operator does not conduct stress testing or scenario analysis we
+                             expect it to document why this is the case, and to review this decision
+                             regularly.
+
+              RG 259.94      While terminology varies, stress testing and scenario analysis are generally
+                             used to assess how a fund operator or a fund will be affected and respond in
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 28
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             different extreme scenarios. This is essentially a ‘what if’ exercise that
+                             examines what may happen if certain risks materialise. Developing well-
+                             targeted, plausible and sufficiently adverse scenarios is a critical part of
+                             effective stress testing.
+
+              RG 259.95      There is no common methodology for stress testing or scenario analysis;
+                             however, these need to be tailored to the fund operator and the funds it
+                             operates. Understanding the interdependence of certain risks is important.
+
+              RG 259.96      The testing and analysis can include short-term and prolonged adverse
+                             environmental impacts, and take into account entity-specific and market-
+                             wide ‘shocks’. For example:
+                             (a)   the impact of significant market movements;
+                             (b)   liquid assets becoming illiquid;
+                             (c)   significant regulatory change;
+                             (d)   a requirement to repay finance if a debt rollover or an extension cannot
+                                   be arranged;
+                             (e)   significant reductions in net cash inflows through reduced applications
+                                   or increased redemption requests; or
+                             (f)   significant asset revaluations.
+
+              RG 259.97      The results of any stress testing or scenario analysis will inform future risk
+                             identification, assessment, evaluation and management. A range of
+                             approaches may be useful, such as:
+                             (a)   sensitivity analysis;
+                             (b)   stress testing based on experience or historical events;
+                             (c)   reverse stress testing designed to identify a stress scenario that would
+                                   cause failure;
+                             (d)   longer term scenarios (e.g. prolonged low interest rate environment) and
+                                   short-term scenarios (e.g. natural disasters); or
+                             (e)   a combination of scenarios (e.g. a series of less significant events
+                                   occurring within a short timeframe).
+
+              RG 259.98      Stress testing can be used for different objectives, including:
+                             (a)   stress testing as an internal risk management tool;
+                             (b)   supervisory stress testing as an assessment tool;
+                             (c)   surveillance stress testing to identify sources of systemic risk or crisis
+                                   management; and
+                             (d)   stress testing for business restructuring plans.
+
+                             Note: For further details, see International Monetary Fund, Macrofinancial stress testing—
+                             Principles and practices (PDF 1.18 MB), August 2012 and the IOSCO Recommendations for
+                             Liquidity Risk Management for Collective Investment Schemes.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                Page 29
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Good practice guidance
+              RG 259.99      Additional strategies that may be implemented by fund operators to manage
+                             risks include:
+                             (a)   stress testing and/or scenario analysis of all material risks identified for
+                                   the fund operator’s business and the funds it operates (see RG 259.100);
+                             (b)   risk treatment plans (see RG 259.101); and
+                             (c)   compliance plan procedures (see RG 259.102).
+
+
+                             Stress testing and/or scenario analysis of all material risks
+
+              RG 259.100     Depending on the nature, scale and complexity of the business and funds
+                             operated, we consider that stress testing and/or scenario analysis of all
+                             material risks to a fund operator’s business and the funds it operates is good
+                             practice. A key risk area for testing and analysis is market and investment
+                             risk.
+
+
+                             Risk treatment plan
+
+              RG 259.101     We consider it good practice for fund operators, when documenting how
+                             they propose to treat risks, to maintain a plan that includes the following
+                             information about each identified risk:
+                             (a)   details of the risk;
+                             (b)   details of the proposed measures to treat the risk and the expected
+                                   benefits of each measure;
+                             (c)   the approval process for implementing the measures;
+                             (d)   how implementation of the measures will be monitored and reviewed,
+                                   including timing, who is responsible, resource requirements and
+                                   contingencies, and any performance measures aligned with the
+                                   implementation;
+                             (e)   the order in which the implementation of each measure is prioritised; and
+                             (f)   whether residual risk exists after the measures have been implemented,
+                                   and whether such risk falls within acceptable risk tolerance levels.
+
+
+                             Compliance plan procedures
+
+              RG 259.102     We also consider it good practice for the compliance plan of the fund to
+                             include procedures for ensuring that the material risks identified for the fund
+                             are relevant and managed. This is in addition to the existing content
+                             obligations under s601HA, and these procedures may be included as an
+                             appendix to the compliance plan. For existing funds, this may be considered
+                             as part of any broader review or update of the compliance plan by the fund
+                             operator.
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 30
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Appendix: Examples of risks and risk treatments
+
+              RG 259.103     This appendix lists the risks that we consider most relevant to fund operators
+                             and the funds they manage:
+                             (a)   strategic risk (see RG 259.105–RG 259.109);
+                             (b)   governance risk (see RG 259.110–RG 259.112);
+                             (c)   operational risk (see RG 259.113–RG 259.132);
+                             (d)   market and investment risk (see RG 259.133–RG 259.146); and
+                             (e)   liquidity risk (see RG 259.147–RG 259.155).
+
+              RG 259.104     It gives examples of these risks, including specific risks under each category
+                             and examples of measures that responsible entities or corporate directors
+                             may consider in treating these risks. The examples are not intended to be
+                             exhaustive; they reflect common risks and measures we have observed
+                             through our regulatory experience. The examples of risks treatments are not
+                             mandatory, unless otherwise specified in the guidance.
+
+
+
+Strategic risk
+              RG 259.105     Strategic risk is any risk that arises from a fund operator’s strategic and
+                             business plans.
+
+              RG 259.106     Market conditions (e.g. instability or volatility) and market sentiment
+                             (e.g. uncertainty) can lead to cost pressures and reductions in cash flow for
+                             many fund operators. This raises risks to the operating model of some
+                             operators and may endanger the continuity of particular entities and funds.
+
+              RG 259.107     Developments of new products and systems or changes of strategic direction
+                             are examples of strategic risk.
+
+              RG 259.108     Changes in the external environment (e.g. the introduction of new financial
+                             requirements or tax changes) may affect an entity’s business strategies or the
+                             investment strategy of the funds it operates.
+
+              RG 259.109     Similarly, consolidation through merger and acquisition activity can raise the
+                             risk of unsatisfactory business integration for the merging entities. If the
+                             consolidation is not managed appropriately, it could undermine each of the
+                             relevant businesses’ risk management systems and lead to practical
+                             implementation issues, especially if full integration and consolidation may
+                             take long periods of time to complete.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 31
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • engaging in regular ‘horizon scanning’;
+                               • engaging with regulatory bodies;
+                               • engaging with industry bodies and peers; and
+                               • stress testing key assumptions or factors that underpin the business
+                                 model.
+
+                               For mergers and acquisitions, fund operators can implement policies and
+                               procedures that ensure consideration is given to:
+                               • the alignment of systems, processes, policies and procedures, and
+                                 cultures before business integration; and
+                               • appropriate resources and attention for effective implementation under
+                                 direct supervision of the board during and after business integration.
+
+
+
+
+Governance risk
+              RG 259.110     Governance risk is any risk that threatens the ability of a fund operator to make
+                             reasonable and impartial business decisions in the best interests of members.
+
+              RG 259.111     This risk arises if a fund operator does not have appropriate processes in
+                             place to support sound and transparent decision making that is in the best
+                             interests of members and is not adversely influenced by conflicts of interests.
+
+              RG 259.112     When considering whether to enter into a transaction with a related party, the
+                             interests of the related party may influence the entity’s decision making to
+                             the detriment of fund members’ interests or the fund as a whole.
+
+                                   Note: See also Regulatory Guide 76 Related party transactions (RG 76).
+
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • having policies and procedures that guide decision making, including
+                                 specifying who has the authority to make material decisions;
+                               • certifying compliance regularly;
+                               • implementing policies and procedures that ensure compliance with laws
+                                 concerning related party transactions;
+                               • getting independent advice on related party transactions;
+                               • obtaining member approval for related party transactions;
+                               • appointing independent directors;
+                               • maintaining a diverse board; and
+                               • publicly disclosing a summary of the key aspects of its risk management
+                                 systems.
+
+
+
+© Australian Securities and Investments Commission October 2022                                             Page 32
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Operational risk
+              RG 259.113     Operational risk is the risk of loss, for the business or funds, resulting from
+                             inadequate or failed internal processes, people and systems, or from external
+                             events: see RG 259.116–RG 259.117.
+
+              RG 259.114     Specific operational risks include those relating to:
+                             (a)   legal and compliance requirements (see RG 259.118);
+                             (b)   technological resources (see RG 259.119–RG 259.120);
+                             (c)   human resources, including key persons (see RG 259.121–
+                                   RG 259.122);
+                             (d)   outsourcing (see RG 259.123–RG 259.124);
+                             (e)   transitioning of the business (see RG 259.125);
+                             (f)   malicious cyber activity and ensuring cyber resilience (see
+                                   RG 259.126–RG 259.127);
+                             (g)   any conduct of employees not aligned with the interests or the
+                                   obligations of the fund operator (see RG 259.128); and
+                             (h)   fraud (see RG 259.129–RG 259.132).
+
+              RG 259.115     Operational risk is relevant to both the fund operator’s business and the
+                             funds it operates.
+
+
+                             Overview of operational risk
+
+              RG 259.116     Operational risk includes the risk of a fund operator having insufficient
+                             capacity and/or competence to conduct its financial services business and
+                             carry out supervisory arrangements in the best interests of fund members
+                             (e.g. the risk of inadequate financial, technological and human resources).
+
+                                   Note: An AFS licensee must have available adequate resources—including financial,
+                                   technological and human resources—to provide the financial services covered by its
+                                   licence and to carry out supervisory arrangements: s912A(1)(d).
+
+              RG 259.117     The factors influencing this risk are often dynamic and evolving, and need to
+                             be monitored closely.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • ensuring material aspects of operational procedures are documented
+                                 and training is provided;
+                               • periodically testing compliance procedures;
+                               • auditing compliance with policies and processes;
+                               • ensuring adequate insurance arrangements are in place; and
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                 Page 33
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                               • in areas where potential conflicts could arise (e.g. valuation, risk
+                                 management, compliance), segregating these activities from the
+                                 investment management function with separate reporting lines.
+
+
+                             Legal and compliance requirements
+
+              RG 259.118     There is a risk that a fund operator may not comply with financial services
+                             laws in conducting its financial services business, or be able to enforce
+                             certain legal rights that affect its business or the operation of its registered
+                             funds under particular circumstances (e.g. if it is cost prohibitive to enforce
+                             those rights). Alternatively, a fund operator may be the subject of legal
+                             action (e.g. a case in contract or tort law) or placed under external
+                             administration.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • documenting compliance plans and arrangements for the fund operator
+                                 and the funds it operates;
+                               • having breach registers and breach notification protocols;
+                               • arranging for ready access to legal advice, whether internal or external;
+                                 and
+                               • ensuring timely breach reporting to regulators.
+
+
+                             Technological resources
+
+              RG 259.119     There is a risk that the fund operator will not have adequate technological
+                             resources to conduct its business. This may include a lack of technological
+                             resources to recover from disasters or other major disruptions within a
+                             reasonable period. This risk may be higher for smaller fund operators (due to
+                             resource constraints) or where the business is heavily reliant on
+                             technological resources. There may also be difficulties in assessing the
+                             adequacy of technological resources where the fund operator is part of a
+                             corporate group that shares resources.
+
+              RG 259.120     Some fund operators may use resources such as software integration tools,
+                             real-time and system-embedded compliance evaluation tools, and cloud-
+                             based technologies as part of their compliance and data storage
+                             arrangements.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • implementing disaster recovery and business continuity plans; and
+                               • systematically assessing the adequacy of technological resources,
+                                 including where the entity forms part of a corporate group and shares
+                                 resources.
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 34
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             Human resources (including key persons)
+
+              RG 259.121     There is a risk that the fund operator will not have adequate human resources
+                             or competence to conduct its financial services business. This risk may arise
+                             as a result of resource constraints, a lack of training or an excessive reliance
+                             on a small number of key staff.
+
+              RG 259.122     Key person risk is often inherent in smaller fund operators where there is a
+                             reliance on the skills and experience of one or two people who are crucial to
+                             its operations. The dominance of such key persons can unduly influence a
+                             business’s culture and may lead to operational decisions being made that
+                             would not be considered appropriate within the fund operator’s risk
+                             management systems.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • implementing succession planning to address key person risk;
+                               • training staff to promote competence in the provision of financial services;
+                               • auditing staff skills;
+                               • having effective recruitment policies;
+                               • regularly reviewing resource requirements, particularly during periods of
+                                 growth or change;
+                               • appointing independent directors; and
+                               • maintaining a diverse board.
+
+
+                             Outsourcing
+
+              RG 259.123     Some fund operators outsource functions instead of having the required
+                             technological or human resources in-house.
+
+              RG 259.124     The risk involved with outsourcing can be exacerbated when there is
+                             inadequate supervision of these functions, particularly where these functions
+                             are outsourced internationally. Failing to adequately supervise outsourced
+                             functions can have significant detrimental effects on the reputation of a
+                             business. The more critical the outsourced function, the greater the risks
+                             involved.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • implementing effective and comprehensive due diligence processes for
+                                 choosing suitable service providers;
+                               • having service level agreements;
+                               • monitoring processes to address the ongoing performance of service
+                                 providers;
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 35
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                               • maintaining adequate staff and skill sets in-house to effectively monitor
+                                 external service providers;
+                               • having mechanisms for dealing appropriately and swiftly with any
+                                 actions by service providers that breach service level agreements; and
+                               • having policies and procedures to ensure agreements are always
+                                 formalised and documented.
+
+
+                             Transitioning of the business
+
+              RG 259.125     A risk may arise if a fund operator is unable to conduct its business due to a
+                             lack of adequate planning and preparation to facilitate the transitioning of the
+                             business, resulting in unnecessary loss. Examples include:
+                             (a)   appointment of a receiver over assets of the fund (if a fund operator
+                                   becomes subject to external administration); or
+                             (b)   a change of fund operator for the fund.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by implementing:
+                               • business continuity plans;
+                               • transition plans to facilitate an orderly transfer of the fund operator’s
+                                 business in stressed conditions;
+                               • succession planning; and
+                               • policies to ensure clear records identifying fund assets are maintained.
+
+
+                             Malicious cyber activity and ensuring cyber resilience
+
+              RG 259.126     There is a high risk that a fund operator may be subject to malicious cyber
+                             activity, which is an attempted or actual incident that either:
+                             (a)   uses computer technology or networks to commit or facilitate the
+                                   commission of traditional crimes, such as fraud and forgery—for
+                                   example, identity or data theft (computer assisted); or
+                             (b)   is directed at computers and computer systems or other information
+                                   communication technologies.
+
+              RG 259.127     Cyber resilience is the ability to prepare for, respond to and recover from
+                             malicious cyber activity. Resilience is more than just preventing or
+                             responding to an attack—it also takes into account the ability to adapt and
+                             recover from such an event.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • conducting regular cyber resilience health checks. For additional
+                                 guidance, see REP 429;
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 36
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                               • updating policies and procedures to reflect current industry and
+                                 international guidance;
+                               • regularly testing information technology (IT) systems;
+                               • implementing disaster recovery and business continuity plans; and
+                               • regularly reviewing the material risks they bear from and pose to other
+                                 entities as a result of technology interdependencies.
+
+
+                             Employee misconduct
+
+              RG 259.128     This is the risk of the conduct of employees (deliberately or inadvertently)
+                             not being aligned with the interests or obligations of the fund operator. For
+                             example, employees providing inappropriate advice, causing loss to
+                             investors and the fund operator or funds (including reputational damage), or
+                             both.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • carrying out comprehensive employment screening;
+                               • implementing a conflicts of interest policy;
+                               • adequately training employees regarding the conflicts of interest policy;
+                               • having appropriate remuneration systems that support risk management
+                                 and do not create incentives for employee misconduct;
+                               • monitoring employee conduct through, for example, exceptional
+                                 reporting of unusual events and random review or audit of transaction
+                                 records;
+                               • maintaining an internal audit function;
+                               • conducting peer reviews;
+                               • having whistleblower policies and procedures;
+                               • digitally monitoring high-risk functions; and
+                               • implementing other controls to prevent misappropriation of client funds,
+                                 such as co-signing policies.
+
+
+                             Fraud risk
+
+              RG 259.129     Fraud is dishonest activity causing actual or potential financial loss,
+                             including theft of money or other property by employees or persons external
+                             to the entity.
+
+              RG 259.130     Fraud risk also includes the deliberate creation, concealment, destruction or
+                             use of falsified documentation or the improper use of information or position
+                             for personal financial benefit. It includes:
+                             (a)   bribery and corruption—for example, the acceptance of bribes in
+                                   exchange for assisting with a fraudulent transaction, such as false
+                                   investment instructions to a custodian;
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 37
+                                                   REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             (b)   collusion—for example, an employee colluding with a custodian to
+                                   process false investment instructions, causing investors’ money to be
+                                   misappropriated to fake investment accounts;
+                             (c)   false documents—as many processes are often document driven, the
+                                   risk of false documents being used to perpetuate the misappropriation of
+                                   investor money is a significant threat;
+                             (d)   manipulation of IT systems—for example, false payments to suppliers
+                                   or ‘ghost’ employees; and
+                             (e)   securities fraud—this type of fraud may expose investors to significant
+                                   losses and includes:
+                                   (i)     front running;
+                                   (ii)    penny-stock schemes;
+                                   (iii)   boiler rooms; and
+                                   (iv)    microcap stock frauds.
+
+              RG 259.131     The following are red flags that may indicate that an investment is subject to
+                             an increased risk of fraud:
+                             (a)   penny stocks or unusual over-the-counter (OTC) investments;
+                             (b)   investments located in tax havens;
+                             (c)   investments lacking in transparency. This might be due to the use of
+                                   nominee accounts hiding the identity of beneficial owners;
+                             (d)   excessively complex or unusual investment structures;
+                             (e)   lack of audited accounts;
+                             (f)   lack of independent directors;
+                             (g)   lack of independent valuations for assets;
+                             (h)   any unusual or unexplained adjustments to accounts; and
+                             (i)   unusual asset statements.
+
+              RG 259.132     The identification of effective fraud risk treatments relies on the
+                             implementation of:
+                             (a)   an enterprise-wide fraud risk management framework that effectively
+                                   identifies, analyses, evaluates and treats fraud risks affecting operations;
+                                   and
+                             (b)   a code of conduct or similar document that guides all employees’
+                                   conduct and clearly sets out expectations of employee behaviour,
+                                   measures used to monitor behaviour, processes for managing conflicts
+                                   of interest and methods of internal reporting.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                           Page 38
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • segregating duties, particularly for staff involved in high-risk functions;
+                               • maintaining an internal audit function;
+                               • conducting peer reviews;
+                               • reporting unusual events;
+                               • implementing whistleblower policies, including externally managed
+                                 confidential hotlines;
+                               • rotating staff involved in high-risk functions;
+                               • requiring dual approvals for significant transactions;
+                               • obtaining regular independent valuations of underlying assets;
+                               • ensuring transparency of investments;
+                               • being alert to any back-channel or undisclosed commission payments,
+                                 particularly between investment managers and product providers;
+                               • ensuring regular reporting from external service providers;
+                               • taking care when dealing with products that are not researched and
+                                 have no proven track record; and
+                               • implementing effective and comprehensive due diligence processes.
+
+
+
+
+Market and investment risk
+              RG 259.133     Market and investment risk is the risk that a fund operated by a fund
+                             operator will not meet its objectives.
+
+              RG 259.134     Specific investment risks include those relating to:
+                             (a)   investment governance and structure (see RG 259.135–RG 259.136);
+                             (b)   market conditions (see RG 259.137–RG 259.138);
+                             (c)   leverage and short selling (see RG 259.139–RG 259.140);
+                             (d)   counterparty failure (see RG 259.141–RG 259.142);
+                             (e)   product suitability (see RG 259.143); and
+                             (f)   valuation and pricing (see RG 259.144–RG 259.146).
+
+
+                             Investment governance and structure
+
+              RG 259.135     There is a risk that a fund operated by a fund operator may not meet its
+                             objectives due to an inadequate framework for the selection and ongoing
+                             monitoring of the performance of the underlying investments of the fund.
+
+              RG 259.136     A risk also arises if a fund operator’s fund is exposed to a financial product
+                             through a multi-layered structure where the fund invests in an investment
+                             vehicle, which in turn invests in another investment vehicle. Such a structure
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 39
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             may create difficulties in identifying the fund’s extent of exposure to a
+                             particular financial product, or type of product, arising from investment in
+                             multiple investment vehicles. This risk may be exacerbated when one or
+                             more of the investment vehicles are not subject to the regulation of
+                             Australian laws.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by establishing and implementing an
+                               adequate investment governance framework that takes into account:
+                               • whether the fund will be a liquid fund and how withdrawals will be made
+                                 available;
+                               • whether the fund is exposed to counterparty risk and, if so, monitoring
+                                 the extent of that risk exposure regularly;
+                               • comprehensive and effective due diligence processes for investment
+                                 selection when implementing investment strategies; and
+                               • objective measures to monitor the performance of investments at
+                                 appropriate intervals, provide feedback information to review
+                                 investments and, if appropriate, update the investment governance
+                                 framework.
+
+                               Fund operators can also implement control processes to track the fund’s
+                               adherence to its stated objectives, investment policy and strategy, and
+                               other restrictions, and take appropriate action if a breach occurs.
+
+
+                             Market conditions and volatility
+
+              RG 259.137     There is a risk that the performance of the underlying assets of a fund will be
+                             adversely impacted as a result of changes in market conditions.
+
+              RG 259.138     Our regulatory experience indicates that some fund operators consider
+                             disclosure of this risk to investors alone as sufficient. We do not consider
+                             that this is the case where fund operators actively manage funds. For
+                             example, while disclosure of market risk may be appropriate for an index
+                             tracking fund that uses complete physical replication of the index, we would
+                             expect that fund operators would have processes in place to effectively
+                             manage market risk in other circumstances in addition to disclosure.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • implementing policies and procedures for assessing on an ongoing
+                                 basis forecast performance of the assets of the funds they operate, to
+                                 identify whether the performance is consistent with expectations and
+                                 can withstand a range of stress-tested events; and
+                               • continuously monitoring the market for assets the fund holds to identify
+                                 any emerging issues or trends.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 40
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             Leverage and short selling
+
+              RG 259.139     There are risks associated with the use of debt to fund business activities and
+                             short selling—in particular, where there is a change in market conditions.
+
+              RG 259.140     Our regulatory experience indicates that some fund operators have been
+                             unable to repay or refinance debt arrangements when due, or have
+                             significantly exceeded leverage ratios disclosed to investors. We have also
+                             identified that fund operators are using various forms of leverage—including
+                             derivatives, which may create synthetic leverage. In addition, losses have
+                             been suffered as a result of short selling activities.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • implementing appropriate leverage ratios and ensuring ongoing
+                                 monitoring of compliance with the ratios based on recent asset
+                                 valuations;
+                               • implementing appropriate limits on the amount of the portfolio lent or
+                                 borrowed at any one time;
+                               • continuously monitoring market conditions to identify emerging issues or
+                                 trends;
+                               • implementing strategies to manage related counterparty risks (see
+                                 ‘counterparty failure’ risk treatment strategies at RG 259.142);
+                               • continuously monitoring liquidity and the impact of default and short
+                                 selling positions on the fund operator and the fund; and
+                               • ensuring appropriate disclosure to investors of the use of leverage and
+                                 short selling. This includes compliance with any specific disclosure and
+                                 reporting requirements that are relevant to the particular fund. For
+                                 example, Disclosure Principles 6, 7 and 8 for hedge funds in Regulatory
+                                 Guide 240 Hedge funds: Improving disclosure (RG 240) and the
+                                 requirements in Section D of Regulatory Guide 196 Short selling
+                                 (RG 196) for short selling.
+
+
+                             Counterparty failure
+
+              RG 259.141     There is risk a counterparty will fail to meet its obligations and that the fund
+                             operator cannot put in place a replacement transaction economically and
+                             efficiently to meet any ongoing obligations.
+
+              RG 259.142     Any assessment of counterparty risk should take into account the type and
+                             extent of counterparty risk the business or relevant funds are exposed to. We
+                             do not consider, for example, that a generic approach to reviewing the
+                             business’s counterparty risk exposure once a month is necessarily sufficient.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 41
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • having a process for setting up counterparty relationships, including the
+                                 assessment of creditworthiness and setting of risk limits;
+                               • carrying out due diligence inquiries into counterparties;
+                               • ensuring agreements entered into include regular valuations, collateral
+                                 standards (i.e. requirements for essential performance) and
+                                 indemnification commitments (i.e. the requirement for a payment in the
+                                 event of non-compliance);
+                               • regularly assessing the creditworthiness of the counterparty and the
+                                 impact of counterparty default on the financial position of the business
+                                 or relevant funds;
+                               • adjusting risk limits where required; and
+                               • avoiding excessive reliance on a limited number of counterparties.
+
+
+                             Product suitability
+
+              RG 259.143     There is a risk that a product design may become unsuitable for the needs of
+                             current and potential fund members or the needs of the business.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • carrying out consumer research on product suitability;
+                               • having consumer warnings and knowledge tests for complex products;
+                                 and
+                               • regularly assessing ongoing product suitability.
+
+
+                             Valuation and pricing
+
+              RG 259.144     At the fund level, there is a risk of fund assets not having a correct and
+                             current valuation. Robust valuation practices are essential for effective
+                             liquidity risk management and correct pricing of interests in most registered
+                             funds.
+
+                                   Note: Where issue and redemption of fund interests or shares is permitted, valuation
+                                   policies may be required to be consistent with ordinary commercial practice and result
+                                   in a value that is reasonably current: see Regulatory Guide 134 Funds management:
+                                   Constitutions (RG 134). In accordance with s601HA(1)(c), the compliance plan must
+                                   set out adequate procedures for ensuring that the fund property is valued at regular
+                                   intervals appropriate to the nature of the fund property.
+
+              RG 259.145     This risk is generally higher for funds that invest in assets that are not traded
+                             on a financial market or assets that do not have a liquid market
+                             (e.g. mortgage or property funds), where the market price of fund assets is
+                             more difficult to determine.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                   Page 42
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+              RG 259.146     In our regulatory experience, some constitutions or compliance plans only
+                             require a fund operator to value fund assets at specific intervals or use a
+                             qualified independent valuer, as required by the Corporations Act. This can
+                             present a risk to members of the fund that valuations are outdated and
+                             inappropriate to rely on when assessing their investment.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • implementing valuation policies that take into consideration factors such
+                                 as the type of assets a fund invests in and the operating model of the
+                                 fund (e.g. whether it allows issue and redemption of interests);
+                               • carrying out regular independent valuations;
+                               • rotating valuers used to value fund assets; and
+                               • segregating the internal functions in charge of calculation of net asset
+                                 value (NAV) and maintenance of accounting records from the
+                                 investment management function.
+
+
+
+
+Liquidity risk
+              RG 259.147     Liquidity risk is the risk that the fund operator will not have adequate
+                             financial resources to meet its financial obligations and needs, either:
+                             (a)   at the fund operator level (see RG 259.148–RG 259.151); or
+                             (b)   at the fund level, including meeting the fund’s objectives and members’
+                                   expectations for redemptions (see RG 259.152–RG 259.155).
+
+
+                             At the fund operator level
+
+              RG 259.148     RG 166 sets out the financial requirements for AFS licensees that are fund
+                             operators. In summary, fund operators must meet:
+                             (a)   the standard solvency and positive net assets requirement;
+                             (b)   a tailored cash needs requirement;
+                             (c)   a tailored audit requirement;
+                             (d)   a net tangible assets (NTA) requirement, including requirements for
+                                   holding at least 50% of the NTA requirement in liquid assets; and
+                             (e)   depending on the financial products and services offered, any other
+                                   requirements set out in RG 166 that apply.
+
+                                   Note: Our general expectation is that the risk management systems need to address the
+                                   risk that an entity’s financial resources will not be adequate. RG 166 sets out more
+                                   information on the financial requirements for responsible entities (see Appendix 2) and
+                                   for corporate directors (see Appendix 10).
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                    Page 43
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+              RG 259.149     In our regulatory experience, we have seen a number of fund operators
+                             become insolvent and unable to maintain their AFS licences or operate their
+                             funds. This could be a result of market conditions putting pressure on less
+                             robust business models in the managed funds sector or inadequate fee
+                             structures, where the entity receives less than expected management fees
+                             after the initial phase of the fund’s operation (although it is otherwise
+                             envisaged that the fund will operate over decades).
+
+              RG 259.150     Such mismatches in the internal and external contexts in which the risk
+                             management systems are developed give rise to risks that a fund operator
+                             will not have sufficient financial resources to operate its business, including
+                             the relevant funds, in accordance with its strategic and business objectives
+                             and those of the funds.
+
+              RG 259.151     If the fund operator also operates wholesale funds or superannuation trusts or
+                             conducts any other business, the operation of these other funds, trusts or
+                             businesses may affect its cash flow or liquidity and should be taken into
+                             account in assessing any liquidity risk.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat this risk by:
+                               • implementing a liquidity risk management process that includes ongoing
+                                 assessment of their compliance with the financial requirements of their
+                                 AFS licence and ability to meet all other financial obligations and needs;
+                                 and
+                               • internally auditing high-risk areas of the business, including
+                                 management of liquid assets, pricing of assets and investment.
+
+
+                             At the fund level
+
+              RG 259.152     In our regulatory experience, fund operators that invest in assets that are not
+                             well traded on a financial market, or do not have a liquid market (e.g.
+                             mortgage or property funds), face particular challenges in managing liquidity
+                             risk within the funds they operate.
+
+              RG 259.153     The importance of good liquidity risk management was evident in the wide-
+                             scale suspension of redemptions in the mortgage fund sector when those
+                             funds with limited liquidity experienced increased investor demand for
+                             redemptions in 2008 and subsequent periods.
+
+              RG 259.154     Fund operators need to identify and address the risk of not being able to
+                             meet short-term commitments and the risk of the misalignment of members’
+                             expectations on liquidity and the capacity of the fund’s assets to be realised
+                             to meet those expectations.
+
+              RG 259.155     Some funds may be subject to specific risks relating to market liquidity,
+                             which need to be considered by the fund operator. An example is market
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 44
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             liquidity based risks for funds that have interests quoted on a licensed
+                             financial market but undertake regular issue and redemption, such as
+                             exchange traded funds. The market may not be adequately maintained for
+                             the fund to allow trading at a price at or near the NAV in line with investor
+                             expectations. Operators of these funds need to identify and address this risk.
+
+                               Examples of risk treatments
+
+                               Fund operators can treat liquidity risk by establishing and implementing an
+                               effective liquidity risk management process that incorporates:
+                               • compliance with any specific disclosure requirements that are relevant
+                                 to the particular fund. For example, Benchmark 1 and Disclosure
+                                 Principle 1 in Regulatory Guide 45 Mortgage schemes: Improving
+                                 disclosure for retail investors (RG 45), which applies to unlisted
+                                 mortgage schemes, and Disclosure Principle 5 for hedge funds in
+                                 RG 240;
+                               • appropriate internal thresholds for liquidity, which are proportionate to
+                                 the redemption obligations and ongoing commitments of the funds;
+                               • tools to identify an emerging liquidity shortage before it occurs. For
+                                 example, comparisons of the performance of funds to their peer groups,
+                                 including trends in issue and redemption of interests;
+                               • ongoing assessments of the liquidity profile of the assets and liabilities
+                                 (including the fund’s investor profile and investors’ historical and
+                                 expected redemption patterns) held by the funds to ensure they will be
+                                 able to meet investor expectations about redemptions and other
+                                 ongoing commitments;
+                               • regular assessments of liquidity in different scenarios, including stress
+                                 testing or scenario analysis;
+                               • the use of tools to manage liquidity (when appropriate) and the regular
+                                 assessment of those tools. Examples of liquidity risk management tools
+                                 include redemption fees, suspension of withdrawal requests, redemption
+                                 gates, in specie transfers, swing pricing, minimum or maximum limits on
+                                 withdrawals, or satisfying withdrawals on a partial or staggered basis
+                                 (see RG 259.48 for an explanation of these tools);
+                               • access to relevant information about liquidity management for
+                                 investments, such as information about the investor profile and liquidity
+                                 management approach adopted by the underlying funds the funds
+                                 invest in;
+                               • appropriate oversight of the ongoing liquidity assessments by senior
+                                 management;
+                               • liquidity practices consistent with industry and international guidance (for
+                                 additional guidance, see the IOSCO Recommendations for Liquidity
+                                 Risk Management for Collective Investment Schemes and the FSB
+                                 Policy Recommendations to Address Structural Vulnerabilities from
+                                 Asset Management Activities);
+                               • regular periodic reviews of the effectiveness of the liquidity risk
+                                 management process and updating the process as appropriate;
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 45
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                               • consideration of how any advertising, marketing and distribution of the
+                                 fund may impact on liquidity and regular reviews of advertising and
+                                 marketing materials to ensure they accurately reflect the fund’s liquidity
+                                 profile and any redemption rights offered;
+                               • appropriate disclosure in PDSs for the fund of investor redemption
+                                 rights, liquidity risks, the liquidity management process and if the fund
+                                 operator has the power to use any liquidity risk management tools;
+                               • disclosure to existing investors of any material changes to the liquidity
+                                 risk and the use of liquidity risk management tools;
+                               • consideration of the potential impact of investments on the fund’s overall
+                                 liquidity before investment decisions are made;
+                               • ensuring that the frequency of dealing in units or shares in the fund and
+                                 investor redemption rights are compatible with the fund’s liquidity profile,
+                                 investment strategy and portfolio composition; and
+                               • early engagement with the regulator regarding liquidity events that may
+                                 impact investors.
+
+                               Market liquidity based risk for quoted funds
+
+                               Operators of quoted funds can manage market liquidity based risk by:
+                               • having appropriate arrangements with a market maker, unless the fund
+                                 operator is making a market for the fund and/or a sufficient number of
+                                 authorised participants are reasonably likely to trade the fund in order to
+                                 provide liquidity at or close to NAV on any ongoing basis;
+                               • closely monitoring the fund’s market price on a continuous basis and, if
+                                 it deviates materially from the NAV, considering suspending trading of
+                                 the fund;
+                               • maintaining an up-to-date and reliable indicative NAV; and
+                               • encouraging investors to check the market price against the indicative
+                                 NAV before they trade and disclosing to investors the risk that there
+                                 may be times where they cannot sell their interests or sell at a price
+                                 near the NAV.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 46
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Key terms
+
+
+                               Term                      Meaning in this document
+
+                               AFS licence               An Australian financial services licence under s913B of
+                                                         the Corporations Act that authorises a person who carries
+                                                         on a financial services business to provide financial
+                                                         services
+                                                           Note: This is a definition contained in s761A of the
+                                                           Corporations Act.
+
+                               AFS licensee              A person who holds an AFS licence under s913B of the
+                                                         Corporations Act
+
+                               ASIC                      Australian Securities and Investments Commission
+
+                               board                     A fund operator’s board of directors
+
+                               [CO 13/760] (for          An ASIC class order (in this example numbered 13/760)
+                               example)                    Note: Legislative instruments made from 2015 are referred to
+                                                           as ASIC instruments.
+
+                               Corporations Act          Corporations Act 2001, including regulations made for the
+                                                         purposes of that Act
+
+                               CCIV                      A corporate collective investment vehicle—a company
+                                                         that is registered as a corporate collective investment
+                                                         vehicle under the Corporations Act
+                                                           Note: This is a definition contained in s9 of the Corporations
+                                                           Act.
+
+                               FSB                       Financial Stability Board
+
+                               fund                      A registered scheme or CCIV (including, where the
+                                                         context requires, a sub-fund of a CCIV)
+
+                               fund operator             The responsible entity of a registered scheme or a
+                                                         corporate director of a CCIV
+
+                               governance risk           Has the meaning given in RG 259.70(b)
+
+                               IDPS                      Investor directed portfolio service, as defined in Class
+                                                         Order [CO 13/763] Investor directed portfolio services or
+                                                         any instrument that amends or replaces that class order
+
+                               IOSCO                     International Organization of Securities Commissions
+
+                               liquidity risk            Has the meaning given in RG 259.70(e)
+
+                               market and                Has the meaning given in RG 259.70(d)
+                               investment risk
+
+                               MDA                       Managed discretionary account
+
+                               NAV                       Net asset value
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                     Page 47
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                               Term                      Meaning in this document
+
+                               NTA                       Net tangible assets
+
+                               operational risk          Has the meaning given in RG 259.70(c)
+
+                               PDS                       A Product Disclosure Statement—a document that must
+                                                         be given to a retail client for the offer or issue of a
+                                                         financial product in accordance with Div 2 of Pt 7.9 of the
+                                                         Corporations Act
+
+                                                         Note: See s761A for the exact definition.
+
+                               PI insurance              Professional indemnity insurance
+
+                               RG 104 (for example)      An ASIC regulatory guide (in this example numbered
+                                                         104)
+
+                               REP 429 (for              An ASIC report (in this example numbered 429)
+                               example)
+
+                               registered scheme         A managed investment scheme that is registered under
+                                                         s601EB of the Corporations Act
+
+                               s912A (for example)       A section of the Corporations Act (in this example
+                                                         numbered 912A)
+
+                               strategic risk            Has the meaning given in RG 259.70(a)
+
+                               sub-fund                  Has the meaning given in s1222Q of the Corporations Act
+                                                           Note: A sub-fund is established on the day on which it is
+                                                           registered: see s1222T.
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                                    Page 48
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+Related information
+
+                             Headnotes
+
+                             AFS licences, assessing risks, Australian financial services licensees,
+                             CCIVs, corporate collective investment vehicles, corporate directors, fund
+                             operators, funds, good practice guidance, identifying risks, managing risks,
+                             responsible entities, risk management systems, risk treatments
+
+
+                             Regulatory guides
+
+                             RG 45 Mortgage schemes: Improving disclosure for retail investors
+
+                             RG 76 Related party transactions
+
+                             RG 78 Breach reporting by AFS licensees and credit licensees
+
+                             RG 104 AFS licensing: Meeting the general obligations
+
+                             RG 126 Compensation and insurance arrangements for AFS licensees
+
+                             RG 132 Funds management: Compliance and oversight
+
+                             RG 134 Funds management: Constitutions
+
+                             RG 166 AFS licensing: Financial requirements
+
+                             RG 196 Short selling
+
+                             RG 240 Hedge funds: Improving disclosure
+
+
+                             Consultation papers
+
+                             CP 204 Risk management systems of responsible entities
+
+                             CP 263 Risk management systems of responsible entities: Further proposals
+
+
+                             Reports
+
+                             REP 429 Cyber resilience: Health check
+
+
+                             Legislative instruments
+
+                             ASIC Corporations (Financial Requirements for Corporate Directors of
+                             Retail Corporate Collective Investment Vehicles) Instrument 2022/449
+
+                             [CO 13/760] Financial requirements for responsible entities and operators
+                             of investor directed portfolio services
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 49
+                                                  REGULATORY GUIDE 259: Risk management systems of fund operators
+
+
+
+
+                             Legislation
+
+                             Corporations Act 2001, Pt 7.9; s601FB, 601HA, 601HA(1)(c), 601HA(1)(e),
+                             912A(1)(d), 912A(1)(h), 912B, 912DAA, 1224M, 1226A
+
+
+                             Other documents
+
+                             FSB, Policy recommendations to address structural vulnerabilities from
+                             asset management activities
+
+                             International Monetary Fund, Macrofinancial stress testing—Principles and
+                             practices (PDF 1.18 MB)
+
+                             IOSCO, Recommendations for liquidity risk management for collective
+                             investment schemes: Final report (PDF 363 KB)
+
+                             ISO 31000:2018 Risk management—Guidelines
+
+
+
+
+© Australian Securities and Investments Commission October 2022                                          Page 50
+

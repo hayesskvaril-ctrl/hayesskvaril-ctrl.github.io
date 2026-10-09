@@ -1,0 +1,366 @@
+SOURCE: https://www.legislation.gov.au/F2012L02230/asmade/2012-11-23/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2012L02230/asmade/2012-11-23/text/original/pdf
+FETCHED: 2026-10-09
+
+Superannuation (prudential standard)
+determination No. 7 of 2012
+
+Prudential Standard SPS 521 Conflicts of Interest
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Ross Jones, delegate of APRA, under subsection 34C(1) of the Superannuation
+Industry (Supervision) Act 1993 (the Act), DETERMINE Prudential Standard SPS
+521 Conflicts of Interest in the form set out in the Schedule, which applies to all RSE
+licensees.
+
+This instrument commences on 1 July 2013.
+
+Dated: 15 November 2012
+
+[signed]
+
+
+Ross Jones
+Deputy Chair
+
+
+
+
+                       Federal Register of Legislative Instruments F2012L02230
+Interpretation
+In this instrument:
+
+APRA means the Australian Prudential Regulation Authority.
+
+RSE licensee has the meaning given in section 10(1) of the Act.
+
+
+
+
+Note 1 It is a condition imposed on all RSE licences that the RSE licensee and, if the RSE licensee is a
+group of individuals, each of the members of the group, must comply with the RSE licensee law
+[section 29E(1)(a)]. RSE licensee law includes the prudential standards [section 10(1)]. APRA may
+direct an RSE licensee to comply with a specified condition of its RSE licence by a specified time if
+APRA has reasonable grounds to believe that the RSE licensee has breached the condition [section
+29EB]. A failure to comply with a direction may lead to cancellation of the RSE licence [section 29G]
+and may be an offence attracting a penalty of 60 penalty units [section 29JB].
+
+
+
+
+                            Federal Register of Legislative Instruments F2012L02230
+Schedule
+Prudential Standard SPS 521 Conflicts of Interest comprises the 6 pages commencing
+on the following page.
+
+
+
+
+                      Federal Register of Legislative Instruments F2012L02230
+                                                                                   July 2013
+
+
+
+
+Prudential Standard SPS 521
+Conflicts of Interest
+Objectives and key requirements of this Prudential
+Standard
+This Prudential Standard establishes requirements for the identification, avoidance
+and management of conflicts of duty and interest by an RSE licensee. These
+requirements are essential to ensure that an RSE licensee and its responsible persons
+meet legislative obligations in Part 6 of the Superannuation Industry (Supervision) Act
+1993.
+
+The Board of an RSE licensee is ultimately responsible for having a conflicts
+management framework that is appropriate to the size, business mix and complexity
+of the RSE licensee’s business operations and which applies to the entirety of its
+business operations. The conflicts management framework must be approved by the
+Board.
+
+The key requirements of this Prudential Standard are that an RSE licensee must also:
+
+    develop, implement and review a conflicts management policy that is approved
+     by the Board;
+
+    identify all relevant duties and relevant interests; and
+
+    develop registers of relevant duties and relevant interests.
+
+
+
+
+                                                                                 SPS 521 - 1
+                       Federal Register of Legislative Instruments F2012L02230
+                                                                                          July 2013
+
+
+Authority
+
+1.   This Prudential Standard is made under section 34C of the Superannuation
+     Industry (Supervision) Act 1993 (SIS Act).
+
+Application
+
+2.   This Prudential Standard applies to registrable superannuation entity (RSE)
+     licensees (RSE licensees) under the SIS Act.1
+
+3.   All RSE licensees must comply with this Prudential Standard in its entirety,
+     unless otherwise expressly indicated.
+
+4.   This Prudential Standard applies for the purposes of section 52(2)(d)(iv) of the
+     SIS Act.
+
+5.   This Prudential Standard commences on 1 July 2013.
+
+Relevant duties and relevant interests
+
+6.   For the purposes of this Prudential Standard:
+
+     (a)    a ‘relevant duty’ refers to any duty owed by the RSE licensee, or a
+            responsible person of the RSE licensee2, to beneficiaries or to any other
+            person3; and
+
+     (b)    a ‘relevant interest’ of an RSE licensee, an associate of the RSE licensee
+            or a responsible person of the RSE licensee refers to any interest, gift,
+            emolument or benefit, whether pecuniary or non-pecuniary, directly or
+            indirectly held by the RSE licensee, the associate or the responsible
+            person
+
+     that the RSE licensee has determined to be relevant in accordance with
+     paragraph 16.
+
+7.   For the purposes of this Prudential Standard, a reference to a ‘conflict’ is a
+     reference to a conflict:
+
+     (a)    between the duties owed by an RSE licensee, or a responsible person of an
+            RSE licensee, to beneficiaries and the duties owed by them to any other
+            person;
+
+     (b)    between the interests of beneficiaries and the duties owed by an RSE
+            licensee, or a responsible person of the RSE licensee, to any other person;
+
+1
+     For the purposes of this Prudential Standard, ‘RSE licensee’ has the meaning given in section
+     10(1) of the SIS Act.
+2
+     Refer to Prudential Standard SPS 520 Fit and Proper for the definition of responsible person.
+3
+     For the purposes of this Prudential Standard, a reference to ‘beneficiaries’ is a reference to
+     ‘beneficiaries of an RSE within the RSE licensee’s business operations’ and an ‘RSE licensee’s
+     business operations’ includes all activities as an RSE licensee (including the activities of each
+     RSE of which it is the licensee), and all other activities of the RSE licensee to the extent that
+     they are relevant to, or may impact on, its activities as an RSE licensee.
+
+
+                                                                                       SPS 521 - 2
+                          Federal Register of Legislative Instruments F2012L02230
+                                                                                            July 2013
+
+
+      (c)    between an interest of an RSE licensee, an associate of an RSE licensee or
+             a responsible person or an employee of an RSE licensee, and the RSE
+             licensee’s duties to beneficiaries; and
+
+      (d)    between an interest of an RSE licensee, an associate of an RSE licensee or
+             a responsible person or an employee of an RSE licensee and the interests
+             of beneficiaries.
+
+The role of the Board and senior management
+
+8.    An RSE licensee must have a conflicts management framework, approved by
+      the Board of an RSE licensee (the Board)4, to ensure that the RSE licensee
+      identifies all potential and actual conflicts in the RSE licensee’s business
+      operations and takes all reasonably practicable actions to ensure that they are
+      avoided or prudently managed.
+
+9.    For the purposes of this Prudential Standard, the conflicts management
+      framework is the totality of systems, structures, policies, processes and controls
+      within an RSE licensee’s business operations that identify, assess, mitigate,
+      manage and monitor all conflicts.
+
+10.   The Board is ultimately responsible for the development and maintenance of the
+      RSE licensee’s conflicts management framework.
+
+11.   The Board must take all reasonable steps to ensure that all responsible persons
+      and other employees of the RSE licensee clearly understand:
+
+      (a)    the need to identify all potential conflicts;
+
+      (b)    the circumstances that might give rise to a conflict;
+
+      (c)    the content and purpose of the RSE licensee’s conflict management
+             framework; and
+
+      (d)    their obligations, where applicable, as a responsible person of the RSE
+             licensee.
+
+12.   The Board must have in place appointment procedures that require incoming
+      responsible persons to disclose all relevant duties and relevant interests prior to
+      the person taking up the appointment.
+
+
+
+
+4
+      For the purposes of this Prudential Standard, a reference to ‘the Board’ is a reference to the
+      Board of directors or group of individual trustees of an RSE licensee, ‘group of individual
+      trustees’ has the meaning given in section 10(1) of the SIS Act and a reference to ‘a director’ is
+      a reference to a director of an RSE licensee which has a Board of directors or, in the case of a
+      group of individual trustees, an individual trustee.
+
+
+                                                                                         SPS 521 - 3
+                           Federal Register of Legislative Instruments F2012L02230
+                                                                                           July 2013
+
+
+RSE licensees that are part of a group5
+
+13.   Where an RSE licensee is part of a corporate group, and the RSE licensee
+      utilises group policies or functions, the Board must approve the use of group
+      policies and functions and must ensure that these policies and functions give
+      appropriate regard to the RSE licensee’s business operations and its specific
+      requirements.
+
+Conflicts management framework
+
+14.   An RSE licensee’s conflicts management framework must be appropriate to the
+      size, business mix and complexity of the RSE licensee’s business operations.
+
+15.   An RSE licensee’s conflicts management framework must provide reasonable
+      assurance that all conflicts are being clearly identified, avoided or prudently
+      managed and must, at a minimum, include:
+
+      (a)    a conflicts management policy, approved by the Board, that meets the
+             requirements of this Prudential Standard;
+
+      (b)    clearly defined roles, responsibilities and resources for the oversight of
+             conflicts management within the RSE licensee’s business operations;
+
+      (c)    an up-to-date register of relevant duties; and
+
+      (d)    an up-to-date register of relevant interests.
+
+16.   An RSE licensee’s conflicts management framework must include a process that
+      outlines how the RSE licensee determines a duty or an interest to be relevant for
+      the purposes of this Prudential Standard. A relevant duty or a relevant interest is
+      one that might reasonably be considered to have the potential to have a
+      significant impact on the capacity of the RSE licensee, the associate of the RSE
+      licensee or the responsible person with the relevant duty or holding the relevant
+      interest, to act in a manner that is consistent with the best interests of
+      beneficiaries.
+
+17.   An RSE licensee must have procedures to ensure that all its relevant business
+      units are made aware of, and have processes and controls for monitoring
+      compliance with, the RSE licensee’s conflicts management framework.
+
+Conflicts management policy
+
+18.   An RSE licensee must have a conflicts management policy that is approved by
+      the Board. At a minimum, the conflicts management policy must include
+      controls and processes applying to all responsible persons and all employees of
+      the RSE licensee for:
+
+      (a)    identifying and monitoring all potential and actual conflicts;
+5
+      For the purposes of this Prudential Standard, a reference to ‘a group’ is a reference to a group
+      comprising the RSE licensee and all connected entities and all related bodies corporate of the
+      RSE licensee, ‘connected entity’ has the meaning given in section 10(1) of the SIS Act and
+      ‘related body corporate’ has the meaning given in section 50 of the Corporations Act 2001.
+
+
+                                                                                       SPS 521 - 4
+                           Federal Register of Legislative Instruments F2012L02230
+                                                                                          July 2013
+
+
+      (b)   avoiding conflicts where required to do so6;
+
+      (c)   where there is a conflict, managing that conflict, or ensuring that the
+            conflict is managed in accordance with the requirements to give priority to
+            the duties to, and interests of, beneficiaries in sections 52(2)(d) and
+            52A(2)(d) of the SIS Act;
+
+      (d)   ensuring that appropriate action is taken in the event of a conflict arising,
+            including on-going evaluation of management of the conflict and
+            provision for escalation or alternative action if required;
+
+      (e)   recording in the minutes of Board, board committee and other relevant
+            meetings details of each conflict identified and the action taken to avoid or
+            manage this conflict; and
+
+      (f)   processes for the development and maintenance of the registers required
+            in paragraphs 15(c) and (d).
+
+19.   An RSE licensee’s conflicts management policy must include processes for
+      undertaking regular and thorough enquiry to identify all conflicts arising from
+      the RSE licensee’s relationship, or the relationship of a responsible person or
+      employee, with an existing or prospective service provider or adviser, including
+      those conflicts that have the potential to affect the service provider’s
+      performance in respect of the obligations undertaken for the RSE licensee’s
+      business operations.7
+
+Review of conflicts management framework
+
+20.   An RSE licensee must ensure that the appropriateness, effectiveness and
+      adequacy of its conflicts management framework are subject to a
+      comprehensive review by operationally independent, appropriately trained and
+      competent persons at least every three years.
+
+21.   The scope of the comprehensive review of an RSE licensee’s conflicts
+      management framework must have regard to the size, business mix and
+      complexity of the RSE licensee’s business operations, the extent of any change
+      to those operations and any changes to the external environment in which the
+      RSE licensee operates.
+
+22.   At a minimum, the comprehensive review of the conflicts management
+      framework must consider:
+
+      (a)   whether all relevant duties and all relevant interests have been identified
+            and are being addressed in accordance with the RSE licensee’s conflicts
+            management framework;
+
+
+
+6
+      Nothing in this Prudential Standard authorises a person to manage a conflict if the general law
+      requires the person to avoid it.
+7
+      Refer to Prudential Standard SPS 231 Outsourcing for requirements relating to performance
+      under outsourcing agreements.
+
+
+                                                                                       SPS 521 - 5
+                           Federal Register of Legislative Instruments F2012L02230
+                                                                                       July 2013
+
+
+      (b)    the level of compliance with the conflicts management policy, including
+             reporting on the registers of relevant duties and relevant interests; and
+
+      (c)    any non-compliance with the conflicts management policy, including
+             steps taken to return to, and improve, ongoing compliance.
+
+23.   In addition to the comprehensive review required in paragraph 20, an RSE
+      licensee must, on an annual basis, review its conflicts management framework
+      and report the results of this review to the Board.
+
+Adjustments and exclusions
+
+24.   APRA may, by notice in writing to an RSE licensee, adjust or exclude a specific
+      prudential requirement in this Prudential Standard in relation to that RSE
+      licensee.8
+
+
+
+
+8
+      Refer to section 34C(5) of the SIS Act.
+
+
+                                                                                     SPS 521 - 6
+                           Federal Register of Legislative Instruments F2012L02230
+
