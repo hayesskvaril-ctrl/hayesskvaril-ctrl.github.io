@@ -7,7 +7,8 @@
   var fmt = new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD', maximumFractionDigits: 0 });
   var RULES = {
     ceo: { pct: 0.6, years: [4, 5, 6], label: 'CPS 511 (SFI CEO): at least 60% deferred for 6 years, pro-rata vesting from year 4' },
-    senior: { pct: 0.4, years: [4, 5], label: 'CPS 511 (SFI senior manager or other special role): at least 40% deferred for 5 years, pro-rata vesting from year 4' },
+    senior: { pct: 0.4, years: [4, 5], label: 'CPS 511 (SFI senior manager or executive director other than the CEO): at least 40% deferred for 5 years, pro-rata vesting from year 4' },
+    mrt: { pct: 0.4, years: [2, 3, 4], label: 'CPS 511 (SFI highly paid material risk-taker who is not a senior manager): at least 40% deferred for 4 years, pro-rata vesting from year 2' },
     far: { pct: 0.4, years: [4], label: 'FAR (accountable person): at least 40% deferred for at least 4 years' }
   };
   function update() {

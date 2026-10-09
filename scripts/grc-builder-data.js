@@ -166,7 +166,7 @@ window.GRC_BUILDER = {
       themes: [
         ['Register accountable persons and keep an accountability statement for each and an accountability map for the entity', ['gov.accountability'], 'Every key responsibility is allocated to a registered accountable person', 'Statements; map; registrations'],
         ['Accountable persons act with honesty, integrity, due skill, care and diligence, deal openly with APRA and ASIC, and take reasonable steps', ['gov.accountability', 'ppl.culture'], 'Reasonable steps are evidenced for each accountable person', 'Reasonable steps records; information received by accountable persons'],
-        ['Defer at least 40% of accountable persons’ variable remuneration for at least four years, and reduce it for failures to meet obligations', ['ppl.remuneration'], 'Deferral and adjustment rules are applied', 'Remuneration records']] },
+        ['Defer at least {fact:far-deferral-share} of accountable persons’ variable remuneration for at least four years, and reduce it for failures to meet obligations', ['ppl.remuneration'], 'Deferral and adjustment rules are applied', 'Remuneration records']] },
 
     capital: { label: 'Capital management and ICAAP', reg: 'APRA', url: '/standards/aps-110-and-aps-210.html',
       applies: 'ADIs (APS 110) and insurers (their own capital standards).',

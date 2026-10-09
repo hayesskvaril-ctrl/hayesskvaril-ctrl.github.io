@@ -60,5 +60,8 @@ window.RL_FACTS = {
  "adi-sfi-threshold": "$30 billion",
  "msfi-threshold": "$300 billion",
  "three-tier-start": "1 July 2026",
- "ddo-asic-notice": "10 business days"
+ "ddo-asic-notice": "10 business days",
+ "sg-rate": "12%",
+ "far-deferral-share": "40%",
+ "cps511-ceo-deferral": "60%"
 };

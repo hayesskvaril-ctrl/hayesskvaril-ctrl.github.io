@@ -101,19 +101,28 @@
     "SPS 515"
    ],
    "source": {
-    "label": "APRA: SPS 515",
-    "url": "https://www.apra.gov.au/standards/sps-515"
+    "label": "Prudential Standard SPS 515 (F2024L00940), Federal Register of Legislation",
+    "url": "https://www.legislation.gov.au/F2024L00940/asmade/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official text of SPS 515 (F2024L00940, fetched from legislation.gov.au): the instrument commences on 1 July 2025"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "1 July 2025",
+     "new": "1 July 2025",
+     "how": "official",
+     "note": "Read in the official text of SPS 515 (F2024L00940, fetched from legislation.gov.au): the instrument commences on 1 July 2025"
+    }
+   ],
    "exclude": [
     "service providers (from 1 July 2025)",
     "CPS 230"
-   ]
+   ],
+   "check_url": "https://www.legislation.gov.au/F2024L00940/asmade/2024-07-31/text/original/pdf"
   },
   {
    "id": "cslr-fy27-estimate",
@@ -218,20 +227,29 @@
     "amendment"
    ],
    "source": {
-    "label": "APRA: final targeted amendments to CPS 230",
-    "url": "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management"
+    "label": "CPS 230 amending instrument F2026L00475, Federal Register of Legislation",
+    "url": "https://www.legislation.gov.au/F2026L00475/asmade/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official amending instrument (F2026L00475, fetched from legislation.gov.au): the amended CPS 230 commences on 1 July 2026 (paragraph 6)"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "1 July 2026",
+     "new": "1 July 2026",
+     "how": "official",
+     "note": "Read in the official amending instrument (F2026L00475, fetched from legislation.gov.au): the amended CPS 230 commences on 1 July 2026 (paragraph 6)"
+    }
+   ],
    "exclude": [
     "had until 1 July 2026",
     "pre-existing contracts",
     "transition"
-   ]
+   ],
+   "check_url": "https://www.legislation.gov.au/F2026L00475/asmade/2026-04-29/text/original/pdf"
   },
   {
    "id": "cps230-amendments-finalised",
@@ -300,15 +318,24 @@
     "CPS 190"
    ],
    "source": {
-    "label": "APRA: CPS 190",
-    "url": "https://www.apra.gov.au/standards/cps-190"
+    "label": "Prudential Standard CPS 190 (F2023L01380), Federal Register of Legislation",
+    "url": "https://www.legislation.gov.au/F2023L01380/asmade/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official text of CPS 190 (F2023L01380): paragraph 8(b) applies the standard to RSE licensees on 1 January 2025"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "1 January 2025",
+     "new": "1 January 2025",
+     "how": "official",
+     "note": "Read in the official text of CPS 190 (F2023L01380): paragraph 8(b) applies the standard to RSE licensees on 1 January 2025"
+    }
+   ],
+   "check_url": "https://www.legislation.gov.au/F2023L01380/asmade/2023-10-16/text/original/pdf"
   },
   {
    "id": "cps510-draft-released",
@@ -612,15 +639,24 @@
     "penalty unit"
    ],
    "source": {
-    "label": "ASIC: fines and penalties",
-    "url": "https://www.asic.gov.au/about-asic/asic-investigations-and-enforcement/fines-and-penalties/"
+    "label": "Crimes (Amount of a Penalty Unit) Instrument 2026 (F2026N00424), Federal Register of Legislation",
+    "url": "https://www.legislation.gov.au/F2026N00424/asmade/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official Crimes (Amount of a Penalty Unit) Instrument 2026 (F2026N00424, fetched from legislation.gov.au): section 5 sets the amount at $364 for offences committed on or after 1 July 2026"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "$364",
+     "new": "$364",
+     "how": "official",
+     "note": "Read in the official Crimes (Amount of a Penalty Unit) Instrument 2026 (F2026N00424, fetched from legislation.gov.au): section 5 sets the amount at $364 for offences committed on or after 1 July 2026"
+    }
+   ],
+   "check_url": "https://www.legislation.gov.au/F2026N00424/asmade/2026-06-16/text/original/pdf"
   },
   {
    "id": "advice-reforms-announced",
@@ -847,17 +883,25 @@
     "Group 2"
    ],
    "source": {
-    "label": "ASIC: sustainability reporting",
-    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+    "label": "Corporations Act 2001, ss 1707 and 1707B (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2004A00818/latest/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the Corporations Act (compilation 19 September 2026): s 1707 defines the second transitional period as starting on 1 July 2026, and s 1707B(1)(b) applies sustainability reporting to entities meeting the s 296B thresholds for financial years starting in it"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "1 July 2026",
+     "new": "1 July 2026",
+     "how": "official",
+     "note": "Read in the Corporations Act (compilation 19 September 2026): s 1707 defines the second transitional period as starting on 1 July 2026, and s 1707B(1)(b) applies sustainability reporting to entities meeting the s 296B thresholds for financial years starting in it"
+    }
+   ],
    "autocheck": false,
-   "autocheck_note": "Checked by hand: ASIC's page doesn't state the dates in readable text"
+   "autocheck_note": "Checked by hand against the Corporations Act (ss 292A, 1707 and 1707B), which is published as large Word and PDF volumes"
   },
   {
    "id": "climate-group3-start",
@@ -869,17 +913,25 @@
     "Group 3"
    ],
    "source": {
-    "label": "ASIC: sustainability reporting",
-    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+    "label": "Corporations Act 2001, ss 292A and 1707B (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2004A00818/latest/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the Corporations Act (compilation 19 September 2026): s 1707B(1)(c) applies s 292A to all entities meeting its thresholds for financial years commencing on or after 1 July 2027"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-09",
+     "old": "1 July 2027",
+     "new": "1 July 2027",
+     "how": "official",
+     "note": "Read in the Corporations Act (compilation 19 September 2026): s 1707B(1)(c) applies s 292A to all entities meeting its thresholds for financial years commencing on or after 1 July 2027"
+    }
+   ],
    "autocheck": false,
-   "autocheck_note": "Checked by hand: ASIC's page doesn't state the dates in readable text"
+   "autocheck_note": "Checked by hand against the Corporations Act (ss 292A, 1707 and 1707B), which is published as large Word and PDF volumes"
   },
   {
    "id": "rep839-published",
@@ -1148,7 +1200,8 @@
     "reportable situation",
     "IDR",
     "complaint",
-    "ASIC"
+    "ASIC",
+    "accountable person"
    ],
    "check_url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/preventing-preparing-for-and-responding-to-data-breaches/data-breach-preparation-and-response/part-4-notifiable-data-breach-ndb-scheme"
   },
@@ -1426,7 +1479,9 @@
    "exclude": [
     "balance",
     "Division 296",
-    "ransom"
+    "ransom",
+    "ransomware",
+    "Cyber Security Act"
    ]
   },
   {
@@ -1593,6 +1648,76 @@
    ],
    "autocheck": false,
    "autocheck_note": "Checked by hand: the Act's text is in Word and PDF files on legislation.gov.au, which the weekly watch doesn't read"
+  },
+  {
+   "id": "sg-rate",
+   "topic": "Superannuation",
+   "fact": "Superannuation guarantee: employer contribution rate (the charge percentage), since 1 July 2025",
+   "value": "12%",
+   "status": "in force",
+   "context": [
+    "superannuation guarantee",
+    "super guarantee"
+   ],
+   "source": {
+    "label": "Superannuation Guarantee (Administration) Act 1992, s 17A (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2004A04402/latest/text"
+   },
+   "checked": {
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official compilation in force from 1 July 2026 (fetched from legislation.gov.au): 'charge percentage means 12' in s 17A"
+   },
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand against the official text on the Federal Register of Legislation (the legislation pages are not readable by the automated check)"
+  },
+  {
+   "id": "far-deferral-share",
+   "topic": "Governance",
+   "fact": "FAR: minimum share of an accountable person's variable remuneration that must be deferred (for at least four years)",
+   "value": "40%",
+   "status": "in force",
+   "context": [
+    "accountable person",
+    "accountable persons",
+    "FAR",
+    "Financial Accountability Regime"
+   ],
+   "source": {
+    "label": "Financial Accountability Regime Act 2023, ss 27-28 (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2023A00067/latest/text"
+   },
+   "checked": {
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official compilation in force from 21 February 2025: s 27(1) requires 40% of variable remuneration to be deferred; s 28 sets a minimum deferral period of four years"
+   },
+   "history": [],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand against the official text on the Federal Register of Legislation (the legislation pages are not readable by the automated check)"
+  },
+  {
+   "id": "cps511-ceo-deferral",
+   "topic": "Governance",
+   "fact": "CPS 511: minimum share of a significant financial institution CEO's variable remuneration that must be deferred (over at least six years)",
+   "value": "60%",
+   "status": "in force",
+   "context": [
+    "CEO",
+    "chief executive"
+   ],
+   "source": {
+    "label": "Prudential Standard CPS 511 Remuneration (F2023L01348), paragraph 41(a)",
+    "url": "https://www.legislation.gov.au/F2023L01348/asmade/text"
+   },
+   "checked": {
+    "date": "2026-10-09",
+    "how": "official",
+    "note": "Read in the official text (F2023L01348, fetched from legislation.gov.au): paragraph 41(a) requires at least 60% of the CEO's variable remuneration to be deferred over at least six years"
+   },
+   "history": [],
+   "check_url": "https://www.legislation.gov.au/F2023L01348/asmade/2023-09-29/text/original/pdf"
   }
  ]
 }

@@ -107,6 +107,10 @@
   "/standards/aps-110-and-aps-210.html",
   "/standards/aps-115.html"
  ],
+ "CEO": [
+  "/governance/remuneration-governance.html",
+  "/standards/cps-511.html"
+ ],
  "CET1": [
   "/obligations/",
   "/obligations/banking.html",
@@ -224,6 +228,8 @@
   "/foundations/what-is-governance.html",
   "/governance/briefing-far.html",
   "/governance/financial-accountability-regime.html",
+  "/governance/reasonable-steps-and-consequence-management.html",
+  "/governance/remuneration-governance.html",
   "/news/regulatory-tracker.html",
   "/obligations/",
   "/obligations/banking.html",
@@ -243,6 +249,8 @@
   "/foundations/what-is-governance.html",
   "/governance/briefing-far.html",
   "/governance/financial-accountability-regime.html",
+  "/governance/reasonable-steps-and-consequence-management.html",
+  "/governance/remuneration-governance.html",
   "/news/regulatory-tracker.html",
   "/obligations/",
   "/obligations/banking.html",
@@ -340,6 +348,7 @@
  ],
  "Payday Super": [
   "/news/regulatory-tracker.html",
+  "/sectors/behavioural-economics-of-super.html",
   "/sectors/superannuation.html"
  ],
  "Personal Data Protection": [
@@ -503,6 +512,30 @@
  "accountability": [
   "/governance/financial-accountability-regime.html"
  ],
+ "accountable person": [
+  "/governance/briefing-far.html",
+  "/governance/financial-accountability-regime.html",
+  "/governance/reasonable-steps-and-consequence-management.html",
+  "/governance/remuneration-governance.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/private-health-insurance.html",
+  "/obligations/superannuation.html"
+ ],
+ "accountable persons": [
+  "/governance/briefing-far.html",
+  "/governance/financial-accountability-regime.html",
+  "/governance/reasonable-steps-and-consequence-management.html",
+  "/governance/remuneration-governance.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/private-health-insurance.html",
+  "/obligations/superannuation.html"
+ ],
  "advice": [
   "/compliance/financial-advice-regulation.html",
   "/news/regulatory-tracker.html",
@@ -655,6 +688,10 @@
  ],
  "charit": [
   "/sectors/not-for-profits-and-charities.html"
+ ],
+ "chief executive": [
+  "/governance/remuneration-governance.html",
+  "/standards/cps-511.html"
  ],
  "claims": [
   "/sectors/insurance.html"
@@ -1032,6 +1069,7 @@
  ],
  "payday super": [
   "/news/regulatory-tracker.html",
+  "/sectors/behavioural-economics-of-super.html",
   "/sectors/superannuation.html"
  ],
  "payment": [
@@ -1308,6 +1346,9 @@
  "successor fund transfer": [
   "/sectors/fund-mergers-and-successor-fund-transfers.html"
  ],
+ "super guarantee": [
+  "/sectors/behavioural-economics-of-super.html"
+ ],
  "superannuation": [
   "/compliance/consumer-protection.html",
   "/compliance/designing-a-compliance-program.html",
@@ -1321,6 +1362,9 @@
   "/obligations/payments-and-fintech.html",
   "/obligations/superannuation.html",
   "/sectors/superannuation.html"
+ ],
+ "superannuation guarantee": [
+  "/sectors/behavioural-economics-of-super.html"
  ],
  "suspected": [
   "/compliance/breach-reporting.html",

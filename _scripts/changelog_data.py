@@ -8,6 +8,8 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-09', '/about/fact-register.html', 'Key facts register: 64 facts. Added the super guarantee rate (12%), the FAR deferral share (40%) and the CPS 511 CEO deferral share (60%), and confirmed eight more against the official text, including the $364 penalty unit, the SPS 515 and CPS 190 start dates and the climate reporting phase-in.'),
+    ('2026-10-09', '/governance/remuneration-governance.html', 'Remuneration: made the CPS 511 deferral rules precise (40% over five years applies to senior managers and executive directors; highly paid material risk-takers defer 40% over four years) and added a material risk-taker option to the deferral calculator. CPS 511 page: clawback lasts at least two years after payment or vesting.'),
     ('2026-10-09', '/sectors/not-for-profits-and-charities.html', 'Charities: corrected the number of ACNC Governance Standards from five to six. Standard 6 requires a charity named in a National Redress Scheme application to take reasonable steps to join the Scheme (checked against the ACNC Regulations 2022).'),
     ('2026-10-09', '/risk-management/cyber-risk.html', 'Ransomware payment reporting: the turnover threshold is turnover above $3 million (not "$3 million or more"), and the 72-hour deadline is now confirmed from the Cyber Security Act 2024 and its Rules.'),
     ('2026-10-09', '/sectors/life-insurance.html', 'Insurance and advice: added that since 9 July 2025 an adviser giving personal advice on general, life risk or consumer credit insurance needs the client\'s informed consent before receiving a commission (Corporations Act s 963BB).'),

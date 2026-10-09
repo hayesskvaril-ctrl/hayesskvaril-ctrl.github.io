@@ -13,6 +13,7 @@
  ],
  "payday-super-start": [
   "/news/regulatory-tracker.html",
+  "/sectors/behavioural-economics-of-super.html",
   "/sectors/superannuation.html"
  ],
  "sps515-strengthened-start": [
@@ -520,5 +521,24 @@
   "/obligations/life-insurance.html",
   "/obligations/superannuation.html",
   "/standards/asic-rg-274.html"
+ ],
+ "sg-rate": [
+  "/sectors/behavioural-economics-of-super.html"
+ ],
+ "far-deferral-share": [
+  "/governance/briefing-far.html",
+  "/governance/financial-accountability-regime.html",
+  "/governance/reasonable-steps-and-consequence-management.html",
+  "/governance/remuneration-governance.html",
+  "/obligations/",
+  "/obligations/banking.html",
+  "/obligations/general-insurance.html",
+  "/obligations/life-insurance.html",
+  "/obligations/private-health-insurance.html",
+  "/obligations/superannuation.html"
+ ],
+ "cps511-ceo-deferral": [
+  "/governance/remuneration-governance.html",
+  "/standards/cps-511.html"
  ]
 }
