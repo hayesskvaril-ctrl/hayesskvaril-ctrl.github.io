@@ -349,6 +349,36 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Submit it within three months of the annual balance date (four months for ADIs that are not disclosing entities, and for Level 3 heads), unless APRA approves otherwise', 'CPS 220 para 51']]
     }
   },
+  sps515: {
+    source: [['Prudential Standard SPS 515 Strategic Planning and Member Outcomes (F2024L00940, in force from 1 July 2025)', 'https://www.legislation.gov.au/F2024L00940/asmade/text']],
+    checkedText: '9 October 2026',
+    themes: {
+      1: [
+        ['Set specific strategic objectives for the sound and prudent management of the business that support the outcomes sought for members, approved by the Board', 'SPS 515 para 8'],
+        ['Inform the objectives by the outcomes sought, likely improvements, the risk appetite statement, the SIS Act strategies (including the retirement income strategy), operational risk resources, the latest business performance review, the best financial interests duty and the sole purpose test', 'SPS 515 para 9'],
+        ['Review the retirement income strategy’s appropriateness, effectiveness and adequacy at least every three years', 'SPS 515 para 10'],
+        ['Keep a written, Board-approved rolling business plan of at least three years covering the whole business, with key initiatives and each one’s expected cost, funding and results', 'SPS 515 paras 11–12'],
+        ['Show how the business plan reflects current and expected financial resources, using financial projections under different scenarios and key assumptions linked to material risks', 'SPS 515 para 13'],
+        ['Update the business plan annually, having regard to the latest business performance review and monitoring', 'SPS 515 para 14']],
+      2: [
+        ['Have a robust approach to managing the financial resources available to achieve member outcomes and sound and prudent management', 'SPS 515 para 15'],
+        ['Set each fee prudently and transparently, showing that charging it complies with legal duties and that it is appropriate and proportionate (for example against arm’s length value and comparable funds)', 'SPS 515 para 16'],
+        ['The Board approves the use of any new fee power, or an existing power used for the first time', 'SPS 515 para 17'],
+        ['Show the need for and purpose of each reserve, with a target amount or range and how it is built and replenished fairly between cohorts of members, and review each reserve regularly', 'SPS 515 paras 18–19'],
+        ['Control financial resources held at trustee company level, including at least a capital management plan', 'SPS 515 para 20'],
+        ['Make expenditure decisions only for sound and prudent management and consistent with legal duties, including the best financial interests duty and the sole purpose test', 'SPS 515 para 21'],
+        ['For each expenditure decision, positively demonstrate its purpose and contribution to strategic objectives and member outcomes, why any incidental benefits to others are still consistent with legal duties, how it is funded, and how it will be monitored', 'SPS 515 para 22']],
+      3: [
+        ['Monitor progress against strategic objectives and the business plan with key performance indicators and triggers, to prompt remedial action or transfer planning', 'SPS 515 para 23'],
+        ['Triggers include, at a minimum, failing or expecting to fail APRA’s annual performance test', 'SPS 515 para 24'],
+        ['Review performance against strategic objectives every year and use the results to improve the business; the review covers outcomes for different member cohorts (including those in or near retirement), benchmarks and the outcomes assessments', 'SPS 515 paras 25–26'],
+        ['Document the methodology for the annual outcomes assessment under SIS Act s 52(9), including how factors were balanced and how comparison products were chosen, and calculate MySuper comparison factors using the set reporting standards', 'SPS 515 paras 27–28'],
+        ['Also assess whether members are disadvantaged by scale, whether operating costs harm their financial interests, and whether the basis for setting fees is appropriate', 'SPS 515 para 29'],
+        ['Take timely remedial action when expected outcomes are not being achieved, and prepare for a possible transfer of members out of or into the fund', 'SPS 515 paras 30–31'],
+        ['After failing the performance test, document a plan to respond in a timely manner, and notify APRA if the plan is activated', 'SPS 515 para 32'],
+        ['If a MySuper authority is, or may be, cancelled: prepare a MySuper assets transfer plan nominating a receiving product, carry out the transfer, and notify APRA within 10 business days once it is complete', 'SPS 515 paras 33–43']]
+    }
+  },
   cps510: {
     source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers; super trustees follow SPS 510 and SPS 520, not yet itemised here. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text']],
     checkedText: '9 October 2026',

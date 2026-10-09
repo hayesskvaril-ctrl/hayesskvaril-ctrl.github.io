@@ -22,16 +22,16 @@ jobs:
   watch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Get the previous watch results
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: watch-data
           path: watch-out
 
       - name: Install the PDF reader
-        run: sudo apt-get install -y -q poppler-utils > /dev/null
+        run: sudo apt-get update -q > /dev/null && sudo apt-get install -y -q poppler-utils > /dev/null
 
       - name: Run the watch
         run: python3 _scripts/watch/watch.py --state watch-out
