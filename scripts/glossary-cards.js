@@ -1081,6 +1081,12 @@ window.GLOSSARY_CARDS = [
 "def": "A framework explaining how media, institutions and social groups can make a risk seem larger or smaller than technical estimates suggest, with ripple effects such as loss of trust and regulatory change."
 },
 {
+"slug": "sps-250",
+"term": "SPS 250 Insurance in Superannuation",
+"abbr": "",
+"def": "APRA's prudential standard for how super trustees manage the insurance they offer members. It requires an insurance management framework covering the insurance strategy, choosing and monitoring insurers, the terms of cover, claims, and an easy way for members to opt out of cover."
+},
+{
 "slug": "sps-515",
 "term": "SPS 515 Strategic Planning and Member Outcomes",
 "abbr": "",

@@ -20,6 +20,7 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 10. /standards/asic-rg-97.html (fees and costs disclosure)
 11a. ~~/standards/sps-515.html~~ signed off 2 October 2026
 11b. /standards/sps-530.html (deep review done 2 October 2026: valuation triggers example, liquidity, 2026 proposals; proposal dates corrected 8 October 2026 to the 30 September 2026 release)
+11c. /standards/sps-250.html (new 10 October 2026, from the official SPS 250 text and SIS Act ss 68AAA to 68AAF: requirement table, connected insurer worked example, default cover rules)
 
 - /sectors/fund-mergers-and-successor-fund-transfers.html (deep review done 2 October 2026: merger process table and common mistakes)
 - /sectors/unit-pricing.html (deep review done 2 October 2026: worked error example and who bears the cost)

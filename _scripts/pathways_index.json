@@ -84,7 +84,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 1,
-   "total": 31,
+   "total": 32,
    "next": "/compliance/licensing-basics.html",
    "nextTitle": "Licensing basics (AFSL, RSE licence and more)"
   }
@@ -171,8 +171,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 31,
-   "total": 31,
+   "pos": 32,
+   "total": 32,
    "next": "",
    "nextTitle": ""
   },
@@ -294,7 +294,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 4,
-   "total": 31,
+   "total": 32,
    "next": "/risk-management/third-party-risk.html",
    "nextTitle": "Third-party, vendor and outsourcing risk"
   },
@@ -338,7 +338,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 5,
-   "total": 31,
+   "total": 32,
    "next": "/risk-management/incident-and-breach-management.html",
    "nextTitle": "Incident and breach management"
   },
@@ -487,8 +487,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 19,
-   "total": 31,
+   "pos": 20,
+   "total": 32,
    "next": "/risk-management/super-liquidity-stress-testing.html",
    "nextTitle": "Liquidity stress testing for super funds"
   }
@@ -505,8 +505,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 17,
-   "total": 31,
+   "pos": 18,
+   "total": 32,
    "next": "/compliance/breach-significance-analysis.html",
    "nextTitle": "Breach significance analysis in practice"
   }
@@ -771,8 +771,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 30,
-   "total": 31,
+   "pos": 31,
+   "total": 32,
    "next": "/learn/quizzes.html",
    "nextTitle": "Topic quizzes"
   },
@@ -798,7 +798,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 2,
-   "total": 31,
+   "total": 32,
    "next": "/sectors/superannuation.html",
    "nextTitle": "Superannuation trustee governance"
   }
@@ -884,7 +884,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 7,
-   "total": 31,
+   "total": 32,
    "next": "/standards/asic-rg-97.html",
    "nextTitle": "ASIC RG 97 Disclosing fees and costs in PDSs and periodic statements"
   }
@@ -912,7 +912,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 6,
-   "total": 31,
+   "total": 32,
    "next": "/compliance/disclosure-obligations.html",
    "nextTitle": "Disclosure obligations"
   }
@@ -958,7 +958,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 10,
-   "total": 31,
+   "total": 32,
    "next": "/governance/financial-accountability-regime.html",
    "nextTitle": "Financial Accountability Regime (FAR)"
   }
@@ -986,7 +986,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 9,
-   "total": 31,
+   "total": 32,
    "next": "/standards/asic-rg-271.html",
    "nextTitle": "ASIC RG 271 Internal dispute resolution"
   }
@@ -1004,7 +1004,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 13,
-   "total": 31,
+   "total": 32,
    "next": "/compliance/climate-related-financial-disclosures.html",
    "nextTitle": "Climate-related financial disclosures and sustainability reporting"
   }
@@ -1052,7 +1052,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 14,
-   "total": 31,
+   "total": 32,
    "next": "/standards/sps-515.html",
    "nextTitle": "SPS 515 Strategic Planning and Member Outcomes"
   }
@@ -1099,8 +1099,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 18,
-   "total": 31,
+   "pos": 19,
+   "total": 32,
    "next": "/risk-management/scenario-analysis-and-stress-testing.html",
    "nextTitle": "Scenario analysis and stress testing"
   }
@@ -1157,8 +1157,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 23,
-   "total": 31,
+   "pos": 24,
+   "total": 32,
    "next": "/sectors/behavioural-economics-of-super.html",
    "nextTitle": "Behavioural economics of super: defaults, inertia and choice"
   }
@@ -1265,8 +1265,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 28,
-   "total": 31,
+   "pos": 29,
+   "total": 32,
    "next": "/case-studies/shield-and-first-guardian.html",
    "nextTitle": "The Shield and First Guardian collapses"
   }
@@ -1324,7 +1324,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 11,
-   "total": 31,
+   "total": 32,
    "next": "/sectors/managed-investment-schemes.html",
    "nextTitle": "Managed investment schemes"
   }
@@ -1560,7 +1560,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 3,
-   "total": 31,
+   "total": 32,
    "next": "/standards/cps-230.html",
    "nextTitle": "CPS 230 Operational Risk Management"
   }
@@ -1570,7 +1570,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 8,
-   "total": 31,
+   "total": 32,
    "next": "/standards/asic-rg-277.html",
    "nextTitle": "ASIC RG 277 Consumer remediation"
   }
@@ -1580,7 +1580,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 12,
-   "total": 31,
+   "total": 32,
    "next": "/compliance/financial-advice-regulation.html",
    "nextTitle": "Financial advice regulation"
   },
@@ -1598,7 +1598,7 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 15,
-   "total": 31,
+   "total": 32,
    "next": "/standards/sps-530.html",
    "nextTitle": "SPS 530 Investment Governance"
   }
@@ -1608,7 +1608,17 @@
    "id": "super",
    "title": "Superannuation specialist",
    "pos": 16,
-   "total": 31,
+   "total": 32,
+   "next": "/standards/sps-250.html",
+   "nextTitle": "SPS 250 Insurance in Superannuation"
+  }
+ ],
+ "/standards/sps-250.html": [
+  {
+   "id": "super",
+   "title": "Superannuation specialist",
+   "pos": 17,
+   "total": 32,
    "next": "/risk-management/setting-cps-230-tolerance-levels.html",
    "nextTitle": "Setting CPS 230 tolerance levels"
   }
@@ -1617,8 +1627,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 20,
-   "total": 31,
+   "pos": 21,
+   "total": 32,
    "next": "/sectors/unit-pricing.html",
    "nextTitle": "Unit pricing and unit pricing errors"
   }
@@ -1627,8 +1637,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 21,
-   "total": 31,
+   "pos": 22,
+   "total": 32,
    "next": "/sectors/fund-mergers-and-successor-fund-transfers.html",
    "nextTitle": "Fund mergers and successor fund transfers"
   }
@@ -1637,8 +1647,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 22,
-   "total": 31,
+   "pos": 23,
+   "total": 32,
    "next": "/compliance/remediation-calculations.html",
    "nextTitle": "Remediation calculations in practice"
   }
@@ -1647,8 +1657,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 24,
-   "total": 31,
+   "pos": 25,
+   "total": 32,
    "next": "/playbooks/onboard-a-material-service-provider.html",
    "nextTitle": "Onboard a material service provider"
   }
@@ -1657,8 +1667,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 25,
-   "total": 31,
+   "pos": 26,
+   "total": 32,
    "next": "/playbooks/run-a-consumer-remediation.html",
    "nextTitle": "Run a consumer remediation"
   }
@@ -1667,8 +1677,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 26,
-   "total": 31,
+   "pos": 27,
+   "total": 32,
    "next": "/tools/material-service-provider-register.html",
    "nextTitle": "Material service provider register"
   }
@@ -1677,8 +1687,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 27,
-   "total": 31,
+   "pos": 28,
+   "total": 32,
    "next": "/tools/remediation-program-tracker.html",
    "nextTitle": "Remediation program tracker"
   }
@@ -1687,8 +1697,8 @@
   {
    "id": "super",
    "title": "Superannuation specialist",
-   "pos": 29,
-   "total": 31,
+   "pos": 30,
+   "total": 32,
    "next": "/learn/scenarios.html",
    "nextTitle": "Scenario simulations"
   }
