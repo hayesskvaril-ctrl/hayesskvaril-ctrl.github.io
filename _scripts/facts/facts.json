@@ -201,20 +201,27 @@
     "CPS 230"
    ],
    "source": {
-    "label": "APRA: CPS 230",
-    "url": "https://www.apra.gov.au/standards/cps-230"
+    "label": "Prudential Standard CPS 230 as made (F2023L01242), Federal Register of Legislation",
+    "url": "https://www.legislation.gov.au/F2023L01242/asmade/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in the official original CPS 230 determination (No. 2 of 2023, F2023L01242, fetched from legislation.gov.au): 'This Prudential Standard commences on 1 July 2025' (paragraph 6)"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-10",
+     "old": "1 July 2025",
+     "new": "1 July 2025",
+     "how": "official",
+     "note": "Read in the official original CPS 230 determination (No. 2 of 2023, F2023L01242, fetched from legislation.gov.au): 'This Prudential Standard commences on 1 July 2025' (paragraph 6)"
+    }
+   ],
    "exclude": [
     "SPS 515"
    ],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: APRA's standard page doesn't state the start date in readable text"
+   "check_url": "https://www.legislation.gov.au/F2023L01242/asmade/2023-09-14/text/original/pdf"
   },
   {
    "id": "cps230-amendments-effective",
