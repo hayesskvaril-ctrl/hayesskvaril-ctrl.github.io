@@ -262,6 +262,25 @@ const SCENES = {
     add(new THREE.SphereGeometry(0.85, 128, 96), M.accent(accHex, 0.22), [0, 1.05, 0]);
     look([1, 3.6, 10], [0, 0.8, 0], 22);
   },
+  ledger() { // obligations register: a fanned stack of ceramic tablets, one accent tablet
+    for (let k = 0; k < 10; k++) add(rbox(2.6, 0.08, 1.8, 0.03), k === 6 ? M.accent(accHex, 0.3) : M.ceramic(k % 2 ? 0xfbfbfd : 0xefeff3), [k * 0.06, 0.05 + k * 0.1, -k * 0.02], [0, -0.07 * k, 0]);
+    add(new THREE.SphereGeometry(0.3, 96, 64), M.glass(0xffffff), [-1.7, 0.3, 0.9]);
+    look([3, 3.6, 10], [0.2, 0.5, 0], 22);
+  },
+  steps() { // playbooks: ascending steps with a sphere on the top step
+    for (let k = 0; k < 5; k++) add(rbox(1.0, 0.3 + k * 0.32, 1.6, 0.06), M.ceramic(k % 2 ? 0xfbfbfd : 0xefeff3), [-2.0 + k * 1.0, (0.3 + k * 0.32) / 2, 0]);
+    add(new THREE.SphereGeometry(0.34, 128, 96), M.accent(accHex, 0.22), [2.0, 1.92, 0.1]);
+    look([2, 3.4, 12], [0, 0.9, 0], 22);
+  },
+  keystone() { // accountability: an arch of ceramic blocks held by an accent keystone
+    const n = 9, R = 1.7, th = 0.42, dep = 0.9;
+    for (let k = 0; k < n; k++) {
+      const a = Math.PI * (k + 0.5) / n, x = Math.cos(a) * R, y = Math.sin(a) * R;
+      add(rbox(0.56, 0.5, dep, 0.05), k === 4 ? M.accent(accHex, 0.28) : M.ceramic(k % 2 ? 0xfbfbfd : 0xefeff3), [x, y + 0.15, 0], [0, 0, a - Math.PI / 2]);
+    }
+    add(rbox(4.6, 0.16, 1.6, 0.05), M.ceramic(), [0, 0.08, 0]);
+    look([1.5, 2.2, 11], [0, 1.0, 0], 22);
+  },
 };
 function fit(zoom) {
   scene.updateMatrixWorld(true); const box = new THREE.Box3();

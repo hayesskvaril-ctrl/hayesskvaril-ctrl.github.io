@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-10', '/obligations/', 'New graphics for the obligations library, the playbooks and the accountability pages (FAR and board structure), in the site\'s glass and light style.'),
     ('2026-10-10', '/risk-management/economics-of-cyber-risk.html', 'New explainer video: How much to spend on security? The Gordon-Loeb model, with a worked example and the model\'s limits, captions, a voiceover and a full transcript.'),
     ('2026-10-10', '/risk-management/theories-of-risk.html', 'New explainer video: Normal accidents and high reliability. Perrow\'s complexity and coupling, high reliability practices and what they suggest for operational resilience, with captions, a voiceover and a full transcript.'),
     ('2026-10-10', '/compliance/aml-ctf-fundamentals.html', 'AML/CTF: confirmed the 31 March 2026 and 1 July 2026 start dates against the amending Act, and added that tranche 2 businesses already providing a new service before 1 July 2026 had until 29 July 2026 to enrol.'),

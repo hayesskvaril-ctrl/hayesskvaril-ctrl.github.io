@@ -558,6 +558,11 @@ IMAGES = {
     "/compliance/licensing-basics.html": ("regulators", False),
     "/sectors/superannuation.html": ("super", False),
     "/sectors/behavioural-economics-of-super.html": ("super", False),
+    "/obligations/": ("obligations", False),
+    "/obligations/sectors.html": ("obligations", False),
+    "/playbooks/": ("playbooks", False),
+    "/governance/financial-accountability-regime.html": ("accountability", False),
+    "/governance/board-structure-and-accountability.html": ("accountability", False),
 }
 ART_RE = re.compile(r"\n?<!-- ART:START -->.*?<!-- ART:END -->", re.S)
 META_LINE_RE = re.compile(r'(<div class="page-meta">.*?</div>)', re.S)
