@@ -953,6 +953,24 @@
   "status": 200,
   "type": "application/pdf"
  },
+ "https://www.legislation.gov.au/F2023L01242/asmade/2023-09-14/text/original/pdf": {
+  "chars": 39251,
+  "date": "2026-10-10",
+  "file": "legislation-gov-au-f2023l01242-asmade-2023-09-14-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2023L01242/asmade/2023-09-14/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "https://www.legislation.gov.au/F2023L01242/asmade/downloads": {
+  "chars": 6040,
+  "date": "2026-10-10",
+  "file": "legislation-gov-au-f2023l01242-asmade-downloads.txt",
+  "final": "https://www.legislation.gov.au/F2023L01242/asmade/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.legislation.gov.au/F2023L01348/asmade/2023-09-29/text/original/pdf": {
   "chars": 82249,
   "date": "2026-10-09",
