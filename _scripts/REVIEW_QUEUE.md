@@ -20,6 +20,7 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 10. /standards/asic-rg-97.html (fees and costs disclosure)
 11a. ~~/standards/sps-515.html~~ signed off 2 October 2026
 11b. /standards/sps-530.html (deep review done 2 October 2026: valuation triggers example, liquidity, 2026 proposals; proposal dates corrected 8 October 2026 to the 30 September 2026 release)
+11d. /standards/sps-114.html (new 10 October 2026, from the official SPS 114 text, APRA's current and superseded SPG 114 and SIS Act ss 52(8)(b) and 56(2A): guidance minimums, permitted uses, what changed in 2025, replenishment worked example)
 11c. /standards/sps-250.html (new 10 October 2026, from the official SPS 250 text and SIS Act ss 68AAA to 68AAF: requirement table, connected insurer worked example, default cover rules)
 
 - /sectors/fund-mergers-and-successor-fund-transfers.html (deep review done 2 October 2026: merger process table and common mistakes)
@@ -57,7 +58,7 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 ## Round 3: playbooks, tools and templates
 24. Every page in /playbooks/ (step-by-step guides built from the pages above)
 25. /grc/model-builder.html (regime defaults, obligation themes, clocks, example controls)
-26. /obligations/ (obligations library). Since 9 October 2026 each theme lists individual obligations with legal citations (572, in `scripts/obligation-details.js`, open the "Individual obligations" drop-downs). Most worth an expert check, in your areas: CPS 230; breach reporting (RG 78); IDR (RG 271); remediation (RG 277); SPS 515 (fees, reserves, expenditure, outcomes); fee disclosure (RG 97); SIS Act covenants and the performance test; CPS 511 and FAR deferral; CPS 220/SPS 220; SPS 530; CPS 190/900.
+26. /obligations/ (obligations library). Since 9 October 2026 each theme lists individual obligations with legal citations (580, in `scripts/obligation-details.js`, open the "Individual obligations" drop-downs). Most worth an expert check, in your areas: CPS 230; breach reporting (RG 78); IDR (RG 271); remediation (RG 277); SPS 515 (fees, reserves, expenditure, outcomes) and SPS 114 (ORFR, added 10 October 2026); fee disclosure (RG 97); SIS Act covenants and the performance test; CPS 511 and FAR deferral; CPS 220/SPS 220; SPS 530; CPS 190/900.
     Also corrected on 9 October 2026 and worth a glance: SPS 220 risk management declaration (on /standards/cps-220.html), SPS 510 tenure and board composition (on /standards/cps-510-and-cps-520.html and /governance/board-structure-and-accountability.html), CPS 511 deferral detail (on /governance/remuneration-governance.html and /standards/cps-511.html).
 27. Templates: incident report, breach register, remediation tracker, control testing workpaper,
     material service provider register, RCSA and risk assessment templates (/tools/)

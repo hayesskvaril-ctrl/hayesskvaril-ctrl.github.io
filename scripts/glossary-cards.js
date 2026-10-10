@@ -769,6 +769,12 @@ window.GLOSSARY_CARDS = [
 "def": "The risk of loss or harm from inadequate or failed internal processes, people or systems, or from external events. It includes things like fraud, errors, IT failures, legal and compliance failures, and supplier problems."
 },
 {
+"slug": "orfr",
+"term": "Operational risk financial requirement",
+"abbr": "ORFR",
+"def": "The financial resources a super trustee must hold, as a reserve in the fund, trustee capital or both, to protect members from losses caused by operational risk. Under APRA's SPS 114 the Board sets a target amount and a tolerance limit, and the money can only be used for set purposes, such as paying members back after an error."
+},
+{
 "slug": "outsourcing",
 "term": "Outsourcing",
 "abbr": "",

@@ -185,7 +185,8 @@ P = [
      ("/compliance/climate-related-financial-disclosures.html", "Climate reporting for funds with $5 billion or more."),
      ("/standards/sps-515.html", "Strategy, spending and the annual outcomes assessment."),
      ("/standards/sps-530.html", "Investment governance, valuation and liquidity."),
-     ("/standards/sps-250.html", "Insurance in super: the strategy, insurers, cover terms and opting out.")]),
+     ("/standards/sps-250.html", "Insurance in super: the strategy, insurers, cover terms and opting out."),
+     ("/standards/sps-114.html", "The ORFR: money held for operational risk losses.")]),
    ("Advanced", [
      ("/risk-management/setting-cps-230-tolerance-levels.html", "Tolerance levels, with a super fund example."),
      ("/compliance/breach-significance-analysis.html", "Significance analysis, including a fee error case."),

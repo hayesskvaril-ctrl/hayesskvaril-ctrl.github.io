@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-10', '/obligations/', 'Obligations library: SPS 114 Operational Risk Financial Requirement added to the SPS 515 regime, with 8 individual obligations checked against the official text (580 in total). It also appears in the GRC model builder.'),
     ('2026-10-10', '/obligations/', 'New graphics for the obligations library, the playbooks and the accountability pages (FAR and board structure), in the site\'s glass and light style.'),
     ('2026-10-10', '/risk-management/economics-of-cyber-risk.html', 'New explainer video: How much to spend on security? The Gordon-Loeb model, with a worked example and the model\'s limits, captions, a voiceover and a full transcript.'),
     ('2026-10-10', '/risk-management/theories-of-risk.html', 'New explainer video: Normal accidents and high reliability. Perrow\'s complexity and coupling, high reliability practices and what they suggest for operational resilience, with captions, a voiceover and a full transcript.'),

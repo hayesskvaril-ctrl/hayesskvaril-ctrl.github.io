@@ -1776,6 +1776,99 @@
    },
    "history": [],
    "check_url": "https://www.legislation.gov.au/F2023L01348/asmade/2023-09-29/text/original/pdf"
+  },
+  {
+   "id": "sps114-start",
+   "topic": "Superannuation",
+   "fact": "Revised SPS 114 Operational Risk Financial Requirement applies",
+   "value": "1 July 2025",
+   "status": "in force",
+   "context": [
+    "SPS 114",
+    "ORFR"
+   ],
+   "source": {
+    "label": "Prudential Standard SPS 114 (F2024L01319), Federal Register of Legislation",
+    "url": "https://www.legislation.gov.au/F2024L01319/asmade/text"
+   },
+   "checked": {
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in the official text of SPS 114 (F2024L01319, fetched from legislation.gov.au): the instrument commences on 1 July 2025 and revokes the 2012 determination"
+   },
+   "history": [],
+   "check_url": "https://www.legislation.gov.au/F2024L01319/asmade/2024-10-17/text/original/pdf",
+   "exclude": [
+    "CPS 230",
+    "SPS 515",
+    "service providers"
+   ]
+  },
+  {
+   "id": "orfr-min-large",
+   "topic": "Superannuation",
+   "fact": "APRA's guidance minimum ORFR target amount for RSE licensees with more than $165 billion in funds under management",
+   "value": "0.175%",
+   "status": "in force",
+   "context": [
+    "ORFR",
+    "SPG 114"
+   ],
+   "source": {
+    "label": "APRA, SPG 114 Operational Risk Financial Requirement (current from 1 July 2025)",
+    "url": "https://www.apra.gov.au/practice-guides/spg-114"
+   },
+   "checked": {
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in APRA's SPG 114 (current from 1 July 2025) on apra.gov.au: greater than $165 billion FUM, 0.175% of FUM"
+   },
+   "history": [],
+   "check_url": "https://www.apra.gov.au/practice-guides/spg-114"
+  },
+  {
+   "id": "orfr-min-mid",
+   "topic": "Superannuation",
+   "fact": "APRA's guidance minimum ORFR target amount for RSE licensees with $30 billion to $165 billion in funds under management",
+   "value": "0.20%",
+   "status": "in force",
+   "context": [
+    "ORFR",
+    "SPG 114"
+   ],
+   "source": {
+    "label": "APRA, SPG 114 Operational Risk Financial Requirement (current from 1 July 2025)",
+    "url": "https://www.apra.gov.au/practice-guides/spg-114"
+   },
+   "checked": {
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in APRA's SPG 114 (current from 1 July 2025) on apra.gov.au: between $30 billion and $165 billion FUM (inclusive), 0.20% of FUM"
+   },
+   "history": [],
+   "check_url": "https://www.apra.gov.au/practice-guides/spg-114"
+  },
+  {
+   "id": "orfr-min-small",
+   "topic": "Superannuation",
+   "fact": "APRA's guidance minimum ORFR target amount for RSE licensees with less than $30 billion in funds under management",
+   "value": "0.25%",
+   "status": "in force",
+   "context": [
+    "ORFR",
+    "SPG 114"
+   ],
+   "source": {
+    "label": "APRA, SPG 114 Operational Risk Financial Requirement (current from 1 July 2025)",
+    "url": "https://www.apra.gov.au/practice-guides/spg-114"
+   },
+   "checked": {
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in APRA's SPG 114 (current from 1 July 2025) on apra.gov.au: less than $30 billion FUM, 0.25% of FUM (the flat 0.25% in the superseded guide now applies only to this tier)"
+   },
+   "history": [],
+   "check_url": "https://www.apra.gov.au/practice-guides/spg-114"
   }
  ]
 }

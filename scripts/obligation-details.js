@@ -368,8 +368,8 @@ window.GRC_OBLIGATION_DETAILS = {
     }
   },
   sps515: {
-    source: [['Prudential Standard SPS 515 Strategic Planning and Member Outcomes (F2024L00940, in force from 1 July 2025)', 'https://www.legislation.gov.au/F2024L00940/asmade/text']],
-    checkedText: '9 October 2026',
+    source: [['Prudential Standard SPS 515 Strategic Planning and Member Outcomes (F2024L00940, in force from 1 July 2025)', 'https://www.legislation.gov.au/F2024L00940/asmade/text'], ['Prudential Standard SPS 114 Operational Risk Financial Requirement (F2024L01319, in force from 1 July 2025)', 'https://www.legislation.gov.au/F2024L01319/asmade/text']],
+    checkedText: '9 and 10 October 2026',
     themes: {
       1: [
         ['Set specific strategic objectives for the sound and prudent management of the business that support the outcomes sought for members, approved by the Board', 'SPS 515 para 8'],
@@ -394,7 +394,16 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Also assess whether members are disadvantaged by scale, whether operating costs harm their financial interests, and whether the basis for setting fees is appropriate', 'SPS 515 para 29'],
         ['Take timely remedial action when expected outcomes are not being achieved, and prepare for a possible transfer of members out of or into the fund', 'SPS 515 paras 30–31'],
         ['After failing the performance test, document a plan to respond in a timely manner, and notify APRA if the plan is activated', 'SPS 515 para 32'],
-        ['If a MySuper authority is, or may be, cancelled: prepare a MySuper assets transfer plan nominating a receiving product, carry out the transfer, and notify APRA within 10 business days once it is complete', 'SPS 515 paras 33–43']]
+        ['If a MySuper authority is, or may be, cancelled: prepare a MySuper assets transfer plan nominating a receiving product, carry out the transfer, and notify APRA within 10 business days once it is complete', 'SPS 515 paras 33–43']],
+      4: [
+        ['Maintain, manage and use financial resources to protect members from losses due to operational risks relating to the funds in the business operations', 'SPS 114 para 9; SIS Act s 52(8)(b)'],
+        ['Formulate and give effect to a Board-approved ORFR strategy covering, at a minimum: the target amount and tolerance limit and why they are appropriate; when and how the resources can be used; how they are held; the investment strategy for any reserve; replenishment; review; and the treatment of the resources on a wind-up', 'SPS 114 paras 10–11'],
+        ['Set an ORFR target amount, and a tolerance limit below it, on a prudent basis reflecting the operational risk profile and risk assessments, the permitted uses, and the size, business mix and complexity of the business', 'SPS 114 paras 12–13'],
+        ['Use ORFR resources only to address operational risks that have caused or could cause members a loss or a missed gain, to meet CPS 230 requirements for managing and preventing operational risk incidents (including fixing material weaknesses and keeping critical operations within tolerance), or to reduce a material surplus', 'SPS 114 para 15'],
+        ['Keep any operational risk reserve separately identifiable from member accounts and other reserves, unrestricted and readily available; hold any trustee capital used for the ORFR in a form equivalent to Common Equity Tier 1 capital', 'SPS 114 paras 16–17'],
+        ['If resources fall below the tolerance limit, replenish them fairly under a replenishment plan, approved by the Board before implementation, that explains how the shortfall arose, the amounts for each fund, the source of funding and the expected date to meet the target again', 'SPS 114 paras 18–19'],
+        ['Review the target amount and tolerance limit at least annually and after a material operational risk incident or material change to the business, report the findings to the Board, and keep internal and external audit arrangements over the ORFR strategy', 'SPS 114 paras 21–22'],
+        ['Notify APRA before making a material change to the ORFR target amount', 'SPS 114 para 24']]
     }
   },
   cps511: {

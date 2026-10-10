@@ -346,6 +346,9 @@
   "/obligations/private-health-insurance.html",
   "/obligations/superannuation.html"
  ],
+ "ORFR": [
+  "/standards/sps-114.html"
+ ],
  "Payday Super": [
   "/news/regulatory-tracker.html",
   "/sectors/behavioural-economics-of-super.html",
@@ -458,6 +461,12 @@
   "/obligations/payments-and-fintech.html",
   "/obligations/superannuation.html",
   "/playbooks/respond-to-an-incident.html"
+ ],
+ "SPG 114": [
+  "/standards/sps-114.html"
+ ],
+ "SPS 114": [
+  "/standards/sps-114.html"
  ],
  "SPS 250": [
   "/standards/sps-250.html"
@@ -1033,7 +1042,8 @@
   "/playbooks/respond-to-an-incident.html",
   "/risk-management/business-continuity.html",
   "/risk-management/operational-risk.html",
-  "/standards/cps-230.html"
+  "/standards/cps-230.html",
+  "/standards/sps-114.html"
  ],
  "outside its tolerance": [
   "/compliance/breach-reporting.html",

@@ -190,14 +190,15 @@ window.GRC_BUILDER = {
         ['Maintain a credible, tested recovery and exit plan (significant financial institutions include at least two severe stress scenarios)', ['cap.recovery'], 'Recovery and exit options are credible and tested', 'Plan; test reports'],
         ['Support APRA’s resolution planning and be ready to execute it (CPS 900)', ['cap.recovery'], 'Resolution information and capabilities are maintained', 'Resolution planning records']] },
 
-    sps515: { label: 'Strategic planning and member outcomes (SPS 515)', reg: 'APRA', url: '/standards/sps-515.html',
+    sps515: { label: 'Strategic planning, member outcomes and operational risk financial requirement (SPS 515, SPS 114)', reg: 'APRA', url: '/standards/sps-515.html',
       applies: 'Super trustees.',
-      docs: [['Strategic objectives and business plan', 1, 'Board', 'entity'], ['Member outcomes assessment and business performance review', 3, 'Board', 'entity']],
+      docs: [['Strategic objectives and business plan', 1, 'Board', 'entity'], ['Member outcomes assessment and business performance review', 3, 'Board', 'entity'], ['ORFR strategy, with the target amount and tolerance limit (SPS 114)', 1, 'Board', 'entity']],
       themes: [
         ['Set board-approved strategic objectives that support good member outcomes, and a business plan to deliver them', ['str.outcomes', 'str.model'], 'Strategy and plan are linked to member outcomes', 'Strategic plan; business plan'],
         ['Manage financial resources so spending is in members’ best financial interests', ['str.outcomes'], 'Significant expenditure is justified against members’ interests', 'Business cases; expenditure reviews'],
-        ['Assess member outcomes regularly, including the annual outcomes assessment and business performance review', ['str.outcomes'], 'Outcomes are assessed and acted on', 'Outcomes assessment; performance review']],
-      cal: [['Annually', 'Member outcomes assessment and business performance review']] },
+        ['Assess member outcomes regularly, including the annual outcomes assessment and business performance review', ['str.outcomes'], 'Outcomes are assessed and acted on', 'Outcomes assessment; performance review'],
+        ['Hold operational risk financial resources (ORFR) under SPS 114: a Board-approved strategy, target amount and tolerance limit, use only for permitted purposes, and a replenishment plan if resources fall below the limit', ['cap.adequacy', 'con.remediation'], 'Operational risk losses to members can be met without drawing on other members’ balances', 'ORFR strategy; annual ORFR review; replenishment plans']],
+      cal: [['Annually', 'Member outcomes assessment and business performance review'], ['Annually', 'Review the ORFR target amount and tolerance limit and report the findings to the Board (SPS 114)']] },
 
     sps530: { label: 'Investment governance (SPS 530)', reg: 'APRA', url: '/standards/sps-530.html',
       applies: 'Super trustees.',

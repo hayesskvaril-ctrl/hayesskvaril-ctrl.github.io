@@ -33,7 +33,7 @@ TRACKS = [
         "/standards/sps-515.html", "/standards/sps-530.html", "/sectors/superannuation.html",
         "/standards/asic-rg-97.html", "/sectors/fund-mergers-and-successor-fund-transfers.html",
         "/sectors/unit-pricing.html", "/risk-management/super-liquidity-stress-testing.html",
-        "/sectors/behavioural-economics-of-super.html"]),
+        "/sectors/behavioural-economics-of-super.html", "/standards/sps-250.html", "/standards/sps-114.html"]),
     ("Incidents, breaches and remediation", "From the first sign of a problem to putting it right.", [
         "/risk-management/incident-and-breach-management.html", "/compliance/breach-reporting.html",
         "/standards/asic-rg-78.html", "/compliance/breach-significance-analysis.html",
@@ -71,7 +71,8 @@ TRACKS = [
         "/compliance/privacy-law.html", "/compliance/modern-slavery.html",
         "/compliance/climate-related-financial-disclosures.html", "/compliance/licensing-basics.html",
         "/compliance/enforcement-and-penalties.html", "/compliance/designing-a-compliance-program.html",
-        "/compliance/interpreting-legislation.html"]),
+        "/compliance/interpreting-legislation.html",
+        "/compliance/regulatory-change-management.html"]),
     ("Risk types", "Cyber, climate, financial, model and change risk, and measuring risk.", [
         "/risk-management/cyber-risk.html", "/risk-management/climate-risk.html",
         "/risk-management/credit-market-and-liquidity-risk.html", "/risk-management/model-risk.html",
@@ -117,6 +118,18 @@ TRACKS = [
 
 # url -> (date finished, what changed)
 DONE = {
+    "/standards/sps-250.html": ("10 October 2026",
+        "New page written to the deep review standard from the official SPS 250 text and the SIS Act: the insurance "
+        "management framework, strategy, arrangement terms, insurer selection and monitoring, connected insurer "
+        "certification, the default cover rules, a worked example, common mistakes and board questions."),
+    "/standards/sps-114.html": ("10 October 2026",
+        "New page written to the deep review standard from the official SPS 114 text, APRA's current and superseded "
+        "SPG 114 and the SIS Act: the ORFR strategy, target and tolerance limit, APRA's tiered guidance minimums, "
+        "permitted uses, what changed in July 2025, a replenishment worked example, common mistakes and FAQs."),
+    "/compliance/regulatory-change-management.html": ("10 October 2026",
+        "New page written to the deep review standard: the six-stage process from horizon scanning to embedding, "
+        "the legal basis (AFSL and APRA requirements), a rating guide, roles, common failures and a worked example "
+        "on the automated decision privacy rules."),
     "/standards/sps-515.html": ("2 October 2026",
         "Rewritten requirement by requirement for the 2025 version: strategic objectives, the business plan, "
         "expenditure management, monitoring and triggers, the business performance review, the outcomes "

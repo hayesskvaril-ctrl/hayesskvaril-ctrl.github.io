@@ -63,5 +63,9 @@ window.RL_FACTS = {
  "ddo-asic-notice": "10 business days",
  "sg-rate": "12%",
  "far-deferral-share": "40%",
- "cps511-ceo-deferral": "60%"
+ "cps511-ceo-deferral": "60%",
+ "sps114-start": "1 July 2025",
+ "orfr-min-large": "0.175%",
+ "orfr-min-mid": "0.20%",
+ "orfr-min-small": "0.25%"
 };

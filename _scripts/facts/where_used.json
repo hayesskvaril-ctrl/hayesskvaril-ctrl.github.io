@@ -326,7 +326,8 @@
   "/playbooks/respond-to-an-incident.html",
   "/risk-management/business-continuity.html",
   "/risk-management/operational-risk.html",
-  "/standards/cps-230.html"
+  "/standards/cps-230.html",
+  "/standards/sps-114.html"
  ],
  "cps230-msp-notice": [
   "/compliance/designing-a-compliance-program.html",
@@ -541,5 +542,17 @@
  "cps511-ceo-deferral": [
   "/governance/remuneration-governance.html",
   "/standards/cps-511.html"
+ ],
+ "sps114-start": [
+  "/standards/sps-114.html"
+ ],
+ "orfr-min-large": [
+  "/standards/sps-114.html"
+ ],
+ "orfr-min-mid": [
+  "/standards/sps-114.html"
+ ],
+ "orfr-min-small": [
+  "/standards/sps-114.html"
  ]
 }
