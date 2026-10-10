@@ -571,15 +571,25 @@
     "insurers and super"
    ],
    "source": {
-    "label": "APRA: Financial Accountability Regime",
-    "url": "https://www.apra.gov.au/financial-accountability-regime"
+    "label": "Financial Accountability Regime Act 2023, ss 2 and 9 (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2023A00067/latest/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in the FAR Act 2023 (compilation in force from 21 February 2025): s 9(4) makes insurers and RSE licensees accountable entities from 18 months after the Act commenced on 15 September 2023, 15 March 2025"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-10",
+     "old": "15 March 2025",
+     "new": "15 March 2025",
+     "how": "official",
+     "note": "Read in the FAR Act 2023 (compilation in force from 21 February 2025): s 9(4) makes insurers and RSE licensees accountable entities from 18 months after the Act commenced on 15 September 2023, 15 March 2025"
+    }
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: the date follows from the FAR Act's commencement (15 September 2023) and s 9, so it does not appear as text on the Act"
   },
   {
    "id": "far-adi-start",
@@ -594,15 +604,25 @@
     "bank"
    ],
    "source": {
-    "label": "APRA: Financial Accountability Regime",
-    "url": "https://www.apra.gov.au/financial-accountability-regime"
+    "label": "Financial Accountability Regime Act 2023, ss 2 and 9 (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2023A00067/latest/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in the FAR Act 2023 (compilation in force from 21 February 2025): the Act commenced 15 September 2023 (s 2) and s 9(2) makes ADIs accountable entities from 6 months after commencement, 15 March 2024"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-10",
+     "old": "15 March 2024",
+     "new": "15 March 2024",
+     "how": "official",
+     "note": "Read in the FAR Act 2023 (compilation in force from 21 February 2025): the Act commenced 15 September 2023 (s 2) and s 9(2) makes ADIs accountable entities from 6 months after commencement, 15 March 2024"
+    }
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: the date follows from the FAR Act's commencement (15 September 2023) and s 9, so it does not appear as text on the Act"
   },
   {
    "id": "far-streamlining-close",
