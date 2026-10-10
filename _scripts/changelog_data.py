@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-10', '/compliance/regulatory-change-management.html', 'New page: Regulatory change management. A six-stage process from horizon scanning to embedding, a rating guide, roles, common failures and a worked example on the new privacy policy rules for automated decisions.'),
     ('2026-10-10', '/obligations/', 'New graphics for the obligations library, the playbooks and the accountability pages (FAR and board structure), in the site\'s glass and light style.'),
     ('2026-10-10', '/risk-management/economics-of-cyber-risk.html', 'New explainer video: How much to spend on security? The Gordon-Loeb model, with a worked example and the model\'s limits, captions, a voiceover and a full transcript.'),
     ('2026-10-10', '/risk-management/theories-of-risk.html', 'New explainer video: Normal accidents and high reliability. Perrow\'s complexity and coupling, high reliability practices and what they suggest for operational resilience, with captions, a voiceover and a full transcript.'),

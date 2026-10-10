@@ -30,7 +30,7 @@
    "id": "compliance",
    "title": "Compliance professional",
    "pos": 1,
-   "total": 44,
+   "total": 45,
    "next": "/compliance/licensing-basics.html",
    "nextTitle": "Licensing basics (AFSL, RSE licence and more)"
   }
@@ -121,8 +121,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 43,
-   "total": 44,
+   "pos": 44,
+   "total": 45,
    "next": "/learn/quizzes.html",
    "nextTitle": "Topic quizzes"
   },
@@ -155,8 +155,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 44,
-   "total": 44,
+   "pos": 45,
+   "total": 45,
    "next": "",
    "nextTitle": ""
   },
@@ -541,8 +541,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 25,
-   "total": 44,
+   "pos": 26,
+   "total": 45,
    "next": "/compliance/compliance-monitoring-and-testing.html",
    "nextTitle": "Designing a compliance monitoring and testing program"
   }
@@ -755,8 +755,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 42,
-   "total": 44,
+   "pos": 43,
+   "total": 45,
    "next": "/learn/flashcards.html",
    "nextTitle": "Flashcards"
   },
@@ -790,7 +790,7 @@
    "id": "compliance",
    "title": "Compliance professional",
    "pos": 2,
-   "total": 44,
+   "total": 45,
    "next": "/compliance/privacy-law.html",
    "nextTitle": "Privacy law"
   },
@@ -808,7 +808,7 @@
    "id": "compliance",
    "title": "Compliance professional",
    "pos": 3,
-   "total": 44,
+   "total": 45,
    "next": "/compliance/aml-ctf-fundamentals.html",
    "nextTitle": "AML/CTF fundamentals"
   },
@@ -826,7 +826,7 @@
    "id": "compliance",
    "title": "Compliance professional",
    "pos": 4,
-   "total": 44,
+   "total": 45,
    "next": "/standards/asic-regulatory-guides.html",
    "nextTitle": "Key ASIC regulatory guides"
   }
@@ -836,7 +836,7 @@
    "id": "compliance",
    "title": "Compliance professional",
    "pos": 5,
-   "total": 44,
+   "total": 45,
    "next": "/standards/asic-rg-104-and-rg-105.html",
    "nextTitle": "ASIC RG 104 General obligations and RG 105 Organisational competence"
   }
@@ -846,7 +846,7 @@
    "id": "compliance",
    "title": "Compliance professional",
    "pos": 6,
-   "total": 44,
+   "total": 45,
    "next": "/compliance/designing-a-compliance-program.html",
    "nextTitle": "Designing a compliance program"
   }
@@ -856,7 +856,17 @@
    "id": "compliance",
    "title": "Compliance professional",
    "pos": 7,
-   "total": 44,
+   "total": 45,
+   "next": "/compliance/regulatory-change-management.html",
+   "nextTitle": "Regulatory change management"
+  }
+ ],
+ "/compliance/regulatory-change-management.html": [
+  {
+   "id": "compliance",
+   "title": "Compliance professional",
+   "pos": 8,
+   "total": 45,
    "next": "/compliance/disclosure-obligations.html",
    "nextTitle": "Disclosure obligations"
   }
@@ -865,8 +875,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 8,
-   "total": 44,
+   "pos": 9,
+   "total": 45,
    "next": "/compliance/consumer-protection.html",
    "nextTitle": "Consumer protection"
   },
@@ -883,8 +893,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 9,
-   "total": 44,
+   "pos": 10,
+   "total": 45,
    "next": "/risk-management/incident-and-breach-management.html",
    "nextTitle": "Incident and breach management"
   }
@@ -893,8 +903,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 10,
-   "total": 44,
+   "pos": 11,
+   "total": 45,
    "next": "/compliance/breach-reporting.html",
    "nextTitle": "Breach and incident reporting obligations"
   },
@@ -911,8 +921,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 11,
-   "total": 44,
+   "pos": 12,
+   "total": 45,
    "next": "/standards/asic-rg-78.html",
    "nextTitle": "ASIC RG 78 Breach reporting by AFS and credit licensees"
   },
@@ -929,8 +939,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 12,
-   "total": 44,
+   "pos": 13,
+   "total": 45,
    "next": "/standards/asic-rg-271.html",
    "nextTitle": "ASIC RG 271 Internal dispute resolution"
   }
@@ -939,8 +949,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 13,
-   "total": 44,
+   "pos": 14,
+   "total": 45,
    "next": "/standards/asic-rg-274.html",
    "nextTitle": "ASIC RG 274 Product design and distribution obligations"
   },
@@ -957,8 +967,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 14,
-   "total": 44,
+   "pos": 15,
+   "total": 45,
    "next": "/standards/asic-rg-277.html",
    "nextTitle": "ASIC RG 277 Consumer remediation"
   }
@@ -967,8 +977,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 15,
-   "total": 44,
+   "pos": 16,
+   "total": 45,
    "next": "/compliance/financial-advice-regulation.html",
    "nextTitle": "Financial advice regulation"
   },
@@ -985,8 +995,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 16,
-   "total": 44,
+   "pos": 17,
+   "total": 45,
    "next": "/compliance/anti-bribery-and-corruption.html",
    "nextTitle": "Anti-bribery and corruption"
   },
@@ -1003,8 +1013,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 17,
-   "total": 44,
+   "pos": 18,
+   "total": 45,
    "next": "/compliance/sanctions-compliance.html",
    "nextTitle": "Sanctions compliance"
   }
@@ -1013,8 +1023,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 18,
-   "total": 44,
+   "pos": 19,
+   "total": 45,
    "next": "/compliance/modern-slavery.html",
    "nextTitle": "Modern slavery reporting"
   }
@@ -1023,8 +1033,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 19,
-   "total": 44,
+   "pos": 20,
+   "total": 45,
    "next": "/compliance/climate-related-financial-disclosures.html",
    "nextTitle": "Climate-related financial disclosures and sustainability reporting"
   }
@@ -1033,8 +1043,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 20,
-   "total": 44,
+   "pos": 21,
+   "total": 45,
    "next": "/standards/asic-rg-181.html",
    "nextTitle": "ASIC RG 181 AFS licensing: Managing conflicts of interest"
   },
@@ -1051,8 +1061,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 21,
-   "total": 44,
+   "pos": 22,
+   "total": 45,
    "next": "/standards/iso-37301.html",
    "nextTitle": "ISO 37301 Compliance management systems"
   }
@@ -1061,8 +1071,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 22,
-   "total": 44,
+   "pos": 23,
+   "total": 45,
    "next": "/standards/iso-37001.html",
    "nextTitle": "ISO 37001 Anti-bribery management systems"
   }
@@ -1071,8 +1081,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 23,
-   "total": 44,
+   "pos": 24,
+   "total": 45,
    "next": "/compliance/breach-significance-analysis.html",
    "nextTitle": "Breach significance analysis in practice"
   }
@@ -1081,8 +1091,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 24,
-   "total": 44,
+   "pos": 25,
+   "total": 45,
    "next": "/risk-management/control-testing-sampling.html",
    "nextTitle": "Control testing: sampling and assurance confidence"
   },
@@ -1099,8 +1109,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 26,
-   "total": 44,
+   "pos": 27,
+   "total": 45,
    "next": "/compliance/interpreting-legislation.html",
    "nextTitle": "Interpreting legislation for compliance professionals"
   }
@@ -1109,8 +1119,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 27,
-   "total": 44,
+   "pos": 28,
+   "total": 45,
    "next": "/compliance/misleading-or-deceptive-conduct.html",
    "nextTitle": "Misleading or deceptive conduct: the legal tests"
   }
@@ -1119,8 +1129,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 28,
-   "total": 44,
+   "pos": 29,
+   "total": 45,
    "next": "/compliance/enforcement-and-penalties.html",
    "nextTitle": "Enforcement and penalties: how regulators respond"
   }
@@ -1129,8 +1139,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 29,
-   "total": 44,
+   "pos": 30,
+   "total": 45,
    "next": "/compliance/remediation-calculations.html",
    "nextTitle": "Remediation calculations in practice"
   }
@@ -1139,8 +1149,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 30,
-   "total": 44,
+   "pos": 31,
+   "total": 45,
    "next": "/compliance/theories-of-regulation.html",
    "nextTitle": "Theories of regulation: responsive, risk-based and principles-based"
   },
@@ -1157,8 +1167,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 31,
-   "total": 44,
+   "pos": 32,
+   "total": 45,
    "next": "/compliance/misconduct-in-financial-services-research.html",
    "nextTitle": "Misconduct in financial services: what the research shows"
   }
@@ -1167,8 +1177,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 32,
-   "total": 44,
+   "pos": 33,
+   "total": 45,
    "next": "/compliance/fraud-theory.html",
    "nextTitle": "Fraud theory beyond the triangle"
   }
@@ -1177,8 +1187,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 33,
-   "total": 44,
+   "pos": 34,
+   "total": 45,
    "next": "/compliance/aml-ctf-effectiveness.html",
    "nextTitle": "Does AML/CTF work? The research"
   }
@@ -1187,8 +1197,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 34,
-   "total": 44,
+   "pos": 35,
+   "total": 45,
    "next": "/obligations/",
    "nextTitle": "Obligations library"
   }
@@ -1197,8 +1207,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 35,
-   "total": 44,
+   "pos": 36,
+   "total": 45,
    "next": "/playbooks/assess-a-potential-breach.html",
    "nextTitle": "Assess a potential breach"
   }
@@ -1207,8 +1217,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 36,
-   "total": 44,
+   "pos": 37,
+   "total": 45,
    "next": "/playbooks/review-a-disclosure-document.html",
    "nextTitle": "Review a disclosure document or campaign"
   }
@@ -1217,8 +1227,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 37,
-   "total": 44,
+   "pos": 38,
+   "total": 45,
    "next": "/tools/obligations-register-template.html",
    "nextTitle": "Obligations register template"
   }
@@ -1227,8 +1237,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 38,
-   "total": 44,
+   "pos": 39,
+   "total": 45,
    "next": "/tools/breach-register-template.html",
    "nextTitle": "Breach register template"
   }
@@ -1237,8 +1247,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 39,
-   "total": 44,
+   "pos": 40,
+   "total": 45,
    "next": "/tools/remediation-program-tracker.html",
    "nextTitle": "Remediation program tracker"
   }
@@ -1247,8 +1257,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 40,
-   "total": 44,
+   "pos": 41,
+   "total": 45,
    "next": "/case-studies/austrac-cba-westpac.html",
    "nextTitle": "AUSTRAC v CBA (2018) and AUSTRAC v Westpac (2020)"
   },
@@ -1265,8 +1275,8 @@
   {
    "id": "compliance",
    "title": "Compliance professional",
-   "pos": 41,
-   "total": 44,
+   "pos": 42,
+   "total": 45,
    "next": "/learn/scenarios.html",
    "nextTitle": "Scenario simulations"
   }

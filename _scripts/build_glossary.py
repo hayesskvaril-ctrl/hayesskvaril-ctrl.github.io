@@ -445,7 +445,7 @@ TERMS = [
      [("Disclosure obligations", "/compliance/disclosure-obligations.html")]),
     ("regulatory-change", "Regulatory change management", "",
      "The process for spotting new or changed obligations, assessing their impact, implementing the changes and confirming they were made.",
-     [("Designing a compliance program", "/compliance/designing-a-compliance-program.html")]),
+     [("Regulatory change management", "/compliance/regulatory-change-management.html"), ("Designing a compliance program", "/compliance/designing-a-compliance-program.html")]),
     ("reporting-entity", "Reporting entity", "",
      "A business that provides a designated service under the AML/CTF Act and so must enrol with AUSTRAC, maintain an AML/CTF program and report to AUSTRAC.",
      [("AML/CTF fundamentals", "/compliance/aml-ctf-fundamentals.html")]),

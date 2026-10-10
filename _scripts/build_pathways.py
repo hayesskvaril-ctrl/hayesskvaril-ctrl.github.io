@@ -88,6 +88,7 @@ P = [
      ("/standards/asic-rg-104-and-rg-105.html", "Licensees' general obligations and competence.")]),
    ("Intermediate", [
      ("/compliance/designing-a-compliance-program.html", "Build a program around an obligations register."),
+     ("/compliance/regulatory-change-management.html", "Keep the program current as the rules change."),
      ("/compliance/disclosure-obligations.html", "What customers must be told, and when."),
      ("/compliance/consumer-protection.html", "Protections across the product life cycle."),
      ("/risk-management/incident-and-breach-management.html", "The incident and breach life cycle."),

@@ -46,7 +46,7 @@ MENU = [
         ("Remediation", [("Run a remediation", "/playbooks/run-a-consumer-remediation.html"), ("ASIC RG 277", "/standards/asic-rg-277.html"), ("Remediation calculations", "/compliance/remediation-calculations.html")]),
         ("Disclosure and conduct", [("Disclosure obligations", "/compliance/disclosure-obligations.html"), ("Misleading or deceptive conduct", "/compliance/misleading-or-deceptive-conduct.html"), ("Design and distribution", "/standards/asic-rg-274.html"), ("Complaints handling", "/standards/asic-rg-271.html"), ("Consumer protection", "/compliance/consumer-protection.html")]),
         ("Financial crime and privacy", [("AML/CTF", "/compliance/aml-ctf-fundamentals.html"), ("Sanctions", "/compliance/sanctions-compliance.html"), ("Anti-bribery and corruption", "/compliance/anti-bribery-and-corruption.html"), ("Privacy law", "/compliance/privacy-law.html")]),
-        ("Monitoring and enforcement", [("Monitoring and testing", "/compliance/compliance-monitoring-and-testing.html"), ("Enforcement and penalties", "/compliance/enforcement-and-penalties.html"), ("All compliance topics", "/compliance/")]),
+        ("Monitoring and enforcement", [("Regulatory change", "/compliance/regulatory-change-management.html"), ("Monitoring and testing", "/compliance/compliance-monitoring-and-testing.html"), ("Enforcement and penalties", "/compliance/enforcement-and-penalties.html"), ("All compliance topics", "/compliance/")]),
     ]),
     ("Governance", "/governance/", "How boards and executives oversee it all.", [
         ("Start with the basics", [("What is governance?", "/foundations/what-is-governance.html"), ("The Three Lines model", "/foundations/three-lines-model.html")]),
