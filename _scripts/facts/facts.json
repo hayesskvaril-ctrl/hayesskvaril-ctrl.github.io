@@ -696,21 +696,28 @@
     "AUSTRAC"
    ],
    "source": {
-    "label": "AUSTRAC: about the reforms",
-    "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
+    "label": "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024, s 2 (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2024A00110/asmade/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in the official AML/CTF Amendment Act 2024 (No. 110, 2024, fetched from legislation.gov.au): section 2 commences Schedules 1 (programs), 2 (customer due diligence) and 3 on 31 March 2026"
    },
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-10",
+     "old": "31 March 2026",
+     "new": "31 March 2026",
+     "how": "official",
+     "note": "Read in the official AML/CTF Amendment Act 2024 (No. 110, 2024, fetched from legislation.gov.au): section 2 commences Schedules 1 (programs), 2 (customer due diligence) and 3 on 31 March 2026"
+    }
+   ],
    "exclude": [
     "Enrolment for tranche 2",
     "enrol"
    ],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+   "check_url": "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/pdf"
   },
   {
    "id": "aml-tranche2-start",
@@ -723,17 +730,24 @@
     "Tranche 2"
    ],
    "source": {
-    "label": "AUSTRAC: about the reforms",
-    "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
+    "label": "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024, Schedule 3 item 11 (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2024A00110/asmade/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in the official AML/CTF Amendment Act 2024: Schedule 3 item 11 delays Parts 1A, 2, 3 and Divisions 2-6 of Part 10 until 1 July 2026 for the new tranche 2 designated services (item 2 of table 2, tables 5 and 6 in s 6)"
    },
-   "history": [],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers"
+   "history": [
+    {
+     "date": "2026-10-10",
+     "old": "1 July 2026",
+     "new": "1 July 2026",
+     "how": "official",
+     "note": "Read in the official AML/CTF Amendment Act 2024: Schedule 3 item 11 delays Parts 1A, 2, 3 and Divisions 2-6 of Part 10 until 1 July 2026 for the new tranche 2 designated services (item 2 of table 2, tables 5 and 6 in s 6)"
+    }
+   ],
+   "check_url": "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/pdf"
   },
   {
    "id": "scams-main-obligations",
