@@ -81,15 +81,25 @@
     "payday super"
    ],
    "source": {
-    "label": "APRA: Payday Super readiness",
-    "url": "https://www.apra.gov.au/payday-super-readiness"
+    "label": "Superannuation Guarantee (Administration) Act 1992, compilation and endnotes (Federal Register of Legislation)",
+    "url": "https://www.legislation.gov.au/C2004A04402/latest/text"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-10",
+    "how": "official",
+    "note": "Read in the official Superannuation Guarantee (Administration) Act compilation in force from 1 July 2026: endnotes record the Treasury Laws Amendment (Payday Superannuation) Act 2025 (No. 57, 2025, assented 6 November 2025), Schedule 1 commencing 1 July 2026"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-10",
+     "old": "1 July 2026",
+     "new": "1 July 2026",
+     "how": "official",
+     "note": "Read in the official Superannuation Guarantee (Administration) Act compilation in force from 1 July 2026: endnotes record the Treasury Laws Amendment (Payday Superannuation) Act 2025 (No. 57, 2025, assented 6 November 2025), Schedule 1 commencing 1 July 2026"
+    }
+   ],
+   "autocheck": false,
+   "autocheck_note": "Checked by hand against the Superannuation Guarantee (Administration) Act compilation (Word) on the Federal Register of Legislation"
   },
   {
    "id": "sps515-strengthened-start",
