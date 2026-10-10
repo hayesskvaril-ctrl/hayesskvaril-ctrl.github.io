@@ -1014,5 +1014,75 @@
    }
   ],
   "narrated": true
+ },
+ "normal-accidents-and-high-reliability": {
+  "title": "Normal accidents and high reliability",
+  "label": "Explainer · Risk management · Advanced",
+  "section": "Risk management",
+  "level": "Advanced",
+  "desc": "Perrow's normal accident theory, high reliability organisations, how the two can be reconciled, and what they suggest for operational risk.",
+  "pages": [
+   "/risk-management/theories-of-risk.html"
+  ],
+  "slug": "normal-accidents-and-high-reliability",
+  "specHash": "a900fb9dec8c",
+  "duration": 73,
+  "bytes": 1813551,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: Normal accidents and high reliability. Why complex systems fail, and how some rarely do.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 22,
+    "visual": "A two by two chart. The horizontal axis runs from linear to complex interactions; the vertical axis from loose to tight coupling. The top right quadrant, complex and tightly coupled, is highlighted as where normal accidents happen.",
+    "captions": [
+     "Charles Perrow argued that some systems are interactively complex: their parts can interact in ways nobody expects.",
+     "When a system is also tightly coupled, with little time or slack, small failures combine and spread. Accidents become normal."
+    ]
+   },
+   {
+    "start": 22,
+    "end": 31,
+    "visual": "A statement: more safety devices can add complexity. Each fix can create new ways to fail.",
+    "captions": [
+     "Extra safety devices can add complexity and new ways to fail. Linked platforms and real-time payments share some of these features."
+    ]
+   },
+   {
+    "start": 31,
+    "end": 44,
+    "visual": "Two cards. Studied in: air traffic control, aircraft carriers and other hazardous systems with very few failures. Practices: preoccupation with failure, reluctance to simplify and deference to expertise.",
+    "captions": [
+     "Other researchers studied organisations that run hazardous systems with very few failures, and the practices that help them stay reliable."
+    ]
+   },
+   {
+    "start": 44,
+    "end": 54,
+    "visual": "A statement: reconciling the two. One theory says failure is inevitable, the other that it can be avoided.",
+    "captions": [
+     "Later work says they look at different points in time. A systems view adds that accidents come from weak control of the whole system."
+    ]
+   },
+   {
+    "start": 54,
+    "end": 67,
+    "visual": "Two cards. From normal accidents: reduce coupling and complexity, and plan for failure, not just prevention. From high reliability: build preoccupation with failure into operations, and take near misses seriously.",
+    "captions": [
+     "Together they support planning for failure as well as preventing it, which fits the focus on tolerance levels and recovery in operational resilience."
+    ]
+   },
+   {
+    "start": 67,
+    "end": 73,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ],
+  "narrated": true
  }
 }
