@@ -152,6 +152,24 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/practice-guides/spg-114": {
+  "chars": 61274,
+  "date": "2026-10-10",
+  "file": "apra-gov-au-practice-guides-spg-114.txt",
+  "final": "https://www.apra.gov.au/practice-guides/spg-114",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/practice-guides/spg-114-superseded": {
+  "chars": 65263,
+  "date": "2026-10-10",
+  "file": "apra-gov-au-practice-guides-spg-114-superseded.txt",
+  "final": "https://www.apra.gov.au/practice-guides/spg-114-superseded",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/registers/list-significant-financial-institutions": {
   "chars": 42450,
   "date": "2026-10-08",
@@ -283,6 +301,15 @@
   "date": "2026-10-10",
   "file": "apra-gov-au-standards-sps-114.txt",
   "final": "https://www.apra.gov.au/standards/sps-114",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/sps-114-superseded": {
+  "chars": 57657,
+  "date": "2026-10-10",
+  "file": "apra-gov-au-standards-sps-114-superseded.txt",
+  "final": "https://www.apra.gov.au/standards/sps-114-superseded",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
