@@ -260,11 +260,47 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/standards/spg-114": {
+  "chars": 0,
+  "date": "2026-10-10",
+  "file": "",
+  "final": "https://www.apra.gov.au/standards/spg-114",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://www.apra.gov.au/standards/spg-250": {
+  "chars": 0,
+  "date": "2026-10-10",
+  "file": "",
+  "final": "https://www.apra.gov.au/standards/spg-250",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://www.apra.gov.au/standards/sps-114": {
+  "chars": 52972,
+  "date": "2026-10-10",
+  "file": "apra-gov-au-standards-sps-114.txt",
+  "final": "https://www.apra.gov.au/standards/sps-114",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/standards/sps-220": {
   "chars": 64208,
   "date": "2026-10-09",
   "file": "apra-gov-au-standards-sps-220.txt",
   "final": "https://www.apra.gov.au/standards/sps-220",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/standards/sps-250": {
+  "chars": 60707,
+  "date": "2026-10-10",
+  "file": "apra-gov-au-standards-sps-250.txt",
+  "final": "https://www.apra.gov.au/standards/sps-250",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
