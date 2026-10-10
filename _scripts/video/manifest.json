@@ -1084,5 +1084,67 @@
    }
   ],
   "narrated": true
+ },
+ "gordon-loeb": {
+  "title": "How much to spend on security? The Gordon-Loeb model",
+  "label": "Explainer · Risk management · Advanced",
+  "section": "Risk management",
+  "level": "Advanced",
+  "desc": "Diminishing returns on security spending, the Gordon-Loeb 37% rule of thumb, a worked example and the model's limits.",
+  "pages": [
+   "/risk-management/economics-of-cyber-risk.html"
+  ],
+  "slug": "gordon-loeb",
+  "specHash": "56f67a919839",
+  "duration": 64,
+  "bytes": 1551900,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: How much to spend on security? The Gordon-Loeb model.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 13.5,
+    "visual": "A statement: each extra dollar buys less protection. Security spending has diminishing returns.",
+    "captions": [
+     "Gordon and Loeb modelled how much to spend protecting a set of information. Each extra dollar of security buys less protection than the last."
+    ]
+   },
+   {
+    "start": 13.5,
+    "end": 30.5,
+    "visual": "A chart with security investment on the horizontal axis and dollars on the vertical axis. The expected benefit curve rises steeply and then flattens. The cost of investment is a straight 45 degree line. A marker shows the optimal investment where the gap between the curve and the line is widest.",
+    "captions": [
+     "The benefit of spending is the fall in expected loss: the chance of a breach multiplied by the loss if it happens.",
+     "The best investment is where the last dollar spent cuts expected loss by exactly one dollar: where the gap is widest."
+    ]
+   },
+   {
+    "start": 30.5,
+    "end": 44.5,
+    "visual": "A worked example in four boxes: a 5 million dollar loss times a 20 percent annual chance equals a 1 million dollar expected loss, giving an upper bound on spending of about 370 thousand dollars a year, about 37 percent of the expected loss.",
+    "captions": [
+     "Under the model, the best spend never exceeds about 37 percent of the expected loss. Here, that is about $370,000 a year."
+    ]
+   },
+   {
+    "start": 44.5,
+    "end": 57.5,
+    "visual": "Two cards. Inputs are guesses: the chance of a breach, and how much spending reduces it. Losses it leaves out: heavy-tailed extreme events, and regulatory action and lost trust.",
+    "captions": [
+     "The model frames the decision better than it produces a number. Heavy-tailed losses, penalties and harm to customers can justify a different answer."
+    ]
+   },
+   {
+    "start": 57.5,
+    "end": 63.5,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ],
+  "narrated": true
  }
 }
