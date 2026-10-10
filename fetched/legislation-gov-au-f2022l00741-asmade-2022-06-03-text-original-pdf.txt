@@ -1,0 +1,507 @@
+SOURCE: https://www.legislation.gov.au/F2022L00741/asmade/2022-06-03/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2022L00741/asmade/2022-06-03/text/original/pdf
+FETCHED: 2026-10-10
+
+Superannuation (prudential standard)
+determination No. 1 of 2022
+Prudential Standard SPS 250 Insurance in Superannuation
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Renée Roberts, delegate of APRA:
+
+(a) under subsection 34C(6) of the Superannuation Industry (Supervision) Act 1993 (the Act)
+    REVOKE Superannuation (prudential standard) determination No. 5 of 2012, including
+    Prudential Standard SPS 250 Insurance in Superannuation made under that
+    determination; and
+
+(b) under subsection 34C(1) of the the Act DETERMINE Prudential Standard SPS 250
+    Insurance in Superannuation in the form set out in the Schedule, which applies to all RSE
+    licensees.
+
+
+This instrument commences on 1 July 2022.
+
+
+Dated: 27 May 2022
+
+
+
+Renée Roberts
+Executive Director
+Policy & Advice
+
+
+
+Interpretation
+In this instrument:
+APRA means the Australian Prudential Regulation Authority.
+RSE licensee has the meaning given in section 10(1) of the Act.
+
+
+
+
+                           Authorised Version F2022L00741 registered 03/06/2022
+Schedule
+Prudential Standard SPS 250 Insurance in Superannuation comprises the document
+commencing on the following page.
+
+
+
+
+                         Authorised Version F2022L00741 registered 03/06/2022
+                                                                                    July 2022
+
+
+
+
+Prudential Standard SPS 250
+
+Insurance in Superannuation
+Objectives and key requirements of this Prudential
+Standard
+
+The purpose of this Prudential Standard is to ensure that an RSE licensee, consistent with its
+obligations to act in the best financial interests of beneficiaries, maintains insurance
+arrangements for the benefit of the beneficiaries. An RSE licensee is required to implement a
+sound insurance management framework for making insured benefits available to
+beneficiaries, including prudently selecting and monitoring insurers.
+
+The Board of an RSE licensee is ultimately responsible for having an insurance management
+framework that reflects the risks associated with making available insured benefits, and
+ensuring that the framework is appropriate to the size, business mix and complexity of the RSE
+licensee’s business operations. The insurance management framework must include the
+insurance strategies for each registrable superannuation entity required in the Superannuation
+Industry (Supervision) Act 1993.
+
+The key requirements of this Prudential Standard are that an RSE licensee must also:
+
+    ensure that insurance arrangements adequately address the minimum requirements set
+     out in this Prudential Standard;
+
+    formulate and give effect to appropriate selection processes for, and due diligence of,
+     insurers and monitor relationships with insurers on an ongoing basis; and
+
+    obtain and provide to APRA an independent certification of an insurance arrangement,
+     where the arrangement is with an insurer that is a connected entity of the RSE licensee
+     or where otherwise required by APRA.
+
+
+
+
+                                                                                   SPS 250 - 1
+
+                            Authorised Version F2022L00741 registered 03/06/2022
+                                                                                                        July 2022
+
+
+Authority
+
+1.       This Prudential Standard is made under section 34C of the Superannuation Industry
+         (Supervision) Act 1993 (SIS Act).
+
+Application and commencement
+
+2.       This Prudential Standard applies to all registrable superannuation entity (RSE) licensees
+         (RSE licensees).1
+
+3.       Where an RSE licensee of a defined benefit fund is permitted to self-insure benefits,
+         paragraphs 23 to 29 inclusive do not apply with respect to the self-insured benefits.2
+
+4.       This Prudential Standard commences on 1 July 2022 (effective date).
+
+Interpretation
+
+5.       For the purposes of this Prudential Standard, ‘insured benefits’ means benefits that are
+         made available to beneficiaries via3:
+
+         (a)    insurance acquired by an RSE licensee from a life company registered, or taken to
+                be registered, under section 21 of the Life Insurance Act 1995 or a general insurance
+                company or Lloyd’s underwriter authorised, or taken to be authorised, under the
+                Insurance Act 1973 (an insurer); or
+
+         (b)    insurance offered under an RSE licensee’s self-insurance arrangements.
+
+         For the purposes of this Prudential Standard, the activities described in paragraphs 5(a)
+         and (b) are referred to as ‘making insured benefits available’ to beneficiaries.
+
+6.       Where this Prudential Standard provides for APRA to exercise a power or discretion, the
+         power or discretion is to be exercised in writing.
+
+Adjustments and exclusions
+
+7.       APRA may adjust or exclude a specific requirement in this Prudential Standard in
+         relation to:
+
+         (a)    a particular RSE licensee of an RSE;
+
+
+
+1
+    For the purposes of this Prudential Standard, ‘RSE licensee’ has the meaning given in section 10(1) of the SIS
+      Act.
+2
+    Refer to Prudential Standard SPS 160 Defined Benefit Matters for additional requirements applying to RSE
+      licensees that are permitted to self-insure insurance benefits and to regulation 4.07E(8) of the Superannuation
+      Industry (Supervision) Regulations 1994 which exempts defined benefit funds, that self-insure on 1 July 2013,
+      from the general prohibition on self-insurance (subject to certain conditions).
+3
+    For the purposes of this Prudential Standard, a reference to ‘beneficiaries’ is a reference to ‘beneficiaries of
+     an RSE within the RSE licensee’s business operations’.
+
+
+
+
+                                                                                                      SPS 250 - 2
+
+                                    Authorised Version F2022L00741 registered 03/06/2022
+                                                                                                          July 2022
+
+
+         (b)     a particular connected entity of an RSE licensee of an RSE;
+
+         (c)     specified RSE licensees of RSEs; or
+
+         (d)     specified connected entities of RSE licensees of RSEs.
+
+RSE licensees that are part of a group4
+
+8.       Where an RSE licensee is part of a corporate group, and the RSE licensee utilises group
+         policies or functions, the Board must approve the use of group policies and functions and
+         must ensure that these policies and functions give appropriate regard to the RSE
+         licensee’s business operations and its specific requirements.5
+
+Insurance management framework
+
+9.       An RSE licensee must have in place an insurance management framework to manage
+         making insured benefits available to beneficiaries.
+
+10.      An RSE licensee’s insurance management framework is the totality of systems,
+         structures, policies, processes and people to manage making insured benefits available to
+         beneficiaries.
+
+11.      An RSE licensee’s insurance management framework must be appropriate to the size,
+         business mix and complexity of the RSE licensee’s business operations and to the types
+         of insured benefits made available.
+
+12.      The Board is ultimately responsible for the insurance management framework.
+
+13.      An RSE licensee’s insurance management framework must, at a minimum, include:
+
+         (a)     the insurance strategy required under section 52(7) of the SIS Act (which must also
+                 comply with the requirements of this Prudential Standard);
+
+         (b)     policies and procedures of the RSE licensee relevant to making insured benefits
+                 available to beneficiaries, that cover but are not limited to:
+
+                 (i)    the process by which the cost to the RSE licensee of insurance premiums is
+                        recovered from the RSE(s);
+                 (ii)   the process for monitoring and reviewing the administration of insurance;
+
+
+
+4
+    For the purposes of this Prudential Standard, a reference to ‘a group’ is a reference to a group comprising the
+      RSE licensee and all connected entities of the RSE licensee and ‘connected entity’ has the meaning given in
+      section 10(1) of the SIS Act.
+5
+    For the purposes of this Prudential Standard, a reference to the ‘Board’ is a reference to the Board of directors
+     or group of individual trustees of an RSE licensee and ‘group of individual trustees’ has the meaning given in
+     section 10(1) of the SIS Act. For the purposes of this Prudential Standard, an ‘RSE licensee’s business
+     operations’ includes all activities as an RSE licensee (including the activities of each RSE of which it is the
+     licensee), and all other activities of the RSE licensee to the extent that they are relevant to, or may impact on,
+     its activities as an RSE licensee.
+
+
+
+
+                                                                                                        SPS 250 - 3
+
+                                     Authorised Version F2022L00741 registered 03/06/2022
+                                                                                                  July 2022
+
+
+               (iii) underwriting; and
+               (iv) claims assessment;
+
+         (c)   clearly defined roles and responsibilities and lines of reporting for the oversight of
+               the insurance management framework;
+
+         (d)   a review process to ensure the insurance management framework remains
+               appropriate and effective;
+
+         (e)   a policy for managing declined applications for insurance, applications resulting in
+               reduced cover or restrictions, terminations of cover and requests for reinstatement;
+               and
+
+         (f)   a process that enables beneficiaries to easily opt out of insurance cover, and that
+               sets out how this will be communicated to beneficiaries.6
+
+14.      An RSE licensee must have procedures to ensure that all persons in roles relevant to the
+         insurance activities of the RSE licensee are made aware of, and have processes and
+         controls for monitoring compliance with, the RSE licensee’s insurance management
+         framework.
+
+15.      An RSE licensee must maintain or have access to records of sufficient detail to comply
+         with its obligations under the reporting framework and for a prospective insurer to
+         properly assess the insured benefits that are made available.7 These records must include,
+         for at least the previous five years, the claims experience, membership, sum insured and
+         premiums paid in relation to beneficiaries.
+
+16.      An RSE licensee’s risk management framework must reflect the risks associated with
+         making insured benefits available to beneficiaries as a material risk area identified in
+         Prudential Standard SPS 220 Risk Management.
+
+Insurance strategy
+
+17.      In addition to complying with section 52(7) of the SIS Act, an RSE licensee’s insurance
+         strategy for an RSE must, at a minimum, document:
+
+         (a)   how the RSE licensee has regard to each of the factors in section 52(7) of the SIS
+               Act;
+
+         (b)   the processes for monitoring, reviewing and renewing the insured benefits made
+               available to beneficiaries;
+
+         (c)   the RSE licensee’s approach to claims management, regardless of who is
+
+
+6
+    For the purposes of this Prudential Standard, where an RSE licensee is not required under RSE licensee law
+     to provide for opt-out insurance cover, this requirement does not apply, and ‘RSE licensee law’ has the
+     meaning given in section 10(1) of the SIS Act.
+7
+    ‘Reporting framework’ means the reporting standards made under the Financial Sector (Collection of Data)
+      Act 2001.
+
+
+
+                                                                                                SPS 250 - 4
+
+                                  Authorised Version F2022L00741 registered 03/06/2022
+                                                                                                         July 2022
+
+
+                responsible for handling claims; and
+
+         (d)    the RSE licensee’s approach, as outlined in its conflicts management framework,
+                to conflicts that may arise through making available insured benefits to
+                beneficiaries.8
+
+Insurance arrangements
+
+18.      For the purposes of this Prudential Standard, ‘insurance arrangement’ means:
+
+         (a)    where an RSE licensee makes available insured benefits as described in paragraph
+                5(a) – an insurance policy document9; or
+
+         (b)    where an RSE licensee makes available insured benefits as described in paragraph
+                5(b) – appropriate documentation of the terms and conditions of the insured
+                benefits;
+
+         and any agreement between the RSE licensee and the insurer or any other party, to the
+         extent that the agreement concerns making available insured benefits.10
+
+19.      At a minimum, the insurance arrangement must address:
+
+         (a)    the level and type of insured benefits made available, including any exclusions;
+
+         (b)    the term of the insured benefits;
+
+         (c)    automatic acceptance limits (to the extent relevant);
+
+         (d)    availability of opt in and/or opt out cover;
+
+         (e)    requirements for the beneficiaries’ eligibility for, cessation of, and any
+                reinstatement of entitlements to insured benefits where available;
+
+         (f)    premium structure, including any variable components;
+
+         (g)    procedures for notification and payment of claims;
+
+         (h)    dispute resolution arrangements;
+
+         (i)    agreed service standards;
+
+         (j)    reporting requirements for monitoring agreed service standards;
+
+
+
+
+8
+      Refer to Prudential Standard SPS 521 Conflicts of Interest for details of conflicts management requirements.
+9
+      For the purposes of this Prudential Standard, a reference to ‘an insurance policy document’ is a reference to a
+      contract of insurance issued by an insurer.
+10
+     An agreement that meets the definition of outsourcing in Prudential Standard SPS 231 Outsourcing must meet
+      the requirements of that Prudential Standard.
+
+
+                                                                                                      SPS 250 - 5
+
+                                    Authorised Version F2022L00741 registered 03/06/2022
+                                                                                                         July 2022
+
+
+         (k)     the provision of complete claims information to the RSE licensee on an annual
+                 basis which, at a minimum, includes the information required to be maintained by
+                 the RSE licensee under paragraph 15;
+
+         (l)     liability and indemnity arrangements;
+
+         (m)     review and renewal provisions for the insurance arrangement; and
+
+         (n)     termination provisions for the insurance arrangement which, where relevant,
+                 include a right for the RSE licensee to terminate the insurance arrangement, or the
+                 relevant part of the insurance arrangement, if the RSE licensee is not satisfied that
+                 the arrangement is in the best financial interests of the beneficiaries.11
+
+20.      An RSE licensee must be able to satisfy itself, and demonstrate to APRA, that the rules
+         for attributing any status to a beneficiary, (including a class or cohort of beneficiaries) in
+         connection with the provision of insurance, are fair and reasonable.
+
+21.      An RSE licensee must notify APRA as soon as practicable of any issues that it considers
+         might materially affect its ability to make insured benefits available to beneficiaries.
+
+22.      Where an insurance arrangement is terminated, an RSE licensee must notify APRA as
+         soon as practicable and provide a statement about the transition arrangements and future
+         strategies for continuing to make insured benefits available to beneficiaries.
+
+Selection and monitoring of insurers
+
+23.      An RSE licensee must:
+
+         (a)     develop and implement a selection process for choosing an insurer that includes, at
+                 a minimum, consideration of the prospective insurer’s terms of cover and
+                 exclusions, claims philosophy, the reasonableness of the premiums to be charged
+                 and terms of any delegation to any other person of functions associated with
+                 making available insured benefits;
+
+         (b)     undertake a due diligence review of the selected insurer; and
+
+         (c)     be able to demonstrate to APRA the appropriateness of the selection process and
+                 due diligence review and how it is applied.
+
+24.      An RSE licensee must be able to satisfy itself, and demonstrate to APRA, that the
+         engagement of an insurer is conducted at arm’s length and is in the best financial interests
+         of beneficiaries.
+
+25.      Where an insurer that is a connected entity of an RSE licensee is party, or will be party,
+         to an insurance arrangement with the RSE licensee under which the RSE licensee makes,
+         or will make, insured benefits available to beneficiaries, the RSE licensee must obtain an
+
+
+11
+     Refer to section 52(2)(c) of the SIS Act. Note that only insurance arrangements entered into from the effective
+      date of this Prudential Standard are required to include a right for the RSE licensee to terminate the insurance
+      arrangement, or the relevant part of the insurance arrangement, if the RSE licensee is not satisfied that the
+      arrangement is in the best financial interests of the beneficiaries.
+
+
+                                                                                                       SPS 250 - 6
+
+                                     Authorised Version F2022L00741 registered 03/06/2022
+                                                                                        July 2022
+
+
+      independent certification that states it is reasonable for the RSE licensee to form the view
+      that the insurance arrangement is in the best financial interests of the beneficiaries.
+
+26.   Subject to paragraph 33, an RSE licensee that is required to obtain an independent
+      certification under paragraph 25 must obtain the certification:
+
+      (a)   before the RSE licensee:
+
+            (i)    enters into a new insurance arrangement; or
+            (ii)   renews, or materially alters the terms of, an existing insurance arrangement;
+                   and
+      (b)   on at least a triennial basis.
+27.   An RSE licensee must provide APRA with the independent certification required under
+      paragraph 25 no later than 10 business days after the RSE licensee receives the
+      certification.
+
+28.   APRA may require an RSE licensee, by notice in writing, to seek an independent
+      certification of an insurance arrangement under which the RSE licensee makes, or will
+      make, insured benefits available to beneficiaries, that states it is reasonable for the RSE
+      licensee to form the view that the insurance arrangement is in the best financial interests
+      of the beneficiaries. An RSE licensee that receives such a notice from APRA is required
+      to comply with the terms of the notice in writing.
+
+29.   An RSE licensee must ensure it has sufficient and appropriate resources to manage and
+      monitor its relationship with an insurer at all times. At a minimum, the monitoring must
+      include:
+
+      (a)   maintaining regular contact with the insurer at an appropriate frequency and level
+            of seniority; and
+
+      (b)   a process for regular monitoring of performance under the insurance arrangement,
+            including reporting to senior management against service levels.
+
+Review of insurance management framework
+
+30.   An RSE licensee must ensure that the appropriateness, effectiveness and adequacy of its
+      insurance management framework are subject to a comprehensive review by
+      operationally independent, appropriately trained and competent persons at least every
+      three years.
+
+31.   The scope of the comprehensive review of an RSE licensee’s insurance management
+      framework must have regard to the size, business mix and complexity of the RSE
+      licensee's business operations, the extent of any change to those operations and any
+      changes to the external environment in which the RSE licensee operates.
+
+32.   At a minimum, the comprehensive review of the insurance management framework must
+      consider:
+
+      (a)   all the matters identified in paragraph 13;
+
+
+
+                                                                                      SPS 250 - 7
+
+                             Authorised Version F2022L00741 registered 03/06/2022
+                                                                                       July 2022
+
+
+      (b)   whether there are any conflicts of interest or duty that may affect the arm’s length
+            nature of the insurance arrangement; and
+
+      (c)   whether the best financial interests of the beneficiaries may not have been
+            prioritised, after considering:
+
+            (i)    the RSE licensee’s business practices in selecting and monitoring an insurer;
+                   and
+            (ii)   the terms and conditions of the insurance arrangement(s) for making insured
+                   benefits available for the beneficiaries.
+
+Transitional arrangements
+
+33.   Where:
+
+      (a)   an RSE licensee has entered into an insurance arrangement with a connected entity
+            of the RSE licensee prior to the effective date; and
+
+      (b)   the insurance arrangement ends on or after 1 July 2023,
+
+      the RSE licensee must, before 1 July 2023, seek an independent certification that states
+      it is reasonable for the RSE licensee to form the view that the insurance arrangement is
+      in the best financial interests of the beneficiaries.
+
+34.   An RSE licensee must provide APRA with an independent certification obtained for the
+      purposes of paragraph 33 no later than 10 business days after the RSE licensee receives
+      the certification.
+
+35.   Where an RSE licensee is unable to obtain an independent certification, for the purposes
+      of paragraph 33, that states it is reasonable for the RSE licensee to form the view that the
+      insurance arrangement is in the best financial interests of the beneficiaries, the RSE
+      licensee must notify APRA no later than 10 business days after becoming aware that it
+      cannot obtain an independent certification containing that statement.
+
+
+
+
+                                                                                     SPS 250 - 8
+
+                             Authorised Version F2022L00741 registered 03/06/2022
+

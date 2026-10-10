@@ -1,0 +1,326 @@
+SOURCE: https://www.legislation.gov.au/F2024L01319/asmade/2024-10-17/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2024L01319/asmade/2024-10-17/text/original/pdf
+FETCHED: 2026-10-10
+
+Superannuation (prudential standard)
+determination No. 6 of 2024
+Prudential Standard SPS 114 Operational Risk Financial
+Requirement
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Sean Carmody, a delegate of APRA:
+
+(a)   under subsection 34C(6) of the Superannuation Industry (Supervision) Act 1993
+      REVOKE Superannuation (prudential standard) determination No. 1 of 2012,
+      including Prudential Standard SPS 114 Operational Risk Financial
+      Requirement made under that determination; and
+
+(b)   under subsection 34C(1) of the Act, DETERMINE Prudential Standard SPS
+      114 Operational Risk Financial Requirement in the form set out in the
+      Schedule, which applies to all RSE licensees.
+
+This instrument commences on 1 July 2025.
+
+
+Dated: 11 October 2024
+
+
+
+
+Sean Carmody
+Executive Director
+Policy and Advice Division
+
+
+
+
+Interpretation
+In this instrument:
+APRA means the Australian Prudential Regulation Authority.
+RSE licensee has the meaning given in subsection 10(1) of the Act.
+
+
+
+
+                       Authorised Version F2024L01319 registered 17/10/2024
+                                                                                           July 2025
+
+
+
+Schedule
+Prudential Standard SPS 114 Operational Risk Financial Requirement
+
+
+
+
+Prudential Standard SPS 114
+Operational Risk Financial Requirement
+    Objectives and key requirements of this Prudential
+    Standard
+
+    Prudential Standard SPS 114 Operational Risk Financial Requirement (SPS 114) is
+    a prudential standard in the business operations pillar of APRA’s superannuation
+    prudential framework. The Operational Risk Financial Requirement (ORFR) requires
+    RSE licensees to maintain, manage and utilise, in accordance with this Prudential
+    Standard, financial resources to protect beneficiaries from losses due to operational
+    risks that relate to the RSEs within its business operations. Key requirements include
+    having a documented ORFR strategy, an ORFR target amount and tolerance limit.
+    An RSE licensee must maintain ORFR financial resources which must be used in a
+    manner consistent with the ORFR and the overarching legislative requirements.
+
+
+Authority
+
+1.      This Prudential Standard is made under section 34C of the Superannuation
+        Industry (Supervision) Act 1993 (SIS Act).
+
+Application and commencement
+
+2.      This Prudential Standard applies to all registrable superannuation entity (RSE)
+        licensees (RSE licensees).1
+
+3.      The requirements of this Prudential Standard apply for the purposes of section
+        52(8)(b) of the SIS Act.
+
+
+1       For the purposes of this Prudential Standard, ‘RSE licensee’ has the meaning given in subsection
+        10(1) of the SIS Act.
+
+
+                                                                                         SPS 114 - 1
+
+                             Authorised Version F2024L01319 registered 17/10/2024
+                                                                                               July 2025
+4.    This Prudential Standard commences on 1 July 2025.
+
+Interpretation
+
+5.    Where this Prudential Standard provides for APRA to exercise a power or
+      discretion, the power or discretion is to be exercised in writing.
+
+Adjustments and exclusions
+
+6.    APRA may adjust or exclude a specific requirement in this Prudential Standard
+      in relation to:
+
+      (a)    a particular RSE licensee of an RSE; or
+
+      (b)    specified RSE licensees of RSEs.
+
+Previous exercise of discretion
+
+7.    An RSE licensee must contact APRA if it seeks to place reliance, for the purposes
+      of complying with this Prudential Standard, on an exercise of discretion by APRA
+      made under a previous version of this Prudential Standard.
+
+RSE licensees that are part of a group2
+
+8.    Where an RSE licensee is part of a corporate group, and the RSE licensee utilises
+      group policies or functions, the Board must approve the use of group policies and
+      functions and must ensure that these policies and functions have appropriate
+      regard to the RSE licensee’s business operations.
+
+Operational risk financial requirement
+
+9.    An RSE licensee must maintain, manage and utilise, in accordance with this
+      Prudential Standard, financial resources to protect beneficiaries from losses due
+      to operational risks3 that relate to the RSEs within its business operations.4
+
+ORFR strategy
+
+10.   An RSE licensee must formulate and give effect to an ORFR strategy that sets
+      out how it will meet the ORFR. At a minimum, the ORFR strategy must include
+      the RSE licensee’s:
+
+      (a)    ORFR target amount and tolerance limit, including how and why it has
+             determined these amounts to be appropriate;
+
+2     For the purposes of this Prudential Standard, a reference to ‘a Group’ is a reference to a group
+      comprising the RSE licensee and all connected entities of the RSE licensee. ‘Connected entity’
+      has the meaning given in subsection 10(1) of the SIS Act.
+3     Refer to Prudential Standard CPS 230 Operational Risk Management for a description of
+      operational risks at paragraphs 13 and 24.
+4     For the purposes of this Prudential Standard, an RSE licensee’s business operations includes all
+      activities as an RSE licensee (including the activities of each RSE of which it is the licensee), and
+      all other activities of the RSE licensee to the extent that they are relevant to, or may impact on, its
+      activities as an RSE licensee.
+
+
+                                                                                             SPS 114 - 2
+
+                             Authorised Version F2024L01319 registered 17/10/2024
+                                                                                July 2025
+      (b)   processes and parameters for determining when and how the ORFR
+            financial resources can be used;
+
+      (c)   approach to holding the ORFR financial resources, including how the RSE
+            licensee will ensure that the requirements in paragraphs 16 and 17 (as
+            applicable) are met on an ongoing basis;
+
+      (d)   investment strategy for operational risk reserves held to meet the ORFR
+            target amount;
+
+      (e)   process for implementing a replenishment plan in accordance with
+            paragraph 18 (replenishment plan);
+
+      (f)   review process for the ORFR target amount, tolerance limit and ORFR
+            strategy; and
+
+      (g)   process for managing the financial resources held to meet the ORFR target
+            amount in the event that the RSE licensee or RSE is wound up.
+
+11.   The Board must approve the ORFR strategy and is ultimately accountable for
+      ensuring the implementation of the RSE licensee’s ORFR strategy.
+
+ORFR target amount and tolerance limit
+
+12.   For the purposes of paragraph 9, an RSE licensee must determine:
+
+      (a)   a target amount of financial resources (ORFR target amount); and
+
+      (b)   a tolerance limit below the ORFR target amount (tolerance limit). Where
+            ORFR financial resources fall below the tolerance limit, the RSE licensee
+            must take action to replenish financial resources to meet the ORFR.
+
+13.   An RSE licensee’s ORFR target amount and tolerance limit must be determined
+      on a prudent basis that suitably reflects:
+
+      (a)   the RSE licensee’s operational risk profile and risk assessments;
+
+      (b)   the uses of the ORFR financial resources permitted under paragraph 15;
+            and
+
+      (c)   the size, business mix and complexity of the RSE licensee’s business
+            operations.
+
+14.   If APRA considers that the ORFR target amount and/or tolerance limit set by the
+      RSE licensee does not adequately reflect the requirements of this Prudential
+      Standard, APRA may require an RSE licensee to:
+
+      (a)   meet an ORFR target amount determined by APRA, within a specified
+            time; and/or
+
+      (b)   adopt a tolerance limit determined by APRA.
+
+
+
+                                                                               SPS 114 - 3
+
+                        Authorised Version F2024L01319 registered 17/10/2024
+                                                                                            July 2025
+Use of ORFR financial resources
+
+15.   An RSE licensee must only use ORFR financial resources for one or more of the
+      following:
+
+      (a)    to address operational risks that could reasonably be considered to have
+             caused or could cause one or more beneficiaries in an RSE within the RSE
+             licensee’s business operations to sustain a loss, or to be deprived of a gain
+             to which they otherwise would have been entitled;
+
+      (b)    to meet the requirements of Prudential Standard CPS 230 Operational
+             Risk Management for the effective management and prevention of
+             operational risk incidents, including the remediation of identified material
+             weaknesses and maintenance of critical operations within tolerance levels
+             through severe disruption; and
+
+      (c)    to reduce a surplus where ORFR financial resources are materially larger
+             than the ORFR target amount.
+
+Access to ORFR financial resources
+
+16.   To be eligible to meet the ORFR target amount, any ORFR financial resources
+      held as an operational risk reserve within an RSE must:
+
+      (a)    be separately identifiable from member accounts and reserves held in the
+             RSE for other purposes; and
+
+      (b)    be unrestricted and readily available to address operational risks in a
+             timely manner.5
+
+17.   To be eligible to be used to meet the ORFR target amount, any ORFR financial
+      resources held as trustee capital must be held in a form that is equivalent to
+      Common Equity Tier 1 Capital.6
+
+Shortfall management
+
+18.   Where the level of ORFR financial resources falls below the tolerance limit, an
+      RSE licensee must implement a replenishment plan and replenish the ORFR
+      financial resources. Replenishment must occur within a period and in a manner
+      the RSE licensee determines will ensure that the RSE licensee acts fairly in
+
+
+
+
+5     Refer also to Prudential Standard SPS 515 Strategic Planning and Member Outcomes for
+      requirements relating to the prudent management of reserves.
+6     Prudential Standard APS 111 Capital Adequacy: Measurement of Capital states that Common
+      Equity Tier 1 Capital comprises the highest quality components of capital that fully satisfy all of
+      the following characteristics: (a) provide a permanent and unrestricted commitment of funds; (b)
+      are freely available to absorb losses; (c) do not impose any unavoidable servicing charge against
+      earnings; and (d) rank behind the claims of depositors and other creditors in the event of winding-
+      up of the issuer.
+
+
+                                                                                          SPS 114 - 4
+
+                            Authorised Version F2024L01319 registered 17/10/2024
+                                                                                        July 2025
+      dealing with beneficiaries and minimises the risk of adverse outcomes for
+      beneficiaries.7 The replenishment plan must, at a minimum, explain:
+
+      (a)   how the shortfall has arisen;
+
+      (b)   the amounts that apply in relation to each RSE;
+
+      (c)   how the RSE licensee will replenish the ORFR financial resources,
+            including the source of funding; and
+
+      (d)   the expected date for the RSE licensee to again meet the ORFR target
+            amount.
+
+19.   An RSE licensee’s replenishment plan must be approved by the Board prior to
+      implementation.
+
+20.   APRA may require an RSE licensee to revise its replenishment plan if APRA
+      considers that the plan does not comply with the RSE licensee’s duties and
+      obligations.
+
+Review and audit
+
+21.   An RSE licensee must review the appropriateness of its ORFR target amount and
+      tolerance limit at least annually and following a material operational risk incident
+      or material change to the RSE licensee’s business operations. The findings of the
+      review must be reported to the Board.
+
+22.   An RSE licensee must implement satisfactory internal audit procedures and
+      external audit arrangements to ensure compliance with, and the adequacy and
+      effectiveness of, the ORFR strategy.8
+
+23.   APRA may require the appointment of an external expert to provide an
+      assessment of, and report on, the adequacy and effectiveness of, the RSE
+      licensee’s approach to meeting the requirements of this Prudential Standard. The
+      report must be paid for by the RSE licensee and must be made available to APRA,
+      together with the Board’s preliminary response within 30 business days after it
+      has been provided to the RSE licensee.
+
+Notification requirement
+
+24.   An RSE licensee must notify APRA prior to making a material change to the
+      ORFR target amount.
+
+
+
+
+7     For the purposes of this Prudential Standard, a reference to ‘beneficiaries’ is a reference to
+      ‘beneficiaries of an RSE within the RSE licensee’s business operations’.
+8     Refer to Prudential Standard SPS 310 Audit and Related Matters and Prudential Standard SPS
+      510 Governance for requirements relating to external and internal audits respectively.
+
+
+                                                                                      SPS 114 - 5
+
+                           Authorised Version F2024L01319 registered 17/10/2024
+

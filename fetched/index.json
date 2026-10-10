@@ -962,6 +962,24 @@
   "status": 200,
   "type": "application/pdf"
  },
+ "https://www.legislation.gov.au/F2022L00741/asmade/2022-06-03/text/original/pdf": {
+  "chars": 23234,
+  "date": "2026-10-10",
+  "file": "legislation-gov-au-f2022l00741-asmade-2022-06-03-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2022L00741/asmade/2022-06-03/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "https://www.legislation.gov.au/F2022L00741/asmade/downloads": {
+  "chars": 4057,
+  "date": "2026-10-10",
+  "file": "legislation-gov-au-f2022l00741-asmade-downloads.txt",
+  "final": "https://www.legislation.gov.au/F2022L00741/asmade/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.legislation.gov.au/F2022L01301/2023-11-01/2023-11-01/text/original/word": {
   "chars": 65014,
   "date": "2026-10-09",
@@ -1078,6 +1096,24 @@
   "kind": "pdf",
   "status": 200,
   "type": "application/pdf"
+ },
+ "https://www.legislation.gov.au/F2024L01319/asmade/2024-10-17/text/original/pdf": {
+  "chars": 13718,
+  "date": "2026-10-10",
+  "file": "legislation-gov-au-f2024l01319-asmade-2024-10-17-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2024L01319/asmade/2024-10-17/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "https://www.legislation.gov.au/F2024L01319/latest/downloads": {
+  "chars": 4061,
+  "date": "2026-10-10",
+  "file": "legislation-gov-au-f2024l01319-latest-downloads.txt",
+  "final": "https://www.legislation.gov.au/F2024L01319/latest/downloads",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
  },
  "https://www.legislation.gov.au/F2024L01518/asmade/2024-11-28/text/original/pdf": {
   "chars": 75006,
