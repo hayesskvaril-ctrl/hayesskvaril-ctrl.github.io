@@ -119,6 +119,9 @@
   "https://www.apra.gov.au/news-and-publications/apra-releases-quarterly-authorised-deposit-taking-institution-statistics-27"
  ],
  "ASIC media releases": [
+  "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay",
+  "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-237mr-full-federal-court-dismisses-appeal-by-former-auditor-reginald-lance-williams",
+  "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-235mr-asic-cancels-liquidator-registration-of-james-gerard-thackray",
   "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2020-releases/20-163mr-clive-palmer-charged-over-breaches-of-directors-duties-and-fraud",
   "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-234mr-asic-halts-offers-in-mortgage-schemes-managed-by-australian-secure-capital-fund",
   "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-117mr-federal-court-orders-record-300-million-penalties-in-asic-s-case-over-egregious-union-standard-and-cfd-operator-misconduct",
@@ -321,6 +324,7 @@
   "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2023-releases/23-147mr-asic-suspends-afs-licence-of-lantern-re-ltd"
  ],
  "Treasury consultations": [
+  "https://treasury.gov.au/consultation/c2026-810713",
   "https://treasury.gov.au/consultation/c2026-800586",
   "https://treasury.gov.au/consultation/c2026-805258",
   "https://treasury.gov.au/consultation/c2026-802968",
@@ -333,6 +337,9 @@
  ],
  "Treasury ministers": [
   "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/feed",
+  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/another-ratings-agency-affirms-australias-aaa-credit",
+  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/changes-disaster-recovery-funding-arrangement-reforms",
+  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/ato-continue-accepting-credit-cards-until-30-june-2027",
   "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/dwelling-commencements-completions-june-quarter",
   "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/boosting-investment-economic-security-and-cooperation",
   "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/business-and-investment-engagements-japan",
@@ -350,9 +357,6 @@
   "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/national-accounts-june-quarter-2026",
   "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/second-productivity-commission-review-national-agreement",
   "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/inflation-down-again-july",
-  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/future-funds-strong-returns-continue-under-modernised",
-  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/productivity-package-boost-housing-supply-and",
-  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/nominations-world-bank-and-international-monetary-fund",
   "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/feed",
   "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/credit-and-debit-card-surcharges-end-today",
   "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/share-large-companies-paying-income-tax-reaches-record",
@@ -373,7 +377,10 @@
   "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/government-introduces-legislation-regulate-cash",
   "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/stronger-penalties-tax-misconduct",
   "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/report-statutory-review-enhanced-regulatory-sandbox",
-  "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/strengthening-integrity-audit-accounting-and-consulting"
+  "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/strengthening-integrity-audit-accounting-and-consulting",
+  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/future-funds-strong-returns-continue-under-modernised",
+  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/productivity-package-boost-housing-supply-and",
+  "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/nominations-world-bank-and-international-monetary-fund"
  ],
  "Attorney-General's Department consultations": [
   "https://consultations.ag.gov.au/crime/modern-slavery/",

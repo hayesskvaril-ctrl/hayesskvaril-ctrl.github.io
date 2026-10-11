@@ -1,371 +1,413 @@
 {
- "run": "2026-10-08",
+ "run": "2026-10-11",
  "facts": {
   "sps530-proposals-released": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-releases-proposals-strengthen-trustee-investment-governance"
   },
   "sps530-submissions-close": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/strengthening-superannuation-investment-governance-consultation-paper"
   },
   "sps530-proposed-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-releases-proposals-strengthen-trustee-investment-governance"
   },
   "payday-super-start": {
-   "date": "2026-10-08",
-   "result": "found",
-   "detail": "",
-   "url": "https://www.apra.gov.au/payday-super-readiness"
+   "date": "2026-10-11",
+   "result": "manual",
+   "detail": "Checked by hand against the Superannuation Guarantee (Administration) Act compilation (Word) on the Federal Register of Legislation",
+   "url": "https://www.legislation.gov.au/C2004A04402/latest/text"
   },
   "sps515-strengthened-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
-   "url": "https://www.apra.gov.au/standards/sps-515"
+   "url": "https://www.legislation.gov.au/F2024L00940/asmade/2024-07-31/text/original/pdf"
   },
   "cslr-fy27-estimate": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://cslr.org.au/levies/"
   },
   "cslr-advice-fy27": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://cslr.org.au/levies/"
   },
   "rep833-published": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-135mr-asic-calls-platform-trustees-to-account-over-persistent-failures-to-safeguard-super-savings"
   },
   "cps230-start": {
-   "date": "2026-10-08",
-   "result": "manual",
-   "detail": "Checked by hand: APRA's standard page doesn't state the start date in readable text",
-   "url": "https://www.apra.gov.au/standards/cps-230"
-  },
-  "cps230-amendments-effective": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
-   "url": "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management"
+   "url": "https://www.legislation.gov.au/F2023L01242/asmade/2023-09-14/text/original/pdf"
+  },
+  "cps230-amendments-effective": {
+   "date": "2026-10-11",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.legislation.gov.au/F2026L00475/asmade/2026-04-29/text/original/pdf"
   },
   "cps230-amendments-finalised": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management"
   },
   "cps234-incident-notice": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/standards/cps-234"
   },
   "cps190-rse-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
-   "url": "https://www.apra.gov.au/standards/cps-190"
+   "url": "https://www.legislation.gov.au/F2023L01380/asmade/2023-10-16/text/original/pdf"
   },
   "cps510-draft-released": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
   },
   "cps510-consultation-closed": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
   },
   "cps510-tenure-limit": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: the limit is stated in APRA's draft standard (a PDF), not on its web pages",
    "url": "https://www.apra.gov.au/news-and-publications/apra-commences-next-phase-push-strengthen-and-streamline-governance"
   },
   "ai-letter": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-calls-step-change-ai-related-risk-management-and-governance"
   },
   "at1-removal-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-finalises-changes-to-phase-out-additional-tier-1-capital-instruments"
   },
   "dti-limit-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: APRA's pages don't state the date in readable text",
    "url": "https://www.apra.gov.au/news-and-publications/activating-debt-income-limits-macroprudential-policy-tool"
   },
   "dti-limit-share": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending"
   },
   "risk-weights-proposed-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-consults-changes-bank-risk-weights-designed-support-lending-and"
   },
   "srst-results": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-publishes-findings-inaugural-system-risk-stress-test"
   },
   "fcs-limit": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: the Financial Claims Scheme page doesn't state the amount in readable text",
    "url": "https://www.fcs.gov.au/"
   },
   "far-insurers-super-start": {
-   "date": "2026-10-08",
-   "result": "found",
-   "detail": "",
-   "url": "https://www.apra.gov.au/financial-accountability-regime"
+   "date": "2026-10-11",
+   "result": "manual",
+   "detail": "Checked by hand: the date follows from the FAR Act's commencement (15 September 2023) and s 9, so it does not appear as text on the Act",
+   "url": "https://www.legislation.gov.au/C2023A00067/latest/text"
   },
   "far-adi-start": {
-   "date": "2026-10-08",
-   "result": "found",
-   "detail": "",
-   "url": "https://www.apra.gov.au/financial-accountability-regime"
+   "date": "2026-10-11",
+   "result": "manual",
+   "detail": "Checked by hand: the date follows from the FAR Act's commencement (15 September 2023) and s 9, so it does not appear as text on the Act",
+   "url": "https://www.legislation.gov.au/C2023A00067/latest/text"
   },
   "far-streamlining-close": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: ASIC's media release pages are built in the browser",
    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining"
   },
   "penalty-unit": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
-   "url": "https://www.asic.gov.au/about-asic/asic-investigations-and-enforcement/fines-and-penalties/"
+   "url": "https://www.legislation.gov.au/F2026N00424/asmade/2026-06-16/text/original/pdf"
   },
   "advice-reforms-announced": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: no single official page states this date",
    "url": "https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package"
   },
   "aml-reformed-obligations-start": {
-   "date": "2026-10-08",
-   "result": "manual",
-   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
-   "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
+   "date": "2026-10-11",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/pdf"
   },
   "aml-tranche2-start": {
-   "date": "2026-10-08",
-   "result": "manual",
-   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
-   "url": "https://www.austrac.gov.au/amlctf-reform/about-reforms"
+   "date": "2026-10-11",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/pdf"
   },
   "scams-main-obligations": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: AFCA's website blocks automated checks",
    "url": "https://www.afca.org.au/about-afca/scams-prevention-framework"
   },
   "scams-afca-membership": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: AFCA's website blocks automated checks",
    "url": "https://www.afca.org.au/about-afca/scams-prevention-framework"
   },
   "privacy-adm-start": {
-   "date": "2026-10-08",
-   "result": "manual",
-   "detail": "Checked by hand: the OAIC page doesn't state the date",
-   "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles"
+   "date": "2026-10-11",
+   "result": "not_found",
+   "detail": "'10 December 2026' does not appear on the source page",
+   "url": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
   },
   "privacy-tranche2-draft": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
   },
   "privacy-tranche2-close": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
   },
   "essential-eight-consult-close": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: cyber.gov.au doesn't respond to automated checks from cloud servers",
    "url": "https://www.cyber.gov.au/about-us/view-all-content/news/consultation-on-evolution-of-essential-eight"
   },
   "climate-group2-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
-   "detail": "Checked by hand: ASIC's page doesn't state the dates in readable text",
-   "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+   "detail": "Checked by hand against the Corporations Act (ss 292A, 1707 and 1707B), which is published as large Word and PDF volumes",
+   "url": "https://www.legislation.gov.au/C2004A00818/latest/text"
   },
   "climate-group3-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
-   "detail": "Checked by hand: ASIC's page doesn't state the dates in readable text",
-   "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+   "detail": "Checked by hand against the Corporations Act (ss 292A, 1707 and 1707B), which is published as large Word and PDF volumes",
+   "url": "https://www.legislation.gov.au/C2004A00818/latest/text"
   },
   "rep839-published": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: ASIC's page doesn't state the date in readable text",
    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
   },
   "whistleblower-review-close": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/review-tax-and-corporate-whistleblowing"
   },
   "asx-5th-consult-close": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.asx.com.au/content/dam/asx/about/corporate-governance-council/asx-corporate-governance-principles-and-recommendations-draft-5th-edition-consultation-paper.pdf"
   },
   "reportable-situations-deadline": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.asic.gov.au/regulatory-resources/financial-services/reportable-situations-for-afs-and-credit-licensees"
   },
   "cps234-weakness-notice": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/standards/cps-234"
   },
   "cps230-disruption-notice": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/standards/cps-230"
   },
   "cps230-incident-notice": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/standards/cps-230"
   },
   "cps230-msp-notice": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/standards/cps-230"
   },
   "ndb-assessment": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/preventing-preparing-for-and-responding-to-data-breaches/data-breach-preparation-and-response/part-4-notifiable-data-breach-ndb-scheme"
   },
   "ransomware-report": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: cyber.gov.au doesn't respond to automated checks from cloud servers",
-   "url": "https://www.cyber.gov.au/report-and-recover/report/ransomware-payment-and-cyber-extortion-payment-reporting"
+   "url": "https://www.legislation.gov.au/C2024A00098/latest/text"
   },
   "smr-deadline": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
-   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers; confirmed in the AML/CTF Act's text",
    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports"
   },
   "smr-tf-deadline": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
-   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers; confirmed in the AML/CTF Act's text",
    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/suspicious-matter-reports"
   },
   "ttr-threshold": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
-   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers; confirmed in the AML/CTF Act's text",
    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/threshold-transaction-reports"
   },
   "ttr-deadline": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
-   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers",
+   "detail": "Checked by hand: AUSTRAC's website doesn't respond to automated checks from cloud servers; confirmed in the AML/CTF Act's text",
    "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/threshold-transaction-reports"
   },
   "idr-response": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://download.asic.gov.au/media/3olo5aq5/rg271-published-2-september-2021.pdf"
   },
   "idr-super-response": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://download.asic.gov.au/media/3olo5aq5/rg271-published-2-september-2021.pdf"
   },
   "privacy-small-business": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business"
   },
   "modslav-threshold": {
-   "date": "2026-10-08",
-   "result": "error",
-   "detail": "could not read the source (TimeoutError: The read operation timed out)",
+   "date": "2026-10-11",
+   "result": "manual",
+   "detail": "Checked by hand: the Attorney-General's Department website doesn't respond to automated checks from cloud servers; confirmed in the Act's text (s 5(1)(a))",
    "url": "https://www.ag.gov.au/crime/modern-slavery/modern-slavery-act"
   },
   "cet1-minimum": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/standards/aps-110"
   },
   "adi-sfi-threshold": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
   },
   "msfi-threshold": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
   },
   "three-tier-start": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "found",
    "detail": "",
    "url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential"
   },
   "ddo-asic-notice": {
-   "date": "2026-10-08",
+   "date": "2026-10-11",
    "result": "manual",
    "detail": "Checked by hand: the Act's text is in Word and PDF files on legislation.gov.au, which the weekly watch doesn't read",
    "url": "https://www.legislation.gov.au/C2004A00818/latest/text"
+  },
+  "sg-rate": {
+   "date": "2026-10-11",
+   "result": "manual",
+   "detail": "Checked by hand against the official text on the Federal Register of Legislation (the legislation pages are not readable by the automated check)",
+   "url": "https://www.legislation.gov.au/C2004A04402/latest/text"
+  },
+  "far-deferral-share": {
+   "date": "2026-10-11",
+   "result": "manual",
+   "detail": "Checked by hand against the official text on the Federal Register of Legislation (the legislation pages are not readable by the automated check)",
+   "url": "https://www.legislation.gov.au/C2023A00067/latest/text"
+  },
+  "cps511-ceo-deferral": {
+   "date": "2026-10-11",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.legislation.gov.au/F2023L01348/asmade/2023-09-29/text/original/pdf"
+  },
+  "sps114-start": {
+   "date": "2026-10-11",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.legislation.gov.au/F2024L01319/asmade/2024-10-17/text/original/pdf"
+  },
+  "orfr-min-large": {
+   "date": "2026-10-11",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/practice-guides/spg-114"
+  },
+  "orfr-min-mid": {
+   "date": "2026-10-11",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/practice-guides/spg-114"
+  },
+  "orfr-min-small": {
+   "date": "2026-10-11",
+   "result": "found",
+   "detail": "",
+   "url": "https://www.apra.gov.au/practice-guides/spg-114"
   }
  }
 }
