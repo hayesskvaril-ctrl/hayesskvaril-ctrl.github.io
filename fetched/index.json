@@ -116,6 +116,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://treasury.gov.au/consultation/c2026-810713": {
+  "chars": 370,
+  "date": "2026-10-12",
+  "file": "treasury-gov-au-consultation-c2026-810713.txt",
+  "final": "https://consult.treasury.gov.au/c2026-810713",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=UTF-8"
+ },
  "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management": {
   "chars": 49951,
   "date": "2026-10-08",
@@ -373,6 +382,15 @@
   "date": "2026-10-09",
   "file": "apra-gov-au-standards-sps-530.txt",
   "final": "https://www.apra.gov.au/standards/sps-530",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay": {
+  "chars": 8617,
+  "date": "2026-10-12",
+  "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay.txt",
+  "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
