@@ -134,6 +134,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/consultations/streamlining-far-administration": {
+  "chars": 42194,
+  "date": "2026-10-12",
+  "file": "apra-gov-au-consultations-streamlining-far-administration.txt",
+  "final": "https://www.apra.gov.au/consultations/streamlining-far-administration",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management": {
   "chars": 49951,
   "date": "2026-10-08",
@@ -148,6 +157,24 @@
   "date": "2026-10-08",
   "file": "apra-gov-au-finalising-a-third-tier-banking-framework.txt",
   "final": "https://www.apra.gov.au/news-and-publications/finalising-third-tier-banking-framework",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/financial-claims-scheme-banks-building-societies-and-credit-unions": {
+  "chars": 41609,
+  "date": "2026-10-12",
+  "file": "apra-gov-au-financial-claims-scheme-banks-building-societies-and-credit-unions.txt",
+  "final": "https://www.apra.gov.au/financial-claims-scheme-banks-building-societies-and-credit-unions",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/financial-claims-scheme/overview-financial-claims-scheme": {
+  "chars": 41766,
+  "date": "2026-10-12",
+  "file": "apra-gov-au-financial-claims-scheme-overview-financial-claims-scheme.txt",
+  "final": "https://www.apra.gov.au/financial-claims-scheme/overview-financial-claims-scheme",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -412,6 +439,15 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/system/files/2026-06/Draft%20CPS%20510%20Governance%20-%20clean.pdf": {
+  "chars": 92526,
+  "date": "2026-10-12",
+  "file": "apra-gov-au-system-files-2026-06-draft-20cps-20510-20governance-20-20clean-pdf.txt",
+  "final": "https://www.apra.gov.au/system/files/2026-06/Draft%20CPS%20510%20Governance%20-%20clean.pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
  },
  "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining": {
   "chars": 4991,

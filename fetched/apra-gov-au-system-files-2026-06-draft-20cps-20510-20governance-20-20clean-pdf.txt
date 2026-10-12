@@ -1,0 +1,1989 @@
+SOURCE: https://www.apra.gov.au/system/files/2026-06/Draft%20CPS%20510%20Governance%20-%20clean.pdf
+FINAL URL: https://www.apra.gov.au/system/files/2026-06/Draft%20CPS%20510%20Governance%20-%20clean.pdf
+FETCHED: 2026-10-12
+
+                                 DRAFT                                      June 2026
+
+
+
+
+Prudential Standard CPS 510
+Governance
+Objectives and key requirements of this Prudential
+Standard
+
+This Prudential Standard sets minimum governance requirements to support the
+sound and prudent management of APRA regulated entities and, where relevant,
+Heads of groups, in the interests of depositors, policyholders and beneficiaries.
+
+To achieve this, it establishes clear requirements for the Board and senior
+managers, including that the Board is ultimately responsible for the sound and
+prudent management of the entity (or group). In fulfilling this responsibility, the
+Board must exercise independent judgement, provide effective challenge, and
+promote a culture of integrity, prudent risk taking and accountability.
+
+Entities must implement governance arrangements that are fit for purpose,
+including a governance framework that clearly allocates roles and decision rights,
+supports robust information flows to the Board and its committees, and promotes
+effective performance.
+
+Board composition and independence settings must enable impartial judgement and
+effective oversight, supported by a clear articulation of the collective skills and
+capabilities required, regular performance assessment (including external review for
+significant financial institutions), and timely action to address any gaps.
+
+Conflicts must be identified, assessed, managed and, where appropriate, disclosed.
+Remuneration governance, risk governance and audit oversight must be supported
+by appropriately constituted Board committees.
+
+Responsible persons must be fit and proper.
+
+Foreign ADIs, Category C insurers and Eligible Foreign Life Insurance Companies
+must maintain local governance arrangements that enable effective oversight of
+Australian operations, including via the appointment of a senior officer outside
+Australia or Compliance Committee, as relevant.
+
+No person is to be constrained from providing information to APRA, and specified
+notifications must be made within required timeframes.
+
+
+
+
+                                                                           CPS 510 - 1
+                                                   DRAFT                                                          June 2026
+
+
+Table of Contents
+
+Authority ........................................................................................................................ 3
+Application ..................................................................................................................... 3
+Interpretation .................................................................................................................. 4
+Adjustments and exclusions ........................................................................................... 6
+Previous exercise of discretion ...................................................................................... 6
+Part A – Board governance for locally incorporated regulated entities ......................... 6
+Governance framework .................................................................................................. 6
+The Board....................................................................................................................... 7
+Delegation of authority .................................................................................................. 7
+Senior managers and management information ............................................................. 8
+Board composition and independence ........................................................................... 9
+Board committees ........................................................................................................ 11
+Board skills and capability ........................................................................................... 14
+Board, committee and director performance ............................................................... 15
+Board renewal and non-executive director tenure ....................................................... 16
+Group governance ........................................................................................................ 17
+Part B – Conflicts management ................................................................................... 19
+Part C – Fit and proper ................................................................................................. 21
+Fit and proper assessment ............................................................................................ 21
+Fit and proper criteria................................................................................................... 21
+Reassessment of fitness and propriety ......................................................................... 22
+Consequences of adverse assessments ......................................................................... 23
+Fit and proper policy .................................................................................................... 23
+APRA engagement and non-constraint ........................................................................ 24
+Part D – Appointments................................................................................................. 25
+Part E – Special provisions for foreign ADIs, Category C insurers, Eligible
+Foreign Life Insurance Companies .............................................................................. 26
+Attachment A – Auditor independence test ................................................................. 30
+Attachment B – Additional fit and proper criteria for auditors and actuaries ............. 32
+Attachment C – EFLIC Compliance Committee ......................................................... 36
+
+
+
+
+                                                                                                                 CPS 510 - 2
+                                          DRAFT                                               June 2026
+
+
+Authority
+
+1.        This Prudential Standard is made under:
+
+    (a)    subsection 11AF(1) of the Banking Act;
+
+    (b)    subsection 32(1) of the Insurance Act;
+
+    (c)    subsection 230A(1) of the Life Insurance Act;
+
+    (d)    subsection 92(1) of the PHIPS Act; and
+
+    (e)    subsection 34C(1) of the SIS Act.
+
+Application
+
+2.        This Prudential Standard applies to regulated entities, defined as:
+
+    (a)    all authorised deposit-taking institutions (ADIs), including foreign ADIs,
+           and non-operating holding companies authorised under the Banking Act
+           (authorised banking NOHCs);
+
+    (b)    all general insurers, including Category C insurers, non-operating holding
+           companies authorised under the Insurance Act (authorised insurance NOHCs)
+           and parent entities of Level 2 insurance groups;
+
+    (c)    all life companies, including friendly societies and eligible foreign life
+           insurance companies (EFLICs), and registered NOHCs;
+
+    (d)    all private health insurers registered under the PHIPS Act; and
+
+    (e)    all registrable superannuation entity licensees (RSE licensees) and their
+           business operations1
+
+          (each a ‘regulated entity’).
+
+3.        The obligations imposed by this Prudential Standard on, or in relation to, a foreign
+          ADI, a Category C insurer or an EFLIC apply only in relation to the Australian
+          branch operations of that regulated entity.
+
+4.        Unless APRA determines otherwise in a particular case,2 this Prudential Standard
+          applies to regulated entities as follows:
+
+    (a)    paragraphs 1 to 10 (Part A) and paragraphs 74 to 106 (Parts B, C and D) apply
+           to all regulated entities;
+
+
+
+
+1
+  An RSE licensee’s business operations includes all activities of an RSE licensee (including the activities
+of each RSE of which it is the licensee), and all other activities of the RSE licensee to the extent that they
+are relevant to, or may impact on, its activities as an RSE licensee.
+2
+  This power is to be exercised under paragraph 9.
+
+
+                                                                                             CPS 510 – 3
+                                        DRAFT                                             June 2026
+
+
+    (b)    paragraphs 11 to 28, paragraphs 35 to 38, and paragraphs 40 to 62 and 73 (Part
+           A) apply only to locally incorporated regulated entities;
+
+    (c)    paragraphs 29 to 34, paragraph 39 (Part A) apply only to locally incorporated
+           regulated entities except for RSE licensees;
+
+    (d)    paragraphs 63 to 71 (Part A) apply only to locally incorporated regulated
+           entities except for private health insurers and RSE licensees; and
+
+    (e)    paragraphs 107 to 124 (Part E) apply only to foreign ADIs, Category C insurer
+           or EFLICs.
+
+5.        Where a regulated entity is the ‘Head of a group’,3 it must comply with a
+          requirement of this Prudential Standard:
+
+    (a)    in its capacity as a regulated entity; and
+
+    (b)    on a group basis.
+
+6.        This Prudential Standard commences on 1 January 2028.
+
+Interpretation
+
+7.        Terms that are defined in Prudential Standard CPS 001 Defined terms (CPS 001)
+          appear in bold the first time they are used in this Prudential Standard.
+
+8.        For the purpose of this Prudential Standard:
+
+    (a)    a reference to an Act, Regulation or Prudential Standard is a reference to the
+           Act, Regulation or Prudential Standard as in force from time to time;
+
+    (b)    a person is a ‘responsible person’ of a regulated entity if they are, in relation to
+           the regulated entity:
+
+           (i)    an Accountable Person;4
+
+           (ii)   a Chief Risk Officer (CRO) or equivalent;5
+
+           (iii) an auditor;
+
+           (iv) an actuary;
+
+           (v)    for RSE licensees, a secretary of the RSE licensee;
+
+           (vi) determined by APRA to be a responsible person where APRA is
+                satisfied that a person makes, or participates in making, decisions that
+                affect the whole or a substantial part of the business of the regulated
+
+3
+  Where a Level 2 group operates within a Level 3 group, a requirement expressed as applying to a Head
+of a group is to be read as applying to the Level 3 Head.
+4
+  As defined in section 10 of the Financial Accountability Regime Act 2023 (FAR Act). This includes
+Accountable Persons of an accountable entity or of a significant related entity of an accountable entity.
+5
+  For the avoidance of doubt, a CRO may be an Accountable Person under section 10 of the FAR Act.
+
+
+                                                                                         CPS 510 – 4
+                                          DRAFT                                               June 2026
+
+
+                 entity, or has the capacity to significantly affect the entity’s financial
+                 standing; or
+
+          (vii) in the case of RSE licensees, determined by APRA to be a responsible
+                person where APRA is satisfied that a person’s activities may materially
+                impact on the interests, or reasonable expectations, of beneficiaries, or
+                the financial position of the RSE licensee, any of its RSEs or connected
+                entities, or any other relevant prudential matter.
+
+    (c)   a ‘duty’ refers to a legal or equitable duty owed by the regulated entity, or a
+          responsible person of the regulated entity, to another person;
+
+    (d)   an ‘Interest’ refers to any interest or benefit, whether pecuniary or non-
+          pecuniary, vested or non-vested, directly or indirectly held (including an
+          interest to favour or benefit a third party, such as a close family member of a
+          responsible person of the regulated entity), of a regulated entity, an employee
+          or associate of the regulated entity, or a responsible person of the regulated
+          entity;
+
+    (e)   a 'close family member of a responsible person of the regulated entity’
+          includes the following:
+
+          (i)    a child, grandchild, sibling, parent, grandparent, uncle, aunt, nephew, or
+                 niece of the responsible person or of their spouse;
+
+          (ii)   a spouse of the responsible person or of any other individual mentioned
+                 in paragraph 8(e)(i) above.
+
+    (f)   a ‘conflict’ is a reference to:
+
+          (i) in relation to RSE licensees, a conflict between a duty or an Interest, and
+          the interests of beneficiaries, or duties to beneficiaries; and
+
+          (ii) in relation to all regulated entities other than RSE licensees, a conflict
+          between a duty or an Interest and the interest of, or duty to, depositors or
+          policyholders as relevant;
+
+    (g)   ‘duties to beneficiaries’ refers to legal or equitable duties owed by the RSE
+          licensee or a responsible person of the regulated entity to beneficiaries;6
+
+    (h)   ‘interests of beneficiaries’ refers to any interests of beneficiaries;
+
+    (i)   unless otherwise expressly stated in this Prudential Standard, a reference to an
+          auditor is taken to be a reference to a person holding any of the following
+          positions:
+
+
+
+
+6
+ For the purposes of this Prudential Standard, a reference to ‘beneficiaries’ is a reference to ‘beneficiaries
+of an RSE within the RSE licensee’s business operations’ and in respect of a regulated entity that is an
+RSE.
+
+
+                                                                                             CPS 510 – 5
+                                   DRAFT                                      June 2026
+
+
+        (i)    appointed auditor in relation to all regulated entities other than an
+               authorised insurance NOHC or a registered NOHC;
+
+        (ii)   an individual RSE auditor or lead auditor of an RSE licensee; or
+
+        (iii) responsible auditor in relation to an authorised insurance NOHC or a
+              registered NOHC; and
+
+ (j)    unless otherwise expressly stated in this Prudential Standard, a reference to an
+        actuary is taken to be a reference to a person holding any of the following
+        positions:
+
+        (i)    appointed actuary in relation to all regulated entities other than ADIs
+               and authorised banking NOHCs; or
+
+        (ii)   RSE actuary, in relation to RSE licensees.
+
+Adjustments and exclusions
+
+9.     APRA may adjust or exclude a specific requirement in this Prudential Standard
+       in relation to a regulated entity.
+
+Previous exercise of discretion
+
+10.    A regulated entity must contact APRA if it seeks to place reliance, for the
+       purposes of complying with this Prudential Standard, on a previous exemption or
+       other exercise of discretion by APRA under a previous version of this standard or
+       any of the following standards:
+
+ (a)    Prudential Standard SPS 510 Governance;
+
+ (b)    Prudential Standard CPS 520 Fit and Proper;
+
+ (c)    Prudential Standard SPS 520 Fit and Proper; or
+
+ (d)    Prudential Standard SPS 521 Conflicts of Interest.
+
+Part A – Board governance for locally incorporated
+regulated entities
+
+Governance framework
+
+11.    A locally incorporated regulated entity must have an effective governance
+       framework. A governance framework comprises the rules, processes, roles, and
+       practices that define and guide how a regulated entity is directed, controlled, and
+       held accountable.
+
+12.    A locally incorporated regulated entity’s governance framework must, at a
+       minimum, include:
+
+ (a)    documented delegation of authority;
+
+
+                                                                             CPS 510 – 6
+                                      DRAFT                                       June 2026
+
+
+    (b)    formal charters that set out the roles, responsibilities and objectives of the
+           Board and Board committees; and
+
+    (c)    the Board’s policies and processes as required by this Prudential Standard.
+
+The Board
+
+13.       The Board is responsible for overseeing the sound and prudent management of
+          the locally incorporated regulated entity. The Board’s prudential responsibilities
+          that cannot be delegated are to:
+
+    (a)    set and monitor the strategic objectives, business plan and risk appetite of the
+           regulated entity;
+
+    (b)    oversee the culture, including risk culture, and values of the entity and set a
+           clear tone from the top;
+
+    (c)    oversee governance, remuneration and risk management frameworks, and
+           make the annual risk management declaration;7
+
+    (d)    for RSE licensees, oversee the investment governance framework;8
+
+    (e)    oversee financial and operational resilience;
+
+    (f)    set and monitor Board, Board committee and director performance objectives;
+
+    (g)    ensure that directors and senior managers of the institution collectively have
+           the skills needed for the effective and prudent operation of the regulated entity;
+           and
+
+    (h)    constructively challenge senior managers.
+
+14.       A locally incorporated regulated entity must ensure that its directors and senior
+          managers are available to meet with APRA on request.
+
+Delegation of authority
+
+15.       Subject to paragraph 13, where a prudential standard imposes an obligation on
+          the Board other than those set out in paragraphs 13(a) to 13(h), the authority to
+          fulfill the obligation may, to the extent permitted by law, be delegated to a Board
+          committee or senior managers of the entity.
+
+16.       The Board remains responsible for overseeing obligations delegated to a Board
+          committee or senior managers.
+
+17.       In delegating any authority, the Board must ensure that:
+
+
+
+
+7
+  As required in Prudential Standard CPS 220 Risk Management (CPS 220) and Prudential Standard
+SPS 220 Risk Management (SPS 220) as relevant.
+8
+  As required in Prudential Standard SPS 530 Investment Governance.
+
+
+                                                                                 CPS 510 – 7
+                                   DRAFT                                      June 2026
+
+
+ (a)    the delegation, including any limitations, is clearly documented and consistent
+        with Board and Board committee charters and accountability frameworks;
+
+ (b)    the delegation is risk-based and in line with the Board’s risk appetite;
+
+ (c)    there are mechanisms in place for monitoring the proper and effective exercise
+        of delegated authority, and for reporting to the Board any material issues or
+        changes;
+
+ (d)    conflicts arising from, or in connection with, a delegation are identified and
+        appropriately managed; and
+
+ (e)    the delegation is regularly reviewed by the Board to ensure it remains
+        appropriate.
+
+Senior managers and management information
+
+18.    Senior managers of a locally incorporated regulated entity are responsible for
+       carrying out and managing the regulated entity’s activities in a manner consistent
+       with:
+
+ (a)    the regulated entity’s strategic objectives, business plan and risk appetite as set
+        out in paragraph 13(a);
+
+ (b)    the regulated entity’s culture and values as set out in paragraph 13(b);
+
+ (c)    frameworks and policies approved by the Board; and
+
+ (d)    all legal duties and obligations of the regulated entity, including, for RSE
+        licensees, the duty to act in the best financial interests of beneficiaries.
+
+19.    Senior managers of a locally incorporated regulated entity are responsible for
+       implementing business strategies, risk management systems, risk culture,
+       processes and controls for managing the risks to which the regulated entity is
+       exposed.
+
+20.    A locally incorporated regulated entity must have a policy setting out the Board’s
+       expectations in relation to the reporting of management information. This policy
+       must include expected content, quality and frequency to support the Board’s
+       informed and risk-based decision-making.
+
+21.    A locally incorporated regulated entity must have processes in place to ensure
+       management information, strategy, risk appetite, conflicts and the best financial
+       interests of beneficiaries (for RSE licensees) are considered and recorded in all
+       relevant decision-making.
+
+22.    Senior managers of a locally incorporated regulated entity must deal with the
+       Board in a clear, timely and transparent manner. They must brief the Board
+       effectively, with succinct and relevant information to support decision making.
+
+23.    Senior managers of a locally incorporated regulated entity, with responsibilities
+       relating to the business in Australia, must be ordinarily resident in Australia.
+
+
+                                                                             CPS 510 – 8
+                                          DRAFT                                               June 2026
+
+
+24.       The Board must provide the auditor9 and the actuary of the regulated entity, as
+          relevant, with the opportunity to raise matters directly with the Board.
+
+Board composition and independence
+
+Board composition
+
+25.       Subject to paragraph 26 of this Prudential Standard, the Board of a locally
+          incorporated regulated entity must always have a minimum of five directors.
+
+26.       Where:
+
+    (a)    an RSE licensee is subject to the basic equal representation rules contained in
+           Part 9 of the SIS Act; and
+
+    (b)    a vacancy in the membership of the board of that RSE licensee occurs and
+           causes the board of the RSE licensee to comprise of fewer than five directors;
+           and
+
+    (c)    the vacancy is filled within 90 days after it occurred,
+
+           the RSE licensee is taken to comply with paragraph 25 of this Prudential
+           Standard during the period of the vacancy.
+
+27.       APRA may exempt a regulated entity from the requirements of paragraph 25 of
+          this Prudential Standard if a temporary vacancy arises resulting in the number of
+          directors on the Board being fewer than five directors.
+
+28.       The Board of a locally incorporated regulated entity must have a majority of
+          directors that are ordinarily resident in Australia.
+
+Independent and non-executive directors (locally incorporated regulated
+entities other than RSE licensees)10
+29.       The Board of a regulated entity must:
+
+    (a)    have a majority of independent directors at all times;
+
+    (b)    have a chair that is an independent director; and
+
+    (c)    ensure a majority of directors present and eligible to vote at all Board meetings
+           are non-executive directors.
+
+30.       An independent director is a non-executive director who is free of any interest,
+          position or relationship that might influence, or reasonably be perceived to
+          influence, in a material respect, their capacity to bring an independent judgement
+          to bear on issues before the Board and to act in the best interests of the regulated
+          entity as a whole rather than in the interests of any other party.
+
+9
+  For the purpose of this paragraph of this Prudential Standard, a reference to ‘auditor’ for an RSE licensee
+means an RSE auditor.
+10
+   Paragraphs 29 to 34 apply to all regulated entities other than RSE licensees.
+
+
+                                                                                            CPS 510 – 9
+                                          DRAFT                                               June 2026
+
+
+31.        Where a director also serves on the Board of a parent or other entity within the
+           same group, independence must be assessed with specific regard to any potential
+           or actual conflicts arising from, or associated with, intra-group arrangements,
+           such as structural, funding or remuneration relationships.
+
+32.        A director is not independent if they:
+
+     (a)    are a substantial shareholder11 or substantial security holder of the regulated
+            entity;
+
+     (b)    are employed, or have previously been employed in an executive capacity by
+            the regulated entity or another member of the group, and there has not been a
+            period of at least three years between ceasing this employment and serving on
+            the Board;
+
+     (c)    have within the last three years been a principal of a material professional
+            adviser or a material consultant to the regulated entity or another member of
+            the group, or an employee materially associated with the service provided;
+
+     (d)    are a material supplier or customer of the regulated entity or another member
+            of the group, or an officer of or otherwise associated directly or indirectly with
+            a material supplier or customer; or
+
+     (e)    have a material contractual relationship with the regulated entity or another
+            member of the group other than as a director.
+
+Shareholder representation (locally incorporated regulated entities other than
+RSE licensees)
+33.        Board representation must be consistent with a person’s shareholding in the
+           regulated entity. Where a person’s shareholding constitutes not more than 20 per
+           cent of the regulated entity’s voting shares, there must not be more than:
+
+     (a)    one Board member who is an associate of the shareholder where the Board has
+            up to six directors; and
+
+     (b)    two Board members who are associates of the shareholder where the Board
+            has seven or more directors.12
+
+34.        Where an individual shareholding is greater than 20 per cent, as approved under
+           the Financial Sector (Shareholdings) Act 1998, the Board representation of that
+           shareholding may be greater than allowed in paragraph 33, although it must
+           remain broadly proportionate to the shareholding concerned.
+
+
+
+11
+   For the purpose of this Prudential Standard, a ‘substantial shareholder’ is a person with a substantial
+holding, as defined in section 9 of the Corporations Act 2001.
+12
+   A director is taken to be an associate of a shareholder for the purposes of this Prudential Standard if
+the director is an associate of the shareholder, or the shareholder is an associate of the director, according
+to the definition of associate in clause 4 of Schedule 1 of the Financial Sector (Shareholdings) Act 1998.
+That definition is to be applied for the purposes of this Prudential Standard as if subparagraph (1)(l) of
+that definition were omitted.
+
+
+                                                                                            CPS 510 – 10
+                                    DRAFT                                     June 2026
+
+
+Board committees
+
+35.    For any Board committee with delegated authority to fulfill a board obligation
+       under APRA’s prudential standards, it must:
+
+ (a)    have a written charter that outline its authority, objectives, respective roles and
+        responsibilities, and terms of operation;
+
+ (b)    be appropriately composed to enable it to exercise competent and independent
+        judgment when fulfilling its role;
+
+ (c)    have sufficient powers to enable it to fulfill its role;
+
+ (d)    take all reasonable steps to access all information necessary, including access
+        to other Board committees, senior managers, risk and financial control
+        personnel and other relevant parties in fulfilling its role;
+
+ (e)    if choosing to engage third-party experts, have the power to do so in a manner
+        that ensures that the engagement, including any advice received, is
+        independent of the Board.; and
+
+ (f)    provide constructive challenge to senior managers.
+
+36.    A locally incorporated regulated entity must maintain a Board:
+
+ (a)    Audit Committee;
+
+ (b)    Risk Committee; and
+
+ (c)    Remuneration Committee, where the regulated entity is a significant financial
+        institution.
+
+37.    Significant financial institutions must maintain separate Audit and Risk
+       Committees. Non-significant financial institutions may combine the Audit and
+       Risk Committees.
+
+38.    Board Audit, Risk and Remuneration Committees must have at least three
+       members on the Committee. All members of each committee must be non-
+       executive directors.
+
+39.    For all regulated entities other than RSE licensees, the Audit, Risk and
+       Remuneration Committees must have:
+
+ (a)    a majority of independent directors as members of the committee; and
+
+ (b)    an independent director as the chair of the committee.
+
+40.    The chair of the Board may not chair either of the Audit or Risk Committees.
+
+Board Audit Committee
+41.    A Board Audit Committee must:
+
+
+                                                                            CPS 510 – 11
+                                       DRAFT                                           June 2026
+
+
+     (a)   assist the Board by providing objective non-executive oversight of the
+           regulated entity’s financial resilience, financial reporting and risk management
+           frameworks;
+
+     (b)   oversee:
+
+           (i)    compliance with all APRA reporting requirements;
+
+           (ii)   compliance with other financial reporting requirements;
+
+           (iii) compliance with professional accounting requirements; and
+
+           (iv) internal and external audit;
+
+     (c)   endorse and oversee the appointment and removal of the regulated entity’s
+           auditor13 and Head of Internal Audit;14
+
+     (d)   if the regulated entity’s auditor or Head of Internal Audit are removed from
+           their position, ensure reasons for removal are communicated to APRA within
+           10 business days after the Committee’s endorsement;
+
+     (e)   review the auditor15 engagement annually, including making an assessment of
+           auditor independence against the requirements of APES 110 Code of Ethics
+           for Professional Accountants,16 and the independence requirements set out in
+           Attachment A to this Prudential Standard;
+
+     (f)   regularly review the internal and external audit plans to ensure material risks
+           and financial reporting requirements and associated internal control systems
+           are in scope;
+
+     (g)   regularly review audit findings and ensure that issues are being managed and
+           rectified in an appropriate and timely manner;
+
+     (h)   review the results of the annual and triennial risk management framework
+           reviews as relevant;17
+
+     (i)   oversee the adequacy and independence of both the internal and external audit
+           functions;
+
+     (j)   ensure the internal auditor has a reporting line and unfettered access to the
+           Board Audit Committee;
+
+
+
+
+13
+   For the purpose of this paragraph of this Prudential Standard, a reference to ‘auditor’ for an RSE
+licensee means an RSE auditor.
+14
+   For RSE licensees, refer to section 331AK of the Corporations Act for requirements relating to the
+removal of RSE auditors.
+15
+   For the purpose of this paragraph of this Prudential Standard, a reference to ‘auditor’ for an RSE
+licensee means an RSE auditor.
+16
+   APES 110 Code of Ethics for Professional Accountants was issued by the Accounting Professional and
+Ethical Standards Board in December 2010.
+17
+   As required under CPS 220 and SPS 220.
+
+
+                                                                                    CPS 510 – 12
+                                       DRAFT                                           June 2026
+
+
+     (k)    to the extent practical, take steps to satisfy itself that there is no conflict of
+            interest situation,18 circumstance or arrangement that could compromise, or be
+            seen to compromise, the independence of the auditor;19
+
+     (l)    meet regularly with auditors without senior managers present; and
+
+     (m) invite the auditor and the actuary, as applicable, to meetings of the Committee.
+
+Internal audit
+42.        A locally incorporated regulated entity must have an independent and adequately
+           resourced internal audit function. The internal audit function must evaluate the
+           adequacy and effectiveness of the financial and risk management frameworks of
+           the entity.
+
+43.        The internal audit function must, at all times, have unfettered access to the
+           regulated entity’s business lines and support functions.
+
+44.        If a regulated entity does not believe it is necessary to have a dedicated internal
+           audit function, it may propose alternative arrangements to APRA. A proposal for
+           alternative arrangements must set out the details of and reasons for the proposed
+           alternative arrangement. APRA may approve alternative arrangements for the
+           regulated entity if satisfied that those arrangements will, in APRA’s opinion,
+           achieve the objectives of this Prudential Standard.
+
+Board Risk Committee
+
+45.        A Board Risk Committee must:
+
+     (a)    assist the Board by providing objective non-executive oversight of the
+            implementation and operation of the regulated entity’s risk management
+            framework and internal control systems;
+
+     (b)    advise the Board on the regulated entity’s overall current and future risk
+            appetite and risk management strategy;
+
+     (c)    monitor the regulated entity’s current and future risk position relative to its
+            risk appetite;
+
+     (d)    monitor and advise the Board on the regulated entity’s risk culture;
+
+     (e)    monitor and advise the Board on senior manager implementation of the risk
+            management strategy;
+
+     (f)    advise the Board in its preparation of the annual risk management declaration;
+
+
+
+
+18
+   A ‘conflict of interest situation’ has the meaning given in paragraph 3 of Attachment A to this
+Prudential Standard.
+19
+   For the purpose of this paragraph of this Prudential Standard, a reference to ‘auditor’ for an RSE
+licensee means an RSE auditor.
+
+
+                                                                                    CPS 510 – 13
+                                       DRAFT                                      June 2026
+
+
+     (g)    review the results of the annual and triennial risk management framework
+            reviews as relevant; 20
+
+     (h)    review the performance and set the objectives of the regulated entity’s CRO or
+            equivalent, and ensure the CRO or equivalent has unfettered access to the
+            Board and the Risk Committee;
+
+     (i)    oversee and endorse the appointment and removal of the regulated entity’s
+            CRO or equivalent;
+
+     (j)    if the CRO or equivalent is removed from their position, ensure reasons for the
+            removal of the CRO are communicated to APRA within 10 business days,
+            after the Committee’s endorsement; and
+
+     (k)    invite the CRO, internal auditor, and actuary to attend all relevant sections of
+            meetings of the Risk Committee.
+
+Board Remuneration Committee
+46.        A Board Remuneration Committee must:
+
+     (a)    oversee the design and implementation of the remuneration framework and
+            monitor its operation;
+
+     (b)    consult the Risk Committee and CRO or equivalent, to enable risk outcomes to
+            be appropriately reflected in remuneration outcomes for persons in specified
+            roles. This consultation must follow a documented process;
+
+     (c)    obtain comprehensive reporting that will allow it to determine whether
+            remuneration outcomes of all remuneration arrangements align with
+            requirements in Prudential Standard CPS 511 Remuneration (CPS 511) or the
+            FAR Act;
+
+     (d)    provide clear guidance to senior managers on its expectations in determining
+            the appropriate level and timing of risk adjustment to the variable
+            remuneration outcomes for persons in specified roles as set out in CPS 511;
+            and
+
+     (e)    make annual recommendations to the Board on the remuneration arrangements
+            and variable remuneration outcomes for persons in specified roles in
+            accordance with CPS 511.
+
+Board skills and capability
+
+47.        A locally incorporated regulated entity must document in a skills matrix the skills,
+           experience and behavioural attributes required for the Board and its committees
+           to perform effectively (Board skills matrix), having regard to:
+
+     (a)    the entity’s strategy, business mix, risk appetite and complexity; and
+
+
+20
+     As required under CPS 220 and SPS 220.
+
+
+                                                                                CPS 510 – 14
+                                    DRAFT                                      June 2026
+
+
+ (b)    the likely future skills needs of the Board and its committees.
+
+48.    The Board skills matrix must include clear assessment criteria and rating scales
+       of proficiency that can be measured and verified.
+
+49.    The Board must take all reasonable steps to ensure it:
+
+ (a)    has the skills, experience and behavioural attributes it needs to effectively
+        perform its role; and
+
+ (b)    can demonstrate how it is actively addressing any current or future skill and
+        capability deficiencies.
+
+Board, committee and director performance
+
+50.    A locally incorporated regulated entity must assess the performance of the Board,
+       Board committees and individual directors at least annually (annual performance
+       assessment).
+
+51.    The annual performance assessment must evaluate, at a minimum:
+
+ (a)    Board and Board committee performance measured against their respective
+        objectives;
+
+ (b)    the appropriateness of the Board skills matrix, having regard to plans for
+        Board renewal and the regulated entity’s strategic objectives, risk profile, size,
+        business mix and complexity;
+
+ (c)    the effectiveness of individual directors measured against the directors’
+        performance objectives and the Board skills matrix; and
+
+ (d)    the effectiveness and appropriateness of the governance framework, having
+        regard to the regulated entity’s strategic objectives, risk profile, size, business
+        mix and complexity.
+
+52.    The Board must consider the annual performance assessment report and any
+       recommendations arising out of the assessment. The regulated entity must be able
+       to demonstrate to APRA progress against accepted recommendations from the
+       report.
+
+53.    The Board of a significant financial institution must engage an external,
+       independent expert to conduct a comprehensive assessment of Board, Board
+       committees and directors’ performance at least every three years (independent
+       performance assessment). In the year of this assessment, this exercise may replace
+       the annual performance assessment.
+
+54.    The independent performance assessment must evaluate, at a minimum:
+
+ (a)    the items identified in paragraph 51;
+
+
+
+
+                                                                             CPS 510 – 15
+                                           DRAFT                                            June 2026
+
+
+     (b)    the level and quality of engagement and constructive challenge between
+            directors; and between directors, the Chief Executive Officer (CEO) or
+            equivalent and senior managers;
+
+     (c)    the effectiveness of the chair of the Board and Board committee chairs;
+
+     (d)    the appropriateness of the Board and Board committee workloads and meeting
+            cadence;
+
+     (e)    the quality of management information to enable informed, risk-based decision
+            making and oversight;
+
+     (f)    the appropriateness and effectiveness of Board delegations; and
+
+     (g)    progress made on implementing accepted recommendations from the previous
+            independent performance assessment.
+
+55.        The independent performance assessment must use a robust, structured and
+           evidence-based methodology. It must be informed by a range of perspectives and
+           have regard to contemporary governance practice.
+
+56.        The Board must consider the independent performance assessment report and any
+           actions arising out of the assessment. The regulated entity must be able to
+           demonstrate to APRA progress against accepted recommendations from the
+           report.
+
+Board renewal and non-executive director tenure
+
+57.        A locally incorporated regulated entity must maintain a Board renewal policy. At
+           a minimum, the Board renewal policy must include:
+
+     (a)    the length of the term for which directors are appointed to the Board and the
+            tenure limits for individual directors. This tenure limit must not exceed the
+            limit set in paragraph 59 for non-executive directors;
+
+     (b)    the Board’s approach to renewal, including how it will maintain necessary
+            skills and experience having regard to the regulated entity’s Board skills
+            matrix;
+
+     (c)    how vacancies will be managed, including compliance with any legislative
+            constitutional requirements relating to director elections;21 and
+
+     (d)    the process (including voting rights) to identify, nominate, appoint, elect,
+            reappoint, remove and assess the independence of directors, and how any
+            disputes will be managed.
+
+58.        A locally incorporated regulated entity must maintain a Board renewal plan that
+           includes anticipated director retirements and individual director succession plans
+           having regard to the Board skills matrix.
+
+
+21
+     For RSE licensees, this includes compliance with the vacancy rules in Part 9 of the SIS Act.
+
+
+                                                                                         CPS 510 – 16
+                                         DRAFT                                             June 2026
+
+
+59.        A non-executive director of a locally incorporated regulated entity must not be a
+           non-executive director of that entity or its successor22 for more than 12 years in
+           total.
+
+60.        In exceptional circumstances, an extension beyond the 12 years of up to an
+           additional 12 months may be approved by the Board if the following conditions
+           are satisfied:
+
+     (a)    the Board approves this extension before the elapse of the 12 years, having
+            regard to the interests of the regulated entity, depositors, policyholders or
+            beneficiaries as relevant; and
+
+     (b)    the regulated entity notifies APRA in writing of the extension within 10 days
+            of Board approval.
+
+61.        For the purposes of calculating tenure under paragraph 59, the time an alternate
+           director acts in the capacity as a non-executive director must be included.
+
+62.        A regulated entity may apply in writing to APRA for an exemption from, or
+           adjustment to, the requirement of paragraph 61, setting out reasons for the request.
+           APRA may approve the entity’s request if satisfied that the exemption or
+           adjustment will achieve the objectives of this Prudential Standard.
+
+Group governance
+
+63.        The Head of a group must maintain governance arrangements for the group.
+
+64.        The Head of a group must ensure that, in relation to the governance of each
+           regulated entity within the group, arrangements are in place that support the Board
+           of that entity to exercise independent judgement in practice in overseeing the
+           prudential matters of the entity.
+
+65.        Without limiting paragraph 64, the arrangements must be designed to:
+
+     (a)    support the flow of timely and appropriate information to and from the Boards
+            of each of the regulated entities and the Board of the Head of the group;
+
+     (b)    support the identification and management of actual or potential conflicts
+            arising from intra-group roles, reporting lines or other group arrangements;
+            and
+
+     (c)    enable the escalation, consideration and resolution of matters raised by the
+            board of the regulated entity, including where those matters relate to group-
+            wide decisions or activities.
+
+
+
+
+22
+  For the purposes of this paragraph, a reference to ‘successor entity’ includes the acquiring entity in a
+merger or other similar corporate restructure, or the RSE licensee of a successor fund. Successor fund
+has the meaning given by regulation 1.03(1) of the Superannuation Industry (Supervision) Regulations
+1994.
+
+
+                                                                                        CPS 510 – 17
+                                   DRAFT                                      June 2026
+
+
+66.    In meeting the requirements of this Prudential Standard on a group basis, the Head
+       of a group must maintain a group internal audit function that meets the
+       requirements of paragraphs 42 and 44 on a group basis.
+
+67.    The Board of the Head of a group is ultimately responsible for oversight of the
+       sound and prudent management of the group and must also have the following
+       committees for the group:
+
+ (a)    a group Board Audit Committee that meets the requirements of paragraph 41
+        and that assists the Board by providing an objective non-executive review of
+        the effectiveness of the group’s financial reporting and group risk management
+        framework;
+
+ (b)    a group Board Risk Committee that meets the requirements of paragraph 45
+        and that assists the Board by providing an objective non-executive oversight of
+        the implementation and operation of the group risk management framework;
+        and
+
+ (c)    where the regulated entity is a significant financial institution, a group Board
+        Remuneration Committee that oversees the design, operation and monitoring
+        of the remuneration framework; is appropriately composed to enable it to
+        exercise competent and independent judgement; and has the powers necessary
+        to perform its functions.
+
+68.    The Board of a Head of a group must ensure that directors and senior managers
+       of the Head of the group, collectively, have the full range of skills needed for the
+       effective oversight and prudent management, respectively, of the group. This
+       does not lessen the responsibility of each of the individual Boards of the entities
+       within the group for their entities.
+
+69.    Where an institution within the group that is not a regulated entity engages in
+       business activities that may pose a material risk to the group, the Head of the
+       group must ensure that such business activities are undertaken in a way that
+       complies with the group governance arrangements.
+
+70.    The Head of a group must maintain a group fit and proper policy (refer to
+       paragraph 93).
+
+71.    For the purposes of this Prudential Standard, a locally incorporated regulated
+       entity that operates as a joint venture can be considered as part of the group of
+       each parent entity.
+
+72.    Where a regulated entity is part of a group, or corporate group in the case of
+       a private health insurer, the Board of the regulated entity may use a group Board
+       Remuneration Committee as the Board Remuneration Committee for the
+       regulated entity, provided that:
+
+ (a)    the requirements set out in this Prudential Standard are met;
+
+ (b)    all members of the group Board Remuneration Committee are non-executive
+        directors of the Head of the group in the context of an ADI, general
+        insurer or life company; and
+
+                                                                            CPS 510 – 18
+                                           DRAFT                                                June 2026
+
+
+     (c)    the Board of the regulated entity has free and unfettered access to the group
+            Board Remuneration Committee.
+
+73.        Where a locally incorporated regulated entity uses group policies or functions,
+           the Board must approve the use of group policies and functions and must ensure
+           that these policies and functions give appropriate regard to the regulated entity’s
+           business and its specific requirements.
+
+Part B – Conflicts management
+
+74.        A regulated entity must:
+
+     (a)    identify and assess all actual and potential conflicts in connection to the
+            business operations of the regulated entity, including those arising from
+            structural, funding or remuneration arrangements (including intra-group
+            arrangements);23
+
+     (b)    implement appropriate controls to effectively identify, manage and monitor
+            conflicts having regard to the associated risks and potential impacts on the
+            interests of, or duties owed to its policyholders, depositors or beneficiaries;
+
+     (c)    avoid conflicts where required by law, or where the regulated entity
+            reasonably concludes that the conflict cannot be effectively managed to protect
+            the interests of depositors, policyholders or beneficiaries;24
+
+     (d)    take reasonable steps to ensure that responsible persons and employees
+            understand their obligations under the conflicts management policy required
+            by paragraph 75;
+
+     (e)    assess and monitor the effectiveness of controls implemented to identify and
+            manage conflicts and take steps to remediate controls where the risks or
+            impact of a conflict change;
+
+     (f)    maintain a current register of potential and actual conflicts, including the
+            Interests and duties that could reasonably be considered to give rise to or have
+            the potential to give rise to a conflict, and the associated controls to monitor
+            and manage those conflicts;25
+
+     (g)    record in the minutes of the Board, Board committees and other relevant
+            meetings, details of conflicts disclosed at the respective meeting and the action
+            taken to avoid or manage those conflicts;
+
+
+23
+   For RSE licensees, ensure that any actual conflicts are managed in accordance with the requirements
+to give priority to the duties to, and interests of, beneficiaries as set out in sections 52(2)(d) and 52A(2)(d)
+of the SIS Act.
+24
+   Nothing in this prudential standard authorises a person to manage a conflict if the general law requires
+the person to avoid it.
+25
+   For the purposes of regulated entities that are RSE licensees, this prudential requirement can be
+complied with through compliance with the requirement to keep and maintain the registers required under
+paragraph 76 of this Prudential Standard and to also include associated controls to monitor and manage
+the actual or potential conflicts resulting from the relevant duties and relevant interests.
+
+
+                                                                                             CPS 510 – 19
+                                    DRAFT                                       June 2026
+
+
+ (h)    for RSE licensees, where an actual conflict exists, demonstrate through written
+        records how the RSE licensee has managed the conflict in accordance with the
+        requirements to give priority to the duties to beneficiaries and interests of
+        beneficiaries in sections 52(2)(d) and 52A(2)(d) of the SIS Act;
+
+ (i)    monitor compliance with the conflicts management policy; and
+
+ (j)    ensure that the appropriateness and effectiveness of its conflicts management
+        policy is reviewed by operationally independent, appropriately trained and
+        competent persons at least annually. This review may be incorporated into a
+        regulated entity’s board annual performance assessment, independent
+        performance assessment or, for all regulated entities other than RSE licensees,
+        review of the risk management framework.
+
+75.    A regulated entity must have a conflicts management policy that applies to the
+       regulated entity, all responsible persons and all employees, and at a minimum:
+
+ (a)    defines roles, responsibilities and resources for conflicts management and
+        oversight;
+
+ (b)    documents processes, systems and controls to fulfil the obligations set out in
+        paragraph 74; and
+
+ (c)    is proportionate to and consistent with the regulated entity’s strategic
+        objectives, risk profile, size, business mix and complexity.
+
+76.    An RSE licensee must keep and maintain an up-to-date register of relevant duties
+       and an up-to-date register of relevant interests. For the purpose of this paragraph:
+
+ (a)    a ‘relevant duty’ is a duty specified in paragraph (c) or a duty to beneficiaries
+        specified in paragraph 8(g) of this Prudential Standard; or
+
+ (b)    a ‘relevant interest’ is any interest or benefit, whether pecuniary or non-
+        pecuniary, vested or non-vested, directly or indirectly held (including an
+        interest to favour or benefit a third party, such as a close family member of a
+        responsible person of the regulated entity) of:
+
+        (i)    an RSE licensee;
+
+        (ii)   an associate of the RSE licensee; or
+
+        (iii) a responsible person of the RSE licensee,
+
+        that might reasonably be considered to have the potential to have a real or
+        substantial impact on the capacity of the RSE licensee, the associate of the
+        RSE licensee, or the responsible person of the RSE licensee with the relevant
+        duty, or holding the relevant interest, to act in a way that:
+
+        (iv) is consistent with duties to beneficiaries;
+
+        (v)    does not adversely affect the interests of beneficiaries; and
+
+
+
+                                                                               CPS 510 – 20
+                                        DRAFT                                            June 2026
+
+
+            (vi) gives priorities to duties to beneficiaries and the interests of beneficiaries
+                 over other duties and Interests (as defined in paragraphs (c) and 8(d) of
+                 this Prudential Standard).
+
+Part C – Fit and proper
+
+77.        A regulated entity must take all reasonable steps to ensure their responsible
+           persons are fit and proper.
+
+Fit and proper assessment
+
+78.        A regulated entity must complete a fit and proper assessment for a person before
+           appointment to a responsible person position, except in cases set out in paragraphs
+           79 and 80.
+
+79.        A regulated entity must complete a fit and proper assessment for a person within
+           30 days of them becoming a responsible person in the case where the person holds
+           a responsible person position because:
+
+     (a)    of a resolution of members of the regulated entity; or
+
+     (b)    APRA has determined that the person is a responsible person under paragraph
+            8(b)(vi) or 8(b)(vii).
+
+80.        If a regulated entity makes an interim appointment to a responsible person
+           position, the regulated entity must complete a fit and proper assessment for the
+           appointed person either:
+
+     (a)    within 90 days of appointment; or
+
+     (b)    before converting any interim appointment to a permanent appointment,
+
+           whichever is earlier.
+
+81.        A regulated entity must validate a responsible person’s fitness and propriety at
+           least annually following their appointment to a responsible person position. For
+           responsible persons who are directors, annual validation of fitness and propriety
+           must have regard to directors’ performance objectives and the Board skills matrix
+           and may be done as part of the annual performance assessment.
+
+Fit and proper criteria
+
+82.        A regulated entity must clearly define and document the competencies required
+           for each responsible person position.
+
+83.        Paragraphs 84 to 86 set out the criteria for fitness and propriety referred to in the
+           Prudential Acts.26
+
+
+
+26
+  Banking Act s 17(2)(b), s 21(1), s 21(3)(b) s 23(2)(b); SIS Act s 126H(6A); Insurance Act s 25A(3)(b),
+s 27(2)(b), s 44(1)(a)(ii), s 49R(3)(b); Life Insurance Act s 245A(3)(b); and PHIPS Act s 120(3)(a).
+
+
+                                                                                       CPS 510 – 21
+                                           DRAFT                                              June 2026
+
+
+84.        To determine if a person is fit and proper, a regulated entity must be satisfied that
+           it would be prudent to conclude that:27
+
+     (a)    the person possesses the skill, character, care, diligence, honesty, integrity and
+            judgement to perform properly the duties of the responsible person position;
+
+     (b)    the person’s education, technical qualifications and experience are suitable to
+            the duties and responsibilities of the position; and
+
+     (c)    for a director role or senior officer outside Australia (SOOA) role, the person
+            has the time and capacity to properly perform the duties of the role.
+
+85.        A person is not fit and proper if the person:
+
+     (a)    is disqualified under the Prudential Acts or FAR Act from holding the
+            position; or
+
+     (b)    has a conflict that a prudent regulated entity would consider will create a
+            material risk of the person not properly fulfilling the responsibilities of the
+            position.
+
+86.        In assessing a person’s fitness and propriety, a regulated entity must consider:
+
+     (a)    for a director role, the Board’s skills needs under the Board skills matrix;
+
+     (b)    professional references; and
+
+     (c)    the findings of any court, tribunal, regulator, board, arbitrator, public inquiry
+            or other body whose responsibility it is to make findings of the relevant kind
+            that the person has been subject to.
+
+87.        In applying the fit and proper criteria, a regulated entity must be able to
+           demonstrate that it has undertaken a rigorous process and verified information as
+           appropriate. This includes making all reasonable enquiries to obtain information,
+           including collecting sensitive information as defined in the Privacy Act 1988
+           (Privacy Act), that the regulated entity believes may be relevant to an assessment
+           of whether the person is fit and proper to be a responsible person.
+
+Reassessment of fitness and propriety
+
+88.        Where a regulated entity becomes aware of information that may result in a
+           responsible person no longer meeting the fit and proper criteria, it must take all
+           reasonable steps, including collecting sensitive information as defined in the
+           Privacy Act if relevant, to determine if a material fitness and propriety concern
+           exists within a timely manner. Where a material concern exists, a fit and proper
+           reassessment must be conducted.
+
+
+
+
+27
+     Auditors and actuaries are subject to additional criteria in Attachment B to this Prudential Standard.
+
+
+                                                                                           CPS 510 – 22
+                                            DRAFT                                             June 2026
+
+
+89.        At a minimum, a regulated entity must reassess a responsible person’s fitness and
+           propriety where the regulated entity has reasonable grounds to believe that the
+           individual:
+
+     (a)    may not be meeting minimum fitness or propriety expectations;
+
+     (b)    is the subject of allegations of misconduct or has behaved in a manner
+            inconsistent with the regulated entity’s code of conduct or other similar
+            requirements; or
+
+     (c)    has been subject to adverse findings in criminal, civil or professional
+            proceedings.
+
+90.        APRA may require a regulated entity to conduct a reassessment in cases where
+           APRA’s concerns about a responsible person’s fitness and propriety are not
+           addressed in a timely manner or in the case where APRA forms the view that the
+           process has not been undertaken in accordance with paragraph 87.
+
+Consequences of adverse assessments
+
+91.        Where a regulated entity has determined that a person is not fit and proper, or a
+           reasonable person in the regulated entity’s position would make that assessment,
+           the regulated entity must take all reasonable steps to ensure that the person:28
+
+     (a)    is not appointed to; or
+
+     (b)    for an existing responsible person, does not continue to hold,
+
+           the responsible person position.
+
+92.        A regulated entity must notify APRA within 10 business days if it assesses that a
+           responsible person is not fit and proper. If the person remains in the responsible
+           person position, the notification must state the reason for this and the action that
+           is being taken.
+
+Fit and proper policy
+
+93.        A regulated entity must maintain a fit and proper policy that includes, at a
+           minimum:
+
+     (a)    roles and responsibilities, timelines and decision-making processes to be
+            followed;
+
+     (b)    fit and proper requirements as set out in paragraph 82 to 86 and any other
+            matters the regulated entity will consider before determining a person is fit and
+            proper;
+
+     (c)    the type of information the regulated entity will collect in assessing fitness and
+            propriety, the process for obtaining consent required for the collection and use
+
+
+28
+           Including the actions outlined in the fit and proper policy in accordance with paragraph 93(f).
+
+
+                                                                                            CPS 510 – 23
+                                    DRAFT                                    June 2026
+
+
+        of any information and information retention procedures in relation to the
+        regulated entity’s current and former responsible persons;
+
+ (d)    for directors, how the Board skills matrix will be considered in assessing
+        fitness and propriety;
+
+ (e)    the circumstances in which the regulated entity will reassess a responsible
+        person’s fitness and propriety, in accordance with paragraphs 88 and 89;
+
+ (f)    the actions the regulated entity will take where a responsible person is assessed
+        as not being fit and proper; and
+
+ (g)    the processes, systems and controls to:
+
+        (i)    encourage any person to disclose information that may be relevant to a
+               fit and proper assessment to the regulated entity or to APRA;
+
+        (ii)   fulfil the obligations set out in paragraph 94; and
+
+        (iii) maintain compliance with APRA engagement and non-constraint
+              requirements under paragraphs 95 to 101.
+
+94.    A regulated entity must:
+
+ (a)    take all reasonable steps to ensure that responsible persons and employees
+        understand their obligations under the fit and proper policy;
+
+ (b)    provide a copy of the fit and proper policy and conflicts management policy to
+        any person before an assessment of their fitness and propriety is conducted;
+
+ (c)    monitor compliance with the fit and proper policy; and
+
+ (d)    annually review the appropriateness and effectiveness of the fit and proper
+        policy. This may form part of the annual performance assessment or the
+        independent performance assessment.
+
+APRA engagement and non-constraint
+
+95.    A regulated entity must allow persons to provide information to the entity or
+       APRA if they have information that a responsible person may not be fit and
+       proper.
+
+96.    A regulated entity must allow persons to provide information to the entity or
+       APRA if they have information that an entity may not have complied with this
+       Prudential Standard.
+
+97.    A regulated entity must allow persons to provide information to the entity or
+       APRA if they have concerns about accounting, internal control, compliance or
+       audit matters.
+
+98.    A regulated entity must not, and must ensure that its subsidiaries do not, prohibit
+       any person who held a responsible person position from disclosing information
+
+
+                                                                           CPS 510 – 24
+                                   DRAFT                                      June 2026
+
+
+      or providing documents to APRA relating to their reasons for resignation,
+      retirement or removal.
+
+99.   A regulated entity must not, and must ensure that its subsidiaries do not, constrain,
+      impede, restrict or discourage, whether by confidentiality clauses, policies or
+      other means, any person from disclosing information or providing documents to
+      APRA about matters referred to in paragraphs 95 to 96.
+
+100. No prospective, current or former officer, employee or contractor (including
+     professional service provider) of a regulated entity may be constrained or
+     impeded, whether by confidentiality clauses or other means, from disclosing
+     information to APRA, from discussing issues with APRA of relevance to the
+     management and prudential supervision of the regulated entity or from providing
+     documents under their control to APRA, that may be relevant in the context of
+     the management or prudential supervision of the entity. Such persons are not to
+     be constrained or impeded from providing information to, as applicable, auditors,
+     the actuary and others, who have statutory responsibilities in relation to the
+     regulated entity.
+
+101. A regulated entity must ensure that its internal policy and contractual
+     arrangements do not explicitly or implicitly restrict or discourage auditors or
+     other parties from communicating with APRA.
+
+Part D – Appointments
+
+102. The chair of the Board cannot have been the Chief Executive Officer (CEO) of
+     the regulated entity at any time during the previous three years. If the position of
+     the CEO is unexpectedly vacated, the chair may serve as an interim CEO for a
+     period of up to 90 days. The regulated entity must seek APRA’s prior approval
+     for any interim appointment of the Chair as CEO that exceeds 90 days.
+
+103. A person who was a member of an audit firm or a director of an audit company,
+     or in the case of an RSE licensee an individual RSE auditor, who served in a
+     professional capacity in the audit of a regulated entity in relation to the Prudential
+     Acts, prudential standards or reporting standards, cannot be appointed to the role
+     of director of that regulated entity until at least two years have passed since they
+     served in that professional capacity.
+
+104. A person who was an employee of an audit company, other than a director of that
+     company, and who acted as the lead auditor or review auditor in the audit of a
+     regulated entity in relation to the Prudential Acts, prudential standards or
+     reporting standards, cannot be appointed to the role of director or senior manager
+     of that regulated entity until at least two years have passed since they acted as the
+     lead auditor or review auditor.
+
+105. A person cannot be appointed as a director or senior manager of a regulated entity
+     if:
+
+
+
+
+                                                                            CPS 510 – 25
+                                       DRAFT                                           June 2026
+
+
+     (a)   the person was, or is, a director of the audit company or a member of the audit
+           firm that was, or is, responsible for the audit of the regulated entity in relation
+           to the Prudential Acts, prudential standards or reporting standards; and
+
+     (b)   there is already another person appointed or employed as a director or senior
+           manager of the regulated entity who was a director of the audit company or a
+           member of the audit firm, at a time when the audit company or audit firm
+           undertook an audit of the regulated entity at any time during the previous two
+           years.
+
+106. Where relevant, the auditor29 and actuary cannot both be employed by the same
+     body corporate or related body corporate, or by the same firm or related firms.
+
+Part E – Special provisions for foreign ADIs, Category
+C insurers, Eligible Foreign Life Insurance Companies
+
+107. The Board of a foreign ADI, Category C insurer or EFLIC is ultimately
+     responsible for overseeing the sound and prudent management of the regulated
+     entity, including its Australian operations.
+
+Senior officers outside Australia and corporate agents
+108. Foreign ADIs or Category C insurers must appoint a senior officer outside
+     Australia, or SOOA, responsible for overseeing the sound and prudent
+     management of the entity’s Australian operations. The SOOA must be appointed
+     with formal delegated authority from, and have access to, the Board.
+
+109. The SOOA’s prudential responsibilities that cannot be delegated are to:
+
+     (a)   set and monitor the strategic objectives, business plan and risk appetite;
+
+     (b)   oversee the culture, including risk culture, and values and set a clear tone from
+           the top;
+
+     (c)   oversee governance, remuneration and risk management frameworks, and
+           make the annual risk management declaration (as set out in CPS 220);
+
+     (d)   oversee financial and operational resilience; and
+
+     (e)   constructively challenging senior managers.
+
+110. Subject to paragraph 109, where a prudential standard imposes any other
+     obligation on the SOOA of a regulated entity, that obligation may, to the extent
+     permitted by law, be delegated to senior managers who are ordinarily resident in
+     Australia.
+
+111. In delegating any authority, the SOOA must ensure that:
+
+
+29
+   For the purpose of this paragraph of this Prudential Standard, a reference to ‘auditor’ for an RSE
+licensee means an RSE auditor.
+
+
+                                                                                    CPS 510 – 26
+                                           DRAFT                                      June 2026
+
+
+     (a)   the delegation, including any limitations, are clearly documented and
+           consistent with charters and accountability frameworks;
+
+     (b)   the delegation is risk-based and in line with the entity’s risk appetite;
+
+     (c)   there are mechanisms in place for monitoring the proper and effective exercise
+           of delegated authority, and for reporting to the Board any material issues or
+           changes;
+
+     (d)   conflicts arising from or in connection with a delegation are identified and
+           appropriately managed; and
+
+     (e)   they continue to oversee the obligation and regularly review the
+           appropriateness of the delegation.
+
+112. For a foreign ADI, there must also be a senior manager in Australia responsible
+     for the local operation who is ordinarily resident in Australia.30 Where a Category
+     C insurer has appointed a corporate agent in Australia, the agent must have a
+     senior manager.
+
+113. The SOOA and senior managers of a foreign ADI, or the agent in Australia or the
+     SOOA of a Category C insurer, must be available to meet with APRA on request.
+
+114. Senior managers of the local operation of a foreign ADI or the agent in Australia
+     or the SOOA of a Category C insurer must deal with the SOOA in a clear, timely
+     and transparent manner. It must brief the SOOA effectively, with succinct and
+     relevant information to support decision making.
+
+115. A Category C insurer that appoints a corporate agent as its agent in Australia
+     must additionally ensure that:
+
+     (a)   the Board of the corporate agent has a minimum of three directors at all times;
+           and
+
+     (b)   a majority of the directors of the Board of the corporate agent are ordinarily
+           resident in Australia.
+
+116. Senior managers for the Australian operations of a foreign ADI or Category C
+     insurer must be ordinarily resident in Australia.
+
+117. Senior managers for the Australian operations of a foreign ADI or Category C
+     insurer are responsible for carrying out and managing the regulated entity’s
+     activities in a manner consistent with:
+
+     (a)   the regulated entity’s strategic objectives, business plan and risk appetite;
+
+     (b)   the regulated entity’s culture and values;
+
+     (c)   frameworks and policies approved by the Board; and
+
+
+30
+     For a Category C insurer, the Agent in Australia may fulfil this requirement.
+
+
+                                                                                     CPS 510 – 27
+                                   DRAFT                                     June 2026
+
+
+ (d)    all legal duties and obligations of the regulated entity, including, for RSE
+        licensees, the duty to act in the best financial interests of beneficiaries.
+
+118. Senior managers for the Australian operations of a foreign ADI or Category C
+     insurer are responsible for implementing business strategies, risk management
+     systems, risk culture, processes and controls for managing the risks to which the
+     regulated entity is exposed.
+
+EFLIC Compliance Committee
+119. An EFLIC must establish a Compliance Committee with sufficient powers to
+     enable its members to ensure that the company complies with its obligations
+     under the Life Insurance Act. Requirements relating to the Compliance
+     Committee are set out in Attachment C.
+
+120. The Compliance Committee of an EFLIC must be available to meet with APRA
+     on request.
+
+Remuneration obligations
+
+121. Consistent with requirements in CPS 511, the SOOA or Compliance Committee,
+     as relevant, must:
+
+ (a)    oversee the design, operation and monitoring of the remuneration framework;
+
+ (b)    obtain comprehensive reporting that will allow it to determine whether
+        remuneration outcomes of all remuneration arrangements align with
+        requirements in CPS 511;
+
+ (c)    provide clear guidance to senior managers on its expectations in determining
+        the appropriate level and timing of risk adjustment to the variable
+        remuneration outcomes for persons in specified roles;
+
+ (d)    have free and unfettered access to other committees;
+
+ (e)    have free and unfettered access to risk and financial control personnel and
+        other relevant parties (internal and external); and
+
+ (f)    if choosing to engage third-party experts, have the power to do so in a manner
+        that ensures that the engagement, including any advice received, is
+        independent.
+
+Audit
+122. The SOOA or Compliance Committee of an EFLIC, as relevant, must provide the
+     external auditor of the regulated entity with the opportunity to raise matters
+     directly with them.
+
+123. The SOOA for a foreign ADI or Category C insurer, or Compliance Committee
+     for an EFLIC, must review the auditor engagement annually, including making
+     an assessment against the Audit Independence tests set out in APES 110 Code of
+
+
+
+                                                                           CPS 510 – 28
+                                DRAFT                                  June 2026
+
+
+     Ethics for Professional Accountants and independence requirements set out in
+     this Prudential Standard.
+
+124. For a foreign ADI, a Category C insurer and an EFLIC, the auditor of the local
+     operation must have direct access to the Head Office audit function.
+
+
+
+
+                                                                     CPS 510 – 29
+                                         DRAFT                                             June 2026
+
+
+Attachment A – Auditor independence test
+
+1.         A regulated entity must take all reasonable steps to satisfy itself that:
+
+     (a)     the auditor31 is independent of the regulated entity; and
+
+     (b)    there is no conflict of interest situation that could compromise, or be seen to
+            compromise, the independence of the auditor.
+
+2.         As part of meeting the requirement in paragraph 1 of Attachment A, a regulated
+           entity must obtain a declaration from the auditor to the effect that:
+
+     (a)    the auditor is independent, both in appearance and in fact;
+
+     (b)    the auditor has no conflict of interest situation; and
+
+     (c)    there is nothing to the auditor’s knowledge (either in relation to the individual
+            auditor or any audit firm or audit company of which the auditor is a member or
+            director) that could compromise that independence.
+
+3.         For the purposes of this Prudential Standard, a conflict of interest situation exists
+           in relation to a regulated entity at a particular time, if because of circumstances
+           that exist at that time:
+
+     (a)    the auditor is not capable of exercising objective and impartial judgement in
+            relation to the conduct of the work that is undertaken for the regulated entity in
+            relation to the Prudential Acts, prudential standards or reporting standards; or
+
+     (b)    a reasonable person, with full knowledge of all relevant facts and
+            circumstances, would conclude that the auditor is not capable of exercising
+            objective and impartial judgement in relation to undertaking the work for the
+            regulated entity for the purposes of the Prudential Acts, prudential standards or
+            reporting standards.32
+
+
+
+
+31
+   For the purpose of this paragraph of this Prudential Standard, a reference to ‘auditor’ for an RSE
+licensee means an RSE auditor.
+32
+   Refer to section 324CD of the Corporations Act, which describes the circumstances under which a
+conflict of interest situation exists in relation to an auditor. Without limiting paragraphs 3(a) and 3(b)
+of Attachment A, the relationships set out in subsection 324CD(2) of the Corporations Act are to be
+taken into consideration in the context of paragraph 1(b) of Attachment A.
+
+
+
+
+                                                                                        CPS 510 – 30
+                                         DRAFT                                               June 2026
+
+
+4.         Subject to paragraph 5 of Attachment A, an individual who plays a significant
+           role33 in the audit of:
+
+     (a)    an RSE, in relation to RSE licensee law; or
+
+     (b)    where the regulated entity is not an RSE licensee: the regulated entity, in
+            relation to the Prudential Acts, prudential standards or reporting standards,
+
+     for five successive years, or for more than five years out of seven successive years,
+     cannot continue to play a significant role in the audit until at least a further two years
+     have passed, except with an exemption from APRA. APRA may grant exemption
+     from this requirement if:
+
+     (c)    the individual provides specialist services that are otherwise not readily
+            available; or
+
+     (d)    there are no other registered company auditors available to provide satisfactory
+            services to the regulated entity.
+
+5.         Paragraph 4 of Attachment A applies to RSE licensees until 1 July 2028.34
+
+
+
+
+33
+   For the purpose of this paragraph of this Prudential Standard, an individual plays ‘a significant role’
+in the audit of:
+     (a) an RSE, in relation to RSE licensee law if (i) the person is appointed as an individual RSE
+         auditor and acts as the auditor in respect of any of the requirements of RSE licensee law; or (ii)
+         an audit company or audit firm is appointed as RSE auditor and the person acts, on behalf of the
+         company or firm, as a lead auditor, or a review auditor, in respect of any of the requirements of
+         RSE licensee law; or
+     (b) the regulated entity, other than an RSE licensee, if the person is an individual auditor who acts
+         as the auditor in respect of any of the requirements of Prudential Acts, prudential standards or
+         reporting standards, or the lead or review auditor where such audit work is performed by an
+         audit company or audit firm.
+34
+   From 1 July 2028, the limited term for eligibility to play a significant role in the audit of an RSE will
+be assessed solely in accordance with section 324DA of the Corporations Act 2001.
+
+
+                                                                                          CPS 510 – 31
+                                     DRAFT                                     June 2026
+
+
+Attachment B – Additional fit and proper criteria for
+auditors and actuaries
+
+Auditors
+1.     The criteria for fitness and propriety of an auditor for the purposes of the
+       Prudential Acts are set out in paragraphs 84 to 86 of this Prudential Standard and
+       paragraph 2 of Attachment B.
+
+2.     The additional criteria that must be met for an auditor to be fit and proper are that
+       the person:
+
+ (a)    is a registered company auditor under the Corporations Act 2001 or is the
+        Auditor-General (or a delegate of the Auditor-General) of the Commonwealth,
+        a State or Territory;
+
+ (b)    has a minimum of five years’ relevant experience in the audit of a regulated
+        entity in the industry within which they are working;
+
+ (c)    is neither the Chief Executive Officer (CEO) nor a director of the regulated
+        entity nor of a related body corporate;
+
+ (d)    for RSE licensees, is not the CEO or a director or employee of:
+
+        (i)    the RSE licensee, or
+
+        (ii)   a connected entity;
+
+ (e)    has experience relating to ADIs, general insurers, life companies, private
+        health insurers or the business operations of RSE licensees (as relevant) that is
+        sufficiently relevant and recent to provide reasonable assurance that the person
+        is familiar with current issues in the audit of that type of regulated entity;
+
+ (f)    for an auditor of a general insurer or authorised insurance NOHC, is not:
+
+        (i)    for the Appointed Auditor of a general insurer, the Appointed Actuary of
+               the general insurer or, for the responsible auditor of an authorised
+               insurance NOHC, the Appointed Actuary of a general insurer that is a
+               subsidiary of the authorised insurance NOHC;
+
+        (ii)   an employee or director of a body corporate, statutory body, partnership,
+               trust or commercial or professional enterprise of any kind of which that
+               Appointed Actuary is an employee or director; or a partner of that
+               Appointed Actuary;
+
+ (g)    for an auditor of a life company or a registered life NOHC, is not:
+
+        (i)    the Appointed Actuary of the life company or of a life company that is a
+               subsidiary of the registered life NOHC; an employee or director of a
+               body corporate, statutory body, partnership, trust or commercial or
+
+
+
+                                                                             CPS 510 – 32
+                                    DRAFT                                      June 2026
+
+
+               professional enterprise of any kind of which that Appointed Actuary is
+               an employee or director; or
+
+        (ii)   a partner of that Appointed Actuary;
+
+ (h)    for an auditor of an RSE licensee, is not:
+
+        (i)    the RSE actuary of an RSE within the RSE licensee’s business
+               operations;
+
+        (ii)   an employee or director of a body corporate, statutory body, partnership,
+               trust or commercial or professional enterprise of any kind of which the
+               RSE actuary is an employee or director; or
+
+        (iii) a partner of the RSE actuary;
+
+ (i)    is a member of a recognised professional body; and
+
+ (j)    is ordinarily resident in Australia.
+
+3.     The criteria in paragraph 2 of Attachment B do not apply if the following
+       conditions are met:
+
+ (a)    the regulated entity reasonably considers that there are exceptional
+        circumstances;
+
+ (b)    the regulated entity has promptly notified APRA of the eligibility criteria that
+        are not satisfied and of the exceptional circumstances as to why they do not
+        apply; and
+
+ (c)    APRA has notified the regulated entity that APRA has no objections to the
+        person holding the position in question.
+
+Actuaries
+4.     The criteria for fitness and propriety of an actuary of a general insurer, life
+       company, private health insurer or RSE licensee for the purposes of the Insurance
+       Act, Life Insurance Act, PHIPS Act and SIS Act (as relevant) are set out in
+       paragraphs 84 to 86 of this Prudential Standard and paragraph 5 of Attachment
+       B.
+
+5.     The additional criteria that must be met for a person to be fit and proper to act as
+       an actuary of a general insurer, a life company, a private health insurer or an RSE
+       are that the person:
+
+ (a)    has appropriate formal qualifications;
+
+ (b)    is not the CEO or a director of the general insurer or life company, as
+        applicable, or of a related body corporate (except when that related body
+        corporate is a subsidiary of the general insurer or life company, as applicable);
+
+ (c)    for RSE licensees, is not the CEO or a director or employee of:
+
+
+                                                                            CPS 510 – 33
+                                     DRAFT                                     June 2026
+
+
+        (i)       the RSE licensee, or
+
+        (ii)   a connected entity;
+
+ (d)    is not:
+
+        (i)    the Appointed Auditor or Auditor, as applicable;
+
+        (ii)   the auditor of the RSE licensee;
+
+        (iii) the RSE auditor of an RSE within the RSE licensee’s business
+              operations;
+
+        (iv) for an Appointed Actuary, an employee or director of an entity of which
+             the auditor is an employee or director; or
+
+        (v)    for an Appointed Actuary, a partner of the Appointed Auditor or
+               Auditor, as applicable;
+
+ (e)    has a minimum of five years’ relevant experience in the provision of actuarial
+        services to, as relevant, entities carrying on insurance business (for a general
+        insurer), life business (for a life company) or private health insurance (for a
+        private health insurer), or to RSE licensees and RSEs or in superannuation
+        more generally;
+
+ (f)    has experience relating to, as relevant, general insurers, life companies, private
+        health insurers or RSE licensees, that is sufficiently relevant and recent to
+        provide reasonable assurance that the person is familiar with current issues in
+        the provision of actuarial services to the regulated entity (the business
+        operations of RSE licensees);
+
+ (g)    is a Fellow or Accredited Member of the Institute of Actuaries of Australia;
+        and
+
+ (h)    is ordinarily resident in Australia.
+
+6.     The criterion in paragraph 5(h) of Attachment B does not apply to the Appointed
+       Actuary of a Category B insurer and a Category C insurer if:
+
+ (a)    the Appointed Actuary is responsible for providing actuarial services to the
+        corporate group, as a whole, to which the insurer belongs; and
+
+ (b)    the Appointed Actuary meets the criteria in paragraphs 5(a) to 5(g) of
+        Attachment B.
+
+7.     The criteria in paragraph 5 of Attachment B do not apply while:
+
+ (a)    the regulated entity reasonably considers that there are exceptional
+        circumstances;
+
+
+
+
+                                                                           CPS 510 – 34
+                                 DRAFT                                     June 2026
+
+
+(b)   the regulated entity has promptly notified APRA of the eligibility criteria that
+      are not satisfied and of the exceptional circumstances as to why they do not
+      apply; and
+
+(c)   APRA has notified the regulated entity in writing that APRA has no objections
+      to the person holding the position.
+
+
+
+
+                                                                         CPS 510 – 35
+                                  DRAFT                                    June 2026
+
+
+Attachment C – EFLIC Compliance Committee
+
+Purpose of the Compliance Committee
+1.     The purpose of the Compliance Committee (referred to in this Attachment as ‘the
+       Committee’) is to ensure the eligible foreign life insurance company (EFLIC)
+       meets its obligations under the Life Insurance Act. As required by subsections
+       16ZF(1) and (4) of the Life Insurance Act, the Committee must have sufficient
+       powers of management to enable it to discharge the EFLIC’s responsibilities
+       under the Life Insurance Act.
+
+Continuing responsibility of the Board
+2.     The Board of an EFLIC must:
+
+       a) have the power to appoint and remove, at its discretion, members of the
+          Committee; and
+       b) establish adequate procedures for monitoring and supervising the operation
+          of the Committee, as well as assessing its performance.
+
+Composition and residency status of Committee members
+3.     The Committee must comprise at least five members appointed by the Board.
+       Those members must include:
+
+ (a)    the Principal Executive Officer (PEO) appointed by the EFLIC for its
+        Australian branch under either subsections 20(2) or 246(4) of the Life
+        Insurance Act; and
+
+ (b)    at least two independent members.
+
+4.     At least three of the Committee members, including the PEO and the independent
+       members, must ordinarily be resident in Australia.
+
+Application for a modified Committee composition
+
+5.     APRA may, on application from an EFLIC, adjust the composition requirements
+       of the Committee but only where to do so will not detract from the Committee’s
+       capacity to ensure the Company’s compliance with the Life Insurance Act.
+
+Appointment and removal of Committee members
+6.     Each member of the Committee must be fit and proper for the role in accordance
+       with the requirements for fitness and propriety as set out in this Prudential
+       Standard.
+
+7.     Notwithstanding the Board’s power to appoint and remove members, APRA may,
+       under section 230B of the Life Insurance Act, direct an EFLIC to remove a
+       member of the Committee. It may do so to ensure the Committee’s members
+
+
+
+                                                                         CPS 510 – 36
+                                DRAFT                                    June 2026
+
+
+     possess sufficient skills and experience to discharge the EFLIC’s obligations
+     under the Life Insurance Act or to resolve conflicts.
+
+Processes of the Committee
+8.   The Committee must meet on a regular basis and not less than six times a year to
+     monitor and ensure the EFLIC’s continuing compliance with the Life Insurance
+     Act.
+
+9.   The Committee must ensure that the Appointed Actuary has reasonable notice of
+     any meeting of the Committee and has a standing invitation to attend such
+     meetings and be heard on matters that relate to the functions and duties of the
+     actuary.
+
+
+
+
+                                                                       CPS 510 – 37
+
