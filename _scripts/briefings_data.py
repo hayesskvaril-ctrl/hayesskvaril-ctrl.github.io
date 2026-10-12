@@ -9,6 +9,7 @@ FAR_SRC = 'Australian Prudential Regulation Authority and Australian Securities 
 CPS234_SRC = 'Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-234">Prudential Standard CPS 234 Information Security</a>.'
 AUSTRAC_REFORM = 'AUSTRAC, <a href="https://www.austrac.gov.au/amlctf-reform/about-reforms">About the AML/CTF reforms</a>.'
 SPS114_SRC = 'Prudential Standard SPS 114 Operational Risk Financial Requirement (F2024L01319), <a href="https://www.legislation.gov.au/F2024L01319/asmade/text">Federal Register of Legislation</a>; Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/practice-guides/spg-114">SPG 114 Operational Risk Financial Requirement</a>.'
+SPS515_SRC = 'Prudential Standard SPS 515 Strategic Planning and Member Outcomes (F2024L00940), <a href="https://www.legislation.gov.au/F2024L00940/asmade/text">Federal Register of Legislation</a>; Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/sps-515">SPS 515 Strategic Planning and Member Outcomes</a>.'
 
 BRIEFINGS = [
   dict(
@@ -70,5 +71,15 @@ BRIEFINGS = [
     questions=["How did we set our target amount, and how does it compare with APRA's guidance minimum for our size?", "What would a severe but plausible operational risk incident cost us, and could the ORFR cover it?", "What did we use the ORFR for in the past year, and what did we decide not to use it for?", "How quickly could we get the money if we needed it, and in what form is it held?"],
     flags=["A target set at the guidance minimum with no analysis of the trustee's own risks.", "ORFR money spent on routine projects or upgrades not linked to an incident, near miss or identified material weakness.", "No review of the target after a material incident or a successor fund transfer."],
     sources=[SPS114_SRC],
+  ),
+  dict(
+    slug="sps-515", title="SPS 515: strategy, spending and member outcomes", guide="/standards/sps-515.html",
+    short="Strategic objectives, the business plan, spending decisions and the annual outcomes review.",
+    what="APRA's Prudential Standard SPS 515 makes a super trustee's plans answer one question: what outcomes are we trying to achieve for members, and are we achieving them? The strengthened version has applied since {fact:sps515-strengthened-start}.",
+    why=["The board approves specific, measurable strategic objectives and a written rolling business plan of at least three years covering the whole business.", "All spending is in scope, not just significant spending. Each decision must be backed by evidence that it is in members' best financial interests, with measures to check it delivered.", "Progress is tracked with key performance indicators and triggers for action. At a minimum, failing or expecting to fail the annual performance test must be a trigger.", "Every year the trustee reviews business performance against internal and external benchmarks, for different groups of members, makes the SIS Act outcomes assessment, and must be ready to transfer members if outcomes can't be fixed."],
+    numbers=[("Business plan", "Rolling, at least three years, covering the whole business"), ("Business performance review and outcomes assessment", "Every year"), ("Annual performance test", "Failing, or expecting to fail, must be a trigger for action")],
+    questions=["Which of our strategic objectives are measurable, and how are we tracking against each one?", "Which member cohorts are getting the worst outcomes, and what are we doing about it?", "What did last year's outcomes assessment conclude, and what changed as a result?", "How do we know our discretionary and related-party spending is in members' best financial interests? What have we stopped spending on?"],
+    flags=["Objectives that can't be measured, so the performance review has nothing to test against.", "Spending justified by peer activity or brand, with no measurable link to member outcomes, and no follow-up once approved.", "Triggers set so late that there isn't enough time or money left for an orderly merger."],
+    sources=[SPS515_SRC],
   ),
 ]
