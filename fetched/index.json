@@ -1106,6 +1106,15 @@
   "status": 200,
   "type": "application/pdf"
  },
+ "https://www.legislation.gov.au/F2013L01247/asmade/2013-06-28/text/original/pdf": {
+  "chars": 42850,
+  "date": "2026-10-12",
+  "file": "legislation-gov-au-f2013l01247-asmade-2013-06-28-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2013L01247/asmade/2013-06-28/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
  "https://www.legislation.gov.au/F2018L01390/asmade/2018-10-02/text/original/pdf": {
   "chars": 61203,
   "date": "2026-10-08",

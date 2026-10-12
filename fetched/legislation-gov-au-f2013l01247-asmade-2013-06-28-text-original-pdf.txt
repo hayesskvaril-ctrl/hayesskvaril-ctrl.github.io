@@ -1,0 +1,861 @@
+SOURCE: https://www.legislation.gov.au/F2013L01247/asmade/2013-06-28/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2013L01247/asmade/2013-06-28/text/original/pdf
+FETCHED: 2026-10-12
+
+Superannuation (prudential standard)
+determination No. 2 of 2013
+
+Prudential Standard SPS 160 Defined Benefit Matters
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Ross Jones, delegate of APRA, under subsection 34C(1) of the Superannuation
+Industry (Supervision) Act 1993 (the Act), DETERMINE Prudential Standard SPS
+160 Defined Benefit Matters in the form set out in the Schedule, which applies to all
+RSE licensees of a defined benefit fund and all RSE actuaries.
+
+This instrument commences on 1 July 2013.
+
+Dated: 28 June 2013
+
+[signed]
+
+Ross Jones
+
+Deputy Chair
+
+
+Interpretation
+In this instrument:
+
+APRA means the Australian Prudential Regulation Authority.
+
+RSE actuary has the meaning given in section 10(1) of the Act.
+
+RSE licensee has the meaning given in section 10(1) of the Act.
+
+
+Schedule
+
+Prudential Standard SPS 160 Defined Benefit Matters comprises the 15 pages
+commencing on the following page.
+
+
+
+
+                       Federal Register of Legislative Instruments F2013L01247
+                                                                                   July 2013
+
+
+
+
+Prudential Standard SPS 160
+
+Defined Benefit Matters
+Objectives and key requirements of this Prudential
+Standard
+
+This Prudential Standard establishes requirements for an RSE licensee of a defined
+benefit fund to manage the fund with the objective of enabling the RSE licensee, out
+of the assets of the fund, to meet the liabilities of the fund as they become due.
+
+The requirements in this Prudential Standard also apply to defined benefit sub-funds.
+
+The key requirements of this Prudential Standard include that an RSE licensee must:
+
+    appoint an RSE actuary to undertake, and report on, regular actuarial
+     investigations into the financial position of a defined benefit fund;
+
+    arrange for an interim actuarial investigation in circumstances where the
+     financial position of a defined benefit fund deteriorates below a shortfall limit
+     set by the RSE licensee;
+
+    implement a program to restore a defined benefit fund to a satisfactory financial
+     position, so that the vested benefits of beneficiaries are fully funded, and submit
+     the program to, and report to, APRA; and
+
+    if the fund is permitted to self-insure benefits, arrange for regular actuarial
+     oversight, attest annually that the self-insurance continues to be in the best
+     interests of beneficiaries and develop a contingency plan for an orderly wind-up
+     of the self-insurance arrangements.
+
+
+
+
+                                                                                 SPS 160 - 1
+                       Federal Register of Legislative Instruments F2013L01247
+                                                                                             July 2013
+
+
+Authority
+
+1.   This Prudential Standard is made under section 34C of the Superannuation
+     Industry (Supervision) Act 1993 (SIS Act).
+
+Application
+
+2.   This Prudential Standard applies to all registrable superannuation entity (RSE)
+     licensees (RSE licensees) of a defined benefit fund unless otherwise expressly
+     stated in this Prudential Standard or where the RSE is listed in Attachment A.1
+     Certain provisions of this Prudential Standard also apply to RSE actuaries.2
+
+3.   For the purposes of this Prudential Standard, ‘defined benefit fund’ means a
+     regulated superannuation fund that has at least one defined benefit member,
+     including where the regulated superannuation fund is a public sector
+     superannuation scheme.
+
+4.   For the purposes of this Prudential Standard, ‘defined benefit sub-fund’ means a
+     sub-fund of a defined benefit fund that has at least one defined benefit member,
+     separately identifiable assets and separately identifiable beneficiaries and the
+     interest each beneficiary has in the sub-fund is determined wholly or partly by
+     reference to the conditions governing the sub-fund.3 In this Prudential Standard,
+     unless otherwise expressly indicated:
+
+     (a)    a reference to a defined benefit fund includes a reference to a defined
+            benefit sub-fund; and
+
+     (b)    a requirement applying to a defined benefit fund may be met by satisfying
+            the requirement in relation to each defined benefit sub-fund in the fund.
+
+5.   An RSE licensee identified in paragraph 2 must comply with this Prudential
+     Standard in its entirety, unless otherwise expressly indicated. An RSE actuary
+     undertaking functions under this Prudential Standard must comply with those
+     requirements of this Prudential Standard expressed to apply to RSE actuaries.
+
+6.   This Prudential Standard commences on 1 July 2013 (effective date).
+
+Interpretation
+
+7.   For the purposes of this Prudential Standard, ‘defined benefit member’ means a
+     member who:
+
+
+
+1
+     For the purposes of this Prudential Standard, ‘RSE licensee’ has the meaning given in section
+     10(1) of the SIS Act.
+2
+     For the purposes of this Prudential Standard ‘RSE actuary’ has the meaning given in section
+     10(1) of the SIS Act.
+3
+     In addition, to qualify as a defined benefit sub-fund, there must be no capacity to transfer assets,
+     benefits or money between the sub-fund and any other part of the fund without a transfer of the
+     corresponding beneficial interest unless the transfer is to meet a share of whole-of-fund
+     expenses, such as administration costs or tax liabilities, attributable to the sub-fund.
+
+
+
+                                                                                          SPS 160 - 2
+                           Federal Register of Legislative Instruments F2013L01247
+                                                                                              July 2013
+
+
+     (a)    is being paid a defined benefit pension4; or
+
+     (b)    is entitled, on retirement or termination of employment, to be paid a
+            benefit defined, wholly or in part, by reference to either or both of:
+
+            (i)    the amount of:
+
+                   A.      the member’s salary at the date of the termination of the
+                           member’s employment or of the member’s retirement or an
+                           earlier date; or
+
+                   B.      the member’s salary averaged over a period before retirement;
+                           or
+
+            (ii)   a specified amount.
+
+8.   For the purposes of this Prudential Standard, ‘unsatisfactory financial position’
+     means the value of the assets of the defined benefit fund or defined benefit sub-
+     fund, excluding any amount held to meet the operational risk financial
+     requirement (ORFR)5, is not adequate to cover the liabilities of the fund or sub-
+     fund in respect of the benefits vested in the members of the fund or sub-fund.6
+
+RSE licensees that are part of a group7
+
+9.   Where an RSE licensee is part of a corporate group, and the RSE licensee
+     utilises group policies or functions, the Board of the RSE licensee (the Board8)
+     must approve the use of group policies and functions and must ensure that these
+     policies and functions give appropriate regard to the RSE licensee’s business
+     operations.9
+
+
+
+4
+     For the purposes of this Prudential Standard, ‘defined benefit pension’ means a pension within
+     the meaning of section 10 of the SIS Act other than: (a) a pension wholly determined by
+     reference to one or more policies of life insurance purchased or obtained by the RSE licensee of
+     a regulated superannuation fund solely for the purpose of providing benefits to the members of
+     that fund; or (b) an allocated, market linked or account-based pension (as defined in regulation
+     1.03 of the SIS Regulations).
+5
+     Refer to Prudential Standard SPS 114 Operational Risk Financial Requirement.
+6
+     For the purposes of this Prudential Standard, ‘satisfactory financial position’ is the situation
+     where the value of the assets (excluding assets held to meet the ORFR) is adequate to cover the
+     liabilities in respect of vested benefits.
+7
+     For the purposes of this Prudential Standard, a reference to ‘a group’ is a reference to a group
+     comprising the RSE licensee and all connected entities and all related bodies corporate of the
+     RSE licensee, ‘connected entity’ has the meaning given in section 10(1) of the SIS Act and
+     ‘related body corporate’ has the meaning given in section 50 of the Corporations Act 2001
+     (Corporations Act).
+8
+     For the purposes of this Prudential Standard, a reference to ‘the Board’ is a reference to the
+     Board of directors or group of individual trustees of an RSE licensee and ‘group of individual
+     trustees’ has the meaning given in section 10(1) of the SIS Act.
+9
+     For the purposes of this Prudential Standard, an ‘RSE licensee’s business operations’ includes
+     all activities as an RSE licensee (including the activities of each RSE of which it is the licensee),
+     and all other activities of the RSE licensee to the extent that they are relevant to, or may impact
+     on, its activities as an RSE licensee.
+
+
+
+                                                                                           SPS 160 - 3
+                           Federal Register of Legislative Instruments F2013L01247
+                                                                                              July 2013
+
+
+Shortfall limit
+
+10.   An RSE licensee must set a shortfall limit, approved by the Board, for each
+      defined benefit fund within its business operations.10 For the purposes of this
+      Prudential Standard, a ‘shortfall limit’ is the extent to which an RSE licensee
+      considers that a fund can be in an unsatisfactory financial position with the RSE
+      licensee still being able to reasonably expect that, because of corrections to
+      temporary negative market fluctuations in the value of fund assets, the fund can
+      be restored to a satisfactory financial position within one year.11
+
+11.   The shortfall limit may be set so there is zero deviation from a satisfactory
+      financial position. The shortfall limit must not be such that that the fund may
+      become technically insolvent as referred to in regulation 9.06(3) of the SIS
+      Regulations before breaching the shortfall limit.
+
+12.   The shortfall limit approved by the Board must be calculated and expressed in
+      the same way as required under the reporting standards made under the
+      Financial Sector (Collection of Data) Act 2001.12
+
+13.   The Board must determine and implement a monitoring process designed to
+      detect, on a timely basis, when the fund has, or may have, fallen into an
+      unsatisfactory financial position and/or breached the shortfall limit.
+
+Actuarial investigations – regular and initial investigations
+
+14.   An RSE licensee must appoint an RSE actuary to make an actuarial
+      investigation in relation to a defined benefit fund:
+
+      (a)    at least every three years if the fund is not paying a defined benefit
+             pension;
+
+      (b)    at least annually if the fund has fewer than five members and is paying a
+             defined benefit pension;
+
+      (c)    if the fund has more than four members, and is paying a defined benefit
+             pension, within one year of the RSE licensee commencing to pay the
+             pension. APRA may determine another date by which the initial
+             investigation must be carried out which will be not less than one year and
+             not more than three years after the commencement of the pension; and
+
+      (d)    if the fund has more than four members, and is paying a defined benefit
+             pension, for second and further investigations after the RSE licensee
+             commences paying the pension, annually or with a frequency determined
+
+10
+      Paragraph 10 does not apply to a fund that is part of public sector superannuation scheme that,
+      under the rules of the scheme, is not fully funded. ‘Fully funded’ in relation to a fund means
+      funded in advance in accordance with actuarial advice at a level that is reasonably expected by
+      the actuary to be adequate to provide for present and prospective liabilities in respect of benefits
+      relating to the fund.
+11
+      The shortfall limit may be determined in consultation with an RSE actuary appointed by the
+      RSE licensee.
+12
+      Refer to Reporting Standard SRS 160.0 Defined Benefit Matters.
+
+
+
+                                                                                           SPS 160 - 4
+                            Federal Register of Legislative Instruments F2013L01247
+                                                                                     July 2013
+
+
+            by APRA which will be not less than one year and not more than three
+            years after the most recent regular investigation.
+
+      For the purposes of this Prudential Standard, investigations required under this
+      paragraph are referred to as ‘regular investigations’.
+
+15.   Where an RSE licensee establishes a new defined benefit fund, the RSE licensee
+      must appoint an RSE actuary to carry out a first investigation as at the date of
+      the establishment or conversion to defined benefit status of the fund. For the
+      purposes of this Prudential Standard, investigations required under this
+      paragraph are referred to as ‘initial investigations’.
+
+Actuarial investigations – APRA direction
+
+16.   APRA may, in writing, direct an RSE licensee to appoint an RSE actuary, who
+      may be the existing RSE actuary or another actuary, to undertake an actuarial
+      investigation into the defined benefit fund if APRA considers, on reasonable
+      grounds, that to do so would be in the best interests of beneficiaries. The RSE
+      licensee must advise APRA of the name of the RSE actuary. If APRA notifies
+      an RSE licensee that an RSE actuary is not acceptable to APRA, the RSE
+      licensee must appoint a different actuary and advise APRA of the name of the
+      actuary.
+
+Actuarial investigations – interim investigation
+
+17.   An RSE licensee must:
+
+      (a)   appoint an RSE actuary to carry out an actuarial investigation for a
+            defined benefit fund as soon as practicable if:
+
+            (i)    it appears to the RSE licensee that the fund is or may be in breach of
+                   its shortfall limit; and
+
+            (ii)   a regular investigation scheduled under paragraph 14 is not due for
+                   six months or more; or
+
+      (b)   seek actuarial advice from an RSE actuary as to whether action should be
+            taken prior to the completion of the next regular investigation if:
+
+            (i)    it appears to the RSE licensee that the fund is or may be in breach of
+                   its shortfall limit; and
+
+            (ii)   the next regular actuarial investigation under paragraph 14 is due to
+                   commence within six months
+
+      unless an investigation is currently taking place, a restoration plan is already in
+      place under paragraph 32 or the fund is technically insolvent.
+
+18.   For the purposes of this Prudential Standard, investigations required under
+      paragraph 17(a) are referred to as ‘interim investigations’.
+
+
+
+
+                                                                                   SPS 160 - 5
+                         Federal Register of Legislative Instruments F2013L01247
+                                                                                            July 2013
+
+
+Actuarial investigations – sub-funds
+
+19.   Where a defined benefit fund contains one or more defined benefit sub-funds
+      each sub-fund must be investigated in accordance with this Prudential
+      Standard.13
+
+Actuarial investigations – professional standards and guidance
+
+20.   An RSE actuary appointed to carry out an investigation must do so having
+      regard to professional standards and guidance issued by the Institute of
+      Actuaries of Australia, to the extent that they are not inconsistent with the
+      requirements of this Prudential Standard. In the event of any inconsistency
+      arising from application of the professional standards and this Prudential
+      Standard, the requirements of this Prudential Standard prevail.
+
+Report of the actuarial investigation – regular and initial investigations
+
+21.   An RSE licensee must obtain an actuarial report in relation to each initial and
+      regular investigation undertaken. The RSE licensee must obtain the report from
+      the RSE actuary within six months of the date at which the investigation was
+      effective (valuation date) unless otherwise specified in paragraph 39.
+
+22.   APRA may request an RSE licensee to provide APRA with a copy of the report
+      and the RSE licensee must provide it within 15 business days of receipt of the
+      request.14
+
+23.   An RSE licensee must ensure that an actuarial report of an initial or regular
+      investigation for a defined benefit fund (including a fully funded public sector
+      superannuation scheme) contains, at a minimum:
+
+      (a)    the value of the assets of the fund at the valuation date, excluding any
+             amount held to meet the ORFR;
+
+      (b)    a projection made by the RSE actuary of the likely future financial
+             position of the fund, during the three years following the valuation date,
+             based on the reasonable expectations of the actuary;
+
+      (c)    a statement of the RSE actuary’s opinion on whether, at the valuation
+             date, the value of the assets of the fund, excluding any amount held to
+             meet the ORFR, is adequate to meet the liabilities in respect of the
+             accrued benefits of the members of the fund.15 In preparing the statement,
+
+13
+      Where an actuarial investigation is made into each sub-fund, an RSE licensee is not required to
+      complete an investigation into the fund as a whole. An RSE licensee is not required to undertake
+      such investigations of each sub-fund at the same time.
+14
+      Where this Prudential Standard provides for APRA to request a copy of the report, or otherwise
+      exercise a power or discretion, the power or discretion is to be exercised in writing.
+15
+      ‘Accrued benefits of a member of the fund’ has the meaning given in regulation 9.27 of the SIS
+      Regulations (i.e. the benefits to which the member has an absolute or potential entitlement at the
+      valuation date on account of the length of time the member has been a member of the fund at
+      that date (including any amount that would be payable out of those benefits to the member’s
+      spouse or former spouse under a payment split)).
+
+
+
+                                                                                         SPS 160 - 6
+                           Federal Register of Legislative Instruments F2013L01247
+                                                                                           July 2013
+
+
+             the RSE actuary must assess and comment on the appropriateness of the
+             assumptions and valuation methods used to determine the accrued benefit
+             liability;
+
+      (d)    a statement regarding the financial position of the fund that indicates
+             whether it is to be treated as unsatisfactory, and whether, in the opinion of
+             the RSE actuary, the shortfall limit should be reviewed. If the RSE actuary
+             finds that the financial position is to be treated as unsatisfactory, the
+             statement must contain the information required under paragraph 31(a);
+
+      (e)    a statement indicating the value of the liabilities of the fund in respect of
+             the minimum benefits of the members of the fund;
+
+      (f)    if the fund has been used to meet obligations under the Superannuation
+             Guarantee Administration Act 1992, a statement as to whether or not all
+             necessary funding and solvency certificates were obtained during the
+             period under investigation, and a statement as to whether or not the RSE
+             actuary expects that an RSE actuary will be able to certify the solvency of
+             the fund in any funding and solvency certificate required during the three-
+             year period following the valuation date16;
+
+      (g)    recommendations as to the level of, or the rate at which, or the range of
+             rates within which, employer contributions are to be made during the
+             three-year period immediately following the valuation date;
+
+      (h)    if the fund is paying a defined benefit pension to at least one defined
+             benefit member of the fund, a statement of the RSE actuary’s opinion on
+             whether, at the valuation date, there is a high degree of probability that the
+             fund will be able to pay the pension as required under the fund’s
+             governing rules; and
+
+      (i)    a statement regarding the occurrence of a prescribed event, if a pre-July
+             1988 funding credit has been granted under section 342 of the SIS Act or
+             has been obtained by transfer under Part 12 of the SIS Regulations, and an
+             event prescribed under section 342(4)(a) of the SIS Act and listed in
+             regulation 12.10 of the SIS Regulations has occurred.
+
+24.   An RSE licensee of a public sector superannuation scheme that, under its rules,
+      is not fully funded must ensure that an actuarial report of an initial or regular
+      investigation contains, at a minimum:
+
+      (a)    the value of the assets of the fund at the valuation date, excluding any
+             amount held to meet the ORFR;
+
+      (b)    if the RSE actuary considers it appropriate, taking into account the
+             proportion of the liabilities of the fund that are being funded, a statement
+             recommending the level of, or the rate at which, or the range of rates
+
+16
+      For the purposes of this Prudential Standard, a reference to the ‘solvency’ of a defined benefit
+      fund or defined benefit sub-fund is a reference to the minimum benefit index of the fund or sub-
+      fund being certified as not less than one in accordance with Part 9 of the SIS Regulations.
+
+
+
+                                                                                       SPS 160 - 7
+                           Federal Register of Legislative Instruments F2013L01247
+                                                                                    July 2013
+
+
+            within which, employer contributions to be made during the three-year
+            period immediately following the valuation date. In preparing the
+            statement, the RSE actuary must assess and comment on the
+            appropriateness of the assumptions and valuation methods used to
+            determine the accrued benefit liability;
+
+      (c)   a statement regarding the adequacy of the funding of the liabilities of the
+            fund, having regard to any Commonwealth, State or Territory guarantee in
+            respect of benefit payments and to any appropriations in respect of the
+            fund; and
+
+      (d)   a statement regarding the occurrence of a prescribed event, if a pre-July
+            1988 funding credit has been granted under section 342 of the SIS Act or
+            has been obtained by transfer under Part 12 of the SIS Regulations, and an
+            event prescribed under section 342(4)(a) of the Act and listed in regulation
+            12.10 of the SIS Regulations has occurred.
+
+25.   An RSE licensee of a new defined benefit fund must ensure that, if the fund has
+      no accrued defined benefit liabilities, an actuarial report of an initial
+      investigation contains:
+
+      (a)   the level of, or the rate at which, or the range of rates within which,
+            employer contributions to be made during the three-year period
+            immediately following the valuation date; and
+
+      (b)   a statement as to whether or not the RSE actuary expects that an RSE
+            actuary will be able to certify the solvency of the fund in any funding and
+            solvency certificate required during the three-year period following the
+            valuation date.
+
+      However, if the fund has accrued defined benefit liabilities, the report must
+      contain the other matters set out in paragraph 23 or 24 (as applicable) that are
+      relevant.
+
+Report of the actuarial investigation – APRA direction
+
+26.   If APRA directs an RSE licensee to undertake an investigation under paragraph
+      16, an RSE licensee must ensure that the actuarial report of the investigation
+      contains the information set out by APRA in the direction. The RSE actuary
+      appointed to carry out the investigation must provide the report simultaneously
+      to APRA and the RSE licensee within the time set out in APRA’s direction.
+
+Report of the actuarial investigation – interim investigation
+
+27.   An RSE licensee must ensure that an actuarial report of an interim investigation
+      under paragraph 17(a) contains, at a minimum, a reasonable estimate of the
+      value of the assets of the fund (excluding any amount held to meet the ORFR),
+      and whether that value is in breach of the fund’s shortfall limit. The next regular
+      investigation may be brought forward and undertaken at the time, and in place
+      of, a required interim investigation, in which case the report of the investigation
+      must also include the matters required under paragraph 23 or 24 (as applicable).
+
+
+                                                                                  SPS 160 - 8
+                        Federal Register of Legislative Instruments F2013L01247
+                                                                                     July 2013
+
+
+28.   An RSE licensee must obtain the actuarial report of an interim investigation,
+      other than where the next regular investigation has been undertaken in place of
+      the interim investigation, as soon as practicable but in any event by three
+      months after the later of the valuation date and the date the RSE licensee
+      determined that an interim actuarial investigation was required under paragraph
+      17.
+
+29.   An RSE licensee must provide a copy of the actuarial report of an interim
+      investigation to APRA within 15 business days of receipt of the report.
+
+Unsatisfactory financial position – actuarial requirements
+
+30.   Paragraph 31 applies where an RSE actuary:
+
+      (a)   conducting an initial or regular investigation, makes a finding, in the
+            actuarial report of the investigation, that:
+
+            (i)    the fund is to be treated as being in an unsatisfactory financial
+                   position; or
+
+            (ii)   the financial position of the fund is likely to become unsatisfactory;
+                   or
+
+      (b)   conducting an interim investigation makes a finding, in the actuarial report
+            of the investigation, that:
+
+            (i)    the fund is in an unsatisfactory financial position; and
+
+            (ii)   the fund is in breach of its shortfall limit
+
+      unless a restoration plan is already in place under paragraph 32 or the fund has
+      been declared to be technically insolvent under regulation 9.16(1) of the SIS
+      Regulations.
+
+31.   An RSE actuary must, in the situations identified in paragraph 30:
+
+      (a)   prepare a statement that, at a minimum:
+
+            (i)    describes the recommended actions to be taken to address the
+                   financial position; and
+
+            (ii)   contains a recommendation, or sets a date by which a
+                   recommendation will be made, in respect of a contribution rate or
+                   level that, on reasonable expectations, will restore the fund to, and
+                   maintain it in, a satisfactory financial position, within a time period
+                   that is reasonable in the circumstances of the fund but which must
+                   not exceed three years from the valuation date, or, in the case of an
+                   interim investigation, the later of the valuation date and the date the
+                   RSE licensee determined that an interim investigation was required
+                   under paragraph 17; and
+
+      (b)   provide the statement to the RSE licensee as soon as practicable and, in
+
+
+                                                                                   SPS 160 - 9
+                         Federal Register of Legislative Instruments F2013L01247
+                                                                                     July 2013
+
+
+            any event, within 15 business days of making a finding, in the actuarial
+            report of the investigation, that the financial position is to be treated as
+            unsatisfactory, or is likely to become unsatisfactory or that the shortfall
+            limit has been breached.
+
+Unsatisfactory financial position – RSE licensee requirements
+
+32.   When an RSE licensee receives a statement from the RSE actuary under
+      paragraph 31, the RSE licensee must:
+
+      (a)   provide a copy of the statement to APRA as soon as practicable but no
+            later than 15 business days after receipt from the RSE actuary;
+
+      (b)   consult with each employer-sponsor (as relevant) about the content and
+            implementation of the recommendations of the RSE actuary, which may
+            include an increase in the contribution rate or rates or change to the
+            pattern or frequency of contribution payments;
+
+      (c)   appoint an RSE actuary to be responsible for provision of advice to the
+            RSE licensee in regard to actuarial management during the period in
+            which the fund is in an unsatisfactory financial position, including advice
+            as to whether, under the governing rules of the fund, there can be any
+            reduction in the amounts of any benefit payments from the fund, or
+            deferral of payment of any part of the benefit, during the period;
+
+      (d)   set out a plan (restoration plan) to return the fund to a satisfactory
+            financial position within the timeframe referred to in paragraph 31(a)(ii).
+            The restoration plan may be developed in consultation with the employer-
+            sponsor and the RSE actuary and must be approved by the Board within
+            three months of receiving the statement from the RSE actuary;
+
+      (e)   provide a copy of the restoration plan to APRA and the RSE actuary as
+            soon as practicable but no later than 15 business days after the Board has
+            approved the plan; and
+
+      (f)   implement the restoration plan, subject to any changes required by APRA
+            under paragraph 34 or 35.
+
+33.   At a minimum, a restoration plan must outline:
+
+      (a)   the RSE licensee’s view of the likelihood that contributions will be made
+            as recommended, taking into account the obligations of each employer-
+            sponsor under the governing rules of the fund, and the outcome of the
+            RSE licensee’s consultation with each employer-sponsor;
+
+      (b)   any changes to the investment strategy of the fund determined by the RSE
+            licensee to be necessary;
+
+      (c)   the likely impact on benefit payments during the period of the plan; and
+
+
+
+
+                                                                                  SPS 160 - 10
+                        Federal Register of Legislative Instruments F2013L01247
+                                                                                         July 2013
+
+
+      (d)   the process by which the RSE actuary and the Board will monitor and
+            review progress towards restoration of the fund to a satisfactory financial
+            position.
+
+34.   On receipt of a restoration plan, APRA may, at a minimum:
+
+      (a)   require the RSE licensee to report to APRA at specified intervals or on
+            occurrence of certain events;
+
+      (b)   require the RSE licensee to review the investment strategy of the fund; or
+
+      (c)   require or permit a variation to the period of the plan.
+
+35.   During the period that a restoration plan is in effect, and if it appears that the
+      funding position is not likely to be restored by the end of the period, APRA
+      may, at a minimum:
+
+      (a)   permit a variation to the period in which the funding position is expected
+            to be restored;
+
+      (b)   require the RSE licensee to seek further actuarial advice; or
+
+      (c)   vary any reporting requirements imposed under paragraph 34.
+
+Self-insurance
+
+36.   An RSE licensee that is permitted to self-insure insured benefits must17:
+
+      (a)   maintain reserves or have other arrangements approved by APRA in place
+            to fund current and future self-insurance liabilities;
+
+      (b)   attest annually that, in formulating and maintaining its policy in relation to
+            self-insurance, the RSE licensee continues to act in the best interests of
+            beneficiaries18; and
+
+      (c)   develop a contingency plan for an orderly transfer of insurance assets and
+            obligations, for activation in the event that the Board has decided that, by
+            self-insuring benefits, the RSE licensee is no longer acting in the best
+            interest of beneficiaries as a whole.
+
+37.   An RSE licensee that self-insures insured benefits must ensure the ongoing
+      actuarial oversight of the reserves and self-insurance arrangement via, at a
+      minimum, the regular investigation required under paragraph 14. The actuarial
+      review must provide sufficient information about the maintenance of adequate
+      insurance reserves or other arrangements for funding of self-insured benefits.
+      The actuarial review must also provide sufficient information on the self-
+
+
+17
+      Refer to Prudential Standard SPS 250 Insurance in Superannuation for additional requirements
+      in respect to the offering of insured benefits.
+18
+      For the purposes of this Prudential Standard, a reference to ‘beneficiaries’ is a reference to
+      ‘beneficiaries of an RSE within the RSE licensee’s business operations’.
+
+
+
+                                                                                    SPS 160 - 11
+                          Federal Register of Legislative Instruments F2013L01247
+                                                                                        July 2013
+
+
+      insurance arrangements to demonstrate the extent and adequacy of the actuarial
+      oversight undertaken on these arrangements.
+
+RSE licensee to bear costs for reports
+
+38.   An RSE licensee must bear the costs of obtaining an actuarial investigation and
+      preparing and submitting reports, documents and other material required by this
+      Prudential Standard.
+
+Transitional arrangements
+
+39.   If the valuation date is within the period commencing 1 July 2013 and ending
+      on 30 June 2016, the RSE licensee must obtain the report required in paragraph
+      21 within nine months of the valuation date.
+
+40.   An RSE licensee must ensure that the first regular investigation on or after 1
+      July 2013 takes place no later than the time at which the next actuarial
+      investigation carried out under regulation 9.29 or 9.29A (as applicable) of the
+      SIS Regulations19 would have been required to be carried out, and that
+      subsequent regular investigations take place no later than provided for under
+      paragraph 14.
+
+41.   The transitional provisions set out in Attachment B apply in relation to actions
+      commenced prior to 1 July 2013 under Division 9.5 of the SIS Regulations, as
+      specified in the Attachment.
+
+Adjustments and exclusions
+
+42.   APRA may, by notice in writing to an RSE licensee or RSE actuary, as relevant,
+      adjust or exclude a specific prudential requirement in this Prudential Standard in
+      relation to that RSE licensee or RSE actuary.20
+
+
+
+
+19
+      As in force immediately prior to 1 July 2013 pursuant to Modification Declaration No. 23 made
+      under Part 29 of the SIS Act
+20
+      Refer to section 34C(5) of the SIS Act.
+
+
+
+                                                                                    SPS 160 - 12
+                          Federal Register of Legislative Instruments F2013L01247
+                                                                                   July 2013
+
+
+Attachment A
+
+1.   This Prudential Standard does not apply to superannuation funds that are part of:
+
+     (a)   the scheme established by the Superannuation Act 1976;
+
+     (b)   the scheme established under the provisions of the Superannuation Act
+           1990; or
+
+     (c)   the Military Superannuation Benefits Scheme.
+
+
+
+
+                                                                                SPS 160 - 13
+                      Federal Register of Legislative Instruments F2013L01247
+                                                                                          July 2013
+
+
+Attachment B
+
+Transitional provisions
+
+Actions undertaken prior to 1 July Treatment under SPS 160 on or
+2013                               after 1 July 2013
+
+Where an investigation has commenced 1.                      The RSE licensee must ensure that
+under regulation 9.29(1) or regulation                       the investigation is completed, and
+9.29A but has not been completed, or the                     obtain the actuarial report of the
+actuarial report of the investigation has                    investigation, in accordance with
+not been obtained, as at 1 July 2013:                        Division 9.5 of the SIS Regulations,
+                                                             as in force immediately before 1
+                                                             July 2013.
+                                                     2.      If the RSE actuary finds that the
+                                                             financial position of the defined
+                                                             benefit fund is to be treated as
+                                                             unsatisfactory then, unless the fund
+                                                             is declared technically insolvent
+                                                             under regulation 9.16(1):
+                                                             (a)      the RSE actuary must take the
+                                                                      actions set out in paragraph
+                                                                      31; and
+                                                             (b)      the RSE licensee must take
+                                                                      the action set out in
+                                                                      paragraphs 31 to 35 inclusive
+                                                                      (including    any     actions
+                                                                      required by APRA under
+                                                                      paragraph 34 or 35).
+
+Where an investigation commenced 3.                          A remedial action plan submitted to
+under regulation 9.29(1) or regulation                       APRA is taken to be a restoration
+9.29A:                                                       plan under paragraph 32 to which
+                                                             paragraphs 34 and 35 apply.
+(a)   has been completed;
+(b)   an actuarial report has been
+      obtained under Division 9.5 of the
+      SIS Regulations with a finding that
+      the financial position of the defined
+      benefit fund is to be treated as
+      unsatisfactory; and
+(c)   the RSE licensee has submitted a
+      remedial action plan to APRA:
+
+
+
+
+                                                                                      SPS 160 - 14
+                        Federal Register of Legislative Instruments F2013L01247
+                                                                                        July 2013
+
+
+
+
+Where an investigation commenced 4.                          The RSE licensee must put in place
+under regulation 9.29(1) or regulation                       by 31 December 2013 a restoration
+9.29A:                                                       plan under paragraph 32 unless the
+                                                             next investigation has already, or is
+(a)   has been completed;
+                                                             due to be, commenced prior to that
+(b)   an actuarial report has been                           date.
+      obtained under Division 9.5 of the
+      SIS Regulations with a finding that
+      the financial position of the defined
+      benefit fund is to be treated as
+      unsatisfactory; and
+(c)   as at 1 July 2013 the RSE licensee
+      has not submitted a remedial action
+      plan to APRA:
+
+Where a determination by APRA under 5.                       The determination continues as if
+regulation 9.29A(2)(b)(ii) is in force                       made under paragraph 14(c) of this
+immediately before 1 July 2013:                              Prudential Standard.
+
+Where a determination by APRA under 6.                       The determination continues as if
+regulation 9.29A(2)(c)(ii) is in force                       made under paragraph 14(d) of this
+immediately before 1 July 2013:                              Prudential Standard.
+
+Where an investigation has commenced 7.                      The RSE licensee must ensure that
+under regulation 9.29(2), but not been                       the investigation is completed, and
+completed, or an actuarial report has not                    paragraph 26 of this Prudential
+been obtained, as at 1 July 2013:                            Standard is to apply as if
+                                                             investigation commenced under
+                                                             paragraph 16.
+
+
+
+
+                                                                                    SPS 160 - 15
+                        Federal Register of Legislative Instruments F2013L01247
+
