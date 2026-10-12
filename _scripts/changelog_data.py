@@ -8,6 +8,8 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-12', '/standards/cps-510-and-cps-520.html', 'CPS 510 and CPS 520: the summary of APRA\'s draft governance standard is now checked line by line against the draft itself, with paragraph references. The committees and conflicts rows were made more precise, and details that came only from secondary commentary were removed.'),
+    ('2026-10-12', '/about/fact-register.html', 'Key facts register: the draft CPS 510 tenure limit, the Financial Claims Scheme limit, the FAR streamlining consultation dates and the draft CPS 510 dates are now confirmed on official sources. The debt-to-income limit start is now shown as February 2026, as APRA states it, rather than a specific day.'),
     ('2026-10-12', '/sectors/general-insurance.html', 'General insurance: added the outcome of ASIC\'s case against Hollard Insurance Partners, a $2 million penalty and the first civil penalty against an insurer for breaching the duty of utmost good faith, over delays in a home insurance claim.'),
     ('2026-10-10', '/obligations/', 'Obligations library: SPS 114 Operational Risk Financial Requirement added to the SPS 515 regime, with 8 individual obligations checked against the official text (580 in total). It also appears in the GRC model builder.'),
     ('2026-10-10', '/obligations/', 'New graphics for the obligations library, the playbooks and the accountability pages (FAR and board structure), in the site\'s glass and light style.'),

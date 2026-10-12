@@ -370,11 +370,19 @@
     "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-12",
+    "how": "official",
+    "note": "Read on APRA's consultation page Proposed changes to governance (fetched 12 October 2026): 'On 16 June 2026, APRA released a consultation paper'"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-12",
+     "old": "16 June 2026",
+     "new": "16 June 2026",
+     "how": "official",
+     "note": "Read on APRA's consultation page Proposed changes to governance (fetched 12 October 2026): 'On 16 June 2026, APRA released a consultation paper'"
+    }
+   ]
   },
   {
    "id": "cps510-consultation-closed",
@@ -391,11 +399,19 @@
     "url": "https://www.apra.gov.au/consultations/proposed-changes-governance"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-12",
+    "how": "official",
+    "note": "Read on APRA's consultation page Proposed changes to governance (fetched 12 October 2026): open until 28 August 2026, now closed"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-12",
+     "old": "28 August 2026",
+     "new": "28 August 2026",
+     "how": "official",
+     "note": "Read on APRA's consultation page Proposed changes to governance (fetched 12 October 2026): open until 28 August 2026, now closed"
+    }
+   ]
   },
   {
    "id": "cps510-tenure-limit",
@@ -413,13 +429,20 @@
     "url": "https://www.apra.gov.au/news-and-publications/apra-commences-next-phase-push-strengthen-and-streamline-governance"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-12",
+    "how": "official",
+    "note": "Read in APRA's draft CPS 510 Governance (clean, June 2026, PDF fetched 12 October 2026): para 59, a non-executive director must not serve more than 12 years in total; para 60 allows a Board-approved extension of up to 12 months in exceptional circumstances, notified to APRA within 10 days"
    },
-   "history": [],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: the limit is stated in APRA's draft standard (a PDF), not on its web pages"
+   "history": [
+    {
+     "date": "2026-10-12",
+     "old": "12 years",
+     "new": "12 years",
+     "how": "official",
+     "note": "Read in APRA's draft CPS 510 Governance (clean, June 2026, PDF fetched 12 October 2026): para 59, a non-executive director must not serve more than 12 years in total; para 60 allows a Board-approved extension of up to 12 months in exceptional circumstances, notified to APRA within 10 days"
+    }
+   ],
+   "check_url": "https://www.apra.gov.au/system/files/2026-06/Draft%20CPS%20510%20Governance%20-%20clean.pdf"
   },
   {
    "id": "ai-letter",
@@ -469,7 +492,7 @@
    "id": "dti-limit-start",
    "topic": "Banking",
    "fact": "APRA's debt-to-income limit applies",
-   "value": "1 February 2026",
+   "value": "February 2026",
    "status": "in force",
    "context": [
     "debt-to-income",
@@ -480,13 +503,19 @@
     "url": "https://www.apra.gov.au/news-and-publications/activating-debt-income-limits-macroprudential-policy-tool"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-12",
+    "how": "official",
+    "note": "APRA's release (Activating debt-to-income limits as a macroprudential policy tool, fetched 12 October 2026) says the limit applies 'from February 2026' and is measured quarterly; it doesn't name a day, so the earlier '1 February 2026' was more precise than the source"
    },
-   "history": [],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: APRA's pages don't state the date in readable text"
+   "history": [
+    {
+     "date": "2026-10-12",
+     "old": "1 February 2026",
+     "new": "February 2026",
+     "how": "official",
+     "note": "APRA's release (Activating debt-to-income limits as a macroprudential policy tool, fetched 12 October 2026) says the limit applies 'from February 2026' and is measured quarterly; it doesn't name a day, so the earlier '1 February 2026' was more precise than the source"
+    }
+   ]
   },
   {
    "id": "dti-limit-share",
@@ -505,11 +534,19 @@
     "url": "https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-12",
+    "how": "official",
+    "note": "Read in APRA's release (fetched 12 October 2026): up to 20 per cent of new owner-occupier and of new investor lending at a DTI of six or more"
    },
-   "history": []
+   "history": [
+    {
+     "date": "2026-10-12",
+     "old": "20%",
+     "new": "20%",
+     "how": "official",
+     "note": "Read in APRA's release (fetched 12 October 2026): up to 20 per cent of new owner-occupier and of new investor lending at a DTI of six or more"
+    }
+   ]
   },
   {
    "id": "risk-weights-proposed-start",
@@ -564,17 +601,24 @@
     "per account holder"
    ],
    "source": {
-    "label": "Financial Claims Scheme",
-    "url": "https://www.fcs.gov.au/"
+    "label": "APRA: Financial Claims Scheme, banks, building societies and credit unions",
+    "url": "https://www.apra.gov.au/financial-claims-scheme-banks-building-societies-and-credit-unions"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-12",
+    "how": "official",
+    "note": "Read on APRA's Financial Claims Scheme pages (fetched 12 October 2026; fcs.gov.au redirects there): deposits protected up to $250,000 for each account holder at each ADI"
    },
-   "history": [],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: the Financial Claims Scheme page doesn't state the amount in readable text"
+   "history": [
+    {
+     "date": "2026-10-12",
+     "old": "$250,000",
+     "new": "$250,000",
+     "how": "official",
+     "note": "Read on APRA's Financial Claims Scheme pages (fetched 12 October 2026; fcs.gov.au redirects there): deposits protected up to $250,000 for each account holder at each ADI"
+    }
+   ],
+   "check_url": "https://www.apra.gov.au/financial-claims-scheme-banks-building-societies-and-credit-unions"
   },
   {
    "id": "far-insurers-super-start",
@@ -654,17 +698,24 @@
     "key functions"
    ],
    "source": {
-    "label": "ASIC: 26-204MR",
-    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining"
+    "label": "APRA: Streamlining FAR administration (consultation)",
+    "url": "https://www.apra.gov.au/consultations/streamlining-far-administration"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-12",
+    "how": "official",
+    "note": "Read on APRA's consultation page (fetched 12 October 2026): consultation letter released 2 September 2026, open until 2 October 2026, now closed"
    },
-   "history": [],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: ASIC's media release pages are built in the browser"
+   "history": [
+    {
+     "date": "2026-10-12",
+     "old": "2 October 2026",
+     "new": "2 October 2026",
+     "how": "official",
+     "note": "Read on APRA's consultation page (fetched 12 October 2026): consultation letter released 2 September 2026, open until 2 October 2026, now closed"
+    }
+   ],
+   "check_url": "https://www.apra.gov.au/consultations/streamlining-far-administration"
   },
   {
    "id": "penalty-unit",

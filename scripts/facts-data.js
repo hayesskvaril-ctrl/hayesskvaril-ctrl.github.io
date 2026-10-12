@@ -18,7 +18,7 @@ window.RL_FACTS = {
  "cps510-tenure-limit": "12 years",
  "ai-letter": "30 April 2026",
  "at1-removal-start": "1 January 2027",
- "dti-limit-start": "1 February 2026",
+ "dti-limit-start": "February 2026",
  "dti-limit-share": "20%",
  "risk-weights-proposed-start": "1 April 2027",
  "srst-results": "30 June 2026",
