@@ -377,6 +377,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/standards/sps-160": {
+  "chars": 73255,
+  "date": "2026-10-12",
+  "file": "apra-gov-au-standards-sps-160.txt",
+  "final": "https://www.apra.gov.au/standards/sps-160",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/standards/sps-220": {
   "chars": 64208,
   "date": "2026-10-09",
