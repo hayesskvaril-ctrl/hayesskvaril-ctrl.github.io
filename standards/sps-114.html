@@ -207,6 +207,19 @@ Your browser can't play this video. <a href="/assets/video/orfr-explained.mp4">D
   </ul>
   <p>Before July 2025, APRA's guidance expected at least 0.25% of funds under management for every trustee. The lower percentages for larger trustees are guidance on the minimum, not a cap; a trustee's own risk assessment can point to a higher figure.</p>
 
+  <div class="widget" id="orfr-calc">
+    <h3>Try it: guidance minimum and tolerance limit</h3>
+    <div class="controls">
+      <div><label for="oc-fum">Funds under management ($ billion)</label><input type="number" id="oc-fum" value="50" step="1" min="0"></div>
+      <div><label for="oc-target">Your ORFR target ($ million, optional)</label><input type="number" id="oc-target" value="110" step="1" min="0"></div>
+      <div><label for="oc-tol">Tolerance limit (% below target)</label><input type="number" id="oc-tol" value="10" step="1" min="0" max="100"></div>
+      <div><label for="oc-loss">Cost of an incident paid from the ORFR ($ million)</label><input type="number" id="oc-loss" value="14" step="1" min="0"></div>
+    </div>
+    <p class="result" aria-live="polite"></p>
+    <p class="small">Illustrative only. The guidance minimum is a floor, not the answer: the trustee must set a prudent target from its own risks (para 13).</p>
+    <noscript><p>The calculator needs JavaScript.</p></noscript>
+  </div>
+
   <h2>What the money can and can't be used for</h2>
   <div class="table-wrap" tabindex="0">
     <table>
@@ -394,5 +407,6 @@ Your browser can't play this video. <a href="/assets/video/orfr-explained.mp4">D
 <script src="/scripts/site.js" defer></script>
 <!-- FOOTER:END -->
 
+<script src="/scripts/orfr-calc.js"></script>
 </body>
 </html>
