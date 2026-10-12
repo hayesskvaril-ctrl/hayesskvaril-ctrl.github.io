@@ -1,0 +1,520 @@
+SOURCE: https://www.legislation.gov.au/F2024L00636/asmade/2024-06-05/text/original/pdf
+FINAL URL: https://www.legislation.gov.au/F2024L00636/asmade/2024-06-05/text/original/pdf
+FETCHED: 2026-10-12
+
+Superannuation (prudential standard)
+determination No. 2 of 2024
+Prudential Standard SPS 310 Audit and Related Matters
+
+Superannuation Industry (Supervision) Act 1993
+
+
+I, Clare Gibney, a delegate of APRA:
+
+(a)   under subsection 34C(6) of the Superannuation Industry (Supervision) Act 1993
+      REVOKE Superannuation (prudential standard) determination No. 4 of 2022,
+      including Prudential Standard SPS 310 Audit and Related Matters made under
+      that determination; and
+
+(b)   under subsection 34C(1) of the Act, DETERMINE Prudential Standard SPS
+      310 Audit and Related Matters in the form set out in the Schedule, which
+      applies to all RSE licensees.
+
+This instrument commences on 30 June 2024.
+
+
+
+Dated: 3 June 2024
+
+
+
+Clare Gibney
+Executive Director
+Policy and Advice Division
+
+
+
+Interpretation
+In this instrument:
+APRA means the Australian Prudential Regulation Authority.
+RSE licensee has the meaning given in section 10(1) of the Act.
+
+
+
+
+                       Authorised Version F2024L00636 registered 05/06/2024
+                                                                                            June 2024
+
+
+
+
+Prudential Standard SPS 310
+Audit and Related Matters
+    About this Prudential Standard
+
+    Prudential Standard SPS 310 Audit and Related Matters (SPS 310) is a prudential
+    standard in the governance pillar of APRA’s superannuation prudential
+    framework. It establishes requirements for the provision of independent advice in
+    relation to the operations, financial position and risk controls of the business
+    operations of an RSE licensee. This independent advice is designed to assist the
+    Board and senior management of an RSE licensee in carrying out their
+    responsibilities for the sound and prudent management of the business operations of
+    the RSE licensee.
+
+    This Prudential Standard also outlines the roles and responsibilities of an RSE
+    auditor and the obligations of an RSE licensee to make arrangements to enable the
+    RSE auditor to fulfil their responsibilities.
+
+
+Authority
+
+1.      This Prudential Standard is made under section 34C of the Superannuation
+        Industry (Supervision) Act 1993 (SIS Act).
+
+Application and commencement
+
+2.      This Prudential Standard applies to all registrable superannuation entity (RSE)
+        licensees (RSE licensees).1
+
+3.      This Prudential Standard includes requirements that apply to the functions and
+        duties of an RSE auditor for the purposes of section 35AC(3) of the SIS Act.2
+
+4.      This Prudential Standard commences on 30 June 2024.
+
+
+1       For the purposes of this Prudential Standard, ‘RSE licensee’ has the meaning given in section
+        10(1) of the SIS Act.
+2       For the purposes of this Prudential Standard, ‘RSE auditor’ has the meaning given in section 10(1)
+        of the SIS Act.
+                                                                                           SPS 310 - 1
+
+
+
+                              Authorised Version F2024L00636 registered 05/06/2024
+                                                                                           June 2024
+
+
+
+Interpretation
+
+5.    Where this Prudential Standard provides for APRA to exercise a power or
+      discretion, the power or discretion is to be exercised in writing.
+
+Adjustments and exclusions
+
+6.    APRA may adjust or exclude a specific requirement in this Prudential Standard
+      in relation to:
+
+      (a)    a particular RSE licensee of an RSE; or
+
+      (b)    specified RSE licensees of RSEs.
+
+Previous exercise of discretion
+
+7.    An RSE licensee must contact APRA if it seeks to place reliance, for the purposes
+      of complying with this Prudential Standard, on an exercise of discretion by APRA
+      made under a previous version of this Prudential Standard.
+
+Obligations of RSE licensees – RSE auditor appointment
+
+8.    An RSE licensee must appoint an RSE auditor for each RSE within the RSE
+      licensee’s business operations.3
+
+9.    Where an RSE licensee is a member of a group4, the auditor engaged by that
+      group may also be appointed as the RSE auditor provided that auditor meets all
+      relevant requirements of this Prudential Standard, Prudential Standard SPS 510
+      Governance (SPS 510) and, if applicable, Part 2M.4 of the Corporations Act 2001
+      (Corporations Act).5
+
+10.   An RSE licensee must ensure that the terms of engagement of the RSE auditor
+      are set out in a legally binding contract between the RSE licensee and the RSE
+      auditor. The RSE auditor must comply with terms of engagement that:
+
+      (a)    require the RSE auditor to fulfil the roles and responsibilities of the RSE
+             auditor in the manner specified in this Prudential Standard;
+
+      (b)    require the RSE auditor, in meeting their role and responsibilities, to
+             comply with relevant standards and guidance statements issued by the
+
+3     In accordance with section 35AC(8) of the SIS Act, the RSE auditor appointed under RSE licensee
+      law must be the same auditor appointed under Chapter 2M of the Corporations Act 2001
+      (Corporations Act). For the purposes of this Prudential Standard, an ‘RSE licensee’s business
+      operations’ includes all activities as an RSE licensee (including the activities of each RSE of
+      which it is the licensee), and all other activities of the RSE licensee to the extent that they are
+      relevant to, or may impact on, its activities as an RSE licensee.
+4     For the purposes of this Prudential Standard, a reference to ‘a group’ is a reference to a group
+      comprising the RSE licensee and all connected entities of the RSE licensee. ‘Connected entity’
+      has the meaning given in section 10(1) of the SIS Act.
+5     Small APRA funds are excluded from the definition of an RSE for the purposes of Chapter 2M
+      of the Corporations Act.
+                                                                                          SPS 310 - 2
+
+
+
+                            Authorised Version F2024L00636 registered 05/06/2024
+                                                                                         June 2024
+
+
+
+             Auditing and Assurance Standards Board (AUASB) (relevant AUASB
+             standards and guidance); and
+
+      (c)    refer the RSE auditor to the relevant provisions in the SIS Act and the
+             Corporations Act.6
+
+11.   An RSE licensee must use all reasonable endeavours to:
+
+      (a)    ensure that the RSE auditor complies with the terms of engagement referred
+             to in paragraph 10; and
+
+      (b)    assist the RSE auditor in being fully informed of all prudential requirements
+             applicable to the RSE licensee.7
+
+12.   An RSE licensee must ensure that the RSE auditor has access to all data,
+      information, reports and staff in respect of the RSE licensee’s business operations
+      that the RSE auditor reasonably believes necessary to fulfil their role and
+      responsibilities under the SIS Act, the Corporations Act (if applicable) and this
+      Prudential Standard. This must include access to the Board of the RSE licensee
+      (the Board)8, Board Audit Committee, internal auditor(s) and any information
+      APRA has provided to the RSE licensee, as required by the RSE auditor.
+
+Obligations of RSE licensees – fitness and propriety of RSE auditors
+
+13.   As applicable, an RSE licensee must ensure that an individual RSE auditor or a
+      lead auditor9:
+
+      (a)    is not disqualified under section 130D of the SIS Act;
+
+      (b)    satisfies the eligibility criteria in Prudential Standard SPS 520 Fit and
+             Proper (SPS 520);
+
+      (c)    is a fit and proper person in accordance with the RSE licensee’s Fit and
+             Proper Policy as required by SPS 520; and
+
+      (d)    satisfies the auditor independence requirements in SPS 510.
+
+
+
+
+6     Refer to Part 4, Part 16 and Part 25 of the SIS Act, and Chapter 2M of the Corporations Act, for
+      requirements relating to RSE auditors.
+7     ‘Prudential requirements’ include requirements imposed by the SIS Act, the Superannuation
+      Industry (Supervision) Regulations 1994, prudential standards made under the SIS Act, reporting
+      standards made under the Financial Sector (Collection of Data) Act 2001, conditions on the RSE
+      licensee’s licence and any other requirements imposed by APRA in writing.
+8      A reference to ‘the Board’ is to be read as a reference to the Board of directors or group of
+      individual trustees of an RSE licensee. ‘Group of individual trustees’ has the meaning given in
+      section 10(1) of the SIS Act.
+9     ‘Individual RSE auditor’ has the meaning given by section 10(1) of the SIS Act. ‘Lead auditor’
+      has the meaning given by section 11F of the SIS Act.
+                                                                                       SPS 310 - 3
+
+
+
+                           Authorised Version F2024L00636 registered 05/06/2024
+                                                                                    June 2024
+
+
+
+14.   As applicable, an RSE licensee must ensure that an RSE audit firm or an RSE
+      audit company10:
+
+      (a)   is not disqualified under section 130EA of the SIS Act; and
+
+      (b)   satisfies the independence requirements in SPS 510.
+
+Obligations of RSE licensees – RSE auditor’s report
+
+15.   An RSE licensee must ensure that the RSE auditor provides a report to the Board
+      on the audit of the operations of each RSE within the RSE licensee’s business
+      operations, for each year of income, that complies with this Prudential Standard
+      (refer to paragraph 22). The auditor’s report must cover the operations of the RSE
+      licensee in respect of that RSE to the extent required to provide the assurances
+      specified in paragraph 22.
+
+16.   An RSE licensee, other than an RSE licensee of a small APRA fund (SAF), may
+      lodge the auditor’s report required under paragraph 22 with ASIC, together with
+      the report lodged with ASIC in accordance with section 319 of the Corporations
+      Act.11 The APRA and ASIC components of the auditor’s report may be contained
+      in a single document. Alternatively, the RSE licensee must lodge the report
+      required under paragraph 22 with APRA within three months after the end of the
+      year of income to which the report relates. An RSE licensee of a SAF must submit
+      the auditor’s report required under paragraph 22 to APRA within three months
+      after the end of the year of income to which the report relates.
+
+17.   An RSE licensee must ensure that the auditor’s report is completed in respect of
+      the RSE’s whole year of income, even if the RSE was transferred, in whole or in
+      part, to the RSE licensee from another RSE licensee during that year of income.
+
+18.   If an RSE was wound up during the year of income to which the report relates, an
+      RSE licensee must ensure that the auditor’s report covers the period from the start
+      of the RSE’s year of income to the date the RSE was wound up and is completed
+      no later than within three months after the end of the year of income to which the
+      report relates.
+
+19.   Subject to paragraph 20, where an RSE licensee has more than one RSE within
+      its business operations, the RSE licensee must ensure that the RSE auditor(s)
+      completes a separate auditor’s report in respect of each RSE.
+
+20.   An RSE licensee may engage an RSE auditor to prepare a single auditor’s report
+      covering some or all of any SAFs within its business operations, provided that:
+
+      (a)   the RSE licensee, consistent with its obligations under the SIS Act, the
+            governing rules and Prudential Standard SPS 220 Risk Management (SPS
+
+
+
+10    ‘RSE audit firm’ and ‘RSE audit company’ have the meaning given by section 10(1) of the SIS
+      Act.
+11    A SAF is an RSE that has no more than six members.
+                                                                                   SPS 310 - 4
+
+
+
+                          Authorised Version F2024L00636 registered 05/06/2024
+                                                                                June 2024
+
+
+
+            220), is satisfied that its risk management strategy adequately covers each
+            of the SAFs covered by the single auditor’s report;
+
+      (b)   the auditor’s report is unmodified;
+
+      (c)   each SAF has been individually audited in accordance with relevant
+            AUASB standards and guidance; and
+
+      (d)   the RSE licensee provides APRA with a listing of the SAFs covered by the
+            single auditor’s report.
+
+21.   Where an RSE licensee is part of a group and the RSE auditor audits other entities
+      in the group, to the extent that the auditor’s report relates to the RSE licensee
+      itself, an RSE auditor may prepare that part of the auditor’s report (and any other
+      documents required to be provided or maintained under this Prudential Standard)
+      on whichever of the following bases the RSE auditor considers appropriate:
+
+      (a)   both the RSE licensee and the group, provided it is clear where the RSE
+            auditor is referring to matters relating to the RSE licensee or the group; or
+
+      (b)   the RSE licensee on a standalone basis, separate to the group.
+
+Responsibilities of the RSE auditor - reporting
+
+22.   The auditor’s report, which must be prepared by the RSE auditor, must, at a
+      minimum, provide:
+
+      (a)   reasonable assurance addressing:
+
+            (i)    the information, relating to each RSE, required under the reporting
+                   standards made by APRA under the Financial Sector (Collection of
+                   Data) Act 2001 (FSCOD Act) that are identified in Attachment A as
+                   requiring reasonable assurance;
+
+            (ii)   compliance with the legislative provisions that are identified in
+                   Attachment B and any additional conditions APRA has imposed on
+                   the RSE licensee’s RSE licence under section 29EA of the SIS Act;
+                   and
+
+            (iii) the annual financial statements for each RSE that is a SAF, prepared
+                  in accordance with relevant Australian Accounting Standards issued
+                  by the Australian Accounting Standards Board; and
+
+      (b)   limited assurance addressing:
+
+            (i)    the information, relating to each RSE, required under the reporting
+                   standards made by APRA under the FSCOD Act that are identified in
+                   Attachment A as requiring limited assurance;
+
+            (ii)   the RSE licensee’s systems, procedures and internal controls that are
+                   designed to ensure that the RSE licensee has complied with all
+                                                                           SPS 310 - 5
+
+
+
+                         Authorised Version F2024L00636 registered 05/06/2024
+                                                                                      June 2024
+
+
+
+                   applicable prudential requirements, has provided reliable data to
+                   APRA as required under the reporting standards made under the
+                   FSCOD Act, and has operated effectively throughout the year of
+                   income; and
+
+            (iii) the RSE licensee’s compliance with its risk management framework
+                  required under SPS 220.
+
+      For the purposes of this Prudential Standard, ‘reasonable assurance’ and ‘limited
+      assurance’ are defined in accordance with relevant AUASB standards and
+      guidance.
+
+23.   An RSE auditor must modify the opinion contained in the auditor’s report for
+      breaches of any laws specified in paragraph 22 which, in the RSE auditor’s
+      professional opinion, are material. In forming an opinion as to whether a breach
+      is material, the RSE auditor must refer to relevant AUASB standards and
+      guidance.
+
+24.   When preparing a report required under the SIS Act or this Prudential Standard
+      (whether as part of a routine or special purpose engagement), an RSE auditor
+      must:
+
+      (a)   do so on the basis that APRA may rely upon the report in the performance
+            of its functions under the SIS Act; and
+
+      (b)   exercise independent judgement and not place sole reliance on work
+            performed by APRA.
+
+25.   An RSE auditor must retain all working papers and other documentation in
+      relation to an engagement under this Prudential Standard for a period of at least
+      seven years after the end of year of income.12 APRA may require the RSE auditor
+      to provide the working papers and other documentation to APRA.
+
+Other responsibilities of the RSE licensee
+
+26.   An RSE licensee must bear the costs of preparing and submitting reports,
+      documents and other material required by this Prudential Standard.
+
+27.   An RSE licensee must facilitate meeting arrangements requested by APRA,
+      including ensuring attendance by the individual RSE auditor or lead auditor, the
+      internal auditor (where applicable) and, where an RSE licensee is part of a group,
+      responsible persons from the head entity of the group.
+
+Special purpose engagements
+
+28.   APRA may require an RSE licensee to engage an auditor, who may be the existing
+      RSE auditor or another auditor as specified by APRA, to provide a report on a
+
+
+
+12    ‘Working papers’ has the meaning given in section 307B(8) of the Corporations Act.
+                                                                                    SPS 310 - 6
+
+
+
+                           Authorised Version F2024L00636 registered 05/06/2024
+                                                                                June 2024
+
+
+
+      particular aspect of the RSE licensee’s business operations, compliance with
+      prudential requirements or the RSE licensee’s risk management framework.
+
+29.   An auditor engaged for a special purpose engagement must provide limited
+      assurance on the matters upon which the auditor is required to report unless
+      otherwise determined by APRA and advised to the RSE licensee in writing.
+
+30.   Unless otherwise determined by APRA, an auditor engaged for a special purpose
+      engagement must submit, within three months of the date of the notice
+      commissioning the report, the auditor’s report simultaneously to APRA and to
+      the Board.
+
+31.   An auditor must modify the report referred to in paragraph 28 for breaches of
+      laws relating to the matters upon which the auditor is required to report which, in
+      the auditor’s professional opinion, are material. In forming an opinion as to
+      whether a breach is material, the auditor must refer to relevant AUASB standards
+      and guidance.
+
+
+
+
+                                                                               SPS 310 - 7
+
+
+
+                        Authorised Version F2024L00636 registered 05/06/2024
+                                                                                       June 2024
+
+
+
+Attachment A - Content of auditor’s report: information
+required under reporting standards made by APRA
+
+1.   Subject to paragraph 2 of this Attachment, for the purposes of paragraph 22(a)(i)
+     and 22(b)(i) of this Prudential Standard, the auditor’s report must address the
+     information in the following reporting standards on the basis specified below in
+     relation to each listed reporting standard13:
+
+     Reporting standard                                                          Level of
+                                                                                 assurance
+
+      (a)      Reporting Standard SRS 114.1 Operational Risk
+                                                                                   Reasonable
+               Financial Requirement
+
+      (b)      Reporting Standard SRS 320.0 Statement of Financial
+                                                                                   Reasonable
+               Position
+
+      (c)      Reporting Standard SRS 330.0 Statement of Financial
+                                                                                   Reasonable
+               Performance
+
+      (d)      Reporting Standard SRS 533.0 Asset Allocation (in
+                                                                                     Limited
+               respect of MySuper lifecycle investment options only)
+
+      (e)      Reporting Standard SRS 550.0 Asset Allocation
+               (Table 1, columns 1-5 and 9-12 of Reporting Form                    Reasonable
+               SRF 550.1 Investments and Currency Exposure only)
+
+      (f)      Reporting Standard SRS 602.0 Wind-up14                              Reasonable
+
+      (g)      Reporting Standard SRS 706.0 Fees and Costs
+               Disclosed (in respect of MySuper investment options                   Limited
+               only)
+
+      (h)      Reporting Standard SRS 800.0 Financial Statements15                 Reasonable
+
+      (i)      Reporting Standard SRS 801.0 Investments and
+                                                                                   Reasonable
+               Investment Flows16
+
+2.   In place of the reporting standards listed in this attachment, the auditor’s report
+     for an RSE that has wound up must address the information in Reporting Standard
+     SRS 602.0 Wind-up (SRS 602.0), plus the information in the additional reporting
+     standards identified in SRS 602.0, on a reasonable assurance basis.
+
+
+13   If a reporting standard has been revoked prior to or during a year of income, the RSE auditor’s
+     report for that year of income does not need to address the annual information required by that
+     reporting standard.
+14   Applies only to RSEs that have wound up.
+15   Applies only to small APRA funds and single member approved deposit funds.
+16   Applies only to small APRA funds and single member approved deposit funds.
+
+
+                                                                      SPS 310 – Attachment A - 8
+
+                          Authorised Version F2024L00636 registered 05/06/2024
+                                                                                    June 2024
+
+
+
+Attachment B - Content of auditor’s report: compliance
+with legislative provisions
+
+1.   For the purposes of paragraph 22(a)(ii) of this Prudential Standard, the auditor’s
+     report must address compliance, at a reasonable assurance level, with the
+     following legislative provisions, to the extent that the provisions are applicable to
+     the RSE licensee’s business operations:
+
+     (a)   sections 29VA, 35A, 65, 66, 67, 95, 97, 98, 99F, 101, 105, 106, 109, 117,
+           154 and 155(2) of the SIS Act;
+
+     (b)   regulations 3.10, 5.08, 6.17, 7.04, 7.05, 9.09, 9.14, 13.14, 13.17 and 13.17A
+           of the Superannuation Industry (Supervision) Regulations 1994;
+
+     (c)   sections 1012B, 1012F, 1012H(2), 1017B(1), 1017B(5), 1017D(1),
+           1017D(3A), 1017E(2), 1017E(3) and 1017E(4) of the Corporations Act;
+           and
+
+     (d)   regulations 7.9.07R, 7.9.07S, 7.9.07T, 7.9.07V and 7.9.07W of the
+           Corporations Regulations 2001.
+
+
+
+
+                                                                    SPS 310 – Attachment B - 9
+
+                        Authorised Version F2024L00636 registered 05/06/2024
+

@@ -1205,6 +1205,15 @@
   "status": 200,
   "type": "application/pdf"
  },
+ "https://www.legislation.gov.au/F2024L00636/asmade/2024-06-05/text/original/pdf": {
+  "chars": 23600,
+  "date": "2026-10-12",
+  "file": "legislation-gov-au-f2024l00636-asmade-2024-06-05-text-original-pdf.txt",
+  "final": "https://www.legislation.gov.au/F2024L00636/asmade/2024-06-05/text/original/pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
  "https://www.legislation.gov.au/F2024L00637/asmade/2024-06-06/text/original/pdf": {
   "chars": 29150,
   "date": "2026-10-09",
