@@ -367,6 +367,12 @@ window.GLOSSARY_CARDS = [
 "def": "The rules for add-on insurance sold alongside a car or other major purchase. The insurance generally cannot be sold until a waiting period has passed after the main sale, giving the customer time to consider whether they need it."
 },
 {
+"slug": "defined-benefit-fund",
+"term": "Defined benefit fund",
+"abbr": "",
+"def": "A super fund with at least one member whose benefit is set by a formula, usually based on salary and years of service, or is a specified amount, rather than being an account balance. APRA's SPS 160 requires regular actuarial checks that the fund's assets cover members' vested benefits, and a restoration plan when they don't."
+},
+{
 "slug": "denominator-effect",
 "term": "Denominator effect",
 "abbr": "",
@@ -1073,6 +1079,12 @@ window.GLOSSARY_CARDS = [
 "term": "Self-managed super fund",
 "abbr": "SMSF",
 "def": "A small super fund, with up to six members, where the members are also the trustees (or directors of the corporate trustee). SMSFs are regulated by the ATO rather than APRA."
+},
+{
+"slug": "shortfall-limit",
+"term": "Shortfall limit",
+"abbr": "",
+"def": "Under APRA's SPS 160, the Board-approved measure of how far a defined benefit fund's assets can fall below members' vested benefits while the trustee still reasonably expects the fund to recover within a year as temporary market falls correct. Breaching it triggers an interim actuarial investigation."
 },
 {
 "slug": "significant-dealing",

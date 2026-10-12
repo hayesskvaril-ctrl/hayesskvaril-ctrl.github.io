@@ -257,7 +257,9 @@ window.QUIZ_BANK = [
       { q: "In the RSE auditor's annual report under SPS 310, compliance with the trustee's SPS 220 risk management framework is covered at what level?", options: ["Reasonable assurance", "Limited assurance", "No assurance", "Absolute assurance"], answer: 1,
         explain: "Limited assurance also covers the trustee's compliance controls. Key APRA reporting forms and compliance with listed laws get reasonable assurance.", page: "/standards/sps-310.html" },
       { q: "If a trustee doesn't lodge the RSE auditor's report with ASIC alongside the fund's financial report, when must it go to APRA?", options: ["Within 30 days of the year end", "Within three months after the end of the year of income", "Within six months", "Within twelve months"], answer: 1,
-        explain: "SPS 310 para 16. Small APRA funds always lodge with APRA within three months.", page: "/standards/sps-310.html" }
+        explain: "SPS 310 para 16. Small APRA funds always lodge with APRA within three months.", page: "/standards/sps-310.html" },
+      { q: "Under SPS 160, once a defined benefit fund's actuary has found its financial position unsatisfactory, how long does the Board have to approve a restoration plan after receiving the actuary's statement?", options: ["15 business days", "Three months", "One year", "Three years"], answer: 1,
+        explain: "The plan then goes to APRA and the actuary within 15 business days of approval, and must aim to restore the fund within three years at most (paras 31 and 32).", page: "/standards/sps-160.html" }
     ]
   },
   {
@@ -478,6 +480,7 @@ window.QUIZ_PAGES = {
   "/standards/sps-250.html": "SPS 250 Insurance in Superannuation",
   "/standards/sps-521.html": "SPS 521 Conflicts of Interest",
   "/standards/sps-310.html": "SPS 310 Audit and Related Matters",
+  "/standards/sps-160.html": "SPS 160 Defined Benefit Matters",
   "/standards/iso-27001.html": "ISO/IEC 27001 Information security management",
   "/standards/iso-31000.html": "ISO 31000 Risk management",
   "/case-studies/hayne-royal-commission.html": "The Hayne Royal Commission (2019)",
