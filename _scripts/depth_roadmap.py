@@ -33,7 +33,8 @@ TRACKS = [
         "/standards/sps-515.html", "/standards/sps-530.html", "/sectors/superannuation.html",
         "/standards/asic-rg-97.html", "/sectors/fund-mergers-and-successor-fund-transfers.html",
         "/sectors/unit-pricing.html", "/risk-management/super-liquidity-stress-testing.html",
-        "/sectors/behavioural-economics-of-super.html", "/standards/sps-250.html", "/standards/sps-114.html"]),
+        "/sectors/behavioural-economics-of-super.html", "/standards/sps-250.html", "/standards/sps-114.html",
+        "/standards/sps-521.html"]),
     ("Incidents, breaches and remediation", "From the first sign of a problem to putting it right.", [
         "/risk-management/incident-and-breach-management.html", "/compliance/breach-reporting.html",
         "/standards/asic-rg-78.html", "/compliance/breach-significance-analysis.html",
@@ -118,6 +119,10 @@ TRACKS = [
 
 # url -> (date finished, what changed)
 DONE = {
+    "/standards/sps-521.html": ("12 October 2026",
+        "New page written to the deep review standard from the official SPS 521 text and the SIS Act: the four kinds "
+        "of conflict, the framework, policy, registers and reviews paragraph by paragraph, avoiding versus managing, "
+        "a worked tender example, common mistakes, the proposed replacement by CPS 510 and FAQs."),
     "/standards/sps-250.html": ("10 October 2026",
         "New page written to the deep review standard from the official SPS 250 text and the SIS Act: the insurance "
         "management framework, strategy, arrangement terms, insurer selection and monitoring, connected insurer "

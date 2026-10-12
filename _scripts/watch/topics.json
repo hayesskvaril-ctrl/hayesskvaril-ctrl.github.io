@@ -175,7 +175,8 @@
   "/news/regulatory-tracker.html",
   "/sectors/superannuation.html",
   "/standards/cps-220.html",
-  "/standards/cps-510-and-cps-520.html"
+  "/standards/cps-510-and-cps-520.html",
+  "/standards/sps-521.html"
  ],
  "CPS 511": [
   "/standards/cps-511.html"
@@ -476,6 +477,9 @@
   "/news/regulatory-tracker.html",
   "/sectors/fund-mergers-and-successor-fund-transfers.html",
   "/standards/sps-515.html"
+ ],
+ "SPS 521": [
+  "/standards/sps-521.html"
  ],
  "SPS 530": [
   "/news/regulatory-tracker.html",
@@ -803,7 +807,8 @@
   "/foundations/what-is-governance.html",
   "/sectors/superannuation.html",
   "/standards/cps-220.html",
-  "/standards/cps-510-and-cps-520.html"
+  "/standards/cps-510-and-cps-520.html",
+  "/standards/sps-521.html"
  ],
  "eligible data breach": [
   "/compliance/breach-reporting.html",
@@ -876,7 +881,8 @@
   "/foundations/what-is-governance.html",
   "/sectors/superannuation.html",
   "/standards/cps-220.html",
-  "/standards/cps-510-and-cps-520.html"
+  "/standards/cps-510-and-cps-520.html",
+  "/standards/sps-521.html"
  ],
  "greenwashing": [
   "/compliance/disclosure-obligations.html",

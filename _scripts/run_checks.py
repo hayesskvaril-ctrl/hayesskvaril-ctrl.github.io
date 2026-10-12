@@ -225,8 +225,14 @@ if unconfirmed:
           + ", ".join(f["id"] for f in unconfirmed[:12]) + (" ..." if len(unconfirmed) > 12 else ""))
 rep = HERE / "watch/latest_report.md"
 if pulled and rep.exists():
-    m = re.search(r"## New announcements \((\d+)\)", rep.read_text(encoding="utf-8"))
-    if m and int(m.group(1)):
+    rtext = rep.read_text(encoding="utf-8")
+    m = re.search(r"## New announcements \((\d+)\)", rtext)
+    rdate = re.search(r"^# Regulator watch, (.+)$", rtext, re.M)
+    done_file = HERE / "watch/processed.txt"
+    processed = done_file.read_text(encoding="utf-8").split("\n") if done_file.exists() else []
+    if m and int(m.group(1)) and rdate and rdate.group(1).strip() in processed:
+        print(f"  Latest weekly watch ({rdate.group(1).strip()}) has been processed.")
+    elif m and int(m.group(1)):
         print(f"  Latest weekly watch listed {m.group(1)} new announcement(s): see the open 'regulator-watch' issue on GitHub.")
         todo.append("Process the open regulator watch issue on GitHub (new announcements to check against the site).")
 out = run("build_facts.py").strip()

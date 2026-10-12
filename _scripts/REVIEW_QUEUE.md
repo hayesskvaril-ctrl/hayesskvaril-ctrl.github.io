@@ -21,6 +21,7 @@ Roughly 15 to 30 minutes a page. Doing the first ten covers the site's highest-t
 11a. ~~/standards/sps-515.html~~ signed off 2 October 2026
 11b. /standards/sps-530.html (deep review done 2 October 2026: valuation triggers example, liquidity, 2026 proposals; proposal dates corrected 8 October 2026 to the 30 September 2026 release)
 11d. /standards/sps-114.html (new 10 October 2026, from the official SPS 114 text, APRA's current and superseded SPG 114 and SIS Act ss 52(8)(b) and 56(2A): guidance minimums, permitted uses, what changed in 2025, replenishment worked example)
+11e. /standards/sps-521.html (new 12 October 2026, from the official SPS 521 text and SIS Act ss 52(2)(d) and 52A(2)(d): requirement table, avoid versus manage, tender worked example)
 11c. /standards/sps-250.html (new 10 October 2026, from the official SPS 250 text and SIS Act ss 68AAA to 68AAF: requirement table, connected insurer worked example, default cover rules)
 
 - /sectors/fund-mergers-and-successor-fund-transfers.html (deep review done 2 October 2026: merger process table and common mistakes)

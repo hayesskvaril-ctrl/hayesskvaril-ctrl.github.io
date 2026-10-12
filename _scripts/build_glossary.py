@@ -160,7 +160,7 @@ TERMS = [
      [("Operational risk", "/risk-management/operational-risk.html"), ("Culture and conduct risk", "/governance/culture-and-conduct.html")]),
     ("conflict-of-interest", "Conflict of interest", "",
      "A situation where a person's or organisation's own interests could influence, or be seen to influence, a decision they are meant to make in someone else's interest.",
-     [("Conflicts of interest", "/governance/conflicts-of-interest.html")]),
+     [("Conflicts of interest", "/governance/conflicts-of-interest.html"), ("SPS 521 Conflicts of Interest", "/standards/sps-521.html")]),
     ("consequence", "Consequence", "",
      "The outcome of an event and how much it affects objectives, for example financial loss, harm to customers, regulatory action or reputational damage. Often called impact or severity.",
      [("Risk assessment methodologies", "/risk-management/risk-assessment-methodologies.html")]),
