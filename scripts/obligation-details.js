@@ -656,8 +656,8 @@ window.GRC_OBLIGATION_DETAILS = {
     }
   },
   sis: {
-    source: [['Superannuation Industry (Supervision) Act 1993 (compilation in force from 10 August 2026)', 'https://www.legislation.gov.au/C2004A04633/latest/text']],
-    checkedText: '9 October 2026',
+    source: [['Superannuation Industry (Supervision) Act 1993 (compilation in force from 10 August 2026)', 'https://www.legislation.gov.au/C2004A04633/latest/text'], ['Prudential Standard SPS 250 Insurance in Superannuation (F2022L00741, in force from 1 July 2022)', 'https://www.legislation.gov.au/F2022L00741/asmade/text']],
+    checkedText: '9, 10 and 12 October 2026',
     themes: {
       1: [
         ['Act honestly, with the care, skill and diligence of a prudent superannuation trustee, and perform duties and exercise powers in the best financial interests of beneficiaries, including payments to third parties', 'SIS Act s 52(2)(a)–(c), (3A)'],
@@ -670,7 +670,22 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Each year, determine in writing for each MySuper and choice product whether members’ financial interests are being promoted, comparing fees and costs, net returns and investment risk with other products, and assessing options, investment and insurance strategies and insurance fees', 'SIS Act s 52(9)(a), (10), (10A), (11)'],
         ['Publish the determination and a summary of the assessments on the fund’s website within 28 days, and keep it there until the next one', 'SIS Act s 52(9)(b)–(d)'],
         ['APRA assesses each product in the annual performance test; if a product fails, tell each member who holds it within 28 days of APRA’s notification (or a later day APRA or ASIC allows), in the prescribed form', 'SIS Act ss 60C, 60E'],
-        ['After two consecutive fails, the product cannot take on new members (unless APRA grants an exemption)', 'SIS Act s 60F(2)–(4)']]
+        ['After two consecutive fails, the product cannot take on new members (unless APRA grants an exemption)', 'SIS Act s 60F(2)–(4)']],
+      3: [
+        ['Formulate, review regularly and give effect to an insurance strategy covering the kinds and levels of cover offered, the basis for them having regard to members’ demographics, and how insurers are chosen', 'SIS Act s 52(7)(a)'],
+        ['Consider the cost to all members, offer cover only if its cost does not inappropriately erode members’ retirement income, and do everything reasonable to pursue a claim with a reasonable prospect of success', 'SIS Act s 52(7)(b)–(d)'],
+        ['Do not provide default cover on an account inactive for 16 months, on a balance under $6,000 that has not reached $6,000 since 1 November 2019, or for a member under 25, unless the member elects to have it or an exception applies', 'SIS Act ss 68AAA–68AAC, 68AAE, 68AAF'],
+        ['Keep a Board-owned insurance management framework suited to the business and the types of cover, known to staff in insurance roles, with controls to monitor compliance', 'SPS 250 paras 9–12, 14'],
+        ['The framework includes, at a minimum, the insurance strategy; policies on recovering premiums, administration, underwriting and claims; roles and reporting lines; a review process; a policy on declined, reduced, terminated and reinstated cover; and an easy way to opt out, with how it is communicated', 'SPS 250 para 13'],
+        ['Keep records detailed enough for APRA reporting and for a prospective insurer, including at least five years of claims experience, membership, sums insured and premiums, and treat insurance as a material risk area under SPS 220', 'SPS 250 paras 15–16'],
+        ['Document in the insurance strategy how each SIS Act s 52(7) factor is considered, how cover is monitored, reviewed and renewed, the approach to claims management and how conflicts are managed', 'SPS 250 para 17'],
+        ['Make sure each insurance arrangement addresses the minimum terms, including service standards and reporting against them, complete annual claims information, and (for arrangements entered into from 1 July 2022) a right to terminate if it is not in members’ best financial interests', 'SPS 250 paras 18–19'],
+        ['Be able to show APRA that rules for giving members an insurance status are fair and reasonable', 'SPS 250 para 20'],
+        ['Tell APRA as soon as practicable of issues that might materially affect the ability to provide insured benefits, and of any terminated arrangement, with the transition plan', 'SPS 250 paras 21–22'],
+        ['Choose insurers through a documented selection process and due diligence, at arm’s length and in members’ best financial interests', 'SPS 250 paras 23–24'],
+        ['For a connected insurer, get an independent certification before entering, renewing or materially changing the arrangement and at least every three years, and give it to APRA within 10 business days', 'SPS 250 paras 25–28'],
+        ['Resource the insurer relationship and monitor performance against service levels, reporting to senior management', 'SPS 250 para 29'],
+        ['Have the insurance management framework comprehensively reviewed by operationally independent people at least every three years', 'SPS 250 paras 30–32']]
     }
   },
   acnc: {
@@ -840,8 +855,8 @@ window.GRC_OBLIGATION_DETAILS = {
     }
   },
   cps510: {
-    source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text'], ['Prudential Standards SPS 510 Governance (F2024L00637) and SPS 520 Fit and Proper (F2024L00638), both in force from 30 June 2024, for super trustees, shown as “Super”', 'https://www.legislation.gov.au/F2024L00637/asmade/text']],
-    checkedText: '9 October 2026',
+    source: [['Prudential Standard CPS 510 Governance (F2023L01535, in force from 1 January 2024)', 'https://www.legislation.gov.au/F2023L01535/asmade/text'], ['Prudential Standard CPS 520 Fit and Proper (F2018L01390, in force from 1 July 2019). Banks and insurers. APRA has proposed one consolidated governance standard', 'https://www.legislation.gov.au/F2018L01390/asmade/text'], ['Prudential Standards SPS 510 Governance (F2024L00637) and SPS 520 Fit and Proper (F2024L00638), both in force from 30 June 2024, for super trustees, shown as “Super”', 'https://www.legislation.gov.au/F2024L00637/asmade/text'], ['Prudential Standard SPS 310 Audit and Related Matters (F2024L00636, in force from 30 June 2024)', 'https://www.legislation.gov.au/F2024L00636/asmade/text']],
+    checkedText: '9 and 12 October 2026',
     themes: {
       1: [
         ['The Board is ultimately responsible for oversight of the sound and prudent management of the institution, and has a formal charter', 'CPS 510 paras 16–17'],
@@ -877,7 +892,16 @@ window.GRC_OBLIGATION_DETAILS = {
         ['Super (SPS 520): keep a Board-approved Fit and Proper Policy, part of the risk management framework, covering who assesses, what information is gathered, how decisions are made, and what happens if someone fails', 'SPS 520 paras 7–10, 26–28'],
         ['Super (SPS 520): the policy allows whistleblowing to the assessor or APRA about a responsible person, protects people who disclose in good faith, and the trustee must not restrict such disclosures', 'SPS 520 paras 36–41'],
         ['Super (SPS 520): give APRA each responsible person’s details and keep them correct, and promptly tell APRA in writing if someone stays in a role despite being assessed as not fit and proper', 'SPS 520 paras 43–45'],
-        ['Super (SPS 520): keep enough records of each assessment to show the fitness and propriety of current and recent responsible persons', 'SPS 520 para 35']]
+        ['Super (SPS 520): keep enough records of each assessment to show the fitness and propriety of current and recent responsible persons', 'SPS 520 para 35']],
+      4: [
+        ['Super (SPS 310): appoint an RSE auditor for each fund, under a legally binding contract requiring it to carry out its SPS 310 role and follow AUASB standards and guidance', 'SPS 310 paras 8–10'],
+        ['Super (SPS 310): use all reasonable endeavours to make sure the auditor complies with its terms and is fully informed of the prudential requirements, and give it access to all data, staff, the Board, the Audit Committee, internal audit and information from APRA', 'SPS 310 paras 11–12'],
+        ['Super (SPS 310): make sure the auditor is not disqualified, meets the SPS 520 eligibility criteria, is fit and proper under the trustee’s policy, and is independent under SPS 510', 'SPS 310 paras 13–14'],
+        ['Super (SPS 310): obtain the auditor’s annual report to the Board for each fund, covering the whole year of income (or to the wind-up date)', 'SPS 310 paras 15, 17–19'],
+        ['Super (SPS 310): lodge the report with ASIC with the s 319 financial report, or with APRA within three months after the end of the year of income', 'SPS 310 para 16'],
+        ['Super (SPS 310): the report gives reasonable assurance on listed APRA reporting forms and compliance with listed laws and licence conditions, and limited assurance on compliance controls and the SPS 220 risk management framework', 'SPS 310 para 22'],
+        ['Super (SPS 310): pay for the reports and arrange meetings APRA requests with the auditor, internal auditor and group responsible persons', 'SPS 310 paras 26–27'],
+        ['Super (SPS 310): if APRA requires a special purpose engagement, engage the auditor it specifies; the report goes to APRA and the Board within three months of the notice unless APRA decides otherwise', 'SPS 310 paras 28–30']]
     }
   },
   breach: {

@@ -144,13 +144,15 @@ window.GRC_BUILDER = {
         ['Notify APRA of material information security incidents, and of material control weaknesses that cannot be fixed in a timely way', ['tec.cyber', 'cmp.reporting'], 'Notifiable security events are notified within the deadlines', 'Incident log; notification records']],
       clocks: [['Material information security incident', 'Within {fact:cps234-incident-notice}', 'APRA'], ['Material information security control weakness that can’t be remediated in a timely way', 'Within {fact:cps234-weakness-notice}', 'APRA']] },
 
-    cps510: { label: 'Governance and fit and proper (CPS 510, CPS 520, SPS 510, SPS 520)', reg: 'APRA', url: '/standards/cps-510-and-cps-520.html',
+    cps510: { label: 'Governance, fit and proper and audit (CPS 510, CPS 520, SPS 510, SPS 520, SPS 310)', reg: 'APRA', url: '/standards/cps-510-and-cps-520.html',
       applies: 'APRA-regulated entities. APRA has proposed one consolidated governance standard; check the current position.',
       docs: [['Board charter and committee charters', 1, 'Board', 'entity'], ['Fit and proper policy', 2, 'Board', 'both'], ['Board renewal and performance review policy', 2, 'Board', 'entity']],
       themes: [
         ['Meet minimum requirements for board size, independence, committees, renewal and performance review', ['gov.board'], 'Board structure meets the standard and is reviewed', 'Board charter; skills matrix; review reports'],
         ['Assess responsible persons as fit and proper before appointment and at least annually', ['gov.fitproper'], 'Every responsible person has a current assessment', 'Assessment records'],
-        ['Keep a fit and proper policy and records, and notify APRA if someone is assessed as not fit and proper', ['gov.fitproper', 'cmp.reporting'], 'Policy and records are complete; notifications are made', 'Policy; register; notifications']] },
+        ['Keep a fit and proper policy and records, and notify APRA if someone is assessed as not fit and proper', ['gov.fitproper', 'cmp.reporting'], 'Policy and records are complete; notifications are made', 'Policy; register; notifications'],
+        ['Super trustees: appoint and support an independent RSE auditor whose annual report covers APRA reporting, compliance with listed laws, compliance controls and the risk management framework (SPS 310)', ['gov.board', 'cmp.reporting'], 'The RSE auditor is independent, fully informed and reports on time', 'Engagement letter; auditor’s report; lodgement record']],
+      cal: [['Annually', 'Super: RSE auditor’s report for each fund to the Board, then to ASIC or APRA within three months of year end (SPS 310)']] },
 
     cps511: { label: 'Remuneration (CPS 511)', reg: 'APRA', url: '/standards/cps-511.html',
       applies: 'APRA-regulated entities; significant financial institutions face extra requirements.',
@@ -209,13 +211,14 @@ window.GRC_BUILDER = {
         ['Due diligence before investing, and monitoring of investments and managers afterwards', ['mkt.investment', 'tpr.msp'], 'Due diligence and monitoring are evidenced', 'Due diligence reports; manager reviews'],
         ['Valuation governance and liquidity management, including a comprehensive stress-testing program', ['mkt.valuation', 'liq.fund'], 'Valuations are robust and liquidity is stress tested', 'Valuation committee papers; stress test results']] },
 
-    sis: { label: 'Super trustee duties (SIS Act, performance test)', reg: 'APRA and ASIC', url: '/sectors/superannuation.html',
+    sis: { label: 'Super trustee duties (SIS Act, performance test, insurance in super and SPS 250)', reg: 'APRA and ASIC', url: '/sectors/superannuation.html',
       applies: 'Super trustees.',
-      docs: [['Best financial interests decision-making framework', 2, 'Board', 'entity']],
+      docs: [['Best financial interests decision-making framework', 2, 'Board', 'entity'], ['Insurance strategy and insurance management framework (SPS 250)', 1, 'Board', 'entity']],
       themes: [
         ['Act in members’ best financial interests, with evidence for how decisions, including spending, meet that test', ['str.outcomes', 'con.conflicts'], 'Decisions record how they serve members’ best financial interests', 'Decision papers; expenditure assessments'],
-        ['Prepare for APRA’s annual performance test and the trustee’s annual outcomes assessment', ['str.outcomes', 'mkt.investment'], 'Performance is monitored against the test throughout the year', 'Performance test monitoring']],
-      cal: [['Annually', 'APRA performance test results and member notifications where required']] },
+        ['Prepare for APRA’s annual performance test and the trustee’s annual outcomes assessment', ['str.outcomes', 'mkt.investment'], 'Performance is monitored against the test throughout the year', 'Performance test monitoring'],
+        ['Insurance in super: an insurance strategy and Board-owned insurance management framework, default cover rules, insurer selection and monitoring, and extra safeguards for connected insurers (SIS Act s 52(7), SPS 250)', ['con.claims', 'str.outcomes', 'tpr.msp'], 'Insurance offered to members is appropriate, arm’s length and monitored', 'Insurance strategy; insurer reviews; certifications']],
+      cal: [['Annually', 'APRA performance test results and member notifications where required'], ['At least every 3 years', 'Independent comprehensive review of the insurance management framework (SPS 250)']] },
 
     afsl: { label: 'AFS licence general obligations (s 912A, RG 104, RG 105)', reg: 'ASIC', url: '/standards/asic-rg-104-and-rg-105.html',
       applies: 'Australian financial services licensees.',
