@@ -1456,6 +1456,13 @@ h2[id], h3[id] { scroll-margin-top: 110px; }
 .gb-matrow { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 8px 24px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); }
 .widget .gb-matrow label { margin: 0; }
 .widget .gb-matrow select { width: 100%; }
+.gb-cform { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px 16px; align-items: end; background: var(--surface); border-radius: 14px; padding: 14px 16px; margin: 4px 0 10px; }
+.gb-cform p { margin: 0; }
+.gb-cform .gb-cwide { grid-column: 1 / -1; }
+.gb-cform input[type="text"], .widget .gb-cform select { width: 100%; max-width: none; }
+.gb-clist { list-style: none; margin: 0 0 14px; padding: 0; }
+.gb-clist li { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 15px; }
+.gb-clist li > span { min-width: 0; overflow-wrap: anywhere; }
 .gb-navbar { position: sticky; bottom: 0; z-index: 6; margin: 22px -30px 0; padding: 14px 30px 12px; background: rgba(255, 255, 255, 0.9); -webkit-backdrop-filter: saturate(180%) blur(18px); backdrop-filter: saturate(180%) blur(18px); border-top: 1px solid var(--border); border-radius: 0 0 var(--radius-lg) var(--radius-lg); }
 .gb-navbtns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 .grc-builder .gb-build { margin-left: auto; padding: 10px 20px; border-radius: 980px; font-size: 16px; }

@@ -453,8 +453,8 @@ Add new ideas here as they come up. Items that became part of Phases 9–14 have
 - **Idea:** short explainer videos for the new university-level pages. Done October 2026: the enforcement pyramid, normal accidents versus high reliability, and the Gordon-Loeb model.
 - **Idea:** more 3D graphics for individual topic pages, using the scene library in `_scripts/graphics/`. CPS 230, breach reporting and incident pages already have them; added October 2026: obligations library (ledger), playbooks (steps) and FAR and board accountability (keystone).
 - **Expert review (Phase 18):** the GRC section, especially the risk hierarchy, establishment roadmap and the GRC model builder's regime defaults, obligation themes, notification clocks, control examples and document lists in `scripts/grc-builder-data.js`.
-- **Idea:** GRC model builder: let readers add their own Level 2 sub-types and controls in the tool. (Individual obligations with citations are now in the Excel download, October 2026.)
-- **Idea:** automatic monthly check of external links (to APRA, ASIC, legislation and other sources) using a free GitHub Actions link checker. External links can't be tested from the build environment, so broken source links would currently only be found at each page's yearly review.
+- **Done (12 October 2026):** GRC model builder: readers can add their own Level 2 sub-types and controls in step 4; they are saved in the browser and share links, marked "Added by you", and included in every tab, check and download. (Individual obligations with citations are in the Excel download.)
+- **Done:** automatic monthly check of external links (`.github/workflows/link-check.yml`, opens an issue listing broken links).
 
 - **Next roundup:** after the final CPS 510 and the ASIC/APRA FAR changes (see Recurring upkeep for the cadence).
 

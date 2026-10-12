@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-12', '/grc/model-builder.html', 'GRC model builder: you can now add your own Level 2 sub-types and controls in step 4. They are marked "Added by you" and carried into the risk universe, the checks, the CSV risk and control matrix, the Excel workbook and share links.'),
     ('2026-10-12', '/obligations/', 'Obligations library: insurance in super (SIS Act s 52(7), the default cover rules and SPS 250) added to super trustee duties, and the RSE auditor (SPS 310) added to governance, with 22 new individual obligations checked against the official texts (602 in total). Both also appear in the GRC model builder.'),
     ('2026-10-12', '/standards/cps-510-and-cps-520.html', 'CPS 510 and CPS 520: the summary of APRA\'s draft governance standard is now checked line by line against the draft itself, with paragraph references. The committees and conflicts rows were made more precise, and details that came only from secondary commentary were removed.'),
     ('2026-10-12', '/about/fact-register.html', 'Key facts register: the draft CPS 510 tenure limit, the Financial Claims Scheme limit, the FAR streamlining consultation dates and the draft CPS 510 dates are now confirmed on official sources. The debt-to-income limit start is now shown as February 2026, as APRA states it, rather than a specific day.'),

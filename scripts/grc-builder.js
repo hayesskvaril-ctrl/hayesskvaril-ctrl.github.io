@@ -60,6 +60,7 @@
   var BODIES = [['APRA', /APRA/], ['ASIC', /ASIC/], ['AUSTRAC', /AUSTRAC/], ['OAIC', /OAIC/], ['ACCC', /ACCC/], ['ASX', /ASX/], ['ACNC', /ACNC/], ['DFAT', /DFAT/], ['Home Affairs', /Home Affairs/], ['Attorney-General’s Department', /Attorney-General/], ['Department of Finance', /Department of Finance/]];
   var BODY_COLOUR = { APRA: '#1b3a5c', ASIC: '#2563eb', AUSTRAC: '#4745c2', OAIC: '#17692d' };
   var TYPE = { P: 'Preventive', D: 'Detective', C: 'Corrective' };
+  var CUSTOM_MAX = 30, CUSTOM_FREQ = ['Continuous', 'Daily', 'Weekly', 'Monthly', 'Quarterly', 'Annual', 'Per transaction', 'Per event', 'Ongoing'];
   var DOC_LEVELS = { 1: 'Board-approved frameworks and statements', 2: 'Policies', 3: 'Standards and methodologies', 4: 'Procedures, registers and plans' };
   var CORE_DOCS = [
     ['Risk management framework', 1, 'Board', 'both'], ['Risk appetite statement', 1, 'Board', 'entity'], ['Internal audit charter', 1, 'Board audit committee', 'entity'],
@@ -74,7 +75,7 @@
 
   // ------------------------------------------------------------------ state
   function blank() {
-    return { v: 2, name: '', entities: { rse: 1 }, scale: 'large', sfi: false, juris: [], features: [], pains: [], regimes: null, risks: null, maturity: { framework: 2, people: 2, process: 2, data: 2, technology: 2 }, target: 0 };
+    return { v: 2, name: '', entities: { rse: 1 }, scale: 'large', sfi: false, juris: [], features: [], pains: [], regimes: null, risks: null, maturity: { framework: 2, people: 2, process: 2, data: 2, technology: 2 }, target: 0, custom: { l2: [], controls: [] } };
   }
   // validates anything loaded from storage or a shared link
   function clean(raw) {
@@ -96,8 +97,24 @@
     }
     if (raw.maturity && typeof raw.maturity === 'object') D.maturity.forEach(function (c) { var v = parseInt(raw.maturity[c.id], 10); if (v >= 1 && v <= 5) s.maturity[c.id] = v; });
     var t = parseInt(raw.target, 10); s.target = t >= 3 && t <= 5 ? t : 0;
+    // the reader's own Level 2 sub-types and controls
+    function txt(v, max) { return typeof v === 'string' ? v.replace(/\s+/g, ' ').trim().slice(0, max) : ''; }
+    if (raw.custom && typeof raw.custom === 'object') {
+      var keys = {};
+      (Array.isArray(raw.custom.l2) ? raw.custom.l2 : []).slice(0, CUSTOM_MAX).forEach(function (x) {
+        if (!x || typeof x !== 'object' || !has(RISK, x.l1) || !txt(x.label, 80)) return;
+        var k = typeof x.k === 'string' && /^u[0-9]{1,3}$/.test(x.k) && !has(keys, x.k) ? x.k : newKey(s.custom.l2);
+        keys[k] = 1;
+        s.custom.l2.push({ k: k, l1: x.l1, label: txt(x.label, 80), def: txt(x.def, 240) });
+      });
+      (Array.isArray(raw.custom.controls) ? raw.custom.controls : []).slice(0, CUSTOM_MAX * 2).forEach(function (c) {
+        if (!c || typeof c !== 'object' || !txt(c.objective, 120) || !(has(L2, c.l2) || has(keys, c.l2))) return;
+        s.custom.controls.push({ l2: c.l2, objective: txt(c.objective, 120), desc: txt(c.desc, 240), type: has(TYPE, c.type) ? c.type : 'P', freq: CUSTOM_FREQ.indexOf(c.freq) >= 0 ? c.freq : 'Monthly', auto: c.auto === 'Automated' ? 'Automated' : 'Manual' });
+      });
+    }
     return s;
   }
+  function newKey(list) { var i = 1; while (list.some(function (x) { return x.k === 'u' + i; })) i++; return 'u' + i; }
   function toLink(s) {
     var json = JSON.stringify(s);
     var b = btoa(unescape(encodeURIComponent(json))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
@@ -198,7 +215,24 @@
         X.kris.forEach(function (k, i) { var kk = { id: 'K-' + X.code + '.' + (i + 1), it: it, metric: k }; it.kris.push(kk); m.kris.push(kk); });
         L.l2.push(it); m.l2.push(it); m.l2by[X.id] = it;
       });
+      var nu = 0;
+      s.custom.l2.forEach(function (u) {
+        if (u.l1 !== r.id) return;
+        nu++;
+        var X = { id: u.k, label: u.label, def: u.def || 'A sub-type you added.', where: '', l3: [], controls: [], kris: [], risk: r, code: r.prefix + '-U' + nu, custom: true };
+        var it = { x: X, code: X.code, l1: L, why: 'Added by you', pulled: false, custom: true, obs: [], risks: [], controls: [], kris: [] };
+        L.l2.push(it); m.l2.push(it); m.l2by[X.id] = it;
+      });
       m.l1.push(L); m.l1by[r.id] = L;
+    });
+    m.custom = { l2: 0, controls: 0, outL2: [], outControls: 0 };
+    s.custom.l2.forEach(function (u) { if (has(m.l2by, u.k)) m.custom.l2++; else m.custom.outL2.push(u.label); });
+    s.custom.controls.forEach(function (c) {
+      var it = m.l2by[c.l2];
+      if (!it) { m.custom.outControls++; return; }
+      var nc = it.controls.filter(function (x) { return x.custom; }).length + 1;
+      var cc = { id: 'C-' + it.code + '.U' + nc, it: it, objective: c.objective, desc: c.desc || c.objective, type: c.type, freq: c.freq, auto: c.auto, obs: [], custom: true };
+      it.controls.push(cc); m.controls.push(cc); m.custom.controls++;
     });
 
     // obligations: each regime theme links to Level 2 risks and, through them, to controls
@@ -488,6 +522,9 @@
     if (m.group) c('ok', 'Group structure: the Level 2 risk for group and related-party arrangements and a group governance framework were added, and documents are marked group-wide or entity-specific.', null);
     if (m.reg.aml) c('ok', 'AML/CTF: an AML/CTF Compliance Officer, the ML/TF risk assessment and program documents, and the AUSTRAC reporting clocks were added.', null);
     if (m.flags.cps230) c('ok', 'CPS 230: critical operations, tolerance levels and material service providers were added to the data model and calendar.', null);
+    if (m.custom.l2 || m.custom.controls) c('ok', 'You added ' + n(m.custom.l2, 'sub-type') + ' and ' + n(m.custom.controls, 'control') + ' of your own. Give each one an owner, and add example risks and key risk indicators for your sub-types in the downloaded register.', 3);
+    if (m.custom.outL2.length) c('warn', n(m.custom.outL2.length, 'sub-type') + ' you added ' + (m.custom.outL2.length === 1 ? 'is' : 'are') + ' not in the model because ' + (m.custom.outL2.length === 1 ? 'its' : 'their') + ' Level 1 category is not ticked: ' + and(m.custom.outL2) + '.', 3);
+    if (m.custom.outControls) c('warn', n(m.custom.outControls, 'control') + ' you added ' + (m.custom.outControls === 1 ? 'is' : 'are') + ' not in the model because ' + (m.custom.outControls === 1 ? 'its' : 'their') + ' sub-type is no longer in scope.', 3);
     var pulled = m.l2.filter(function (it) { return it.pulled; });
     if (pulled.length) c('ok', n(pulled.length, 'Level 2 sub-type') + ' added because your regimes need ' + (pulled.length === 1 ? 'it' : 'them') + ': ' + and(pulled.map(function (it) { return it.x.label; })) + '.', null);
     var rank = { warn: 0, info: 1, ok: 2 };
@@ -663,10 +700,10 @@
       h.push('<p>' + esc(L.def.def) + '</p><p class="small">Owner: ' + esc(L.def.owner) + '. Illustrative appetite: ' + esc(lc(L.def.stance)) + '. In scope because: ' + esc(L.why ? and(L.why) : 'added by you') + '. Oversight: ' + esc(m.committeeFor(L.def.id).name) + '.</p>');
       if (!L.l2.length) h.push('<p class="gb-empty">No Level 2 sub-types apply to your entity types, features or regimes.</p>');
       L.l2.forEach(function (it) {
-        h.push('<div class="gb-l2"><h5><span class="gb-code">' + esc(it.code) + '</span> ' + esc(it.x.label) + '</h5><p class="small">' + esc(it.x.def) + ' <span class="gb-why">Why: ' + esc(it.why) + '</span></p><dl class="gb-dl">');
+        h.push('<div class="gb-l2"><h5><span class="gb-code">' + esc(it.code) + '</span> ' + esc(it.x.label) + (it.custom ? ' <span class="gb-tag">Added by you</span>' : '') + '</h5><p class="small">' + esc(it.x.def) + ' <span class="gb-why">Why: ' + esc(it.why) + '</span></p><dl class="gb-dl">');
         it.risks.forEach(function (r) { h.push('<dt>Example risk <span class="gb-id">' + esc(r.id) + '</span></dt><dd>' + esc(r.event) + '<br><span class="small">Causes: ' + esc(r.causes) + '. Impacts: ' + esc(r.impacts) + '.</span></dd>'); });
-        h.push('<dt>Controls</dt><dd><ul class="gb-plain">' + it.controls.map(function (c) { return '<li><span class="gb-id">' + esc(c.id) + '</span> ' + esc(c.desc) + ' <span class="small">(' + esc(TYPE[c.type] + ', ' + lc(c.freq) + ', ' + lc(c.auto)) + (c.key ? ', key control' : '') + ')</span></li>'; }).join('') + '</ul></dd>');
-        h.push('<dt>KRIs</dt><dd><ul class="gb-plain">' + it.kris.map(function (k) { return '<li><span class="gb-id">' + esc(k.id) + '</span> ' + esc(k.metric) + '</li>'; }).join('') + '</ul></dd>');
+        h.push('<dt>Controls</dt><dd><ul class="gb-plain">' + it.controls.map(function (c) { return '<li><span class="gb-id">' + esc(c.id) + '</span> ' + esc(c.desc) + ' <span class="small">(' + esc(TYPE[c.type] + ', ' + lc(c.freq) + ', ' + lc(c.auto)) + (c.key ? ', key control' : '') + (c.custom ? ', added by you' : '') + ')</span></li>'; }).join('') + (it.controls.length ? '' : '<li class="gb-none">None yet</li>') + '</ul></dd>');
+        h.push('<dt>KRIs</dt><dd><ul class="gb-plain">' + it.kris.map(function (k) { return '<li><span class="gb-id">' + esc(k.id) + '</span> ' + esc(k.metric) + '</li>'; }).join('') + (it.kris.length ? '' : '<li class="gb-none">None yet</li>') + '</ul></dd>');
         h.push('<dt>Obligations</dt><dd>' + (it.obs.length ? it.obs.map(function (o) { return '<span class="gb-id" title="' + esc(o.title) + '">' + esc(o.id) + '</span>'; }).join(' ') : '<span class="gb-none">None linked</span>') + '</dd></dl></div>');
       });
       h.push('</details>');
@@ -927,7 +964,7 @@
     function q(v) { v = v === undefined || v === null ? '' : String(v); if (/^[=+\-@]/.test(v)) v = '\'' + v; return '"' + v.replace(/"/g, '""') + '"'; }
     var rows = [['Risk ID', 'Level 1', 'Level 2 code', 'Level 2', 'Risk event', 'Causes', 'Impacts', 'Control ID', 'Control objective', 'Control', 'Type', 'Frequency', 'Automation', 'Key control', 'KRIs', 'Linked obligations']];
     m.l2.forEach(function (it) {
-      it.risks.forEach(function (r) {
+      (it.risks.length ? it.risks : [{ id: '', event: '', causes: '', impacts: '' }]).forEach(function (r) {
         it.controls.forEach(function (c) {
           rows.push([r.id, it.l1.def.label, it.code, it.x.label, r.event, r.causes, r.impacts, c.id, c.objective, c.desc, TYPE[c.type], c.freq, c.auto, c.key ? 'Yes' : 'No', it.kris.map(function (k) { return k.id + ' ' + k.metric; }).join('; '), it.obs.map(function (o) { return o.id; }).join('; ')]);
         });
@@ -1014,7 +1051,16 @@
     D.risks.forEach(function (r) {
       h += '<div class="gb-riskrow">' + opt('gb-inc', r.id, r.prefix + ' · ' + r.label, esc(r.def) + '<span class="gb-why" data-kwhy="' + r.id + '"></span>', '<span class="gb-tag" data-ktag="' + r.id + '" hidden>Suggested</span>' + (r.cps220 ? '<span class="gb-tag gb-tag-alt" data-k220="' + r.id + '" hidden>Named in CPS 220</span>' : '')) + '<div class="gb-matopt"><input type="checkbox" id="gb-mat-' + r.id + '" name="gb-mat" value="' + r.id + '"><label for="gb-mat-' + r.id + '">Material<span class="visually-hidden">: ' + esc(r.label) + '</span></label></div></div>';
     });
-    h += '</div></section>';
+    h += '</div>';
+    var l1opts = D.risks.map(function (r) { return '<option value="' + r.id + '">' + esc(r.prefix + ' · ' + r.label) + '</option>'; }).join('');
+    var tyopts = Object.keys(TYPE).map(function (k) { return '<option value="' + k + '">' + TYPE[k] + '</option>'; }).join('');
+    var fqopts = CUSTOM_FREQ.map(function (f) { return '<option' + (f === 'Monthly' ? ' selected' : '') + '>' + f + '</option>'; }).join('');
+    h += '<fieldset class="gb-fs gb-custom"><legend>Your own sub-types and controls (optional)</legend><p class="gb-help">Add Level 2 sub-types or controls the library doesn\'t cover. They are marked <span class="gb-tag">Added by you</span> and flow into the taxonomy, the risk and control matrix and every download. They are saved in this browser and in share links.</p>';
+    h += '<div class="gb-cform"><p class="gb-field1"><label for="gb-cu-l1">Level 1 category</label><select id="gb-cu-l1">' + l1opts + '</select></p><p class="gb-field1"><label for="gb-cu-label">Sub-type name</label><input type="text" id="gb-cu-label" maxlength="80" placeholder="e.g. Member communications errors"></p><p class="gb-field1 gb-cwide"><label for="gb-cu-def">What it covers <span class="gb-note">(optional)</span></label><input type="text" id="gb-cu-def" maxlength="240"></p><p class="gb-cbtn"><button type="button" class="secondary gb-small" data-act="cu-add">Add sub-type</button></p></div>';
+    h += '<ul class="gb-clist" id="gb-cu-list" aria-label="Sub-types you added"></ul>';
+    h += '<div class="gb-cform"><p class="gb-field1 gb-cwide"><label for="gb-cc-l2">Sub-type the control addresses</label><select id="gb-cc-l2"></select></p><p class="gb-field1 gb-cwide"><label for="gb-cc-obj">Control objective</label><input type="text" id="gb-cc-obj" maxlength="120" placeholder="e.g. Statements are accurate before they are sent"></p><p class="gb-field1 gb-cwide"><label for="gb-cc-desc">How the control works <span class="gb-note">(optional)</span></label><input type="text" id="gb-cc-desc" maxlength="240"></p><p class="gb-field1"><label for="gb-cc-type">Type</label><select id="gb-cc-type">' + tyopts + '</select></p><p class="gb-field1"><label for="gb-cc-freq">Frequency</label><select id="gb-cc-freq">' + fqopts + '</select></p><p class="gb-field1"><label for="gb-cc-auto">Automation</label><select id="gb-cc-auto"><option>Manual</option><option>Automated</option></select></p><p class="gb-cbtn"><button type="button" class="secondary gb-small" data-act="cc-add">Add control</button></p></div>';
+    h += '<ul class="gb-clist" id="gb-cc-list" aria-label="Controls you added"></ul></fieldset>';
+    h += '</section>';
     // step 5
     h += '<section class="gb-sp" data-panel="4" aria-labelledby="gb-st4" hidden><h3 id="gb-st4" tabindex="-1">5. Current GRC maturity</h3><p class="gb-help">Rate where the organisation is today on each component. The roadmap closes the gap to the target level.</p><div class="gb-mats">';
     D.maturity.forEach(function (c) {
@@ -1059,6 +1105,11 @@
       if (t220) t220.hidden = !m.apra;
       $('[data-kwhy="' + r.id + '"]').textContent = L ? ' ' + n(L.l2.length, 'Level 2 sub-type') + ' in scope.' : '';
     });
+    var ccSel = $('#gb-cc-l2'), ccWas = ccSel.value;
+    ccSel.innerHTML = m.l1.map(function (L) { return '<optgroup label="' + esc(L.code + ' · ' + L.def.label) + '">' + L.l2.map(function (it) { return '<option value="' + esc(it.x.id) + '">' + esc(it.code + ' ' + it.x.label) + '</option>'; }).join('') + '</optgroup>'; }).join('');
+    if (ccWas && m.l2by[ccWas]) ccSel.value = ccWas;
+    $('#gb-cu-list').innerHTML = s.custom.l2.map(function (u) { var it = m.l2by[u.k]; return '<li><span>' + (it ? '<span class="gb-id">' + esc(it.code) + '</span> ' : '') + esc(u.label) + (it ? '' : ' <span class="gb-note">(not in the model: tick ' + esc(RISK[u.l1].label) + ' above)</span>') + '</span> <button type="button" class="secondary gb-small" data-act="cu-del" data-k="' + u.k + '" aria-label="Remove sub-type ' + esc(u.label) + '">Remove</button></li>'; }).join('');
+    $('#gb-cc-list').innerHTML = s.custom.controls.map(function (c, i) { var it = m.l2by[c.l2]; return '<li><span>' + esc(c.objective) + ' <span class="gb-note">(' + (it ? esc(it.code + ' ' + it.x.label) : 'its sub-type is not in the model') + ')</span></span> <button type="button" class="secondary gb-small" data-act="cc-del" data-i="' + i + '" aria-label="Remove control ' + esc(c.objective) + '">Remove</button></li>'; }).join('');
     $('#gb-risk-mode').textContent = s.risks ? 'You have customised this list, so it no longer changes when you edit steps 1 and 2.' : 'Following the suggestions for your entity types and features.';
     var nmat = m.l1.filter(function (L) { return L.mat; }).length;
     $('#gb-live').textContent = n(m.total, 'entity', 'entities') + ' · ' + n(m.regimes.length, 'regime') + ' · ' + n(m.l1.length, 'risk category', 'risk categories') + ' (' + nmat + ' material) · ' + n(m.l2.length, 'sub-type') + ' · ' + n(m.controls.length, 'control');
@@ -1168,6 +1219,35 @@
     else if (act === 'reg-suggest') { state.regimes = null; update(); say('Regimes reset to the suggestions.'); }
     else if (act === 'reg-none') { state.regimes = []; update(); say('All regimes cleared.'); }
     else if (act === 'risk-suggest') { state.risks = null; update(); say('Risk categories reset to the suggestions.'); }
+    else if (act === 'cu-add') {
+      var lab = $('#gb-cu-label').value.replace(/\s+/g, ' ').trim(), l1 = $('#gb-cu-l1').value;
+      if (!lab) { say('Type a name for the sub-type first.'); $('#gb-cu-label').focus(); return; }
+      if (state.custom.l2.length >= CUSTOM_MAX) { say('You can add up to ' + CUSTOM_MAX + ' sub-types.'); return; }
+      state.custom.l2.push({ k: newKey(state.custom.l2), l1: l1, label: lab.slice(0, 80), def: $('#gb-cu-def').value.replace(/\s+/g, ' ').trim().slice(0, 240) });
+      $('#gb-cu-label').value = ''; $('#gb-cu-def').value = '';
+      update();
+      say(current.sel[l1].inc ? 'Added the sub-type ' + lab + '. You can now add controls for it.' : 'Added the sub-type ' + lab + '. Tick ' + RISK[l1].label + ' above to include it in the model.');
+    }
+    else if (act === 'cu-del') {
+      var k = b.getAttribute('data-k'), gone = state.custom.l2.filter(function (u) { return u.k === k; })[0];
+      state.custom.l2 = state.custom.l2.filter(function (u) { return u.k !== k; });
+      state.custom.controls = state.custom.controls.filter(function (c) { return c.l2 !== k; });
+      update(); say('Removed the sub-type' + (gone ? ' ' + gone.label : '') + ' and its controls.'); $('#gb-cu-label').focus();
+    }
+    else if (act === 'cc-add') {
+      var obj = $('#gb-cc-obj').value.replace(/\s+/g, ' ').trim(), l2 = $('#gb-cc-l2').value;
+      if (!l2) { say('Choose a sub-type first. Tick a Level 1 category above if the list is empty.'); return; }
+      if (!obj) { say('Type a control objective first.'); $('#gb-cc-obj').focus(); return; }
+      if (state.custom.controls.length >= CUSTOM_MAX * 2) { say('You can add up to ' + CUSTOM_MAX * 2 + ' controls.'); return; }
+      state.custom.controls.push({ l2: l2, objective: obj.slice(0, 120), desc: $('#gb-cc-desc').value.replace(/\s+/g, ' ').trim().slice(0, 240), type: $('#gb-cc-type').value, freq: $('#gb-cc-freq').value, auto: $('#gb-cc-auto').value });
+      $('#gb-cc-obj').value = ''; $('#gb-cc-desc').value = '';
+      update(); say('Added the control: ' + obj + '.');
+    }
+    else if (act === 'cc-del') {
+      var i = +b.getAttribute('data-i'), gc = state.custom.controls[i];
+      state.custom.controls.splice(i, 1);
+      update(); say('Removed the control' + (gc ? ': ' + gc.objective : '') + '.'); $('#gb-cc-obj').focus();
+    }
   });
 
   out.addEventListener('click', function (e) {
