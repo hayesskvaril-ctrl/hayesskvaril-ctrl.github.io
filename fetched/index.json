@@ -125,6 +125,15 @@
   "status": 200,
   "type": "text/html; charset=UTF-8"
  },
+ "https://www.apra.gov.au/consultations/proposed-changes-governance": {
+  "chars": 58489,
+  "date": "2026-10-12",
+  "file": "apra-gov-au-consultations-proposed-changes-governance.txt",
+  "final": "https://www.apra.gov.au/consultations/proposed-changes-governance",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/final-targeted-amendments-to-cps-230-operational-risk-management": {
   "chars": 49951,
   "date": "2026-10-08",
@@ -139,6 +148,15 @@
   "date": "2026-10-08",
   "file": "apra-gov-au-finalising-a-third-tier-banking-framework.txt",
   "final": "https://www.apra.gov.au/news-and-publications/finalising-third-tier-banking-framework",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/news-and-publications/activating-debt-income-limits-macroprudential-policy-tool": {
+  "chars": 65968,
+  "date": "2026-10-12",
+  "file": "apra-gov-au-news-and-publications-activating-debt-income-limits-macroprudential-policy-tool.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/activating-debt-income-limits-macroprudential-policy-tool",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -341,6 +359,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/standards/sps-310": {
+  "chars": 58778,
+  "date": "2026-10-12",
+  "file": "apra-gov-au-standards-sps-310.txt",
+  "final": "https://www.apra.gov.au/standards/sps-310",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/standards/sps-510": {
   "chars": 65029,
   "date": "2026-10-09",
@@ -386,11 +413,29 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining": {
+  "chars": 4991,
+  "date": "2026-10-12",
+  "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-204mr-asic-and-apra-commence-consultation-on-far-streamlining.txt",
+  "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-204mr-asic-and-apra-commence-consultation-on-far-streamlining",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay": {
   "chars": 8617,
   "date": "2026-10-12",
   "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay.txt",
   "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package": {
+  "chars": 31362,
+  "date": "2026-10-12",
+  "file": "asic-gov-au-regulatory-resources-financial-services-regulatory-reforms-delivering-better-financial-outcomes-dbfo-package.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/financial-services/regulatory-reforms/delivering-better-financial-outcomes-dbfo-package",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -436,6 +481,15 @@
   "date": "2026-10-08",
   "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-78-breach-reporting-by-afs-licensees-and-credit-licensees.txt",
   "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/": {
+  "chars": 19494,
+  "date": "2026-10-12",
+  "file": "asic-gov-au-regulatory-resources-sustainability-reporting.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -493,6 +547,15 @@
   "kind": "none",
   "status": 403,
   "type": ""
+ },
+ "https://www.fcs.gov.au/": {
+  "chars": 40802,
+  "date": "2026-10-12",
+  "file": "fcs-gov-au.txt",
+  "final": "https://www.apra.gov.au/financial-claims-scheme",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
  },
  "https://www.finance.gov.au/government/comcover/risk-services/management/commonwealth-risk-management-policy": {
   "chars": 0,
