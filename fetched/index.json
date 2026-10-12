@@ -539,6 +539,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-839-asic-s-review-of-sustainability-reports-lodged-for-31-december-2025": {
+  "chars": 16586,
+  "date": "2026-10-12",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-reports-rep-839-asic-s-review-of-sustainability-reports-lodged-for-31-december-2025.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-839-asic-s-review-of-sustainability-reports-lodged-for-31-december-2025",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/": {
   "chars": 19494,
   "date": "2026-10-12",
