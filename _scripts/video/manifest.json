@@ -1146,5 +1146,67 @@
    }
   ],
   "narrated": true
+ },
+ "orfr-explained": {
+  "title": "How super funds pay for operational mistakes: the ORFR",
+  "label": "Explainer · Standards · Intermediate",
+  "section": "Standards",
+  "level": "Intermediate",
+  "desc": "SPS 114 in brief: why super trustees hold an operational risk financial requirement, the target amount and tolerance limit, what the money can be used for, and how it is rebuilt.",
+  "pages": [
+   "/standards/sps-114.html"
+  ],
+  "slug": "orfr-explained",
+  "specHash": "1448f55c6a6b",
+  "duration": 62,
+  "bytes": 1614047,
+  "transcript": [
+   {
+    "start": 0,
+    "end": 5,
+    "visual": "Title card: How super funds pay for operational mistakes. The operational risk financial requirement, SPS 114.",
+    "captions": []
+   },
+   {
+    "start": 5,
+    "end": 14,
+    "visual": "A statement: when things go wrong, other members should not foot the bill. Unit pricing errors, missed contributions or system failures can leave members out of pocket.",
+    "captions": [
+     "Operational mistakes can cost members money. Without funds set aside, fixing them could mean taking money from other members."
+    ]
+   },
+   {
+    "start": 14,
+    "end": 32,
+    "visual": "A vertical bar shows the money held for operational risk. It fills up to a line marked target amount. A dashed line below it marks the tolerance limit. After an incident, members are paid back and the level drops below the tolerance limit. A replenishment plan then rebuilds the money to the target.",
+    "captions": [
+     "Every super trustee must hold money for operational risk. The Board sets a target amount and a lower tolerance limit.",
+     "If paying members back takes the money below the tolerance limit, the Board must approve a plan to rebuild it."
+    ]
+   },
+   {
+    "start": 32,
+    "end": 46,
+    "visual": "Two cards. Usually appropriate: paying members back after an incident, fixing a material weakness, and running a continuity plan after an incident. Generally not: routine projects and upgrades, insurance premiums and levies, and penalties on the trustee.",
+    "captions": [
+     "APRA's guide gives examples. Since July 2025 the money can also help prevent incidents, not just pay for them."
+    ]
+   },
+   {
+    "start": 46,
+    "end": 56,
+    "visual": "A statement: the target is the trustee's call, with a floor. APRA's guide sets minimum targets that depend on the size of the fund.",
+    "captions": [
+     "The trustee sets a prudent target from its own risks. APRA's guide expects at least a minimum that depends on the fund's size."
+    ]
+   },
+   {
+    "start": 56,
+    "end": 62,
+    "visual": "End card with the page title, web address and a general information disclaimer.",
+    "captions": []
+   }
+  ],
+  "narrated": true
  }
 }
