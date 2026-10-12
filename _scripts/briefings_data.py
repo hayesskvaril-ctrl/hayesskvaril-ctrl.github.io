@@ -8,6 +8,7 @@ from playbooks_data import APRA_230, APRA_NOTIFY, ASIC_RS, ASIC_RELIEF, CA_912D,
 FAR_SRC = 'Australian Prudential Regulation Authority and Australian Securities and Investments Commission, <a href="https://www.apra.gov.au/financial-accountability-regime">Financial Accountability Regime</a>; <em>Financial Accountability Regime Act 2023</em> (Cth), <a href="https://www.legislation.gov.au/C2023A00067/latest">Federal Register of Legislation</a>.'
 CPS234_SRC = 'Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/standards/cps-234">Prudential Standard CPS 234 Information Security</a>.'
 AUSTRAC_REFORM = 'AUSTRAC, <a href="https://www.austrac.gov.au/amlctf-reform/about-reforms">About the AML/CTF reforms</a>.'
+SPS114_SRC = 'Prudential Standard SPS 114 Operational Risk Financial Requirement (F2024L01319), <a href="https://www.legislation.gov.au/F2024L01319/asmade/text">Federal Register of Legislation</a>; Australian Prudential Regulation Authority, <a href="https://www.apra.gov.au/practice-guides/spg-114">SPG 114 Operational Risk Financial Requirement</a>.'
 
 BRIEFINGS = [
   dict(
@@ -59,5 +60,15 @@ BRIEFINGS = [
     questions=["When did we last update our ML/TF risk assessment, and what changed?", "What did the compliance officer's last report to us say?", "Are suspicious matter and threshold reports lodged on time, and how do we know?", "What did the last independent evaluation find, and what has been fixed?", "How have the 2026 reforms changed our obligations?"],
     flags=["Transaction monitoring alerts that are not reviewed on time.", "Late or missing reports to AUSTRAC.", "A risk assessment that hasn't changed while the business has."],
     sources=[AUSTRAC_SMR, AUSTRAC_REFORM],
+  ),
+  dict(
+    slug="sps-114", title="The ORFR: SPS 114 for super trustees", guide="/standards/sps-114.html",
+    short="The money super trustees hold to protect members from operational risk losses.",
+    what="APRA's Prudential Standard SPS 114 requires every super trustee (RSE licensee) to maintain, manage and use financial resources to protect members from losses caused by operational risk: the operational risk financial requirement (ORFR). The current version has applied since {fact:sps114-start}. The money can be held as a reserve in the fund, as trustee capital, or both.",
+    why=["The Board approves the ORFR strategy and is ultimately accountable for putting it into effect.", "The trustee sets a target amount and a lower tolerance limit on a prudent basis that reflects its operational risk profile, the permitted uses, and its size, business mix and complexity.", "The money may only be used to address operational risks that have caused or could cause members a loss, to meet CPS 230 requirements for managing and preventing incidents, or to reduce a material surplus.", "If the resources fall below the tolerance limit, the Board must approve a replenishment plan before it is implemented."],
+    numbers=[("Review of the target amount and tolerance limit", "At least annually, and after a material operational risk incident or material business change"), ("APRA guidance minimum target: more than $165 billion in funds under management", "{fact:orfr-min-large} of funds under management"), ("$30 billion to $165 billion", "{fact:orfr-min-mid} of funds under management"), ("Less than $30 billion", "{fact:orfr-min-small} of funds under management"), ("Material change to the target amount", "Notify APRA before making it")],
+    questions=["How did we set our target amount, and how does it compare with APRA's guidance minimum for our size?", "What would a severe but plausible operational risk incident cost us, and could the ORFR cover it?", "What did we use the ORFR for in the past year, and what did we decide not to use it for?", "How quickly could we get the money if we needed it, and in what form is it held?"],
+    flags=["A target set at the guidance minimum with no analysis of the trustee's own risks.", "ORFR money spent on routine projects or upgrades not linked to an incident, near miss or identified material weakness.", "No review of the target after a material incident or a successor fund transfer."],
+    sources=[SPS114_SRC],
   ),
 ]
