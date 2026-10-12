@@ -187,7 +187,8 @@ P = [
      ("/standards/sps-530.html", "Investment governance, valuation and liquidity."),
      ("/standards/sps-250.html", "Insurance in super: the strategy, insurers, cover terms and opting out."),
      ("/standards/sps-114.html", "The ORFR: money held for operational risk losses."),
-     ("/standards/sps-521.html", "Conflicts: the framework, registers and reviews.")]),
+     ("/standards/sps-521.html", "Conflicts: the framework, registers and reviews."),
+     ("/standards/sps-310.html", "The RSE auditor and what the annual audit covers.")]),
    ("Advanced", [
      ("/risk-management/setting-cps-230-tolerance-levels.html", "Tolerance levels, with a super fund example."),
      ("/compliance/breach-significance-analysis.html", "Significance analysis, including a fee error case."),

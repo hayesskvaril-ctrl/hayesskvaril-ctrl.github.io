@@ -34,7 +34,7 @@ TRACKS = [
         "/standards/asic-rg-97.html", "/sectors/fund-mergers-and-successor-fund-transfers.html",
         "/sectors/unit-pricing.html", "/risk-management/super-liquidity-stress-testing.html",
         "/sectors/behavioural-economics-of-super.html", "/standards/sps-250.html", "/standards/sps-114.html",
-        "/standards/sps-521.html"]),
+        "/standards/sps-521.html", "/standards/sps-310.html"]),
     ("Incidents, breaches and remediation", "From the first sign of a problem to putting it right.", [
         "/risk-management/incident-and-breach-management.html", "/compliance/breach-reporting.html",
         "/standards/asic-rg-78.html", "/compliance/breach-significance-analysis.html",
@@ -119,6 +119,10 @@ TRACKS = [
 
 # url -> (date finished, what changed)
 DONE = {
+    "/standards/sps-310.html": ("12 October 2026",
+        "New page written to the deep review standard from the official SPS 310 text and the SIS Act: appointment, "
+        "access, fit and proper, the annual report's reasonable and limited assurance, the laws in the compliance "
+        "opinion, deadlines, special purpose engagements, a worked audit plan, common mistakes and FAQs."),
     "/standards/sps-521.html": ("12 October 2026",
         "New page written to the deep review standard from the official SPS 521 text and the SIS Act: the four kinds "
         "of conflict, the framework, policy, registers and reviews paragraph by paragraph, avoiding versus managing, "

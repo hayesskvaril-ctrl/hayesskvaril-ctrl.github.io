@@ -1021,6 +1021,12 @@ window.GLOSSARY_CARDS = [
 "def": "Working out the underlying reason something went wrong, not just the immediate trigger, so the fix stops it from happening again. The \"5 whys\" and fishbone diagrams are common techniques."
 },
 {
+"slug": "rse-auditor",
+"term": "RSE auditor",
+"abbr": "",
+"def": "The independent auditor a super trustee must appoint for each fund under APRA's SPS 310. Each year it reports on the fund's APRA reporting, the trustee's compliance with a list of key laws, its compliance controls and its risk management framework, at either reasonable or limited assurance."
+},
+{
 "slug": "rse-licensee",
 "term": "RSE licensee",
 "abbr": "",
