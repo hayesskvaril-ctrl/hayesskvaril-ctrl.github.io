@@ -441,6 +441,7 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [x] GRC model builder and obligations library data (`scripts/grc-builder-data.js`) linked to the register: 29 placeholders, filled in the browser from the generated `scripts/facts-data.js` and as fact markers on the 14 obligations pages, 8 October 2026
 - [x] Official document fetcher (`.github/workflows/fetch-docs.yml`, `_scripts/watch/fetch_docs.py`): GitHub's free servers fetch standards, regulatory guides and legislation as text to the `watch-data` branch, so facts and citations can be checked against the official text. First use found and fixed two CPS 230 errors (SFI section; scope of the 20-business-day notice), 8 October 2026
 - [ ] Keep growing the register as pages are updated (penalty amounts, super caps and rates)
+  - 12 October 2026: five secondary-only facts confirmed on official sources (draft CPS 510 tenure, FCS limit, FAR streamlining close, REP 839 date) or corrected (DTI limit start now "February 2026", as APRA states it). Still secondary: advice-reforms-announced (no single official page found), scams-main-obligations and scams-afca-membership (AFCA blocks automated reading; look for the official SPF instrument on legislation.gov.au), essential-eight-consult-close (cyber.gov.au blocks automated reading).
 
 ## Ideas / backlog
 

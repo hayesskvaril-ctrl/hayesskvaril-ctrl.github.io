@@ -1062,17 +1062,24 @@
     "839"
    ],
    "source": {
-    "label": "ASIC: sustainability reporting",
-    "url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/"
+    "label": "ASIC: REP 839 ASIC's review of sustainability reports lodged for 31 December 2025",
+    "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-839-asic-s-review-of-sustainability-reports-lodged-for-31-december-2025"
    },
    "checked": {
-    "date": "2026-10-08",
-    "how": "secondary",
-    "note": ""
+    "date": "2026-10-12",
+    "how": "official",
+    "note": "Read on ASIC's REP 839 report page (fetched 12 October 2026): 'Released 21 September 2026'"
    },
-   "history": [],
-   "autocheck": false,
-   "autocheck_note": "Checked by hand: ASIC's page doesn't state the date in readable text"
+   "history": [
+    {
+     "date": "2026-10-12",
+     "old": "21 September 2026",
+     "new": "21 September 2026",
+     "how": "official",
+     "note": "Read on ASIC's REP 839 report page (fetched 12 October 2026): 'Released 21 September 2026'"
+    }
+   ],
+   "check_url": "https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-839-asic-s-review-of-sustainability-reports-lodged-for-31-december-2025"
   },
   {
    "id": "whistleblower-review-close",
