@@ -848,9 +848,9 @@
     "url": "https://www.legislation.gov.au/C2024A00128/asmade/text"
    },
    "checked": {
-    "date": "2026-10-09",
+    "date": "2026-10-12",
     "how": "official",
-    "note": "Read in the official Privacy and Other Legislation Amendment Act 2024 (No. 128, 2024, fetched from legislation.gov.au): Schedule 1 Part 15 (APP 1.7 to 1.9, automated decisions in privacy policies) commences the day after 24 months from Royal Assent, 10 December 2026"
+    "note": "Re-read the commencement table of the Privacy and Other Legislation Amendment Act 2024 (PDF from legislation.gov.au): Schedule 1 Part 15 commences 10 December 2026; unchanged"
    },
    "history": [
     {
@@ -859,9 +859,18 @@
      "new": "10 December 2026",
      "how": "official",
      "note": "Read in the official Privacy and Other Legislation Amendment Act 2024 (No. 128, 2024, fetched from legislation.gov.au): Schedule 1 Part 15 (APP 1.7 to 1.9, automated decisions in privacy policies) commences the day after 24 months from Royal Assent, 10 December 2026"
+    },
+    {
+     "date": "2026-10-12",
+     "old": "10 December 2026",
+     "new": "10 December 2026",
+     "how": "official",
+     "note": "Re-read the commencement table of the Privacy and Other Legislation Amendment Act 2024 (PDF from legislation.gov.au): Schedule 1 Part 15 commences 10 December 2026; unchanged"
     }
    ],
-   "check_url": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
+   "check_url": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf",
+   "autocheck": false,
+   "autocheck_note": "Checked by hand: the Act's commencement table states 10 December 2026, but the PDF's table layout splits the date across lines, so the weekly check can't match it"
   },
   {
    "id": "privacy-tranche2-draft",
