@@ -249,7 +249,17 @@ def write_public_page(facts, where):
 </body>
 </html>
 '''
-    (ROOT / "about/fact-register.html").write_text(page, encoding="utf-8")
+    # keep the layout sync_layout.py stamped last time (link-preview tags, header and footer), so the page
+    # stays complete when this runs on its own (for example from run_checks.py or update_fact.py)
+    dest = ROOT / "about/fact-register.html"
+    if dest.exists():
+        old = dest.read_text(encoding="utf-8")
+        for name in ("META", "HEADER", "FOOTER"):
+            block = re.compile(rf"<!-- {name}:START -->.*?<!-- {name}:END -->", re.S)
+            mo = block.search(old)
+            if mo and block.search(page):
+                page = block.sub(lambda _m, keep=mo.group(0): keep, page, count=1)
+    dest.write_text(page, encoding="utf-8")
 
 
 _titles = {}

@@ -142,8 +142,12 @@
         e.preventDefault(); closeAll(it); it.classList.add('open'); it.classList.remove('closed'); a.setAttribute('aria-expanded', 'true');
       }
     });
-    it.addEventListener('mouseleave', function () { it.classList.remove('closed'); });
-    it.addEventListener('focusout', function (e) { if (!it.contains(e.relatedTarget)) it.classList.remove('closed'); });
+    // On wide screens panels open on hover or keyboard focus (CSS); keep aria-expanded in step with what is shown.
+    function shown(on) { if (!narrow.matches && !it.classList.contains('open')) a.setAttribute('aria-expanded', on ? 'true' : 'false'); }
+    it.addEventListener('mouseenter', function () { if (hover.matches && !it.classList.contains('closed')) shown(true); });
+    it.addEventListener('focusin', function () { if (!it.classList.contains('closed')) shown(true); });
+    it.addEventListener('mouseleave', function () { it.classList.remove('closed'); if (!it.contains(document.activeElement)) shown(false); });
+    it.addEventListener('focusout', function (e) { if (!it.contains(e.relatedTarget)) { it.classList.remove('closed'); if (!it.matches(':hover')) shown(false); } });
   });
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Escape') return;
