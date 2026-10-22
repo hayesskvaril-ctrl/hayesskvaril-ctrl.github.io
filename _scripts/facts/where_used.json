@@ -1,9 +1,11 @@
 {
  "sps530-proposals-released": [
   "/news/regulatory-tracker.html",
+  "/news/super-fund-valuations-asic-rep-841.html",
   "/standards/sps-530.html"
  ],
  "sps530-submissions-close": [
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/standards/sps-530.html"
  ],
@@ -100,6 +102,7 @@
   "/news/regulatory-tracker.html"
  ],
  "at1-removal-start": [
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/sectors/banking.html",
   "/standards/aps-110-and-aps-210.html",
@@ -209,6 +212,7 @@
  "privacy-adm-start": [
   "/compliance/regulatory-change-management.html",
   "/governance/ai-governance.html",
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/obligations/",
   "/obligations/banking.html",
@@ -561,5 +565,10 @@
  "orfr-min-small": [
   "/governance/briefing-sps-114.html",
   "/standards/sps-114.html"
+ ],
+ "digital-assets-start": [
+  "/news/2026-10-mid-october-roundup.html",
+  "/news/regulatory-tracker.html",
+  "/sectors/payments-and-fintech.html"
  ]
 }

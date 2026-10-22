@@ -67,5 +67,6 @@ window.RL_FACTS = {
  "sps114-start": "1 July 2025",
  "orfr-min-large": "0.175%",
  "orfr-min-mid": "0.20%",
- "orfr-min-small": "0.25%"
+ "orfr-min-small": "0.25%",
+ "digital-assets-start": "8 April 2027"
 };

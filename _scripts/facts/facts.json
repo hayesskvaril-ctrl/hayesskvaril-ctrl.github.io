@@ -1936,6 +1936,28 @@
    },
    "history": [],
    "check_url": "https://www.apra.gov.au/practice-guides/spg-114"
+  },
+  {
+   "id": "digital-assets-start",
+   "topic": "Payments and fintech",
+   "fact": "New laws for digital asset platforms and tokenised custody platforms commence",
+   "value": "8 April 2027",
+   "status": "finalised",
+   "context": [
+    "digital asset",
+    "DAF Act",
+    "CP 392"
+   ],
+   "source": {
+    "label": "ASIC: 26-245MR ASIC consults on implementation of new digital asset laws",
+    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws"
+   },
+   "checked": {
+    "date": "2026-10-22",
+    "how": "official",
+    "note": "Read in ASIC's media release 26-245MR (fetched 22 October 2026): new laws for digital asset platforms and tokenised custody platforms commencing on 8 April 2027, under the Corporations Amendment (Digital Assets Framework) Act 2026"
+   },
+   "history": []
   }
  ]
 }

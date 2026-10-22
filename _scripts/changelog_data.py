@@ -8,6 +8,10 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-22', '/case-studies/asic-cyber-cases-ri-advice-and-fiig.html', 'ASIC cyber cases: added the third outcome, Fortnum Private Wealth\'s $1.35 million penalty for failing to manage cyber risk across its advice network.'),
+    ('2026-10-22', '/standards/sps-530.html', 'SPS 530: added ASIC\'s Report 841 findings on how super funds and their auditors value unlisted investments.'),
+    ('2026-10-22', '/standards/asic-rg-274.html', 'RG 274: added ASIC\'s October 2026 interim stop order over a Fidante private credit fund, revoked after the target market determination was amended.'),
+    ('2026-10-22', '/sectors/payments-and-fintech.html', 'Payments and fintech: digital asset platform laws commence on 8 April 2027, and ASIC is consulting on standards (CP 392).'),
     ('2026-10-12', '/standards/sps-114.html', 'New explainer video: How super funds pay for operational mistakes. The ORFR target amount and tolerance limit, what the money is for and how it is rebuilt, with captions, a voiceover and a full transcript.'),
     ('2026-10-12', '/grc/model-builder.html', 'GRC model builder: you can now add your own Level 2 sub-types and controls in step 4. They are marked "Added by you" and carried into the risk universe, the checks, the CSV risk and control matrix, the Excel workbook and share links.'),
     ('2026-10-12', '/obligations/', 'Obligations library: insurance in super (SIS Act s 52(7), the default cover rules and SPS 250) added to super trustee duties, and the RSE auditor (SPS 310) added to governance, with 22 new individual obligations checked against the official texts (602 in total). Both also appear in the GRC model builder.'),

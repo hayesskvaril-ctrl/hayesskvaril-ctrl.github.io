@@ -81,6 +81,7 @@
   "/news/regulatory-tracker.html"
  ],
  "AT1": [
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/sectors/banking.html",
   "/standards/aps-110-and-aps-210.html",
@@ -102,6 +103,7 @@
   "/sectors/payments-and-fintech.html"
  ],
  "Additional Tier 1": [
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/sectors/banking.html",
   "/standards/aps-110-and-aps-210.html",
@@ -119,6 +121,11 @@
   "/obligations/private-health-insurance.html",
   "/sectors/banking.html",
   "/standards/aps-110-and-aps-210.html"
+ ],
+ "CP 392": [
+  "/news/2026-10-mid-october-roundup.html",
+  "/news/regulatory-tracker.html",
+  "/sectors/payments-and-fintech.html"
  ],
  "CPS 190": [
   "/news/regulatory-tracker.html",
@@ -208,6 +215,11 @@
   "/news/regulatory-tracker.html",
   "/sectors/financial-advice-licensees.html",
   "/sectors/managed-investment-schemes.html"
+ ],
+ "DAF Act": [
+  "/news/2026-10-mid-october-roundup.html",
+  "/news/regulatory-tracker.html",
+  "/sectors/payments-and-fintech.html"
  ],
  "DTI": [
   "/foundations/regulatory-landscape.html",
@@ -492,7 +504,9 @@
   "/standards/sps-521.html"
  ],
  "SPS 530": [
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
+  "/news/super-fund-valuations-asic-rep-841.html",
   "/standards/sps-530.html"
  ],
  "Scams Prevention Framework": [
@@ -608,6 +622,7 @@
  "automated decision": [
   "/compliance/regulatory-change-management.html",
   "/governance/ai-governance.html",
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/obligations/",
   "/obligations/banking.html",
@@ -626,6 +641,7 @@
  "automated decisions": [
   "/compliance/regulatory-change-management.html",
   "/governance/ai-governance.html",
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/obligations/",
   "/obligations/banking.html",
@@ -763,7 +779,9 @@
  ],
  "consultation": [
   "/compliance/privacy-law.html",
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
+  "/news/super-fund-valuations-asic-rep-841.html",
   "/standards/sps-530.html"
  ],
  "continuous disclosure": [
@@ -808,6 +826,8 @@
   "/standards/asic-rg-274.html"
  ],
  "digital asset": [
+  "/news/2026-10-mid-october-roundup.html",
+  "/news/regulatory-tracker.html",
   "/sectors/payments-and-fintech.html"
  ],
  "director": [
@@ -955,7 +975,9 @@
   "/standards/asic-rg-271.html"
  ],
  "investment governance": [
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
+  "/news/super-fund-valuations-asic-rep-841.html",
   "/standards/sps-530.html"
  ],
  "key functions": [
@@ -1155,6 +1177,7 @@
  ],
  "proposals": [
   "/news/regulatory-tracker.html",
+  "/news/super-fund-valuations-asic-rep-841.html",
   "/standards/sps-530.html"
  ],
  "proposed start": [
@@ -1373,6 +1396,7 @@
   "/standards/aps-110-and-aps-210.html"
  ],
  "submissions": [
+  "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/standards/sps-530.html"
  ],

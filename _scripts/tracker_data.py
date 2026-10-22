@@ -176,7 +176,7 @@ ENTRIES = [
      ["bank", "afsl"],
      "Brings payment service providers into the AFS licensing regime, with APRA prudential supervision of large stored value facilities.",
      "/sectors/payments-and-fintech.html", ("Treasury: payments licensing reforms", "https://treasury.gov.au/policy-topics/banking-and-finance/payments-licensing-reforms")),
-    ("Digital assets framework", "Treasury and ASIC", "Finalised, starts soon", "Law since April 2026; implementation and ASIC standards to follow",
+    ("Digital assets framework", "Treasury and ASIC", "Finalised, starts soon", "Law since April 2026; platform obligations commence {fact:digital-assets-start}; ASIC consulting on standards and guidance (CP 392) until 27 November 2026",
      ["afsl"],
      "Operators of digital asset platforms and tokenised custody platforms must hold an AFSL and meet platform-specific standards.",
      "/sectors/payments-and-fintech.html", ("Parliament: Digital Assets Framework Bill", "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7411")),
