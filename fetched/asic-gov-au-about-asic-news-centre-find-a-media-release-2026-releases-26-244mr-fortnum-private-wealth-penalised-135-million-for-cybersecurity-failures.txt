@@ -1,0 +1,163 @@
+SOURCE: https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-244mr-fortnum-private-wealth-penalised-135-million-for-cybersecurity-failures
+FINAL URL: https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-244mr-fortnum-private-wealth-penalised-135-million-for-cybersecurity-failures
+FETCHED: 2026-10-22
+
+
+
+26-244MR Fortnum Private Wealth penalised $1.35 million for cybersecurity failures | ASIC
+
+Menu
+
+Media releases
+
+Reports and Publications
+
+ASIC's views
+
+Bannings and Alerts
+
+Menu
+
+Media releases
+
+Reports and publications
+
+ASIC's views
+
+Bannings and alerts
+
+Search
+
+Search Newsroom
+
+Trending:
+
+Type:
+
+Topic:
+
+Date:
+
+Start date (text):
+
+Press Spacebar to open datepicker
+Start date (datepicker):
+
+Select
+start date
+
+End date (text):
+
+Press Spacebar to open datepicker
+End date (datepicker):
+
+Select end
+date
+
+Search
+Cancel
+
+Newsroom
+
+26-244MR Fortnum Private Wealth penalised $1.35 million for cybersecurity failures
+
+Fortnum Private Wealth Ltd has been ordered by the Supreme Court of NSW to pay a $1.35 million penalty after admitting it failed to adequately manage cybersecurity risks across its financial advice network.
+
+Fortnum also admitted it failed to have adequate cybersecurity expertise and risk management systems, exposing its authorised representatives and their clients to the risk of cyber-related attacks and cybercrime, that could result in serious harm and loss.
+
+During the relevant period, Fortnum's network comprised between 81 and 94 financial advice practices, more than 200 authorised advisers, and around 55,000 retail clients. These practices collected and held highly sensitive personal information, including identification documents, tax file numbers and financial account details.
+
+ASIC Chair Sarah Court said the outcome reinforced that AFSL holders must properly manage and protect against cybersecurity risk.
+
+‘Today’s outcome is the third obtained by ASIC against a licensee over failures to adequately protect against cybersecurity risk, following previous enforcement actions against RI Advice and FIIG Securities.
+
+‘In this case, Fortnum was aware of the cybersecurity risks facing its business and authorised representatives but failed to implement an adequate cybersecurity policy and have adequate oversight and monitoring arrangements.
+
+‘These failures exposed authorised representatives and their clients to the risk of cyber-related attacks and cybercrime and fell below the standard the public is entitled to expect from an AFSL holder.
+
+‘This outcome reinforces ASIC’s continued focus on licensees getting the fundamentals right. Strong cyber resilience is critical to maintaining trust and confidence in our financial system. We will continue to work with industry to lift standards and take action where businesses fall short,' the Chair said.
+
+Fortnum admitted that, between 20 April 2021 and 11 May 2023, it:
+
+failed to implement an adequate cybersecurity policy to manage and mitigate cybersecurity risks across its business and authorised representative network
+
+failed to implement adequate processes, systems and frameworks to oversee and monitor the cyber resilience of its authorised representatives
+
+failed to maintain adequate human resources with specialised cybersecurity expertise, and
+
+failed to maintain adequate cybersecurity risk management systems.
+
+Justice Black noted that the parties had agreed that as a result of its failures Fortnum exposed its authorised representatives and their retail clients to ‘...the risk of cyber-related attacks and cybercrime, the consequences of which could include serious harm and loss.’
+
+His Honour Justice Black also stated, 'I am satisfied that the proposed pecuniary penalty in the total amount of $1.35 million will provide the necessary sting or burden, given the scale of Fortnum's business, to achieve the objects of specific deterrence and general deterrence. That penalty properly reflects the matters agreed between the parties, including the fact that the contravening conduct was not deliberate and that Fortnum has cooperated with ASIC, both during the investigation stage and in the conduct of this proceeding.'
+
+The Court also ordered Fortnum to pay $250,000 towards ASIC's costs.
+
+Previous proceedings filed by ASIC alleging cyber resilience failures include those against RI Advice in May 2022 ( 22-104MR ) and FIIG Securities in February 2026 ( 26-021MR ).
+
+Downloads
+
+Judgment
+
+Background
+
+ASIC commenced proceedings against Fortnum in July 2025 after it was notified by Fortnum of a cyber attack against one of its authorised representatives ( 25-143MR ).
+
+Fortnum has uplifted its cybersecurity framework, including introducing mandatory cyber controls, annual reviews, enhanced training and specialist cyber expertise.
+
+Media inquiries:
+
+Contact ASIC Media Unit
+
+Media Assets
+
+Follow us on:
+
+X
+
+LinkedIn
+
+Facebook
+
+Information publication scheme
+
+Freedom of information
+
+Copyright
+
+Privacy
+
+Contact us
+
+Accessibility
+
+Site map
+
+
+
+==== LINKS ====
+ -> https://www.asic.gov.au/
+ -> https://www.asic.gov.au/newsroom/
+Media releases -> https://www.asic.gov.au/newsroom/media-releases/
+Reports and Publications -> https://www.asic.gov.au/newsroom/reports-and-publications/
+ASIC's views -> https://www.asic.gov.au/newsroom/asic-s-views/
+Bannings and Alerts -> https://www.asic.gov.au/newsroom/bannings-and-alerts/
+Reports and publications -> https://www.asic.gov.au/newsroom/reports-and-publications/
+Bannings and alerts -> https://www.asic.gov.au/newsroom/bannings-and-alerts/
+Newsroom -> https://www.asic.gov.au/newsroom
+22-104MR -> https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2022-releases/22-104mr-court-finds-ri-advice-failed-to-adequately-manage-cybersecurity-risks
+26-021MR -> https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-021mr-asic-action-sees-fiig-securities-ordered-to-pay-25-million-over-cyber-security-failures
+Judgment -> https://www.caselaw.nsw.gov.au/decision/1a12d6ac04ac2ea4d89d2fa3
+25-143MR -> https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-143mr-asic-sues-fortnum-private-wealth-for-allegedly-failing-to-adequately-manage-cybersecurity-risks
+Contact ASIC Media Unit -> https://www.asic.gov.au/about-asic/news-centre/contact-asic-media-unit/
+Media Assets -> https://www.asic.gov.au/newsroom-beta/media-assets
+X -> http://twitter.com/asicmedia
+LinkedIn -> https://www.linkedin.com/company/asic
+Facebook -> https://www.facebook.com/asicconnect
+Information publication scheme -> https://www.asic.gov.au/about-asic/freedom-of-information-foi/information-publication-scheme/
+Freedom of information -> https://www.asic.gov.au/about-asic/freedom-of-information-foi/
+Copyright -> https://www.asic.gov.au/about-asic/dealing-with-asic/copyright-and-linking-to-our-websites/
+Privacy -> https://www.asic.gov.au/about-asic/dealing-with-asic/privacy/
+Contact us -> https://www.asic.gov.au/about-asic/contact-us/
+Accessibility -> https://www.asic.gov.au/about-asic/dealing-with-asic/accessibility/
+Site map -> https://www.asic.gov.au/sitemap/

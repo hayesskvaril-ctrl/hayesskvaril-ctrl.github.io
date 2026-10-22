@@ -116,11 +116,29 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/albanese-government-advancing-reforms-combat-financial": {
+  "chars": 9373,
+  "date": "2026-10-22",
+  "file": "ministers-treasury-gov-au-ministers-daniel-mulino-2025-media-releases-albanese-government-advancing-reforms-combat-financial.txt",
+  "final": "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/albanese-government-advancing-reforms-combat-financial",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=UTF-8"
+ },
  "https://treasury.gov.au/consultation/c2026-810713": {
   "chars": 370,
   "date": "2026-10-12",
   "file": "treasury-gov-au-consultation-c2026-810713.txt",
   "final": "https://consult.treasury.gov.au/c2026-810713",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=UTF-8"
+ },
+ "https://treasury.gov.au/consultation/c2026-812389": {
+  "chars": 370,
+  "date": "2026-10-22",
+  "file": "treasury-gov-au-consultation-c2026-812389.txt",
+  "final": "https://consult.treasury.gov.au/c2026-812389",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=UTF-8"
@@ -188,6 +206,24 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.apra.gov.au/news-and-publications/apra-and-asic-publish-latest-data-life-insurance-claims-and-disputes-june-3": {
+  "chars": 40403,
+  "date": "2026-10-22",
+  "file": "apra-gov-au-news-and-publications-apra-and-asic-publish-latest-data-life-insurance-claims-and-disputes-june-3.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/apra-and-asic-publish-latest-data-life-insurance-claims-and-disputes-june-3",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/news-and-publications/apra-and-rbnz-complete-joint-bank-stress-test-promote-trans-tasman-resilience": {
+  "chars": 42540,
+  "date": "2026-10-22",
+  "file": "apra-gov-au-news-and-publications-apra-and-rbnz-complete-joint-bank-stress-test-promote-trans-tasman-resilience.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/apra-and-rbnz-complete-joint-bank-stress-test-promote-trans-tasman-resilience",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.apra.gov.au/news-and-publications/apra-commences-next-phase-push-strengthen-and-streamline-governance": {
   "chars": 43307,
   "date": "2026-10-12",
@@ -211,6 +247,24 @@
   "date": "2026-10-08",
   "file": "apra-gov-au-news-and-publications-apra-formalises-three-tiered-approach-to-proportionality-banking-prudential.txt",
   "final": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-proportionality-banking-prudential",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/news-and-publications/apra-publishes-2025-26-annual-report": {
+  "chars": 40051,
+  "date": "2026-10-22",
+  "file": "apra-gov-au-news-and-publications-apra-publishes-2025-26-annual-report.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/apra-publishes-2025-26-annual-report",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.apra.gov.au/news-and-publications/apra-welcomes-basel-endorsement-australias-bank-leverage-ratio-framework": {
+  "chars": 41693,
+  "date": "2026-10-22",
+  "file": "apra-gov-au-news-and-publications-apra-welcomes-basel-endorsement-australias-bank-leverage-ratio-framework.txt",
+  "final": "https://www.apra.gov.au/news-and-publications/apra-welcomes-basel-endorsement-australias-bank-leverage-ratio-framework",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
@@ -490,6 +544,60 @@
   "date": "2026-10-12",
   "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay.txt",
   "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-239mr-asic-moves-to-extend-and-strengthen-cfd-consumer-protections": {
+  "chars": 8613,
+  "date": "2026-10-22",
+  "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-239mr-asic-moves-to-extend-and-strengthen-cfd-consumer-protections.txt",
+  "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-239mr-asic-moves-to-extend-and-strengthen-cfd-consumer-protections",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-240mr-asic-review-finds-room-for-improvement-in-mortgage-brokers-best-interests-duty-practices": {
+  "chars": 7861,
+  "date": "2026-10-22",
+  "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-240mr-asic-review-finds-room-for-improvement-in-mortgage-brokers-best-interes.txt",
+  "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-240mr-asic-review-finds-room-for-improvement-in-mortgage-brokers-best-interests-duty-practices",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-241mr-asic-issues-ddo-stop-order-against-fidante-partners-limited-for-tmd-deficiencies": {
+  "chars": 5933,
+  "date": "2026-10-22",
+  "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-241mr-asic-issues-ddo-stop-order-against-fidante-partners-limited-for-tmd-def.txt",
+  "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-241mr-asic-issues-ddo-stop-order-against-fidante-partners-limited-for-tmd-deficiencies",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-243mr-asic-review-highlights-need-for-stronger-scrutiny-of-super-fund-valuations": {
+  "chars": 7765,
+  "date": "2026-10-22",
+  "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-243mr-asic-review-highlights-need-for-stronger-scrutiny-of-super-fund-valuati.txt",
+  "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-243mr-asic-review-highlights-need-for-stronger-scrutiny-of-super-fund-valuations",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-244mr-fortnum-private-wealth-penalised-135-million-for-cybersecurity-failures": {
+  "chars": 6766,
+  "date": "2026-10-22",
+  "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-244mr-fortnum-private-wealth-penalised-135-million-for-cybersecurity-failures.txt",
+  "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-244mr-fortnum-private-wealth-penalised-135-million-for-cybersecurity-failures",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws": {
+  "chars": 10867,
+  "date": "2026-10-22",
+  "file": "asic-gov-au-about-asic-news-centre-find-a-media-release-2026-releases-26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws.txt",
+  "final": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws",
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"

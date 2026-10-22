@@ -1,0 +1,209 @@
+SOURCE: https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws
+FINAL URL: https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws
+FETCHED: 2026-10-22
+
+
+
+26-245MR ASIC consults on implementation of new digital asset laws | ASIC
+
+Menu
+
+Media releases
+
+Reports and Publications
+
+ASIC's views
+
+Bannings and Alerts
+
+Menu
+
+Media releases
+
+Reports and publications
+
+ASIC's views
+
+Bannings and alerts
+
+Search
+
+Search Newsroom
+
+Trending:
+
+Type:
+
+Topic:
+
+Date:
+
+Start date (text):
+
+Press Spacebar to open datepicker
+Start date (datepicker):
+
+Select
+start date
+
+End date (text):
+
+Press Spacebar to open datepicker
+End date (datepicker):
+
+Select end
+date
+
+Search
+Cancel
+
+Newsroom
+
+26-245MR ASIC consults on implementation of new digital asset laws
+
+ASIC has today commenced consultation on guidance and standards to implement new laws for digital asset platforms and tokenised custody platforms commencing on 8 April 2027.
+
+ASIC’s Consultation Paper 392 Digital asset law reform implementation: Proposed standards and guidance ( CP 392 ) outlines its proposed approach to standards and regulatory guidance about complying with the new digital asset framework introduced by the Corporations Amendment (Digital Assets Framework) Act 2026 (DAF Act).
+
+The consultation package includes draft guidance on how to comply with the new laws, proposed standards on asset-holding activities, trading and settlement activities, and proposed financial requirements for licensees.
+
+ASIC Commissioner Alan Kirkland said that ASIC’s proposed guidance and standards recognised the rapid evolution of global markets.
+
+‘Our proposed guidance and standards acknowledge the increasing role of digital assets and tokenisation, including in traditional parts of the financial system,’ said Mr Kirkland.
+
+‘Our approach is based on the principle of “same activity, same risk, same regulatory outcome” to align Australia with the approach of comparable overseas jurisdictions. Bringing digital asset platforms and tokenised custody platforms into the financial services regulatory framework means consumers can have greater confidence when trading digital assets.
+
+‘ASIC’s approach to implementation is designed to balance facilitation of innovation, investment and growth with maintaining the protections that Australians expect.’
+
+ASIC engaged early with industry in developing these proposals and will continue to directly liaise with stakeholders through the consultation period via a series of events and targeted roundtables.
+
+ASIC’s consultation package refers to regulatory design work that is being developed by Government in parallel to this process. This is intended to enable industry to see a complete picture of the future approach.
+
+ASIC’s proposed guidance explains how the digital assets framework applies to:
+
+operators of Digital Assets Platforms (DAPs) and Tokenised Custody Platforms (TCPs), and others providing financial services for these new products, and
+
+existing Australian financial services (AFS) licensees, market participants, payments providers and other businesses that use or deal with digital assets.
+
+ASIC’s proposed guidance outlines that firms will need to:
+
+apply for (or vary) an Australian financial services licence,
+
+provide customer disclosure documents and platform rules, and
+
+comply with asset-holding standards, transactional and settlement standards, and net tangible asset requirements, where relevant.
+
+ASIC is also proposing to streamline licensing processes for existing AFS licensees and those who applied for an authorisation in response to Information Sheet 225 Digital assets: Financial products and services ( INFO 225 ) adding DAP or TCP authorisations, to help with a smooth transition to the new regime.
+
+ASIC’s consultation is open until 5pm AEDT 27 November 2026.
+
+ASIC has also published a consultation user guide to help stakeholders navigate the full package and provide relevant feedback.
+
+Submissions should be sent to fintech@asic.gov.au .
+
+Downloads
+
+Consultation paper 392 Digital asset law reform implementation: Proposed standards and guidance
+
+User guide for CP 392
+
+Background
+
+DAF Act
+
+The DAF Act amends the Corporations Act and introduces a new regulatory framework for:
+
+digital asset platforms (DAPs) , which involve the holding of digital tokens on behalf of clients and associated platform services, and
+
+tokenised custody platforms (TCPs) , which are arrangements that record underlying assets held for clients as digital tokens.
+
+In April 2026, ASIC set out its roadmap for implementing the new regime to support industry. This also includes preparing industry for changes to licensing application or variation requirements.
+
+ASIC’s proposed guidance has been informed by stakeholder engagement through ASIC’s Digital Asset Advisory Group, regular Fintech Liaison Meetings and international peer regulator forums.
+
+ASIC’s previous work supporting digital assets
+
+INFO 225 clarifies how existing laws apply to digital assets and related products.
+
+INFO 225 was updated in October 2025 to reflect industry feedback from Consultation Paper 381 Updates to INFO 225: Digital assets: Financial products and services ( CP 381 ), which proposed to update guidance to help businesses to determine licence authorisations and regulatory obligations that may apply to digital asset products and services. The existing financial services law is broad and technology-neutral, and already applies to many digital assets.
+
+Transitional arrangements were implemented as a sector-wide no-action position with the release of updated INFO 225 (see Media Release 25-250MR ).
+
+In June 2026, ASIC clarified and expanded the full scope and conditions of its no-action position and extended the deadline to 30 September 2026, as a pragmatic response to industry transition challenges.
+
+ASIC has recorded over 140 applications from businesses seeking to provide digital asset-related financial services. This includes more than 110 applications received in response to INFO 225 during the sector-wide no-action period from October 2025 to 30 September 2026.
+
+ASIC’s ongoing work to support innovation
+
+Since 2015, ASIC’s Innovation Hub has helped innovative FinTech and RegTech businesses navigate the Australian regulatory framework. It also provides a platform for domestic and international engagement on financial innovation and RegTech-related developments. ASIC continues to collaborate with Treasury and other agencies on joint initiatives under the Government's Financial Innovation Strategy , announced in September 2026. This includes modernising Australia's regulatory sandbox framework to support better testing and adoption.
+
+ASIC has also supported past exploratory work on tokenisation. This includes participating the RBA and DFCRC led CBDC pilot (2023), and Project Acacia (2025-26) which explored the role of digital money in wholesale tokenised asset markets . ASIC continues to work with the RBA and other agencies on further work flowing from Project Acacia.
+
+In May 2026, ASIC published a commissioned report prepared by the DFCRC, Report 834 Innovation in Financial Technology and RegTech ( REP 834 ), to inform ongoing industry engagement on responsible financial innovation.
+
+In June 2026, ASIC published a second report authored by the DFCRC, Report 835 Innovation in Financial Markets and Financial Market Infrastructure ( REP 835 ), which informed ASIC's work to promote dynamism in Australia's capital markets and facilitate responsible financial innovation
+
+Media inquiries:
+
+Contact ASIC Media Unit
+
+Media Assets
+
+Follow us on:
+
+X
+
+LinkedIn
+
+Facebook
+
+Information publication scheme
+
+Freedom of information
+
+Copyright
+
+Privacy
+
+Contact us
+
+Accessibility
+
+Site map
+
+
+
+==== LINKS ====
+ -> https://www.asic.gov.au/
+ -> https://www.asic.gov.au/newsroom/
+Media releases -> https://www.asic.gov.au/newsroom/media-releases/
+Reports and Publications -> https://www.asic.gov.au/newsroom/reports-and-publications/
+ASIC's views -> https://www.asic.gov.au/newsroom/asic-s-views/
+Bannings and Alerts -> https://www.asic.gov.au/newsroom/bannings-and-alerts/
+Reports and publications -> https://www.asic.gov.au/newsroom/reports-and-publications/
+Bannings and alerts -> https://www.asic.gov.au/newsroom/bannings-and-alerts/
+Newsroom -> https://www.asic.gov.au/newsroom
+CP 392 -> https://www.asic.gov.au/regulatory-resources/find-a-document/consultations/cp-392-digital-asset-law-reform-implementation-proposed-standards-and-guidance
+Corporations Amendment (Digital Assets Framework) Act 2026 -> https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;page=0;query=BillId:r7411Recstruct:billhome
+INFO 225 -> https://www.asic.gov.au/regulatory-resources/digital-transformation/digital-assets-financial-products-and-services
+fintech@asic.gov.au -> mailto:fintech@asic.gov.au
+Consultation paper 392 Digital asset law reform implementation: Proposed standards and guidance -> https://www.asic.gov.au/regulatory-resources/find-a-document/consultations/cp-392-digital-asset-law-reform-implementation-proposed-standards-and-guidance
+roadmap for implementing the new regime -> https://www.asic.gov.au/about-asic/news-centre/news-items/asics-roadmap-for-digital-assets-law-reform-implementation
+CP 381 -> https://www.asic.gov.au/regulatory-resources/find-a-document/consultations/cp-381-updates-to-info-225-digital-assets-financial-products-and-services
+25-250MR -> https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-250mr-updated-asic-guidance-supports-digital-asset-innovation-and-boosts-investor-protection
+Government's Financial Innovation Strategy -> https://treasury.gov.au/publication/p2026-799948
+explored the role of digital money in wholesale tokenised asset markets -> https://www.rba.gov.au/media-releases/2026/mr-26-13.html
+REP 834 -> https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-834-innovation-in-financial-technology-and-regtech-a-landscape-review
+REP 835 -> https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-835-innovation-in-financial-markets-and-financial-market-infrastructure-a-landscape-review
+Contact ASIC Media Unit -> https://www.asic.gov.au/about-asic/news-centre/contact-asic-media-unit/
+Media Assets -> https://www.asic.gov.au/newsroom-beta/media-assets
+X -> http://twitter.com/asicmedia
+LinkedIn -> https://www.linkedin.com/company/asic
+Facebook -> https://www.facebook.com/asicconnect
+Information publication scheme -> https://www.asic.gov.au/about-asic/freedom-of-information-foi/information-publication-scheme/
+Freedom of information -> https://www.asic.gov.au/about-asic/freedom-of-information-foi/
+Copyright -> https://www.asic.gov.au/about-asic/dealing-with-asic/copyright-and-linking-to-our-websites/
+Privacy -> https://www.asic.gov.au/about-asic/dealing-with-asic/privacy/
+Contact us -> https://www.asic.gov.au/about-asic/contact-us/
+Accessibility -> https://www.asic.gov.au/about-asic/dealing-with-asic/accessibility/
+Site map -> https://www.asic.gov.au/sitemap/

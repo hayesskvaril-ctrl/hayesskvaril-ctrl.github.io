@@ -1,0 +1,191 @@
+SOURCE: https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-239mr-asic-moves-to-extend-and-strengthen-cfd-consumer-protections
+FINAL URL: https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-239mr-asic-moves-to-extend-and-strengthen-cfd-consumer-protections
+FETCHED: 2026-10-22
+
+
+
+26-239MR ASIC moves to extend and strengthen CFD consumer protections | ASIC
+
+Menu
+
+Media releases
+
+Reports and Publications
+
+ASIC's views
+
+Bannings and Alerts
+
+Menu
+
+Media releases
+
+Reports and publications
+
+ASIC's views
+
+Bannings and alerts
+
+Search
+
+Search Newsroom
+
+Trending:
+
+Type:
+
+Topic:
+
+Date:
+
+Start date (text):
+
+Press Spacebar to open datepicker
+Start date (datepicker):
+
+Select
+start date
+
+End date (text):
+
+Press Spacebar to open datepicker
+End date (datepicker):
+
+Select end
+date
+
+Search
+Cancel
+
+Newsroom
+
+26-239MR ASIC moves to extend and strengthen CFD consumer protections
+
+ASIC is seeking feedback on its proposal to extend and amend the consumer protection measures governing contracts for difference (CFDs), with the product intervention order (PIO) proposed to remain in place for a further 10 years.
+
+The updates are designed to preserve protections that have materially reduced investor harm while modernising the PIO to ensure it treats products with the same economic characteristics and risks as CFDs consistently, whether they are settled in cash, by set-off or through the transfer of digital assets.
+
+Industry has 4 weeks to provide feedback on ASIC’s proposals.
+
+ASIC Commissioner Alan Kirkland said, ‘The evidence demonstrates that ASIC’s CFD intervention order has materially reduced retail investor harm by addressing key drivers of harm, like excess leverage.
+
+‘Within six months of our current order taking effect, aggregate net losses by retail client accounts fell by 91%.
+
+‘However, CFDs continue to remain highly risky products. ASIC’s data repeatedly shows that most retail investors lose money trading CFDs, with our most recent data indicating losses over a 12-month period exceeded $458 million, including $73 million in fees.
+
+‘Improving consumer outcomes is one of ASIC’s top strategic priorities. These proposals seek to make the investing landscape safer by ensuring our consumer protection measures keep pace as financial markets continue to evolve.’
+
+‘Some products expose retail investors to the same risks as CFDs but may fall outside the current PIO because of how they are settled. The proposed updates ensure protections apply consistently, regardless of whether a CFD is settled by cash, set-off or digital assets’.
+
+ASIC is inviting feedback from CFD issuers, industry bodies, consumer representatives and other stakeholders on the proposed extension and amendments to the product intervention order (PIO).
+
+The proposed PIO would:
+
+modernise the definition of CFDs to also include CFDs that are settled through the transfer of digital assets
+
+clarify how initial margin requirements apply to CFDs over options
+
+confirm that initial margin requirements must be applied separately to each CFD and cannot be reduced by netting opposing positions
+
+clarify conditions applying to permitted discounts and educational or research tools, and
+
+update terminology from ‘cryptoasset’ to ‘digital asset’.
+
+ASIC is also seeking feedback on whether CFDs over options that expose retail clients to losses greater than the premium should continue to be available to retail investors.
+
+ASIC is seeking the feedback on the proposed extension and amendments and on the separate CFDs over options issue by 5pm (AEDT) on 9 November 2026. Details on responding can be found on CS 64 Protecting retail investors: Proposed extension and amendments to the CFD product intervention order .
+
+Subject to Ministerial approval, the extended CFD PIO would remain in force until 2037 unless revoked earlier.
+
+Downloads
+
+Draft ASIC Corporations (Product Intervention Order Amendment—Contracts for Difference) Instrument 2026/XX (PDF 276 KB)
+
+Background
+
+Improving consumer outcomes and addressing the risks from distributing high-risk financial products and services such as CFDs to retail investors is one of ASIC’s 2026-27 priorities for supervising market intermediaries. ASIC has committed to maintaining strong protections for retail clients trading CFDs.
+
+CFDs are complex, leveraged, over-the-counter (OTC) products that can expose retail investors to significant losses. They allow clients to speculate on the change in value of assets like shares, currencies and commodities. Leverage and associated financing fees can magnify investor losses. A small price change against a leveraged CFD position can have a big effect on trading returns or losses, even loss of the entire investment.
+
+The CFD PIO commenced on 29 March 2021 and is due to expire on 23 May 2027.
+
+On 6 April 2022, ASIC extended the CFD PIO until 23 May 2027. Data collected to support that extension showed substantial reductions in retail harm during the first six months of operation, including significant reductions in:
+
+client losses : reduced 91%, from $372 million to $33 million aggregate net loss per quarter
+
+margin close outs : decreased 87% per quarter, and
+
+active retail accounts : decreased 29%, from 504,905 to 357,841.
+
+ASIC’s more recent sector-wide reviews show this reduction in client harm has largely been maintained ( 22-082MR , 26-004MR , REP 828 ).
+
+The CFD PIO provides four key protections: leverage limits, standardised margin close-out arrangements, negative balance protection and prohibits certain inducements.
+
+ASIC’s most recent review into the Australian CFD sector
+
+In January 2026, ASIC secured the return of nearly $40 million to more than 38,000 retail investors and drove substantial compliance improvement across Australia’s CFD sector following a whole of industry review ( 26-004MR ).
+
+The review drove widespread improvements in issuers’ target market determinations, customer onboarding questionnaires, reporting compliance and monitoring of customer trading outcomes.
+
+ASIC’s Moneysmart website has further information about CFDs and forex trading .
+
+Media inquiries:
+
+Contact ASIC Media Unit
+
+Media Assets
+
+Follow us on:
+
+X
+
+LinkedIn
+
+Facebook
+
+Information publication scheme
+
+Freedom of information
+
+Copyright
+
+Privacy
+
+Contact us
+
+Accessibility
+
+Site map
+
+
+
+==== LINKS ====
+ -> https://www.asic.gov.au/
+ -> https://www.asic.gov.au/newsroom/
+Media releases -> https://www.asic.gov.au/newsroom/media-releases/
+Reports and Publications -> https://www.asic.gov.au/newsroom/reports-and-publications/
+ASIC's views -> https://www.asic.gov.au/newsroom/asic-s-views/
+Bannings and Alerts -> https://www.asic.gov.au/newsroom/bannings-and-alerts/
+Reports and publications -> https://www.asic.gov.au/newsroom/reports-and-publications/
+Bannings and alerts -> https://www.asic.gov.au/newsroom/bannings-and-alerts/
+Newsroom -> https://www.asic.gov.au/newsroom
+CS 64 -> https://www.asic.gov.au/regulatory-resources/find-a-document/consultations/cs-64-protecting-retail-investors-proposed-extension-and-amendments-to-the-cfd-product-intervention-order
+Draft ASIC Corporations (Product Intervention Order Amendment—Contracts for Difference) Instrument 2026/XX -> https://download.asic.gov.au/media/uc3b3zo3/attachment-to-cs64-published-12-october-2026.pdf
+22-082MR -> https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2022-releases/22-082mr-asic-s-cfd-product-intervention-order-extended-for-five-years
+26-004MR -> https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-004mr-asic-secures-nearly-40-million-in-refunds-to-investors-and-drives-change-after-cfd-sector-falls-short
+REP 828 -> https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-828-risky-business-driving-change-in-cfd-issuers-distribution-practices
+ASIC’s Moneysmart website -> https://moneysmart.gov.au/
+CFDs -> https://moneysmart.gov.au/investment-warnings/contracts-for-difference-cfds
+forex trading -> https://moneysmart.gov.au/investment-warnings/forex-trading
+Contact ASIC Media Unit -> https://www.asic.gov.au/about-asic/news-centre/contact-asic-media-unit/
+Media Assets -> https://www.asic.gov.au/newsroom-beta/media-assets
+X -> http://twitter.com/asicmedia
+LinkedIn -> https://www.linkedin.com/company/asic
+Facebook -> https://www.facebook.com/asicconnect
+Information publication scheme -> https://www.asic.gov.au/about-asic/freedom-of-information-foi/information-publication-scheme/
+Freedom of information -> https://www.asic.gov.au/about-asic/freedom-of-information-foi/
+Copyright -> https://www.asic.gov.au/about-asic/dealing-with-asic/copyright-and-linking-to-our-websites/
+Privacy -> https://www.asic.gov.au/about-asic/dealing-with-asic/privacy/
+Contact us -> https://www.asic.gov.au/about-asic/contact-us/
+Accessibility -> https://www.asic.gov.au/about-asic/dealing-with-asic/accessibility/
+Site map -> https://www.asic.gov.au/sitemap/
