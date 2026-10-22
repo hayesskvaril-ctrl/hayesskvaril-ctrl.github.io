@@ -665,6 +665,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-841-accounting-for-your-super-super-fund-financial-reporting-and-audit-2025-26": {
+  "chars": 16786,
+  "date": "2026-10-22",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-reports-rep-841-accounting-for-your-super-super-fund-financial-reporting-and-audit-2025-26.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-841-accounting-for-your-super-super-fund-financial-reporting-and-audit-2025-26",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/": {
   "chars": 19494,
   "date": "2026-10-12",
@@ -673,6 +682,15 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=utf-8"
+ },
+ "https://www.asic.gov.au/sitemap.xml": {
+  "chars": 1751225,
+  "date": "2026-10-22",
+  "file": "asic-gov-au-sitemap-xml.txt",
+  "final": "https://www.asic.gov.au/sitemap.xml",
+  "kind": "html",
+  "status": 200,
+  "type": "application/xml"
  },
  "https://www.asx.com.au/about/regulation/corporate-governance-principles-and-recommendations": {
   "chars": 40448,
