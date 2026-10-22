@@ -1,0 +1,258 @@
+SOURCE: https://rdap.org/domain/plainrisk.com.au
+FINAL URL: https://rdap.cctld.au/rdap/domain/plainrisk.com.au
+FETCHED: 2026-10-22
+
+{
+"rdapConformance": [
+"rdap_level_0",
+"auda_rdap_response_profile_0",
+"auData_level_0",
+"redacted"
+],
+"notices": [
+{
+"title": "Terms of Service",
+"description": [
+"Access to RDAP information is provided to assist persons in determining the contents of a domain name registration record in the registry database. The data in this record is provided by Identity Digital Australia Pty Ltd on behalf of .au Domain Administration Limited (auDA) for informational purposes only, and neither Identity Digital nor .au Domain Administration Limited (auDA) guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, facsimile, or any other electronic means of communication, of mass unsolicited communications, including commercial advertising or solicitations to entities other than the data recipient's own existing customers or for the collection of data sets to which the data recipient has no other legal source of access; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Identity Digital, a Registrar, or Registry Operator except as reasonably necessary to register domain names or modify existing registrations. When using the RDAP service, please consider the following: the RDAP service is not a replacement for standard EPP commands to the SRS service. RDAP is not considered authoritative for registered domain objects. The RDAP service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the RDAP services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of RDAP service access. Abuse of the RDAP system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the RDAP records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be confirmed that the requester holds a legal entitlement to access the withheld data. The RDAP Service is provided for information purposes only. By using the RDAP Service, you agree to be bound by these terms and conditions. The RDAP Service is operated in accordance with the auDA Policy available at: https://www.auda.org.au/whois-policy"
+],
+"links": [
+{
+"value": "https://rdap.cctld.au/rdap/domain/plainrisk.com.au",
+"rel": "terms-of-service",
+"href": "https://www.auda.org.au/whois-policy",
+"type": "text/html"
+}
+]
+},
+{
+"title": "Status Codes",
+"description": [
+"For more information on domain status codes, please visit https://www.identitydigital.au/whois-status-codes/"
+],
+"links": [
+{
+"value": "https://rdap.cctld.au/rdap/domain/plainrisk.com.au",
+"rel": "glossary",
+"href": "https://www.identitydigital.au/whois-status-codes/",
+"type": "application/rdap+json"
+}
+]
+},
+{
+"title": "RDDS Inaccuracy Complaint Form",
+"description": [
+"URL of the auDA RDDS Inaccuracy Complaint Form: https://www.auda.org.au/au-domain-names/complaints-and-disputes/au-complaints/submit-a-complaint/"
+],
+"links": [
+{
+"value": "https://rdap.cctld.au/rdap/domain/plainrisk.com.au",
+"rel": "help",
+"href": "https://www.auda.org.au/au-domain-names/complaints-and-disputes/au-complaints/submit-a-complaint/",
+"type": "application/rdap+json"
+}
+]
+}
+],
+"ldhName": "plainrisk.com.au",
+"unicodeName": "plainrisk.com.au",
+"auData_statusReasons": [
+{
+"auData_status": "server renew prohibited",
+"auData_statusReason": [
+"Not Currently Eligible For Renewal"
+]
+}
+],
+"auData_eligibility": [
+{
+"name": "registrant name",
+"value": "THE GOVERNANCE PRACTICE PTY LTD"
+},
+{
+"name": "registrant id",
+"value": "ACN 701999546"
+},
+{
+"name": "eligibility type",
+"value": "Company"
+}
+],
+"nameservers": [
+{
+"ldhName": "marlowe.ns.cloudflare.com",
+"unicodeName": "marlowe.ns.cloudflare.com",
+"objectClassName": "nameserver",
+"handle": "c2ab18636ee541c5a64c6fc6796a8b29-AU",
+"status": [
+"associated"
+]
+},
+{
+"ldhName": "ryan.ns.cloudflare.com",
+"unicodeName": "ryan.ns.cloudflare.com",
+"objectClassName": "nameserver",
+"handle": "41427363f4e34738a9695ad0491312b9-AU",
+"status": [
+"associated"
+]
+}
+],
+"secureDNS": {
+"delegationSigned": false,
+"maxSigLife": 1
+},
+"redacted": [
+{
+"name": {
+"type": "Registry Domain Registration Date"
+},
+"prePath": "$.events[?(@.eventAction=='registration')]",
+"pathLang": "jsonpath",
+"method": "removal"
+},
+{
+"name": {
+"type": "Registry Domain Expiration Date"
+},
+"prePath": "$.events[?(@.eventAction=='expiration')]",
+"pathLang": "jsonpath",
+"method": "removal"
+},
+{
+"name": {
+"description": "Registrant"
+},
+"method": "removal"
+},
+{
+"name": {
+"description": "Technical Contact"
+},
+"method": "removal"
+},
+{
+"name": {
+"description": "Administrative Contact"
+},
+"method": "removal"
+},
+{
+"name": {
+"type": "AU Eligibility Policy Reason"
+},
+"prePath": "$.auData_eligibility[?(@.name=='policy reason')]",
+"pathLang": "jsonpath",
+"method": "removal"
+}
+],
+"objectClassName": "domain",
+"handle": "fb13d99f03fd48aabb4b5fe66d7f6fa2-AU",
+"status": [
+"server renew prohibited"
+],
+"events": [
+{
+"eventAction": "last changed",
+"eventDate": "2026-10-02T11:33:41.767Z"
+},
+{
+"eventAction": "last update of RDAP database",
+"eventDate": "2026-10-22T21:34:18.086Z"
+}
+],
+"entities": [
+{
+"vcardArray": [
+"vcard",
+[
+[
+"version",
+{},
+"text",
+"4.0"
+],
+[
+"fn",
+{},
+"text",
+"Help.com.au Pty Ltd"
+]
+]
+],
+"roles": [
+"registrar"
+],
+"publicIds": [
+{
+"type": "Registrar ID",
+"identifier": "802269"
+}
+],
+"objectClassName": "entity",
+"handle": "802269",
+"entities": [
+{
+"vcardArray": [
+"vcard",
+[
+[
+"version",
+{},
+"text",
+"4.0"
+],
+[
+"fn",
+{},
+"text",
+""
+],
+[
+"tel",
+{
+"type": "voice"
+},
+"uri",
+"tel:+61.395897946"
+],
+[
+"email",
+{},
+"text",
+"support@help.com.au"
+]
+]
+],
+"roles": [
+"abuse"
+],
+"objectClassName": "entity"
+}
+],
+"links": [
+{
+"value": "https://rdap.cctld.au/rdap/entity/802269",
+"rel": "self",
+"href": "https://rdap.cctld.au/rdap/entity/802269",
+"type": "application/rdap+json"
+},
+{
+"value": "https://www.help.com.au/",
+"rel": "related",
+"href": "https://www.help.com.au/",
+"type": "application/rdap+json"
+}
+]
+}
+],
+"links": [
+{
+"value": "https://rdap.cctld.au/rdap/domain/plainrisk.com.au",
+"rel": "self",
+"href": "https://rdap.cctld.au/rdap/domain/plainrisk.com.au",
+"type": "application/rdap+json"
+}
+]
+}
+
+==== LINKS ====

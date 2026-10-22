@@ -1,4 +1,49 @@
 {
+ "https://abr.business.gov.au/Search/ResultsActive?SearchText=plain%20risk": {
+  "chars": 8104,
+  "date": "2026-10-22",
+  "file": "abr-business-gov-au-search-resultsactive-searchtext-plain-20risk.txt",
+  "final": "https://abr.business.gov.au/Search/ResultsActive?SearchText=plain%20risk",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://abr.business.gov.au/Search/ResultsActive?SearchText=risk%20atlas": {
+  "chars": 6947,
+  "date": "2026-10-22",
+  "file": "abr-business-gov-au-search-resultsactive-searchtext-risk-20atlas.txt",
+  "final": "https://abr.business.gov.au/Search/ResultsActive?SearchText=risk%20atlas",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://abr.business.gov.au/Search/ResultsActive?SearchText=risk%20commons": {
+  "chars": 7115,
+  "date": "2026-10-22",
+  "file": "abr-business-gov-au-search-resultsactive-searchtext-risk-20commons.txt",
+  "final": "https://abr.business.gov.au/Search/ResultsActive?SearchText=risk%20commons",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://abr.business.gov.au/Search/ResultsActive?SearchText=risklens": {
+  "chars": 5765,
+  "date": "2026-10-22",
+  "file": "abr-business-gov-au-search-resultsactive-searchtext-risklens.txt",
+  "final": "https://abr.business.gov.au/Search/ResultsActive?SearchText=risklens",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
+ "https://abr.business.gov.au/Search/ResultsActive?SearchText=second%20line": {
+  "chars": 10682,
+  "date": "2026-10-22",
+  "file": "abr-business-gov-au-search-resultsactive-searchtext-second-20line.txt",
+  "final": "https://abr.business.gov.au/Search/ResultsActive?SearchText=second%20line",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-259-risk-management-systems-of-responsible-entities/": {
   "chars": 16556,
   "date": "2026-10-09",
@@ -124,6 +169,492 @@
   "kind": "html",
   "status": 200,
   "type": "text/html; charset=UTF-8"
+ },
+ "https://rdap.org/domain/compliancecommons.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/compliancecommons.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/compliancecommons.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/compliancecommons.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/grccommons.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/grccommons.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/grccommons.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/grccommons.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/grcexplained.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/grcexplained.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/grcexplained.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/grcexplained.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/lineofsight.au": {
+  "chars": 6778,
+  "date": "2026-10-22",
+  "file": "rdap-org-domain-lineofsight-au.txt",
+  "final": "https://rdap.cctld.au/rdap/domain/lineofsight.au",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.org/domain/lineofsight.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/lineofsight.com.au",
+  "kind": "none",
+  "status": 429,
+  "type": ""
+ },
+ "https://rdap.org/domain/opengrc.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/opengrc.au",
+  "kind": "none",
+  "status": 429,
+  "type": ""
+ },
+ "https://rdap.org/domain/opengrc.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/opengrc.com.au",
+  "kind": "none",
+  "status": 429,
+  "type": ""
+ },
+ "https://rdap.org/domain/plainrisk.au": {
+  "chars": 6620,
+  "date": "2026-10-22",
+  "file": "rdap-org-domain-plainrisk-au.txt",
+  "final": "https://rdap.cctld.au/rdap/domain/plainrisk.au",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.org/domain/plainrisk.com.au": {
+  "chars": 6706,
+  "date": "2026-10-22",
+  "file": "rdap-org-domain-plainrisk-com-au.txt",
+  "final": "https://rdap.cctld.au/rdap/domain/plainrisk.com.au",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.org/domain/riskandrules.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskandrules.au",
+  "kind": "none",
+  "status": 429,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskandrules.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskandrules.com.au",
+  "kind": "none",
+  "status": 429,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskatlas.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskatlas.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskatlas.com.au": {
+  "chars": 7087,
+  "date": "2026-10-22",
+  "file": "rdap-org-domain-riskatlas-com-au.txt",
+  "final": "https://rdap.cctld.au/rdap/domain/riskatlas.com.au",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.org/domain/riskcommons.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskcommons.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskcommons.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskcommons.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskexplained.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskexplained.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskexplained.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskexplained.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/risklens.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/risklens.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/risklens.com.au": {
+  "chars": 7295,
+  "date": "2026-10-22",
+  "file": "rdap-org-domain-risklens-com-au.txt",
+  "final": "https://rdap.cctld.au/rdap/domain/risklens.com.au",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.org/domain/risklensaustralia.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/risklensaustralia.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/risklensaustralia.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/risklensaustralia.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/risklibrary.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/risklibrary.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/risklibrary.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/risklibrary.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskliteracy.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskliteracy.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskliteracy.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskliteracy.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskprimer.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskprimer.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/riskprimer.com.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/riskprimer.com.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/secondline.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/secondline.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/secondline.com.au": {
+  "chars": 6879,
+  "date": "2026-10-22",
+  "file": "rdap-org-domain-secondline-com-au.txt",
+  "final": "https://rdap.cctld.au/rdap/domain/secondline.com.au",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.org/domain/theriskregister.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/theriskregister.au",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.org/domain/theriskregister.com.au": {
+  "chars": 6920,
+  "date": "2026-10-22",
+  "file": "rdap-org-domain-theriskregister-com-au.txt",
+  "final": "https://rdap.cctld.au/rdap/domain/theriskregister.com.au",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.org/domain/thesecondline.au": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.org/domain/thesecondline.au",
+  "kind": "none",
+  "status": 429,
+  "type": ""
+ },
+ "https://rdap.org/domain/thesecondline.com.au": {
+  "chars": 7265,
+  "date": "2026-10-22",
+  "file": "rdap-org-domain-thesecondline-com-au.txt",
+  "final": "https://rdap.cctld.au/rdap/domain/thesecondline.com.au",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/compliancecommons.com": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.verisign.com/com/v1/domain/compliancecommons.com",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.verisign.com/com/v1/domain/grccommons.com": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.verisign.com/com/v1/domain/grccommons.com",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.verisign.com/com/v1/domain/grcexplained.com": {
+  "chars": 2629,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-grcexplained-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/grcexplained.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/lineofsight.com": {
+  "chars": 2636,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-lineofsight-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/lineofsight.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/opengrc.com": {
+  "chars": 2597,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-opengrc-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/opengrc.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/plainrisk.com": {
+  "chars": 2675,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-plainrisk-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/plainrisk.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/riskandrules.com": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.verisign.com/com/v1/domain/riskandrules.com",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.verisign.com/com/v1/domain/riskatlas.com": {
+  "chars": 2675,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-riskatlas-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/riskatlas.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/riskcommons.com": {
+  "chars": 2651,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-riskcommons-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/riskcommons.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/riskexplained.com": {
+  "chars": 2618,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-riskexplained-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/riskexplained.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/risklens.com": {
+  "chars": 2721,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-risklens-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/risklens.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/risklensaustralia.com": {
+  "chars": 0,
+  "date": "2026-10-22",
+  "file": "",
+  "final": "https://rdap.verisign.com/com/v1/domain/risklensaustralia.com",
+  "kind": "none",
+  "status": 404,
+  "type": ""
+ },
+ "https://rdap.verisign.com/com/v1/domain/risklibrary.com": {
+  "chars": 2581,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-risklibrary-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/risklibrary.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/riskliteracy.com": {
+  "chars": 2609,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-riskliteracy-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/riskliteracy.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/riskprimer.com": {
+  "chars": 2683,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-riskprimer-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/riskprimer.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/secondline.com": {
+  "chars": 2874,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-secondline-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/secondline.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/theriskregister.com": {
+  "chars": 2723,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-theriskregister-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/theriskregister.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
+ },
+ "https://rdap.verisign.com/com/v1/domain/thesecondline.com": {
+  "chars": 2595,
+  "date": "2026-10-22",
+  "file": "rdap-verisign-com-com-v1-domain-thesecondline-com.txt",
+  "final": "https://rdap.verisign.com/com/v1/domain/thesecondline.com",
+  "kind": "html",
+  "status": 200,
+  "type": "application/rdap+json"
  },
  "https://treasury.gov.au/consultation/c2026-810713": {
   "chars": 370,
