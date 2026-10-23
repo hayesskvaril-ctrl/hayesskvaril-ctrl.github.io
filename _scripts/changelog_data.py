@@ -8,6 +8,7 @@ Run:  python3 _scripts/build_changelog.py && python3 _scripts/sync_layout.py
 
 # (ISO date, root-relative URL or "", what changed)
 UPDATES = [
+    ('2026-10-23', '', 'A new look: a friendlier, course-style design with a bold navy banner, a colour for each subject, level badges, new flat illustrations on every section page and new fonts (Nunito and Lato). Links in text are now always underlined, so they never rely on colour alone.'),
     ('2026-10-23', '/compliance/climate-related-financial-disclosures.html', 'Climate disclosures: corrected the assurance timetable against the current ASSA 5010 (amended December 2025). Limited assurance covers the whole report in years 2 and 3, and reasonable assurance starts in each group\'s fourth year (for Group 1, years starting on or after 1 July 2028), not 1 July 2030 for everyone.'),
     ('2026-10-23', '/standards/asic-rg-78.html', 'RG 78: ASIC updated the guide on 21 October 2026 so its references to investigations now say 60 days rather than 30, matching its relief. Links on every breach reporting page now point to the updated guide.'),
     ('2026-10-22', '/case-studies/asic-cyber-cases-ri-advice-and-fiig.html', 'ASIC cyber cases: added the third outcome, Fortnum Private Wealth\'s $1.35 million penalty for failing to manage cyber risk across its advice network.'),

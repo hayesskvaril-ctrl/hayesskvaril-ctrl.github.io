@@ -43,8 +43,8 @@ for folder, title, img, dark, popular in SECTIONS:
     n = len([p for p in (ROOT / folder).glob("*.html") if p.name != "index.html"])
     total += n
     links = "".join(f'<li><a href="{u}">{escape(title_of(u))}</a></li>' for u in popular if (ROOT / u.lstrip("/")).exists())
-    blocks.append(f'''  <section class="topic-card{" dark" if dark else ""}" aria-labelledby="tp-{folder}">
-    <img src="/assets/img/{img}-800.webp" width="800" height="500" alt="" loading="lazy">
+    blocks.append(f'''  <section class="topic-card" aria-labelledby="tp-{folder}">
+    <img src="/assets/img/flat-{img}.svg" width="800" height="450" alt="" loading="lazy">
     <div class="tc-body">
       <h2 id="tp-{folder}"><a href="/{folder}/">{escape(title)}</a></h2>
       <p class="tc-sum">{escape(summary)}</p>

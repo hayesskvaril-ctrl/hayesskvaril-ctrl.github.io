@@ -61,16 +61,34 @@
 <main id="main">
 
 <section class="hero" aria-labelledby="hero-h">
-  <p class="eyebrow">Free for every Australian</p>
-  <h1 id="hero-h">Risk, compliance and governance. Made clear.</h1>
-  <p>A free public library, from first principles to university level. Built around Australian law and regulators. No login, no paywall.</p>
-  <p class="cta"><a class="button" href="/start-here/">Start here</a> <a class="button secondary" href="/topics/">Browse topics</a></p>
-  <form class="search-form hero-search" role="search" action="/search/" method="get">
-    <label for="hero-q" class="visually-hidden">Search the site</label>
-    <input type="search" id="hero-q" name="q" placeholder="Search topics, standards and terms, e.g. CPS 230">
-    <button type="submit">Search</button>
-  </form>
-  <img class="hero-art" src="/assets/img/home-hero-2400.webp" srcset="/assets/img/home-hero-1200.webp 1200w, /assets/img/home-hero-2400.webp 2400w" sizes="100vw" width="2400" height="1200" alt="" fetchpriority="high">
+  <div class="hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow">Free for every Australian</p>
+      <h1 id="hero-h">Risk, compliance and governance. Made clear.</h1>
+      <p>A free public library, from first principles to university level. Built around Australian law and regulators. No login, no paywall.</p>
+      <p class="cta"><a class="button" href="/start-here/">Start here</a> <a class="button secondary" href="/topics/">Browse topics</a></p>
+      <form class="search-form hero-search" role="search" action="/search/" method="get">
+        <label for="hero-q" class="visually-hidden">Search the site</label>
+        <input type="search" id="hero-q" name="q" placeholder="Search topics, standards and terms, e.g. CPS 230">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="hero-pic">
+      <svg class="hero-art" viewBox="0 0 420 300" role="img" aria-label="Three steps rising from Beginner to Advanced, with a flag at the top">
+        <rect x="20" y="200" width="110" height="80" rx="12" fill="#0b7a6b"/>
+        <rect x="150" y="150" width="110" height="130" rx="12" fill="#1d6fd1"/>
+        <rect x="280" y="90" width="110" height="190" rx="12" fill="#ffb020"/>
+        <text x="75" y="246" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="900" font-size="16" fill="#ffffff">Beginner</text>
+        <text x="205" y="196" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="900" font-size="16" fill="#ffffff">Intermediate</text>
+        <text x="335" y="136" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="900" font-size="16" fill="#0b2a4a">Advanced</text>
+        <path d="M335 90 V40" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+        <path d="M335 40 L374 53 L335 68 Z" fill="#ffffff"/>
+        <circle cx="62" cy="168" r="14" fill="#ffffff"/>
+        <path d="M62 184 V200" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+        <circle cx="52" cy="30" r="9" fill="#ffffff" opacity=".28"/><circle cx="176" cy="62" r="6" fill="#ffffff" opacity=".3"/><circle cx="252" cy="26" r="13" fill="#ffffff" opacity=".16"/>
+      </svg>
+    </div>
+  </div>
 </section>
 
 <section class="band who" aria-labelledby="who-heading">
@@ -105,59 +123,95 @@
   <div class="whats-new-strip">
     <p class="wn-label"><a href="/whats-new/">What's new</a></p>
     <ul>
+      <li><span class="wn-date">23 October 2026</span><a href="/whats-new/">A new look</a></li>
       <li><span class="wn-date">23 October 2026</span><a href="/compliance/climate-related-financial-disclosures.html">Climate disclosures</a></li>
       <li><span class="wn-date">23 October 2026</span><a href="/standards/asic-rg-78.html">RG 78</a></li>
-      <li><span class="wn-date">22 October 2026</span><a href="/case-studies/asic-cyber-cases-ri-advice-and-fiig.html">ASIC cyber cases</a></li>
     </ul>
   </div>
 <!-- WHATSNEW:END -->
   </div>
 </section>
 
-<div class="tiles">
-  <section class="tile wide dark" aria-labelledby="t-playbooks">
-    <h2 id="t-playbooks">Playbooks</h2>
-    <p>Step-by-step guides for the moments that matter: an incident, a breach, a remediation, a new service provider.</p>
-    <div class="tile-links"><a class="button" href="/playbooks/">Open the playbooks</a> <a class="button secondary" href="/playbooks/respond-to-an-incident.html">Respond to an incident</a></div>
-    <img src="/assets/img/tools-1600.webp" srcset="/assets/img/tools-800.webp 800w, /assets/img/tools-1600.webp 1600w" sizes="(max-width: 834px) 100vw, 50vw" width="1600" height="1000" alt="">
-  </section>
-  <section class="tile" aria-labelledby="t-obligations">
-    <h2 id="t-obligations">Obligations library</h2>
-    <p>131 plain-English obligations from 39 regimes. Search, filter and download.</p>
-    <div class="tile-links"><a class="button" href="/obligations/">Search obligations</a></div>
-    <img src="/assets/img/compliance-1600.webp" srcset="/assets/img/compliance-800.webp 800w, /assets/img/compliance-1600.webp 1600w" sizes="(max-width: 834px) 100vw, 50vw" width="1600" height="1000" alt="" loading="lazy">
-  </section>
-  <section class="tile" aria-labelledby="t-standards">
-    <h2 id="t-standards">Standards library</h2>
-    <p>CPS 230, RG 78, ISO 31000 and more, explained in plain English.</p>
-    <div class="tile-links"><a class="button" href="/standards/">Browse standards</a> <a class="button secondary" href="/standards/cps-230.html">CPS 230</a></div>
-    <img src="/assets/img/standards-1600.webp" srcset="/assets/img/standards-800.webp 800w, /assets/img/standards-1600.webp 1600w" sizes="(max-width: 834px) 100vw, 50vw" width="1600" height="1000" alt="" loading="lazy">
-  </section>
-  <section class="tile" aria-labelledby="t-grc">
-    <h2 id="t-grc">GRC systems</h2>
-    <p>How complex organisations design integrated GRC. Then build your own model.</p>
-    <div class="tile-links"><a class="button" href="/grc/">Explore GRC</a> <a class="button secondary" href="/grc/model-builder.html">Model builder</a></div>
-    <img src="/assets/img/grc-1600.webp" srcset="/assets/img/grc-800.webp 800w, /assets/img/grc-1600.webp 1600w" sizes="(max-width: 834px) 100vw, 50vw" width="1600" height="1000" alt="" loading="lazy">
-  </section>
-  <section class="tile dark" aria-labelledby="t-case-studies">
-    <h2 id="t-case-studies">Case studies</h2>
-    <p>Real Australian failures. What went wrong, and the lessons that last.</p>
-    <div class="tile-links"><a class="button" href="/case-studies/">Read the cases</a></div>
-    <img src="/assets/img/case-studies-1600.webp" srcset="/assets/img/case-studies-800.webp 800w, /assets/img/case-studies-1600.webp 1600w" sizes="(max-width: 834px) 100vw, 50vw" width="1600" height="1000" alt="" loading="lazy">
-  </section>
-  <section class="tile" aria-labelledby="t-learn">
-    <h2 id="t-learn">Learn</h2>
-    <p>Pathways that work like courses, quizzes, scenarios and videos.</p>
-    <div class="tile-links"><a class="button" href="/learn/">Start learning</a> <a class="button secondary" href="/learn/my-learning.html">My learning</a></div>
-    <img src="/assets/img/learn-1600.webp" srcset="/assets/img/learn-800.webp 800w, /assets/img/learn-1600.webp 1600w" sizes="(max-width: 834px) 100vw, 50vw" width="1600" height="1000" alt="" loading="lazy">
-  </section>
-  <section class="tile dark" aria-labelledby="t-videos">
-    <h2 id="t-videos">Watch and learn</h2>
-    <p>Short explainer videos with captions and transcripts.</p>
-    <div class="tile-links"><a class="button" href="/learn/videos.html">Watch videos</a></div>
-    <img src="/assets/img/videos-1600.webp" srcset="/assets/img/videos-800.webp 800w, /assets/img/videos-1600.webp 1600w" sizes="(max-width: 834px) 100vw, 50vw" width="1600" height="1000" alt="" loading="lazy">
-  </section>
-</div>
+<section class="band alt" aria-labelledby="explore-heading">
+  <div class="container">
+    <h2 id="explore-heading">Explore the library.</h2>
+    <p class="band-intro">Guides, tools and courses, each with its own colour so you always know where you are.</p>
+    <div class="courses">
+      <section class="course c-playbooks" aria-labelledby="t-playbooks">
+        <div class="band-art"><img src="/assets/img/ill-playbooks.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-playbooks">Playbooks</h3>
+          <p>Step-by-step guides for the moments that matter: an incident, a breach, a remediation, a new service provider.</p>
+          <div class="tile-links"><a class="button" href="/playbooks/">Open the playbooks</a> <a class="button secondary" href="/playbooks/respond-to-an-incident.html">Respond to an incident</a></div>
+        </div>
+      </section>
+      <section class="course c-obligations" aria-labelledby="t-obligations">
+        <div class="band-art"><img src="/assets/img/ill-obligations.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-obligations">Obligations library</h3>
+          <p>131 plain-English obligations from 39 regimes. Search, filter and download.</p>
+          <div class="tile-links"><a class="button" href="/obligations/">Search obligations</a></div>
+        </div>
+      </section>
+      <section class="course c-standards" aria-labelledby="t-standards">
+        <div class="band-art"><img src="/assets/img/ill-standards.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-standards">Standards library</h3>
+          <p>CPS 230, RG 78, ISO 31000 and more, explained in plain English.</p>
+          <div class="tile-links"><a class="button" href="/standards/">Browse standards</a> <a class="button secondary" href="/standards/cps-230.html">CPS 230</a></div>
+        </div>
+      </section>
+      <section class="course c-grc" aria-labelledby="t-grc">
+        <div class="band-art"><img src="/assets/img/ill-grc.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-grc">GRC systems</h3>
+          <p>How complex organisations design integrated GRC. Then build your own model.</p>
+          <div class="tile-links"><a class="button" href="/grc/">Explore GRC</a> <a class="button secondary" href="/grc/model-builder.html">Model builder</a></div>
+        </div>
+      </section>
+      <section class="course c-cases" aria-labelledby="t-cases">
+        <div class="band-art"><img src="/assets/img/ill-cases.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-cases">Case studies</h3>
+          <p>Real Australian failures. What went wrong, and the lessons that last.</p>
+          <div class="tile-links"><a class="button" href="/case-studies/">Read the cases</a></div>
+        </div>
+      </section>
+      <section class="course c-learn" aria-labelledby="t-learn">
+        <div class="band-art"><img src="/assets/img/ill-learn.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-learn">Learn</h3>
+          <p>Pathways that work like courses, quizzes, scenarios and videos.</p>
+          <div class="tile-links"><a class="button" href="/learn/">Start learning</a> <a class="button secondary" href="/learn/my-learning.html">My learning</a></div>
+        </div>
+      </section>
+      <section class="course c-videos" aria-labelledby="t-videos">
+        <div class="band-art"><img src="/assets/img/ill-videos.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-videos">Watch and learn</h3>
+          <p>Short explainer videos with captions and transcripts.</p>
+          <div class="tile-links"><a class="button" href="/learn/videos.html">Watch videos</a></div>
+        </div>
+      </section>
+      <section class="course c-tools" aria-labelledby="t-tools">
+        <div class="band-art"><img src="/assets/img/ill-tools.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-tools">Tools and templates</h3>
+          <p>Heat maps, risk scoring, registers, checklists and editable templates. All free.</p>
+          <div class="tile-links"><a class="button" href="/tools/">Open the toolkit</a></div>
+        </div>
+      </section>
+      <section class="course c-news" aria-labelledby="t-news">
+        <div class="band-art"><img src="/assets/img/ill-news.svg" width="200" height="120" alt="" loading="lazy"></div>
+        <div class="course-body">
+          <h3 id="t-news">News and changes</h3>
+          <p>Regulatory changes and commentary, in plain English, with a tracker of what is coming.</p>
+          <div class="tile-links"><a class="button" href="/news/">Read the news</a> <a class="button secondary" href="/news/regulatory-tracker.html">Tracker</a></div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
 
 <section class="band" aria-labelledby="topics-heading">
   <div class="container">

@@ -7,19 +7,20 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || '/opt/node22/lib/n
 const ROOT = path.resolve(__dirname, '..');
 const BASE = 'http://localhost:8765';
 
+const steps = `<svg class="art" viewBox="0 0 420 300"><rect x="20" y="200" width="110" height="80" rx="12" fill="#0b7a6b"/><rect x="150" y="150" width="110" height="130" rx="12" fill="#1d6fd1"/><rect x="280" y="90" width="110" height="190" rx="12" fill="#ffb020"/><path d="M335 90 V40" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M335 40 L374 53 L335 68 Z" fill="#fff"/><circle cx="62" cy="168" r="14" fill="#fff"/><path d="M62 184 V200" stroke="#fff" stroke-width="9" stroke-linecap="round"/><circle cx="52" cy="30" r="9" fill="#fff" opacity=".28"/><circle cx="176" cy="62" r="6" fill="#fff" opacity=".3"/><circle cx="252" cy="26" r="13" fill="#fff" opacity=".16"/></svg>`;
 const card = `<!DOCTYPE html><html><head><link rel="stylesheet" href="${BASE}/styles.css"><style>
-  body { margin:0; width:1200px; height:630px; overflow:hidden; background:#f5f5f7; }
-  .c { position:relative; width:1200px; height:630px; box-sizing:border-box; padding:64px 72px; background:#f5f5f7; overflow:hidden; }
-  .art { position:absolute; right:-150px; bottom:-40px; width:820px; height:auto; }
+  body { margin:0; width:1200px; height:630px; overflow:hidden; background:#0b2a4a; }
+  .c { position:relative; width:1200px; height:630px; box-sizing:border-box; padding:64px 72px; background:#0b2a4a; overflow:hidden; }
+  .art { position:absolute; right:40px; bottom:56px; width:520px; height:auto; }
   .top { position:relative; display:flex; align-items:center; gap:16px; }
   .top img { width:56px; height:56px; }
-  .name { font-family:-apple-system, Inter, sans-serif; font-weight:600; font-size:34px; color:#1d1d1f; letter-spacing:-.5px; }
-  .name span { color:#6e6e73; font-weight:500; }
-  h1 { position:relative; font-family:-apple-system, Inter, sans-serif; font-weight:700; font-size:68px; line-height:1.05; letter-spacing:-2px; color:#1d1d1f; margin:64px 0 20px; max-width:600px; }
-  p { position:relative; font-family:-apple-system, Inter, sans-serif; font-size:28px; line-height:1.3; color:#6e6e73; margin:0; max-width:520px; }
-  .tag { position:absolute; left:72px; bottom:58px; font-family:-apple-system, Inter, sans-serif; font-weight:600; font-size:22px; color:#0071e3; }
+  .name { font-family:Nunito, sans-serif; font-weight:900; font-size:36px; color:#fff; }
+  .name span { color:#c9d5e8; font-weight:700; }
+  h1 { position:relative; font-family:Nunito, sans-serif; font-weight:900; font-size:72px; line-height:1.06; letter-spacing:-1px; color:#fff; margin:56px 0 20px; max-width:640px; }
+  p { position:relative; font-family:Lato, sans-serif; font-size:30px; line-height:1.3; color:#e3eaf5; margin:0; max-width:560px; }
+  .tag { position:absolute; left:72px; bottom:58px; font-family:Lato, sans-serif; font-weight:900; font-size:24px; color:#ffb020; }
 </style></head><body><div class="c">
-  <img class="art" src="${BASE}/assets/img/home-hero-1200.webp" alt="">
+  ${steps}
   <div class="top"><img src="${BASE}/assets/brand/favicon.svg" alt=""><div class="name">RiskLens <span>Australia</span></div></div>
   <h1>Risk, compliance and governance. Made clear.</h1>
   <p>Free plain-English guides, diagrams, tools and training.</p>

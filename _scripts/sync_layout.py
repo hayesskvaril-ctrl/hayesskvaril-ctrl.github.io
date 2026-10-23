@@ -570,15 +570,14 @@ META_LINE_RE = re.compile(r'(<div class="page-meta">.*?</div>)', re.S)
 
 
 def art_html(name: str, dark: bool) -> str:
-    cls = "section-art dark" if dark else "section-art"
-    return (f'\n<!-- ART:START -->\n<figure class="{cls}"><img src="/assets/img/{name}-1600.webp" '
-            f'srcset="/assets/img/{name}-800.webp 800w, /assets/img/{name}-1600.webp 1600w" '
-            f'sizes="(max-width: 1024px) 100vw, 980px" width="1600" height="1000" alt="" fetchpriority="high"></figure>\n<!-- ART:END -->')
+    # flat illustrations (assets/img/flat-<name>.svg, drawn by _scripts/graphics/flat/build_flat.py)
+    return (f'\n<!-- ART:START -->\n<figure class="section-art"><img src="/assets/img/flat-{name}.svg" '
+            f'width="800" height="450" alt="" fetchpriority="high"></figure>\n<!-- ART:END -->')
 
 
 def apply_art(text: str, url: str) -> str:
     text = ART_RE.sub("", text)
-    if url not in IMAGES or not (ROOT / "assets" / "img" / f"{IMAGES[url][0]}-1600.webp").exists():
+    if url not in IMAGES or not (ROOT / "assets" / "img" / f"flat-{IMAGES[url][0]}.svg").exists():
         return text
     return META_LINE_RE.sub(lambda m: m.group(1) + art_html(*IMAGES[url]), text, count=1)
 

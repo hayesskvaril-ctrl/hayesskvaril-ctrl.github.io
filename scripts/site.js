@@ -7,7 +7,7 @@
 
   // ---------- 1. Reveal on scroll ----------
   if (!reduce && 'IntersectionObserver' in window) {
-    var targets = document.querySelectorAll('.tile, .section-art, .hero-art, main .card, figure.diagram, .band .band-intro, .tile-links');
+    var targets = document.querySelectorAll('.course, .section-art, .hero-pic, main .card, figure.diagram, .band .band-intro');
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }

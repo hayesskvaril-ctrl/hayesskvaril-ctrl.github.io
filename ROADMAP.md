@@ -443,6 +443,16 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [ ] Keep growing the register as pages are updated (penalty amounts, super caps and rates)
   - 12 October 2026: five secondary-only facts confirmed on official sources (draft CPS 510 tenure, FCS limit, FAR streamlining close, REP 839 date) or corrected (DTI limit start now "February 2026", as APRA states it). Still secondary: advice-reforms-announced (no single official page found), scams-main-obligations and scams-afca-membership (AFCA blocks automated reading; look for the official SPF instrument on legislation.gov.au), essential-eight-consult-close (cyber.gov.au blocks automated reading).
 
+## Phase 24 — New look: Khan Academy style (requested October 2026)
+
+- [x] Preview of the Khan Academy style in three colour schemes; Nick chose the style and approved the preview (navy and amber used)
+- [x] Fonts (Nunito, Lato), colours, header, buttons, cards, level chips, footer, home page with navy banner and subject cards
+- [x] Flat illustrations for every section banner (`_scripts/graphics/flat/build_flat.py`) and the home-page cards; old 3D renders retired
+- [x] Share image redrawn; CLAUDE.md design notes updated
+- [ ] Re-render the 18 explainer videos in the new look (they still use the earlier light-blue look)
+- [ ] More pictures: flat illustrations or infographics on articles that have none (Nick asked for images wherever they help)
+- [ ] Decide the final site name, then rename everywhere (see launch plan)
+
 ## Ideas / backlog
 
 Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.
