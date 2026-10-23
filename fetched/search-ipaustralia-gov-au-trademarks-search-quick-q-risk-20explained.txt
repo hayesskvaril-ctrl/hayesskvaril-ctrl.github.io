@@ -1,0 +1,196 @@
+SOURCE: https://search.ipaustralia.gov.au/trademarks/search/quick?q=risk%20explained
+FINAL URL: https://search.ipaustralia.gov.au/trademarks/search/quick?q=risk%20explained
+FETCHED: 2026-10-23
+
+
+
+IP Australia | Trade Mark Search
+
+Australian Trade Mark Search
+
+Australian Trade Mark Search is the Australian Government’s trade mark search system.
+
+Home
+
+Quick search
+
+Advanced search
+
+1
+
+We have made improvements to Chinese text recognition in the image-based search feature.
+
+Search for words in trade marks, owner names or trade mark numbers
+
+{{(vm.resultCount || 0) | number}}
+result{{vm.resultCount != 1 ? 's' : ''}}
+
+advanced search »
+
+Some error
+
+Disclaimer summary
+
+Please note that the results of any search you conduct should not be
+relied upon, because any subsequent application you make will still
+be
+subject to a search by a trade mark examiner as part of the
+assessment
+process. That process may reveal new materials and information you
+did
+not find. IP Australia is not liable for any action taken and
+expense
+incurred in using this service.
+
+A detailed disclaimer can
+be found here .
+
+Quick search
+
+This will search across trade marks and their owner names. Although
+it will also find plurals, you should search for slight variations
+of your trade mark, such as common misspellings and words that sound
+similar. When
+uploading images, consider alternative images that look similar. You
+can filter your results in the search results
+screen, or undertake more specific searches using Advanced search.
+
+More information can be found
+here .
+
+Words of a trade mark
+
+To search for words in trade marks, type the relevant words into the
+search box.
+
+Note: Word searching is very precise. An effective trade mark
+search should consider slight variations of your trade mark,
+including plurals, common misspellings and trade marks that sound or
+look very similar. Consider if you are searching too specifically,
+and try searching some variations.
+
+Read
+more »
+
+Image elements of a trade mark
+
+To search for trade marks with image elements, upload an image. The
+search will return results based on the visual similarity
+of the images.
+
+An effective trade mark search should identify trade marks that are
+similar to your own, not just identical matches.
+
+Read
+more »
+
+Both Words and Image elements of a trade mark
+
+You can upload an image and search using words at the same time.
+
+Note: Combining words and images together may create a very
+specific and narrow search. For example, excluding results with a
+very similar image but different words.
+
+When searching multiple aspects of your trade mark at the same time,
+consider if you are searching too narrowly. You may want to instead
+consider searching each memorable and important part of your trade
+mark separately.
+
+Read
+more »
+
+Trade marks owned by a particular person or entity
+
+Searching for words in the box above will return results that contain those
+words in
+the trade mark's owner name, as well as those words in the trade mark
+itself.
+
+Note: This search is very precise. Consider if you are
+searching names too specifically, and try searching some variations
+if the results are not as expected (e.g. Cath will not find
+Catherine).
+
+Read
+more »
+
+Trade mark numbers
+
+If you already know the numbers of trade marks you want to find,
+you can search for those directly.
+
+Note: This search box will find results of Australian trade mark
+numbers as well as International Registration
+(IR) numbers.
+
+Read
+more »
+
+Have you tried?
+
+TM Checker uses artificial intelligence (AI) to perform a free
+preliminary check of your proposed trade mark.
+
+Recommended for:
+
+CHECKING A NEW IDEA
+
+SMALL TO MEDIUM BUSINESS
+
+Try TM Checker
+
+Have you tried?
+
+TM Checker uses artificial intelligence (AI) to perform a free
+preliminary check of your proposed trade mark.
+
+Recommended for:
+
+CHECKING A NEW IDEA
+
+SMALL TO MEDIUM BUSINESS
+
+Try TM Checker
+
+IP Australia acknowledges the Aboriginal and Torres Strait Islander peoples of Australia. We
+acknowledge the
+Traditional Custodians of the lands on which our agency is located and where we conduct our
+business. We pay
+our respects to ancestors and Elders, past, present and emerging. IP Australia acknowledges
+Australian
+Aboriginal and Torres Strait Islander peoples' unique cultural and spiritual relationships to
+the land, waters
+and seas and their rich contribution to society.
+
+Help
+
+About
+
+Notices
+
+Journals
+
+Feedback
+
+Disclaimer
+
+Goods and Services
+
+Mobile version
+
+
+
+==== LINKS ====
+ -> https://www.ipaustralia.gov.au
+Home -> https://search.ipaustralia.gov.au/trademarks
+Advanced search -> https://search.ipaustralia.gov.au/trademarks/search/advanced
+advanced search » -> https://search.ipaustralia.gov.au/trademarks/search/advanced
+here -> https://search.ipaustralia.gov.au/trademarks/disclaimer
+Help -> https://search.ipaustralia.gov.au/trademarks/help
+About -> https://search.ipaustralia.gov.au/trademarks/about
+Notices -> https://search.ipaustralia.gov.au/trademarks/notices
+Journals -> https://search.ipaustralia.gov.au/trademarks/journals
+Feedback -> https://www.ipaustralia.gov.au/about-us/contact-us-form
+Disclaimer -> https://search.ipaustralia.gov.au/trademarks/disclaimer
+Goods and Services -> https://tmgns.search.ipaustralia.gov.au

@@ -1,0 +1,250 @@
+SOURCE: https://abr.business.gov.au/Search/ResultsActive?SearchText=compliance%20commons
+FINAL URL: https://abr.business.gov.au/Search/ResultsActive?SearchText=compliance%20commons
+FETCHED: 2026-10-23
+
+
+
+Search results - active ABNs and names | ABN Lookup
+
+Search results - active ABNs and names | ABN Lookup
+
+skip to content
+
+Home
+
+Search
+Advanced search
+
+Statistical query
+
+Tools & resources
+Web services
+
+ABN Lookup tools
+
+Deductible gift recipients
+
+ATO app
+
+Quick links
+
+Bulk extract
+
+ABN refresh
+
+Help
+Update your ABN details
+
+Frequently asked questions
+
+Glossary
+
+Deductible gift recipients
+
+Charitable tax concessions
+
+Search tips
+
+Entity types
+
+Government agencies
+
+Search by ABN, ACN or name:
+
+ABN Lookup
+>
+
+Advanced search
+>
+
+Search results - active ABNs and names
+
+Search results - active ABNs and names Version: 9.9.7
+
+Active ABNs
+
+All ABNs
+
+Print
+
+Email
+
+Your search for compliance commons
+found 10 matches. Current names with active ABNs are listed below sorted by relevance.
+Use All ABNs
+tab to list cancelled ABNs/names.
+Click on an ABN or refine your search
+
+Matching names
+
+ABN
+
+Name
+
+Type
+
+Location
+
+11 165 114 643
+
+Active
+
+Compliance Commons
+
+Business Name
+
+2067 NSW
+
+70 636 976 077
+
+Active
+
+COMPLIANCE PTY LTD
+
+Entity Name
+
+4074 QLD
+
+47 158 704 977
+
+Active
+
+Common Sense Compliance
+
+Business Name
+
+4226 QLD
+
+54 637 201 088
+
+Active
+
+KOMPLIANCE PTY LTD
+
+Entity Name
+
+4500 QLD
+
+95 693 630 376
+
+Active
+
+COMPLIANCY PTY LTD
+
+Entity Name
+
+4170 QLD
+
+64 685 052 715
+
+Active
+
+Complynce
+
+Business Name
+
+3027 VIC
+
+84 711 363 322
+
+Active
+
+CASSANDRE C COOMANS
+
+Entity Name
+
+3125 VIC
+
+82 425 662 618
+
+Active
+
+GREGORY C CUMMINS
+
+Other Name
+
+2460 NSW
+
+46 670 831 464
+
+Active
+
+COMPLIENSE
+
+Business Name
+
+2066 NSW
+
+44 636 901 365
+
+Active
+
+Compliant Companies
+
+Business Name
+
+3207 VIC
+
+Record extracted: 23 Oct 2026
+
+Top
+
+About us
+
+Contact us
+
+Privacy policies
+
+Disclaimer
+
+Other languages
+
+Site map
+
+
+
+==== LINKS ====
+skip to content -> javascript:document.getElementById('content-main').focus()
+Home -> https://abr.business.gov.au/
+Search -> https://abr.business.gov.au/Search/Index
+Advanced search -> https://abr.business.gov.au/Search/Advanced
+Statistical query -> https://abr.business.gov.au/Search/StatisticalQuery
+Tools & resources -> https://abr.business.gov.au/Tools
+Web services -> https://abr.business.gov.au/Tools/WebServices
+ABN Lookup tools -> https://abr.business.gov.au/Tools/AbnLookup
+Deductible gift recipients -> https://abr.business.gov.au/Tools/DgrListing
+ATO app -> https://abr.business.gov.au/Tools/AtoApp
+Quick links -> https://abr.business.gov.au/Tools/QuickLinks
+Bulk extract -> https://abr.business.gov.au/Tools/BulkExtract
+ABN refresh -> https://abr.business.gov.au/Tools/AbnRefresh
+Help -> https://abr.business.gov.au/Help
+Update your ABN details -> https://abr.business.gov.au/Help/UpdateABNDetails
+Frequently asked questions -> https://abr.business.gov.au/Faq
+Glossary -> https://abr.business.gov.au/Help/Glossary
+Deductible gift recipients -> https://abr.business.gov.au/Help/DGR
+Charitable tax concessions -> https://abr.business.gov.au/Help/CharitableTaxConcession
+Search tips -> https://abr.business.gov.au/Help/SearchTips
+Entity types -> https://abr.business.gov.au/Help/EntityTypeList
+Government agencies -> https://abr.business.gov.au/Help/GovernmentAgencies
+ -> https://abr.business.gov.au/
+ABN Lookup -> https://abr.business.gov.au/
+Active ABNs -> https://abr.business.gov.au/Search/ResultsActive?SearchText=compliance%20commons&AllNames=False&EntityName=False&BusinessName=False&NarrowSearch=False&SearchType=ActiveAbns&AllStates=True&ACT=False&NSW=False&NT=False&QLD=False&TAS=False&SA=False&VIC=False&WA=False&PostcodeDisplay=Informative&HideBreadcrumbs=False&HideSearchBox=False&HideLeftSideBar=False&ShowHelp=False&IsHomePage=False&NoIndex=False&ShowVersionNumber=False
+All ABNs -> https://abr.business.gov.au/Search/ResultsAll?SearchText=compliance%20commons&AllNames=False&EntityName=False&BusinessName=False&NarrowSearch=False&SearchType=AllAbns&AllStates=True&ACT=False&NSW=False&NT=False&QLD=False&TAS=False&SA=False&VIC=False&WA=False&PostcodeDisplay=Informative&HideBreadcrumbs=False&HideSearchBox=False&HideLeftSideBar=False&ShowHelp=False&IsHomePage=False&NoIndex=False&ShowVersionNumber=False
+All ABNs -> https://abr.business.gov.au/Search/ResultsAll?SearchText=compliance%20commons&AllNames=False&EntityName=False&BusinessName=False&NarrowSearch=False&SearchType=ActiveAbns&AllStates=True&ACT=False&NSW=False&NT=False&QLD=False&TAS=False&SA=False&VIC=False&WA=False&PostcodeDisplay=Informative&PostcodeDisplayName=Postcode%20(required%20for%20DGR%20%26%20Charity%20search%20options%20if%20Name%20is%20blank)%3A&HideBreadcrumbs=False&HideSearchBox=False&HideLeftSideBar=False&ShowHelp=False&IsHomePage=False&NoIndex=False&ShowVersionNumber=False
+refine your search -> https://abr.business.gov.au/Search/AdvancedWithParams?SearchText=compliance%20commons&AllNames=False&EntityName=False&BusinessName=False&NarrowSearch=False&SearchType=ActiveAbns&AllStates=True&ACT=False&NSW=False&NT=False&QLD=False&TAS=False&SA=False&VIC=False&WA=False&PostcodeDisplay=Informative&PostcodeDisplayName=Postcode%20(required%20for%20DGR%20%26%20Charity%20search%20options%20if%20Name%20is%20blank)%3A&HideBreadcrumbs=False&HideSearchBox=False&HideLeftSideBar=False&ShowHelp=False&IsHomePage=False&NoIndex=False&ShowVersionNumber=False
+11 165 114 643 -> https://abr.business.gov.au/ABN/View?abn=11165114643
+70 636 976 077 -> https://abr.business.gov.au/ABN/View?abn=70636976077
+47 158 704 977 -> https://abr.business.gov.au/ABN/View?abn=47158704977
+54 637 201 088 -> https://abr.business.gov.au/ABN/View?abn=54637201088
+95 693 630 376 -> https://abr.business.gov.au/ABN/View?abn=95693630376
+64 685 052 715 -> https://abr.business.gov.au/ABN/View?abn=64685052715
+84 711 363 322 -> https://abr.business.gov.au/ABN/View?abn=84711363322
+82 425 662 618 -> https://abr.business.gov.au/ABN/View?abn=82425662618
+46 670 831 464 -> https://abr.business.gov.au/ABN/View?abn=46670831464
+44 636 901 365 -> https://abr.business.gov.au/ABN/View?abn=44636901365
+About us -> https://abr.business.gov.au/Home/About
+Contact us -> https://abr.business.gov.au/ContactUs
+Privacy policies -> https://abr.business.gov.au/Home/PrivacyPolicies
+Disclaimer -> https://abr.business.gov.au/Home/Disclaimer
+Other languages -> https://abr.business.gov.au/Home/OtherLanguages
+Site map -> https://abr.business.gov.au/Home/SiteMap
