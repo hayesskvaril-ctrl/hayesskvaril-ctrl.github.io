@@ -1,6 +1,6 @@
-SOURCE: https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/
+SOURCE: https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/
 FINAL URL: https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees
-FETCHED: 2026-10-08
+FETCHED: 2026-10-23
 
 
 
@@ -411,7 +411,7 @@ It gives guidance on your obligation to report to ASIC certain breaches of the l
 
 Download
 
-Download RG 78 (PDF 917 KB)
+Download RG 78 (PDF 1.1 MB)
 
 Did you find the information on this page helpful?
 
@@ -556,7 +556,7 @@ Search Business Names Register -> https://connectonline.asic.gov.au/RegistrySear
 ASIC Professional Registers Search -> https://service.asic.gov.au/search/
 Search ASIC registers -> https://www.asic.gov.au/online-services/search-asic-registers/
 Find a document -> https://www.asic.gov.au/regulatory-resources/find-a-document
-Download RG 78 (PDF 917 KB) -> https://download.asic.gov.au/media/2wxlpkr0/rg78-published-19-december-2023-20260216.pdf
+Download RG 78 (PDF 1.1 MB) -> https://download.asic.gov.au/media/rcflopko/rg78-published-19-december-2023-20261021.pdf
 About ASIC -> https://www.asic.gov.au/about-asic/what-we-do/our-role/
 What we do -> https://www.asic.gov.au/about-asic/what-we-do/our-role/
 Investigation and enforcement -> https://www.asic.gov.au/about-asic/asic-investigations-and-enforcement/

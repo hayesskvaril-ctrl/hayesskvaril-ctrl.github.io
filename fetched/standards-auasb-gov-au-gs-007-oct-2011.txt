@@ -1,0 +1,1392 @@
+SOURCE: https://standards.auasb.gov.au/gs-007-oct-2011
+FINAL URL: https://standards.auasb.gov.au/gs-007-oct-2011
+FETCHED: 2026-10-23
+
+
+
+GS 007 October 2011 | AUASB Local
+
+Skip to main content
+
+Top Navigation
+
+Return to AUASB.gov.au
+
+Latest news
+
+Visit the Archive
+
+Main navigation
+
+Search
+
+Menu
+
+Recently issued standards
+
+Auditing Standards
+
+Sustainability Assurance
+
+Review Engagements
+
+Assurance Engagements
+
+Related Services
+
+Guidance Statements
+
+Recently issued standards
+
+Auditing Standards
+
+Sustainability Assurance
+
+Review Engagements
+
+Assurance Engagements
+
+Related Services
+
+Guidance Statements
+
+Home
+
+Guidance Statements
+
+GS 007 October 2011
+
+GS 007
+
+Guidance Statements
+GS 007
+
+Audit Implications of the Use of Service Organisations for Investment Management Services
+
+Download PDF
+
+Approval Date:
+25 October 2011
+
+Operative Date
+This
+Guidance Statements
+is operative for financial reporting periods
+beginning on or after 1 October 2011
+
+Download PDF
+
+Approval Date:
+25 October 2011
+
+SHOW
+Text settings
+Table of Contents
+
+Application
+Issuance Date
+Introduction
+Types of Reports
+Services Relevant to this Guidance Statement
+A Guidance for the User Auditor
+B Guidance for the Service Auditor
+Conformity with International Pronouncements
+
+Text settings
+HIDE
+
+Table of Contents
+Font size
+
+Small
+
+Normal
+
+Large
+
+Document Font
+
+Montserrat
+
+This is a preview of what a sentence will look like with this font selected.
+
+Lato
+
+This is a preview of what a sentence will look like with this font selected.
+
+Times New Roman
+
+This is a preview of what a sentence will look like with this font selected.
+
+Table of Contents
+
+AUTHORITY STATEMENT
+
+Application
+
+Issuance Date
+
+Introduction
+
+Types of Reports
+
+Services Relevant to this Guidance Statement
+
+A Guidance for the User Auditor
+
+Using a Type 1 or Type 2 Report on Controls
+21 - 30
+
+Using a Service Auditor’s Report on Financial Information
+31 - 38
+
+Materiality for Service Auditor’s Reports on Financial Information
+39 - 40
+
+Communicating with the Service Auditor
+41 - 44
+
+Communicating With Those Charged With Governance of the User Entity
+45 - 48
+
+Reporting by the User Auditor
+49 - 50
+
+B Guidance for the Service Auditor
+
+Types of Engagements
+51
+
+Engagements to Report on Controls
+52_head
+
+Nature of Engagement
+52
+
+Acceptance and Continuance of Engagements to Report on Controls
+53 - 54
+
+Ethical Requirements
+55 - 61
+
+Assessing the Suitability of the Criteria
+62 - 64
+
+Obtaining an Understanding of the Service Organisation’s System
+65
+
+Conducting the Assurance Engagement to Report on Controls
+66 - 67
+
+The Service Auditor’s Assurance Report
+68 - 72
+
+Engagements to Report on Financial Information
+73_head
+
+Nature of Engagements
+73 - 75
+
+Acceptance and Continuance of Audit Engagements to Report on Financial Information
+76 - 78
+
+Ethical Requirements
+79 - 83
+
+Materiality to be Applied by the Service Auditor
+84 - 85
+
+The Service Auditor’s Report on Financial Information
+86
+
+Information Excluded from the Service Auditor’s Report
+87
+
+Reporting of Matters of Governance Interest Arising in an Audit Engagement on Financial Information
+88 - 90
+
+Conformity with International Pronouncements
+
+This Guidance Statement has been formulated by the Auditing and Assurance Standards Board (AUASB) to provide guidance to auditors (user auditors) of a financial report of an entity (user entity) which uses a third party service organisation to provide investment management services and auditors (service auditors) of those service organisations, who provide reports on controls or financial information which may be used as audit evidence in the audit of the user entity’s financial report.
+
+Jump to a specific paragraph
+
+Open All Sections
+
+Table of Contents
+Settings
+
+Preamble
+
+Includes:
+Authority Statement
+
+Authority Statement
+
+The Auditing and Assurance Standards Board (AUASB) formulates Guidance Statement GS REF DocNo \* charformat 007 REF DocTitle \* charformat Audit Implications of the Use of Service Organisations for Investment Management Services , pursuant to section 227B of the Australian Securities and Investments Commission Act 2001 for the purposes of providing guidance on auditing and assurance matters.
+
+This Guidance Statement provides guidance to assist the auditor to fulfil the objectives of the audit or assurance engagement. It includes explanatory material on specific matters for the purposes of understanding and complying with AUASB Standards. The auditor exercises professional judgement when using this Guidance Statement.
+
+The Guidance Statement does not prescribe or create new requirements.
+
+Application
+
+1
+
+This Guidance Statement has been formulated by the Auditing and Assurance Standards Board (AUASB) to provide guidance to:
+
+auditors (user auditors) of a financial report of an entity (user entity) which uses a third party service organisation to provide investment management services; and
+
+auditors (service auditors) of those service organisations, who provide reports on controls or financial information which may be used as audit evidence in the audit of the user entity’s financial report.
+
+Issuance Date
+
+2
+
+This Guidance Statement is issued on 25 October 2011 by the AUASB and replaces Guidance Statement GS 007 Audit Implications of the Use of Service Organisations for Investment Management Services , issued in March 2008. It is operative for reporting periods commencing on or after 1 January 2012.
+
+Introduction
+
+3
+
+This Guidance Statement provides guidance to:
+
+user auditors in applying Auditing Standard ASA 402 Audit Considerations Relating to an Entity Using a Service Organisation , when using reports on controls at a service organisation, and other Australian Auditing Standards, when using service auditor’s reports on financial information as audit evidence relating to investment management services provided by the service organisation; and
+
+service auditors in applying Standard on Assurance Engagements ASAE 3402 Assurance Reports on Controls at a Service Organisation , when engaged to report on controls, and other Australian Auditing Standards, when engaged to report on financial information, relating to components of user entities for which investment management services are provided by the service organisation.
+
+4
+
+Part A of this Guidance Statement ( paragraphs 20-50 ) provides guidance to user auditors but is to be read in conjunction with, and is not a substitute for referring to the requirements and application material contained in, ASA 402 , when using a service auditor’s report on controls, or Australian Auditing Standards, when using a service auditor’s report on financial information. This Guidance Statement is applicable to user auditors when:
+
+the services provided are part of the user entity’s information system, including related business processes, relevant to financial reporting; [1]
+
+audit evidence required by the user auditor regarding internal controls and/or assertions is located at the service organisation; and
+
+reports on controls at the service organisation and/or a service auditor’s report on specified assertions or a financial statement of the user entity’s balances or transactions relating to the services provided by the service organisation are available.
+
+5
+
+Part B of this Guidance Statement ( paragraphs 51-90 ) provides guidance to the service auditor but is to be read in conjunction with, and is not a substitute for referring to the requirements and application material contained in ASAE 3402 , when reporting on controls, and Auditing Standard ASA 805, [2] when reporting on financial information.
+
+6
+
+ASA 402 does not apply to services provided by financial institutions which are limited to processing of transactions that are specifically authorised by the user entity. [3] Therefore reports prepared under ASAE 3402 are not usually necessary for banks processing clients’ account transactions or brokers processing clients’ securities transactions. Nor does ASA 402 apply to transactions relating to financial interests in other entities when those interests are accounted for and reported to interest holders. Therefore, reports under ASAE 3402 are not generally necessary for unitised funds or other investments of an entity for which prices are publicly available. However, unitised funds or other investments may use service organisations to provide investment management services, in which case it is appropriate for the service organisation to provide a type 1 or 2 report. Unitised funds and unit pricing of those funds are addressed in the control objectives within this Guidance Statement only in the context of service organisations which provide investment management services to unitised funds.
+
+1
+
+See ASA 402, paragraph 3 .
+
+2
+
+See ASA 805 Special Considerations—Audits of Single Financial Statements and Specific Elements, Accounts or Items of a Financial Statement .
+
+3
+
+See ASA 402, paragraph 5 .
+
+Types of Reports
+
+7
+
+This Guidance Statement provides guidance for the preparation and use as audit evidence of the following reports:
+
+Reports on the description and design of controls at a service organisation (type 1 report) or description, design and operating effectiveness of controls at a service organisation (type 2 report), relating to the service organisation’s system over the investment management services provided to user entities, prepared in accordance with ASAE 3402 .
+
+Service auditor’s reports on financial information, prepared in accordance with ASA 805 , [4] comprising either:
+
+a service auditor’s report on specified assertions regarding balances or transactions of the user entity reported in a financial statement by the service organisation, which provides investment management services, (“service auditor’s report on specified assertions”); or
+
+a service auditor’s report on a financial statement of the user entity’s balances or transactions (“statement”) reported by the service organisation which provides investment management services (“service auditor’s report on a statement”).
+
+8
+
+Type 1 and 2 reports on controls comprise: [5]
+
+A service organisation’s description of its investment management services system, including identification of:
+
+the services covered;
+
+the date or period to which the description relates;
+
+control objectives, including the control objectives listed in Appendix 3 of this Guidance Statement, for the relevant investment management services provided; and
+
+related controls.
+
+A written assertion by the service organisation that, in all material respects, and based on suitable criteria:
+
+the description fairly presents the service organisation’s system as designed and implemented;
+
+the controls related to the control objectives stated in the service organisation’s description of its system were suitably designed as at the specified date, for a type 1 report, or throughout the period, for a type 2 report; and
+
+for a type 2 report, the controls operated effectively throughout the specified period.
+
+A service auditor’s assurance report that conveys reasonable assurance about the service organisation’s assertions, including for type 2 reports, a description of the tests of controls and the results thereof.
+
+9
+
+The use of a type 1 report by a user auditor is limited to understanding the entity in accordance with Auditing Standard ASA 315, [6] whereas a type 2 report may also be used by a user auditor in responding to assessed risks in accordance with Auditing Standard ASA 330. [7]
+
+10
+
+Other reports may be required by the user entity as set out in the contract and/or service level agreement for purposes such as monitoring the performance of the service organisation, however the reports covered by this Guidance Statement are limited to those that may be used by user auditors as audit evidence for the audit of the user entity’s financial report.
+
+11
+
+The following table, entitled Table 1: Service Auditor’s Reports , outlines the context in which each of these reports is prepared and used as audit evidence. Table 1 lists the reports included in this Guidance Statement, the subject matter covered by each report, the circumstances for which each report may be useful to user auditors, standards relevant to the preparation and use of each report and references to appendices containing examples of each report and related engagement letters.
+
+12
+
+The guidance in this Guidance Statement is based on engagements to provide an opinion based on reasonable assurance, with respect to controls or financial information. It does not apply to an engagement to provide a review conclusion on controls based on limited assurance, however, it may be adapted, as necessary in the circumstances, to an engagement to provide limited assurance on specified assertions or a Statement. A review conclusion from the service auditor may be appropriate where the user auditor is engaged to perform a review of the user entity’s financial report. The service auditor exercises professional judgement in applying this Guidance Statement to a review and, when reporting on specified assertions or a Statement, complies with the requirements of relevant standards on review engagements.
+
+Table 1: Service Auditor’s Reports
+
+Type of Report
+
+Subject Matter Covered by Report
+
+Circumstances for Which Report is Used by User Auditors
+
+Relevant Standards
+
+Appendix Reference for Examples
+
+Reports on controls
+
+1. Type 1 report [8]
+
+Description and design of controls at the service organisation.
+
+Planning: Obtaining an understanding of the user entity and its environment, including controls over services provided by the service organisation, in order to assess the risk of material misstatement and design further audit procedures. This report cannot be relied on to reduce substantive procedures.
+
+User Auditor: ASA 402 and ASA 315
+
+Service Auditor: ASAE 3402
+
+Engagement letter and service auditor’s type 1 report: No example provided as this report is not likely to meet the needs of all user auditors.
+
+2. Type 2 report [9]
+
+Description, design, and operating effectiveness of controls at the service organisation.
+
+Planning: Obtaining an understanding of the user entity and its environment: as for type 1 reports.
+
+Responding to the assessed risks of material misstatement when evidence is required of the operating effectiveness of controls over the services provided at the service organisation
+
+User Auditor: ASA 402 and ASA 330
+
+Service Auditor: ASAE 3402
+
+Engagement letter: Appendix 1 Example 1.
+
+Service Organisation’s assertion and description of its system: Appendix 2.
+
+Minimum Control Objectives: Appendix 3.
+
+Service auditor’s type 2 report: Appendices 4 and 5.
+
+Reports on financial information
+
+3. Service auditor’s report on specified assertions [10]
+
+Service auditor’s report on specified assertions
+
+Service auditor’s report on specified assertions
+
+Service auditor’s report on specified assertions
+
+Service auditor’s report on specified assertions
+
+4. Service auditor’s report on a Statement [11]
+
+Service auditor’s report on a Statement
+
+Service auditor’s report on a Statement
+
+Service auditor’s report on a Statement
+
+Service auditor’s report on a Statement
+
+13
+
+The user auditor may request the user entity to obtain from the service auditor, or directly engage the service auditor to provide, a report on agreed-upon procedures. Agreed-upon procedures engagements may be appropriate in certain circumstances to provide evidence that the user auditor requires, for example when:
+
+A type 2 report is provided, however the user auditor requires more evidence with respect to controls over a specified area, such as unit pricing.
+
+Provision of a service auditor report on controls is not agreed in the service level agreement or contract, but the user auditor nevertheless requires selected controls to be tested at the service organisation.
+
+A service auditor’s report on specified assertions is provided for assets under the custody of a custodian, but does not address assets outside the custody of the custodian for which the custodian provides investment administration services. Additional agreed-upon procedures are performed to assist the user auditor to obtain evidence on the existence or valuation of the assets outside the custody of the custodian.
+
+A service auditor’s report on specified assertions is provided as described in this Guidance Statement, however further audit procedures are required by the user auditor in obtaining sufficient appropriate audit evidence with respect to particular assertions. For example, with respect to the assertion of valuation, agreement of valuation input variables to source data may be required by the user auditor.
+
+Such engagements are conducted under Standards on Related Services [12] and no further guidance on agreed-upon procedures engagements is provided in this Guidance Statement.
+
+4
+
+ASA 800 Special Considerations—Audits of Financial Reports Prepared in Accordance with Special Purpose Frameworks is also applicable if the financial information is a financial report or complete set of financial statements prepared in accordance with a special purpose framework.
+
+5
+
+See ASAE 3402, paragraph 9 .
+
+6
+
+See ASA 315 Identifying and Assessing the Risks of Material Misstatement through Understanding the Entity and Its Environment .
+
+7
+
+See ASA 330 The Auditor's Responses to Assessed Risks .
+
+8
+
+See paragraph 8 of this Guidance Statement.
+
+9
+
+See paragraph 8 of this Guidance Statement.
+
+10
+
+See paragraph 7(b)(i) of this Guidance Statement.
+
+11
+
+See paragraph 7(b)(ii) of this Guidance Statement.
+
+12
+
+See ASRS 4400 Agreed-upon Procedures Engagements to Report Factual Findings .
+
+Services Relevant to this Guidance Statement
+
+14
+
+This Guidance Statement has been developed specifically for circumstances where service organisations provide investment management services to user entities, where those services and the controls over them, are part of the user entity’s information system, including business processes, relevant to financial reporting, [13] and as a result are relevant to the audit of a user entity’s financial report. The Investment Management Services addressed in this Guidance Statement are:
+
+Custody.
+
+Asset Management.
+
+Property Management.
+
+Superannuation Member Administration.
+
+Investment Administration.
+
+Registry.
+
+Each of these services is defined in Appendix 3.
+
+15
+
+Controls over the calculation of unit pricing are not included as part of the services addressed in this Guidance Statement as reliance can generally be placed on the publicly available unit price, where appropriate, with additional procedures to assess the bona fides of the fund such as sighting audited financial statements of the fund, for the assertion of valuation for investments in unitised funds. If user auditors require assurance over unit pricing, for governance or compliance purposes, they may request that control objectives and controls for unit pricing are included in the service organisation’s description of the system and audited by the service auditor.
+
+16
+
+Operators of investor directed portfolio services (IDPS) [14] and investor directed portfolio-like services are required by ASIC Class Order 02/294 [15] and Class Order 02/296 [16] to obtain an auditor’s report providing:
+
+an opinion on the internal controls and other relevant accounting procedures as they relate to the specific annual investor statements; and
+
+a review conclusion on the annual investor statements, quarterly reports in certain circumstances and information accessible to clients electronically.
+
+These class orders provide requirements for the form and content of the report in these circumstances. Reports provided under these class orders may provide sufficient appropriate audit evidence for a user auditor. If additional evidence is required by the user auditor, a service auditor’s report on controls or on financial information may be requested. IDPS or IDPS-like services generally include custody and investment administration, consequently, if a type 1 or 2 report is provided, the user auditor can reasonably expect the operator (service organisation) and service auditor to report on the control objectives for the relevant services provided in this Guidance Statement.
+
+17
+
+Types of service organisations which provide some or all of the investment management services addressed in this Guidance Statement include:
+
+Custodians.
+
+Third Party Administrators.
+
+Investment Managers.
+
+Registrars.
+
+Trust Departments of Financial Institutions.
+
+Prime Brokers.
+
+18
+
+The responsible parties which typically engage the services of these service organisations on behalf of user entities, include but are not limited to:
+
+Trustees of Superannuation Funds.
+
+Responsible Entities for Registered Managed Investment Schemes.
+
+Trustees of Unregistered Unit Trusts.
+
+Boards of Insurance Companies.
+
+19
+
+The responsibilities of the responsible party of a user entity are set out in the relevant laws and regulations governing their role and the particular services they oversee.
+
+13
+
+The circumstances under which a service organisation’s services are part of a user entity’s information system, including business processes, relevant to financial reporting, are provided in ASA 402, paragraph 3 .
+
+14
+
+“IDPS” means an investor directed portfolio service, consisting of a number of functions including a custody, settlement and reporting system and service. The clients of the service have the sole discretion to decide what assets will be acquired or disposed of. The service is provided in such a way that clients are led to expect, and are likely to receive, benefits in the form of access to investments that the client could not otherwise access directly or cost reductions by using assets contributed by the client or derived directly or indirectly from assets contributed by the client with assets contributed by other clients or derived directly or indirectly from assets contributed by other clients.
+
+15
+
+See ASIC Class Order 02/294 Investor Directed Portfolio Services .
+
+16
+
+See ASIC Class Order 02/296 Investor Directed Portfolio-like Services Provided Through a Registered Managed Investment Scheme .
+
+A Guidance for the User Auditor
+
+Includes:
+Using a Type 1 or Type 2 Report on Controls | Using a Service Auditor’s Report on Financial Information | Materiality for Service Auditor’s Reports on Financial Information | Communicating with the Service Auditor | Communicating With Those Charged With Governance of the User Entity | Reporting by the User Auditor
+
+20
+
+The use of a service organisation for the provision of investment management services by a user entity does not alter the overall objective of the audit of the user entity’s financial report, therefore it remains the responsibility of the user auditor to obtain sufficient appropriate audit evidence to support the auditor’s opinion. The requirements of the Auditing Standards relating to obtaining sufficient appropriate evidence on which to form an opinion are the same as would apply if the records and supporting documentation were maintained by the user entity.
+
+Using a Type 1 or Type 2 Report on Controls
+
+21
+
+ASA 402 provides requirements for the user auditor in obtaining an understanding of the user entity and its environment when the user entity uses the services of a service organisation and states that a type 1 or 2 report may be used to obtain that understanding, if the user auditor is unable to obtain a sufficient understanding from the user entity. The user auditor is required to determine whether the type 1 or 2 report provides sufficient appropriate audit evidence to support the user auditor’s understanding of the design and implementation of controls at the service organisation. [17]
+
+17
+
+See ASA 402, paragraphs 9-14 .
+
+22
+
+A type 1 report cannot be relied upon to reduce the level of substantive procedures conducted by the user auditor, as it does not provide any evidence of the operating effectiveness of the controls reported upon. Consequently, the usefulness of a type 1 report to a user auditor is limited to planning the audit, assessing the risk of material misstatement and designing further audit procedures.
+
+23
+
+When the user auditor’s risk assessment includes an expectation that controls at the service organisation are operating effectively, ASA 402 requires the user auditor to obtain evidence about the operating effectiveness of those controls, which may be obtained from a type 2 report. [18] Type 2 reports are prepared for the purposes of multiple user entities, not specifically for the purposes of any individual user auditor, so the user auditor is required to determine the sufficiency and appropriateness of the audit evidence provided by that report in accordance with ASA 402. [19]
+
+18
+
+See ASA 402, paragraph 16 .
+
+19
+
+See ASA 402, paragraph 17 .
+
+24
+
+Whilst the user auditor makes their own assessment of the relevance of the service auditor’s tests of controls to the assertions in the user entity’s financial report, when investment management services are provided, the user auditor can reasonably expect:
+
+each of the control objectives specified in this Guidance Statement [20] for the relevant investment management service/s to be addressed in the service organisation’s description of its system and assertion;
+
+the related controls identified to be reported on by the service auditor; and
+
+adequate justification to be provided by the service organisation for any control objectives for which no related controls are identified.
+
+20
+
+See Appendix 3 of this Guidance Statement.
+
+25
+
+When the service organisation reports against the minimum control objectives provided in this Guidance Statement it assists the user auditor to:
+
+Compare directly the controls in place at different service organisations providing the same investment management services.
+
+Collate the results of the controls tested where multiple service organisations are used to provide the same service.
+
+Identify omissions in the user entity’s description of the system or gaps in the system of control over the relevant investment management services.
+
+26
+
+If the controls report is prepared by a service auditor practicing in another jurisdiction, the report may not address the minimum control objectives in this Guidance Statement for the investment management services provided. Nevertheless, the report may still provide useful audit evidence. In assessing the sufficiency and appropriateness of the evidence that the controls report provides, in addition to consideration of the matters required in ASA 402 , [21] the user auditor may use the minimum control objectives as a means of assessing the suitability of the control objectives used as criteria in the controls report provided.
+
+21
+
+See ASA 402, paragraphs 13 and A21 .
+
+27
+
+When assessing the sufficiency and appropriateness of the evidence provided by a type 2 report, ASA 402 [22] requires the user auditor to evaluate the adequacy of the time period covered and the time elapsed since performance of the tests of controls. Whilst the longer the time elapsed since the performance of the tests, the less evidence the test may provide, it is necessary for the type 2 report to be available with sufficient time for the user auditor to use the evidence it contains prior to completion of the user entity’s audit. It may be necessary for the user auditor to conduct further procedures in response to a modified opinion or deviations reported in the results of the tests performed. Consequently, a type 2 report issued for a time period ending prior to the user entity’s period end may be more useful for the user auditor, even if the user auditor needs to obtain additional evidence about the operation of controls in the intervening period.
+
+22
+
+See ASA 402, paragraphs 17(c) and A32 .
+
+28
+
+When the service organisation has used a subservice organisation in providing investment management services to the user entity and those services are excluded from the type 1 or 2 report, ASA 402 requires, if those services are relevant to the audit of the user entity, the user auditor to apply the requirements of ASA 402 with respect to the services of the subservice organisation. [23]
+
+23
+
+See ASA 402, paragraph 18 .
+
+29
+
+If a type 2 report provides the user auditor with sufficient appropriate audit evidence as to the reliability of controls over the investment management services provided by the service organisation to the user entity, it will enable the user auditor to reduce the extent of substantive testing that might otherwise have been necessary with respect to the balances or transactions subject to those services.
+
+30
+
+A type 2 report is not necessary, if the user auditor concludes that the risk of material misstatement will not be affected by the controls at the service organisation or that it is more appropriate to gather the evidence required by alternative procedures. These alternative procedures may include obtaining a service auditor’s report on financial information.
+
+Using a Service Auditor’s Report on Financial Information
+
+31
+
+In responding to the assessed risks of material misstatement, if sufficient appropriate audit evidence is not available from records held at the user entity, ASA 402 requires the user auditor to perform further audit procedures or use another auditor to perform those procedures at the service organisation. [24] Whilst the user auditor may be able to rely on a type 2 report as audit evidence of the operating effectiveness of controls to mitigate identified risks of material misstatement, a type 2 report alone cannot provide sufficient appropriate audit evidence with respect to material balances or classes of transactions of the user entity. ASA 330 requires the user auditor to design and perform substantive procedures for each material class of transactions, account balance and disclosure.
+
+24
+
+See ASA 402, paragraph 15 .
+
+32
+
+Service organisations which provide investment management services may provide the user entity with a single financial statement regarding financial information of the user entity (“Statement”) periodically in accordance with either a general purpose framework or special purpose framework. [25] Examples of a Statement include: a portfolio valuation report, a financial report or a component of a financial report. The requirements of the applicable financial reporting framework determine the form and content of the Statement. An unaudited Statement is an unverified source of evidence, which is a representation not independent from the user entity. If the financial report of the user entity has been prepared using unaudited financial information obtained from the service organisation, such information may not constitute sufficient appropriate audit evidence on which the user auditor could form an opinion.
+
+25
+
+See ASA 700 Forming an Opinion and Reporting on a Financial Report for the definition of general purpose framework and ASA 800 for the definition of special purpose framework.
+
+33
+
+The user auditor’s procedures at the user entity with respect to the balances and transactions relating to the services provided by the service organisation are usually limited to:
+
+A review of the contract or service level agreement between the user entity and the service organisation so as to understand the rights and obligations of each party.
+
+A review and evaluation of the monitoring controls exercised by the user entity over the service organisation.
+
+A review of representations given by the service organisation concerning the user entity’s balances or transactions.
+
+Verification of the receipt of income from the service organisation (if not re-invested).
+
+Analytical procedures on the financial information supplied by the service organisation.
+
+A review of the most recent audited financial report of the service organisation.
+
+These procedures alone, or even in combination with a type 1 or 2 report on controls over the relevant investment management services, may not generate sufficient appropriate audit evidence.
+
+34
+
+The user auditor exercises professional judgement to determine whether the results of procedures conducted at the user entity as described in paragraph 33 of this Guidance Statement, considered alone or in combination with a type 1 or 2 report, provide sufficient appropriate evidence on which to form an audit opinion. If the user auditor requires further audit evidence, which the user auditor believes to be held at the service organisation, the user auditor either:
+
+obtains a service auditor’s report on financial information; or
+
+gains access to the records and other information relating to the user entity in the possession of the service organisation.
+
+35
+
+Individual circumstances determine whether a service auditor’s report on financial information is the more effective or efficient method of obtaining the audit evidence required by the user auditor. If the user auditor is able to specify whether the service auditor prepares a service auditor’s report on specified assertions or on a Statement, the user auditor must exercise professional judgement to make this determination in the particular circumstances of the engagement.
+
+36
+
+A service auditor’s report on a Statement, as defined in paragraph 7(b)(ii) of this Guidance Statement, may be the most effective way to obtain sufficient appropriate audit evidence for all assertions regarding the user entity’s balances or transactions contained in the Statement provided by the service organisation. This type of report may also be required by the user auditor if there is a potential or identified significant deficiency in the service organisation’s controls, or there are material errors identified in the service organisation’s reports.
+
+37
+
+The user auditor may be able to obtain sufficient appropriate audit evidence only for certain assertions relating to the user entity’s balances or transactions contained in the Statement from information available from the user entity's records and from audit procedures performed thereon by the user auditor. For the remaining assertions, a service auditor’s report on specified assertions, as defined in paragraph 7(b)(i) of this Guidance Statement, could provide the audit evidence required. This may include any of the assertions identified in ASA 315 , which are:
+
+for classes of transactions and events for the period under audit: occurrence, completeness, accuracy, cut-off and classification;
+
+for account balances at the period end: existence, rights and obligations, completeness, valuation and allocation; and
+
+for presentation and disclosure: occurrence and rights and obligations, completeness, classification and understandability, and accuracy and valuation.
+
+In many circumstances, the use of a service auditor’s report on specified assertions in conjunction with a type 2 report provide the user auditor with sufficient appropriate audit evidence concerning the balances or transactions reported in the Statement.
+
+38
+
+In evaluating the audit evidence provided by a service auditor’s report on financial information, the user auditor considers:
+
+the professional competence of the service auditor in the context of the assignment conducted;
+
+the sufficiency and appropriateness of the evidence, whether on its own or in conjunction with a type 1 or 2 report, provided by the service auditor’s report on financial information regarding the assertions on which evidence is required;
+
+the impact of any modification to the service auditor’s report on financial information on the sufficiency and appropriateness of the evidence provided by the report;
+
+the effect of any uncorrected misstatements reported by the service auditor in an attachment to their report, as described in paragraph 89 of this Guidance Statement; and
+
+the effect of any other matters, including significant deficiencies in internal control, significant findings from the audit, or fraud identified during the audit or reported by the service organisation to the user entity.
+
+Materiality for Service Auditor’s Reports on Financial Information
+
+39
+
+Paragraphs 84 to 85 of this Guidance Statement provide an appropriate basis for the service auditor to determine materiality for auditing specified assertions or a Statement. The user auditor, in determining performance materiality under Auditing Standard ASA 320 [26] for the classes of transactions, account balances or disclosures affected by the services of the service organisation, may determine that the performance materiality level which would be determined by the service auditor in applying this Guidance Statement is not suitable for the purposes of the audit of the user entity’s financial report. In these circumstances, the user auditor may request that an alternative benchmark and/or percentage is used by the service auditor to determine performance materiality. The manner in which such a request is ordinarily communicated is discussed in paragraphs 42 and 44 of this Guidance Statement.
+
+26
+
+See ASA 320 Materiality in Planning and Performing an Audit .
+
+40
+
+The user auditor makes the user auditor’s own assessment of the materiality of any uncorrected misstatements communicated by the service auditor in the attachment, if any, to the service auditor’s report on financial information, as described in paragraph 89 of this Guidance Statement.
+
+Communicating with the Service Auditor
+
+41
+
+ASA 402 requires the user auditor to obtain an understanding of the nature of the relationship between the user entity and the service organisation, including the relevant contractual terms for the activities undertaken by the service organisation. The contract or service level agreement may specify whether: [27]
+
+a type 1 or 2 report on controls will be provided;
+
+the user auditor will have access to the accounting records of the user entity maintained by the service organisation and other information relevant to the audit; and
+
+the agreement allows for direct communication between the user auditor and service auditor.
+
+27
+
+See ASA 402, paragraphs 9(d) and A8 .
+
+42
+
+If there is no direct relationship between the user auditor and the service auditor, communication is conducted through the user entity and service organisation. This is often the case when using a report on controls as there may be multiple user entities for which the report is provided. In considering the reliability of the information to be used as audit evidence, [28] if a report on controls is provided indirectly through the user entity and service organisation, the user auditor remains alert to fraud risk factors in the context of establishing the report’s authenticity.
+
+28
+
+See ASA 500 Audit Evidence .
+
+43
+
+The user auditor may engage the service auditor directly, subject to relevant ethical and confidentiality considerations, to provide a report on financial information of the user entity maintained by the service organisation. [29]
+
+29
+
+See ASA 402, paragraph A9 .
+
+44
+
+The user auditor’s engagement letter may provide for the user entity to obtain from the service organisation, where possible, a type 1 or 2 report, a service auditor’s report on financial information or agreement to direct communication between the user auditor and the service auditor.
+
+Communicating With Those Charged With Governance of the User Entity
+
+45
+
+The user auditor is required under the Australian Auditing Standards to communicate any of the following matters identified to those charged with governance of the user entity on a timely basis:
+
+significant deficiencies in internal control identified during the audit; [30]
+
+significant findings from the audit; [31]
+
+uncorrected misstatements and the effect they, individually or in aggregate, may have on the opinion in the auditor’s report; [32] and
+
+fraud, identified or suspected, involving management, employees who have significant roles in internal control or others where the fraud results in a material misstatement, as well as any other matters related to fraud that are relevant to their responsibilities. [33]
+
+30
+
+See ASA 265 Communicating Deficiencies in Internal Control to Those Charged with Governance and Management .
+
+31
+
+See ASA 260 Communication with Those Charged with Governance .
+
+32
+
+See ASA 450 Evaluation of Misstatements Identified during the Audit .
+
+33
+
+See ASA 240 The Auditor’s Responsibilities Relating to Fraud in an Audit of a Financial Report .
+
+46
+
+In determining whether there are any matters which the user auditor needs to report to those charged with governance of the user entity, as outlined in paragraph 45 of this Guidance Statement, with respect to the investment management services provided by the service organisation, the user auditor’s procedures may include:
+
+A review of documentation and correspondence at the user entity regarding oversight and monitoring of the performance of the contract and/or service level agreement by the service organisation.
+
+Enquiries of those charged with governance, management or others within the user entity regarding whether any matters reported to those charged with governance of the service organisation, which may affect one or more user entities, have been reported by the service organisation to the user entity.
+
+Identification of any deviations reported by the service auditor in the type 1 or 2 report and evaluation of whether those deviations represent significant deficiencies in the user entity’s internal control.
+
+Enquiries regarding the reasons for any modification to the service auditor’s type 1 or 2 report or report on financial information.
+
+Identification of any uncorrected misstatements reported by the service auditor, in an attachment to the service auditor’s report on financial information as described in paragraph 89 of this Guidance Statement.
+
+47
+
+If a type 1 or 2 controls report is available, ASA 402 requires the user auditor to enquire of management of the user entity whether the service organisation has reported to the user entity, or the user entity is aware of, any fraud, non-compliance with laws and regulations or uncorrected misstatements affecting the financial report of the user entity. These matters of governance interest may be communicated to the user entity by the service organisation, otherwise the service auditor is required to take appropriate action, which may include communication of such matters directly to the user entity. The service auditor may become aware of such matters as a result of the written representations which it is required to obtain from the service organisation. In addition, a service organisation may be required under the contract or service level agreement with the user entity to disclose matters, including those listed in paragraph 45 of this Guidance Statement, that may affect the user entity. The user auditor evaluates the effect of any matters reported on the nature, timing and extent of further audit procedures. [34]
+
+34
+
+See ASA 402, paragraphs 19 and A41 , and ASAE 3402, paragraphs 38 and 56 .
+
+48
+
+Where the user auditor does not have sufficient information regarding the matters of governance interest to fulfil the user auditor’s responsibility, as outlined in paragraph 45 of this Guidance Statement, the user auditor may request further information to be provided. Whilst this information may be provided by the service auditor, the request is ordinarily made through the user entity.
+
+Reporting by the User Auditor
+
+49
+
+If the user auditor concludes that the user entity’s financial report contains material misstatements with respect to the services provided by the service organisation or that the user auditor is unable to obtain sufficient appropriate audit evidence regarding the services provided by the service organisation relevant to the audit to form an opinion, Auditing Standard ASA 705 requires the user auditor to modify their opinion on the user entity’s financial report. [35]
+
+35
+
+See ASA 705 Modifications to the Opinion in the Independent Auditor’s Report and ASA 402, paragraph 20 .
+
+50
+
+In accordance with ASA 402 , [36] when using a type 1 or 2 report on controls, and Auditing Standards ASA 600 and ASA 620, [37] when using a service auditor’s report on financial information, the user auditor does not refer to the work of a service auditor in the user auditor’s report, unless required to do so by law or regulation or if it is relevant to understanding a modification to the user auditor’s opinion.
+
+36
+
+See ASA 402, paragraphs 21 and 22 .
+
+37
+
+See ASA 600 Special Considerations—Audits of a Group Financial report (Including the Work of Component Auditors) and ASA 620 Using the Work of an Auditor’s Expert .
+
+B Guidance for the Service Auditor
+
+Includes:
+Types of Engagements | Engagements to Report on Controls | Nature of Engagement | Acceptance and Continuance of Engagements to Report on Controls | Ethical Requirements | Assessing the Suitability of the Criteria | Obtaining an Understanding of the Service Organisation’s System | Conducting the Assurance Engagement to Report on Controls | The Service Auditor’s Assurance Report | Engagements to Report on Financial Information | Nature of Engagements | Acceptance and Continuance of Audit Engagements to Report on Financial Information | Ethical Requirements | Materiality to be Applied by the Service Auditor | The Service Auditor’s Report on Financial Information | Information Excluded from the Service Auditor’s Report | Reporting of Matters of Governance Interest Arising in an Audit Engagement on Financial Information
+
+Types of Engagements
+
+51
+
+Under a contract, offer document or service level agreement, the service organisation may agree to provide the user entity periodically with a type 1 or 2 report on controls, prepared in accordance with ASAE 3402 , with respect to the services provided to the user entity and/or a Statement, with respect to the user entity’s assets, liabilities or transactions recorded by the service organisation for the period, accompanied by a service auditor’s report on the Statement or specified assertions, issued in accordance with ASA 805 .
+
+Engagements to Report on Controls
+
+Nature of Engagement
+
+52
+
+Service auditor’s engagements to report on controls are assurance engagements, which are defined under the Framework for Assurance Engagements as engagements in which the auditor expresses a conclusion or opinion about the outcome of the evaluation of a subject matter against criteria. The criteria for an engagement to report on a service organisation’s controls, include control objectives. [38] The control objectives collectively reflect the level of control over user entities’ balances or transactions that the user entity could reasonably expect from the service organisation for the purpose of the user entity’s financial reporting. The service organisation’s controls are designed to meet those control objectives. Appendix 3 of this Guidance Statement sets out the control objectives which the user entity can expect to be included in type 1 or 2 reports for each of the relevant investment management services. The service organisation may choose to include additional control objectives in the type 1 or 2 report. Additional control objectives may be included where those objectives are relevant to user entities’ financial reporting or to meet compliance reporting requirements or the terms of the service level agreement, offer document or contract.
+
+38
+
+See ASAE 3402, paragraph 16 .
+
+Acceptance and Continuance of Engagements to Report on Controls
+
+53
+
+When agreeing to accept, or continue, an engagement to report on controls at a service organisation, ASAE 3402 [39] requires the service auditor to assess whether the criteria will be suitable and available to user entities and their auditors. In doing so, the service auditor determines whether the criteria include the control objectives provided in this Guidance Statement for the relevant investment management services and, if any objectives are omitted or amended, whether the service organisation has adequately disclosed and justified that omission or amendment.
+
+39
+
+See ASAE 3402, paragraphs 13-14 for requirements in accepting and continuing an engagement to report on controls at a service organisation.
+
+54
+
+An example of an engagement letter for engagements to report on controls is provided in Appendix 1 Example 1.
+
+Ethical Requirements
+
+55
+
+ASAE 3402 requires the service auditor to comply with relevant ethical requirements including those pertaining to independence, relating to assurance engagements, which does not necessitate the service auditor being independent from each user entity. [40]
+
+40
+
+See ASAE 3402, paragraph 11 .
+
+56
+
+However, threats to independence may arise with respect to user entities where there are only one or few user entities for the services subject to audit. Threats to independence may also arise with respect to subservice organisations where the controls of the subservice organisation are included in the service organisation’s description of its system, under the inclusive method. [41]
+
+41
+
+See ASAE 3402, paragraph 9(g) .
+
+57
+
+Service auditors may also need to consider the manner in which their type 1 or 2 report is used and distributed by the service organisation. Examples of how this matter may be addressed in the engagement letter and in the service auditor’s type 2 report are contained in Appendix 1 Example 1 and Appendix 4 respectively.
+
+58
+
+It is for management, or, where appropriate, those charged with governance, of the service organisation to decide whether to prepare a report on controls and whether to have this report audited by a service auditor. In certain circumstances, the service organisation may, for example, consider it more appropriate to allow access for user entities and user auditors to the service organisation’s records or provide a report on a specific aspect of its operations as it impacts an individual user entity. However, the following guidance is only applicable if the service organisation provides a controls assertion and a description of the system on which the service auditor is engaged to provide an assurance report.
+
+59
+
+The service organisation typically prepares a description of its system to meet the needs of all user entities of a particular investment management service or services. A type 1 or 2 report on the controls at a service organisation covers investment management services provided to user entities which are likely to form part of those user entities’ information systems relevant to financial reporting. Circumstances in which the user auditor may require a type 1 report on design and implementation of controls only are set out in paragraph 22 of this Guidance Statement. The value of a type 1 report to the audit of the user entity is limited, so it is appropriate for the service auditor to prepare a type 1 report only in the first year of reporting on controls, to provide a starting point for future reports, or if none of the user entities require a report on the operating effectiveness of controls. Due to its limited value, an example of this report is not provided in this Guidance Statement.
+
+60
+
+The frequency with which the service organisation provides a report on controls and the time period to be covered may be agreed in the contract and/or service level agreement between the user entity and the service organisation or may be set out in an offer document.
+
+61
+
+An example of a service organisation’s assertion and description of its system is shown in Appendix 2 of this Guidance Statement.
+
+Assessing the Suitability of the Criteria
+
+62
+
+In assessing whether the service organisation has used suitable criteria in preparing the description of the system, evaluating whether controls are suitably designed and, in the case of type 2 reports, in evaluating whether controls are operating effectively, in accordance with ASAE 3402 , [42] the service auditor determines whether the minimum control objectives provided in this Guidance Statement [43] for the relevant investment management service or services are included in the description of the system.
+
+42
+
+See ASAE 3402, paragraphs 15-18 for further requirements in assessing the suitability of the criteria.
+
+43
+
+See Appendix 3 of this Guidance Statement.
+
+63
+
+It is the responsibility of the service organisation to ensure that the control objectives are sufficient to meet the expectations of user entities and that any omissions or amendments to the minimum control objectives are appropriate. A service organisation may therefore consider the need to add further objectives and supporting controls where appropriate. The service auditor evaluates the suitability of any additional control objectives specified by the service organisation, by determining if they meet the characteristics of relevance, completeness, reliability, neutrality and understandability. [44]
+
+44
+
+See ASAE 3000 Assurance Engagements other than Audits or Reviews of Historical Financial Information , on assessing the suitability of criteria.
+
+64
+
+If the service organisation omits or amends a control objective from GS 007 or adds further control objectives, the service auditor can expect those omissions, amendments or additional objectives to be clearly identified in the service organisation’s description of the system. If a control objective is omitted, the service organisation may list that objective and note briefly the reasons for its omission. If a control objective is amended to clarify the intended meaning, such as use of terms appropriate to the service organisation’s circumstances, or the control objective is expanded, the relevant GS 007 control objective may be treated as included. However, if the meaning of the control objective is changed or the scope of the objective reduced by the modifications, then it is appropriate for the service organisation to report the relevant GS 007 objective as omitted and report the modified objective as an additional objective in the description of the system.
+
+Obtaining an Understanding of the Service Organisation’s System
+
+65
+
+ASAE 3402 [45] requires the service auditor to obtain an understanding of the service organisation’s system, including controls that are included in the scope of the engagement. In doing so, the service auditor identifies the boundaries of that system and ensures that the boundary of the investment management services included in the description of the system does not omit aspects of the services provided which are part of user entities’ information system relevant to financial reporting. The description of each investment management service provided in this Guidance Statement is indicative and not definitive. The service organisation may provide multiple investment management services, in which case the service auditor identifies how the services interface.
+
+45
+
+See ASAE 3402, paragraph 20 .
+
+Conducting the Assurance Engagement to Report on Controls
+
+66
+
+The service auditor complies with the requirements of ASAE 3402 when conducting an assurance engagement to report on controls at the service organisation when: [46]
+
+obtaining evidence regarding the description, design and operating effectiveness of controls;
+
+considering the work of an internal audit function;
+
+obtaining written representations from the service organisation;
+
+considering other information;
+
+enquiring and, if necessary, disclosing subsequent events; and
+
+preparing and assembling documentation.
+
+46
+
+See ASAE 3402, paragraphs 21-52 .
+
+67
+
+In obtaining evidence regarding the fair presentation of the description, the service auditor evaluates whether the control objectives are reasonable in the circumstances. In doing so, the service auditor determines whether the control objectives from Appendix 3 of this Guidance Statement for the relevant investment management service/s have been included or, for any objectives which have been omitted or amended, the adequacy of the reasons for their omission or amendment. If there are any unjustified omissions or misstatements with regard to the control objectives, the service auditor asks management, or those charged with governance, to amend the description. If it is not amended, the service auditor considers the reasons, if known, for the omission or misstatement and the effect on the service auditor’s type 1 or 2 report.
+
+The Service Auditor’s Assurance Report
+
+68
+
+[47] The service auditor’s opinion is expressed in a written assurance report on controls attached to the service organisation’s description of its system and assertion.
+
+69
+
+The service auditor’s type 1 or 2 report, includes the basic elements required by ASAE 3402 with specific consideration of matters relevant to investment management services, including:
+
+A statement that the criteria include the minimum control objectives provided in this Guidance Statement for the relevant investment management services; and;
+
+A statement that the service organisation is responsible for:
+
+Providing the investment management services covered by the service organisation’s description of its system; and
+
+Stating the control objectives, including those for the relevant investment management services from this Guidance Statement, and if any minimum control objectives are omitted or amended, providing an explanation of that omission or amendment.
+
+An example of a service auditor’s type 2 assurance report is shown at Appendix 4.
+
+Describing Tests of Operating Effectiveness
+
+70
+
+The service auditor’s type 2 report includes a separate attachment that describes the service auditor’s tests of controls and the results thereof. An explanation of the service auditor’s description of the nature, timing and extent of tests applied to controls is in Appendix 5 of this Guidance Statement.
+
+Modified Opinions
+
+71
+
+When preparing the assurance report, the service auditor is required to modify their opinion in the circumstances set out in ASAE 3402 . If the service auditor concludes that the control objectives for the investment management services are incomplete and the service organisation refuses to amend their report to address those control objectives, the service auditor may modify their opinion if it has a material impact on the fair presentation of the description.
+
+Other Communication Responsibilities
+
+72
+
+ASAE 3402 requires the service auditor to determine whether non-compliance with laws and regulations, fraud, or uncorrected errors which are not clearly trivial, have been communicated to affected user entities and, if not, to take appropriate action.
+
+Engagements to Report on Financial Information
+
+Nature of Engagements
+
+73
+
+If the service auditor is engaged to provide a report on financial information, the service auditor issues a separate auditor’s report in respect of each user entity concerning only that user entity's balances and/or transactions.
+
+74
+
+In performing an engagement to report on specified assertions or on a Statement the service auditor applies the Australian Auditing Standards and reports on the engagement under ASA 805 .
+
+75
+
+If the service auditor has provided assurance on controls in a type 2 report, it provides assurance as to the reliability of controls over the investment management services which relate to the user entity’s balances and/or transactions. Accordingly, the service auditor may be able to reduce the extent of substantive testing that might otherwise be necessary in preparing a service auditor’s report on financial information.
+
+Acceptance and Continuance of Audit Engagements to Report on Financial Information
+
+76
+
+Before accepting the engagement, the service auditor is required under Auditing Standard ASA 210 [48] to determine the acceptability of the financial reporting framework, which in the case of a single financial statement or element, includes determining whether application of the financial reporting framework will result in a presentation that provides adequate disclosures to enable the intended users to understand the information conveyed and the effect of material transactions and events on the information conveyed. [49]
+
+48
+
+See ASA 210 Agreeing the Terms of Audit Engagements .
+
+49
+
+See ASA 805 .
+
+77
+
+The service auditor also complies with ASA 210 in agreeing the terms of engagement. In addition to the matters specified in ASA 210, the engagement letter or other written agreement between the service auditor and the engaging party may include:
+
+The service auditor’s responsibility to conduct the engagement with reference to this Guidance Statement.
+
+The service auditor’s responsibility to report, in an attachment to the service auditor’s report, uncorrected misstatements which have been aggregated during the audit, other than amounts which are clearly trivial.
+
+Reference to the performance materiality level provided by the user auditor, if applicable.
+
+Example engagement letters for engagements to report on specified assertions and on a Statement are included in Appendix 1, Examples 2 and 3 respectively.
+
+78
+
+The service auditor may be engaged by the service organisation or directly by the user entity or user auditor. If the user entity or user auditor engages the service auditor directly, access to the service organisation’s records will need to be agreed with the service organisation. Access to the service organisation’s records may be allowed for in the service level agreement with the user entity or by separate agreement. The agreement may provide for the service organisation to receive a copy of the auditor’s report and notification of any matters of governance interest communicated as described in paragraph 88 of this Guidance Statement.
+
+Ethical Requirements
+
+79
+
+In accordance with Auditing Standard ASA 200, [50] the service auditor is required to comply with relevant ethical requirements, including those pertaining to independence, when performing an audit of a Statement or specified assertions.
+
+50
+
+See ASA 200 Overall Objectives of the Independent Auditor and the Conduct of an Audit in Accordance with Australian Auditing Standards .
+
+80
+
+Relevant ethical requirements, defined in Auditing Standard ASA 102 , include the fundamental principles of professional ethics, relating to the engagement to be undertaken, which are:
+
+integrity;
+
+objectivity;
+
+professional competence and due care;
+
+confidentiality; and
+
+professional behaviour.
+
+81
+
+Where the service auditor is undertaking an audit of a Statement or specified assertion particular consideration needs to be given to any threats to independence with respect to the user entity since the service auditor is reporting on financial information of the user entity. Threats to independence with respect to the user entity may be present, such as self-interest or familiarity threats, notwithstanding that the user entity may not be an assurance client of the service auditor.
+
+82
+
+In evaluating threats to independence and considering applicable safeguards, the service auditor considers the nature of the engagement. It may be sufficient, for example in the case of a restricted use report, to apply independence requirements in evaluating the independence of the engagement team members and their immediate and close family with respect to the user entity, along with limited consideration of the firm’s interests and relationships with the user entity.
+
+83
+
+Examples of safeguards that may be considered appropriate by service auditors to manage identified threats to independence include:
+
+Prohibiting the holding of direct, or material indirect, financial interests in the user entity or its affiliates by members of the service auditor’s engagement team and their immediate and close family.
+
+Removal from the service auditor’s engagement team of any personnel with a close relationship with directors, officers or employees of the user entity or its affiliates.
+
+Materiality to be Applied by the Service Auditor
+
+84
+
+When conducting an audit of specified assertions or a Statement, the service auditor considers materiality under ASA 320 in determining the nature, timing and extent of audit procedures and evaluating the effect of misstatements. The relevant benchmark, for investment management services, on which the service auditor bases materiality, under ASA 320, in most cases is either:
+
+the assets of the user entity for which specific assertions are being audited;
+
+total assets of the user entity reported in the Statement; or
+
+net assets, where assets and liabilities are reported, of the user entity reported in the Statement.
+
+85
+
+The service auditor often applies a percentage to the benchmark as a starting point in determining materiality under ASA 320 . The user auditor may request that a particular benchmark or percentage be used by the service auditor as a basis for determining performance materiality. In the absence of a basis for materiality specified by the user auditor, the service auditor may apply a percentage of 0.5% to any of the benchmarks listed in paragraph 84 of this Guidance Statement as a reasonable basis for determining performance materiality for auditing specified assertions or a Statement, where investment management services are provided. Where an alternative benchmark is used, this percentage may not be appropriate for determining materiality.
+
+The Service Auditor’s Report on Financial Information
+
+86
+
+Service auditor’s reports on specified assertions or on a Statement, need to comply with the requirements in ASA 805 and as such include the basic elements of an auditor’s report as set out in that standard. In addition to these elements, the service auditor includes in their report:
+
+identification of the specific assertions audited (if the report is limited to specific assertions);
+
+identification of the investment management services provided by the service organisation to the user entity;
+
+a description of the responsible party’s (management, or those charged with governance, of the service organisation) responsibilities for the investment management services provided to the user entity; and
+
+reference to the use of the report by the user entity and the user auditor.
+
+Examples of a service auditor’s report on specified assertions is provided in Appendix 6 Example 1 and a service auditor’s report on a Statement is provided in Appendix 6 Example 2 of this Guidance Statement.
+
+Information Excluded from the Service Auditor’s Report
+
+87
+
+When performing an audit engagement at a service organisation, the service auditor may restrict the audit procedures to information that is held by the service organisation on behalf of the user entity. The Statement, however, may include information which is provided by the user entity or by another party to the service organisation for inclusion in the Statement. Documentation or other audit evidence may not be available at the service organisation to substantiate that information. Where certain information within the Statement has not been audited, the service auditor identifies that information and specifically excludes it from the scope of the audit opinion.
+
+Reporting of Matters of Governance Interest Arising in an Audit Engagement on Financial Information
+
+88
+
+In the course of performing procedures for an audit engagement at a service organisation on financial information of the user entity, the service auditor is required to communicate any of the following matters identified to those charged with governance of the engaging party on a timely basis:
+
+significant deficiencies in internal control; [51]
+
+significant findings from the audit; [52]
+
+uncorrected misstatements and the effect they, individually or in aggregate, may have on the opinion in the auditor’s report; [53] and
+
+fraud, identified or suspected involving management, employees who have significant roles in internal control or others where the fraud results in a material misstatement, as well as any other matters related to fraud that are relevant to their responsibilities. [54]
+
+51
+
+See ASA 265 .
+
+52
+
+See ASA 260 .
+
+53
+
+See ASA 450 .
+
+54
+
+See ASA 240 .
+
+89
+
+In addition, the service auditor states in their report whether they have identified any uncorrected misstatements in the course of the audit, other than amounts which are clearly trivial, and, if so, details the uncorrected misstatements in an attachment to their report. An outline for an attachment on uncorrected misstatements is shown in Appendix 6, Examples 1 and 2.
+
+90
+
+When the service auditor is engaged by the service organisation and considers that any of the matters reported to those charged with governance of the service organisation may affect one or more user entities, the service auditor determines from the appropriate level of management whether this information has been communicated to the affected user entities. If the matter is not communicated satisfactorily, the service auditor may consider whether it affects the service auditor’s ability to conduct the engagement or necessitates a modification to the service auditor’s report.
+
+Conformity with International Pronouncements
+
+91
+
+There is no pronouncement issued by the International Auditing and Assurance Standards Board equivalent to this Guidance Statement.
+
+Comparative Table for Minimum Control Objectives between Superseded GS 007 (2008) and Current GS 007 (2011)
+
+Download Table
+
+ASA 402 and ASAE 3402 Requirements to be Applied by User and Service Auditors Using GS 007
+
+Download Requirements
+
+Example Engagement Letters
+
+Download Example Engagement Letters
+
+Service Organisation's Type 2 Controls Assertion and Description of the System
+
+Download Example
+
+Minimum Control Objectives for Each Investment Management Service
+
+Download Objectives
+
+Service Auditor’s Type 2 Assurance Report
+
+Download Report
+
+Service Auditor’s Description of the Nature, Timing and Extent of Tests Applied to Controls
+
+Download Description
+
+Examples of Service Auditor’s Reports on Financial Information
+
+Download Example Reports
+
+Footer Quicklink
+
+Return to AUASB.gov.au
+
+Footer
+
+Sitemap
+
+Contact us
+
+Privacy
+
+Disclaimer
+
+Accessibility
+
+Copyright
+
+Auditing and Assurance Standards Board serves Australia by developing high quality standards and related guidance for auditors and providers of their assurance services.
+
+Top of Page
+
+
+
+==== LINKS ====
+Return to AUASB.gov.au -> https://auasb.gov.au/
+Latest news -> https://www.auasb.gov.au/News.aspx
+Visit the Archive -> https://www.auasb.gov.au/Archive.aspx
+ -> https://standards.auasb.gov.au/
+Recently issued standards -> https://standards.auasb.gov.au/recently-issued-standards
+Auditing Standards -> https://standards.auasb.gov.au/australian-auditing-standards
+Sustainability Assurance -> https://standards.auasb.gov.au/node/1918
+Review Engagements -> https://standards.auasb.gov.au/standards-on-review-engagements
+Assurance Engagements -> https://standards.auasb.gov.au/standards-on-assurance-engagements
+Related Services -> https://standards.auasb.gov.au/standards-on-related-services
+Guidance Statements -> https://standards.auasb.gov.au/auasb-guidance-statements
+Home -> https://standards.auasb.gov.au/
+GS 007 October 2011 -> https://standards.auasb.gov.au/gs-007-oct-2011
+Download PDF -> https://www.auasb.gov.au/admin/file/content102/c3/Oct11_Guidance_Statement_GS_007.pdf
+ -> https://standards.auasb.gov.au/node/1222
+ -> https://standards.auasb.gov.au/node/1223
+ -> https://standards.auasb.gov.au/node/1224
+ASA 402 -> https://standards.auasb.gov.au/node/869
+ASAE 3402 -> https://standards.auasb.gov.au/node/498
+paragraphs 20-50 -> https://standards.auasb.gov.au/
+[1] -> https://standards.auasb.gov.au/
+paragraphs 51-90 -> https://standards.auasb.gov.au/
+[2] -> https://standards.auasb.gov.au/
+[3] -> https://standards.auasb.gov.au/
+paragraph 3 -> https://standards.auasb.gov.au/node/869
+ASA 805 -> https://standards.auasb.gov.au/node/443
+paragraph 5 -> https://standards.auasb.gov.au/node/869
+ -> https://standards.auasb.gov.au/node/1225
+[4] -> https://standards.auasb.gov.au/
+[5] -> https://standards.auasb.gov.au/
+[6] -> https://standards.auasb.gov.au/
+[7] -> https://standards.auasb.gov.au/
+[8] -> https://standards.auasb.gov.au/
+[9] -> https://standards.auasb.gov.au/
+[10] -> https://standards.auasb.gov.au/
+[11] -> https://standards.auasb.gov.au/
+[12] -> https://standards.auasb.gov.au/
+ASA 800 -> https://standards.auasb.gov.au/node/877
+paragraph 9 -> https://standards.auasb.gov.au/node/498
+ASA 315 -> https://standards.auasb.gov.au/node/88
+ASA 330 -> https://standards.auasb.gov.au/node/861
+paragraph 8 -> https://standards.auasb.gov.au/
+paragraph 7(b)(i) -> https://standards.auasb.gov.au/
+paragraph 7(b)(ii) -> https://standards.auasb.gov.au/
+ASRS 4400 -> https://standards.auasb.gov.au/node/541
+ -> https://standards.auasb.gov.au/node/1226
+[13] -> https://standards.auasb.gov.au/
+[14] -> https://standards.auasb.gov.au/
+[15] -> https://standards.auasb.gov.au/
+[16] -> https://standards.auasb.gov.au/
+ -> https://standards.auasb.gov.au/node/1227
+[17] -> https://standards.auasb.gov.au/
+paragraphs 9-14 -> https://standards.auasb.gov.au/node/869
+[18] -> https://standards.auasb.gov.au/
+[19] -> https://standards.auasb.gov.au/
+paragraph 16 -> https://standards.auasb.gov.au/node/869
+paragraph 17 -> https://standards.auasb.gov.au/node/869
+[20] -> https://standards.auasb.gov.au/
+[21] -> https://standards.auasb.gov.au/
+paragraphs 13 -> https://standards.auasb.gov.au/node/869
+A21 -> https://standards.auasb.gov.au/node/869
+[22] -> https://standards.auasb.gov.au/
+paragraphs 17(c) -> https://standards.auasb.gov.au/node/869
+A32 -> https://standards.auasb.gov.au/node/869
+[23] -> https://standards.auasb.gov.au/
+paragraph 18 -> https://standards.auasb.gov.au/node/869
+[24] -> https://standards.auasb.gov.au/
+paragraph 15 -> https://standards.auasb.gov.au/node/869
+[25] -> https://standards.auasb.gov.au/
+ASA 700 -> https://standards.auasb.gov.au/node/770
+paragraph 33 -> https://standards.auasb.gov.au/
+paragraph 89 -> https://standards.auasb.gov.au/
+Paragraphs 84 to 85 -> https://standards.auasb.gov.au/
+[26] -> https://standards.auasb.gov.au/
+paragraphs 42 -> https://standards.auasb.gov.au/
+44 -> https://standards.auasb.gov.au/
+ASA 320 -> https://standards.auasb.gov.au/node/853
+[27] -> https://standards.auasb.gov.au/
+paragraphs 9(d) -> https://standards.auasb.gov.au/node/869
+A8 -> https://standards.auasb.gov.au/node/869
+[28] -> https://standards.auasb.gov.au/
+ASA 500 -> https://standards.auasb.gov.au/node/691
+[29] -> https://standards.auasb.gov.au/
+paragraph A9 -> https://standards.auasb.gov.au/node/869
+[30] -> https://standards.auasb.gov.au/
+[31] -> https://standards.auasb.gov.au/
+[32] -> https://standards.auasb.gov.au/
+[33] -> https://standards.auasb.gov.au/
+ASA 265 -> https://standards.auasb.gov.au/node/845
+ASA 260 -> https://standards.auasb.gov.au/node/837
+ASA 450 -> https://standards.auasb.gov.au/node/291
+ASA 240 -> https://standards.auasb.gov.au/node/820
+paragraph 45 -> https://standards.auasb.gov.au/
+[34] -> https://standards.auasb.gov.au/
+paragraphs 19 -> https://standards.auasb.gov.au/node/869
+A41 -> https://standards.auasb.gov.au/node/869
+paragraphs 38 -> https://standards.auasb.gov.au/node/498
+56 -> https://standards.auasb.gov.au/node/498
+[35] -> https://standards.auasb.gov.au/
+ASA 705 -> https://standards.auasb.gov.au/node/387
+paragraph 20 -> https://standards.auasb.gov.au/node/869
+[36] -> https://standards.auasb.gov.au/
+[37] -> https://standards.auasb.gov.au/
+paragraphs 21 and 22 -> https://standards.auasb.gov.au/node/869
+ASA 600 -> https://standards.auasb.gov.au/node/675
+ASA 620 -> https://standards.auasb.gov.au/node/754
+ -> https://standards.auasb.gov.au/node/1234
+[38] -> https://standards.auasb.gov.au/
+paragraph 16 -> https://standards.auasb.gov.au/node/498
+[39] -> https://standards.auasb.gov.au/
+paragraphs 13-14 -> https://standards.auasb.gov.au/node/498
+[40] -> https://standards.auasb.gov.au/
+paragraph 11 -> https://standards.auasb.gov.au/node/498
+[41] -> https://standards.auasb.gov.au/
+paragraph 9(g) -> https://standards.auasb.gov.au/node/498
+paragraph 22 -> https://standards.auasb.gov.au/
+[42] -> https://standards.auasb.gov.au/
+[43] -> https://standards.auasb.gov.au/
+paragraphs 15-18 -> https://standards.auasb.gov.au/node/498
+[44] -> https://standards.auasb.gov.au/
+ASAE 3000 -> https://standards.auasb.gov.au/node/474
+[45] -> https://standards.auasb.gov.au/
+paragraph 20 -> https://standards.auasb.gov.au/node/498
+[46] -> https://standards.auasb.gov.au/
+paragraphs 21-52 -> https://standards.auasb.gov.au/node/498
+[47] -> https://standards.auasb.gov.au/
+[48] -> https://standards.auasb.gov.au/
+[49] -> https://standards.auasb.gov.au/
+ASA 210 -> https://standards.auasb.gov.au/node/794
+paragraph 88 -> https://standards.auasb.gov.au/
+[50] -> https://standards.auasb.gov.au/
+ASA 200 -> https://standards.auasb.gov.au/node/786
+ASA 102 -> https://standards.auasb.gov.au/node/137
+paragraph 84 -> https://standards.auasb.gov.au/
+[51] -> https://standards.auasb.gov.au/
+[52] -> https://standards.auasb.gov.au/
+[53] -> https://standards.auasb.gov.au/
+[54] -> https://standards.auasb.gov.au/
+ -> https://standards.auasb.gov.au/node/1237
+Download Table -> https://www.auasb.gov.au/admin/file/content102/c3/Comparative_Table_for_Minimum_Control_Objectives_between_GS_007(2008)_and_Current_GS_007(2011).pdf
+Download Requirements -> https://www.auasb.gov.au/admin/file/content102/c3/Aug11_AUASB_Alert_ASA_402_and_ASAE_3402_Requirements_to_be_Applied_Using_GS_007.pdf
+Download Example Engagement Letters -> https://auasbportal.govcms.gov.au/sites/default/files/2022-12/GS_007_Appendix1.docx
+Download Example -> https://auasbportal.govcms.gov.au/sites/default/files/2022-12/GS_007_Appendix2.docx
+Download Objectives -> https://auasbportal.govcms.gov.au/sites/default/files/2022-12/GS_007_Appendix3.docx
+Download Report -> https://auasbportal.govcms.gov.au/sites/default/files/2022-12/GS_007_Appendix4.docx
+Download Description -> https://auasbportal.govcms.gov.au/sites/default/files/2022-12/GS_007_Appendix5.docx
+Download Example Reports -> https://auasbportal.govcms.gov.au/sites/default/files/2022-12/GS_007_Appendix6.docx
+Return to AUASB.gov.au -> https://www.auasb.gov.au/
+Sitemap -> https://standards.auasb.gov.au/sitemap
+Contact us -> https://www.auasb.gov.au/about-auasb/contact-us/
+Privacy -> https://www.auasb.gov.au/about-auasb/governance-compliance/privacy/
+Disclaimer -> https://www.auasb.gov.au/about-auasb/governance-compliance/disclaimer/
+Accessibility -> https://www.auasb.gov.au/about-auasb/governance-compliance/accessibility/
+Copyright -> https://www.auasb.gov.au/about-auasb/governance-compliance/copyright-notice/

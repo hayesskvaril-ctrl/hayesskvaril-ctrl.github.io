@@ -107,6 +107,15 @@
   "status": 200,
   "type": "text/html; charset=utf-8"
  },
+ "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees/": {
+  "chars": 16434,
+  "date": "2026-10-23",
+  "file": "asic-gov-au-regulatory-resources-find-a-document-regulatory-guides-rg-78-breach-reporting-by-afs-licensees-and-credit-licensees.txt",
+  "final": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-78-breach-reporting-by-afs-licensees-and-credit-licensees",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=utf-8"
+ },
  "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-97-disclosing-fees-and-costs-in-pdss-and-periodic-statements/": {
   "chars": 24480,
   "date": "2026-10-09",
@@ -745,6 +754,24 @@
   "kind": "html",
   "status": 200,
   "type": "text/html;charset=UTF-8"
+ },
+ "https://standards.auasb.gov.au/assa-5010-jan-2025": {
+  "chars": 17086,
+  "date": "2026-10-23",
+  "file": "standards-auasb-gov-au-assa-5010-jan-2025.txt",
+  "final": "https://standards.auasb.gov.au/assa-5010-dec-2025",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=UTF-8"
+ },
+ "https://standards.auasb.gov.au/gs-007-oct-2011": {
+  "chars": 78500,
+  "date": "2026-10-23",
+  "file": "standards-auasb-gov-au-gs-007-oct-2011.txt",
+  "final": "https://standards.auasb.gov.au/gs-007-oct-2011",
+  "kind": "html",
+  "status": 200,
+  "type": "text/html; charset=UTF-8"
  },
  "https://treasury.gov.au/consultation/c2026-810713": {
   "chars": 370,
@@ -2113,5 +2140,23 @@
   "kind": "pdf",
   "status": 200,
   "type": "application/pdf"
+ },
+ "https://www.riskcommons.com": {
+  "chars": 0,
+  "date": "2026-10-23",
+  "file": "",
+  "final": "https://www.riskcommons.com/",
+  "kind": "none",
+  "status": 0,
+  "type": ""
+ },
+ "https://www.riskprimer.com": {
+  "chars": 0,
+  "date": "2026-10-23",
+  "file": "",
+  "final": "https://www.riskprimer.com/",
+  "kind": "none",
+  "status": 0,
+  "type": ""
  }
 }

@@ -1,0 +1,481 @@
+SOURCE: https://standards.auasb.gov.au/assa-5010-jan-2025
+FINAL URL: https://standards.auasb.gov.au/assa-5010-dec-2025
+FETCHED: 2026-10-23
+
+
+
+ASSA 5010 (January 2025) | AUASB Local
+
+Skip to main content
+
+Top Navigation
+
+Return to AUASB.gov.au
+
+Latest news
+
+Visit the Archive
+
+Main navigation
+
+Search
+
+Menu
+
+Recently issued standards
+
+Auditing Standards
+
+Sustainability Assurance
+
+Review Engagements
+
+Assurance Engagements
+
+Related Services
+
+Guidance Statements
+
+Recently issued standards
+
+Auditing Standards
+
+Sustainability Assurance
+
+Review Engagements
+
+Assurance Engagements
+
+Related Services
+
+Guidance Statements
+
+Home
+
+ASSA 5010 (January 2025)
+
+ASSA 5010
+
+ASSA 5010
+
+Timeline for Audits and Reviews of Information in Sustainability Reports under the Corporations Act 2001
+
+Download PDF version - 285 KB
+
+Approval Date:
+17 December 2025
+
+Operative Date
+This
+
+is operative for financial reporting periods
+beginning on or after 1 January 2025
+
+Download PDF version - 285 KB
+
+Approval Date:
+17 December 2025
+
+SHOW
+Text settings
+Table of Contents
+
+Application
+Effective Date
+Introduction
+Objective
+Definitions
+Requirements
+Appendix - Diagrammatic representation of assurance phasing
+
+Text settings
+HIDE
+
+Table of Contents
+Font size
+
+Small
+
+Normal
+
+Large
+
+Document Font
+
+Montserrat
+
+This is a preview of what a sentence will look like with this font selected.
+
+Lato
+
+This is a preview of what a sentence will look like with this font selected.
+
+Times New Roman
+
+This is a preview of what a sentence will look like with this font selected.
+
+Table of Contents
+
+COMPILATION DETAILS
+
+PREFACE
+AUTHORITY STATEMENT
+CONFORMITY WITH INTERNATIONAL SUSTAINABILITY ASSURANCE STANDARDS
+AUSTRALIAN STANDARD ON SUSTAINABILITY ASSURANCE ASSA 5010
+
+Application
+
+Effective Date
+
+Introduction
+
+Contents of Sustainability Report
+3 - 5
+
+Audit/review of Information in the Sustainability Report
+6 - 7
+
+Objective
+
+Definitions
+
+Requirements
+
+Appendix - Diagrammatic representation of assurance phasing
+
+This standard applies to assurance engagements on sustainability information in a sustainability report for a financial year under Chapter 2M of the Corporations Act 2001 (the Act).
+
+Jump to a specific paragraph
+
+Open All Sections
+
+Table of Contents
+Settings
+
+Compilation Details
+
+Australian Standard on Sustainability Assurance ASSA 5010 Timeline for Audits and Reviews of Information in Sustainability Reports under the Corporations Act 2001 (as Amended)
+This compilation takes into account amendments made up to and including 17 December 2025 and was prepared on 5 January 2026 by the Auditing and Assurance Standards Board (AUASB).
+This compilation is not a separate Standard on Sustainability Assurance made by the AUASB. Instead, it is a representation of ASSA 5010 (January 2025) as amended by another AUASB Standard which is listed in the Table below.
+Table of Standards
+Standard
+
+Date made
+
+Operative Date
+
+ASSA 5010
+
+28 January 2025
+
+Financial years commencing from 1 January 2025 to 30 June 2030
+
+ASSA 2025‑10
+
+17 December 2025
+
+Financial years commencing from 1 January 2025 to 30 June 2030
+
+Legislation History
+Standard
+
+Registration Number
+
+Registration Date
+
+Commencement Date
+
+ASSA 5010
+
+F2025L00109
+
+12 February 2025
+
+13 February 2025
+
+ASSA 2025-10
+
+F2025L01654
+
+23 December 2025
+
+24 December 2025
+
+Table of Amendments
+Paragraph affected
+
+How affected
+
+By … [paragraph]
+
+9
+
+Amended
+
+ASSA 2025‑10 [7]
+
+Appendix
+
+Amended
+
+ASSA 2025‑10 [8]
+
+Preamble
+
+Includes:
+Preface | Authority Statement | Conformity with International Sustainability Assurance Standards | AUSTRALIAN STANDARD ON SUSTAINABILITY ASSURANCE ASSA 5010
+
+Preface
+
+Reasons for Issuing ASSA 5010
+The AUASB issues Australian Standard on Sustainability Assurance ASSA 5010 Timeline for Audits and Reviews of Information in Sustainability Reports under the Corporations Act 2001 as required by s1707E(2) of the Corporations Act 2001 (the Act).
+The AUASB is a non-corporate Commonwealth entity of the Australian Government, established under section 227A of the Australian Securities and Investments Commission Act 2001 , as amended (ASIC Act). Under paragraph 227B(1)(a) of the ASIC Act and section 336 of the Act, the AUASB may make Auditing Standards for the purposes of the corporations legislation. These Auditing Standards are legislative instruments under the Legislation Act 2003 .
+Under the Strategic Direction given to the AUASB by the Financial Reporting Council (FRC), the AUASB is required, inter alia, to develop auditing standards that have a clear public interest focus and are of the highest quality.
+Main Features
+This Australian Standard on Sustainability Assurance (ASSA) specifies the timeline for information in a sustainability report for a financial year prepared in accordance with Chapter 2M of the Act to be subject to audit and/or review for financial years commencing from 1 January 2025 to 30 June 2030.
+New Standard on Assurance over Sustainability Information
+This Standard is a new pronouncement of the AUASB and does not supersede a pre-existing Standard.
+
+Authority Statement
+
+The Auditing and Assurance Standards Board (AUASB) makes this Standard on Sustainability Assurance ASSA 5010 Timeline for Audits and Reviews of Information in Sustainability Reports under the Corporations Act 2001 as an auditing standard pursuant to section 227B(1)(a) of the Australian Securities and Investments Commission Act 2001 and subsection 1707E(2) of the Corporations Act 2001 (the Act) for the purposes of section 336 of the Act .
+This Standard on Sustainability Assurance is to be read in conjunction with ASA 101 Preamble to AUASB Standards , which sets out how AUASB Standards are to be understood, interpreted and applied.
+
+Conformity with International Sustainability Assurance Standards
+
+This standard has been made to specify the extent and timing of audits and reviews of information in sustainability reports as required by Australian legislation. There is no equivalent International Auditing and Assurance Standards Board standard.
+
+AUSTRALIAN STANDARD ON SUSTAINABILITY ASSURANCE ASSA 5010
+
+The Auditing and Assurance Standards Board (AUASB) made Australian Standard on Sustainability Assurance ASSA 5010 Timeline for Audits and Reviews of Information in Sustainability Reports under the Corporations Act 2001 pursuant to section 227B of the Australian Securities and Investments Commission Act 2001 and section 336 of the Corporations Act 2001 , on 28 January 2025.
+This compiled version of ASSA 5010 incorporates subsequent amendments contained in another AUASB Standard made by the AUASB up to and including 17 December 2025 (see Compilation Details).
+
+Application
+
+1
+
+This standard applies to assurance engagements on sustainability information in a sustainability report for a financial year under Chapter 2M of the Corporations Act 2001 (the Act).
+
+Effective Date
+
+2
+
+This standard is operative for financial years commencing from 1 January 2025 to 30 June 2030.
+
+Introduction
+
+Includes:
+Contents of Sustainability Report | Audit/review of Information in the Sustainability Report
+
+Contents of Sustainability Report
+
+3
+
+The Act requires certain entities that prepare annual financial reports under Chapter 2M of the Act to also prepare an annual sustainability report to accompany the financial report.
+
+4
+
+The sustainability report for a financial year consists of:
+the climate statement for the year required by the Sustainability Standards;
+any notes to the climate statements required by the Sustainability Standards or a legislative instrument made by the Minister under subsection 296A(4);
+any statements and notes relating to other financial matters concerning environmental sustainability required by a legislative instrument made by the Minister under subsection 296A(5); and
+the directors’ declaration about the statements and the notes. [1]
+
+5
+
+Paragraph C3 in Appendix C of the Australian Sustainability Reporting Standard AASB S2 Climate-related Disclosures (AASB S2) provides that an entity is not required to provide comparative information in the first annual reporting period that it applies that standard.
+
+Audit/review of Information in the Sustainability Report
+
+6
+
+The Act requires:
+Sustainability reports for financial years commencing on or after 1 July 2030 to be audited. [2]
+The Auditing and Assurance Standards Board (AUASB) to make auditing standards for financial years commencing 1 January 2025 to 30 June 2030 that specify the extent to which information in the sustainability report must be audited and/or reviewed. [3]
+
+7
+
+This standard uses the terms auditor, audit and review which are consistent with the Act. For the avoidance of doubt, the following terms used in the AUASB’s Standards are to be read as having the same meaning as the terms used in the Act shown in the table below when conducting an audit or review of information in a sustainability report:
+Term(s) in the Act
+Term(s) in AUASB standards
+
+Review (noun)
+Limited assurance engagement
+
+Audit (noun)
+Reasonable assurance engagement
+
+Audit (noun) or review (noun), as applicable
+Sustainability assurance engagement
+
+1
+
+Subsection 296A(1) of the Act.
+
+2
+
+Section 301A of the Act.
+
+3
+
+Subsection 1707E(2) of the Act.
+
+Objective
+
+8
+
+The objective of this standard is to specify the information in a sustainability report that is required to be audited and/or reviewed in accordance with Australian Standard on Sustainability Assurance ASSA 5000 General Requirements for Sustainability Assurance Engagements for each relevant financial year.
+
+Definitions
+
+9
+
+Unless otherwise stated, terms used in this standard have the same meaning as those terms have for the purposes of Chapter 2M of the Act. The following terms have the meanings attributed below:
+
+9(a)
+
+AASB S2 – Australian Sustainability Reporting Standard AASB S2 Climate-related Disclosures .
+
+9(b)
+
+Auditor – the audit firm, audit company or individual auditor of the entity for the purposes of Chapter 2M of the Act.
+
+9(c)
+
+Group 1 entities – in this standard:
+i. entities to which paragraph 1707B(1)(a) of the Act applies; and
+ii. entities that apply paragraph 1707DA(1) of the Act for the first time for a year commencing on or after 1 January 2025 but on or before 30 June 2026.
+
+9(d)
+
+Group 2 entities – in this standard:
+i. entities to which paragraph 1707B(1)(b) of the Act applies (other than an entity to which the definition of 'Group 1 entities' in this standard applies);
+ii. entities that apply paragraph 1707DA(1) of the Act for the first time for a year commencing on or after 1 July 2026 but on or before 30 June 2027; and
+iii. entities that applied 1707DA(1) for a financial year and did not report under the Act for the following financial year that commenced before 1 July 2027.
+
+9(e)
+
+Group 3 entities – in this standard:
+i. entities to which paragraph 1707B(1)(c) of the Act applies (other than an entity to which the definition of 'Group 1 entities' or 'Group 2 entities' in this standard applies);
+ii. entities that apply paragraph 1707DA(1) of the Act for the first time for a year commencing on or after 1 July 2027 but on or before 31 December 2027; and
+iii. entities that applied s1707DA(1) for a financial year but not for a following financial year and recommenced reporting under the Act for a year that commenced before 1 January 2028, other than an entity that meets the definition of a Group 2 entity in paragraph (d).
+
+9(f)
+
+First year of reporting – the first financial year commencing:
+For Group 1 entities – from 1 January 2025 to 30 June 2026;
+For Group 2 entities – 1 July 2026 to 30 June 2027;
+For Group 3 entities – 1 July 2027 to 30 June 2028.
+
+9(g)
+
+Second year of reporting – the first financial year commencing:
+For Group 1 entities – 1 July 2026 to 30 June 2027;
+For Group 2 entities – 1 July 2027 to 30 June 2028;
+For Group 3 entities – 1 July 2028 to 30 June 2029.
+
+9(h)
+
+Third year of reporting – the first financial year commencing;
+For Group 1 entities – 1 July 2027 to 30 June 2028;
+For Group 2 entities – 1 July 2028 to 30 June 2029;
+For Group 3 entities – 1 July 2029 to 30 June 2030.
+
+9(i)
+
+Fourth year of reporting – the first financial year commencing on or after:
+For Group 1 entities – 1 July 2028;
+For Group 2 entities – 1 July 2029;
+For Group 3 entities – 1 July 2030.
+
+9(j)
+
+Sustainability Report – A sustainability report required under section 292A of the Act (see section 9 of the Act).
+
+9(k)
+
+Sustainability Standards – those standards made for the purposes of the Act pursuant to section 336A of the Act.
+
+Requirements
+
+10
+
+Subject to paragraph 11, information in the sustainability report shall be subject to audit and / or review as follows:
+For the First Year of Reporting the auditor shall conduct a review over the disclosures (including related general disclosures in Appendix D to AASB S2) relating to: Governance in accordance with paragraph 6 of AASB S2;
+Strategy (risks and opportunities) in accordance with subparagraphs 9(a), 10(a) and 10(b) of AASB S2;
+Scope 1 and Scope 2 greenhouse gas emissions in accordance with subparagraphs 29(a)(i)(1) to (2) and 29(a)(ii) to (v) of AASB S2; and
+Any statement that there are no material risks or opportunities relating to climate and how that applies to the entity under s296B(1)(c) and (d) of the Act or any similar statement otherwise made in the sustainability report.
+
+For the Second and Third Years of Reporting, the auditor shall conduct a review of all disclosures in the sustainability report (including related general disclosures in Appendix D to AASB S2).
+From the Fourth Year of Reporting onwards the auditor shall conduct an audit over all disclosures in the sustainability report.
+The auditor is not prevented by (a) and (b) from: conducting an audit of any information in the sustainability report for a financial year in which a review of that information is otherwise required; and/or
+conducting an audit or review of any information in the sustainability report for a financial year in which an audit or review of that information is not required.
+
+11
+
+Where the sustainability report is required to, or does, include comparative information and, subject to the provisions of other ASSAs on comparative information:
+That information was not required to be, and was not, subject to assurance for the purposes of a publicly available report for the previous financial year, that comparative information is not required to be subject to assurance in the current year; and
+That information was required to be, or was, subject to limited assurance for the purposes of a publicly available report for the previous financial year, that comparative information is not required to be subject to reasonable assurance in the current year.
+
+Appendix - Diagrammatic representation of assurance phasing
+
+(Ref: Para. 10 )
+
+Footer Quicklink
+
+Return to AUASB.gov.au
+
+Footer
+
+Sitemap
+
+Contact us
+
+Privacy
+
+Disclaimer
+
+Accessibility
+
+Copyright
+
+Auditing and Assurance Standards Board serves Australia by developing high quality standards and related guidance for auditors and providers of their assurance services.
+
+Top of Page
+
+
+
+==== LINKS ====
+Return to AUASB.gov.au -> https://auasb.gov.au/
+Latest news -> https://www.auasb.gov.au/News.aspx
+Visit the Archive -> https://www.auasb.gov.au/Archive.aspx
+ -> https://standards.auasb.gov.au/
+Recently issued standards -> https://standards.auasb.gov.au/recently-issued-standards
+Auditing Standards -> https://standards.auasb.gov.au/australian-auditing-standards
+Sustainability Assurance -> https://standards.auasb.gov.au/node/1918
+Review Engagements -> https://standards.auasb.gov.au/standards-on-review-engagements
+Assurance Engagements -> https://standards.auasb.gov.au/standards-on-assurance-engagements
+Related Services -> https://standards.auasb.gov.au/standards-on-related-services
+Guidance Statements -> https://standards.auasb.gov.au/auasb-guidance-statements
+Home -> https://standards.auasb.gov.au/
+ASSA 5010 (January 2025) -> https://standards.auasb.gov.au/assa-5010-dec-2025
+Download PDF version - 285 KB -> https://www.auasb.gov.au/media/yffbehwp/assa-5010-timeline-for-audits-and-reviews-of-information-in-sustainability-reports-under-the-corporations-act-2001.pdf
+ -> https://standards.auasb.gov.au/node/1924
+ -> https://standards.auasb.gov.au/node/1925
+ -> https://standards.auasb.gov.au/node/1919
+[1] -> https://standards.auasb.gov.au/
+[2] -> https://standards.auasb.gov.au/
+[3] -> https://standards.auasb.gov.au/
+ -> https://standards.auasb.gov.au/node/1920
+ASSA 5000 -> https://standards.auasb.gov.au/node/1908
+ -> https://standards.auasb.gov.au/node/1921
+ -> https://standards.auasb.gov.au/node/1922
+ -> https://standards.auasb.gov.au/node/1923
+10 -> https://standards.auasb.gov.au/
+Return to AUASB.gov.au -> https://www.auasb.gov.au/
+Sitemap -> https://standards.auasb.gov.au/sitemap
+Contact us -> https://www.auasb.gov.au/about-auasb/contact-us/
+Privacy -> https://www.auasb.gov.au/about-auasb/governance-compliance/privacy/
+Disclaimer -> https://www.auasb.gov.au/about-auasb/governance-compliance/disclaimer/
+Accessibility -> https://www.auasb.gov.au/about-auasb/governance-compliance/accessibility/
+Copyright -> https://www.auasb.gov.au/about-auasb/governance-compliance/copyright-notice/
