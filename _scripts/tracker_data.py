@@ -126,7 +126,7 @@ ENTRIES = [
     ("Mandatory climate-related financial disclosures", "ASIC and Treasury", "In force",
      "Group 1 from years starting 1 January 2025; Group 2 (including $5b+ super funds and schemes) from {fact:climate-group2-start}; Group 3 from {fact:climate-group3-start}",
      ["listed", "super", "mis", "bank", "insurer"],
-     "Sustainability reports with climate statements under AASB S2, phased in by size, with assurance ramping up to reasonable assurance for years starting 1 July 2030.",
+     "Sustainability reports with climate statements under AASB S2, phased in by size, with assurance ramping up to reasonable assurance from each group's fourth year of reporting (Group 1 from years starting {fact:climate-assurance-group1-audit}).",
      "/compliance/climate-related-financial-disclosures.html", ("ASIC: RG 280 Sustainability reporting", "https://download.asic.gov.au/media/j4rhwyiz/rg280-published-31-march-2025.pdf")),
     ("Delivering Better Financial Outcomes: further advice reforms", "Treasury", "Proposed or consultation",
      "Tranche 1 in force since 10 January 2025; remaining reforms confirmed {fact:advice-reforms-announced}; legislation not yet passed",

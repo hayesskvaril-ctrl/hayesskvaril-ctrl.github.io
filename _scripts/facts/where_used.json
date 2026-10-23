@@ -570,5 +570,9 @@
   "/news/2026-10-mid-october-roundup.html",
   "/news/regulatory-tracker.html",
   "/sectors/payments-and-fintech.html"
+ ],
+ "climate-assurance-group1-audit": [
+  "/compliance/climate-related-financial-disclosures.html",
+  "/news/regulatory-tracker.html"
  ]
 }

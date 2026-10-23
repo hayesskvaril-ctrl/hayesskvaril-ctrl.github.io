@@ -68,5 +68,6 @@ window.RL_FACTS = {
  "orfr-min-large": "0.175%",
  "orfr-min-mid": "0.20%",
  "orfr-min-small": "0.25%",
- "digital-assets-start": "8 April 2027"
+ "digital-assets-start": "8 April 2027",
+ "climate-assurance-group1-audit": "1 July 2028"
 };
