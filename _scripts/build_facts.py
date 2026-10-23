@@ -259,6 +259,14 @@ def write_public_page(facts, where):
             mo = block.search(old)
             if mo and block.search(page):
                 page = block.sub(lambda _m, keep=mo.group(0): keep, page, count=1)
+        # the link-preview block and the "suggest a correction" line are stamped into the page by sync_layout.py,
+        # so they are not in the template: carry them over as well
+        meta = re.search(r"<!-- META:START -->.*?<!-- META:END -->", old, re.S)
+        if meta and "<!-- META:START -->" not in page:
+            page = page.replace("</head>", meta.group(0) + "\n</head>", 1)
+        fb = re.search(r'<p class="page-feedback" data-feedback>.*?</p>', old, re.S)
+        if fb and 'data-feedback' not in page:
+            page = page.replace("</main>", "  " + fb.group(0) + "\n</main>", 1)
     dest.write_text(page, encoding="utf-8")
 
 
