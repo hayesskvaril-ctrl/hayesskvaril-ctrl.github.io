@@ -453,6 +453,23 @@ Phases 9–14 come from the September 2026 site review. Same rules as before: ve
 - [ ] More pictures: flat illustrations or infographics on articles that have none (Nick asked for images wherever they help)
 - [ ] Decide the final site name, then rename everywhere (see launch plan)
 
+## Phase 25 — End-to-end entity journeys: a year in the life of a regulated entity (requested October 2026)
+
+Nick's brief: much more advanced, end to end, one series per entity type, showing how everything ties together: an incident, a breach, the overall risk profile, a risk assessment, how KRIs and controls feed into it, the committees and reporting lines, and how it all flows up to the board and regulators. Entities: a bank, a superannuation fund, a life insurer (others later, for example a general insurer, a financial adviser or a payments business). Each is an illustrative fictional entity (clearly labelled), built on the standards, obligations and GRC pages already on the site. Mark every series for Nick's expert review before it is presented as reviewed.
+
+Shape of each journey (about 8 pages, linked as a pathway, Advanced level with the university-level sections):
+- [ ] 1. The entity and its rule book: profile, licences, who regulates what, the obligations map (from the obligations library)
+- [ ] 2. Governance and the three lines: board, committees, terms of reference, who reports what to whom, with a reporting cascade diagram
+- [ ] 3. The risk profile: Level 1 to 3 taxonomy, risk appetite statement, tolerances and limits
+- [ ] 4. Risk assessment in practice: a worked RCSA with inherent and residual ratings, a heat map and treatment decisions
+- [ ] 5. Controls and KRIs: control design and testing results, KRI dashboard with thresholds, and how both change the residual rating
+- [ ] 6. An incident unfolds: timeline, escalation, materiality, notifications and clocks, board and regulator communication
+- [ ] 7. The breach assessment, root cause and remediation: significance, customer or member impact, remediation program, lessons and changes to the profile
+- [ ] 8. The year of reporting: committee calendar, board pack, regulator reporting, assurance and audit, and a summary dashboard tying the pages together
+- [ ] Series hub page, "Entity journeys" menu entry, comparison page (how the bank, super and life journeys differ), pathway and quiz bank
+Order: 1. Bank (APRA ADI: CPS 230, CPS 220, CPS 234, CPS 511, FAR, AML/CTF, breach reporting), 2. Superannuation fund (SPS 114, SPS 220, SPS 230, SPS 515, SPS 530, RG 78, member outcomes, investment governance), 3. Life insurer (LPS 220, CPS 230, CPS 234, product and claims, financial strength, reinsurance).
+Rules: facts only from official sources checked on the day; names, numbers and cases are fictional and labelled; no advice.
+
 ## Ideas / backlog
 
 Add new ideas here as they come up. Items that became part of Phases 9–14 have been moved there. "Nick to review" items stay here until he signs them off.
