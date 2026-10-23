@@ -206,6 +206,15 @@
   "status": 200,
   "type": "application/pdf"
  },
+ "https://download.asic.gov.au/media/rcflopko/rg78-published-19-december-2023-20261021.pdf": {
+  "chars": 298314,
+  "date": "2026-10-23",
+  "file": "download-asic-gov-au-media-rcflopko-rg78-published-19-december-2023-20261021-pdf.txt",
+  "final": "https://download.asic.gov.au/media/rcflopko/rg78-published-19-december-2023-20261021.pdf",
+  "kind": "pdf",
+  "status": 200,
+  "type": "application/pdf"
+ },
  "https://handbook.apra.gov.au/standard/cps-230": {
   "chars": 74448,
   "date": "2026-10-08",
