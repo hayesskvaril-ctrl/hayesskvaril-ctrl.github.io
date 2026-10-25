@@ -1,83 +1,72 @@
-# Regulator watch, 18 October 2026
+# Regulator watch, 25 October 2026
 
 Automatic weekly check of official announcements and of the key facts register. To act on it, ask Claude to "process the regulator watch issue": each item is checked against the official source, pages are updated if needed, and the issue is closed with a note of what changed.
 
-## New announcements (27)
+## New announcements (23)
 
 ### APRA
 
-- [ ] [APRA and ASIC publish latest data on life insurance claims and disputes – June 2026](https://www.apra.gov.au/news-and-publications/apra-and-asic-publish-latest-data-life-insurance-claims-and-disputes-june-3)  
-  May affect: [/sectors/insurance.html](https://hayesskvaril-ctrl.github.io/sectors/insurance.html), [/sectors/life-insurance.html](https://hayesskvaril-ctrl.github.io/sectors/life-insurance.html)
-- [ ] [Life insurance claims and disputes statistics](https://www.apra.gov.au/news-and-publications/life-insurance-claims-and-disputes-statistics)  
-  May affect: [/sectors/insurance.html](https://hayesskvaril-ctrl.github.io/sectors/insurance.html), [/sectors/life-insurance.html](https://hayesskvaril-ctrl.github.io/sectors/life-insurance.html)
-- [ ] [APRA welcomes Basel endorsement of Australia’s bank leverage ratio framework](https://www.apra.gov.au/news-and-publications/apra-welcomes-basel-endorsement-australias-bank-leverage-ratio-framework)  
-  May affect: [/foundations/what-is-governance.html](https://hayesskvaril-ctrl.github.io/foundations/what-is-governance.html), [/governance/briefing-far.html](https://hayesskvaril-ctrl.github.io/governance/briefing-far.html), [/governance/financial-accountability-regime.html](https://hayesskvaril-ctrl.github.io/governance/financial-accountability-regime.html), [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html), [/obligations/](https://hayesskvaril-ctrl.github.io/obligations/)
-- [ ] [APRA and RBNZ complete joint bank stress test to promote trans-Tasman resilience](https://www.apra.gov.au/news-and-publications/apra-and-rbnz-complete-joint-bank-stress-test-promote-trans-tasman-resilience)  
-  May affect: [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html), [/foundations/what-is-governance.html](https://hayesskvaril-ctrl.github.io/foundations/what-is-governance.html), [/governance/briefing-far.html](https://hayesskvaril-ctrl.github.io/governance/briefing-far.html), [/governance/financial-accountability-regime.html](https://hayesskvaril-ctrl.github.io/governance/financial-accountability-regime.html), [/obligations/](https://hayesskvaril-ctrl.github.io/obligations/)
-- [ ] [APRA releases latest Points of Presence Statistics for authorised deposit-taking institutions](https://www.apra.gov.au/news-and-publications/apra-releases-latest-points-presence-statistics-authorised-deposit-taking-2026)  
-  May affect: [/sectors/banking.html](https://hayesskvaril-ctrl.github.io/sectors/banking.html)
-- [ ] [APRA publishes 2025-26 Annual Report](https://www.apra.gov.au/news-and-publications/apra-publishes-2025-26-annual-report)  
+- [ ] [APRA consults on confidentiality of data collected under SRS 604.0 RSE Licensee Profile](https://www.apra.gov.au/news-and-publications/apra-consults-confidentiality-data-collected-under-srs-6040-rse-licensee)  
   No obvious page match
-- [ ] [Authorised deposit-taking institutions' points of presence statistics](https://www.apra.gov.au/news-and-publications/authorised-deposit-taking-institutions-points-presence-statistics)  
-  May affect: [/sectors/banking.html](https://hayesskvaril-ctrl.github.io/sectors/banking.html)
+- [ ] [Consultation on confidentiality of data collected under SRS 604.0](https://www.apra.gov.au/news-and-publications/consultation-confidentiality-data-collected-under-srs-6040)  
+  May affect: [/compliance/privacy-law.html](https://hayesskvaril-ctrl.github.io/compliance/privacy-law.html), [/news/2026-10-mid-october-roundup.html](https://hayesskvaril-ctrl.github.io/news/2026-10-mid-october-roundup.html), [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html), [/news/super-fund-valuations-asic-rep-841.html](https://hayesskvaril-ctrl.github.io/news/super-fund-valuations-asic-rep-841.html), [/standards/sps-530.html](https://hayesskvaril-ctrl.github.io/standards/sps-530.html)
+- [ ] [APRA publishes Deputy Chair David Bradbury’s speech to FSC Retirement Summit](https://www.apra.gov.au/news-and-publications/apra-publishes-deputy-chair-david-bradburys-speech-fsc-retirement-summit)  
+  No obvious page match
+- [ ] [APRA Deputy Chair David Bradbury’s speech to the 2026 FSC Retirement Summit, "Building trust and confidence to deliver on the promise of super"](https://www.apra.gov.au/news-and-publications/apra-deputy-chair-david-bradburys-speech-2026-fsc-retirement-summit-building)  
+  No obvious page match
 
 ### ASIC media releases
 
-- [ ] [25-156MR four people charged with money laundering in fake investment scam](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-156mr-four-people-charged-with-money-laundering-in-fake-investment-scam)  
-  May affect: [/compliance/aml-ctf-fundamentals.html](https://hayesskvaril-ctrl.github.io/compliance/aml-ctf-fundamentals.html), [/compliance/consumer-protection.html](https://hayesskvaril-ctrl.github.io/compliance/consumer-protection.html), [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html)
-- [ ] [26-246MR ASIC bans former mwl financial adviser pardeep singh for four years](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-246mr-asic-bans-former-mwl-financial-adviser-pardeep-singh-for-four-years)  
+- [ ] [26-256MR financial services and credit panel cancels registration of nsw financial adviser evan byrnes for two and a half years](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-256mr-financial-services-and-credit-panel-cancels-registration-of-nsw-financial-adviser-evan-byrnes-for-two-and-a-half-years)  
   May affect: [/sectors/financial-advice-licensees.html](https://hayesskvaril-ctrl.github.io/sectors/financial-advice-licensees.html)
-- [ ] [26-245MR ASIC consults on implementation of new digital asset laws](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-245mr-asic-consults-on-implementation-of-new-digital-asset-laws)  
-  May affect: [/sectors/payments-and-fintech.html](https://hayesskvaril-ctrl.github.io/sectors/payments-and-fintech.html)
-- [ ] [26-244MR fortnum private wealth penalised 135 million for cybersecurity failures](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-244mr-fortnum-private-wealth-penalised-135-million-for-cybersecurity-failures)  
-  May affect: [/risk-management/cyber-risk.html](https://hayesskvaril-ctrl.github.io/risk-management/cyber-risk.html), [/standards/cps-234.html](https://hayesskvaril-ctrl.github.io/standards/cps-234.html)
-- [ ] [26-242MR former financial adviser ezzat daniel nesseim charged with breaching ASIC banning orders](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-242mr-former-financial-adviser-ezzat-daniel-nesseim-charged-with-breaching-asic-banning-orders)  
-  May affect: [/sectors/financial-advice-licensees.html](https://hayesskvaril-ctrl.github.io/sectors/financial-advice-licensees.html)
-- [ ] [26-243MR ASIC review highlights need for stronger scrutiny of super fund valuations](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-243mr-asic-review-highlights-need-for-stronger-scrutiny-of-super-fund-valuations)  
-  May affect: [/standards/sps-530.html](https://hayesskvaril-ctrl.github.io/standards/sps-530.html)
-- [ ] [26-238MR ASIC annual forum 2026 explores how australia can stay ahead of the next wave of global change](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-238mr-asic-annual-forum-2026-explores-how-australia-can-stay-ahead-of-the-next-wave-of-global-change)  
+- [ ] [26-255MR ASIC seeks leave to appeal nsw supreme court decision against former rex non executive directors](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-255mr-asic-seeks-leave-to-appeal-nsw-supreme-court-decision-against-former-rex-non-executive-directors)  
+  May affect: [/governance/directors-duties-case-law.html](https://hayesskvaril-ctrl.github.io/governance/directors-duties-case-law.html)
+- [ ] [26-254MR ASIC accepts cancellation of company auditor benjamin peters registration after audit surveillance](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-254mr-asic-accepts-cancellation-of-company-auditor-benjamin-peters-registration-after-audit-surveillance)  
   No obvious page match
-- [ ] [26-241MR ASIC issues ddo stop order against fidante partners limited for tmd deficiencies](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-241mr-asic-issues-ddo-stop-order-against-fidante-partners-limited-for-tmd-deficiencies)  
-  May affect: [/standards/asic-rg-274.html](https://hayesskvaril-ctrl.github.io/standards/asic-rg-274.html)
-- [ ] [26-228MR nsw concrete contractor ali youssef charged with dishonesty offences and dealing with proceeds of crime](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-228mr-nsw-concrete-contractor-ali-youssef-charged-with-dishonesty-offences-and-dealing-with-proceeds-of-crime)  
+- [ ] [26-253MR ASIC cancels australian credit licence of walker stores pty ltd in liquidation receivers and managers appointed](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-253mr-asic-cancels-australian-credit-licence-of-walker-stores-pty-ltd-in-liquidation-receivers-and-managers-appointed)  
+  May affect: [/sectors/credit-and-non-bank-lenders.html](https://hayesskvaril-ctrl.github.io/sectors/credit-and-non-bank-lenders.html)
+- [ ] [26-252MR visy and pratt companies pay over 41 million in infringement notices for failing to lodge financial reports on time](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-252mr-visy-and-pratt-companies-pay-over-41-million-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time)  
   No obvious page match
-- [ ] [26-240MR ASIC review finds room for improvement in mortgage brokers best interests duty practices](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-240mr-asic-review-finds-room-for-improvement-in-mortgage-brokers-best-interests-duty-practices)  
-  May affect: [/compliance/financial-advice-regulation.html](https://hayesskvaril-ctrl.github.io/compliance/financial-advice-regulation.html), [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html), [/sectors/banking.html](https://hayesskvaril-ctrl.github.io/sectors/banking.html)
-- [ ] [25-199MR federal court freezes assets and appoints receivers to related entities of australian fiduciaries limited](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-199mr-federal-court-freezes-assets-and-appoints-receivers-to-related-entities-of-australian-fiduciaries-limited)  
+- [ ] [26-251MR ASIC cancels afs licence of kyle clifford frost](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-251mr-asic-cancels-afs-licence-of-kyle-clifford-frost)  
   No obvious page match
-- [ ] [26-239MR ASIC moves to extend and strengthen cfd consumer protections](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-239mr-asic-moves-to-extend-and-strengthen-cfd-consumer-protections)  
-  No obvious page match
+- [ ] [26-250MR former rex director lim kim hai disqualified for 4 years and ordered to pay 800 000 penalty for directors duties and continuous disclosure contraventions](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-250mr-former-rex-director-lim-kim-hai-disqualified-for-4-years-and-ordered-to-pay-800-000-penalty-for-directors-duties-and-continuous-disclosure-contraventions)  
+  May affect: [/sectors/listed-companies.html](https://hayesskvaril-ctrl.github.io/sectors/listed-companies.html), [/governance/directors-duties-case-law.html](https://hayesskvaril-ctrl.github.io/governance/directors-duties-case-law.html), [/compliance/enforcement-and-penalties.html](https://hayesskvaril-ctrl.github.io/compliance/enforcement-and-penalties.html)
+- [ ] [26-249MR panacea capital director brian creigh charged with criminal offences](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-249mr-panacea-capital-director-brian-creigh-charged-with-criminal-offences)  
+  May affect: [/standards/aps-110-and-aps-210.html](https://hayesskvaril-ctrl.github.io/standards/aps-110-and-aps-210.html), [/governance/directors-duties-case-law.html](https://hayesskvaril-ctrl.github.io/governance/directors-duties-case-law.html)
+- [ ] [26-248MR asics annual report outlines strong enforcement and consumer outcomes](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-248mr-asics-annual-report-outlines-strong-enforcement-and-consumer-outcomes)  
+  May affect: [/compliance/enforcement-and-penalties.html](https://hayesskvaril-ctrl.github.io/compliance/enforcement-and-penalties.html)
+- [ ] [26-247MR ASIC cancels australian credit licence of mwl financial services pty ltd in liquidation](https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-247mr-asic-cancels-australian-credit-licence-of-mwl-financial-services-pty-ltd-in-liquidation)  
+  May affect: [/sectors/credit-and-non-bank-lenders.html](https://hayesskvaril-ctrl.github.io/sectors/credit-and-non-bank-lenders.html)
 
 ### Treasury consultations
 
-- [ ] [Crypto asset tax transparency - draft legislation](https://treasury.gov.au/consultation/c2026-813391)  
-  May affect: [/sectors/payments-and-fintech.html](https://hayesskvaril-ctrl.github.io/sectors/payments-and-fintech.html), [/foundations/what-is-governance.html](https://hayesskvaril-ctrl.github.io/foundations/what-is-governance.html), [/sectors/superannuation.html](https://hayesskvaril-ctrl.github.io/sectors/superannuation.html), [/standards/cps-220.html](https://hayesskvaril-ctrl.github.io/standards/cps-220.html), [/standards/cps-510-and-cps-520.html](https://hayesskvaril-ctrl.github.io/standards/cps-510-and-cps-520.html)
-- [ ] [Tackling fraud and financial abuse](https://treasury.gov.au/consultation/c2026-812389)  
-  May affect: [/risk-management/fraud-risk.html](https://hayesskvaril-ctrl.github.io/risk-management/fraud-risk.html)
+- [ ] [Consultation on the Banking Regulation 2026](https://treasury.gov.au/consultation/c2026-816568)  
+  May affect: [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html), [/foundations/what-is-governance.html](https://hayesskvaril-ctrl.github.io/foundations/what-is-governance.html), [/governance/briefing-far.html](https://hayesskvaril-ctrl.github.io/governance/briefing-far.html), [/governance/financial-accountability-regime.html](https://hayesskvaril-ctrl.github.io/governance/financial-accountability-regime.html), [/obligations/](https://hayesskvaril-ctrl.github.io/obligations/)
+- [ ] [Consultation on implementing parts of the better regulation measures](https://treasury.gov.au/consultation/c2026-813364)  
+  May affect: [/compliance/privacy-law.html](https://hayesskvaril-ctrl.github.io/compliance/privacy-law.html), [/news/2026-10-mid-october-roundup.html](https://hayesskvaril-ctrl.github.io/news/2026-10-mid-october-roundup.html), [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html), [/news/super-fund-valuations-asic-rep-841.html](https://hayesskvaril-ctrl.github.io/news/super-fund-valuations-asic-rep-841.html), [/standards/sps-530.html](https://hayesskvaril-ctrl.github.io/standards/sps-530.html)
+- [ ] [Reforms to the bankruptcy system](https://treasury.gov.au/consultation/c2026-812354)  
+  May affect: [/foundations/what-is-governance.html](https://hayesskvaril-ctrl.github.io/foundations/what-is-governance.html), [/governance/briefing-far.html](https://hayesskvaril-ctrl.github.io/governance/briefing-far.html), [/governance/financial-accountability-regime.html](https://hayesskvaril-ctrl.github.io/governance/financial-accountability-regime.html), [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html), [/obligations/](https://hayesskvaril-ctrl.github.io/obligations/)
+- [ ] [Raising the reporting threshold for large proprietary companies](https://treasury.gov.au/consultation/c2026-811281)  
+  No obvious page match
 
 ### Treasury ministers
 
-- [ ] [First meeting between UK Chancellor Healey and Australian Treasurer Chalmers](https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/first-meeting-between-uk-chancellor-healey-and)  
+- [ ] [Boosting competition and productivity in the financial sector](https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/boosting-competition-and-productivity-financial-sector)  
   No obvious page match
-- [ ] [IMF-World Bank Group Annual Meetings and G20 Finance Ministers and Central Bank Governors Meeting in Bangkok, Thailand](https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/imf-world-bank-group-annual-meetings-and-g20-finance)  
-  May affect: [/foundations/what-is-governance.html](https://hayesskvaril-ctrl.github.io/foundations/what-is-governance.html), [/governance/briefing-far.html](https://hayesskvaril-ctrl.github.io/governance/briefing-far.html), [/governance/financial-accountability-regime.html](https://hayesskvaril-ctrl.github.io/governance/financial-accountability-regime.html), [/news/regulatory-tracker.html](https://hayesskvaril-ctrl.github.io/news/regulatory-tracker.html), [/obligations/](https://hayesskvaril-ctrl.github.io/obligations/)
-- [ ] [Tax reform for a fairer tax system](https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/tax-reform-fairer-tax-system)  
+- [ ] [Raising reporting thresholds for proprietary companies](https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/raising-reporting-thresholds-proprietary-companies)  
   No obvious page match
-- [ ] [Appointments – Members – Tax Practitioners Board](https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/appointments-members-tax-practitioners-board-0)  
+- [ ] [APEC Finance Ministers’ Meeting](https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/apec-finance-ministers-meeting-0)  
   No obvious page match
-- [ ] [Albanese government advancing reforms to combat financial abuse](https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/albanese-government-advancing-reforms-combat-financial)  
+- [ ] [Expressions of interest for the Financial Innovation Committee](https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/expressions-interest-financial-innovation-committee)  
   No obvious page match
-
-### Attorney-General's Department consultations
-
-- [ ] [Open Government Partnership: Inform the development of Australia’s Fourth National Action Plan](https://consultations.ag.gov.au/integrity/ogp-fnap/)  
+- [ ] [Boosting competition and productivity in the financial sector](https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/boosting-competition-and-productivity-financial-sector)  
   No obvious page match
 
 ## Key facts not found on their official source (0, 0 new this week)
 
 None.
 
-## Confirmed on the official source: 49 of 68 facts
+## Confirmed on the official source: 51 of 70 facts
 
 ## Check by hand
 
@@ -88,12 +77,12 @@ None.
 
 <details><summary>Sources read</summary>
 
-- APRA: 12 items from https://www.apra.gov.au/news-and-publications (links: 12)
+- APRA: 14 items from https://www.apra.gov.au/news-and-publications (links: 14)
 - ASIC media releases: 200 items from https://www.asic.gov.au/sitemap.xml (feed https://www.asic.gov.au/sitemap.xml: 200); https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/ (links: 0)
 - AUSTRAC: 0 items from https://www.austrac.gov.au/news-and-media (TimeoutError: The read operation timed out); https://www.austrac.gov.au/sitemap.xml (TimeoutError: The read operation timed out)
 - OAIC: 0 items from https://www.oaic.gov.au/news/media-centre (links: 0)
 - ACCC: 0 items from https://www.accc.gov.au/sitemap.xml (403); https://www.accc.gov.au/media-releases (403)
-- Treasury consultations: 9 items from https://treasury.gov.au/consultation (links: 9); https://consult.treasury.gov.au/ (links: 0)
+- Treasury consultations: 10 items from https://treasury.gov.au/consultation (links: 10); https://consult.treasury.gov.au/ (links: 0)
 - Treasury ministers: 42 items from https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases (links: 21); https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases (links: 21)
 - Australian Signals Directorate: 0 items from https://www.cyber.gov.au/about-us/view-all-content/news (TimeoutError: The read operation timed out); https://www.cyber.gov.au/sitemap.xml (TimeoutError: The read operation timed out)
 - Attorney-General's Department consultations: 7 items from https://consultations.ag.gov.au/ (links: 7)
